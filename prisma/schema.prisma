@@ -1,0 +1,424 @@
+// PadhoDost data model
+// Docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+// ─────────────────────────── Enums ───────────────────────────
+
+enum UserRole {
+  STUDENT
+  ADMIN
+}
+
+enum ExamStatus {
+  LIVE
+  SOON
+}
+
+enum QuestionType {
+  MCQ // single correct
+  MSQ // multiple correct
+  NUMERIC // fill-in numeric answer
+}
+
+enum Difficulty {
+  EASY
+  MEDIUM
+  HARD
+}
+
+enum TestType {
+  CHAPTER
+  FULL
+  PYQ
+  DAILY
+}
+
+enum AttemptStatus {
+  IN_PROGRESS
+  SUBMITTED
+}
+
+enum ContentStatus {
+  DRAFT
+  PUBLISHED
+}
+
+enum ProgressStatus {
+  NOT_STARTED
+  IN_PROGRESS
+  DONE
+}
+
+enum EnrollmentStatus {
+  ACTIVE
+  PAUSED
+  DONE
+}
+
+// ─────────────────────────── Users ───────────────────────────
+
+model User {
+  id            String    @id @default(cuid())
+  email         String    @unique
+  name          String?
+  image         String?
+  phone         String?
+  emailVerified DateTime?
+  role          UserRole  @default(STUDENT)
+
+  // study profile (set during onboarding)
+  targetExamSlug String?
+  board          String?
+  classLevel     String?
+  examYear       Int?
+  language       String  @default("en")
+
+  // cached retention/engagement state (avoids recompute on every dashboard load)
+  currentStreak       Int       @default(0)
+  longestStreak       Int       @default(0)
+  lastStudyDay        DateTime? @db.Date
+  lastActiveAt        DateTime?
+  lastStudiedExamSlug String?
+
+  attempts          Attempt[]
+  bookmarks         Bookmark[]
+  enrollments       Enrollment[]
+  chapterProgress   ChapterProgress[]
+  explainerProgress ExplainerProgress[]
+  studyDays         StudyDay[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([targetExamSlug])
+}
+
+// ─────────────────── Content taxonomy ───────────────────
+
+model Exam {
+  id          String     @id @default(cuid())
+  slug        String     @unique
+  name        String
+  shortName   String
+  emoji       String?
+  description String?
+  status      ExamStatus @default(SOON)
+  order       Int        @default(0)
+
+  subjects    Subject[]
+  chapters    Chapter[]
+  questions   Question[]
+  mockTests   MockTest[]
+  explainers  Explainer[]
+  enrollments Enrollment[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Subject {
+  id    String @id @default(cuid())
+  slug  String
+  name  String
+  order Int    @default(0)
+
+  examId String
+  exam   Exam   @relation(fields: [examId], references: [id], onDelete: Cascade)
+
+  chapters   Chapter[]
+  questions  Question[]
+  explainers Explainer[]
+
+  @@unique([examId, slug])
+  @@index([examId])
+}
+
+model Chapter {
+  id    String @id @default(cuid())
+  slug  String
+  name  String
+  order Int    @default(0)
+
+  subjectId String
+  subject   Subject @relation(fields: [subjectId], references: [id], onDelete: Cascade)
+  examId    String
+  exam      Exam    @relation(fields: [examId], references: [id], onDelete: Cascade)
+
+  questions  Question[]
+  explainers Explainer[]
+  progress   ChapterProgress[]
+
+  @@unique([subjectId, slug])
+  @@index([subjectId])
+  @@index([examId])
+}
+
+// ─────────────────── Questions & options ───────────────────
+
+model Question {
+  id            String       @id @default(cuid())
+  text          String
+  type          QuestionType @default(MCQ)
+  difficulty    Difficulty   @default(MEDIUM)
+  explanation   String?
+  marks         Float        @default(1)
+  negativeMarks Float        @default(0)
+  numericAnswer Float? // when type = NUMERIC
+  year          Int? // when sourced from a previous-year paper
+
+  examId    String
+  exam      Exam     @relation(fields: [examId], references: [id], onDelete: Cascade)
+  subjectId String?
+  subject   Subject? @relation(fields: [subjectId], references: [id], onDelete: SetNull)
+  chapterId String?
+  chapter   Chapter? @relation(fields: [chapterId], references: [id], onDelete: SetNull)
+
+  options       Option[]
+  testQuestions TestQuestion[]
+  answers       Answer[]
+  bookmarks     Bookmark[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([examId])
+  @@index([subjectId])
+  @@index([chapterId])
+}
+
+model Option {
+  id        String  @id @default(cuid())
+  text      String
+  isCorrect Boolean @default(false)
+  order     Int     @default(0)
+
+  questionId String
+  question   Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  answers Answer[]
+
+  @@index([questionId])
+}
+
+// ─────────────────── Mock tests ───────────────────
+
+model MockTest {
+  id              String    @id @default(cuid())
+  slug            String
+  title           String
+  description     String?
+  type            TestType  @default(FULL)
+  durationMinutes Int       @default(60)
+  totalMarks      Float     @default(0)
+  negativeMarking Boolean   @default(true)
+  isFree          Boolean   @default(true)
+  year            Int? // for PYQ tests
+  scheduledDate   DateTime? // for DAILY challenges
+
+  examId String
+  exam   Exam   @relation(fields: [examId], references: [id], onDelete: Cascade)
+
+  questions TestQuestion[]
+  attempts  Attempt[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([examId, slug])
+  @@index([examId])
+}
+
+// join table: a question can appear in many tests, in a set order
+model TestQuestion {
+  id    String @id @default(cuid())
+  order Int    @default(0)
+
+  mockTestId String
+  mockTest   MockTest @relation(fields: [mockTestId], references: [id], onDelete: Cascade)
+  questionId String
+  question   Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  @@unique([mockTestId, questionId])
+  @@index([mockTestId])
+  @@index([questionId])
+}
+
+// ─────────────────── Attempts & answers ───────────────────
+
+model Attempt {
+  id     String        @id @default(cuid())
+  status AttemptStatus @default(IN_PROGRESS)
+
+  score            Float?
+  totalMarks       Float  @default(0)
+  correctCount     Int    @default(0)
+  wrongCount       Int    @default(0)
+  unattemptedCount Int    @default(0)
+  timeTakenSec     Int?
+
+  // resume + offline-safe sync
+  currentQuestionIndex Int      @default(0)
+  remainingSec         Int?
+  clientAttemptId      String?  @unique // client-generated id, idempotent offline sync
+  lastSavedAt          DateTime @default(now()) @updatedAt
+
+  startedAt   DateTime  @default(now())
+  submittedAt DateTime?
+
+  // owner: a registered user, OR an anonymous guest (anonId) until they log in
+  userId     String?
+  user       User?    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  anonId     String?
+  mockTestId String
+  mockTest   MockTest @relation(fields: [mockTestId], references: [id], onDelete: Cascade)
+
+  answers Answer[]
+
+  @@index([userId])
+  @@index([anonId])
+  @@index([mockTestId])
+}
+
+model Answer {
+  id              String   @id @default(cuid())
+  numericValue    Float?
+  isCorrect       Boolean?
+  markedForReview Boolean  @default(false)
+  timeSpentSec    Int?
+  updatedAt       DateTime @updatedAt // last-write-wins reconciliation on sync
+
+  attemptId        String
+  attempt          Attempt @relation(fields: [attemptId], references: [id], onDelete: Cascade)
+  questionId       String
+  question         Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  selectedOptionId String?
+  selectedOption   Option?  @relation(fields: [selectedOptionId], references: [id], onDelete: SetNull)
+
+  @@unique([attemptId, questionId])
+  @@index([attemptId])
+  @@index([questionId])
+}
+
+// ─────────────────── Explainers (visual study pages) ───────────────────
+
+model Explainer {
+  id      String        @id @default(cuid())
+  slug    String        @unique
+  title   String
+  summary String?
+  // content may live as MDX in the repo (keyed by slug) or be stored here
+  body           String?
+  readingMinutes Int           @default(5)
+  status         ContentStatus @default(DRAFT)
+
+  examId    String?
+  exam      Exam?    @relation(fields: [examId], references: [id], onDelete: SetNull)
+  subjectId String?
+  subject   Subject? @relation(fields: [subjectId], references: [id], onDelete: SetNull)
+  chapterId String?
+  chapter   Chapter? @relation(fields: [chapterId], references: [id], onDelete: SetNull)
+
+  bookmarks Bookmark[]
+  progress  ExplainerProgress[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([examId])
+  @@index([chapterId])
+}
+
+// ─────────────────── Bookmarks ───────────────────
+
+model Bookmark {
+  id        String   @id @default(cuid())
+  createdAt DateTime @default(now())
+
+  userId      String
+  user        User       @relation(fields: [userId], references: [id], onDelete: Cascade)
+  questionId  String?
+  question    Question?  @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  explainerId String?
+  explainer   Explainer? @relation(fields: [explainerId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+}
+
+// ─────────────────── Progress / personalization ───────────────────
+
+// Which exams a student is actively pursuing (supports more than one goal).
+model Enrollment {
+  id            String           @id @default(cuid())
+  status        EnrollmentStatus @default(ACTIVE)
+  examYear      Int?
+  chaptersDone  Int              @default(0)
+  totalChapters Int              @default(0)
+  lastActiveAt  DateTime         @default(now())
+  createdAt     DateTime         @default(now())
+
+  userId String
+  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  examId String
+  exam   Exam   @relation(fields: [examId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, examId])
+  @@index([userId])
+}
+
+// Per-chapter completion + mastery (attempted/correct doubles as topic mastery).
+model ChapterProgress {
+  id                 String         @id @default(cuid())
+  status             ProgressStatus @default(NOT_STARTED)
+  questionsAttempted Int            @default(0)
+  questionsCorrect   Int            @default(0)
+  lastVisitedAt      DateTime       @default(now()) @updatedAt
+
+  userId    String
+  user      User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  chapterId String
+  chapter   Chapter @relation(fields: [chapterId], references: [id], onDelete: Cascade)
+  examId    String // denormalized for dashboard filtering
+
+  @@unique([userId, chapterId])
+  @@index([userId])
+  @@index([examId])
+}
+
+// "Continue reading" state for explainer pages.
+model ExplainerProgress {
+  id         String         @id @default(cuid())
+  scrollPct  Int            @default(0)
+  status     ProgressStatus @default(IN_PROGRESS)
+  lastReadAt DateTime       @default(now()) @updatedAt
+
+  userId      String
+  user        User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  explainerId String
+  explainer   Explainer @relation(fields: [explainerId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, explainerId])
+  @@index([userId])
+}
+
+// One row per student per (IST) calendar day → powers the streak calendar.
+model StudyDay {
+  id               String   @id @default(cuid())
+  day              DateTime @db.Date
+  questionsAnswered Int     @default(0)
+  explainersRead   Int      @default(0)
+  secondsStudied   Int      @default(0)
+
+  userId String
+  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, day])
+  @@index([userId])
+}

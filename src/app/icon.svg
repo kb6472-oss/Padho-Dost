@@ -1,0 +1,6 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="PadhoDost">
+  <rect width="512" height="512" rx="116" fill="#4F46E5"/>
+  <path d="M256 176c-33-23-77-27-112-20a16 16 0 0 0-13 16v152a12 12 0 0 0 15 12c32-7 73-3 102 19a8 8 0 0 0 10 0c29-22 70-26 102-19a12 12 0 0 0 15-12V172a16 16 0 0 0-13-16c-35-7-79-3-112 20z" fill="#ffffff"/>
+  <path d="M256 176v204" stroke="#4F46E5" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="398" cy="116" r="30" fill="#F59E0B"/>
+</svg>

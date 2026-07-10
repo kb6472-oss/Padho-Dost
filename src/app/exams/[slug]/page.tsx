@@ -3,7 +3,9 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getExamWithTests } from "@/lib/data";
 import { getSessionUser } from "@/lib/auth";
+import { getExamGoal } from "@/lib/enroll";
 import { getFullMockUnlock, isGrandMock, isSectionTest, type UnlockState } from "@/lib/full-mock";
+import ExamGoalButton from "@/components/ExamGoalButton";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -117,6 +119,7 @@ export default async function ExamDetailPage({ params }: Props) {
 
   const su = fullMocks.length > 0 ? await getSessionUser() : null;
   const unlock = fullMocks.length > 0 ? await getFullMockUnlock(su?.id ?? null, exam.id) : null;
+  const goal = await getExamGoal();
 
   return (
     <div className="mx-auto max-w-4xl px-4 py-10 sm:px-6">
@@ -130,11 +133,14 @@ export default async function ExamDetailPage({ params }: Props) {
         <span className="flex h-14 w-14 flex-shrink-0 items-center justify-center rounded-2xl bg-surface text-3xl">
           {exam.emoji ?? "📘"}
         </span>
-        <div>
+        <div className="min-w-0 flex-1">
           <h1 className="font-display text-2xl font-extrabold tracking-tight text-foreground sm:text-3xl">
             {exam.name}
           </h1>
           {exam.description && <p className="mt-1 text-sm text-muted">{exam.description}</p>}
+          <div className="mt-3">
+            <ExamGoalButton examSlug={slug} isCurrentGoal={goal === slug} />
+          </div>
         </div>
       </div>
 

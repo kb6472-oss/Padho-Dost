@@ -10,7 +10,9 @@ const navLinks = [
   { href: "/exams", label: "Exams" },
   { href: "/study", label: "Study" },
   { href: "/daily", label: "Daily" },
-  { href: "/#how", label: "How it works" },
+  { href: "/leaderboard", label: "Leaderboard" },
+  { href: "/predictor", label: "Predictor" },
+  { href: "/exam-calendar", label: "Calendar" },
 ];
 
 type NavUser = { name: string | null; email: string | null; image: string | null };
@@ -63,7 +65,7 @@ export default function Navbar() {
           </span>
         </Link>
 
-        <div className="hidden items-center gap-7 md:flex">
+        <div className="hidden items-center gap-5 md:flex">
           {navLinks.map((l) => (
             <Link key={l.href} href={l.href} className="text-sm font-medium text-muted transition-colors hover:text-foreground">
               {l.label}

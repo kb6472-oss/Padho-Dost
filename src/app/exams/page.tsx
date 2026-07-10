@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import { getExams } from "@/lib/data";
 import { getChip, type Exam } from "@/lib/exams";
+import { getExamGoal } from "@/lib/enroll";
 import ExamCard from "@/components/ExamCard";
+import OnboardingPrompt from "@/components/OnboardingPrompt";
 
 export const metadata: Metadata = {
   title: "All Exams",
@@ -11,6 +13,7 @@ export const metadata: Metadata = {
 
 export default async function ExamsPage() {
   const exams = await getExams();
+  const goal = await getExamGoal();
 
   const cards: Exam[] = exams.map((e) => ({
     slug: e.slug,
@@ -22,8 +25,14 @@ export default async function ExamsPage() {
     chip: getChip(e.slug),
   }));
 
+  const liveChips = exams
+    .filter((e) => e.status === "LIVE")
+    .map((e) => ({ slug: e.slug, name: e.name, emoji: e.emoji ?? "📘" }));
+
   return (
     <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6">
+      {!goal && <OnboardingPrompt exams={liveChips} />}
+
       <div className="max-w-2xl">
         <h1 className="font-display text-3xl font-extrabold tracking-tight text-foreground">
           Choose your exam

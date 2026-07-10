@@ -2150,6 +2150,344 @@ const wave7: ExamContent[] = [
   },
 ];
 
+// Wave 8 — JEE & NEET depth (Chemistry, Maths, Physics, Biology) for full-mock readiness.
+const wave8: ExamContent[] = [
+  {
+    examSlug: "jee",
+    subjects: [
+      {
+        slug: "physics",
+        name: "Physics",
+        chapters: [
+          {
+            slug: "work-energy-power",
+            name: "Work, Energy and Power",
+            marks: 4,
+            negative: 1,
+            test: { slug: "jee-work-energy-power-practice-1", title: "Work, Energy and Power — Practice Test", description: "15 JEE (Main + Adv) Physics practice questions with full solutions. +4 correct, −1 wrong." },
+            questions: [
+              { text: "A constant force of 10 N acts on a body and displaces it by 5 m in the direction of the force. The work done by the force is:", difficulty: "EASY", explanation: "Work = force x displacement (in the direction of force) = 10 N x 5 m = 50 J.", options: opts(1, "25 J", "50 J", "10 J", "2 J") },
+              { text: "A body of mass 2 kg is moving with a speed of 3 m/s. Its kinetic energy is:", difficulty: "EASY", explanation: "KE = (1/2)mv^2 = (1/2)(2)(3^2) = (1/2)(2)(9) = 9 J.", options: opts(2, "3 J", "6 J", "9 J", "18 J") },
+              { text: "Which of the following forces does zero work on a particle moving in a horizontal circle at constant speed?", difficulty: "EASY", explanation: "The centripetal force is always perpendicular to the velocity (and displacement), so W = F·s cos(90 degrees) = 0.", options: opts(3, "An applied tangential force", "Kinetic friction opposing motion", "Air drag", "The centripetal (net inward) force") },
+              { text: "A variable force F = (3x^2 − 2x + 7) N acts on a particle moving along the x-axis. The work done in moving the particle from x = 0 to x = 5 m is:", difficulty: "MEDIUM", explanation: "W = integral of F dx = [x^3 − x^2 + 7x] from 0 to 5 = (125 − 25 + 35) = 135 J.", options: opts(0, "135 J", "100 J", "70 J", "185 J") },
+              { text: "A spring of force constant 100 N/m is stretched from an extension of 0.1 m to 0.2 m. The work done in this process is:", difficulty: "MEDIUM", explanation: "W = (1/2)k(x2^2 − x1^2) = (1/2)(100)(0.04 − 0.01) = 50 x 0.03 = 1.5 J.", options: opts(2, "0.5 J", "1.0 J", "1.5 J", "2.0 J") },
+              { text: "A pump lifts 2000 kg of water per minute to a height of 10 m. Taking g = 10 m/s^2, the minimum power of the pump is:", difficulty: "MEDIUM", explanation: "P = mgh/t = (2000 x 10 x 10)/60 = 200000/60 ≈ 3333 W (about 3.33 kW).", options: opts(1, "2000 W", "3333 W", "20000 W", "5000 W") },
+              { text: "A block of mass 2 kg moving at 4 m/s on a frictionless surface compresses a spring of force constant 800 N/m. The maximum compression of the spring is:", difficulty: "MEDIUM", explanation: "By energy conservation (1/2)mv^2 = (1/2)kx^2, so x = v√(m/k) = 4√(2/800) = 4 x 0.05 = 0.2 m.", options: opts(3, "0.05 m", "0.10 m", "0.15 m", "0.20 m") },
+              { text: "If the momentum of a body is increased by a factor of 2, its kinetic energy (for constant mass) becomes:", difficulty: "MEDIUM", explanation: "KE = p^2/2m, so KE is proportional to p^2. Doubling p multiplies KE by 4.", options: opts(2, "Unchanged", "2 times", "4 times", "8 times") },
+              { text: "A body starts from rest and is acted upon by a constant power P. The distance travelled in time t is proportional to:", difficulty: "HARD", explanation: "With constant power, (1/2)mv^2 = Pt gives v proportional to t^(1/2); integrating v, distance s is proportional to t^(3/2).", options: opts(0, "t^(3/2)", "t^(1/2)", "t", "t^2") },
+              { text: "A bullet of mass 10 g moving at 400 m/s embeds itself in a block of mass 390 g resting on a frictionless surface. The fraction of the bullet's initial kinetic energy converted into heat is:", difficulty: "HARD", explanation: "By momentum, common speed v = (0.01 x 400)/0.4 = 10 m/s. Fraction of KE lost = M/(m+M) = 0.39/0.40 = 0.975, i.e. 97.5%.", options: opts(1, "2.5%", "97.5%", "50%", "25%") },
+              { text: "A ball of mass 0.5 kg is thrown vertically upward with a speed of 10 m/s (g = 10 m/s^2). The work done by gravity from the point of projection until the ball reaches its highest point is:", difficulty: "MEDIUM", explanation: "Maximum height h = v^2/2g = 100/20 = 5 m. Work by gravity = −mgh = −(0.5)(10)(5) = −25 J (negative, opposing upward displacement).", options: opts(3, "+25 J", "0 J", "+50 J", "−25 J") },
+              { text: "A block is released from rest at the top of a rough incline of length 10 m inclined at 30 degrees. If the coefficient of kinetic friction is 0.2 (g = 10 m/s^2), its speed at the bottom is closest to:", difficulty: "HARD", explanation: "Acceleration a = g(sin30 − μcos30) = 10(0.5 − 0.2 x 0.866) = 3.27 m/s^2. Then v = √(2 x 3.27 x 10) ≈ 8.1 m/s.", options: opts(0, "8.1 m/s", "10.0 m/s", "6.3 m/s", "14.1 m/s") },
+              { text: "A body of mass 10 kg starts from rest under a constant net force of 20 N and travels 10 m. Its average power over this interval is closest to:", difficulty: "HARD", explanation: "Work = 20 x 10 = 200 J. With a = 2 m/s^2, v = √(2 x 2 x 10) = 6.32 m/s and t = v/a = 3.16 s, so average power = 200/3.16 ≈ 63 W.", options: opts(2, "100 W", "40 W", "63 W", "200 W") },
+              { text: "For a small ball dropped from height 10 m that rebounds to a height of 8.1 m after hitting the ground, the coefficient of restitution between ball and ground is:", difficulty: "MEDIUM", explanation: "For a bounce off a stationary surface, e = √(h'/h) = √(8.1/10) = √0.81 = 0.9.", options: opts(1, "0.81", "0.90", "0.95", "0.72") },
+              { text: "A light spring of constant k hangs vertically. A mass m is attached and released gently from the spring's natural length. The maximum extension of the spring before the mass momentarily stops is:", difficulty: "HARD", explanation: "By energy conservation from natural length, mgx = (1/2)kx^2 gives x = 2mg/k, which is twice the equilibrium extension mg/k.", options: opts(3, "mg/k", "mg/2k", "√(2mg/k)", "2mg/k") },
+            ],
+          },
+          {
+            slug: "gravitation",
+            name: "Gravitation",
+            marks: 4,
+            negative: 1,
+            test: { slug: "jee-gravitation-practice-1", title: "Gravitation — Practice Test", description: "15 JEE (Main + Adv) Physics practice questions with full solutions. +4 correct, −1 wrong." },
+            questions: [
+              { text: "According to Newton's law of gravitation, the force between two point masses is proportional to:", difficulty: "EASY", explanation: "F = GMm/r^2, so the force is inversely proportional to the square of the separation r.", options: opts(1, "The separation r", "The inverse square of the separation, 1/r^2", "The inverse of the separation, 1/r", "The square of the separation, r^2") },
+              { text: "The gravitational field intensity at any point inside a uniform thin spherical shell is:", difficulty: "EASY", explanation: "By the shell theorem, the net gravitational field everywhere inside a uniform spherical shell is zero, though the potential is non-zero and constant.", options: opts(0, "Zero", "Maximum at the centre", "Equal to that at the surface", "Directed radially inward") },
+              { text: "Astronauts inside an orbiting satellite feel weightless because:", difficulty: "EASY", explanation: "The satellite and astronauts are in free fall together; gravity supplies exactly the centripetal acceleration, so the normal (apparent) weight is zero even though g is not zero.", options: opts(2, "There is no gravity in space", "The Earth's gravity is balanced by the Sun's gravity", "They and the satellite are in free fall with the same acceleration", "The satellite is beyond the Earth's gravitational field") },
+              { text: "The acceleration due to gravity at a depth equal to half the Earth's radius (assuming uniform density) compared to its surface value g is:", difficulty: "MEDIUM", explanation: "At depth d, g' = g(1 − d/R). For d = R/2, g' = g(1 − 1/2) = g/2.", options: opts(1, "g/4", "g/2", "3g/4", "g") },
+              { text: "At what height above the Earth's surface does the acceleration due to gravity reduce to one-fourth of its surface value (R = radius of Earth)?", difficulty: "MEDIUM", explanation: "g' = g R^2/(R+h)^2. Setting g' = g/4 gives (R+h)^2 = 4R^2, so R+h = 2R and h = R.", options: opts(3, "R/4", "R/2", "2R", "R") },
+              { text: "For a planet of mass 2M and radius 2R (where M and R are the Earth's mass and radius), the surface acceleration due to gravity, in terms of the Earth's g, is:", difficulty: "MEDIUM", explanation: "g' = G(2M)/(2R)^2 = G(2M)/(4R^2) = (1/2)(GM/R^2) = g/2.", options: opts(0, "g/2", "g", "2g", "g/4") },
+              { text: "The escape velocity from the surface of a planet is v. If another planet has the same radius but four times the mass, its escape velocity is:", difficulty: "MEDIUM", explanation: "Escape velocity v_e = √(2GM/R) is proportional to √M for fixed R. Four times the mass multiplies v_e by √4 = 2, giving 2v.", options: opts(2, "v", "√2 v", "2v", "4v") },
+              { text: "For a satellite in a circular orbit of radius r, if its kinetic energy is K, then its total mechanical energy and potential energy are respectively:", difficulty: "MEDIUM", explanation: "For a circular orbit, KE = GMm/2r = K, PE = −GMm/r = −2K, and total energy E = KE + PE = −K.", options: opts(1, "+K and −K", "−K and −2K", "−2K and −K", "+2K and +K") },
+              { text: "The orbital radius of a satellite is increased from r to 4r. By what factor does its time period of revolution change?", difficulty: "MEDIUM", explanation: "By Kepler's third law T^2 is proportional to r^3, so T is proportional to r^(3/2). Increasing r fourfold changes T by 4^(3/2) = 8.", options: opts(3, "2", "4", "16", "8") },
+              { text: "Two point masses, each of mass m, are released from rest with an initial separation d and move only under their mutual gravitation. The speed of each mass when the separation becomes d/2 is:", difficulty: "HARD", explanation: "Energy conservation: −Gm^2/d = −Gm^2/(d/2) + 2·(1/2)mv^2, giving Gm^2/d = mv^2, so v = √(Gm/d).", options: opts(0, "√(Gm/d)", "√(2Gm/d)", "√(Gm/2d)", "√(4Gm/d)") },
+              { text: "A satellite orbits the Earth close to the surface (R = 6.4 x 10^6 m, g = 10 m/s^2). Its orbital speed is approximately:", difficulty: "MEDIUM", explanation: "For a near-surface orbit v = √(gR) = √(10 x 6.4 x 10^6) = √(6.4 x 10^7) = 8000 m/s ≈ 8 km/s.", options: opts(2, "11.2 km/s", "5.6 km/s", "8 km/s", "3.2 km/s") },
+              { text: "Three identical point masses m are placed at the corners of an equilateral triangle of side a. The total gravitational potential energy of the system is:", difficulty: "HARD", explanation: "There are three pairs, each contributing −Gm^2/a. Total PE = −3Gm^2/a.", options: opts(1, "−Gm^2/a", "−3Gm^2/a", "−Gm^2/3a", "−3Gm^2/2a") },
+              { text: "The energy required to move a satellite of mass m from a circular orbit of radius r to a circular orbit of radius 2r around the Earth (mass M) is:", difficulty: "HARD", explanation: "Total energy in a circular orbit is E = −GMm/2r. Energy required = E(2r) − E(r) = −GMm/4r − (−GMm/2r) = GMm/4r.", options: opts(3, "GMm/2r", "GMm/r", "GMm/8r", "GMm/4r") },
+              { text: "Which statement about the escape velocity from a planet's surface is correct?", difficulty: "MEDIUM", explanation: "Escape velocity v_e = √(2GM/R) depends only on the planet's mass and radius, not on the mass of the projected body or the direction of projection.", options: opts(0, "It is independent of the mass and the direction of projection of the body", "It increases with the mass of the projected body", "It is minimum when the body is projected horizontally", "It depends on the angle of projection") },
+              { text: "A body weighs W at the Earth's surface. Assuming the Earth to be a uniform sphere, at a height R (one Earth radius) above the surface and at a depth R/2 below the surface, its weights are respectively:", difficulty: "HARD", explanation: "At height R: g' = g/(1+1)^2 = g/4, so weight = W/4. At depth R/2: g' = g(1 − 1/2) = g/2, so weight = W/2.", options: opts(2, "W/2 and W/4", "W/4 and W/4", "W/4 and W/2", "W/2 and W/2") },
+            ],
+          },
+        ],
+      },
+      {
+        slug: "chemistry",
+        name: "Chemistry",
+        chapters: [
+          {
+            slug: "some-basic-concepts-of-chemistry",
+            name: "Some Basic Concepts of Chemistry",
+            marks: 4,
+            negative: 1,
+            test: { slug: "jee-basic-concepts-chemistry-practice-1", title: "Some Basic Concepts of Chemistry — Practice Test", description: "15 JEE (Main + Adv) Chemistry practice questions with full solutions. +4 correct, −1 wrong." },
+            questions: [
+              { text: "How many moles of methane (CH4) are present in 3.2 g of the gas? (Molar mass of CH4 = 16 g/mol)", difficulty: "EASY", explanation: "Moles = mass / molar mass = 3.2 / 16 = 0.2 mol. This is a direct application of the mole concept.", options: opts(1, "0.1 mol", "0.2 mol", "0.32 mol", "2.0 mol") },
+              { text: "What is the molarity of a solution prepared by dissolving 5.85 g of NaCl in enough water to make 500 mL of solution? (Molar mass of NaCl = 58.5 g/mol)", difficulty: "EASY", explanation: "Moles of NaCl = 5.85 / 58.5 = 0.1 mol. Molarity = moles / volume(L) = 0.1 / 0.5 = 0.2 M.", options: opts(2, "0.05 M", "0.1 M", "0.2 M", "0.4 M") },
+              { text: "The percentage by mass of nitrogen in ammonium nitrate (NH4NO3) is closest to: (N = 14, H = 1, O = 16)", difficulty: "EASY", explanation: "Molar mass of NH4NO3 = 14+4+14+48 = 80 g/mol. Nitrogen mass = 2 x 14 = 28. %N = (28/80) x 100 = 35%.", options: opts(3, "17.5%", "23.3%", "28.0%", "35.0%") },
+              { text: "A compound contains 40% carbon, 6.7% hydrogen and 53.3% oxygen by mass. What is its empirical formula? (C = 12, H = 1, O = 16)", difficulty: "MEDIUM", explanation: "Mole ratio C:H:O = 40/12 : 6.7/1 : 53.3/16 = 3.33 : 6.7 : 3.33 = 1 : 2 : 1, giving CH2O.", options: opts(0, "CH2O", "C2H4O2", "CHO", "C2H4O") },
+              { text: "The number of oxygen atoms present in 0.2 mol of H2SO4 is: (NA = 6.022 x 10^23)", difficulty: "MEDIUM", explanation: "Each H2SO4 has 4 O atoms, so moles of O atoms = 0.2 x 4 = 0.8 mol. Number of O atoms = 0.8 x 6.022 x 10^23 = 4.82 x 10^23.", options: opts(2, "1.20 x 10^23", "2.41 x 10^23", "4.82 x 10^23", "1.20 x 10^24") },
+              { text: "Commercial concentrated sulphuric acid is 98% H2SO4 by mass and has a density of 1.84 g/mL. Its molarity is approximately: (Molar mass H2SO4 = 98 g/mol)", difficulty: "MEDIUM", explanation: "In 1 L, mass of solution = 1840 g; mass of H2SO4 = 0.98 x 1840 = 1803.2 g; moles = 1803.2/98 = 18.4. Molarity = 18.4 M.", options: opts(1, "9.2 M", "18.4 M", "1.84 M", "36.8 M") },
+              { text: "For the reaction N2 + 3H2 -> 2NH3, if 3 mol of N2 react with 6 mol of H2, how many moles of NH3 can be formed?", difficulty: "MEDIUM", explanation: "H2 is the limiting reagent: 6 mol H2 needs 2 mol N2 (only 2 of the 3 mol N2 react). Moles NH3 = 6 x (2/3) = 4 mol.", options: opts(3, "6 mol", "3 mol", "2 mol", "4 mol") },
+              { text: "The volume occupied by 0.5 mol of an ideal gas at STP (where molar volume = 22.4 L/mol) is:", difficulty: "EASY", explanation: "Volume = moles x molar volume = 0.5 x 22.4 = 11.2 L at STP.", options: opts(0, "11.2 L", "22.4 L", "5.6 L", "44.8 L") },
+              { text: "On complete combustion, 0.68 g of a hydrocarbon produced 1.8 g of water and 1.76 g of CO2. What is the ratio of moles of C to H atoms in the compound? (H2O = 18, CO2 = 44)", difficulty: "HARD", explanation: "Moles CO2 = 1.76/44 = 0.04 -> C = 0.04 mol (0.48 g). Moles H2O = 1.8/18 = 0.1 -> H = 0.2 mol (0.20 g). Mass of C + H = 0.48 + 0.20 = 0.68 g, matching the sample. C:H = 0.04 : 0.2 = 1 : 5.", options: opts(1, "1 : 4", "1 : 5", "2 : 5", "1 : 3") },
+              { text: "How many grams of oxygen (O2) are required to completely burn 8 g of methane (CH4)? Reaction: CH4 + 2O2 -> CO2 + 2H2O. (CH4 = 16, O2 = 32)", difficulty: "MEDIUM", explanation: "Moles CH4 = 8/16 = 0.5. O2 needed = 2 x 0.5 = 1.0 mol = 1.0 x 32 = 32 g.", options: opts(2, "16 g", "24 g", "32 g", "64 g") },
+              { text: "The mass of one molecule of water (H2O) is approximately: (Molar mass = 18 g/mol, NA = 6.022 x 10^23)", difficulty: "MEDIUM", explanation: "Mass of one molecule = molar mass / NA = 18 / (6.022 x 10^23) = 2.99 x 10^-23 g.", options: opts(3, "1.80 x 10^-23 g", "6.02 x 10^-23 g", "1.08 x 10^-22 g", "2.99 x 10^-23 g") },
+              { text: "When 40 mL of 0.1 M HCl is mixed with 60 mL of 0.2 M HCl, the molarity of HCl in the resulting solution is:", difficulty: "MEDIUM", explanation: "Total moles = (0.040 x 0.1) + (0.060 x 0.2) = 0.004 + 0.012 = 0.016 mol. Total volume = 0.1 L. Molarity = 0.016/0.1 = 0.16 M.", options: opts(0, "0.16 M", "0.30 M", "0.12 M", "0.20 M") },
+              { text: "10 g of CaCO3 is heated to decompose completely: CaCO3 -> CaO + CO2. The volume of CO2 released at STP is: (CaCO3 = 100 g/mol, molar volume = 22.4 L/mol)", difficulty: "HARD", explanation: "Moles CaCO3 = 10/100 = 0.1 mol, giving 0.1 mol CO2. Volume at STP = 0.1 x 22.4 = 2.24 L.", options: opts(1, "1.12 L", "2.24 L", "4.48 L", "22.4 L") },
+              { text: "A 0.5 molal aqueous solution of a non-volatile solute is prepared. The number of moles of solute per 1000 g of water and per 500 g of water respectively are:", difficulty: "HARD", explanation: "Molality is moles of solute per kg of solvent. Per 1000 g water = 0.5 mol; per 500 g water = 0.25 mol. Molality stays the same but total moles scale with solvent mass.", options: opts(2, "0.5 and 0.5", "1.0 and 0.5", "0.5 and 0.25", "0.25 and 0.5") },
+              { text: "The number of significant figures in the measured value 0.005040 kg is:", difficulty: "HARD", explanation: "Leading zeros are not significant; the digits 5, 0, 4, 0 (including the trailing zero after the decimal) are significant, giving 4 significant figures.", options: opts(0, "4", "3", "5", "6") },
+            ],
+          },
+          {
+            slug: "structure-of-atom",
+            name: "Structure of Atom",
+            marks: 4,
+            negative: 1,
+            test: { slug: "jee-structure-of-atom-practice-1", title: "Structure of Atom — Practice Test", description: "15 JEE (Main + Adv) Chemistry practice questions with full solutions. +4 correct, −1 wrong." },
+            questions: [
+              { text: "The maximum number of electrons that can be accommodated in the shell with principal quantum number n = 3 is:", difficulty: "EASY", explanation: "Maximum electrons in a shell = 2n^2 = 2 x 3^2 = 18.", options: opts(2, "8", "9", "18", "32") },
+              { text: "The total number of orbitals present in the n = 3 shell is:", difficulty: "EASY", explanation: "Number of orbitals in a shell = n^2 = 3^2 = 9 (one 3s, three 3p, five 3d).", options: opts(1, "3", "9", "5", "18") },
+              { text: "According to Bohr's model, the radius of the third orbit (n = 3) of the hydrogen atom is: (radius of first orbit = 0.529 Angstrom)", difficulty: "EASY", explanation: "In Bohr's model r_n = 0.529 x n^2 / Z Angstrom. For H (Z=1), r_3 = 0.529 x 9 = 4.76 Angstrom.", options: opts(3, "0.529 Angstrom", "1.587 Angstrom", "2.645 Angstrom", "4.76 Angstrom") },
+              { text: "The energy of an electron in the second orbit (n = 2) of the hydrogen atom is: (Energy of ground state = -13.6 eV)", difficulty: "MEDIUM", explanation: "E_n = -13.6/n^2 eV. For n = 2, E = -13.6/4 = -3.4 eV.", options: opts(0, "-3.4 eV", "-6.8 eV", "-1.51 eV", "-13.6 eV") },
+              { text: "The ionization energy of the He+ ion (Z = 2) in its ground state is: (Ionization energy of hydrogen = 13.6 eV)", difficulty: "MEDIUM", explanation: "For a hydrogen-like species, ionization energy = 13.6 x Z^2 eV. For He+, IE = 13.6 x 4 = 54.4 eV.", options: opts(2, "13.6 eV", "27.2 eV", "54.4 eV", "6.8 eV") },
+              { text: "Which set of quantum numbers is NOT permissible for an electron in an atom?", difficulty: "MEDIUM", explanation: "For a given n, l ranges from 0 to n-1. The set n = 2, l = 2 is not allowed because l must be less than n (l can only be 0 or 1 when n = 2).", options: opts(1, "n = 3, l = 2, m = -2, s = +1/2", "n = 2, l = 2, m = 0, s = -1/2", "n = 4, l = 0, m = 0, s = +1/2", "n = 3, l = 1, m = +1, s = -1/2") },
+              { text: "The wavelength of the second line of the Balmer series (transition n = 4 to n = 2) of the hydrogen spectrum is approximately: (Rydberg constant R = 1.097 x 10^7 per metre)", difficulty: "HARD", explanation: "1/lambda = R(1/2^2 - 1/4^2) = 1.097 x 10^7 x (1/4 - 1/16) = 1.097 x 10^7 x 3/16, giving lambda = 486 nm.", options: opts(3, "656 nm", "410 nm", "434 nm", "486 nm") },
+              { text: "The de Broglie wavelength associated with an electron accelerated through a potential difference of 100 V is approximately:", difficulty: "HARD", explanation: "lambda = h / sqrt(2meV) = 12.27/sqrt(V) Angstrom = 12.27/10 = 1.227 Angstrom, i.e. about 0.123 nm.", options: opts(0, "0.123 nm", "1.23 nm", "0.012 nm", "12.3 nm") },
+              { text: "For the 3d orbital, the values of the azimuthal quantum number (l) and the number of radial nodes respectively are: (radial nodes = n - l - 1)", difficulty: "MEDIUM", explanation: "For 3d: n = 3 and l = 2. Radial nodes = n - l - 1 = 3 - 2 - 1 = 0.", options: opts(1, "l = 2, 1 node", "l = 2, 0 nodes", "l = 3, 0 nodes", "l = 1, 1 node") },
+              { text: "The number of unpaired electrons in the ground state of a chromium atom (Z = 24) is:", difficulty: "HARD", explanation: "Cr has the anomalous configuration [Ar] 3d^5 4s^1, giving 5 unpaired electrons in 3d plus 1 in 4s = 6 unpaired electrons.", options: opts(2, "4", "5", "6", "3") },
+              { text: "According to the Aufbau principle and (n + l) rule, which orbital is filled with electrons before the 3d orbital?", difficulty: "MEDIUM", explanation: "The (n+l) value for 4s is 4+0 = 4, while for 3d it is 3+2 = 5. Lower (n+l) is filled first, so 4s fills before 3d.", options: opts(3, "4p", "4d", "5s", "4s") },
+              { text: "The threshold frequency of a metal is 5.0 x 10^14 Hz. The maximum kinetic energy of a photoelectron ejected when light of frequency 8.0 x 10^14 Hz strikes it is: (h = 6.626 x 10^-34 J s)", difficulty: "HARD", explanation: "KE = h(v - v0) = 6.626 x 10^-34 x (8.0 - 5.0) x 10^14 = 6.626 x 10^-34 x 3.0 x 10^14 = 1.99 x 10^-19 J.", options: opts(0, "1.99 x 10^-19 J", "3.31 x 10^-19 J", "5.30 x 10^-19 J", "1.32 x 10^-19 J") },
+              { text: "The number of spectral lines that can appear when an electron in a hydrogen atom de-excites from the n = 4 level to the ground state is:", difficulty: "MEDIUM", explanation: "The maximum number of spectral lines = n(n-1)/2 = 4 x 3 / 2 = 6.", options: opts(1, "4", "6", "3", "10") },
+              { text: "Which of the following statements about the Heisenberg uncertainty principle is correct?", difficulty: "MEDIUM", explanation: "The principle states it is impossible to determine simultaneously the exact position and momentum of a microscopic particle, expressed as (delta x)(delta p) >= h/4pi.", options: opts(2, "It applies significantly to macroscopic objects like a cricket ball", "The product of uncertainties in position and momentum is at most h/4pi", "One cannot simultaneously know the exact position and momentum of an electron", "It states that energy and time can both be measured with perfect accuracy") },
+              { text: "Two nuclides are isotones if they have the same number of neutrons. What is the correct relationship between the nuclides 14-C-6 and 16-O-8?", difficulty: "HARD", explanation: "Neutrons = mass number - atomic number. For 14-C-6: 14-6 = 8 neutrons; for 16-O-8: 16-8 = 8 neutrons. They have equal numbers of neutrons (8 each) but different atomic numbers and different mass numbers, so they are isotones.", options: opts(3, "They are isotopes (same number of protons)", "They are isobars (same mass number)", "They have different numbers of neutrons", "They are isotones (both have 8 neutrons)") },
+            ],
+          },
+        ],
+      },
+      {
+        slug: "mathematics",
+        name: "Mathematics",
+        chapters: [
+          {
+            slug: "sets-relations-functions",
+            name: "Sets, Relations and Functions",
+            marks: 4,
+            negative: 1,
+            test: { slug: "jee-sets-relations-functions-practice-1", title: "Sets, Relations and Functions — Practice Test", description: "15 JEE (Main + Adv) Mathematics practice questions with full solutions. +4 correct, −1 wrong." },
+            questions: [
+              { text: "If a set A has 4 elements, then the number of proper subsets of A (subsets other than A itself) is:", difficulty: "EASY", explanation: "A set with n elements has 2^n subsets in total. Proper subsets exclude A itself, giving 2^4 − 1 = 16 − 1 = 15.", options: opts(2, "16", "14", "15", "8") },
+              { text: "For two finite sets A and B, n(A) = 20, n(B) = 15 and n(A ∪ B) = 30. Then n(A ∩ B) equals:", difficulty: "EASY", explanation: "By inclusion–exclusion, n(A ∪ B) = n(A) + n(B) − n(A ∩ B), so n(A ∩ B) = 20 + 15 − 30 = 5.", options: opts(0, "5", "10", "35", "0") },
+              { text: "The domain of the real function f(x) = sqrt(4 − x^2) is:", difficulty: "EASY", explanation: "The expression under the root must be non-negative: 4 − x^2 ≥ 0, i.e. x^2 ≤ 4, giving −2 ≤ x ≤ 2, i.e. [−2, 2].", options: opts(1, "(−2, 2)", "[−2, 2]", "(−∞, 2]", "[0, 2]") },
+              { text: "The number of functions from a set A with 3 elements to a set B with 4 elements is:", difficulty: "MEDIUM", explanation: "Each of the 3 elements of A can map to any of the 4 elements of B independently, giving 4^3 = 64 functions.", options: opts(3, "12", "24", "81", "64") },
+              { text: "The number of onto (surjective) functions from a set with 4 elements onto a set with 2 elements is:", difficulty: "MEDIUM", explanation: "Total functions to a 2-element set = 2^4 = 16. Subtract the 2 that miss an element (all elements to one target): 16 − 2 = 14.", options: opts(1, "16", "14", "8", "12") },
+              { text: "The relation R on the set of integers Z defined by a R b if and only if (a − b) is divisible by 5 is:", difficulty: "MEDIUM", explanation: "a − a = 0 is divisible by 5 (reflexive); if 5 | (a − b) then 5 | (b − a) (symmetric); if 5 | (a − b) and 5 | (b − c) then 5 | (a − c) (transitive). Hence R is an equivalence relation.", options: opts(2, "Reflexive and symmetric only", "Symmetric and transitive only", "An equivalence relation", "Reflexive and transitive only") },
+              { text: "The number of equivalence relations that can be defined on a set with exactly 3 elements is:", difficulty: "HARD", explanation: "Equivalence relations correspond one-to-one with partitions of the set. The number of partitions of a 3-element set is the Bell number B(3) = 5.", options: opts(0, "5", "3", "8", "6") },
+              { text: "If f(x) = (x − 1)/(x + 1) for x ≠ −1, then f(f(x)) equals:", difficulty: "MEDIUM", explanation: "f(f(x)) = (f(x) − 1)/(f(x) + 1). With f(x) = (x−1)/(x+1), numerator = ((x−1)−(x+1))/(x+1) = −2/(x+1) and denominator = 2x/(x+1), so the ratio is −1/x.", options: opts(3, "x", "1/x", "(x + 1)/(x − 1)", "−1/x") },
+              { text: "The range of the function f(x) = x/(1 + x^2), x ∈ R, is:", difficulty: "HARD", explanation: "Set y = x/(1+x^2). Then yx^2 − x + y = 0 must have a real x, so its discriminant 1 − 4y^2 ≥ 0, giving y^2 ≤ 1/4, i.e. −1/2 ≤ y ≤ 1/2.", options: opts(1, "[−1, 1]", "[−1/2, 1/2]", "(−1/2, 1/2)", "R") },
+              { text: "The total number of reflexive relations that can be defined on a set with 3 elements is:", difficulty: "HARD", explanation: "A relation is a subset of the 9 ordered pairs. Reflexivity forces the 3 diagonal pairs to be present, leaving 9 − 3 = 6 pairs free, giving 2^6 = 64 reflexive relations.", options: opts(2, "8", "512", "64", "27") },
+              { text: "If f: R → R is defined by f(x) = 2x + 3, then its inverse function f⁻¹(x) is:", difficulty: "EASY", explanation: "Let y = 2x + 3. Solving for x gives x = (y − 3)/2, so f⁻¹(x) = (x − 3)/2.", options: opts(0, "(x − 3)/2", "(x + 3)/2", "2x − 3", "1/(2x + 3)") },
+              { text: "For sets A and B, the set (A − B) ∪ (B − A) is equal to:", difficulty: "MEDIUM", explanation: "(A − B) ∪ (B − A) is the symmetric difference A △ B, which equals (A ∪ B) − (A ∩ B) — the elements in exactly one of the two sets.", options: opts(3, "A ∩ B", "A ∪ B", "(A ∩ B)′", "(A ∪ B) − (A ∩ B)") },
+              { text: "In a class of 100 students, 60 play cricket, 45 play hockey and 20 play both. How many students play neither game?", difficulty: "MEDIUM", explanation: "Students playing at least one game = 60 + 45 − 20 = 85. Therefore those playing neither = 100 − 85 = 15.", options: opts(1, "5", "15", "10", "20") },
+              { text: "Let f: R → R be defined by f(x) = x^2 + 1. Then f is:", difficulty: "MEDIUM", explanation: "f(1) = f(−1) = 2, so f is not one-one. Also its minimum value is 1, so values less than 1 are never attained and f is not onto R. Hence f is neither injective nor surjective.", options: opts(2, "One-one and onto", "One-one but not onto", "Neither one-one nor onto", "Onto but not one-one") },
+              { text: "If A = {1, 2, 3}, the number of relations on A that are both reflexive and symmetric is:", difficulty: "HARD", explanation: "Reflexivity fixes the 3 diagonal pairs. Off-diagonal pairs come in 3 symmetric pairs {(i,j),(j,i)}, each independently included or not: 2^3 = 8 such relations.", options: opts(3, "64", "512", "16", "8") },
+            ],
+          },
+          {
+            slug: "complex-numbers-quadratic-equations",
+            name: "Complex Numbers and Quadratic Equations",
+            marks: 4,
+            negative: 1,
+            test: { slug: "jee-complex-numbers-quadratic-practice-1", title: "Complex Numbers and Quadratic Equations — Practice Test", description: "15 JEE (Main + Adv) Mathematics practice questions with full solutions. +4 correct, −1 wrong." },
+            questions: [
+              { text: "The value of i^(2023), where i = sqrt(−1), is:", difficulty: "EASY", explanation: "Powers of i cycle with period 4. Since 2023 = 4×505 + 3, i^2023 = i^3 = −i.", options: opts(1, "i", "−i", "1", "−1") },
+              { text: "The modulus of the complex number z = 3 − 4i is:", difficulty: "EASY", explanation: "|z| = sqrt(a^2 + b^2) = sqrt(3^2 + (−4)^2) = sqrt(9 + 16) = sqrt(25) = 5.", options: opts(0, "5", "7", "1", "25") },
+              { text: "If the sum of the roots of the quadratic equation 2x^2 − 5x + 3 = 0 is S and the product is P, then S + P equals:", difficulty: "EASY", explanation: "For ax^2 + bx + c = 0, S = −b/a = 5/2 and P = c/a = 3/2. Hence S + P = 5/2 + 3/2 = 4.", options: opts(2, "1", "5/2", "4", "3/2") },
+              { text: "The value of (1 + i)^8, where i = sqrt(−1), is:", difficulty: "MEDIUM", explanation: "(1 + i)^2 = 2i, so (1 + i)^8 = (2i)^4 = 16 · i^4 = 16.", options: opts(3, "16i", "−16", "8", "16") },
+              { text: "If ω is a non-real cube root of unity, then the value of (1 − ω + ω^2)^3 is:", difficulty: "MEDIUM", explanation: "Since 1 + ω + ω^2 = 0, we have 1 + ω^2 = −ω, so 1 − ω + ω^2 = −ω − ω = −2ω. Cubing: (−2ω)^3 = −8ω^3 = −8.", options: opts(0, "−8", "8", "−8ω", "1") },
+              { text: "The square roots of the complex number −3 + 4i are:", difficulty: "MEDIUM", explanation: "Seek a + bi with (a + bi)^2 = −3 + 4i: a^2 − b^2 = −3 and 2ab = 4. Solving gives a = 1, b = 2, so the roots are ±(1 + 2i).", options: opts(1, "±(2 + i)", "±(1 + 2i)", "±(2 − i)", "±(1 − 2i)") },
+              { text: "If α and β are the roots of x^2 − 6x + 8 = 0, then the value of α^2 + β^2 is:", difficulty: "MEDIUM", explanation: "α + β = 6 and αβ = 8. Then α^2 + β^2 = (α + β)^2 − 2αβ = 36 − 16 = 20.", options: opts(2, "36", "16", "20", "52") },
+              { text: "The values of k for which the quadratic equation x^2 − kx + 9 = 0 has equal (repeated) real roots are:", difficulty: "MEDIUM", explanation: "Equal roots require discriminant zero: k^2 − 4·9 = 0, so k^2 = 36, giving k = ±6.", options: opts(3, "k = 6 only", "k = 3", "k = 9", "k = ±6") },
+              { text: "The conjugate of the complex number (2 + i)/(1 − i) is:", difficulty: "MEDIUM", explanation: "Multiply by (1 + i)/(1 + i): (2 + i)(1 + i)/2 = (2 + 3i + i^2)/2 = (1 + 3i)/2. Its conjugate is (1 − 3i)/2 = 1/2 − (3/2)i.", options: opts(0, "1/2 − (3/2)i", "1/2 + (3/2)i", "−1/2 + (3/2)i", "3/2 − (1/2)i") },
+              { text: "If one root of the equation x^2 + px + 12 = 0 (with real p) is 4, then the other root and the value of p are:", difficulty: "MEDIUM", explanation: "Product of roots = 12, so the other root is 12/4 = 3. Sum of roots = 4 + 3 = 7 = −p, hence p = −7.", options: opts(1, "other root 4, p = −8", "other root 3, p = −7", "other root 3, p = 7", "other root 6, p = −10") },
+              { text: "The complex number z = 1 − i, written in polar form r(cos θ + i sin θ) with principal argument, has modulus and argument:", difficulty: "MEDIUM", explanation: "|z| = sqrt(1^2 + (−1)^2) = sqrt(2). Since z lies in the fourth quadrant with equal magnitude parts, arg z = −π/4.", options: opts(2, "r = sqrt(2), θ = π/4", "r = 2, θ = −π/4", "r = sqrt(2), θ = −π/4", "r = 1, θ = −π/4") },
+              { text: "For which values of m does the equation x^2 + (m − 3)x + m = 0 have real and distinct roots?", difficulty: "HARD", explanation: "Distinct real roots need discriminant > 0: (m − 3)^2 − 4m > 0, i.e. m^2 − 10m + 9 > 0, i.e. (m − 1)(m − 9) > 0, giving m < 1 or m > 9.", options: opts(3, "1 < m < 9", "m > 9 only", "m < 1 only", "m < 1 or m > 9") },
+              { text: "If z is a complex number satisfying |z − 3| = |z + 3|, then z lies on:", difficulty: "HARD", explanation: "|z − 3| = |z + 3| means z is equidistant from 3 and −3 on the real axis, so z lies on the perpendicular bisector of that segment, which is the imaginary axis (Re z = 0).", options: opts(0, "the imaginary axis (Re z = 0)", "the real axis (Im z = 0)", "a circle of radius 3", "the line Re z = 3") },
+              { text: "If α and β are the roots of x^2 + x + 1 = 0, then the value of α^(31) + β^(31) is:", difficulty: "HARD", explanation: "The roots are the non-real cube roots of unity ω and ω^2. Since 31 = 3×10 + 1, α^31 + β^31 = ω^31 + ω^62 = ω + ω^2 = −1.", options: opts(1, "2", "−1", "1", "0") },
+              { text: "The quadratic equation whose roots are the reciprocals of the roots of 3x^2 − 5x + 2 = 0 is:", difficulty: "HARD", explanation: "Replacing x by 1/x in 3x^2 − 5x + 2 = 0 gives 3/x^2 − 5/x + 2 = 0; multiplying by x^2 yields 2x^2 − 5x + 3 = 0.", options: opts(2, "3x^2 − 5x + 2 = 0", "2x^2 + 5x + 3 = 0", "2x^2 − 5x + 3 = 0", "3x^2 − 2x + 5 = 0") },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    examSlug: "neet",
+    subjects: [
+      {
+        slug: "physics",
+        name: "Physics",
+        chapters: [
+          {
+            slug: "laws-of-motion",
+            name: "Laws of Motion",
+            marks: 4,
+            negative: 1,
+            test: { slug: "neet-laws-of-motion-practice-1", title: "Laws of Motion — Practice Test", description: "15 NEET (Medical) Physics practice questions with full solutions. +4 correct, −1 wrong." },
+            questions: [
+              { text: "Newton's first law of motion is essentially a statement about which physical quantity?", difficulty: "EASY", explanation: "The first law defines inertia — the tendency of a body to resist any change in its state of rest or uniform motion. It also introduces the concept of an inertial frame.", options: opts(2, "Momentum", "Energy", "Inertia", "Impulse") },
+              { text: "A body of mass 5 kg is acted upon by a horizontal force of 20 N on a surface where the coefficient of kinetic friction is 0.2. Taking g = 10 m/s^2, the acceleration of the body is:", difficulty: "MEDIUM", explanation: "Kinetic friction f = mu m g = 0.2 x 5 x 10 = 10 N. Net force = 20 - 10 = 10 N, so a = F_net/m = 10/5 = 2 m/s^2.", options: opts(1, "1 m/s^2", "2 m/s^2", "3 m/s^2", "4 m/s^2") },
+              { text: "In an Atwood machine, two masses 3 kg and 2 kg are connected by a light inextensible string over a frictionless pulley. Taking g = 10 m/s^2, the acceleration of the system is:", difficulty: "MEDIUM", explanation: "For an Atwood machine, a = (m1 - m2)g/(m1 + m2) = (3 - 2)(10)/(3 + 2) = 10/5 = 2 m/s^2.", options: opts(0, "2 m/s^2", "4 m/s^2", "5 m/s^2", "10 m/s^2") },
+              { text: "For the Atwood machine with masses 3 kg and 2 kg over a frictionless pulley (g = 10 m/s^2), the tension in the string is:", difficulty: "MEDIUM", explanation: "Tension T = 2 m1 m2 g/(m1 + m2) = 2 x 3 x 2 x 10/(3 + 2) = 120/5 = 24 N.", options: opts(3, "12 N", "18 N", "20 N", "24 N") },
+              { text: "A gun of mass 2 kg fires a bullet of mass 20 g with a muzzle velocity of 200 m/s. The recoil velocity of the gun is:", difficulty: "MEDIUM", explanation: "By conservation of momentum, m_bullet v_bullet = m_gun V. V = (0.02 x 200)/2 = 4/2 = 2 m/s.", options: opts(1, "1 m/s", "2 m/s", "4 m/s", "20 m/s") },
+              { text: "A car goes round a circular track of radius r banked at an angle theta with no friction. The speed for which the banking is designed satisfies:", difficulty: "MEDIUM", explanation: "For a frictionless banked road, the horizontal component of the normal force provides the centripetal force while the vertical component balances gravity: N sin theta = m v^2/r and N cos theta = m g. Dividing gives tan theta = v^2/(r g).", options: opts(2, "tan theta = r g / v^2", "sin theta = v^2 / (r g)", "tan theta = v^2 / (r g)", "cos theta = v^2 / (r g)") },
+              { text: "A person of mass 50 kg stands in a lift that accelerates upward at 2 m/s^2. Taking g = 10 m/s^2, the apparent weight (normal reaction) on the person is:", difficulty: "MEDIUM", explanation: "For upward acceleration, N = m(g + a) = 50(10 + 2) = 50 x 12 = 600 N.", options: opts(3, "400 N", "490 N", "500 N", "600 N") },
+              { text: "A block is placed on a rough inclined plane whose angle of inclination is gradually increased. The block just begins to slide when the angle is theta. The coefficient of static friction between block and plane is:", difficulty: "MEDIUM", explanation: "At the angle of repose, mg sin theta = mu mg cos theta, so mu = tan theta. The angle at which sliding just begins is the angle of repose.", options: opts(0, "tan theta", "sin theta", "cos theta", "cot theta") },
+              { text: "A constant force acting on a body of mass 3 kg changes its speed from 2 m/s to 3.5 m/s in 25 s, the direction of motion remaining unchanged. The magnitude of the force is:", difficulty: "MEDIUM", explanation: "a = (v - u)/t = (3.5 - 2)/25 = 1.5/25 = 0.06 m/s^2. F = ma = 3 x 0.06 = 0.18 N.", options: opts(1, "0.09 N", "0.18 N", "0.36 N", "0.54 N") },
+              { text: "The linear momentum of a particle varies with time t as p = a + b t, where a and b are constants. Which statement about the force on the particle is correct?", difficulty: "MEDIUM", explanation: "Force F = dp/dt = d(a + bt)/dt = b, a constant. The force acting on the particle is constant and equal to b.", options: opts(2, "The force is zero", "The force varies linearly with time", "The force is constant and equal to b", "The force is proportional to t^2") },
+              { text: "A stone of mass 0.5 kg tied to a string of length 1 m is whirled in a horizontal circle at 4 rad/s. The tension in the string (assuming it stays horizontal) is:", difficulty: "HARD", explanation: "Centripetal force T = m omega^2 r = 0.5 x (4)^2 x 1 = 0.5 x 16 = 8 N.", options: opts(0, "8 N", "4 N", "16 N", "2 N") },
+              { text: "Two blocks of masses 4 kg and 6 kg are placed in contact on a frictionless surface. A horizontal force of 20 N is applied to the 4 kg block, pushing both blocks. The contact force between the two blocks is:", difficulty: "HARD", explanation: "System acceleration a = F/(m1 + m2) = 20/10 = 2 m/s^2. The contact force accelerates the 6 kg block: F_contact = 6 x 2 = 12 N.", options: opts(3, "20 N", "8 N", "10 N", "12 N") },
+              { text: "A machine gun fires 10 bullets per second, each of mass 20 g at a speed of 500 m/s. The force required to hold the gun in position is:", difficulty: "HARD", explanation: "Force = rate of change of momentum = (number per second) x m x v = 10 x 0.02 x 500 = 100 N.", options: opts(2, "50 N", "20 N", "100 N", "1000 N") },
+              { text: "A body is moving in a horizontal circle of radius R with a constant speed. Which quantity is NOT constant during this motion?", difficulty: "HARD", explanation: "In uniform circular motion the speed and kinetic energy are constant, and the magnitude of the acceleration (v^2/R) is constant, but the velocity vector continuously changes direction, so linear momentum (a vector) is not constant.", options: opts(1, "Kinetic energy", "Linear momentum", "Speed", "Magnitude of acceleration") },
+              { text: "A block of mass m slides down a frictionless inclined plane of inclination 30 degrees. Taking g = 10 m/s^2, the acceleration of the block along the incline is:", difficulty: "EASY", explanation: "On a frictionless incline the acceleration is a = g sin theta = 10 x sin 30 = 10 x 0.5 = 5 m/s^2.", options: opts(2, "10 m/s^2", "8.66 m/s^2", "5 m/s^2", "2.5 m/s^2") },
+            ],
+          },
+          {
+            slug: "work-energy-power",
+            name: "Work, Energy and Power",
+            marks: 4,
+            negative: 1,
+            test: { slug: "neet-work-energy-power-practice-1", title: "Work, Energy and Power — Practice Test", description: "15 NEET (Medical) Physics practice questions with full solutions. +4 correct, −1 wrong." },
+            questions: [
+              { text: "A force of 10 N moves a body through a displacement of 5 m, the angle between the force and displacement being 60 degrees. The work done by the force is:", difficulty: "EASY", explanation: "W = F d cos theta = 10 x 5 x cos 60 = 10 x 5 x 0.5 = 25 J.", options: opts(1, "50 J", "25 J", "43.3 J", "12.5 J") },
+              { text: "A body of mass 2 kg moves with a speed of 10 m/s. Its kinetic energy is:", difficulty: "EASY", explanation: "KE = (1/2) m v^2 = (1/2)(2)(10)^2 = 100 J.", options: opts(2, "20 J", "50 J", "100 J", "200 J") },
+              { text: "A spring of force constant 200 N/m is compressed by 0.1 m. The potential energy stored in the spring is:", difficulty: "EASY", explanation: "Elastic PE = (1/2) k x^2 = (1/2)(200)(0.1)^2 = (1/2)(200)(0.01) = 1 J.", options: opts(0, "1 J", "2 J", "10 J", "20 J") },
+              { text: "A pump lifts 100 kg of water per second to a height of 10 m. Taking g = 10 m/s^2, the minimum power of the pump is:", difficulty: "MEDIUM", explanation: "Power = (mgh)/t = (100 x 10 x 10)/1 = 10000 W = 10 kW (mass lifted per second is 100 kg).", options: opts(3, "1 kW", "100 kW", "5 kW", "10 kW") },
+              { text: "A particle of mass 5 kg has a linear momentum of 10 kg m/s. Its kinetic energy is:", difficulty: "MEDIUM", explanation: "KE = p^2/(2m) = (10)^2/(2 x 5) = 100/10 = 10 J.", options: opts(1, "5 J", "10 J", "20 J", "50 J") },
+              { text: "If the momentum of a body is increased by 50%, its kinetic energy increases by:", difficulty: "MEDIUM", explanation: "Since KE is proportional to p^2, new KE ratio = (1.5)^2 = 2.25. So KE increases by 125%.", options: opts(2, "50%", "100%", "125%", "225%") },
+              { text: "A body of mass m is raised to a height h and then dropped. Just before hitting the ground its speed (neglecting air resistance) is:", difficulty: "MEDIUM", explanation: "By conservation of energy, mgh = (1/2) m v^2, so v = sqrt(2 g h). All potential energy converts to kinetic energy.", options: opts(0, "sqrt(2 g h)", "sqrt(g h)", "2 g h", "sqrt(g h / 2)") },
+              { text: "A particle moves under a force F = 3x^2 (in newtons, with x in metres). The work done by this force in moving the particle from x = 0 to x = 2 m is:", difficulty: "HARD", explanation: "W = integral of F dx from 0 to 2 = integral of 3x^2 dx = [x^3] from 0 to 2 = 8 J.", options: opts(3, "12 J", "24 J", "4 J", "8 J") },
+              { text: "In a perfectly elastic head-on collision between two bodies of equal mass, one moving and the other at rest, after collision:", difficulty: "MEDIUM", explanation: "For equal masses in a 1-D elastic collision, the moving body stops and the stationary body moves off with the initial velocity — the velocities are exchanged.", options: opts(1, "Both bodies move with half the initial velocity", "The moving body stops and the other moves with the initial velocity", "Both bodies come to rest", "The moving body rebounds with the same speed") },
+              { text: "Two bodies moving on a frictionless surface collide head-on and stick together in a perfectly inelastic collision. Which quantity of the two-body system is NOT conserved in this collision?", difficulty: "MEDIUM", explanation: "With no external horizontal force, the total linear momentum of the two-body system is conserved, and total energy and total mass are always conserved. However, in a perfectly inelastic collision kinetic energy is not conserved — part of it is converted to heat, sound and deformation.", options: opts(2, "Total momentum of the system", "Total energy of the system", "Kinetic energy", "Total mass") },
+              { text: "A body of mass 1 kg is moving with a velocity given by v = 2t (in m/s, t in seconds). The instantaneous power delivered to the body at t = 2 s is:", difficulty: "HARD", explanation: "Acceleration a = dv/dt = 2 m/s^2, so F = ma = 1 x 2 = 2 N. At t = 2 s, v = 4 m/s. Power P = Fv = 2 x 4 = 8 W.", options: opts(0, "8 W", "4 W", "16 W", "2 W") },
+              { text: "A ball is thrown vertically upward. During its upward journey, the work done by gravity on the ball is:", difficulty: "EASY", explanation: "During upward motion, the displacement is upward while gravity acts downward, so the angle between them is 180 degrees and the work done by gravity is negative.", options: opts(1, "Positive", "Negative", "Zero", "First positive then negative") },
+              { text: "A ball of mass m tied to a string is revolved in a vertical circle of radius r. The minimum speed at the highest point for the string to remain taut is:", difficulty: "HARD", explanation: "At the top, the minimum condition is when tension is zero and gravity alone provides the centripetal force: mg = m v^2/r, giving v = sqrt(g r).", options: opts(2, "sqrt(2 g r)", "sqrt(5 g r)", "sqrt(g r)", "sqrt(3 g r)") },
+              { text: "A body of mass 2 kg is dropped from a height of 20 m. On reaching the ground its kinetic energy is (g = 10 m/s^2, neglect air resistance):", difficulty: "HARD", explanation: "By the work-energy theorem, KE gained = loss in PE = mgh = 2 x 10 x 20 = 400 J.", options: opts(3, "200 J", "40 J", "100 J", "400 J") },
+              { text: "The work done by a conservative force on a body moving around any closed path is:", difficulty: "HARD", explanation: "A defining property of a conservative force (such as gravity or a spring force) is that the total work done over any closed loop is zero, since the work depends only on the endpoints.", options: opts(0, "Zero", "Always positive", "Always negative", "Equal to the change in kinetic energy") },
+            ],
+          },
+        ],
+      },
+      {
+        slug: "chemistry",
+        name: "Chemistry",
+        chapters: [
+          {
+            slug: "some-basic-concepts-of-chemistry",
+            name: "Some Basic Concepts of Chemistry",
+            marks: 4,
+            negative: 1,
+            test: { slug: "neet-basic-concepts-chemistry-practice-1", title: "Some Basic Concepts of Chemistry — Practice Test", description: "15 NEET (Medical) Chemistry practice questions with full solutions. +4 correct, −1 wrong." },
+            questions: [
+              { text: "The number of moles present in 5.85 g of sodium chloride (molar mass = 58.5 g/mol) is:", difficulty: "EASY", explanation: "Moles = mass / molar mass = 5.85 / 58.5 = 0.1 mol.", options: opts(1, "1 mol", "0.1 mol", "0.01 mol", "10 mol") },
+              { text: "How many molecules are present in 0.5 mole of carbon dioxide? (Avogadro number = 6.022 x 10^23 per mol)", difficulty: "EASY", explanation: "Number of molecules = moles x Avogadro number = 0.5 x 6.022 x 10^23 = 3.011 x 10^23.", options: opts(2, "6.022 x 10^23", "1.204 x 10^24", "3.011 x 10^23", "1.505 x 10^23") },
+              { text: "The percentage by mass of oxygen in water (H2O) is approximately:", difficulty: "EASY", explanation: "Mass of O / mass of H2O x 100 = 16 / 18 x 100 = 88.9%.", options: opts(3, "11.1%", "50%", "66.6%", "88.9%") },
+              { text: "The molarity of a solution prepared by dissolving 4 g of NaOH (molar mass = 40 g/mol) in enough water to make 250 mL of solution is:", difficulty: "MEDIUM", explanation: "Moles NaOH = 4/40 = 0.1 mol; Molarity = 0.1 mol / 0.250 L = 0.4 M.", options: opts(0, "0.4 M", "0.1 M", "1.0 M", "0.04 M") },
+              { text: "A compound contains 40% carbon, 6.7% hydrogen and 53.3% oxygen by mass. Its empirical formula is: (atomic masses: C=12, H=1, O=16)", difficulty: "MEDIUM", explanation: "Mole ratio C:H:O = 40/12 : 6.7/1 : 53.3/16 = 3.33 : 6.7 : 3.33 = 1 : 2 : 1, so empirical formula is CH2O.", options: opts(1, "CHO", "CH2O", "C2H4O2", "CH4O") },
+              { text: "The mass of 3.011 x 10^23 atoms of carbon (atomic mass = 12 u) is:", difficulty: "MEDIUM", explanation: "Moles = 3.011 x 10^23 / 6.022 x 10^23 = 0.5 mol; mass = 0.5 x 12 = 6 g.", options: opts(2, "12 g", "3 g", "6 g", "24 g") },
+              { text: "The volume occupied by 0.25 mole of an ideal gas at STP (molar volume = 22.4 L/mol) is:", difficulty: "MEDIUM", explanation: "Volume = moles x molar volume = 0.25 x 22.4 = 5.6 L.", options: opts(3, "22.4 L", "11.2 L", "2.24 L", "5.6 L") },
+              { text: "Which of the following has the largest number of atoms? (atomic/molar masses: H=1, He=4, C=12, O=16)", difficulty: "HARD", explanation: "1 g H2 = 0.5 mol = 1 mol atoms (6.022 x 10^23 atoms); 1 g He = 0.25 mol = 0.25 mol atoms; 1 g CH4 (16 g/mol) = 0.0625 mol x 5 atoms = 0.3125 mol atoms; 1 g O2 = 0.03125 mol x 2 = 0.0625 mol atoms. Hydrogen gas has the most atoms.", options: opts(0, "1 g of H2", "1 g of He", "1 g of CH4", "1 g of O2") },
+              { text: "In the reaction N2 + 3H2 -> 2NH3, if 1 mole of N2 reacts completely with 3 moles of H2, the mass of NH3 produced is: (molar mass NH3 = 17 g/mol)", difficulty: "MEDIUM", explanation: "1 mol N2 gives 2 mol NH3; mass = 2 x 17 = 34 g.", options: opts(1, "17 g", "34 g", "51 g", "68 g") },
+              { text: "The mole fraction of glucose (C6H12O6, molar mass 180 g/mol) in a solution containing 90 g glucose dissolved in 90 g water (molar mass 18 g/mol) is:", difficulty: "HARD", explanation: "Moles glucose = 90/180 = 0.5; moles water = 90/18 = 5; mole fraction of glucose = 0.5 / (0.5 + 5) = 0.5/5.5 = 0.091.", options: opts(2, "0.5", "0.1", "0.091", "0.9") },
+              { text: "A hydrocarbon has an empirical formula CH2 and a molar mass of 42 g/mol. Its molecular formula is: (C=12, H=1)", difficulty: "MEDIUM", explanation: "Empirical formula mass of CH2 = 14; n = 42/14 = 3; molecular formula = C3H6.", options: opts(3, "CH2", "C2H4", "C4H8", "C3H6") },
+              { text: "How many significant figures are present in the measurement 0.00340 kg?", difficulty: "EASY", explanation: "Leading zeros are not significant, but the trailing zero after the decimal is significant. The significant figures are 3, 4 and 0, giving three significant figures.", options: opts(0, "3", "5", "2", "6") },
+              { text: "When 2 moles of H2 gas react with 1 mole of O2 gas to form water, which statement is correct about the limiting reagent? (2H2 + O2 -> 2H2O)", difficulty: "HARD", explanation: "The stoichiometric ratio H2:O2 is 2:1. With exactly 2 mol H2 and 1 mol O2, both are consumed completely and neither is in excess; the reaction is stoichiometric with no limiting reagent left over.", options: opts(1, "H2 is the limiting reagent", "Both react completely; no reagent is left in excess", "O2 is the limiting reagent", "Half of the O2 remains unreacted") },
+              { text: "The number of oxygen atoms present in 88 g of carbon dioxide (molar mass CO2 = 44 g/mol) is:", difficulty: "HARD", explanation: "Moles CO2 = 88/44 = 2; each CO2 has 2 O atoms, so O atoms = 2 x 2 x 6.022 x 10^23 = 2.409 x 10^24.", options: opts(2, "6.022 x 10^23", "1.204 x 10^24", "2.409 x 10^24", "4.818 x 10^24") },
+              { text: "1 L of a 0.5 M solution of H2SO4 is mixed with 1 L of a 0.5 M solution of the same acid. The molarity of the resulting solution (assuming volumes are additive) is:", difficulty: "MEDIUM", explanation: "Total moles = 0.5 + 0.5 = 1.0 mol; total volume = 2 L; molarity = 1.0/2 = 0.5 M (mixing equal molarity solutions of the same solute keeps the concentration unchanged).", options: opts(0, "0.5 M", "1.0 M", "0.25 M", "0.75 M") },
+            ],
+          },
+          {
+            slug: "structure-of-atom",
+            name: "Structure of Atom",
+            marks: 4,
+            negative: 1,
+            test: { slug: "neet-structure-of-atom-practice-1", title: "Structure of Atom — Practice Test", description: "15 NEET (Medical) Chemistry practice questions with full solutions. +4 correct, −1 wrong." },
+            questions: [
+              { text: "The maximum number of electrons that can be accommodated in the shell with principal quantum number n = 3 is:", difficulty: "EASY", explanation: "Maximum electrons in a shell = 2n^2 = 2 x 3^2 = 18.", options: opts(2, "8", "9", "18", "32") },
+              { text: "The number of orbitals present in the n = 3 shell is:", difficulty: "EASY", explanation: "Number of orbitals in a shell = n^2 = 3^2 = 9 (one 3s, three 3p, five 3d).", options: opts(1, "3", "9", "6", "18") },
+              { text: "The azimuthal quantum number (l) for a 3d orbital is:", difficulty: "EASY", explanation: "For d subshells, l = 2 (s = 0, p = 1, d = 2, f = 3).", options: opts(3, "3", "0", "1", "2") },
+              { text: "According to Bohr's model, the energy of an electron in the second orbit (n = 2) of a hydrogen atom is: (E = -13.6/n^2 eV)", difficulty: "MEDIUM", explanation: "E = -13.6 / n^2 = -13.6 / 4 = -3.4 eV.", options: opts(0, "-3.4 eV", "-13.6 eV", "-1.51 eV", "-6.8 eV") },
+              { text: "The de Broglie wavelength of an electron (mass 9.1 x 10^-31 kg) moving with a velocity of 1.0 x 10^6 m/s is approximately: (h = 6.626 x 10^-34 J s)", difficulty: "HARD", explanation: "Lambda = h / (m v) = 6.626 x 10^-34 / (9.1 x 10^-31 x 1.0 x 10^6) = 7.28 x 10^-10 m.", options: opts(2, "7.28 x 10^-7 m", "7.28 x 10^-12 m", "7.28 x 10^-10 m", "3.64 x 10^-10 m") },
+              { text: "The number of radial nodes in a 4s orbital is:", difficulty: "MEDIUM", explanation: "Number of radial nodes = n - l - 1 = 4 - 0 - 1 = 3.", options: opts(1, "0", "3", "4", "1") },
+              { text: "Which set of quantum numbers is NOT permitted for an electron in an atom?", difficulty: "HARD", explanation: "For a given n, l ranges from 0 to n-1. The set n = 2, l = 2 is not allowed because when n = 2 the maximum value of l is 1.", options: opts(3, "n = 3, l = 2, m = -1", "n = 4, l = 0, m = 0", "n = 2, l = 1, m = +1", "n = 2, l = 2, m = 0") },
+              { text: "The ionization energy of the He+ ion (a hydrogen-like species, Z = 2) is: (for hydrogen-like species IE = 13.6 x Z^2 eV)", difficulty: "MEDIUM", explanation: "IE = 13.6 x Z^2 = 13.6 x 4 = 54.4 eV.", options: opts(0, "54.4 eV", "13.6 eV", "27.2 eV", "6.8 eV") },
+              { text: "The number of unpaired electrons in the ground-state Fe3+ ion (atomic number of Fe = 26) is:", difficulty: "HARD", explanation: "Fe is [Ar]3d6 4s2; Fe3+ is [Ar]3d5. The five 3d electrons singly occupy the five d orbitals, giving 5 unpaired electrons.", options: opts(2, "3", "4", "5", "6") },
+              { text: "According to Heisenberg's uncertainty principle, it is impossible to determine simultaneously and exactly the:", difficulty: "MEDIUM", explanation: "The uncertainty principle states that the product of uncertainties in position and momentum is at least h/4pi, so the exact position and momentum (velocity) of an electron cannot be known simultaneously.", options: opts(1, "Charge and mass of an electron", "Position and momentum of an electron", "Energy and charge of an electron", "Mass and spin of an electron") },
+              { text: "The frequency of radiation having a wavelength of 600 nm is: (c = 3 x 10^8 m/s)", difficulty: "MEDIUM", explanation: "Frequency = c / lambda = 3 x 10^8 / (600 x 10^-9) = 5 x 10^14 Hz.", options: opts(3, "5 x 10^12 Hz", "1.8 x 10^15 Hz", "2 x 10^14 Hz", "5 x 10^14 Hz") },
+              { text: "For the electronic transition in a hydrogen atom, the spectral line of the Lyman series is produced when the electron falls to the level with:", difficulty: "MEDIUM", explanation: "The Lyman series arises from transitions ending at n = 1 (the ground level) and lies in the ultraviolet region.", options: opts(0, "n = 1", "n = 2", "n = 3", "n = 4") },
+              { text: "The correct order of increasing energy of the orbitals 4s, 3d and 4p (as per the (n + l) rule) is:", difficulty: "HARD", explanation: "By the (n+l) rule: 4s has n+l = 4, 3d has n+l = 5, 4p has n+l = 5. For equal (n+l) the lower n fills first, so order is 4s < 3d < 4p.", options: opts(1, "3d < 4s < 4p", "4s < 3d < 4p", "4s < 4p < 3d", "3d < 4p < 4s") },
+              { text: "The total number of nodes (radial + angular) present in a 3p orbital is:", difficulty: "HARD", explanation: "Total nodes = n - 1 = 3 - 1 = 2 (one angular node since l = 1, and one radial node since n - l - 1 = 1).", options: opts(2, "0", "1", "2", "3") },
+              { text: "The number of electrons in an atom that can have the quantum numbers n = 4 and l = 1 is:", difficulty: "MEDIUM", explanation: "n = 4, l = 1 corresponds to the 4p subshell, which has three orbitals and can hold a maximum of 6 electrons.", options: opts(3, "2", "10", "14", "6") },
+            ],
+          },
+        ],
+      },
+      {
+        slug: "biology",
+        name: "Biology",
+        chapters: [
+          {
+            slug: "cell-cycle-and-cell-division",
+            name: "Cell Cycle and Cell Division",
+            marks: 4,
+            negative: 1,
+            test: { slug: "neet-cell-cycle-practice-1", title: "Cell Cycle and Cell Division — Practice Test", description: "15 NEET (Medical) Biology practice questions with full solutions. +4 correct, −1 wrong." },
+            questions: [
+              { text: "In which phase of the cell cycle does DNA replication (synthesis of DNA) occur?", difficulty: "EASY", explanation: "The S (synthesis) phase of interphase is when DNA replication occurs, so the amount of DNA per cell doubles from 2C to 4C, though the chromosome number stays the same.", options: opts(1, "G1 phase", "S phase", "G2 phase", "M phase") },
+              { text: "In a typical human cell (24-hour cycle), what is the approximate duration of the M phase?", difficulty: "EASY", explanation: "In a 24-hour human cell cycle, interphase occupies roughly 23 hours while the actual mitotic (M) phase lasts only about 1 hour, showing that division proper is a small fraction of the cycle.", options: opts(0, "About 1 hour", "About 5 hours", "About 10 hours", "About 19 hours") },
+              { text: "During which stage of mitosis do the centromeres split so that sister chromatids separate and move toward opposite poles?", difficulty: "EASY", explanation: "At anaphase the centromeres split, converting each chromosome's two sister chromatids into independent daughter chromosomes that are pulled to opposite poles by shortening spindle fibres.", options: opts(2, "Prophase", "Metaphase", "Anaphase", "Telophase") },
+              { text: "In which sub-stage of prophase I of meiosis does crossing over (exchange of segments between non-sister chromatids) take place?", difficulty: "MEDIUM", explanation: "Crossing over occurs during pachytene, when the enzyme recombinase mediates exchange of segments between non-sister chromatids of homologous chromosomes in the bivalent.", options: opts(2, "Leptotene", "Zygotene", "Pachytene", "Diplotene") },
+              { text: "Synapsis — the pairing of homologous chromosomes — begins and the synaptonemal complex starts to form during which sub-stage of prophase I?", difficulty: "MEDIUM", explanation: "Pairing (synapsis) of homologous chromosomes begins in zygotene, where the synaptonemal complex starts to form as the homologues come together to make bivalents (tetrads); the complex is completed in pachytene.", options: opts(1, "Leptotene", "Zygotene", "Pachytene", "Diakinesis") },
+              { text: "If a diploid cell has 24 chromosomes, how many chromosomes will be present in each cell at the end of meiosis I?", difficulty: "MEDIUM", explanation: "Meiosis I is the reductional division: homologous chromosomes separate, halving the chromosome number, so 24 becomes 12 (each still with two sister chromatids until meiosis II).", options: opts(1, "24", "12", "48", "6") },
+              { text: "Cytokinesis in a plant cell differs from that in an animal cell mainly because plant cells:", difficulty: "MEDIUM", explanation: "Because of the rigid cell wall, plant cells cannot form a cleavage furrow; instead a cell plate forms in the centre and grows outward toward the parent wall to separate the daughter cells.", options: opts(1, "Divide by a cleavage furrow from the periphery inward", "Form a cell plate that grows from the centre toward the wall", "Do not undergo cytokinesis at all", "Separate cytoplasm only by constriction of the plasma membrane") },
+              { text: "A cell in the G2 phase of a diploid organism has how much DNA content relative to a cell in G1 phase?", difficulty: "MEDIUM", explanation: "DNA is replicated in S phase, so a G2 cell has double the DNA of a G1 cell (4C vs 2C), even though the chromosome number is unchanged.", options: opts(2, "Half (0.5C of G1)", "Equal (same as G1)", "Double (twice that of G1)", "Four times that of G1") },
+              { text: "The point at which the cell cycle is arrested if conditions are unfavourable, allowing cells to enter a quiescent stage (G0), lies at the end of which phase?", difficulty: "HARD", explanation: "The major restriction/check point is late in G1; cells that do not proceed past it may exit the cycle into the quiescent G0 stage, remaining metabolically active but non-dividing (e.g., mature neurons).", options: opts(0, "G1 phase", "S phase", "G2 phase", "M phase") },
+              { text: "During anaphase I of meiosis, what exactly moves to the opposite poles?", difficulty: "HARD", explanation: "In anaphase I the centromeres do NOT split; instead entire homologous chromosomes (each still made of two sister chromatids) are separated and move to opposite poles, achieving reduction of chromosome number.", options: opts(1, "Sister chromatids, after centromere splitting", "Whole homologous chromosomes, each with two chromatids, centromeres intact", "Single chromatids without centromeres", "Bivalents without any separation") },
+              { text: "Terminalization of chiasmata is a characteristic event of which sub-stage of prophase I?", difficulty: "HARD", explanation: "During diakinesis the chiasmata move toward the ends of the chromosomes (terminalization), the nucleolus disappears and the meiotic spindle assembles, marking the end of prophase I.", options: opts(2, "Pachytene", "Diplotene", "Diakinesis", "Zygotene") },
+              { text: "A cell undergoes meiosis to produce four functional gametes. If the parent cell had 20 chromosomes, the total number of chromosomes present collectively in all four daughter cells is:", difficulty: "HARD", explanation: "Each of the four haploid gametes has 20/2 = 10 chromosomes, so collectively the four cells contain 4 × 10 = 40 chromosomes.", options: opts(1, "80", "40", "20", "10") },
+              { text: "Which statement correctly distinguishes the metaphase plate arrangement in mitosis from that in meiosis I?", difficulty: "HARD", explanation: "In mitotic metaphase each chromosome aligns singly at the equator, whereas in metaphase I of meiosis the homologous pairs (bivalents/tetrads) align at the equatorial plate, which underlies independent assortment.", options: opts(1, "In mitosis, bivalents line up; in meiosis I, single chromosomes line up", "In mitosis, individual chromosomes align on the equator; in meiosis I, paired homologues (bivalents) align on the equator", "Both align individual chromatids only", "Neither forms any metaphase plate") },
+              { text: "Quiescent centre cells and mature neurons that never divide again are examples of cells that have permanently entered which stage?", difficulty: "MEDIUM", explanation: "Cells that stop dividing exit the cycle into the G0 stage; certain differentiated cells such as mature neurons remain in G0 and do not re-enter the cell cycle.", options: opts(2, "G1 phase", "S phase", "G0 (quiescent) stage", "G2 phase") },
+              { text: "Meiosis is significant for sexually reproducing organisms mainly because it:", difficulty: "EASY", explanation: "By halving the chromosome number in gametes, meiosis ensures the diploid number is restored (and kept constant) at fertilisation, while crossing over and independent assortment generate genetic variation.", options: opts(1, "Doubles the chromosome number in gametes", "Keeps the chromosome number constant across generations and generates genetic variation", "Produces genetically identical daughter cells", "Occurs in somatic cells to repair tissues") },
+            ],
+          },
+          {
+            slug: "biological-classification",
+            name: "Biological Classification",
+            marks: 4,
+            negative: 1,
+            test: { slug: "neet-biological-classification-practice-1", title: "Biological Classification — Practice Test", description: "15 NEET (Medical) Biology practice questions with full solutions. +4 correct, −1 wrong." },
+            questions: [
+              { text: "The five-kingdom system of classification was proposed by:", difficulty: "EASY", explanation: "R. H. Whittaker (1969) proposed the five-kingdom classification—Monera, Protista, Fungi, Plantae and Animalia—based on cell structure, body organisation, mode of nutrition, reproduction and phylogenetic relationships.", options: opts(1, "Carolus Linnaeus", "R. H. Whittaker", "Ernst Haeckel", "Robert Hooke") },
+              { text: "Which of the following is the sole kingdom composed entirely of prokaryotic organisms?", difficulty: "EASY", explanation: "Kingdom Monera includes all bacteria (including archaebacteria and cyanobacteria), which are prokaryotes lacking a true membrane-bound nucleus and organelles; the other four kingdoms are eukaryotic.", options: opts(2, "Protista", "Fungi", "Monera", "Plantae") },
+              { text: "Chemosynthetic autotrophic bacteria are important in agriculture because they:", difficulty: "MEDIUM", explanation: "Chemosynthetic autotrophic bacteria oxidise inorganic substances (e.g., ammonia to nitrite, nitrite to nitrate) and use the released energy for ATP production, playing a key role in recycling nutrients such as nitrogen, phosphorus, iron and sulphur.", options: opts(1, "Fix atmospheric carbon dioxide using sunlight", "Oxidise inorganic substances and recycle nutrients like nitrogen, phosphorus and iron", "Cause decay of dead organic matter only", "Produce methane in marshy areas") },
+              { text: "Which group of organisms possesses a cell wall made of cellulose and silica, and forms diatomaceous earth?", difficulty: "MEDIUM", explanation: "Diatoms (chrysophytes) have indestructible cell walls of two overlapping silica-embedded shells (frustules); accumulation of these walls over billions of years forms the abrasive material called diatomaceous earth.", options: opts(1, "Dinoflagellates", "Diatoms (Chrysophytes)", "Euglenoids", "Slime moulds") },
+              { text: "The 'red tides' seen in the sea are caused by rapid multiplication of red-pigmented members of which protistan group?", difficulty: "MEDIUM", explanation: "Dinoflagellates such as red-coloured Gonyaulax can multiply so rapidly that the sea appears red (red tide); toxins released by such blooms may kill fish and other marine animals.", options: opts(2, "Diatoms", "Euglenoids", "Dinoflagellates", "Slime moulds") },
+              { text: "Euglenoids are unusual protists because, although they lack a cell wall, they have:", difficulty: "MEDIUM", explanation: "Euglenoids (e.g., Euglena) lack a cell wall but have a protein-rich, flexible layer called the pellicle that makes their body flexible; they are also mixotrophic—photosynthetic in light but heterotrophic in its absence.", options: opts(1, "A silica frustule", "A protein-rich flexible layer called pellicle", "A chitinous exoskeleton", "A cellulose theca") },
+              { text: "In which kingdom are the slime moulds (e.g., Physarum) placed in Whittaker's five-kingdom system?", difficulty: "MEDIUM", explanation: "Slime moulds are saprophytic protists placed in Kingdom Protista; under suitable conditions they form an aggregation called plasmodium, and spores with true walls form during unfavourable conditions.", options: opts(1, "Monera", "Protista", "Fungi", "Animalia") },
+              { text: "The mode of nutrition in which fungi absorb soluble organic matter from dead and decaying substrates is called:", difficulty: "EASY", explanation: "Fungi are heterotrophs that obtain nutrition by absorption; those that live on dead organic matter are saprophytes, while those living on living hosts are parasites, and some live in mutualistic associations.", options: opts(1, "Photosynthetic", "Saprophytic (heterotrophic by absorption)", "Chemosynthetic", "Holozoic") },
+              { text: "Which class of fungi is commonly called 'sac-fungi' and includes Penicillium, yeast (Saccharomyces) and morels?", difficulty: "HARD", explanation: "Ascomycetes are the sac-fungi in which sexual spores called ascospores are produced endogenously in sac-like asci; examples include Penicillium, Aspergillus, Saccharomyces (yeast) and morels (Morchella).", options: opts(1, "Phycomycetes", "Ascomycetes", "Basidiomycetes", "Deuteromycetes") },
+              { text: "Puccinia, the rust fungus causing wheat rust, belongs to which class of fungi?", difficulty: "HARD", explanation: "Puccinia (rusts), along with mushrooms (Agaricus), bracket fungi and smuts (Ustilago), belongs to Basidiomycetes, in which sexual spores (basidiospores) are produced exogenously on club-shaped basidia.", options: opts(2, "Ascomycetes", "Phycomycetes", "Basidiomycetes", "Deuteromycetes") },
+              { text: "Deuteromycetes are called 'imperfect fungi' (Fungi Imperfecti) mainly because:", difficulty: "HARD", explanation: "Deuteromycetes are termed imperfect fungi because only their asexual (conidia) or vegetative stages are known; when the sexual stage of a member is later discovered, it is reclassified into Ascomycetes or Basidiomycetes.", options: opts(1, "They lack a cell wall", "Only their asexual or vegetative phases are known", "They are all obligate parasites", "They are prokaryotic") },
+              { text: "Viruses are not included in any of the five kingdoms mainly because they:", difficulty: "MEDIUM", explanation: "Viruses are non-cellular entities consisting of a nucleic acid core (DNA or RNA) enclosed in a protein coat; they are inert (crystallisable) outside a host and can multiply only inside a living host cell, so they are excluded from the five kingdoms.", options: opts(1, "Are made only of proteins", "Are non-cellular, obligate intracellular parasites that are inert outside a host cell", "Have a true nucleus", "Can grow on non-living culture media") },
+              { text: "In the genetic material of viruses, which of the following statements is correct?", difficulty: "HARD", explanation: "A virus contains either DNA or RNA (never both); plant viruses generally have single-stranded RNA, while animal viruses have single- or double-stranded RNA or double-stranded DNA, and bacteriophages usually carry double-stranded DNA.", options: opts(1, "All viruses contain both DNA and RNA", "Plant viruses usually have single-stranded RNA and most animal viruses have single or double-stranded DNA or RNA", "Bacteriophages always contain RNA only", "Viruses never contain double-stranded nucleic acid") },
+              { text: "Lichens are considered excellent indicators of pollution because:", difficulty: "MEDIUM", explanation: "Lichens are symbiotic associations of algae (phycobiont) and fungi (mycobiont) that are very sensitive to atmospheric pollutants such as sulphur dioxide; because they do not grow in polluted areas, their presence indicates clean air.", options: opts(1, "They grow rapidly in polluted cities", "They do not grow in polluted areas (they are sensitive to SO2 pollution)", "They only grow on polluted water", "They release toxins in clean air") },
+              { text: "Which of the following correctly describes archaebacteria?", difficulty: "HARD", explanation: "Archaebacteria (halophiles, thermoacidophiles, methanogens) live in the most extreme habitats; their special cell wall structure, differing from other bacteria, is responsible for their survival in such harsh conditions.", options: opts(1, "They are eukaryotes with a nuclear membrane", "They have a distinctive cell wall structure that helps them survive extreme habitats such as salty, hot or marshy areas", "They are all photosynthetic autotrophs", "They lack any cell membrane") },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+];
+
 async function main() {
   // 1) Exam catalogue (single source of truth: src/lib/exams.ts).
   for (const [i, e] of examCatalogue.entries()) {
@@ -2167,7 +2505,7 @@ async function main() {
   // 2) Content — only seeds questions for a chapter that has none yet (preserves real attempts).
   let created = 0;
   let skipped = 0;
-  for (const ec of [...content, ...moreContent, ...wave3, ...wave4, ...wave5, ...wave6, ...wave7]) {
+  for (const ec of [...content, ...moreContent, ...wave3, ...wave4, ...wave5, ...wave6, ...wave7, ...wave8]) {
     const exam = await prisma.exam.findUniqueOrThrow({ where: { slug: ec.examSlug } });
     for (const [si, sc] of ec.subjects.entries()) {
       const subject = await prisma.subject.upsert({
@@ -2266,7 +2604,7 @@ async function main() {
     const neg = s.questions.some((q) => q.negativeMarks > 0);
     const section = await prisma.mockTest.upsert({
       where: { examId_slug: { examId: s.examId, slug } },
-      update: { title: `${s.name} — Full Section Test`, totalMarks, durationMinutes: Math.max(10, Math.ceil(s.questions.length * 1.2)), negativeMarking: neg },
+      update: { title: `${s.name} — Full Section Test`, description: `All ${s.questions.length} ${s.name} questions in one timed section test.`, totalMarks, durationMinutes: Math.max(10, Math.ceil(s.questions.length * 1.2)), negativeMarking: neg },
       create: {
         examId: s.examId,
         slug,
@@ -2281,6 +2619,75 @@ async function main() {
     });
     await prisma.testQuestion.deleteMany({ where: { mockTestId: section.id } });
     await prisma.testQuestion.createMany({ data: s.questions.map((q, i) => ({ mockTestId: section.id, questionId: q.id, order: i })) });
+  }
+
+  // 3.6) Full-length GRAND mock exams — one exam-pattern paper mixing every subject.
+  //      Identified by the "-full-mock" slug; unlocked in the UI after chapter practice.
+  const grandMocks = [
+    {
+      examSlug: "ssc-cgl",
+      slug: "ssc-cgl-full-mock-1",
+      title: "SSC CGL Tier 1 — Full Mock Test",
+      description: "Full-length exam-pattern mock — Quant, Reasoning, English & General Awareness in one timed paper. +2 correct, −0.5 wrong.",
+      durationMinutes: 60,
+      perSubject: 25,
+      minQuestions: 100,
+    },
+    {
+      examSlug: "jee",
+      slug: "jee-full-mock-1",
+      title: "JEE Main — Full Mock Test",
+      description: "Full-length exam-pattern mock — Physics, Chemistry & Mathematics in one timed paper. +4 correct, −1 wrong.",
+      durationMinutes: 180,
+      perSubject: 25,
+      minQuestions: 75,
+    },
+    {
+      examSlug: "neet",
+      slug: "neet-full-mock-1",
+      title: "NEET — Full Mock Test",
+      description: "Full-length exam-pattern mock — Physics, Chemistry & Biology in one timed paper. +4 correct, −1 wrong.",
+      durationMinutes: 180,
+      perSubject: 30,
+      minQuestions: 90,
+    },
+  ];
+  for (const gm of grandMocks) {
+    const exam = await prisma.exam.findUnique({ where: { slug: gm.examSlug } });
+    if (!exam) continue;
+    // Pull a balanced slice from each subject (deterministic: earliest questions).
+    const subs = await prisma.subject.findMany({
+      where: { examId: exam.id },
+      select: {
+        id: true,
+        questions: {
+          select: { id: true, marks: true, negativeMarks: true },
+          orderBy: { id: "asc" },
+          take: gm.perSubject,
+        },
+      },
+    });
+    const picked = subs.flatMap((s) => s.questions);
+    if (picked.length < gm.minQuestions) continue; // not enough content yet — skip quietly
+    const totalMarks = picked.reduce((a, q) => a + q.marks, 0);
+    const neg = picked.some((q) => q.negativeMarks > 0);
+    const mock = await prisma.mockTest.upsert({
+      where: { examId_slug: { examId: exam.id, slug: gm.slug } },
+      update: { title: gm.title, description: gm.description, totalMarks, durationMinutes: gm.durationMinutes, negativeMarking: neg },
+      create: {
+        examId: exam.id,
+        slug: gm.slug,
+        title: gm.title,
+        description: gm.description,
+        type: "FULL",
+        durationMinutes: gm.durationMinutes,
+        totalMarks,
+        negativeMarking: neg,
+        isFree: true,
+      },
+    });
+    await prisma.testQuestion.deleteMany({ where: { mockTestId: mock.id } });
+    await prisma.testQuestion.createMany({ data: picked.map((q, i) => ({ mockTestId: mock.id, questionId: q.id, order: i })) });
   }
 
   // 4) Benchmark cohort — gives every LIVE test a realistic rank/percentile baseline

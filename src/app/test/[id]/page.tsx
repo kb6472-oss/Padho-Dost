@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import { prisma } from "@/lib/prisma";
+import { getSessionUser } from "@/lib/auth";
+import { getFullMockUnlock, isGrandMock } from "@/lib/full-mock";
 import TestRunner, { type RunnerTest } from "@/components/TestRunner";
 
 type Props = { params: Promise<{ id: string }> };
@@ -14,6 +16,7 @@ export default async function TestPage({ params }: Props) {
   const test = await prisma.mockTest.findUnique({
     where: { id },
     include: {
+      exam: { select: { slug: true } },
       questions: {
         orderBy: { order: "asc" },
         include: {
@@ -32,6 +35,13 @@ export default async function TestPage({ params }: Props) {
   });
 
   if (!test || test.questions.length === 0) notFound();
+
+  // Full-length mocks unlock only after the student clears some chapter practice.
+  if (isGrandMock(test.slug)) {
+    const su = await getSessionUser();
+    const unlock = await getFullMockUnlock(su?.id ?? null, test.examId);
+    if (!unlock.unlocked) redirect(`/exams/${test.exam.slug}`);
+  }
 
   const runnerTest: RunnerTest = {
     id: test.id,

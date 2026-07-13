@@ -16,6 +16,7 @@ const columns = [
       { label: "Mock Tests", href: "/exams" },
       { label: "Visual Explainers", href: "/study" },
       { label: "Daily Challenge", href: "/daily" },
+      { label: "Daily GK", href: "/gk" },
       { label: "Leaderboard", href: "/leaderboard" },
       { label: "Rank Predictor", href: "/predictor" },
       { label: "Exam Calendar", href: "/exam-calendar" },

@@ -53,13 +53,19 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.7,
   }));
 
-  // The last 7 days of the (dated, indexable) Daily Challenge.
+  // The last 7 days of the (dated, indexable) Daily Challenge + Daily GK.
   const dailyRoutes: MetadataRoute.Sitemap = Array.from({ length: 7 }, (_, i) => ({
     url: `${BASE}/daily/${istDateKey(-i)}`,
     lastModified: now,
     changeFrequency: "daily",
     priority: 0.5,
   }));
+  const gkRoutes: MetadataRoute.Sitemap = Array.from({ length: 7 }, (_, i) => ({
+    url: `${BASE}/gk/${istDateKey(-i)}`,
+    lastModified: now,
+    changeFrequency: "daily",
+    priority: 0.5,
+  }));
 
-  return [...staticRoutes, ...examRoutes, ...explainerRoutes, ...dailyRoutes];
+  return [...staticRoutes, ...examRoutes, ...explainerRoutes, ...dailyRoutes, ...gkRoutes];
 }

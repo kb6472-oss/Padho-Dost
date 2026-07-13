@@ -118,9 +118,12 @@ export default async function ExamDetailPage({ params }: Props) {
   if (!exam) notFound();
 
   const tests = exam.mockTests;
-  const fullMocks = tests.filter((t) => isGrandMock(t.slug));
-  const sectionTests = tests.filter((t) => isSectionTest(t.slug));
-  const chapterTests = tests.filter((t) => !isGrandMock(t.slug) && !isSectionTest(t.slug));
+  const pyqTests = tests.filter((t) => t.type === "PYQ");
+  const fullMocks = tests.filter((t) => t.type !== "PYQ" && isGrandMock(t.slug));
+  const sectionTests = tests.filter((t) => t.type !== "PYQ" && isSectionTest(t.slug));
+  const chapterTests = tests.filter(
+    (t) => t.type !== "PYQ" && !isGrandMock(t.slug) && !isSectionTest(t.slug),
+  );
 
   const su = fullMocks.length > 0 ? await getSessionUser() : null;
   const unlock = fullMocks.length > 0 ? await getFullMockUnlock(su?.id ?? null, exam.id) : null;
@@ -201,6 +204,21 @@ export default async function ExamDetailPage({ params }: Props) {
               <div className="mt-4 space-y-3">
                 {fullMocks.map((test) => (
                   <FullMockCard key={test.id} test={test} unlock={unlock} />
+                ))}
+              </div>
+            </section>
+          )}
+
+          {/* Previous Year Papers (PYQ) — populated from real past papers */}
+          {pyqTests.length > 0 && (
+            <section className="mt-10">
+              <h2 className="font-display text-lg font-bold text-foreground">📄 Previous Year Papers</h2>
+              <p className="mt-1 text-sm text-muted">
+                Actual past-exam papers with full solutions — the closest thing to the real exam.
+              </p>
+              <div className="mt-4 space-y-3">
+                {pyqTests.map((test) => (
+                  <TestCard key={test.id} test={test} />
                 ))}
               </div>
             </section>

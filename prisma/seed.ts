@@ -3291,6 +3291,165 @@ const wave10: ExamContent[] = [
   },
 ];
 
+// wave11 — evergreen static-GK bank (SSC General Awareness) → also powers Daily GK.
+const wave11: ExamContent[] = [
+  {
+    examSlug: "ssc-cgl",
+    subjects: [
+      {
+        slug: "general-awareness",
+        name: "General Awareness",
+        chapters: [
+          {
+            slug: "economy-banking-gk",
+            name: "Indian Economy & Banking Awareness",
+            marks: 2,
+            negative: 0.5,
+            test: { slug: "economy-banking-gk-practice-1", title: "Indian Economy & Banking Awareness — Practice Test", description: "15 evergreen General Awareness questions with full solutions. +2 correct, -0.5 wrong." },
+            questions: [
+              { text: "In which year was the Reserve Bank of India (RBI) established?", difficulty: "EASY", explanation: "The Reserve Bank of India was established on 1 April 1935 under the RBI Act, 1934.", options: opts(0, "1935", "1947", "1950", "1969") },
+              { text: "Where is the headquarters of the Reserve Bank of India located?", difficulty: "EASY", explanation: "The RBI's central office has been located in Mumbai since 1937.", options: opts(2, "New Delhi", "Kolkata", "Mumbai", "Chennai") },
+              { text: "Which is the largest public sector bank in India?", difficulty: "MEDIUM", explanation: "The State Bank of India (SBI), formed in 1955, is the largest public sector bank in India by assets and branches.", options: opts(3, "Punjab National Bank", "Bank of Baroda", "Canara Bank", "State Bank of India") },
+              { text: "NABARD, the apex body for agriculture and rural credit, was established in which year?", difficulty: "MEDIUM", explanation: "The National Bank for Agriculture and Rural Development (NABARD) was set up on 12 July 1982.", options: opts(2, "1969", "1975", "1982", "1991") },
+              { text: "What is the financial (fiscal) year followed in India?", difficulty: "EASY", explanation: "India's financial year runs from 1 April to 31 March.", options: opts(1, "January to December", "April to March", "July to June", "October to September") },
+              { text: "Which body is the regulator of the securities and stock market in India?", difficulty: "MEDIUM", explanation: "The Securities and Exchange Board of India (SEBI) regulates the securities market; it gained statutory status in 1992.", options: opts(0, "SEBI", "RBI", "IRDAI", "NABARD") },
+              { text: "Who was the first Indian Governor of the Reserve Bank of India?", difficulty: "HARD", explanation: "C. D. Deshmukh became the first Indian Governor of the RBI in 1943; Sir Osborne Smith was the first Governor overall.", options: opts(1, "Osborne Smith", "C. D. Deshmukh", "Benegal Rama Rau", "C. Rangarajan") },
+              { text: "The term 'repo rate' refers to the rate at which:", difficulty: "EASY", explanation: "The repo rate is the rate at which the RBI lends short-term funds to commercial banks against securities.", options: opts(3, "Banks pay interest on savings deposits", "Banks lend money to customers", "The government borrows from the public", "The RBI lends money to commercial banks") },
+              { text: "Which is the oldest stock exchange in Asia?", difficulty: "MEDIUM", explanation: "The Bombay Stock Exchange (BSE), established in 1875, is the oldest stock exchange in Asia.", options: opts(1, "National Stock Exchange", "Bombay Stock Exchange", "Calcutta Stock Exchange", "Madras Stock Exchange") },
+              { text: "'Sensex' is the benchmark index of which stock exchange?", difficulty: "MEDIUM", explanation: "The Sensex tracks 30 companies listed on the Bombay Stock Exchange (BSE); the Nifty is the NSE's index.", options: opts(2, "NSE", "MCX", "BSE", "NCDEX") },
+              { text: "How many major commercial banks were nationalised in India in 1969?", difficulty: "HARD", explanation: "Fourteen major commercial banks were nationalised on 19 July 1969; another six were nationalised in 1980.", options: opts(2, "6", "8", "14", "20") },
+              { text: "The Goods and Services Tax (GST) came into effect in India on 1 July of which year?", difficulty: "MEDIUM", explanation: "GST, described as 'One Nation, One Tax', was rolled out across India on 1 July 2017.", options: opts(3, "2014", "2015", "2016", "2017") },
+              { text: "Who designed the symbol of the Indian Rupee (₹)?", difficulty: "HARD", explanation: "The Indian Rupee symbol (₹), adopted in 2010, was designed by D. Udaya Kumar.", options: opts(1, "Nandan Nilekani", "D. Udaya Kumar", "Raghuram Rajan", "Bibek Debroy") },
+              { text: "NITI Aayog, which replaced the Planning Commission, was established in which year?", difficulty: "EASY", explanation: "NITI Aayog (National Institution for Transforming India) was established on 1 January 2015.", options: opts(3, "2012", "2013", "2014", "2015") },
+              { text: "The 'White Revolution' in India is associated with increased production of:", difficulty: "MEDIUM", explanation: "The White Revolution, led by Verghese Kurien through Operation Flood, boosted milk production in India.", options: opts(0, "Milk", "Wheat", "Fish", "Eggs") },
+            ],
+          },
+          {
+            slug: "books-awards-gk",
+            name: "Books, Authors & Awards",
+            marks: 2,
+            negative: 0.5,
+            test: { slug: "books-awards-gk-practice-1", title: "Books, Authors & Awards — Practice Test", description: "15 evergreen General Awareness questions with full solutions. +2 correct, -0.5 wrong." },
+            questions: [
+              { text: "'The Discovery of India' was written by which leader?", difficulty: "EASY", explanation: "'The Discovery of India' was written by Jawaharlal Nehru while he was imprisoned at Ahmednagar Fort.", options: opts(1, "Mahatma Gandhi", "Jawaharlal Nehru", "B. R. Ambedkar", "Sardar Vallabhbhai Patel") },
+              { text: "The book 'Wings of Fire' is the autobiography of:", difficulty: "EASY", explanation: "'Wings of Fire' is the autobiography of A. P. J. Abdul Kalam, co-written with Arun Tiwari.", options: opts(0, "A. P. J. Abdul Kalam", "Vikram Sarabhai", "Homi Bhabha", "C. V. Raman") },
+              { text: "Rabindranath Tagore was awarded the Nobel Prize in Literature for which work?", difficulty: "MEDIUM", explanation: "Rabindranath Tagore won the Nobel Prize in Literature in 1913 for 'Gitanjali', becoming the first Asian Nobel laureate.", options: opts(3, "Gora", "Chokher Bali", "The Home and the World", "Gitanjali") },
+              { text: "'The Story of My Experiments with Truth' is the autobiography of:", difficulty: "EASY", explanation: "This autobiography was written by Mahatma Gandhi, originally in Gujarati.", options: opts(1, "Jawaharlal Nehru", "Mahatma Gandhi", "Subhas Chandra Bose", "Lala Lajpat Rai") },
+              { text: "The ancient treatise 'Arthashastra' on statecraft and economics was written by:", difficulty: "MEDIUM", explanation: "The 'Arthashastra' was written by Chanakya (also known as Kautilya or Vishnugupta), the minister of Chandragupta Maurya.", options: opts(2, "Kalidasa", "Panini", "Chanakya (Kautilya)", "Vishnu Sharma") },
+              { text: "What is the highest civilian award of India?", difficulty: "EASY", explanation: "The Bharat Ratna is the highest civilian award of India, followed by the Padma awards.", options: opts(2, "Padma Vibhushan", "Padma Bhushan", "Bharat Ratna", "Padma Shri") },
+              { text: "The Param Vir Chakra is India's highest award for:", difficulty: "MEDIUM", explanation: "The Param Vir Chakra is India's highest military decoration awarded for gallantry during wartime.", options: opts(3, "Literature", "Science", "Sports", "Wartime gallantry (military)") },
+              { text: "The Dadasaheb Phalke Award is given for excellence in the field of:", difficulty: "MEDIUM", explanation: "The Dadasaheb Phalke Award is India's highest honour in the field of cinema.", options: opts(2, "Literature", "Music", "Cinema", "Sports") },
+              { text: "The Jnanpith Award, India's highest literary honour, is given for contributions to:", difficulty: "HARD", explanation: "The Jnanpith Award is conferred for outstanding contributions to literature in Indian languages.", options: opts(1, "Journalism", "Literature", "Painting", "Theatre") },
+              { text: "The Arjuna Award in India is associated with which field?", difficulty: "MEDIUM", explanation: "The Arjuna Award is given to recognise outstanding achievement in national sports.", options: opts(0, "Sports", "Agriculture", "Music", "Science") },
+              { text: "The Nobel Prize is NOT awarded in which of the following fields?", difficulty: "EASY", explanation: "There is no Nobel Prize in Mathematics; the highest honour in mathematics is the Fields Medal.", options: opts(2, "Physics", "Literature", "Mathematics", "Peace") },
+              { text: "The epic novel 'War and Peace' was written by:", difficulty: "MEDIUM", explanation: "'War and Peace' was written by the Russian author Leo Tolstoy.", options: opts(0, "Leo Tolstoy", "Fyodor Dostoevsky", "Anton Chekhov", "Maxim Gorky") },
+              { text: "The Sanskrit works 'Abhijnanasakuntalam' and 'Meghaduta' were composed by:", difficulty: "HARD", explanation: "Both 'Abhijnanasakuntalam' and 'Meghaduta' were composed by the classical Sanskrit poet Kalidasa.", options: opts(1, "Jayadeva", "Kalidasa", "Banabhatta", "Bhasa") },
+              { text: "'A Brief History of Time' was authored by:", difficulty: "MEDIUM", explanation: "'A Brief History of Time', a popular book on cosmology, was written by physicist Stephen Hawking.", options: opts(3, "Carl Sagan", "Isaac Newton", "Albert Einstein", "Stephen Hawking") },
+              { text: "The book 'Das Kapital', a foundational text of communism, was written by:", difficulty: "HARD", explanation: "'Das Kapital' was written by Karl Marx, with later volumes edited by Friedrich Engels.", options: opts(3, "Friedrich Engels", "Vladimir Lenin", "Adam Smith", "Karl Marx") },
+            ],
+          },
+          {
+            slug: "sports-gk",
+            name: "Sports & Games GK",
+            marks: 2,
+            negative: 0.5,
+            test: { slug: "sports-gk-practice-1", title: "Sports & Games GK — Practice Test", description: "15 evergreen General Awareness questions with full solutions. +2 correct, -0.5 wrong." },
+            questions: [
+              { text: "With how many players per side is a standard cricket match played?", difficulty: "EASY", explanation: "A cricket team fields 11 players per side.", options: opts(2, "9", "10", "11", "12") },
+              { text: "The Ranji Trophy is associated with which sport in India?", difficulty: "EASY", explanation: "The Ranji Trophy is India's premier domestic first-class cricket championship, named after Ranjitsinhji.", options: opts(0, "Cricket", "Hockey", "Football", "Badminton") },
+              { text: "The Thomas Cup is a men's international team championship in which sport?", difficulty: "MEDIUM", explanation: "The Thomas Cup is the premier men's international team badminton tournament.", options: opts(1, "Table tennis", "Badminton", "Tennis", "Squash") },
+              { text: "How many players are there in each team in a game of kabaddi?", difficulty: "MEDIUM", explanation: "A kabaddi team has seven players on the court at a time.", options: opts(2, "5", "6", "7", "9") },
+              { text: "The term 'bull's eye' is associated with which sport?", difficulty: "EASY", explanation: "'Bull's eye' refers to the centre of the target in archery and shooting/darts.", options: opts(3, "Boxing", "Wrestling", "Swimming", "Archery") },
+              { text: "In which city were the first modern Olympic Games held in 1896?", difficulty: "MEDIUM", explanation: "The first modern Olympic Games were held in Athens, Greece, in 1896.", options: opts(1, "Paris", "Athens", "London", "Rome") },
+              { text: "The Davis Cup is associated with which sport?", difficulty: "MEDIUM", explanation: "The Davis Cup is the premier international team event in men's tennis.", options: opts(0, "Tennis", "Golf", "Cricket", "Polo") },
+              { text: "How many rings are there on the Olympic flag?", difficulty: "EASY", explanation: "The Olympic flag has five interlocking rings representing the five inhabited continents.", options: opts(2, "Three", "Four", "Five", "Six") },
+              { text: "The Santosh Trophy is contested in which sport in India?", difficulty: "MEDIUM", explanation: "The Santosh Trophy is a football competition contested by state and government institution teams in India.", options: opts(3, "Cricket", "Hockey", "Kabaddi", "Football") },
+              { text: "The term 'grandmaster' is a title associated with which game?", difficulty: "EASY", explanation: "Grandmaster is the highest title awarded to a chess player by FIDE, the world chess body.", options: opts(1, "Bridge", "Chess", "Carrom", "Snooker") },
+              { text: "How many players are there on each side in a standard football (soccer) team?", difficulty: "EASY", explanation: "A football team fields eleven players, including the goalkeeper.", options: opts(2, "9", "10", "11", "13") },
+              { text: "The Wimbledon championship, one of tennis's Grand Slams, is played on which surface?", difficulty: "HARD", explanation: "Wimbledon is the only Grand Slam tennis tournament played on grass courts.", options: opts(0, "Grass", "Clay", "Hard court", "Synthetic") },
+              { text: "The Dronacharya Award in India is given for excellence in which field?", difficulty: "MEDIUM", explanation: "The Dronacharya Award is conferred on outstanding coaches in sports and games.", options: opts(3, "Best player", "Sports journalism", "Lifetime administration", "Coaching") },
+              { text: "In which sport is the 'Duckworth-Lewis method' used?", difficulty: "HARD", explanation: "The Duckworth-Lewis (now DLS) method is used to reset targets in rain-affected limited-overs cricket matches.", options: opts(1, "Hockey", "Cricket", "Baseball", "Tennis") },
+              { text: "A 'love' score of zero is a term used in which sport?", difficulty: "MEDIUM", explanation: "In tennis, 'love' denotes a score of zero within a game.", options: opts(2, "Cricket", "Football", "Tennis", "Hockey") },
+            ],
+          },
+          {
+            slug: "organisations-gk",
+            name: "National & International Organisations",
+            marks: 2,
+            negative: 0.5,
+            test: { slug: "organisations-gk-practice-1", title: "National & International Organisations — Practice Test", description: "15 evergreen General Awareness questions with full solutions. +2 correct, -0.5 wrong." },
+            questions: [
+              { text: "Where is the headquarters of the United Nations located?", difficulty: "EASY", explanation: "The United Nations has its main headquarters in New York City, USA.", options: opts(1, "Geneva", "New York", "Paris", "Vienna") },
+              { text: "In which year was the United Nations Organisation founded?", difficulty: "MEDIUM", explanation: "The United Nations was established on 24 October 1945 after World War II.", options: opts(2, "1919", "1939", "1945", "1950") },
+              { text: "Where is the headquarters of the World Health Organization (WHO) located?", difficulty: "MEDIUM", explanation: "The WHO is headquartered in Geneva, Switzerland.", options: opts(0, "Geneva", "New York", "Rome", "Washington D.C.") },
+              { text: "The headquarters of the International Monetary Fund (IMF) is located in which city?", difficulty: "MEDIUM", explanation: "Both the IMF and the World Bank are headquartered in Washington D.C., USA.", options: opts(3, "London", "Geneva", "New York", "Washington D.C.") },
+              { text: "Which body is the principal judicial organ of the United Nations, located at The Hague?", difficulty: "HARD", explanation: "The International Court of Justice (ICJ), the UN's principal judicial organ, is seated at The Hague, Netherlands.", options: opts(1, "Security Council", "International Court of Justice", "Trusteeship Council", "Human Rights Council") },
+              { text: "How many permanent members does the United Nations Security Council have?", difficulty: "MEDIUM", explanation: "The UN Security Council has five permanent members: the USA, UK, France, Russia and China.", options: opts(2, "Three", "Four", "Five", "Ten") },
+              { text: "Where is the headquarters of the South Asian Association for Regional Cooperation (SAARC) located?", difficulty: "HARD", explanation: "SAARC has its permanent secretariat in Kathmandu, Nepal.", options: opts(0, "Kathmandu", "New Delhi", "Colombo", "Dhaka") },
+              { text: "The headquarters of UNESCO is located in which city?", difficulty: "MEDIUM", explanation: "UNESCO, the UN's educational, scientific and cultural organisation, is headquartered in Paris, France.", options: opts(3, "Geneva", "New York", "Rome", "Paris") },
+              { text: "Where is the headquarters of the Reserve Bank of India (RBI) located?", difficulty: "EASY", explanation: "The RBI, India's central bank, is headquartered in Mumbai.", options: opts(1, "New Delhi", "Mumbai", "Kolkata", "Chennai") },
+              { text: "The headquarters of the Asian Development Bank (ADB) is located in which city?", difficulty: "HARD", explanation: "The Asian Development Bank is headquartered in Manila, Philippines.", options: opts(2, "Tokyo", "Singapore", "Manila", "Beijing") },
+              { text: "Where is the headquarters of the International Labour Organization (ILO) located?", difficulty: "MEDIUM", explanation: "The ILO, a specialised UN agency, has its headquarters in Geneva, Switzerland.", options: opts(0, "Geneva", "New York", "Vienna", "Brussels") },
+              { text: "The Food and Agriculture Organization (FAO) of the UN is headquartered in which city?", difficulty: "HARD", explanation: "The FAO is headquartered in Rome, Italy.", options: opts(3, "Geneva", "Paris", "Vienna", "Rome") },
+              { text: "Where is the headquarters of the World Trade Organization (WTO) located?", difficulty: "MEDIUM", explanation: "The WTO, which regulates international trade, is headquartered in Geneva, Switzerland.", options: opts(1, "Washington D.C.", "Geneva", "Brussels", "New York") },
+              { text: "The headquarters of the Organization of the Petroleum Exporting Countries (OPEC) is located in which city?", difficulty: "HARD", explanation: "OPEC has its headquarters in Vienna, Austria.", options: opts(2, "Riyadh", "Geneva", "Vienna", "Baghdad") },
+              { text: "Where is the headquarters of the North Atlantic Treaty Organization (NATO) located?", difficulty: "MEDIUM", explanation: "NATO, the military alliance, is headquartered in Brussels, Belgium.", options: opts(0, "Brussels", "Paris", "Washington D.C.", "London") },
+            ],
+          },
+          {
+            slug: "art-culture-gk",
+            name: "Art, Culture & Festivals of India",
+            marks: 2,
+            negative: 0.5,
+            test: { slug: "art-culture-gk-practice-1", title: "Art, Culture & Festivals of India — Practice Test", description: "15 evergreen General Awareness questions with full solutions. +2 correct, -0.5 wrong." },
+            questions: [
+              { text: "The classical dance form Bharatanatyam is traditionally associated with which Indian state?", difficulty: "EASY", explanation: "Bharatanatyam is one of the oldest classical dance forms of India and originated in the temples of Tamil Nadu.", options: opts(0, "Tamil Nadu", "Kerala", "Karnataka", "Andhra Pradesh") },
+              { text: "Kathakali, a classical dance-drama known for its elaborate costumes and face make-up, belongs to which state?", difficulty: "EASY", explanation: "Kathakali is a classical dance-drama that originated in Kerala and is famous for its colourful make-up and expressive gestures.", options: opts(1, "Tamil Nadu", "Kerala", "Odisha", "Assam") },
+              { text: "Which Indian festival is popularly called the 'Festival of Lights'?", difficulty: "EASY", explanation: "Diwali (Deepavali) is celebrated as the Festival of Lights, marked by the lighting of lamps and diyas.", options: opts(2, "Holi", "Navratri", "Diwali", "Raksha Bandhan") },
+              { text: "Onam, a famous harvest festival, is primarily celebrated in which Indian state?", difficulty: "EASY", explanation: "Onam is the major harvest festival of Kerala, associated with the legendary King Mahabali and the Malayalam calendar.", options: opts(3, "Tamil Nadu", "Karnataka", "Goa", "Kerala") },
+              { text: "Bihu is a folk festival and dance form associated with which state of India?", difficulty: "MEDIUM", explanation: "Bihu is the most important folk festival of Assam, celebrated in phases connected with the agricultural cycle.", options: opts(0, "Assam", "West Bengal", "Manipur", "Tripura") },
+              { text: "The famous Sun Temple at Konark, shaped like a giant chariot, is located in which state?", difficulty: "MEDIUM", explanation: "The 13th-century Konark Sun Temple is located in Odisha and is a UNESCO World Heritage Site.", options: opts(1, "West Bengal", "Odisha", "Bihar", "Jharkhand") },
+              { text: "The Manipuri classical dance form originated in which Indian state?", difficulty: "MEDIUM", explanation: "Manipuri is a classical dance form that originated in Manipur and is closely linked to Vaishnavism and Krishna themes.", options: opts(2, "Nagaland", "Mizoram", "Manipur", "Meghalaya") },
+              { text: "Garba, a popular folk dance performed during Navratri, is associated with which state?", difficulty: "EASY", explanation: "Garba is a traditional folk dance of Gujarat, performed especially during the Navratri festival.", options: opts(3, "Rajasthan", "Maharashtra", "Punjab", "Gujarat") },
+              { text: "The Sattriya classical dance form, introduced by Srimanta Sankardeva, belongs to which state?", difficulty: "HARD", explanation: "Sattriya is a classical dance form of Assam, developed in the Vaishnava monasteries (sattras) founded by Srimanta Sankardeva.", options: opts(0, "Assam", "Sikkim", "Arunachal Pradesh", "Tripura") },
+              { text: "The Hornbill Festival, showcasing tribal culture, is celebrated in which Indian state?", difficulty: "MEDIUM", explanation: "The Hornbill Festival is held in Nagaland and is often called the 'Festival of Festivals' for showcasing the state's Naga tribes.", options: opts(1, "Manipur", "Nagaland", "Mizoram", "Assam") },
+              { text: "Pandit Ravi Shankar was a world-renowned maestro of which musical instrument?", difficulty: "MEDIUM", explanation: "Pandit Ravi Shankar was a legendary sitar player who popularised Indian classical music across the world.", options: opts(2, "Sarod", "Tabla", "Sitar", "Santoor") },
+              { text: "The Kuchipudi classical dance form originated in which Indian state?", difficulty: "MEDIUM", explanation: "Kuchipudi takes its name from a village in the Krishna district of Andhra Pradesh, where the dance form developed.", options: opts(3, "Telangana", "Tamil Nadu", "Karnataka", "Andhra Pradesh") },
+              { text: "The famous Rath Yatra (chariot festival) of Lord Jagannath is held in which city?", difficulty: "MEDIUM", explanation: "The grand Rath Yatra of Lord Jagannath is held annually at Puri in Odisha.", options: opts(0, "Puri", "Dwarka", "Mathura", "Varanasi") },
+              { text: "Madhubani painting, a traditional folk art, originated in which Indian state?", difficulty: "HARD", explanation: "Madhubani (Mithila) painting is a folk art form that originated in the Mithila region of Bihar.", options: opts(1, "West Bengal", "Bihar", "Odisha", "Assam") },
+              { text: "Pongal, a four-day harvest festival, is primarily celebrated in which Indian state?", difficulty: "EASY", explanation: "Pongal is a harvest festival celebrated mainly in Tamil Nadu, thanking the Sun God for a good harvest.", options: opts(2, "Kerala", "Karnataka", "Tamil Nadu", "Andhra Pradesh") },
+            ],
+          },
+          {
+            slug: "important-days-firsts-gk",
+            name: "Important Days, Firsts & Superlatives",
+            marks: 2,
+            negative: 0.5,
+            test: { slug: "important-days-firsts-gk-practice-1", title: "Important Days, Firsts & Superlatives — Practice Test", description: "15 evergreen General Awareness questions with full solutions. +2 correct, -0.5 wrong." },
+            questions: [
+              { text: "World Environment Day is observed every year on which date?", difficulty: "EASY", explanation: "World Environment Day is observed on 5 June every year to raise awareness about environmental protection.", options: opts(0, "5 June", "22 April", "7 April", "21 June") },
+              { text: "The International Day of Yoga is celebrated every year on which date?", difficulty: "EASY", explanation: "The International Day of Yoga is observed on 21 June, the day of the summer solstice in the Northern Hemisphere.", options: opts(1, "21 May", "21 June", "21 July", "21 August") },
+              { text: "Who was the first President of India?", difficulty: "EASY", explanation: "Dr. Rajendra Prasad was the first President of India, serving from 1950 to 1962.", options: opts(2, "Jawaharlal Nehru", "Sarvepalli Radhakrishnan", "Rajendra Prasad", "Zakir Husain") },
+              { text: "Who was the first Prime Minister of independent India?", difficulty: "EASY", explanation: "Jawaharlal Nehru was the first Prime Minister of India, taking office on 15 August 1947.", options: opts(3, "Sardar Vallabhbhai Patel", "Rajendra Prasad", "Lal Bahadur Shastri", "Jawaharlal Nehru") },
+              { text: "Which is the largest Indian state by area?", difficulty: "MEDIUM", explanation: "Rajasthan is the largest state of India by area, covering about 342,239 square kilometres.", options: opts(0, "Rajasthan", "Madhya Pradesh", "Maharashtra", "Uttar Pradesh") },
+              { text: "Which is the longest river flowing within India?", difficulty: "EASY", explanation: "The Ganga (Ganges) is the longest river within India, with a length of about 2,525 kilometres.", options: opts(1, "Godavari", "Ganga", "Yamuna", "Brahmaputra") },
+              { text: "Who was the first Indian to be awarded a Nobel Prize?", difficulty: "MEDIUM", explanation: "Rabindranath Tagore was the first Indian and first Asian to win a Nobel Prize, receiving the Literature prize in 1913 for 'Gitanjali'.", options: opts(2, "C. V. Raman", "Mother Teresa", "Rabindranath Tagore", "Amartya Sen") },
+              { text: "Who was the first Indian citizen to travel into space?", difficulty: "MEDIUM", explanation: "Rakesh Sharma became the first Indian to travel into space in 1984 aboard the Soviet Soyuz T-11 mission.", options: opts(3, "Kalpana Chawla", "Ravish Malhotra", "Sunita Williams", "Rakesh Sharma") },
+              { text: "In India, National Teachers' Day is celebrated on which date?", difficulty: "MEDIUM", explanation: "Teachers' Day in India is celebrated on 5 September, the birth anniversary of Dr. Sarvepalli Radhakrishnan.", options: opts(0, "5 September", "14 November", "2 October", "15 August") },
+              { text: "Children's Day in India is observed on which date?", difficulty: "EASY", explanation: "Children's Day is celebrated in India on 14 November, the birth anniversary of Jawaharlal Nehru.", options: opts(1, "5 September", "14 November", "26 January", "30 January") },
+              { text: "Who was the first woman Prime Minister of India?", difficulty: "MEDIUM", explanation: "Indira Gandhi became the first woman Prime Minister of India in 1966.", options: opts(2, "Pratibha Patil", "Sarojini Naidu", "Indira Gandhi", "Sucheta Kripalani") },
+              { text: "World Health Day is observed every year on which date?", difficulty: "MEDIUM", explanation: "World Health Day is observed on 7 April, marking the founding of the World Health Organization (WHO).", options: opts(3, "22 March", "5 June", "10 December", "7 April") },
+              { text: "Which is the smallest Indian state by area?", difficulty: "MEDIUM", explanation: "Goa is the smallest state of India by area, covering about 3,702 square kilometres.", options: opts(0, "Goa", "Sikkim", "Tripura", "Nagaland") },
+              { text: "Which is the highest mountain peak located wholly within India?", difficulty: "HARD", explanation: "Nanda Devi (7,816 m), in Uttarakhand, is the highest mountain peak lying entirely within India. Kangchenjunga is taller (8,586 m) but its summit sits on the India–Nepal border, so it is not wholly within India.", options: opts(0, "Nanda Devi", "Kangchenjunga", "Anamudi", "Mullayanagiri") },
+              { text: "Who was the first Field Marshal of the Indian Army?", difficulty: "HARD", explanation: "Sam Manekshaw was the first officer to be promoted to the rank of Field Marshal of the Indian Army, in 1973.", options: opts(2, "K. M. Cariappa", "Arjan Singh", "Sam Manekshaw", "K. Sundarji") },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+];
+
 async function main() {
   // 1) Exam catalogue (single source of truth: src/lib/exams.ts).
   for (const [i, e] of examCatalogue.entries()) {
@@ -3308,7 +3467,7 @@ async function main() {
   // 2) Content — only seeds questions for a chapter that has none yet (preserves real attempts).
   let created = 0;
   let skipped = 0;
-  for (const ec of [...content, ...moreContent, ...wave3, ...wave4, ...wave5, ...wave6, ...wave7, ...wave8, ...wave9, ...wave10]) {
+  for (const ec of [...content, ...moreContent, ...wave3, ...wave4, ...wave5, ...wave6, ...wave7, ...wave8, ...wave9, ...wave10, ...wave11]) {
     const exam = await prisma.exam.findUniqueOrThrow({ where: { slug: ec.examSlug } });
     for (const [si, sc] of ec.subjects.entries()) {
       const subject = await prisma.subject.upsert({

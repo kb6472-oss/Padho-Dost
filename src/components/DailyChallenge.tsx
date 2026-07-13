@@ -11,6 +11,9 @@ type Result = { correctOptionId: string | null; isCorrect: boolean; explanation:
 export default function DailyChallenge({
   date,
   question,
+  track = "daily",
+  kicker = "📅 Question of the Day",
+  title = "Daily Challenge",
 }: {
   date: string;
   question: {
@@ -19,6 +22,9 @@ export default function DailyChallenge({
     examShort: string;
     chapter: string | null;
   };
+  track?: "daily" | "gk";
+  kicker?: string;
+  title?: string;
 }) {
   const [picked, setPicked] = useState<string | null>(null);
   const [result, setResult] = useState<Result | null>(null);
@@ -29,7 +35,7 @@ export default function DailyChallenge({
     if (done || pending) return;
     setPicked(optionId);
     startTransition(async () => {
-      const r = await submitDaily(date, optionId);
+      const r = await submitDaily(date, optionId, track);
       setResult(r);
     });
   }
@@ -43,9 +49,9 @@ export default function DailyChallenge({
   return (
     <div className="mx-auto max-w-2xl px-4 py-12 sm:px-6">
       <div className="text-center">
-        <p className="text-sm font-semibold uppercase tracking-wide text-brand-600">📅 Question of the Day</p>
+        <p className="text-sm font-semibold uppercase tracking-wide text-brand-600">{kicker}</p>
         <h1 className="mt-1 font-display text-2xl font-extrabold tracking-tight text-foreground sm:text-3xl">
-          Daily Challenge
+          {title}
         </h1>
         <p className="mt-1 text-sm text-muted">{prettyDate}</p>
       </div>

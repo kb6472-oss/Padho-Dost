@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { prisma } from "@/lib/prisma";
+import { getRecentCADates } from "@/lib/current-affairs";
 
 const BASE = "https://padhodost.com";
 
@@ -67,5 +68,14 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.5,
   }));
 
-  return [...staticRoutes, ...examRoutes, ...explainerRoutes, ...dailyRoutes, ...gkRoutes];
+  // Current-affairs: only days that actually have a published digest.
+  const caDates = await getRecentCADates(14);
+  const caRoutes: MetadataRoute.Sitemap = caDates.map((d) => ({
+    url: `${BASE}/current-affairs/${d}`,
+    lastModified: now,
+    changeFrequency: "daily",
+    priority: 0.6,
+  }));
+
+  return [...staticRoutes, ...examRoutes, ...explainerRoutes, ...dailyRoutes, ...gkRoutes, ...caRoutes];
 }

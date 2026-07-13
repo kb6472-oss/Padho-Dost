@@ -439,3 +439,21 @@ model ContactMessage {
   @@index([createdAt])
   @@index([kind])
 }
+
+// ─────────────────── Daily Current Affairs (news digest) ───────────────────
+// Populated by scripts/fetch-current-affairs.ts (a daily cron) from a real news API.
+model CurrentAffair {
+  id          String    @id @default(cuid())
+  day         DateTime  @db.Date // the IST calendar day this item belongs to
+  title       String
+  summary     String?
+  source      String?
+  url         String
+  imageUrl    String?
+  category    String?
+  publishedAt DateTime?
+  createdAt   DateTime  @default(now())
+
+  @@unique([day, url])
+  @@index([day])
+}

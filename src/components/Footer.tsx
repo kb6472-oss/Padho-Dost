@@ -17,6 +17,7 @@ const columns = [
       { label: "Visual Explainers", href: "/study" },
       { label: "Daily Challenge", href: "/daily" },
       { label: "Daily GK", href: "/gk" },
+      { label: "Current Affairs", href: "/current-affairs" },
       { label: "Leaderboard", href: "/leaderboard" },
       { label: "Rank Predictor", href: "/predictor" },
       { label: "Exam Calendar", href: "/exam-calendar" },

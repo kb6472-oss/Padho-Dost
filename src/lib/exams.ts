@@ -36,11 +36,11 @@ export const exams: Exam[] = [
   },
   {
     slug: "class-12",
-    name: "Class 12 Boards",
+    name: "Class 12 (CBSE)",
     short: "Class 12",
     emoji: "🎓",
-    blurb: "Science, Commerce & Arts — board prep with PYQs.",
-    status: "soon",
+    blurb: "Physics, Chemistry, Maths & Biology — board practice, chapter by chapter.",
+    status: "live",
     chip: "bg-violet-100 text-violet-700",
   },
   {

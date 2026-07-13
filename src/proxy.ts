@@ -1,7 +1,8 @@
 import { type NextRequest } from "next/server";
 import { updateSession } from "@/lib/supabase/middleware";
 
-export async function middleware(request: NextRequest) {
+// Next.js 16 renamed the "middleware" convention to "proxy".
+export async function proxy(request: NextRequest) {
   // Skip when Supabase isn't configured yet (no anon key) so the app still runs.
   if (!process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY) return;
   return await updateSession(request);

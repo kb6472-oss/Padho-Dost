@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { cookies } from "next/headers";
 import { prisma } from "@/lib/prisma";
 import { getSessionUser } from "@/lib/auth";
+import { ANON_COOKIE } from "@/lib/anon";
 import { getTestRanking } from "@/lib/ranking";
 import ShareResult from "@/components/ShareResult";
 import { buildFeedback } from "@/lib/feedback";
@@ -36,6 +38,15 @@ export default async function ResultPage({ params }: Props) {
   if (!attempt || attempt.mockTestId !== id) notFound();
 
   const user = await getSessionUser();
+
+  // Ownership gate — results are private. A viewer may see an attempt only if it is
+  // their own (logged-in userId match) or their own guest attempt (anon cookie match).
+  const cookieAnon = (await cookies()).get(ANON_COOKIE)?.value;
+  const owns = attempt.userId
+    ? attempt.userId === user?.id
+    : !!attempt.anonId && attempt.anonId === cookieAnon;
+  if (!owns) notFound();
+
   const { mockTest } = attempt;
   const answersByQ = new Map(attempt.answers.map((a) => [a.questionId, a]));
   const score = attempt.score ?? 0;

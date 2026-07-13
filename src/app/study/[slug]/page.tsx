@@ -2,8 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { prisma } from "@/lib/prisma";
-import { getExplainer } from "@/content/explainers";
+import { getExplainer, type Block } from "@/content/explainers";
 import ExplainerReader from "@/components/ExplainerReader";
+import JsonLd from "@/components/JsonLd";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -11,7 +12,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const c = getExplainer(slug);
   if (!c) return { title: "Explainer not found" };
-  return { title: c.title, description: c.summary };
+  return {
+    title: c.title,
+    description: c.summary,
+    alternates: { canonical: `/study/${slug}` },
+    openGraph: { title: c.title, description: c.summary, url: `/study/${slug}`, type: "article" },
+  };
 }
 
 export default async function ExplainerPage({ params }: Props) {
@@ -28,11 +34,53 @@ export default async function ExplainerPage({ params }: Props) {
     testId = t?.id ?? null;
   }
 
+  const quizzes = content.blocks.filter((b): b is Extract<Block, { type: "quiz" }> => b.type === "quiz");
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "LearningResource",
+        name: content.title,
+        description: content.summary,
+        learningResourceType: "Concept explainer",
+        timeRequired: `PT${content.readingMinutes}M`,
+        isAccessibleForFree: true,
+        provider: { "@type": "Organization", name: "PadhoDost", url: "https://padhodost.com" },
+        url: `https://padhodost.com/study/${slug}`,
+      },
+      ...(quizzes.length
+        ? [
+            {
+              "@type": "FAQPage",
+              mainEntity: quizzes.map((q) => ({
+                "@type": "Question",
+                name: q.question,
+                acceptedAnswer: { "@type": "Answer", text: q.explain },
+              })),
+            },
+          ]
+        : []),
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Home", item: "https://padhodost.com" },
+          { "@type": "ListItem", position: 2, name: "Study", item: "https://padhodost.com/study" },
+          { "@type": "ListItem", position: 3, name: content.title, item: `https://padhodost.com/study/${slug}` },
+        ],
+      },
+    ],
+  };
+
   return (
     <article className="mx-auto max-w-2xl px-4 py-10 sm:px-6">
-      <Link href="/study" className="text-sm font-medium text-muted hover:text-brand-600">
-        ← All explainers
-      </Link>
+      <JsonLd data={jsonLd} />
+      <nav aria-label="Breadcrumb" className="text-sm text-muted">
+        <ol className="flex flex-wrap items-center gap-1.5">
+          <li><Link href="/" className="hover:text-brand-600">Home</Link></li>
+          <li aria-hidden="true">/</li>
+          <li><Link href="/study" className="hover:text-brand-600">Study</Link></li>
+        </ol>
+      </nav>
 
       <h1 className="mt-4 font-display text-2xl font-extrabold tracking-tight text-foreground sm:text-3xl">
         {content.title}

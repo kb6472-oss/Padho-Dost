@@ -5,6 +5,7 @@ import { prisma } from "@/lib/prisma";
 export const metadata: Metadata = {
   title: "Study — Visual Explainers",
   description: "Learn every concept with simple analogies, worked examples and quick checks — then test yourself. 100% free.",
+  alternates: { canonical: "/study" },
 };
 
 export default async function StudyPage() {

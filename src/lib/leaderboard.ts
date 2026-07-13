@@ -1,26 +1,58 @@
 import { prisma } from "@/lib/prisma";
 
-// Top students ranked by total correct answers across submitted tests.
+// Shorten a name for a PUBLIC board: "Aarav Sharma" → "Aarav S." (protects minors).
+function displayName(name: string | null, email: string | null): string {
+  const base = (name?.trim() || email?.split("@")[0] || "Student").trim();
+  const parts = base.split(/\s+/).filter(Boolean);
+  if (parts.length > 1) {
+    const last = parts[parts.length - 1];
+    return `${parts[0]} ${last.charAt(0).toUpperCase()}.`;
+  }
+  return parts[0] || "Student";
+}
+
+// Top students ranked by total correct answers — aggregated in the DB, not in JS.
 export async function getLeaderboard(limit = 25) {
-  const users = await prisma.user.findMany({
-    where: { role: "STUDENT" },
-    select: {
-      name: true,
-      email: true,
-      image: true,
-      attempts: { where: { status: "SUBMITTED" }, select: { correctCount: true, wrongCount: true } },
+  // Exclude launch demo accounts.
+  const demo = await prisma.user.findMany({
+    where: { email: { endsWith: "@padhodost.seed" } },
+    select: { id: true },
+  });
+  const demoIds = demo.map((d) => d.id);
+
+  const grouped = await prisma.attempt.groupBy({
+    by: ["userId"],
+    where: {
+      status: "SUBMITTED",
+      AND: [{ userId: { not: null } }, ...(demoIds.length ? [{ userId: { notIn: demoIds } }] : [])],
     },
+    _sum: { correctCount: true, wrongCount: true },
+    _count: { _all: true },
+    orderBy: { _sum: { correctCount: "desc" } },
+    take: limit,
   });
 
-  return users
-    .map((u) => {
-      const tests = u.attempts.length;
-      const correct = u.attempts.reduce((a, x) => a + x.correctCount, 0);
-      const answered = u.attempts.reduce((a, x) => a + x.correctCount + x.wrongCount, 0);
+  const ids = grouped.map((g) => g.userId).filter((x): x is string => !!x);
+  const users = await prisma.user.findMany({
+    where: { id: { in: ids } },
+    select: { id: true, name: true, email: true, image: true },
+  });
+  const byId = new Map(users.map((u) => [u.id, u]));
+
+  return grouped
+    .map((g) => {
+      const u = g.userId ? byId.get(g.userId) : null;
+      const correct = g._sum.correctCount ?? 0;
+      const wrong = g._sum.wrongCount ?? 0;
+      const answered = correct + wrong;
       const accuracy = answered > 0 ? Math.round((correct / answered) * 100) : 0;
-      return { name: u.name || u.email?.split("@")[0] || "Student", image: u.image, tests, correct, accuracy };
+      return {
+        name: displayName(u?.name ?? null, u?.email ?? null),
+        image: u?.image ?? null,
+        tests: g._count._all,
+        correct,
+        accuracy,
+      };
     })
-    .filter((u) => u.tests > 0)
-    .sort((a, b) => b.correct - a.correct || b.accuracy - a.accuracy)
-    .slice(0, limit);
+    .filter((r) => r.correct > 0);
 }

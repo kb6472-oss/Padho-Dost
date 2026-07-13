@@ -3,6 +3,33 @@ import { Inter, Poppins } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import JsonLd from "@/components/JsonLd";
+import { AdScript } from "@/components/Ads";
+
+const adsenseClient = process.env.NEXT_PUBLIC_ADSENSE_CLIENT;
+
+// Site-wide structured data (Organization + WebSite) for rich results.
+const siteJsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://padhodost.com/#org",
+      name: "PadhoDost",
+      url: "https://padhodost.com",
+      logo: "https://padhodost.com/logo.svg",
+      description:
+        "100% free mock tests and visual explainers for SSC, Banking, Class 10 & 12 boards, JEE, NEET and UPSC.",
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://padhodost.com/#website",
+      url: "https://padhodost.com",
+      name: "PadhoDost",
+      publisher: { "@id": "https://padhodost.com/#org" },
+    },
+  ],
+};
 
 const inter = Inter({
   subsets: ["latin"],
@@ -19,6 +46,8 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://padhodost.com"),
+  alternates: { canonical: "/" },
+  ...(adsenseClient ? { other: { "google-adsense-account": adsenseClient } } : {}),
   title: {
     default: "PadhoDost — Free Mock Tests & Visual Learning for Every Indian Student",
     template: "%s · PadhoDost",
@@ -64,6 +93,8 @@ export default function RootLayout({
   return (
     <html lang="en-IN" className={`${inter.variable} ${poppins.variable} antialiased`}>
       <body className="flex min-h-screen flex-col bg-background font-sans text-foreground">
+        <JsonLd data={siteJsonLd} />
+        <AdScript />
         <Navbar />
         <main className="flex-1">{children}</main>
         <Footer />

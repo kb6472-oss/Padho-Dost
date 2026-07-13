@@ -4,7 +4,11 @@ import { getLeaderboard } from "@/lib/leaderboard";
 export const metadata: Metadata = {
   title: "Leaderboard",
   description: "Top PadhoDost students ranked by questions answered correctly. Climb the board — it's free.",
+  alternates: { canonical: "/leaderboard" },
 };
+
+// Public, non-personalised — cache for 5 minutes instead of recomputing per request.
+export const revalidate = 300;
 
 const medal = (i: number) => (i === 0 ? "🥇" : i === 1 ? "🥈" : i === 2 ? "🥉" : `${i + 1}`);
 
@@ -18,6 +22,7 @@ export default async function LeaderboardPage() {
           🏅 Leaderboard
         </h1>
         <p className="mt-1 text-sm text-muted">Top students by questions answered correctly. Take more tests to climb!</p>
+        <p className="mt-1 text-xs text-muted">Names are shortened for privacy · updates every few minutes</p>
       </div>
 
       {rows.length === 0 ? (

@@ -1,10 +1,12 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useTransition } from "react";
 import Link from "next/link";
-import { recordDailyDone } from "@/lib/daily-actions";
+import { submitDaily } from "@/lib/daily-actions";
 
 type Opt = { id: string; text: string };
+
+type Result = { correctOptionId: string | null; isCorrect: boolean; explanation: string | null };
 
 export default function DailyChallenge({
   date,
@@ -13,20 +15,23 @@ export default function DailyChallenge({
   date: string;
   question: {
     text: string;
-    explanation: string | null;
     options: Opt[];
-    correctIndex: number;
     examShort: string;
     chapter: string | null;
   };
 }) {
-  const [picked, setPicked] = useState<number | null>(null);
-  const done = picked !== null;
+  const [picked, setPicked] = useState<string | null>(null);
+  const [result, setResult] = useState<Result | null>(null);
+  const [pending, startTransition] = useTransition();
+  const done = result !== null;
 
-  function choose(i: number) {
-    if (done) return;
-    setPicked(i);
-    recordDailyDone().catch(() => {});
+  function choose(optionId: string) {
+    if (done || pending) return;
+    setPicked(optionId);
+    startTransition(async () => {
+      const r = await submitDaily(date, optionId);
+      setResult(r);
+    });
   }
 
   const prettyDate = new Date(date + "T00:00:00Z").toLocaleDateString("en-IN", {
@@ -54,23 +59,24 @@ export default function DailyChallenge({
 
         <div className="mt-5 space-y-2.5">
           {question.options.map((o, i) => {
-            const isCorrect = i === question.correctIndex;
+            const isCorrect = done && result?.correctOptionId === o.id;
+            const isWrongPick = done && o.id === picked && !isCorrect;
             let cls = "border-border bg-background hover:border-brand-300 hover:bg-surface";
-            if (done && isCorrect) cls = "border-emerald-300 bg-emerald-50 text-emerald-900";
-            else if (done && i === picked) cls = "border-rose-300 bg-rose-50 text-rose-900";
+            if (isCorrect) cls = "border-emerald-300 bg-emerald-50 text-emerald-900";
+            else if (isWrongPick) cls = "border-rose-300 bg-rose-50 text-rose-900";
             return (
               <button
                 key={o.id}
                 type="button"
-                disabled={done}
-                onClick={() => choose(i)}
-                className={`flex w-full items-center gap-3 rounded-xl border p-3.5 text-left text-sm transition-colors ${cls}`}
+                disabled={done || pending}
+                onClick={() => choose(o.id)}
+                className={`flex w-full items-center gap-3 rounded-xl border p-3.5 text-left text-sm transition-colors ${cls} ${pending && o.id === picked ? "opacity-70" : ""}`}
               >
                 <span className="flex h-7 w-7 flex-shrink-0 items-center justify-center rounded-full bg-surface text-xs font-bold">
                   {String.fromCharCode(65 + i)}
                 </span>
                 <span className="font-medium">{o.text}</span>
-                {done && isCorrect && <span className="ml-auto text-xs font-bold text-emerald-700">Correct</span>}
+                {isCorrect && <span className="ml-auto text-xs font-bold text-emerald-700">Correct</span>}
               </button>
             );
           })}
@@ -79,10 +85,12 @@ export default function DailyChallenge({
         {done && (
           <div className="mt-4 rounded-xl bg-brand-50 p-4">
             <p className="text-sm font-bold text-brand-900">
-              {picked === question.correctIndex ? "🎉 Correct! Streak kept alive." : "❌ Not today — but you learned something!"}
+              {result?.isCorrect
+                ? "🎉 Correct! Streak kept alive 🔥"
+                : "❌ Not quite — but you showed up, so your streak is safe 🔥"}
             </p>
-            {question.explanation && (
-              <p className="mt-1.5 text-sm leading-relaxed text-brand-900">{question.explanation}</p>
+            {result?.explanation && (
+              <p className="mt-1.5 text-sm leading-relaxed text-brand-900">{result.explanation}</p>
             )}
           </div>
         )}

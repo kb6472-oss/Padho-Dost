@@ -6,8 +6,8 @@ const columns = [
     links: [
       { label: "SSC CGL & Banking", href: "/exams/ssc-cgl" },
       { label: "Class 10 (CBSE)", href: "/exams/class-10" },
-      { label: "JEE / NEET", href: "/exams" },
-      { label: "UPSC", href: "/exams" },
+      { label: "JEE (Main + Adv)", href: "/exams/jee" },
+      { label: "NEET (Medical)", href: "/exams/neet" },
     ],
   },
   {

@@ -1,5 +1,7 @@
 import Link from "next/link";
-import { exams } from "@/lib/exams";
+import { getExams } from "@/lib/data";
+import { getChip, type Exam } from "@/lib/exams";
+import { prisma } from "@/lib/prisma";
 import ExamCard from "@/components/ExamCard";
 
 const features = [
@@ -53,7 +55,26 @@ const steps = [
   },
 ];
 
-export default function Home() {
+export default async function Home() {
+  const dbExams = await getExams();
+  const cards: Exam[] = dbExams.map((e) => ({
+    slug: e.slug,
+    name: e.name,
+    short: e.shortName,
+    emoji: e.emoji ?? "📘",
+    blurb: e.description ?? "",
+    status: e.status === "LIVE" ? "live" : "soon",
+    chip: getChip(e.slug),
+  }));
+  const liveCount = cards.filter((c) => c.status === "live").length;
+  const questionCount = await prisma.question.count();
+  const roundedQ = Math.floor(questionCount / 100) * 100;
+  const stats = [
+    { v: `${liveCount}`, l: "Exams live" },
+    { v: "₹0", l: "Cost, forever" },
+    { v: `${roundedQ.toLocaleString("en-IN")}+`, l: "Practice questions" },
+  ];
+
   return (
     <>
       {/* ───────────────────────── Hero ───────────────────────── */}
@@ -102,11 +123,7 @@ export default function Home() {
 
           {/* Trust stats */}
           <div className="mx-auto mt-12 grid max-w-2xl grid-cols-3 gap-3">
-            {[
-              { v: "40+", l: "Exam categories" },
-              { v: "₹0", l: "Cost to students" },
-              { v: "All", l: "Boards & languages" },
-            ].map((s) => (
+            {stats.map((s) => (
               <div key={s.l} className="rounded-2xl border border-border bg-surface px-3 py-4 text-center">
                 <div className="font-display text-2xl font-extrabold text-brand-600">{s.v}</div>
                 <div className="mt-1 text-xs text-muted">{s.l}</div>
@@ -133,7 +150,7 @@ export default function Home() {
         </div>
 
         <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
-          {exams.map((exam) => (
+          {cards.map((exam) => (
             <ExamCard key={exam.slug} exam={exam} />
           ))}
         </div>

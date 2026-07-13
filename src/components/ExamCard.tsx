@@ -29,10 +29,12 @@ export default function ExamCard({ exam }: { exam: Exam }) {
           isLive ? "text-brand-600 group-hover:gap-2" : "text-slate-400"
         } transition-all`}
       >
-        {isLive ? "Start free" : "Notify me"}
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-          <path d="M5 12h14M13 6l6 6-6 6" />
-        </svg>
+        {isLive ? "Start free" : "Coming soon"}
+        {isLive && (
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+            <path d="M5 12h14M13 6l6 6-6 6" />
+          </svg>
+        )}
       </span>
     </div>
   );

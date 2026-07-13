@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   title: "All Exams",
   description:
     "Pick your exam — SSC CGL, Banking, Class 10 & 12 boards, JEE, NEET, UPSC and more. Free mock tests and visual explainers.",
+  alternates: { canonical: "/exams" },
 };
 
 export default async function ExamsPage() {

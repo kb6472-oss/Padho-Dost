@@ -4,6 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "About",
   description: "Why PadhoDost exists — free, no-spam exam prep for every Indian student.",
+  alternates: { canonical: "/about" },
 };
 
 export default function AboutPage() {

@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Terms of Use",
   description: "The terms for using PadhoDost's free study tools.",
+  alternates: { canonical: "/terms" },
 };
 
 export default function TermsPage() {

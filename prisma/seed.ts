@@ -3172,6 +3172,13 @@ async function main() {
     await prisma.testQuestion.createMany({ data: picked.map((q, i) => ({ mockTestId: mock.id, questionId: q.id, order: i })) });
   }
 
+  // 4 & 5) Launch-only demo data (fake benchmark cohort + demo students). This is now
+  //   OPT-IN: it only runs when SEED_DEMO=1, so a production re-seed never (re)creates
+  //   fabricated attempts/users that would distort real rankings and the leaderboard.
+  //   To purge any already in prod, run once:
+  //     DELETE FROM "Attempt" WHERE "anonId" = 'seed-benchmark';
+  //     DELETE FROM "User" WHERE email LIKE '%@padhodost.seed';   -- attempts cascade
+  if (process.env.SEED_DEMO === "1") {
   // 4) Benchmark cohort — gives every LIVE test a realistic rank/percentile baseline
   //    at launch (anonymous, anonId="seed-benchmark"; remove once real volume exists).
   const liveTests = await prisma.mockTest.findMany({
@@ -3226,6 +3233,7 @@ async function main() {
       }
     }
   }
+  } // end SEED_DEMO guard
 
   const counts = {
     exams: await prisma.exam.count(),

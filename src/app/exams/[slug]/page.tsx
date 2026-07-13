@@ -6,6 +6,7 @@ import { getSessionUser } from "@/lib/auth";
 import { getExamGoal } from "@/lib/enroll";
 import { getFullMockUnlock, isGrandMock, isSectionTest, type UnlockState } from "@/lib/full-mock";
 import ExamGoalButton from "@/components/ExamGoalButton";
+import JsonLd from "@/components/JsonLd";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -15,9 +16,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const exam = await getExamWithTests(slug);
   if (!exam) return { title: "Exam not found" };
+  const description = exam.description ?? `Free mock tests and practice for ${exam.name}.`;
   return {
     title: exam.name,
-    description: exam.description ?? `Free mock tests for ${exam.name}.`,
+    description,
+    alternates: { canonical: `/exams/${slug}` },
+    openGraph: { title: `${exam.name} — Free Mock Tests`, description, url: `/exams/${slug}`, type: "website" },
   };
 }
 
@@ -121,12 +125,42 @@ export default async function ExamDetailPage({ params }: Props) {
   const unlock = fullMocks.length > 0 ? await getFullMockUnlock(su?.id ?? null, exam.id) : null;
   const goal = await getExamGoal();
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Course",
+        name: `${exam.name} — Free Mock Tests & Practice`,
+        description: exam.description ?? `Free mock tests and practice for ${exam.name}.`,
+        provider: { "@type": "Organization", name: "PadhoDost", url: "https://padhodost.com" },
+        url: `https://padhodost.com/exams/${slug}`,
+        offers: { "@type": "Offer", price: "0", priceCurrency: "INR", availability: "https://schema.org/InStock" },
+        hasCourseInstance: { "@type": "CourseInstance", courseMode: "Online", courseWorkload: "PT2H" },
+      },
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Home", item: "https://padhodost.com" },
+          { "@type": "ListItem", position: 2, name: "Exams", item: "https://padhodost.com/exams" },
+          { "@type": "ListItem", position: 3, name: exam.name, item: `https://padhodost.com/exams/${slug}` },
+        ],
+      },
+    ],
+  };
+
   return (
     <div className="mx-auto max-w-4xl px-4 py-10 sm:px-6">
+      <JsonLd data={jsonLd} />
       {/* Breadcrumb */}
-      <Link href="/exams" className="text-sm font-medium text-muted hover:text-brand-600">
-        ← All exams
-      </Link>
+      <nav aria-label="Breadcrumb" className="text-sm text-muted">
+        <ol className="flex flex-wrap items-center gap-1.5">
+          <li><Link href="/" className="hover:text-brand-600">Home</Link></li>
+          <li aria-hidden="true">/</li>
+          <li><Link href="/exams" className="hover:text-brand-600">Exams</Link></li>
+          <li aria-hidden="true">/</li>
+          <li className="font-medium text-foreground">{exam.name}</li>
+        </ol>
+      </nav>
 
       {/* Header */}
       <div className="mt-4 flex items-start gap-4">

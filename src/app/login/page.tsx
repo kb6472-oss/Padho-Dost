@@ -9,6 +9,7 @@ export default function LoginPage() {
   const [password, setPassword] = useState("");
   const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
   const [message, setMessage] = useState("");
+  const [showPw, setShowPw] = useState(false);
 
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
@@ -64,6 +65,24 @@ export default function LoginPage() {
     }
   }
 
+  async function sendReset() {
+    if (!email) {
+      setStatus("error");
+      setMessage("Enter your email above first, then tap “Forgot password?”.");
+      return;
+    }
+    setStatus("sending");
+    setMessage("");
+    const supabase = createClient();
+    const { error } = await supabase.auth.resetPasswordForEmail(email, { redirectTo: redirectTo() });
+    if (error) {
+      setStatus("error");
+      setMessage(error.message);
+    } else {
+      setStatus("sent");
+    }
+  }
+
   return (
     <div className="mx-auto flex max-w-sm flex-col px-4 py-16 sm:px-6">
       <div className="flex flex-col items-center text-center">
@@ -80,7 +99,7 @@ export default function LoginPage() {
           <div className="text-3xl">📧</div>
           <p className="mt-2 text-sm font-semibold text-emerald-900">Check your email</p>
           <p className="mt-1 text-sm text-emerald-700">
-            We sent a magic login link to <strong>{email}</strong>. Tap it to sign in.
+            We sent a secure sign-in link to <strong>{email}</strong>. Tap it to log in.
           </p>
         </div>
       ) : (
@@ -113,33 +132,53 @@ export default function LoginPage() {
             className="w-full rounded-full border border-border bg-background px-5 py-3 text-sm outline-none focus:border-brand-500"
           />
 
-          {/* Password login */}
-          <form onSubmit={signInPassword} className="space-y-3">
-            <input
-              type="password"
-              value={password}
-              onChange={(e) => setPassword(e.target.value)}
-              placeholder="Password"
-              className="w-full rounded-full border border-border bg-background px-5 py-3 text-sm outline-none focus:border-brand-500"
-            />
-            <button
-              type="submit"
-              disabled={status === "sending"}
-              className="w-full rounded-full bg-brand-600 px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-brand-700 disabled:opacity-60"
-            >
-              {status === "sending" ? "Logging in…" : "Log in with password"}
-            </button>
-          </form>
-
-          {/* Magic-link fallback */}
+          {/* Magic link — primary, passwordless (works for new & returning users). */}
           <button
             type="button"
             onClick={sendMagicLink}
-            disabled={status === "sending"}
-            className="w-full text-center text-xs font-medium text-muted transition-colors hover:text-brand-600 disabled:opacity-60"
+            disabled={status === "sending" || !email}
+            className="w-full rounded-full bg-brand-600 px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-brand-700 disabled:opacity-60"
           >
-            …or email me a login link instead
+            {status === "sending" ? "Sending…" : "Email me a login link"}
           </button>
+          <p className="text-center text-xs text-muted">
+            No password needed — we&apos;ll email you a secure link.
+          </p>
+
+          {/* Password login — secondary, revealed on demand. */}
+          {!showPw ? (
+            <button
+              type="button"
+              onClick={() => setShowPw(true)}
+              className="w-full text-center text-xs font-medium text-muted transition-colors hover:text-brand-600"
+            >
+              Sign in with a password instead
+            </button>
+          ) : (
+            <form onSubmit={signInPassword} className="space-y-3 rounded-2xl border border-border p-4">
+              <input
+                type="password"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+                placeholder="Password"
+                className="w-full rounded-full border border-border bg-background px-5 py-3 text-sm outline-none focus:border-brand-500"
+              />
+              <button
+                type="submit"
+                disabled={status === "sending"}
+                className="w-full rounded-full border border-brand-300 bg-background px-5 py-3 text-sm font-semibold text-brand-700 transition-colors hover:bg-brand-50 disabled:opacity-60"
+              >
+                {status === "sending" ? "Logging in…" : "Log in with password"}
+              </button>
+              <button
+                type="button"
+                onClick={sendReset}
+                className="w-full text-center text-xs font-medium text-muted transition-colors hover:text-brand-600"
+              >
+                Forgot password?
+              </button>
+            </form>
+          )}
 
           {status === "error" && <p className="text-center text-xs text-rose-600">{message}</p>}
         </div>

@@ -1,6 +1,7 @@
 "use server";
 
 import { cookies } from "next/headers";
+import { revalidatePath } from "next/cache";
 import { prisma } from "@/lib/prisma";
 import { getSessionUser, syncUser } from "@/lib/auth";
 import { TARGET_EXAM_COOKIE } from "@/lib/enroll";
@@ -35,5 +36,6 @@ export async function setExamGoal(examSlug: string) {
     create: { userId: su.id, examId: exam.id, totalChapters, chaptersDone },
   });
 
+  revalidatePath("/dashboard");
   return { ok: true, enrolled: true };
 }

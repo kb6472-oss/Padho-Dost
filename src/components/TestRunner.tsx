@@ -24,6 +24,17 @@ function getAnonId(): string {
   return id;
 }
 
+// Stable per-test submit id → makes a retried/duplicate submit idempotent server-side.
+function getClientAttemptId(testId: string): string {
+  const key = `pd_cattempt_${testId}`;
+  let id = localStorage.getItem(key);
+  if (!id) {
+    id = crypto.randomUUID();
+    localStorage.setItem(key, id);
+  }
+  return id;
+}
+
 export default function TestRunner({ test }: { test: RunnerTest }) {
   const router = useRouter();
   const storageKey = `pd_test_${test.id}`;
@@ -100,8 +111,16 @@ export default function TestRunner({ test }: { test: RunnerTest }) {
     const payload = Object.entries(answers).map(([questionId, selectedOptionId]) => ({ questionId, selectedOptionId }));
     const times = Object.entries(timeRef.current).map(([questionId, seconds]) => ({ questionId, seconds: Math.round(seconds) }));
     try {
-      const res = await submitAttempt({ mockTestId: test.id, anonId: getAnonId(), timeTakenSec, answers: payload, times });
+      const res = await submitAttempt({
+        mockTestId: test.id,
+        anonId: getAnonId(),
+        clientAttemptId: getClientAttemptId(test.id),
+        timeTakenSec,
+        answers: payload,
+        times,
+      });
       localStorage.removeItem(storageKey);
+      localStorage.removeItem(`pd_cattempt_${test.id}`);
       router.push(`/test/${test.id}/result/${res.attemptId}`);
     } catch {
       setSubmitting(false);
@@ -150,6 +169,20 @@ export default function TestRunner({ test }: { test: RunnerTest }) {
     <div className="mx-auto max-w-3xl px-4 py-6 sm:px-6">
       {/* Top bar */}
       <div className="sticky top-16 z-10 -mx-4 mb-4 border-b border-border bg-background/90 px-4 py-3 backdrop-blur sm:-mx-6 sm:px-6">
+        <div className="mb-1.5 flex items-center justify-between">
+          <button
+            type="button"
+            onClick={() => {
+              if (window.confirm("Leave this test? Your answers are saved on this device — you can resume later.")) {
+                router.push("/exams");
+              }
+            }}
+            className="text-xs font-medium text-muted transition-colors hover:text-rose-600"
+          >
+            ← Exit
+          </button>
+          <span className="text-xs text-muted">💾 Progress auto-saves on this device</span>
+        </div>
         <div className="flex items-center justify-between">
           <div>
             <div className="font-display text-sm font-semibold text-foreground">{test.title}</div>

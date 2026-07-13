@@ -47,24 +47,27 @@ export async function recordTestProgress(input: {
   const { userId, examId, perChapter, totalAnswered, timeTakenSec } = input;
 
   // Chapter progress — practising a chapter's test marks it DONE + accrues mastery.
-  for (const c of perChapter) {
-    await prisma.chapterProgress.upsert({
-      where: { userId_chapterId: { userId, chapterId: c.chapterId } },
-      update: {
-        questionsAttempted: { increment: c.attempted },
-        questionsCorrect: { increment: c.correct },
-        status: "DONE",
-      },
-      create: {
-        userId,
-        chapterId: c.chapterId,
-        examId,
-        questionsAttempted: c.attempted,
-        questionsCorrect: c.correct,
-        status: "DONE",
-      },
-    });
-  }
+  // Run the independent upserts concurrently (was a serial N+1 loop).
+  await Promise.all(
+    perChapter.map((c) =>
+      prisma.chapterProgress.upsert({
+        where: { userId_chapterId: { userId, chapterId: c.chapterId } },
+        update: {
+          questionsAttempted: { increment: c.attempted },
+          questionsCorrect: { increment: c.correct },
+          status: "DONE",
+        },
+        create: {
+          userId,
+          chapterId: c.chapterId,
+          examId,
+          questionsAttempted: c.attempted,
+          questionsCorrect: c.correct,
+          status: "DONE",
+        },
+      }),
+    ),
+  );
 
   // Enrollment rollup (which exams the student is pursuing + % chapters done).
   const [totalChapters, chaptersDone] = await Promise.all([

@@ -1,0 +1,4 @@
+# PadhoDost — Authorized Digital Sellers (ads.txt)
+# After Google AdSense approves the site, replace pub-0000000000000000 below with your
+# real publisher ID (found in AdSense → Account → Settings → Publisher ID), then redeploy.
+google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0

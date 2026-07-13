@@ -10,6 +10,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Daily Challenge — ${date}`,
     description: `Free Question of the Day for SSC, Class 10, JEE & NEET aspirants on PadhoDost (${date}).`,
+    alternates: { canonical: `/daily/${date}` },
+    openGraph: {
+      title: `Daily Challenge — ${date}`,
+      description: "Free Question of the Day for SSC, Class 10, JEE & NEET aspirants.",
+      url: `/daily/${date}`,
+      type: "article",
+    },
   };
 }
 
@@ -20,16 +27,14 @@ export default async function DailyDatePage({ params }: Props) {
   const q = await getDailyQuestion(date);
   if (!q) notFound();
 
-  const correctIndex = q.options.findIndex((o) => o.isCorrect);
-
+  // Note: correct answer + explanation are NOT sent to the client — grading happens
+  // server-side via submitDaily() only after the student picks.
   return (
     <DailyChallenge
       date={date}
       question={{
         text: q.text,
-        explanation: q.explanation,
         options: q.options.map((o) => ({ id: o.id, text: o.text })),
-        correctIndex,
         examShort: q.exam.shortName,
         chapter: q.chapter?.name ?? null,
       }}

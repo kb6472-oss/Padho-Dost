@@ -1,9 +1,11 @@
 "use server";
 
+import { cookies } from "next/headers";
 import { prisma } from "@/lib/prisma";
 import { createClient } from "@/lib/supabase/server";
 import { syncUser } from "@/lib/auth";
 import { recordTestProgress } from "@/lib/progress";
+import { ANON_COOKIE } from "@/lib/anon";
 
 export type SubmitInput = {
   mockTestId: string;
@@ -11,10 +13,22 @@ export type SubmitInput = {
   timeTakenSec: number;
   answers: { questionId: string; selectedOptionId: string }[];
   times?: { questionId: string; seconds: number }[];
+  clientAttemptId?: string; // client-generated id → makes submit idempotent (retry-safe)
 };
+
+const clampSec = (n: number, max: number) => Math.min(max, Math.max(0, Math.round(Number(n) || 0)));
 
 // Scoring is computed SERVER-SIDE (authoritative) — never trust the client for correctness.
 export async function submitAttempt(input: SubmitInput): Promise<{ attemptId: string }> {
+  // Idempotency: a retried submit with the same clientAttemptId returns the first attempt.
+  if (input.clientAttemptId) {
+    const existing = await prisma.attempt.findUnique({
+      where: { clientAttemptId: input.clientAttemptId },
+      select: { id: true },
+    });
+    if (existing) return { attemptId: existing.id };
+  }
+
   const test = await prisma.mockTest.findUnique({
     where: { id: input.mockTestId },
     include: {
@@ -26,8 +40,13 @@ export async function submitAttempt(input: SubmitInput): Promise<{ attemptId: st
   });
   if (!test) throw new Error("Test not found");
 
-  const selectedByQ = new Map(input.answers.map((a) => [a.questionId, a.selectedOptionId]));
-  const timeByQ = new Map((input.times ?? []).map((t) => [t.questionId, t.seconds]));
+  const durationSec = test.durationMinutes * 60;
+  // Only trust answers/times for questions that actually belong to this test.
+  const validQ = new Set(test.questions.map((tq) => tq.question.id));
+  const selectedByQ = new Map(
+    (input.answers ?? []).filter((a) => validQ.has(a.questionId)).map((a) => [a.questionId, a.selectedOptionId]),
+  );
+  const timeByQ = new Map((input.times ?? []).filter((t) => validQ.has(t.questionId)).map((t) => [t.questionId, t.seconds]));
 
   let correctCount = 0;
   let wrongCount = 0;
@@ -39,9 +58,11 @@ export async function submitAttempt(input: SubmitInput): Promise<{ attemptId: st
     const q = tq.question;
     const selectedOptionId = selectedByQ.get(q.id) ?? null;
 
+    const timeSpentSec = timeByQ.has(q.id) ? clampSec(timeByQ.get(q.id) as number, 14400) : null;
+
     if (!selectedOptionId) {
       unattemptedCount++;
-      return { questionId: q.id, selectedOptionId: null, isCorrect: null as boolean | null, timeSpentSec: timeByQ.get(q.id) ?? null };
+      return { questionId: q.id, selectedOptionId: null, isCorrect: null as boolean | null, timeSpentSec };
     }
 
     const correctOption = q.options.find((o) => o.isCorrect);
@@ -60,7 +81,7 @@ export async function submitAttempt(input: SubmitInput): Promise<{ attemptId: st
       if (isCorrect) e.correct++;
       perChapter.set(q.chapterId, e);
     }
-    return { questionId: q.id, selectedOptionId, isCorrect, timeSpentSec: timeByQ.get(q.id) ?? null };
+    return { questionId: q.id, selectedOptionId, isCorrect, timeSpentSec };
   });
 
   // If signed in, own the attempt directly; otherwise tag it with the guest anonId.
@@ -70,22 +91,46 @@ export async function submitAttempt(input: SubmitInput): Promise<{ attemptId: st
   } = await supabase.auth.getUser();
   if (user) await syncUser(user);
 
-  const attempt = await prisma.attempt.create({
-    data: {
-      mockTestId: test.id,
-      userId: user?.id ?? null,
-      anonId: user ? null : input.anonId,
-      status: "SUBMITTED",
-      score,
-      totalMarks: test.totalMarks,
-      correctCount,
-      wrongCount,
-      unattemptedCount,
-      timeTakenSec: input.timeTakenSec,
-      submittedAt: new Date(),
-      answers: { create: answerRows },
-    },
-  });
+  // Guests: bind their anonId to an httpOnly cookie so only they can view the result.
+  if (!user && input.anonId) {
+    (await cookies()).set(ANON_COOKIE, input.anonId, {
+      httpOnly: true,
+      sameSite: "lax",
+      path: "/",
+      maxAge: 60 * 60 * 24 * 180,
+    });
+  }
+
+  let attempt: { id: string };
+  try {
+    attempt = await prisma.attempt.create({
+      data: {
+        mockTestId: test.id,
+        userId: user?.id ?? null,
+        anonId: user ? null : input.anonId,
+        clientAttemptId: input.clientAttemptId ?? null,
+        status: "SUBMITTED",
+        score,
+        totalMarks: test.totalMarks,
+        correctCount,
+        wrongCount,
+        unattemptedCount,
+        timeTakenSec: clampSec(input.timeTakenSec, durationSec),
+        submittedAt: new Date(),
+        answers: { create: answerRows },
+      },
+    });
+  } catch (e) {
+    // Concurrent retry with the same clientAttemptId lost the race — return the winner.
+    if (input.clientAttemptId) {
+      const winner = await prisma.attempt.findUnique({
+        where: { clientAttemptId: input.clientAttemptId },
+        select: { id: true },
+      });
+      if (winner) return { attemptId: winner.id };
+    }
+    throw e;
+  }
 
   // Record LMS progress (streak, chapter completion, syllabus %) — non-fatal.
   if (user) {

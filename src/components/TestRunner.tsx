@@ -3,6 +3,7 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import { submitAttempt } from "@/lib/test-actions";
+import { startAttempt, saveProgress } from "@/lib/attempt-actions";
 
 type Opt = { id: string; text: string };
 type Q = { id: string; text: string; marks: number; negativeMarks: number; options: Opt[] };
@@ -58,6 +59,11 @@ export default function TestRunner({ test }: { test: RunnerTest }) {
     indexRef.current = index;
   }, [index]);
 
+  // Cross-device resume state (logged-in only; guests keep localStorage-only resume).
+  const cattemptRef = useRef<string>("");
+  const serverManagedRef = useRef(false);
+  const lastServerSaveRef = useRef(0);
+
   const commitCurrentTime = useCallback(() => {
     const now = Date.now();
     const qid = test.questions[indexRef.current]?.id;
@@ -68,40 +74,96 @@ export default function TestRunner({ test }: { test: RunnerTest }) {
     enterRef.current = now;
   }, [test.questions]);
 
-  // Hydrate from localStorage (same-device, offline-safe resume).
+  // Hydrate: prefer local (same-device continue); if none, pull any server-side
+  // in-progress attempt (logged-in cross-device); else start fresh. All server calls
+  // are best-effort — the test always works from localStorage even if they fail.
   useEffect(() => {
-    let saved: {
-      startedAt?: number;
-      answers?: Record<string, string>;
-      marked?: Record<string, boolean>;
-      index?: number;
-      times?: Record<string, number>;
-    } | null = null;
-    try {
-      saved = JSON.parse(localStorage.getItem(storageKey) || "null");
-    } catch {
-      saved = null;
-    }
-    if (saved && saved.startedAt) {
-      setAnswers(saved.answers || {});
-      setMarked(saved.marked || {});
-      setIndex(Math.min(saved.index || 0, total - 1));
-      setStartedAt(saved.startedAt);
-      timeRef.current = saved.times || {};
-    } else {
-      const now = Date.now();
-      setStartedAt(now);
-      localStorage.setItem(storageKey, JSON.stringify({ startedAt: now, answers: {}, marked: {}, index: 0 }));
-    }
-    enterRef.current = Date.now();
-    setReady(true);
-  }, [storageKey, total]);
+    let cancelled = false;
+    (async () => {
+      let saved: {
+        startedAt?: number;
+        answers?: Record<string, string>;
+        marked?: Record<string, boolean>;
+        index?: number;
+        times?: Record<string, number>;
+      } | null = null;
+      try {
+        saved = JSON.parse(localStorage.getItem(storageKey) || "null");
+      } catch {
+        saved = null;
+      }
 
-  // Persist progress on every change.
+      const cid = getClientAttemptId(test.id);
+      cattemptRef.current = cid;
+
+      let server: Awaited<ReturnType<typeof startAttempt>> | null = null;
+      try {
+        server = await startAttempt(test.id, cid);
+      } catch {
+        server = null;
+      }
+      if (cancelled) return;
+      if (server?.serverManaged) serverManagedRef.current = true;
+      if (server?.clientAttemptId && server.clientAttemptId !== cid) {
+        cattemptRef.current = server.clientAttemptId;
+        localStorage.setItem(`pd_cattempt_${test.id}`, server.clientAttemptId);
+      }
+
+      if (saved && saved.startedAt) {
+        // Same-device: continue exactly where we were.
+        setAnswers(saved.answers || {});
+        setMarked(saved.marked || {});
+        setIndex(Math.min(saved.index || 0, total - 1));
+        setStartedAt(saved.startedAt);
+        timeRef.current = saved.times || {};
+      } else if (server?.resumed && server.progressJson) {
+        // Cross-device pickup: rebuild state + timer from the server snapshot.
+        let p: { answers?: Record<string, string>; marked?: Record<string, boolean> } = {};
+        try {
+          p = JSON.parse(server.progressJson);
+        } catch {
+          p = {};
+        }
+        const rem = server.remainingSec ?? durationSec;
+        const start = Date.now() - (durationSec - rem) * 1000;
+        setAnswers(p.answers || {});
+        setMarked(p.marked || {});
+        setIndex(Math.min(server.currentQuestionIndex || 0, total - 1));
+        setStartedAt(start);
+        localStorage.setItem(
+          storageKey,
+          JSON.stringify({ startedAt: start, answers: p.answers || {}, marked: p.marked || {}, index: server.currentQuestionIndex || 0 }),
+        );
+      } else {
+        const now = Date.now();
+        setStartedAt(now);
+        localStorage.setItem(storageKey, JSON.stringify({ startedAt: now, answers: {}, marked: {}, index: 0 }));
+      }
+      enterRef.current = Date.now();
+      setReady(true);
+    })();
+    return () => {
+      cancelled = true;
+    };
+  }, [storageKey, total, test.id, durationSec]);
+
+  // Persist progress on every change (localStorage always; server every ~10s if logged in).
   useEffect(() => {
     if (!ready || !startedAt) return;
     localStorage.setItem(storageKey, JSON.stringify({ startedAt, answers, marked, index, times: timeRef.current }));
-  }, [ready, startedAt, answers, marked, index, storageKey]);
+    if (serverManagedRef.current) {
+      const now = Date.now();
+      if (now - lastServerSaveRef.current > 10000) {
+        lastServerSaveRef.current = now;
+        const remaining = Math.max(0, durationSec - Math.floor((now - startedAt) / 1000));
+        saveProgress(cattemptRef.current, {
+          currentQuestionIndex: index,
+          remainingSec: remaining,
+          progressJson: JSON.stringify({ answers, marked }),
+        }).catch(() => {});
+      }
+    }
+  }, [ready, startedAt, answers, marked, index, storageKey, durationSec]);
 
   const doSubmit = useCallback(async () => {
     if (submitting) return;
@@ -114,7 +176,7 @@ export default function TestRunner({ test }: { test: RunnerTest }) {
       const res = await submitAttempt({
         mockTestId: test.id,
         anonId: getAnonId(),
-        clientAttemptId: getClientAttemptId(test.id),
+        clientAttemptId: cattemptRef.current || getClientAttemptId(test.id),
         timeTakenSec,
         answers: payload,
         times,

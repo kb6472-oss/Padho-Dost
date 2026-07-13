@@ -263,6 +263,16 @@ export default async function ResultPage({ params }: Props) {
           More {mockTest.exam.shortName} tests
         </Link>
       </div>
+
+      <p className="mt-6 text-center text-xs text-muted">
+        Spotted a wrong answer?{" "}
+        <Link
+          href={`/contact?kind=report&ref=${encodeURIComponent(mockTest.title)}`}
+          className="font-medium text-brand-600 hover:underline"
+        >
+          Report a mistake
+        </Link>
+      </p>
     </div>
   );
 }

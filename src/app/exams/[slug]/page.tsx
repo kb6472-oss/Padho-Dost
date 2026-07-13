@@ -5,6 +5,7 @@ import { getExamWithTests } from "@/lib/data";
 import { getSessionUser } from "@/lib/auth";
 import { getExamGoal } from "@/lib/enroll";
 import { getFullMockUnlock, isGrandMock, isSectionTest, type UnlockState } from "@/lib/full-mock";
+import { getExamIntro } from "@/content/exam-intros";
 import ExamGoalButton from "@/components/ExamGoalButton";
 import JsonLd from "@/components/JsonLd";
 
@@ -124,6 +125,7 @@ export default async function ExamDetailPage({ params }: Props) {
   const su = fullMocks.length > 0 ? await getSessionUser() : null;
   const unlock = fullMocks.length > 0 ? await getFullMockUnlock(su?.id ?? null, exam.id) : null;
   const goal = await getExamGoal();
+  const intro = getExamIntro(slug);
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -237,6 +239,56 @@ export default async function ExamDetailPage({ params }: Props) {
       <p className="mt-6 text-xs text-muted">
         No sign-up needed to start. Your score is saved when you create a free account.
       </p>
+
+      {/* Evergreen exam overview (SEO + student guidance) */}
+      {intro && (
+        <section className="mt-14 border-t border-border pt-10">
+          <h2 className="font-display text-xl font-bold text-foreground">{intro.heading}</h2>
+          <div className="mt-3 space-y-3 text-sm leading-relaxed text-muted">
+            {intro.paragraphs.map((p, i) => (
+              <p key={i}>{p}</p>
+            ))}
+          </div>
+
+          {intro.pattern.length > 0 && (
+            <div className="mt-6">
+              <h3 className="font-display text-base font-semibold text-foreground">Exam pattern at a glance</h3>
+              <div className="mt-3 grid gap-2 sm:grid-cols-2">
+                {intro.pattern.map((f) => (
+                  <div key={f.label} className="flex items-center justify-between rounded-xl border border-border bg-surface px-4 py-2.5 text-sm">
+                    <span className="text-muted">{f.label}</span>
+                    <span className="font-semibold text-foreground">{f.value}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {intro.topics.length > 0 && (
+            <div className="mt-6">
+              <h3 className="font-display text-base font-semibold text-foreground">Topics covered</h3>
+              <div className="mt-3 flex flex-wrap gap-2">
+                {intro.topics.map((t) => (
+                  <span key={t} className="rounded-full bg-surface px-3 py-1 text-xs font-medium text-muted">
+                    {t}
+                  </span>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {intro.tips.length > 0 && (
+            <div className="mt-6">
+              <h3 className="font-display text-base font-semibold text-foreground">Quick prep tips</h3>
+              <ul className="mt-3 list-disc space-y-1.5 pl-5 text-sm text-muted">
+                {intro.tips.map((t, i) => (
+                  <li key={i}>{t}</li>
+                ))}
+              </ul>
+            </div>
+          )}
+        </section>
+      )}
     </div>
   );
 }

@@ -20,13 +20,14 @@ const clampSec = (n: number, max: number) => Math.min(max, Math.max(0, Math.roun
 
 // Scoring is computed SERVER-SIDE (authoritative) — never trust the client for correctness.
 export async function submitAttempt(input: SubmitInput): Promise<{ attemptId: string }> {
-  // Idempotency: a retried submit with the same clientAttemptId returns the first attempt.
+  // Idempotency: a retried submit with the same clientAttemptId returns the first result.
+  // (An IN_PROGRESS attempt with this id is finalized below, not short-circuited here.)
   if (input.clientAttemptId) {
     const existing = await prisma.attempt.findUnique({
       where: { clientAttemptId: input.clientAttemptId },
-      select: { id: true },
+      select: { id: true, status: true },
     });
-    if (existing) return { attemptId: existing.id };
+    if (existing?.status === "SUBMITTED") return { attemptId: existing.id };
   }
 
   const test = await prisma.mockTest.findUnique({
@@ -101,25 +102,46 @@ export async function submitAttempt(input: SubmitInput): Promise<{ attemptId: st
     });
   }
 
+  const finalData = {
+    userId: user?.id ?? null,
+    anonId: user ? null : input.anonId,
+    status: "SUBMITTED" as const,
+    score,
+    totalMarks: test.totalMarks,
+    correctCount,
+    wrongCount,
+    unattemptedCount,
+    timeTakenSec: clampSec(input.timeTakenSec, durationSec),
+    submittedAt: new Date(),
+    progressJson: null,
+  };
+
+  // A server-side IN_PROGRESS attempt (from cross-device resume) is finalized in place;
+  // otherwise a fresh SUBMITTED attempt is created.
+  const prior = input.clientAttemptId
+    ? await prisma.attempt.findUnique({ where: { clientAttemptId: input.clientAttemptId }, select: { id: true } })
+    : null;
+
   let attempt: { id: string };
   try {
-    attempt = await prisma.attempt.create({
-      data: {
-        mockTestId: test.id,
-        userId: user?.id ?? null,
-        anonId: user ? null : input.anonId,
-        clientAttemptId: input.clientAttemptId ?? null,
-        status: "SUBMITTED",
-        score,
-        totalMarks: test.totalMarks,
-        correctCount,
-        wrongCount,
-        unattemptedCount,
-        timeTakenSec: clampSec(input.timeTakenSec, durationSec),
-        submittedAt: new Date(),
-        answers: { create: answerRows },
-      },
-    });
+    if (prior) {
+      await prisma.answer.deleteMany({ where: { attemptId: prior.id } });
+      attempt = await prisma.attempt.update({
+        where: { id: prior.id },
+        data: { ...finalData, answers: { create: answerRows } },
+        select: { id: true },
+      });
+    } else {
+      attempt = await prisma.attempt.create({
+        data: {
+          mockTestId: test.id,
+          clientAttemptId: input.clientAttemptId ?? null,
+          ...finalData,
+          answers: { create: answerRows },
+        },
+        select: { id: true },
+      });
+    }
   } catch (e) {
     // Concurrent retry with the same clientAttemptId lost the race — return the winner.
     if (input.clientAttemptId) {

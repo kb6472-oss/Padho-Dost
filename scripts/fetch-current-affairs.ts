@@ -38,7 +38,7 @@ async function fetchNewsData(key: string): Promise<Item[]> {
   return (data.results ?? []).slice(0, 12).map((a) => ({
     title: String(a.title ?? "").trim(),
     summary: a.description ? String(a.description).trim() : null,
-    source: (a.source_id as string) ?? null,
+    source: (a.source_name as string) ?? (a.source_id as string) ?? null,
     url: String(a.link ?? ""),
     imageUrl: a.image_url ? String(a.image_url) : null,
     category: Array.isArray(a.category) ? String(a.category[0]) : null,

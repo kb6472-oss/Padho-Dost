@@ -26,6 +26,15 @@ export const exams: Exam[] = [
     chip: "bg-emerald-100 text-emerald-700",
   },
   {
+    slug: "banking",
+    name: "Banking (IBPS / SBI)",
+    short: "Banking",
+    emoji: "🏧",
+    blurb: "IBPS PO, SBI PO & Clerk — Quant, Reasoning, English & Banking Awareness.",
+    status: "live",
+    chip: "bg-lime-100 text-lime-700",
+  },
+  {
     slug: "class-10",
     name: "Class 10 (CBSE)",
     short: "Class 10",
@@ -33,6 +42,15 @@ export const exams: Exam[] = [
     blurb: "Maths, Science & SST explained visually, chapter by chapter.",
     status: "live",
     chip: "bg-sky-100 text-sky-700",
+  },
+  {
+    slug: "class-11",
+    name: "Class 11 (CBSE)",
+    short: "Class 11",
+    emoji: "📗",
+    blurb: "Physics, Chemistry, Maths & Biology — NCERT-based chapter practice.",
+    status: "live",
+    chip: "bg-cyan-100 text-cyan-700",
   },
   {
     slug: "class-12",

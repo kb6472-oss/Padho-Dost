@@ -1,6 +1,5 @@
 import type { MetadataRoute } from "next";
 import { prisma } from "@/lib/prisma";
-import { getRecentCADates } from "@/lib/current-affairs";
 
 const BASE = "https://padhodost.com";
 
@@ -68,14 +67,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.5,
   }));
 
-  // Current-affairs: only days that actually have a published digest.
-  const caDates = await getRecentCADates(14);
-  const caRoutes: MetadataRoute.Sitemap = caDates.map((d) => ({
-    url: `${BASE}/current-affairs/${d}`,
-    lastModified: now,
-    changeFrequency: "daily",
-    priority: 0.6,
-  }));
+  // Current-affairs pages are deliberately EXCLUDED from the sitemap and marked
+  // noindex: they are an aggregated third-party headline digest, not original
+  // content, and submitting them for indexing risks a site-wide scaled-content
+  // penalty. Re-add once the editorial pipeline produces original exam-format CA.
 
-  return [...staticRoutes, ...examRoutes, ...explainerRoutes, ...dailyRoutes, ...gkRoutes, ...caRoutes];
+  return [...staticRoutes, ...examRoutes, ...explainerRoutes, ...dailyRoutes, ...gkRoutes];
 }

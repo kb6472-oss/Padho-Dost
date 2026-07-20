@@ -1,17 +1,22 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getCurrentAffairs } from "@/lib/current-affairs";
-import { AdSlot } from "@/components/Ads";
 
 type Props = { params: Promise<{ date: string }> };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { date } = await params;
-  const description = `Daily current affairs for SSC, Banking & Railway aspirants — ${date}. Top India headlines, updated every morning.`;
+  const description = `Current affairs headline digest for ${date} — links to original reporting for SSC, Banking & Railway aspirants.`;
   return {
     title: `Current Affairs — ${date}`,
     description,
     alternates: { canonical: `/current-affairs/${date}` },
+    // NOINDEX — deliberate. This page is an aggregated headline digest built from
+    // third-party news APIs; it is not original PadhoDost content. Publishing it to
+    // search would be scaled content abuse, and that penalty applies SITE-WIDE.
+    // Remove this only once the editorial pipeline produces original exam-format
+    // current affairs (see docs/REDESIGN-PLAN.md).
+    robots: { index: false, follow: false },
     openGraph: { title: `Current Affairs — ${date}`, description, url: `/current-affairs/${date}`, type: "article" },
   };
 }
@@ -55,7 +60,9 @@ export default async function CurrentAffairsDatePage({ params }: Props) {
                 )}
               </div>
               <h2 className="mt-1.5 font-display text-base font-semibold text-foreground">{it.title}</h2>
-              {it.summary && <p className="mt-1.5 text-sm leading-relaxed text-muted">{it.summary}</p>}
+              {/* The publisher's own description is deliberately NOT rendered.
+                  Reproducing it verbatim is republishing someone else's copy —
+                  the headline plus an attributed link is a citation instead. */}
               <a
                 href={it.url}
                 target="_blank"
@@ -67,10 +74,9 @@ export default async function CurrentAffairsDatePage({ params }: Props) {
             </article>
           ))}
           <p className="pt-2 text-xs text-muted">
-            Headlines are sourced from public news APIs — PadhoDost is not the publisher. Tap a story
-            to read the full article at its source.
+            Headlines link to the original publishers — PadhoDost is not the publisher and does not
+            reproduce their articles. This digest is a reading list, not exam study material.
           </p>
-          <AdSlot slot="current-affairs-below" className="pt-4" />
         </div>
       )}
     </div>

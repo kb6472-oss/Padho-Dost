@@ -4,6 +4,7 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import { submitAttempt } from "@/lib/test-actions";
 import { startAttempt, saveProgress } from "@/lib/attempt-actions";
+import { track } from "@/lib/analytics";
 
 type Opt = { id: string; text: string };
 type Q = { id: string; text: string; marks: number; negativeMarks: number; options: Opt[] };
@@ -49,6 +50,7 @@ export default function TestRunner({ test }: { test: RunnerTest }) {
   const [startedAt, setStartedAt] = useState(0);
   const [timeLeft, setTimeLeft] = useState(durationSec);
   const [submitting, setSubmitting] = useState(false);
+  const [submitError, setSubmitError] = useState<string | null>(null);
   const [confirmOpen, setConfirmOpen] = useState(false);
 
   // Per-question dwell-time tracking (uses refs to avoid re-render churn).
@@ -109,8 +111,10 @@ export default function TestRunner({ test }: { test: RunnerTest }) {
         localStorage.setItem(`pd_cattempt_${test.id}`, server.clientAttemptId);
       }
 
+      let resumed = false;
       if (saved && saved.startedAt) {
         // Same-device: continue exactly where we were.
+        resumed = true;
         setAnswers(saved.answers || {});
         setMarked(saved.marked || {});
         setIndex(Math.min(saved.index || 0, total - 1));
@@ -124,6 +128,7 @@ export default function TestRunner({ test }: { test: RunnerTest }) {
         } catch {
           p = {};
         }
+        resumed = true;
         const rem = server.remainingSec ?? durationSec;
         const start = Date.now() - (durationSec - rem) * 1000;
         setAnswers(p.answers || {});
@@ -140,12 +145,19 @@ export default function TestRunner({ test }: { test: RunnerTest }) {
         localStorage.setItem(storageKey, JSON.stringify({ startedAt: now, answers: {}, marked: {}, index: 0 }));
       }
       enterRef.current = Date.now();
+      track("test_start", {
+        test_id: test.id,
+        test_title: test.title,
+        questions: total,
+        duration_min: test.durationMinutes,
+        resumed,
+      });
       setReady(true);
     })();
     return () => {
       cancelled = true;
     };
-  }, [storageKey, total, test.id, durationSec]);
+  }, [storageKey, total, test.id, test.title, test.durationMinutes, durationSec]);
 
   // Persist progress on every change (localStorage always; server every ~10s if logged in).
   useEffect(() => {
@@ -165,30 +177,82 @@ export default function TestRunner({ test }: { test: RunnerTest }) {
     }
   }, [ready, startedAt, answers, marked, index, storageKey, durationSec]);
 
-  const doSubmit = useCallback(async () => {
-    if (submitting) return;
-    setSubmitting(true);
-    commitCurrentTime();
-    const timeTakenSec = Math.min(durationSec, Math.max(0, Math.round((Date.now() - startedAt) / 1000)));
-    const payload = Object.entries(answers).map(([questionId, selectedOptionId]) => ({ questionId, selectedOptionId }));
-    const times = Object.entries(timeRef.current).map(([questionId, seconds]) => ({ questionId, seconds: Math.round(seconds) }));
-    try {
-      const res = await submitAttempt({
-        mockTestId: test.id,
-        anonId: getAnonId(),
-        clientAttemptId: cattemptRef.current || getClientAttemptId(test.id),
-        timeTakenSec,
-        answers: payload,
-        times,
-      });
-      localStorage.removeItem(storageKey);
-      localStorage.removeItem(`pd_cattempt_${test.id}`);
-      router.push(`/test/${test.id}/result/${res.attemptId}`);
-    } catch {
+  // Submit is guarded by a REF, not the `submitting` state. Using state here
+  // caused a fatal loop: a failed submit called setSubmitting(false) → doSubmit
+  // was reminted → the timer effect (which depended on doSubmit) re-ran → its
+  // immediate tick() saw timeLeft still 0 → auto-submitted again → blocking
+  // alert() forever, destroying a 60-minute attempt on a flaky connection.
+  const submittingRef = useRef(false);
+  const autoSubmittedRef = useRef(false);
+
+  const doSubmit = useCallback(
+    async (auto = false) => {
+      if (submittingRef.current) return;
+      submittingRef.current = true;
+      setSubmitting(true);
+      setSubmitError(null);
+      commitCurrentTime();
+
+      const timeTakenSec = Math.min(durationSec, Math.max(0, Math.round((Date.now() - startedAt) / 1000)));
+      const payload = Object.entries(answers).map(([questionId, selectedOptionId]) => ({ questionId, selectedOptionId }));
+      const times = Object.entries(timeRef.current).map(([questionId, seconds]) => ({ questionId, seconds: Math.round(seconds) }));
+      // Stable id → the server treats every retry below as the same attempt.
+      const clientAttemptId = cattemptRef.current || getClientAttemptId(test.id);
+
+      // Auto-submit gets more retries: the student's time is up and they cannot
+      // act, so giving up on them is the one unacceptable outcome.
+      const maxTries = auto ? 6 : 3;
+      for (let attempt = 0; attempt < maxTries; attempt++) {
+        try {
+          const res = await submitAttempt({
+            mockTestId: test.id,
+            anonId: getAnonId(),
+            clientAttemptId,
+            timeTakenSec,
+            answers: payload,
+            times,
+          });
+          track("test_submit", {
+            test_id: test.id,
+            test_title: test.title,
+            auto,
+            answered: Object.keys(answers).length,
+            total: test.questions.length,
+            time_taken_sec: timeTakenSec,
+          });
+          localStorage.removeItem(storageKey);
+          localStorage.removeItem(`pd_cattempt_${test.id}`);
+          router.push(`/test/${test.id}/result/${res.attemptId}`);
+          return;
+        } catch {
+          if (attempt < maxTries - 1) {
+            // Exponential backoff, capped — 1s, 2s, 4s, 8s, 15s.
+            const wait = Math.min(1000 * 2 ** attempt, 15000);
+            await new Promise((r) => setTimeout(r, wait));
+          }
+        }
+      }
+
+      // Every retry failed. Release the guard so the student can retry manually,
+      // and surface it inline rather than in a blocking native alert().
+      submittingRef.current = false;
       setSubmitting(false);
-      alert("Could not submit — please check your connection and try again. Your answers are saved on this device.");
-    }
-  }, [submitting, durationSec, startedAt, answers, test.id, storageKey, router, commitCurrentTime]);
+      setSubmitError(
+        auto
+          ? "Time is up, but we could not reach the server. Your answers are safe on this device — tap Submit again when your connection returns."
+          : "Could not submit — please check your connection. Your answers are saved on this device.",
+      );
+    },
+    [durationSec, startedAt, answers, test.id, test.title, test.questions.length, storageKey, router, commitCurrentTime],
+  );
+
+  // Keep the timer effect independent of doSubmit (which changes on every
+  // answer) by reaching it through a ref. The effect below must depend only on
+  // the clock, or we recreate the interval on every keystroke.
+  const doSubmitRef = useRef(doSubmit);
+  useEffect(() => {
+    doSubmitRef.current = doSubmit;
+  }, [doSubmit]);
 
   // Countdown timer (computed from startedAt so it survives refresh).
   useEffect(() => {
@@ -196,12 +260,16 @@ export default function TestRunner({ test }: { test: RunnerTest }) {
     const tick = () => {
       const left = Math.max(0, durationSec - Math.floor((Date.now() - startedAt) / 1000));
       setTimeLeft(left);
-      if (left <= 0) doSubmit();
+      // Latch: auto-submit fires exactly once for the lifetime of this attempt.
+      if (left <= 0 && !autoSubmittedRef.current) {
+        autoSubmittedRef.current = true;
+        void doSubmitRef.current(true);
+      }
     };
     tick();
     const t = setInterval(tick, 1000);
     return () => clearInterval(t);
-  }, [ready, startedAt, durationSec, doSubmit]);
+  }, [ready, startedAt, durationSec]);
 
   if (!ready) {
     return <div className="py-24 text-center text-sm text-muted">Loading test…</div>;
@@ -236,6 +304,14 @@ export default function TestRunner({ test }: { test: RunnerTest }) {
             type="button"
             onClick={() => {
               if (window.confirm("Leave this test? Your answers are saved on this device — you can resume later.")) {
+                track("test_abandon", {
+                  test_id: test.id,
+                  test_title: test.title,
+                  answered: answeredCount,
+                  total,
+                  at_question: index + 1,
+                  seconds_elapsed: durationSec - timeLeft,
+                });
                 router.push("/exams");
               }
             }}
@@ -324,6 +400,25 @@ export default function TestRunner({ test }: { test: RunnerTest }) {
           </button>
         )}
       </div>
+
+      {/* Submit failure — recoverable, and never blocks the page */}
+      {submitError && (
+        <div
+          role="alert"
+          className="mt-4 rounded-2xl border border-rose-200 bg-rose-50 p-4 text-sm text-rose-800"
+        >
+          <p className="font-semibold">Submit failed</p>
+          <p className="mt-1 leading-relaxed">{submitError}</p>
+          <button
+            type="button"
+            onClick={() => void doSubmit()}
+            disabled={submitting}
+            className="mt-3 rounded-full bg-rose-600 px-5 py-2 text-sm font-semibold text-white hover:bg-rose-700 disabled:opacity-60"
+          >
+            {submitting ? "Retrying…" : "Try submitting again"}
+          </button>
+        </div>
+      )}
 
       {/* Controls */}
       <div className="mt-4 flex items-center justify-between gap-3">
@@ -425,7 +520,7 @@ export default function TestRunner({ test }: { test: RunnerTest }) {
               </button>
               <button
                 type="button"
-                onClick={doSubmit}
+                onClick={() => void doSubmit()}
                 disabled={submitting}
                 className="flex-1 rounded-full bg-emerald-600 py-2.5 text-sm font-semibold text-white hover:bg-emerald-700 disabled:opacity-60"
               >

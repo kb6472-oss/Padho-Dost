@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getCurrentAffairs } from "@/lib/current-affairs";
+import { AdSlot } from "@/components/Ads";
 
 type Props = { params: Promise<{ date: string }> };
 
@@ -69,6 +70,7 @@ export default async function CurrentAffairsDatePage({ params }: Props) {
             Headlines are sourced from public news APIs — PadhoDost is not the publisher. Tap a story
             to read the full article at its source.
           </p>
+          <AdSlot slot="current-affairs-below" className="pt-4" />
         </div>
       )}
     </div>

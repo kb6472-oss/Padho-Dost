@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { track } from "@/lib/analytics";
 
 export default function ShareResult({
   testId,
@@ -27,6 +28,7 @@ export default function ShareResult({
 
   async function share() {
     const text = message();
+    track("share_click", { test_id: testId, test_title: testTitle, pct, rank: rank ?? undefined, method: "share" });
     if (typeof navigator !== "undefined" && navigator.share) {
       try {
         await navigator.share({ title: "PadhoDost", text });
@@ -39,6 +41,7 @@ export default function ShareResult({
   }
 
   async function copy() {
+    track("share_click", { test_id: testId, test_title: testTitle, pct, rank: rank ?? undefined, method: "copy" });
     try {
       await navigator.clipboard.writeText(message());
       setCopied(true);

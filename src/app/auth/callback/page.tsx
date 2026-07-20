@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { createClient } from "@/lib/supabase/client";
 import { syncCurrentUser } from "@/lib/user-actions";
+import { track } from "@/lib/analytics";
 
 // Completes sign-in in the BROWSER, where the PKCE code verifier lives.
 // (Works for both email magic links and Google OAuth.)
@@ -31,7 +32,12 @@ export default function AuthCallbackPage() {
 
       // Create/refresh the Prisma user row now that a session exists.
       try {
-        await syncCurrentUser();
+        const { isNew } = await syncCurrentUser();
+        if (isNew) {
+          track("signup_complete", { next });
+          // gtag uses sendBeacon, but give it a beat before we navigate away.
+          await new Promise((r) => setTimeout(r, 250));
+        }
       } catch {
         // non-fatal; navbar will still reflect the session
       }

@@ -5,6 +5,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import JsonLd from "@/components/JsonLd";
 import { AdScript } from "@/components/Ads";
+import Analytics from "@/components/Analytics";
 
 const adsenseClient = process.env.NEXT_PUBLIC_ADSENSE_CLIENT;
 
@@ -94,6 +95,7 @@ export default function RootLayout({
     <html lang="en-IN" className={`${inter.variable} ${poppins.variable} antialiased`}>
       <body className="flex min-h-screen flex-col bg-background font-sans text-foreground">
         <JsonLd data={siteJsonLd} />
+        <Analytics />
         <AdScript />
         <Navbar />
         <main className="flex-1">{children}</main>

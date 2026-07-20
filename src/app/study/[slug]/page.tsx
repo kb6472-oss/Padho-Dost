@@ -5,6 +5,7 @@ import { prisma } from "@/lib/prisma";
 import { getExplainer, type Block } from "@/content/explainers";
 import ExplainerReader from "@/components/ExplainerReader";
 import JsonLd from "@/components/JsonLd";
+import { AdSlot } from "@/components/Ads";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -91,6 +92,9 @@ export default async function ExplainerPage({ params }: Props) {
       <div className="mt-7">
         <ExplainerReader slug={slug} blocks={content.blocks} />
       </div>
+
+      {/* After the read, before the test CTA — the natural pause in the page. */}
+      <AdSlot slot="explainer-end" className="mt-10" />
 
       {testId && (
         <div className="mt-10 rounded-2xl border border-brand-200 bg-brand-50 p-6 text-center">

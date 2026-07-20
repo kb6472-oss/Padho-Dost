@@ -7,6 +7,8 @@ import { getSessionUser } from "@/lib/auth";
 import { ANON_COOKIE } from "@/lib/anon";
 import { getTestRanking } from "@/lib/ranking";
 import ShareResult from "@/components/ShareResult";
+import TrackedLink from "@/components/TrackedLink";
+import { AdSlot } from "@/components/Ads";
 import { buildFeedback } from "@/lib/feedback";
 
 type Props = { params: Promise<{ id: string; attemptId: string }> };
@@ -146,8 +148,10 @@ export default async function ResultPage({ params }: Props) {
           </div>
         </div>
       ) : (
-        <Link
+        <TrackedLink
           href={`/login?next=${encodeURIComponent(`/test/${id}/result/${attemptId}`)}`}
+          event="signup_prompt_click"
+          props={{ test_id: id, source: "result_save_score", pct }}
           className="mt-4 flex items-center gap-3 rounded-2xl border border-amber-200 bg-amber-50 p-4 transition-colors hover:bg-amber-100"
         >
           <span className="text-2xl">💾</span>
@@ -157,7 +161,7 @@ export default async function ResultPage({ params }: Props) {
               Create a free account in 1 tap to save this score and resume anytime. No spam, no calls.
             </p>
           </div>
-        </Link>
+        </TrackedLink>
       )}
 
       {/* Time analysis */}
@@ -187,6 +191,9 @@ export default async function ResultPage({ params }: Props) {
       )}
 
       {/* Review */}
+      {/* Highest-dwell surface in the product — students scroll the full solutions list. */}
+      <AdSlot slot="result-mid" className="mt-8" />
+
       <h2 className="mt-10 font-display text-lg font-bold text-foreground">Solutions &amp; review</h2>
       <div className="mt-4 space-y-4">
         {mockTest.questions.map((tq, i) => {

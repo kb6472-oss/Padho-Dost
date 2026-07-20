@@ -31,11 +31,15 @@ export function toDisplayUser(su: SupabaseUser | null): DisplayUser | null {
 }
 
 // Ensure a Prisma User row exists for this Supabase user (id = Supabase uid).
-export async function syncUser(su: SupabaseUser) {
+// Returns { isNew } so callers can distinguish a genuine signup from a repeat
+// login — without it, "signup rate" silently counts every returning session.
+export async function syncUser(su: SupabaseUser): Promise<{ isNew: boolean }> {
   const meta = su.user_metadata ?? {};
   const name = (meta.full_name as string) || (meta.name as string) || null;
   const image = (meta.avatar_url as string) || (meta.picture as string) || null;
   const email = su.email ?? `${su.id}@user.padhodost`;
+
+  const existing = await prisma.user.findUnique({ where: { id: su.id }, select: { id: true } });
 
   await prisma.user.upsert({
     where: { id: su.id },
@@ -47,4 +51,6 @@ export async function syncUser(su: SupabaseUser) {
     },
     create: { id: su.id, email, name, image },
   });
+
+  return { isNew: !existing };
 }

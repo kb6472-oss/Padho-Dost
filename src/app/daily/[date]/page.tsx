@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getDailyQuestion } from "@/lib/daily";
 import DailyChallenge from "@/components/DailyChallenge";
+import { AdSlot } from "@/components/Ads";
 
 type Props = { params: Promise<{ date: string }> };
 
@@ -30,14 +31,19 @@ export default async function DailyDatePage({ params }: Props) {
   // Note: correct answer + explanation are NOT sent to the client — grading happens
   // server-side via submitDaily() only after the student picks.
   return (
-    <DailyChallenge
-      date={date}
-      question={{
-        text: q.text,
-        options: q.options.map((o) => ({ id: o.id, text: o.text })),
-        examShort: q.exam.shortName,
-        chapter: q.chapter?.name ?? null,
-      }}
-    />
+    <>
+      <DailyChallenge
+        date={date}
+        question={{
+          text: q.text,
+          options: q.options.map((o) => ({ id: o.id, text: o.text })),
+          examShort: q.exam.shortName,
+          chapter: q.chapter?.name ?? null,
+        }}
+      />
+      <div className="mx-auto max-w-2xl px-4 pb-10 sm:px-6">
+        <AdSlot slot="daily-below" />
+      </div>
+    </>
   );
 }

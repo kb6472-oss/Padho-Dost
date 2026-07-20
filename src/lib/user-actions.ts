@@ -9,14 +9,14 @@ import { syncUser } from "@/lib/auth";
 import { ANON_COOKIE } from "@/lib/anon";
 
 // Ensure a Prisma User row exists for the currently signed-in Supabase user.
-export async function syncCurrentUser(): Promise<{ ok: boolean }> {
+export async function syncCurrentUser(): Promise<{ ok: boolean; isNew: boolean }> {
   const supabase = await createClient();
   const {
     data: { user },
   } = await supabase.auth.getUser();
-  if (!user) return { ok: false };
-  await syncUser(user);
-  return { ok: true };
+  if (!user) return { ok: false, isNew: false };
+  const { isNew } = await syncUser(user);
+  return { ok: true, isNew };
 }
 
 export async function signOut() {

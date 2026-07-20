@@ -4,7 +4,6 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
-import { createClient } from "@/lib/supabase/client";
 import { signOut } from "@/lib/user-actions";
 import ClaimAnon from "@/components/ClaimAnon";
 import ThemeToggle from "@/components/ThemeToggle";
@@ -52,12 +51,32 @@ export default function Navbar() {
 
   useEffect(() => {
     if (!process.env.NEXT_PUBLIC_SUPABASE_URL || !process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY) return;
-    const supabase = createClient();
-    supabase.auth.getUser().then(({ data }) => setUser(toNavUser(data.user)));
-    const { data: sub } = supabase.auth.onAuthStateChange((_e, session) => {
-      setUser(toNavUser(session?.user ?? null));
-    });
-    return () => sub.subscription.unsubscribe();
+
+    let unsubscribe: (() => void) | undefined;
+    let cancelled = false;
+
+    // Imported dynamically, NOT at module scope. The Supabase client pulls in a
+    // 244KB (64KB gzipped) chunk, and a static import here put it in the shared
+    // bundle of every route — because the navbar is in the root layout. Loading
+    // it after hydration takes that off the critical path for the first-time
+    // visitor on 4G, who is logged out and never needs it.
+    (async () => {
+      const { createClient } = await import("@/lib/supabase/client");
+      if (cancelled) return;
+      const supabase = createClient();
+      const { data } = await supabase.auth.getUser();
+      if (cancelled) return;
+      setUser(toNavUser(data.user));
+      const { data: sub } = supabase.auth.onAuthStateChange((_e, session) => {
+        setUser(toNavUser(session?.user ?? null));
+      });
+      unsubscribe = () => sub.subscription.unsubscribe();
+    })();
+
+    return () => {
+      cancelled = true;
+      unsubscribe?.();
+    };
   }, []);
 
   return (

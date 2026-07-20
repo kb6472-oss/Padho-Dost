@@ -298,7 +298,10 @@ export default function TestRunner({ test }: { test: RunnerTest }) {
   return (
     <div className="mx-auto max-w-3xl px-4 py-6 sm:px-6">
       {/* Top bar */}
-      <div className="sticky top-16 z-10 -mx-4 mb-4 border-b border-border bg-background/90 px-4 py-3 backdrop-blur sm:-mx-6 sm:px-6">
+      {/* top-0, not top-16: the global navbar is not rendered on /test (see
+          SiteChrome), so this bar owns the top of the viewport instead of
+          stacking under 64px of chrome a student can't use mid-exam. */}
+      <div className="sticky top-0 z-10 -mx-4 mb-4 border-b border-border bg-background/90 px-4 py-3 backdrop-blur sm:-mx-6 sm:px-6">
         <div className="mb-1.5 flex items-center justify-between">
           <button
             type="button"

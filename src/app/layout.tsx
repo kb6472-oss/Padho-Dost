@@ -1,8 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Inter, Poppins } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
+import { SiteHeader, SiteFooter } from "@/components/SiteChrome";
 import JsonLd from "@/components/JsonLd";
 import { AdScript } from "@/components/Ads";
 import Analytics from "@/components/Analytics";
@@ -110,9 +109,9 @@ export default function RootLayout({
         <JsonLd data={siteJsonLd} />
         <Analytics />
         <AdScript />
-        <Navbar />
+        <SiteHeader />
         <main className="flex-1">{children}</main>
-        <Footer />
+        <SiteFooter />
       </body>
     </html>
   );

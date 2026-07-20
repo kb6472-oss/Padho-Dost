@@ -94,9 +94,15 @@ export default async function ResultPage({ params }: Props) {
     byChapter.set(ch.id, row);
   }
 
+  // Sorted weakest-first, but rows with a single attempt are pushed to the end:
+  // one unlucky question is not evidence, and letting it head the list would
+  // contradict the chapter named as "your weakest topic" just above it.
   const topics = [...byChapter.entries()]
     .map(([chapterId, t]) => ({ chapterId, ...t, pct: Math.round((t.correct / t.attempted) * 100) }))
-    .sort((a, b) => a.pct - b.pct || b.attempted - a.attempted);
+    .sort(
+      (a, b) =>
+        Number(a.attempted < 2) - Number(b.attempted < 2) || a.pct - b.pct || b.attempted - a.attempted,
+    );
 
   // Weakest topic drives the "what next" block. Require 2+ attempts so a single
   // unlucky question doesn't send a student off to re-read a chapter they know,
@@ -115,6 +121,15 @@ export default async function ResultPage({ params }: Props) {
             examId: mockTest.examId,
             id: { not: mockTest.id },
             questions: { some: { question: { chapterId: weakest.chapterId } } },
+            // Don't send a student back to a paper they've already sat — this
+            // query is deterministic, so without it every result for the same
+            // weak chapter recommends the identical test forever.
+            attempts: {
+              none: {
+                submittedAt: { not: null },
+                ...(attempt.userId ? { userId: attempt.userId } : { anonId: attempt.anonId }),
+              },
+            },
           },
           orderBy: { createdAt: "asc" },
           select: { id: true, title: true, _count: { select: { questions: true } } },
@@ -380,17 +395,21 @@ export default async function ResultPage({ params }: Props) {
           piece of content; retake is demoted to a quiet tertiary link. */}
       <div className="mt-8 flex flex-col gap-3 sm:flex-row">
         {nextTest ? (
-          <ButtonLink href={`/test/${nextTest.id}`} variant="primary" size="lg" className="sm:flex-1">
-            Next: {nextTest.title}
-          </ButtonLink>
+          <>
+            <ButtonLink href={`/test/${nextTest.id}`} variant="primary" size="lg" className="sm:flex-1">
+              Next: {nextTest.title}
+            </ButtonLink>
+            <ButtonLink href={`/exams/${mockTest.exam.slug}`} variant="secondary" size="lg" className="sm:flex-1">
+              All {mockTest.exam.shortName} tests
+            </ButtonLink>
+          </>
         ) : (
+          // Without a next test both buttons would point at the same URL, which
+          // reads as a rendering bug rather than a choice.
           <ButtonLink href={`/exams/${mockTest.exam.slug}`} variant="primary" size="lg" className="sm:flex-1">
             More {mockTest.exam.shortName} tests
           </ButtonLink>
         )}
-        <ButtonLink href={`/exams/${mockTest.exam.slug}`} variant="secondary" size="lg" className="sm:flex-1">
-          All {mockTest.exam.shortName} tests
-        </ButtonLink>
       </div>
 
       <p className="mt-4 text-center text-caption text-muted">

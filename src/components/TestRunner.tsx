@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import { submitAttempt } from "@/lib/test-actions";
 import { startAttempt, saveProgress } from "@/lib/attempt-actions";
 import { track } from "@/lib/analytics";
+import Modal from "@/components/ui/Modal";
 
 type Opt = { id: string; text: string };
 type Q = { id: string; text: string; marks: number; negativeMarks: number; options: Opt[] };
@@ -53,6 +54,7 @@ export default function TestRunner({ test }: { test: RunnerTest }) {
   const [submitError, setSubmitError] = useState<string | null>(null);
   const [confirmOpen, setConfirmOpen] = useState(false);
   const [exitOpen, setExitOpen] = useState(false);
+  const [milestoneWarning, setMilestoneWarning] = useState<string | null>(null);
   // A fresh attempt shows a briefing first; the clock must not already be running
   // when a student first sees the paper. Resumed attempts skip straight back in.
   const [needsBriefing, setNeedsBriefing] = useState(false);
@@ -149,13 +151,19 @@ export default function TestRunner({ test }: { test: RunnerTest }) {
         setNeedsBriefing(true);
       }
       enterRef.current = Date.now();
-      track("test_start", {
-        test_id: test.id,
-        test_title: test.title,
-        questions: total,
-        duration_min: test.durationMinutes,
-        resumed,
-      });
+      // Only a RESUMED attempt is genuinely under way at this point. A fresh one
+      // is still sitting on the briefing screen, so firing test_start here would
+      // count link-opens as starts and quietly inflate the start rate — the exact
+      // number W0 exists to measure. Fresh attempts fire it in beginTest().
+      if (resumed) {
+        track("test_start", {
+          test_id: test.id,
+          test_title: test.title,
+          questions: total,
+          duration_min: test.durationMinutes,
+          resumed: true,
+        });
+      }
       setReady(true);
     })();
     return () => {
@@ -188,6 +196,7 @@ export default function TestRunner({ test }: { test: RunnerTest }) {
   // alert() forever, destroying a 60-minute attempt on a flaky connection.
   const submittingRef = useRef(false);
   const autoSubmittedRef = useRef(false);
+  const warnedRef = useRef({ ten: false, five: false });
 
   const doSubmit = useCallback(
     async (auto = false) => {
@@ -264,6 +273,15 @@ export default function TestRunner({ test }: { test: RunnerTest }) {
     const tick = () => {
       const left = Math.max(0, durationSec - Math.floor((Date.now() - startedAt) / 1000));
       setTimeLeft(left);
+      // Latched milestones — a skipped tick can't lose these.
+      if (left <= 300 && !warnedRef.current.five) {
+        warnedRef.current.five = true;
+        warnedRef.current.ten = true; // crossing 5 implies 10 already passed
+        setMilestoneWarning("5 minutes left.");
+      } else if (left <= 600 && !warnedRef.current.ten) {
+        warnedRef.current.ten = true;
+        setMilestoneWarning("10 minutes left.");
+      }
       // Latch: auto-submit fires exactly once for the lifetime of this attempt.
       if (left <= 0 && !autoSubmittedRef.current) {
         autoSubmittedRef.current = true;
@@ -281,6 +299,14 @@ export default function TestRunner({ test }: { test: RunnerTest }) {
     enterRef.current = now;
     localStorage.setItem(storageKey, JSON.stringify({ startedAt: now, answers: {}, marked: {}, index: 0 }));
     setNeedsBriefing(false);
+    // The real start: the clock is now running and the student has seen the paper.
+    track("test_start", {
+      test_id: test.id,
+      test_title: test.title,
+      questions: total,
+      duration_min: test.durationMinutes,
+      resumed: false,
+    });
   }
 
   if (!ready) {
@@ -345,16 +371,13 @@ export default function TestRunner({ test }: { test: RunnerTest }) {
   const ss = String(timeLeft % 60).padStart(2, "0");
   const lowTime = timeLeft <= 60;
 
-  // Warn at 10 / 5 / 1 minutes. Derived from timeLeft rather than stored in
-  // state, so it survives refresh and can't drift out of sync with the clock.
+  // The sub-60s warning is a threshold, not a window, so it cannot be missed.
+  // The 10- and 5-minute ones are LATCHED in tick() (see the timer effect) for
+  // the same reason auto-submit is: a backgrounded tab on a low-end Android is
+  // throttled to roughly one tick a minute, and would jump clean over a
+  // narrow band. Never test a timer against a window it can skip.
   const timeWarning =
-    timeLeft <= 60
-      ? "Less than 1 minute left — the test submits automatically at 00:00."
-      : timeLeft <= 300 && timeLeft > 294
-        ? "5 minutes left."
-        : timeLeft <= 600 && timeLeft > 594
-          ? "10 minutes left."
-          : null;
+    timeLeft <= 60 ? "Less than 1 minute left — the test submits automatically at 00:00." : milestoneWarning;
 
   const selectOption = (oid: string) => setAnswers((a) => ({ ...a, [q.id]: oid }));
   const clearAnswer = () =>
@@ -370,7 +393,10 @@ export default function TestRunner({ test }: { test: RunnerTest }) {
   };
 
   return (
-    <div className="mx-auto max-w-3xl px-4 py-6 sm:px-6">
+    // Bottom padding reserves the fixed control bar's height at the END of the
+    // scroll container. A mid-document spacer doesn't work: the bar is fixed, so
+    // it overlays whatever is last on screen — which is the question palette.
+    <div className="mx-auto max-w-3xl px-4 pt-6 pb-[calc(4.75rem+env(safe-area-inset-bottom))] sm:px-6 sm:pb-6">
       {/* Top bar */}
       {/* top-0, not top-16: the global navbar is not rendered on /test (see
           SiteChrome), so this bar owns the top of the viewport instead of
@@ -550,9 +576,6 @@ export default function TestRunner({ test }: { test: RunnerTest }) {
           )}
         </div>
       </div>
-      {/* Reserves the fixed control bar's height so the palette below is never
-          hidden underneath it. Mobile only — the bar is static from sm up. */}
-      <div aria-hidden="true" className="h-[4.75rem] sm:hidden" />
 
       {/* Navigator */}
       <div className="mt-6 rounded-2xl border border-border bg-surface p-4">
@@ -574,9 +597,14 @@ export default function TestRunner({ test }: { test: RunnerTest }) {
             const isAnswered = !!answers[tq.id];
             const isMarked = !!marked[tq.id];
             const isCurrent = i === index;
+            // Answered and marked are INDEPENDENT states. They used to overwrite
+            // each other, so a question that was both showed only "marked" — the
+            // student lost track of whether they'd actually answered it. Answered
+            // owns the fill; marked adds a ring on top.
             let cls = "bg-background text-muted border-border";
             if (isAnswered) cls = "bg-emerald-100 text-emerald-700 border-emerald-200";
-            if (isMarked) cls = "bg-amber-100 text-amber-700 border-amber-200";
+            if (isMarked) cls += " ring-2 ring-amber-500";
+            if (isMarked && !isAnswered) cls = "bg-amber-50 text-amber-700 border-amber-200 ring-2 ring-amber-500";
             return (
               <button
                 key={tq.id}
@@ -589,9 +617,10 @@ export default function TestRunner({ test }: { test: RunnerTest }) {
                 }`}
               >
                 {i + 1}
-                {/* Non-colour state cue — the palette was colour-only, which is
-                    ambiguous for the ~8% of male students with CVD. */}
-                {isMarked ? " ★" : isAnswered ? " ✓" : ""}
+                {/* Non-colour state cues, and BOTH are shown — the two states can
+                    co-occur, so one must not hide the other. */}
+                {isAnswered ? " ✓" : ""}
+                {isMarked ? " ★" : ""}
               </button>
             );
           })}
@@ -606,61 +635,47 @@ export default function TestRunner({ test }: { test: RunnerTest }) {
       {/* Exit confirmation. Replaces window.confirm(), which renders as a jarring
           browser-chrome dialog on mobile and cannot say anything reassuring about
           the answers being saved. */}
-      {exitOpen && (
-        <div
-          className="fixed inset-0 z-50 flex items-center justify-center bg-black/40 p-4"
-          onClick={() => setExitOpen(false)}
-        >
-          <div
-            role="dialog"
-            aria-modal="true"
-            aria-labelledby="pd-exit-title"
-            className="w-full max-w-sm rounded-2xl bg-background p-6 shadow-xl"
-            onClick={(e) => e.stopPropagation()}
+      <Modal open={exitOpen} onClose={() => setExitOpen(false)} labelledBy="pd-exit-title">
+        <h3 id="pd-exit-title" className="font-display text-h3 font-bold text-foreground">
+          Leave this test?
+        </h3>
+        <p className="mt-1.5 text-body text-muted">
+          Your {answeredCount} answer{answeredCount === 1 ? "" : "s"} stay saved on this device — you can
+          come back and pick up where you left off.
+        </p>
+        <div className="mt-5 flex gap-3">
+          <button
+            type="button"
+            onClick={() => setExitOpen(false)}
+            className="h-11 flex-1 rounded-full bg-brand-600 text-body font-semibold text-white hover:bg-brand-700"
           >
-            <h3 id="pd-exit-title" className="font-display text-h3 font-bold text-foreground">
-              Leave this test?
-            </h3>
-            <p className="mt-1.5 text-body text-muted">
-              Your {answeredCount} answer{answeredCount === 1 ? "" : "s"} stay saved on this device — you
-              can come back and pick up where you left off.
-            </p>
-            <div className="mt-5 flex gap-3">
-              <button
-                type="button"
-                onClick={() => setExitOpen(false)}
-                className="h-11 flex-1 rounded-full bg-brand-600 text-body font-semibold text-white hover:bg-brand-700"
-              >
-                Keep solving
-              </button>
-              <button
-                type="button"
-                onClick={() => {
-                  track("test_abandon", {
-                    test_id: test.id,
-                    test_title: test.title,
-                    answered: answeredCount,
-                    total,
-                    at_question: index + 1,
-                    seconds_elapsed: durationSec - timeLeft,
-                  });
-                  router.push("/exams");
-                }}
-                className="h-11 flex-1 rounded-full border border-border text-body font-semibold text-foreground hover:bg-surface"
-              >
-                Leave
-              </button>
-            </div>
-          </div>
+            Keep solving
+          </button>
+          <button
+            type="button"
+            onClick={() => {
+              track("test_abandon", {
+                test_id: test.id,
+                test_title: test.title,
+                answered: answeredCount,
+                total,
+                at_question: index + 1,
+                seconds_elapsed: durationSec - timeLeft,
+              });
+              router.push("/exams");
+            }}
+            className="h-11 flex-1 rounded-full border border-border text-body font-semibold text-foreground hover:bg-surface"
+          >
+            Leave
+          </button>
         </div>
-      )}
+      </Modal>
 
       {/* Submit confirmation */}
-      {confirmOpen && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/40 p-4" onClick={() => setConfirmOpen(false)}>
-          <div className="w-full max-w-sm rounded-2xl bg-background p-6 shadow-xl" onClick={(e) => e.stopPropagation()}>
-            <h3 className="font-display text-lg font-bold text-foreground">Submit test?</h3>
-            <p className="mt-1 text-sm text-muted">You can&apos;t change answers after submitting.</p>
+      <Modal open={confirmOpen} onClose={() => setConfirmOpen(false)} labelledBy="pd-submit-title">
+          <div>
+            <h3 id="pd-submit-title" className="font-display text-h3 font-bold text-foreground">Submit test?</h3>
+            <p className="mt-1 text-body text-muted">You can&apos;t change answers after submitting.</p>
             <div className="mt-4 grid grid-cols-3 gap-2 text-center">
               <div className="rounded-xl bg-emerald-50 py-2">
                 <div className="text-lg font-bold text-emerald-700">{answeredCount}</div>
@@ -693,8 +708,7 @@ export default function TestRunner({ test }: { test: RunnerTest }) {
               </button>
             </div>
           </div>
-        </div>
-      )}
+      </Modal>
     </div>
   );
 }

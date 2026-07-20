@@ -1,23 +1,23 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { Suspense, useState } from "react";
 import Link from "next/link";
+import { useSearchParams } from "next/navigation";
 import { createClient } from "@/lib/supabase/client";
 
-export default function LoginPage() {
+function LoginForm() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
-  const [message, setMessage] = useState("");
   const [showPw, setShowPw] = useState(false);
 
-  useEffect(() => {
-    const params = new URLSearchParams(window.location.search);
-    if (params.get("error")) {
-      setStatus("error");
-      setMessage("That sign-in link didn't work. Please try again.");
-    }
-  }, []);
+  // The ?error flag is derived from the URL during render rather than copied
+  // into state by an effect — an effect would render once with the wrong state
+  // and then immediately re-render, and the URL is already reactive.
+  const linkFailed = useSearchParams().get("error") !== null;
+  const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">(linkFailed ? "error" : "idle");
+  const [message, setMessage] = useState(
+    linkFailed ? "That sign-in link didn't work. Please try again." : "",
+  );
 
   function nextUrl() {
     return new URLSearchParams(window.location.search).get("next") || "/dashboard";
@@ -189,5 +189,34 @@ export default function LoginPage() {
         ← Back to home
       </Link>
     </div>
+  );
+}
+
+// useSearchParams opts the subtree out of static prerendering, so it must sit
+// inside a Suspense boundary or the whole /login route fails to prerender.
+// The fallback mirrors the real header so there is no layout jump.
+export default function LoginPage() {
+  return (
+    <Suspense
+      fallback={
+        <div className="mx-auto flex max-w-sm flex-col px-4 py-16 sm:px-6">
+          <div className="flex flex-col items-center text-center">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/logo.svg" alt="" className="h-12 w-12" width={48} height={48} />
+            <h1 className="mt-4 font-display text-h2 font-extrabold tracking-tight text-foreground">
+              Log in to PadhoDost
+            </h1>
+            <p className="mt-1 text-body text-muted">Save your scores, track progress, resume anytime.</p>
+          </div>
+          <div className="mt-8 space-y-4">
+            <div className="pd-skeleton h-12 rounded-full" />
+            <div className="pd-skeleton h-12 rounded-full" />
+            <div className="pd-skeleton h-12 rounded-full" />
+          </div>
+        </div>
+      }
+    >
+      <LoginForm />
+    </Suspense>
   );
 }

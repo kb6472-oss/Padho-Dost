@@ -1,10 +1,13 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
+import { Menu, X } from "lucide-react";
 import { createClient } from "@/lib/supabase/client";
 import { signOut } from "@/lib/user-actions";
 import ClaimAnon from "@/components/ClaimAnon";
+import ThemeToggle from "@/components/ThemeToggle";
 
 const navLinks = [
   { href: "/exams", label: "Exams" },
@@ -17,6 +20,21 @@ const navLinks = [
 
 type NavUser = { name: string | null; email: string | null; image: string | null };
 
+// Declared at module scope, not inside the component. Defining it during render
+// creates a brand-new component type every render, so React unmounts and
+// remounts it (losing state and re-fetching the avatar image) on every keystroke.
+function Avatar({ user }: { user: NavUser }) {
+  const initial = (user.name || user.email || "?").charAt(0).toUpperCase();
+  return user.image ? (
+    // eslint-disable-next-line @next/next/no-img-element
+    <img src={user.image} alt="" className="h-8 w-8 rounded-full" width={32} height={32} />
+  ) : (
+    <span className="flex h-8 w-8 items-center justify-center rounded-full bg-brand-600 text-caption font-bold text-white">
+      {initial}
+    </span>
+  );
+}
+
 function toNavUser(su: { email?: string | null; user_metadata?: Record<string, unknown> } | null): NavUser | null {
   if (!su) return null;
   const meta = su.user_metadata ?? {};
@@ -28,6 +46,7 @@ function toNavUser(su: { email?: string | null; user_metadata?: Record<string, u
 }
 
 export default function Navbar() {
+  const pathname = usePathname();
   const [open, setOpen] = useState(false);
   const [user, setUser] = useState<NavUser | null>(null);
 
@@ -40,18 +59,6 @@ export default function Navbar() {
     });
     return () => sub.subscription.unsubscribe();
   }, []);
-
-  const initial = (user?.name || user?.email || "?").charAt(0).toUpperCase();
-
-  const Avatar = () =>
-    user?.image ? (
-      // eslint-disable-next-line @next/next/no-img-element
-      <img src={user.image} alt="" className="h-8 w-8 rounded-full" width={32} height={32} />
-    ) : (
-      <span className="flex h-8 w-8 items-center justify-center rounded-full bg-brand-600 text-sm font-bold text-white">
-        {initial}
-      </span>
-    );
 
   return (
     <header className="sticky top-0 z-50 border-b border-border bg-background/80 backdrop-blur">
@@ -66,18 +73,29 @@ export default function Navbar() {
         </Link>
 
         <div className="hidden items-center gap-5 md:flex">
-          {navLinks.map((l) => (
-            <Link key={l.href} href={l.href} className="text-sm font-medium text-muted transition-colors hover:text-foreground">
-              {l.label}
-            </Link>
-          ))}
+          {navLinks.map((l) => {
+            const active = pathname === l.href || pathname.startsWith(l.href + "/");
+            return (
+              <Link
+                key={l.href}
+                href={l.href}
+                aria-current={active ? "page" : undefined}
+                className={`text-body font-medium transition-colors ${
+                  active ? "text-brand-600" : "text-muted hover:text-foreground"
+                }`}
+              >
+                {l.label}
+              </Link>
+            );
+          })}
         </div>
 
         <div className="hidden items-center gap-3 md:flex">
+          <ThemeToggle />
           {user ? (
             <>
               <Link href="/dashboard" className="flex items-center gap-2 transition-opacity hover:opacity-80">
-                <Avatar />
+                <Avatar user={user} />
                 <span className="max-w-[120px] truncate text-sm font-medium text-foreground">
                   {user.name || user.email}
                 </span>
@@ -100,6 +118,8 @@ export default function Navbar() {
           )}
         </div>
 
+        <div className="flex items-center gap-1 md:hidden">
+          <ThemeToggle />
         <button
           type="button"
           aria-label="Toggle menu"
@@ -107,21 +127,9 @@ export default function Navbar() {
           onClick={() => setOpen((v) => !v)}
           className="flex h-10 w-10 items-center justify-center rounded-lg text-foreground md:hidden"
         >
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
-            {open ? (
-              <>
-                <line x1="18" y1="6" x2="6" y2="18" />
-                <line x1="6" y1="6" x2="18" y2="18" />
-              </>
-            ) : (
-              <>
-                <line x1="3" y1="6" x2="21" y2="6" />
-                <line x1="3" y1="12" x2="21" y2="12" />
-                <line x1="3" y1="18" x2="21" y2="18" />
-              </>
-            )}
-          </svg>
+          {open ? <X className="h-[22px] w-[22px]" strokeWidth={2} /> : <Menu className="h-[22px] w-[22px]" strokeWidth={2} />}
         </button>
+        </div>
       </nav>
 
       {open && (
@@ -140,7 +148,7 @@ export default function Navbar() {
                     onClick={() => setOpen(false)}
                     className="flex items-center gap-2 rounded-lg px-3 py-2 hover:bg-surface"
                   >
-                    <Avatar />
+                    <Avatar user={user} />
                     <span className="truncate text-sm font-medium text-foreground">{user.name || user.email}</span>
                   </Link>
                   <form action={signOut}>

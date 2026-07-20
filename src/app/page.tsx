@@ -1,39 +1,42 @@
 import Link from "next/link";
-import { getExams } from "@/lib/data";
+import { getExams, getExamCounts } from "@/lib/data";
 import { getChip, type Exam } from "@/lib/exams";
 import { prisma } from "@/lib/prisma";
 import ExamCard from "@/components/ExamCard";
 
+// Every claim here must be true TODAY. Anything aspirational belongs on a
+// roadmap page, not the homepage — a first-generation aspirant screening for
+// scams reads one broken promise as evidence about all the others.
 const features = [
   {
     emoji: "🆓",
-    title: "Truly 100% free",
-    body: "Every mock test, explainer and PDF — free forever. No paywalls, no “trial ended”. We run on ads, not your wallet.",
+    title: "Free means free",
+    body: "Every mock test and every explainer, forever. No “free trial”, no locked Premium tier, no card on file. We run on ads, not your wallet.",
   },
   {
-    emoji: "🖼️",
-    title: "Visual explainers",
-    body: "Concepts taught with analogies, diagrams and worked examples — so you actually understand, not just memorise.",
+    emoji: "🧠",
+    title: "Concept first, then practice",
+    body: "Each chapter starts with a plain-English explainer — analogies, worked examples and a quick self-check — so you understand it instead of memorising it.",
   },
   {
-    emoji: "📊",
-    title: "Know your weak spots",
-    body: "Every test shows your accuracy by topic, your All-India rank and exactly what to practise next.",
+    emoji: "🏆",
+    title: "Real exam conditions",
+    body: "Exam-pattern papers with a live timer, negative marking, a question palette and your All-India rank against everyone who took the same test.",
+  },
+  {
+    emoji: "📝",
+    title: "Every answer explained",
+    body: "Not just a score. Every question comes with a full step-by-step solution, so a wrong answer teaches you something instead of just costing you marks.",
   },
   {
     emoji: "🚫",
     title: "No spam, ever",
-    body: "No sales calls. No WhatsApp flooding. Your phone number stays yours. Just honest, free learning.",
-  },
-  {
-    emoji: "🗺️",
-    title: "Built for all of India",
-    body: "School boards, govt exams and entrance — in one place, with Hindi and regional languages on the way.",
+    body: "No sales calls. No WhatsApp flooding. No counsellor ringing you at dinner. We never ask for your phone number.",
   },
   {
     emoji: "📱",
-    title: "Works like an app",
-    body: "Add PadhoDost to your home screen, study offline, and get gentle daily reminders. No Play Store needed.",
+    title: "Light enough for any phone",
+    body: "No app to download, no 200MB install. Add it to your home screen and it opens like an app — and it stays fast on 4G.",
   },
 ];
 
@@ -67,6 +70,7 @@ export default async function Home() {
     chip: getChip(e.slug),
   }));
   const liveCount = cards.filter((c) => c.status === "live").length;
+  const counts = await getExamCounts();
   const questionCount = await prisma.question.count();
   const roundedQ = Math.floor(questionCount / 100) * 100;
   const stats = [
@@ -140,8 +144,9 @@ export default async function Home() {
             <h2 className="font-display text-2xl font-bold tracking-tight text-foreground sm:text-3xl">
               Choose your exam
             </h2>
-            <p className="mt-2 max-w-xl text-sm text-muted">
-              We&apos;re starting with SSC CGL and Class 10 — and adding new exams every month.
+            <p className="mt-2 max-w-xl text-body text-muted">
+              {liveCount} exams live, from board classes to SSC, Banking, Railways and UPSC — with
+              new chapters added every month.
             </p>
           </div>
           <Link href="/exams" className="text-sm font-semibold text-brand-600 hover:text-brand-700">
@@ -151,7 +156,7 @@ export default async function Home() {
 
         <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {cards.map((exam) => (
-            <ExamCard key={exam.slug} exam={exam} />
+            <ExamCard key={exam.slug} exam={exam} counts={counts.get(exam.slug)} />
           ))}
         </div>
       </section>

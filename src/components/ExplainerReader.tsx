@@ -51,8 +51,15 @@ function BlockView({ block }: { block: Block }) {
       );
     case "formula":
       return (
-        <div className="rounded-xl border border-indigo-200 bg-indigo-50 px-4 py-3 text-center font-mono text-base font-bold tracking-wide text-indigo-800">
-          {block.text}
+        // whitespace-pre-wrap is load-bearing: 28 of the 63 formula blocks in the
+        // corpus use runs of 2-8 spaces as their ONLY separator between distinct
+        // formulas. HTML collapses those to one space, so without this they render
+        // as run-on gibberish. overflow-x-auto keeps long formulas from forcing
+        // the whole page to scroll sideways on a 360px phone.
+        <div className="overflow-x-auto rounded-xl border border-indigo-200 bg-indigo-50 px-4 py-3">
+          <div className="whitespace-pre-wrap text-center font-mono text-body-lg font-bold tracking-wide text-indigo-800">
+            {block.text}
+          </div>
         </div>
       );
     case "steps":

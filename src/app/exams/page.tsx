@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { getExams } from "@/lib/data";
+import { getExams, getExamCounts } from "@/lib/data";
 import { getChip, type Exam } from "@/lib/exams";
 import { getExamGoal } from "@/lib/enroll";
 import ExamCard from "@/components/ExamCard";
@@ -13,8 +13,9 @@ export const metadata: Metadata = {
 };
 
 export default async function ExamsPage() {
-  const exams = await getExams();
-  const goal = await getExamGoal();
+  const [exams, goal, counts] = await Promise.all([getExams(), getExamGoal(), getExamCounts()]);
+  const totalQuestions = [...counts.values()].reduce((n, c) => n + c.questions, 0);
+  const liveCount = exams.filter((e) => e.status === "LIVE").length;
 
   const cards: Exam[] = exams.map((e) => ({
     slug: e.slug,
@@ -35,18 +36,18 @@ export default async function ExamsPage() {
       {!goal && <OnboardingPrompt exams={liveChips} />}
 
       <div className="max-w-2xl">
-        <h1 className="font-display text-3xl font-extrabold tracking-tight text-foreground">
+        <h1 className="font-display text-h1 font-extrabold tracking-tight text-foreground">
           Choose your exam
         </h1>
-        <p className="mt-2 text-sm text-muted">
-          Free mock tests and visual explainers. We&apos;re starting with SSC CGL and Class 10 —
-          new exams are added every month.
+        <p className="mt-2 text-body text-muted">
+          {liveCount} exams live · {totalQuestions.toLocaleString("en-IN")} practice questions with
+          full solutions · every mock test free, forever.
         </p>
       </div>
 
       <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
         {cards.map((exam) => (
-          <ExamCard key={exam.slug} exam={exam} />
+          <ExamCard key={exam.slug} exam={exam} counts={counts.get(exam.slug)} />
         ))}
       </div>
     </div>

@@ -361,7 +361,7 @@ export default function TestRunner({ test }: { test: RunnerTest }) {
           </button>
         </div>
 
-        <p className="mt-4 text-base font-medium leading-relaxed text-foreground">{q.text}</p>
+        <p className="mt-4 text-body-lg font-medium leading-relaxed text-foreground">{q.text}</p>
 
         <div className="mt-5 space-y-2.5">
           {q.options.map((o, i) => {
@@ -371,7 +371,7 @@ export default function TestRunner({ test }: { test: RunnerTest }) {
                 key={o.id}
                 type="button"
                 onClick={() => selectOption(o.id)}
-                className={`flex w-full items-center gap-3 rounded-xl border p-3.5 text-left text-sm transition-colors ${
+                className={`flex w-full items-center gap-3 rounded-xl border p-3.5 text-left text-body-lg transition-colors ${
                   active
                     ? "border-brand-600 bg-brand-50 text-brand-900"
                     : "border-border bg-background hover:border-brand-300 hover:bg-surface"
@@ -461,7 +461,10 @@ export default function TestRunner({ test }: { test: RunnerTest }) {
             Submit test
           </button>
         </div>
-        <div className="grid grid-cols-8 gap-2 sm:grid-cols-10">
+        {/* 5 columns, not 8: at 8 the cells were ~30x36px on a 360px Android,
+            under half Google's 48px minimum. Capped height so a 100-question
+            grand mock scrolls the palette instead of shrinking the targets. */}
+        <div className="grid max-h-64 grid-cols-5 gap-2.5 overflow-y-auto sm:max-h-none sm:grid-cols-10">
           {test.questions.map((tq, i) => {
             const isAnswered = !!answers[tq.id];
             const isMarked = !!marked[tq.id];
@@ -474,11 +477,16 @@ export default function TestRunner({ test }: { test: RunnerTest }) {
                 key={tq.id}
                 type="button"
                 onClick={() => goTo(i)}
-                className={`h-9 rounded-lg border text-xs font-semibold ${cls} ${
+                aria-label={`Question ${i + 1}${isAnswered ? ", answered" : ""}${isMarked ? ", marked for review" : ""}`}
+                aria-current={isCurrent ? "true" : undefined}
+                className={`h-11 w-full rounded-lg border text-caption font-semibold ${cls} ${
                   isCurrent ? "ring-2 ring-brand-600 ring-offset-1" : ""
                 }`}
               >
                 {i + 1}
+                {/* Non-colour state cue — the palette was colour-only, which is
+                    ambiguous for the ~8% of male students with CVD. */}
+                {isMarked ? " ★" : isAnswered ? " ✓" : ""}
               </button>
             );
           })}

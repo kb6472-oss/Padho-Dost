@@ -1,50 +1,75 @@
 import Link from "next/link";
+import { ArrowRight, FileText, ListChecks, BookOpen } from "lucide-react";
 import type { Exam } from "@/lib/exams";
+import Badge from "@/components/ui/Badge";
 
-export default function ExamCard({ exam }: { exam: Exam }) {
+export type ExamCounts = { tests: number; questions: number; explainers: number };
+
+/**
+ * Counts are the single most important thing on this card. A student comparing
+ * against Testbook's "120 Tests | 4500 Questions" sees a card with no numbers
+ * and concludes the site is empty — which is exactly backwards here, where
+ * there are 2,500+ questions sitting behind it.
+ */
+export default function ExamCard({ exam, counts }: { exam: Exam; counts?: ExamCounts }) {
   const isLive = exam.status === "live";
+  const hasCounts = isLive && counts && counts.questions > 0;
 
   const inner = (
-    <div className="group relative flex h-full flex-col rounded-2xl border border-border bg-background p-5 transition-all hover:border-brand-300 hover:shadow-md">
+    <div className="group flex h-full flex-col p-5">
       <div className="flex items-center justify-between">
         <span className={`flex h-11 w-11 items-center justify-center rounded-xl text-2xl ${exam.chip}`}>
           {exam.emoji}
         </span>
         {isLive ? (
-          <span className="rounded-full bg-emerald-50 px-2.5 py-1 text-xs font-semibold text-emerald-700">
-            ● Live
-          </span>
+          <Badge tone="positive">
+            <span className="h-1.5 w-1.5 rounded-full bg-emerald-500" />
+            Live
+          </Badge>
         ) : (
-          <span className="rounded-full bg-slate-100 px-2.5 py-1 text-xs font-semibold text-slate-500">
-            Coming soon
-          </span>
+          <Badge tone="neutral">Coming soon</Badge>
         )}
       </div>
 
-      <h3 className="mt-4 font-display text-base font-semibold text-foreground">{exam.name}</h3>
-      <p className="mt-1 flex-1 text-sm text-muted">{exam.blurb}</p>
+      <h3 className="mt-4 font-display text-h3 font-bold text-foreground">{exam.name}</h3>
+      <p className="mt-1 flex-1 text-body text-muted">{exam.blurb}</p>
+
+      {hasCounts && (
+        <div className="mt-4 flex flex-wrap items-center gap-x-4 gap-y-1.5 text-caption text-muted">
+          <span className="inline-flex items-center gap-1.5">
+            <ListChecks className="h-4 w-4" strokeWidth={2} aria-hidden="true" />
+            {counts.tests} tests
+          </span>
+          <span className="inline-flex items-center gap-1.5">
+            <FileText className="h-4 w-4" strokeWidth={2} aria-hidden="true" />
+            {counts.questions.toLocaleString("en-IN")} questions
+          </span>
+          {counts.explainers > 0 && (
+            <span className="inline-flex items-center gap-1.5">
+              <BookOpen className="h-4 w-4" strokeWidth={2} aria-hidden="true" />
+              {counts.explainers} explainers
+            </span>
+          )}
+        </div>
+      )}
 
       <span
-        className={`mt-4 inline-flex items-center gap-1 text-sm font-semibold ${
-          isLive ? "text-brand-600 group-hover:gap-2" : "text-slate-400"
-        } transition-all`}
+        className={`mt-4 inline-flex items-center gap-1.5 text-body font-semibold transition-all ${
+          isLive ? "text-brand-600 group-hover:gap-2.5" : "text-muted"
+        }`}
       >
         {isLive ? "Start free" : "Coming soon"}
-        {isLive && (
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-            <path d="M5 12h14M13 6l6 6-6 6" />
-          </svg>
-        )}
+        {isLive && <ArrowRight className="h-4 w-4" strokeWidth={2.5} aria-hidden="true" />}
       </span>
     </div>
   );
 
   if (isLive) {
     return (
-      <Link href={`/exams/${exam.slug}`} className="block h-full">
+      <Link href={`/exams/${exam.slug}`} className="surface-3 surface-3-interactive block h-full">
         {inner}
       </Link>
     );
   }
-  return <div className="h-full cursor-default opacity-90">{inner}</div>;
+  return <div className="surface-2 h-full cursor-default opacity-80">{inner}</div>;
 }

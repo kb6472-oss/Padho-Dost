@@ -1,8 +1,13 @@
 @import "tailwindcss";
 
 /* ────────────────────────────────────────────────────────────
-   PadhoDost design tokens (Tailwind v4 @theme)
+   PadhoDost design system
    Brand = Indigo (trust, focus) · Accent = Amber/Saffron (warm, friendly "dost")
+
+   Read this before adding a new surface. The rule that matters:
+   there are exactly THREE elevation levels (see .surface-1/2/3 below) and one
+   type scale. If a new component needs a fourth, the design is drifting —
+   pick the closest existing level instead.
 ──────────────────────────────────────────────────────────── */
 @theme {
   /* Brand — Indigo */
@@ -26,19 +31,84 @@
   --color-accent-500: #f59e0b;
   --color-accent-600: #d97706;
   --color-accent-700: #b45309;
+
+  /* ── Type scale ────────────────────────────────────────────
+     Semantic names, not raw sizes. 67% of the old type was 12–14px, which is
+     why everything read as one flat grey mass. Body is 15px and question text
+     is 17px — a student reads those two for hours on a phone.               */
+  --text-display: 2.25rem;      /* 36px */
+  --text-display--line-height: 2.75rem;
+  --text-h1: 1.875rem;          /* 30px */
+  --text-h1--line-height: 2.375rem;
+  --text-h2: 1.5rem;            /* 24px */
+  --text-h2--line-height: 2rem;
+  --text-h3: 1.25rem;           /* 20px */
+  --text-h3--line-height: 1.75rem;
+  --text-body-lg: 1.0625rem;    /* 17px — question + option text */
+  --text-body-lg--line-height: 1.75rem;
+  --text-body: 0.9375rem;       /* 15px — default prose */
+  --text-body--line-height: 1.5rem;
+  --text-caption: 0.8125rem;    /* 13px — metadata, never body copy */
+  --text-caption--line-height: 1.25rem;
+
+  /* ── Elevation ─────────────────────────────────────────────
+     Shadows are deliberately soft and brand-tinted rather than pure black,
+     which reads as grime on the cheap LCDs this audience mostly uses.        */
+  --shadow-e1: 0 1px 2px 0 rgb(15 23 42 / 0.04);
+  --shadow-e2: 0 1px 3px 0 rgb(15 23 42 / 0.07), 0 1px 2px -1px rgb(15 23 42 / 0.05);
+  --shadow-e3: 0 10px 24px -6px rgb(15 23 42 / 0.12), 0 4px 8px -4px rgb(15 23 42 / 0.06);
 }
 
 :root {
   --background: #ffffff;
-  --surface: #f8fafc;
+  --surface: #f5f7fa;
   --foreground: #0f172a;
-  --muted: #64748b;
-  --border: #e7e9ee;
+  /* Both darkened from the originals (#64748b / #e7e9ee). The old --border was
+     ~1.1:1 against white — effectively invisible in sunlight on a budget
+     screen, which made every card dissolve into the page.                    */
+  --muted: #556070;
+  --border: #d8dce5;
+
+  --surface-raised: #ffffff;
+}
+
+/* Dark mode. The token indirection below was always built for this; these are
+   the only five variables that need to change. `prefers-color-scheme` is the
+   default signal and `[data-theme]` overrides it in BOTH directions so an
+   explicit user choice always wins. */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0b1120;
+    --surface: #131c2e;
+    --foreground: #e8ecf4;
+    --muted: #94a3b8;
+    --border: #26324a;
+    --surface-raised: #162034;
+  }
+}
+
+:root[data-theme="dark"] {
+  --background: #0b1120;
+  --surface: #131c2e;
+  --foreground: #e8ecf4;
+  --muted: #94a3b8;
+  --border: #26324a;
+  --surface-raised: #162034;
+}
+
+:root[data-theme="light"] {
+  --background: #ffffff;
+  --surface: #f5f7fa;
+  --foreground: #0f172a;
+  --muted: #556070;
+  --border: #d8dce5;
+  --surface-raised: #ffffff;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-surface: var(--surface);
+  --color-surface-raised: var(--surface-raised);
   --color-foreground: var(--foreground);
   --color-muted: var(--muted);
   --color-border: var(--border);
@@ -50,12 +120,107 @@
 body {
   background: var(--background);
   color: var(--foreground);
-}
-
-* {
-  -webkit-tap-highlight-color: transparent;
+  font-size: var(--text-body);
+  line-height: var(--text-body--line-height);
 }
 
 html {
   scroll-behavior: smooth;
+  color-scheme: light dark;
+}
+
+/* ────────────────────────────────────────────────────────────
+   Elevation utilities — the only three surfaces in the product.
+──────────────────────────────────────────────────────────── */
+
+/* Level 1 — recessed. Informational, subordinate to the page:
+   stat tiles, question palette, exam-pattern rows, inline notes. */
+.surface-1 {
+  background: var(--surface);
+  border-radius: 1rem;
+}
+
+/* Level 2 — default content card. Test rows, explainer cards, list items. */
+.surface-2 {
+  background: var(--surface-raised);
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+  box-shadow: var(--shadow-e1);
+}
+
+/* Level 3 — raised / interactive-primary. Exam cards, the result hero,
+   anything the eye should land on first. Lifts on hover where it's a link. */
+.surface-3 {
+  background: var(--surface-raised);
+  border: 1px solid var(--border);
+  border-radius: 1.25rem;
+  box-shadow: var(--shadow-e2);
+}
+
+.surface-3-interactive {
+  transition:
+    box-shadow 160ms ease,
+    transform 160ms ease,
+    border-color 160ms ease;
+}
+.surface-3-interactive:hover {
+  box-shadow: var(--shadow-e3);
+  border-color: var(--color-brand-300);
+  transform: translateY(-2px);
+}
+
+/* ────────────────────────────────────────────────────────────
+   Interaction states.
+   Previously: no focus-visible rule anywhere in the codebase, and a global
+   tap-highlight kill with nothing replacing it — so taps gave no feedback at
+   all on touch, and keyboard users got nothing.
+──────────────────────────────────────────────────────────── */
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+:where(a, button, input, select, textarea, summary, [tabindex]):focus-visible {
+  outline: 2px solid var(--color-brand-600);
+  outline-offset: 2px;
+  border-radius: inherit;
+}
+
+/* Press feedback — replaces the killed tap highlight. */
+:where(a, button, [role="button"]):active:not(:disabled) {
+  transform: scale(0.985);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  :where(a, button, [role="button"]):active:not(:disabled) {
+    transform: none;
+  }
+  .surface-3-interactive:hover {
+    transform: none;
+  }
+}
+
+/* Skeleton shimmer — used by <Skeleton /> while data loads. */
+@keyframes pd-pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.45;
+  }
+}
+.pd-skeleton {
+  background: var(--surface);
+  border-radius: 0.5rem;
+  animation: pd-pulse 1.6s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }

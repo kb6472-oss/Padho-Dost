@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { prisma } from "@/lib/prisma";
+import { getDigestDates } from "@/lib/current-affairs";
 
 const BASE = "https://padhodost.com";
 
@@ -47,12 +48,22 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.7,
   }));
 
-  // Dated /daily, /gk and /current-affairs pages are deliberately EXCLUDED and
-  // marked noindex:
-  //   - daily + gk are a single MCQ each (~40 words) — thin inventory
-  //   - current-affairs is an aggregated third-party headline digest, not ours
-  // Both are good product surfaces and bad search results. Re-add each once it
-  // carries substantive original content (Phase 2 of docs/REDESIGN-PLAN.md).
+  // Dated /daily and /gk pages stay EXCLUDED and noindex — a single MCQ each
+  // (~40 words) is thin inventory. Re-add once they carry the explanation,
+  // related explainers and archive nav (Phase 2 of docs/REDESIGN-PLAN.md).
 
-  return [...staticRoutes, ...examRoutes, ...explainerRoutes];
+  // Current-affairs: only days with a published editorial digest (original
+  // exam-format facts + quiz), and only once CA_INDEXABLE is switched on after
+  // reviewing real output. Days with only raw headlines are never listed.
+  const caRoutes: MetadataRoute.Sitemap =
+    process.env.CA_INDEXABLE === "true"
+      ? (await getDigestDates(30)).map((d) => ({
+          url: `${BASE}/current-affairs/${d}`,
+          lastModified: now,
+          changeFrequency: "daily" as const,
+          priority: 0.6,
+        }))
+      : [];
+
+  return [...staticRoutes, ...examRoutes, ...explainerRoutes, ...caRoutes];
 }

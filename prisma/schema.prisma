@@ -442,6 +442,9 @@ model ContactMessage {
 
 // ─────────────────── Daily Current Affairs (news digest) ───────────────────
 // Populated by scripts/fetch-current-affairs.ts (a daily cron) from a real news API.
+// RAW ingest from news APIs. This is source material only — it is NEVER published
+// verbatim (that would be scraped content). The editorial pass below turns it into
+// original exam-format facts; see scripts/build-ca-digest.ts.
 model CurrentAffair {
   id          String    @id @default(cuid())
   day         DateTime  @db.Date // the IST calendar day this item belongs to
@@ -456,4 +459,47 @@ model CurrentAffair {
 
   @@unique([day, url])
   @@index([day])
+}
+
+// ── Editorialised current affairs ────────────────────────────────────────────
+// One digest per IST day: original exam-format facts written for Indian aspirants,
+// plus a derived MCQ quiz. This is what gets published; CurrentAffair rows are not.
+
+model CaDigest {
+  id        String   @id @default(cuid())
+  day       DateTime @unique @db.Date
+  intro     String // 1-2 line orientation for the day
+  model     String // which model wrote it — for auditing regressions
+  createdAt DateTime @default(now())
+
+  facts CaFact[]
+  quiz  CaQuizQuestion[]
+}
+
+model CaFact {
+  id         String   @id @default(cuid())
+  digestId   String
+  digest     CaDigest @relation(fields: [digestId], references: [id], onDelete: Cascade)
+  order      Int
+  category   String // Appointments, Schemes, Economy, Defence, Sports, Awards, ...
+  headline   String // the exam-relevant fact, stated plainly
+  detail     String // the surrounding facts an exam actually tests
+  staticLink String? // the static-GK hook examiners pair this with
+  sourceUrl  String?
+  sourceName String?
+
+  @@index([digestId])
+}
+
+model CaQuizQuestion {
+  id           String   @id @default(cuid())
+  digestId     String
+  digest       CaDigest @relation(fields: [digestId], references: [id], onDelete: Cascade)
+  order        Int
+  text         String
+  options      String[]
+  correctIndex Int
+  explanation  String
+
+  @@index([digestId])
 }

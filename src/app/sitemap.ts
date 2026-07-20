@@ -3,12 +3,6 @@ import { prisma } from "@/lib/prisma";
 
 const BASE = "https://padhodost.com";
 
-// YYYY-MM-DD for the IST day `offsetDays` from now (matches /daily/[date]).
-function istDateKey(offsetDays = 0): string {
-  const ms = Date.now() + 5.5 * 3600_000 + offsetDays * 86_400_000;
-  return new Date(ms).toISOString().slice(0, 10);
-}
-
 // Regenerate at most once a day so freshly-seeded exams/explainers show up
 // without needing a full rebuild.
 export const revalidate = 86400;
@@ -53,24 +47,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.7,
   }));
 
-  // The last 7 days of the (dated, indexable) Daily Challenge + Daily GK.
-  const dailyRoutes: MetadataRoute.Sitemap = Array.from({ length: 7 }, (_, i) => ({
-    url: `${BASE}/daily/${istDateKey(-i)}`,
-    lastModified: now,
-    changeFrequency: "daily",
-    priority: 0.5,
-  }));
-  const gkRoutes: MetadataRoute.Sitemap = Array.from({ length: 7 }, (_, i) => ({
-    url: `${BASE}/gk/${istDateKey(-i)}`,
-    lastModified: now,
-    changeFrequency: "daily",
-    priority: 0.5,
-  }));
+  // Dated /daily, /gk and /current-affairs pages are deliberately EXCLUDED and
+  // marked noindex:
+  //   - daily + gk are a single MCQ each (~40 words) — thin inventory
+  //   - current-affairs is an aggregated third-party headline digest, not ours
+  // Both are good product surfaces and bad search results. Re-add each once it
+  // carries substantive original content (Phase 2 of docs/REDESIGN-PLAN.md).
 
-  // Current-affairs pages are deliberately EXCLUDED from the sitemap and marked
-  // noindex: they are an aggregated third-party headline digest, not original
-  // content, and submitting them for indexing risks a site-wide scaled-content
-  // penalty. Re-add once the editorial pipeline produces original exam-format CA.
-
-  return [...staticRoutes, ...examRoutes, ...explainerRoutes, ...dailyRoutes, ...gkRoutes];
+  return [...staticRoutes, ...examRoutes, ...explainerRoutes];
 }

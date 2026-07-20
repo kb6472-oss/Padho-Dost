@@ -12,6 +12,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: `Daily Challenge — ${date}`,
     description: `Free Question of the Day for SSC, Class 10, JEE & NEET aspirants on PadhoDost (${date}).`,
     alternates: { canonical: `/daily/${date}` },
+    // NOINDEX — same reasoning as /gk/[date]: a single MCQ is thin inventory.
+    // Kept as an engagement surface; re-index once these pages are substantive.
+    robots: { index: false, follow: false },
     openGraph: {
       title: `Daily Challenge — ${date}`,
       description: "Free Question of the Day for SSC, Class 10, JEE & NEET aspirants.",

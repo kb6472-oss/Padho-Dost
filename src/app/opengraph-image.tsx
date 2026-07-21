@@ -1,10 +1,21 @@
 import { ImageResponse } from "next/og";
+import { prisma } from "@/lib/prisma";
 
 export const alt = "PadhoDost — Free Mock Tests & Visual Learning for Every Indian Student";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
-export default function OgImage() {
+export default async function OgImage() {
+  // Real count, rounded down to a clean figure. The old hardcoded "1,400+" was
+  // stale against a real 2,500+ — a share card that undersells the library.
+  let questionsLabel = "2,500+ questions";
+  try {
+    const n = await prisma.question.count();
+    if (n > 0) questionsLabel = `${(Math.floor(n / 500) * 500).toLocaleString("en-IN")}+ questions`;
+  } catch {
+    /* keep the safe default */
+  }
+
   return new ImageResponse(
     (
       <div
@@ -42,7 +53,7 @@ export default function OgImage() {
           Free Mock Tests &amp; Visual Learning
         </div>
         <div style={{ marginTop: 24, fontSize: 34, color: "#c7d2fe" }}>
-          SSC · Class 10 · JEE · NEET — 100% free, no spam. Padho, Dost!
+          SSC · Banking · Railways · UPSC · JEE · NEET · Boards — free, no spam.
         </div>
         <div style={{ marginTop: 48, display: "flex", gap: 16, fontSize: 26 }}>
           <span style={{ background: "#f59e0b", color: "#1e1b4b", padding: "10px 22px", borderRadius: 999, fontWeight: 700 }}>
@@ -52,7 +63,7 @@ export default function OgImage() {
             All-India Rank
           </span>
           <span style={{ background: "rgba(255,255,255,0.15)", padding: "10px 22px", borderRadius: 999 }}>
-            1,400+ questions
+            {questionsLabel}
           </span>
         </div>
       </div>

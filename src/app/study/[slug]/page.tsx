@@ -35,6 +35,15 @@ export default async function ExplainerPage({ params }: Props) {
     testId = t?.id ?? null;
   }
 
+  // Real byline data — an attributed, dated page is more trustworthy (and better
+  // for SEO) than an anonymous undated one. The row exists because the sitemap
+  // lists published explainers.
+  const row = await prisma.explainer.findUnique({ where: { slug }, select: { updatedAt: true } });
+  const updated = row?.updatedAt ?? null;
+  const updatedLabel = updated
+    ? updated.toLocaleDateString("en-IN", { day: "numeric", month: "long", year: "numeric" })
+    : null;
+
   const quizzes = content.blocks.filter((b): b is Extract<Block, { type: "quiz" }> => b.type === "quiz");
   const jsonLd = {
     "@context": "https://schema.org",
@@ -46,7 +55,9 @@ export default async function ExplainerPage({ params }: Props) {
         learningResourceType: "Concept explainer",
         timeRequired: `PT${content.readingMinutes}M`,
         isAccessibleForFree: true,
+        author: { "@type": "Organization", name: "PadhoDost Team", url: "https://padhodost.com" },
         provider: { "@type": "Organization", name: "PadhoDost", url: "https://padhodost.com" },
+        ...(updated ? { dateModified: updated.toISOString() } : {}),
         url: `https://padhodost.com/study/${slug}`,
       },
       ...(quizzes.length
@@ -87,7 +98,10 @@ export default async function ExplainerPage({ params }: Props) {
         {content.title}
       </h1>
       <p className="mt-2 text-sm text-muted">{content.summary}</p>
-      <p className="mt-1 text-xs text-muted">📖 {content.readingMinutes} min read</p>
+      <p className="mt-2 text-xs text-muted">
+        By the PadhoDost Team · 📖 {content.readingMinutes} min read
+        {updatedLabel ? ` · Updated ${updatedLabel}` : ""}
+      </p>
 
       <div className="mt-7">
         <ExplainerReader slug={slug} blocks={content.blocks} />

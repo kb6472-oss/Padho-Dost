@@ -2812,6 +2812,1149 @@ export const explainers: ExplainerContent[] = [
       }
     ]
   },
+  {
+    slug: "bank-simplification-approximation",
+    title: "Simplification & Approximation: Your Fastest Marks in Bank Prelims",
+    summary: "A friendly, exam-ready guide to Simplification and Approximation for IBPS and SBI bank prelims. Master the BODMAS order, smart rounding, and the fraction tricks that turn tricky-looking sums into 30-second free marks — with worked examples throughout.",
+    examSlug: "banking",
+    subjectSlug: "quantitative-aptitude",
+    chapterSlug: "simplification-approximation",
+    readingMinutes: 7,
+    practiceTestSlug: "bank-simplification-practice-1",
+    blocks: [
+      {
+        type: "analogy",
+        title: "The billing counter rule",
+        text: "Picture a busy Big Bazaar checkout. The cashier does not add prices in random order — she first scans the items inside your basket, then multiplies each by its quantity, and only at the very end adds and subtracts to give you the final bill. Maths follows the exact same discipline. Do the steps out of order and, just like a wrong bill, your answer goes wrong. That fixed order has a name: BODMAS."
+      },
+      {
+        type: "heading",
+        text: "What these questions really test"
+      },
+      {
+        type: "para",
+        text: "In bank prelims (IBPS & SBI, PO & Clerk), Simplification asks for the exact value, while Approximation asks for the nearest value — you round the messy decimals first, then solve. Both are pure speed-and-accuracy questions. Around 5 to 10 marks sit here, and a strong aspirant clears each one in 20 to 30 seconds. With roughly 20 minutes for the whole Quant section and 0.25 negative marking, these are your must-get, must-get-fast marks — the ones that free up time for Data Interpretation later."
+      },
+      {
+        type: "heading",
+        text: "BODMAS: the order that never changes"
+      },
+      {
+        type: "formula",
+        text: "BODMAS = Brackets → Orders (powers & roots) → Division → Multiplication → Addition → Subtraction.  Key point: Division and Multiplication are EQUAL in rank — do them left to right. Addition and Subtraction are also equal — again, left to right. Inside brackets, open ( ) first, then { }, then [ ]."
+      },
+      {
+        type: "example",
+        title: "Worked example — exact simplification",
+        lines: ["Solve: 8 × (12 − 4) ÷ 4 + 3² − 5", "Step 1 — Brackets: (12 − 4) = 8, giving 8 × 8 ÷ 4 + 3² − 5", "Step 2 — Orders: 3² = 9, giving 8 × 8 ÷ 4 + 9 − 5", "Step 3 — Multiply/Divide, left to right: 8 × 8 = 64, then 64 ÷ 4 = 16, giving 16 + 9 − 5", "Step 4 — Add/Subtract, left to right: 16 + 9 = 25, then 25 − 5 = 20", "Answer = 20"]
+      },
+      {
+        type: "callout",
+        tone: "warn",
+        text: "The classic trap is doing addition before multiplication. 2 + 3 × 4 is NOT 20 — multiplication comes first, so 3 × 4 = 12, then 2 + 12 = 14. In the exam, one out-of-order step turns a sure mark into −0.25. Lock the BODMAS sequence in your head before you touch the numbers."
+      },
+      {
+        type: "heading",
+        text: "Approximation: round smart, save seconds"
+      },
+      {
+        type: "steps",
+        title: "How to approximate in under 30 seconds",
+        items: ["Round each messy number to the nearest easy one: 649.8 → 650, 24.03 → 24, 8.97% → 9%.", "Turn awkward percentages into friendly fractions: 33.33% = 1/3, 12.5% = 1/8, 16.67% = 1/6.", "For square roots, find the two whole numbers it sits between: √150 lies between 12 (144) and 13 (169), so ≈ 12.2.", "Apply BODMAS on the rounded numbers — the order rule still holds even in approximation.", "Pick the closest option. Answer choices are spaced far apart, so a tiny rounding gap never changes your choice."]
+      },
+      {
+        type: "example",
+        title: "Worked example — approximation",
+        lines: ["Approximate: 1249.96 ÷ 24.98 + 15.02% of 799.9 = ?", "Round: 1249.96 → 1250, 24.98 → 25, 15.02% → 15%, 799.9 → 800", "Division first (BODMAS): 1250 ÷ 25 = 50", "Percentage: 15% of 800 = (15/100) × 800 = 120", "Add: 50 + 120 = 170", "Answer ≈ 170"]
+      },
+      {
+        type: "table",
+        headers: ["Fraction", "%", "Fraction", "%"],
+        rows: [
+          ["1/2", "50", "1/8", "12.5"],
+          ["1/3", "33.33", "1/9", "11.11"],
+          ["1/4", "25", "1/10", "10"],
+          ["1/5", "20", "1/11", "9.09"],
+          ["1/6", "16.67", "1/12", "8.33"],
+          ["1/7", "14.29", "1/15", "6.67"]
+        ]
+      },
+      {
+        type: "callout",
+        tone: "tip",
+        text: "Memorise the fraction–percentage table above, plus squares up to 30 and cubes up to 15. When you instantly 'see' 37.5% as 3/8, or recognise 576 as 24², approximation stops being calculation and becomes recognition — and that is exactly how toppers clear 35 questions while others are still multiplying."
+      },
+      {
+        type: "keypoints",
+        title: "Quick revision",
+        items: ["BODMAS order is fixed: Brackets, Orders, Division/Multiplication (left to right), Addition/Subtraction (left to right).", "Simplification = exact value; Approximation = nearest value after rounding.", "Round first, then apply BODMAS — never the other way round.", "Convert tough percentages into fractions to multiply faster.", "Aim for 20–30 seconds per question; with −0.25 marking, skip the odd tricky one instead of guessing blindly."]
+      },
+      {
+        type: "quiz",
+        question: "Approximate the value: 24.97% of 480.12 + 18.03 × 4.96 = ?",
+        options: ["180", "210", "240", "260"],
+        correct: 1,
+        explain: "Round the numbers: 24.97% ≈ 25% = 1/4, and 480.12 ≈ 480, so 480 ÷ 4 = 120. Next, 18.03 ≈ 18 and 4.96 ≈ 5, so 18 × 5 = 90. Add them: 120 + 90 = 210. So the answer is 210."
+      }
+    ]
+  },
+  {
+    slug: "bank-data-interpretation",
+    title: "Data Interpretation for Bank Exams: Read Any Table, Graph or Caselet Fast",
+    summary: "Learn to read tables, bar, line and pie graphs and caselets quickly, and crack percentage-, ratio- and average-based DI using exam shortcuts built for the tight timing and 0.25 negative marking of IBPS and SBI prelims.",
+    examSlug: "banking",
+    subjectSlug: "quantitative-aptitude",
+    chapterSlug: "data-interpretation",
+    readingMinutes: 7,
+    practiceTestSlug: "bank-data-interpretation-practice-1",
+    blocks: [
+      {
+        type: "analogy",
+        title: "The scoreboard you already read",
+        text: "Picture yourself watching an India match. In one glance at the scoreboard you know the score, the run rate, who is batting and how many overs are left. Nobody taught you a formula for it; you just read what matters and ignore the rest. Data Interpretation is that exact skill, dressed up as an exam question. A table or graph is only a scoreboard of numbers, and the question simply tells you which number to read. Padho, dost, once you stop fearing the numbers, DI becomes some of the easiest marks in your whole paper."
+      },
+      {
+        type: "para",
+        text: "In IBPS and SBI prelims, Data Interpretation is the heart of the Quantitative Aptitude section. Typically 15 to 20 of the section's marks come from just 3 to 4 DI sets. The good news is that DI needs no heavy theory, only quick arithmetic and calm reading. The catch is time: you get roughly 20 minutes for the whole quant section, so every DI question must be cracked in about a minute, with accuracy high enough to survive the negative marking of 0.25 mark per wrong answer."
+      },
+      {
+        type: "heading",
+        text: "The 5 shapes your data will come in"
+      },
+      {
+        type: "table",
+        headers: ["Format", "What you see", "Watch out for"],
+        rows: [
+          ["Table", "Rows and columns of exact numbers", "Values are given, so just read the correct row and column"],
+          ["Bar graph", "Vertical or horizontal bars", "Compare heights, but always check the axis scale"],
+          ["Line graph", "Points joined by lines", "Trends over time; note each rise and fall"],
+          ["Pie chart", "A circle split into sectors", "Convert degrees or percentages into simple fractions"],
+          ["Caselet", "A paragraph full of numbers", "Build your own table before you solve"]
+        ]
+      },
+      {
+        type: "heading",
+        text: "Your 3-tool toolkit: percentage, ratio, average"
+      },
+      {
+        type: "formula",
+        text: "Percentage of a part = (Part / Whole) x 100.   Percentage change = ((New - Old) / Old) x 100.   Average = Sum of values / Number of values.   Ratio A : B compares sizes; A's share of the total = A / (A + B)."
+      },
+      {
+        type: "callout",
+        tone: "tip",
+        text: "Speed hack: students who clear prelims do not do long division under pressure, they memorise fraction values. If you know 1/8 = 12.5% instantly, then '12.5% of 480' becomes 480 / 8 = 60 in your head. Burn the table below into memory."
+      },
+      {
+        type: "table",
+        headers: ["Fraction", "Equals"],
+        rows: [
+          ["1/2", "50%"],
+          ["1/3", "33.33%"],
+          ["1/4", "25%"],
+          ["1/5", "20%"],
+          ["1/6", "16.67%"],
+          ["1/7", "14.29%"],
+          ["1/8", "12.5%"],
+          ["1/9", "11.11%"],
+          ["1/11", "9.09%"]
+        ]
+      },
+      {
+        type: "heading",
+        text: "Worked example: a table DI question"
+      },
+      {
+        type: "example",
+        title: "Which month grew the most?",
+        lines: ["Data: Brand A laptops sold - Jan 120, Feb 150, Mar 200, Apr 180.", "Question: In which month was the growth over the previous month the highest?", "Feb over Jan: (150 - 120) / 120 = 30/120 = 25%.", "Mar over Feb: (200 - 150) / 150 = 50/150 = 33.33%.", "Apr over Mar: (180 - 200) / 200 = -20/200 = -10%, which is a fall, so skip it.", "Compare 25% vs 33.33% vs a fall: March clearly wins.", "Answer: March, with about 33.33% growth. Notice you never needed exact decimals; 50/150 is obviously bigger than 30/120."]
+      },
+      {
+        type: "steps",
+        title: "The 4-step DI attack",
+        items: ["Read the title, axis labels and units first. Is the data in lakhs, in percentages, or in actual numbers? One misread here ruins every answer.", "Scan the question before doing any maths, and note exactly which rows, bars or sectors it asks about.", "Pull out only the numbers you need. Never calculate the whole table.", "Approximate boldly: round 197 to 200, compare fractions, and eliminate options instead of hunting for exact values."]
+      },
+      {
+        type: "callout",
+        tone: "warn",
+        text: "Trap alert: with 0.25 negative marking, a wild guess on a nasty DI question can cost you. If a set has one ugly, calculation-heavy question, leave it and grab the two easy ones. DI rewards selection, not stubbornness. And always recheck the unit, because mixing 'lakhs' with plain numbers is the number one silly mistake in bank prelims."
+      },
+      {
+        type: "para",
+        text: "Caselets are just DI hiding inside a paragraph. There is no table or graph, only sentences packed with numbers, and your job is to build the table yourself. Read slowly, jot each value into a small grid on your rough sheet, and the caselet instantly turns into an ordinary table DI that you already know how to solve."
+      },
+      {
+        type: "keypoints",
+        title: "Quick revision before you close this",
+        items: ["DI is 15 to 20 approachable marks in prelims: pure speed and accuracy, no theory.", "Master three tools only: percentage, percentage change, and average.", "Learn the fraction-to-percentage values by heart to skip long division.", "Always check the unit (lakhs, crores, percent) before you calculate.", "When a question asks 'which is highest or lowest', compare fractions instead of finding exact decimals.", "Selection over ego: skip the one nasty question and bank the easy marks."]
+      },
+      {
+        type: "quiz",
+        question: "A pie chart shows a family's monthly budget. The 'Food' sector takes up 90 degrees of the 360-degree pie, and total spending is Rs 36,000. How much is spent on food?",
+        options: ["Rs 9,000", "Rs 12,000", "Rs 18,000", "Rs 6,000"],
+        correct: 0,
+        explain: "A full pie is 360 degrees. Food's 90 degrees is 90/360 = 1/4 = 25% of the budget. 25% of Rs 36,000 = Rs 36,000 / 4 = Rs 9,000. Converting the angle straight to the simple fraction 1/4 is the fastest route, no long calculation needed."
+      }
+    ]
+  },
+  {
+    slug: "bank-number-series-quadratic",
+    title: "Number Series & Quadratic Equations: Spot the Pattern, Compare the Roots",
+    summary: "A from-scratch guide to two of the fastest-scoring topics in IBPS and SBI Prelims — the fixed order for testing number-series patterns (difference, product, square, cube, mixed) and the sign shortcut for comparing the roots of two quadratics (x vs y), with fully worked examples and the common \"greater-than-or-equal vs strictly-greater\" and \"no relation\" traps.",
+    examSlug: "banking",
+    subjectSlug: "quantitative-aptitude",
+    chapterSlug: "number-series-quadratic",
+    readingMinutes: 7,
+    practiceTestSlug: "bank-number-series-practice-1",
+    blocks: [
+      {
+        type: "analogy",
+        title: "You already predict the next station",
+        text: "Think of your daily local train. After a few days you know the order of stations by heart, so the moment the train leaves Dadar you already know Bandra is next, without reading any board. A Number Series works exactly the same way. The examiner gives you a few 'stations' (numbers) and hides one, and your job is to feel the rhythm of how each number leads to the next, then name the missing one. Once you learn the common rhythms, your brain predicts the answer almost automatically. Padho, dost, let's learn those rhythms."
+      },
+      {
+        type: "para",
+        text: "In IBPS and SBI Prelims (both PO and Clerk) the Quant section gives you about 35 questions in just 20 minutes, roughly 34 seconds per question. Number Series and Quadratic Equations are gold here: each set is usually 5 questions, and once you spot the trick a question takes 20 to 30 seconds. But respect the 0.25 negative marking, because one wild guess quietly eats away the marks of a correct answer. So the goal is simple: learn the patterns, solve fast, and skip cleanly when you are not sure."
+      },
+      {
+        type: "heading",
+        text: "Part 1: Number Series"
+      },
+      {
+        type: "para",
+        text: "A Number Series question shows a row of numbers following one hidden rule, with either a missing term (marked ?) or one wrong term you must catch. There is no single formula here, so you become a pattern detective. The good news is that almost all exam series use just a handful of rhythms, and you test them in a fixed order so you never waste time."
+      },
+      {
+        type: "steps",
+        title: "How to find the pattern (test in this order)",
+        items: ["Write the differences between consecutive terms. Is the gap constant, or is it growing by a fixed amount each time?", "If differences don't settle it, check the ratio. Is each term roughly double, triple, or half of the previous one? That points to a product series.", "If the numbers jump fast, test squares and cubes by comparing each term to the nearest perfect square (1, 4, 9, 16...) or cube (1, 8, 27, 64...).", "Still stuck? Look for a mixed rule like x2+1 or 'multiply by n, add n', or an alternating pattern where odd and even positions follow different rules.", "Lock a rule only after it fits at least 3 gaps, then apply it to find the missing or wrong term."]
+      },
+      {
+        type: "table",
+        headers: ["Pattern", "How to spot it", "Example"],
+        rows: [
+          ["Difference", "A constant or steadily growing gap", "4, 7, 10, 13 (+3 each)"],
+          ["Product / Ratio", "Each term multiplied by a number", "3, 6, 12, 24 (x2 each)"],
+          ["Squares", "Terms sit near 1, 4, 9, 16, 25", "2, 5, 10, 17 (n squared + 1)"],
+          ["Cubes", "Terms sit near 1, 8, 27, 64", "0, 7, 26, 63 (n cubed - 1)"],
+          ["Mixed (xn + n)", "Grows fast with a changing multiplier", "5, 6, 14, 45 (x1+1, x2+2...)"]
+        ]
+      },
+      {
+        type: "example",
+        title: "Find the missing number: 5, 6, 14, 45, 184, ?",
+        lines: ["The jump from 45 to 184 is huge, so plain addition won't fit. Suspect multiplication.", "Try 'multiply by 1, add 1': 5 x 1 + 1 = 6. It matches.", "Then 'multiply by 2, add 2': 6 x 2 + 2 = 14. It matches.", "Then x 3 + 3: 14 x 3 + 3 = 45. It matches.", "Then x 4 + 4: 45 x 4 + 4 = 184. It matches.", "The rule is 'multiply by n, add n', so the next step is x 5 + 5: 184 x 5 + 5 = 925.", "Missing number = 925."]
+      },
+      {
+        type: "callout",
+        tone: "tip",
+        text: "Memorise squares up to 30 and cubes up to 15 before exam day. When a series suddenly leaps, like 6 to 45 to 184, stop checking differences and immediately suspect multiplication, squares, or cubes. That one instinct saves you 30 seconds per question."
+      },
+      {
+        type: "heading",
+        text: "Part 2: Quadratic Equations (x vs y)"
+      },
+      {
+        type: "para",
+        text: "In a Quadratic Equations question you get two equations, one in x and one in y. You solve each to get two roots, then compare the x-values with the y-values and pick the correct relationship. The five options are almost always: x > y, x < y, x is greater than or equal to y, x is less than or equal to y, and 'x = y or no relation can be established'. The whole game is to factorise quickly and then compare the roots without slipping on signs."
+      },
+      {
+        type: "formula",
+        text: "For x squared + bx + c = 0 (leading coefficient 1): sum of the two roots = -b, and product of the two roots = c. Shortcut: split the constant c into two numbers whose product is c and whose sum is -b. Those two numbers, each with its sign flipped, are your roots."
+      },
+      {
+        type: "table",
+        headers: ["Middle term (b)", "Constant (c)", "The two roots"],
+        rows: [
+          ["+ (positive)", "+ (positive)", "Both negative"],
+          ["- (negative)", "+ (positive)", "Both positive"],
+          ["+ (positive)", "- (negative)", "Opposite signs (one +, one -)"],
+          ["- (negative)", "- (negative)", "Opposite signs (one +, one -)"]
+        ]
+      },
+      {
+        type: "example",
+        title: "Compare the roots step by step",
+        lines: ["Given: I) x squared - 5x + 6 = 0     II) y squared - 12y + 35 = 0", "Solve I: find two numbers with product 6 and sum 5, which are 2 and 3.", "So (x - 2)(x - 3) = 0, giving x = 2 or x = 3.", "Solve II: two numbers with product 35 and sum 12, which are 5 and 7.", "So (y - 5)(y - 7) = 0, giving y = 5 or y = 7.", "Put them on a number line: x-values {2, 3}, y-values {5, 7}.", "Largest x = 3, smallest y = 5. Since 3 < 5, every x is smaller than every y.", "Answer: x < y."]
+      },
+      {
+        type: "callout",
+        tone: "warn",
+        text: "Biggest trap: if the x-values and y-values overlap, say x = {2, 6} and y = {4, 5}, then one x is smaller and one x is bigger than the y-values, so no fixed relation holds. The answer is 'cannot be established', NOT x = y. Use x = y only when both equations give the exact same pair of roots. And when the two groups just touch at one point (largest x equals smallest y, or largest y equals smallest x), use 'greater than or equal to' / 'less than or equal to', never the strict > or <."
+      },
+      {
+        type: "keypoints",
+        title: "Exam-day quick recall",
+        items: ["Number Series order: difference, then ratio, then squares/cubes, then mixed rule.", "A sudden big jump means think multiplication or powers, not addition.", "Quadratics: sum of roots = -b, product = c; split the constant to factorise in seconds.", "Sign rule: a + constant means the two roots share a sign (the sign opposite to the middle term); a - constant means the roots have opposite signs.", "Compare largest-x with smallest-y and smallest-x with largest-y to fix the relation.", "Groups touch at exactly one value: use 'greater/less than or equal to'. Groups overlap: 'cannot be established'.", "With 0.25 negative marking, skip anything you can't crack in about 40 seconds instead of guessing."]
+      },
+      {
+        type: "quiz",
+        question: "Given I) x squared - 9x + 20 = 0 and II) y squared - 7y + 12 = 0, what is the relationship between x and y?",
+        options: ["x > y", "x < y", "x is greater than or equal to y", "No relation can be established"],
+        correct: 2,
+        explain: "Solve I: product 20, sum 9, so 4 and 5, giving x = 4 or 5. Solve II: product 12, sum 7, so 3 and 4, giving y = 3 or 4. The smallest x (4) equals the largest y (4), and every other x is bigger. Because x is never less than y but they can be equal at 4, the correct relation is 'x is greater than or equal to y', not the strict x > y, which is the trap here."
+      }
+    ]
+  },
+  {
+    slug: "bank-puzzles-seating",
+    title: "Puzzles & Seating Arrangement: Build a Grid, Eliminate Cases",
+    summary: "The one repeatable method to crack every IBPS and SBI seating and puzzle set: draw a grid, anchor the fixed clues, split into cases, and let the clues eliminate the wrong ones. Includes a fully worked 7-person linear puzzle, a puzzle-type cheat sheet, and the circular-direction trap that quietly costs students five marks.",
+    examSlug: "banking",
+    subjectSlug: "reasoning-ability",
+    chapterSlug: "puzzles-seating",
+    readingMinutes: 8,
+    practiceTestSlug: "bank-puzzles-seating-practice-1",
+    blocks: [
+      {
+        type: "analogy",
+        title: "The wedding-hall seating chart",
+        text: "Picture a big Indian wedding. The planner has no final seating list, only hints from the family: 'Dadaji must sit at the head of the table', 'the bride's college friends want to sit together', 'Uncle Sharma will NOT sit next to Uncle Verma'. One hint at a time, guests get locked into chairs until only one arrangement survives. A seating puzzle is exactly this. You are the wedding planner, the clues are the family's demands, and your job is to find the single seating that keeps everyone happy."
+      },
+      {
+        type: "heading",
+        text: "Why these puzzles decide your prelims fate"
+      },
+      {
+        type: "para",
+        text: "In IBPS and SBI prelims, Puzzles and Seating Arrangement are the biggest chunk of the reasoning section. Often 15 to 20 of the 35 questions arrive as 3-4 puzzle 'sets', each set carrying 5 linked questions. Crack one grid and you pocket all 5 marks together. But the section is tight (roughly 20-25 minutes) and every wrong tick costs 0.25 due to negative marking. So the skill is two-fold: solve accurately, and choose the right set to attempt. Guessing on a half-built grid is how good students quietly lose 2-3 marks."
+      },
+      {
+        type: "heading",
+        text: "The master method: build a grid, eliminate cases"
+      },
+      {
+        type: "steps",
+        title: "Grid + elimination in 6 steps",
+        items: ["Read the whole puzzle once. Note the frame (row, circle, floors, boxes, or a day/month schedule), how many people or items there are, and every extra variable (age, city, colour).", "Draw an empty grid or diagram with numbered seats, floors, or slots. Leave space to pencil in options.", "Pick up the MOST definite clue (a fixed seat, an extreme end, a specific floor) and place it first. This becomes your anchor.", "Add clues that connect to what is already placed, building outward from the anchor step by step.", "When a clue allows two or more positions, open parallel cases (Case 1, Case 2...) and carry each one forward instead of guessing.", "Test every remaining clue against each case. A clue that contradicts a case kills it. Keep the case where all clues fit — that is your answer."]
+      },
+      {
+        type: "callout",
+        tone: "tip",
+        text: "Pro tip: Sort clues into 'fixed' (D is at an end; A faces north) and 'floating' (P sits somewhere to the left of Q). Place all fixed clues FIRST because they anchor the grid. Handle floating clues later by opening cases. Starting with a floating clue is the single biggest time-waster."
+      },
+      {
+        type: "heading",
+        text: "Know the main puzzle types"
+      },
+      {
+        type: "table",
+        headers: ["Puzzle type", "How to draw it", "Watch-for clue words"],
+        rows: [
+          ["Linear (single row)", "A line of numbered seats; note the facing (north or south)", "'left of', 'right of', 'extreme end', 'exactly between'"],
+          ["Linear (two rows)", "Two parallel rows facing each other; opposite pairs line up", "'faces', 'opposite to', 'diagonally opposite'"],
+          ["Circular / rectangular", "A circle or table; mark whether people face the centre or outside", "'clockwise', 'immediate left', 'faces the centre'"],
+          ["Floor / box puzzle", "A vertical stack (top = highest floor / box)", "'above', 'below', 'lowest floor', 'gap of two floors'"],
+          ["Scheduling (day / month)", "A column of days or months in fixed order", "'earlier than', 'immediately after', 'same week'"]
+        ]
+      },
+      {
+        type: "formula",
+        text: "Circular table, facing the CENTRE: left = clockwise, right = anti-clockwise. Facing OUTSIDE: left = anti-clockwise, right = clockwise (always the opposite of centre-facing). Counting rule: 'n persons sit between X and Y' means their seat numbers differ by (n + 1)."
+      },
+      {
+        type: "callout",
+        tone: "warn",
+        text: "Common mistake: applying row logic to a circular table. When everyone faces the centre, a person's RIGHT hand points anti-clockwise, not clockwise. Get this one direction wrong and the entire circle flips — all 5 answers in the set go wrong together. Always fix the facing before you read any 'left' or 'right'."
+      },
+      {
+        type: "example",
+        title: "Worked example — a 7-person linear puzzle",
+        lines: ["Setup: A, B, C, D, E, F, G sit in a row, all facing north. Number the seats 1 (far left / west) to 7 (far right / east). Since they face north, west is each person's left and east is each person's right, so 'right' means a higher seat number.", "Clues: (1) D sits at an extreme end. (2) Three persons sit between D and B. (3) A is second to the right of B. (4) C is third to the left of G. (5) E is an immediate neighbour of A.", "Start with the most fixed clue. Clue 1 fixes D at seat 1 OR seat 7 — two cases.", "Case 1 (D = seat 1): Clue 2 puts B at seat 5 (three people between = gap of 4). Clue 3 puts A at seat 7; Clue 5 puts E at seat 6. Now C = G − 3 must fit into leftover seats 2, 3, 4 — but the widest gap there is only 2, so a gap of 3 cannot fit. Case 1 dies on its own.", "Case 2 (D = seat 7): Clue 2 puts B at seat 3. Clue 3 puts A at seat 5. The leftover seats are 1, 2, 4, 6. Clue 4 needs C three seats left of G; only G = 4, C = 1 fits.", "Clue 5: E next to A(5) must be seat 6, since seat 4 is taken by G. The last leftover seat 2 = F.", "Final row (west to east): C(1)  F(2)  B(3)  G(4)  A(5)  E(6)  D(7). Every clue checks out.", "Now any question is instant. 'Who is 4th from the left?' → G. 'Who sits exactly between B and A?' → G. One grid, five marks."]
+      },
+      {
+        type: "para",
+        text: "Notice what did the heavy lifting: we never guessed. Clue 1 handed us two cases, and Case 1 simply could not satisfy Clue 4, so it collapsed by itself. That is the whole game — set up honest cases, then let the clues eliminate the wrong ones for you. The moment a case breaks, you delete it and move on without regret."
+      },
+      {
+        type: "keypoints",
+        title: "Quick revision",
+        items: ["Always draw the diagram. Never try to hold a puzzle in your head.", "Rank the clues: lock in definite (fixed) clues first, keep floating clues aside.", "When a clue gives two options, split into cases and test each — wrong cases collapse fast.", "In circular puzzles, decide the facing (centre or outside) BEFORE reading any left / right.", "Count 'persons between' as gaps: n persons between X and Y means their seats differ by n + 1.", "One completed grid usually answers all 5 questions — five marks from a single solve."]
+      },
+      {
+        type: "callout",
+        tone: "info",
+        text: "Exam-day selection: In the first 30 seconds, skim the puzzle's data. If it has many fixed clues (definite seats, exact floors, 'sits at the end'), grab it — it will solve quickly. If it is vague with mostly floating clues and lots of variables, skip it and return later. Choosing the easy set first is worth more marks than raw speed."
+      },
+      {
+        type: "quiz",
+        question: "Eight people sit around a circular table, all facing the centre. If you move in the clockwise direction, you move towards each person's —",
+        options: ["Right hand side", "Left hand side", "Front", "Back"],
+        correct: 1,
+        explain: "When you face the centre, your left hand points clockwise and your right hand points anti-clockwise, so clockwise motion goes towards each person's LEFT. (If everyone faced outward instead, it would be the reverse — clockwise would go towards their right.)"
+      }
+    ]
+  },
+  {
+    slug: "bank-syllogism-inequality",
+    title: "Syllogism & Inequality: Your Easiest Guaranteed Marks in Bank Prelims",
+    summary: "Learn to crack bank-exam Syllogism and Inequality with two simple mental pictures — circles inside circles and weights on a scale. This explainer teaches the four statement types, the free conversion shortcuts, the 3-step Venn method, and the sign-combining rules for direct and coded inequalities, including the exam-favourite 'either-or' trick, with fully worked examples aimed at fast, negative-marking-safe marks.",
+    examSlug: "banking",
+    subjectSlug: "reasoning-ability",
+    chapterSlug: "syllogism-inequality",
+    readingMinutes: 7,
+    practiceTestSlug: "bank-syllogism-inequality-practice-1",
+    blocks: [
+      {
+        type: "analogy",
+        title: "Circles within circles, weights on a scale",
+        text: "Picture the big joint-family photo at a cousin's wedding. Everyone standing in the 'cousins' group is also inside the larger 'family' circle. Draw that as a small circle sitting fully inside a big circle, and you have just solved a syllogism. Inequality is the same idea with a weighing scale: who is heavier, who is lighter, who is exactly equal. Learn to draw the circles and read the scale, dost, and you pocket 8-10 almost-guaranteed marks in the reasoning section."
+      },
+      {
+        type: "para",
+        text: "Here is the bank-prelims reality: you get roughly 35 reasoning questions in about 20 minutes, and every wrong answer costs you 0.25 marks. So you want topics where a trained student is 100% sure, not 70% guessing. Syllogism (usually 3-5 questions) and Inequality (usually 3-5 questions) are exactly that — pure logic, no long calculation, no ambiguity once you know the rules. These are your bankable, negative-marking-safe marks. Let us lock them in."
+      },
+      {
+        type: "heading",
+        text: "Part 1: Syllogism — statements and conclusions"
+      },
+      {
+        type: "para",
+        text: "In syllogism you are given 2 (sometimes 3) statements that you MUST assume are true, even if they sound absurd. If it says 'All chairs are dogs', you simply accept it and move on — never use your real-world knowledge. Then you decide which of the given conclusions definitely follows. Every statement is built from just four sentence types, so once you know these four, you know the whole topic."
+      },
+      {
+        type: "table",
+        headers: ["Statement type", "Example", "What the circles look like"],
+        rows: [
+          ["All A are B", "All apples are fruits", "Small A circle sits fully inside B"],
+          ["No A is B", "No apple is a stone", "A and B circles never touch"],
+          ["Some A are B", "Some apples are red", "The two circles overlap a little"],
+          ["Some A are not B", "Some apples are not sweet", "Part of A lies outside B"]
+        ]
+      },
+      {
+        type: "callout",
+        tone: "info",
+        text: "Memorise these free conversions — half of all conclusions are just these flipped: 'All A are B' also gives 'Some B are A'. 'No A is B' also gives 'No B is A'. 'Some A are B' also gives 'Some B are A'. But 'Some A are not B' gives NOTHING in reverse. That single exception traps thousands of students every year."
+      },
+      {
+        type: "steps",
+        title: "The 3-step Venn method",
+        items: ["Draw the statements exactly as given, using the picture with the LEAST overlap first (circles touching only as much as the statements force).", "Check each conclusion against your picture: is it true in EVERY valid arrangement you can draw? If yes, it definitely follows.", "If a conclusion fails in even one valid picture, it does NOT follow. For a 'possibility' or 'can be' conclusion, flip the test: it follows if it can be true in at least one valid picture."]
+      },
+      {
+        type: "example",
+        title: "Worked example — spot the trap",
+        lines: ["Statements: All roses are flowers. Some flowers are red.", "Conclusion I: Some roses are red.", "Conclusion II: Some flowers are roses.", "Draw it: a small 'roses' circle fully inside 'flowers'. The 'red' circle overlaps 'flowers' — but you are free to slide that red patch so it touches only the non-rose part of flowers.", "Check I: the red part need NOT touch roses, so 'Some roses are red' is not certain. Conclusion I does not follow.", "Check II: 'All roses are flowers' converts to 'Some flowers are roses' — always true. Conclusion II follows.", "Answer: Only Conclusion II follows."]
+      },
+      {
+        type: "callout",
+        tone: "warn",
+        text: "Common mistake: 'Some flowers are red' tempts you to link red to roses — never assume an overlap the statements do not force. Two more traps: (1) never use outside knowledge, accept even 'All stones are flowers'; (2) a 'possibility' conclusion follows if even ONE valid arrangement makes it true, so do not reject it too fast."
+      },
+      {
+        type: "para",
+        text: "The 'either-or' rule (examiners love it): sometimes neither conclusion follows on its own, yet the two conclusions are about the SAME pair and are complementary — for example 'Some A are B' and 'No A is B', or 'All A are B' and 'Some A are not B'. Each such pair covers every possible case between them, so exactly one must be true. When you see that pattern and neither is individually certain, mark 'Either I or II follows'."
+      },
+      {
+        type: "heading",
+        text: "Part 2: Inequality — reading the signs"
+      },
+      {
+        type: "para",
+        text: "Direct inequality hands you a chain like A > B >= C and asks about A versus C. The whole game is joining the signs correctly. Coded inequality is the same thing wearing a disguise: symbols like @, %, $ stand for >, <, =, and so on, so you first decode them into real signs and then apply the exact same combining rules."
+      },
+      {
+        type: "table",
+        headers: ["Chain", "Valid conclusion", "Why"],
+        rows: [
+          ["A > B > C", "A > C", "same direction, both strict"],
+          ["A > B >= C", "A > C", "one strict > wins the chain"],
+          ["A >= B >= C", "A >= C", "no strict sign, so it stays >="],
+          ["A = B >= C", "A >= C", "equal, then >="],
+          ["A > B < C", "No relation", "signs oppose, the chain breaks"]
+        ]
+      },
+      {
+        type: "callout",
+        tone: "tip",
+        text: "The master rule: you may join a chain only when the signs face the same way with no break. The answer is a strict > (or <) only if at least one strict sign sits inside a clean, same-direction chain; otherwise it stays >= (or <=). The moment a > meets a < in the middle, there is NO relation between the two end elements — do not waste a second guessing."
+      },
+      {
+        type: "example",
+        title: "Worked example — coded inequality",
+        lines: ["Codes: 'P % Q' means P > Q; 'P $ Q' means P = Q; 'P @ Q' means P >= Q; 'P (c) Q' means P <= Q.", "Statements: A @ B, B $ C. Find A versus C.", "Decode: A @ B is A >= B, and B $ C is B = C.", "Combine: A >= B = C, so A >= C.", "So 'A >= C' definitely follows — but 'A > C' alone would NOT follow, because A and C could be equal."]
+      },
+      {
+        type: "example",
+        title: "The either-or trick in inequality (very common)",
+        lines: ["Statement: P >= Q = R.", "Conclusion I: P > R. Conclusion II: P = R.", "Combine: P >= Q = R gives P >= R, which means P > R OR P = R.", "Neither I nor II is certain on its own, both are about the same pair (P and R), and together they cover every case.", "Answer: Either I or II follows."]
+      },
+      {
+        type: "keypoints",
+        title: "60-second revision before the exam",
+        items: ["Syllogism: accept every statement as true, draw the least-overlap circles, and a conclusion follows only if it is true in every possible picture.", "Learn conversions: All flips to Some, No flips to No, Some flips to Some — but 'Some-not' never flips.", "Inequality: join signs only in the same direction; one strict sign in a clean chain makes the whole answer strict.", "A > that meets a < in the middle = No relation. Move on instantly.", "Either-or: two conclusions on the same pair that are complementary (e.g. > and =) with neither individually true — mark 'either-or'.", "Target 30-40 seconds per question. These are safe marks; do not overthink and do not gamble against the 0.25 penalty."]
+      },
+      {
+        type: "quiz",
+        question: "Statements: P < Q >= R > S. Which conclusion is definitely true?",
+        options: ["P > S", "Q > S", "R >= Q", "P < R"],
+        correct: 1,
+        explain: "Take the clean part of the chain: Q >= R and R > S face the same direction, and there is a strict > inside, so Q >= R > S gives Q > S — definitely true. 'P > S' and 'P < R' fail because P sits behind a '<' facing Q, which breaks the chain (no relation from P to R or S). 'R >= Q' just reverses the given Q >= R, which is not guaranteed. So only 'Q > S' follows."
+      }
+    ]
+  },
+  {
+    slug: "bank-coding-blood-relations",
+    title: "Coding-Decoding & Blood Relations: Crack the Code, Draw the Tree",
+    summary: "A from-scratch, exam-focused guide to bank-prelims Coding-Decoding (letter, number and new-pattern sentence coding) and Blood Relations. Learn the EJOTY and opposite-letter shortcuts, a clean method for sentence coding, and the draw-the-family-tree technique — with fully worked, verified examples tuned to tight sectional timing and 0.25 negative marking.",
+    examSlug: "banking",
+    subjectSlug: "reasoning-ability",
+    chapterSlug: "coding-blood-relations",
+    readingMinutes: 8,
+    practiceTestSlug: "bank-coding-blood-relations-practice-1",
+    blocks: [
+      {
+        type: "analogy",
+        title: "The secret chit-language of school",
+        text: "Remember passing chits in class where 'library' secretly meant 'the boring lecture' and 'chai' meant 'let's bunk'? You and your friend agreed on a rule, and suddenly one ordinary word carried a hidden meaning. Coding-Decoding is exactly that game — the examiner fixes a secret rule, and your only job is to spot the rule and reverse it. Blood Relations is the same idea with people: a tangled sentence is really a simple family tree wearing a disguise. Padho, dost — once you learn to decode and to draw, these become your fastest, surest marks."
+      },
+      {
+        type: "para",
+        text: "In IBPS and SBI Prelims, the Reasoning section is short and brutal: roughly 35 questions in 20 minutes, with 0.25 negative marking for every wrong answer. Coding-Decoding and Blood Relations are gold here because a well-practised student cracks them in under a minute with near-perfect accuracy — no lengthy calculation, just a rule and a diagram. Skip the guesswork; a blind attempt here costs you a quarter mark AND precious seconds."
+      },
+      {
+        type: "heading",
+        text: "Part 1: Coding-Decoding Basics"
+      },
+      {
+        type: "para",
+        text: "Most coding rests on one skill: knowing the position of a letter in the alphabet (A=1 ... Z=26) and its reverse position counted from the back (Z=1 ... A=26). The common rules you will see are: shift a letter forward or backward by a fixed number, replace a letter with its opposite (A with Z, B with Y), or use position-number tricks. Memorise the anchor letters and these jumps become instant."
+      },
+      {
+        type: "table",
+        headers: ["Letter", "Position", "Reverse (27 − pos)", "Opposite letter"],
+        rows: [
+          ["A", "1", "26", "Z"],
+          ["E", "5", "22", "V"],
+          ["J", "10", "17", "Q"],
+          ["O", "15", "12", "L"],
+          ["T", "20", "7", "G"],
+          ["Y", "25", "2", "B"]
+        ]
+      },
+      {
+        type: "callout",
+        tone: "tip",
+        text: "Learn the 'EJOTY' anchors — E=5, J=10, O=15, T=20, Y=25. To find any letter's number, jump to the nearest anchor and count a step or two. For opposite letters, use the rule Opposite = 27 − Position (so P=16 pairs with K=11, since 27 − 16 = 11). These two shortcuts alone cover the bulk of coding questions."
+      },
+      {
+        type: "example",
+        title: "Worked example: letter-shift coding",
+        lines: ["Question: In a code, TIGER is written as UJHFS. How is LION written?", "Step 1 — Compare TIGER with UJHFS letter by letter: T→U, I→J, G→H, E→F, R→S.", "Step 2 — Spot the rule: every letter moves +1 (one step forward).", "Step 3 — Apply the same rule to LION: L→M, I→J, O→P, N→O.", "Answer: LION is written as MJPO."]
+      },
+      {
+        type: "heading",
+        text: "New-Pattern (Sentence) Coding"
+      },
+      {
+        type: "para",
+        text: "Modern bank exams love 'sentence coding', where whole phrases are coded and you must find the code for one word. There is no letter-shift here — you match words across sentences. It looks scary but follows one clean idea: whatever word is common to two sentences must share the code that is common to those same two sentences."
+      },
+      {
+        type: "steps",
+        title: "Method for new-pattern coding",
+        items: ["Write each sentence and its code neatly, one below the other.", "Find a word that appears in two sentences; the code common to those two sentences stands for that word.", "Find a code that repeats across ALL sentences — it belongs to the word that repeats across all.", "Cancel the pairs you have confirmed to squeeze out the remaining words.", "Cross-check that every sentence maps fully before you tick the answer."]
+      },
+      {
+        type: "example",
+        title: "Worked example: sentence coding",
+        lines: ["'pen is blue' = 'ta na sa'", "'blue is sky' = 'na ra ta'", "'sky is high' = 'ra na pa'", "Step 1 — 'na' appears in all three codes, and 'is' is the only word common to all three sentences, so is = na.", "Step 2 — Sentences 1 and 2 share the words 'is' and 'blue' and the codes 'na' and 'ta'. Since is = na, the leftover gives blue = ta.", "Step 3 — Sentences 2 and 3 share 'is' and 'sky' and the codes 'na' and 'ra'. Since is = na, sky = ra.", "Answer: the code for 'blue' is ta. (Check: pen = sa, high = pa — every sentence now maps cleanly.)"]
+      },
+      {
+        type: "heading",
+        text: "Part 2: Blood Relations"
+      },
+      {
+        type: "para",
+        text: "A blood-relation question is a story that hides a family tree. Your winning move is to STOP reading it as English and start drawing it as a diagram. Once the tree is on paper, the answer simply reads off it."
+      },
+      {
+        type: "keypoints",
+        title: "Family-tree drawing rules",
+        items: ["Show a male as a square and a female as a circle — fix a person's gender only when the sentence actually tells you.", "Use a vertical line to link different generations (parent above, child below).", "Use a horizontal line for the same generation (brother — sister, husband — wife).", "Replace tricky phrases like 'the only daughter of my mother' with the actual person before moving on.", "Always read the final relation FROM the tree, never from memory."]
+      },
+      {
+        type: "example",
+        title: "Worked example: pointing-type relation",
+        lines: ["Question: Pointing to a photograph, Rekha said, 'She is the daughter of my grandfather's only son.'", "Step 1 — Rekha's grandfather has only one son, and Rekha is his descendant, so that only son is Rekha's own father.", "Step 2 — 'Daughter of Rekha's father' is therefore Rekha herself OR her sister.", "Step 3 — Rekha is pointing at someone else in the photo ('She'), so it cannot be Rekha.", "Answer: The girl in the photo is Rekha's sister."]
+      },
+      {
+        type: "callout",
+        tone: "warn",
+        text: "The biggest trap is assuming gender from a name or a role. 'The engineer', 'the doctor', 'my friend' — none of these tells you male or female, so never draw the symbol until the sentence confirms it. A single wrong gender collapses the whole tree and gifts the examiner your 0.25 negative mark."
+      },
+      {
+        type: "keypoints",
+        title: "Exam-day quick revision",
+        items: ["Memorise EJOTY (5, 10, 15, 20, 25) and the Opposite = 27 − position rule for opposite letters.", "For sentence coding, hunt for the word and the code that are common to the same two lines.", "In blood relations, always draw — squares, circles, vertical and horizontal lines.", "If a question feels tangled after 60–75 seconds, mark it for review and move on; accuracy beats ego.", "Attempt only when the tree or code is fully clear — a confident 5 beats a shaky 8 under negative marking."]
+      },
+      {
+        type: "quiz",
+        question: "Pointing to a man, a woman said, 'His mother is the only daughter of my mother.' How is the woman related to the man?",
+        options: ["Grandmother", "Mother", "Sister", "Aunt"],
+        correct: 1,
+        explain: "'The only daughter of my mother' must be the woman herself, since she is her mother's single daughter. So the man's mother IS the woman — therefore the woman is the man's mother."
+      }
+    ]
+  },
+  {
+    slug: "bank-reading-comprehension-cloze",
+    title: "Reading Comprehension & Cloze Test: Read Smart, Score High",
+    summary: "A practical, exam-focused guide to conquering RC and Cloze in IBPS and SBI Prelims - a 4-step RC attack plan, a question-type cheat sheet, and the connector trick that cracks Cloze fast, all tuned for tight timing and 0.25 negative marking.",
+    examSlug: "banking",
+    subjectSlug: "english-language",
+    chapterSlug: "reading-comprehension-cloze",
+    readingMinutes: 6,
+    practiceTestSlug: "bank-rc-cloze-practice-1",
+    blocks: [
+      {
+        type: "analogy",
+        title: "The Reservation Chart Trick",
+        text: "Remember how you find your name on a train's reservation chart at the platform? You don't read all 72 names top to bottom. You jump straight to your coach, run your finger down, and spot your berth in seconds. A Reading Comprehension passage works exactly the same way. You are not there to enjoy the story, dost - you are there to locate specific answers. Skim for the keyword, land on the right line, done. That mindset alone can turn RC from your slowest section into your fastest."
+      },
+      {
+        type: "para",
+        text: "In the IBPS and SBI Prelims, the English section gives you roughly 30 marks in just 20-30 minutes. Reading Comprehension is the biggest chunk (usually 7-10 questions), and Cloze Test adds another 5-10. That means over half your English score hides in these two topics. But here is the trap: there is 0.25 negative marking, and RC tempts you to over-read and waste 4-5 minutes on one passage. The winner is not the person who reads the most - it is the one who reads smart and picks moderate, safe answers."
+      },
+      {
+        type: "heading",
+        text: "The 4-Step RC Attack Plan"
+      },
+      {
+        type: "steps",
+        title: "How to attack any passage under time pressure",
+        items: ["Read the QUESTIONS first (not the options). Circle the keyword in each - a name, a year, a term like 'inflation' or 'MSME'. Now you know what to hunt for.", "Skim the passage, don't study it. The first and last line of each paragraph usually carry the main idea; the middle carries examples you can skip until needed.", "Attack fact/detail questions first - the answer is literally sitting in the passage. Find your keyword, then read that line plus one line above and below.", "Do tone, inference and main-idea questions later - they need judgement, not just location. Vocabulary (synonym/antonym) questions are quick wins; grab them whenever you spot them.", "If two options both look correct and you are just guessing, leave it. One skipped question is safer than one wrong answer (-0.25)."]
+      },
+      {
+        type: "heading",
+        text: "Know Your Question Types"
+      },
+      {
+        type: "table",
+        headers: ["Question type", "What it actually asks", "How to crack it fast"],
+        rows: [
+          ["Fact / Detail", "Information stated directly in the passage", "Match the keyword, read that exact line - the answer is there word-for-word or paraphrased"],
+          ["Inference", "What is implied but NOT stated", "Pick the 'safe' option; reject anything extreme or that adds new information"],
+          ["Tone / Attitude", "How the author feels about the topic", "Scan the adjectives and adverbs - are they positive, critical, or neutral?"],
+          ["Main Idea / Title", "The central theme of the whole passage", "Look at the first and last paragraph; choose the broad option, not one narrow detail"],
+          ["Vocabulary", "Meaning of a word in THIS context", "Read the full sentence; judge by context, not the first dictionary meaning you recall"]
+        ]
+      },
+      {
+        type: "callout",
+        tone: "tip",
+        text: "For inference and tone questions, options with extreme words - 'always', 'never', 'completely', 'only', 'totally' - are usually wrong. Exam-setters love moderate answers. When you are stuck between a strong, sweeping claim and a mild, measured one, the mild one is the safer bet far more often than not."
+      },
+      {
+        type: "heading",
+        text: "Worked Example: Tone & Inference"
+      },
+      {
+        type: "example",
+        title: "A mini passage, solved the exam way",
+        lines: ["Passage: 'Despite the government's tall claims, the new digital-banking rollout has reached only a fraction of rural households. Officials celebrate the numbers, but for a farmer in a village without stable electricity, an app on a phone means very little.'", "Question: What is the author's tone towards the rollout?", "Clue 1: 'tall claims' - this phrase signals the author doubts the official version.", "Clue 2: 'means very little' - the author shows the reality falls short of the claims.", "Eliminate 'enthusiastic' and 'neutral' - the loaded words prove the author is judging, not just reporting.", "Reject 'hostile / angry' - too extreme; the author states facts calmly, not with rage.", "Answer: Critical / Sceptical - the safe, moderate choice that matches both clues."]
+      },
+      {
+        type: "heading",
+        text: "Cracking the Cloze Test"
+      },
+      {
+        type: "para",
+        text: "A Cloze Test is a short paragraph with blanks, and you pick the word that fits three things at once: grammar, meaning, and tone. The golden rule is to read the WHOLE sentence - and often the next one too - before choosing, because blanks depend on the flow. The secret weapon is connector words. Words like 'but', 'although', 'however', 'despite' signal a contrast (the idea flips), while 'so', 'hence', 'therefore', 'because' signal cause and effect (the idea continues). Spot the connector and half the options collapse instantly."
+      },
+      {
+        type: "example",
+        title: "Worked Cloze: let the connector decide",
+        lines: ["Sentence: 'The startup grew rapidly, but it soon _____ a shortage of skilled staff.'", "Options: (a) enjoyed  (b) faced  (c) celebrated  (d) welcomed", "Spot the connector: 'but' means the second half must contrast the happy 'grew rapidly' - so we need something negative.", "A shortage is a problem, and you 'face' a problem - that fits both grammar and meaning.", "Reject 'enjoyed', 'celebrated', 'welcomed' - all positive, so they clash with 'but'.", "Answer: (b) faced - the only word that respects the contrast signalled by 'but'."]
+      },
+      {
+        type: "callout",
+        tone: "warn",
+        text: "The most common Cloze mistake is picking a word that 'sounds nice' but breaks the sentence - wrong verb tense, singular/plural mismatch, or ignoring the connector. A word can have the right meaning and still be wrong if the grammar or the 'but/so' logic does not fit. Always check meaning AND grammar AND connector together."
+      },
+      {
+        type: "keypoints",
+        title: "Your 60-second revision before the exam",
+        items: ["Read the questions before the passage; hunt keywords, don't read line-by-line.", "Fact questions first, tone and inference last, vocabulary whenever - it's quick.", "Moderate options beat extreme ones ('always/never/only' is usually a trap).", "In Cloze, connectors decide everything: 'but/although' flips the idea, 'so/because' continues it.", "Check grammar + meaning + tone as one combined test for every blank.", "With 0.25 negative marking, skip the one blank you genuinely cannot decide - accuracy over attempts."]
+      },
+      {
+        type: "quiz",
+        question: "Choose the best word for the blank: 'Although the scheme was well-designed on paper, poor execution badly _____ its benefits.'",
+        options: ["enhanced", "doubled", "undermined", "celebrated"],
+        correct: 2,
+        explain: "The connector 'Although' sets up a contrast: a good design on paper, but a bad outcome in reality. So the blank needs a negative word. 'Enhanced', 'doubled' and 'celebrated' are all positive and clash with 'poor execution'. Only 'undermined' (meaning weakened or reduced) fits the contrast and the meaning - poor execution weakened the benefits."
+      }
+    ]
+  },
+  {
+    slug: "bank-error-sentence-improvement",
+    title: "Error Detection & Sentence Improvement: The 5 Rules That Crack Every Bank Exam",
+    summary: "A fast, exam-focused guide to the five grammar rules — subject-verb agreement, tense, prepositions, articles and parallelism — that power almost every Error Detection and Sentence Improvement question in IBPS and SBI PO/Clerk exams, with a 4-step attack method and two fully worked examples.",
+    examSlug: "banking",
+    subjectSlug: "english-language",
+    chapterSlug: "error-sentence-improvement",
+    readingMinutes: 6,
+    practiceTestSlug: "bank-error-detection-practice-1",
+    blocks: [
+      {
+        type: "analogy",
+        title: "Spot the odd one out",
+        text: "Picture a big family wedding photo. Everyone is dressed in bright ethnic wear, and then one cousin turns up in a T-shirt and shorts. Your eye catches him instantly, right? Error Detection works exactly like that. The sentence is the photo; your job is to spot the one word that is 'wearing the wrong clothes'. Once you train your eye on a few fixed rules, wrong grammar starts jumping out at you just as fast."
+      },
+      {
+        type: "para",
+        text: "Padho, dost! Error Detection and Sentence Improvement are twins. In both, the examiner shows you a sentence and asks: is the grammar clean, and if not, what fixes it? Together these topics quietly hand you 5-10 easy marks in almost every IBPS and SBI Prelims and Mains paper. The best part? You don't need a huge vocabulary. You need about five grammar rules, applied fast and calmly. Let's make them yours."
+      },
+      {
+        type: "heading",
+        text: "The two question types you will see"
+      },
+      {
+        type: "para",
+        text: "Error Detection: a sentence is broken into 4-5 parts — (a), (b), (c), (d) and (e). You choose the part that has the mistake. If everything is correct, the answer is 'No error'. Sentence Improvement: one part of the sentence is in bold or underlined, and you pick the option that replaces it best. If the bold part is already fine, you choose 'No improvement'. Different wrapping, same skill inside: knowing which grammar rule is being tested."
+      },
+      {
+        type: "heading",
+        text: "The 5 rules that crack ~80% of questions"
+      },
+      {
+        type: "table",
+        headers: ["Rule", "What to check", "Wrong ✗", "Right ✓"],
+        rows: [
+          ["Subject–Verb Agreement", "A singular subject takes a singular verb", "The list of items are ready", "The list of items is ready"],
+          ["Tense", "Keep tenses consistent; no illegal jumps", "He said he will come", "He said he would come"],
+          ["Prepositions", "Fixed word-pairs (in / on / at / to / for)", "She is married with a doctor", "She is married to a doctor"],
+          ["Articles", "a / an / the — sound, first mention, uniqueness", "He is honest man", "He is an honest man"],
+          ["Parallelism", "Items in a list share the same form", "Reading, writing and to sing", "Reading, writing and singing"]
+        ]
+      },
+      {
+        type: "callout",
+        tone: "tip",
+        text: "The #1 exam trap: the verb agrees with the SUBJECT, never with the noun sitting closest to it. In 'The quality of the answers (was/were) poor', the subject is 'quality' (singular), not 'answers'. Answer: was. Mentally delete the phrase between the subject and the verb, and the correct choice becomes obvious."
+      },
+      {
+        type: "para",
+        text: "A few high-frequency sub-rules the examiners love: collective nouns (team, committee, jury, family) usually take a singular verb. 'Each, every, one of, either, neither' (used alone) take a singular verb. 'A number of students' is plural, but 'The number of students' is singular. With 'either...or / neither...nor', the verb follows the NEARER subject (the proximity rule). And for tense: 'since' pulls the present perfect ('I have known him since 2010'), while 'ago' pulls the simple past ('I met him two years ago')."
+      },
+      {
+        type: "steps",
+        title: "Your 4-step attack method (under 30 seconds per question)",
+        items: ["Read the whole sentence once, fully, before staring at the parts — meaning comes first, grammar second.", "Find the real subject and its main verb, and mentally cross out any phrase sitting between them.", "Run the 5-rule scan in order: Agreement, Tense, Preposition, Article, Parallelism. Stop at the first rule that breaks.", "If nothing breaks a rule, be brave — choose 'No error' / 'No improvement'. Do not invent a mistake that isn't there."]
+      },
+      {
+        type: "example",
+        title: "Worked example — Error Detection",
+        lines: ["Sentence: One of the students (a) / who scored well (b) / in the exam (c) / have been selected for the interview (d). No error (e)", "Step 1 – Find the subject: it is 'One', not 'students'. The words 'of the students' are just a phrase describing 'One'.", "Step 2 – 'One' is singular, so it needs a singular verb.", "Step 3 – The verb 'have been selected' is plural. That is the mismatch.", "Correction: 'has been selected'.", "Answer: Part (d) has the error."]
+      },
+      {
+        type: "example",
+        title: "Worked example — Sentence Improvement",
+        lines: ["Sentence: She is good at singing, dancing and TO PAINT.", "The bold part to test: 'and to paint'.", "Step 1 – Look at the list: singing, dancing, ___ . The first two are -ing forms (gerunds).", "Step 2 – Parallelism rule: every item in a list must wear the same grammatical form.", "Step 3 – 'to paint' (an infinitive) breaks the pattern.", "Options: (a) and painting  (b) and paints  (c) and to painting  (d) No improvement.", "Answer: (a) 'and painting' — it matches singing and dancing."]
+      },
+      {
+        type: "callout",
+        tone: "warn",
+        text: "Remember the 0.25 negative marking (one-fourth of a mark). Two silent killers cost aspirants marks here: (1) over-correcting a sentence that is already perfect, and (2) skipping 'No error' out of fear because it 'feels too easy'. Both are traps. Attempt only what you can justify with a rule, aim for 90%+ accuracy, and never guess blindly when two options look identical."
+      },
+      {
+        type: "keypoints",
+        title: "60-second revision before the exam",
+        items: ["Verb agrees with the subject, not the nearest noun — delete the middle phrase.", "Collective nouns and 'one of / each / every / either / neither' → singular verb.", "'Neither...nor / either...or' → verb follows the nearer subject (proximity rule).", "'Since' → present perfect; 'ago' → simple past; don't shift tenses without reason.", "Learn preposition pairs by heart (married to, superior to, capable of, comply with).", "'A' before consonant sounds, 'an' before vowel sounds — go by SOUND (an hour, a university).", "Lists must be parallel — all gerunds, all infinitives, or all nouns.", "No rule broken? Confidently pick 'No error' / 'No improvement'."]
+      },
+      {
+        type: "quiz",
+        question: "Find the part that contains an error: 'Neither the captain (a) / nor the players (b) / were aware of (c) / the new rule (d).' No error (e)",
+        options: ["Neither the captain", "nor the players", "were aware of", "the new rule", "No error"],
+        correct: 4,
+        explain: "With 'neither...nor', the verb follows the proximity rule — it agrees with the nearer subject, which is 'the players' (plural). So 'were' is correct. Every part is grammatically clean, so the right answer is 'No error'. This is exactly why you must never avoid the 'No error' option out of fear."
+      }
+    ]
+  },
+  {
+    slug: "bank-para-jumbles-fillers",
+    title: "Para Jumbles & Sentence Fillers: Crack the Order, Fill the Blank",
+    summary: "A from-scratch guide to two easy-scoring English topics in IBPS and SBI PO/Clerk exams. Learn how connectors and pronouns reveal the correct sentence order, how to solve single and double fillers, and the elimination shortcuts that save precious prelims seconds.",
+    examSlug: "banking",
+    subjectSlug: "english-language",
+    chapterSlug: "para-jumbles-fillers",
+    readingMinutes: 7,
+    practiceTestSlug: "bank-para-jumbles-practice-1",
+    blocks: [
+      {
+        type: "analogy",
+        title: "The shuffled photo album",
+        text: "Imagine your cousin sends you 5 photos from a wedding, but WhatsApp delivers them in a jumbled order. You still work out the real sequence in seconds - the 'guests arriving' photo comes before the 'everyone eating' one, and the big group selfie is obviously last. You do this using clues inside each photo. Para jumbles are exactly the same game: the exam shuffles 4 to 6 sentences, and your job is to spot the clue words that reveal the original order. Padho, dost - once you know the clues, these questions become quick, sure marks."
+      },
+      {
+        type: "para",
+        text: "Para Jumbles and Sentence Fillers are two of the most scoring topics in the English section of bank exams. They test one simple skill: do you understand how sentences connect to each other? Unlike Reading Comprehension, you do not need to read a long passage - you just need to catch small signals like 'however', 'this', 'he', or 'the'. In prelims you get roughly 30 to 40 seconds per question, so speed matters. The good news: with a clear method, most students can attempt these in well under a minute with high accuracy."
+      },
+      {
+        type: "heading",
+        text: "Para Jumbles: putting the story back in order"
+      },
+      {
+        type: "para",
+        text: "In a para jumble, 4 to 6 jumbled sentences (usually labelled A-E or P-T) form a small paragraph when arranged correctly. The exam then asks for the full order, or just one thing like 'Which sentence comes first?' or 'Which sentence is third?'. You do not need to guess randomly - every correct paragraph has a natural flow of ideas, and the sentences leave 'fingerprints' that tell you what comes before what."
+      },
+      {
+        type: "steps",
+        title: "The 4-step method for para jumbles",
+        items: ["Read all sentences once, fast, just to catch the topic or the story being told.", "Find the OPENING sentence - it introduces a full name, a place, or a general idea, and has NO connector or pronoun pointing backwards (no 'however', 'this', 'they', 'so').", "Find MANDATORY PAIRS - two sentences that must sit together: a noun and the pronoun that refers to it, a cause and its effect, or a question and its answer.", "Fix the CLOSING sentence (often has 'finally', 'today', 'thus', 'as a result'), then match your order against the four options and eliminate - do not re-read everything from scratch."]
+      },
+      {
+        type: "table",
+        headers: ["Clue in a sentence", "What it signals", "How to use it"],
+        rows: [
+          ["Pronouns: he, she, it, they, this, these", "Refers to a noun mentioned earlier", "This sentence cannot be first; place it right after the noun it points to"],
+          ["Connectors: however, but, therefore, so", "Link back to a previous idea", "Cannot be the opening sentence"],
+          ["Articles: 'a/an' vs 'the'", "'A/an' introduces a thing; 'the' points back to it", "The 'a/an' sentence usually comes before the 'the' sentence"],
+          ["Time words: earlier, then, today, finally", "Show the order of events", "Arrange from past to present or future"],
+          ["Full name vs pronoun", "A full name introduces a person; a pronoun follows", "The full-name sentence comes before the pronoun sentence"]
+        ]
+      },
+      {
+        type: "example",
+        title: "Worked example: arrange A-E",
+        lines: ["A. However, this changed when smartphones became affordable.", "B. Earlier, only a few people in India had access to the internet.", "C. They could now browse, shop and learn online.", "D. Millions of new users came online within a few years.", "E. Today, India has one of the largest internet user bases in the world.", "Step 1 - Opening: B has no back-connector and sets the scene with 'Earlier', so B is first.", "Step 2 - 'However, this changed' in A refers back to B's situation, so A follows B (pair B-A).", "Step 3 - Cheaper phones caused the surge, so D ('Millions... came online') follows A (pair A-D).", "Step 4 - 'They' in C = those millions of users, so C follows D (pair D-C); E ('Today...') is the conclusion.", "Final order: B A D C E."]
+      },
+      {
+        type: "callout",
+        tone: "tip",
+        text: "Speed shortcut: do NOT solve the whole jumble from scratch. Nail just ONE strong mandatory pair - like a name followed by 'he/she', or 'a scheme' followed by 'the scheme'. Then glance at the four options; usually only one option keeps that pair together in the right order. Mark it and move on. This alone can turn a 90-second question into a 30-second one."
+      },
+      {
+        type: "heading",
+        text: "Sentence Fillers: single and double blanks"
+      },
+      {
+        type: "para",
+        text: "In fillers, a sentence has one blank (single filler) or two blanks (double filler), and you pick the word or word-pair that fits both the meaning and the grammar. The secret is TONE: is the sentence positive or negative? Is there a contrast word like 'although', 'but', 'despite' (which flips the idea) or a support word like 'and', 'because', 'therefore' (which continues it)? In double fillers, the trap is that one word may fit but its partner does not - so always test the pair together, never just one blank."
+      },
+      {
+        type: "example",
+        title: "Worked example: double filler",
+        lines: ["Sentence: 'Although the scheme was launched with good ____, poor planning meant very few people actually ____ from it.'", "Blank 1 needs a noun (it follows 'good'); Blank 2 needs a verb (it follows 'actually ____ from it').", "Read the tone: 'Although... poor planning' signals a contrast - a good start but a bad result.", "Blank 1: 'intentions' fits perfectly as 'good intentions'.", "Blank 2: 'benefited' fits as 'benefited from it'.", "Test the pair together: 'good intentions... few people benefited' - the contrast holds. Answer: intentions, benefited."]
+      },
+      {
+        type: "callout",
+        tone: "warn",
+        text: "Mind the 0.25 negative marking. A blind guess on a 5-sentence jumble is a bad bet. But if you are sure of even one mandatory pair, you can often eliminate 2-3 options and then guess between the last two - that is a smart, calculated risk. The rule: eliminate first, then decide. Never mark an answer with zero clues in hand."
+      },
+      {
+        type: "keypoints",
+        title: "Quick revision before the exam",
+        items: ["Opening sentence = no pronoun, no connector pointing back; it introduces the topic or a full name.", "Pronouns (he/she/it/they/this) and connectors (however/so/therefore) always follow something - never first.", "Solve one strong mandatory pair, then use the options to eliminate instead of re-reading.", "For fillers, first decide the tone (positive/negative) and spot contrast words like although, but, despite.", "In double fillers, always test BOTH words together before marking.", "Practice daily - aim for 30 to 40 seconds per question so these become your fast, high-accuracy marks."]
+      },
+      {
+        type: "quiz",
+        question: "Pick the pair that best fills both blanks: 'The new policy will ____ the burden on small farmers and ____ them to invest in better seeds.'",
+        options: ["increase ... allow", "reduce ... enable", "reduce ... prevent", "raise ... force"],
+        correct: 1,
+        explain: "The policy is meant to help small farmers, so the tone is positive and the two ideas support each other. 'reduce the burden' and 'enable them to invest' both fit that helpful, cause-and-effect flow. 'prevent them to invest' is negative and grammatically wrong (it would need 'prevent... from'), while 'increase/raise the burden' contradicts a policy designed to help. So 'reduce... enable' is correct."
+      }
+    ]
+  },
+  {
+    slug: "bank-banking-regulators-rbi",
+    title: "Banking Regulators and the RBI: The Referees of India's Money",
+    summary: "A clear, exam-ready guide to India's financial regulators — what the RBI is and does, how its monetary-policy tools (repo, reverse repo, CRR, SLR) work, and the distinct roles of SEBI, IRDAI and PFRDA.",
+    examSlug: "banking",
+    subjectSlug: "banking-financial-awareness",
+    chapterSlug: "banking-regulators-rbi",
+    readingMinutes: 7,
+    practiceTestSlug: "bank-rbi-regulators-practice-1",
+    blocks: [
+      {
+        type: "analogy",
+        title: "The referee of India's money game",
+        text: "Imagine India's economy as a giant cricket match, with thousands of banks as the players. Someone has to make the rules, keep score of how money flows, and blow the whistle when things get out of hand. That head referee is the Reserve Bank of India (RBI). And just as different sports need different referees, India has separate regulators for the share market, insurance and pensions too. Let's meet them all, dost, and see exactly how each one keeps the game fair."
+      },
+      {
+        type: "heading",
+        text: "Meet the RBI: India's Central Bank"
+      },
+      {
+        type: "para",
+        text: "The RBI is India's central bank — the bank that stands above all other banks. It was set up under the RBI Act, 1934, began operations on 1 April 1935, and was nationalised (fully taken over by the government) on 1 January 1949. Its central office is in Mumbai. Think of it as the guardian of the rupee: it decides how much money flows through the economy, keeps prices stable, and makes sure banks stay safe and honest so that your deposits are protected."
+      },
+      {
+        type: "keypoints",
+        title: "What the RBI actually does",
+        items: ["Monetary authority — frames and runs monetary policy to control inflation and support growth", "Sole issuer of currency notes (except the one-rupee note and coins, which come from the Government of India)", "Banker to the government — manages the government's accounts and public debt", "Banker's bank — other banks keep accounts with it and can borrow from it", "Regulator and supervisor of the banking and financial system", "Manager of India's foreign exchange reserves under FEMA (Foreign Exchange Management Act)", "Regulator of payment and settlement systems — such as NEFT and RTGS (which the RBI itself operates) and UPI (built by NPCI under RBI's regulation)"]
+      },
+      {
+        type: "callout",
+        tone: "info",
+        text: "Favourite exam point: the RBI issues all currency notes EXCEPT the one-rupee note and coins — those are issued by the Government of India. The one-rupee note carries the Finance Secretary's signature, while every higher denomination note carries the RBI Governor's signature."
+      },
+      {
+        type: "heading",
+        text: "How the RBI Controls Money: Monetary Policy Tools"
+      },
+      {
+        type: "para",
+        text: "Monetary policy is simply the RBI's plan for managing the supply and cost of money. The big decisions are taken by the Monetary Policy Committee (MPC), a six-member team in which the RBI Governor has a casting (deciding) vote if there is a tie. Its job is to hit a medium-term inflation target that the government sets in consultation with the RBI. To do this, the RBI uses four main tools. The first two change the PRICE of money; the last two change HOW MUCH money banks can lend."
+      },
+      {
+        type: "table",
+        headers: ["Tool", "What it is", "Effect when it is raised"],
+        rows: [
+          ["Repo Rate", "Rate at which the RBI lends short-term money to banks against government securities", "Borrowing turns costlier; liquidity in the system tightens"],
+          ["Reverse Repo Rate", "Rate at which banks park their surplus funds with the RBI", "Banks park more with the RBI; extra money is absorbed"],
+          ["CRR (Cash Reserve Ratio)", "Share of a bank's deposits (NDTL) that must be kept as cash with the RBI; earns no interest", "Less money is left with banks to lend out"],
+          ["SLR (Statutory Liquidity Ratio)", "Share of deposits a bank must hold in liquid assets — cash, gold, approved government securities — with itself", "Less money is free for lending"]
+        ]
+      },
+      {
+        type: "callout",
+        tone: "warn",
+        text: "Common mix-up: CRR must be kept as CASH with the RBI and earns NO interest. SLR is kept by the BANK ITSELF in liquid assets like cash, gold and approved government securities (and those securities can earn a return). Both are calculated on the bank's NDTL — Net Demand and Time Liabilities."
+      },
+      {
+        type: "example",
+        title: "Illustration: how a repo-rate hike cools inflation",
+        lines: ["Prices are rising too fast, so the MPC decides to raise the repo rate (an illustrative move).", "Borrowing from the RBI now costs banks more, so banks raise their own lending rates.", "Home, car and business loans become costlier — EMIs go up.", "People and companies borrow and spend less, so demand in the economy cools.", "With demand easing, the rise in prices (inflation) slowly comes under control."]
+      },
+      {
+        type: "formula",
+        text: "Rule of thumb: Repo rate UP -> loans costlier -> spending DOWN -> inflation DOWN. When the repo rate falls, the chain reverses and borrowing is encouraged."
+      },
+      {
+        type: "heading",
+        text: "The Other Big Regulators: SEBI, IRDAI, PFRDA"
+      },
+      {
+        type: "para",
+        text: "The RBI looks after banks, but your money also travels into shares, insurance policies and pension funds — and each of those needs its own expert referee. That is why India has three more key financial regulators. Knowing who guards what is a guaranteed mark in your exam."
+      },
+      {
+        type: "table",
+        headers: ["Regulator", "Full form", "What it regulates", "HQ"],
+        rows: [
+          ["RBI", "Reserve Bank of India", "Banks, monetary policy, currency", "Mumbai"],
+          ["SEBI", "Securities and Exchange Board of India", "Securities and stock markets, investor protection, mutual funds", "Mumbai"],
+          ["IRDAI", "Insurance Regulatory and Development Authority of India", "The insurance sector (life and general insurance)", "Hyderabad"],
+          ["PFRDA", "Pension Fund Regulatory and Development Authority", "Pensions, including the National Pension System (NPS)", "New Delhi"]
+        ]
+      },
+      {
+        type: "callout",
+        tone: "tip",
+        text: "Easy memory hook: SEBI = Shares, IRDAI = Insurance, PFRDA = Pensions. Three regulators, three simple words — repeat them once and they stick, dost!"
+      },
+      {
+        type: "keypoints",
+        title: "Quick revision before you close",
+        items: ["RBI Act 1934; RBI began operations on 1 April 1935; nationalised on 1 January 1949; central office in Mumbai", "The six-member MPC decides the policy repo rate, with the Governor holding the casting vote", "Repo and reverse repo change the COST of money; CRR and SLR change how much banks CAN LEND", "CRR is cash kept with the RBI (no interest); SLR is liquid assets held by the bank itself", "Regulators to remember: SEBI - securities, IRDAI - insurance, PFRDA - pensions"]
+      },
+      {
+        type: "quiz",
+        question: "Which reserve requirement must banks keep as cash with the RBI, on which they earn no interest?",
+        options: ["Statutory Liquidity Ratio (SLR)", "Cash Reserve Ratio (CRR)", "Repo Rate", "Reverse Repo Rate"],
+        correct: 1,
+        explain: "CRR (Cash Reserve Ratio) is the share of a bank's deposits (NDTL) that must be held as cash with the RBI, and it earns no interest. SLR, by contrast, is maintained by the bank itself in liquid assets like cash, gold and approved government securities, while repo and reverse repo are interest rates, not reserve requirements."
+      }
+    ]
+  },
+  {
+    slug: "bank-banks-accounts-types",
+    title: "Banks & Types of Accounts: Your Simple Map to India's Banking System",
+    summary: "A clear, exam-ready guide to India's bank types (public, private, RRB, Small Finance and Payments), every deposit account (savings, current, RD, FD, NRE/NRO), and KYC basics, all taught from scratch with simple Indian analogies.",
+    examSlug: "banking",
+    subjectSlug: "banking-financial-awareness",
+    chapterSlug: "banks-accounts-types",
+    readingMinutes: 7,
+    practiceTestSlug: "bank-accounts-types-practice-1",
+    blocks: [
+      {
+        type: "analogy",
+        title: "One market, many kinds of shops",
+        text: "Walk through any Indian bazaar and you will spot a giant department store, a specialised electronics shop, a tiny kirana serving just one lane, and a recharge counter that only takes payments. India's banks work exactly like that: different types built for different jobs, all watched over by one market-in-charge, the Reserve Bank of India (RBI). Once you see the 'shops', this whole chapter becomes easy. Chalo, let's map it out."
+      },
+      {
+        type: "para",
+        text: "Every bank in India, big or small, works under the watch of the Reserve Bank of India (RBI), the country's central bank and banking regulator. The RBI issues licences, sets the rules, and decides what each type of bank is allowed to do. We can sort banks in two simple ways: by who owns them (public or private), and by the special job they were created for (rural, small-borrower, or payments-focused)."
+      },
+      {
+        type: "heading",
+        text: "Types of Banks in India"
+      },
+      {
+        type: "table",
+        headers: ["Type of Bank", "Ownership / How it is set up", "What it mainly does"],
+        rows: [
+          ["Public Sector Bank (PSB)", "Government holds the majority stake", "Full-service banking with wide branch reach (e.g. SBI, PNB)"],
+          ["Private Sector Bank", "Private shareholders hold the majority stake", "Full-service, often tech-focused banking (e.g. HDFC Bank, ICICI Bank)"],
+          ["Regional Rural Bank (RRB)", "Jointly owned by the Central Govt, a sponsor bank and the State Govt", "Rural and agricultural banking for small farmers and artisans"],
+          ["Small Finance Bank (SFB)", "Licensed by the RBI under the Banking Regulation Act", "Serves the underserved: small loans, micro-enterprises, small farmers"],
+          ["Payments Bank", "Licensed by the RBI; often set up by telecom or fintech firms", "Deposits, payments and remittances only; cannot give loans"]
+        ]
+      },
+      {
+        type: "callout",
+        tone: "warn",
+        text: "A favourite exam trap: Payments Banks and Small Finance Banks are NOT the same. A Payments Bank can accept deposits and handle payments but cannot lend money or issue credit cards. A Small Finance Bank can do both: take deposits AND give loans. Mix these up and you lose an easy mark."
+      },
+      {
+        type: "keypoints",
+        title: "Special-purpose banks at a glance",
+        items: ["RRBs were created to take banking to rural India, focusing on farmers, agricultural labourers and small artisans.", "Each RRB is jointly owned by the Central Government, a sponsor commercial bank, and the State Government.", "Small Finance Banks must lend a large share of their money to priority sectors like agriculture and small businesses, as set by the RBI.", "Payments Banks can offer savings/deposit accounts, debit cards and remittances, but cannot offer loans, credit cards, or NRI deposits.", "A Payments Bank can accept deposits only up to a per-customer limit set by the RBI."]
+      },
+      {
+        type: "heading",
+        text: "Types of Deposit Accounts"
+      },
+      {
+        type: "table",
+        headers: ["Account Type", "Best for", "Interest", "Key feature"],
+        rows: [
+          ["Savings Account", "Individuals saving money", "Yes, a modest rate", "Encourages saving; some limits on free transactions"],
+          ["Current Account", "Businesses and heavy transactors", "Usually none", "Unlimited transactions; overdraft facility available"],
+          ["Recurring Deposit (RD)", "Regular monthly savers", "Higher than a savings account", "A fixed amount deposited every month for a set tenure"],
+          ["Fixed Deposit (FD)", "Parking a lump sum", "Usually the highest of these", "One-time deposit locked for a fixed tenure; penalty on early withdrawal"]
+        ]
+      },
+      {
+        type: "analogy",
+        title: "Gullak vs. one big jar",
+        text: "A Recurring Deposit is like dropping a fixed amount into your gullak every single month, where the saving habit does the hard work. A Fixed Deposit is like taking one big jar of money you already have and locking it in the cupboard for a year so it grows quietly, undisturbed. Same goal, different style."
+      },
+      {
+        type: "example",
+        title: "Worked example: FD vs RD for the same year",
+        lines: ["Riya has Rs 50,000 saved from her internship and won't need it for a year.", "She opens a 1-year Fixed Deposit. Assume, only for the maths, an illustrative rate of 7% a year (real rates change over time and differ by bank).", "Interest for 1 year = 50,000 x 7% = Rs 3,500.", "On maturity she gets 50,000 + 3,500 = Rs 53,500.", "Her friend Aman instead saves Rs 5,000 every month in a Recurring Deposit for the same year.", "Aman deposits 5,000 x 12 = Rs 60,000 in total, and earns interest on each monthly deposit.", "Lesson: an FD suits a lump sum you already have; an RD suits building savings from monthly income."]
+      },
+      {
+        type: "heading",
+        text: "NRE vs NRO Accounts (for NRIs)"
+      },
+      {
+        type: "para",
+        text: "A Non-Resident Indian (NRI) cannot run an ordinary resident savings account, so banks offer two special rupee accounts. The trick is simply to remember where the money comes from: money earned abroad, or money earned in India."
+      },
+      {
+        type: "table",
+        headers: ["Feature", "NRE Account", "NRO Account"],
+        rows: [
+          ["Full form", "Non-Resident External", "Non-Resident Ordinary"],
+          ["Money you deposit", "Foreign income earned abroad", "Income earned in India (rent, pension, dividends)"],
+          ["Repatriation (sending money abroad)", "Freely repatriable", "Allowed within limits set by the RBI"],
+          ["Tax on interest in India", "Interest is tax-free in India", "Interest is taxable in India"]
+        ]
+      },
+      {
+        type: "heading",
+        text: "KYC: Know Your Customer"
+      },
+      {
+        type: "para",
+        text: "KYC stands for Know Your Customer. It is the process a bank uses to confirm you really are who you say you are, by verifying your identity and your address. The RBI makes KYC compulsory under the Prevention of Money Laundering Act (PMLA), 2002, to stop fraud, money laundering and fake accounts. No KYC, no account: it is the very first gate you pass through before any account opens."
+      },
+      {
+        type: "steps",
+        title: "How KYC works when you open an account",
+        items: ["Fill the account opening form and give one Officially Valid Document (OVD) as Proof of Identity, such as Aadhaar, Passport, Voter ID or Driving Licence.", "Provide Proof of Address; many OVDs conveniently prove both identity and address at once.", "Submit your PAN (or Form 60 if you do not have a PAN).", "The bank verifies your documents, often instantly through Aadhaar-based e-KYC.", "Later, the bank may ask you to refresh your details from time to time, known as periodic re-KYC."]
+      },
+      {
+        type: "callout",
+        tone: "tip",
+        text: "Quick memory hook. Sort banks two ways: by OWNERSHIP (Public vs Private) and by SPECIAL PURPOSE (RRB for rural, SFB for small borrowers, Payments for payments only). For accounts, remember CASA, Current Account and Savings Account, the low-cost deposits every bank loves to chase."
+      },
+      {
+        type: "quiz",
+        question: "Which of these is a Payments Bank allowed to do?",
+        options: ["Give home loans to its customers", "Issue credit cards", "Accept deposits and offer remittance services", "Open NRE/NRO accounts for NRIs"],
+        correct: 2,
+        explain: "A Payments Bank can accept deposits (up to a limit set by the RBI) and offer payments and remittances. It cannot lend, issue credit cards, or accept NRI deposits, which is exactly what separates it from a full-service or Small Finance Bank."
+      }
+    ]
+  },
+  {
+    slug: "bank-financial-terms-abbreviations",
+    title: "Financial Terms & Abbreviations: Payment Systems and Banking Jargon Made Simple",
+    summary: "A beginner-friendly guide to India's digital payment systems (NEFT, RTGS, IMPS, UPI) and the must-know banking abbreviations (NPA, CASA, MCLR, EMI, KYC, CIBIL) for IBPS and SBI bank exams, with a comparison table, a worked EMI example, and exam-trap warnings.",
+    examSlug: "banking",
+    subjectSlug: "banking-financial-awareness",
+    chapterSlug: "financial-terms-abbreviations",
+    readingMinutes: 7,
+    practiceTestSlug: "bank-financial-terms-practice-1",
+    blocks: [
+      {
+        type: "analogy",
+        title: "Sending money is like sending a parcel",
+        text: "Imagine you want to send something to a friend. If it is small and you want it there this second, you use a quick courier. If it is a heavy, valuable package, you pick a premium service built for big loads. If you can wait a little, a regular batch delivery is cheaper and perfectly fine. India's payment systems work exactly this way: NEFT, RTGS, IMPS and UPI are simply different 'delivery services' for money, and the smart aspirant knows which one fits which need. Padho, dost, and these abbreviations will feel like old friends by the end."
+      },
+      {
+        type: "heading",
+        text: "How Money Moves: India's Digital Payment Systems"
+      },
+      {
+        type: "para",
+        text: "Every rupee that moves electronically in India runs on rails regulated by the RBI (Reserve Bank of India). Two of the systems, NEFT and RTGS, are operated directly by the RBI itself. The other two, IMPS and UPI, are operated by the NPCI (National Payments Corporation of India), an umbrella body for retail payments that the RBI helped set up. Keep this 'who runs what' clear in your head, because it is one of the most repeated questions in bank exams."
+      },
+      {
+        type: "table",
+        headers: ["System", "Full Form", "Run By", "Speed", "Good For"],
+        rows: [
+          ["NEFT", "National Electronic Funds Transfer", "RBI", "Settles in batches, available 24x7", "Any amount, no minimum limit"],
+          ["RTGS", "Real Time Gross Settlement", "RBI", "Real-time, one transaction at a time, 24x7", "Large-value transfers (a minimum threshold applies, traditionally 2 lakh)"],
+          ["IMPS", "Immediate Payment Service", "NPCI", "Instant, 24x7", "Quick small and medium transfers"],
+          ["UPI", "Unified Payments Interface", "NPCI", "Instant, 24x7", "App-based payments using a VPA (UPI ID)"]
+        ]
+      },
+      {
+        type: "callout",
+        tone: "tip",
+        text: "Easy memory hook: the 'R' in RTGS stands for Real-time AND reminds you it is for Rich (large-value) transfers, which carry a minimum threshold. NEFT has NO minimum, so it is your everyday, any-amount option. Both are RBI-run; anything you tap on a phone app (IMPS/UPI) is NPCI-run."
+      },
+      {
+        type: "heading",
+        text: "Must-Know Banking Terms & Abbreviations"
+      },
+      {
+        type: "keypoints",
+        title: "Five terms in one glance",
+        items: ["NPA (Non-Performing Asset): a loan on which interest or principal stays overdue for 90 days or more. It stops earning income for the bank.", "CASA (Current Account Savings Account): the share of low-cost current and savings deposits in a bank's total deposits. A higher CASA ratio means cheaper funds for the bank.", "MCLR (Marginal Cost of Funds based Lending Rate): the internal benchmark below which a bank generally cannot lend. Each bank calculates its own MCLR under RBI guidelines.", "KYC (Know Your Customer): the identity and address verification a bank carries out (using documents like Aadhaar and PAN) before and during a customer relationship, to prevent fraud and money laundering.", "CIBIL (Credit Information Bureau (India) Limited): a credit information company. A CIBIL score ranges from 300 to 900, and a higher score signals a stronger loan-repayment record."]
+      },
+      {
+        type: "para",
+        text: "Two of these deserve extra attention because examiners love them. For NPA, remember the magic number is 90 days overdue, which is why NPAs are also called 'bad loans' or 'stressed assets'. For CASA, the logic is simple: savings and current accounts pay little or no interest to the customer, so the more of them a bank has, the cheaper its money is and the more it can earn when it lends. That is why banks proudly announce a rising CASA ratio."
+      },
+      {
+        type: "heading",
+        text: "EMI: The One With a Formula"
+      },
+      {
+        type: "formula",
+        text: "EMI = [ P x r x (1 + r)^n ] / [ (1 + r)^n - 1 ]  |  where P = loan amount, r = monthly interest rate (annual rate / 12 / 100), and n = number of monthly installments."
+      },
+      {
+        type: "example",
+        title: "Worked example: EMI on a 1,00,000 loan",
+        lines: ["Loan amount P = 1,00,000, annual interest = 12%, tenure = 12 months", "Step 1 - Monthly rate r = 12 / 12 / 100 = 0.01", "Step 2 - (1 + r)^n = (1.01)^12 = about 1.1268", "Step 3 - Numerator = 100000 x 0.01 x 1.1268 = 1126.8", "Step 4 - Denominator = 1.1268 - 1 = 0.1268", "Step 5 - EMI = 1126.8 / 0.1268 = about 8,885 per month", "Check - Total repaid = 8885 x 12 = 1,06,620, so interest paid = about 6,620"]
+      },
+      {
+        type: "callout",
+        tone: "warn",
+        text: "Common exam traps to avoid: (1) NEFT and RTGS are run by the RBI, while IMPS, UPI and RuPay are run by the NPCI, do not mix them up. (2) A loan becomes an NPA only after 90 days overdue, not 30 or 60. (3) A HIGHER CIBIL score (closer to 900) is better, not lower. (4) RTGS is for large-value transfers with a minimum threshold, whereas NEFT has no minimum at all."
+      },
+      {
+        type: "keypoints",
+        title: "Quick revision before you close the book",
+        items: ["RBI regulates all payment systems; RBI operates NEFT and RTGS; NPCI operates IMPS and UPI.", "RTGS = real-time + large value (minimum threshold applies); NEFT = any amount, batch settlement; IMPS and UPI = instant, 24x7.", "NPA = overdue 90 days or more; CASA = low-cost deposits, higher is better for the bank.", "MCLR = a bank's internal lending benchmark; KYC = customer identity verification; CIBIL score runs 300 to 900.", "EMI spreads a loan into equal monthly payments; more months usually means more total interest paid."]
+      },
+      {
+        type: "quiz",
+        question: "A borrower has not paid the interest or principal on a bank loan for the last three months. As per the standard classification norm, this loan should now be treated as a:",
+        options: ["Standard asset", "Non-Performing Asset (NPA)", "CASA deposit", "Priority-sector loan"],
+        correct: 1,
+        explain: "A loan on which interest or principal remains overdue for 90 days (about three months) or more is classified as a Non-Performing Asset (NPA). A 'standard asset' is a performing loan, CASA refers to low-cost deposits (not loans), and priority-sector lending is a category of where loans are directed, not a measure of repayment status."
+      }
+    ]
+  },
 ];
 
 export const getExplainer = (slug: string) => explainers.find((e) => e.slug === slug);

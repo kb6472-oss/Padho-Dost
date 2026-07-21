@@ -6,7 +6,6 @@ import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
 import { signOut } from "@/lib/user-actions";
 import ClaimAnon from "@/components/ClaimAnon";
-import ThemeToggle from "@/components/ThemeToggle";
 
 const navLinks = [
   { href: "/exams", label: "Exams" },
@@ -110,7 +109,6 @@ export default function Navbar() {
         </div>
 
         <div className="hidden items-center gap-3 md:flex">
-          <ThemeToggle />
           {user ? (
             <>
               <Link href="/dashboard" className="flex items-center gap-2 transition-opacity hover:opacity-80">
@@ -137,8 +135,6 @@ export default function Navbar() {
           )}
         </div>
 
-        <div className="flex items-center gap-1 md:hidden">
-          <ThemeToggle />
         <button
           type="button"
           aria-label="Toggle menu"
@@ -148,7 +144,6 @@ export default function Navbar() {
         >
           {open ? <X className="h-[22px] w-[22px]" strokeWidth={2} /> : <Menu className="h-[22px] w-[22px]" strokeWidth={2} />}
         </button>
-        </div>
       </nav>
 
       {open && (

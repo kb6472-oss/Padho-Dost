@@ -92,19 +92,6 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en-IN" className={`${inter.variable} ${poppins.variable} antialiased`}>
-      <head>
-        {/*
-          Applies a saved theme choice BEFORE first paint. Without this, a user
-          who picked dark on a light-preference device sees a white flash on
-          every navigation. Kept inline and tiny on purpose — it must run
-          before the stylesheet paints. Mirrors apply() in ThemeToggle.tsx.
-        */}
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `try{var t=localStorage.getItem('pd_theme');if(t==='dark'||t==='light')document.documentElement.setAttribute('data-theme',t)}catch(e){}`,
-          }}
-        />
-      </head>
       <body className="flex min-h-screen flex-col bg-background font-sans text-foreground">
         <JsonLd data={siteJsonLd} />
         <Analytics />

@@ -72,28 +72,10 @@
   --surface-raised: #ffffff;
 }
 
-/* Light is the DEFAULT — the site does not follow the OS colour scheme. Dark is
-   opt-in only, via the navbar toggle (which sets data-theme="dark"). We
-   deliberately do NOT switch on `prefers-color-scheme`: students on phones set to
-   system-dark were landing on a dark site they didn't choose, and light reads
-   better for this product. */
-:root[data-theme="dark"] {
-  --background: #0b1120;
-  --surface: #131c2e;
-  --foreground: #e8ecf4;
-  --muted: #94a3b8;
-  --border: #26324a;
-  --surface-raised: #162034;
-}
-
-:root[data-theme="light"] {
-  --background: #ffffff;
-  --surface: #f5f7fa;
-  --foreground: #0f172a;
-  --muted: #556070;
-  --border: #d8dce5;
-  --surface-raised: #ffffff;
-}
+/* Light-only. A dark theme was tried but removed: ~250 hardcoded Tailwind colour
+   utilities across the app never adapted, so dark rendered light-coloured patches
+   on a dark ground. Doing it properly is a real project — token the accent
+   colours first — not a token flip. Until then, the site is light for everyone. */
 
 @theme inline {
   --color-background: var(--background);
@@ -116,13 +98,9 @@ body {
 
 html {
   scroll-behavior: smooth;
-  /* Light by default so native controls (scrollbars, form fields, date pickers)
-     match the page even on a system-dark device. Dark only when opted in. */
+  /* Force light native controls (scrollbars, form fields, date pickers) even on
+     a system-dark device — the page is light-only. */
   color-scheme: light;
-}
-
-:root[data-theme="dark"] {
-  color-scheme: dark;
 }
 
 /* ────────────────────────────────────────────────────────────

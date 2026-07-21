@@ -107,8 +107,8 @@ export default async function Home() {
       {/* ───────────────────────── Hero ───────────────────────── */}
       <section className="relative overflow-hidden">
         <div className="pointer-events-none absolute inset-0 -z-10">
-          <div className="absolute -top-24 left-1/4 h-72 w-72 -translate-x-1/2 rounded-full bg-brand-100 blur-3xl dark:opacity-40" />
-          <div className="absolute right-0 top-32 h-64 w-64 rounded-full bg-accent-100 blur-3xl dark:opacity-30" />
+          <div className="absolute -top-24 left-1/4 h-72 w-72 -translate-x-1/2 rounded-full bg-brand-100 blur-3xl" />
+          <div className="absolute right-0 top-32 h-64 w-64 rounded-full bg-accent-100 blur-3xl" />
         </div>
 
         <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 pb-16 pt-12 sm:px-6 sm:pt-16 lg:grid-cols-[1.1fr_0.9fr] lg:gap-8">

@@ -23,7 +23,7 @@ export default function HeroTestPreview({
   return (
     <div className="relative mx-auto w-full max-w-[300px]">
       {/* Phone frame */}
-      <div className="rounded-[2.25rem] border-[6px] border-slate-800 bg-background shadow-e3 dark:border-slate-700">
+      <div className="rounded-[2.25rem] border-[6px] border-slate-800 bg-background shadow-e3">
         <div className="overflow-hidden rounded-[1.75rem]">
           {/* Test top bar */}
           <div className="flex items-center justify-between border-b border-border bg-surface px-4 py-2.5">

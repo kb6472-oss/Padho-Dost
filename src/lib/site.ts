@@ -21,7 +21,9 @@ export const site = {
   },
 
   // Public contact used across the site (NOT the private work email).
-  contactEmail: "", // e.g. "hello@padhodost.com"
+  // TEMPORARY: a personal Gmail, chosen to move forward; upgrade to a
+  // hello@padhodost.com address once domain email is set up.
+  contactEmail: "kb6472@gmail.com",
 
   // Grievance Officer — required by the IT (Intermediary Guidelines) Rules 2021
   // because PadhoDost hosts user accounts and publishes student names publicly

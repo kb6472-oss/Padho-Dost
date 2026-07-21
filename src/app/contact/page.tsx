@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import ContactForm from "@/components/ContactForm";
+import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Contact",
@@ -24,13 +25,15 @@ export default async function ContactPage({ searchParams }: Props) {
         <ContactForm defaultKind={kind ?? "general"} defaultRef={ref ?? ""} />
       </div>
 
-      <p className="mt-6 text-center text-xs text-muted">
-        Prefer email? Write to us at{" "}
-        <a href="mailto:hello@padhodost.com" className="font-medium text-brand-600 hover:underline">
-          hello@padhodost.com
-        </a>
-        .
-      </p>
+      {site.contactEmail && (
+        <p className="mt-6 text-center text-xs text-muted">
+          Prefer email? Write to us at{" "}
+          <a href={`mailto:${site.contactEmail}`} className="font-medium text-brand-600 hover:underline">
+            {site.contactEmail}
+          </a>
+          .
+        </p>
+      )}
     </div>
   );
 }

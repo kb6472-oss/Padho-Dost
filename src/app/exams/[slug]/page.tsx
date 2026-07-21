@@ -152,6 +152,19 @@ export default async function ExamDetailPage({ params }: Props) {
           { "@type": "ListItem", position: 3, name: exam.name, item: `https://padhodost.com/exams/${slug}` },
         ],
       },
+      // FAQ rich-result eligibility — only when this exam has authored FAQs.
+      ...(intro?.faqs?.length
+        ? [
+            {
+              "@type": "FAQPage",
+              mainEntity: intro.faqs.map((f) => ({
+                "@type": "Question",
+                name: f.q,
+                acceptedAnswer: { "@type": "Answer", text: f.a },
+              })),
+            },
+          ]
+        : []),
     ],
   };
 
@@ -332,6 +345,28 @@ export default async function ExamDetailPage({ params }: Props) {
                   <li key={i}>{t}</li>
                 ))}
               </ul>
+            </div>
+          )}
+
+          {intro.faqs.length > 0 && (
+            <div className="mt-8">
+              <h3 className="font-display text-base font-semibold text-foreground">Frequently asked questions</h3>
+              <div className="mt-3 divide-y divide-border overflow-hidden rounded-xl border border-border bg-surface">
+                {intro.faqs.map((f, i) => (
+                  <details key={i} className="group">
+                    <summary className="flex cursor-pointer list-none items-center justify-between gap-3 px-4 py-3 text-sm font-medium text-foreground [&::-webkit-details-marker]:hidden">
+                      {f.q}
+                      <span
+                        aria-hidden="true"
+                        className="shrink-0 text-lg leading-none text-muted transition-transform group-open:rotate-45"
+                      >
+                        +
+                      </span>
+                    </summary>
+                    <p className="px-4 pb-4 text-sm leading-relaxed text-muted">{f.a}</p>
+                  </details>
+                ))}
+              </div>
             </div>
           )}
         </section>

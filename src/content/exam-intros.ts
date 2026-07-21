@@ -7,6 +7,7 @@ export type ExamIntro = {
   pattern: { label: string; value: string }[];
   topics: string[];
   tips: string[];
+  faqs: { q: string; a: string }[];
 };
 
 export const examIntros: ExamIntro[] = [
@@ -17,6 +18,14 @@ export const examIntros: ExamIntro[] = [
     pattern: [{"label":"Total questions","value":"100 (Tier-1)"},{"label":"Total marks","value":"200"},{"label":"Duration","value":"60 minutes"},{"label":"Marking","value":"+2 correct, -0.5 wrong"},{"label":"Sections","value":"Reasoning, General Awareness, Quantitative Aptitude, English"}],
     topics: ["Quantitative Aptitude (arithmetic, algebra, geometry, data interpretation)","General Intelligence & Reasoning (analogies, series, syllogisms, coding-decoding)","English Comprehension (grammar, vocabulary, reading comprehension)","General Awareness (current affairs, history, geography, polity, economy, science)","Banking-specific: banking awareness, computer aptitude, and puzzles for IBPS/SBI"],
     tips: ["Master calculation speed early — learn tables, squares, cubes, and shortcut tricks so Quant and DI stop eating your time.","Read a daily current-affairs digest and revise weekly; General Awareness is scoring and needs no calculation.","Take full-length mocks under real 60-minute conditions, then analyse every mistake to fix weak areas.","Because of negative marking, only attempt questions you're reasonably sure about — accuracy beats blind guessing."],
+    faqs: [
+      { q: "Who is eligible for the SSC CGL exam?", a: "Any Indian citizen who holds a bachelor's degree in any discipline from a recognised university can apply. The age limit depends on the post, generally ranging from 18 to 32 years, with relaxations for OBC, SC/ST, PwD and other reserved categories." },
+      { q: "What is the SSC CGL exam pattern?", a: "SSC CGL is conducted in two main stages. Tier-1 is a 100-question online test (200 marks, 60 minutes) covering Reasoning, General Awareness, Quantitative Aptitude and English, with +2 for each correct answer and -0.5 for each wrong one. Tier-2 is a deeper computer-based exam that decides the final merit." },
+      { q: "Is there negative marking in SSC CGL?", a: "Yes. In Tier-1, 0.5 marks are deducted for every wrong answer. Because of this, it is smarter to attempt only the questions you are reasonably confident about rather than guessing blindly." },
+      { q: "How many times can I attempt SSC CGL?", a: "There is no limit on the number of attempts. You can appear for SSC CGL as many times as you wish, as long as you satisfy the age criteria for the post you are applying to." },
+      { q: "How should a beginner start preparing for SSC CGL?", a: "Begin by building calculation speed in Quantitative Aptitude, revise General Awareness and current affairs daily, and take full-length Tier-1 mocks under the real 60-minute timing. Reviewing every mistake after each mock is the fastest way to improve." },
+      { q: "Are SSC CGL mock tests on PadhoDost free?", a: "Yes. Every SSC CGL mock test, chapter-wise practice set and visual explainer on PadhoDost is completely free, with no paywall and no sign-up wall." },
+    ],
   },
   {
     examSlug: "class-10",
@@ -25,6 +34,14 @@ export const examIntros: ExamIntro[] = [
     pattern: [{"label":"Board","value":"CBSE (Central Board of Secondary Education)"},{"label":"Assessment split","value":"80 marks board exam + 20 marks internal"},{"label":"Duration","value":"3 hours per subject paper"},{"label":"Core subjects","value":"5 (plus optional 6th)"},{"label":"Passing marks","value":"33% in each subject"}],
     topics: ["Mathematics (real numbers, polynomials, trigonometry, coordinate geometry, statistics)","Science (Physics, Chemistry, Biology combined)","Social Science (History, Geography, Civics, Economics)","English (Language & Literature)","Second/third language (Hindi, Sanskrit, or others) plus optional subjects"],
     tips: ["Stick closely to NCERT textbooks — CBSE board papers are built directly from them, so master every solved example and exercise.","Solve previous years' papers and sample papers within the 3-hour time limit to build exam stamina and speed.","Don't ignore internal assessment — the 20 internal marks are easy points that lift your overall percentage.","Revise regularly in short cycles rather than cramming; make formula sheets and diagram notes for quick last-week revision."],
+    faqs: [
+      { q: "What is the CBSE Class 10 exam pattern?", a: "Most subjects carry an 80-mark year-end board paper plus 20 marks of internal assessment. Each theory paper is three hours long, and a student needs 33% to pass in every subject." },
+      { q: "How many subjects are there in CBSE Class 10?", a: "Students take five compulsory subjects — typically two languages, Mathematics, Science and Social Science — and may add an optional sixth subject, which is counted for the overall percentage as per CBSE rules." },
+      { q: "How important is the Class 10 result?", a: "Your Class 10 marks influence the stream you can choose in Class 11 (Science, Commerce or Humanities) and remain part of your academic record. A strong score keeps more options open for the future." },
+      { q: "Do internal assessment marks matter in Class 10?", a: "Yes. The 20 internal marks — from periodic tests, practicals and activities — are added to the 80-mark board paper. They are among the easiest marks to secure and can noticeably lift your final percentage." },
+      { q: "What is the best way to prepare for CBSE Class 10 boards?", a: "Stick closely to NCERT textbooks, since board papers are drawn directly from them, and solve previous years' and sample papers within the three-hour limit. Short, regular revision cycles work far better than last-minute cramming." },
+      { q: "Is Class 10 practice on PadhoDost free?", a: "Yes. All Class 10 chapter-wise tests, subject mocks and explainers on PadhoDost are free to use, with no paywall or sign-up wall." },
+    ],
   },
   {
     examSlug: "jee",
@@ -33,6 +50,14 @@ export const examIntros: ExamIntro[] = [
     pattern: [{"label":"Subjects","value":"Physics, Chemistry, Mathematics"},{"label":"Total questions","value":"75 (25 per subject)"},{"label":"Total marks","value":"300"},{"label":"Duration","value":"3 hours"},{"label":"Marking","value":"+4 correct, -1 wrong (MCQs)"}],
     topics: ["Physics (mechanics, thermodynamics, electromagnetism, optics, modern physics)","Chemistry (physical, organic, and inorganic chemistry)","Mathematics (calculus, algebra, coordinate geometry, trigonometry, vectors)","Advanced problem-solving and multi-concept application for JEE Advanced","NCERT-based fundamentals across Class 11 and Class 12 syllabus"],
     tips: ["Build rock-solid concepts from NCERT first, then move to advanced problem practice — JEE rewards understanding, not rote learning.","Practise a large volume of varied problems and time yourself; speed and accuracy under pressure decide your rank.","Take full-length mocks regularly and analyse errors to separate silly mistakes from genuine concept gaps.","Balance all three subjects — neglecting even one drags your overall rank, since sectional performance matters."],
+    faqs: [
+      { q: "Who is eligible to appear for JEE Main?", a: "Students who have passed or are appearing in Class 12 (or an equivalent exam) with Physics, Chemistry and Mathematics are eligible. JEE Main is generally open to candidates who cleared Class 12 in the current or the previous two years." },
+      { q: "What is the JEE Main exam pattern?", a: "JEE Main has 75 questions — 25 each in Physics, Chemistry and Mathematics — for 300 marks in three hours. The multiple-choice questions carry +4 for a correct answer and -1 for a wrong one; the numerical-answer questions have their own marking scheme." },
+      { q: "What is the difference between JEE Main and JEE Advanced?", a: "JEE Main, conducted by the NTA, is the gateway to NITs, IIITs and other centrally funded institutes. Only the top performers in JEE Main qualify for JEE Advanced, which decides admission to the IITs and is a tougher, more concept-heavy exam." },
+      { q: "How many attempts are allowed for JEE?", a: "JEE Main is held in two sessions each year and can be attempted across three consecutive years. JEE Advanced allows a maximum of two attempts in two consecutive years." },
+      { q: "How should I prepare for JEE?", a: "Build strong fundamentals from NCERT first, then practise a large volume of varied problems under timed conditions. Take full-length mocks regularly, analyse errors to separate silly mistakes from genuine concept gaps, and never neglect any one of the three subjects." },
+      { q: "Are JEE mock tests on PadhoDost free?", a: "Yes. All JEE mock tests, chapter-wise practice and explainers on PadhoDost are completely free, with detailed solutions and an All-India rank, and no paywall." },
+    ],
   },
   {
     examSlug: "neet",
@@ -41,6 +66,14 @@ export const examIntros: ExamIntro[] = [
     pattern: [{"label":"Total questions","value":"180 (attempt 180)"},{"label":"Total marks","value":"720"},{"label":"Duration","value":"3 hours 20 minutes"},{"label":"Marking","value":"+4 correct, -1 wrong"},{"label":"Subjects","value":"Physics, Chemistry, Botany, Zoology"}],
     topics: ["Biology — Botany and Zoology (genetics, human physiology, ecology, cell biology, biotechnology)","Chemistry (physical, organic, and inorganic chemistry)","Physics (mechanics, thermodynamics, electrodynamics, optics, modern physics)","NCERT Class 11 and Class 12 syllabus across all subjects","Diagram-based and application questions, especially in Biology"],
     tips: ["Treat NCERT Biology as your bible — memorise it line by line, because most NEET Biology questions come straight from it.","Give Biology the most practice since it carries half the marks and is the highest-scoring section.","Strengthen Physics with numerical practice — it's the toughest section for many and often decides top ranks.","Take timed full-length mocks to build the stamina needed for 3 hours 20 minutes, and review every wrong answer carefully."],
+    faqs: [
+      { q: "Who is eligible for NEET?", a: "Candidates who have passed or are appearing in Class 12 with Physics, Chemistry, Biology or Biotechnology and English are eligible. A minimum age of 17 years, as of the year of admission, is required." },
+      { q: "What is the NEET exam pattern?", a: "NEET has 180 questions for 720 marks, taken over three hours and twenty minutes. It covers Physics, Chemistry, Botany and Zoology, with +4 for each correct answer and -1 for each wrong one. Biology carries the largest share of questions." },
+      { q: "Is there negative marking in NEET?", a: "Yes. Each wrong answer costs one mark, while each correct answer earns four. Because of this, accuracy is crucial and blind guessing can pull your score down." },
+      { q: "How many attempts are allowed for NEET?", a: "There is currently no limit on the number of NEET attempts. You can appear as many times as you like, provided you meet the eligibility criteria." },
+      { q: "Which subject should I focus on most for NEET?", a: "Biology is the highest-scoring section, carrying half the marks, so it deserves the most practice — and NCERT Biology should be studied line by line. Physics is often the toughest section and frequently decides top ranks, so give its numericals steady attention." },
+      { q: "Are NEET mock tests on PadhoDost free?", a: "Yes. Every NEET mock test, chapter-wise practice set and explainer on PadhoDost is free, built to the exact 180-question, 720-mark pattern, with no paywall or sign-up wall." },
+    ],
   },
   {
     examSlug: "banking",
@@ -49,6 +82,14 @@ export const examIntros: ExamIntro[] = [
     pattern: [{"label":"Prelims questions","value":"100"},{"label":"Total marks","value":"100"},{"label":"Duration","value":"60 minutes (20 min per section)"},{"label":"Marking","value":"+1 correct, -0.25 wrong"},{"label":"Sections","value":"English, Reasoning Ability, Quantitative Aptitude"}],
     topics: ["Quantitative Aptitude (data interpretation, number series, arithmetic, quadratic equations, simplification)","Reasoning Ability (puzzles, seating arrangement, syllogism, inequality, coding-decoding, blood relations)","English Language (reading comprehension, cloze test, error spotting, para-jumbles, fillers)","Banking & Financial Awareness (RBI, banking terms, monetary policy — for Mains)","Computer Aptitude and current affairs (Mains stage)"],
     tips: ["Master data interpretation and puzzles — they carry the most marks and separate the qualifiers from the rest.","Practise with the 20-minute sectional timer that prelims now enforces, so you don't over-spend on one section.","Keep a running note of banking awareness and last-6-months current affairs for the Mains general-awareness section.","With 0.25 negative marking, attempt only what you're confident about — accuracy matters more than raw attempts."],
+    faqs: [
+      { q: "Who is eligible for banking exams like IBPS PO and SBI PO?", a: "A bachelor's degree in any discipline from a recognised university is required. The age limit for Probationary Officer roles is generally 20 to 30 years, with relaxations for reserved categories; Clerk roles usually allow up to 28 years." },
+      { q: "What is the banking prelims exam pattern?", a: "The Preliminary exam has 100 questions for 100 marks in 60 minutes, split across English, Reasoning Ability and Quantitative Aptitude, with a separate 20-minute timer for each section. There is +1 for a correct answer and -0.25 for a wrong one." },
+      { q: "What is the difference between IBPS and SBI exams?", a: "IBPS conducts recruitment for public-sector banks such as Bank of Baroda, Canara Bank and PNB, while the State Bank of India recruits separately for its own posts. The syllabus and pattern are very similar, so most aspirants prepare for both together." },
+      { q: "How many attempts are allowed for banking exams?", a: "SBI PO limits general-category candidates to four attempts, with more for reserved categories. IBPS PO does not currently cap the number of attempts, so you can appear as long as you are within the age limit." },
+      { q: "How do I prepare for the Prelims and Mains?", a: "Master data interpretation and puzzles, since they carry the most marks, and practise with the strict 20-minute sectional timer. For Mains, keep a running note of banking awareness and the last six months of current affairs, which the general-awareness section tests." },
+      { q: "Are banking mock tests on PadhoDost free?", a: "Yes. All banking mock tests, sectional practice and explainers on PadhoDost are free, built to the real prelims pattern, with full solutions and no paywall or sales calls." },
+    ],
   },
   {
     examSlug: "railways",
@@ -57,6 +98,14 @@ export const examIntros: ExamIntro[] = [
     pattern: [{"label":"CBT-1 questions","value":"100"},{"label":"Total marks","value":"100"},{"label":"Duration","value":"90 minutes"},{"label":"Marking","value":"+1 correct, -1/3 wrong"},{"label":"Sections","value":"Mathematics, General Intelligence & Reasoning, General Awareness"}],
     topics: ["General Awareness (current affairs, history, geography, polity, economy, static GK, general science) — 40 questions","Mathematics (arithmetic, number system, percentage, ratio, time & work, mensuration, data interpretation) — 30 questions","General Intelligence & Reasoning (analogies, series, coding-decoding, puzzles, blood relations, syllogism) — 30 questions","General Science based largely on Class 10 level Physics, Chemistry and Biology","Static General Knowledge — books, awards, important days, organisations, national parks"],
     tips: ["General Awareness has the most questions (40) — build a strong static-GK base and revise current affairs daily; it's the highest-return section.","Speed up your arithmetic with shortcut methods so the 30 maths questions don't eat your time.","Cover Class 10 general science thoroughly — it's frequently tested and quick to answer.","Remember the 1/3 negative marking: skip questions you're genuinely unsure of rather than guessing blindly."],
+    faqs: [
+      { q: "Who is eligible for the RRB NTPC exam?", a: "NTPC has two levels: undergraduate posts require a Class 12 (10+2) pass, while graduate posts require a bachelor's degree. Age limits vary by post and notification, with relaxations for reserved categories." },
+      { q: "What is the RRB NTPC exam pattern?", a: "The first stage, CBT-1, has 100 questions for 100 marks in 90 minutes, covering Mathematics (30), General Intelligence & Reasoning (30) and General Awareness (40), with +1 for a correct answer and -1/3 for a wrong one. Qualifiers move to CBT-2, followed by a skill or typing test where applicable and document verification." },
+      { q: "Which section carries the most weight in RRB NTPC?", a: "General Awareness carries the single largest share — 40 of the 100 CBT-1 questions — covering current affairs, static GK and general science. It is the highest-return section to prepare well." },
+      { q: "Is there negative marking in RRB NTPC?", a: "Yes. One-third of a mark is deducted for every wrong answer, so it is wiser to skip questions you are genuinely unsure of rather than guess blindly." },
+      { q: "How should I prepare for RRB NTPC?", a: "Build a strong static-GK base and revise current affairs daily, speed up your arithmetic with shortcut methods, and cover Class 10-level general science thoroughly, since it is frequently tested and quick to answer." },
+      { q: "Are RRB NTPC mock tests on PadhoDost free?", a: "Yes. All RRB NTPC practice — chapter-wise drills, section tests and explainers — is free on PadhoDost, built to the CBT-1 pattern, with worked solutions and no paywall." },
+    ],
   },
   {
     examSlug: "upsc",
@@ -65,6 +114,14 @@ export const examIntros: ExamIntro[] = [
     pattern: [{"label":"GS Paper 1 questions","value":"100"},{"label":"Total marks","value":"200"},{"label":"Duration","value":"2 hours"},{"label":"Marking","value":"+2 correct, -1/3 (0.66) wrong"},{"label":"Paper 2 (CSAT)","value":"Qualifying — 33% needed"}],
     topics: ["Indian Polity & Governance (Constitution, Parliament, judiciary, panchayati raj, rights)","History (ancient, medieval, modern India, and art & culture) and the freedom struggle","Geography (Indian and world physical, social and economic geography)","Economy (basics, banking, budget, growth, government schemes)","Environment & Ecology, General Science, and national/international current affairs"],
     tips: ["Build your base on NCERTs first, then layer standard reference books — jumping to advanced material too early wastes time.","Follow current affairs daily and revise the last 12–18 months; a large share of Prelims questions are current-affairs linked.","Give Environment & Ecology serious attention — it carries heavy weight and is often under-prepared.","Use elimination smartly: with 1/3 negative marking, a well-reasoned educated guess between two options is usually worth taking, a blind one is not."],
+    faqs: [
+      { q: "Who is eligible for the UPSC Civil Services Examination?", a: "A candidate must hold a bachelor's degree in any discipline. For the general category the age limit is 21 to 32 years, with relaxations for OBC, SC/ST and other categories. Nationality requirements are stricter for the IAS, IPS and IFS." },
+      { q: "What are the stages of the UPSC exam?", a: "There are three stages: the Preliminary examination (an objective screening test), the Main examination (a written descriptive test), and a final Personality Test or interview. The Mains and interview decide the final merit; Prelims marks are not counted in it." },
+      { q: "What is the UPSC Prelims pattern?", a: "Prelims has two papers on the same day. General Studies Paper 1 has 100 questions for 200 marks in two hours (+2 correct, -1/3 wrong) and decides who qualifies for Mains. Paper 2 (CSAT) is only qualifying — you need 33% to clear it." },
+      { q: "How many attempts are allowed for UPSC?", a: "General-category candidates get six attempts, up to the age of 32. OBC candidates get nine attempts, and SC/ST candidates may attempt any number of times up to their age limit." },
+      { q: "How should a beginner start UPSC preparation?", a: "Build your base on NCERTs before moving to standard reference books, follow current affairs daily and revise the last 12 to 18 months, and give Environment & Ecology serious attention, as it carries heavy weight and is often under-prepared." },
+      { q: "Are UPSC mock tests on PadhoDost free?", a: "Yes. All UPSC Prelims GS practice, full-length mocks and visual explainers on PadhoDost are free, with detailed solutions that explain the concept behind each answer, and no paywall." },
+    ],
   },
   {
     examSlug: "class-11",
@@ -73,6 +130,14 @@ export const examIntros: ExamIntro[] = [
     pattern: [{"label":"Assessment","value":"School-conducted annual exam (not a board exam)"},{"label":"Typical split","value":"80 marks theory + 20 internal/practical"},{"label":"Duration","value":"3 hours per subject paper"},{"label":"Syllabus","value":"Latest CBSE / NCERT"},{"label":"Streams","value":"Science, Commerce, Humanities"}],
     topics: ["Science stream — Physics, Chemistry, and Mathematics or Biology","Commerce stream — Accountancy, Business Studies, and Economics","Humanities stream — History, Political Science, Geography and more","English (Core) across all streams","NCERT-based fundamentals that feed directly into Class 12 and JEE/NEET/CUET"],
     tips: ["Treat Class 11 as the foundation year it is — nearly half of JEE and NEET is built on this syllabus, so master concepts now.","Stick to NCERT and solve every exercise; entrance exams and Class 12 both reward a strong NCERT base.","Practise numerical-heavy chapters (Physics, Accountancy, Maths) repeatedly rather than just reading them.","Don't wait for Class 12 to start entrance prep — the concepts you build here are exactly what those exams test."],
+    faqs: [
+      { q: "Is Class 11 a board exam?", a: "No. Class 11 is assessed by the school itself, not by the CBSE board. However, its syllabus is the foundation on which the Class 12 boards and entrance exams like JEE, NEET and CUET are directly built." },
+      { q: "How is Class 11 assessed?", a: "Most subjects follow an 80-mark theory paper plus 20 marks of internal assessment or practicals, with a three-hour paper per subject, conducted as a school annual examination on the latest CBSE and NCERT syllabus." },
+      { q: "How do I choose a stream in Class 11?", a: "Students pick Science, Commerce or Humanities based on their interests and career goals. Science opens engineering and medical paths, Commerce leads to business and finance, and Humanities suits law, civil services and the social sciences." },
+      { q: "How important is Class 11 for JEE and NEET?", a: "Very important — roughly half of the JEE and NEET syllabus comes from Class 11. Students who master these fundamentals now find both the Class 12 boards and the entrance exams far more manageable." },
+      { q: "How should I prepare in Class 11?", a: "Treat it as a foundation year: stick to NCERT and solve every exercise, practise numerical-heavy chapters like Physics, Maths and Accountancy repeatedly, and begin entrance preparation now rather than waiting for Class 12." },
+      { q: "Is Class 11 practice on PadhoDost free?", a: "Yes. All Class 11 chapter-wise tests, subject mocks and explainers on PadhoDost are free, aligned to the latest NCERT syllabus, with no paywall or sign-up wall." },
+    ],
   },
   {
     examSlug: "class-12",
@@ -81,6 +146,14 @@ export const examIntros: ExamIntro[] = [
     pattern: [{"label":"Board","value":"CBSE (Central Board of Secondary Education)"},{"label":"Assessment split","value":"80 marks board exam + 20 internal/practical"},{"label":"Duration","value":"3 hours per subject paper"},{"label":"Passing marks","value":"33% in each subject"},{"label":"Streams","value":"Science, Commerce, Humanities"}],
     topics: ["Science stream — Physics, Chemistry, and Mathematics or Biology","Commerce stream — Accountancy, Business Studies, and Economics","Humanities stream — History, Political Science, Geography and others","English (Core) across all streams","NCERT-based syllabus that also underpins JEE, NEET and CUET preparation"],
     tips: ["Anchor your preparation in NCERT textbooks — CBSE board papers are drawn directly from them.","Solve previous years' papers and CBSE sample papers within the three-hour limit to build speed and exam temperament.","Secure the 20 internal/practical marks — they are the easiest points to lift your overall percentage.","If you're also preparing for JEE or NEET, plan a schedule that protects both — the board syllabus overlaps heavily with the entrance syllabus."],
+    faqs: [
+      { q: "What is the CBSE Class 12 exam pattern?", a: "Most subjects carry an 80-mark year-end board paper plus 20 marks of internal assessment or practicals, with a three-hour paper per subject and a 33% pass requirement in each subject." },
+      { q: "How do Class 12 marks affect college admission?", a: "Class 12 marks feed into university admissions directly and through CUET, and many programmes set minimum-percentage cut-offs. For students also taking JEE or NEET, the board score runs alongside the entrance rank." },
+      { q: "Which streams are offered in Class 12?", a: "Class 12 continues the stream chosen in Class 11 — Science (with Maths or Biology), Commerce, or Humanities — with little repetition of the Class 11 syllabus, so the two years build on each other." },
+      { q: "Do internal and practical marks matter in Class 12?", a: "Yes. The 20 internal or practical marks are added to the 80-mark board paper and are among the easiest points to secure, so they can meaningfully raise your final percentage." },
+      { q: "How should I prepare for Class 12 boards alongside JEE or NEET?", a: "Anchor your study in NCERT, since board papers come directly from it and its syllabus overlaps heavily with the entrances. Solve previous years' and sample papers within the time limit, and plan a schedule that protects both board and entrance preparation." },
+      { q: "Is Class 12 practice on PadhoDost free?", a: "Yes. All Class 12 chapter-wise tests, subject mocks and explainers on PadhoDost are free, aligned to the latest CBSE syllabus, with step-by-step solutions and no paywall." },
+    ],
   },
 ];
 

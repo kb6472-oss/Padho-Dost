@@ -45,11 +45,12 @@ async function chapterTestsForExam(examId: string): Promise<Map<string, ChapterT
 
 export const getSubjectHub = cache(async (examSlug: string, subjectSlug: string) => {
   const subject = await prisma.subject.findFirst({
-    where: { slug: subjectSlug, exam: { slug: examSlug } },
+    where: { slug: subjectSlug, exam: { slug: examSlug, status: "LIVE" } },
     include: {
       exam: { select: { slug: true, name: true, shortName: true, emoji: true } },
       chapters: {
-        orderBy: { order: "asc" },
+        // name tiebreak so ties on the default order (0) are still deterministic.
+        orderBy: [{ order: "asc" }, { name: "asc" }],
         include: {
           _count: { select: { questions: true } },
           explainers: {
@@ -90,7 +91,7 @@ export const getSubjectHub = cache(async (examSlug: string, subjectSlug: string)
 
 export const getChapterHub = cache(async (examSlug: string, subjectSlug: string, chapterSlug: string) => {
   const chapter = await prisma.chapter.findFirst({
-    where: { slug: chapterSlug, subject: { slug: subjectSlug }, exam: { slug: examSlug } },
+    where: { slug: chapterSlug, subject: { slug: subjectSlug }, exam: { slug: examSlug, status: "LIVE" } },
     include: {
       exam: { select: { slug: true, name: true, shortName: true, emoji: true } },
       subject: { select: { slug: true, name: true } },
@@ -113,7 +114,7 @@ export const getChapterHub = cache(async (examSlug: string, subjectSlug: string,
     // Siblings in the same subject, for prev/next navigation and cross-linking.
     prisma.chapter.findMany({
       where: { subjectId: chapter.subjectId, questions: { some: {} } },
-      orderBy: { order: "asc" },
+      orderBy: [{ order: "asc" }, { name: "asc" }],
       select: { slug: true, name: true },
     }),
   ]);
@@ -143,8 +144,8 @@ export const getChapterHub = cache(async (examSlug: string, subjectSlug: string,
 // "Study by topic" strip on the exam page (the crawl path into the hubs).
 export const getExamSubjects = cache(async (examSlug: string) => {
   const subjects = await prisma.subject.findMany({
-    where: { exam: { slug: examSlug }, chapters: { some: { questions: { some: {} } } } },
-    orderBy: { order: "asc" },
+    where: { exam: { slug: examSlug, status: "LIVE" }, chapters: { some: { questions: { some: {} } } } },
+    orderBy: [{ order: "asc" }, { name: "asc" }],
     select: {
       slug: true,
       name: true,
@@ -164,7 +165,7 @@ export const getExamSubjects = cache(async (examSlug: string) => {
 
 export const getSubjectPaths = cache(async () => {
   const subjects = await prisma.subject.findMany({
-    where: { chapters: { some: { questions: { some: {} } } } },
+    where: { exam: { status: "LIVE" }, chapters: { some: { questions: { some: {} } } } },
     select: { slug: true, exam: { select: { slug: true } } },
   });
   return subjects.map((s) => ({ exam: s.exam.slug, subject: s.slug }));
@@ -172,7 +173,7 @@ export const getSubjectPaths = cache(async () => {
 
 export const getChapterPaths = cache(async () => {
   const chapters = await prisma.chapter.findMany({
-    where: { questions: { some: {} } },
+    where: { questions: { some: {} }, exam: { status: "LIVE" } },
     select: { slug: true, subject: { select: { slug: true } }, exam: { select: { slug: true } } },
   });
   return chapters.map((c) => ({ exam: c.exam.slug, subject: c.subject.slug, chapter: c.slug }));

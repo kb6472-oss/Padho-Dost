@@ -11,7 +11,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Daily Challenge — ${date}`,
     description: `Free Question of the Day for SSC, Class 10, JEE & NEET aspirants on PadhoDost (${date}).`,
-    alternates: { canonical: `/daily/${date}` },
+    // canonical: null opts out of the root layout's inherited canonical. A noindex
+    // page should carry no canonical at all — a self-canonical conflicts with noindex,
+    // and inheriting the homepage canonical would wrongly cluster it onto "/".
+    alternates: { canonical: null },
     // NOINDEX — same reasoning as /gk/[date]: a single MCQ is thin inventory.
     // Kept as an engagement surface; re-index once these pages are substantive.
     robots: { index: false, follow: false },

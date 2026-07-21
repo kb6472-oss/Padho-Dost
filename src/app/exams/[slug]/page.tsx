@@ -7,6 +7,7 @@ import { getSessionUser } from "@/lib/auth";
 import { getExamGoal } from "@/lib/enroll";
 import { getFullMockUnlock, isGrandMock, isSectionTest, type UnlockState } from "@/lib/full-mock";
 import { getExamIntro } from "@/content/exam-intros";
+import { ogImage } from "@/lib/og-meta";
 import ExamGoalButton from "@/components/ExamGoalButton";
 import JsonLd from "@/components/JsonLd";
 
@@ -19,11 +20,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const exam = await getExamWithTests(slug);
   if (!exam) return { title: "Exam not found" };
   const description = exam.description ?? `Free mock tests and practice for ${exam.name}.`;
+  const ogTitle = `${exam.name} — Free Mock Tests`;
+  const og = ogImage(exam.name, "Free Mock Tests");
   return {
     title: exam.name,
     description,
     alternates: { canonical: `/exams/${slug}` },
-    openGraph: { title: `${exam.name} — Free Mock Tests`, description, url: `/exams/${slug}`, type: "website" },
+    openGraph: { title: ogTitle, description, url: `/exams/${slug}`, type: "website", images: [og] },
+    twitter: { card: "summary_large_image", title: ogTitle, description, images: [og] },
   };
 }
 

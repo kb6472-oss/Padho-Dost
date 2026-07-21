@@ -35,7 +35,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Current Affairs — ${date}`,
     description,
-    alternates: { canonical: `/current-affairs/${date}` },
+    // Canonical only when indexable; null (no canonical) otherwise — a canonical on a
+    // noindex page is a conflicting signal, and inheriting the homepage canonical is wrong.
+    alternates: { canonical: indexable ? `/current-affairs/${date}` : null },
     robots: indexable ? undefined : { index: false, follow: false },
     openGraph: { title: `Current Affairs — ${date}`, description, url: `/current-affairs/${date}`, type: "article" },
   };

@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { prisma } from "@/lib/prisma";
 import { getExplainer, type Block } from "@/content/explainers";
+import { ogImage } from "@/lib/og-meta";
 import ExplainerReader from "@/components/ExplainerReader";
 import JsonLd from "@/components/JsonLd";
 import { AdSlot } from "@/components/Ads";
@@ -13,11 +14,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const c = getExplainer(slug);
   if (!c) return { title: "Explainer not found" };
+  const og = ogImage(c.title, "Free visual explainer");
   return {
     title: c.title,
     description: c.summary,
     alternates: { canonical: `/study/${slug}` },
-    openGraph: { title: c.title, description: c.summary, url: `/study/${slug}`, type: "article" },
+    openGraph: { title: c.title, description: c.summary, url: `/study/${slug}`, type: "article", images: [og] },
+    twitter: { card: "summary_large_image", title: c.title, description: c.summary, images: [og] },
   };
 }
 

@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowRight, BookOpen, FileText, ListChecks } from "lucide-react";
 import { getSubjectHub } from "@/lib/hubs";
+import { ogImage } from "@/lib/og-meta";
 import JsonLd from "@/components/JsonLd";
 import Badge from "@/components/ui/Badge";
 
@@ -16,11 +17,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const title = `${hub.subject.name} — ${hub.exam.shortName}`;
   const description = `Free ${hub.subject.name} practice for ${hub.exam.name}: ${hub.totals.chapters} chapters, ${hub.totals.questions.toLocaleString("en-IN")} questions with full solutions${hub.totals.explainers ? ` and ${hub.totals.explainers} visual explainers` : ""}. No paywall.`;
 
+  const og = ogImage(hub.subject.name, `${hub.exam.name} · Practice`);
   return {
     title,
     description,
     alternates: { canonical: `/exams/${slug}/${subject}` },
-    openGraph: { title: `${hub.subject.name} — ${hub.exam.name}`, description, url: `/exams/${slug}/${subject}`, type: "website" },
+    openGraph: { title: `${hub.subject.name} — ${hub.exam.name}`, description, url: `/exams/${slug}/${subject}`, type: "website", images: [og] },
+    twitter: { card: "summary_large_image", title: `${hub.subject.name} — ${hub.exam.name}`, description, images: [og] },
   };
 }
 

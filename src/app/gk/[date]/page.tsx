@@ -11,7 +11,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Daily GK — ${date}`,
     description,
-    alternates: { canonical: `/gk/${date}` },
+    // canonical: null — a noindex page carries no canonical (see /daily/[date]).
+    alternates: { canonical: null },
     // NOINDEX — one MCQ per page is ~40 words of crawlable content, which is thin
     // inventory. These pages earn their keep as a daily habit loop, not as search
     // results. Re-index once they carry the explanation, related explainers and

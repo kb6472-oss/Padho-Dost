@@ -1476,6 +1476,1342 @@ export const explainers: ExplainerContent[] = [
         { type: "quiz", question: "What single feature best explains why an organism is placed in Kingdom Monera rather than Kingdom Protista?", options: ["It is multicellular","Its cell is prokaryotic (it has no true nucleus)","It performs photosynthesis","Its cell wall is made of cellulose"], correct: 1, explain: "Monera contains only prokaryotes - cells without a membrane-bound nucleus - while all Protista are eukaryotes with a true nucleus. Photosynthesis and cell walls occur in both kingdoms, so they cannot be the deciding factor." },
     ],
   },
+  {
+    slug: "upsc-constitution-fundamental-rights",
+    title: "Fundamental Rights — Articles 12 to 35, Made Simple for UPSC Prelims",
+    summary: "Learn the six Fundamental Rights, their key articles, the five writs, and the facts UPSC Prelims tests most.",
+    examSlug: "upsc",
+    subjectSlug: "indian-polity-governance",
+    chapterSlug: "constitution-fundamental-rights",
+    readingMinutes: 7,
+    practiceTestSlug: "upsc-constitution-practice-1",
+    blocks: [
+      {
+        type: "para",
+        text: "Think of the Constitution as the rulebook of India, and Fundamental Rights as the promises the State makes to every person: some things the government can never take away from you. If the State breaks these promises, you can go straight to the Supreme Court or a High Court and ask a judge to stop it. That power to knock on the court's door is itself one of the rights."
+      },
+      {
+        type: "analogy",
+        title: "Rights as a warranty card",
+        text: "When you buy a phone, the warranty card says the seller must fix certain problems, no matter what. Fundamental Rights are the citizen's warranty card against the State. And Article 32 is the toll-free number you call to claim that warranty in court."
+      },
+      {
+        type: "heading",
+        text: "Where they live in the Constitution"
+      },
+      {
+        type: "para",
+        text: "Fundamental Rights are placed in Part III of the Constitution, from Article 12 to Article 35. This part is often called the 'Magna Carta' of India. Article 12 defines what 'State' means, and Article 13 says any law that violates these rights is void. There are six Fundamental Rights today."
+      },
+      {
+        type: "keypoints",
+        title: "The six Fundamental Rights (remember the articles)",
+        items: ["Right to Equality — Articles 14 to 18", "Right to Freedom — Articles 19 to 22", "Right against Exploitation — Articles 23 to 24", "Right to Freedom of Religion — Articles 25 to 28", "Cultural and Educational Rights — Articles 29 to 30", "Right to Constitutional Remedies — Article 32"]
+      },
+      {
+        type: "callout",
+        tone: "warn",
+        text: "Right to Property was once a Fundamental Right (old Articles 19(1)(f) and 31). The 44th Amendment Act, 1978 removed it. It is now only a legal (constitutional) right under Article 300A. UPSC loves testing this."
+      },
+      {
+        type: "table",
+        headers: ["Article", "What it protects", "Key point"],
+        rows: [
+          ["14", "Equality before law and equal protection of laws", "Available to all persons, not just citizens"],
+          ["15", "No discrimination on religion, race, caste, sex, place of birth", "Only for citizens"],
+          ["16", "Equal opportunity in public employment", "Only for citizens"],
+          ["17", "Abolition of untouchability", "Its practice is an offence"],
+          ["18", "Abolition of titles", "Military and academic titles are allowed"],
+          ["19", "Six freedoms (speech, assembly, association, movement, residence, profession)", "Only for citizens"],
+          ["20", "Protection in conviction for offences", "Cannot be suspended even in Emergency"],
+          ["21", "Protection of life and personal liberty", "Available to all persons; cannot be suspended in Emergency"],
+          ["21A", "Right to education, ages 6 to 14", "Added by 86th Amendment, 2002"],
+          ["22", "Protection against arrest and detention", "Has rules on preventive detention"]
+        ]
+      },
+      {
+        type: "para",
+        text: "Two articles need special care. Article 21 has been read very widely by courts to include the right to live with dignity, privacy, a clean environment, and more. Article 20 protects you in three ways: no punishment under a law made after the act (no ex-post-facto law), no punishment twice for the same offence (no double jeopardy), and no forcing a person to be a witness against himself (self-incrimination)."
+      },
+      {
+        type: "heading",
+        text: "Article 32 — the heart of the Constitution"
+      },
+      {
+        type: "para",
+        text: "Article 32 lets you go directly to the Supreme Court if a Fundamental Right is violated. Dr. B. R. Ambedkar called it 'the heart and soul' of the Constitution. To enforce rights, courts issue five special orders called writs. High Courts have a wider power to issue writs under Article 226."
+      },
+      {
+        type: "table",
+        headers: ["Writ", "Meaning", "Used for"],
+        rows: [
+          ["Habeas Corpus", "To have the body", "Release a person from illegal detention"],
+          ["Mandamus", "We command", "Order a public official to do a legal duty"],
+          ["Prohibition", "To forbid", "Stop a lower court from exceeding its powers (before)"],
+          ["Certiorari", "To be certified", "Quash or transfer a lower court's order (after)"],
+          ["Quo Warranto", "By what authority", "Question a person's claim to a public office"]
+        ]
+      },
+      {
+        type: "steps",
+        title: "How a Fundamental Right is enforced",
+        items: ["A person's Fundamental Right is violated by the State or its bodies.", "The person files a petition in the Supreme Court (Article 32) or a High Court (Article 226).", "The court checks if the right is genuinely breached.", "The court issues a suitable writ to protect the right.", "Any law that clashes with the right is declared void under Article 13."]
+      },
+      {
+        type: "callout",
+        tone: "tip",
+        text: "Memory hook: rights available ONLY to citizens are Articles 15, 16, 19, 29 and 30. All other rights are for every person, including foreigners, on Indian soil."
+      },
+      {
+        type: "example",
+        title: "A quick real-world case",
+        lines: ["A worker is forced to work without pay to repay a loan (bonded labour).", "This violates Article 23, which bans traffic in humans and forced labour.", "He can approach the court under Article 32.", "The court can order his release and rehabilitation."]
+      },
+      {
+        type: "keypoints",
+        title: "Must-remember facts",
+        items: ["Fundamental Rights are in Part III, Articles 12 to 35.", "There are six Fundamental Rights; Right to Property was removed by the 44th Amendment (1978).", "Articles 20 and 21 cannot be suspended even during a National Emergency.", "Article 24 bans employing children below 14 years in factories, mines, and hazardous work.", "Articles 33, 34 and 35 let Parliament modify or make laws about these rights (armed forces, martial law, enforcement)."]
+      },
+      {
+        type: "quiz",
+        question: "Which pair of Fundamental Rights cannot be suspended even during a National Emergency?",
+        options: ["Articles 19 and 21", "Articles 20 and 21", "Articles 14 and 19", "Articles 21 and 22"],
+        correct: 1,
+        explain: "After the 44th Amendment Act (1978), Articles 20 (protection in conviction for offences) and 21 (protection of life and personal liberty) can never be suspended, even during a National Emergency. Article 19 freedoms, by contrast, can be suspended during an Emergency declared on grounds of war or external aggression."
+      }
+    ]
+  },
+  {
+    slug: "upsc-parliament-executive-judiciary",
+    title: "Parliament, Executive and Judiciary — India's Three Organs Made Simple",
+    summary: "Learn how India's Parliament, Executive and Judiciary are formed, what powers each holds, and how they check each other — the core Polity facts UPSC Prelims tests.",
+    examSlug: "upsc",
+    subjectSlug: "indian-polity-governance",
+    chapterSlug: "parliament-judiciary",
+    readingMinutes: 8,
+    practiceTestSlug: "upsc-parliament-judiciary-practice-1",
+    blocks: [
+      {
+        type: "para",
+        text: "Think of the Indian government as a house with three workers who share the chores. One worker makes the rules, one runs the day-to-day home, and one settles fights about the rules. These three are the Parliament (makes laws), the Executive (runs the country), and the Judiciary (interprets and guards the law). This is called the separation of powers. None of them is fully the boss. Each keeps a check on the other two so no single person can grab all the power."
+      },
+      {
+        type: "analogy",
+        title: "The cricket-match way to remember it",
+        text: "Parliament is like the group that writes the rules of the game. The Executive is the team captain and players who actually play and run the match. The Judiciary is the umpire who decides if a rule was broken. The umpire did not make the rule and does not bat, but everyone must accept the umpire's decision. That is exactly how these three organs stay separate but connected."
+      },
+      {
+        type: "heading",
+        text: "1. Parliament — the law-making organ"
+      },
+      {
+        type: "para",
+        text: "Article 79 says the Parliament of India has three parts: the President, the Lok Sabha (House of the People), and the Rajya Sabha (Council of States). Yes, the President is part of Parliament even though the President is in the Executive too. A bill becomes a law only after the President signs it. The Lok Sabha is directly elected by the people. The Rajya Sabha represents the states."
+      },
+      {
+        type: "table",
+        headers: ["Feature", "Lok Sabha", "Rajya Sabha"],
+        rows: [
+          ["Also called", "House of the People", "Council of States"],
+          ["Maximum strength", "550", "250"],
+          ["How members come", "Directly elected by people", "Mostly elected by state MLAs; 12 nominated by President"],
+          ["Term", "5 years (can be dissolved early)", "Permanent house, never dissolved"],
+          ["Member's tenure", "5 years", "6 years; one-third retire every 2 years"],
+          ["Presiding officer", "Speaker", "Chairman (the Vice-President)"]
+        ]
+      },
+      {
+        type: "callout",
+        tone: "tip",
+        text: "Memory hook: Lok Sabha = 'Lower but Larger and Louder' — it is the more powerful house for money and for deciding who runs the government. The Rajya Sabha is permanent, so it is never fully dissolved, even when the Lok Sabha ends."
+      },
+      {
+        type: "keypoints",
+        title: "Powers only the Lok Sabha has",
+        items: ["A Money Bill (Article 110) can start ONLY in the Lok Sabha. The Speaker decides if a bill is a Money Bill.", "The Rajya Sabha can only suggest changes to a Money Bill and must return it within 14 days. The Lok Sabha can accept or reject those suggestions.", "A No-Confidence Motion, which can remove the government, can be moved ONLY in the Lok Sabha.", "The Rajya Sabha has one special power under Article 249: it can allow Parliament to make a law on a State List subject."]
+      },
+      {
+        type: "heading",
+        text: "2. Executive — the organ that runs the country"
+      },
+      {
+        type: "para",
+        text: "The Executive means the President, the Prime Minister, and the Council of Ministers. The President (Articles 52 to 62) is the head of the state and the first citizen, but the President is a nominal head — like a respected elder who signs off but does not run daily affairs. The real power lies with the Prime Minister and the Council of Ministers. India follows the parliamentary system, where the real executive is answerable to Parliament."
+      },
+      {
+        type: "steps",
+        title: "How the real Executive is formed",
+        items: ["The people elect members of the Lok Sabha in a general election.", "The party or group with a majority in the Lok Sabha is invited to form the government.", "The President appoints the leader of that majority group as the Prime Minister.", "On the PM's advice, the President appoints the other ministers, who together form the Council of Ministers.", "This Council is collectively responsible to the Lok Sabha (Article 75). If the Lok Sabha passes a no-confidence motion, the whole Council must resign."]
+      },
+      {
+        type: "callout",
+        tone: "info",
+        text: "Article 74 says there shall be a Council of Ministers to aid and advise the President, and the President must normally act on that advice. The 44th Amendment added that the President can send the advice back for reconsideration once, but if the Council sends the same advice again, the President must accept it."
+      },
+      {
+        type: "example",
+        title: "President is elected, not by direct vote",
+        lines: ["The President is chosen by an electoral college (Article 54).", "This college has the elected members of both houses of Parliament AND the elected members of the state legislative assemblies.", "Nominated members do NOT vote in the presidential election.", "So citizens do not vote directly for the President — their elected representatives do."]
+      },
+      {
+        type: "heading",
+        text: "3. Judiciary — the organ that guards the law"
+      },
+      {
+        type: "para",
+        text: "India has an integrated, single system of courts. At the top is the Supreme Court (Article 124), then the High Courts (Article 214) in the states, and below them the district and lower courts. 'Integrated' means the same set of courts handles both central laws and state laws — there is no separate system for each. The Judiciary is independent so that judges can decide fairly, even against the government."
+      },
+      {
+        type: "keypoints",
+        title: "Judiciary must-remember points",
+        items: ["Supreme Court and High Court judges are appointed by the President. In practice, names are recommended by the Collegium, a group of senior judges.", "A Supreme Court judge retires at 65 years; a High Court judge retires at 62 years.", "Judicial Review: courts can strike down a law or an executive action if it violates the Constitution.", "Article 32 lets a citizen go directly to the Supreme Court to protect Fundamental Rights. Dr. Ambedkar called it the 'heart and soul' of the Constitution.", "The Supreme Court can review its own judgment under Article 137."]
+      },
+      {
+        type: "table",
+        headers: ["Organ", "Main job", "Key check on others"],
+        rows: [
+          ["Parliament", "Makes laws", "Can impeach the President and remove judges; passes the budget"],
+          ["Executive", "Runs the country, carries out laws", "President appoints judges; can issue ordinances when Parliament is not in session"],
+          ["Judiciary", "Interprets laws, settles disputes", "Judicial review can cancel unconstitutional laws and actions"]
+        ]
+      },
+      {
+        type: "callout",
+        tone: "warn",
+        text: "Common trap: Do not confuse the two houses' presiding officers. The Speaker heads the Lok Sabha. The Vice-President is the ex-officio Chairman of the Rajya Sabha. Also, only the Speaker certifies a Money Bill — the Chairman does not."
+      },
+      {
+        type: "para",
+        text: "Together, these three organs create a system of checks and balances. Parliament can remove ministers and even the President through set procedures. The Executive appoints judges. The Judiciary can cancel laws that break the Constitution. This balance is why no single organ can become all-powerful, and it is a favourite area for Prelims questions."
+      },
+      {
+        type: "quiz",
+        question: "Under the Constitution, which of the following is TRUE about a Money Bill?",
+        options: ["It can be introduced in either the Lok Sabha or the Rajya Sabha", "It can be introduced only in the Rajya Sabha", "It can be introduced only in the Lok Sabha, and the Rajya Sabha must return it within 14 days", "The President certifies whether a bill is a Money Bill"],
+        correct: 2,
+        explain: "A Money Bill (Article 110) can be introduced only in the Lok Sabha. The Rajya Sabha can merely recommend changes and must return it within 14 days; the Lok Sabha may accept or reject those recommendations. It is the Speaker of the Lok Sabha, not the President, who certifies a bill as a Money Bill."
+      }
+    ]
+  },
+  {
+    slug: "upsc-indian-freedom-struggle",
+    title: "The Indian Freedom Struggle — Key Movements, Dates and Leaders Made Simple",
+    summary: "Learn the three phases of India's freedom struggle and the key movements, dates, and leaders most tested in UPSC Prelims.",
+    examSlug: "upsc",
+    subjectSlug: "modern-indian-history",
+    chapterSlug: "freedom-struggle",
+    readingMinutes: 8,
+    practiceTestSlug: "upsc-freedom-struggle-practice-1",
+    blocks: [
+      {
+        type: "analogy",
+        title: "A relay race, not a single sprint",
+        text: "Think of India's freedom struggle as a long relay race. No single runner won it. One group carried the baton for a while, then passed it to the next, each running faster than the one before. The early runners (the Moderates) asked politely for reform. The next runners (the Extremists) demanded rights. Then came the mass runners under Gandhi, who pulled millions of ordinary people onto the track. For UPSC Prelims, your job is to remember who ran which leg, and when."
+      },
+      {
+        type: "para",
+        text: "The modern freedom struggle is usually studied in three phases. The Moderate phase (1885 to 1905) worked through petitions and prayers. The Extremist or Assertive phase (1905 to 1919) demanded Swaraj and used boycott. The Gandhian or Mass phase (1919 to 1947) turned the movement into a nationwide people's struggle. Prelims loves asking which event or leader belongs to which phase, so keep the phases clear in your mind."
+      },
+      {
+        type: "heading",
+        text: "The beginning: 1857 and the birth of the Congress"
+      },
+      {
+        type: "para",
+        text: "The Revolt of 1857 (called the First War of Independence by some and a sepoy mutiny by the British) was the first big armed challenge to Company rule. It failed, but it ended the East India Company's rule. After it, India came under the direct rule of the British Crown through the Government of India Act, 1858. In 1885, A.O. Hume, a retired British civil servant, helped found the Indian National Congress. Its first session was held in Bombay and W.C. Bonnerjee was its first president."
+      },
+      {
+        type: "heading",
+        text: "Swadeshi and the Extremist turn (1905 onward)"
+      },
+      {
+        type: "para",
+        text: "In 1905, Viceroy Lord Curzon partitioned Bengal. Indians saw this as a 'divide and rule' trick, and it triggered the Swadeshi Movement, a boycott of British goods and use of Indian-made goods. This phase produced the famous trio of leaders known as Lal-Bal-Pal: Lala Lajpat Rai, Bal Gangadhar Tilak, and Bipin Chandra Pal. Tilak's slogan, 'Swaraj is my birthright and I shall have it,' captured the new mood. In 1906, the All-India Muslim League was founded. In 1907, the Congress split into Moderates and Extremists at the Surat Session."
+      },
+      {
+        type: "callout",
+        tone: "tip",
+        text: "Memory hook: 'Lal-Bal-Pal' = Lala Lajpat Rai, Bal Gangadhar Tilak, Bipin Chandra Pal. All three were Extremists (Assertive nationalists) of the Swadeshi era."
+      },
+      {
+        type: "heading",
+        text: "The Gandhian era: the mass movements"
+      },
+      {
+        type: "para",
+        text: "Mahatma Gandhi returned to India from South Africa in 1915. His method was Satyagraha, meaning non-violent insistence on truth. He first tested it in local struggles at Champaran (indigo farmers, Bihar) and Kheda (peasants, Gujarat) and among Ahmedabad mill workers. Then came the Rowlatt Act of 1919, which allowed detention without trial. Protests against it led to the Jallianwala Bagh massacre in Amritsar on 13 April 1919, where General Dyer ordered troops to fire on an unarmed crowd. This turned millions against British rule."
+      },
+      {
+        type: "table",
+        headers: ["Movement", "Year(s)", "Key trigger / feature", "Why it ended / note"],
+        rows: [
+          ["Non-Cooperation Movement", "1920–1922", "Boycott of schools, courts, titles; linked with Khilafat", "Withdrawn after Chauri Chaura violence (Feb 1922)"],
+          ["Civil Disobedience Movement", "1930–1934", "Began with Dandi Salt March; breaking the salt law", "Paused by Gandhi–Irwin Pact (1931)"],
+          ["Quit India Movement", "1942", "'Do or Die' call; demand for immediate British exit", "Leaders jailed; largely spontaneous, suppressed"]
+        ]
+      },
+      {
+        type: "steps",
+        title: "The Salt Satyagraha (Dandi March), 1930",
+        items: ["Gandhi began the march on 12 March 1930 from Sabarmati Ashram near Ahmedabad.", "He walked about 240 miles (around 385 km) to the coastal village of Dandi.", "On 6 April 1930, he broke the salt law by making salt from seawater.", "This launched the nationwide Civil Disobedience Movement."]
+      },
+      {
+        type: "example",
+        title: "Key sessions and declarations",
+        lines: ["1916 – Lucknow Pact: Congress and Muslim League agreed to work together.", "1928 – Nehru Report: proposed dominion status, drafted by a committee under Motilal Nehru.", "1929 – Lahore Session: Congress adopted the goal of Purna Swaraj (complete independence); Jawaharlal Nehru presided.", "26 January 1930 – observed as the first Independence Day (later chosen as Republic Day in 1950)."]
+      },
+      {
+        type: "keypoints",
+        title: "Must-remember facts for Prelims",
+        items: ["INC founded 1885; A.O. Hume its founder, W.C. Bonnerjee first president.", "Partition of Bengal (1905) sparked the Swadeshi Movement; annulled in 1911.", "Jallianwala Bagh massacre: 13 April 1919, Amritsar.", "Non-Cooperation (1920) withdrawn after Chauri Chaura incident (1922).", "Simon Commission (1927) had no Indian member, so it was boycotted ('Simon Go Back').", "Purna Swaraj resolution passed at Lahore, 1929.", "Quit India Movement launched on 8 August 1942 in Bombay.", "India became independent on 15 August 1947."]
+      },
+      {
+        type: "para",
+        text: "Two more threads complete the picture. The revolutionary nationalists, such as Bhagat Singh, Chandra Shekhar Azad, and later Subhas Chandra Bose (who led the Indian National Army, INA), chose a more militant path. And the constitutional track moved through the Government of India Act, 1935, the Cabinet Mission of 1946, and finally the Indian Independence Act, 1947, which partitioned British India into India and Pakistan."
+      },
+      {
+        type: "callout",
+        tone: "warn",
+        text: "Common trap: Do not confuse the movements. Non-Cooperation (1920) was withdrawn after Chauri Chaura. Civil Disobedience (1930) started with the Salt March. Quit India (1942) used the slogan 'Do or Die'. Mixing up these years and slogans is the single most common Prelims mistake."
+      },
+      {
+        type: "quiz",
+        question: "The Non-Cooperation Movement was withdrawn by Mahatma Gandhi mainly because of which event?",
+        options: ["The Jallianwala Bagh massacre", "The Chauri Chaura incident", "The arrest of Bhagat Singh", "The Simon Commission's visit"],
+        correct: 1,
+        explain: "Gandhi called off the Non-Cooperation Movement in February 1922 after a mob at Chauri Chaura (in present-day Uttar Pradesh) set fire to a police station, killing policemen. Gandhi believed the movement had turned violent, which went against his principle of non-violence. The Jallianwala Bagh massacre (1919) came before the movement, not after."
+      }
+    ]
+  },
+  {
+    slug: "upsc-governor-generals-colonial-reforms",
+    title: "Governor-Generals & Colonial Reforms — From Warren Hastings to Canning, Made Simple",
+    summary: "Learn the key Governor-Generals, their reforms, and the Charter Acts that turned Company rule into Crown rule in colonial India.",
+    examSlug: "upsc",
+    subjectSlug: "modern-indian-history",
+    chapterSlug: "governor-generals-reforms",
+    readingMinutes: 7,
+    practiceTestSlug: "upsc-governor-generals-practice-1",
+    blocks: [
+      {
+        type: "para",
+        text: "Think of British rule in India like a company slowly turning into a government. At the top sat one powerful officer whose title kept changing: first \"Governor-General of Bengal\", then \"Governor-General of India\", and finally \"Viceroy\". Each name change was actually a law passed in London that gave this officer more power over all of India. If you learn the men and the reforms together, this whole chapter becomes one clear story instead of a list to cram."
+      },
+      {
+        type: "heading",
+        text: "The three job titles (and the laws behind them)"
+      },
+      {
+        type: "para",
+        text: "The same top chair got a bigger name each time a new British law was passed. The Regulating Act of 1773 created the \"Governor-General of Bengal\". The Charter Act of 1833 upgraded the post to \"Governor-General of India\" — now he controlled the whole country. After the Revolt of 1857, the Government of India Act of 1858 ended Company rule; the Crown took over and the officer was also called \"Viceroy\", the direct representative of the British monarch."
+      },
+      {
+        type: "table",
+        headers: ["Title", "Created by", "First to hold it"],
+        rows: [
+          ["Governor-General of Bengal", "Regulating Act, 1773", "Warren Hastings"],
+          ["Governor-General of India", "Charter Act, 1833", "Lord William Bentinck"],
+          ["Viceroy (+ Governor-General)", "Government of India Act, 1858", "Lord Canning"]
+        ]
+      },
+      {
+        type: "callout",
+        tone: "tip",
+        text: "Warren Hastings was the FIRST Governor-General of Bengal. Bentinck was the FIRST Governor-General of India. Canning was the LAST Governor-General and the FIRST Viceroy. Examiners love these three \"firsts\"."
+      },
+      {
+        type: "heading",
+        text: "Key Governor-Generals and what each is famous for"
+      },
+      {
+        type: "table",
+        headers: ["Governor-General", "Tenure", "Remember for"],
+        rows: [
+          ["Warren Hastings", "1774-1785", "First GG of Bengal; the Asiatic Society of Bengal was founded (1784) under his patronage"],
+          ["Lord Cornwallis", "1786-1793", "Permanent Settlement (1793); reformed Civil Service — 'Father of Civil Service in India'"],
+          ["Lord Wellesley", "1798-1805", "Introduced the Subsidiary Alliance system"],
+          ["Lord William Bentinck", "1828-1835", "First GG of India; abolished Sati (1829); English education"],
+          ["Lord Dalhousie", "1848-1856", "Doctrine of Lapse; first railway (1853); telegraph"],
+          ["Lord Canning", "1856-1862", "Revolt of 1857; last GG and first Viceroy"]
+        ]
+      },
+      {
+        type: "keypoints",
+        title: "Must-remember reforms by each ruler",
+        items: ["Cornwallis (1793): Permanent Settlement fixed land revenue with zamindars forever; he also separated revenue and judicial work and started a professional Civil Service.", "Wellesley (1798): Subsidiary Alliance — Indian rulers kept British troops, paid for them, and lost their foreign policy. The Nizam of Hyderabad was the first to accept it, in 1798.", "Bentinck (1829): Abolished Sati (the burning of widows), supported by Raja Ram Mohan Roy; he also acted against Thuggee.", "Dalhousie (1848-56): Doctrine of Lapse annexed states like Satara, Jhansi and Nagpur; he opened India's first passenger railway (Bombay to Thane, 1853)."]
+      },
+      {
+        type: "analogy",
+        title: "Subsidiary Alliance = a protection deal",
+        text: "Imagine a shopkeeper who is told: 'Keep our security guards inside your shop, pay their full salary, and never talk to any other security company.' The shop looks independent, but the guards really control it. That is the Subsidiary Alliance — the Indian ruler paid for British troops and slowly lost real power without a single battle."
+      },
+      {
+        type: "heading",
+        text: "The Charter Acts — how power shifted step by step"
+      },
+      {
+        type: "steps",
+        title: "Follow the money and the power",
+        items: ["Charter Act 1813: Ended the East India Company's trade monopoly in India (but it kept the monopoly on tea and trade with China); also set aside money for education.", "Charter Act 1833: Made the Governor-General of Bengal the Governor-General of India; the Company stopped trading and became a purely administrative body.", "Charter Act 1853: Introduced open competition for the Civil Services, so Indians could, in principle, appear for the exam.", "Government of India Act 1858: Abolished the Company; power passed to the British Crown, and a Secretary of State for India was created in London."]
+      },
+      {
+        type: "example",
+        title: "One state, one policy: Dalhousie and Awadh",
+        lines: ["Doctrine of Lapse: if a ruler died without a natural male heir, the British refused to accept an adopted heir and annexed the state.", "Using this, Dalhousie annexed Satara (1848), then Jhansi and Nagpur.", "Awadh (Oudh) was different — it was annexed in 1856 on the excuse of 'misgovernance', not lapse.", "These annexations spread anger that helped spark the Revolt of 1857."]
+      },
+      {
+        type: "callout",
+        tone: "warn",
+        text: "Do not mix up the two land systems. Permanent Settlement (Cornwallis, 1793) used zamindars in Bengal, Bihar and Odisha. The Ryotwari system (linked to Thomas Munro in Madras) collected revenue directly from the farmer (ryot). They are different systems."
+      },
+      {
+        type: "keypoints",
+        title: "Quick revision anchors",
+        items: ["1773 Regulating Act -> Warren Hastings, first GG of Bengal.", "1793 Permanent Settlement -> Cornwallis.", "1798 Subsidiary Alliance -> Wellesley (Hyderabad first).", "1829 Sati abolished -> Bentinck.", "1833 Charter Act -> Bentinck becomes first GG of India.", "1853 first railway + Doctrine of Lapse -> Dalhousie.", "1858 Crown rule begins -> Canning, first Viceroy."]
+      },
+      {
+        type: "quiz",
+        question: "Who became the first Governor-General of India after the Charter Act of 1833?",
+        options: ["Warren Hastings", "Lord Cornwallis", "Lord William Bentinck", "Lord Canning"],
+        correct: 2,
+        explain: "The Charter Act of 1833 upgraded the post from 'Governor-General of Bengal' to 'Governor-General of India', and Lord William Bentinck was the first to hold this new title. Warren Hastings was the first Governor-General of Bengal (1774), and Lord Canning was the last Governor-General and the first Viceroy (1858)."
+      }
+    ]
+  },
+  {
+    slug: "upsc-physical-geography-india",
+    title: "Physical Geography of India — Location, Landforms and Rivers Made Simple",
+    summary: "Learn India's location, its six physical divisions, the Himalayas, plateaus and river systems with the exact facts UPSC Prelims tests.",
+    examSlug: "upsc",
+    subjectSlug: "geography",
+    chapterSlug: "physical-geography-india",
+    readingMinutes: 8,
+    practiceTestSlug: "upsc-physical-geography-practice-1",
+    blocks: [
+      {
+        type: "analogy",
+        title: "India as a three-storey house",
+        text: "Picture India as a house with three floors built at different times. The oldest floor is the hard Peninsular Plateau in the south. On top of it, nature spread a flat carpet of soil, the Northern Plains. And standing guard at the north is a tall young wall, the Himalayas. If you remember these three parts and how each was formed, most of Physical Geography of India starts to make sense."
+      },
+      {
+        type: "para",
+        text: "Physical Geography of India is about the land itself: where India sits on the globe, how it is shaped, its mountains, plains, plateaus, rivers, coasts and islands. For UPSC Prelims you must know names, directions and a few key numbers. This explainer teaches the durable facts you can rely on in the exam."
+      },
+      {
+        type: "heading",
+        text: "1. Location and Extent"
+      },
+      {
+        type: "keypoints",
+        title: "Fix these numbers in your memory",
+        items: ["India lies between latitudes 8°4'N and 37°6'N, and longitudes 68°7'E and 97°25'E.", "The Tropic of Cancer (about 23.5°N) divides India almost into two halves and passes through 8 states.", "India's Standard Meridian is 82°30'E, passing through Mirzapur near Prayagraj in Uttar Pradesh. Indian Standard Time (IST) is 5 hours 30 minutes ahead of GMT.", "India is the 7th largest country in the world by area, covering about 3.28 million sq km (about 2.4% of world land area)."]
+      },
+      {
+        type: "example",
+        title: "The 8 states the Tropic of Cancer passes through",
+        lines: ["From west to east: Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura, Mizoram.", "A common memory hook: 'Ganga Ram Made Chennai Journey West To Mizoram' (first letters).", "Note: it does NOT pass through Maharashtra or Odisha, a favourite trap in exams."]
+      },
+      {
+        type: "heading",
+        text: "2. The Physiographic Divisions"
+      },
+      {
+        type: "para",
+        text: "Geographers divide India into six major physical (physiographic) divisions. Learn them as a list, because Prelims often asks you to match a feature to its division."
+      },
+      {
+        type: "steps",
+        title: "The six physiographic divisions of India",
+        items: ["The Northern and North-Eastern Mountains (the Himalayas).", "The Northern Plains (Indo-Gangetic-Brahmaputra plains).", "The Peninsular Plateau (the oldest landmass).", "The Indian Desert (the Thar, in the west).", "The Coastal Plains (western and eastern coasts).", "The Islands (Andaman & Nicobar in the Bay of Bengal, Lakshadweep in the Arabian Sea)."]
+      },
+      {
+        type: "heading",
+        text: "3. The Himalayas — a young fold wall"
+      },
+      {
+        type: "para",
+        text: "The Himalayas are young fold mountains, formed when the Indian plate pushed into the Eurasian plate. They are still rising slowly. Learn them in two ways: from south to north (by height) and from west to east (by region)."
+      },
+      {
+        type: "table",
+        headers: ["Range (south to north)", "Also called", "Key point"],
+        rows: [
+          ["Shiwaliks", "Outer Himalayas", "Lowest; longitudinal valleys called 'Duns' (e.g. Dehra Dun)"],
+          ["Lesser Himalayas", "Himachal", "Famous hill stations: Shimla, Mussoorie, Nainital"],
+          ["Greater Himalayas", "Himadri", "Highest and continuous; holds the tallest peaks and glaciers"],
+          ["Trans-Himalayas", "Tibetan/Karakoram side", "North of Himadri; includes the Karakoram range"]
+        ]
+      },
+      {
+        type: "callout",
+        tone: "tip",
+        text: "Kanchenjunga (about 8,586 m, in Sikkim) is the highest peak located within India. Mount Everest is the world's highest but lies in Nepal; K2 (Godwin-Austen) is in the Karakoram in the Pakistan-administered region. Do not confuse 'highest in the world' with 'highest in India'."
+      },
+      {
+        type: "para",
+        text: "From west to east, the Himalayas are divided by rivers into: Punjab (Kashmir) Himalayas, Kumaon Himalayas, Nepal Himalayas, and Assam Himalayas. The Eastern hills and mountains (Purvachal) — such as the Patkai, Naga, Manipur and Mizo hills — curve southward along India's eastern border."
+      },
+      {
+        type: "heading",
+        text: "4. Northern Plains and the Peninsular Plateau"
+      },
+      {
+        type: "keypoints",
+        title: "Northern Plains — a young carpet of soil",
+        items: ["Formed by alluvium (river-deposited soil) from the Indus, Ganga and Brahmaputra systems. Very fertile, densely populated.", "Bhabar: a narrow belt of pebbles at the foot of the hills where streams disappear underground.", "Terai: the marshy, re-emerged water belt just south of the Bhabar.", "Bhangar: older alluvium, slightly raised, less fertile. Khadar: newer alluvium of flood plains, most fertile."]
+      },
+      {
+        type: "para",
+        text: "The Peninsular Plateau is the oldest and most stable part of India, made of hard igneous and metamorphic rock, and was once part of the ancient landmass Gondwana. Its two broad parts are the Central Highlands (north of the Narmada) and the Deccan Plateau (south of the Narmada). It is bordered by the Western Ghats and the Eastern Ghats."
+      },
+      {
+        type: "table",
+        headers: ["Feature", "Western Ghats (Sahyadri)", "Eastern Ghats"],
+        rows: [
+          ["Continuity", "Continuous, can be crossed only through passes", "Broken and discontinuous, cut by rivers"],
+          ["Height", "Higher (average about 900-1600 m)", "Lower (average about 600 m)"],
+          ["Highest peak", "Anamudi (about 2,695 m), in Kerala", "Jindhagada Peak / Arma Konda (about 1,690 m), Andhra Pradesh; much lower"],
+          ["Rainfall", "Cause heavy rain on the windward (west) side", "Drier"]
+        ]
+      },
+      {
+        type: "heading",
+        text: "5. The River Systems"
+      },
+      {
+        type: "para",
+        text: "India's rivers fall into two families. Himalayan rivers are perennial (they flow all year) because they are fed by both rain and melting snow, and they often make large deltas. Peninsular rivers are mostly rain-fed and seasonal, and flow in fixed, older valleys."
+      },
+      {
+        type: "callout",
+        tone: "info",
+        text: "Direction rule for peninsular rivers: MOST flow east into the Bay of Bengal and form deltas — Mahanadi, Godavari, Krishna, Kaveri. The exceptions are the Narmada and Tapi, which flow WEST through rift valleys into the Arabian Sea and form estuaries, not deltas."
+      },
+      {
+        type: "keypoints",
+        title: "River facts worth memorising",
+        items: ["The three great Himalayan systems are the Indus, the Ganga and the Brahmaputra.", "The Godavari is the largest peninsular river and is nicknamed the 'Dakshin Ganga' (Ganga of the South).", "The Brahmaputra is called the Tsangpo in Tibet and the Jamuna in Bangladesh (do not confuse this with the Yamuna).", "The Narmada and Tapi flow west in rift valleys (down-dropped land between faults) — a classic Prelims point."]
+      },
+      {
+        type: "analogy",
+        title: "Why peninsular rivers don't wander",
+        text: "Think of the old Peninsular Plateau as dried, hardened clay and the Northern Plains as fresh soft mud. A stick dragged through hard clay stays in its groove — that is why peninsular rivers keep to fixed valleys and don't change course much. A stick in soft mud slides around easily — that is why Himalayan rivers on the young plains keep shifting, flooding and building big deltas."
+      },
+      {
+        type: "callout",
+        tone: "warn",
+        text: "Exam trap: do not mix up 'oldest' and 'highest'. The Peninsular Plateau is the OLDEST landmass but is low and worn down. The Himalayas are the YOUNGEST but the tallest. Age and height are opposite here."
+      },
+      {
+        type: "quiz",
+        question: "Which pair of Indian rivers flows westward through rift valleys into the Arabian Sea?",
+        options: ["Godavari and Krishna", "Narmada and Tapi", "Mahanadi and Kaveri", "Ganga and Yamuna"],
+        correct: 1,
+        explain: "The Narmada and the Tapi are the two major peninsular rivers that flow WEST through rift valleys and drain into the Arabian Sea, forming estuaries. Almost all other major peninsular rivers (Mahanadi, Godavari, Krishna, Kaveri) flow east into the Bay of Bengal and form deltas."
+      }
+    ]
+  },
+  {
+    slug: "upsc-indian-climate-rivers-monsoon",
+    title: "Indian Climate, Rivers & Monsoon — UPSC Geography Made Simple",
+    summary: "Learn how India's monsoon works, why the summer winds reverse and split into two branches, what El Niño and IOD do to the rain, and how the Himalayan and Peninsular river families differ.",
+    examSlug: "upsc",
+    subjectSlug: "geography",
+    chapterSlug: "climate-rivers",
+    readingMinutes: 8,
+    practiceTestSlug: "upsc-climate-rivers-practice-1",
+    blocks: [
+      {
+        type: "para",
+        text: "Think of India as a house with a giant air conditioner that switches on only for a few months each year. For most of the year the land is dry. Then, around June, moist ocean winds rush in and it rains almost everywhere. This seasonal switch is the monsoon, and it shapes India's farming, rivers, and daily life. In this lesson you will learn how India's climate works, what drives the monsoon, and how the two great river families flow."
+      },
+      {
+        type: "heading",
+        text: "India's Climate: One Word — Monsoon"
+      },
+      {
+        type: "para",
+        text: "India has a tropical monsoon climate. The word \"monsoon\" comes from the Arabic word \"mausim\", meaning season. The key idea is a seasonal reversal of winds: in summer, winds blow from sea to land bringing rain; in winter, winds blow from land to sea and are dry. This reversal happens because land heats and cools faster than the ocean."
+      },
+      {
+        type: "analogy",
+        title: "Why the wind reverses",
+        text: "Sand at a beach gets hot fast in the day and cools fast at night, but the sea stays steady. In summer, India's land heats up and the hot air rises, leaving low pressure. Cooler, wetter air from the ocean rushes in to fill the gap — that is the rain-bringing summer monsoon. In winter the land is colder than the sea, so the wind blows the other way, out to sea, staying dry."
+      },
+      {
+        type: "heading",
+        text: "The Four Seasons of India"
+      },
+      {
+        type: "table",
+        headers: ["Season", "Months", "What happens"],
+        rows: [
+          ["Winter (Cold weather)", "December–February", "Clear dry skies; western disturbances bring rain/snow to NW India"],
+          ["Summer (Hot weather)", "March–May", "Very hot; dry winds called 'Loo' in the north; local storms"],
+          ["Southwest Monsoon (Rainy)", "June–September", "Main rainy season; brings about 75% of India's yearly rain"],
+          ["Retreating Monsoon (Post-monsoon)", "October–November", "Monsoon withdraws; rain to Tamil Nadu and the Coromandel coast"]
+        ]
+      },
+      {
+        type: "heading",
+        text: "The Southwest Monsoon: Two Branches"
+      },
+      {
+        type: "para",
+        text: "When the summer monsoon arrives (\"onset\") over Kerala around the 1st of June, it splits into two arms because of India's shape. Understanding these two branches explains why some places get flooded and others stay dry."
+      },
+      {
+        type: "steps",
+        title: "How the two branches work",
+        items: ["The Arabian Sea branch hits the Western Ghats, rises, and dumps heavy rain on the west coast (Kerala, Konkan). The dry side (rain shadow) east of the Ghats gets little rain.", "The Bay of Bengal branch moves up the bay and is turned by the Himalayas towards the northwest, watering the Ganga plains.", "Mawsynram and Cherrapunji in Meghalaya get the heaviest rain because hills funnel and lift the moist Bay branch.", "Both branches meet over the northwest, and the monsoon slowly covers the whole country by mid-July."]
+      },
+      {
+        type: "callout",
+        tone: "info",
+        text: "Rain shadow: when air rises over a mountain it loses its moisture on the windward side. The far (leeward) side stays dry. This is why places just east of the Western Ghats, like parts of interior Karnataka, are dry."
+      },
+      {
+        type: "heading",
+        text: "Global Controls: El Niño, La Niña and IOD"
+      },
+      {
+        type: "para",
+        text: "The monsoon is not the same strength every year. Some faraway ocean patterns can weaken or strengthen it. These are favourite Prelims topics, so learn the direction of the effect."
+      },
+      {
+        type: "keypoints",
+        title: "Factors that affect monsoon strength",
+        items: ["El Niño (warm central/eastern Pacific Ocean) is usually linked to a weaker Indian monsoon and drought risk.", "La Niña (cooler Pacific) is usually linked to a stronger, wetter monsoon.", "Indian Ocean Dipole (IOD): a positive IOD (warm western Indian Ocean) generally helps the monsoon; a negative IOD can weaken it.", "Jet streams matter: the subtropical westerly jet retreats and the tropical easterly jet sets up to help monsoon onset.", "The ITCZ (a low-pressure rain belt near the equator) shifting north over India helps pull in the monsoon winds."]
+      },
+      {
+        type: "heading",
+        text: "Local Winds and Special Rains"
+      },
+      {
+        type: "table",
+        headers: ["Name", "Where", "What it is"],
+        rows: [
+          ["Loo", "North India plains", "Hot, dry, strong daytime wind in May–June"],
+          ["Mango showers", "Kerala & Karnataka", "Pre-monsoon rain that helps ripen mangoes"],
+          ["Kalbaisakhi / Nor'westers", "West Bengal, Assam", "Violent evening thunderstorms before the monsoon"],
+          ["Western disturbances", "NW India (Punjab, J&K)", "Winter rain/snow from storms coming from the Mediterranean"]
+        ]
+      },
+      {
+        type: "heading",
+        text: "The Rivers: Two Families"
+      },
+      {
+        type: "para",
+        text: "India's rivers fall into two big groups. Himalayan rivers are fed by both rain and melting snow, so they flow all year (perennial). Peninsular rivers depend mostly on the monsoon rain, so they shrink a lot in the dry season (seasonal). Knowing this split, and each river's source, is heavily tested."
+      },
+      {
+        type: "table",
+        headers: ["Feature", "Himalayan rivers", "Peninsular rivers"],
+        rows: [
+          ["Water source", "Rain + snowmelt (perennial)", "Mostly rain (seasonal)"],
+          ["Examples", "Indus, Ganga, Brahmaputra", "Godavari, Krishna, Cauvery, Mahanadi, Narmada, Tapi"],
+          ["River course", "Long, with big meanders and deltas", "Shorter, fixed valleys"],
+          ["Age of valley", "Young, still cutting deep gorges", "Old, mature, shallow valleys"]
+        ]
+      },
+      {
+        type: "keypoints",
+        title: "Must-remember river facts",
+        items: ["The Indus, Ganga and Brahmaputra all rise in the Himalayan region near Tibet; the Brahmaputra is called the Tsangpo in Tibet.", "The Ganga is formed at Devprayag where the Bhagirathi (from Gangotri) meets the Alaknanda; the Yamuna is its longest tributary.", "The Godavari is the largest peninsular river and is called the 'Dakshina Ganga' (Ganga of the South); it rises near Trimbak in Nashik, Maharashtra.", "Most peninsular rivers flow east into the Bay of Bengal and form deltas.", "The Narmada and the Tapi are the main exceptions: they flow west into the Arabian Sea through rift valleys and form estuaries, not deltas."]
+      },
+      {
+        type: "callout",
+        tone: "tip",
+        text: "Exam memory hook: 'West-flowing rivers make estuaries, east-flowing rivers make deltas.' The two big west-flowing peninsular rivers are Narmada and Tapi — remember them as the odd pair."
+      },
+      {
+        type: "quiz",
+        question: "Which single statement is correct for UPSC Prelims?",
+        options: ["The Narmada and Tapi flow east and form large deltas", "El Niño years are usually linked to a stronger Indian monsoon", "The Godavari is the largest peninsular river and flows east into the Bay of Bengal", "The southwest monsoon withdraws from India in June"],
+        correct: 2,
+        explain: "The Godavari is the largest peninsular river, flows east, and is called the Dakshina Ganga. Narmada and Tapi flow WEST and form estuaries (not deltas). El Niño usually WEAKENS the monsoon. The southwest monsoon ARRIVES (not withdraws) around June; it retreats in October–November."
+      }
+    ]
+  },
+  {
+    slug: "upsc-basic-economic-concepts",
+    title: "Basic Economic Concepts for UPSC Prelims — Scarcity, Factors, Sectors and GDP Made Simple",
+    summary: "Learn the core ideas of economics tested in UPSC Prelims: scarcity, opportunity cost, factors of production, economic sectors, GDP/GNP, and economic systems.",
+    examSlug: "upsc",
+    subjectSlug: "indian-economy",
+    chapterSlug: "economic-concepts",
+    readingMinutes: 7,
+    practiceTestSlug: "upsc-economic-concepts-practice-1",
+    blocks: [
+      {
+        type: "para",
+        text: "Every day you make choices with limited money, time, and energy. You cannot buy everything, so you pick what matters most. Economics is simply the study of how people and countries make these choices when they cannot have it all. This chapter builds the base vocabulary that UPSC uses in almost every economy question."
+      },
+      {
+        type: "analogy",
+        title: "The tiffin box",
+        text: "Think of your resources like a small tiffin box. It can hold only so much food. If you fill it with rice, there is less room for vegetables. Choosing more of one thing always means giving up some of another. This 'giving up' is the heart of economics."
+      },
+      {
+        type: "heading",
+        text: "Scarcity and Opportunity Cost"
+      },
+      {
+        type: "para",
+        text: "Scarcity means our wants are unlimited but resources are limited. Because of scarcity, we must choose. Opportunity cost is the value of the next best option you give up when you make a choice. If a farmer uses land to grow wheat instead of sugarcane, the sugarcane he could have grown is his opportunity cost."
+      },
+      {
+        type: "callout",
+        tone: "tip",
+        text: "Opportunity cost is not money spent. It is the best alternative you sacrificed. Every choice has one, even 'free' things like your study time."
+      },
+      {
+        type: "heading",
+        text: "The Four Factors of Production"
+      },
+      {
+        type: "para",
+        text: "To produce any good or service, a country uses four resources called factors of production. Each factor earns a reward when it is used."
+      },
+      {
+        type: "table",
+        headers: ["Factor", "Simple meaning", "Its reward"],
+        rows: [
+          ["Land", "Natural resources: soil, water, minerals", "Rent"],
+          ["Labour", "Human physical and mental effort", "Wages"],
+          ["Capital", "Machines, tools, money used to produce", "Interest"],
+          ["Entrepreneurship", "The person who organises and takes risk", "Profit"]
+        ]
+      },
+      {
+        type: "heading",
+        text: "The Three (and Fourth) Sectors of the Economy"
+      },
+      {
+        type: "para",
+        text: "Economists group all economic activity into sectors based on what kind of work is done. UPSC often asks which sector an activity belongs to."
+      },
+      {
+        type: "keypoints",
+        title: "Know the sectors",
+        items: ["Primary sector: gets products directly from nature - farming, fishing, mining, forestry.", "Secondary sector: turns raw materials into finished goods - manufacturing, construction, factories.", "Tertiary sector: provides services, not goods - banking, transport, teaching, trade.", "Quaternary sector: knowledge-based services like IT, research and education (a modern addition some economists use)."]
+      },
+      {
+        type: "heading",
+        text: "Micro vs Macro Economics"
+      },
+      {
+        type: "para",
+        text: "Microeconomics studies small, individual units - a single consumer, one firm, or the price of one good. Macroeconomics studies the whole economy together - total output, national income, inflation, and unemployment. A useful memory hook: 'micro' looks at a tree, 'macro' looks at the whole forest."
+      },
+      {
+        type: "heading",
+        text: "Measuring the Economy: GDP and Its Family"
+      },
+      {
+        type: "para",
+        text: "To measure how much an economy produces, we use national income terms. Learn them as one connected family, not as separate items. 'Domestic' means inside the country's borders; 'National' means by the country's residents, including their income earned abroad."
+      },
+      {
+        type: "steps",
+        title: "Build the terms step by step",
+        items: ["GDP = value of all final goods and services produced inside the country in a year.", "GNP = GDP + Net Factor Income from Abroad (income residents earn abroad minus income foreigners earn in India).", "NNP = GNP - Depreciation (the wear and tear of machines).", "National Income = NNP at factor cost, the standard measure of a nation's income."]
+      },
+      {
+        type: "example",
+        title: "Market price vs factor cost",
+        lines: ["Market price is what you pay in the shop.", "Factor cost is what the producer actually receives.", "Factor cost = Market price - Indirect taxes + Subsidies.", "Example: a good sells for Rs 100 including Rs 18 tax and no subsidy; the factor cost the producer gets is Rs 82."]
+      },
+      {
+        type: "callout",
+        tone: "warn",
+        text: "Do not mix them up: NDP = GDP - Depreciation, while NNP = GNP - Depreciation. The only difference is Domestic vs National (whether net foreign income is included)."
+      },
+      {
+        type: "heading",
+        text: "Types of Economic Systems"
+      },
+      {
+        type: "para",
+        text: "How a country decides what to produce and for whom defines its economic system. A market economy lets prices and private choice decide (like the USA). A planned or command economy lets the government decide (like the former USSR). A mixed economy blends both - India follows a mixed economy where private business and government both play a role."
+      },
+      {
+        type: "keypoints",
+        title: "Must-remember basics",
+        items: ["Scarcity forces choice; every choice carries an opportunity cost.", "Four factors: Land-Rent, Labour-Wages, Capital-Interest, Entrepreneur-Profit.", "Primary = nature, Secondary = making goods, Tertiary = services.", "GDP is domestic output; add net foreign income to get GNP.", "Subtract depreciation to move from 'Gross' to 'Net'.", "India is a mixed economy."]
+      },
+      {
+        type: "quiz",
+        question: "In national income accounting, how is Gross National Product (GNP) obtained from Gross Domestic Product (GDP)?",
+        options: ["GNP = GDP - Depreciation", "GNP = GDP + Net Factor Income from Abroad", "GNP = GDP + Indirect Taxes", "GNP = GDP - Subsidies"],
+        correct: 1,
+        explain: "GNP adds Net Factor Income from Abroad (income residents earn abroad minus income foreigners earn domestically) to GDP. Subtracting depreciation from GDP gives NDP, and from GNP gives NNP - so option A is wrong."
+      }
+    ]
+  },
+  {
+    slug: "upsc-banking-money-fiscal-policy",
+    title: "Banking, Money & Fiscal Policy — RBI Tools, MPC & Deficits Made Simple",
+    summary: "Learn how RBI's monetary policy (repo rate, CRR, SLR, MPC) and the government's fiscal policy (deficits, FRBM) steer India's economy, as tested in UPSC Prelims.",
+    examSlug: "upsc",
+    subjectSlug: "indian-economy",
+    chapterSlug: "banking-fiscal-policy",
+    readingMinutes: 8,
+    practiceTestSlug: "upsc-banking-fiscal-practice-1",
+    blocks: [
+      {
+        type: "para",
+        text: "Think of the Indian economy like a car on a highway. Money is the fuel, and someone has to control the speed. Press too hard and it overheats (high inflation). Go too slow and it stalls (recession, no jobs). Two different drivers share the controls: the Reserve Bank of India (RBI) handles monetary policy, and the Government handles fiscal policy. This chapter teaches you how each one steers, and the exact tools they use."
+      },
+      {
+        type: "heading",
+        text: "Two drivers, two toolkits"
+      },
+      {
+        type: "para",
+        text: "First, get this basic split clear, because UPSC loves to test it. Monetary policy is about the supply and cost of money in the economy. It is run by the RBI. Fiscal policy is about the government's taxes and spending. It is run by the Ministry of Finance (the Union Budget). Do not mix them up."
+      },
+      {
+        type: "table",
+        headers: ["Point", "Monetary Policy", "Fiscal Policy"],
+        rows: [
+          ["Who runs it", "RBI (central bank)", "Government (Ministry of Finance)"],
+          ["Main tools", "Repo rate, CRR, SLR, OMO", "Taxes and public spending"],
+          ["Shown in", "RBI policy statements", "Union Budget"],
+          ["Main goal", "Control inflation, ensure growth", "Growth, jobs, redistribution"]
+        ]
+      },
+      {
+        type: "heading",
+        text: "The RBI: India's central bank"
+      },
+      {
+        type: "para",
+        text: "The RBI was established in 1935 on the recommendation of the Hilton Young Commission (the Royal Commission on Indian Currency and Finance). It was nationalised in 1949, so it is now owned by the government. The RBI is the banker to the government, the banker to other banks, the issuer of currency notes (except the one-rupee note and coins, which the Ministry of Finance issues), and the manager of monetary policy."
+      },
+      {
+        type: "heading",
+        text: "How RBI controls money: the key rates"
+      },
+      {
+        type: "keypoints",
+        title: "The tools every aspirant must know",
+        items: ["Repo rate: the rate at which RBI lends short-term money to banks against government securities. Raise it and loans become costlier, slowing the economy.", "Reverse repo rate: the rate at which RBI borrows from banks (absorbs extra money).", "CRR (Cash Reserve Ratio): the share of a bank's deposits it must keep with the RBI as cash. RBI pays no interest on it.", "SLR (Statutory Liquidity Ratio): the share of deposits a bank must keep in safe liquid assets like cash, gold, or government securities, held by the bank itself.", "MSF (Marginal Standing Facility): an emergency window where banks borrow overnight from RBI, at a rate slightly above the repo rate.", "OMO (Open Market Operations): RBI buys or sells government securities in the market to add or remove money."]
+      },
+      {
+        type: "analogy",
+        title: "CRR vs SLR made simple",
+        text: "Imagine a bank must keep some savings aside for safety. CRR is the part it must park with the RBI as pure cash (like money locked in the RBI's vault). SLR is the part it keeps with itself but only in safe forms like cash, gold, or government bonds. CRR earns no interest; SLR assets can. Both reduce how much the bank can lend out."
+      },
+      {
+        type: "heading",
+        text: "Easy money vs tight money"
+      },
+      {
+        type: "para",
+        text: "When RBI wants to boost growth, it makes borrowing cheaper: it cuts the repo rate, CRR, and SLR. More money flows out, loans get cheaper. This is expansionary or easy monetary policy. When inflation is high, RBI does the opposite: it raises the repo rate, CRR, and SLR to pull money back. This is contractionary or tight monetary policy."
+      },
+      {
+        type: "callout",
+        tone: "tip",
+        text: "Simple memory rule: Rates UP = money tighter = fights inflation. Rates DOWN = money cheaper = boosts growth. If a question mentions RBI cutting the repo rate, it is trying to encourage borrowing and spending."
+      },
+      {
+        type: "heading",
+        text: "Who decides the repo rate? The MPC"
+      },
+      {
+        type: "para",
+        text: "Since 2016, the repo rate is set by the Monetary Policy Committee (MPC), created by an amendment to the RBI Act. The MPC has six members: three from the RBI (including the Governor, who chairs it and has a casting vote in a tie) and three experts appointed by the central government. Its job is to keep retail inflation, measured by the Consumer Price Index (CPI), at a target of 4 percent, with a tolerance band of plus or minus 2 percent (that is, 2 to 6 percent)."
+      },
+      {
+        type: "callout",
+        tone: "info",
+        text: "Note the difference: CPI (Consumer Price Index) measures retail prices paid by consumers and is the target for monetary policy. WPI (Wholesale Price Index) measures wholesale prices. The MPC targets CPI inflation, not WPI."
+      },
+      {
+        type: "heading",
+        text: "Measuring money: M1 and M3"
+      },
+      {
+        type: "para",
+        text: "The RBI measures the total money in the economy using money-supply measures. The two most tested are M1 (narrow money) and M3 (broad money). M1 is the most liquid: currency held by the public, plus demand deposits (money you can withdraw anytime), plus other deposits with the RBI. M3 is broader: it is M1 plus time deposits (like fixed deposits). M3 is the figure most watched for policy."
+      },
+      {
+        type: "heading",
+        text: "Fiscal policy: the government's side"
+      },
+      {
+        type: "para",
+        text: "Fiscal policy is how the government uses taxes and spending to steer the economy, laid out every year in the Union Budget. When it spends more or cuts taxes to boost demand, that is expansionary fiscal policy. When it spends less or taxes more to cool the economy, that is contractionary. The gap between what the government earns and what it spends creates different types of deficits."
+      },
+      {
+        type: "table",
+        headers: ["Type of Deficit", "Simple meaning"],
+        rows: [
+          ["Fiscal Deficit", "Total expenditure minus total receipts (excluding borrowings). Shows how much the government must borrow."],
+          ["Revenue Deficit", "Revenue expenditure minus revenue receipts. Means the government borrows even for daily running costs."],
+          ["Primary Deficit", "Fiscal deficit minus interest payments. Shows this year's borrowing need excluding interest on past debt."]
+        ]
+      },
+      {
+        type: "callout",
+        tone: "warn",
+        text: "To keep borrowing in check, Parliament passed the FRBM Act (Fiscal Responsibility and Budget Management Act) in 2003. It sets targets to limit the fiscal deficit and bring discipline to government finances."
+      },
+      {
+        type: "keypoints",
+        title: "Rapid revision must-knows",
+        items: ["Monetary policy = RBI. Fiscal policy = Government (Budget).", "RBI set up 1935 (Hilton Young Commission), nationalised 1949.", "Repo up, CRR up, SLR up = tighter money, fights inflation.", "MPC has 6 members, Governor chairs with a casting vote; targets CPI inflation at 4% (+/- 2%).", "CRR is parked with RBI as cash (no interest); SLR is held by the bank in liquid assets.", "Fiscal deficit shows government borrowing; FRBM Act (2003) limits it."]
+      },
+      {
+        type: "quiz",
+        question: "To fight rising inflation, which combination of actions would the RBI most likely take?",
+        options: ["Cut the repo rate and reduce the CRR", "Raise the repo rate and raise the CRR", "Raise the repo rate and reduce the SLR", "Cut the repo rate and raise government spending"],
+        correct: 1,
+        explain: "To fight inflation, the RBI tightens money by making borrowing costlier and pulling cash out of the system, so it raises the repo rate and raises the CRR. Cutting rates (option A) would boost money and worsen inflation. Government spending (option D) is fiscal policy, not the RBI's tool."
+      }
+    ]
+  },
+  {
+    slug: "upsc-ecosystems-biodiversity",
+    title: "Ecosystems & Biodiversity for UPSC Prelims — Energy Flow, Pyramids & Hotspots Made Simple",
+    summary: "Learn how ecosystems work — producers to decomposers, the 10% energy law, ecological pyramids, and biodiversity levels, hotspots, and conservation for UPSC Prelims.",
+    examSlug: "upsc",
+    subjectSlug: "environment-ecology",
+    chapterSlug: "ecosystems-biodiversity",
+    readingMinutes: 8,
+    practiceTestSlug: "upsc-ecosystems-practice-1",
+    blocks: [
+      {
+        type: "para",
+        text: "Think of a pond near your village. The sunlight, water, and mud are non-living. The algae, fish, frogs, and tiny microbes are living. None of them survives alone. The algae make food from sunlight, the fish eat the algae, and when things die, microbes break them down and return the nutrients to the mud. This whole working unit of living things plus their non-living surroundings is an ecosystem. This chapter shows you how energy and life move through it, and why saving variety of life matters."
+      },
+      {
+        type: "heading",
+        text: "What an ecosystem is made of"
+      },
+      {
+        type: "para",
+        text: "An ecosystem has two kinds of parts. Abiotic (non-living) parts are things like sunlight, temperature, water, air, and soil minerals. Biotic (living) parts are all the organisms. The living parts are grouped by the job they do, not by their size. Getting these jobs clear is the base for everything else in this chapter."
+      },
+      {
+        type: "table",
+        headers: ["Group", "Job (function)", "Examples"],
+        rows: [
+          ["Producers (autotrophs)", "Make their own food using sunlight (photosynthesis)", "Green plants, algae"],
+          ["Consumers (heterotrophs)", "Eat other organisms for food", "Herbivores, carnivores"],
+          ["Decomposers", "Break down dead matter, return nutrients to soil", "Bacteria, fungi"]
+        ]
+      },
+      {
+        type: "keypoints",
+        title: "Consumers by rank",
+        items: ["Primary consumers = herbivores (eat plants), e.g. deer, grasshopper.", "Secondary consumers = eat herbivores, e.g. frog, small snake.", "Tertiary / top consumers = eat other carnivores, e.g. eagle, tiger.", "Detritivores (like earthworms) feed directly on dead matter, while decomposers (bacteria, fungi) break it down chemically; both recycle nutrients and keep the cycle running."]
+      },
+      {
+        type: "heading",
+        text: "Energy flow and the 10% rule"
+      },
+      {
+        type: "para",
+        text: "A food chain shows who eats whom, step by step: grass to grasshopper to frog to snake to eagle. Each feeding step is called a trophic level. Producers are the first trophic level. Energy enters as sunlight, gets fixed by producers, and passes upward. But this flow leaks a lot at every step."
+      },
+      {
+        type: "analogy",
+        title: "A leaking bucket line",
+        text: "Imagine people passing water up a hill in buckets, but each person spills 90% and hands only 10% to the next. By the top, almost nothing is left. Energy in an ecosystem works the same way. This is why food chains are usually short (4 to 5 links) and why top predators are few."
+      },
+      {
+        type: "callout",
+        tone: "tip",
+        text: "Lindeman's 10% law: only about 10% of the energy at one trophic level is passed to the next. The other 90% is lost mostly as heat and used for the organism's own life processes."
+      },
+      {
+        type: "keypoints",
+        title: "Two must-remember rules",
+        items: ["Energy flow is one-way (unidirectional): sun to producers to consumers. It does not cycle back.", "Nutrients (like carbon, nitrogen) DO cycle: decomposers return them to the soil to be used again.", "A food web is many food chains linked together, which makes an ecosystem more stable."]
+      },
+      {
+        type: "heading",
+        text: "Ecological pyramids"
+      },
+      {
+        type: "para",
+        text: "An ecological pyramid is a simple bar-diagram of trophic levels stacked up, showing number, biomass (living weight), or energy at each level. The key exam point is which pyramids can flip upside down and which cannot."
+      },
+      {
+        type: "table",
+        headers: ["Pyramid type", "Shape", "Note"],
+        rows: [
+          ["Energy", "Always upright", "Because of the 10% loss at each step"],
+          ["Numbers", "Usually upright, can be inverted", "One big tree feeds many insects = inverted"],
+          ["Biomass", "Usually upright, can be inverted", "In oceans, tiny fast-growing plankton support larger fish = inverted"]
+        ]
+      },
+      {
+        type: "heading",
+        text: "Biodiversity: the variety of life"
+      },
+      {
+        type: "para",
+        text: "Biodiversity means the variety of living things. It is measured at three levels. Genetic diversity is variety within one species (like many varieties of rice). Species diversity is the number of different species in an area. Ecosystem diversity is the variety of habitats, such as forests, wetlands, deserts, and grasslands in a region."
+      },
+      {
+        type: "keypoints",
+        title: "Terms UPSC loves to test",
+        items: ["Endemic species: found only in one place and nowhere else on Earth (e.g. Nilgiri tahr).", "Keystone species: has a very large effect on its ecosystem relative to its numbers; removing it can collapse the system.", "Ecotone: the transition zone where two ecosystems meet (like where a forest meets a grassland); often rich in species (edge effect).", "Ecological niche: the exact role and position of a species in its ecosystem."]
+      },
+      {
+        type: "heading",
+        text: "Biodiversity hotspots and India"
+      },
+      {
+        type: "para",
+        text: "A biodiversity hotspot is a region that is extremely rich in species yet badly threatened. To qualify, a region must have at least 1,500 endemic species of vascular plants and must have already lost 70% or more of its original natural habitat. India has four hotspots: the Himalaya, the Western Ghats and Sri Lanka, the Indo-Burma region, and Sundaland (which includes the Nicobar Islands)."
+      },
+      {
+        type: "heading",
+        text: "How we conserve biodiversity"
+      },
+      {
+        type: "para",
+        text: "Conservation is done in two broad ways. In-situ means protecting species in their natural home. Ex-situ means protecting them outside their natural home. Both are needed together."
+      },
+      {
+        type: "table",
+        headers: ["Approach", "Meaning", "Examples"],
+        rows: [
+          ["In-situ", "Protect in the natural habitat", "National Parks, Wildlife Sanctuaries, Biosphere Reserves"],
+          ["Ex-situ", "Protect away from the natural habitat", "Zoos, Botanical Gardens, Seed / Gene Banks"]
+        ]
+      },
+      {
+        type: "callout",
+        tone: "info",
+        text: "India's first Biosphere Reserve was Nilgiri, set up in 1986. Biosphere Reserves have a strictly protected core zone, a buffer zone around it, and an outer transition zone where limited human activity is allowed."
+      },
+      {
+        type: "quiz",
+        question: "According to Lindeman's 10% law, roughly how much energy passes from one trophic level to the next, and why is the energy pyramid always upright?",
+        options: ["About 90% passes up; the pyramid is upright because energy is created at each level", "About 10% passes up; the pyramid is upright because energy is lost at each step", "About 50% passes up; the pyramid can be inverted like the biomass pyramid", "About 10% passes up; the pyramid is upright because nutrients cycle back"],
+        correct: 1,
+        explain: "Only about 10% of energy moves to the next trophic level; the rest (about 90%) is lost mainly as heat and in life processes. Because energy shrinks at every step, the pyramid of energy is ALWAYS upright. Nutrients do cycle, but that is a separate fact and not the reason the energy pyramid stays upright."
+      }
+    ]
+  },
+  {
+    slug: "upsc-climate-change-conservation",
+    title: "Climate Change & Conservation — Treaties, Gases & India's Action, Made Simple",
+    summary: "Understand the greenhouse effect, the main greenhouse gases, the global climate treaties from UNFCCC to Paris, ozone agreements, and India's climate actions.",
+    examSlug: "upsc",
+    subjectSlug: "environment-ecology",
+    chapterSlug: "climate-change-conservation",
+    readingMinutes: 8,
+    practiceTestSlug: "upsc-climate-change-practice-1",
+    blocks: [
+      {
+        type: "analogy",
+        title: "A blanket around the Earth",
+        text: "Imagine sleeping under a thin blanket. It keeps you warm by trapping your body heat. The Earth has a natural 'blanket' too, made of gases in the air. This blanket is good and keeps our planet warm enough to live. But when we add extra gases, the blanket gets thicker. Now too much heat is trapped, and the planet slowly overheats. That extra heating is climate change."
+      },
+      {
+        type: "para",
+        text: "The natural warming is called the greenhouse effect. Sunlight reaches the Earth and warms it. The Earth sends some heat back towards space. Certain gases in the air catch this heat instead of letting it escape. Without them, Earth would be far too cold. The problem today is that humans have added too many of these gases, mainly by burning coal, oil, and gas."
+      },
+      {
+        type: "heading",
+        text: "The main greenhouse gases"
+      },
+      {
+        type: "para",
+        text: "Not every gas traps heat equally. Some are present in large amounts; others are far more powerful per molecule. The strength of a gas is measured by its Global Warming Potential (GWP), compared to carbon dioxide, which is set at 1."
+      },
+      {
+        type: "table",
+        headers: ["Gas", "Main human source", "Note"],
+        rows: [
+          ["Carbon dioxide (CO2)", "Burning coal, oil, gas; deforestation", "Largest total contributor"],
+          ["Methane (CH4)", "Paddy fields, livestock, landfills", "Much stronger than CO2, but shorter-lived"],
+          ["Nitrous oxide (N2O)", "Chemical fertilisers", "Very high warming potential"],
+          ["Fluorinated gases (HFCs etc.)", "Refrigerants, cooling, industry", "Extremely powerful; human-made"]
+        ]
+      },
+      {
+        type: "callout",
+        tone: "tip",
+        text: "Water vapour is also a greenhouse gas, but humans do not directly control it. The gases we act on through treaties are CO2, CH4, N2O, and the fluorinated gases."
+      },
+      {
+        type: "heading",
+        text: "The global agreements — in order"
+      },
+      {
+        type: "para",
+        text: "The world has built a set of treaties, one after another, to control these gases. UPSC loves the sequence and the years. Learn them as a timeline so you never mix them up."
+      },
+      {
+        type: "steps",
+        title: "Climate treaty timeline",
+        items: ["IPCC (1988): The Intergovernmental Panel on Climate Change was set up by WMO and UNEP. It does not make laws; it reviews science and publishes reports.", "UNFCCC (1992): Signed at the Rio Earth Summit; it is the parent framework for all climate talks. Its members meet every year at a 'COP' (Conference of the Parties).", "Kyoto Protocol (1997): The first treaty with binding emission-cut targets, but only for developed (Annex-I) countries.", "Paris Agreement (2015, at COP21): All countries — rich and poor — pledge action through their own voluntary targets called NDCs."]
+      },
+      {
+        type: "para",
+        text: "The Paris Agreement's goal is to keep the global temperature rise well below 2 degrees Celsius above pre-industrial levels, and to try to limit it to 1.5 degrees. Each country submits a Nationally Determined Contribution (NDC) — its own promise of climate action — and updates it over time."
+      },
+      {
+        type: "callout",
+        tone: "info",
+        text: "CBDR-RC means 'Common But Differentiated Responsibilities and Respective Capabilities'. It says all nations must act, but developed countries — who polluted more historically — must do more. This principle runs through the whole UNFCCC process."
+      },
+      {
+        type: "heading",
+        text: "Ozone treaties — related but different"
+      },
+      {
+        type: "para",
+        text: "Do not confuse the ozone layer with climate change. The ozone layer blocks harmful ultraviolet rays. It was being destroyed by chemicals called CFCs. The Montreal Protocol (1987) phased out these ozone-destroying chemicals and is considered very successful. Later, its Kigali Amendment (2016) added a plan to phase down HFCs — gases that do not harm ozone but cause strong warming. So the Kigali Amendment links the ozone treaty to the climate fight."
+      },
+      {
+        type: "heading",
+        text: "India's response"
+      },
+      {
+        type: "keypoints",
+        title: "India's key climate actions",
+        items: ["National Action Plan on Climate Change (NAPCC), 2008 — runs through 8 'National Missions', including the National Solar Mission and the National Mission for Enhanced Energy Efficiency.", "International Solar Alliance (ISA) — launched by India and France in 2015 to promote solar energy, headquartered in India.", "Mission LiFE (Lifestyle for Environment) — India's idea of fighting climate change through mindful, low-waste daily habits.", "Panchamrit — India's five climate commitments announced at COP26 (Glasgow, 2021)."]
+      },
+      {
+        type: "example",
+        title: "India's 'Panchamrit' targets from COP26",
+        lines: ["1. Reach net-zero emissions by the year 2070.", "2. Reach 500 GW of non-fossil (clean) energy capacity by 2030.", "3. Meet 50% of energy needs from renewable sources by 2030.", "4. Cut total projected carbon emissions by 1 billion tonnes by 2030.", "5. Reduce the emissions intensity of GDP by 45% by 2030 (from the 2005 level)."]
+      },
+      {
+        type: "para",
+        text: "Conservation is the other side of the coin. Forests, oceans, and soil absorb CO2 from the air — they act as 'carbon sinks'. When we cut forests, we lose these sinks and release stored carbon. So protecting forests and growing new ones (afforestation) is a direct climate tool. The idea of paying countries to protect forests is known internationally as REDD+."
+      },
+      {
+        type: "callout",
+        tone: "warn",
+        text: "Exam trap: The IPCC does NOT set emission targets or enforce anything. It only assesses science. Targets come from the Kyoto Protocol and the Paris Agreement. Mixing these up is a common mistake."
+      },
+      {
+        type: "quiz",
+        question: "Which statement about the global climate agreements is correct?",
+        options: ["The Kyoto Protocol was the first treaty to set binding emission-cut targets for developed countries.", "The Paris Agreement was signed at the 1992 Rio Earth Summit.", "The IPCC sets and enforces emission targets for all nations.", "The Montreal Protocol was created to control carbon dioxide emissions."],
+        correct: 0,
+        explain: "The Kyoto Protocol (1997) was the first to place binding emission cuts on developed (Annex-I) countries. The Paris Agreement came in 2015, not 1992 (that was the UNFCCC). The IPCC only reviews science; it sets no targets. The Montreal Protocol dealt with ozone-depleting substances like CFCs, not CO2."
+      }
+    ]
+  },
+  {
+    slug: "upsc-general-science",
+    title: "General Science for UPSC Prelims — Physics, Chemistry, Biology Made Simple",
+    summary: "Learn the core everyday-science ideas UPSC Prelims tests most: light, sound, heat, atoms, acids and bases, vitamins, and the human body.",
+    examSlug: "upsc",
+    subjectSlug: "science-technology",
+    chapterSlug: "general-science-upsc",
+    readingMinutes: 8,
+    practiceTestSlug: "upsc-general-science-practice-1",
+    blocks: [
+      {
+        type: "para",
+        text: "UPSC does not ask you to solve hard physics numericals. It asks whether you understand how the everyday world works. Why does a straw look bent in water? Why do we get vitamin D from the sun? What gas makes soda fizzy? This chapter builds the small, solid base of Physics, Chemistry, and Biology that Prelims tests again and again."
+      },
+      {
+        type: "analogy",
+        title: "Science is a toolbox, not a textbook",
+        text: "Think of General Science like the tools in a home. You do not need to know how a screwdriver is made. You just need to know which tool fixes which problem. UPSC works the same way: it tests not deep theory, but knowing which simple idea explains a real event. Learn the tool, not the whole factory."
+      },
+      {
+        type: "heading",
+        text: "Physics: light, sound, and heat"
+      },
+      {
+        type: "para",
+        text: "Physics in Prelims stays close to daily life. Light travels in straight lines and bends (refracts) when it moves from air into water, which is why a straw looks broken in a glass. Sound needs a medium such as air, water, or a solid to travel, so it cannot pass through the vacuum of space. Heat moves in three ways: conduction through solids, convection through liquids and gases, and radiation through empty space, like the Sun's heat reaching Earth."
+      },
+      {
+        type: "keypoints",
+        title: "Physics facts worth memorising",
+        items: ["Light travels far faster than sound. That is why you see lightning before you hear thunder.", "A convex lens converges light and is used in a magnifying glass; a concave lens spreads light out.", "Red light scatters the least and passes through fog well, so it is used for danger and stop signals.", "The sky looks blue because air scatters shorter blue wavelengths more than red (scattering of light).", "Sound cannot travel in a vacuum, but light can."]
+      },
+      {
+        type: "heading",
+        text: "Chemistry: atoms, acids, and bases"
+      },
+      {
+        type: "para",
+        text: "Everything around you is made of atoms, and atoms join to form molecules. Substances are grouped as acids, bases, or salts. An acid tastes sour (like lemon or vinegar) and a base tastes bitter and feels soapy. We measure how acidic or basic something is on the pH scale, which runs from 0 to 14. Below 7 is acidic, exactly 7 is neutral (like pure water), and above 7 is basic (also called alkaline)."
+      },
+      {
+        type: "table",
+        headers: ["Substance", "Nature", "Everyday example"],
+        rows: [
+          ["Lemon juice, vinegar", "Acidic (pH below 7)", "Sour taste, used in food"],
+          ["Pure water", "Neutral (pH 7)", "Neither sour nor bitter"],
+          ["Baking soda, soap", "Basic / alkaline (pH above 7)", "Bitter, slippery feel"],
+          ["Common salt (NaCl)", "Neutral salt", "Made from acid + base reaction"]
+        ]
+      },
+      {
+        type: "callout",
+        tone: "tip",
+        text: "An easy memory hook: Acids are Angry and sour; Bases are Bitter and soapy. When an acid and a base react, they neutralise each other and form a salt plus water."
+      },
+      {
+        type: "heading",
+        text: "Biology: the body and nutrition"
+      },
+      {
+        type: "para",
+        text: "Biology questions often focus on the human body and food. Your body needs vitamins in small amounts to stay healthy, and a shortage of any one causes a specific disease. Blood carries oxygen using haemoglobin, which needs iron. A lack of iron causes anaemia, leaving a person tired and weak."
+      },
+      {
+        type: "table",
+        headers: ["Vitamin", "Main source", "Deficiency disease"],
+        rows: [
+          ["Vitamin A", "Carrots, green vegetables", "Night blindness"],
+          ["Vitamin C", "Citrus fruits, amla", "Scurvy (bleeding gums)"],
+          ["Vitamin D", "Sunlight, milk", "Rickets in children"],
+          ["Vitamin B1", "Whole grains, pulses", "Beriberi"]
+        ]
+      },
+      {
+        type: "steps",
+        title: "How your body handles the air you breathe",
+        items: ["You breathe in air, which is about 78% nitrogen and 21% oxygen.", "In the lungs, oxygen passes into the blood and binds to haemoglobin.", "Blood carries oxygen to every cell, where it helps release energy from food.", "Cells produce carbon dioxide as waste, which the blood carries back to the lungs.", "You breathe out the carbon dioxide, and the cycle repeats."]
+      },
+      {
+        type: "example",
+        title: "Applying the ideas to a real question",
+        lines: ["Question idea: Why does a person feel breathless at high mountains?", "At high altitude, the air is thinner, so there is less oxygen in each breath.", "The blood carries less oxygen to the cells, causing tiredness and breathlessness.", "This is why climbers often carry oxygen cylinders on very high peaks."]
+      },
+      {
+        type: "keypoints",
+        title: "Must-remember science bullets",
+        items: ["The pH scale runs 0 to 14: below 7 acidic, 7 neutral, above 7 basic.", "Iron deficiency causes anaemia; vitamin C deficiency causes scurvy.", "Photosynthesis in plants takes in carbon dioxide and releases oxygen.", "Water is made of hydrogen and oxygen (H2O); table salt is sodium chloride (NaCl).", "Sound needs a medium to travel; light does not."]
+      },
+      {
+        type: "callout",
+        tone: "info",
+        text: "For Prelims, focus on cause-and-effect: which deficiency causes which disease, which gas does what, and why a common event happens. You rarely need exact numbers beyond a few durable ones like pH 7 for neutral water."
+      },
+      {
+        type: "quiz",
+        question: "A student measures a liquid and finds its pH is 3. What does this tell us?",
+        options: ["The liquid is neutral, like pure water", "The liquid is basic (alkaline), like soap", "The liquid is acidic, like lemon juice", "The liquid has no measurable pH"],
+        correct: 2,
+        explain: "The pH scale runs from 0 to 14. A value of 7 is neutral, above 7 is basic, and below 7 is acidic. Since 3 is well below 7, the liquid is acidic, similar to lemon juice or vinegar."
+      }
+    ]
+  },
+  {
+    slug: "upsc-space-defence-technology",
+    title: "Space & Defence Technology for UPSC Prelims — ISRO, DRDO, Missions & Missiles Made Simple",
+    summary: "Learn the core space and defence facts UPSC tests: ISRO vs DRDO, PSLV/GSLV rockets, key missions like Chandrayaan-3 and Mangalyaan, and India's missiles.",
+    examSlug: "upsc",
+    subjectSlug: "science-technology",
+    chapterSlug: "space-defence-tech",
+    readingMinutes: 8,
+    practiceTestSlug: "upsc-space-defence-practice-1",
+    blocks: [
+      {
+        type: "para",
+        text: "Think of India's science and technology story like a family with two ambitious siblings. One sibling (ISRO) looks up at the sky and dreams of reaching the Moon, Mars, and the Sun. The other sibling (DRDO) looks at the borders and builds the shields and swords that keep the country safe. For UPSC Prelims, you do not need to be an engineer. You need to know WHO built WHAT, and the simple idea behind each machine. This explainer teaches exactly that."
+      },
+      {
+        type: "heading",
+        text: "Part 1: The Two Big Organisations"
+      },
+      {
+        type: "para",
+        text: "Almost every fact in this chapter connects to one of two agencies. ISRO (Indian Space Research Organisation) handles space. It was set up in 1969 and its headquarters is in Bengaluru. Its founding father was Dr. Vikram Sarabhai. DRDO (Defence Research and Development Organisation) handles weapons and defence technology. It was set up in 1958 and its headquarters is in New Delhi."
+      },
+      {
+        type: "heading",
+        text: "Part 2: How Rockets Reach Space"
+      },
+      {
+        type: "analogy",
+        title: "A rocket is a stack of throwaway water bottles",
+        text: "Imagine climbing a hill carrying heavy water bottles. As each bottle empties, you throw it away so you become lighter and climb faster. A rocket works the same way. It is built in 'stages'. When one stage burns all its fuel, it drops off, making the rocket lighter for the next push. This is why rockets are called multi-stage launch vehicles."
+      },
+      {
+        type: "para",
+        text: "India has two main workhorse rockets. Their names tell you their job. PSLV (Polar Satellite Launch Vehicle) places satellites into low, polar orbits close to Earth. It is called ISRO's 'workhorse' because it is very reliable and has launched hundreds of satellites, including foreign ones. GSLV (Geosynchronous Satellite Launch Vehicle) is more powerful and places heavier satellites far away, about 36,000 km up, where they stay fixed over one spot. The most powerful Indian rocket is the LVM3 (earlier called GSLV Mark III)."
+      },
+      {
+        type: "callout",
+        tone: "tip",
+        text: "Cryogenic engine: a special rocket engine that uses super-cold liquid fuels (liquid hydrogen as fuel, liquid oxygen as oxidiser). 'Cryo' means very cold. Mastering this technology is hard, and India is among the few countries that has done it. GSLV uses a cryogenic upper stage."
+      },
+      {
+        type: "table",
+        headers: ["Orbit type", "Height (roughly)", "Used for"],
+        rows: [
+          ["Low Earth Orbit (LEO)", "A few hundred km", "Spy/imaging satellites, space stations"],
+          ["Sun-synchronous (polar)", "~600–800 km", "Remote sensing, weather, mapping"],
+          ["Geostationary (GEO)", "~36,000 km", "TV, communication, weather (stays over one spot)"]
+        ]
+      },
+      {
+        type: "heading",
+        text: "Part 3: India's Famous Space Missions"
+      },
+      {
+        type: "keypoints",
+        title: "Must-remember missions (durable facts)",
+        items: ["Chandrayaan-1 (2008): India's first Moon mission. It helped confirm the presence of water molecules on the Moon.", "Chandrayaan-3 (2023): India made a soft landing near the Moon's SOUTH POLE. India became the FIRST country to land near the south pole, and the 4th country ever to soft-land on the Moon (after USSR, USA, China). Its lander was 'Vikram' and rover was 'Pragyan'.", "Mars Orbiter Mission / Mangalyaan (launched 2013, reached Mars orbit 2014): India became the first country to reach Mars orbit on its very first attempt.", "Aditya-L1: India's first mission to study the Sun, placed at the Lagrange point L1.", "Gaganyaan: India's planned first human spaceflight mission (to send Indians to space)."]
+      },
+      {
+        type: "para",
+        text: "Also know India's satellite families by their job. Communication satellites are the INSAT and GSAT series. Earth-watching (remote sensing) satellites are the IRS series. For navigation, India built its own GPS-like system called NavIC (based on the IRNSS satellites), which gives position information over India and the nearby region."
+      },
+      {
+        type: "heading",
+        text: "Part 4: Defence and Missiles"
+      },
+      {
+        type: "para",
+        text: "India's missile story began with the IGMDP (Integrated Guided Missile Development Programme), started in 1983. Dr. A.P.J. Abdul Kalam led it, which is why he is called the 'Missile Man of India'. The easiest way to remember the missiles is by what they hit."
+      },
+      {
+        type: "table",
+        headers: ["Missile", "Type / Role"],
+        rows: [
+          ["Prithvi", "Surface-to-surface, short range"],
+          ["Agni", "Ballistic missile family, long range (Agni-V is over 5,000 km)"],
+          ["Akash", "Surface-to-air (shoots down enemy aircraft)"],
+          ["Nag", "Anti-tank guided missile"],
+          ["BrahMos", "Supersonic cruise missile (India–Russia joint venture)"]
+        ]
+      },
+      {
+        type: "analogy",
+        title: "Ballistic vs Cruise missile",
+        text: "A ballistic missile is like throwing a stone: you give it a big powered push at the start, then it flies in a high curved (parabolic) path and falls on the target using gravity. A cruise missile is like a self-driven aeroplane: it keeps its engine running the whole flight, cruises low to avoid radar, and steers itself to the target. BrahMos is a cruise missile; Agni is ballistic."
+      },
+      {
+        type: "callout",
+        tone: "info",
+        text: "Mission Shakti (2019) was India's Anti-Satellite (ASAT) test, where India destroyed one of its own satellites in low orbit. This made India the 4th country to have this capability (after USA, Russia, China). Other indigenous defence achievements to know: Tejas (Light Combat Aircraft) and INS Vikrant (India's first indigenously built aircraft carrier)."
+      },
+      {
+        type: "keypoints",
+        title: "Quick revision anchors",
+        items: ["ISRO = space, 1969, Bengaluru, Vikram Sarabhai.", "DRDO = defence, 1958, New Delhi.", "PSLV = polar/low orbits (workhorse); GSLV/LVM3 = heavy, far orbits, cryogenic engine.", "Chandrayaan-3 = near Moon's south pole; Mangalyaan = Mars in first attempt.", "Missile Man = Dr. A.P.J. Abdul Kalam (IGMDP, 1983).", "Agni = ballistic (thrown stone); BrahMos = cruise (self-driven plane)."]
+      },
+      {
+        type: "quiz",
+        question: "Which statement is correct about India's space and defence technology?",
+        options: ["The PSLV uses a cryogenic engine to place heavy satellites into geostationary orbit.", "Chandrayaan-3 made India the first country to soft-land near the Moon's south pole.", "BrahMos is a ballistic missile developed entirely by DRDO alone.", "The IGMDP was headed by Dr. Vikram Sarabhai."],
+        correct: 1,
+        explain: "Chandrayaan-3 (2023) achieved a soft landing near the Moon's south pole, a first for any nation, and made India the 4th country to soft-land on the Moon. The others are wrong: the GSLV (not PSLV) uses the cryogenic engine for heavy geostationary satellites; BrahMos is a supersonic CRUISE missile and a joint venture with Russia; and the IGMDP was led by Dr. A.P.J. Abdul Kalam, while Vikram Sarabhai is linked to ISRO."
+      }
+    ]
+  },
 ];
 
 export const getExplainer = (slug: string) => explainers.find((e) => e.slug === slug);

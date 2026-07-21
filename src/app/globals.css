@@ -72,21 +72,11 @@
   --surface-raised: #ffffff;
 }
 
-/* Dark mode. The token indirection below was always built for this; these are
-   the only five variables that need to change. `prefers-color-scheme` is the
-   default signal and `[data-theme]` overrides it in BOTH directions so an
-   explicit user choice always wins. */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0b1120;
-    --surface: #131c2e;
-    --foreground: #e8ecf4;
-    --muted: #94a3b8;
-    --border: #26324a;
-    --surface-raised: #162034;
-  }
-}
-
+/* Light is the DEFAULT — the site does not follow the OS colour scheme. Dark is
+   opt-in only, via the navbar toggle (which sets data-theme="dark"). We
+   deliberately do NOT switch on `prefers-color-scheme`: students on phones set to
+   system-dark were landing on a dark site they didn't choose, and light reads
+   better for this product. */
 :root[data-theme="dark"] {
   --background: #0b1120;
   --surface: #131c2e;
@@ -126,7 +116,13 @@ body {
 
 html {
   scroll-behavior: smooth;
-  color-scheme: light dark;
+  /* Light by default so native controls (scrollbars, form fields, date pickers)
+     match the page even on a system-dark device. Dark only when opted in. */
+  color-scheme: light;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
 }
 
 /* ────────────────────────────────────────────────────────────

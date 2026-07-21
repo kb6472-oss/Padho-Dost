@@ -1,20 +1,14 @@
 "use client";
 
 import { useSyncExternalStore } from "react";
-import { Monitor, Moon, Sun } from "lucide-react";
+import { Moon, Sun } from "lucide-react";
 
-type Theme = "light" | "dark" | "system";
+type Theme = "light" | "dark";
 
-const ORDER: Theme[] = ["system", "light", "dark"];
-const LABEL: Record<Theme, string> = {
-  system: "Theme: match device",
-  light: "Theme: light",
-  dark: "Theme: dark",
-};
-
-// localStorage is an external store, so it's read through useSyncExternalStore
-// rather than an effect. The local listener set is what makes this tab update
-// on click; the `storage` event keeps other open tabs in sync for free.
+// The site is light by default and does NOT follow the OS colour scheme, so this
+// is a simple two-state switch. localStorage is an external store, read through
+// useSyncExternalStore rather than an effect; the `storage` event keeps other
+// open tabs in sync for free.
 const listeners = new Set<() => void>();
 
 function subscribe(cb: () => void) {
@@ -28,42 +22,41 @@ function subscribe(cb: () => void) {
 
 function getSnapshot(): Theme {
   try {
-    const t = localStorage.getItem("pd_theme");
-    return t === "dark" || t === "light" ? t : "system";
+    return localStorage.getItem("pd_theme") === "dark" ? "dark" : "light";
   } catch {
-    return "system";
+    return "light";
   }
 }
 
-// Server and first paint agree on "system"; the blocking script in layout.tsx
-// has already applied any saved choice to <html>, so nothing visibly flips.
-const getServerSnapshot = (): Theme => "system";
+// Server and first paint agree on light (the default). The blocking script in
+// layout.tsx has already applied a saved dark choice to <html> before paint.
+const getServerSnapshot = (): Theme => "light";
 
 export default function ThemeToggle() {
   const theme = useSyncExternalStore(subscribe, getSnapshot, getServerSnapshot);
 
-  function cycle() {
-    const next = ORDER[(ORDER.indexOf(theme) + 1) % ORDER.length];
+  function toggle() {
     const root = document.documentElement;
-
-    if (next === "system") {
+    if (theme === "dark") {
+      // Back to the default — clear the override entirely.
       root.removeAttribute("data-theme");
       localStorage.removeItem("pd_theme");
     } else {
-      root.setAttribute("data-theme", next);
-      localStorage.setItem("pd_theme", next);
+      root.setAttribute("data-theme", "dark");
+      localStorage.setItem("pd_theme", "dark");
     }
     listeners.forEach((l) => l());
   }
 
-  const Icon = theme === "dark" ? Moon : theme === "light" ? Sun : Monitor;
+  const Icon = theme === "dark" ? Sun : Moon;
+  const label = theme === "dark" ? "Switch to light mode" : "Switch to dark mode";
 
   return (
     <button
       type="button"
-      onClick={cycle}
-      aria-label={LABEL[theme]}
-      title={LABEL[theme]}
+      onClick={toggle}
+      aria-label={label}
+      title={label}
       className="flex h-9 w-9 items-center justify-center rounded-full text-muted transition-colors hover:bg-surface hover:text-foreground"
     >
       <Icon className="h-[18px] w-[18px]" strokeWidth={2} aria-hidden="true" />

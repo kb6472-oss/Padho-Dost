@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { prisma } from "@/lib/prisma";
 import { getDigestDates } from "@/lib/current-affairs";
+import { getSubjectPaths, getChapterPaths } from "@/lib/hubs";
 
 const BASE = "https://padhodost.com";
 
@@ -48,6 +49,23 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.7,
   }));
 
+  // Topic hubs — the subject and chapter pages built from the seeded taxonomy.
+  // These roughly triple the indexable surface (every subject + every chapter
+  // that has questions) and are the core of the Phase 2 organic-growth push.
+  const [subjectPaths, chapterPaths] = await Promise.all([getSubjectPaths(), getChapterPaths()]);
+  const subjectRoutes: MetadataRoute.Sitemap = subjectPaths.map((p) => ({
+    url: `${BASE}/exams/${p.exam}/${p.subject}`,
+    lastModified: now,
+    changeFrequency: "weekly",
+    priority: 0.7,
+  }));
+  const chapterRoutes: MetadataRoute.Sitemap = chapterPaths.map((p) => ({
+    url: `${BASE}/exams/${p.exam}/${p.subject}/${p.chapter}`,
+    lastModified: now,
+    changeFrequency: "weekly",
+    priority: 0.6,
+  }));
+
   // Dated /daily and /gk pages stay EXCLUDED and noindex — a single MCQ each
   // (~40 words) is thin inventory. Re-add once they carry the explanation,
   // related explainers and archive nav (Phase 2 of docs/REDESIGN-PLAN.md).
@@ -65,5 +83,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         }))
       : [];
 
-  return [...staticRoutes, ...examRoutes, ...explainerRoutes, ...caRoutes];
+  return [
+    ...staticRoutes,
+    ...examRoutes,
+    ...subjectRoutes,
+    ...chapterRoutes,
+    ...explainerRoutes,
+    ...caRoutes,
+  ];
 }

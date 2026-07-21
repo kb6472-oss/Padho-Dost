@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getExamWithTests } from "@/lib/data";
+import { getExamSubjects } from "@/lib/hubs";
 import { getSessionUser } from "@/lib/auth";
 import { getExamGoal } from "@/lib/enroll";
 import { getFullMockUnlock, isGrandMock, isSectionTest, type UnlockState } from "@/lib/full-mock";
@@ -129,6 +130,7 @@ export default async function ExamDetailPage({ params }: Props) {
   const unlock = fullMocks.length > 0 ? await getFullMockUnlock(su?.id ?? null, exam.id) : null;
   const goal = await getExamGoal();
   const intro = getExamIntro(slug);
+  const subjects = await getExamSubjects(slug);
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -182,6 +184,33 @@ export default async function ExamDetailPage({ params }: Props) {
           </div>
         </div>
       </div>
+
+      {/* Study by topic — the entry into the subject/chapter hub pages. Also the
+          internal-link path that makes those ~240 pages crawlable. */}
+      {subjects.length > 0 && (
+        <section className="mt-8">
+          <h2 className="font-display text-lg font-bold text-foreground">Study by topic</h2>
+          <div className="mt-3 grid grid-cols-1 gap-3 sm:grid-cols-2">
+            {subjects.map((s) => (
+              <Link
+                key={s.slug}
+                href={`/exams/${slug}/${s.slug}`}
+                className="surface-2 group flex items-center justify-between gap-3 p-4 transition-colors hover:border-brand-300"
+              >
+                <div>
+                  <div className="font-display text-body-lg font-semibold text-foreground">{s.name}</div>
+                  <div className="mt-0.5 text-caption text-muted">
+                    {s.chapters} chapters · {s.questions.toLocaleString("en-IN")} questions
+                  </div>
+                </div>
+                <span className="shrink-0 text-body font-semibold text-brand-600 transition-transform group-hover:translate-x-0.5">
+                  →
+                </span>
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
 
       {tests.length === 0 ? (
         <div className="mt-8 rounded-2xl border border-dashed border-border bg-surface p-8 text-center">

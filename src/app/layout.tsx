@@ -27,6 +27,15 @@ const siteJsonLd = {
       url: "https://padhodost.com",
       name: "PadhoDost",
       publisher: { "@id": "https://padhodost.com/#org" },
+      // Enables Google's sitelinks search box for the domain.
+      potentialAction: {
+        "@type": "SearchAction",
+        target: {
+          "@type": "EntryPoint",
+          urlTemplate: "https://padhodost.com/search?q={search_term_string}",
+        },
+        "query-input": "required name=search_term_string",
+      },
     },
   ],
 };

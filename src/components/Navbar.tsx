@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import { Menu, X } from "lucide-react";
+import { Menu, Search, X } from "lucide-react";
 import { signOut } from "@/lib/user-actions";
 import ClaimAnon from "@/components/ClaimAnon";
 
@@ -109,6 +109,13 @@ export default function Navbar() {
         </div>
 
         <div className="hidden items-center gap-3 md:flex">
+          <Link
+            href="/search"
+            aria-label="Search"
+            className="flex h-9 w-9 items-center justify-center rounded-full text-muted transition-colors hover:bg-surface hover:text-foreground"
+          >
+            <Search className="h-[18px] w-[18px]" strokeWidth={2} aria-hidden="true" />
+          </Link>
           {user ? (
             <>
               <Link href="/dashboard" className="flex items-center gap-2 transition-opacity hover:opacity-80">
@@ -135,15 +142,25 @@ export default function Navbar() {
           )}
         </div>
 
-        <button
-          type="button"
-          aria-label="Toggle menu"
-          aria-expanded={open}
-          onClick={() => setOpen((v) => !v)}
-          className="flex h-10 w-10 items-center justify-center rounded-lg text-foreground md:hidden"
-        >
-          {open ? <X className="h-[22px] w-[22px]" strokeWidth={2} /> : <Menu className="h-[22px] w-[22px]" strokeWidth={2} />}
-        </button>
+        <div className="flex items-center gap-1 md:hidden">
+          <Link
+            href="/search"
+            aria-label="Search"
+            onClick={() => setOpen(false)}
+            className="flex h-10 w-10 items-center justify-center rounded-lg text-foreground"
+          >
+            <Search className="h-[21px] w-[21px]" strokeWidth={2} aria-hidden="true" />
+          </Link>
+          <button
+            type="button"
+            aria-label="Toggle menu"
+            aria-expanded={open}
+            onClick={() => setOpen((v) => !v)}
+            className="flex h-10 w-10 items-center justify-center rounded-lg text-foreground"
+          >
+            {open ? <X className="h-[22px] w-[22px]" strokeWidth={2} /> : <Menu className="h-[22px] w-[22px]" strokeWidth={2} />}
+          </button>
+        </div>
       </nav>
 
       {open && (

@@ -5238,6 +5238,1234 @@ export const explainers: ExplainerContent[] = [
       }
     ]
   },
+  {
+    slug: "c11-units-and-measurements",
+    title: "Units and Measurements: Speaking the Language of Physics",
+    summary: "Learn what a unit really is, why the SI system fixes seven base units, how dimensional analysis lets you check and even build formulas, and how significant figures and errors keep your answers honest - the measurement foundation for Class 11, JEE, NEET and CUET.",
+    examSlug: "class-11",
+    subjectSlug: "physics",
+    chapterSlug: "units-and-measurements",
+    readingMinutes: 8,
+    practiceTestSlug: "c11-units-measurements-practice-1",
+    blocks: [
+      {
+        type: "analogy",
+        title: "The sabziwala's weighing stone",
+        text: "Imagine asking for \"2\" of sugar at a shop. Two what? Two spoons, two glasses, two kilograms? The number 2 means nothing on its own until you attach a unit. That is exactly why the sabziwala's weighing stone and the cloth-shop owner's measuring rod are trusted: everyone agrees on a standard kilogram and a standard metre, so \"2\" means the same thing in every shop and every city. Physics needs this same shared language of measurement. Padho, dost - this chapter is where you learn to speak it."
+      },
+      {
+        type: "heading",
+        text: "Every Measurement Is a Number AND a Unit"
+      },
+      {
+        type: "para",
+        text: "Any physical quantity you measure - length, time, mass, temperature - is written as a magnitude (a number) multiplied by a unit. So the length of your desk is not just \"1.2\", it is 1.2 metres. The unit tells you the standard you are comparing against, and the number tells you how many of those standards fit. Change the unit and the number changes too: 1.2 m is the same length as 120 cm. Both are correct because number times unit stays fixed."
+      },
+      {
+        type: "formula",
+        text: "Measurement = (numerical value) x (unit).  Example: speed = 20 x (metre/second) = 20 m/s."
+      },
+      {
+        type: "heading",
+        text: "Fundamental vs Derived Units: The SI System"
+      },
+      {
+        type: "para",
+        text: "To avoid chaos, scientists agreed on one worldwide system: the SI (Systeme International). It picks seven fundamental (base) quantities that cannot be built from anything simpler - each gets its own base unit. Every other quantity is a derived quantity, because its unit is built by combining base units. You do not need a new fundamental unit for speed: speed is just length divided by time, so its unit (metre/second) is derived from the metre and the second."
+      },
+      {
+        type: "table",
+        headers: ["Fundamental quantity", "SI base unit", "Symbol"],
+        rows: [
+          ["Length", "metre", "m"],
+          ["Mass", "kilogram", "kg"],
+          ["Time", "second", "s"],
+          ["Electric current", "ampere", "A"],
+          ["Temperature", "kelvin", "K"],
+          ["Amount of substance", "mole", "mol"],
+          ["Luminous intensity", "candela", "cd"]
+        ]
+      },
+      {
+        type: "para",
+        text: "From just these seven, everything else follows. Area = length x length, so its unit is m^2. Speed = length / time, so m/s. Force = mass x acceleration = kg x m/s^2, and this combination is given a special name, the newton (N). Energy = force x distance = kg m^2/s^2, called the joule (J). Derived units look complicated only because they are shortcuts for long combinations of base units."
+      },
+      {
+        type: "heading",
+        text: "Dimensional Analysis: The Grammar of Physics"
+      },
+      {
+        type: "para",
+        text: "The dimension of a quantity tells you which base quantities it is made of, and to what power - ignoring the actual numbers. We write mass as [M], length as [L] and time as [T]. Just as grammar checks whether a sentence is built correctly, dimensional analysis checks whether a physics equation is built correctly. A golden rule: you can only add or equate quantities that have the same dimensions. You cannot add a length to a time, just as you cannot add mangoes to minutes."
+      },
+      {
+        type: "formula",
+        text: "A dimensional formula shows the make-up of a quantity. Speed = [M^0 L^1 T^-1], Area = [M^0 L^2 T^0], Force = [M^1 L^1 T^-2], Energy = [M^1 L^2 T^-2]."
+      },
+      {
+        type: "steps",
+        title: "Worked derivation: a pendulum's time period, from dimensions alone",
+        items: ["Guess what the time period T depends on: the bob's mass m, the string length l, and gravity g. Write T = k * m^a * l^b * g^c, where k is a pure number with no units.", "Replace each symbol by its dimensions: [T] = [M]^a * [L]^b * [L T^-2]^c = M^a * L^(b+c) * T^(-2c).", "The left side is pure time, i.e. M^0 L^0 T^1. Now match the power of each base quantity on both sides.", "Mass: a = 0. Remarkable - the period does NOT depend on the bob's mass at all.", "Time: -2c = 1, so c = -1/2.", "Length: b + c = 0, so b = -c = +1/2.", "Put it together: T = k * l^(1/2) * g^(-1/2) = k * sqrt(l/g). Experiment fixes k = 2*pi, giving the familiar T = 2*pi*sqrt(l/g)."]
+      },
+      {
+        type: "callout",
+        tone: "info",
+        text: "Dimensional analysis is powerful but not all-knowing. It cannot find the pure number k (here 2*pi), it cannot handle equations that add unlike terms, and it fails if a quantity depends on more than three others or on dimensionless things like angles. Use it to check equations and convert units - not as final proof."
+      },
+      {
+        type: "heading",
+        text: "Significant Figures and Errors"
+      },
+      {
+        type: "para",
+        text: "No measurement is perfectly exact. Significant figures are the digits you actually trust: all the certain digits plus one final estimated digit. Quick rules: (1) every non-zero digit counts; (2) zeros between non-zero digits count, so 2005 has 4; (3) leading zeros never count, so 0.0032 has only 2; (4) trailing zeros after a decimal point DO count, so 2.30 has 3. When you multiply or divide, keep the fewest significant figures; when you add or subtract, keep the fewest decimal places."
+      },
+      {
+        type: "example",
+        title: "Worked numerical: significant figures in a density calculation",
+        lines: ["A metal piece has mass m = 4.237 g (4 significant figures).", "Its volume is V = 2.51 cm^3 (3 significant figures).", "Density = m / V = 4.237 / 2.51 = 1.68804... g/cm^3.", "Rule for division: the answer keeps as many significant figures as the least precise value - here that is 3.", "Round 1.68804... to 3 significant figures: density = 1.69 g/cm^3."]
+      },
+      {
+        type: "callout",
+        tone: "warn",
+        text: "Common mistake: do NOT round off in the middle of a multi-step problem. Carry one or two extra digits and round only the final answer, or small errors pile up. Also, 2.50 is not the same as 2.5 - that extra zero is a claim that you measured all the way to the hundredths place."
+      },
+      {
+        type: "keypoints",
+        title: "Errors and quick recap",
+        items: ["Absolute error = |measured value - true (mean) value|. Average several absolute errors to get the mean absolute error.", "Relative error = mean absolute error / mean value; multiply by 100 to get percentage error.", "When quantities are added or subtracted, their absolute errors add. When multiplied or divided, their relative (percentage) errors add.", "For a power such as A^2, the relative error is 2 times the relative error of A.", "Seven SI base units build every derived unit, and dimensions let you check any formula for consistency - your foundation for Class 11, JEE, NEET and CUET."]
+      },
+      {
+        type: "quiz",
+        question: "Using dimensional analysis a student writes a pendulum's time period as T = k * m^a * l^b * g^c and solves for the powers. What does the result reveal about the mass m of the bob?",
+        options: ["The period is directly proportional to m", "The period does not depend on m at all", "The period is proportional to the square root of m", "The period is inversely proportional to m"],
+        correct: 1,
+        explain: "Matching the power of mass on both sides gives a = 0, so m^0 = 1 and mass cancels out completely. The period depends only on length and g, giving T = 2*pi*sqrt(l/g) - which is why a heavy and a light bob on equal strings swing in step."
+      }
+    ]
+  },
+  {
+    slug: "c11-kinematics",
+    title: "Motion in a Straight Line: Distance, Velocity, Acceleration & the Equations of Motion",
+    summary: "A friendly, from-scratch guide to kinematics in one dimension: distance vs displacement, speed vs velocity, acceleration, and the three equations of uniformly accelerated motion, with a full worked example and a clear derivation. Aligned to the NCERT Class 11 syllabus and the foundation for JEE, NEET and CUET.",
+    examSlug: "class-11",
+    subjectSlug: "physics",
+    chapterSlug: "kinematics",
+    readingMinutes: 7,
+    practiceTestSlug: "c11-kinematics-practice-1",
+    blocks: [
+      {
+        type: "analogy",
+        title: "The auto-rickshaw meter",
+        text: "Imagine you take an auto from home to your coaching class. The meter charges you for every single metre the auto actually rolls, down your gali, around the sabzi market, past the temple. That whole winding path is the distance. But if you drew one straight arrow from your home to the class, that shortcut arrow is the displacement. On a twisty route the meter might read 3 km even though the class is only 1 km away in a straight line. Same trip, two very different numbers, and that gap is the heart of this whole chapter. Padho, dost, this one clicks fast!"
+      },
+      {
+        type: "heading",
+        text: "Distance vs Displacement"
+      },
+      {
+        type: "para",
+        text: "Distance is the total length of the actual path you travel. It is a scalar; it has size (magnitude) only, no direction, and it can never be negative. Displacement is the straight-line change in position, pointing from where you started to where you ended. It is a vector; it has both size and direction. On a straight line we show that direction with a simple + or - sign. If you walk 300 m east and then 300 m back west to your starting point, your distance is 600 m but your displacement is 0 m. Both quantities are measured in the SI unit metre (m)."
+      },
+      {
+        type: "callout",
+        tone: "warn",
+        text: "Common trap: displacement is NOT 'how far you walked.' It can be zero (you returned to the start) or even negative (you moved opposite to the direction you chose as positive). Distance behaves differently: it only ever grows, and can never be zero after motion or negative. Never write a negative distance in an exam."
+      },
+      {
+        type: "heading",
+        text: "Speed vs Velocity"
+      },
+      {
+        type: "para",
+        text: "Speed tells you how fast you cover distance; it is a scalar. Average speed = total distance divided by total time. Velocity tells you how fast your position changes AND in which direction; it is a vector. Average velocity = displacement divided by total time. Because velocity uses displacement, it can be zero even on a long journey. If a runner completes one full lap of a 400 m track in 100 s, her average speed is 4 m/s, but her average velocity is 0 m/s because she finishes exactly where she began. Both are measured in metres per second (m/s). 'Instantaneous' speed or velocity is the value at a single instant, exactly what a speedometer reads."
+      },
+      {
+        type: "formula",
+        text: "Average speed = total distance / total time      |      Average velocity = displacement / total time      (SI unit: m/s)"
+      },
+      {
+        type: "heading",
+        text: "Acceleration: how quickly velocity changes"
+      },
+      {
+        type: "para",
+        text: "Acceleration is the rate at which velocity changes with time. It is a vector, measured in metres per second squared (m/s^2). If a bike speeds up from 0 to 10 m/s in 5 s, its velocity changed by 10 m/s over 5 s, so its acceleration is 2 m/s^2. When velocity decreases (braking), the acceleration points opposite to the motion and comes out negative; this is often called retardation or deceleration. 'Uniform acceleration' means the velocity changes by equal amounts in equal time intervals, so the acceleration stays constant throughout."
+      },
+      {
+        type: "formula",
+        text: "Acceleration  a = (change in velocity) / (time taken) = (v - u) / t      (SI unit: m/s^2),  where u = initial velocity and v = final velocity"
+      },
+      {
+        type: "heading",
+        text: "The Three Equations of Uniformly Accelerated Motion"
+      },
+      {
+        type: "formula",
+        text: "1)  v = u + at        2)  s = ut + (1/2)at^2        3)  v^2 = u^2 + 2as        (u = initial velocity, v = final velocity, a = constant acceleration, t = time, s = displacement)"
+      },
+      {
+        type: "steps",
+        title: "Where these equations come from",
+        items: ["Start from the definition of acceleration: a = (v - u) / t.", "Rearrange it: multiply both sides by t to get v - u = at, so v = u + at. That is Equation 1.", "For constant acceleration the velocity rises steadily, so the average velocity is simply (u + v)/2. Displacement = average velocity x time, so s = [(u + v)/2] x t.", "Substitute v = u + at into that: s = [(u + u + at)/2] x t = [(2u + at)/2] x t = ut + (1/2)at^2. That is Equation 2.", "From Equation 1, t = (v - u)/a. Put this into s = [(u + v)/2] x t: s = [(u + v)/2] x [(v - u)/a] = (v^2 - u^2) / (2a).", "Rearrange: v^2 - u^2 = 2as, so v^2 = u^2 + 2as. That is Equation 3."]
+      },
+      {
+        type: "example",
+        title: "Worked example: a bus pulling away",
+        lines: ["A bus starts from rest and accelerates uniformly at 2 m/s^2 for 5 s. Find its final velocity and the distance it covers.", "List the knowns: u = 0 m/s (starts from rest), a = 2 m/s^2, t = 5 s.", "Final velocity, use v = u + at:  v = 0 + (2 x 5) = 10 m/s.", "Distance, use s = ut + (1/2)at^2:  s = (0 x 5) + (1/2) x 2 x (5)^2 = 0 + (1/2) x 2 x 25 = 25 m.", "Cross-check with v^2 = u^2 + 2as:  right side = 0 + (2 x 2 x 25) = 100, and v^2 = 10^2 = 100. They match, so the answer is consistent.", "Answer: final velocity = 10 m/s, distance covered = 25 m."]
+      },
+      {
+        type: "callout",
+        tone: "tip",
+        text: "Two habits that save marks: (1) These three equations work ONLY when acceleration is constant; never apply them when the acceleration is changing. (2) Fix a positive direction first, then give u, v, a and s the correct + or - sign. For a body that is slowing down, a is negative. Getting the signs and SI units right is half the battle in kinematics."
+      },
+      {
+        type: "table",
+        headers: ["Quantity", "Scalar or Vector", "What it measures", "Can it be negative?", "SI unit"],
+        rows: [
+          ["Distance", "Scalar", "Total path length travelled", "No (always >= 0)", "metre (m)"],
+          ["Displacement", "Vector", "Straight-line change in position", "Yes", "metre (m)"],
+          ["Speed", "Scalar", "Distance / time", "No (always >= 0)", "m/s"],
+          ["Velocity", "Vector", "Displacement / time", "Yes", "m/s"],
+          ["Acceleration", "Vector", "Change in velocity / time", "Yes", "m/s^2"]
+        ]
+      },
+      {
+        type: "keypoints",
+        title: "Quick revision",
+        items: ["Distance is the total path (scalar, never negative); displacement is the straight-line change in position (vector, can be zero or negative).", "Average speed = distance / time; average velocity = displacement / time. Velocity can be zero even when speed is not.", "Acceleration = (v - u) / t, measured in m/s^2; a negative value means the body is slowing down.", "For constant acceleration: v = u + at, s = ut + (1/2)at^2, and v^2 = u^2 + 2as.", "Always choose a positive direction first, then keep your signs and SI units consistent throughout the problem."]
+      },
+      {
+        type: "quiz",
+        question: "A student jogs one full round of a 400 m circular track and stops exactly where she started, taking 200 s. What is her average velocity for the round?",
+        options: ["2 m/s", "0 m/s", "400 m/s", "200 m/s"],
+        correct: 1,
+        explain: "Average velocity = displacement / time. Because she finishes at her starting point, her displacement is 0 m, so her average velocity is 0 m/s, no matter how far she ran. (Her average speed, which uses distance, would be 400 / 200 = 2 m/s. This is exactly why speed and velocity are not the same thing.)"
+      }
+    ]
+  },
+  {
+    slug: "c11-laws-of-motion",
+    title: "Laws of Motion: Newton's Three Laws Made Simple",
+    summary: "A from-scratch guide to inertia, momentum, force and friction — Newton's three laws explained with everyday Indian examples, a fully solved numerical, and free-body diagrams, built for CBSE Class 11 and your JEE/NEET/CUET foundation.",
+    examSlug: "class-11",
+    subjectSlug: "physics",
+    chapterSlug: "laws-of-motion",
+    readingMinutes: 8,
+    practiceTestSlug: "c11-laws-of-motion-practice-1",
+    blocks: [
+      {
+        type: "analogy",
+        title: "The Bus That Throws You Backward",
+        text: "Ever noticed how, the moment a stationary bus suddenly moves, you get pushed backward — and when it brakes hard, you lurch forward? No ghost is pushing you. Your body simply wants to keep doing what it was already doing. That stubborn tendency is called inertia, and it is the doorway to this entire chapter. Padho, dost — once you feel this in your bones, Newton's laws stop being formulas and start being plain common sense."
+      },
+      {
+        type: "heading",
+        text: "Newton's First Law: The Law of Inertia"
+      },
+      {
+        type: "para",
+        text: "A force is simply a push or a pull. Newton's First Law says: every object stays at rest, or keeps moving with uniform velocity in a straight line, unless a net external force acts on it. Objects never change their velocity on their own — they always need a reason. This 'laziness' to change motion is inertia, and heavier objects have more of it: pushing a loaded thela is far harder than pushing an empty one, because more mass means more inertia. Inertia shows up in three ways — inertia of rest (a coin stays put when you flick the card under it), inertia of motion (you jerk forward when a bus brakes), and inertia of direction (you are flung outward on a sharp turn)."
+      },
+      {
+        type: "formula",
+        text: "First Law: if net force ΣF = 0, then acceleration a = 0, so velocity stays constant. Inertia is measured by mass — more mass, more inertia."
+      },
+      {
+        type: "heading",
+        text: "Newton's Second Law: Force = Mass × Acceleration"
+      },
+      {
+        type: "para",
+        text: "The first law tells us force changes motion; the second law tells us by how much. First meet momentum: p = mv, the 'quantity of motion' a body carries (units: kg·m/s). A loaded truck at 10 km/h is much harder to stop than a cycle at 10 km/h, because the truck has far more momentum. Newton's Second Law says the net force equals the rate of change of momentum. When the mass stays constant, this boils down to the famous F = ma. Remember: net force and acceleration always point in the same direction."
+      },
+      {
+        type: "formula",
+        text: "Momentum: p = mv.   Second Law: F = Δp/Δt = ma (for constant mass).   SI unit of force is the newton (N): 1 N = 1 kg·m/s², the force that gives a 1 kg mass an acceleration of 1 m/s²."
+      },
+      {
+        type: "example",
+        title: "Worked Example: Force on an Accelerating Car",
+        lines: ["Problem: A car of mass 1000 kg speeds up from rest to 20 m/s in 8 s on a straight road. Find (a) its acceleration and (b) the net force needed.", "Given: m = 1000 kg, u = 0 m/s, v = 20 m/s, t = 8 s", "Step 1 — Acceleration: a = (v − u)/t = (20 − 0)/8 = 2.5 m/s²", "Step 2 — Net force (Second Law): F = m × a = 1000 × 2.5 = 2500 N", "Step 3 — Cross-check using momentum: change in momentum Δp = m(v − u) = 1000 × (20 − 0) = 20000 kg·m/s", "Rate of change of momentum = Δp/t = 20000 / 8 = 2500 N — exactly the same answer, as it must be.", "Answer: The engine must supply a net forward force of 2500 N, i.e. 2.5 kN."]
+      },
+      {
+        type: "heading",
+        text: "Newton's Third Law: Action and Reaction"
+      },
+      {
+        type: "para",
+        text: "Newton's Third Law says: to every action there is an equal and opposite reaction. Whenever body A pushes body B, body B pushes back on A with an equal-sized force in exactly the opposite direction. When you jump, your legs push the Earth down and the Earth pushes you up. A rocket throws hot gases downward and the gases push the rocket upward. A swimmer pushes water backward and the water drives the swimmer forward. Forces always come in pairs — you can never have a lonely single force. A beautiful consequence is the law of conservation of momentum: when no external force acts on a system, its total momentum stays constant. That is exactly why a gun recoils backward when the bullet shoots forward."
+      },
+      {
+        type: "callout",
+        tone: "warn",
+        text: "Common mistake: students think action and reaction forces cancel each other, so nothing should ever move. They do NOT cancel — because they act on two different bodies. The action acts on B, the reaction acts on A. Only forces acting on the SAME body can be added or cancelled. Mix this up and every Newton's-law problem goes wrong."
+      },
+      {
+        type: "analogy",
+        title: "Why You Can Walk",
+        text: "Think about walking on a road. Your foot pushes the ground backward; by the third law, the ground pushes your foot forward — and that forward push is what moves you. On smooth wet marble or ice, the ground cannot push back enough (too little friction), so your foot slips and you can barely move. Every single step you take is Newton's third law and friction quietly working together."
+      },
+      {
+        type: "heading",
+        text: "Friction and Free-Body Diagrams"
+      },
+      {
+        type: "para",
+        text: "Friction is the force that opposes relative motion (or the tendency of relative motion) between two surfaces in contact. It is why your notebook slides to a stop and why brakes work. Static friction acts when a body is still but on the verge of moving, and it self-adjusts up to a maximum value; kinetic (sliding) friction acts once the body is already moving. To solve any force problem cleanly, we draw a free-body diagram (FBD): a simple sketch of just one chosen object with every force acting ON it drawn as an arrow."
+      },
+      {
+        type: "steps",
+        title: "How to Draw a Free-Body Diagram",
+        items: ["Pick ONE object to study and imagine it floating alone — mentally erase everything else.", "Draw its weight (W = mg) as an arrow pointing straight down.", "If it rests on a surface, draw the normal force N perpendicular to that surface (usually pointing up).", "Add any applied push or pull, string tension, and friction (drawn opposite to the motion or the tendency to move).", "Choose x and y axes, then apply ΣF = ma along each axis to write your equations and solve."]
+      },
+      {
+        type: "table",
+        headers: ["Feature", "Static friction", "Kinetic friction"],
+        rows: [
+          ["When it acts", "Body at rest but tending to move", "Body already sliding"],
+          ["Behaviour", "Self-adjusts up to a maximum", "Stays roughly constant"],
+          ["Formula", "f_s ≤ μ_s N", "f_k = μ_k N"],
+          ["Relative size", "Its maximum (μ_s N) is larger", "Smaller, since μ_k < μ_s"]
+        ]
+      },
+      {
+        type: "keypoints",
+        title: "Quick Revision",
+        items: ["Inertia: every body resists a change in its state of rest or motion, and mass is the measure of inertia.", "First Law: no net force means no change in velocity (a = 0).", "Second Law: F = ma = rate of change of momentum; 1 N = 1 kg·m/s².", "Momentum p = mv is conserved when no external force acts on the system.", "Third Law: forces occur in equal and opposite pairs that act on two different bodies.", "Friction opposes relative motion; maximum static friction is greater than kinetic friction (μ_s > μ_k).", "Always draw a free-body diagram before writing ΣF = ma."]
+      },
+      {
+        type: "quiz",
+        question: "A book lies at rest on a table. Which of these is a correct action–reaction pair under Newton's third law?",
+        options: ["The book's weight (Earth's pull) and the normal force from the table", "The book pushing down on the table, and the table pushing up on the book", "The book's weight and the table's weight", "The normal force on the book and the friction on the book"],
+        correct: 1,
+        explain: "Action–reaction pairs are always equal, opposite, and act on two different bodies. The book pushes down on the table (action) and the table pushes up on the book (reaction) — different bodies, so this is the true pair. Option A is a trap: the book's weight and the normal force are equal and opposite but both act on the SAME body (the book), so they are balanced forces, not a third-law pair."
+      }
+    ]
+  },
+  {
+    slug: "c11-basic-concepts-chemistry",
+    title: "The Mole Concept, Made Simple — Some Basic Concepts of Chemistry",
+    summary: "A patient, from-scratch guide to the mole, Avogadro's number, molar mass, empirical vs molecular formulas and stoichiometry — with fully worked numericals aligned to the NCERT Class 11 syllabus.",
+    examSlug: "class-11",
+    subjectSlug: "chemistry",
+    chapterSlug: "basic-concepts-chemistry",
+    readingMinutes: 7,
+    practiceTestSlug: "c11-basic-concepts-practice-1",
+    blocks: [
+      {
+        type: "analogy",
+        title: "Counting the uncountable",
+        text: "At a shop you don't count 600 grains of dal one by one — you weigh them, because grains are tiny and there are far too many. You buy eggs not as '12 eggs' but as 'one dozen'. Chemists face the same problem, but a million times worse: even a single drop of water holds more molecules than there are people on Earth. So they invented their own giant 'dozen' for counting atoms and molecules — and they call it the mole. Padho, dost — once you make friends with the mole, most chemistry numericals stop feeling scary."
+      },
+      {
+        type: "heading",
+        text: "Why chemists count in moles"
+      },
+      {
+        type: "para",
+        text: "Atoms and molecules are unbelievably small, so we can never count them individually. Instead, chemists group a fixed, huge number of particles into one handy packet called a mole, and then simply weigh a substance to know how many particles it contains. This single idea connects three things you will use all year: the number of particles, the mass you can measure on a balance, and the amounts that react in a chemical equation. Let us build it slowly, one step at a time."
+      },
+      {
+        type: "heading",
+        text: "The mole and Avogadro's number"
+      },
+      {
+        type: "para",
+        text: "One mole is the amount of any substance that contains as many elementary entities — atoms, molecules or ions — as there are atoms in exactly 12 g of the carbon-12 isotope. That number is 6.022 × 10²³, called Avogadro's number (symbol N_A, unit mol⁻¹). The packet size never changes: 1 mole of oxygen atoms means 6.022 × 10²³ oxygen atoms, and 1 mole of water means 6.022 × 10²³ water molecules — only the type of particle changes."
+      },
+      {
+        type: "formula",
+        text: "Number of particles (N) = number of moles (n) × 6.022 × 10²³"
+      },
+      {
+        type: "heading",
+        text: "Molar mass: the gram–mole bridge"
+      },
+      {
+        type: "para",
+        text: "Molar mass is the mass, in grams, of one mole of a substance, and its unit is g mol⁻¹. Here is the beautiful part: the molar mass in g mol⁻¹ is numerically equal to the atomic or molecular mass in u (unified mass units). A hydrogen atom has atomic mass 1 u, so 1 mole of H atoms weighs 1 g. Water has molecular mass 18 u (2 × 1 + 16), so the molar mass of water is 18 g mol⁻¹. This is the bridge that lets us jump between grams (what we can weigh) and moles (how many particles we actually have)."
+      },
+      {
+        type: "formula",
+        text: "Number of moles (n) = given mass (m) ÷ molar mass (M)   →   moles = grams ÷ (g mol⁻¹)"
+      },
+      {
+        type: "example",
+        title: "Worked example: molecules and atoms in 9 g of water",
+        lines: ["Question: How many molecules, and how many hydrogen atoms, are present in 9 g of water (H₂O)?", "Step 1 — Molar mass of H₂O = (2 × 1) + 16 = 18 g mol⁻¹.", "Step 2 — Moles of water, n = mass ÷ molar mass = 9 ÷ 18 = 0.5 mol.", "Step 3 — Molecules = n × N_A = 0.5 × 6.022 × 10²³ = 3.011 × 10²³ molecules.", "Step 4 — Each H₂O has 2 hydrogen atoms, so H atoms = 2 × 3.011 × 10²³ = 6.022 × 10²³ atoms (exactly 1 mole of H atoms).", "Answer: 3.011 × 10²³ water molecules and 6.022 × 10²³ hydrogen atoms."]
+      },
+      {
+        type: "table",
+        headers: ["To find", "Use this relation", "Quick example"],
+        rows: [
+          ["Moles from mass", "n = mass ÷ molar mass", "36 g water ÷ 18 g mol⁻¹ = 2 mol"],
+          ["Particles from moles", "N = n × 6.022 × 10²³", "2 mol → 1.204 × 10²⁴ molecules"],
+          ["Mass from moles", "mass = n × molar mass", "0.25 mol CO₂ × 44 = 11 g"],
+          ["Volume of a gas at STP", "V = n × 22.7 L", "2 mol of gas → 45.4 L"]
+        ]
+      },
+      {
+        type: "callout",
+        tone: "warn",
+        text: "Common slip-ups to avoid: (1) Molar mass always carries the unit g mol⁻¹ — never write it as a bare number. (2) A 'mole' counts particles; it is not a mass — 1 mole of iron and 1 mole of sulphur have the same number of atoms but very different masses. (3) At STP (taken as 273.15 K and 1 bar in the latest NCERT), 1 mole of any gas occupies 22.7 L; older books use 22.4 L at 1 atm — check which value your exam expects."
+      },
+      {
+        type: "heading",
+        text: "Empirical vs molecular formula, and a taste of stoichiometry"
+      },
+      {
+        type: "para",
+        text: "The empirical formula shows the simplest whole-number ratio of atoms in a compound; the molecular formula shows the actual number of atoms in one molecule. For glucose the empirical formula is CH₂O, but the molecular formula is C₆H₁₂O₆ — the real molecule is just 6 times the simplest ratio. Once you can count in moles, you can also do stoichiometry: reading a balanced equation as a recipe written in moles. In 2H₂ + O₂ → 2H₂O, the ratio 2 : 1 : 2 tells you that 2 moles of hydrogen react with 1 mole of oxygen to give 2 moles of water — so 4 g of H₂ needs 32 g of O₂. These mole ratios are how chemists predict exactly how much product a reaction will make."
+      },
+      {
+        type: "steps",
+        title: "How to find the empirical formula",
+        items: ["Write down the mass (or percentage) of each element present. If percentages are given, assume a 100 g sample so percentages become grams.", "Divide each element's mass by its atomic mass to get the relative number of moles.", "Divide all the mole values by the smallest one to get the simplest ratio.", "If the numbers are still not whole, multiply them all by a small integer (2, 3, …) to clear the fractions.", "Use these whole numbers as subscripts — that is your empirical formula.", "For the molecular formula, find n = molar mass ÷ empirical-formula mass, then multiply every subscript by n."]
+      },
+      {
+        type: "example",
+        title: "Worked example: from percentages to glucose",
+        lines: ["Given: a compound is 40.0% C, 6.7% H and 53.3% O, with molar mass 180 g mol⁻¹.", "Assume a 100 g sample → 40.0 g C, 6.7 g H, 53.3 g O.", "Moles: C = 40.0 ÷ 12 = 3.33; H = 6.7 ÷ 1 = 6.7; O = 53.3 ÷ 16 = 3.33.", "Divide by the smallest (3.33): C = 1, H = 2, O = 1.", "Empirical formula = CH₂O; empirical-formula mass = 12 + 2 + 16 = 30 g mol⁻¹.", "n = molar mass ÷ empirical mass = 180 ÷ 30 = 6.", "Molecular formula = (CH₂O)₆ = C₆H₁₂O₆ — glucose."]
+      },
+      {
+        type: "keypoints",
+        title: "Remember these",
+        items: ["1 mole = 6.022 × 10²³ particles (Avogadro's number, N_A).", "Molar mass (g mol⁻¹) is numerically equal to atomic/molecular mass (u).", "Moles = mass ÷ molar mass; Particles = moles × N_A.", "Molar mass of a compound = sum of the atomic masses of all its atoms.", "Empirical formula = simplest ratio; Molecular formula = n × empirical formula, where n = molar mass ÷ empirical-formula mass.", "A balanced equation gives mole ratios — the heart of stoichiometry."]
+      },
+      {
+        type: "quiz",
+        question: "How many moles are present in 88 g of carbon dioxide (CO₂)? (Atomic masses: C = 12, O = 16)",
+        options: ["2 mol", "0.5 mol", "44 mol", "88 mol"],
+        correct: 0,
+        explain: "First find the molar mass of CO₂ = 12 + (2 × 16) = 44 g mol⁻¹. Then moles = mass ÷ molar mass = 88 ÷ 44 = 2 mol. So 88 g of CO₂ contains 2 moles, which is 2 × 6.022 × 10²³ = 1.204 × 10²⁴ molecules."
+      }
+    ]
+  },
+  {
+    slug: "c11-structure-of-atom",
+    title: "Structure of Atom: Particles, Bohr Model, Quantum Numbers and Orbitals",
+    summary: "A from-scratch guide to the atom for CBSE Class 11 Science: the three sub-atomic particles, atomic and mass number, the Bohr model with a worked numerical, the four quantum numbers, orbitals, and the Aufbau, Pauli and Hund rules for electronic configuration - with the Cr and Cu exceptions.",
+    examSlug: "class-11",
+    subjectSlug: "chemistry",
+    chapterSlug: "structure-of-atom",
+    readingMinutes: 8,
+    practiceTestSlug: "c11-structure-atom-practice-1",
+    blocks: [
+      {
+        type: "analogy",
+        title: "Think of the atom as a housing society",
+        text: "Picture an atom as a tall housing society, dost. Right at the centre is a tiny but super-heavy manager's office called the nucleus, packed with protons and neutrons. The electrons are the residents living on floors all around it. Each floor (shell) has flats (subshells), and each flat has rooms (orbitals) - and every room can hold at most two residents, who must sit facing opposite ways. Hold on to this picture: the whole chapter is really just the rules of who lives where."
+      },
+      {
+        type: "heading",
+        text: "Meet the three residents: electron, proton and neutron"
+      },
+      {
+        type: "para",
+        text: "Every atom is built from three sub-atomic particles. Electrons (discovered by J. J. Thomson from cathode rays) carry a negative charge and are extremely light. Protons (identified from Goldstein's anode or canal rays, and named by Rutherford) carry an equal but positive charge and are about 1836 times heavier than an electron. Neutrons (discovered by James Chadwick) have almost the same mass as a proton but carry no charge. Protons and neutrons sit tightly together in the nucleus, while electrons move in the space around it."
+      },
+      {
+        type: "table",
+        headers: ["Particle", "Symbol", "Relative charge", "Approx. mass (u)", "Discovered by"],
+        rows: [
+          ["Electron", "e-", "-1", "0.00055 (about 1/1836)", "J. J. Thomson"],
+          ["Proton", "p+", "+1", "1.007 (about 1)", "Goldstein / Rutherford"],
+          ["Neutron", "n0", "0", "1.008 (about 1)", "James Chadwick"]
+        ]
+      },
+      {
+        type: "callout",
+        tone: "info",
+        text: "Two numbers define an atom. The atomic number (Z) = number of protons = number of electrons in a neutral atom. The mass number (A) = number of protons + number of neutrons. Atoms of the same element (same Z) but different A are called isotopes - for example protium (1-H), deuterium (2-H) and tritium (3-H) all have Z = 1."
+      },
+      {
+        type: "heading",
+        text: "Bohr's model: electrons run on fixed tracks"
+      },
+      {
+        type: "para",
+        text: "In 1913 Niels Bohr pictured the electron of a hydrogen atom moving in fixed circular paths called orbits or stationary states. His key ideas were: (1) an electron can stay only in certain allowed orbits and does NOT lose energy while circling in them; (2) the angular momentum of the electron is quantised - it can only be a whole-number multiple of h/2 pi; and (3) energy is absorbed when an electron jumps to a higher orbit and emitted as light when it falls to a lower one, with the energy gap equal to Planck's constant times the frequency (delta-E = h nu). This model beautifully explained the line spectrum of hydrogen."
+      },
+      {
+        type: "formula",
+        text: "For a hydrogen atom -> Radius: r(n) = 0.529 x n^2 angstrom = 52.9 x n^2 pm.   Energy: E(n) = -13.6/n^2 eV = -2.18 x 10^-18 / n^2 J.   Quantisation of angular momentum: m v r = n(h/2 pi), where n = 1, 2, 3, ..."
+      },
+      {
+        type: "example",
+        title: "Radius and energy of the electron in the n = 2 orbit of hydrogen",
+        lines: ["Find the radius and energy of the electron in the n = 2 orbit of a hydrogen atom (Z = 1).", "Radius: r(n) = 0.529 x n^2 angstrom = 0.529 x (2)^2 = 0.529 x 4", "r(2) = 2.116 angstrom = 211.6 pm", "Energy: E(n) = -13.6/n^2 eV = -13.6/(2)^2 = -13.6/4", "E(2) = -3.4 eV. In joules: -3.4 x 1.602 x 10^-19 = -5.45 x 10^-19 J (same as -2.18 x 10^-18 / 4).", "The negative sign means the electron is bound to the nucleus; energy is lowest (most negative, -13.6 eV) in n = 1, the ground state."]
+      },
+      {
+        type: "heading",
+        text: "Quantum numbers: the exact address of an electron"
+      },
+      {
+        type: "keypoints",
+        title: "The four quantum numbers",
+        items: ["Principal (n): the shell or floor. n = 1, 2, 3, ... It decides the size and main energy of the orbit; a shell can hold up to 2n^2 electrons.", "Azimuthal (l): the subshell or shape. l ranges from 0 to (n-1). Values l = 0, 1, 2, 3 mean s, p, d, f subshells.", "Magnetic (m_l): the orientation of an orbital in space. It takes (2l+1) values, from -l to +l including 0.", "Spin (m_s): the direction of the electron's spin, either +1/2 (up-arrow) or -1/2 (down-arrow)."]
+      },
+      {
+        type: "table",
+        headers: ["Subshell", "l value", "Orbitals (2l+1)", "Max electrons (2 x orbitals)"],
+        rows: [
+          ["s", "0", "1", "2"],
+          ["p", "1", "3", "6"],
+          ["d", "2", "5", "10"],
+          ["f", "3", "7", "14"]
+        ]
+      },
+      {
+        type: "heading",
+        text: "Filling the rooms: Aufbau, Pauli and Hund"
+      },
+      {
+        type: "steps",
+        title: "Three rules for placing electrons",
+        items: ["Aufbau principle: fill orbitals from lowest energy to highest. Use the (n + l) rule - the subshell with the smaller (n + l) fills first; if two are equal, the one with the smaller n fills first. Order: 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p, 5s, ...", "Pauli exclusion principle: no two electrons in an atom can have all four quantum numbers the same. So one orbital holds at most 2 electrons, and they must have opposite spins (up and down).", "Hund's rule of maximum multiplicity: within a set of equal-energy (degenerate) orbitals, electrons occupy them singly with parallel spins first; pairing begins only after each orbital has one electron."]
+      },
+      {
+        type: "example",
+        title: "Electronic configuration of iron (Z = 26)",
+        lines: ["Iron has Z = 26, so a neutral atom has 26 electrons to place.", "Fill by increasing energy (Aufbau, n+l rule): 1s -> 2s -> 2p -> 3s -> 3p -> 4s -> 3d ...", "1s2 2s2 2p6 3s2 3p6 = 18 electrons (this is the argon core, [Ar]).", "Next: 4s2 takes the count to 20, then 3d6 takes it to 26.", "Configuration: 1s2 2s2 2p6 3s2 3p6 3d6 4s2  =  [Ar] 3d6 4s2", "In 3d6, the five d-orbitals first take one electron each (Hund), then the sixth pairs up -> giving 4 unpaired electrons."]
+      },
+      {
+        type: "callout",
+        tone: "warn",
+        text: "Watch out for two famous exceptions: chromium (Z = 24) is [Ar] 3d5 4s1 and copper (Z = 29) is [Ar] 3d10 4s1 - NOT 3d4 4s2 or 3d9 4s2. Exactly half-filled (d5) and fully-filled (d10) subshells are extra stable, so one 4s electron shifts into 3d. These are among the most-asked exceptions in exams."
+      },
+      {
+        type: "keypoints",
+        title: "Quick revision",
+        items: ["An atom = nucleus (protons + neutrons) + electrons around it; Z = protons, A = protons + neutrons; same Z different A = isotopes.", "Bohr model: fixed orbits with quantised energy; for hydrogen E(n) = -13.6/n^2 eV and r(n) = 0.529 n^2 angstrom.", "Four quantum numbers (n, l, m_l, m_s) fix each electron's address; no two electrons share all four (Pauli).", "Fill order follows Aufbau (n+l rule); degenerate orbitals fill singly first (Hund) before pairing.", "Remember the chromium and copper exceptions for extra-stable half-filled and fully-filled d subshells."]
+      },
+      {
+        type: "quiz",
+        question: "Following Hund's rule, how many unpaired electrons are present in a nitrogen atom (Z = 7)?",
+        options: ["0", "1", "3", "5"],
+        correct: 2,
+        explain: "Nitrogen's configuration is 1s2 2s2 2p3. By Hund's rule the three 2p electrons occupy the px, py and pz orbitals singly with parallel spins before any pairing, giving 3 unpaired electrons."
+      }
+    ]
+  },
+  {
+    slug: "c11-periodicity",
+    title: "The Periodic Table Decoded: Periods, Groups and Trends",
+    summary: "Learn how the modern periodic table is built from atomic number and electron arrangement, how to locate any element by its period, group and block, and how atomic radius, ionisation enthalpy and electronegativity change in predictable patterns.",
+    examSlug: "class-11",
+    subjectSlug: "chemistry",
+    chapterSlug: "periodicity",
+    readingMinutes: 7,
+    practiceTestSlug: "c11-periodicity-practice-1",
+    blocks: [
+      {
+        type: "analogy",
+        title: "Think of a giant apartment building",
+        text: "Imagine a huge apartment building in your city. Every family is given a flat by one simple rule: their house number. Families on the same floor share the same 'level', and families stacked one above another in the same column turn out to have surprisingly similar lifestyles. The periodic table is exactly this kind of building for the 118 known elements. Each element gets its address from its atomic number (Z), the floors are called periods, and the vertical columns are called groups. Once you know the address, you can predict how an element behaves without memorising each one by heart. Padho, dost, let's learn to read this building."
+      },
+      {
+        type: "heading",
+        text: "The Modern Periodic Law"
+      },
+      {
+        type: "para",
+        text: "Mendeleev first arranged elements in order of increasing atomic mass, which was brilliant but had a few gaps and reversals. In 1913, Henry Moseley showed that the real basis of an element's identity is its atomic number (the number of protons), not its mass. This gave us the Modern Periodic Law: 'The physical and chemical properties of elements are periodic functions of their atomic numbers.' In plain words, if you line up elements by increasing atomic number, similar properties come back again and again at regular intervals."
+      },
+      {
+        type: "para",
+        text: "The modern (long form) periodic table is the result. It has 7 horizontal rows called periods and 18 vertical columns called groups. Its structure is not random at all: it is built directly from the electronic configurations of atoms, which is why the table is such a powerful memory-saving tool."
+      },
+      {
+        type: "heading",
+        text: "Periods, Groups and Blocks"
+      },
+      {
+        type: "para",
+        text: "A period number tells you the highest principal quantum number (n) in the atom, that is, how many electron shells the atom uses. Elements in the same group have the same outermost-shell (valence) electronic configuration, and that shared configuration is exactly why they show similar chemistry. Finally, based on which subshell the last (differentiating) electron enters, every element falls into one of four blocks: s, p, d or f."
+      },
+      {
+        type: "keypoints",
+        title: "The four blocks",
+        items: ["s-block: Groups 1 and 2 (last electron enters an s-subshell) — reactive metals like Na and Ca.", "p-block: Groups 13 to 18 (last electron enters a p-subshell) — includes non-metals, metalloids and the noble gases.", "d-block: Groups 3 to 12, the transition elements (last electron enters an (n-1)d subshell), e.g. Fe, Cu.", "f-block: the lanthanoids and actinoids, shown separately at the bottom (last electron enters an (n-2)f subshell)."]
+      },
+      {
+        type: "formula",
+        text: "Period number = highest principal quantum number (n) in the configuration.  Group number → s-block: = number of valence electrons; p-block: = 10 + (electrons in the outermost s and p subshells); d-block: = (number of (n-1)d electrons) + (number of ns electrons)."
+      },
+      {
+        type: "steps",
+        title: "How to locate any element",
+        items: ["Write the full electronic configuration for its atomic number (Z).", "Find the highest value of n present — that is the period number.", "See which subshell received the last electron — that tells you the block (s, p, d or f).", "Apply the matching group rule to get the group number.", "Cross-check: the group should match the element's known family (e.g. Group 17 = halogens)."]
+      },
+      {
+        type: "example",
+        title: "Worked example: place two elements",
+        lines: ["Element A, Z = 17: configuration 1s² 2s² 2p⁶ 3s² 3p⁵.", "Highest n = 3, so Period = 3.", "The last electron enters the 3p subshell → p-block.", "Outermost s + p electrons = 2 + 5 = 7, so Group = 10 + 7 = 17.", "Answer: Chlorine — Period 3, Group 17 (a halogen). Correct.", "Element B, Z = 20: configuration 1s² 2s² 2p⁶ 3s² 3p⁶ 4s².", "Highest n = 4 → Period 4; last electron in 4s → s-block; valence electrons = 2 → Group 2.", "Answer: Calcium — Period 4, Group 2 (an alkaline earth metal). Correct."]
+      },
+      {
+        type: "heading",
+        text: "Periodic Trends: the patterns that repeat"
+      },
+      {
+        type: "para",
+        text: "The key idea behind every trend is effective nuclear charge (Zeff) — the net pull the outer electrons actually feel after the inner electrons 'shield' or screen part of the nucleus. Atomic radius is the size of the atom, measured in picometres (pm). Across a period, electrons keep filling the same shell while protons keep increasing, so Zeff rises and the electron cloud is pulled in tighter: radius decreases (across Period 2 it falls from Li at about 152 pm toward F at about 72 pm). Down a group, each new period adds a whole new shell, so the radius increases even though the nuclear charge is larger."
+      },
+      {
+        type: "para",
+        text: "Ionisation enthalpy is the minimum energy needed to remove the most loosely bound electron from one mole of isolated gaseous atoms in their ground state: M(g) → M⁺(g) + e⁻. It is measured in kJ/mol. A smaller atom holds its outer electron more tightly, so ionisation enthalpy increases across a period and decreases down a group. For example, the first ionisation enthalpy of sodium is about 496 kJ/mol, while the much larger caesium needs only about 376 kJ/mol."
+      },
+      {
+        type: "para",
+        text: "Electronegativity is the tendency of an atom in a molecule to attract the shared pair of bonding electrons towards itself. It is not directly measured, has no units, and is usually quoted on the Pauling scale. Smaller atoms with higher Zeff grip the shared electrons more strongly, so electronegativity increases across a period and decreases down a group. Fluorine (4.0) is the most electronegative element; the heavy Group 1 metals are among the least."
+      },
+      {
+        type: "table",
+        headers: ["Property", "Across a period (left → right)", "Down a group (top → bottom)"],
+        rows: [
+          ["Atomic radius", "Decreases", "Increases"],
+          ["Ionisation enthalpy", "Increases", "Decreases"],
+          ["Electronegativity", "Increases", "Decreases"],
+          ["Metallic character", "Decreases", "Increases"]
+        ]
+      },
+      {
+        type: "callout",
+        tone: "warn",
+        text: "Common mistake: don't expect a perfectly smooth ionisation-enthalpy trend across a period. Boron has a lower first ionisation enthalpy than beryllium, and oxygen lower than nitrogen. The reason is that the fully-filled 2s² (in Be) and exactly half-filled 2p³ (in N) configurations are extra stable, so those atoms hold their electrons unusually tightly. Also remember that noble gases have large van der Waals radii, so never compare their 'size' directly with the covalent radii of other atoms."
+      },
+      {
+        type: "callout",
+        tone: "tip",
+        text: "Exam shortcut: moving left → right across a period, atoms 'tighten up' — radius goes DOWN while ionisation enthalpy and electronegativity go UP. Moving top → bottom down a group, atoms 'fluff up' with extra shells — radius goes UP while ionisation enthalpy and electronegativity go DOWN. Metallic and reactive-metal character simply follows the radius."
+      },
+      {
+        type: "quiz",
+        question: "An element has the electronic configuration 1s² 2s² 2p⁶ 3s² 3p³. What are its period and group?",
+        options: ["Period 3, Group 15", "Period 3, Group 5", "Period 5, Group 3", "Period 3, Group 13"],
+        correct: 0,
+        explain: "The highest principal quantum number is n = 3, so the period is 3. The last electron enters a 3p subshell, so it is a p-block element, and the group = 10 + (outermost s + p electrons) = 10 + (2 + 3) = 15. This element is phosphorus (Z = 15), sitting in Period 3, Group 15."
+      }
+    ]
+  },
+  {
+    slug: "c11-sets",
+    title: "Sets Made Simple: Types, Subsets, Venn Diagrams and the Counting Formula",
+    summary: "A friendly, first-principles walk through Class 11 Sets — what a set really is, its types, subsets and power sets, union/intersection/complement, and the n(A∪B) counting formula, with a fully solved survey problem. Your foundation for JEE, NEET and CUET.",
+    examSlug: "class-11",
+    subjectSlug: "mathematics",
+    chapterSlug: "sets",
+    readingMinutes: 8,
+    practiceTestSlug: "c11-sets-practice-1",
+    blocks: [
+      {
+        type: "analogy",
+        title: "Think of a WhatsApp Group",
+        text: "Picture your class WhatsApp group. A person is either a member or not — there is no 'maybe'. Nobody is added twice, and it does not matter who joined first. That is exactly a set: a well-defined collection of distinct things, with no repeats and no order. Master this one idea, dost, and the whole chapter falls into place — and you will reuse it all through JEE, NEET and CUET."
+      },
+      {
+        type: "heading",
+        text: "What Is a Set, Really?"
+      },
+      {
+        type: "para",
+        text: "A set is a well-defined collection of distinct objects. The key phrase is 'well-defined': for any object you must be able to answer a clear yes or no to 'does it belong?'. So 'the vowels in the English alphabet' is a set, but 'the beautiful cities of India' is not — 'beautiful' means different things to different people. We name sets with capital letters (A, B, X); the objects inside are called elements or members. We write a ∈ A to say 'a belongs to A', and b ∉ A to say 'b does not belong to A'."
+      },
+      {
+        type: "formula",
+        text: "Two ways to write a set. Roster (list) form: list every element in braces — V = {a, e, i, o, u}. Set-builder form: state the shared property — V = {x : x is a vowel in the English alphabet}. The colon ':' (or '|') is read as 'such that'. Repetition and order do not matter: {1, 2, 2, 3} = {3, 2, 1} = {1, 2, 3}."
+      },
+      {
+        type: "heading",
+        text: "Types of Sets You Must Know"
+      },
+      {
+        type: "table",
+        headers: ["Type of set", "Meaning", "Example"],
+        rows: [
+          ["Empty (null) set", "Has no elements; written ∅ or { }", "{x : x is real, x² = −1} = ∅"],
+          ["Singleton set", "Has exactly one element", "{0}"],
+          ["Finite set", "Counting of elements comes to an end", "{1, 2, 3, 4}"],
+          ["Infinite set", "Counting never ends", "N = {1, 2, 3, …}"],
+          ["Equal sets", "Exactly the same elements (A = B)", "{1, 2, 3} = {3, 1, 2}"],
+          ["Equivalent sets", "Same number of elements, n(A) = n(B)", "{a, b, c} and {1, 2, 3}"],
+          ["Universal set (U)", "Contains all objects under discussion", "For digits, U = {0, 1, …, 9}"]
+        ]
+      },
+      {
+        type: "callout",
+        tone: "info",
+        text: "The empty set trips many students. ∅ (or { }) has zero elements. But {0} is NOT empty — it holds one element, the number 0. And {∅} is not empty either — it is a set holding one element, namely the empty set. Also remember: n(A), the cardinal number of A, simply counts its distinct elements, so n({a, b, c}) = 3."
+      },
+      {
+        type: "heading",
+        text: "Subsets and Power Sets"
+      },
+      {
+        type: "para",
+        text: "If every element of A is also in B, we say A is a subset of B, written A ⊆ B. Two facts follow at once: every set is a subset of itself (A ⊆ A), and the empty set is a subset of every set (∅ ⊆ A). If A ⊆ B but A ≠ B — that is, B has at least one extra element — then A is a proper subset of B, written A ⊂ B. The set of all subsets of A is its power set, P(A). If A has n elements, then P(A) has 2ⁿ elements, and the number of proper subsets is 2ⁿ − 1."
+      },
+      {
+        type: "example",
+        title: "Listing every subset of a 3-element set",
+        lines: ["Let A = {1, 2, 3}, so the number of elements n = 3.", "Number of subsets = 2ⁿ = 2³ = 8.", "Size 0: ∅", "Size 1: {1}, {2}, {3}", "Size 2: {1, 2}, {1, 3}, {2, 3}", "Size 3: {1, 2, 3}", "Count: 1 + 3 + 3 + 1 = 8 subsets — matches 2³. ✓", "So the power set P(A) has 8 elements, and A has 2³ − 1 = 7 proper subsets."]
+      },
+      {
+        type: "heading",
+        text: "Union, Intersection and Complement"
+      },
+      {
+        type: "formula",
+        text: "Union: A ∪ B = {x : x ∈ A or x ∈ B} (everything in either set; 'or' includes 'both'). Intersection: A ∩ B = {x : x ∈ A and x ∈ B} (only the common elements). Difference: A − B = {x : x ∈ A and x ∉ B} (in A but not in B). Complement: A′ = U − A = {x : x ∈ U and x ∉ A} (everything in U outside A). If A ∩ B = ∅ the sets are disjoint. Handy laws: (A′)′ = A, and De Morgan's rules (A ∪ B)′ = A′ ∩ B′ and (A ∩ B)′ = A′ ∪ B′."
+      },
+      {
+        type: "callout",
+        tone: "warn",
+        text: "Two mistakes examiners love to catch. (1) ∈ vs ⊂: the symbol ∈ links an element to a set (2 ∈ {1, 2, 3}), while ⊆/⊂ links a set to a set ({2} ⊆ {1, 2, 3}). Writing '2 ⊆ {1, 2, 3}' or '{2} ∈ {1, 2, 3}' is wrong. (2) A complement A′ only makes sense once the universal set U is fixed — the same set A can have different complements under different U."
+      },
+      {
+        type: "heading",
+        text: "Venn Diagrams and the Counting Formula"
+      },
+      {
+        type: "formula",
+        text: "A Venn diagram draws U as a rectangle and each set as a circle inside it; the overlap shows common elements. To count elements of finite sets: n(A ∪ B) = n(A) + n(B) − n(A ∩ B). We subtract n(A ∩ B) because the overlap was counted twice. For three sets: n(A ∪ B ∪ C) = n(A) + n(B) + n(C) − n(A ∩ B) − n(B ∩ C) − n(C ∩ A) + n(A ∩ B ∩ C)."
+      },
+      {
+        type: "example",
+        title: "Solved: a cricket-and-football survey",
+        lines: ["In a class of 40 students, 24 like cricket (C), 16 like football (F), and 6 like both.", "Given: n(C) = 24, n(F) = 16, n(C ∩ F) = 6, total = 40.", "At least one game: n(C ∪ F) = n(C) + n(F) − n(C ∩ F) = 24 + 16 − 6 = 34.", "Neither game: total − n(C ∪ F) = 40 − 34 = 6.", "Only cricket: n(C) − n(C ∩ F) = 24 − 6 = 18.", "Only football: n(F) − n(C ∩ F) = 16 − 6 = 10.", "Check: 18 (only C) + 10 (only F) + 6 (both) + 6 (neither) = 40. ✓"]
+      },
+      {
+        type: "keypoints",
+        title: "Quick Revision",
+        items: ["A set is a well-defined collection of distinct, unordered elements; use ∈ / ∉ for membership.", "Write sets in roster form {a, e, i, o, u} or set-builder form {x : x is a vowel}.", "Know the types: empty, singleton, finite, infinite, equal, equivalent, universal.", "∅ is a subset of every set; a set with n elements has 2ⁿ subsets and 2ⁿ − 1 proper subsets.", "A ∪ B = 'or', A ∩ B = 'and', A − B = 'in A not B', A′ = U − A; disjoint means A ∩ B = ∅.", "Counting formula: n(A ∪ B) = n(A) + n(B) − n(A ∩ B)."]
+      },
+      {
+        type: "quiz",
+        question: "The set A = {a, b, c, d} has how many proper subsets?",
+        options: ["8", "15", "16", "4"],
+        correct: 1,
+        explain: "A set with n elements has 2ⁿ subsets, so A = {a, b, c, d} has 2⁴ = 16 subsets in all. A proper subset is any subset except the set itself, giving 16 − 1 = 15."
+      }
+    ]
+  },
+  {
+    slug: "c11-relations-functions",
+    title: "Relations and Functions: From Ordered Pairs to Well-Behaved Machines",
+    summary: "A from-scratch, NCERT-aligned guide to ordered pairs, Cartesian products, relations, domain, range and codomain, and the different types of functions, built up with everyday Indian analogies and fully worked examples so you truly understand the ideas that power JEE, NEET and CUET maths.",
+    examSlug: "class-11",
+    subjectSlug: "mathematics",
+    chapterSlug: "relations-functions",
+    readingMinutes: 8,
+    practiceTestSlug: "c11-relations-functions-practice-1",
+    blocks: [
+      {
+        type: "analogy",
+        title: "Think of a classroom attendance register",
+        text: "Imagine your Class 11 attendance register. On the left is a column of roll numbers (1, 2, 3, ...), and on the right is a column of student names. The register PAIRS each roll number with a name. That simple idea, pairing things from one collection with things from another, is the heart of this whole chapter. Relations and functions are just careful, mathematical ways of writing down such pairings. Padho, dost, and you will see it is far friendlier than it looks!"
+      },
+      {
+        type: "heading",
+        text: "Ordered pairs: order matters"
+      },
+      {
+        type: "para",
+        text: "An ordered pair is just two things written in a fixed order, inside brackets, like (2, 5). The first thing is called the first component, the second is the second component. The word 'ordered' is the whole point: (2, 5) is NOT the same as (5, 2), exactly like the seat 'row 2, column 5' in a cinema is a different seat from 'row 5, column 2'. Two ordered pairs are equal only when their first components match AND their second components match."
+      },
+      {
+        type: "formula",
+        text: "(a, b) = (c, d)  if and only if  a = c  and  b = d"
+      },
+      {
+        type: "example",
+        title: "Using equality of ordered pairs",
+        lines: ["Question: If (x + 1, y - 2) = (3, 1), find x and y.", "Match first components: x + 1 = 3, so x = 2.", "Match second components: y - 2 = 1, so y = 3.", "Answer: x = 2 and y = 3."]
+      },
+      {
+        type: "heading",
+        text: "Cartesian product: pairing every element with every element"
+      },
+      {
+        type: "para",
+        text: "Given two sets A and B, the Cartesian product A x B (read 'A cross B') is the set of ALL ordered pairs where the first element comes from A and the second comes from B. You take each element of A and pair it with every element of B, one by one, leaving nothing out."
+      },
+      {
+        type: "formula",
+        text: "A x B = { (a, b) : a is in A and b is in B }"
+      },
+      {
+        type: "example",
+        title: "Building a Cartesian product",
+        lines: ["Let A = {1, 2} and B = {x, y}.", "Pair 1 with each element of B: (1, x), (1, y).", "Pair 2 with each element of B: (2, x), (2, y).", "So A x B = {(1, x), (1, y), (2, x), (2, y)}.", "Count check: A has 2 elements, B has 2 elements, so A x B has 2 x 2 = 4 pairs."]
+      },
+      {
+        type: "callout",
+        tone: "tip",
+        text: "Counting rule: if set A has m elements and set B has n elements, then A x B has exactly m x n ordered pairs. This is why, if a set A has n elements, the number of possible relations from A to A is 2 raised to the power (n x n), because a relation is any subset of the n x n pairs in A x A."
+      },
+      {
+        type: "heading",
+        text: "Relations: choosing some pairs by a rule"
+      },
+      {
+        type: "para",
+        text: "A relation R from set A to set B is simply any subset of A x B. In plain words: out of all the possible pairs, a relation picks the ones that obey some rule. The domain of R is the set of all first components that actually appear; the range is the set of all second components that appear; and B is called the codomain (the full 'target' set B, whether or not every element gets used)."
+      },
+      {
+        type: "example",
+        title: "A relation defined by a rule",
+        lines: ["Let A = {1, 2, 3, 4} and define R = {(a, b) : b = a + 1, with a and b both in A}.", "Test each a: a = 1 gives b = 2 (valid), a = 2 gives b = 3 (valid), a = 3 gives b = 4 (valid), a = 4 gives b = 5 (5 is not in A, reject).", "So R = {(1, 2), (2, 3), (3, 4)}.", "Domain of R = {1, 2, 3} (the first components that appear).", "Range of R = {2, 3, 4} (the second components that appear).", "Codomain = A = {1, 2, 3, 4} (the whole target set)."]
+      },
+      {
+        type: "heading",
+        text: "Functions: the special, well-behaved relations"
+      },
+      {
+        type: "para",
+        text: "A function f from A to B is a relation in which EVERY element of A is paired with exactly one element of B. Two conditions must hold: (1) no element of A is left out, and (2) no element of A points to two different outputs. Go back to the attendance register: each roll number has one and only one name beside it, that is a function. If one roll number somehow had two names, the register would be broken, and so is the function."
+      },
+      {
+        type: "analogy",
+        title: "A function is like a vending machine",
+        text: "Press the button for a cold drink and you always get that same cold drink, never sometimes a drink and sometimes a samosa. One input, one fixed output, every single time. That reliability is exactly what makes a relation a function. If pressing one button could give two different things on different days, it would fail the function test, just like a relation that maps one input to two outputs."
+      },
+      {
+        type: "callout",
+        tone: "warn",
+        text: "Common mistake: students think 'one output per input' means every input must give a DIFFERENT output. Not true! A function is allowed to send many inputs to the same output (for example f(x) = 5 for all x is a perfectly valid constant function). The rule only forbids one input having two outputs, not two inputs sharing one output."
+      },
+      {
+        type: "table",
+        headers: ["Type of function", "Rule in simple words", "Quick example"],
+        rows: [
+          ["One-one (injective)", "Different inputs always give different outputs", "f(x) = 2x on real numbers"],
+          ["Many-one", "At least two different inputs share the same output", "f(x) = x squared (since -2 and 2 both give 4)"],
+          ["Onto (surjective)", "Every element of the codomain is actually hit", "f(x) = x + 1 from reals to reals"],
+          ["Into", "At least one codomain element is never hit", "f(x) = x squared from reals to reals (negatives never appear)"]
+        ]
+      },
+      {
+        type: "steps",
+        title: "How to check if a given relation is a function",
+        items: ["List the domain set A (all allowed inputs).", "For each element of A, find how many pairs in the relation start with it.", "If any element of A appears zero times, it is NOT a function (an input was left out).", "If any element of A appears two or more times with different second components, it is NOT a function (one input, many outputs).", "If every element of A appears exactly once as a first component, it IS a function."]
+      },
+      {
+        type: "keypoints",
+        title: "Chapter in a nutshell",
+        items: ["Ordered pair: (a, b), order matters; equal only if both components match.", "Cartesian product A x B: all pairs (a, b) with a in A, b in B; has m x n elements.", "Relation: any subset of A x B, chosen by a rule.", "Domain = first components used; Range = second components used; Codomain = the whole target set B.", "Function: every input has exactly one output; range is a subset of the codomain.", "Types: one-one vs many-one (about inputs), onto vs into (about covering the codomain)."]
+      },
+      {
+        type: "quiz",
+        question: "Let A = {1, 2, 3}. Which of these relations from A to A is a FUNCTION?",
+        options: ["{(1, 2), (2, 3)}", "{(1, 2), (1, 3), (2, 3), (3, 1)}", "{(1, 1), (2, 3), (3, 2)}", "{(2, 1), (3, 2)}"],
+        correct: 2,
+        explain: "A function needs every element of A = {1, 2, 3} to appear exactly once as a first component. Option 3, {(1,1),(2,3),(3,2)}, does this: 1, 2 and 3 each appear once with a single output. Option 1 and option 4 leave out an input (3 is missing in option 1; 1 is missing in option 4), so they are not functions. Option 2 has 1 mapped to both 2 and 3, one input with two outputs, which breaks the function rule."
+      }
+    ]
+  },
+  {
+    slug: "c11-trigonometric-functions",
+    title: "Trigonometric Functions: Radians, the Unit Circle & Identities Made Simple",
+    summary: "Stop memorising blindly — understand angles as radians, meet sine and cosine on the unit circle, master the sign of each ratio in every quadrant, and see exactly where the key identities come from.",
+    examSlug: "class-11",
+    subjectSlug: "mathematics",
+    chapterSlug: "trigonometric-functions",
+    readingMinutes: 7,
+    practiceTestSlug: "c11-trigonometric-functions-practice-1",
+    blocks: [
+      {
+        type: "analogy",
+        title: "The running-track secret",
+        text: "Imagine you are jogging on a circular stadium track, Dost. Instead of asking \"how many degrees have I turned?\", ask \"how many radius-lengths of track have I run?\" That second question is exactly what a radian measures. Angles were always secretly about the distance you travel around a circle — degrees just hid it from you. Once you see angles this way, all of trigonometry starts to click."
+      },
+      {
+        type: "heading",
+        text: "Radians: A Smarter Way to Measure Angles"
+      },
+      {
+        type: "para",
+        text: "You already know degrees: a full circle is 360°. But 360 is a leftover from ancient Babylonian astronomy — there is nothing natural about it. A radian is built from the circle itself. Draw an arc whose length equals the radius; the angle that arc makes at the centre is exactly 1 radian. In general, angle (in radians) = arc length ÷ radius, or θ = l/r. Because it is a ratio of two lengths, a radian has no unit at all — it is a pure number. Since the full circumference is 2πr, going all the way around is 2π radians, which must equal 360° (so π radians = 180°)."
+      },
+      {
+        type: "formula",
+        text: "π radians = 180°   →   degrees × (π/180) = radians,   radians × (180/π) = degrees.   Taking π ≈ 22/7:  1 radian ≈ 57°16′  and  1° ≈ 0.01746 rad.   Arc length: l = r·θ  (θ in radians)."
+      },
+      {
+        type: "example",
+        title: "Worked example: converting and using radians",
+        lines: ["Part A — Convert 150° into radians.", "Multiply by π/180:  150 × (π/180) = 150π/180.", "Simplify the fraction:  = 5π/6 radians ≈ 2.62 rad.", "Part B — A circular park has radius r = 5 m. Find the arc length for a central angle of 60°.", "First convert the angle:  60° = 60 × (π/180) = π/3 rad.", "Use l = r·θ (θ must be in radians):  l = 5 × (π/3) = 5π/3.", "So l ≈ 5.24 m.", "Note the units: radian is unit-less (arc ÷ radius), so l keeps the unit of r — metres."]
+      },
+      {
+        type: "heading",
+        text: "The Unit Circle: Where Sine and Cosine Live"
+      },
+      {
+        type: "para",
+        text: "In earlier classes, sin and cos came from right triangles — but a triangle can't handle a 210° angle. The unit circle fixes this. Draw a circle of radius 1 centred at the origin. Start from the positive x-axis and rotate anticlockwise by angle θ (clockwise is negative). Wherever you land is a point P with coordinates (x, y). We simply define cos θ = x and sin θ = y. That is it. This definition works for any angle — big, small, or negative. And because P lies on the circle, the Pythagoras theorem gives x² + y² = 1, which is the same as sin²θ + cos²θ = 1. The identity is not a magic formula to cram; it is just Pythagoras in disguise."
+      },
+      {
+        type: "formula",
+        text: "On the unit circle at angle θ:  cos θ = x,  sin θ = y,  tan θ = y/x = sin θ/cos θ (x ≠ 0).   Reciprocals:  cosec θ = 1/sin θ,  sec θ = 1/cos θ,  cot θ = 1/tan θ."
+      },
+      {
+        type: "callout",
+        tone: "tip",
+        text: "Since x and y are coordinates on a circle of radius 1, they can never be bigger than 1 or smaller than −1. So sin θ and cos θ always stay between −1 and +1. If a calculation ever gives you sin θ = 1.5, stop — a mistake has crept in somewhere."
+      },
+      {
+        type: "heading",
+        text: "Signs of the Ratios in the Four Quadrants"
+      },
+      {
+        type: "para",
+        text: "As θ grows, point P moves through four quadrants, and the signs of x and y change — so the signs of the ratios change too. The famous memory hook is \"Add Sugar To Coffee\" (or \"All Students Take Coffee\"): in Quadrant I All ratios are positive, in Quadrant II only Sine (and its reciprocal cosec), in Quadrant III only Tangent (and cot), and in Quadrant IV only Cosine (and sec). A reciprocal ratio always carries the same sign as its parent (sec follows cos, cosec follows sin, cot follows tan)."
+      },
+      {
+        type: "table",
+        headers: ["Quadrant", "Angle range", "Positive ratios", "Negative ratios"],
+        rows: [
+          ["I", "0° to 90°", "All (sin, cos, tan)", "None"],
+          ["II", "90° to 180°", "sin, cosec", "cos, tan, sec, cot"],
+          ["III", "180° to 270°", "tan, cot", "sin, cos, sec, cosec"],
+          ["IV", "270° to 360°", "cos, sec", "sin, tan, cosec, cot"]
+        ]
+      },
+      {
+        type: "callout",
+        tone: "warn",
+        text: "Three classic slips to avoid: (1) sin²θ means (sin θ)², NOT sin(θ²). (2) sin(A + B) is NOT sin A + sin B — sine does not split across a sum. (3) Before pressing buttons, check whether your calculator is in DEGREE or RADIAN mode; the wrong mode gives wildly wrong answers."
+      },
+      {
+        type: "heading",
+        text: "The Three Fundamental Identities"
+      },
+      {
+        type: "formula",
+        text: "From x² + y² = 1 on the unit circle:  sin²θ + cos²θ = 1.   Divide that by cos²θ →  1 + tan²θ = sec²θ.   Divide it by sin²θ →  1 + cot²θ = cosec²θ.   (All three come from one idea — Pythagoras.)"
+      },
+      {
+        type: "example",
+        title: "Worked example: using an identity with quadrant signs",
+        lines: ["Given: cos θ = −3/5 and θ lies in the second quadrant. Find sin θ and tan θ.", "Use the identity: sin²θ + cos²θ = 1.", "sin²θ = 1 − cos²θ = 1 − (−3/5)² = 1 − 9/25 = 16/25.", "Take the square root: sin θ = ±4/5.", "Choose the sign using the quadrant: in Quadrant II sine is positive, so sin θ = +4/5.", "Now tan θ = sin θ / cos θ = (4/5) ÷ (−3/5) = −4/3.", "Answer: sin θ = 4/5 and tan θ = −4/3 (negative, as expected in Quadrant II)."]
+      },
+      {
+        type: "keypoints",
+        title: "Quick revision checklist",
+        items: ["Radian ties an angle to arc length: θ = l/r, and it has no unit. π rad = 180°.", "To convert: degrees × π/180 = radians; radians × 180/π = degrees.", "On the unit circle: cos θ = x-coordinate, sin θ = y-coordinate; both stay within [−1, 1].", "Signs by quadrant: All, Sine, Tangent, Cosine positive (Add Sugar To Coffee).", "The three identities all flow from x² + y² = 1: sin²θ + cos²θ = 1, 1 + tan²θ = sec²θ, 1 + cot²θ = cosec²θ.", "When square-rooting to find a ratio, always fix the sign using the quadrant."]
+      },
+      {
+        type: "quiz",
+        question: "The point for angle θ on the unit circle lies in the third quadrant. Which one of these ratios is positive?",
+        options: ["sin θ", "cos θ", "tan θ", "sec θ"],
+        correct: 2,
+        explain: "In Quadrant III both coordinates are negative, so sin θ = y < 0 and cos θ = x < 0. But tan θ = y/x = (negative)/(negative) = positive. And sec θ = 1/cos θ is negative since cos θ is negative. So only tan θ is positive — exactly what the 'Add Sugar To Coffee' rule (Tangent positive in Q3) tells us."
+      }
+    ]
+  },
+  {
+    slug: "c11-living-world-classification",
+    title: "The Living World & Biological Classification: Life, Names, and the Five Kingdoms",
+    summary: "Learn what truly makes something 'living', how scientists name every organism using binomial nomenclature, how the taxonomic hierarchy sorts life from Kingdom down to Species, and how Whittaker's five-kingdom system organises all living things - explained simply for CBSE Class 11.",
+    examSlug: "class-11",
+    subjectSlug: "biology",
+    chapterSlug: "living-world-classification",
+    readingMinutes: 8,
+    practiceTestSlug: "c11-living-world-practice-1",
+    blocks: [
+      {
+        type: "analogy",
+        title: "Life has an 'address' too",
+        text: "Think about how you'd write your full postal address: India, then Maharashtra, then Pune district, then Kothrud, then your lane, then finally your house number. Each step narrows things down, from over a billion people to just YOU. Biologists do exactly the same thing with the millions of kinds of living things on Earth. This chapter is about two big questions, dost: what counts as 'living', and how do scientists give every creature a neat 'address' so nobody gets confused?"
+      },
+      {
+        type: "heading",
+        text: "What makes something 'living'?"
+      },
+      {
+        type: "para",
+        text: "A stone, a car and a growing crystal all seem to 'do' something, yet we don't call them alive. So what is the real difference? NCERT answers this by listing the features that living organisms share. Some are easy to see (a puppy grows, a plant makes seeds), while others happen quietly inside every cell (chemical reactions we call metabolism). The trick is to know which of these features truly define life and which do not."
+      },
+      {
+        type: "keypoints",
+        title: "Characteristics of living organisms",
+        items: ["Growth: living things grow from the inside by cell division; a mountain or crystal only piles up matter from the outside.", "Reproduction: producing new individuals of the same kind (sexually or asexually).", "Metabolism: the sum of all chemical reactions happening inside the body - no non-living object shows metabolism.", "Cellular organisation: the body is made of one or more cells - the basic structural unit of life.", "Consciousness: the ability to sense the surroundings and respond to stimuli (light, heat, sound, touch).", "Self-regulation and evolution: keeping internal conditions stable, and changing over generations."]
+      },
+      {
+        type: "callout",
+        tone: "warn",
+        text: "Common exam trap: growth and reproduction are NOT defining properties of life. A mule, a sterile worker bee, and a couple who never have children are all very much alive, yet they do not reproduce; and non-living crystals can even 'grow'. NCERT's stand: metabolism is a defining feature (all living bodies are the site of metabolic reactions), cellular organisation is the defining feature of the body, and consciousness - awareness of the surroundings - is called the defining property of living organisms."
+      },
+      {
+        type: "heading",
+        text: "Taxonomy: giving every organism a proper name"
+      },
+      {
+        type: "para",
+        text: "With millions of species, common names cause chaos - 'mango' in English is 'aam' in Hindi and 'keri' elsewhere. Taxonomy solves this. Taxonomy is the science of characterisation, identification, naming (nomenclature) and classification of organisms. The closely linked field of systematics also studies the evolutionary relationships between organisms. To give one universal name, Carolus Linnaeus gave us binomial nomenclature - a scientific name made of two words that scientists worldwide accept."
+      },
+      {
+        type: "formula",
+        text: "Scientific name = Genus (capitalised) + specific epithet (small letters).  Example: Mangifera indica (mango), Homo sapiens (human), Panthera tigris (tiger). Both words are printed in italics; when handwritten, underline each word separately."
+      },
+      {
+        type: "callout",
+        tone: "tip",
+        text: "How to write a scientific name correctly: (1) two Latinised words, (2) the first letter of the genus is CAPITAL, the specific epithet is always small - never capital, (3) italics in print, separate underlines by hand, (4) the author's name may be added in short form after the specific epithet, e.g., Mangifera indica Linn. Naming rules for plants come from the ICBN and for animals from the ICZN."
+      },
+      {
+        type: "heading",
+        text: "The ladder of classification (taxonomic hierarchy)"
+      },
+      {
+        type: "para",
+        text: "Just like your address goes from broad (country) to specific (house), organisms are placed in ranks called taxonomic categories, arranged from the widest group to the narrowest: Kingdom, Phylum (called Division in plants), Class, Order, Family, Genus and Species. Species is the smallest, most basic unit - a group of individuals so similar they can interbreed among themselves. An easy memory line: 'King Philip Came Over For Good Soup' (Kingdom, Phylum, Class, Order, Family, Genus, Species)."
+      },
+      {
+        type: "example",
+        title: "Placing a human on the ladder",
+        lines: ["Species: sapiens - the most specific unit; only modern humans.", "Genus: Homo - groups sapiens with closely related human forms.", "Family: Hominidae - the great-ape and human family.", "Order: Primata - primates (monkeys, apes, humans).", "Class: Mammalia - has hair and mammary glands, feeds young on milk.", "Phylum: Chordata - has a notochord and a dorsal nerve cord.", "Kingdom: Animalia - multicellular, eukaryotic, no cell wall, eats food.", "Scientific name that pops out at the bottom: Homo sapiens."]
+      },
+      {
+        type: "heading",
+        text: "The five-kingdom system (R.H. Whittaker, 1969)"
+      },
+      {
+        type: "para",
+        text: "The old two-kingdom system (only Plantae and Animalia) created problems - it could not separate prokaryotes from eukaryotes, single-celled from many-celled, or food-makers from food-eaters. So R.H. Whittaker sorted all life into FIVE kingdoms using clear criteria: cell structure (prokaryotic or eukaryotic), body organisation, mode of nutrition, reproduction and phylogenetic (evolutionary) relationships. The five kingdoms are Monera, Protista, Fungi, Plantae and Animalia."
+      },
+      {
+        type: "table",
+        headers: ["Kingdom", "Cell type", "Cell wall", "Body", "Main nutrition", "Examples"],
+        rows: [
+          ["Monera", "Prokaryotic", "Present (non-cellulosic)", "Unicellular", "Autotrophic and heterotrophic", "Bacteria, cyanobacteria"],
+          ["Protista", "Eukaryotic", "Present in some", "Unicellular", "Autotrophic and heterotrophic", "Amoeba, Euglena, diatoms"],
+          ["Fungi", "Eukaryotic", "Present (chitin)", "Multicellular (yeast is unicellular)", "Heterotrophic (saprophytic/parasitic)", "Mushroom, yeast, Rhizopus"],
+          ["Plantae", "Eukaryotic", "Present (cellulose)", "Multicellular", "Autotrophic (photosynthesis)", "Mosses, ferns, trees"],
+          ["Animalia", "Eukaryotic", "Absent", "Multicellular", "Heterotrophic (holozoic)", "Insects, fish, humans"]
+        ]
+      },
+      {
+        type: "keypoints",
+        title: "Quick revision before the quiz",
+        items: ["Living things show metabolism, cellular organisation and consciousness; growth and reproduction alone do NOT define life.", "Binomial nomenclature = Genus (capital) + specific epithet (small), in italics or underlined; given by Carolus Linnaeus.", "Hierarchy, broad to narrow: Kingdom > Phylum/Division > Class > Order > Family > Genus > Species; species is the basic unit.", "Whittaker's five kingdoms: Monera, Protista, Fungi, Plantae, Animalia - based on cell structure, body organisation, nutrition and evolution.", "Monera is the only fully prokaryotic kingdom; the other four are eukaryotic. Viruses and lichens are not placed in this system."]
+      },
+      {
+        type: "quiz",
+        question: "In R.H. Whittaker's five-kingdom classification, which kingdom contains ONLY prokaryotic organisms?",
+        options: ["Protista", "Monera", "Fungi", "Plantae"],
+        correct: 1,
+        explain: "Monera (bacteria and cyanobacteria) is the only kingdom made up entirely of prokaryotes - cells with no true, membrane-bound nucleus. Protista, Fungi, Plantae and Animalia are all eukaryotic, so Monera is the correct answer."
+      }
+    ]
+  },
+  {
+    slug: "c11-cell-structure-function",
+    title: "Cell - The Unit of Life: Cell Theory, Cell Types and Organelles Made Simple",
+    summary: "A clear, from-scratch guide to the NCERT Class 11 chapter on the cell: the cell theory and its history, the key differences between prokaryotic and eukaryotic cells, and the structure and function of every major organelle, with tables, contrasts and a worked example to lock it in.",
+    examSlug: "class-11",
+    subjectSlug: "biology",
+    chapterSlug: "cell-structure-function",
+    readingMinutes: 7,
+    practiceTestSlug: "c11-cell-structure-practice-1",
+    blocks: [
+      {
+        type: "analogy",
+        title: "A cell is a tiny self-run township",
+        text: "Padho, Dost! Imagine a fully self-sufficient township packed into a space too small to see. It has a manager's office giving orders, a power station making energy, kitchens preparing food, a courier office packing parcels, dustbins for waste, and a boundary wall. Every worker has one clear job, and together they keep the town alive. That township is a CELL - the smallest unit that can be called 'living'. Your body is built from lakhs of crores of such townships working in harmony."
+      },
+      {
+        type: "heading",
+        text: "The Cell Theory: where it all began"
+      },
+      {
+        type: "para",
+        text: "In 1665, Robert Hooke looked at a thin slice of cork under his microscope and saw tiny box-like compartments. He called them 'cells' - but these were actually dead cell walls. Later, Anton von Leeuwenhoek was the first to see and describe living cells. Then two scientists, Matthias Schleiden (who studied plants) and Theodor Schwann (who studied animals), combined their observations to propose the Cell Theory. Finally, Rudolf Virchow explained that new cells are not created from nothing - they always arise from cells that already exist."
+      },
+      {
+        type: "keypoints",
+        title: "The Cell Theory in a nutshell",
+        items: ["All living organisms are composed of cells and products of cells.", "The cell is the basic structural and functional unit of all living things.", "All cells arise from pre-existing cells (Virchow's famous line: 'Omnis cellula-e cellula').", "History order: Hooke saw dead cork cells; Leeuwenhoek saw the first living cell; Schleiden and Schwann proposed the theory; Virchow completed it."]
+      },
+      {
+        type: "callout",
+        tone: "info",
+        text: "Cells come in amazing sizes. The smallest cells are Mycoplasma (about 0.3 micrometre). A human red blood cell is about 7 micrometres across. The largest isolated single cell is the egg of an ostrich, and nerve cells are among the longest cells in the body - some run over a metre long!"
+      },
+      {
+        type: "heading",
+        text: "Two basic types: Prokaryotic vs Eukaryotic"
+      },
+      {
+        type: "para",
+        text: "Every cell on Earth belongs to one of two clubs. A prokaryotic cell (like a bacterium) is simple and small - its DNA lies naked in the cytoplasm in a region called the nucleoid, with no membrane around it, and it has no membrane-bound organelles. A eukaryotic cell (plants, animals, fungi, protists) is bigger and more organised - its DNA is safely enclosed inside a true nucleus, and it has many membrane-bound organelles doing specialised jobs."
+      },
+      {
+        type: "table",
+        headers: ["Feature", "Prokaryotic cell", "Eukaryotic cell"],
+        rows: [
+          ["Nucleus", "No true nucleus; DNA lies free as a nucleoid", "True nucleus bound by a nuclear membrane"],
+          ["Examples", "Bacteria, cyanobacteria (blue-green algae), mycoplasma", "Protists, fungi, plants, animals"],
+          ["Membrane-bound organelles", "Absent", "Present (mitochondria, ER, Golgi, etc.)"],
+          ["Ribosomes", "70S", "80S (but 70S inside mitochondria and chloroplasts)"],
+          ["Usual size", "1-10 micrometre (smaller)", "5-100 micrometre (larger)"],
+          ["Cell wall", "Usually present (peptidoglycan in bacteria); absent in mycoplasma", "In plants/fungi (cellulose/chitin); absent in animals"]
+        ]
+      },
+      {
+        type: "callout",
+        tone: "warn",
+        text: "Common mix-up: a prokaryote is not empty of everything - it still has ribosomes (70S) and a plasma membrane. What it lacks is a membrane-bound nucleus and membrane-bound organelles. Also, a 'nucleoid' (the naked DNA region in prokaryotes) is NOT the same as a true 'nucleus'. Don't write that bacteria have a nucleus."
+      },
+      {
+        type: "heading",
+        text: "Inside a eukaryotic cell: the organelles"
+      },
+      {
+        type: "para",
+        text: "Organelles are the 'little organs' of the cell - each structure carries out one main task, just like each worker in our township. Here is who does what. Notice how the nucleus is the manager, mitochondria are the power station, ER and Golgi form the manufacturing-and-courier line, and lysosomes are the cleaning crew."
+      },
+      {
+        type: "table",
+        headers: ["Organelle", "Main function (in one line)"],
+        rows: [
+          ["Nucleus", "Controls all cell activities; stores DNA as chromatin; its nucleolus makes ribosomes"],
+          ["Mitochondria", "The 'powerhouse' - makes ATP by aerobic respiration; has its own DNA and 70S ribosomes"],
+          ["Chloroplast (plants only)", "Carries out photosynthesis using chlorophyll held in stacks called grana"],
+          ["Rough ER (RER)", "Studded with ribosomes; helps make and transport proteins"],
+          ["Smooth ER (SER)", "Makes lipids and steroids; has no ribosomes on its surface"],
+          ["Golgi apparatus", "Modifies, packages and dispatches proteins and lipids - the 'courier office'"],
+          ["Ribosomes", "Site of protein synthesis; made of rRNA + protein; not bound by any membrane"],
+          ["Lysosomes", "'Suicide bags' full of digestive enzymes; break down waste and worn-out parts"],
+          ["Vacuole", "Stores water, food and waste; forms one large central vacuole in plant cells"],
+          ["Centriole", "Forms spindle fibres during cell division (mainly in animal cells)"]
+        ]
+      },
+      {
+        type: "keypoints",
+        title: "Plant cell vs Animal cell - quick contrasts",
+        items: ["Cell wall: present in plant cells (made of cellulose); absent in animal cells.", "Chloroplasts: present only in plant cells (needed for photosynthesis).", "Vacuole: one large central vacuole in plant cells; small and many in animal cells.", "Centrioles: usually present only in animal cells (help form the spindle in division).", "Shape: plant cells look fixed and boxy because of the wall; animal cells are rounder and more flexible."]
+      },
+      {
+        type: "example",
+        title: "Worked example: Name that cell",
+        lines: ["Clue 1: The cell has a true nucleus with a nuclear membrane - so it is a eukaryotic cell, not a prokaryote.", "Clue 2: It has membrane-bound mitochondria and a Golgi apparatus - this confirms it is a eukaryote.", "Clue 3: It has NO cell wall and NO chloroplast - so it cannot be a plant cell.", "Clue 4: It has a pair of centrioles and only small vacuoles - features typical of animal cells.", "Conclusion: Putting all clues together, this is an animal cell (a eukaryotic cell)."]
+      },
+      {
+        type: "callout",
+        tone: "tip",
+        text: "Memory trick: 'Pro' in Prokaryote sounds like 'primitive / before' - before the nucleus evolved, so NO true nucleus. 'Eu' means true and 'karyon' means nucleus, so Eukaryote = TRUE nucleus. For ribosomes: prokaryotes are smaller so they carry the smaller 70S; eukaryotes are bigger so they carry the bigger 80S."
+      },
+      {
+        type: "quiz",
+        question: "A cell has a well-defined nucleus with a nuclear membrane and mitochondria, but NO cell wall, NO chloroplast, and NO large central vacuole. It also contains a pair of centrioles. This cell is most likely a:",
+        options: ["Bacterial (prokaryotic) cell", "Plant cell", "Animal cell", "Cyanobacterium (blue-green alga)"],
+        correct: 2,
+        explain: "A true nucleus plus membrane-bound organelles means the cell is a eukaryote, which rules out the bacterium and the cyanobacterium (both prokaryotes). The absence of a cell wall, chloroplast and large central vacuole, together with the presence of centrioles, are classic features of an animal cell, not a plant cell."
+      }
+    ]
+  },
+  {
+    slug: "c11-plant-kingdom",
+    title: "Plant Kingdom Made Simple: From Algae to Angiosperms",
+    summary: "A friendly, NCERT-aligned tour of how the plant kingdom is sorted into algae, bryophytes, pteridophytes, gymnosperms and angiosperms — using one simple checklist (body, plumbing, seeds) plus each group's key features and life cycles.",
+    examSlug: "class-11",
+    subjectSlug: "biology",
+    chapterSlug: "plant-kingdom",
+    readingMinutes: 7,
+    practiceTestSlug: "c11-plant-kingdom-practice-1",
+    blocks: [
+      {
+        type: "analogy",
+        title: "From the pond to the mango tree",
+        text: "Picture five cousins in one big family, slowly learning to live away from water. The youngest still cannot leave the pool (algae — stuck in water). The next sits at the wet edge but keeps jumping back in to get things done (bryophytes). The third stands on dry land but still needs a splash of water for its 'wedding', or fertilisation (pteridophytes). The two eldest have grown fully independent — they carry their own packed tiffin, the seed, and never need water to reproduce (gymnosperms and angiosperms). The whole Plant Kingdom is exactly this story: plants gradually conquering land and learning to pack their babies safely."
+      },
+      {
+        type: "para",
+        text: "Padho, dost! Classifying plants sounds scary because of the long names, but it is actually very orderly. Botanists sort the green plants into five big groups by asking just a few simple questions about the plant's body, its internal plumbing, and how it makes babies. Once you know the questions, every plant slots neatly into place — and you can even guess a plant's group just by looking at it."
+      },
+      {
+        type: "heading",
+        text: "The questions that sort every plant"
+      },
+      {
+        type: "keypoints",
+        title: "The sorting checklist",
+        items: ["Body plan: a simple undifferentiated thallus, or a true body with roots, stems and leaves?", "Plumbing: is vascular tissue (xylem to carry water, phloem to carry food) present or absent?", "Seeds: none at all, naked (uncovered), or enclosed inside a fruit?", "Dominant stage: is the plant you see the gametophyte (haploid, n) or the sporophyte (diploid, 2n)?", "Water for fertilisation: must the male gamete swim across water, or can the pollen simply fly?"]
+      },
+      {
+        type: "table",
+        headers: ["Group", "True root/stem/leaf?", "Vascular tissue?", "Seeds?", "Example"],
+        rows: [
+          ["Algae", "No (thallus)", "No", "No", "Spirogyra, Volvox"],
+          ["Bryophytes", "No (rhizoids only)", "No", "No", "Funaria, Marchantia"],
+          ["Pteridophytes", "Yes", "Yes", "No", "Fern (Pteris), Selaginella"],
+          ["Gymnosperms", "Yes", "Yes", "Naked seeds", "Pinus, Cycas"],
+          ["Angiosperms", "Yes", "Yes", "Seeds in a fruit", "Mango, Wheat"]
+        ]
+      },
+      {
+        type: "heading",
+        text: "Algae: the water-dwellers"
+      },
+      {
+        type: "para",
+        text: "Algae are simple, chlorophyll-bearing autotrophs that are mostly aquatic. Their body is a thallus — there are no true roots, stems or leaves. They reproduce vegetatively (by fragmentation), asexually (by zoospores) and sexually, which can be isogamous, anisogamous or oogamous. Based on their pigments and stored food, algae are grouped into three classes."
+      },
+      {
+        type: "table",
+        headers: ["Class", "Common name", "Main pigment", "Example"],
+        rows: [
+          ["Chlorophyceae", "Green algae", "Chlorophyll a and b", "Spirogyra, Chara"],
+          ["Phaeophyceae", "Brown algae", "Fucoxanthin", "Laminaria, Sargassum"],
+          ["Rhodophyceae", "Red algae", "r-Phycoerythrin", "Polysiphonia, Gracilaria"]
+        ]
+      },
+      {
+        type: "heading",
+        text: "Bryophytes and Pteridophytes: the land pioneers"
+      },
+      {
+        type: "keypoints",
+        title: "Bryophytes — the 'amphibians of the plant kingdom'",
+        items: ["Grow in moist, shady places; called amphibians because they live on land but still need water to reproduce.", "The visible plant is the gametophyte (n) — flat or leafy, anchored by rhizoids; no true roots, stems, leaves or vascular tissue.", "Sex organs: antheridium (male) and archegonium (female); male gametes swim through a film of water to reach the egg.", "The zygote grows into a sporophyte that stays attached to and dependent on the gametophyte, and makes spores.", "Examples: liverworts (Marchantia, Riccia) and mosses (Funaria, Sphagnum)."]
+      },
+      {
+        type: "keypoints",
+        title: "Pteridophytes — the first true plants with plumbing",
+        items: ["First plants to have true roots, stems and leaves AND vascular tissue (xylem + phloem).", "The dominant plant is the sporophyte (2n); it bears spore-making sporangia on leaf-like sporophylls.", "Spores germinate into a small, free-living, photosynthetic gametophyte called a prothallus.", "Still tied to water: male gametes must swim to the archegonium, so fertilisation needs a film of water.", "Most are homosporous; a few (Selaginella, Salvinia) are heterosporous — an early step toward the seed habit. Examples: ferns (Pteris, Adiantum), Equisetum, Lycopodium."]
+      },
+      {
+        type: "heading",
+        text: "Seed plants: Gymnosperms and Angiosperms"
+      },
+      {
+        type: "para",
+        text: "Gymnosperms and angiosperms both make seeds, so their tiny male gametophyte — carried in the pollen grain — travels by wind or insects, with no water needed for fertilisation. That is a huge advantage on dry land. The difference is packaging. In gymnosperms like Pinus and Cycas the ovules sit exposed on cones, so the seeds are 'naked' — there is no fruit. In angiosperms (flowering plants) the ovules are enclosed inside an ovary; after a unique double fertilisation the ovary ripens into a fruit and the ovules become seeds tucked safely inside. Angiosperms are split into dicots (two cotyledons, e.g. mango, gram) and monocots (one cotyledon, e.g. wheat, maize). In both groups the sporophyte is the big dominant plant while the gametophyte is microscopic and dependent — a diplontic life cycle, the opposite of a moss, where the gametophyte is the dominant stage."
+      },
+      {
+        type: "steps",
+        title: "Life cycle of a moss — spot the alternation of generations",
+        items: ["A haploid (n) spore lands on moist soil and germinates into a green, branched, thread-like protonema.", "The protonema grows buds that develop into the leafy gametophyte — the green moss plant you actually see. This is the dominant, food-making stage.", "The gametophyte bears sex organs: antheridia release motile male gametes (antherozoids), and each archegonium holds one egg.", "A film of rain or dew lets an antherozoid swim to the egg — remember, fertilisation here needs water.", "Fusion gives a diploid (2n) zygote, which grows into the sporophyte: a stalk and capsule that stay attached to, and fed by, the gametophyte.", "Inside the capsule, meiosis produces haploid spores, which are released to start the cycle again — gametophyte (n) alternating with sporophyte (2n)."]
+      },
+      {
+        type: "callout",
+        tone: "warn",
+        text: "Common mistakes to avoid: (1) Bryophytes do NOT have true roots — they have rhizoids and no vascular tissue. Pteridophytes are the first to have true roots, stems, leaves AND vascular tissue, but they still make no seeds. (2) 'Naked seed' in gymnosperms means the seed is not enclosed in a fruit — it does NOT mean the seed has no coat. (3) In mosses and ferns the male gamete must swim, so water is essential for fertilisation; in seed plants it is not."
+      },
+      {
+        type: "keypoints",
+        title: "Quick revision",
+        items: ["Complexity increases and dependence on water decreases as we move algae → bryophytes → pteridophytes → gymnosperms → angiosperms.", "No vascular tissue: algae and bryophytes. Vascular tissue present: pteridophytes, gymnosperms, angiosperms.", "No seeds: algae, bryophytes, pteridophytes. Naked seeds: gymnosperms. Seeds in a fruit: angiosperms.", "Dominant gametophyte: algae and bryophytes. Dominant sporophyte: pteridophytes, gymnosperms, angiosperms.", "Water needed for fertilisation only up to pteridophytes; seed plants use wind- or insect-carried pollen instead."]
+      },
+      {
+        type: "quiz",
+        question: "Which group is the FIRST to have true vascular tissue (xylem and phloem) but still does NOT produce seeds?",
+        options: ["Bryophytes", "Pteridophytes", "Gymnosperms", "Algae"],
+        correct: 1,
+        explain: "Pteridophytes are the first plants with true vascular tissue and a proper root-stem-leaf body, yet they still reproduce by spores, not seeds. Bryophytes lack vascular tissue; gymnosperms have both vascular tissue and (naked) seeds; algae have neither vascular tissue nor seeds."
+      }
+    ]
+  },
 ];
 
 export const getExplainer = (slug: string) => explainers.find((e) => e.slug === slug);

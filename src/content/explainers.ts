@@ -3955,6 +3955,1289 @@ export const explainers: ExplainerContent[] = [
       }
     ]
   },
+  {
+    slug: "rrb-number-system-simplification",
+    title: "Number System & Simplification: The Speed Chapter for RRB NTPC",
+    summary: "Learn to sort numbers by type, apply divisibility shortcuts, crack LCM and HCF, and simplify with BODMAS — the fast, low-effort marks that lift your RRB NTPC maths score.",
+    examSlug: "railways",
+    subjectSlug: "mathematics",
+    chapterSlug: "number-system-simplification",
+    readingMinutes: 7,
+    practiceTestSlug: "rrb-number-system-practice-1",
+    blocks: [
+      {
+        type: "analogy",
+        title: "Your kitchen dabba shelf",
+        text: "Think of numbers in maths like the dabbas in your kitchen. You keep dal in one, rice in another, masala in a third. Nothing is thrown together randomly. The Number System works exactly like this: every number has a shelf it belongs to (natural, whole, prime, even...), and once you know the shelves, you can grab the right one in seconds. In the RRB NTPC exam, that speed is everything. Padho, dost — let us organise the shelf together."
+      },
+      {
+        type: "heading",
+        text: "Part 1: Types of Numbers"
+      },
+      {
+        type: "para",
+        text: "Before you solve anything, you must recognise what kind of number you are looking at. Counting numbers (1, 2, 3...) are Natural numbers. Add zero and you get Whole numbers. Add the negatives too and you get Integers. A Prime number has exactly two factors (1 and itself), while a Composite number has more than two. This is basic, but examiners love to trap you on the edge cases, so read the table slowly."
+      },
+      {
+        type: "table",
+        headers: ["Type", "Meaning", "Examples"],
+        rows: [
+          ["Natural (N)", "Counting numbers, starting from 1", "1, 2, 3, 4 ..."],
+          ["Whole (W)", "Natural numbers plus zero", "0, 1, 2, 3 ..."],
+          ["Integers (Z)", "Negatives, zero and positives", "...-2, -1, 0, 1, 2 ..."],
+          ["Prime", "Exactly two factors: 1 and itself", "2, 3, 5, 7, 11, 13 ..."],
+          ["Composite", "More than two factors", "4, 6, 8, 9, 10, 12 ..."],
+          ["Even / Odd", "Divisible / not divisible by 2", "Even: 2, 4, 6 · Odd: 1, 3, 5"]
+        ]
+      },
+      {
+        type: "callout",
+        tone: "warn",
+        text: "Two classic traps: (1) The number 1 is NEITHER prime nor composite. (2) The number 2 is the ONLY even prime number. Examiners ask these almost every year, so lock them in."
+      },
+      {
+        type: "heading",
+        text: "Part 2: Divisibility Rules — your speed weapon"
+      },
+      {
+        type: "para",
+        text: "In 90 minutes you have to attempt 100 questions. You simply do not have time to do long division for every number. Divisibility rules let you check in your head whether one number divides another. Master this table and you will save precious minutes on factors, HCF, LCM and simplification questions."
+      },
+      {
+        type: "table",
+        headers: ["Divisible by", "Rule", "Quick check"],
+        rows: [
+          ["2", "Last digit is even (0, 2, 4, 6, 8)", "3746 ends in 6"],
+          ["3", "Sum of digits is divisible by 3", "1242 → 1+2+4+2 = 9"],
+          ["4", "Last two digits divisible by 4", "1316 → 16 ÷ 4 = 4"],
+          ["5", "Ends in 0 or 5", "2035 ends in 5"],
+          ["6", "Divisible by BOTH 2 and 3", "534 → even & digit sum 12"],
+          ["8", "Last three digits divisible by 8", "7120 → 120 ÷ 8 = 15"],
+          ["9", "Sum of digits is divisible by 9", "8172 → 8+1+7+2 = 18"],
+          ["10", "Ends in 0", "4890 ends in 0"],
+          ["11", "(odd-place sum − even-place sum) = 0 or a multiple of 11", "1331 → (1+3) − (3+1) = 0"]
+        ]
+      },
+      {
+        type: "callout",
+        tone: "tip",
+        text: "Shortcut mindset: for 6, do not divide by 6 — just check 2 and 3. For any number ending in a run of zeros, that number is already divisible by 2, 5 and 10. These little checks are pure free marks."
+      },
+      {
+        type: "heading",
+        text: "Part 3: LCM and HCF"
+      },
+      {
+        type: "analogy",
+        title: "Bells vs ribbons",
+        text: "HCF (Highest Common Factor) is like cutting three ribbons of different lengths into the LARGEST equal pieces with nothing wasted — you want the biggest common size. LCM (Least Common Multiple) is like three temple bells ringing at different intervals — LCM tells you when they will all ring TOGETHER again for the first time. HCF = biggest common divider, LCM = smallest common meeting point."
+      },
+      {
+        type: "formula",
+        text: "For any two numbers: LCM × HCF = Product of the two numbers. So if you know three of these four values, you can always find the fourth."
+      },
+      {
+        type: "example",
+        title: "Find the LCM and HCF of 12 and 18",
+        lines: ["Step 1 — Prime factorise: 12 = 2 × 2 × 3 = 2² × 3", "                       18 = 2 × 3 × 3 = 2 × 3²", "Step 2 — HCF = product of the LOWEST powers of common primes = 2¹ × 3¹ = 6", "Step 3 — LCM = product of the HIGHEST powers of all primes = 2² × 3² = 4 × 9 = 36", "Step 4 — Verify with the formula: LCM × HCF = 36 × 6 = 216", "          Product of numbers = 12 × 18 = 216 ✓", "Answer: HCF = 6, LCM = 36"]
+      },
+      {
+        type: "heading",
+        text: "Part 4: BODMAS — the order of operations"
+      },
+      {
+        type: "para",
+        text: "Simplification questions look scary but are the easiest marks in the paper IF you follow one rule: BODMAS. It tells you the exact order in which to solve. Break the rule and you will get a clean-looking wrong answer — which is exactly what the distractor options are waiting for."
+      },
+      {
+        type: "steps",
+        title: "The BODMAS order",
+        items: ["B — Brackets first: solve ( ), then { }, then [ ], from inside to outside.", "O — Of / Orders: powers, square roots, and the word 'of' (e.g. 1/2 of 8 = 4).", "D and M — Division and Multiplication, done left to right (they have EQUAL priority).", "A and S — Addition and Subtraction, done left to right (also equal priority)."]
+      },
+      {
+        type: "example",
+        title: "Simplify: 36 ÷ 6 + 4 × 3 − (5 + 2)",
+        lines: ["Step 1 — Brackets: (5 + 2) = 7  →  36 ÷ 6 + 4 × 3 − 7", "Step 2 — Division: 36 ÷ 6 = 6  →  6 + 4 × 3 − 7", "Step 3 — Multiplication: 4 × 3 = 12  →  6 + 12 − 7", "Step 4 — Addition: 6 + 12 = 18  →  18 − 7", "Step 5 — Subtraction: 18 − 7 = 11", "Answer: 11"]
+      },
+      {
+        type: "callout",
+        tone: "warn",
+        text: "Biggest BODMAS mistake: thinking Multiplication ALWAYS comes before Division. It does not — D and M are equal, so move left to right. Same for Addition and Subtraction. In 12 − 4 + 2, do 12 − 4 = 8 first, then 8 + 2 = 10 (not 12 − 6 = 6)."
+      },
+      {
+        type: "keypoints",
+        title: "60-second revision before the exam",
+        items: ["1 is neither prime nor composite; 2 is the only even prime.", "Divisible by 3 or 9 → add the digits. Divisible by 11 → alternate-place difference.", "Divisible by 6 means divisible by both 2 and 3.", "HCF = biggest common divider (grouping); LCM = smallest common multiple (meeting again).", "LCM × HCF = product of the two numbers.", "BODMAS: Brackets → Of/Orders → Divide & Multiply (left to right) → Add & Subtract (left to right)."]
+      },
+      {
+        type: "quiz",
+        question: "Simplify: 8 + 2 × 5",
+        options: ["50", "18", "20", "40"],
+        correct: 1,
+        explain: "By BODMAS, multiplication is done before addition. So 2 × 5 = 10 first, then 8 + 10 = 18. The trap answer 50 comes from wrongly working left to right (8 + 2 = 10, then 10 × 5 = 50). Always do × and ÷ before + and −."
+      }
+    ]
+  },
+  {
+    slug: "rrb-percentage-ratio-average",
+    title: "Percentage, Ratio & Average Made Easy",
+    summary: "A from-scratch, exam-focused guide to percentage-fraction conversions, dividing in a ratio, and averages for RRB NTPC — with memory tables, fully worked examples, and speed shortcuts to grab easy Maths marks in the CBT.",
+    examSlug: "railways",
+    subjectSlug: "mathematics",
+    chapterSlug: "percentage-ratio-average",
+    readingMinutes: 7,
+    practiceTestSlug: "rrb-percentage-ratio-practice-1",
+    blocks: [
+      {
+        type: "analogy",
+        title: "One family function, three maths ideas",
+        text: "Picture a family wedding. When your uncle says \"80% of the guests have arrived\", that's a PERCENTAGE. When your mother splits 300 laddoos among three cousins in a 1:2:3 share, that's a RATIO. When you work out the average gift amount, that's an AVERAGE. You already use all three every day, Dost. In RRB NTPC we just do it faster and on paper."
+      },
+      {
+        type: "para",
+        text: "In the NTPC CBT-1 you face 100 questions in 90 minutes, and Mathematics has 30 of them. That is under a minute per question. Percentage, Ratio and Average are the friendliest, most repeated topics in this section, so getting them fast and accurate is like collecting easy marks before the tricky ones arrive. Let us build the method step by step."
+      },
+      {
+        type: "heading",
+        text: "Part 1: Percentages (thinking in 'out of 100')"
+      },
+      {
+        type: "para",
+        text: "'Per cent' literally means 'per hundred'. So 45% just means 45 out of every 100. The magic word in most questions is 'of' — whenever you see 'of', it means multiply. So '45% of 500' means take 45 out of every 100, applied to 500."
+      },
+      {
+        type: "formula",
+        text: "Fraction or decimal to percentage: multiply by 100  (e.g. 3/5 x 100 = 60%). Percentage to fraction: divide by 100  (e.g. 40% = 40/100 = 2/5). And: x% of N = (x/100) x N."
+      },
+      {
+        type: "table",
+        headers: ["Fraction", "Percentage"],
+        rows: [
+          ["1/2", "50%"],
+          ["1/3", "33.33% (33 1/3%)"],
+          ["2/3", "66.67% (66 2/3%)"],
+          ["1/4", "25%"],
+          ["3/4", "75%"],
+          ["1/5", "20%"],
+          ["1/6", "16.67% (16 2/3%)"],
+          ["1/8", "12.5%"],
+          ["1/10", "10%"],
+          ["1/20", "5%"]
+        ]
+      },
+      {
+        type: "callout",
+        tone: "tip",
+        text: "Memorise this fraction–percentage table by heart. In the exam, '25% of 840' becomes '840 divided by 4 = 210' in your head, no long multiplication needed. Converting a percentage to its simple fraction is the single biggest time-saver in this whole topic."
+      },
+      {
+        type: "example",
+        title: "Worked example: a sale price",
+        lines: ["A shirt costs Rs 800. In a sale the price is cut by 20%. Find the new price.", "Step 1: Turn the percentage into a fraction. 20% = 1/5.", "Step 2: Find the cut. 1/5 of 800 = 800 / 5 = Rs 160.", "Step 3: Subtract from the original. 800 - 160 = Rs 640.", "Answer: the new price is Rs 640."]
+      },
+      {
+        type: "heading",
+        text: "Part 2: Ratios (dividing things fairly)"
+      },
+      {
+        type: "para",
+        text: "A ratio like 2:3 tells you how a whole is shared in parts — 2 parts for one, 3 parts for the other. The trick is simple: add up all the parts to get the total number of parts, find the value of ONE part, then multiply for each share. A ratio has no units, so always convert quantities to the same unit before writing the ratio."
+      },
+      {
+        type: "example",
+        title: "Worked example: sharing a bonus",
+        lines: ["Divide Rs 6000 among three workers A, B and C in the ratio 2:3:5.", "Step 1: Add the parts. 2 + 3 + 5 = 10 total parts.", "Step 2: Find one part. 6000 / 10 = Rs 600 per part.", "Step 3: Multiply for each share. A = 2 x 600 = 1200, B = 3 x 600 = 1800, C = 5 x 600 = 3000.", "Step 4: Check by adding back. 1200 + 1800 + 3000 = 6000. Correct."]
+      },
+      {
+        type: "heading",
+        text: "Part 3: Averages (the middle value)"
+      },
+      {
+        type: "formula",
+        text: "Average = (Sum of all values) / (Number of values). Rearrange this and you get the master key: Sum = Average x Number. Most average word problems are cracked by finding the total first."
+      },
+      {
+        type: "example",
+        title: "Worked example: the missing number",
+        lines: ["The average of 6 numbers is 20. A 7th number is added and the average rises to 22. Find the 7th number.", "Step 1: Sum of the first 6 = Average x Number = 20 x 6 = 120.", "Step 2: Sum of all 7 = 22 x 7 = 154.", "Step 3: The new number = new total - old total = 154 - 120 = 34.", "Answer: the 7th number is 34."]
+      },
+      {
+        type: "callout",
+        tone: "warn",
+        text: "Common mistake: you cannot just average two averages when the group sizes differ. If class A (30 students) averages 60 and class B (20 students) averages 70, the combined average is NOT 65. Use totals: (60x30 + 70x20) / (30+20) = 3200 / 50 = 64. Always weight by the number of items."
+      },
+      {
+        type: "keypoints",
+        title: "Exam shortcuts to lock in",
+        items: ["Learn the fraction–percentage table by heart — it turns percentages into instant divisions (e.g. 25% means 'divide by 4').", "'of' always means multiply: x% of N = (x/100) x N.", "To divide in ratio a:b:c, one part = Total / (a+b+c), then multiply each part.", "Sum = Average x Number is the master trick for almost every average problem.", "Keep all quantities in the same unit before forming a ratio; ratios themselves have no unit.", "Marking is +1 right, -1/3 wrong. Attempt when you can solve in about 40-50 seconds; skip pure guesses to protect your score."]
+      },
+      {
+        type: "quiz",
+        question: "Divide Rs 960 between A and B in the ratio 5:7. How much does B receive?",
+        options: ["Rs 400", "Rs 560", "Rs 480", "Rs 520"],
+        correct: 1,
+        explain: "Total parts = 5 + 7 = 12. One part = 960 / 12 = Rs 80. B has 7 parts, so B gets 7 x 80 = Rs 560 (and A gets 5 x 80 = Rs 400, which is the tempting wrong option)."
+      }
+    ]
+  },
+  {
+    slug: "rrb-time-speed-work",
+    title: "Time, Speed, Distance & Time-and-Work: The Rate Formula That Cracks Both",
+    summary: "One idea -- Rate x Time = Total -- powers trains, average speed, relative speed, and pipes & cisterns. Learn the 5/18 shortcut, the average-speed trap, and the add-the-rates method to lock in easy RRB NTPC Maths marks.",
+    examSlug: "railways",
+    subjectSlug: "mathematics",
+    chapterSlug: "time-speed-work",
+    readingMinutes: 7,
+    practiceTestSlug: "rrb-time-speed-work-practice-1",
+    blocks: [
+      {
+        type: "analogy",
+        title: "The auto-rickshaw meter",
+        text: "Picture an auto meter ticking as you ride. How far you go depends on just two things: how fast the auto moves (speed) and how long you sit in it (time). Speed x Time = Distance. That one sentence is the whole chapter. Time-Speed-Distance (TSD) and Time-and-Work look like two separate topics, but both are really the same idea: RATE x TIME = TOTAL. Master the rate idea once, and trains, boats, pipes and painters all fall in line. Padho, dost -- this is one of the highest-scoring, most predictable areas in RRB NTPC Maths."
+      },
+      {
+        type: "para",
+        text: "In NTPC CBT-1 you face 100 questions in 90 minutes: 40 General Awareness, 30 Maths, 30 Reasoning, with +1 for a correct answer and -1/3 for a wrong one. That is roughly 54 seconds per question. TSD and Time-and-Work together hand you 4 to 6 near-guaranteed Maths marks IF you know the formulas cold and stay calm. Let us build that speed."
+      },
+      {
+        type: "heading",
+        text: "Part 1: The core Speed-Time-Distance triangle"
+      },
+      {
+        type: "formula",
+        text: "Distance = Speed x Time   |   Speed = Distance / Time   |   Time = Distance / Speed"
+      },
+      {
+        type: "callout",
+        tone: "tip",
+        text: "The unit-conversion shortcut you MUST memorise: to change km/h into m/s, multiply by 5/18. To change m/s into km/h, multiply by 18/5. Example: 54 km/h x 5/18 = 15 m/s. Almost every train question hides right here."
+      },
+      {
+        type: "formula",
+        text: "Average speed for equal distances (go at x, return at y) = 2xy / (x + y). This is NOT the simple average (x + y)/2 -- that is the classic trap."
+      },
+      {
+        type: "example",
+        title: "Worked example: average speed",
+        lines: ["Question: A man goes to a town at 60 km/h and returns along the same road at 40 km/h. Find his average speed for the whole trip.", "Trap answer: (60 + 40)/2 = 50 km/h. WRONG, because he spends more time on the slower leg.", "Correct formula (equal distance both ways): 2xy / (x + y).", "= (2 x 60 x 40) / (60 + 40)", "= 4800 / 100", "= 48 km/h. That is the answer."]
+      },
+      {
+        type: "heading",
+        text: "Part 2: Relative speed, trains and platforms"
+      },
+      {
+        type: "para",
+        text: "When two objects move, we combine their speeds. Same direction: SUBTRACT the speeds (they pull apart slowly). Opposite directions: ADD the speeds (they close in fast). A train question is just a distance-covered question where the distance includes the length of the train itself."
+      },
+      {
+        type: "table",
+        headers: ["Situation", "Distance covered", "Speed to use"],
+        rows: [
+          ["Train crosses a pole / standing man", "Length of train", "Train's own speed"],
+          ["Train crosses a platform / bridge", "Train length + platform length", "Train's own speed"],
+          ["Two trains, opposite directions", "Sum of both lengths", "Sum of speeds"],
+          ["Two trains, same direction", "Sum of both lengths", "Difference of speeds"]
+        ]
+      },
+      {
+        type: "example",
+        title: "Worked example: train crossing a platform",
+        lines: ["Question: A 240 m long train runs at 54 km/h. How long does it take to cross a 360 m platform?", "Step 1 -- Convert speed: 54 x 5/18 = 15 m/s.", "Step 2 -- Total distance = train + platform = 240 + 360 = 600 m.", "Step 3 -- Time = Distance / Speed = 600 / 15.", "Answer = 40 seconds."]
+      },
+      {
+        type: "heading",
+        text: "Part 3: Time and Work (and Pipes & Cisterns)"
+      },
+      {
+        type: "para",
+        text: "Same rate idea, new costume. If A finishes a job in 10 days, then in ONE day A does 1/10 of the work. That 1/10 is A's rate. To combine workers, simply ADD their one-day rates. Pipes and cisterns work the same way: a filling pipe has a positive rate, and a draining or leaking pipe has a NEGATIVE rate, so you subtract it."
+      },
+      {
+        type: "formula",
+        text: "If A alone takes 'a' days and B alone takes 'b' days, together they take (a x b) / (a + b) days. (Add the daily rates 1/a + 1/b, then flip.)"
+      },
+      {
+        type: "steps",
+        title: "Method: A and B working together",
+        items: ["A does the job in 10 days, so A's 1-day work = 1/10.", "B does the job in 15 days, so B's 1-day work = 1/15.", "Add the rates: 1/10 + 1/15 = 3/30 + 2/30 = 5/30 = 1/6.", "Together they do 1/6 of the work per day.", "Flip it: total time = 6 days. Done."]
+      },
+      {
+        type: "callout",
+        tone: "warn",
+        text: "Common mistake: students ADD the days (10 + 15 = 25) or average them. Never add or average days -- add the RATES (1/days). Two people working together must be FASTER than either one alone, so the combined time is always LESS than the smaller number (here, less than 10)."
+      },
+      {
+        type: "keypoints",
+        title: "60-second revision card",
+        items: ["km/h to m/s: multiply by 5/18. m/s to km/h: multiply by 18/5.", "Average speed (equal distance): 2xy/(x+y), never (x+y)/2.", "Same direction: subtract speeds. Opposite direction: add speeds.", "Train + platform = add both lengths for the distance.", "Time & Work: add one-day rates (1/a + 1/b), then flip for the combined time.", "Pipes: filling is +rate, leaking/emptying is -rate. The net rate decides the time."]
+      },
+      {
+        type: "quiz",
+        question: "A can finish a piece of work in 12 days and B can finish the same work in 6 days. Working together, how many days will they take?",
+        options: ["4 days", "9 days", "18 days", "3 days"],
+        correct: 0,
+        explain: "Add the daily rates: A does 1/12 per day, B does 1/6 = 2/12 per day. Together = 1/12 + 2/12 = 3/12 = 1/4 of the work each day. Flip it: total time = 4 days. Note it is less than 6 (B's own time), which makes sense -- two workers are faster than one."
+      }
+    ]
+  },
+  {
+    slug: "rrb-analogy-classification",
+    title: "Analogy & Classification: Crack the Hidden Rishta",
+    summary: "Learn a simple 4-step method to solve number, letter, and word analogies plus odd-one-out classification for RRB NTPC. Includes the EJOTY shortcut, fully worked examples, and common traps to avoid so you bank these easy Reasoning marks fast.",
+    examSlug: "railways",
+    subjectSlug: "general-intelligence-reasoning",
+    chapterSlug: "analogy-classification",
+    readingMinutes: 7,
+    practiceTestSlug: "rrb-analogy-classification-practice-1",
+    blocks: [
+      {
+        type: "analogy",
+        title: "Every analogy is a rishta (relationship)",
+        text: "At a wedding, the moment someone tells you 'Ram is Sita's husband,' you instantly know how to describe every other couple in the room. Analogy questions work exactly like that. First you spot the rishta (relationship) hidden inside the first pair. Then you hunt for the option that carries the very same rishta. Classification is the flip side: four items walk in, three are 'family,' and your job is to catch the outsider."
+      },
+      {
+        type: "para",
+        text: "In RRB NTPC CBT-1 you get 30 Reasoning questions inside a 100-question, 90-minute paper, with +1 for a correct answer and -1/3 for a wrong one. Analogy and Classification are among the friendliest topics here: 4 to 6 near-guaranteed marks that a trained eye can clear in under 30 seconds each. Learn the method once and these become free marks, not time-eaters."
+      },
+      {
+        type: "heading",
+        text: "How an Analogy Question is Built"
+      },
+      {
+        type: "formula",
+        text: "A : B :: C : D  is read as \"A is to B, as C is to D.\" The single colon (:) means 'is related to' and the double colon (::) means 'in the same way as.' Your job: find the rule that turns A into B, then apply that exact rule to C to get D."
+      },
+      {
+        type: "table",
+        headers: ["Type", "Example", "Hidden rule (rishta)"],
+        rows: [
+          ["Number", "4 : 16 :: 6 : 36", "Square of the number (n squared)"],
+          ["Number", "6 : 42 :: 7 : 56", "n multiplied by (n+1)"],
+          ["Letter", "AC : EG :: IK : MO", "Skip one letter inside each pair; the whole group jumps +4"],
+          ["Word", "Pen : Write :: Knife : Cut", "Tool paired with its function"],
+          ["Word", "Doctor : Hospital :: Teacher : School", "Person paired with their workplace"]
+        ]
+      },
+      {
+        type: "heading",
+        text: "The 4-Step Method for Any Analogy"
+      },
+      {
+        type: "steps",
+        title: "Solve in four quick moves",
+        items: ["Read A : B and name the rishta out loud - is it a square, a plus/minus jump, a synonym, a function, or a category? Be specific.", "Fix the direction. Doctor to Hospital is 'works at'; do not flip it. The order A-to-B must match C-to-D.", "Apply the SAME rule to C to produce D. Do not change the rule midway.", "For letters, convert to positions using the EJOTY anchors (E=5, J=10, O=15, T=20, Y=25) and count forward or back from the nearest anchor - far faster than reciting A, B, C..."]
+      },
+      {
+        type: "example",
+        title: "Worked example 1 - Number analogy",
+        lines: ["Question: 6 : 42 :: 9 : ?", "Step 1 - Find the rishta from 6 to 42. Is it +36? Or a product? Check 6 x 7 = 42.", "Step 2 - Confirm the pattern: 6 x (6+1) = 6 x 7 = 42. Rule = n x (n+1).", "Step 3 - Apply the same rule to 9: 9 x (9+1) = 9 x 10 = 90.", "Answer: 90"]
+      },
+      {
+        type: "example",
+        title: "Worked example 2 - Letter analogy (EJOTY in action)",
+        lines: ["Question: BDF : HJL :: PRT : ?", "Step 1 - Positions of BDF: B=2, D=4, F=6 (inside the group, each letter jumps +2).", "Step 2 - BDF to HJL: H=8, J=10, L=12. Every letter increased by 6 (B+6=H).", "Step 3 - Apply +6 to PRT. Using the anchor T=20: P=16, R=18, T=20.", "Step 4 - 16+6=22 (V), 18+6=24 (X), 20+6=26 (Z).", "Answer: VXZ"]
+      },
+      {
+        type: "heading",
+        text: "Classification: Catching the Odd One Out"
+      },
+      {
+        type: "steps",
+        title: "How to spot the outsider",
+        items: ["Scan all options for a property shared by MOST of them - perfect squares, prime numbers, even numbers, a category (flowers vs fruit), or a fixed letter pattern.", "The single item that lacks that shared property is your answer.", "Watch the usual traps: perfect squares/cubes hidden among ordinary numbers, primes versus composites, and one animal sneaked in among birds.", "If two different rules seem possible, pick the one that leaves exactly one odd item - a valid classification always has a single outsider."]
+      },
+      {
+        type: "example",
+        title: "Worked example - Odd one out",
+        lines: ["Question: Which is the odd one out? 16, 25, 36, 40", "Step 1 - Look for a shared property: 16 = 4x4, 25 = 5x5, 36 = 6x6 - all perfect squares.", "Step 2 - Test the last one: 40 is not a perfect square (6 squared = 36, 7 squared = 49, so nothing squares to 40).", "Step 3 - Three of them are squares; 40 breaks the pattern.", "Answer: 40 is the odd one out."]
+      },
+      {
+        type: "callout",
+        tone: "warn",
+        text: "Direction is everything in word analogies. 'Doctor : Patient' (treats) is NOT the same rishta as 'Patient : Doctor.' If your first pair reads person-to-workplace, the answer pair must also read person-to-workplace - never workplace-to-person. Flipping the order is the single most common way students lose an easy mark."
+      },
+      {
+        type: "callout",
+        tone: "tip",
+        text: "Memorise EJOTY: E=5, J=10, O=15, T=20, Y=25. From any anchor you can count a letter's position in 2 seconds (e.g. R is 2 before T=20, so R=18). And remember the negative marking - if you truly cannot find a clean rule, skip rather than guess wildly, because -1/3 quietly eats your score."
+      },
+      {
+        type: "keypoints",
+        title: "Quick revision before the exam",
+        items: ["Analogy = find the rishta in the first pair, then repeat it exactly for the second pair.", "Number analogies usually hide squares, cubes, n x (n+1), or a fixed +/- jump.", "For letters, convert to positions with EJOTY and check the constant jump between groups.", "Classification = three items share one property; the fourth is the outsider.", "Keep the A-to-B direction identical to C-to-D - order is not optional.", "Target under 30 seconds per question; these are your bankable, high-accuracy marks."]
+      },
+      {
+        type: "quiz",
+        question: "Complete the analogy: DE : 45 :: GH : ?",
+        options: ["77", "78", "87", "79"],
+        correct: 1,
+        explain: "D is the 4th letter and E is the 5th, so DE is written as its positions: 45. Applying the same rule, G is the 7th letter and H is the 8th, so GH becomes 78. The rishta is simply 'replace each letter with its alphabet position.'"
+      }
+    ]
+  },
+  {
+    slug: "rrb-series-coding",
+    title: "Series & Coding-Decoding: Spot the Pattern, Score Fast",
+    summary: "Learn to hear the hidden \"rhythm\" behind number and letter series, convert letters into positions using the EJOTY trick, and crack coding-decoding shifts — with step-by-step worked examples built for RRB NTPC speed and accuracy.",
+    examSlug: "railways",
+    subjectSlug: "general-intelligence-reasoning",
+    chapterSlug: "series-coding",
+    readingMinutes: 7,
+    practiceTestSlug: "rrb-series-coding-practice-1",
+    blocks: [
+      {
+        type: "analogy",
+        title: "Every pattern has a rhythm",
+        text: "Picture a railway platform board flashing train numbers: 12002, 12004, 12006... Even before the next one appears, your ear already expects 12008. Your brain quietly caught the rhythm (+2). Series and coding questions work exactly like this — once you spot the hidden rhythm behind the numbers or letters, the answer almost announces itself. Padho, Dost — let's train your eyes to hear that rhythm every single time."
+      },
+      {
+        type: "heading",
+        text: "Number Series: Crack the Hidden Rule"
+      },
+      {
+        type: "para",
+        text: "A number series is a line of numbers arranged by a secret rule. Your only job is to find that rule and use it to fill the blank. The good news: the rule is almost always one of just a few common families. Once you know which families to look for, your eyes start catching them in seconds."
+      },
+      {
+        type: "table",
+        headers: ["Pattern type", "Example", "The rule"],
+        rows: [
+          ["Add / subtract a fixed number", "4, 9, 14, 19, ...", "+5 each time"],
+          ["Multiply / divide", "3, 6, 12, 24, ...", "×2 each time"],
+          ["Squares or cubes", "1, 4, 9, 16, ...", "n² for n = 1, 2, 3, 4..."],
+          ["Growing gap", "2, 5, 10, 17, ...", "gaps go +3, +5, +7"],
+          ["Mixed (multiply then add)", "5, 11, 23, 47, ...", "×2 then +1"],
+          ["Alternate / woven series", "1, 2, 4, 3, 9, 4, ...", "two series mixed together"]
+        ]
+      },
+      {
+        type: "steps",
+        title: "How to solve any number series",
+        items: ["Read the whole series once — note if the numbers rise or fall, and whether slowly or fast.", "Find the differences between consecutive terms (2nd − 1st, 3rd − 2nd, and so on).", "If the differences are all equal, the rule is 'add or subtract a fixed number' — done.", "If the differences grow, study the pattern of those differences (do they go +2, +4, +6? or do they double?).", "If neither fits, try ratios (divide each term by the one before it) for a ×2 or ×3 rule, or check for squares and cubes.", "Confirm your rule works across at least 3 gaps, then apply it to find the missing term."]
+      },
+      {
+        type: "example",
+        title: "Worked example: 5, 11, 23, 47, ?",
+        lines: ["Question: Find the next number → 5, 11, 23, 47, ?", "Step 1 — Check the gaps: 11 − 5 = 6, 23 − 11 = 12, 47 − 23 = 24. The gaps 6, 12, 24 are doubling, not fixed.", "Step 2 — A doubling gap hints at a ×2 rule. Test plain ×2: 5 × 2 = 10, but we need 11. So try ×2 then +1.", "Step 3 — Verify: 5×2+1 = 11 ✓, 11×2+1 = 23 ✓, 23×2+1 = 47 ✓. The rule holds every time.", "Step 4 — Apply to the last term: 47 × 2 + 1 = 95.", "Answer: 95."]
+      },
+      {
+        type: "callout",
+        tone: "tip",
+        text: "Two-check shortcut: first look at the differences (Are they fixed? Growing?). If the differences don't settle into a clean pattern, check the ratios (divide each term by the previous one) for a ×2 or ×3 rule. Most NTPC series crack open with just these two checks in under 20 seconds."
+      },
+      {
+        type: "heading",
+        text: "Letter Series & Alphabet Positions"
+      },
+      {
+        type: "para",
+        text: "Letter series look scary, but they are just number series wearing a disguise. Give every letter its position number — A = 1, B = 2, C = 3, all the way to Z = 26 — and suddenly C, F, I, L... becomes 3, 6, 9, 12. Now it is a plain number series you already know how to solve. Convert the answer back into a letter at the end, and you are done."
+      },
+      {
+        type: "callout",
+        tone: "info",
+        text: "EJOTY memory hook: E = 5, J = 10, O = 15, T = 20, Y = 25. Memorise just these 5 anchor points. To find any letter's number, jump from the nearest anchor instead of counting all the way from A. Need R? T = 20, count back 2 → R = 18. This tiny trick saves you precious seconds on every letter question."
+      },
+      {
+        type: "example",
+        title: "Worked example: C, F, I, L, O, ?",
+        lines: ["Question: C, F, I, L, O, ? — what comes next?", "Step 1 — Write the position numbers: C = 3, F = 6, I = 9, L = 12, O = 15.", "Step 2 — Find the gap: each term jumps +3 (3 → 6 → 9 → 12 → 15).", "Step 3 — Next position = 15 + 3 = 18.", "Step 4 — Letter at position 18 = R (using EJOTY: T = 20, so 18 is two letters before T → R).", "Answer: R."]
+      },
+      {
+        type: "heading",
+        text: "Coding-Decoding"
+      },
+      {
+        type: "para",
+        text: "In coding-decoding, a word is written in a secret 'code' by shifting or rearranging its letters. The common types are: (1) letter-shift — each letter moves forward or backward by a fixed step, like +1 or +2; (2) position-number coding — letters are replaced by their alphabet numbers; and (3) reversing the word. Your task is to spot exactly how the given word turned into its code, then apply that same trick to the new word."
+      },
+      {
+        type: "example",
+        title: "Worked example: MANGO → NBOHP",
+        lines: ["Question: If MANGO is coded as NBOHP, how is APPLE coded in the same code?", "Step 1 — Line up the letters: M→N, A→B, N→O, G→H, O→P.", "Step 2 — Every code letter is +1 position (simply the next letter of the alphabet). That is the rule.", "Step 3 — Apply +1 to APPLE: A→B, P→Q, P→Q, L→M, E→F.", "Answer: BQQMF."]
+      },
+      {
+        type: "callout",
+        tone: "warn",
+        text: "Common traps to avoid: (1) Miscounting the alphabet under pressure — always jump from EJOTY anchors instead of counting from A. (2) Mixing up forward and backward shifts — decide the direction first, then apply it to every letter. (3) In 'growing gap' series, many students see the first gap and wrongly assume it stays fixed — always confirm at least 3 gaps before locking in a rule."
+      },
+      {
+        type: "keypoints",
+        title: "Exam-day game plan",
+        items: ["CBT-1 gives you 30 reasoning questions in roughly 27 minutes — series and coding are fast, high-scoring picks, so grab them early.", "For number series: check differences first, then ratios, then squares and cubes.", "For letter series: convert letters to position numbers, solve as a number series, then convert back.", "For coding: line up the words letter-by-letter and identify the shift (+1, +2, −1, reverse, etc.).", "Negative marking is −1/3 per wrong answer — if two different rules seem to fit and you cannot confirm one, skipping is often safer than a blind guess.", "Practise 10–15 of these daily; with repetition, pattern-spotting becomes almost instant."]
+      },
+      {
+        type: "quiz",
+        question: "If FACE is coded as GBDF, then how is HAND coded in the same code?",
+        options: ["GZMC", "IBOE", "JCPF", "IBPE"],
+        correct: 1,
+        explain: "Compare FACE → GBDF letter by letter: F→G, A→B, C→D, E→F — every letter shifts +1 (the very next letter). Apply the same +1 to HAND: H→I, A→B, N→O, D→E = IBOE. (GZMC is a −1 shift, JCPF is a +2 shift, and IBPE miscounts the N as +2, so all three are wrong.)"
+      }
+    ]
+  },
+  {
+    slug: "rrb-blood-relations-directions",
+    title: "Blood Relations & Directions: Draw It, Don't Think It",
+    summary: "A step-by-step visual method to crack RRB NTPC family-tree and direction-sense questions in under 40 seconds each, with worked examples, symbols, shortcuts, and a common-trap warning.",
+    examSlug: "railways",
+    subjectSlug: "general-intelligence-reasoning",
+    chapterSlug: "blood-relations-directions",
+    readingMinutes: 8,
+    practiceTestSlug: "rrb-blood-relations-directions-practice-1",
+    blocks: [
+      {
+        type: "analogy",
+        title: "Two puzzles, one skill: never lose your place",
+        text: "Picture a big family wedding. Someone points across the hall and says, 'That uncle is my mother's brother's father-in-law.' Try to hold it all in your head and you get dizzy. But draw it on a napkin and it becomes obvious. Direction problems are the same, na? You would never find a shop in a new city by memorising 'left, right, straight' in your head. You draw a rough map. Blood Relations and Directions are twins: both are solved not by thinking harder, but by DRAWING. Aaj hum yahi seekhenge, dost."
+      },
+      {
+        type: "para",
+        text: "In the RRB NTPC CBT-1 you get 100 questions in 90 minutes. Reasoning has 30 questions, and Blood Relations plus Directions together usually give 3 to 6 easy marks. These are 'banked' marks: draw properly and you almost never get them wrong. With +1 for a correct answer and -1/3 for a wrong one, safe marks like these are gold. The goal is simple: solve each one in under 40 seconds, on paper, with zero guessing."
+      },
+      {
+        type: "heading",
+        text: "Part 1: Blood Relations"
+      },
+      {
+        type: "para",
+        text: "A blood-relation question describes a family and asks how two people are related. The single biggest mistake students make is solving it in their head. Don't. Draw a family tree with fixed symbols so your brain does less work."
+      },
+      {
+        type: "table",
+        headers: ["Symbol", "Meaning", "How to use it"],
+        rows: [
+          ["+ (plus)", "Male", "Mark the name with a (+)"],
+          ["- (minus)", "Female", "Mark the name with a (-)"],
+          ["Horizontal line ——", "Husband & wife", "Join the two names side by side"],
+          ["Vertical / slant line", "Parent to child", "Put the child BELOW the parent"],
+          ["Double line ==", "Brother / sister", "Join two names on the SAME row"]
+        ]
+      },
+      {
+        type: "steps",
+        title: "The 3-step method for any relation problem",
+        items: ["Break the sentence into small pieces and read left to right. Take ONE relationship at a time, never the whole line at once.", "Draw each piece on the tree immediately. Same generation goes side by side; the next generation goes one row below.", "Read the final relation straight off your diagram, top to bottom. Don't re-read the sentence."]
+      },
+      {
+        type: "example",
+        title: "Worked example: coded relations",
+        lines: ["Question: If A + B means A is the father of B, A - B means A is the mother of B, and A × B means A is the brother of B, then how is P related to R in: P + Q × R?", "Step 1 — take the first piece: P + Q means P is the father of Q. Draw P (+) on top, Q below.", "Step 2 — next piece: Q × R means Q is the brother of R. So R sits on the SAME row as Q, joined by ==.", "Step 3 — read the tree: P is the parent (father) of Q, and R is Q's sibling, so P is the parent of R too.", "Answer: P is the FATHER of R."]
+      },
+      {
+        type: "callout",
+        tone: "warn",
+        text: "The classic trap: assuming gender. 'The brother of R' does NOT tell you if R is a boy or a girl. Many wrong answers come from guessing 'son' when it should be 'child'. Only mark a person male or female when the sentence actually says so (father, mother, son, daughter, sister, brother, he, she, wife, husband)."
+      },
+      {
+        type: "example",
+        title: "Worked example: the pointing-to-a-photo type",
+        lines: ["Question: Pointing to a photo, a man says, 'She is the daughter of my grandfather's only son.'", "Start from the far end: 'my grandfather's only son'. The grandfather's only son is the man's OWN father.", "Now: 'the daughter of my father'. A daughter of your father is your sister. (Here it must be a sister, because the man himself is male and cannot be a 'daughter'.)", "Answer: She is his SISTER.", "Shortcut: always solve these from the LAST word backwards toward 'my'."]
+      },
+      {
+        type: "heading",
+        text: "Part 2: Direction Sense"
+      },
+      {
+        type: "para",
+        text: "Here a person walks in different directions and you must find the final direction or the shortest distance from the start. Never track it in your head. Draw a + shaped compass at the starting point: North up, South down, East right, West left. Then draw every move as an arrow."
+      },
+      {
+        type: "formula",
+        text: "Right turn = clockwise (N to E to S to W). Left turn = anti-clockwise (N to W to S to E). Shortest (straight-line) distance uses Pythagoras: distance = square root of (horizontal net squared + vertical net squared)."
+      },
+      {
+        type: "example",
+        title: "Worked example: find the distance from start",
+        lines: ["Question: A man walks 5 km North, turns right and walks 3 km, turns right and walks 5 km. How far is he from the start?", "Draw it: 5 North (up). First right turn from North faces East, so 3 East (right). Second right turn from East faces South, so 5 South (down).", "Cancel opposite moves: 5 North and 5 South cancel out completely (0 vertical).", "What remains: only 3 km East. There is no vertical part, so no Pythagoras needed.", "Answer: He is 3 km EAST of the start."]
+      },
+      {
+        type: "callout",
+        tone: "tip",
+        text: "Speed trick for turns: point your pen in the current direction and physically rotate it 90 degrees the way the turn says. 'Right' always rotates clockwise, 'left' always anti-clockwise, no matter which way you are currently facing. This kills the most common direction mistake."
+      },
+      {
+        type: "keypoints",
+        title: "Quick revision before the exam",
+        items: ["Blood relations: always draw a tree; take one relation at a time; read the answer off the diagram.", "Never assume gender — 'brother/child of' can be either boy or girl unless stated.", "Solve 'pointing to a photo' sentences backwards, from the last phrase toward 'my'.", "Directions: draw a compass, turn arrows into a map, cancel opposite distances.", "Right = clockwise, Left = anti-clockwise; use Pythagoras only when both a horizontal and a vertical part remain.", "Both topics are fast, high-accuracy marks — don't skip them, but don't over-think them either."]
+      },
+      {
+        type: "quiz",
+        question: "A woman introduces a boy as the son of the daughter of her father. How is the woman related to the boy?",
+        options: ["Grandmother", "Aunt", "Mother", "Sister"],
+        correct: 2,
+        explain: "Work from the far end: 'the daughter of her father'. The woman is female, so she herself is a daughter of her father, and the sentence introduces no separate sister — so 'the daughter of her father' is the woman herself. (Contrast the photo example, where a man cannot be a daughter, which forces a sister.) The boy is therefore the son of the woman, so the woman is the boy's MOTHER. Hence the answer is Mother."
+      }
+    ]
+  },
+  {
+    slug: "rrb-history-polity",
+    title: "Indian History & Polity for RRB NTPC: Freedom Struggle & the Constitution Made Simple",
+    summary: "A friendly, exam-ready walkthrough of the key freedom-struggle milestones and the Constitution and government basics that RRB NTPC loves to ask — with memory tables and a quick self-test.",
+    examSlug: "railways",
+    subjectSlug: "general-awareness",
+    chapterSlug: "history-polity",
+    readingMinutes: 8,
+    practiceTestSlug: "rrb-history-polity-practice-1",
+    blocks: [
+      {
+        type: "analogy",
+        title: "Think of a giant cricket team",
+        text: "Imagine India as a huge team of over a billion players. To play fairly, the team needs two things: a story of how it earned the right to run its own game (the freedom struggle), and a rulebook that decides who bats, who bowls, and who is the umpire (the Constitution). Learn both, dost, and this whole chapter clicks into place."
+      },
+      {
+        type: "para",
+        text: "In RRB NTPC General Awareness, History and Polity questions are almost always about durable, unchanging facts — a date, an event, an Article, a part of the Constitution. That is great news: once you memorise them, they never go out of date. Let us build that memory step by step."
+      },
+      {
+        type: "heading",
+        text: "Part 1: The Freedom Struggle at a Glance"
+      },
+      {
+        type: "para",
+        text: "The fight for independence was not one event but a chain of them, spread over about ninety years. You do not need every detail — just the big landmarks and their years. Here are the ones that show up in exams again and again."
+      },
+      {
+        type: "table",
+        headers: ["Year", "Event", "Why it matters"],
+        rows: [
+          ["1857", "Revolt of 1857", "First large uprising against British rule"],
+          ["1885", "Indian National Congress founded", "First all-India political platform"],
+          ["1919", "Jallianwala Bagh Massacre", "Turning point that fuelled mass anger"],
+          ["1920", "Non-Cooperation Movement", "Gandhi ji's first mass movement"],
+          ["1930", "Dandi March (Salt Satyagraha)", "Civil Disobedience against the salt tax"],
+          ["1942", "Quit India Movement", "Final push, with the call 'Do or Die'"],
+          ["1947", "Independence", "British rule ends on 15 August"]
+        ]
+      },
+      {
+        type: "keypoints",
+        title: "People and movements worth remembering",
+        items: ["The Indian National Congress was founded in 1885 by A.O. Hume.", "The Jallianwala Bagh Massacre took place on 13 April 1919 at Amritsar.", "Mahatma Gandhi led three big mass movements: Non-Cooperation (1920), Civil Disobedience (1930), and Quit India (1942).", "The Dandi March of 1930 was a protest against the tax on salt.", "India became independent on 15 August 1947."]
+      },
+      {
+        type: "callout",
+        tone: "tip",
+        text: "Memory hook: Gandhi ji's three great movements land roughly a decade apart — 1920, 1930, 1942. Say '20, 30, 42' out loud a few times and the sequence sticks for good."
+      },
+      {
+        type: "heading",
+        text: "Part 2: The Constitution — India's Rulebook"
+      },
+      {
+        type: "para",
+        text: "After independence, India needed its own rulebook. A Constituent Assembly wrote it, and the Drafting Committee was headed by Dr. B.R. Ambedkar, often called the chief architect of the Constitution. Two dates from this story are exam favourites, so keep them clearly apart in your mind."
+      },
+      {
+        type: "table",
+        headers: ["Fact", "Detail"],
+        rows: [
+          ["Adopted on", "26 November 1949 (now Constitution Day)"],
+          ["Came into force", "26 January 1950 (Republic Day)"],
+          ["Drafting Committee head", "Dr. B.R. Ambedkar"],
+          ["Time taken to draft", "About 2 years, 11 months, 18 days"],
+          ["Preamble keywords", "Sovereign, Socialist, Secular, Democratic, Republic"]
+        ]
+      },
+      {
+        type: "keypoints",
+        title: "The six Fundamental Rights (Part III)",
+        items: ["Right to Equality", "Right to Freedom", "Right against Exploitation", "Right to Freedom of Religion", "Cultural and Educational Rights", "Right to Constitutional Remedies — Dr. Ambedkar called it the 'heart and soul' of the Constitution (Article 32)"]
+      },
+      {
+        type: "callout",
+        tone: "warn",
+        text: "Common mistake: mixing up the two big dates. The Constitution was ADOPTED on 26 November 1949 but came INTO FORCE on 26 January 1950. Independence Day (15 August 1947) is a third, separate date. Do not swap them in the exam."
+      },
+      {
+        type: "heading",
+        text: "Part 3: How the Government Works"
+      },
+      {
+        type: "para",
+        text: "Our system rests on three organs, each with its own job. Keeping them separate stops any one part from becoming too powerful — like having a batter, a bowler, and an umpire who each stay in their own role."
+      },
+      {
+        type: "table",
+        headers: ["Organ", "Main job", "Key bodies"],
+        rows: [
+          ["Legislature", "Makes the laws", "Parliament: Lok Sabha + Rajya Sabha"],
+          ["Executive", "Runs the country and implements laws", "President, Prime Minister, Council of Ministers"],
+          ["Judiciary", "Interprets laws and delivers justice", "Supreme Court and the High Courts"]
+        ]
+      },
+      {
+        type: "steps",
+        title: "How an ordinary bill becomes a law",
+        items: ["A bill (a draft law) is introduced in either the Lok Sabha or the Rajya Sabha — this is the First Reading.", "Members discuss it in detail, clause by clause — the Second Reading.", "The house votes on it — the Third Reading. If it wins a majority, it is passed.", "The bill then goes to the other house, where the same stages are repeated.", "Once both houses agree, the bill is sent to the President for assent (approval).", "After the President signs it, the bill becomes an Act — a law of the land."]
+      },
+      {
+        type: "keypoints",
+        title: "One-minute revision",
+        items: ["Freedom struggle big three: Non-Cooperation 1920, Civil Disobedience 1930, Quit India 1942.", "Independence: 15 August 1947.", "Constitution adopted 26 Nov 1949, in force 26 Jan 1950; Drafting Committee headed by Dr. B.R. Ambedkar.", "Six Fundamental Rights sit in Part III; Right to Constitutional Remedies is Article 32.", "Three organs: Legislature makes laws, Executive runs the country, Judiciary interprets laws."]
+      },
+      {
+        type: "quiz",
+        question: "On which date did the Constitution of India come into force, making India a Republic?",
+        options: ["26 November 1949", "15 August 1947", "26 January 1950", "26 January 1949"],
+        correct: 2,
+        explain: "The Constitution was adopted on 26 November 1949 but came into force on 26 January 1950, which we celebrate as Republic Day. 15 August 1947 is Independence Day — a different date. So the correct answer is 26 January 1950."
+      }
+    ]
+  },
+  {
+    slug: "rrb-geography-economy",
+    title: "Indian Geography & Economy for RRB: Rivers, Mountains, States and the Economy Made Simple",
+    summary: "A from-scratch visual guide to the static Geography and Economy facts RRB NTPC loves: India's mountain ranges, the two river families, key states and map lines, and the three sectors of the economy - with tables, worked examples and memory tricks.",
+    examSlug: "railways",
+    subjectSlug: "general-awareness",
+    chapterSlug: "geography-economy",
+    readingMinutes: 7,
+    practiceTestSlug: "rrb-geography-economy-practice-1",
+    blocks: [
+      {
+        type: "analogy",
+        title: "Think of India as one big house",
+        text: "Padho, Dost! Picture India as a giant house. The Himalayas in the north are its strong roof, guarding it from icy winds. The rivers are the water pipes running through every room, carrying life to the fields. The states are the different rooms, each with its own character. And the economy? That is the family budget - how the household earns, makes and spends. Once you see geography and economy as parts of one home, the facts stop feeling random and start making sense."
+      },
+      {
+        type: "heading",
+        text: "The Roof and Walls: India's Mountains"
+      },
+      {
+        type: "para",
+        text: "India's northern wall is the mighty Himalayas - young fold mountains that are still slowly rising today. They run in three roughly parallel ranges: the Himadri (Greater Himalayas), the Himachal (Lesser Himalayas) in the middle, and the Shivaliks (Outer Himalayas). Far to the west sit much older, worn-down ranges like the Aravalli. Down the peninsula, two lower ranges - the Western Ghats and the Eastern Ghats - frame the Deccan plateau like the two arms of a chair."
+      },
+      {
+        type: "table",
+        headers: ["Range", "Location", "Remember this"],
+        rows: [
+          ["Himadri (Greater Himalayas)", "Northernmost belt", "Highest ranges; Kanchenjunga, India's highest peak, lies here"],
+          ["Shivaliks (Outer Himalayas)", "Southernmost Himalayan belt", "The youngest and lowest of the three ranges"],
+          ["Aravalli", "Rajasthan", "Among the world's oldest fold mountains; Guru Shikhar is its highest peak"],
+          ["Western Ghats (Sahyadri)", "Along the west coast", "Higher and continuous; Anamudi is the highest peak of South India"],
+          ["Eastern Ghats", "Along the east coast", "Lower and broken up by rivers cutting through them"]
+        ]
+      },
+      {
+        type: "callout",
+        tone: "tip",
+        text: "Memory trick: the Himalayan ranges get younger and lower as you move from north to south - Himadri (tallest) to Himachal (middle) to Shivaliks (youngest, shortest). Picture steps coming down towards the plains."
+      },
+      {
+        type: "heading",
+        text: "The Lifelines: India's Rivers"
+      },
+      {
+        type: "para",
+        text: "India's rivers fall into two families. Himalayan rivers - the Ganga, Yamuna, Brahmaputra and Indus - are fed by melting snow, so they flow all year round (we call them perennial). Peninsular rivers - like the Godavari, Krishna and Kaveri - depend mostly on the monsoon rains, so they can run thin in summer. Just knowing which family a river belongs to already tells you a lot about it."
+      },
+      {
+        type: "table",
+        headers: ["River", "Source", "Drains into"],
+        rows: [
+          ["Ganga", "Gangotri glacier (Uttarakhand)", "Bay of Bengal"],
+          ["Brahmaputra", "Tibet (where it is called the Tsangpo)", "Bay of Bengal"],
+          ["Godavari", "Trimbak, near Nashik (Maharashtra)", "Bay of Bengal"],
+          ["Krishna", "Mahabaleshwar (Maharashtra)", "Bay of Bengal"],
+          ["Narmada", "Amarkantak (Madhya Pradesh)", "Arabian Sea"]
+        ]
+      },
+      {
+        type: "example",
+        title: "Worked example: Where does a river go?",
+        lines: ["Question: Does the Godavari flow into the Arabian Sea or the Bay of Bengal - and does it build a delta?", "Step 1 - Find its source: the Godavari rises at Trimbak near Nashik, on the WESTERN side of the peninsula.", "Step 2 - Note the slope: the Deccan plateau tilts gently towards the EAST, so most big peninsular rivers flow eastward.", "Step 3 - Follow it east across the plateau until it reaches the coast of Andhra Pradesh.", "Step 4 - East-flowing rivers empty into the Bay of Bengal and drop their silt to build wide deltas.", "Answer: the Godavari flows into the Bay of Bengal and forms a large delta."]
+      },
+      {
+        type: "callout",
+        tone: "warn",
+        text: "Common mistake: almost every big peninsular river flows EAST into the Bay of Bengal. The two famous exceptions are the Narmada and Tapi, which flow WEST into the Arabian Sea and form estuaries, not deltas. Examiners love testing this exception."
+      },
+      {
+        type: "heading",
+        text: "States, Borders and Map Lines"
+      },
+      {
+        type: "keypoints",
+        title: "State and border facts to memorise",
+        items: ["Rajasthan is India's largest state by area; Goa is the smallest state by area.", "Uttar Pradesh touches 8 states - the most of any Indian state.", "India's longest land border is with Bangladesh, followed by China.", "The Tropic of Cancer (about 23.5 degrees North) crosses 8 states, from Gujarat in the west to Mizoram in the east.", "India's Standard Meridian is 82 degrees 30 minutes East, passing through Mirzapur in Uttar Pradesh - it sets our clock, IST."]
+      },
+      {
+        type: "heading",
+        text: "Core Economy Concepts (Static)"
+      },
+      {
+        type: "para",
+        text: "The economy is simply how a country produces and shares its wealth. Economists split all this work into three sectors based on what the work actually does. Learning these three buckets makes almost every economy question easier, because you can slot any job or industry into one of them."
+      },
+      {
+        type: "example",
+        title: "Worked example: Which sector does each job belong to?",
+        lines: ["A wheat farmer in Punjab grows grain directly from the land -> Primary sector (nature-based).", "A flour mill turns that wheat into packaged atta -> Secondary sector (manufacturing).", "A bank that gives the farmer a crop loan provides a service -> Tertiary sector (services).", "Same wheat, three sectors - that is how one product moves through the whole economy."]
+      },
+      {
+        type: "keypoints",
+        title: "Static economy facts worth by-hearting",
+        items: ["Primary sector takes from nature (farming, fishing, mining); Secondary makes goods (factories); Tertiary provides services (banks, transport, teaching).", "The Reserve Bank of India (RBI) is the country's central bank, established in 1935; it issues currency and controls monetary policy.", "The Planning Commission (set up in 1950) launched the Five Year Plans; the First Plan (1951-56) focused on agriculture.", "NITI Aayog replaced the Planning Commission in 2015 as the government's main policy think-tank.", "GDP is the total value of all final goods and services produced inside the country in one year."]
+      },
+      {
+        type: "quiz",
+        question: "Which river is the largest in Peninsular India and is nicknamed 'Dakshin Ganga' (the Ganga of the South)?",
+        options: ["Godavari", "Krishna", "Kaveri", "Narmada"],
+        correct: 0,
+        explain: "The Godavari is the longest and largest river of Peninsular India. It rises at Trimbak near Nashik in Maharashtra and empties into the Bay of Bengal, and its size and importance earn it the name Dakshin Ganga. (Krishna and Kaveri are smaller east-flowing rivers, and the Narmada flows west into the Arabian Sea.)"
+      }
+    ]
+  },
+  {
+    slug: "rrb-static-gk-sports",
+    title: "Static GK & Sports: The Sure-Shot Scoring Chapter",
+    summary: "A memory-friendly tour of durable static GK for RRB NTPC — national symbols, dams and rivers, national parks, awards and fixed important days — plus sports basics: team sizes, common terms, and the trophies matched to their sports. Built around tables and quick-recall lists so you can lock these easy marks for good.",
+    examSlug: "railways",
+    subjectSlug: "general-awareness",
+    chapterSlug: "static-gk-sports",
+    readingMinutes: 7,
+    practiceTestSlug: "rrb-static-gk-sports-practice-1",
+    blocks: [
+      {
+        type: "analogy",
+        title: "Think of static GK as a fixed almirah",
+        text: "Imagine an old wooden almirah at home where certain things always sit in the same drawer — the peacock feather in one, the mango pickle jar in another, Dada's medals in a third. Nothing moves. Static GK is exactly that kind of almirah for your exam: facts that never change year to year. The peacock is always our National Bird, Kaziranga always means the one-horned rhino, and the Ranji Trophy is always cricket. Once you memorise where each item 'sits', you can grab the answer in two seconds flat. Padho, dost — this is the most reliable marks-scoring chapter in the whole paper!"
+      },
+      {
+        type: "para",
+        text: "In RRB NTPC General Awareness, static GK and sports questions are pure recall — no calculation, no reasoning, just 'do you know it or not'. That is great news: with a little organised revision you can lock these marks without fail. In this explainer we will cover national symbols, dams and rivers, national parks, awards, important days, and sports (terms, team sizes, and famous trophies and their sports). Every fact here is durable — it does not change with the year, so it is safe to memorise once and trust forever."
+      },
+      {
+        type: "heading",
+        text: "1. National Symbols of India"
+      },
+      {
+        type: "table",
+        headers: ["Category", "National Symbol"],
+        rows: [
+          ["National Animal", "Royal Bengal Tiger"],
+          ["National Bird", "Indian Peacock"],
+          ["National Flower", "Lotus"],
+          ["National Tree", "Banyan"],
+          ["National Fruit", "Mango"],
+          ["National River", "Ganga"],
+          ["National Aquatic Animal", "Ganges River Dolphin"],
+          ["National Emblem", "Lion Capital of Ashoka (Sarnath)"],
+          ["National Anthem", "Jana Gana Mana"],
+          ["National Song", "Vande Mataram"]
+        ]
+      },
+      {
+        type: "callout",
+        tone: "tip",
+        text: "Easy memory hook for the two most-confused ones: the ANTHEM 'Jana Gana Mana' was written by Rabindranath TAGORE, and the SONG 'Vande Mataram' by Bankim Chandra CHATTERJEE. Trick: 'Anthem-Tagore' both feel longer and formal; 'Vande-Bankim' — V and B sit together. Anthem = Tagore, Song = Bankim."
+      },
+      {
+        type: "heading",
+        text: "2. Geography: Dams, Rivers and National Parks"
+      },
+      {
+        type: "table",
+        headers: ["Dam", "River", "State"],
+        rows: [
+          ["Tehri Dam (tallest in India)", "Bhagirathi", "Uttarakhand"],
+          ["Bhakra Nangal Dam", "Sutlej", "Himachal / Punjab"],
+          ["Hirakud Dam (very long)", "Mahanadi", "Odisha"],
+          ["Sardar Sarovar Dam", "Narmada", "Gujarat"],
+          ["Nagarjuna Sagar Dam", "Krishna", "Telangana / Andhra Pradesh"],
+          ["Mettur Dam", "Kaveri", "Tamil Nadu"]
+        ]
+      },
+      {
+        type: "keypoints",
+        title: "National parks and the animal they are famous for",
+        items: ["Jim Corbett (Uttarakhand) — India's oldest national park; famous for tigers", "Kaziranga (Assam) — the one-horned rhinoceros", "Gir (Gujarat) — the only home of the Asiatic lion", "Sundarbans (West Bengal) — Royal Bengal Tiger amid mangrove forests", "Ranthambore (Rajasthan) — tigers", "Periyar (Kerala) — elephants and tigers"]
+      },
+      {
+        type: "heading",
+        text: "3. Awards and Important Days"
+      },
+      {
+        type: "table",
+        headers: ["Award", "Given in the field of"],
+        rows: [
+          ["Bharat Ratna", "Highest civilian award (any field)"],
+          ["Param Vir Chakra", "Highest wartime military gallantry award"],
+          ["Ashoka Chakra", "Highest peacetime military gallantry award"],
+          ["Major Dhyan Chand Khel Ratna", "Highest award for sports"],
+          ["Arjuna Award", "Outstanding performance in sports"],
+          ["Dronacharya Award", "Excellence in sports coaching"],
+          ["Dadasaheb Phalke Award", "Cinema"],
+          ["Jnanpith Award", "Literature"]
+        ]
+      },
+      {
+        type: "keypoints",
+        title: "Important days with FIXED dates (easy marks)",
+        items: ["12 January — National Youth Day (birthday of Swami Vivekananda)", "8 March — International Women's Day", "5 September — Teachers' Day", "15 September — Engineers' Day", "2 October — Gandhi Jayanti / International Day of Non-Violence", "14 November — Children's Day", "29 August — National Sports Day (birthday of hockey wizard Major Dhyan Chand)", "21 June — International Day of Yoga"]
+      },
+      {
+        type: "heading",
+        text: "4. Sports: Trophies, Terms and Team Sizes"
+      },
+      {
+        type: "table",
+        headers: ["Trophy / Cup", "Sport"],
+        rows: [
+          ["Ranji Trophy, Duleep Trophy, Irani Trophy", "Cricket"],
+          ["Durand Cup, Santosh Trophy, Subroto Cup", "Football"],
+          ["Thomas Cup (men), Uber Cup (women)", "Badminton"],
+          ["Davis Cup", "Tennis"],
+          ["Aga Khan Cup", "Hockey"],
+          ["Swaythling Cup", "Table Tennis"],
+          ["Ryder Cup, Walker Cup", "Golf"]
+        ]
+      },
+      {
+        type: "keypoints",
+        title: "Number of players in a team + a term to recognise the sport",
+        items: ["Cricket — 11 players; terms: googly, LBW, maiden over, silly point", "Football — 11 players; terms: offside, corner kick, hat-trick", "Hockey — 11 players; terms: bully, penalty corner, short corner", "Volleyball — 6 players; terms: spike, service, block", "Basketball — 5 players; terms: dribble, dunk, foul", "Kabaddi — 7 players; terms: raid, raider, cant, lona"]
+      },
+      {
+        type: "steps",
+        title: "A simple method to lock static GK into memory",
+        items: ["Group facts by theme (all symbols together, all dams together) — never learn them scattered.", "Make one 'trigger word' per fact, e.g. Kaziranga = 'rhino', Gir = 'lion'.", "Write each mini-list on a small card and revise it out loud daily for a week.", "Test yourself backwards too: given 'one-horned rhino', can you say Kaziranga?", "Revisit the whole almirah once a week — spaced repetition makes it permanent."]
+      },
+      {
+        type: "callout",
+        tone: "warn",
+        text: "Common trap: examiners love pairing look-alike trophies. Do NOT mix up Thomas Cup (men's badminton) with Uber Cup (women's badminton), or Ranji Trophy (cricket) with Durand Cup (football). Also remember Davis Cup is TENNIS, not cricket. Learn these confusing pairs deliberately, side by side."
+      },
+      {
+        type: "quiz",
+        question: "Which of the following trophies is associated with Football?",
+        options: ["Ranji Trophy", "Durand Cup", "Davis Cup", "Uber Cup"],
+        correct: 1,
+        explain: "The Durand Cup is one of the oldest football tournaments and is linked with football. Ranji Trophy is cricket, Davis Cup is tennis, and Uber Cup is women's badminton — so the correct answer is the Durand Cup."
+      }
+    ]
+  },
+  {
+    slug: "rrb-physics-basics",
+    title: "Physics Basics for RRB NTPC: Motion, Force, Energy, Light and Electricity",
+    summary: "A from-scratch, Class 10 level guide to the physics every RRB NTPC aspirant needs: motion and its equations, Newton's laws of force, work-energy-power, and the basics of light and electricity - with SI units, a worked train example, and a quick-revision table.",
+    examSlug: "railways",
+    subjectSlug: "general-science",
+    chapterSlug: "physics-basics",
+    readingMinutes: 8,
+    practiceTestSlug: "rrb-physics-basics-practice-1",
+    blocks: [
+      {
+        type: "analogy",
+        title: "The local train jerk",
+        text: "You are standing in a Mumbai local. The moment the train jerks forward, your body tumbles backward. Nobody pushed you, right? Your body simply wanted to STAY where it was while the train suddenly moved ahead. That single everyday moment hides three big ideas of physics: motion, inertia and force. Master these basics, dost, and this whole RRB syllabus starts feeling like a familiar train route."
+      },
+      {
+        type: "heading",
+        text: "Motion: how things move"
+      },
+      {
+        type: "para",
+        text: "Motion means a change in an object's position with time. To describe it we use a few key words. Distance is the total path length covered (a scalar - only size, unit metre, m). Displacement is the shortest straight-line gap from start to finish, WITH direction (a vector, unit m). Speed is distance per unit time (scalar, m/s). Velocity is displacement per unit time - speed with a direction (vector, m/s). Acceleration is the rate of change of velocity, measured in metre per second squared (m/s squared). A scalar has only magnitude; a vector has magnitude AND direction - this difference is a favourite exam trap."
+      },
+      {
+        type: "formula",
+        text: "Three equations of motion (for constant acceleration a): v = u + at ; s = ut + (1/2)at squared ; v squared = u squared + 2as. Here u = initial velocity, v = final velocity, s = displacement, t = time."
+      },
+      {
+        type: "example",
+        title: "A train leaving the platform",
+        lines: ["A train starts from rest and accelerates at a = 2 m/s squared for t = 10 s. Find its final velocity and the distance covered.", "Given: u = 0 (starts from rest), a = 2 m/s squared, t = 10 s.", "Final velocity: v = u + at = 0 + (2 x 10) = 20 m/s.", "Distance: s = ut + (1/2)at squared = 0 + (1/2)(2)(10 x 10) = 100 m.", "Answer: after 10 seconds the train is moving at 20 m/s and has covered 100 m."]
+      },
+      {
+        type: "heading",
+        text: "Force and Newton's three laws"
+      },
+      {
+        type: "para",
+        text: "A force is a push or pull that can change an object's speed, direction or shape. Its SI unit is the newton (N), where 1 N = 1 kg x m/s squared. Newton gave three laws. First law (law of inertia): a body stays at rest or in uniform motion in a straight line unless an external force acts on it - this is why you fell back in the train. Second law: force equals mass times acceleration (F = ma); for the same acceleration, a heavier body needs more force. Third law: for every action there is an equal and opposite reaction - a rocket pushes gas downward and is thrown upward. Momentum, p = mv (unit kg x m/s), measures the 'quantity of motion'."
+      },
+      {
+        type: "callout",
+        tone: "tip",
+        text: "Inertia depends only on MASS, not on speed. A loaded goods wagon is harder to start and harder to stop than an empty one, even at the same speed, because it has more mass and hence more inertia."
+      },
+      {
+        type: "heading",
+        text: "Work, energy and power"
+      },
+      {
+        type: "para",
+        text: "In physics, work is done only when a force makes an object move along the direction of the force. Just holding a heavy bag while standing still does zero work! Energy is the capacity to do work; the two common types are kinetic energy (energy of motion) and potential energy (energy of position, like water stored high up in a dam). Power is how FAST work is done. Work and energy share the same unit - the joule (J) - while power is measured in watt (W)."
+      },
+      {
+        type: "formula",
+        text: "Work: W = F x d (unit joule, J; 1 J = 1 N x m). Kinetic energy: KE = (1/2)mv squared. Potential energy: PE = mgh (g = 9.8 m/s squared). Power: P = W / t (unit watt, W; 1 W = 1 J/s)."
+      },
+      {
+        type: "heading",
+        text: "Light and electricity"
+      },
+      {
+        type: "para",
+        text: "Light travels in a straight line and, in vacuum, at about 3 x 10 to the power 8 m/s - the fastest speed in nature. When light bounces off a surface it is reflection (the angle of incidence equals the angle of reflection). When it bends on passing from one medium into another, like a straw looking broken in a glass of water, it is refraction. Electricity is the flow of charge. Current (I) is measured in ampere (A), potential difference or voltage (V) in volt (V), and resistance (R) in ohm. Ohm's law links them: V = I x R. Electric power is P = V x I, and household energy is billed in kilowatt-hour (kWh), the 'unit' on your bijli bill."
+      },
+      {
+        type: "table",
+        headers: ["Quantity", "SI unit", "Formula / note"],
+        rows: [
+          ["Force", "newton (N)", "F = ma"],
+          ["Work / Energy", "joule (J)", "W = F x d"],
+          ["Power", "watt (W)", "P = W / t"],
+          ["Speed / Velocity", "metre/second (m/s)", "distance or displacement / time"],
+          ["Acceleration", "m/s squared", "change in velocity / time"],
+          ["Electric current", "ampere (A)", "I = V / R"],
+          ["Resistance", "ohm", "R = V / I"]
+        ]
+      },
+      {
+        type: "callout",
+        tone: "warn",
+        text: "Common mistakes: (1) Mass is the amount of matter in a body (kg) and stays the same everywhere; weight is the pull of gravity on it (weight = mg, unit newton) and changes on the Moon. (2) Speed is a scalar but velocity is a vector - if a car goes around a circular track at steady speed, its velocity keeps changing because its direction keeps changing."
+      },
+      {
+        type: "keypoints",
+        title: "Quick revision before the exam",
+        items: ["Scalars have size only (distance, speed, mass); vectors have size and direction (displacement, velocity, force).", "Equations of motion (constant a): v = u + at, s = ut + (1/2)at squared, v squared = u squared + 2as (s is displacement).", "Newton: 1st law = inertia, 2nd law F = ma, 3rd law equal and opposite reaction.", "Work and energy are both in joule; power is in watt (1 W = 1 J/s).", "g = 9.8 m/s squared; speed of light in vacuum is about 3 x 10 to the power 8 m/s.", "Ohm's law: V = IR; electric power P = VI; bijli bill unit = kilowatt-hour (kWh)."]
+      },
+      {
+        type: "quiz",
+        question: "A moving bus suddenly applies its brakes and the passengers lean forward. Which idea explains this best?",
+        options: ["Inertia of motion - the body tends to keep moving forward even after the bus slows down", "Gravity suddenly pulls the passengers forward", "Friction from the seat pushes them ahead", "The braking force of the bus acts directly on the passengers' bodies"],
+        correct: 0,
+        explain: "By Newton's first law (law of inertia), a body in motion tends to stay in motion. When the bus brakes abruptly, the passengers' bodies tend to continue moving forward due to their inertia of motion, so they lean forward. Gravity acts downward, not forward, and no direct forward force is applied to them - so the other options are wrong."
+      }
+    ]
+  },
+  {
+    slug: "rrb-chemistry-basics",
+    title: "Chemistry Basics for RRB NTPC: Matter, Atoms, Acids and Everyday Compounds",
+    summary: "A from-scratch, Class 10 level guide to the chemistry that RRB NTPC loves to ask: what matter is, what an atom is made of, how acids, bases and salts behave, and how metals, non-metals and common compounds differ — explained in simple English with a worked example and quick-revision tables.",
+    examSlug: "railways",
+    subjectSlug: "general-science",
+    chapterSlug: "chemistry-basics",
+    readingMinutes: 7,
+    practiceTestSlug: "rrb-chemistry-basics-practice-1",
+    blocks: [
+      {
+        type: "analogy",
+        title: "Your kitchen is a chemistry lab",
+        text: "Look around an Indian kitchen. The steel vessel is a metal, the namak in the dabba is a compound (sodium chloride), the nimbu you squeeze is an acid, and the baking soda for your pakoras is a base. Everything you can touch, pour or smell is 'matter', and all of it is built from tiny atoms. Chemistry is simply the story of what these atoms are and how they join up. Once you see it this way, this whole chapter starts to feel familiar. Padho, dost!"
+      },
+      {
+        type: "heading",
+        text: "Matter: what everything is made of"
+      },
+      {
+        type: "para",
+        text: "Matter is anything that has mass and takes up space (occupies volume). Your notebook, the air you breathe, the water in your bottle — all are matter. At the Class 10 level we study three states of matter: solid, liquid and gas. The real difference between them comes down to how tightly the tiny particles are packed together and how freely those particles can move."
+      },
+      {
+        type: "table",
+        headers: ["Property", "Solid", "Liquid", "Gas"],
+        rows: [
+          ["Shape", "Fixed", "Takes shape of container", "Fills the whole container"],
+          ["Volume", "Fixed", "Fixed", "Not fixed"],
+          ["Compressibility", "Almost none", "Very little", "High"],
+          ["Particle movement", "Vibrate in place", "Slide past each other", "Move freely and fast"],
+          ["Example", "Ice", "Water", "Steam (water vapour)"]
+        ]
+      },
+      {
+        type: "heading",
+        text: "Inside the atom"
+      },
+      {
+        type: "para",
+        text: "Every piece of matter is built from tiny units called atoms. An atom has a dense centre called the nucleus, which holds positively charged protons and neutral neutrons. Negatively charged electrons move around the nucleus. A proton and a neutron have almost the same mass (about 1 unit each), while an electron is nearly 1836 times lighter, so almost all the mass of an atom sits in its nucleus. Because an atom has equal numbers of protons and electrons, it stays electrically neutral overall. (For your notes: the electron was discovered by J.J. Thomson and the neutron by James Chadwick.)"
+      },
+      {
+        type: "formula",
+        text: "Mass number (A) = number of protons + number of neutrons.  So, number of neutrons = A − Z, where Z (atomic number) = number of protons. In a neutral atom, number of electrons = number of protons = Z."
+      },
+      {
+        type: "example",
+        title: "Counting the particles in a sodium (Na) atom",
+        lines: ["Given: atomic number (Z) = 11, mass number (A) = 23", "Number of protons = Z = 11", "Number of electrons = number of protons (neutral atom) = 11", "Number of neutrons = A − Z = 23 − 11 = 12", "So a sodium atom has 11 protons, 11 electrons and 12 neutrons"]
+      },
+      {
+        type: "callout",
+        tone: "tip",
+        text: "The atomic number (number of protons) is an element's fingerprint. Change the number of protons and you change the element itself — carbon always has 6 protons, oxygen always has 8. The number of neutrons can vary (atoms of the same element with different numbers of neutrons are called isotopes), but the proton count never changes."
+      },
+      {
+        type: "heading",
+        text: "Acids, bases and salts"
+      },
+      {
+        type: "para",
+        text: "Acids and bases are two opposite families of compounds. An acid releases hydrogen ions (H+) when dissolved in water, tastes sour (think lemon or imli) and turns blue litmus paper red. A base releases hydroxide ions (OH−) in water, tastes bitter, feels soapy and turns red litmus paper blue. We measure how acidic or basic a solution is on the pH scale, which runs from 0 to 14, with 7 being neutral. When an acid reacts with a base, they cancel each other out in a neutralisation reaction, producing a salt and water (for example, HCl + NaOH gives NaCl + water)."
+      },
+      {
+        type: "table",
+        headers: ["Feature", "Acid", "Base"],
+        rows: [
+          ["Taste", "Sour", "Bitter"],
+          ["Litmus test", "Turns blue litmus red", "Turns red litmus blue"],
+          ["pH value", "Less than 7", "More than 7"],
+          ["Ion released in water", "H+ (hydrogen ion)", "OH− (hydroxide ion)"],
+          ["Examples", "HCl, H2SO4, citric acid", "NaOH, Ca(OH)2"]
+        ]
+      },
+      {
+        type: "callout",
+        tone: "warn",
+        text: "Common exam trap: pH below 7 means acidic, pH above 7 means basic, and exactly 7 is neutral (like pure water). Students often flip these. Also memorise the direction — ACID turns blue litmus RED; BASE turns red litmus BLUE."
+      },
+      {
+        type: "heading",
+        text: "Metals, non-metals and everyday compounds"
+      },
+      {
+        type: "table",
+        headers: ["Property", "Metals", "Non-metals"],
+        rows: [
+          ["Appearance", "Shiny (lustrous)", "Dull (except iodine, graphite)"],
+          ["Malleable / ductile", "Yes", "No — mostly brittle"],
+          ["Conductivity", "Good conductors", "Poor (except graphite)"],
+          ["State at room temperature", "Solid (except mercury, a liquid)", "Solid, liquid or gas"],
+          ["Nature of their oxide", "Basic", "Acidic"],
+          ["Examples", "Iron, copper, gold", "Oxygen, sulphur, carbon"]
+        ]
+      },
+      {
+        type: "keypoints",
+        title: "Everyday compounds worth memorising",
+        items: ["Common salt = sodium chloride = NaCl (cooking, food preservation)", "Baking soda = sodium hydrogen carbonate = NaHCO3 (a mild base, used in cooking and antacids)", "Washing soda = sodium carbonate = Na2CO3·10H2O (cleaning, softening hard water)", "Slaked lime = calcium hydroxide = Ca(OH)2 (whitewashing walls)", "Quick lime = calcium oxide = CaO; limestone / marble / chalk = calcium carbonate = CaCO3", "Plaster of Paris = CaSO4·½H2O (used to support fractured bones)"]
+      },
+      {
+        type: "quiz",
+        question: "An aluminium atom has atomic number 13 and mass number 27. How many neutrons does it have?",
+        options: ["13", "14", "27", "40"],
+        correct: 1,
+        explain: "Number of neutrons = mass number − atomic number = 27 − 13 = 14. The atom has 13 protons and 13 electrons, but the question asks only for the neutrons, which is 14."
+      }
+    ]
+  },
+  {
+    slug: "rrb-biology-life-science",
+    title: "Biology & Life Science Made Simple: Cells, Body, Nutrition & Plants (RRB NTPC)",
+    summary: "A from-scratch, exam-focused tour of Class 10 biology for RRB NTPC — the cell and its parts, the main human body systems, vitamins and deficiency diseases, common diseases and their causes, and basic plant biology like photosynthesis and transport. Packed with tables, a worked example and quick-revision facts.",
+    examSlug: "railways",
+    subjectSlug: "general-science",
+    chapterSlug: "biology-life-science",
+    readingMinutes: 8,
+    practiceTestSlug: "rrb-biology-practice-1",
+    blocks: [
+      {
+        type: "analogy",
+        title: "One brick, one whole building",
+        text: "Imagine Howrah station built from lakhs of tiny bricks. Remove the bricks and there is no station at all. Living things work the same way: every plant and animal is built from microscopic 'bricks' called cells. Just as a strong building needs healthy bricks, a healthy body needs healthy cells doing their jobs. In this lesson we travel from a single cell to the whole body, then to food, diseases and plants — the exact mix RRB NTPC loves. Padho, dost!"
+      },
+      {
+        type: "heading",
+        text: "The Cell — Where Life Begins"
+      },
+      {
+        type: "para",
+        text: "Every living thing — a mango tree, an ant, or you — is made of tiny units called cells. The cell is the basic building block of life, which is why we call it the 'structural and functional unit of life': it gives the body its structure and carries out life's jobs. Robert Hooke first saw and named cells in 1665 while looking at a thin slice of cork under his microscope. The Cell Theory sums it up in three lines: all living things are made of cells, the cell is the basic unit of life, and every new cell comes from a pre-existing cell."
+      },
+      {
+        type: "table",
+        headers: ["Cell part", "Main job"],
+        rows: [
+          ["Nucleus", "Control centre of the cell; holds DNA"],
+          ["Mitochondria", "Powerhouse; releases energy (ATP)"],
+          ["Ribosome", "Site of protein synthesis"],
+          ["Chloroplast", "Does photosynthesis (plant cells only)"],
+          ["Cell wall", "Gives rigid shape and support (plant cells only)"],
+          ["Vacuole", "Stores water, food and waste (large in plant cells)"]
+        ]
+      },
+      {
+        type: "callout",
+        tone: "tip",
+        text: "Plant cells have three extras that animal cells lack — a Cell Wall, Chloroplasts and a large central Vacuole (remember 'W-C-V'). Both plant and animal cells share the nucleus, mitochondria and cytoplasm."
+      },
+      {
+        type: "heading",
+        text: "The Human Body and Its Systems"
+      },
+      {
+        type: "para",
+        text: "Your body runs like a well-coordinated railway network, with different departments handling different jobs. The digestive system breaks down food, the respiratory system takes in oxygen and removes carbon dioxide, the circulatory system pumps blood, the nervous system carries messages, and the excretory system removes waste. All of them work together every second to keep you alive."
+      },
+      {
+        type: "keypoints",
+        title: "Body facts worth memorising",
+        items: ["An adult human body has 206 bones; a newborn baby has around 300.", "The heart has 4 chambers and pumps blood all around the body.", "Skin is the largest organ; the liver is the largest internal organ.", "The smallest bone (stapes) is in the ear; the longest bone (femur) is in the thigh.", "Normal body temperature is about 37 degrees Celsius (98.6 degrees Fahrenheit).", "Red blood cells carry oxygen using the red pigment haemoglobin."]
+      },
+      {
+        type: "heading",
+        text: "Nutrition, Vitamins and Deficiency Diseases"
+      },
+      {
+        type: "table",
+        headers: ["Vitamin", "Chemical name", "Deficiency disease"],
+        rows: [
+          ["Vitamin A", "Retinol", "Night blindness"],
+          ["Vitamin B1", "Thiamine", "Beriberi"],
+          ["Vitamin C", "Ascorbic acid", "Scurvy"],
+          ["Vitamin D", "Calciferol", "Rickets"],
+          ["Vitamin K", "Phylloquinone", "Poor blood clotting"]
+        ]
+      },
+      {
+        type: "example",
+        title: "Cracking a deficiency question",
+        lines: ["Question: A person cannot see clearly in dim light after sunset. Which vitamin is likely missing?", "Step 1 — Name the symptom: poor vision in low light is called night blindness.", "Step 2 — Recall which vitamin protects the eyes: Vitamin A (retinol).", "Step 3 — Match it: night blindness is the classic sign of Vitamin A deficiency.", "Step 4 — Food fix: carrots, papaya, spinach and milk are rich in Vitamin A.", "Answer: The missing nutrient is Vitamin A."]
+      },
+      {
+        type: "heading",
+        text: "Diseases and What Causes Them"
+      },
+      {
+        type: "table",
+        headers: ["Disease", "Caused by", "Spread by / note"],
+        rows: [
+          ["Malaria", "Protozoan (Plasmodium)", "Bite of female Anopheles mosquito"],
+          ["Dengue", "Virus", "Bite of Aedes mosquito"],
+          ["Tuberculosis (TB)", "Bacteria", "Air — coughing and sneezing"],
+          ["Cholera", "Bacteria", "Contaminated water and food"],
+          ["Rabies", "Virus", "Bite of an infected animal"]
+        ]
+      },
+      {
+        type: "callout",
+        tone: "warn",
+        text: "Exam trap: malaria and dengue are both spread by mosquitoes, but malaria is caused by a protozoan (Plasmodium) while dengue is caused by a virus. Also, the male mosquito never bites — only the female mosquito spreads these diseases."
+      },
+      {
+        type: "heading",
+        text: "Plant Biology Basics"
+      },
+      {
+        type: "formula",
+        text: "Photosynthesis: 6CO2 + 6H2O --(sunlight + chlorophyll)--> C6H12O6 (glucose) + 6O2"
+      },
+      {
+        type: "para",
+        text: "Green plants make their own food by photosynthesis in the leaves, using sunlight trapped by the green pigment chlorophyll. To move materials around, plants use two pipe-like tissues: xylem carries water and minerals upward from the roots, while phloem carries the food (sugar) made in the leaves to the rest of the plant. The loss of extra water as vapour from leaves through tiny pores called stomata is known as transpiration."
+      },
+      {
+        type: "quiz",
+        question: "Which of these diseases is caused by a virus and NOT by bacteria?",
+        options: ["Tuberculosis", "Cholera", "Dengue", "Typhoid"],
+        correct: 2,
+        explain: "Dengue is caused by a virus and spreads through the Aedes mosquito. Tuberculosis, cholera and typhoid are all bacterial diseases, so dengue is the odd one out."
+      }
+    ]
+  },
 ];
 
 export const getExplainer = (slug: string) => explainers.find((e) => e.slug === slug);

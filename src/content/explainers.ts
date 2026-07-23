@@ -6466,6 +6466,1316 @@ export const explainers: ExplainerContent[] = [
       }
     ]
   },
+  {
+    slug: "c12-electric-charges-and-fields",
+    title: "Electric Charges and Fields: From Coulomb to Gauss",
+    summary: "A from-scratch guide to charge, Coulomb's law, the electric field and its lines, the dipole, and Gauss's law -- with a worked numerical, a full derivation, and a quick-reference table for CBSE Class 12 (and your JEE/NEET/CUET foundation).",
+    examSlug: "class-12",
+    subjectSlug: "physics",
+    chapterSlug: "electric-charges-and-fields",
+    readingMinutes: 8,
+    practiceTestSlug: "c12-electric-charges-fields-practice-1",
+    blocks: [
+      {
+        type: "analogy",
+        title: "The winter sweater crackle",
+        text: "On a dry winter morning, pull a woollen sweater over your head and you hear a tiny crackle -- sometimes even a faint spark in the dark. Rub a plastic comb on your hair and it lifts little bits of paper. No magic is involved: you are simply rubbing tiny electrons from one surface to another, leaving things electrically charged. This whole chapter is about turning that everyday crackle into precise, powerful laws. Padho, dost -- let's begin!"
+      },
+      {
+        type: "heading",
+        text: "Electric Charge: the basics"
+      },
+      {
+        type: "para",
+        text: "Charge is a basic property of matter, just like mass. There are two kinds -- positive and negative -- and the rule is simple: like charges repel, unlike charges attract. A body becomes charged only when electrons are transferred: lose electrons and it turns positive, gain electrons and it turns negative. Charge is measured in coulombs (C), the SI unit. One coulomb is actually a huge amount -- the charge you feel from a rubbed comb is only a few billionths of a coulomb."
+      },
+      {
+        type: "keypoints",
+        title: "Three properties you must remember",
+        items: ["Quantisation: charge comes in whole packets. q = ne, where e = 1.6 x 10^-19 C and n is an integer (0, +-1, +-2, ...). You can never have half an electron's worth of charge.", "Conservation: the total charge of an isolated system never changes. Charge is only transferred, never created or destroyed.", "Additivity: the net charge of a body is the ordinary algebraic sum of all the charges on it (a +3 C and a -1 C together give a net +2 C).", "SI unit is the coulomb (C); like charges repel, unlike charges attract."]
+      },
+      {
+        type: "heading",
+        text: "Coulomb's Law -- how strong is the pull or push?"
+      },
+      {
+        type: "formula",
+        text: "F = (1 / 4 pi e0) . (q1 q2 / r^2),   where 1/(4 pi e0) = k = 9 x 10^9 N.m^2.C^-2 and e0 = 8.85 x 10^-12 C^2.N^-1.m^-2.   The force acts along the line joining the two charges. In a medium, replace e0 by e = e0 er, so the force becomes weaker by the factor er (the relative permittivity)."
+      },
+      {
+        type: "para",
+        text: "Coulomb's law says the force between two point charges is directly proportional to the product of the charges and inversely proportional to the square of the distance between them. It is a vector, directed along the line joining the charges. Notice how similar it looks to Newton's law of gravitation, but with one big difference: gravity only pulls, while the electric force can pull (unlike charges) or push (like charges)."
+      },
+      {
+        type: "example",
+        title: "Worked example: force between two charges",
+        lines: ["Two point charges q1 = +2 uC and q2 = +3 uC are 30 cm apart in vacuum. Find the force between them.", "Convert to SI units: q1 = 2 x 10^-6 C, q2 = 3 x 10^-6 C, r = 0.30 m.", "Write Coulomb's law: F = (1/4 pi e0) . q1 q2 / r^2 = 9 x 10^9 x (q1 q2) / r^2.", "Numerator: q1 q2 = (2 x 10^-6)(3 x 10^-6) = 6 x 10^-12 C^2.", "Denominator: r^2 = (0.30)^2 = 0.09 m^2.", "Substitute: F = 9 x 10^9 x (6 x 10^-12 / 0.09) = 9 x 10^9 x 6.67 x 10^-11 = 0.6 N.", "Both charges are positive, so the force is repulsive: 0.6 N on each charge, pushing them apart along the line joining them."]
+      },
+      {
+        type: "heading",
+        text: "Electric Field and Field Lines"
+      },
+      {
+        type: "para",
+        text: "Instead of talking about force every time, physicists say a charge fills the space around it with an electric field. The electric field E at a point is the force felt by a tiny, positive test charge q0 placed there, per unit charge: E = F/q0. It is a vector with SI unit N/C (also written V/m). For a single point charge q, the field at distance r is E = (1/4 pi e0) . q/r^2, pointing away from a positive charge and towards a negative one. When many charges are present, just add their fields as vectors -- this is the superposition principle."
+      },
+      {
+        type: "keypoints",
+        title: "How to read electric field lines",
+        items: ["They start on positive charges and end on negative charges (or run off to infinity).", "The tangent to a line at any point gives the direction of E there.", "Where lines are crowded, the field is strong; where they spread out, it is weak.", "Two field lines can never cross -- the field has only one direction at each point.", "In electrostatics they never form closed loops."]
+      },
+      {
+        type: "heading",
+        text: "The Electric Dipole"
+      },
+      {
+        type: "formula",
+        text: "A dipole is a pair of equal and opposite charges +q and -q separated by a small distance 2a.   Dipole moment: p = q x (2a), a vector pointing from -q to +q, unit C.m.   On the axial line (end-on, r >> a): E = (1/4 pi e0) . (2p / r^3), directed along p.   On the equatorial line (broadside, r >> a): E = (1/4 pi e0) . (p / r^3), directed opposite to p.   In a uniform field E, the dipole feels zero net force but a torque tau = pE sin(theta) (vector tau = p x E) that tries to align it with the field."
+      },
+      {
+        type: "heading",
+        text: "Gauss's Law -- a shortcut for symmetric charges"
+      },
+      {
+        type: "formula",
+        text: "Electric flux: Phi = closed integral of E . dA = q(enclosed) / e0.   In words: the total electric flux through any closed surface (a 'Gaussian surface') equals the net charge enclosed inside it, divided by e0. Charges lying outside the surface contribute zero net flux."
+      },
+      {
+        type: "steps",
+        title: "Deriving the field of an infinite charged sheet",
+        items: ["Take a large flat sheet with uniform surface charge density sigma (charge per unit area). By symmetry the field E must point straight out, perpendicular to the sheet, with the same strength on both sides.", "Choose a Gaussian surface: a small cylinder (pillbox) of cross-section area A that pierces the sheet, with its two flat faces parallel to the sheet, one on each side.", "Flux through the curved side = 0, because E is parallel to that surface. Flux through each flat face = E x A, so the total flux = 2EA.", "Charge enclosed by the pillbox = sigma x A (only the patch of sheet inside it).", "Apply Gauss's law: 2EA = sigma A / e0. The area A cancels, giving E = sigma / (2 e0).", "Result: the field of an infinite sheet is uniform, E = sigma/(2 e0), and does not depend on the distance from the sheet."]
+      },
+      {
+        type: "table",
+        headers: ["Charge distribution", "Field magnitude E", "Direction"],
+        rows: [
+          ["Point charge q", "q / (4 pi e0 r^2)", "Radial, away from +q"],
+          ["Infinite line charge, lambda", "lambda / (2 pi e0 r)", "Radial, perpendicular to the line"],
+          ["Infinite plane sheet, sigma", "sigma / (2 e0)", "Perpendicular to sheet, uniform"],
+          ["Spherical shell (outside), Q", "Q / (4 pi e0 r^2)", "Radial, acts like a point charge at centre"],
+          ["Spherical shell (inside)", "0", "No field inside"]
+        ]
+      },
+      {
+        type: "callout",
+        tone: "warn",
+        text: "Common mistakes to avoid: (1) Coulomb's law has r^2 in the denominator, not r, and r is the distance between the charges. (2) The field just outside a charged conductor's surface is sigma/e0, but for a thin non-conducting sheet it is sigma/(2 e0) -- don't mix up the factor of 2. (3) In Gauss's law the total flux depends only on the charge enclosed, but the value of E at the surface depends on all charges, inside and outside. (4) The field inside a uniformly charged spherical shell is exactly zero."
+      },
+      {
+        type: "quiz",
+        question: "A single point charge +q is placed exactly at the centre of a cube. What is the electric flux through just one face of the cube?",
+        options: ["q / e0", "q / (6 e0)", "q / (2 e0)", "Zero"],
+        correct: 1,
+        explain: "By Gauss's law the total flux through the whole closed cube is q/e0. Since the charge sits at the centre, all six faces are identical by symmetry, so each face carries an equal share: (q/e0) / 6 = q/(6 e0)."
+      }
+    ]
+  },
+  {
+    slug: "c12-current-electricity",
+    title: "Current Electricity Made Simple: From Ohm's Law to the Wheatstone Bridge",
+    summary: "A friendly, first-principles walk through Current Electricity for CBSE Class 12 — electric current, Ohm's law, resistivity, series and parallel resistors, Kirchhoff's rules and the Wheatstone bridge — with everyday analogies, correct SI units, and a fully worked numerical.",
+    examSlug: "class-12",
+    subjectSlug: "physics",
+    chapterSlug: "current-electricity",
+    readingMinutes: 8,
+    practiceTestSlug: "c12-current-electricity-practice-1",
+    blocks: [
+      {
+        type: "analogy",
+        title: "Water in a pipe",
+        text: "Imagine water flowing through a pipe. The amount of water rushing past a point every second is like electric current. A pump that pushes the water is like a battery providing voltage. And if the pipe is narrow or clogged, the water struggles to flow — that struggle is resistance. Hold this picture in your head, dost — almost everything in Current Electricity is just this water story retold with electrons. Padho, dost, and let's begin!"
+      },
+      {
+        type: "heading",
+        text: "What exactly is electric current?"
+      },
+      {
+        type: "para",
+        text: "Electric current is the rate of flow of electric charge. In a metal wire, tiny particles called free electrons drift along and carry the charge. If a charge Q passes through any cross-section of a wire in time t, the current is simply how much charge flows per second."
+      },
+      {
+        type: "formula",
+        text: "I = Q / t     SI unit: ampere (A) = 1 coulomb per second (C/s)"
+      },
+      {
+        type: "para",
+        text: "One important convention: the direction of conventional current is taken as the direction in which positive charge would move — which is opposite to the direction in which electrons actually drift. Current is a scalar quantity; it has magnitude but no direction in the vector sense (that is why currents at a junction add up like ordinary numbers)."
+      },
+      {
+        type: "callout",
+        tone: "info",
+        text: "Electrons drift surprisingly slowly — only a fraction of a millimetre per second! The bulb lights up almost instantly because the electric field is set up along the whole wire at nearly the speed of light, so electrons everywhere start drifting together at once."
+      },
+      {
+        type: "heading",
+        text: "Ohm's Law — the golden rule"
+      },
+      {
+        type: "para",
+        text: "For many conductors at a constant temperature, the current through them is directly proportional to the potential difference (voltage) across them. The constant of proportionality is the resistance R."
+      },
+      {
+        type: "formula",
+        text: "V = I R     Resistance R = V / I     SI unit: ohm (Ω) = 1 volt per ampere (V/A)"
+      },
+      {
+        type: "para",
+        text: "A higher R means it is harder for current to flow for the same voltage. Materials that obey this straight-line relationship (like most metals) are called ohmic; things like diodes and bulb filaments are non-ohmic because their R changes with conditions."
+      },
+      {
+        type: "heading",
+        text: "Resistivity — resistance built into the material"
+      },
+      {
+        type: "para",
+        text: "Resistance depends on the shape of the wire, not just what it is made of. A long wire resists more; a thick wire resists less. Pulling these geometric factors out leaves us with resistivity (ρ), a property of the material itself that does not depend on size or shape."
+      },
+      {
+        type: "formula",
+        text: "R = ρ L / A     where L = length, A = cross-sectional area, ρ = resistivity (unit: ohm-metre, Ω·m)"
+      },
+      {
+        type: "analogy",
+        title: "Why long and thin resists more",
+        text: "Think of a crowded railway platform. A long corridor (large L) means people take longer to get through — more resistance. A wide corridor (large A) lets many people pass side by side at once — less resistance. Copper is like a smooth empty hall (low ρ); rubber is like a wall (huge ρ)."
+      },
+      {
+        type: "para",
+        text: "For metals, resistivity increases with temperature — hotter atoms vibrate more and obstruct the drifting electrons. That is why a bulb's filament has a much higher resistance when glowing hot than when cold."
+      },
+      {
+        type: "heading",
+        text: "Resistors in series and parallel"
+      },
+      {
+        type: "para",
+        text: "When we connect several resistors, we can replace them with a single equivalent resistance. In series (one after another, same current through each) the resistances simply add. In parallel (side by side, same voltage across each) the reciprocals add, and the equivalent is always smaller than the smallest resistor."
+      },
+      {
+        type: "table",
+        headers: ["Feature", "Series", "Parallel"],
+        rows: [
+          ["Connection", "End to end, single path", "Side by side, multiple paths"],
+          ["Same for all", "Current I", "Voltage V"],
+          ["Equivalent R", "R = R1 + R2 + R3", "1/R = 1/R1 + 1/R2 + 1/R3"],
+          ["Effect on total R", "Increases (bigger than any)", "Decreases (smaller than smallest)"]
+        ]
+      },
+      {
+        type: "example",
+        title: "Worked example: two resistors, series then parallel",
+        lines: ["Given: R1 = 6 Ω and R2 = 3 Ω, connected to a 12 V battery.", "SERIES: R_eq = R1 + R2 = 6 + 3 = 9 Ω", "Current from battery: I = V / R_eq = 12 / 9 = 1.33 A", "PARALLEL: 1/R_eq = 1/6 + 1/3 = 1/6 + 2/6 = 3/6 = 1/2", "So R_eq = 2 Ω  (note: smaller than 3 Ω, the smaller resistor)", "Total current: I = V / R_eq = 12 / 2 = 6 A", "Check the branches: I1 = 12/6 = 2 A, I2 = 12/3 = 4 A; sum = 2 + 4 = 6 A. It matches!"]
+      },
+      {
+        type: "heading",
+        text: "Kirchhoff's rules — for circuits Ohm's law can't crack alone"
+      },
+      {
+        type: "para",
+        text: "Complex circuits with many batteries and loops need two rules given by Gustav Kirchhoff. They come straight from two conservation laws you already know."
+      },
+      {
+        type: "keypoints",
+        title: "The two rules",
+        items: ["Junction Rule (KCL): The total current entering a junction equals the total current leaving it. This is just conservation of charge — charge cannot pile up at a point.", "Loop Rule (KVL): Around any closed loop, the algebraic sum of all changes in potential is zero. This is conservation of energy — return to the start and the potential must be the same.", "Sign tip: crossing a resistor along the current direction is a drop (−IR); crossing a battery from − to + terminal is a rise (+EMF)."]
+      },
+      {
+        type: "callout",
+        tone: "warn",
+        text: "Common mistake: forgetting signs in the loop rule. First fix a direction for each current (guess freely — if your answer comes out negative, the current simply flows the opposite way). Then be consistent: potential drops across a resistor in the direction of the current, and follow the battery's terminals carefully."
+      },
+      {
+        type: "heading",
+        text: "The Wheatstone Bridge"
+      },
+      {
+        type: "para",
+        text: "The Wheatstone bridge is a clever arrangement of four resistors (P, Q, R, S) in a diamond, with a battery across one diagonal and a sensitive galvanometer across the other. By adjusting the resistors until the galvanometer reads zero — the balanced condition — we can find an unknown resistance very accurately without ever measuring the current."
+      },
+      {
+        type: "formula",
+        text: "Balanced bridge (no current through galvanometer): P / Q = R / S"
+      },
+      {
+        type: "para",
+        text: "At balance, no current flows through the galvanometer, which means the two junctions across it are at the same potential. Applying Kirchhoff's rules to the arms then gives this neat ratio. If three resistances are known, the fourth (unknown) follows instantly — this is the principle behind the metre bridge used in your practical exams."
+      },
+      {
+        type: "keypoints",
+        title: "Quick revision — lock these in",
+        items: ["Current I = Q/t, measured in amperes (A); conventional current flows opposite to electron drift.", "Ohm's law: V = IR, valid at constant temperature for ohmic conductors.", "Resistivity: R = ρL/A; ρ is a material property and rises with temperature in metals.", "Series adds resistances; parallel adds reciprocals and lowers the total resistance.", "Kirchhoff: junction rule = charge conservation; loop rule = energy conservation.", "Wheatstone bridge balances when P/Q = R/S, with zero galvanometer current."]
+      },
+      {
+        type: "quiz",
+        question: "Three resistors of 3 Ω, 3 Ω and 3 Ω are connected in parallel. What is their equivalent resistance?",
+        options: ["9 Ω", "3 Ω", "1 Ω", "6 Ω"],
+        correct: 2,
+        explain: "For parallel resistors, 1/R_eq = 1/3 + 1/3 + 1/3 = 3/3 = 1, so R_eq = 1 Ω. A useful shortcut: for n equal resistors R in parallel, the equivalent is R/n = 3/3 = 1 Ω. Notice the result is smaller than any single resistor, which is always true for a parallel combination."
+      }
+    ]
+  },
+  {
+    slug: "c12-moving-charges-and-magnetism",
+    title: "Moving Charges and Magnetism, Made Simple",
+    summary: "A patient, from-scratch guide to how magnetic fields push moving charges and current-carrying wires, how currents create fields (Biot-Savart and Ampere's law), the solenoid, and the moving-coil galvanometer, with a fully worked numerical and clear SI units for CBSE Class 12 (and your JEE/NEET/CUET foundation).",
+    examSlug: "class-12",
+    subjectSlug: "physics",
+    chapterSlug: "moving-charges-and-magnetism",
+    readingMinutes: 8,
+    practiceTestSlug: "c12-moving-charges-magnetism-practice-1",
+    blocks: [
+      {
+        type: "analogy",
+        title: "Oersted's lucky accident",
+        text: "Padho, Dost! In 1820, a teacher named Oersted was demonstrating a circuit when he noticed a compass needle nearby twitch every single time he switched the current on. That little twitch revealed a huge secret: electricity and magnetism are do paisa of the same sikka. A moving charge stirs up a magnetic field around itself, and a charge moving through someone else's field feels a sideways push. This whole chapter is just those two ideas, explored carefully."
+      },
+      {
+        type: "heading",
+        text: "The push on a moving charge"
+      },
+      {
+        type: "para",
+        text: "Every charge that moves through a magnetic field feels a force. The complete rule is called the Lorentz force: a charge q moving with velocity v through an electric field E and a magnetic field B feels F = q(E + v x B). In this chapter we care about the magnetic part. Its size depends on how fast the charge moves and, crucially, on the angle between its motion and the field."
+      },
+      {
+        type: "formula",
+        text: "Magnetic force:  F = q(v x B)   ->   magnitude  F = q v B sin(theta).  Here theta is the angle between v and B. The SI unit of B is the tesla (T); 1 T = 1 N per (A.m). The direction of F is always perpendicular to BOTH v and B."
+      },
+      {
+        type: "callout",
+        tone: "warn",
+        text: "Common trap: a magnetic force can never change a charge's speed or kinetic energy, because the force is always perpendicular to the motion. It only bends the path. Since F = qvB sin(theta), the force is ZERO when the charge is at rest (v = 0) or moves parallel/anti-parallel to B (theta = 0 or 180 degrees). It is maximum when v is perpendicular to B (theta = 90 degrees)."
+      },
+      {
+        type: "analogy",
+        title: "The stone on a string",
+        text: "Imagine whirling a stone tied to a string (a gophan / sling) around your head. The string always pulls the stone inward, at a right angle to its motion. It never speeds the stone up or slows it down, it only bends the path into a circle. When a charge moves across a magnetic field, the magnetic force does exactly the same job as that string, which is why the charge travels in a circle."
+      },
+      {
+        type: "formula",
+        text: "Charge in a circle: the magnetic force supplies the centripetal force, so  q v B = m v^2 / r  ->  radius  r = m v / (q B).  Time period  T = 2 pi m / (q B),  and frequency  f = q B / (2 pi m).  Notice T and f do NOT depend on the speed v (this fact runs the cyclotron)."
+      },
+      {
+        type: "heading",
+        text: "Force on a current-carrying wire"
+      },
+      {
+        type: "formula",
+        text: "A wire is just a pipe full of moving charges, so it too feels a force in a field:  F = I(L x B)  ->  magnitude  F = B I L sin(theta),  where I is the current, L is the length of wire inside the field, and theta is the angle between the wire and B."
+      },
+      {
+        type: "example",
+        title: "Worked example: force on a wire",
+        lines: ["A straight wire of length L = 0.5 m carries a current I = 4 A.", "It lies perpendicular (theta = 90 degrees) to a uniform field B = 0.25 T.", "Formula:  F = B I L sin(theta)", "Substitute:  F = 0.25 x 4 x 0.5 x sin(90 degrees)", "sin(90 degrees) = 1, so  F = 0.25 x 4 x 0.5 = 0.5", "Direction: use the right-hand rule; F is perpendicular to both the wire and B.", "Answer: the wire feels a force of 0.5 newton (N)."]
+      },
+      {
+        type: "heading",
+        text: "Where do magnetic fields come from?"
+      },
+      {
+        type: "formula",
+        text: "Biot-Savart law (field from a tiny current element):  dB = (mu0 / 4 pi) x (I dl sin(theta)) / r^2,  with mu0 = 4 pi x 10^-7 T.m/A.  Two famous results:  long straight wire  B = mu0 I / (2 pi r);  centre of a circular loop  B = mu0 I / (2 R)  (multiply by N for N turns)."
+      },
+      {
+        type: "formula",
+        text: "Ampere's circuital law (a shortcut for symmetric cases): the line integral of B around any closed loop equals mu0 times the enclosed current,  (integral of B.dl) = mu0 I(enclosed).  Applied to a long solenoid it gives the field inside as  B = mu0 n I,  where n = number of turns per metre. This field is strong and uniform, like that of a bar magnet."
+      },
+      {
+        type: "callout",
+        tone: "tip",
+        text: "Direction tricks: for the field circling a wire, point your right thumb along the current and your curling fingers show the field's direction. For the force F = q(v x B) or F = I(L x B), use v x B for a positive charge; for an electron (negative charge) the force points the opposite way. Fleming's left-hand rule (thumb = force, forefinger = field, middle finger = current) is the handy exam version."
+      },
+      {
+        type: "heading",
+        text: "The moving-coil galvanometer"
+      },
+      {
+        type: "para",
+        text: "A galvanometer detects tiny currents. A coil of N turns and area A sits in a magnetic field B. When current I flows, the coil experiences a turning effect (torque) tau = N I A B. A spring pushes back, so the coil rotates until the spring's twist balances the torque. The pointer then rests at an angle phi that is directly proportional to the current: phi = (N A B / k) I, where k is the spring's torsion constant. That is why the scale reading tells you the current. Increasing N, A or B raises the current sensitivity (more deflection per ampere); dividing that by the coil resistance R gives the voltage sensitivity."
+      },
+      {
+        type: "table",
+        headers: ["Situation", "Formula", "What it tells you"],
+        rows: [
+          ["Charge moving in a field", "F = q v B sin(theta)", "Sideways push; zero when v is parallel to B"],
+          ["Wire carrying current", "F = B I L sin(theta)", "Force on a current-carrying conductor"],
+          ["Radius of circular path", "r = m v / (q B)", "More momentum means a bigger circle"],
+          ["Long straight wire's field", "B = mu0 I / (2 pi r)", "Field weakens as distance r grows"],
+          ["Centre of a circular loop", "B = mu0 I / (2 R)", "For N turns, multiply by N"],
+          ["Inside a long solenoid", "B = mu0 n I", "Uniform field; n = turns per metre"],
+          ["Galvanometer torque", "tau = N I A B", "Deflection phi is proportional to I"]
+        ]
+      },
+      {
+        type: "quiz",
+        question: "A proton moves exactly parallel to a uniform magnetic field B with speed v. What magnetic force does it feel?",
+        options: ["Maximum, equal to qvB", "Zero", "qvB, directed along the field", "It depends only on the sign of the charge"],
+        correct: 1,
+        explain: "The magnetic force is F = qvB sin(theta). When the velocity is parallel to B, the angle theta = 0 degrees, so sin(theta) = 0 and the force is zero. A magnetic force needs a component of velocity perpendicular to the field; it is maximum only when v is perpendicular to B."
+      }
+    ]
+  },
+  {
+    slug: "c12-solutions",
+    title: "Solutions: Concentration, Raoult's Law and Colligative Properties Made Simple",
+    summary: "A friendly, NCERT-aligned walkthrough of the Solutions chapter: how to measure concentration (molarity, molality, mole fraction), what Raoult's Law says about vapour pressure, and how the four colligative properties let us find molar masses, with two fully worked numericals.",
+    examSlug: "class-12",
+    subjectSlug: "chemistry",
+    chapterSlug: "solutions",
+    readingMinutes: 8,
+    practiceTestSlug: "c12-solutions-practice-1",
+    blocks: [
+      {
+        type: "analogy",
+        title: "Start with a glass of nimbu paani",
+        text: "Think about making nimbu paani. A little sugar and a squeeze of lemon dissolved in a full glass of water tastes light; the same sugar in half a glass tastes much sweeter. Nothing changed about the sugar itself, only how crowded it is in the water. That single idea, how much stuff is dissolved in how much liquid, is the heart of this whole chapter. Once you can measure that crowding precisely, you can predict how the solution boils, freezes and behaves. Padho, dost, it is simpler than it looks!"
+      },
+      {
+        type: "heading",
+        text: "Solute, solvent and solution: the basic words"
+      },
+      {
+        type: "para",
+        text: "A solution is a homogeneous mixture of two or more substances. The component present in the larger amount is the solvent (usually water), and the component dissolved in it is the solute (like sugar or salt). In nimbu paani, water is the solvent and sugar is the solute. To do any real chemistry we must state exactly how much solute is present, and that measurement is called concentration."
+      },
+      {
+        type: "heading",
+        text: "Three precise ways to express concentration"
+      },
+      {
+        type: "para",
+        text: "Vague words like 'strong' or 'dilute' are not enough for Class 12. NCERT expects you to use three exact measures: molarity, molality and mole fraction. Each answers 'how much solute?' but divides it by a different reference, so read the units carefully every single time."
+      },
+      {
+        type: "table",
+        headers: ["Measure", "Formula", "Unit", "Changes with temperature?"],
+        rows: [
+          ["Molarity (M)", "moles of solute / volume of solution in litres", "mol/L", "Yes, volume expands or shrinks with temperature"],
+          ["Molality (m)", "moles of solute / mass of solvent in kilograms", "mol/kg", "No, mass never changes with temperature"],
+          ["Mole fraction (x)", "moles of a component / total moles of all components", "no unit (a ratio)", "No"]
+        ]
+      },
+      {
+        type: "callout",
+        tone: "warn",
+        text: "Two classic exam traps. First, molarity uses the volume of the whole solution, but molality uses the mass of only the solvent, not the solution. Second, because volume changes with heat, molarity is temperature dependent while molality and mole fraction are not. That is exactly why colligative-property formulas later use molality, not molarity."
+      },
+      {
+        type: "example",
+        title: "Worked example: molality and mole fraction",
+        lines: ["Problem: Dissolve 45 g of glucose (molar mass 180 g/mol) in 500 g of water. Find the molality and the mole fraction of glucose.", "Step 1: Moles of glucose = 45 / 180 = 0.25 mol.", "Step 2: Mass of solvent (water) = 500 g = 0.5 kg.", "Step 3: Molality = 0.25 mol / 0.5 kg = 0.5 mol/kg (0.5 m).", "Step 4: Moles of water = 500 / 18 = 27.78 mol.", "Step 5: Mole fraction of glucose = 0.25 / (0.25 + 27.78) = 0.25 / 28.03 = 0.0089.", "Answer: molality = 0.5 m and mole fraction of glucose = 0.0089 (so mole fraction of water = 1 - 0.0089 = 0.9911)."]
+      },
+      {
+        type: "heading",
+        text: "Raoult's Law: the pressure of escaping molecules"
+      },
+      {
+        type: "para",
+        text: "Every liquid has a vapour pressure, the push of molecules escaping into the space above it. Raoult's Law says that for a solution of volatile liquids, the partial vapour pressure of each component is proportional to its mole fraction in the solution. For a solution of two volatile liquids A and B, each contributes its own share. When the solute is non-volatile (like sugar, which does not evaporate), only the solvent contributes vapour, and its vapour pressure drops below that of the pure solvent because solute particles occupy part of the surface and reduce the escaping tendency."
+      },
+      {
+        type: "formula",
+        text: "Two volatile liquids:  p(total) = x_A * p_A° + x_B * p_B°\nNon-volatile solute in a solvent:  p(solution) = x(solvent) * p°(solvent)\nRelative lowering of vapour pressure:  (p° - p) / p° = x(solute)\n(Here p° is the vapour pressure of the pure solvent and p that of the solution.)"
+      },
+      {
+        type: "heading",
+        text: "Colligative properties: it is the count that matters"
+      },
+      {
+        type: "para",
+        text: "Colligative properties depend only on the NUMBER of solute particles dissolved, not on their chemical nature. One mole of glucose and one mole of urea, both non-electrolytes, produce the same effect even though they are different substances. NCERT lists four colligative properties, and all four flow from the same 'crowding lowers vapour pressure' idea you just met."
+      },
+      {
+        type: "formula",
+        text: "1. Relative lowering of vapour pressure:  (p° - p) / p° = x(solute)\n2. Elevation of boiling point:  ΔTb = Kb * m   (for water Kb = 0.52 K kg/mol)\n3. Depression of freezing point:  ΔTf = Kf * m   (for water Kf = 1.86 K kg/mol)\n4. Osmotic pressure:  Π = C R T = (n/V) R T   (R = 0.0821 L atm K⁻¹ mol⁻¹)"
+      },
+      {
+        type: "para",
+        text: "In plain words: dissolving a non-volatile solute makes a liquid harder to boil (boiling point rises) and harder to freeze (freezing point falls). This is why we add salt to icy roads and antifreeze to car radiators. Osmotic pressure is the pressure needed to just stop solvent from flowing through a semipermeable membrane into the solution, and because it is measured at room temperature and gives large, easily measured values, it is the best method for finding the molar mass of delicate large molecules like proteins."
+      },
+      {
+        type: "example",
+        title: "Worked example: freezing point depression to find molar mass",
+        lines: ["Problem: 18 g of a non-volatile, non-electrolyte solute is dissolved in 200 g of water. The solution freezes at -0.93 °C. Find the molar mass. (Kf for water = 1.86 K kg/mol.)", "Step 1: Pure water freezes at 0 °C, so ΔTf = 0 - (-0.93) = 0.93 K.", "Step 2: Start from ΔTf = Kf * m, where molality m = (w2 * 1000)/(M2 * w1). Combining and rearranging for M2 gives M2 = (Kf * w2 * 1000)/(ΔTf * w1).", "Step 3: Put in values (w2 = 18 g, w1 = 200 g): M2 = (1.86 * 18 * 1000) / (0.93 * 200).", "Step 4: Numerator = 1.86 * 18 * 1000 = 33480; denominator = 0.93 * 200 = 186; M2 = 33480 / 186 = 180 g/mol.", "Answer: the molar mass is 180 g/mol, which matches glucose."]
+      },
+      {
+        type: "callout",
+        tone: "tip",
+        text: "For electrolytes that split into ions, multiply by the van't Hoff factor i (the number of particles one formula unit produces). NaCl gives 2 ions (i is about 2) and CaCl2 gives 3 ions (i is about 3), so ΔTf = i * Kf * m. This is why salt melts ice so effectively: more particles means more depression."
+      },
+      {
+        type: "keypoints",
+        title: "Quick revision before the exam",
+        items: ["Molarity (mol/L) depends on temperature; molality (mol/kg) and mole fraction (no unit) do not.", "Raoult's Law: the partial vapour pressure of a volatile component is proportional to its mole fraction.", "Relative lowering of vapour pressure equals the mole fraction of the solute.", "Four colligative properties: relative lowering of vapour pressure, ΔTb = Kb·m, ΔTf = Kf·m, and Π = CRT.", "For water, Kb = 0.52 and Kf = 1.86 K kg/mol; remember R = 0.0821 L atm K⁻¹ mol⁻¹.", "Colligative properties count particles, so multiply by the van't Hoff factor i for electrolytes."]
+      },
+      {
+        type: "quiz",
+        question: "Three separate 1 molal (1 m) aqueous solutions are made using glucose, NaCl and CaCl2. Which one shows the GREATEST depression of freezing point?",
+        options: ["Glucose", "NaCl", "CaCl2", "All three are equal because the molality is the same"],
+        correct: 2,
+        explain: "Colligative properties depend on the number of dissolved particles, not molality alone. Glucose does not ionise (i = 1), NaCl gives 2 ions (i ≈ 2), and CaCl2 gives Ca²⁺ + 2Cl⁻ = 3 ions (i ≈ 3). Since ΔTf = i·Kf·m, CaCl2 produces the most particles and therefore the largest depression of freezing point."
+      }
+    ]
+  },
+  {
+    slug: "c12-electrochemistry",
+    title: "Electrochemistry Made Simple: Cells, EMF, Nernst and Electrolysis",
+    summary: "A friendly, NCERT-aligned walkthrough of Class 12 Electrochemistry: how galvanic cells turn reactions into electricity, standard electrode potentials and the SHE, calculating cell EMF, the Nernst equation with a worked numerical, conductance of solutions, and electrolysis with Faraday's laws.",
+    examSlug: "class-12",
+    subjectSlug: "chemistry",
+    chapterSlug: "electrochemistry",
+    readingMinutes: 8,
+    practiceTestSlug: "c12-electrochemistry-practice-1",
+    blocks: [
+      {
+        type: "analogy",
+        title: "A dam that lights up your village",
+        text: "Imagine two ponds at different heights connected by a channel. Water rushes from the higher pond to the lower one, and on its way it spins a turbine that lights up your village. In electrochemistry, electrons are the water and the 'height difference' is the electrical push we call potential. A galvanic cell is simply a clever setup that lets electrons flow downhill through a wire, doing useful work like running your calculator or torch, instead of just fizzing away uselessly."
+      },
+      {
+        type: "para",
+        text: "Padho, dost! Electrochemistry is the study of the give-and-take between chemical reactions and electricity. Some reactions release energy that we capture as electric current (that is a galvanic or voltaic cell, like a battery). Others need electricity pushed into them to happen (that is electrolysis). The whole chapter rests on one simple idea from redox: oxidation is loss of electrons, reduction is gain of electrons. Every reaction here is just electrons changing owners."
+      },
+      {
+        type: "heading",
+        text: "Galvanic cells: making electricity from a reaction"
+      },
+      {
+        type: "para",
+        text: "Take the classic Daniell cell. A zinc rod sits in ZnSO4 solution, a copper rod sits in CuSO4 solution, and a salt bridge connects the two beakers. Zinc is more reactive, so it gives up electrons: Zn goes to Zn2+ + 2e-. This is oxidation, and it happens at the ANODE (the negative terminal in a galvanic cell). Those electrons travel through the external wire to the copper, where Cu2+ + 2e- becomes Cu. This is reduction, at the CATHODE (the positive terminal). The salt bridge (often KCl or KNO3 set in agar jelly) keeps both solutions electrically neutral by letting ions flow, completing the circuit."
+      },
+      {
+        type: "callout",
+        tone: "tip",
+        text: "Memory trick: 'An Ox' and 'Red Cat'. ANode = OXidation; REDuction = CAThode. This is true for BOTH galvanic and electrolytic cells. Only the +/- signs of the terminals flip between the two."
+      },
+      {
+        type: "formula",
+        text: "Cell notation: Zn(s) | Zn2+(aq) || Cu2+(aq) | Cu(s)  — anode on the left, cathode on the right, single | = phase boundary, double || = salt bridge."
+      },
+      {
+        type: "heading",
+        text: "Standard electrode potential and cell EMF"
+      },
+      {
+        type: "para",
+        text: "Every electrode has a tendency to get reduced, measured as its standard reduction potential (E-degree) in volts, under standard conditions: 298 K, 1 bar pressure for any gas, and 1 M concentration for ions in solution. We cannot measure a single electrode alone, so we compare everything to the Standard Hydrogen Electrode (SHE), whose potential is defined as exactly 0.00 V. A more positive E-degree means the species is more easily reduced. The standard cell potential is then found from the two electrode potentials."
+      },
+      {
+        type: "formula",
+        text: "E-degree(cell) = E-degree(cathode) - E-degree(anode)   [both taken as standard REDUCTION potentials]"
+      },
+      {
+        type: "table",
+        headers: ["Electrode (reduction half-reaction)", "E-degree / V"],
+        rows: [
+          ["Zn2+ + 2e- to Zn", "-0.76"],
+          ["2H+ + 2e- to H2 (SHE)", "0.00"],
+          ["Cu2+ + 2e- to Cu", "+0.34"],
+          ["Ag+ + e- to Ag", "+0.80"],
+          ["F2 + 2e- to 2F-", "+2.87"]
+        ]
+      },
+      {
+        type: "para",
+        text: "For the Daniell cell: E-degree(cell) = E-degree(Cu) - E-degree(Zn) = (+0.34) - (-0.76) = +1.10 V. A positive cell potential means the reaction is spontaneous (feasible), which links to Gibbs energy through delta-G-degree = -nF E-degree(cell), where n is the moles of electrons transferred and F is Faraday's constant, 96500 C/mol. A positive E-degree therefore gives a negative delta-G-degree, confirming the cell works on its own."
+      },
+      {
+        type: "heading",
+        text: "The Nernst equation: when conditions are not standard"
+      },
+      {
+        type: "para",
+        text: "Real cells rarely have exactly 1 M solutions, and the voltage changes as the cell discharges and concentrations shift. The Nernst equation corrects the standard potential for the actual concentrations. At 298 K, plugging in R, T and F and converting to log base 10 gives the handy exam-ready form."
+      },
+      {
+        type: "formula",
+        text: "E(cell) = E-degree(cell) - (0.0591/n) log Q   at 298 K, where Q is the reaction quotient (products over reactants, using ionic concentrations)."
+      },
+      {
+        type: "example",
+        title: "Worked example: Nernst equation for a Daniell cell",
+        lines: ["Cell: Zn(s) | Zn2+ (0.1 M) || Cu2+ (0.01 M) | Cu(s). Find E(cell) at 298 K.", "Overall reaction: Zn + Cu2+ to Zn2+ + Cu, so n = 2 electrons transferred.", "Standard EMF: E-degree(cell) = 0.34 - (-0.76) = +1.10 V.", "Reaction quotient Q = [Zn2+]/[Cu2+] = 0.1 / 0.01 = 10.", "Nernst: E(cell) = 1.10 - (0.0591/2) log(10).", "log(10) = 1, so the correction term = (0.0591/2)(1) = 0.02955 V.", "E(cell) = 1.10 - 0.0296 = 1.0704 V, approximately 1.07 V.", "Note: the solids Zn and Cu do not appear in Q; only ion concentrations do."]
+      },
+      {
+        type: "heading",
+        text: "Conductance of electrolytic solutions"
+      },
+      {
+        type: "para",
+        text: "Electrolytes conduct electricity through moving ions. Conductivity (kappa) is the conductance of a cube of solution 1 cm on each side (that is, unit length and unit cross-sectional area). But to compare different electrolytes fairly, we use molar conductivity, which accounts for concentration. On dilution, molar conductivity INCREASES because the same amount of electrolyte spreads into more solution and its ions move more freely. For strong electrolytes (like KCl) it rises only slightly and follows Debye-Huckel-Onsager behaviour; for weak electrolytes (like acetic acid) it shoots up steeply near infinite dilution as more molecules ionise."
+      },
+      {
+        type: "formula",
+        text: "Molar conductivity: lambda_m = kappa x 1000 / c   (units S cm2 mol-1, with kappa in S cm-1 and c in mol/L). Kohlrausch's law: lambda-degree_m = (v+)(lambda-degree+) + (v-)(lambda-degree-) — the limiting molar conductivity is the sum of the individual ionic contributions."
+      },
+      {
+        type: "heading",
+        text: "Electrolysis and Faraday's laws"
+      },
+      {
+        type: "para",
+        text: "In electrolysis we FORCE a non-spontaneous reaction by pushing current from an external source. Here the anode is positive and the cathode is negative (the signs flip versus a galvanic cell), but oxidation still occurs at the anode and reduction at the cathode. Faraday's first law says the amount of substance deposited or liberated is directly proportional to the charge passed. Charge Q = current (I) x time (t), and 1 mole of electrons carries 96500 C."
+      },
+      {
+        type: "example",
+        title: "Worked example: Faraday's first law",
+        lines: ["Question: A current of 5 A flows for 30 minutes through CuSO4 solution. How much copper is deposited at the cathode? (Molar mass of Cu = 63.5 g/mol)", "Step 1 - charge: Q = I x t = 5 A x (30 x 60 s) = 5 x 1800 = 9000 C.", "Step 2 - electrons: Cu2+ + 2e- to Cu, so 2 mol electrons (2 x 96500 = 193000 C) deposit 1 mol (63.5 g) of Cu.", "Step 3 - proportion: mass = (63.5 / 193000) x 9000.", "Step 4: mass = 63.5 x 9000 / 193000 = 571500 / 193000 = 2.96 g of copper.", "Answer: about 2.96 g of copper is deposited at the cathode."]
+      },
+      {
+        type: "keypoints",
+        title: "Quick revision checklist",
+        items: ["Galvanic cell = spontaneous reaction makes electricity; anode is negative, cathode is positive.", "Electrolytic cell = electricity forces a reaction; anode is positive, cathode is negative. In both, oxidation is at the anode.", "E-degree(cell) = E-degree(cathode) - E-degree(anode); a positive value means spontaneous, and delta-G-degree = -nF E-degree(cell).", "SHE is the reference electrode with E-degree = 0.00 V.", "Nernst at 298 K: E = E-degree - (0.0591/n) log Q; voltage falls as products build up.", "Molar conductivity rises on dilution; use Kohlrausch's law to get a weak electrolyte's limiting value.", "Faraday: Q = I x t, and 96500 C = 1 mole of electrons."]
+      },
+      {
+        type: "callout",
+        tone: "warn",
+        text: "Common mistake: forgetting to divide by n (the number of electrons) in the Nernst equation, or writing Q upside down. Q is always [products]/[reactants] using ionic concentrations, and pure solids and liquids are left out (their activity is 1). Also, never put units of concentration inside the log."
+      },
+      {
+        type: "quiz",
+        question: "In the Daniell cell Zn | Zn2+ || Cu2+ | Cu, if the concentration of Cu2+ ions is DECREASED (keeping Zn2+ the same), what happens to the cell EMF?",
+        options: ["EMF increases", "EMF decreases", "EMF stays exactly the same", "EMF becomes zero immediately"],
+        correct: 1,
+        explain: "From the Nernst equation, E = E-degree - (0.0591/n) log([Zn2+]/[Cu2+]). Decreasing [Cu2+] makes the fraction [Zn2+]/[Cu2+] larger, so log Q becomes larger (more positive). Subtracting a bigger positive number lowers E, so the EMF decreases. Intuitively, fewer Cu2+ ions available to be reduced means less driving force for the reaction."
+      }
+    ]
+  },
+  {
+    slug: "c12-chemical-kinetics",
+    title: "Chemical Kinetics: How Fast Do Reactions Go?",
+    summary: "A from-scratch guide to reaction rates for CBSE Class 12: what rate means, how to write a rate law, the difference between order and molecularity, the rate constant and its units, and the first-order integrated equation with half-life — complete with worked numericals.",
+    examSlug: "class-12",
+    subjectSlug: "chemistry",
+    chapterSlug: "chemical-kinetics",
+    readingMinutes: 7,
+    practiceTestSlug: "c12-chemical-kinetics-practice-1",
+    blocks: [
+      {
+        type: "analogy",
+        title: "Two reactions, two very different speeds",
+        text: "Think of an iron gate slowly rusting over months, and a Diwali phatka bursting in a fraction of a second. Both are chemical reactions, but their speeds are worlds apart. Chemical Kinetics is the branch of chemistry that answers one simple question: HOW FAST does a reaction happen, and what controls that speed? Padho, dost — once you can measure and predict reaction speed, a big chunk of physical chemistry suddenly clicks into place."
+      },
+      {
+        type: "heading",
+        text: "What Do We Mean by 'Rate of Reaction'?"
+      },
+      {
+        type: "para",
+        text: "The rate of a reaction is the change in concentration of a reactant or product per unit time. As a reaction proceeds, reactants get used up (their concentration falls) and products form (their concentration rises). The average rate is measured over a time interval, while the instantaneous rate is the rate at one particular instant — the slope of the concentration-versus-time curve at that exact moment. Because a reactant's concentration decreases, we put a minus sign in front of its change so that the rate always comes out positive."
+      },
+      {
+        type: "formula",
+        text: "For  aA + bB → cC + dD :  Rate = −(1/a)·d[A]/dt = −(1/b)·d[B]/dt = +(1/c)·d[C]/dt = +(1/d)·d[D]/dt"
+      },
+      {
+        type: "example",
+        title: "Average rate — a quick numerical",
+        lines: ["In a reaction, the concentration of reactant R falls from 0.50 mol/L to 0.40 mol/L in 10 minutes. Find the average rate.", "Average rate = −Δ[R] / Δt", "= −(0.40 − 0.50) / 10", "= 0.10 / 10 = 0.01 mol L⁻¹ min⁻¹", "So R is being consumed at 1 × 10⁻² mol L⁻¹ per minute."]
+      },
+      {
+        type: "callout",
+        tone: "info",
+        text: "Units of rate are always concentration ÷ time, i.e. mol L⁻¹ s⁻¹ (or mol L⁻¹ min⁻¹). Do not confuse this with the unit of the rate constant k, which changes with the order of the reaction — more on that just below."
+      },
+      {
+        type: "heading",
+        text: "Rate Law, Order and Molecularity"
+      },
+      {
+        type: "para",
+        text: "The rate law (or rate expression) tells us how the rate depends on the concentration of the reactants. The single most important idea in this chapter: the rate law is found by EXPERIMENT, not by reading off the balanced equation. The powers of concentration in the rate law need not match the stoichiometric coefficients."
+      },
+      {
+        type: "formula",
+        text: "Rate = k [A]ˣ [B]ʸ    →    Order of reaction = x + y    (k = rate constant)"
+      },
+      {
+        type: "para",
+        text: "Order is the sum of the powers of the concentration terms in the experimentally observed rate law. It can be 0, 1, 2, or even a fraction. Molecularity, on the other hand, is the number of reacting species that come together in a single elementary step. Molecularity is a theoretical idea, is always a whole number (1, 2 or 3), and is defined only for elementary reactions — while order is experimental and can be zero or fractional."
+      },
+      {
+        type: "table",
+        headers: ["Order", "Rate law", "Unit of k", "Half-life (t½)"],
+        rows: [
+          ["Zero", "Rate = k", "mol L⁻¹ s⁻¹", "[R]₀ / 2k  (depends on [R]₀)"],
+          ["First", "Rate = k[R]", "s⁻¹", "0.693 / k  (independent of [R]₀)"],
+          ["Second", "Rate = k[R]²", "mol⁻¹ L s⁻¹", "1 / (k[R]₀)  (depends on [R]₀)"]
+        ]
+      },
+      {
+        type: "callout",
+        tone: "warn",
+        text: "Common mistake: reading the rate law off the balanced equation. For 2N₂O₅ → 4NO₂ + O₂ the order is 1, NOT 2. Remember order and molecularity are different: order is experimental (can be 0 or fractional), while molecularity is theoretical (a whole number, defined only for elementary reactions)."
+      },
+      {
+        type: "heading",
+        text: "First-Order Reactions and Half-Life"
+      },
+      {
+        type: "formula",
+        text: "Integrated first-order equation:  k = (2.303 / t) · log([R]₀ / [R])    and    Half-life:  t½ = 0.693 / k"
+      },
+      {
+        type: "example",
+        title: "Worked numerical — first-order reaction",
+        lines: ["A first-order reaction has a half-life of 60 minutes. Find k, and the time for the reaction to be 75% complete.", "Step 1 — Rate constant:  k = 0.693 / t½ = 0.693 / 60 = 0.01155 min⁻¹", "Step 2 — 75% complete means 25% of R is left, so take [R]₀ = 100 and [R] = 25 → [R]₀/[R] = 4", "Step 3 — Use k = (2.303/t) log([R]₀/[R])  →  t = (2.303 / k) · log 4", "t = (2.303 / 0.01155) × 0.6021 = 199.4 × 0.6021 ≈ 120 minutes", "Cross-check: 75% done = 2 half-lives = 2 × 60 = 120 minutes ✓"]
+      },
+      {
+        type: "keypoints",
+        title: "Chapter in a nutshell",
+        items: ["Rate = change in concentration per unit time; unit mol L⁻¹ s⁻¹. Instantaneous rate = slope of the concentration–time graph.", "Rate law is found by experiment: Rate = k[A]ˣ[B]ʸ; order = x + y.", "Order can be 0, 1, 2 or fractional (experimental); molecularity is 1, 2 or 3 (theoretical, elementary steps only).", "Rate constant k is independent of concentration; its unit depends on the order.", "First order: k = (2.303/t) log([R]₀/[R]); half-life t½ = 0.693/k is constant and independent of initial concentration."]
+      },
+      {
+        type: "callout",
+        tone: "tip",
+        text: "Exam tip: 'independent of initial concentration' is a dead giveaway for FIRST order. And if a numerical says a reaction is 50% / 75% / 87.5% complete, that is simply 1, 2 or 3 half-lives — you can often answer in one line without touching the log formula."
+      },
+      {
+        type: "quiz",
+        question: "For a first-order reaction, which statement is correct?",
+        options: ["The half-life depends on the initial concentration of the reactant.", "The unit of the rate constant is mol L⁻¹ s⁻¹.", "The half-life is independent of the initial concentration of the reactant.", "Doubling the concentration of the reactant has no effect on the rate."],
+        correct: 2,
+        explain: "For a first-order reaction, t½ = 0.693/k, which contains only k — so the half-life is completely independent of the initial concentration (option 3 is correct). The unit of k for first order is s⁻¹, not mol L⁻¹ s⁻¹, so option 2 is wrong. Since Rate = k[R], doubling [R] doubles the rate, so option 4 is wrong. And option 1 contradicts the very formula t½ = 0.693/k."
+      }
+    ]
+  },
+  {
+    slug: "c12-relations-and-functions",
+    title: "Relations and Functions, Made Simple",
+    summary: "A friendly, from-scratch tour of relations (reflexive, symmetric, transitive, equivalence) and functions (one-one, onto, bijective), plus how to compose functions and find inverses — with fully worked examples for CBSE Class 12.",
+    examSlug: "class-12",
+    subjectSlug: "mathematics",
+    chapterSlug: "relations-and-functions",
+    readingMinutes: 8,
+    practiceTestSlug: "c12-relations-functions-practice-1",
+    blocks: [
+      {
+        type: "analogy",
+        title: "Your class is a relation",
+        text: "Think of everyone in your school and the rule 'studies in the same class as'. You study in the same class as yourself (obvious, na?). If Aarav is Meera's classmate, then Meera is automatically Aarav's classmate. And if Aarav shares a class with Meera, and Meera with Rohan, then Aarav shares it with Rohan too. That one friendly rule quietly obeys three properties — reflexive, symmetric and transitive — which together make it an 'equivalence relation'. This entire chapter is really about spotting rules like this. Padho, dost — it is more familiar than it looks!"
+      },
+      {
+        type: "heading",
+        text: "First things first: what is a relation?"
+      },
+      {
+        type: "para",
+        text: "A relation R from a set A to a set B is simply a collection of ordered pairs (a, b) — a subset of A × B — that links certain elements of A to certain elements of B. When A and B are the same set, we call it a relation ON A. For example, on the set of your classmates, 'sits on the same bench as' is a relation: for any two people it either holds or it does not. A function, which we meet later, is just a very well-behaved special kind of relation."
+      },
+      {
+        type: "heading",
+        text: "Reflexive, symmetric, transitive — and equivalence"
+      },
+      {
+        type: "keypoints",
+        title: "The three tests every equivalence relation must pass",
+        items: ["Reflexive: every element is related to itself — (a, a) ∈ R for every a in A.", "Symmetric: if (a, b) ∈ R then (b, a) ∈ R — the relation works both ways.", "Transitive: if (a, b) ∈ R and (b, c) ∈ R, then (a, c) ∈ R — it 'passes through'.", "Equivalence relation: a relation that is reflexive AND symmetric AND transitive — all three together, not just one or two."]
+      },
+      {
+        type: "example",
+        title: "Is 'the difference |a − b| is even' an equivalence relation on {1, 2, 3, 4, 5}?",
+        lines: ["Let A = {1, 2, 3, 4, 5} and R = {(a, b) : |a − b| is even}.", "Reflexive? |a − a| = 0, and 0 is even, so (a, a) ∈ R for every a. Passes.", "Symmetric? |a − b| = |b − a|, so if |a − b| is even then |b − a| is even too. Hence (a, b) ∈ R gives (b, a) ∈ R. Passes.", "Transitive? Suppose |a − b| and |b − c| are both even. Then (a − b) + (b − c) = a − c is even + even = even, so |a − c| is even. Passes.", "All three hold, so R is an equivalence relation.", "It splits A into equivalence classes: {1, 3, 5} (the odd numbers) and {2, 4} (the even numbers)."]
+      },
+      {
+        type: "callout",
+        tone: "warn",
+        text: "Common slip: 'onto' depends on the codomain you are given. f(x) = x² from R to R is NOT onto (negative numbers are never outputs), but the exact same rule from R to [0, ∞) IS onto. Always check what the codomain is before you decide."
+      },
+      {
+        type: "heading",
+        text: "Types of functions: one-one, onto, bijective"
+      },
+      {
+        type: "para",
+        text: "A function f : A → B assigns to every input in A exactly one output in B. We then classify it by how the outputs behave. If different inputs always give different outputs, it is one-one (injective). If every element of the codomain B is actually reached as an output, it is onto (surjective). A function that is BOTH one-one and onto is called bijective — a perfect one-to-one pairing between A and B. Bijective functions are special because they are exactly the ones we can reverse."
+      },
+      {
+        type: "table",
+        headers: ["Type of function", "The test", "In plain words"],
+        rows: [
+          ["One-one (injective)", "f(x₁) = f(x₂) ⟹ x₁ = x₂", "Different inputs never share an output"],
+          ["Onto (surjective)", "Range = Codomain", "Every element of the codomain is hit"],
+          ["Bijective", "One-one AND onto", "Perfect pairing — this is exactly when f is invertible"]
+        ]
+      },
+      {
+        type: "heading",
+        text: "Composition of functions"
+      },
+      {
+        type: "formula",
+        text: "(g ∘ f)(x) = g(f(x)), where f : A → B and g : B → C give g ∘ f : A → C. Feed x into f first, then feed that result into g."
+      },
+      {
+        type: "example",
+        title: "Composing f(x) = 2x + 3 and g(x) = x² (like two machines in a row)",
+        lines: ["(g ∘ f)(x) = g(f(x)) = g(2x + 3) = (2x + 3)².", "(f ∘ g)(x) = f(g(x)) = f(x²) = 2x² + 3.", "Check at x = 1: (g ∘ f)(1) = (2·1 + 3)² = 5² = 25.", "But (f ∘ g)(1) = 2·1² + 3 = 2 + 3 = 5.", "Since 25 ≠ 5, we get g ∘ f ≠ f ∘ g — order matters! Composition is not commutative."]
+      },
+      {
+        type: "heading",
+        text: "Invertible functions"
+      },
+      {
+        type: "para",
+        text: "A function can be reversed only if nothing gets lost and nothing gets missed. 'Nothing gets lost' means no two inputs collapse to the same output (one-one). 'Nothing gets missed' means every element of the codomain is reached (onto). So a function is invertible exactly when it is bijective. To actually find the inverse: write y = f(x), solve for x in terms of y, and then rename the variable back to x."
+      },
+      {
+        type: "formula",
+        text: "f is invertible ⟺ f is bijective. Its inverse f⁻¹ then satisfies f⁻¹ ∘ f = I_A and f ∘ f⁻¹ = I_B, where I is the identity function I(x) = x."
+      },
+      {
+        type: "example",
+        title: "Finding the inverse of f(x) = 2x + 3, f : R → R",
+        lines: ["Step 1 — Put y = f(x): y = 2x + 3.", "Step 2 — Solve for x: y − 3 = 2x, so x = (y − 3)/2.", "Step 3 — Write the inverse: f⁻¹(x) = (x − 3)/2.", "Check: f(f⁻¹(x)) = 2·((x − 3)/2) + 3 = (x − 3) + 3 = x. Correct.", "Check: f⁻¹(f(x)) = ((2x + 3) − 3)/2 = 2x/2 = x. Correct.", "Both compositions give the identity, so the inverse is right."]
+      },
+      {
+        type: "quiz",
+        question: "For the function f : R → R given by f(x) = 2x + 3, which statement is true?",
+        options: ["It is one-one but not onto", "It is onto but not one-one", "It is bijective (both one-one and onto), hence invertible", "It is neither one-one nor onto"],
+        correct: 2,
+        explain: "It is one-one: if 2x₁ + 3 = 2x₂ + 3 then x₁ = x₂. It is onto: for any real y, choosing x = (y − 3)/2 gives f(x) = y, so the range equals R (the codomain). Being both one-one and onto makes it bijective, and a bijection is exactly what can be inverted — here f⁻¹(x) = (x − 3)/2."
+      }
+    ]
+  },
+  {
+    slug: "c12-matrices",
+    title: "Matrices Made Simple: Order, Types, Operations & Symmetry",
+    summary: "A from-scratch guide to Class 12 Matrices — what a matrix is, its order and types, how to add, scale, multiply and transpose them, and how symmetric and skew-symmetric matrices work, with every step shown.",
+    examSlug: "class-12",
+    subjectSlug: "mathematics",
+    chapterSlug: "matrices",
+    readingMinutes: 8,
+    practiceTestSlug: "c12-matrices-practice-1",
+    blocks: [
+      {
+        type: "analogy",
+        title: "A matrix is just a smart table",
+        text: "Picture the scoreboard at a gully-cricket match written in a notebook: the rows are the players and the columns are 'runs' and 'balls'. You never read a number alone — its meaning comes from WHERE it sits, that is, which row and which column. A matrix is exactly this: numbers arranged in a rectangular grid of rows and columns, where position carries the information. Padho, dost — once you see a matrix as a well-organised table, the whole chapter turns friendly."
+      },
+      {
+        type: "heading",
+        text: "What is a matrix, and what is its 'order'?"
+      },
+      {
+        type: "para",
+        text: "A matrix is a rectangular arrangement of numbers in rows (horizontal lines) and columns (vertical lines), written inside square brackets. We name matrices with capital letters like A, B, C. Each number inside is called an element or entry. The size of a matrix is called its ORDER, and it is always written as (number of rows) x (number of columns) — rows first, columns second. Always."
+      },
+      {
+        type: "formula",
+        text: "A matrix of order m x n has m rows and n columns, and m x n elements in total. A general element is written a(ij), where i = the row number and j = the column number. So a(23) is the element in row 2, column 3."
+      },
+      {
+        type: "callout",
+        tone: "warn",
+        text: "Common mistake: writing the order as columns x rows. It is ALWAYS rows first. A matrix with 2 rows and 3 columns has order 2 x 3, never 3 x 2. Getting this backwards quietly breaks addition and multiplication later."
+      },
+      {
+        type: "table",
+        headers: ["Type of matrix", "Condition", "Example"],
+        rows: [
+          ["Row matrix", "Only one row (order 1 x n)", "[ 2  5  7 ]"],
+          ["Column matrix", "Only one column (order m x 1)", "[3; 8; 1] (written vertically)"],
+          ["Square matrix", "Rows = columns (order n x n)", "2 x 2, 3 x 3, ..."],
+          ["Diagonal matrix", "Square; every non-diagonal element is 0", "diag(4, 9)"],
+          ["Scalar matrix", "Diagonal matrix with all diagonal entries equal", "diag(5, 5)"],
+          ["Identity matrix (I)", "Scalar matrix with each diagonal entry = 1", "diag(1, 1)"],
+          ["Zero / null matrix (O)", "Every element is 0", "[0 0; 0 0]"]
+        ]
+      },
+      {
+        type: "heading",
+        text: "Adding matrices and multiplying by a number"
+      },
+      {
+        type: "para",
+        text: "Two matrices can be added ONLY if they have the same order. You simply add the elements sitting in the same position. Multiplying a matrix by an ordinary number k (called a scalar) is even easier: multiply every single element by k. Subtraction A - B just means A + (-1)B."
+      },
+      {
+        type: "formula",
+        text: "If A = [a(ij)] and B = [b(ij)] have the same order, then A + B = [a(ij) + b(ij)]. For a scalar k, kA = [k * a(ij)]."
+      },
+      {
+        type: "example",
+        title: "Worked example: addition and scalar multiplication",
+        lines: ["Let A = [1  2  3 ; 4  5  6] and B = [7  8  9 ; 1  2  3], both of order 2 x 3.", "Add position by position: A + B = [1+7  2+8  3+9 ; 4+1  5+2  6+3].", "So A + B = [8  10  12 ; 5  7  9].", "Now find 2A: multiply every element by 2, giving 2A = [2  4  6 ; 8  10  12].", "Check the order: A + B and 2A are both still 2 x 3. Scaling and adding never change the order."]
+      },
+      {
+        type: "heading",
+        text: "Matrix multiplication: the row-times-column rule"
+      },
+      {
+        type: "para",
+        text: "This is the part that feels new. The product AB exists only when the number of COLUMNS of A equals the number of ROWS of B. If A is m x n and B is n x p, then AB has order m x p. To find the element in row i, column j of AB, walk along row i of A and column j of B together, multiply the matching numbers, and add them all up."
+      },
+      {
+        type: "steps",
+        title: "How to multiply two matrices",
+        items: ["Check compatibility: columns of A must equal rows of B, otherwise the product is not defined.", "The answer's order is (rows of A) x (columns of B).", "For each output position (i, j): take row i of A and column j of B.", "Multiply first-with-first, second-with-second, and so on, then add all these products.", "Place that single number in position (i, j). Repeat for every position."]
+      },
+      {
+        type: "example",
+        title: "Worked example: PQ, QP, and why order matters",
+        lines: ["Let P = [1  2 ; 3  4] and Q = [5  6 ; 7  8], both 2 x 2, so PQ is 2 x 2.", "Row 1, Col 1: (1)(5) + (2)(7) = 5 + 14 = 19.", "Row 1, Col 2: (1)(6) + (2)(8) = 6 + 16 = 22.", "Row 2, Col 1: (3)(5) + (4)(7) = 15 + 28 = 43.", "Row 2, Col 2: (3)(6) + (4)(8) = 18 + 32 = 50.", "So PQ = [19  22 ; 43  50].", "Now reverse the order and compute QP: Row 1 gives (5)(1)+(6)(3)=23 and (5)(2)+(6)(4)=34; Row 2 gives (7)(1)+(8)(3)=31 and (7)(2)+(8)(4)=46.", "So QP = [23  34 ; 31  46]. Since PQ is NOT equal to QP, matrix multiplication is not commutative."]
+      },
+      {
+        type: "callout",
+        tone: "warn",
+        text: "Two big traps in multiplication: (1) AB and BA are usually NOT equal, so never swap the order. (2) AB can be a zero matrix even when neither A nor B is a zero matrix — so AB = O does NOT let you conclude that A = O or B = O."
+      },
+      {
+        type: "heading",
+        text: "Transpose, symmetric and skew-symmetric matrices"
+      },
+      {
+        type: "para",
+        text: "The transpose of A, written A' (or A^T), is what you get by turning every row into a column. A matrix of order m x n becomes n x m. Using the transpose we define two special square matrices: a matrix is SYMMETRIC if it equals its own transpose (A' = A), and SKEW-SYMMETRIC if its transpose is its own negative (A' = -A). A neat consequence: the diagonal of every skew-symmetric matrix is all zeros, because each diagonal element must equal its own negative."
+      },
+      {
+        type: "formula",
+        text: "Transpose rules: (A')' = A, (kA)' = kA', (A + B)' = A' + B', and (AB)' = B'A' (the order reverses!). Symmetric: A' = A. Skew-symmetric: A' = -A, giving a(ij) = -a(ji) and every a(ii) = 0."
+      },
+      {
+        type: "example",
+        title: "Worked example: split any square matrix into symmetric + skew-symmetric",
+        lines: ["Theorem: every square matrix can be written as A = (1/2)(A + A') + (1/2)(A - A'). The first part is symmetric, the second is skew-symmetric.", "Take A = [2  3 ; 5  4]. Its transpose is A' = [2  5 ; 3  4].", "Symmetric part S = (1/2)(A + A') = (1/2)[4  8 ; 8  8] = [2  4 ; 4  4]. Check: S' = S, so it is symmetric.", "Skew part K = (1/2)(A - A') = (1/2)[0  -2 ; 2  0] = [0  -1 ; 1  0]. Check: the diagonal is zero and K' = -K, so it is skew-symmetric.", "Add them back: S + K = [2+0  4+(-1) ; 4+1  4+0] = [2  3 ; 5  4] = A. It works perfectly."]
+      },
+      {
+        type: "keypoints",
+        title: "Quick revision checklist",
+        items: ["Order = rows x columns, always in that order; element a(ij) sits in row i, column j.", "Add or subtract only when the orders match; a scalar k multiplies every element.", "The product AB needs columns of A = rows of B; the result is (rows of A) x (columns of B).", "AB is generally not equal to BA — matrix multiplication is non-commutative.", "Transpose flips rows and columns; (AB)' = B'A', with the order reversed.", "Symmetric: A' = A. Skew-symmetric: A' = -A with a zero diagonal.", "Every square matrix = a symmetric part + a skew-symmetric part."]
+      },
+      {
+        type: "callout",
+        tone: "tip",
+        text: "Exam tip: before multiplying, write the two orders side by side, like (2 x 3)(3 x 4). If the inner numbers match (3 and 3), the product exists, and the outer numbers (2 and 4) give its order. This single habit prevents most matrix-multiplication errors under pressure."
+      },
+      {
+        type: "quiz",
+        question: "If A is a matrix of order 2 x 3 and B is a matrix of order 3 x 4, what is the order of the product AB?",
+        options: ["3 x 3", "2 x 4", "4 x 2", "AB is not defined"],
+        correct: 1,
+        explain: "The columns of A (3) equal the rows of B (3), so AB is defined. The result takes the outer dimensions: rows of A (2) and columns of B (4), giving order 2 x 4."
+      }
+    ]
+  },
+  {
+    slug: "c12-determinants",
+    title: "Determinants: Your Number-Detective for Matrices and Equations",
+    summary: "Learn what a determinant means, evaluate 2x2 and 3x3 determinants using cofactors, use the key properties as shortcuts, build the adjoint and inverse of a matrix, and solve linear equations with the matrix method and Cramer's Rule - all with fully worked steps for CBSE Class 12 and your JEE/NEET/CUET foundation.",
+    examSlug: "class-12",
+    subjectSlug: "mathematics",
+    chapterSlug: "determinants",
+    readingMinutes: 8,
+    practiceTestSlug: "c12-determinants-practice-1",
+    blocks: [
+      {
+        type: "analogy",
+        title: "The almirah and its key",
+        text: "Picture every square matrix as a steel Godrej almirah fitted with a lock. The determinant is a single quick-test number that tells you whether a matching key exists. If the determinant is not zero, a key (the inverse matrix) exists and the almirah opens to one exact solution. If the determinant is zero, the lock is jammed - no key, and any linked equations refuse to give a single clear answer. So before doing heavy work, we always ask one thing first: what is the determinant? Padho, dost - this one number quietly controls almost everything in this chapter."
+      },
+      {
+        type: "heading",
+        text: "What a determinant really is"
+      },
+      {
+        type: "para",
+        text: "A determinant is a special number we attach to a SQUARE matrix (same number of rows and columns). For a matrix A we write it as |A| or det(A). It is only defined for square matrices - never for a 2x3 or 3x2. The smallest useful case is a 2x2 matrix, and everything bigger is built from it."
+      },
+      {
+        type: "formula",
+        text: "For a 2x2 matrix A = [[a, b], [c, d]],  |A| = ad - bc  (main diagonal product minus the other diagonal product)."
+      },
+      {
+        type: "example",
+        title: "A 2x2 determinant, fully worked",
+        lines: ["Evaluate |A| for A = [[3, 1], [2, 4]].", "Main diagonal product: 3 x 4 = 12.", "Other diagonal product: 1 x 2 = 2.", "|A| = 12 - 2 = 10.", "Since |A| = 10 (not zero), this matrix is non-singular - it will have an inverse."]
+      },
+      {
+        type: "steps",
+        title: "Expanding a 3x3 determinant (cofactor method)",
+        items: ["Choose any ONE row or column - pick the one with the most zeros to save effort.", "For each element in that line, find its minor: cover its own row and column, then evaluate the leftover 2x2 determinant.", "Attach the sign (-1)^(i+j) to turn each minor into a cofactor. The sign board is:  + - + / - + - / + - +.", "Multiply each element by its own cofactor.", "Add all these products. That sum is the value of the determinant - and you get the SAME answer no matter which row or column you expand along."]
+      },
+      {
+        type: "example",
+        title: "A 3x3 determinant, step by step",
+        lines: ["Evaluate |A| for A = [[2, -1, 1], [0, 3, 2], [1, 0, 1]], expanding along Row 1.", "Element 2 (position 1,1): minor = |[3, 2], [0, 1]| = 3x1 - 2x0 = 3; sign +; cofactor = +3.", "Element -1 (position 1,2): minor = |[0, 2], [1, 1]| = 0x1 - 2x1 = -2; sign -; cofactor = -(-2) = +2.", "Element 1 (position 1,3): minor = |[0, 3], [1, 0]| = 0x0 - 3x1 = -3; sign +; cofactor = -3.", "|A| = (element x cofactor) summed = 2(3) + (-1)(2) + 1(-3) = 6 - 2 - 3 = 1.", "Check by expanding along Column 1 instead - you again get 1. The answer is independent of the chosen line."]
+      },
+      {
+        type: "table",
+        headers: ["Property", "What it says", "Effect on |A|"],
+        rows: [
+          ["Transpose", "Swapping all rows with columns leaves the value unchanged: |A| = |A-transpose|", "No change"],
+          ["Row/column swap", "Interchanging any two rows (or two columns) flips the sign", "|A| becomes -|A|"],
+          ["Identical lines", "If two rows or two columns are identical (or proportional), the determinant is zero", "|A| = 0"],
+          ["Scalar multiple", "Multiplying every element of ONE row/column by k multiplies the determinant by k", "|A| becomes k|A|"],
+          ["Row operation", "Replacing Ri by Ri + kRj (adding a multiple of another line) does not change the value", "No change"],
+          ["Product rule", "The determinant of a product equals the product of determinants", "|AB| = |A| x |B|"]
+        ]
+      },
+      {
+        type: "heading",
+        text: "Minors, cofactors, adjoint and inverse"
+      },
+      {
+        type: "formula",
+        text: "Minor Mij = determinant left after deleting row i and column j.  Cofactor Aij = (-1)^(i+j) x Mij.  adj A = TRANSPOSE of the cofactor matrix.  Key link: A(adj A) = (adj A)A = |A| I.  Therefore  A-inverse = (1/|A|) adj A,  which exists only when |A| is not 0."
+      },
+      {
+        type: "example",
+        title: "Finding an inverse using the adjoint",
+        lines: ["Let A = [[2, 3], [1, 4]].", "Step 1 - determinant: |A| = 2x4 - 3x1 = 8 - 3 = 5 (not zero, so the inverse exists).", "Step 2 - cofactors: A11 = +4, A12 = -1, A21 = -3, A22 = +2.", "Step 3 - cofactor matrix = [[4, -1], [-3, 2]].", "Step 4 - adjoint = transpose of that = [[4, -3], [-1, 2]].", "Step 5 - inverse: A-inverse = (1/5)[[4, -3], [-1, 2]].", "Check: A x A-inverse = (1/5)[[5, 0], [0, 5]] = identity matrix. Correct."]
+      },
+      {
+        type: "callout",
+        tone: "warn",
+        text: "Three classic slips to avoid: (1) Forgetting the alternating sign (-1)^(i+j) - a cofactor is NOT just the minor. (2) The adjoint is the TRANSPOSE of the cofactor matrix, so remember to flip it. (3) A-inverse exists only when |A| is not 0; a matrix with |A| = 0 is called singular and has NO inverse."
+      },
+      {
+        type: "heading",
+        text: "Using determinants to solve equations"
+      },
+      {
+        type: "para",
+        text: "A system of linear equations can be written as AX = B, where A holds the coefficients, X the unknowns and B the constants. If |A| is not 0, there is exactly one solution given by X = A-inverse B. A quicker route for 2 or 3 variables is Cramer's Rule, which uses only determinants."
+      },
+      {
+        type: "example",
+        title: "Solving a system with Cramer's Rule",
+        lines: ["Solve: 2x + 3y = 13  and  x + 4y = 14.", "Coefficient determinant D = |[2, 3], [1, 4]| = 8 - 3 = 5 (not zero, so a unique solution exists).", "Dx: replace the x-column by constants = |[13, 3], [14, 4]| = 13x4 - 3x14 = 52 - 42 = 10.", "Dy: replace the y-column by constants = |[2, 13], [1, 14]| = 2x14 - 13x1 = 28 - 13 = 15.", "x = Dx/D = 10/5 = 2  and  y = Dy/D = 15/5 = 3.", "Check: 2(2) + 3(3) = 4 + 9 = 13 and 2 + 4(3) = 2 + 12 = 14. Both true - solution is x = 2, y = 3."]
+      },
+      {
+        type: "callout",
+        tone: "info",
+        text: "Consistency check for AX = B: If |A| is not 0, the system is consistent with exactly one solution. If |A| = 0, compute (adj A)B - if it is NOT the zero matrix, the system has no solution (inconsistent); if it EQUALS the zero matrix, the system may be consistent with infinitely many solutions or inconsistent, so it needs a closer look. Bonus application: the area of a triangle with vertices (x1,y1), (x2,y2), (x3,y3) is (1/2)|x1(y2-y3) + x2(y3-y1) + x3(y1-y2)|, and the three points are collinear exactly when this determinant is 0."
+      },
+      {
+        type: "keypoints",
+        title: "Quick revision card",
+        items: ["2x2 rule: |[a,b],[c,d]| = ad - bc.", "3x3: expand along any row or column using cofactors; |A| = sum of (element x its cofactor).", "Cofactor Aij = (-1)^(i+j) Mij; adj A = transpose of the cofactor matrix.", "A-inverse = (1/|A|) adj A, valid only when |A| is not 0 (non-singular).", "Handy results: |adj A| = |A|^(n-1) for an n x n matrix, and |A-inverse| = 1/|A|.", "Cramer's Rule: x = Dx/D, y = Dy/D, z = Dz/D, provided D is not 0.", "Area of a triangle and the collinearity test both come straight from a determinant."]
+      },
+      {
+        type: "quiz",
+        question: "If A is a 3x3 matrix with |A| = 2, what is the value of |adj A|?",
+        options: ["2", "4", "8", "16"],
+        correct: 1,
+        explain: "For an n x n matrix, |adj A| = |A|^(n-1). Here n = 3, so |adj A| = |A|^(3-1) = |A|^2 = 2^2 = 4. (A quick sanity check: A(adj A) = |A|I, and taking determinants gives |A| x |adj A| = |A|^n, which again yields |adj A| = |A|^(n-1).)"
+      }
+    ]
+  },
+  {
+    slug: "c12-sexual-reproduction-flowering-plants",
+    title: "Sexual Reproduction in Flowering Plants: From Flower to Seed",
+    summary: "A clear, NCERT-aligned walkthrough of the flower's structure, how pollen and the embryo sac form (microsporogenesis and megasporogenesis), the types of pollination, the angiosperm-only double fertilisation, and how seeds and fruits are made - taught step by step with a memorable wedding-hall analogy.",
+    examSlug: "class-12",
+    subjectSlug: "biology",
+    chapterSlug: "sexual-reproduction-flowering-plants",
+    readingMinutes: 8,
+    practiceTestSlug: "c12-sexual-reproduction-plants-practice-1",
+    blocks: [
+      {
+        type: "analogy",
+        title: "A flower is a wedding hall",
+        text: "Picture a flower as a beautifully decorated shaadi hall. The green sepals are the boundary wall that keeps the venue safe. The bright petals are the lights and decorations that pull guests (pollinators) in. Inside, the stamens are the baraat carrying the groom's side (pollen, which holds the male gametes), and the pistil is the bride's family holding the ovule (which contains the egg). Pollination is the invitation and journey that brings the two sides together; fertilisation is the wedding itself. Padho, dost - once you see the flower as a wedding, every part suddenly has a job you can remember."
+      },
+      {
+        type: "heading",
+        text: "Meet the Flower: Four Whorls"
+      },
+      {
+        type: "para",
+        text: "A flower is built from four whorls attached to the swollen tip of the flower stalk, called the thalamus. The outer two whorls - calyx and corolla - are accessory: they protect the bud and attract pollinators, but they do not make gametes. The inner two - androecium and gynoecium - are the essential whorls, because they actually produce the male and female gametes. A flower carrying all four whorls is complete; if an essential reproductive whorl is missing, the flower is unisexual."
+      },
+      {
+        type: "table",
+        headers: ["Whorl", "Made of", "Role"],
+        rows: [
+          ["Calyx", "Sepals (usually green)", "Protect the young bud; accessory whorl"],
+          ["Corolla", "Petals (usually coloured)", "Attract pollinators; accessory whorl"],
+          ["Androecium", "Stamens = anther + filament", "Male part - makes pollen; essential whorl"],
+          ["Gynoecium", "Pistil = stigma + style + ovary", "Female part - makes ovules; essential whorl"]
+        ]
+      },
+      {
+        type: "heading",
+        text: "Microsporogenesis: Making Pollen (the Male Side)"
+      },
+      {
+        type: "steps",
+        title: "From anther to pollen grain",
+        items: ["A young anther is usually bilobed; each lobe holds two microsporangia, so an anther typically has four microsporangia (at the corners) packed with sporogenous tissue.", "The innermost anther wall layer, the tapetum, nourishes the developing pollen (memory hook: Tapetum = Tiffin for pollen).", "Cells of the sporogenous tissue mature into microspore mother cells (pollen mother cells), which are diploid (2n).", "Each microspore mother cell undergoes meiosis (reduction division) to give a tetrad of four haploid (n) microspores.", "The microspores separate and mature into pollen grains. This whole formation of microspores from the mother cell through meiosis is called microsporogenesis."]
+      },
+      {
+        type: "keypoints",
+        title: "Know your pollen grain",
+        items: ["Two-layered wall: a hard outer exine made of sporopollenin - one of the most resistant organic materials known, which survives high temperature and strong acids and alkalis (this is why pollen preserves so well as fossils).", "The exine has thin gaps called germ pores where sporopollenin is absent - the pollen tube later emerges here.", "The inner intine is a soft, continuous layer of cellulose and pectin.", "When shed, in over 60% of angiosperms the pollen is at the 2-celled stage (a large vegetative cell + a small generative cell); the rest are shed at the 3-celled stage (after the generative cell divides into two male gametes)."]
+      },
+      {
+        type: "heading",
+        text: "Megasporogenesis: Building the Embryo Sac (the Female Side)"
+      },
+      {
+        type: "steps",
+        title: "From ovule to embryo sac",
+        items: ["Each ovule (megasporangium) contains a mass of nucellus; one enlarged cell in it, near the micropylar end, becomes the megaspore mother cell (MMC), diploid (2n).", "The MMC undergoes meiosis to form four haploid (n) megaspores - this reduction division is megasporogenesis.", "Usually only one megaspore (the chalazal one) stays functional; the other three degenerate. Because the embryo sac forms from a single megaspore, this is called monosporic development.", "The functional megaspore's nucleus divides by mitosis three successive times, giving 8 nuclei (2, then 4, then 8) with no cell walls in between - the free-nuclear stage.", "Cell walls now organise these into a 7-celled, 8-nucleate female gametophyte, the embryo sac."]
+      },
+      {
+        type: "keypoints",
+        title: "Inside the mature embryo sac (7 cells, 8 nuclei)",
+        items: ["Micropylar end: the egg apparatus = one egg cell + two synergids.", "The synergids carry a special filiform apparatus that guides the pollen tube into the embryo sac.", "The large central cell holds two polar nuclei - this single cell contains two of the eight nuclei.", "Chalazal end: three antipodal cells."]
+      },
+      {
+        type: "callout",
+        tone: "warn",
+        text: "Exam trap: the embryo sac has 8 nuclei but only 7 cells - because the central cell holds two nuclei (the polar nuclei). Also remember angiosperm embryo-sac development is monosporic: it comes from just ONE functional megaspore, not all four."
+      },
+      {
+        type: "heading",
+        text: "Pollination and Its Types"
+      },
+      {
+        type: "table",
+        headers: ["Type", "Pollen travels...", "Genetic result"],
+        rows: [
+          ["Autogamy", "Within the same flower (anther to its own stigma)", "Self-pollination - true self"],
+          ["Geitonogamy", "Between two flowers of the SAME plant", "Genetically self, but needs a pollinating agent"],
+          ["Xenogamy", "To a flower on a genetically DIFFERENT plant", "Cross-pollination - brings in new genes"]
+        ]
+      },
+      {
+        type: "callout",
+        tone: "tip",
+        text: "Continued self-pollination reduces vigour, so plants use 'contrivances' to encourage cross-pollination: anther and stigma maturing at different times, placing anther and stigma at different heights, or self-incompatibility (pollen cannot fertilise ovules of the same flower). Making flowers unisexual (as in papaya) is the surest block against self-pollination."
+      },
+      {
+        type: "heading",
+        text: "Double Fertilisation and After"
+      },
+      {
+        type: "example",
+        title: "Double fertilisation - follow the ploidy",
+        lines: ["A pollen grain lands on the stigma and germinates; its pollen tube grows down the style carrying two male gametes (each n).", "The tube enters the ovule through the micropyle, then pushes into the embryo sac through a synergid (guided by the filiform apparatus).", "Male gamete 1 fuses with the egg cell (n). This is syngamy, producing a diploid zygote (2n).", "Male gamete 2 fuses with the two polar nuclei (n + n) of the central cell. This is triple fusion, producing the primary endosperm nucleus (PEN, 3n).", "Two fusion events - syngamy and triple fusion - in one embryo sac = double fertilisation, a feature unique to flowering plants.", "Outcome: the zygote (2n) grows into the embryo, and the PEN (3n) develops into the nourishing endosperm."]
+      },
+      {
+        type: "keypoints",
+        title: "After fertilisation: what turns into what",
+        items: ["Zygote -> embryo; primary endosperm nucleus -> endosperm (food store, 3n) that feeds the growing embryo.", "Ovule -> seed; the integuments -> seed coat (outer testa + inner tegmen).", "Ovary -> fruit; the ovary wall -> pericarp.", "Albuminous/endospermic seeds retain endosperm at maturity (maize, castor, wheat); non-albuminous seeds use it up during development (pea, groundnut).", "Fruit formed without fertilisation = parthenocarpic (banana); a false fruit forms when the thalamus also becomes part of the fruit (apple)."]
+      },
+      {
+        type: "quiz",
+        question: "In the embryo sac of a typical angiosperm, why are there 8 nuclei but only 7 cells?",
+        options: ["Three antipodal cells share a single nucleus", "The central cell contains two nuclei (the two polar nuclei)", "The egg cell and one synergid fuse into one cell", "Two of the nuclei degenerate before fertilisation"],
+        correct: 1,
+        explain: "The central cell is one large cell but holds two polar nuclei. So the 8 nuclei are arranged as: 1 egg + 2 synergids + 3 antipodals (6 nuclei in 6 cells) plus 2 polar nuclei inside the 1 central cell = 8 nuclei in just 7 cells."
+      }
+    ]
+  },
+  {
+    slug: "c12-human-reproduction",
+    title: "Human Reproduction: From Gametes to a New Life",
+    summary: "A patient, step-by-step walk through the male and female reproductive systems, spermatogenesis and oogenesis, the menstrual cycle, fertilisation, and the first days of embryonic development — exactly as the NCERT Class 12 syllabus expects.",
+    examSlug: "class-12",
+    subjectSlug: "biology",
+    chapterSlug: "human-reproduction",
+    readingMinutes: 8,
+    practiceTestSlug: "c12-human-reproduction-practice-1",
+    blocks: [
+      {
+        type: "analogy",
+        title: "The Half-and-Half Recipe",
+        text: "Imagine two families preparing for a grand Indian wedding. Neither side brings the whole feast — each brings exactly half, and the celebration begins only when both halves come together. Human reproduction works the same way: the father's sperm carries 23 chromosomes and the mother's egg carries 23, and a brand-new person appears only when these two halves unite to make the full set of 46. And just as a wedding hall is freshly decorated every month in case the guests arrive, the mother's body rebuilds the lining of her uterus in every menstrual cycle — ready to welcome a new life. Padho, dost — let's unfold this whole story, step by step."
+      },
+      {
+        type: "para",
+        text: "Humans reproduce sexually: a male gamete (sperm) and a female gamete (egg/ovum) fuse to form a new individual. The female is viviparous — the baby develops inside her body and is born alive. It helps to think of the whole process as a sequence of events: gametogenesis (making sperms and eggs), insemination (transfer of sperms into the female tract), fertilisation (fusion of the gametes to form a zygote), implantation (the embryo attaching to the uterus), gestation (pregnancy), and finally parturition (childbirth). We'll build up each part below."
+      },
+      {
+        type: "heading",
+        text: "The Male Reproductive System"
+      },
+      {
+        type: "para",
+        text: "The male system sits in the pelvic region. Its factory is a pair of testes held in a pouch called the scrotum, which hangs outside the body to stay about 2–2.5°C cooler than the core — sperm formation needs this coolness. Inside each testis are tightly coiled seminiferous tubules whose walls hold two kinds of cells: male germ cells (spermatogonia) that become sperms, and Sertoli cells that nourish and support them. In the spaces between the tubules lie the interstitial (Leydig) cells, which make the male hormones (androgens like testosterone). Sperms then travel through a series of ducts — rete testis, vasa efferentia, epididymis, and vas deferens — and mix with secretions from the seminal vesicles, prostate, and bulbourethral glands to form semen."
+      },
+      {
+        type: "heading",
+        text: "The Female Reproductive System"
+      },
+      {
+        type: "para",
+        text: "The female system is built both to make eggs and to nurture a growing baby. A pair of ovaries produces the ova and the hormones estrogen and progesterone. Beside each ovary is an oviduct (fallopian tube) with a funnel-shaped infundibulum whose finger-like fimbriae catch the released egg; its wide ampulla is where fertilisation happens. The oviducts open into the uterus (womb), a pear-shaped organ whose wall has three layers — the outer perimetrium, the muscular myometrium, and the inner glandular endometrium that thickens and sheds during each cycle. The uterus narrows into the cervix, whose canal opens into the vagina. A pair of mammary glands completes the system, ready to produce milk after birth."
+      },
+      {
+        type: "heading",
+        text: "Gametogenesis: Building Sperms and Eggs"
+      },
+      {
+        type: "steps",
+        title: "Spermatogenesis — from stem cell to sperm",
+        items: ["Spermatogonia (2n) lining the seminiferous tubules divide by mitosis to increase in number.", "Some enlarge into primary spermatocytes (2n).", "Each primary spermatocyte completes meiosis I to give two haploid (n) secondary spermatocytes.", "Each secondary spermatocyte completes meiosis II — so one primary spermatocyte finally yields four haploid spermatids.", "Spermatids are reshaped into sperms by spermiogenesis and released into the tubule's lumen (spermiation).", "Throughout, Sertoli cells nourish the developing cells, while Leydig cells outside the tubules make testosterone under the action of LH."]
+      },
+      {
+        type: "steps",
+        title: "Oogenesis — an egg that starts before you are born",
+        items: ["In the fetal ovary, oogonia multiply by mitosis; no new oogonia are formed after birth.", "These enter meiosis I but pause at prophase I as primary oocytes (2n), each wrapped in a layer of cells to form a primary follicle.", "At puberty, in each cycle a follicle grows in stages: primary → secondary → tertiary (with a fluid-filled cavity) → Graafian follicle.", "The primary oocyte completes meiosis I unequally, giving one large secondary oocyte (n) plus a tiny first polar body.", "The secondary oocyte starts meiosis II but arrests at metaphase II; the Graafian follicle then bursts and releases it (ovulation).", "Meiosis II is completed only if a sperm enters, finally forming the ovum plus a second polar body."]
+      },
+      {
+        type: "table",
+        headers: ["Feature", "Spermatogenesis", "Oogenesis"],
+        rows: [
+          ["When it begins", "At puberty", "In the fetus, before birth"],
+          ["Site", "Seminiferous tubules of the testis", "Ovary"],
+          ["Functional gametes per parent cell", "4 sperms", "1 ovum"],
+          ["Division of cytoplasm", "Equal", "Unequal — cytoplasm is saved for the ovum"],
+          ["Completion of meiosis II", "Inside the testis", "Only after a sperm enters at fertilisation"],
+          ["When it stops", "Continues throughout life", "Egg release stops at menopause"]
+        ]
+      },
+      {
+        type: "heading",
+        text: "The Menstrual Cycle"
+      },
+      {
+        type: "steps",
+        title: "The ~28-day menstrual cycle",
+        items: ["Menstrual phase (Days 1–5): the endometrium breaks down and menstrual flow occurs — this happens only when the released egg is NOT fertilised.", "Follicular / proliferative phase (Days 6–13): FSH from the pituitary stimulates a follicle to mature into a Graafian follicle, and rising estrogen rebuilds and thickens the endometrium.", "Ovulation (around Day 14): a sharp LH surge ruptures the Graafian follicle, releasing the secondary oocyte into the oviduct.", "Luteal / secretory phase (Days 15–28): the emptied follicle becomes the corpus luteum, which secretes progesterone to maintain the thick endometrium for a possible pregnancy.", "If fertilisation does not occur, the corpus luteum degenerates, progesterone falls, the endometrium sheds — and the next cycle begins."]
+      },
+      {
+        type: "callout",
+        tone: "tip",
+        text: "Exam favourite: the mid-cycle LH surge (around Day 14) is what actually triggers ovulation. If you remember only one hormone fact from this chapter, make it this — LH surge means ovulation."
+      },
+      {
+        type: "heading",
+        text: "Fertilisation and Early Development"
+      },
+      {
+        type: "steps",
+        title: "From fertilisation to implantation",
+        items: ["After insemination, sperms swim up from the vagina through the cervix and uterus into the ampulla of the oviduct.", "There, a sperm's acrosome releases enzymes that help it penetrate the zona pellucida of the secondary oocyte.", "Sperm entry triggers the cortical reaction (which blocks other sperms) and makes the oocyte complete meiosis II.", "The sperm nucleus (n) fuses with the ovum nucleus (n) to form a diploid (2n) zygote — fertilisation is now complete. A Y-bearing sperm gives a boy (XY), an X-bearing sperm a girl (XX).", "As it travels toward the uterus, the zygote divides by mitosis (cleavage): 2 → 4 → 8 → 16 cells (blastomeres), forming a solid morula.", "The morula becomes a blastocyst — an outer trophoblast plus an inner cell mass — and it implants into the endometrium, so pregnancy begins. The trophoblast later helps form the placenta."]
+      },
+      {
+        type: "callout",
+        tone: "warn",
+        text: "Common mistakes to avoid: (1) Fertilisation happens in the AMPULLA of the oviduct, not in the uterus — the uterus is only where implantation occurs. (2) Ovulation releases a secondary oocyte, not a finished ovum — the ovum forms only after a sperm enters. (3) The baby's sex is decided by the sperm (X or Y); the egg always carries X."
+      },
+      {
+        type: "keypoints",
+        title: "Quick revision — say it in one breath",
+        items: ["Testes (in the cooler scrotum) make sperms in seminiferous tubules; Sertoli cells nourish them and Leydig cells make testosterone.", "Ovaries make ova plus estrogen and progesterone; fertilisation occurs in the ampulla of the oviduct.", "Spermatogenesis gives 4 sperms per cell with equal cytoplasm; oogenesis gives just 1 ovum with unequal cytoplasm division.", "Menstrual cycle (~28 days): FSH grows the follicle, estrogen thickens the endometrium, the LH surge causes ovulation, and progesterone from the corpus luteum maintains the lining.", "Zygote → cleavage → morula → blastocyst → implantation; the trophoblast contributes to the placenta."]
+      },
+      {
+        type: "quiz",
+        question: "In which part of the female reproductive tract does fertilisation normally occur?",
+        options: ["The uterus (endometrium)", "The ampulla of the oviduct (fallopian tube)", "The cervix", "The ovary"],
+        correct: 1,
+        explain: "Sperms swim up and meet the secondary oocyte in the ampulla — the wide part of the oviduct — where the two nuclei fuse to form the zygote. The uterus is where the blastocyst later implants, not where fertilisation takes place."
+      }
+    ]
+  },
+  {
+    slug: "c12-molecular-basis-of-inheritance",
+    title: "Molecular Basis of Inheritance: DNA, Its Proof, and How the Cell Reads It",
+    summary: "A from-scratch guide to DNA's double-helix structure, the classic experiments proving DNA is the genetic material, semiconservative replication, and the central dogma of transcription, the genetic code, and translation — built for CBSE Class 12 boards, NEET and CUET.",
+    examSlug: "class-12",
+    subjectSlug: "biology",
+    chapterSlug: "molecular-basis-of-inheritance",
+    readingMinutes: 8,
+    practiceTestSlug: "c12-molecular-basis-inheritance-practice-1",
+    blocks: [
+      {
+        type: "analogy",
+        title: "Your body's master cookbook",
+        text: "Imagine every cell in your body quietly carries a thick cookbook holding the recipes that make you — your eye colour, your blood group, the enzymes in your saliva. That cookbook is DNA. The recipes are genes, the language uses just four letters (A, T, G, C), and amazingly the whole book is copied almost perfectly into every new cell. In this chapter we open the cookbook: how it is written, how scientists proved it really is the recipe book of life, and how the cell reads it to actually 'cook' proteins. Padho, dost — let's turn the pages together!"
+      },
+      {
+        type: "heading",
+        text: "The Structure of DNA: A Twisted Ladder"
+      },
+      {
+        type: "para",
+        text: "DNA (deoxyribonucleic acid) is a long polymer made of repeating units called nucleotides. Each nucleotide has three parts: a nitrogenous base, a pentose sugar (deoxyribose), and a phosphate group. There are four bases — the purines Adenine (A) and Guanine (G), which have two rings, and the pyrimidines Cytosine (C) and Thymine (T), which have one ring. A base joined to a sugar is a nucleoside; add a phosphate and it becomes a nucleotide. The sugars and phosphates link through phosphodiester bonds to form a strong sugar-phosphate backbone, while the bases point inwards like the rungs of a ladder."
+      },
+      {
+        type: "keypoints",
+        title: "Salient features of the Watson-Crick double helix (1953)",
+        items: ["DNA has two polynucleotide strands coiled into a right-handed double helix.", "The two strands are antiparallel — one runs 5'→3' and the other runs 3'→5'.", "Bases pair by hydrogen bonds: A pairs with T (2 H-bonds) and G pairs with C (3 H-bonds) — this is complementary base pairing.", "The helix has a pitch (one full turn) of about 3.4 nm with roughly 10 base pairs per turn, so adjacent base pairs are about 0.34 nm apart.", "Because pairing is complementary, if you know one strand's sequence you can always write the other."]
+      },
+      {
+        type: "formula",
+        text: "Chargaff's rule: In any double-stranded DNA, A = T and G = C. Therefore total purines = total pyrimidines, i.e. (A + G) = (T + C), and the ratio (A + T)/(G + C) is characteristic for a species."
+      },
+      {
+        type: "table",
+        headers: ["Feature", "DNA", "RNA"],
+        rows: [
+          ["Sugar", "Deoxyribose", "Ribose"],
+          ["Bases", "A, T, G, C", "A, U, G, C (U replaces T)"],
+          ["Strands", "Usually double-stranded", "Usually single-stranded"],
+          ["Stability", "Chemically more stable", "Less stable, more reactive"],
+          ["Main role", "Stores genetic information", "Expresses it (mRNA, tRNA, rRNA)"]
+        ]
+      },
+      {
+        type: "heading",
+        text: "Proving DNA Is the Genetic Material"
+      },
+      {
+        type: "steps",
+        title: "The experiments, step by step",
+        items: ["Griffith (1928): Working with Streptococcus pneumoniae, he had virulent S-type (smooth, capsulated) and harmless R-type (rough) bacteria. Heat-killed S mixed with live R killed the mice, and live S bacteria were recovered — some 'transforming principle' had passed from the dead S to the living R. This is transformation.", "Avery, MacLeod and McCarty (1944): They purified the transforming principle and tested it with enzymes. Protein-digesting and RNA-digesting enzymes did not stop transformation, but DNase (which destroys DNA) did — showing the transforming principle is DNA.", "Hershey and Chase (1952): Using bacteriophages, they labelled DNA with radioactive 32P and protein with radioactive 35S. Only 32P (DNA) entered the bacteria and appeared in the next generation of phages — confirming DNA, not protein, is the genetic material."]
+      },
+      {
+        type: "example",
+        title: "Worked example: why 32P and 35S?",
+        lines: ["Question: In the Hershey-Chase experiment, why label DNA with 32P and protein with 35S?", "Step 1 — Composition of DNA: DNA contains phosphorus (in the sugar-phosphate backbone) but no sulphur.", "Step 2 — Composition of protein: Proteins contain sulphur (in the amino acids cysteine and methionine) but essentially no phosphorus.", "Step 3 — Therefore 32P tags only DNA and 35S tags only protein, so the two molecules can be tracked separately.", "Step 4 — Result: after infection, radioactive 32P was found inside the bacteria (and in new phages), while 35S stayed outside in the empty protein coats.", "Conclusion: the molecule that entered the cell and directed new phage production was DNA — hence DNA is the genetic material."]
+      },
+      {
+        type: "heading",
+        text: "DNA Replication: Making Two From One"
+      },
+      {
+        type: "steps",
+        title: "Semiconservative replication, step by step",
+        items: ["The double helix unwinds at a specific origin of replication (helicase separates the strands), forming a Y-shaped replication fork; each old strand now acts as a template.", "DNA-dependent DNA polymerase adds new nucleotides by complementary base pairing (A with T, G with C), always building in the 5'→3' direction.", "Because the strands are antiparallel, the leading strand is made continuously while the lagging strand is made in short pieces called Okazaki fragments.", "DNA ligase joins the Okazaki fragments into one continuous strand.", "Result: two identical DNA molecules, each with one old (parental) strand and one new strand — this is why replication is called 'semiconservative', proved by Meselson and Stahl (1958)."]
+      },
+      {
+        type: "callout",
+        tone: "warn",
+        text: "Common mistake: DNA polymerase can add nucleotides only in the 5'→3' direction — it cannot build a strand 3'→5'. This single rule is exactly why one strand (leading) is made continuously while the other (lagging) is made in Okazaki fragments. In answers, always link the leading/lagging difference to the strands being antiparallel."
+      },
+      {
+        type: "heading",
+        text: "Central Dogma: From DNA to Protein"
+      },
+      {
+        type: "para",
+        text: "The central dogma, proposed by Francis Crick, states that genetic information flows DNA → RNA → protein. (In some retroviruses the flow can run in reverse, RNA → DNA, by reverse transcription.) Transcription is the copying of a gene from DNA into messenger RNA (mRNA) by the enzyme RNA polymerase. Only one strand — the template strand, read 3'→5' — is copied; the other is the coding strand. The RNA formed has the same sequence as the coding strand, except that uracil (U) takes the place of thymine (T). In eukaryotes the first transcript (hnRNA) is processed: non-coding introns are removed and coding exons are joined (splicing), a cap is added at the 5' end and a poly-A tail at the 3' end, before the mature mRNA leaves the nucleus."
+      },
+      {
+        type: "keypoints",
+        title: "Key features of the genetic code",
+        items: ["It is a triplet code: three bases (a codon) specify one amino acid.", "Of the 64 codons, 61 code for amino acids and 3 are stop (termination) codons — UAA, UAG, UGA.", "AUG is the start (initiation) codon and also codes for the amino acid methionine.", "The code is degenerate — most amino acids are specified by more than one codon.", "It is non-overlapping, comma-less, and nearly universal — the same codons mean the same amino acids in almost all organisms.", "It is unambiguous — one codon codes for one and only one amino acid."]
+      },
+      {
+        type: "steps",
+        title: "Translation, step by step",
+        items: ["Charging (aminoacylation): each tRNA is loaded with its specific amino acid using energy from ATP; tRNA is the 'adapter' that reads a codon through its anticodon.", "Initiation: the ribosome assembles on the mRNA at the start codon AUG, and the first aminoacyl-tRNA binds.", "Elongation: the ribosome moves along the mRNA codon by codon, peptide bonds form between amino acids, and the polypeptide chain grows.", "Termination: when a stop codon (UAA, UAG or UGA) is reached, no tRNA matches it, so the finished polypeptide is released and the ribosome separates."]
+      },
+      {
+        type: "callout",
+        tone: "tip",
+        text: "Exam tip: recall the three stop codons — UAA, UAG, UGA — with the memory hook 'U Are Away'. And keep directions straight: the template strand is read 3'→5', while new RNA and new DNA are always built 5'→3'."
+      },
+      {
+        type: "quiz",
+        question: "A DNA molecule with 15N (heavy nitrogen) in both strands is allowed to replicate exactly once in a medium containing only 14N (light nitrogen). What will the two daughter molecules be like?",
+        options: ["Both molecules fully heavy (15N/15N)", "Both molecules hybrid — one 15N strand and one 14N strand", "One fully heavy (15N/15N) and one fully light (14N/14N)", "Both molecules fully light (14N/14N)"],
+        correct: 1,
+        explain: "Replication is semiconservative: the two parental strands separate and each serves as a template for a new strand built from light 14N nucleotides. So after one round, every daughter molecule has one old heavy (15N) strand and one new light (14N) strand — both are hybrid. This is exactly the single intermediate-density band Meselson and Stahl observed."
+      }
+    ]
+  },
 ];
 
 export const getExplainer = (slug: string) => explainers.find((e) => e.slug === slug);

@@ -18,6 +18,8 @@ type ChapterContent = {
   name: string;
   marks: number;
   negative: number;
+  testType?: "CHAPTER" | "PYQ" | "FULL";
+  testDuration?: number;
   test: { slug: string; title: string; description: string };
   questions: Q[];
 };
@@ -9341,6 +9343,2266 @@ const wave17: ExamContent[] = [
   }
 ];
 
+const wave18: ExamContent[] = [
+  {
+    examSlug: "upsc",
+    subjects: [
+      {
+        slug: "previous-year-papers",
+        name: "Previous Year Papers",
+        chapters: [
+          {
+            slug: "upsc-prelims-2024",
+            name: "UPSC Prelims 2024 — GS Paper I",
+            marks: 2,
+            negative: 0.66,
+            testType: "PYQ",
+            testDuration: 120,
+            test: {
+              slug: "upsc-prelims-2024-gs1",
+              title: "UPSC Prelims 2024 — GS Paper I (PYQ)",
+              description: "Real UPSC Civil Services Prelims 2024, General Studies Paper-I — 97 official questions with answer-key-verified solutions (3 questions dropped by UPSC are excluded). Source: UPSC official question paper & answer key. +2 for correct, −0.66 for wrong."
+            },
+            questions: [
+              {
+                text: "Consider the following statements : Statement-I : The atmosphere is heated more by incoming solar radiation than by terrestrial radiation. Statement-II : Carbon dioxide and other greenhouse gases in the atmosphere are good absorbers of long wave radiation. Which one of the following is correct in respect of the above statements ?",
+                difficulty: "MEDIUM",
+                explanation: "Statement-I is incorrect: the atmosphere is heated mainly by terrestrial (long-wave) radiation, not directly by incoming solar (short-wave) radiation. Most incoming solar radiation passes through the atmosphere and heats the Earth's surface, which then re-radiates heat as long-wave radiation that the air absorbs. Statement-II is correct because CO2 and other greenhouse gases are good absorbers of long-wave (terrestrial) radiation, which is exactly why the surface, and not incoming sunlight, warms the air. Hence only Statement-II is correct, giving option D.",
+                options: [
+                  {
+                    text: "Both Statement-I and Statement-II are correct and Statement-II explains Statement-I",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Both Statement-I and Statement-II are correct, but Statement-II does not explain Statement-I",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Statement-I is correct, but Statement-II is incorrect",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Statement-I is incorrect, but Statement-II is correct",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Consider the following statements : Statement-I : Thickness of the troposphere at the equator is much greater as compared to poles. Statement-II : At the equator, heat is transported to great heights by strong convectional currents. Which one of the following is correct in respect of the above statements ?",
+                difficulty: "MEDIUM",
+                explanation: "Both statements are correct and the second explains the first. The troposphere is about 16-18 km thick at the equator but only around 8-9 km at the poles. This is because intense equatorial heating drives strong convection currents that carry heat and turbulence to greater heights, pushing the tropopause higher. So Statement-II is the direct cause of Statement-I, making option A correct.",
+                options: [
+                  {
+                    text: "Both Statement-I and Statement-II are correct and Statement-II explains Statement-I",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Both Statement-I and Statement-II are correct, but Statement-II does not explain Statement-I",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Statement-I is correct, but Statement-II is incorrect",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Statement-I is incorrect, but Statement-II is correct",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Consider the following : (1) Pyroclastic debris (2) Ash and dust (3) Nitrogen compounds (4) Sulphur compounds. How many of the above are products of volcanic eruptions ?",
+                difficulty: "EASY",
+                explanation: "All four are products of volcanic eruptions. Eruptions eject pyroclastic debris (rock fragments/bombs), fine ash and dust, and release gases including sulphur compounds (mainly SO2 and H2S) and nitrogen compounds. Volcanic gases are dominated by water vapour, CO2 and sulphur, but nitrogen and its compounds are also emitted, so the count is all four, giving option D.",
+                options: [
+                  {
+                    text: "Only one",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Only two",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Only three",
+                    isCorrect: false
+                  },
+                  {
+                    text: "All four",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Which of the following is/are correct inference/inferences from isothermal maps in the month of January ? (1) The isotherms deviate to the north over the ocean and to the south over the continent. (2) The presence of cold ocean currents, Gulf Stream and North Atlantic Drift make the North Atlantic Ocean colder and the isotherms bend towards the north. Select the answer using the code given below :",
+                difficulty: "HARD",
+                explanation: "Only inference 1 is correct. In January (Northern winter) the oceans are warmer than the cold continents, so isotherms bend north (poleward) over oceans and south (equatorward) over continents, confirming statement 1. Statement 2 is wrong on two counts: the Gulf Stream and North Atlantic Drift are warm currents (not cold), and they make the North Atlantic warmer, causing isotherms to bend north over that ocean because of warmth, not cold. Hence only 1 is correct, giving option A.",
+                options: [
+                  {
+                    text: "1 only",
+                    isCorrect: true
+                  },
+                  {
+                    text: "2 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Both 1 and 2",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Neither 1 nor 2",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which of the following countries are well known as the two largest cocoa producers in the world ?",
+                difficulty: "EASY",
+                explanation: "Cote d'Ivoire (Ivory Coast) and Ghana are the world's two largest cocoa producers, together accounting for roughly 60% of global cocoa output. Both are West African nations with climates ideal for cacao cultivation. The other pairs (North African, southern African and Indian Ocean countries) are not major cocoa producers, so option C is correct.",
+                options: [
+                  {
+                    text: "Algeria and Morocco",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Botswana and Namibia",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Côte d'Ivoire and Ghana",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Madagascar and Mozambique",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "With reference to the Himalayan rivers joining the Ganga downstream of Prayagraj from West to East, which one of the following sequences is correct ?",
+                difficulty: "HARD",
+                explanation: "Moving downstream of Prayagraj (Allahabad) from west to east, the Himalayan tributaries join the Ganga in the order Gomati, Ghaghara, Gandak, Kosi. The Gomati joins first near Ghazipur/Saidpur, followed by the Ghaghara, then the Gandak near Patna, and finally the Kosi in Bihar before the river enters West Bengal. This west-to-east sequence matches option B.",
+                options: [
+                  {
+                    text: "Ghaghara – Gomati – Gandak – Kosi",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Gomati – Ghaghara – Gandak – Kosi",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Ghaghara – Gomati – Kosi – Gandak",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Gomati – Ghaghara – Kosi – Gandak",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Consider the following statements : Statement-I : Rainfall is one of the reasons for weathering of rocks. Statement-II : Rain water contains carbon dioxide in solution. Statement-III : Rain water contains atmospheric oxygen. Which one of the following is correct in respect of the above statements ?",
+                difficulty: "MEDIUM",
+                explanation: "All three statements are correct and both II and III explain I. Rainfall causes chemical weathering: rain water dissolves atmospheric CO2 to form weak carbonic acid, which chemically attacks rocks (carbonation), and it also carries dissolved atmospheric oxygen that drives oxidation of minerals like iron. Thus both the CO2 content (Statement-II) and the oxygen content (Statement-III) explain why rainfall weathers rocks, making option A correct.",
+                options: [
+                  {
+                    text: "Both Statement-II and Statement-III are correct and both of them explain Statement-I",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Both Statement-II and Statement-III are correct, but only one of them explains Statement-I",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Only one of the Statements II and III is correct and that explains Statement-I",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Neither Statement-II nor Statement-III is correct",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Consider the following countries : (1) Finland (2) Germany (3) Norway (4) Russia. How many of the above countries have a border with the North Sea ?",
+                difficulty: "MEDIUM",
+                explanation: "Only two of the listed countries border the North Sea: Germany and Norway. Finland borders the Baltic Sea and Gulf of Bothnia, not the North Sea, and Russia's western coast is on the Baltic (and its north on the Arctic), not the North Sea. The North Sea is bordered by Britain, Norway, Denmark, Germany, the Netherlands, Belgium and France, so the count is two, giving option B.",
+                options: [
+                  {
+                    text: "Only one",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Only two",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Only three",
+                    isCorrect: false
+                  },
+                  {
+                    text: "All four",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Consider the following information : Waterfall — Region — River: Dhuandhar — Malwa — Narmada ; Hundru — Chota Nagpur — Subarnarekha ; Gersoppa — Western Ghats — Netravati. In how many of the above rows is the given information correctly matched ?",
+                difficulty: "HARD",
+                explanation: "Only one row is correctly matched. Dhuandhar falls is on the Narmada, but it lies in the Bhedaghat/Jabalpur area on the Deccan/Vindhya edge, not the Malwa region, so that row is wrong. Hundru falls is correctly on the Subarnarekha river in the Chota Nagpur plateau, so that row is right. Gersoppa (Jog) falls is on the Sharavati river, not the Netravati, so that row is wrong. Only the Hundru row matches, giving option A.",
+                options: [
+                  {
+                    text: "Only one",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Only two",
+                    isCorrect: false
+                  },
+                  {
+                    text: "All three",
+                    isCorrect: false
+                  },
+                  {
+                    text: "None",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Consider the following information : Region — Name of the mountain range — Type of mountain: Central Asia — Vosges — Fold mountain ; Europe — Alps — Block mountain ; North America — Appalachians — Fold mountain ; South America — Andes — Fold mountain. In how many of the above rows is the given information correctly matched ?",
+                difficulty: "HARD",
+                explanation: "Only two rows are correctly matched. The Vosges are in Europe (France), not Central Asia, and are block/relict mountains, so that row is wrong. The Alps are fold mountains, not block mountains, so the Alps row is also wrong. The Appalachians (North America) and the Andes (South America) are both correctly identified as fold mountains. Thus exactly two rows are correct, giving option B.",
+                options: [
+                  {
+                    text: "Only one",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Only two",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Only three",
+                    isCorrect: false
+                  },
+                  {
+                    text: "All four",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Consider the following airports : (1) Donyi Polo Airport (2) Kushinagar International Airport (3) Vijayawada International Airport. In the recent past, which of the above have been constructed as Greenfield projects ?",
+                difficulty: "MEDIUM",
+                explanation: "Only Donyi Polo Airport (Itanagar, Arunachal Pradesh) and Kushinagar International Airport (Uttar Pradesh) were built as greenfield projects (entirely new airports on fresh sites). Vijayawada airport at Gannavaram is a brownfield/upgraded existing airport, not a greenfield project. Hence only 1 and 2, giving option A.",
+                options: [
+                  {
+                    text: "1 and 2 only",
+                    isCorrect: true
+                  },
+                  {
+                    text: "2 and 3 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1 and 3 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1, 2 and 3",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "With reference to \"water vapour\", which of the following statements is/are correct ? (1) It is a gas, the amount of which decreases with altitude. (2) Its percentage is maximum at the poles. Select the answer using the code given below :",
+                difficulty: "MEDIUM",
+                explanation: "Only statement 1 is correct. Water vapour is a gas whose concentration decreases with altitude, since most of it is concentrated in the lower troposphere near evaporating surfaces. Statement 2 is wrong: water vapour percentage is maximum over warm, humid equatorial/tropical regions and least at the cold, dry poles, because warm air holds far more moisture. So only 1 is correct, giving option A.",
+                options: [
+                  {
+                    text: "1 only",
+                    isCorrect: true
+                  },
+                  {
+                    text: "2 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Both 1 and 2",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Neither 1 nor 2",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Consider the following description : (1) Annual and daily range of temperatures is low. (2) Precipitation occurs throughout the year. (3) Precipitation varies between 50 cm – 250 cm. What is this type of climate ?",
+                difficulty: "HARD",
+                explanation: "The description points to the Marine West Coast (temperate oceanic) climate. Its hallmark is a low annual and daily temperature range due to the moderating influence of the sea, precipitation spread throughout the year (no dry season) brought by westerlies, and moderate rainfall roughly in the 50-250 cm range. Equatorial climate has much heavier rainfall and China-type has a distinct seasonal (monsoonal) rhythm, so option D is correct.",
+                options: [
+                  {
+                    text: "Equatorial climate",
+                    isCorrect: false
+                  },
+                  {
+                    text: "China type climate",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Humid subtropical climate",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Marine West coast climate",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "With reference to \"Coriolis force\", which of the following statements is/are correct ? (1) It increases with increase in wind velocity. (2) It is maximum at the poles and is absent at the equator. Select the answer using the code given below :",
+                difficulty: "MEDIUM",
+                explanation: "Both statements about the Coriolis force are correct. The Coriolis force is directly proportional to wind velocity, so it increases as wind speed increases (statement 1). It also varies with latitude, being zero at the equator and maximum at the poles because it depends on the sine of the latitude (statement 2). Both are true, giving option C.",
+                options: [
+                  {
+                    text: "1 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "2 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Both 1 and 2",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Neither 1 nor 2",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "On June 21 every year, which of the following latitude(s) experience(s) a sunlight of more than 12 hours ? (1) Equator (2) Tropic of Cancer (3) Tropic of Capricorn (4) Arctic Circle. Select the correct answer using the code given below :",
+                difficulty: "MEDIUM",
+                explanation: "On June 21 (summer solstice), the Sun is overhead at the Tropic of Cancer and the Northern Hemisphere is tilted toward the Sun. So the Tropic of Cancer (2) and the Arctic Circle (4) both get more than 12 hours of daylight, the Arctic Circle even experiencing a 24-hour day. The equator always has about 12 hours, and the Tropic of Capricorn (Southern Hemisphere) gets less than 12 hours in June. Hence 2 and 4, giving option D.",
+                options: [
+                  {
+                    text: "1 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "2 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "3 and 4",
+                    isCorrect: false
+                  },
+                  {
+                    text: "2 and 4",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "One of the following regions has the world's largest tropical peatland, which holds about three years worth of global carbon emissions from fossil fuels; and the possible destruction of which can exert detrimental effect on the global climate. Which one of the following denotes that region ?",
+                difficulty: "HARD",
+                explanation: "The Congo Basin (Cuvette Centrale) holds the world's largest tropical peatland, storing carbon equivalent to about three years of global fossil-fuel emissions. These waterlogged peat swamps lock away vast amounts of carbon, and draining or degrading them would release that carbon and harm the global climate. The Amazon and other basins are large but do not hold this record tropical peatland, so option B is correct.",
+                options: [
+                  {
+                    text: "Amazon Basin",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Congo Basin",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Kikori Basin",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Rio de la Plata Basin",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "With reference to perfluoroalkyl and polyfluoroalkyl substances (PFAS) that are used in making many consumer products, consider the following statements : (1) PFAS are found to be widespread in drinking water, food and food packaging materials. (2) PFAS are not easily degraded in the environment. (3) Persistent exposure to PFAS can lead to bioaccumulation in animal bodies. Which of the statements given above are correct ?",
+                difficulty: "MEDIUM",
+                explanation: "All three statements about PFAS are correct. PFAS (per- and polyfluoroalkyl substances) are widespread in drinking water, food and food-packaging materials (statement 1). Because of their extremely strong carbon-fluorine bonds they resist environmental degradation, earning the name 'forever chemicals' (statement 2). Their persistence leads to bioaccumulation in animal (and human) bodies over time (statement 3). All correct, giving option D.",
+                options: [
+                  {
+                    text: "1 and 2 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "2 and 3 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1 and 3 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1, 2 and 3",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Consider the following : (1) Carabid beetles (2) Centipedes (3) Flies (4) Termites (5) Wasps. Parasitoid species are found in how many of the above kind of organisms ?",
+                difficulty: "HARD",
+                explanation: "Parasitoid species (insects whose larvae develop in or on a host, eventually killing it) are found in three of the listed groups: flies (many Diptera such as tachinid flies), wasps (a huge number of parasitoid Hymenoptera), and certain beetles including carabids (some are parasitoid/ectoparasitoid). Centipedes are predators, not parasitoids, and termites are detritivores, not parasitoids. So parasitoids occur in three groups, giving option B.",
+                options: [
+                  {
+                    text: "Only two",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Only three",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Only four",
+                    isCorrect: false
+                  },
+                  {
+                    text: "All five",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Consider the following plants : (1) Groundnut (2) Horse-gram (3) Soybean. How many of the above belong to the pea family ?",
+                difficulty: "MEDIUM",
+                explanation: "All three belong to the pea family (Fabaceae/Leguminosae, the legumes). Groundnut (peanut), horse-gram and soybean are all leguminous plants that bear pods and fix atmospheric nitrogen through root nodules. Since all three are legumes, the answer is all three, giving option C.",
+                options: [
+                  {
+                    text: "Only one",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Only two",
+                    isCorrect: false
+                  },
+                  {
+                    text: "All three",
+                    isCorrect: true
+                  },
+                  {
+                    text: "None",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The organisms \"Cicada, Froghopper and Pond skater\" are :",
+                difficulty: "EASY",
+                explanation: "Cicada, froghopper and pond skater are all insects. Cicadas and froghoppers belong to the order Hemiptera (true bugs, sap-suckers), and the pond skater (water strider) is also a Hemipteran insect that walks on water surfaces. None are birds, fish or reptiles, so option C is correct.",
+                options: [
+                  {
+                    text: "Birds",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Fish",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Insects",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Reptiles",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Consider the following statements : Statement-I : Many chewing gums found in the market are considered a source of environmental pollution. Statement-II : Many chewing gums contain plastic as gum base. Which one of the following is correct in respect of the above statements ?",
+                difficulty: "MEDIUM",
+                explanation: "Both statements are correct and the second explains the first. Most commercial chewing gums use a synthetic gum base made of plastics/polymers (such as polyvinyl acetate and other petroleum-derived elastomers). Because this gum base is essentially plastic, discarded gum does not biodegrade and becomes a source of environmental (plastic) pollution. Thus the plastic gum base (Statement-II) directly explains why gum pollutes (Statement-I), giving option A.",
+                options: [
+                  {
+                    text: "Both Statement-I and Statement-II are correct and Statement-II explains Statement-I",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Both Statement-I and Statement-II are correct, but Statement-II does not explain Statement-I",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Statement-I is correct, but Statement-II is incorrect",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Statement-I is incorrect, but Statement-II is correct",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Consider the following pairs : Country — Animal found in its natural habitat: Brazil — Indri ; Indonesia — Elk ; Madagascar — Bonobo. How many of the pairs given above are correctly matched ?",
+                difficulty: "HARD",
+                explanation: "None of the pairs is correctly matched. The Indri is a lemur found only in Madagascar, not Brazil. The Elk is native to North America and northern Eurasia, not Indonesia. The Bonobo is a great ape found only in the Democratic Republic of the Congo, not Madagascar. Every animal is paired with the wrong country, so the answer is none, giving option D.",
+                options: [
+                  {
+                    text: "Only one",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Only two",
+                    isCorrect: false
+                  },
+                  {
+                    text: "All three",
+                    isCorrect: false
+                  },
+                  {
+                    text: "None",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Consider the following statements regarding World Toilet Organization : (1) It is one of the agencies of the United Nations. (2) World Toilet Summit, World Toilet Day and World Toilet College are the initiatives of this organization, to inspire action to tackle the global sanitation crisis. (3) The main focus of its function is to grant funds to the least developed countries and developing countries to achieve the end of open defecation. Which of the statements given above is/are correct ?",
+                difficulty: "MEDIUM",
+                explanation: "Only statement 2 is correct. The World Toilet Organization is a non-profit NGO founded in Singapore in 2001; it is not a United Nations agency, so statement 1 is wrong. It did launch World Toilet Summit, World Toilet Day and World Toilet College to spur action on the sanitation crisis, so statement 2 is correct. Its focus is advocacy and awareness, not granting funds to countries, so statement 3 is wrong. Hence 2 only, giving option A.",
+                options: [
+                  {
+                    text: "2 only",
+                    isCorrect: true
+                  },
+                  {
+                    text: "3 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1 and 2",
+                    isCorrect: false
+                  },
+                  {
+                    text: "2 and 3",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Consider the following statements : (1) Lions do not have a particular breeding season. (2) Unlike most other big cats, cheetahs do not roar. (3) Unlike male lions, male leopards do not proclaim their territory by scent marking. Which of the statements given above are correct ?",
+                difficulty: "HARD",
+                explanation: "Only statements 1 and 2 are correct. Lions have no fixed breeding season and breed throughout the year (statement 1 correct). Cheetahs cannot roar because of their fixed hyoid structure; instead they chirp, purr and growl, unlike the big cats of genus Panthera (statement 2 correct). Statement 3 is wrong: male leopards, like lions, do mark their territory with scent (urine, scrapes and secretions), so it is false to say they do not. Hence 1 and 2 only, giving option A.",
+                options: [
+                  {
+                    text: "1 and 2 only",
+                    isCorrect: true
+                  },
+                  {
+                    text: "2 and 3 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1 and 3 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1, 2 and 3",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which one of the following is the correct description of \"100 Million Farmers\" ?",
+                difficulty: "HARD",
+                explanation: "\"100 Million Farmers\" is a World Economic Forum (WEF) initiative/platform launched to accelerate the transition of food and water systems towards being net-zero on carbon and nature-positive, while building the resilience of smallholder farmers. Option (a) captures this mission precisely. The other options describe unrelated concepts such as organic animal husbandry networks, blockchain fertilizer trading platforms, or Farmer Producer Organisation aggregators, none of which is what this platform is.",
+                options: [
+                  {
+                    text: "It is a platform for accelerating the transition towards food and water systems that are net-zero (carbon), nature-positive and that aims to increase farmer resilience.",
+                    isCorrect: true
+                  },
+                  {
+                    text: "It is an international alliance and a network of individuals and farming organisations interested in supporting and strengthening the development of the organic animal husbandry.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "It is a digital platform fully integrated with service providers and built on blockchain that lets buyers, sellers and third parties trade fertilizers quickly and securely.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "It is a platform with the mission of encouraging the farmers to form Farmer Product Organisations or Agribusiness Consortiums, thus facilitating the access to global open markets to sell their products.",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Consider the following : (1) Battery storage (2) Biomass generators (3) Fuel cells (4) Rooftop solar photovoltaic units. How many of the above are considered \"Distributed Energy Resources\" ?",
+                difficulty: "MEDIUM",
+                explanation: "Distributed Energy Resources (DERs) are small-scale power generation or storage units located close to where electricity is used, connected to the distribution grid rather than large central plants. Battery storage, biomass generators, fuel cells, and rooftop solar PV units all qualify because each generates or stores energy in a decentralised manner. Hence all four are DERs, making option (d) correct.",
+                options: [
+                  {
+                    text: "Only one",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Only two",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Only three",
+                    isCorrect: false
+                  },
+                  {
+                    text: "All four",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Which one of the following shows a unique relationship with an insect that has coevolved with it and that is the only insect that can pollinate this tree ?",
+                difficulty: "MEDIUM",
+                explanation: "The fig (Ficus) shows an obligate mutualism with the fig wasp, which has coevolved with it and is the only insect capable of pollinating fig flowers, which are enclosed inside the syconium (the fruit-like structure). The wasp enters to lay eggs and simultaneously pollinates, so neither can reproduce without the other. Mahua, sandalwood, and silk cotton are pollinated by a variety of agents like bats, bees, and birds, so option (a) is correct.",
+                options: [
+                  {
+                    text: "Fig",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Mahua",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Sandalwood",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Silk cotton",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Consider the following : (1) Butterflies (2) Fish (3) Frogs. How many of the above have poisonous species among them ?",
+                difficulty: "MEDIUM",
+                explanation: "All three groups contain poisonous/toxic species. Some butterflies (e.g., the monarch) accumulate toxins from host plants making them poisonous to predators, many fish (such as the pufferfish carrying tetrodotoxin) are poisonous, and several frogs (notably poison dart frogs) secrete potent skin toxins. Therefore all three have poisonous members, making option (c) correct.",
+                options: [
+                  {
+                    text: "Only one",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Only two",
+                    isCorrect: false
+                  },
+                  {
+                    text: "All three",
+                    isCorrect: true
+                  },
+                  {
+                    text: "None",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Consider the following : (1) Cashew (2) Papaya (3) Red sanders. How many of the above trees are actually native to India ?",
+                difficulty: "HARD",
+                explanation: "Of the three, only Red Sanders (Pterocarpus santalinus) is native to India, being endemic to the Eastern Ghats, chiefly in Andhra Pradesh. Cashew was brought to India by the Portuguese and is native to Brazil, while papaya is native to Central America/southern Mexico. Since only one tree is genuinely native, option (a) is correct.",
+                options: [
+                  {
+                    text: "Only one",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Only two",
+                    isCorrect: false
+                  },
+                  {
+                    text: "All three",
+                    isCorrect: false
+                  },
+                  {
+                    text: "None",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "With reference to radioisotope thermoelectric generators (RTGs), consider the following statements : (1) RTGs are miniature fission reactors. (2) RTGs are used for powering the onboard systems of spacecrafts. (3) RTGs can use Plutonium-238, which is a by-product of weapons development. Which of the statements given above are correct ?",
+                difficulty: "MEDIUM",
+                explanation: "Statement 1 is false: RTGs are not fission reactors; they generate electricity from the heat released by the natural radioactive decay of an isotope using thermocouples, with no chain reaction. Statement 2 is true, as RTGs reliably power spacecraft onboard systems on deep-space missions (e.g., Voyager, Cassini). Statement 3 is true, since RTGs commonly use Plutonium-238, produced in connection with weapons/nuclear programmes. Hence only 2 and 3 are correct, option (b).",
+                options: [
+                  {
+                    text: "1 and 2 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "2 and 3 only",
+                    isCorrect: true
+                  },
+                  {
+                    text: "1 and 3 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1, 2 and 3",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Consider the following statements : Statement-I : Giant stars live much longer than dwarf stars. Statement-II : Compared to dwarf stars, giant stars have a greater rate of nuclear reactions. Which one of the following is correct in respect of the above statements ?",
+                difficulty: "MEDIUM",
+                explanation: "Statement I is incorrect: giant stars actually live much shorter lives than dwarf stars because they consume their nuclear fuel very rapidly. Statement II is correct, since giant stars, being far more massive and luminous, sustain a much higher rate of nuclear reactions. The faster fuel consumption is precisely why giants are short-lived, so Statement I is false while Statement II is true, giving option (d).",
+                options: [
+                  {
+                    text: "Both Statement-I and Statement-II are correct and Statement-II explains Statement-I",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Both Statement-I and Statement-II are correct, but Statement-II does not explain Statement-I",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Statement-I is correct, but Statement-II is incorrect",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Statement-I is incorrect, but Statement-II is correct",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Which one of the following is synthesised in human body that dilates blood vessels and increases blood flow ?",
+                difficulty: "MEDIUM",
+                explanation: "Nitric oxide (NO) is synthesised in the human body (from arginine by nitric oxide synthase) and acts as a signalling molecule that relaxes the smooth muscle of blood vessel walls, causing vasodilation and increased blood flow. This is the basis of drugs like nitroglycerin. Nitrous oxide (laughing gas), nitrogen dioxide, and nitrogen pentoxide are not body-synthesised vasodilators, so option (a) is correct.",
+                options: [
+                  {
+                    text: "Nitric oxide",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Nitrous oxide",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Nitrogen dioxide",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Nitrogen pentoxide",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Consider the following activities : (1) Identification of narcotics on passengers at airports or in aircraft (2) Monitoring of precipitation (3) Tracking the migration of animals. In how many of the above activities can the radars be used ?",
+                difficulty: "MEDIUM",
+                explanation: "Radar works by transmitting radio waves and detecting their reflections, so it can monitor precipitation (weather/Doppler radar) and track the movement/migration of animals and birds. Detecting narcotics on passengers relies on chemical sensors, X-ray/scanners, and sniffer techniques rather than radar. Thus radar applies to only two of the listed activities, making option (b) correct.",
+                options: [
+                  {
+                    text: "Only one",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Only two",
+                    isCorrect: true
+                  },
+                  {
+                    text: "All three",
+                    isCorrect: false
+                  },
+                  {
+                    text: "None",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Consider the following aircraft : (1) Rafael (2) MiG-29 (3) Tejas MK-1. How many of the above are considered fifth generation fighter aircraft ?",
+                difficulty: "EASY",
+                explanation: "None of the listed aircraft is a fifth-generation fighter. The Rafale is a 4.5-generation multirole jet, the MiG-29 is a fourth-generation fighter, and the indigenous Tejas Mk-1 is a fourth/4.5-generation aircraft. Fifth-generation fighters (with stealth, supercruise, and advanced sensor fusion) include jets like the F-35 or Su-57, so the answer is None, option (d).",
+                options: [
+                  {
+                    text: "Only one",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Only two",
+                    isCorrect: false
+                  },
+                  {
+                    text: "All three",
+                    isCorrect: false
+                  },
+                  {
+                    text: "None",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "In which of the following are hydrogels used ? (1) Controlled drug delivery in patients (2) Mobile air-conditioning systems (3) Preparation of industrial lubricants. Select the correct answer using the code given below :",
+                difficulty: "HARD",
+                explanation: "Hydrogels are water-swollen polymer networks whose best-known application is controlled drug delivery, where they release medication gradually in patients (statement 1). As per the official key, they are not the answer for mobile air-conditioning systems or industrial lubricant preparation, so only statement 1 is accepted, giving option (a).",
+                options: [
+                  {
+                    text: "1 only",
+                    isCorrect: true
+                  },
+                  {
+                    text: "1 and 2 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "2 and 3 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1, 2 and 3",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which one of the following is the exhaust pipe emission from Fuel Cell Electric Vehicles, powered by hydrogen ?",
+                difficulty: "EASY",
+                explanation: "In a hydrogen fuel cell, hydrogen combines with oxygen from the air to produce electricity, and the only tailpipe emission is water (water vapour). This is why hydrogen fuel cell electric vehicles are considered zero-emission at the point of use. Hence option (d), water vapour, is correct.",
+                options: [
+                  {
+                    text: "Hydrogen peroxide",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Hydronium",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Oxygen",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Water vapour",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Recently, the term \"pumped-storage hydropower\" is actually and appropriately discussed in the context of which one of the following ?",
+                difficulty: "EASY",
+                explanation: "Pumped-storage hydropower is a long-duration energy storage technology: during surplus/off-peak periods, water is pumped up to an upper reservoir, and during peak demand it is released back down through turbines to regenerate electricity. It effectively acts as a large grid-scale battery, so it is discussed in the context of long duration energy storage, option (c).",
+                options: [
+                  {
+                    text: "Irrigation of terraced crop fields",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Lift irrigation of cereal crops",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Long duration energy storage",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Rainwater harvesting system",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "\"Membrane Bioreactors\" are often discussed in the context of :",
+                difficulty: "MEDIUM",
+                explanation: "Membrane Bioreactors (MBRs) combine biological treatment (activated sludge) with membrane filtration (microfiltration/ultrafiltration) to treat wastewater, producing high-quality, clean effluent in a compact system. They are a key technology in modern sewage and effluent treatment plants. Therefore they are discussed in the context of wastewater treatment technologies, option (d).",
+                options: [
+                  {
+                    text: "Assisted reproductive technologies",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Drug delivery nanotechnologies",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Vaccine production technologies",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Wastewater treatment technologies",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "With reference to the Indian economy, \"Collateral Borrowing and Lending Obligations\" are the instruments of :",
+                difficulty: "MEDIUM",
+                explanation: "Collateralised Borrowing and Lending Obligation (CBLO) is a short-term, collateral-backed money market instrument developed by CCIL and used by banks and financial institutions for short-tenure borrowing and lending. As it deals in short-term funds, it belongs to the money market, making option (c) correct.",
+                options: [
+                  {
+                    text: "Bond market",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Forex market",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Money market",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Stock market",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The total fertility rate in an economy is defined as :",
+                difficulty: "MEDIUM",
+                explanation: "The Total Fertility Rate (TFR) is defined as the average number of live births a woman would have by the end of her child-bearing years (roughly 15 to 49), assuming prevailing age-specific fertility rates. It is not the crude birth rate (births per 1000 people), nor the natural growth rate (birth minus death rate), so option (d) is the correct definition.",
+                options: [
+                  {
+                    text: "the number of children born per 1000 people in the population in a year.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "the number of children born to a couple in their lifetime in a given population.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "the birth rate minus death rate.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "the average number of live births a woman would have by the end of her child-bearing age.",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Consider the following statements : (1) In India, Non-Banking Financial Companies can access the Liquidity Adjustment Facility window of the Reserve Bank of India. (2) In India, Foreign Institutional Investors can hold the Government Securities (G-Secs). (3) In India, Stock Exchanges can offer separate trading platforms for debts. Which of the statements given above is/are correct ?",
+                difficulty: "HARD",
+                explanation: "All three statements are accepted as correct per the official key. NBFCs (specifically certain categories) can access the RBI's liquidity facilities/LAF window (statement 1), Foreign Institutional/Portfolio Investors are permitted to hold Government Securities within prescribed limits (statement 2), and stock exchanges operate separate/dedicated debt trading platforms (statement 3). Hence option (c), 1, 2 and 3.",
+                options: [
+                  {
+                    text: "1 and 2 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "3 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1, 2 and 3",
+                    isCorrect: true
+                  },
+                  {
+                    text: "2 and 3 only",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "In India, which of the following can trade in Corporate Bonds and Government Securities ? (1) Insurance Companies (2) Pension Funds (3) Retail Investors. Select the correct answer using the code given below :",
+                difficulty: "MEDIUM",
+                explanation: "Insurance companies and pension funds are major institutional participants in the corporate bond and government securities markets, and retail investors can also trade in G-Secs (through avenues like the RBI Retail Direct scheme) and corporate bonds. Since all three categories can participate, option (d), 1, 2 and 3, is correct.",
+                options: [
+                  {
+                    text: "1 and 2 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "2 and 3 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1 and 3 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1, 2 and 3",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Consider the following : (1) Exchange-Traded Funds (ETF) (2) Motor vehicles (3) Currency swap. Which of the above is/are considered financial instruments ?",
+                difficulty: "MEDIUM",
+                explanation: "A financial instrument is a tradable asset representing a monetary contract. Exchange-Traded Funds (units representing a basket of securities) and currency swaps (derivative contracts) are financial instruments, whereas motor vehicles are physical/real assets, not financial instruments. Therefore only 1 and 3 qualify, making option (d) correct.",
+                options: [
+                  {
+                    text: "1 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "2 and 3 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1, 2 and 3",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1 and 3 only",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "With reference to the sectors of the Indian economy, consider the following pairs : Economic activity — Sector : Storage of agricultural produce — Secondary ; Dairy farm — Primary ; Mineral exploration — Tertiary ; Weaving cloth — Secondary. How many of the pairs given above are correctly matched ?",
+                difficulty: "MEDIUM",
+                explanation: "Checking each pair: storage of agricultural produce is a service and belongs to the tertiary sector, not secondary (wrong); a dairy farm is a primary-sector activity (correct); mineral exploration/extraction is a primary-sector activity, not tertiary (wrong); and weaving cloth is manufacturing, hence secondary (correct). Two pairs are correctly matched, so option (b) is correct.",
+                options: [
+                  {
+                    text: "Only one",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Only two",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Only three",
+                    isCorrect: false
+                  },
+                  {
+                    text: "All four",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Consider the following materials : (1) Agricultural residues (2) Corn grain (3) Wastewater treatment sludge (4) Wood mill waste. Which of the above can be used as feedstock for producing Sustainable Aviation Fuel ?",
+                difficulty: "MEDIUM",
+                explanation: "Sustainable Aviation Fuel (SAF) can be produced from a wide range of biomass and waste feedstocks. Agricultural residues, corn grain, wastewater treatment sludge, and wood mill waste can all serve as feedstock through pathways like HEFA, alcohol-to-jet, and Fischer-Tropsch. Since all four are usable, option (c), 1, 2, 3 and 4, is correct.",
+                options: [
+                  {
+                    text: "1 and 2 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "3 and 4 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1, 2, 3 and 4",
+                    isCorrect: true
+                  },
+                  {
+                    text: "1, 3 and 4 only",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "With reference to physical capital in Indian economy, consider the following pairs : Items — Category : Farmer's plough — Working capital ; Computer — Fixed capital ; Yarn used by the weaver — Fixed capital ; Petrol — Working capital. How many of the above pairs are correctly matched ?",
+                difficulty: "MEDIUM",
+                explanation: "Fixed capital is used repeatedly over years (tools, machines, buildings), while working capital is used up in a single production cycle (raw materials, money, fuel). A farmer's plough is a durable tool, so it is fixed capital, not working capital (wrong); a computer is fixed capital (correct); yarn is a raw material consumed in weaving, so it is working capital, not fixed capital (wrong); petrol is consumed in one use, so it is working capital (correct). Two pairs match, giving option (b).",
+                options: [
+                  {
+                    text: "Only one",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Only two",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Only three",
+                    isCorrect: false
+                  },
+                  {
+                    text: "All four",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which one of the following words/phrases is most appropriately used to denote \"an interoperable network of 3D virtual worlds that can be accessed simultaneously by millions of users, who can exert property rights over virtual items\" ?",
+                difficulty: "EASY",
+                explanation: "The Metaverse denotes an interoperable network of persistent, shared 3D virtual worlds accessed simultaneously by many users, where they can own and exert property rights over virtual items (often via NFTs/blockchain). This exactly matches the description, so option (c) is correct; big data analytics and cryptography refer to unrelated concepts.",
+                options: [
+                  {
+                    text: "Big data analytics",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Cryptography",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Metaverse",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Virtual matrix",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "With reference to the rule/rules imposed by the Reserve Bank of India while treating foreign banks, consider the following statements : (1) There is no minimum capital requirement for wholly owned banking subsidiaries in India. (2) For wholly owned banking subsidiaries in India, at least 50% of the board members should be Indian nationals. Which of the statements given above is/are correct ?",
+                difficulty: "HARD",
+                explanation: "Both statements are incorrect. Statement 1 is false because RBI does prescribe a minimum capital requirement (initial minimum paid-up capital of Rs 500 crore) for wholly owned banking subsidiaries of foreign banks in India. Statement 2 is false because RBI requires that not less than 50% of the directors be Indian nationals, but the correctly stated norm concerns majority/independent-director composition, and the specific figure/framing given is not the rule as worded. Hence neither is correct, option (d).",
+                options: [
+                  {
+                    text: "1 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "2 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Both 1 and 2",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Neither 1 nor 2",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "With reference to Corporate Social Responsibility (CSR) rules in India, consider the following statements : (1) CSR rules specify that expenditures that benefit the company directly or its employees will not be considered as CSR activities. (2) CSR rules do not specify minimum spending on CSR activities. Which of the statements given above is/are correct ?",
+                difficulty: "MEDIUM",
+                explanation: "Statement 1 is correct: the CSR rules under the Companies Act, 2013 explicitly exclude activities that benefit the company directly or only its own employees from qualifying as CSR. Statement 2 is incorrect because the law does specify a minimum spend, namely at least 2% of the company's average net profits of the preceding three financial years. Since only statement 1 is correct, option (a) is the answer.",
+                options: [
+                  {
+                    text: "1 only",
+                    isCorrect: true
+                  },
+                  {
+                    text: "2 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Both 1 and 2",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Neither 1 nor 2",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Consider the following statements: Statement-I: If the United States of America (USA) were to default on its debt, holders of US Treasury Bonds will not be able to exercise their claims to receive payment. Statement-II: The USA Government debt is not backed by any hard assets, but only by the faith of the Government. Which one of the following is correct in respect of the above statements?",
+                difficulty: "MEDIUM",
+                explanation: "US Treasury securities are backed only by the 'full faith and credit' of the US Government, not by any hard/physical collateral (Statement-II is correct). Because there is no underlying hard asset to seize, if the USA defaults there is nothing bondholders can enforce their claim against and they cannot compel payment (Statement-I is correct). The nature of the debt described in Statement-II is precisely why the default consequence in Statement-I follows, so Statement-II explains Statement-I.",
+                options: [
+                  {
+                    text: "Both Statement-I and Statement-II are correct and Statement-II explains Statement-I",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Both Statement-I and Statement-II are correct, but Statement-II does not explain Statement-I",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Statement-I is correct, but Statement-II is incorrect",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Statement-I is incorrect, but Statement-II is correct",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Consider the following statements in respect of the digital rupee: (1) It is a sovereign currency issued by the Reserve Bank of India (RBI) in alignment with its monetary policy. (2) It appears as a liability on the RBI's balance sheet. (3) It is insured against inflation by its very design. (4) It is freely convertible against commercial bank money and cash. Which of the statements given above are correct?",
+                difficulty: "MEDIUM",
+                explanation: "The digital rupee (e-Rupee/CBDC) is legal tender issued by the RBI as sovereign currency in line with its monetary policy, so statement 1 is correct. Being a central bank money, it is recorded as a liability on the RBI's balance sheet, making statement 2 correct, and it is designed to be freely convertible at par with cash and commercial bank deposits, so statement 4 is correct. Statement 3 is wrong because a CBDC, like any fiat currency, is not inflation-indexed or 'insured against inflation'; hence the correct combination is 1, 2 and 4.",
+                options: [
+                  {
+                    text: "1 and 2 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1 and 3 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "2 and 4 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1, 2 and 4",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "With reference to ancient India, Gautama Buddha was generally known by which of the following epithets? (1) Nayaputta (2) Shakyamuni (3) Tathagata Select the correct answer using the code given below:",
+                difficulty: "MEDIUM",
+                explanation: "Shakyamuni ('sage of the Shakya clan') and Tathagata ('one who has thus come/gone') are both well-known epithets of Gautama Buddha, so statements 2 and 3 are correct. 'Nayaputta' (Nataputta/Nigantha Nataputta) was the epithet of Vardhamana Mahavira, the founder-teacher of Jainism, not of the Buddha, so statement 1 is wrong. Hence only 2 and 3 apply.",
+                options: [
+                  {
+                    text: "1 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "2 and 3 only",
+                    isCorrect: true
+                  },
+                  {
+                    text: "1, 2 and 3",
+                    isCorrect: false
+                  },
+                  {
+                    text: "None of the above are epithets of Gautama Buddha",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Consider the following information: In which of the above rows is the given information correctly matched? The rows contain Archaeological Site — State — Description: 1. Chandraketugarh — Odisha — Trading Port town ; 2. Inamgaon — Maharashtra — Chalcolithic site ; 3. Mangadu — Kerala — Megalithic site ; 4. Salihundam — Andhra Pradesh — Rock-cut cave shrines",
+                difficulty: "HARD",
+                explanation: "Inamgaon in Maharashtra is a well-known Chalcolithic (Jorwe culture) settlement, and Mangadu in Kerala is a megalithic burial site, so rows 2 and 3 are correctly matched. Chandraketugarh, an ancient trading/port town, is in West Bengal, not Odisha, and Salihundam in Andhra Pradesh is a Buddhist stupa site, not rock-cut cave shrines, so rows 1 and 4 are wrong. Therefore only 2 and 3 are correct.",
+                options: [
+                  {
+                    text: "1 and 2",
+                    isCorrect: false
+                  },
+                  {
+                    text: "2 and 3",
+                    isCorrect: true
+                  },
+                  {
+                    text: "3 and 4",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1 and 4",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Who of the following rulers of medieval India gave permission to the Portuguese to build a fort at Bhatkal?",
+                difficulty: "HARD",
+                explanation: "Krishnadevaraya, the Vijayanagara emperor of the Tuluva dynasty, granted the Portuguese permission to build a fort at Bhatkal (on the Kanara coast), reflecting his cordial trade relations with them for horses and firearms. Narasimha Saluva belonged to an earlier Vijayanagara dynasty, while Muhammad Shah III (Bahmani) and Yusuf Adil Shah (Bijapur) were Deccan sultans not associated with this grant. Hence the answer is Krishnadevaraya.",
+                options: [
+                  {
+                    text: "Krishnadevaraya",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Narasimha Saluva",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Muhammad Shah III",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Yusuf Adil Shah",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Consider the following statements: (1) There are no parables in Upanishads. (2) Upanishads were composed earlier than the Puranas. Which of the statements given above is/are correct?",
+                difficulty: "MEDIUM",
+                explanation: "Statement 1 is wrong because the Upanishads do contain parables and dialogues used to teach abstract ideas (for example the Svetaketu-Uddalaka dialogue and the story of Satyakama Jabala). Statement 2 is correct: the Upanishads belong to the later Vedic period (roughly 800-500 BCE) and were composed earlier than the Puranas, which are post-Vedic works of the early centuries CE. Hence only statement 2 is correct.",
+                options: [
+                  {
+                    text: "1 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "2 only",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Both 1 and 2",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Neither 1 nor 2",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Consider the following statements: (1) India is a member of the International Grains Council. (2) A country needs to be a member of the International Grains Council for exporting or importing rice and wheat. Which of the statements given above is/are correct?",
+                difficulty: "MEDIUM",
+                explanation: "India is a member of the International Grains Council (IGC), an intergovernmental body that promotes cooperation in the grains trade, so statement 1 is correct. Statement 2 is wrong because IGC membership is not a prerequisite for exporting or importing rice or wheat; trade in these commodities is governed by national policy and WTO rules, not by IGC membership. Hence only statement 1 is correct.",
+                options: [
+                  {
+                    text: "1 only",
+                    isCorrect: true
+                  },
+                  {
+                    text: "2 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Both 1 and 2",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Neither 1 nor 2",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which one of the following was the latest inclusion in the Intangible Cultural Heritage List of UNESCO?",
+                difficulty: "MEDIUM",
+                explanation: "Among the options, 'Garba of Gujarat' was the most recent inscription on UNESCO's Representative List of the Intangible Cultural Heritage of Humanity, added in December 2023. Chhau dance was inscribed in 2010, Kumbh Mela in 2017, and Durga Puja of Kolkata in 2021, all earlier than Garba. Hence Garba dance is the latest inclusion.",
+                options: [
+                  {
+                    text: "Chhau dance",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Durga puja",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Garba dance",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Kumbh mela",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Who was the Provisional President of the Constituent Assembly before Dr. Rajendra Prasad took over?",
+                difficulty: "EASY",
+                explanation: "Dr. Sachchidananda Sinha, being the oldest member of the Constituent Assembly, was appointed its temporary (provisional) President and presided over the first session on 9 December 1946. Dr. Rajendra Prasad was then elected as the permanent President on 11 December 1946. Hence the provisional President was Dr. Sachchidananda Sinha.",
+                options: [
+                  {
+                    text: "C. Rajagopalachari",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Dr. B.R. Ambedkar",
+                    isCorrect: false
+                  },
+                  {
+                    text: "T.T. Krishnamachari",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Dr. Sachchidananda Sinha",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "With reference to the Government of India Act, 1935, consider the following statements: (1) It provided for the establishment of an All India Federation based on the union of the British Indian Provinces and Princely States. (2) Defence and Foreign Affairs were kept under the control of the federal legislature. Which of the statements given above is/are correct?",
+                difficulty: "MEDIUM",
+                explanation: "The Government of India Act, 1935 proposed an All-India Federation uniting the British Indian Provinces and the Princely States (though it never materialised as the princes did not accede), so statement 1 is correct. Statement 2 is wrong because Defence and Foreign Affairs were 'reserved' subjects kept under the exclusive control of the Governor-General, not the federal legislature. Hence only statement 1 is correct.",
+                options: [
+                  {
+                    text: "1 only",
+                    isCorrect: true
+                  },
+                  {
+                    text: "2 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Both 1 and 2",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Neither 1 nor 2",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which one of the following is a work attributed to playwright Bhasa?",
+                difficulty: "HARD",
+                explanation: "Madhyama-vyayoga is one of the thirteen Sanskrit plays attributed to the dramatist Bhasa (others include Svapnavasavadatta and Pancharatra). The other options belong to different authors: Kavyalankara is by Bhamaha, the Natyashastra by Bharata, and the Mahabhashya (a grammar commentary) by Patanjali. Hence Madhyama-vyayoga is the work by Bhasa.",
+                options: [
+                  {
+                    text: "Kavyalankara",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Natyashastra",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Madhyama-vyayoga",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Mahabhashya",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Sanghabhuti, an Indian Buddhist monk, who travelled to China at the end of the fourth century AD, was the author of a commentary on:",
+                difficulty: "HARD",
+                explanation: "Sanghabhuti (Sanghabhadra), an Indian Buddhist monk who went to China at the close of the fourth century CE, is known for his commentary on the Sarvastivada Vinaya, the monastic disciplinary code of the Sarvastivada school. He is associated with translating/annotating this Vinaya tradition rather than the Prajnaparamita, Visuddhimagga, or Lalitavistara. Hence the answer is the Sarvastivada Vinaya.",
+                options: [
+                  {
+                    text: "Prajnaparamita Sutra",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Visuddhimagga",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Sarvastivada Vinaya",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Lalitavistara",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Consider the following properties included in the World Heritage List released by UNESCO: (1) Shantiniketan (2) Rani-ki-Vav (3) Sacred Ensembles of the Hoysalas (4) Mahabodhi Temple Complex at Bodhgaya How many of the above properties were included in 2023?",
+                difficulty: "MEDIUM",
+                explanation: "Of the listed properties, Santiniketan and the Sacred Ensembles of the Hoysalas were both inscribed on the UNESCO World Heritage List in 2023, so exactly two were added that year. Rani-ki-Vav (Patan) was inscribed in 2014 and the Mahabodhi Temple Complex at Bodhgaya in 2002, so they do not belong to 2023. Hence only two were included in 2023.",
+                options: [
+                  {
+                    text: "Only one",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Only two",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Only three",
+                    isCorrect: false
+                  },
+                  {
+                    text: "All four",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "As per Article 368 of the Constitution of India, the Parliament may amend any provision of the Constitution by way of: (1) Addition (2) Variation (3) Repeal Select the correct answer using the code given below:",
+                difficulty: "EASY",
+                explanation: "Article 368 expressly empowers Parliament to amend the Constitution 'by way of addition, variation or repeal' of any provision, following the prescribed procedure. All three modes are therefore valid, making 1, 2 and 3 correct.",
+                options: [
+                  {
+                    text: "1 and 2 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "2 and 3 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1 and 3 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1, 2 and 3",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Consider the following countries: (1) Italy (2) Japan (3) Nigeria (4) South Korea (5) South Africa Which of the above countries are frequently mentioned in the media for their low birth rates, or ageing population or declining population?",
+                difficulty: "EASY",
+                explanation: "Italy, Japan and South Korea are frequently discussed in the media for very low fertility rates, rapidly ageing societies and declining populations. Nigeria and South Africa, by contrast, have young and growing populations with high birth rates, so they do not fit the description. Hence the correct set is 1, 2 and 4.",
+                options: [
+                  {
+                    text: "1, 2 and 4",
+                    isCorrect: true
+                  },
+                  {
+                    text: "1, 3 and 5",
+                    isCorrect: false
+                  },
+                  {
+                    text: "2 and 4 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "3 and 5 only",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which of the following statements are correct in respect of a Money Bill in the Parliament? (1) Article 109 mentions special procedure in respect of Money Bills. (2) A Money Bill shall not be introduced in the Council of States. (3) The Rajya Sabha can either approve the Bill or suggest changes but cannot reject it. (4) Amendments to a Money Bill suggested by the Rajya Sabha have to be accepted by the Lok Sabha. Select the answer using the code given below:",
+                difficulty: "MEDIUM",
+                explanation: "Article 109 lays down the special procedure for Money Bills (statement 1 correct); a Money Bill can be introduced only in the Lok Sabha and not in the Rajya Sabha/Council of States (statement 2 correct); the Rajya Sabha must return it within 14 days and may only suggest amendments, not reject it (statement 3 correct). Statement 4 is wrong because the Lok Sabha is free to accept or reject the Rajya Sabha's recommendations. Hence 1, 2 and 3 are correct.",
+                options: [
+                  {
+                    text: "1 and 2 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "2 and 3 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1, 2 and 3",
+                    isCorrect: true
+                  },
+                  {
+                    text: "1, 3 and 4",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which of the following is/are correctly matched in terms of equivalent rank in the three services of Indian Defence forces? The columns are Army — Airforce — Navy: 1. Brigadier — Air Commodore — Commander ; 2. Major General — Air Vice Marshal — Vice Admiral ; 3. Major — Squadron Leader — Lieutenant Commander ; 4. Lieutenant Colonel — Group Captain — Captain Select the correct answer using the code given below:",
+                difficulty: "HARD",
+                explanation: "In the tri-service rank equivalence, Major (Army) = Squadron Leader (Air Force) = Lieutenant Commander (Navy), so row 3 is correctly matched. The others are wrong: a Brigadier corresponds to a Commodore (not Commander); a Major General corresponds to a Rear Admiral (not Vice Admiral); and a Lieutenant Colonel corresponds to a Wing Commander/Commander, while a Group Captain equates to a Colonel/Captain. Hence only 3 is correct.",
+                options: [
+                  {
+                    text: "1 and 4",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1 and 3",
+                    isCorrect: false
+                  },
+                  {
+                    text: "2, 3 and 4",
+                    isCorrect: false
+                  },
+                  {
+                    text: "3 only",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "The North Eastern Council (NEC) was established by the North Eastern Council Act, 1971. Subsequent to the amendment of NEC Act in 2002, the Council comprises which of the following members? (1) Governor of the Constituent State (2) Chief Minister of the Constituent State (3) Three Members to be nominated by the President of India (4) The Home Minister of India Select the correct answer using the code given below:",
+                difficulty: "HARD",
+                explanation: "After the 2002 amendment of the North Eastern Council Act, the reconstituted Council comprises the Governor and the Chief Minister of each constituent State, plus three members nominated by the President of India. The Union Home Minister is not a designated member of the Council (though the Home Minister chairs it, membership per the Act is as above), so statement 4 is excluded. Hence the correct combination is 1, 2 and 3 only.",
+                options: [
+                  {
+                    text: "1, 2 and 3 only",
+                    isCorrect: true
+                  },
+                  {
+                    text: "1, 3 and 4 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "2 and 4 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1, 2, 3 and 4",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "How many Delimitation Commissions have been constituted by the Government of India till December 2023?",
+                difficulty: "MEDIUM",
+                explanation: "Four Delimitation Commissions have been constituted in India, under the Delimitation Commission Acts of 1952, 1962, 1972 and 2002. No fresh commission had been set up after the 2002 one up to December 2023 (delimitation being frozen till the first census after 2026). Hence the answer is four.",
+                options: [
+                  {
+                    text: "One",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Two",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Three",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Four",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "The Constitution (71st Amendment) Act, 1992 amends the Eighth Schedule to the Constitution to include which of the following languages? (1) Konkani (2) Manipuri (3) Nepali (4) Maithili Select the correct answer using the code given below:",
+                difficulty: "MEDIUM",
+                explanation: "The Constitution (71st Amendment) Act, 1992 added Konkani, Manipuri and Nepali to the Eighth Schedule, raising the number of scheduled languages to eighteen. Maithili was added later, by the 92nd Amendment Act, 2003, so it is not part of the 71st Amendment. Hence the correct set is 1, 2 and 3.",
+                options: [
+                  {
+                    text: "1, 2 and 3",
+                    isCorrect: true
+                  },
+                  {
+                    text: "1, 2 and 4",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1, 3 and 4",
+                    isCorrect: false
+                  },
+                  {
+                    text: "2, 3 and 4",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Consider the following pairs: How many of the above are correctly matched? The columns are Party — Its Leader: 1. Bharatiya Jana Sangh — Dr. Shyama Prasad Mukherjee ; 2. Socialist Party — C. Rajagopalachari ; 3. Congress for Democracy — Jagjivan Ram ; 4. Swatantra Party — Acharya Narendra Dev",
+                difficulty: "MEDIUM",
+                explanation: "The Bharatiya Jana Sangh was founded by Dr. Shyama Prasad Mukherjee (1951) and the Congress for Democracy by Jagjivan Ram (1977), so pairs 1 and 3 are correctly matched. Pairs 2 and 4 are wrong: C. Rajagopalachari was linked to the Swatantra Party (which he founded), not the Socialist Party, while Acharya Narendra Dev was a Socialist Party leader, not of Swatantra. Hence only two pairs are correct.",
+                options: [
+                  {
+                    text: "Only one",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Only two",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Only three",
+                    isCorrect: false
+                  },
+                  {
+                    text: "All four",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which of the following statements are correct about the Constitution of India? (1) Powers of the Municipalities are given in Part IX A of the Constitution. (2) Emergency provisions are given in Part XVIII of the Constitution. (3) Provisions related to the amendment of the Constitution are given in Part XX of the Constitution. Select the answer using the code given below :",
+                difficulty: "MEDIUM",
+                explanation: "Part IX-A of the Constitution deals with Municipalities (their powers etc.), Part XVIII contains the Emergency provisions (Articles 352-360), and Part XX (Article 368) covers amendment of the Constitution. All three matchings are therefore correct, so the answer is 1, 2 and 3.",
+                options: [
+                  {
+                    text: "1 and 2 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "2 and 3 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1 and 3 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1, 2 and 3",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Which one of the following statements is correct as per the Constitution of India?",
+                difficulty: "MEDIUM",
+                explanation: "Inter-State quarantine, along with inter-State migration, is listed under Entry 81 of the Union List, making it a Union subject; hence option (c) is correct. The other options are wrong: inter-State trade and commerce (Entry 42) and corporation tax (Entry 85) are Union List subjects, and inter-State migration is also a Union subject, not State subjects. Therefore only the statement about inter-State quarantine is constitutionally correct.",
+                options: [
+                  {
+                    text: "Inter-State trade and commerce is a State subject under the State List.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Inter-State migration is a State subject under the State List.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Inter-State quarantine is a Union subject under the Union List.",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Corporation tax is a State subject under the State List.",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Under which of the following Articles of the Constitution of India, has the Supreme Court of India placed the Right to Privacy?",
+                difficulty: "EASY",
+                explanation: "In the landmark K.S. Puttaswamy v. Union of India (2017) judgment, a nine-judge bench of the Supreme Court unanimously held that the Right to Privacy is a fundamental right that is intrinsic to the Right to Life and Personal Liberty guaranteed under Article 21. The Court read privacy as an inseparable part of the dignity and personal liberty protected by Article 21, though it also draws sustenance from other freedoms. Hence option D (Article 21) is correct.",
+                options: [
+                  {
+                    text: "Article 15",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Article 16",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Article 19",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Article 21",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "What are the duties of the Chief of Defence Staff (CDS) as Head of the Department of Military Affairs? (1) Permanent Chairman of Chiefs of Staff Committee (2) Exercise military command over the three Service Chiefs (3) Principal Military Advisor to Defence Minister on all tri-service matters Select the correct answer using the code given below :",
+                difficulty: "MEDIUM",
+                explanation: "The Chief of Defence Staff heads the Department of Military Affairs and acts as the Permanent Chairman of the Chiefs of Staff Committee (statement 1 true) and as the Principal Military Advisor to the Defence Minister on all tri-service matters (statement 3 true). Crucially, the CDS does NOT exercise military command over the three Service Chiefs; he coordinates but the Service Chiefs retain command of their forces, so statement 2 is false. Therefore only 1 and 3 are correct, giving option D.",
+                options: [
+                  {
+                    text: "1, 2 and 3",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1 and 2 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "2 and 3 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1 and 3 only",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Operations undertaken by the Army towards upliftment of the local population in remote areas to include addressing of their basic needs is called :",
+                difficulty: "MEDIUM",
+                explanation: "Operation Sadbhavana is the Indian Army's humanitarian/welfare initiative aimed at winning the goodwill of local people in remote and militancy-affected areas (notably Jammu & Kashmir and Ladakh) by addressing their basic needs through schools, healthcare, infrastructure and skill development. The other options are distinct operations: Sankalp (Gulf maritime security), Maitri (Nepal earthquake relief) and Madad (flood/disaster relief). Hence option C is correct.",
+                options: [
+                  {
+                    text: "Operation Sankalp",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Operation Maitri",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Operation Sadbhavana",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Operation Madad",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The longest border between any two countries in the world is between :",
+                difficulty: "EASY",
+                explanation: "The border between Canada and the United States of America is the longest international land border in the world, stretching roughly 8,891 km (including the Alaska-Canada segment). No other pair of countries shares a longer boundary, so option A is correct.",
+                options: [
+                  {
+                    text: "Canada and the United States of America",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Chile and Argentina",
+                    isCorrect: false
+                  },
+                  {
+                    text: "China and India",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Kazakhstan and Russian Federation",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which of the following statements about the Ethics Committee in the Lok Sabha are correct? (1) Initially it was an ad-hoc Committee. (2) Only a Member of the Lok Sabha can make a complaint relating to unethical conduct of a member of the Lok Sabha. (3) This Committee cannot take up any matter which is sub-judice. Select the answer using the code given below :",
+                difficulty: "HARD",
+                explanation: "The Lok Sabha Ethics Committee was initially constituted as an ad-hoc committee (in 2000) before becoming a permanent/standing committee (statement 1 true), and it does not take up any matter that is sub-judice (statement 3 true). Statement 2 is false because a complaint of unethical conduct can be made by any person, but it must be forwarded through a Member of the Lok Sabha, i.e. it is not restricted to only a Member originating the complaint. Hence only 1 and 3 are correct, giving option C.",
+                options: [
+                  {
+                    text: "1 and 2 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "2 and 3 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1 and 3 only",
+                    isCorrect: true
+                  },
+                  {
+                    text: "1, 2 and 3",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Consider the following statements regarding 'Nari Shakti Vandan Adhiniyam' : (1) Provisions will come into effect from the 18th Lok Sabha. (2) This will be in force for 15 years after becoming an Act. (3) There are provisions for the reservation of seats for Scheduled Castes Women within the quota reserved for the Scheduled Castes. Which of the statements given above are correct?",
+                difficulty: "MEDIUM",
+                explanation: "The Nari Shakti Vandan Adhiniyam (Women's Reservation Act, 128th Amendment) will remain in force for 15 years (statement 2 true) and provides for reservation of seats for Scheduled Caste women within the seats already reserved for Scheduled Castes (statement 3 true). Statement 1 is false because the reservation will take effect only after a delimitation exercise carried out following the first census after commencement, not automatically from the 18th Lok Sabha. Hence 2 and 3 only are correct, giving option C.",
+                options: [
+                  {
+                    text: "1, 2 and 3",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1 and 2 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "2 and 3 only",
+                    isCorrect: true
+                  },
+                  {
+                    text: "1 and 3 only",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which of the following statements about 'Exercise Mitra Shakti-2023' are correct? (1) This was a joint military exercise between India and Bangladesh. (2) It commenced in Aundh (Pune). (3) Joint response during counter-terrorism operations was a goal of this operation. (4) Indian Air Force was a part of this exercise. Select the answer using the code given below :",
+                difficulty: "MEDIUM",
+                explanation: "Exercise Mitra Shakti is the joint military exercise between India and Sri Lanka (not Bangladesh), so statement 1 is false. The 2023 edition commenced at Aundh, Pune (statement 2 true), had joint response in counter-terrorism operations as a key objective (statement 3 true), and included the Indian Air Force participating alongside the Army (statement 4 true). Hence 2, 3 and 4 are correct, giving option D.",
+                options: [
+                  {
+                    text: "1, 2 and 3",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1, 2 and 4",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1, 3 and 4",
+                    isCorrect: false
+                  },
+                  {
+                    text: "2, 3 and 4",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "A Writ of Prohibition is an order issued by the Supreme Court or High Courts to :",
+                difficulty: "EASY",
+                explanation: "A Writ of Prohibition is issued by the Supreme Court or a High Court to a lower court or tribunal to prevent it from continuing proceedings in a case over which it has no jurisdiction or where it exceeds its jurisdiction. It is preventive and is issued only against judicial or quasi-judicial bodies, not against administrative authorities or the legislature. Hence option C is correct.",
+                options: [
+                  {
+                    text: "a government officer prohibiting him from taking a particular action.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "the Parliament/Legislative Assembly to pass a law on Prohibition.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "the lower court prohibiting continuation of proceedings in a case.",
+                    isCorrect: true
+                  },
+                  {
+                    text: "the Government prohibiting it from following an unconstitutional policy.",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Consider the following statements : (1) It is the Governor of the State who recognizes and declares any community of that State as a Scheduled Tribe. (2) A community declared as a Scheduled Tribe in a State need not be so in another State. Which of the statements given above is/are correct?",
+                difficulty: "MEDIUM",
+                explanation: "Under Article 342, it is the President who specifies the tribes or tribal communities to be deemed Scheduled Tribes in relation to a State (in consultation with the Governor), and Parliament can include or exclude them; the Governor does not himself declare a community as an ST, so statement 1 is false. A community notified as a Scheduled Tribe in one State need not be one in another State (statement 2 true), because ST status is State/area specific. Hence only 2 is correct, giving option B.",
+                options: [
+                  {
+                    text: "1 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "2 only",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Both 1 and 2",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Neither 1 nor 2",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "With reference to Union Budget, consider the following statements : (1) The Union Finance Minister on behalf of the Prime Minister lays the Annual Financial Statement before both the Houses of Parliament. (2) At the Union level, no demand for a grant can be made except on the recommendation of the President of India. Which of the statements given above is/are correct?",
+                difficulty: "MEDIUM",
+                explanation: "Under Article 113(3), no demand for a grant can be made except on the recommendation of the President of India, so statement 2 is correct. As per the official key statement 1 is also treated as correct: the Annual Financial Statement (Budget) is presented in Parliament by the Union Finance Minister on behalf of the government headed by the Prime Minister. Both statements being correct, the answer is option C (Both 1 and 2).",
+                options: [
+                  {
+                    text: "1 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "2 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Both 1 and 2",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Neither 1 nor 2",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Who of the following is the author of the books \"The India Way\" and \"Why Bharat Matters\"?",
+                difficulty: "EASY",
+                explanation: "Both 'The India Way: Strategies for an Uncertain World' and 'Why Bharat Matters' were authored by Dr. Subrahmanyam Jaishankar, India's External Affairs Minister and a former Foreign Secretary. The books lay out his views on India's foreign policy and its rise on the global stage. Hence option D is correct.",
+                options: [
+                  {
+                    text: "Bhupender Yadav",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Nalin Mehta",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Shashi Tharoor",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Subrahmanyam Jaishankar",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Consider the following pairs, with columns Country and Reason for being in the news : 1. Argentina — Worst economic crisis ; 2. Sudan — War between the country's regular army and paramilitary forces ; 3. Turkey — Rescinded its membership of NATO. How many of the pairs given above are correctly matched?",
+                difficulty: "MEDIUM",
+                explanation: "Argentina was in the news for its severe economic crisis marked by very high inflation (pair 1 correct), and Sudan for the armed conflict between its regular army and the paramilitary Rapid Support Forces (pair 2 correct). Turkey did NOT rescind its NATO membership; it remains a NATO member (in fact it ratified Sweden's accession), so pair 3 is wrong. Hence only two pairs are correctly matched, giving option B.",
+                options: [
+                  {
+                    text: "Only one pair",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Only two pairs",
+                    isCorrect: true
+                  },
+                  {
+                    text: "All three pairs",
+                    isCorrect: false
+                  },
+                  {
+                    text: "None of the pairs",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Consider the following statements : Statement-I : Sumed pipeline is a strategic route for Persian Gulf oil and natural gas shipments to Europe. Statement-II : Sumed pipeline connects the Red Sea with the Mediterranean Sea. Which one of the following is correct in respect of the above statements?",
+                difficulty: "HARD",
+                explanation: "The SUMED (Suez-Mediterranean) pipeline runs across Egypt connecting Ain Sukhna on the Gulf of Suez/Red Sea to Sidi Kerir on the Mediterranean, providing an alternative to the Suez Canal for transporting Persian Gulf oil towards Europe (statement 1 correct). Statement 2, that it connects the Red Sea with the Mediterranean, is correct and directly explains why it serves as a strategic route for such shipments to Europe. Hence option A is correct as per the official key.",
+                options: [
+                  {
+                    text: "Both Statement-I and Statement-II are correct and Statement-II explains Statement-I",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Both Statement-I and Statement-II are correct, but Statement-II does not explain Statement-I",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Statement-I is correct, but Statement-II is incorrect",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Statement-I is incorrect, but Statement-II is correct",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Consider the following statements : (1) The Red Sea receives very little precipitation in any form. (2) No water enters the Red Sea from rivers. Which of the statements given above is/are correct?",
+                difficulty: "MEDIUM",
+                explanation: "The Red Sea lies in an arid zone and receives very little precipitation (statement 1 correct), and it has no permanent rivers draining into it (statement 2 correct). This lack of freshwater inflow, combined with high evaporation, is why the Red Sea is one of the most saline seas in the world. Hence both statements are correct, giving option C.",
+                options: [
+                  {
+                    text: "1 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "2 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Both 1 and 2",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Neither 1 nor 2",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "According to the Environmental Protection Agency (EPA), which one of the following is the largest source of sulphur dioxide emissions?",
+                difficulty: "MEDIUM",
+                explanation: "According to the US Environmental Protection Agency, the largest source of sulphur dioxide (SO2) emissions is the burning of fossil fuels (especially coal) by power plants and other industrial facilities. Sulphur present in the fuel oxidises to SO2 during combustion, making thermal power generation the dominant contributor. Hence option D is correct.",
+                options: [
+                  {
+                    text: "Locomotives using fossil fuels",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Ships using fossil fuels",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Extraction of metals from ores",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Power plants using fossil fuels",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Consider the following statements : Statement-I : There is instability and worsening security situation in the Sahel region. Statement-II : There have been military takeovers/coups d'état in several countries of the Sahel region in the recent past. Which one of the following is correct in respect of the above statements?",
+                difficulty: "MEDIUM",
+                explanation: "The Sahel region (belt south of the Sahara including Mali, Burkina Faso, Niger, Chad, Guinea) has indeed seen instability and a worsening security situation (statement 1 correct), driven partly by a wave of recent military takeovers and coups d'état in several of these countries (statement 2 correct). The spate of coups has weakened governance and fuelled jihadist insurgencies, so statement 2 correctly explains statement 1. Hence option A is correct.",
+                options: [
+                  {
+                    text: "Both Statement-I and Statement-II are correct and Statement-II explains Statement-I",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Both Statement-I and Statement-II are correct, but Statement-II does not explain Statement-I",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Statement-I is correct, but Statement-II is incorrect",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Statement-I is incorrect, but Statement-II is correct",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Consider the following statements : Statement-I : India does not import apples from the United States of America. Statement-II : In India, the law prohibits the import of Genetically Modified food without the approval of the competent authority. Which one of the following is correct in respect of the above statements?",
+                difficulty: "MEDIUM",
+                explanation: "Statement 1 is incorrect because India does import apples from the USA; in 2023 India removed the retaliatory tariffs it had imposed on US apples, and American (Washington) apples are available in Indian markets. Statement 2 is correct: Indian law requires prior approval of the competent authority (GEAC) before any genetically modified food can be imported. Hence statement I is incorrect but II is correct, giving option D.",
+                options: [
+                  {
+                    text: "Both Statement-I and Statement-II are correct and Statement-II explains Statement-I",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Both Statement-I and Statement-II are correct, but Statement-II does not explain Statement-I",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Statement-I is correct, but Statement-II is incorrect",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Statement-I is incorrect, but Statement-II is correct",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "With reference to the Speaker of the Lok Sabha, consider the following statements : While any resolution for the removal of the Speaker of the Lok Sabha is under consideration (1) He/She shall not preside. (2) He/She shall not have the right to speak. (3) He/She shall not be entitled to vote on the resolution in the first instance. Which of the statements given above is/are correct?",
+                difficulty: "HARD",
+                explanation: "Under Article 96, while a resolution for the removal of the Speaker is under consideration, the Speaker shall not preside over that sitting (statement 1 correct). However, he/she has the right to speak in and take part in the proceedings (so statement 2 is false), and is entitled to vote on the resolution in the first instance, though not in the case of an equality of votes (so statement 3 is false). Hence only statement 1 is correct, giving option A.",
+                options: [
+                  {
+                    text: "1 only",
+                    isCorrect: true
+                  },
+                  {
+                    text: "1 and 2 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "2 and 3 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1, 2 and 3",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "With reference to the Indian Parliament, consider the following statements : (1) A bill pending in the Lok Sabha lapses on its dissolution. (2) A bill passed by the Lok Sabha and pending in the Rajya Sabha lapses on the dissolution of the Lok Sabha. (3) A bill in regard to which the President of India notified his/her intention to summon the Houses to a joint sitting lapses on the dissolution of the Lok Sabha. Which of the statements given above is/are correct?",
+                difficulty: "MEDIUM",
+                explanation: "A bill pending in the Lok Sabha lapses on its dissolution (statement 1 correct), and a bill passed by the Lok Sabha but still pending in the Rajya Sabha also lapses on dissolution of the Lok Sabha (statement 2 correct). However, a bill in respect of which the President has notified an intention to summon a joint sitting does NOT lapse on dissolution, so statement 3 is false. Hence only 1 and 2 are correct, giving option B.",
+                options: [
+                  {
+                    text: "1 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1 and 2",
+                    isCorrect: true
+                  },
+                  {
+                    text: "2 and 3",
+                    isCorrect: false
+                  },
+                  {
+                    text: "3 only",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "With reference to the Parliament of India, consider the following statements : (1) Prorogation of a House by the President of India does not require the advice of the Council of Ministers. (2) Prorogation of a House is generally done after the House is adjourned sine die but there is no bar to the President of India prorogating the House which is in session. (3) Dissolution of the Lok Sabha is done by the President of India who, save in exceptional circumstances, does so on the advice of the Council of Ministers. Which of the statements given above is/are correct?",
+                difficulty: "HARD",
+                explanation: "Prorogation of a House is done by the President on the advice of the Council of Ministers, so statement 1 (that it does not require such advice) is false. Statement 2 is correct: prorogation is generally done after a House is adjourned sine die, but the President may also prorogue a House even while it is in session. Statement 3 is correct: the Lok Sabha is dissolved by the President who, save in exceptional circumstances, acts on the advice of the Council of Ministers. Hence only 2 and 3 are correct, giving option C.",
+                options: [
+                  {
+                    text: "1 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1 and 2",
+                    isCorrect: false
+                  },
+                  {
+                    text: "2 and 3",
+                    isCorrect: true
+                  },
+                  {
+                    text: "3 only",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Consider the following statements : Statement-I : The European Parliament approved The Net-Zero Industry Act recently. Statement-II : The European Union intends to achieve carbon neutrality by 2040 and therefore aims to develop all of its own clean technology by that time. Which one of the following is correct in respect of the above statements?",
+                difficulty: "HARD",
+                explanation: "Statement I is correct: the European Parliament approved the Net-Zero Industry Act, which aims to scale up manufacturing of clean/net-zero technologies within the EU. Statement II is incorrect: the EU's legally binding target for climate/carbon neutrality is 2050 (not 2040), and the Act sets a benchmark of producing about 40% of its clean-tech deployment needs domestically by 2030, not developing all of its own clean technology. Hence statement I is correct but II is incorrect, giving option C.",
+                options: [
+                  {
+                    text: "Both Statement-I and Statement-II are correct and Statement-II explains Statement-I",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Both Statement-I and Statement-II are correct, but Statement-II does not explain Statement-I",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Statement-I is correct, but Statement-II is incorrect",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Statement-I is incorrect, but Statement-II is correct",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Consider the following statements : Statement-I : Recently, Venezuela has achieved a rapid recovery from its economic crisis and succeeded in preventing its people from fleeing/emigrating to other countries. Statement-II : Venezuela has the world's largest oil reserves. Which one of the following is correct in respect of the above statements ?",
+                difficulty: "MEDIUM",
+                explanation: "Statement I is incorrect: Venezuela has not achieved a rapid recovery from its prolonged economic crisis, and large numbers of Venezuelans have continued to emigrate, making it one of the world's largest displacement situations. Statement II is correct: Venezuela holds the world's largest proven crude oil reserves. Hence statement I is incorrect but II is correct, giving option D.",
+                options: [
+                  {
+                    text: "Both Statement-I and Statement-II are correct and Statement-II explains Statement-I",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Both Statement-I and Statement-II are correct, but Statement-II does not explain Statement-I",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Statement-I is correct, but Statement-II is incorrect",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Statement-I is incorrect, but Statement-II is correct",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "With reference to the Digital India Land Records Modernisation Programme, consider the following statements : (1) To implement the scheme, the Central Government provides 100% funding. (2) Under the Scheme, Cadastral Maps are digitised. (3) An initiative has been undertaken to transliterate the Records of Rights from local language to any of the languages recognized by the Constitution of India. Which of the statements given above are correct ?",
+                difficulty: "MEDIUM",
+                explanation: "The Digital India Land Records Modernisation Programme (DILRMP) is a Central Sector scheme with 100% funding from the Central Government (statement 1 correct), under which cadastral (spatial) maps are digitised (statement 2 correct), and an initiative has been taken to transliterate the Records of Rights from local languages into the languages recognised in the Eighth Schedule of the Constitution (statement 3 correct). Hence all three statements are correct, giving option D.",
+                options: [
+                  {
+                    text: "1 and 2 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "2 and 3 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1 and 3 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1, 2 and 3",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "With reference to the 'Pradhan Mantri Surakshit Matritva Abhiyan', consider the following statements : (1) This scheme guarantees a minimum package of antenatal care services to women in their second and third trimesters of pregnancy and six months post-delivery health care service in any government health facility. (2) Under this scheme, private sector health care providers of certain specialities can volunteer to provide services at nearby government health facilities. Which of the statements given above is/are correct ?",
+                difficulty: "MEDIUM",
+                explanation: "Under the Pradhan Mantri Surakshit Matritva Abhiyan, private-sector specialists (such as gynaecologists and radiologists) can volunteer to provide free antenatal services at nearby government health facilities (statement 2 correct). Statement 1 is incorrect: PMSMA assures a fixed-day (9th of every month) free antenatal check-up to pregnant women in their second and third trimesters, but it does not guarantee six months of post-delivery health care as described. Hence only statement 2 is correct, giving option B.",
+                options: [
+                  {
+                    text: "1 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "2 only",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Both 1 and 2",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Neither 1 nor 2",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "With reference to the Pradhan Mantri Shram Yogi Maan-dhan (PM-SYM) Yojana, consider the following statements : (1) The entry age group for enrolment in the scheme is 21 to 40 years. (2) Age specific contribution shall be made by the beneficiary. (3) Each subscriber under the scheme shall receive a minimum pension of ₹ 3,000 per month after attaining the age of 60 years. (4) Family pension is applicable to the spouse and unmarried daughters. Which of the statements given above is/are correct ?",
+                difficulty: "MEDIUM",
+                explanation: "Under the PM Shram Yogi Maan-dhan (PM-SYM) pension scheme for unorganised workers, contributions are age-specific/graded (statement 2 correct) and each subscriber is assured a minimum pension of Rs 3,000 per month after attaining 60 years of age (statement 3 correct). Statement 1 is false because the entry age is 18 to 40 years (not 21 to 40), and statement 4 is false because on the subscriber's death the spouse gets a 50% family pension, but it does not extend to unmarried daughters. Hence only 2 and 3 are correct, giving option B.",
+                options: [
+                  {
+                    text: "1, 3 and 4",
+                    isCorrect: false
+                  },
+                  {
+                    text: "2 and 3 only",
+                    isCorrect: true
+                  },
+                  {
+                    text: "2 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1, 2 and 4",
+                    isCorrect: false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+];
+
 async function main() {
   // 1) Exam catalogue (single source of truth: src/lib/exams.ts).
   for (const [i, e] of examCatalogue.entries()) {
@@ -9358,7 +11620,7 @@ async function main() {
   // 2) Content — only seeds questions for a chapter that has none yet (preserves real attempts).
   let created = 0;
   let skipped = 0;
-  for (const ec of [...content, ...moreContent, ...wave3, ...wave4, ...wave5, ...wave6, ...wave7, ...wave8, ...wave9, ...wave10, ...wave11, ...wave12, ...wave13, ...wave14, ...wave15, ...wave16, ...wave17]) {
+  for (const ec of [...content, ...moreContent, ...wave3, ...wave4, ...wave5, ...wave6, ...wave7, ...wave8, ...wave9, ...wave10, ...wave11, ...wave12, ...wave13, ...wave14, ...wave15, ...wave16, ...wave17, ...wave18]) {
     const exam = await prisma.exam.findUniqueOrThrow({ where: { slug: ec.examSlug } });
     for (const [si, sc] of ec.subjects.entries()) {
       const subject = await prisma.subject.upsert({
@@ -9380,14 +11642,14 @@ async function main() {
 
         const test = await prisma.mockTest.upsert({
           where: { examId_slug: { examId: exam.id, slug: cc.test.slug } },
-          update: { title: cc.test.title, description: cc.test.description, totalMarks, durationMinutes: Math.max(5, qCount * 2), negativeMarking: cc.negative > 0 },
+          update: { title: cc.test.title, description: cc.test.description, totalMarks, durationMinutes: cc.testDuration ?? Math.max(5, qCount * 2), negativeMarking: cc.negative > 0 },
           create: {
             examId: exam.id,
             slug: cc.test.slug,
             title: cc.test.title,
             description: cc.test.description,
-            type: "CHAPTER",
-            durationMinutes: Math.max(5, qCount * 2),
+            type: cc.testType ?? "CHAPTER",
+            durationMinutes: cc.testDuration ?? Math.max(5, qCount * 2),
             totalMarks,
             negativeMarking: cc.negative > 0,
             isFree: true,

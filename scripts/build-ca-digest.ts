@@ -17,14 +17,20 @@ import { PrismaClient } from "../src/generated/prisma/client";
 // Run AFTER fetch-current-affairs.ts, once a day via cron on the VPS:
 //   30 6 * * *  cd /root/padhodost && npx tsx scripts/build-ca-digest.ts >> /root/ca-digest.log 2>&1
 //
-// Requires in .env:  ANTHROPIC_API_KEY=...   (optional: CA_DIGEST_MODEL=...)
+// Requires in .env:  OPENROUTER_API_KEY=...  (free tier)  OR  ANTHROPIC_API_KEY=...
+//                    (optional: CA_DIGEST_MODEL=...  to choose the model)
 // ─────────────────────────────────────────────────────────────────────────────
 
 const prisma = new PrismaClient({ adapter: new PrismaPg({ connectionString: process.env.DIRECT_URL }) });
 
-// Defaults to the most capable model. Override per-deployment if you want to
-// trade quality for cost — that is a judgement call for whoever pays the bill.
-const MODEL = process.env.CA_DIGEST_MODEL ?? "claude-opus-4-8";
+// Provider is chosen by which key is present: OpenRouter's free tier if
+// OPENROUTER_API_KEY is set (₹0/day), otherwise Anthropic. Free OpenRouter
+// model IDs rotate often — set CA_DIGEST_MODEL to a current one you pick from
+// openrouter.ai/models (filter to "Free").
+const USE_OPENROUTER = !!process.env.OPENROUTER_API_KEY;
+const MODEL =
+  process.env.CA_DIGEST_MODEL ??
+  (USE_OPENROUTER ? "google/gemini-2.0-flash-exp:free" : "claude-opus-4-8");
 
 const CATEGORIES = [
   "Appointments",
@@ -146,14 +152,103 @@ RULES:
    one or two sentences.
 8. Write for a student whose English is a second language: short sentences, plain words, no idioms.`;
 
+// ── Provider dispatch ────────────────────────────────────────────────────────
+// Both providers return the model's raw JSON text plus a normalised model/usage
+// record; the parsing + validation in main() is provider-agnostic. Anthropic
+// enforces the JSON shape via structured outputs; for OpenRouter (arbitrary free
+// models) we instruct the shape in the prompt and parse defensively.
+
+type Generated = { text: string; model: string; usage: { input: number; output: number } };
+
+const JSON_SHAPE = `Return ONLY one JSON object — no markdown fences, no text before or after it — with exactly this shape:
+{"intro": string,
+ "facts": [{"category": one of [${CATEGORIES.map((c) => `"${c}"`).join(", ")}], "headline": string, "detail": string, "staticLink": string, "sourceIndex": integer}],
+ "quiz": [{"text": string, "options": [string, string, string, string], "correctIndex": 0|1|2|3, "explanation": string}]}
+Use "staticLink": "" when no static-GK hook applies. Return {"intro": "...", "facts": [], "quiz": []} if nothing is exam-relevant.`;
+
+// Pull the JSON object out of a model reply that may be fenced or wrapped in prose.
+function extractJson(s: string): string {
+  const fenced = s.match(/```(?:json)?\s*([\s\S]*?)```/i);
+  const body = (fenced ? fenced[1] : s).trim();
+  if (body.startsWith("{")) return body;
+  const start = body.indexOf("{");
+  const end = body.lastIndexOf("}");
+  return start >= 0 && end > start ? body.slice(start, end + 1) : body;
+}
+
+async function viaOpenRouter(system: string, user: string): Promise<Generated> {
+  const res = await fetch("https://openrouter.ai/api/v1/chat/completions", {
+    method: "POST",
+    headers: {
+      Authorization: `Bearer ${process.env.OPENROUTER_API_KEY}`,
+      "Content-Type": "application/json",
+      "HTTP-Referer": "https://padhodost.com",
+      "X-Title": "PadhoDost CA Digest",
+    },
+    body: JSON.stringify({
+      model: MODEL,
+      temperature: 0.3,
+      max_tokens: 8000,
+      messages: [
+        { role: "system", content: `${system}\n\n${JSON_SHAPE}` },
+        { role: "user", content: user },
+      ],
+    }),
+  });
+  if (!res.ok) throw new Error(`OpenRouter ${res.status}: ${(await res.text()).slice(0, 400)}`);
+  const data = (await res.json()) as {
+    model?: string;
+    choices?: { message?: { content?: string } }[];
+    usage?: { prompt_tokens?: number; completion_tokens?: number };
+    error?: { message?: string };
+  };
+  if (data.error) throw new Error(`OpenRouter error: ${data.error.message}`);
+  const content = data.choices?.[0]?.message?.content;
+  if (!content) throw new Error(`OpenRouter returned no content: ${JSON.stringify(data).slice(0, 300)}`);
+  return {
+    text: extractJson(content),
+    model: data.model ?? MODEL,
+    usage: { input: data.usage?.prompt_tokens ?? 0, output: data.usage?.completion_tokens ?? 0 },
+  };
+}
+
+async function viaAnthropic(system: string, user: string): Promise<Generated> {
+  const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY! });
+  // Adaptive thinking + `effort` exist only on the 4.6+/5 families; Haiku 4.5 and
+  // older models reject them with a 400. Structured output works everywhere.
+  const supportsAdaptive = !/haiku|claude-3|sonnet-4-5/i.test(MODEL);
+  const response = await client.messages.create({
+    model: MODEL,
+    max_tokens: 16000,
+    system,
+    ...(supportsAdaptive ? { thinking: { type: "adaptive" as const } } : {}),
+    output_config: {
+      ...(supportsAdaptive ? { effort: "high" as const } : {}),
+      format: { type: "json_schema", schema: DIGEST_SCHEMA },
+    },
+    messages: [{ role: "user", content: user }],
+  });
+  if (response.stop_reason === "refusal") {
+    throw new Error(`Anthropic declined: ${JSON.stringify(response.stop_details)}`);
+  }
+  const textBlock = response.content.find((b) => b.type === "text");
+  if (!textBlock || textBlock.type !== "text") {
+    throw new Error(`No text block — got: ${response.content.map((b) => b.type).join(", ")}`);
+  }
+  return {
+    text: textBlock.text,
+    model: response.model,
+    usage: { input: response.usage.input_tokens, output: response.usage.output_tokens },
+  };
+}
+
 function istDayKey(): string {
   return new Date(Date.now() + 5.5 * 3600_000).toISOString().slice(0, 10);
 }
 
 async function main() {
-  const apiKey = process.env.ANTHROPIC_API_KEY;
-  if (!apiKey) {
-    console.error("ANTHROPIC_API_KEY not set in .env — skipping digest build.");
+  if (!USE_OPENROUTER && !process.env.ANTHROPIC_API_KEY) {
+    console.error("Set OPENROUTER_API_KEY (free tier) or ANTHROPIC_API_KEY in .env — skipping digest build.");
     process.exit(1);
   }
 
@@ -180,43 +275,22 @@ async function main() {
     .map((r, i) => `[${i}] ${r.title}${r.summary ? `\n    ${r.summary}` : ""}\n    — ${r.source ?? "unknown source"}`)
     .join("\n\n");
 
-  const client = new Anthropic({ apiKey });
+  const userPrompt = `Today is ${dayKey} (IST). Here are today's raw news items as source material:\n\n${sourceBlock}\n\nWrite the exam-format current-affairs digest for this day. Aim for up to 10 facts and up to 5 quiz questions, but include only genuinely exam-relevant items — discard the rest.`;
 
-  const response = await client.messages.create({
-    model: MODEL,
-    max_tokens: 16000,
-    system: SYSTEM,
-    thinking: { type: "adaptive" },
-    output_config: {
-      effort: "high",
-      format: { type: "json_schema", schema: DIGEST_SCHEMA },
-    },
-    messages: [
-      {
-        role: "user",
-        content: `Today is ${dayKey} (IST). Here are today's raw news items as source material:\n\n${sourceBlock}\n\nWrite the exam-format current-affairs digest for this day. Aim for up to 10 facts and up to 5 quiz questions, but include only genuinely exam-relevant items — discard the rest.`,
-      },
-    ],
-  });
-
-  if (response.stop_reason === "refusal") {
-    console.error("Model declined to produce the digest:", response.stop_details);
-    process.exitCode = 1;
-    return;
-  }
-
-  const textBlock = response.content.find((b) => b.type === "text");
-  if (!textBlock || textBlock.type !== "text") {
-    console.error("No text block in response — got:", response.content.map((b) => b.type).join(", "));
+  let generated: Generated;
+  try {
+    generated = USE_OPENROUTER ? await viaOpenRouter(SYSTEM, userPrompt) : await viaAnthropic(SYSTEM, userPrompt);
+  } catch (e) {
+    console.error("Model call failed:", e instanceof Error ? e.message : e);
     process.exitCode = 1;
     return;
   }
 
   let digest: Digest;
   try {
-    digest = JSON.parse(textBlock.text) as Digest;
+    digest = JSON.parse(generated.text) as Digest;
   } catch (e) {
-    console.error("Response was not valid JSON:", e);
+    console.error("Response was not valid JSON:", e instanceof Error ? e.message : e, "\n---\n", generated.text.slice(0, 500));
     process.exitCode = 1;
     return;
   }
@@ -247,7 +321,7 @@ async function main() {
     data: {
       day,
       intro: digest.intro?.trim() || `Current affairs for ${dayKey}.`,
-      model: response.model,
+      model: generated.model,
       facts: {
         create: facts.map((f, i) => {
           const src = raw[f.sourceIndex];
@@ -274,10 +348,9 @@ async function main() {
     },
   });
 
-  const u = response.usage;
   console.log(
     `[${new Date().toISOString()}] ca-digest ${dayKey}: ${facts.length} facts, ${quiz.length} quiz Q ` +
-      `from ${raw.length} raw items (${response.model}; in ${u.input_tokens} / out ${u.output_tokens} tokens).`,
+      `from ${raw.length} raw items (${generated.model}; in ${generated.usage.input} / out ${generated.usage.output} tokens).`,
   );
 }
 

@@ -5,6 +5,8 @@ import { SiteHeader, SiteFooter } from "@/components/SiteChrome";
 import JsonLd from "@/components/JsonLd";
 import { AdScript } from "@/components/Ads";
 import Analytics from "@/components/Analytics";
+import TopProgressBar from "@/components/TopProgressBar";
+import InstallPrompt from "@/components/InstallPrompt";
 
 const adsenseClient = process.env.NEXT_PUBLIC_ADSENSE_CLIENT;
 
@@ -105,9 +107,11 @@ export default function RootLayout({
         <JsonLd data={siteJsonLd} />
         <Analytics />
         <AdScript />
+        <TopProgressBar />
         <SiteHeader />
         <main className="flex-1">{children}</main>
         <SiteFooter />
+        <InstallPrompt />
       </body>
     </html>
   );

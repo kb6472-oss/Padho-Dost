@@ -16,8 +16,10 @@ export default function manifest(): MetadataRoute.Manifest {
     lang: "en-IN",
     categories: ["education"],
     icons: [
-      { src: "/logo.svg", sizes: "any", type: "image/svg+xml", purpose: "any" },
-      { src: "/logo.svg", sizes: "any", type: "image/svg+xml", purpose: "maskable" },
+      { src: "/app-icon/192", sizes: "192x192", type: "image/png", purpose: "any" },
+      { src: "/app-icon/512", sizes: "512x512", type: "image/png", purpose: "any" },
+      { src: "/app-icon/512", sizes: "512x512", type: "image/png", purpose: "maskable" },
+      { src: "/logo.svg", sizes: "any", type: "image/svg+xml" },
     ],
   };
 }

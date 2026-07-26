@@ -30,7 +30,7 @@ const prisma = new PrismaClient({ adapter: new PrismaPg({ connectionString: proc
 const USE_OPENROUTER = !!process.env.OPENROUTER_API_KEY;
 const MODEL =
   process.env.CA_DIGEST_MODEL ??
-  (USE_OPENROUTER ? "google/gemini-2.0-flash-exp:free" : "claude-opus-4-8");
+  (USE_OPENROUTER ? "google/gemma-4-26b-a4b-it:free" : "claude-opus-4-8");
 
 const CATEGORIES = [
   "Appointments",

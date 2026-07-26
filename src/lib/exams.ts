@@ -98,6 +98,15 @@ export const exams: Exam[] = [
     chip: "bg-teal-100 text-teal-700",
   },
   {
+    slug: "wbcs",
+    name: "WBCS (West Bengal)",
+    short: "WBCS",
+    emoji: "🐅",
+    blurb: "West Bengal Civil Service Prelims — WB history, geography & GS, with a Bengal focus.",
+    status: "live",
+    chip: "bg-orange-100 text-orange-700",
+  },
+  {
     slug: "state-boards",
     name: "State Boards",
     short: "State Boards",

@@ -155,6 +155,43 @@ export const examIntros: ExamIntro[] = [
       { q: "Is Class 12 practice on PadhoDost free?", a: "Yes. All Class 12 chapter-wise tests, subject mocks and explainers on PadhoDost are free, aligned to the latest CBSE syllabus, with step-by-step solutions and no paywall." },
     ],
   },
+  {
+    examSlug: "wbcs",
+    heading: "WBCS: West Bengal's Gateway to a State Civil Service Career",
+    paragraphs: [
+      "The West Bengal Civil Service (WBCS) Examination, conducted by the West Bengal Public Service Commission (WBPSC), recruits officers for the state's Group A, B, C and D services — including WBCS (Executive), the West Bengal Police Service and other administrative posts. It is the most sought-after state-level exam in West Bengal, drawing lakhs of graduates every year.",
+      "The examination has three stages: a Preliminary objective screening test, a descriptive Main examination, and a final Personality Test (interview). The Preliminary is a single 200-mark paper of 200 multiple-choice questions in two and a half hours, spanning English, general science, current events, Indian history and the national movement, geography with special reference to West Bengal, Indian polity and economy, and general mental ability — with one-third negative marking.",
+      "On PadhoDost you can practise free WBCS Prelims questions chapter by chapter, with a strong West Bengal focus — the Bengal Renaissance and the freedom movement, the geography of West Bengal, and the state-specific static GK an examiner actually tests — alongside national polity, history, geography and science. Every question comes with a full solution, and it is all free with no paywall.",
+    ],
+    pattern: [
+      { label: "Conducting body", value: "West Bengal PSC (WBPSC)" },
+      { label: "Prelims", value: "200 questions · 200 marks · 2½ hours" },
+      { label: "Marking", value: "+1 correct, −1/3 wrong" },
+      { label: "Stages", value: "Prelims → Mains → Personality Test" },
+      { label: "Language", value: "Must read & write Bengali (Nepali exempt)" },
+    ],
+    topics: [
+      "West Bengal — history & culture (Bengal Renaissance, reformers, the freedom movement)",
+      "Geography of West Bengal (rivers, districts, Sundarbans) and of India",
+      "Indian History — ancient, medieval, modern and the national movement",
+      "Indian Polity & Governance and the Indian Economy",
+      "General Science, General Mental Ability (reasoning) and English composition",
+    ],
+    tips: [
+      "Give the West Bengal-specific portions serious attention — WB history, geography and static GK are where WBCS differs from a national exam, and they are scoring.",
+      "Build your base on NCERTs for history, geography, polity and science, then layer West Bengal material on top.",
+      "Follow current affairs daily and revise the last 6–12 months — the Prelims has a dedicated current-events section.",
+      "Practise under the one-third negative-marking rule: attempt only what you are reasonably sure of, because wrong answers cost you.",
+    ],
+    faqs: [
+      { q: "Who conducts the WBCS exam and who is eligible?", a: "The West Bengal Public Service Commission (WBPSC) conducts it. A bachelor's degree in any discipline is required, and candidates must be able to read, write and speak Bengali (except those whose mother tongue is Nepali). The age limit is generally 21 to 36 years for the general category, varying by service group, with relaxations for reserved categories." },
+      { q: "What are the stages of the WBCS exam?", a: "Three: the Preliminary examination (an objective screening test), the Main examination (written and descriptive), and a final Personality Test or interview. Preliminary marks are only for screening and are not added to the final merit." },
+      { q: "What is the WBCS Preliminary exam pattern?", a: "One paper of 200 multiple-choice questions for 200 marks in two and a half hours, covering English composition, general science, current events, Indian history, the national movement, geography (with special reference to West Bengal), Indian polity and economy, and general mental ability. Each wrong answer deducts one-third of a mark." },
+      { q: "Is knowledge of Bengali required for WBCS?", a: "Yes — candidates must be able to read, write and speak Bengali, with the only exception being those whose mother tongue is Nepali. Much of the preparation and the Prelims itself can still be done in English." },
+      { q: "How is WBCS preparation different from UPSC or SSC?", a: "The syllabus overlaps heavily with national general studies, but WBCS adds a substantial West Bengal layer — the history, geography, culture and static GK of the state. That WB-specific portion is the main thing to prepare on top of standard GS." },
+      { q: "Is WBCS practice on PadhoDost free?", a: "Yes. All WBCS Prelims practice on PadhoDost is completely free, chapter-wise with full solutions, and with no paywall or sign-up wall." },
+    ],
+  },
 ];
 
 export const getExamIntro = (slug: string) => examIntros.find((e) => e.examSlug === slug);

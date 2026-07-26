@@ -4989,6 +4989,4358 @@ const wave16: ExamContent[] = [
   },
 ];
 
+const wave17: ExamContent[] = [
+  {
+    examSlug: "wbcs",
+    subjects: [
+      {
+        slug: "west-bengal-history-culture",
+        name: "West Bengal — History & Culture",
+        chapters: [
+          {
+            slug: "bengal-renaissance",
+            name: "Bengal Renaissance & Reformers",
+            marks: 1,
+            negative: 0.33,
+            test: {
+              slug: "wbcs-bengal-renaissance-practice-1",
+              title: "Bengal Renaissance & Reformers — Practice Test",
+              description: "15 WBCS-style questions on Bengal Renaissance & Reformers. +1 correct, −1/3 wrong."
+            },
+            questions: [
+              {
+                text: "Who founded the Brahmo Samaj (initially the Brahmo Sabha) in Calcutta in 1828 to promote monotheism and social reform?",
+                difficulty: "EASY",
+                explanation: "Raja Ram Mohan Roy founded the Brahmo Sabha, later known as the Brahmo Samaj, in Calcutta in 1828, making him the pioneer of the Bengal Renaissance.",
+                options: [
+                  {
+                    text: "Raja Ram Mohan Roy",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Ishwar Chandra Vidyasagar",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Debendranath Tagore",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Keshab Chandra Sen",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The practice of Sati was legally abolished by a regulation of 1829 passed during the tenure of which Governor-General?",
+                difficulty: "EASY",
+                explanation: "The Bengal Sati Regulation of 1829 was enacted under Governor-General Lord William Bentinck, largely because of Raja Ram Mohan Roy's sustained campaign.",
+                options: [
+                  {
+                    text: "Lord William Bentinck",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Lord Cornwallis",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Lord Dalhousie",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Lord Canning",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The song 'Vande Mataram' was written by which Bengali author, who later included it in his novel Anandamath?",
+                difficulty: "EASY",
+                explanation: "Bankim Chandra Chattopadhyay composed 'Vande Mataram' and placed it in his 1882 novel Anandamath, and it went on to become a national song.",
+                options: [
+                  {
+                    text: "Bankim Chandra Chattopadhyay",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Rabindranath Tagore",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Michael Madhusudan Dutt",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Sarat Chandra Chattopadhyay",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Rabindranath Tagore was awarded the Nobel Prize in Literature in 1913 for which work?",
+                difficulty: "EASY",
+                explanation: "Tagore received the 1913 Nobel Prize in Literature for Gitanjali (Song Offerings), becoming the first Asian to win a Nobel Prize.",
+                options: [
+                  {
+                    text: "Gitanjali",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Gora",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Ghare Baire",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Chokher Bali",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Ishwar Chandra Vidyasagar's reform campaign was chiefly responsible for the passing of which landmark law?",
+                difficulty: "MEDIUM",
+                explanation: "Vidyasagar's efforts led to the Hindu Widows' Remarriage Act of 1856, which legalised the remarriage of Hindu widows.",
+                options: [
+                  {
+                    text: "The Hindu Widows' Remarriage Act, 1856",
+                    isCorrect: true
+                  },
+                  {
+                    text: "The Bengal Sati Regulation, 1829",
+                    isCorrect: false
+                  },
+                  {
+                    text: "The Age of Consent Act, 1891",
+                    isCorrect: false
+                  },
+                  {
+                    text: "The Child Marriage Restraint Act, 1929",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Henry Louis Vivian Derozio, the radical teacher who inspired the 'Young Bengal' movement, taught at which Calcutta institution?",
+                difficulty: "MEDIUM",
+                explanation: "Derozio taught English literature at Hindu College, Calcutta, where his free-thinking students became known as the Derozians or Young Bengal.",
+                options: [
+                  {
+                    text: "Hindu College, Calcutta",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Sanskrit College, Calcutta",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Fort William College",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Serampore College",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Swami Vivekananda achieved international fame after his address at the 1893 Parliament of the World's Religions, held in which city?",
+                difficulty: "MEDIUM",
+                explanation: "Vivekananda represented Hinduism at the Parliament of the World's Religions in Chicago in 1893, where his opening address won wide acclaim.",
+                options: [
+                  {
+                    text: "Chicago",
+                    isCorrect: true
+                  },
+                  {
+                    text: "London",
+                    isCorrect: false
+                  },
+                  {
+                    text: "New York",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Boston",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Ramakrishna Paramhansa, the spiritual guru of Swami Vivekananda, served as a priest at which temple built by Rani Rashmoni on the banks of the Hooghly?",
+                difficulty: "MEDIUM",
+                explanation: "Ramakrishna was the priest of the Dakshineswar Kali Temple, established by Rani Rashmoni in 1855 near Calcutta.",
+                options: [
+                  {
+                    text: "Dakshineswar Kali Temple",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Kalighat Kali Temple",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Tarakeswar Temple",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Belur Math",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Ishwar Chandra Vidyasagar was born in Birsingha village, which lies in which present-day district of West Bengal?",
+                difficulty: "MEDIUM",
+                explanation: "Vidyasagar was born in 1820 in Birsingha village in the Ghatal region of present-day Paschim Medinipur (West Midnapore) district.",
+                options: [
+                  {
+                    text: "Paschim Medinipur (West Midnapore)",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Hooghly",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Birbhum",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Bardhaman",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Raja Ram Mohan Roy, who was born at Radhanagar in Hooghly district, died in 1833 in which city while on a mission abroad?",
+                difficulty: "MEDIUM",
+                explanation: "Ram Mohan Roy died at Bristol, England, in 1833 and is buried at Arnos Vale Cemetery there.",
+                options: [
+                  {
+                    text: "Bristol, England",
+                    isCorrect: true
+                  },
+                  {
+                    text: "London, England",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Paris, France",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Calcutta, India",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Bankim Chandra Chattopadhyay, the author of 'Vande Mataram', is noted as one of the first two graduates (in 1858) of which university?",
+                difficulty: "MEDIUM",
+                explanation: "Bankim Chandra Chattopadhyay was among the first two graduates of the University of Calcutta, taking his degree in 1858.",
+                options: [
+                  {
+                    text: "University of Calcutta",
+                    isCorrect: true
+                  },
+                  {
+                    text: "University of Bombay",
+                    isCorrect: false
+                  },
+                  {
+                    text: "University of Madras",
+                    isCorrect: false
+                  },
+                  {
+                    text: "University of Dhaka",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Rabindranath Tagore founded which institution at Santiniketan in Birbhum district, which later grew into a renowned central university?",
+                difficulty: "MEDIUM",
+                explanation: "Tagore established Visva-Bharati at Santiniketan, developing it into a major centre of learning that later became a central university.",
+                options: [
+                  {
+                    text: "Visva-Bharati",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Jadavpur University",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Presidency College",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Scottish Church College",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Raja Ram Mohan Roy started which Bengali weekly newspaper in 1821 to propagate his reformist and rationalist ideas?",
+                difficulty: "HARD",
+                explanation: "Ram Mohan Roy launched the Bengali weekly Sambad Kaumudi in 1821; he also brought out the Persian journal Mirat-ul-Akhbar.",
+                options: [
+                  {
+                    text: "Sambad Kaumudi",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Samachar Darpan",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Bengal Gazette",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Somprakash",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Before founding the Brahmo Sabha, Raja Ram Mohan Roy had established which earlier association in 1815 for discussions on monotheism and social questions?",
+                difficulty: "HARD",
+                explanation: "Ram Mohan Roy founded the Atmiya Sabha ('Society of Friends') in Calcutta in 1815, an early forum for his religious and social ideas.",
+                options: [
+                  {
+                    text: "Atmiya Sabha",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Tattwabodhini Sabha",
+                    isCorrect: false
+                  },
+                  {
+                    text: "British Indian Association",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Sadharan Brahmo Samaj",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "In 1866 the Brahmo Samaj split when a breakaway faction, the 'Brahmo Samaj of India', was formed under the leadership of which reformer?",
+                difficulty: "HARD",
+                explanation: "Keshab Chandra Sen broke away from Debendranath Tagore's Adi Brahmo Samaj in 1866 to found the Brahmo Samaj of India.",
+                options: [
+                  {
+                    text: "Keshab Chandra Sen",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Debendranath Tagore",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Dwarkanath Tagore",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Ishwar Chandra Vidyasagar",
+                    isCorrect: false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            slug: "bengal-freedom-movement",
+            name: "Bengal in the Freedom Movement",
+            marks: 1,
+            negative: 0.33,
+            test: {
+              slug: "wbcs-bengal-freedom-movement-practice-1",
+              title: "Bengal in the Freedom Movement — Practice Test",
+              description: "15 WBCS-style questions on Bengal in the Freedom Movement. +1 correct, −1/3 wrong."
+            },
+            questions: [
+              {
+                text: "The Partition of Bengal, which came into effect in 1905 and triggered the Swadeshi Movement, was carried out during the viceroyalty of which British official?",
+                difficulty: "EASY",
+                explanation: "Lord Curzon, as Viceroy of India, announced and implemented the Partition of Bengal, effective 16 October 1905, on the stated ground of administrative convenience.",
+                options: [
+                  {
+                    text: "Lord Curzon",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Lord Minto",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Lord Hardinge",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Lord Dufferin",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The song 'Amar Sonar Bangla', written during the anti-partition agitation and later adopted as the national anthem of Bangladesh, was composed by whom?",
+                difficulty: "EASY",
+                explanation: "Rabindranath Tagore composed 'Amar Sonar Bangla' during the 1905 Swadeshi agitation against the Partition of Bengal.",
+                options: [
+                  {
+                    text: "Rabindranath Tagore",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Bankim Chandra Chattopadhyay",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Dwijendralal Ray",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Rajanikanta Sen",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The Chittagong Armoury Raid of 1930 was planned and led by which revolutionary, popularly known as 'Masterda'?",
+                difficulty: "EASY",
+                explanation: "Surya Sen, a schoolteacher nicknamed 'Masterda', led the group that raided the Chittagong armouries in April 1930.",
+                options: [
+                  {
+                    text: "Surya Sen",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Bagha Jatin",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Barindra Kumar Ghosh",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Pulin Behari Das",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "In 1908 a teenage revolutionary threw a bomb at Muzaffarpur intending to kill Magistrate Douglas Kingsford but instead killed two English women; hanged the same year, he is remembered as one of the youngest martyrs of the movement. Who was he?",
+                difficulty: "EASY",
+                explanation: "Khudiram Bose, aged 18, was hanged in 1908 for the Muzaffarpur bombing that was aimed at Kingsford; his accomplice Prafulla Chaki shot himself to avoid arrest.",
+                options: [
+                  {
+                    text: "Khudiram Bose",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Prafulla Chaki",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Bagha Jatin",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Kanailal Dutta",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The Partition of Bengal was annulled in 1911. This announcement, together with the transfer of British India's capital from Calcutta to Delhi, was made at the Delhi Durbar by which monarch?",
+                difficulty: "MEDIUM",
+                explanation: "King George V announced the annulment of the partition and the shift of the capital to Delhi at the Delhi Durbar of 1911.",
+                options: [
+                  {
+                    text: "King George V",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Queen Victoria",
+                    isCorrect: false
+                  },
+                  {
+                    text: "King Edward VII",
+                    isCorrect: false
+                  },
+                  {
+                    text: "King George VI",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The revolutionary Jatindranath Mukherjee, known as 'Bagha Jatin', was fatally wounded in a 1915 gunfight with police on the banks of which river near Balasore?",
+                difficulty: "MEDIUM",
+                explanation: "Bagha Jatin died after the armed encounter at the Buribalam (Burha Balang) river near Balasore in September 1915.",
+                options: [
+                  {
+                    text: "Buribalam",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Subarnarekha",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Rupnarayan",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Damodar",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "In the 1930 Writers' Building attack in Calcutta, the trio Binoy, Badal and Dinesh shot dead N.S. Simpson, who held which office?",
+                difficulty: "MEDIUM",
+                explanation: "The three revolutionaries killed Colonel N.S. Simpson, the Inspector General of Prisons, notorious for oppression of political prisoners; Dalhousie Square was later renamed B.B.D. Bagh in their honour.",
+                options: [
+                  {
+                    text: "Inspector General of Prisons",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Police Commissioner of Calcutta",
+                    isCorrect: false
+                  },
+                  {
+                    text: "District Magistrate of Dacca",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Governor of Bengal",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The Anushilan Samiti, one of Bengal's earliest revolutionary societies, was founded in Calcutta in 1902. Who served as its first president?",
+                difficulty: "MEDIUM",
+                explanation: "The barrister Pramatha Nath Mitra (P. Mitra) was the first president of the Anushilan Samiti, which was organisationally founded by Satish Chandra Basu.",
+                options: [
+                  {
+                    text: "Pramatha Nath Mitra",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Barindra Kumar Ghosh",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Rash Behari Bose",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Surya Sen",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "During the Swadeshi Movement, the National Council of Education (1906) established the Bengal National College. Who was appointed its first principal?",
+                difficulty: "MEDIUM",
+                explanation: "Aurobindo Ghosh became the first principal of the Bengal National College, set up as part of the Swadeshi emphasis on national education.",
+                options: [
+                  {
+                    text: "Aurobindo Ghosh",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Satish Chandra Mukherjee",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Ashutosh Mukherjee",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Rabindranath Tagore",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "After resigning as Congress President in 1939, Subhas Chandra Bose founded which political organisation within the Indian National Congress?",
+                difficulty: "MEDIUM",
+                explanation: "Subhas Chandra Bose founded the All India Forward Bloc in May 1939 after resigning the Congress presidency following the Tripuri session.",
+                options: [
+                  {
+                    text: "All India Forward Bloc",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Swaraj Party",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Congress Socialist Party",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Indian National Army",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The Provisional Government of Free India (Arzi Hukumat-e-Azad Hind), headed by Subhas Chandra Bose, was proclaimed in 1943 in which city?",
+                difficulty: "MEDIUM",
+                explanation: "Bose proclaimed the Provisional Government of Azad Hind in Singapore in October 1943, shortly after taking charge of the Indian National Army.",
+                options: [
+                  {
+                    text: "Singapore",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Rangoon",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Tokyo",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Berlin",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The women's regiment of the Indian National Army, the Rani of Jhansi Regiment, was commanded by whom?",
+                difficulty: "MEDIUM",
+                explanation: "Captain Lakshmi Sahgal (née Swaminathan) commanded the Rani of Jhansi Regiment, the all-women unit of the INA.",
+                options: [
+                  {
+                    text: "Lakshmi Sahgal",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Bina Das",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Aruna Asaf Ali",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Sarojini Naidu",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The Dhaka Anushilan Samiti, which grew into a major centre of revolutionary activity in eastern Bengal, was founded in 1906 by whom?",
+                difficulty: "HARD",
+                explanation: "Pulin Behari Das founded the Dhaka branch of the Anushilan Samiti in 1906, developing it into a formidable revolutionary network.",
+                options: [
+                  {
+                    text: "Pulin Behari Das",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Barindra Kumar Ghosh",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Jatindranath Mukherjee",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Ullaskar Dutta",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "In the Alipore Bomb Case (1908), the accused Aurobindo Ghosh was defended and eventually acquitted largely through the courtroom efforts of which lawyer?",
+                difficulty: "HARD",
+                explanation: "Chittaranjan Das (C.R. Das) led the defence of Aurobindo Ghosh in the Alipore Bomb Case, securing his acquittal.",
+                options: [
+                  {
+                    text: "Chittaranjan Das",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Bhulabhai Desai",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Motilal Nehru",
+                    isCorrect: false
+                  },
+                  {
+                    text: "W.C. Bonnerjee",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "During the Alipore Bomb Case, two revolutionaries shot dead the approver Narendranath Goswami inside Alipore Jail; one of them, hanged in 1908, was:",
+                difficulty: "HARD",
+                explanation: "Kanailal Dutta, together with Satyendranath Bose, shot the approver Narendranath Goswami inside Alipore Jail; both were hanged in 1908.",
+                options: [
+                  {
+                    text: "Kanailal Dutta",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Prafulla Chaki",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Ullaskar Dutta",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Barindra Kumar Ghosh",
+                    isCorrect: false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        slug: "west-bengal-geography",
+        name: "West Bengal — Geography",
+        chapters: [
+          {
+            slug: "wb-geography",
+            name: "Geography of West Bengal",
+            marks: 1,
+            negative: 0.33,
+            test: {
+              slug: "wbcs-wb-geography-practice-1",
+              title: "Geography of West Bengal — Practice Test",
+              description: "15 WBCS-style questions on Geography of West Bengal. +1 correct, −1/3 wrong."
+            },
+            questions: [
+              {
+                text: "Which river of West Bengal is historically nicknamed the 'Sorrow of Bengal' because of its recurrent devastating floods?",
+                difficulty: "EASY",
+                explanation: "The Damodar was long called the 'Sorrow of Bengal' for its destructive floods, until the Damodar Valley Corporation's dams brought it under control.",
+                options: [
+                  {
+                    text: "Damodar",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Teesta",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Hooghly",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Mahananda",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "What is the highest point in West Bengal, a famous trekking spot offering views of Everest and Kanchenjunga?",
+                difficulty: "EASY",
+                explanation: "Sandakphu, at about 3,636 metres, is the highest point of West Bengal; Phalut is the state's second-highest point.",
+                options: [
+                  {
+                    text: "Sandakphu",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Phalut",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Tiger Hill",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Darjeeling town",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The Sundarbans of West Bengal are especially famous as the natural habitat of which animal?",
+                difficulty: "EASY",
+                explanation: "The Sundarbans mangrove delta is the celebrated home of the Royal Bengal Tiger.",
+                options: [
+                  {
+                    text: "Royal Bengal Tiger",
+                    isCorrect: true
+                  },
+                  {
+                    text: "One-horned rhinoceros",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Asiatic lion",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Snow leopard",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The hilly Darjeeling region of West Bengal is world-renowned for the cultivation of which crop?",
+                difficulty: "EASY",
+                explanation: "Darjeeling's cool, misty slopes produce the world-famous Darjeeling tea.",
+                options: [
+                  {
+                    text: "Tea",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Coffee",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Rubber",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Jute",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The Teesta, the principal river of North Bengal, ultimately joins which major river (in Bangladesh)?",
+                difficulty: "MEDIUM",
+                explanation: "After flowing through North Bengal, the Teesta enters Bangladesh and joins the Brahmaputra (Jamuna).",
+                options: [
+                  {
+                    text: "Brahmaputra",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Ganga",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Mahananda",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Subarnarekha",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Near which town in Murshidabad district does the Ganga split into the Padma (flowing into Bangladesh) and the Bhagirathi–Hooghly (flowing south through West Bengal)?",
+                difficulty: "MEDIUM",
+                explanation: "The Ganga bifurcates near Farakka into the eastward Padma and the southward Bhagirathi–Hooghly.",
+                options: [
+                  {
+                    text: "Farakka",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Nabadwip",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Katwa",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Berhampore",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The name 'Sundarban' is popularly derived from which dominant mangrove tree of the region?",
+                difficulty: "MEDIUM",
+                explanation: "The Sundarbans take their name from the Sundari (Heritiera) tree, the dominant mangrove species of the delta.",
+                options: [
+                  {
+                    text: "Sundari",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Sal",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Teak",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Shisham",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The undulating, lateritic red-soil tract of western West Bengal, covering districts such as Purulia, Bankura and Birbhum, is known as the:",
+                difficulty: "MEDIUM",
+                explanation: "The western lateritic upland bordering the Chota Nagpur plateau is called the Rarh region.",
+                options: [
+                  {
+                    text: "Rarh region",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Terai",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Duars",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Barind tract",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The Damodar river, which flows through the industrial belt of West Bengal, originates in which highland region?",
+                difficulty: "MEDIUM",
+                explanation: "The Damodar rises in the Chota Nagpur plateau of Jharkhand and flows east into West Bengal.",
+                options: [
+                  {
+                    text: "Chota Nagpur plateau",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Himalayas",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Rajmahal Hills",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Ajodhya Hills",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "West Bengal's jute mills are famously concentrated along the banks of which river?",
+                difficulty: "MEDIUM",
+                explanation: "The jute-mill belt of West Bengal lines both banks of the Hooghly around Kolkata.",
+                options: [
+                  {
+                    text: "Hooghly",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Damodar",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Teesta",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Mahananda",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The violent pre-monsoon evening thunderstorms of spring in West Bengal are known locally by what name?",
+                difficulty: "MEDIUM",
+                explanation: "These sudden April–May thunderstorms, called Kalbaisakhi or Nor'westers, bring gusty winds and rain to Bengal.",
+                options: [
+                  {
+                    text: "Kalbaisakhi (Nor'wester)",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Loo",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Mango shower",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Aandhi",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The North Bengal city of Siliguri, a major gateway to the region, is situated on the banks of which river?",
+                difficulty: "MEDIUM",
+                explanation: "Siliguri stands on the Mahananda river; the Teesta, Torsa and Jaldhaka are other rivers of North Bengal.",
+                options: [
+                  {
+                    text: "Mahananda",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Teesta",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Torsa",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Jaldhaka",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Sandakphu, the highest point of West Bengal, lies on which mountain ridge that forms part of the state's border with Nepal?",
+                difficulty: "HARD",
+                explanation: "Sandakphu sits on the Singalila Range of the Darjeeling Himalaya, running along the West Bengal–Nepal border.",
+                options: [
+                  {
+                    text: "Singalila Range",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Dhauladhar Range",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Pir Panjal Range",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Mahabharat Range",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The Damodar river finally empties into the Hooghly near which place, downstream (south) of Kolkata?",
+                difficulty: "HARD",
+                explanation: "After crossing the industrial districts, the Damodar joins the Hooghly near Falta, below Kolkata.",
+                options: [
+                  {
+                    text: "Falta",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Tribeni",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Uluberia",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Diamond Harbour",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The Teesta river shifted its course eastward to join the Brahmaputra (instead of the Ganga) after a catastrophic flood in which year?",
+                difficulty: "HARD",
+                explanation: "The great flood of 1787 diverted the Teesta from its old Ganga-bound channel to its present course towards the Brahmaputra.",
+                options: [
+                  {
+                    text: "1787",
+                    isCorrect: true
+                  },
+                  {
+                    text: "1770",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1826",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1899",
+                    isCorrect: false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        slug: "indian-history",
+        name: "Indian History",
+        chapters: [
+          {
+            slug: "modern-india-freedom",
+            name: "Modern India & National Movement",
+            marks: 1,
+            negative: 0.33,
+            test: {
+              slug: "wbcs-modern-india-freedom-practice-1",
+              title: "Modern India & National Movement — Practice Test",
+              description: "15 WBCS-style questions on Modern India & National Movement. +1 correct, −1/3 wrong."
+            },
+            questions: [
+              {
+                text: "The Battle of Plassey, which laid the foundation of British political power in Bengal, was fought in which year?",
+                difficulty: "EASY",
+                explanation: "The Battle of Plassey was fought in 1757, where Robert Clive of the East India Company defeated Nawab Siraj-ud-Daulah of Bengal.",
+                options: [
+                  {
+                    text: "1757",
+                    isCorrect: true
+                  },
+                  {
+                    text: "1764",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1765",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1772",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Who presided over the first session of the Indian National Congress, held in 1885?",
+                difficulty: "EASY",
+                explanation: "Womesh Chandra Bonnerjee, a Bengali barrister, was the first President of the Indian National Congress at its inaugural session in Bombay in 1885.",
+                options: [
+                  {
+                    text: "Womesh Chandra Bonnerjee",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Dadabhai Naoroji",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Surendranath Banerjee",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Allan Octavian Hume",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The Dandi March led by Mahatma Gandhi in 1930 was launched to protest against which British measure?",
+                difficulty: "EASY",
+                explanation: "The Dandi March (Salt Satyagraha) of 1930 defied the salt law and the government monopoly on salt, marking the start of the Civil Disobedience Movement.",
+                options: [
+                  {
+                    text: "The tax and monopoly on salt",
+                    isCorrect: true
+                  },
+                  {
+                    text: "The partition of Bengal",
+                    isCorrect: false
+                  },
+                  {
+                    text: "The Rowlatt Act",
+                    isCorrect: false
+                  },
+                  {
+                    text: "The tax on indigo cultivation",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which slogan did Mahatma Gandhi give to the people at the launch of the Quit India Movement in 1942?",
+                difficulty: "EASY",
+                explanation: "At the Quit India Movement in August 1942, Gandhi gave the call 'Do or Die', urging Indians to struggle for freedom or perish in the attempt.",
+                options: [
+                  {
+                    text: "Do or Die",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Inquilab Zindabad",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Swaraj is my birthright",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Vande Mataram",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The Revolt of 1857 first broke out among the sepoys at which of the following places?",
+                difficulty: "MEDIUM",
+                explanation: "The Revolt of 1857 began at Meerut on 10 May 1857, from where the rebel sepoys marched to Delhi and proclaimed Bahadur Shah II as emperor.",
+                options: [
+                  {
+                    text: "Meerut",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Delhi",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Kanpur",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Jhansi",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "By the Treaty of Allahabad (1765), the East India Company obtained the Diwani (right to collect revenue) of Bengal, Bihar and Orissa from which authority?",
+                difficulty: "MEDIUM",
+                explanation: "After the Battle of Buxar (1764), the Mughal Emperor Shah Alam II granted the Diwani of Bengal, Bihar and Orissa to the Company through the Treaty of Allahabad in 1765.",
+                options: [
+                  {
+                    text: "The Mughal Emperor Shah Alam II",
+                    isCorrect: true
+                  },
+                  {
+                    text: "The Nawab of Bengal Mir Jafar",
+                    isCorrect: false
+                  },
+                  {
+                    text: "The Nawab of Awadh Shuja-ud-Daulah",
+                    isCorrect: false
+                  },
+                  {
+                    text: "The Nizam of Hyderabad",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The Non-Cooperation Movement was withdrawn by Mahatma Gandhi in 1922 following which incident?",
+                difficulty: "MEDIUM",
+                explanation: "Gandhi called off the Non-Cooperation Movement after the Chauri Chaura incident of February 1922, in which a mob set fire to a police station, killing policemen.",
+                options: [
+                  {
+                    text: "The Chauri Chaura incident",
+                    isCorrect: true
+                  },
+                  {
+                    text: "The Jallianwala Bagh massacre",
+                    isCorrect: false
+                  },
+                  {
+                    text: "The Chittagong armoury raid",
+                    isCorrect: false
+                  },
+                  {
+                    text: "The Kakori conspiracy",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The first Partition of Bengal, which provoked widespread protest and the Swadeshi Movement, was carried out in 1905 under which Viceroy?",
+                difficulty: "MEDIUM",
+                explanation: "Lord Curzon ordered the Partition of Bengal in 1905; the resulting agitation and Swadeshi Movement forced its annulment in 1911.",
+                options: [
+                  {
+                    text: "Lord Curzon",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Lord Ripon",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Lord Minto",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Lord Hardinge",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "At which 1907 session did the Indian National Congress split into the Moderate and Extremist factions?",
+                difficulty: "MEDIUM",
+                explanation: "The Congress split into Moderates and Extremists at the Surat session of 1907, mainly over the pace and methods of the freedom struggle.",
+                options: [
+                  {
+                    text: "Surat session",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Calcutta session",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Lucknow session",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Nagpur session",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which sepoy of the 34th Native Infantry, who revolted at Barrackpore in Bengal in 1857, is regarded as an early martyr of the Revolt of 1857?",
+                difficulty: "MEDIUM",
+                explanation: "Mangal Pandey attacked his British officers at Barrackpore (near Kolkata) in March 1857 and was executed, becoming an early symbol of the revolt.",
+                options: [
+                  {
+                    text: "Mangal Pandey",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Tantia Tope",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Kunwar Singh",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Titumir",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Who became the first Governor-General of independent India in August 1947?",
+                difficulty: "MEDIUM",
+                explanation: "Lord Mountbatten, the last Viceroy of British India, continued as the first Governor-General of the Dominion of India from August 1947; C. Rajagopalachari later became the first Indian to hold the post.",
+                options: [
+                  {
+                    text: "Lord Mountbatten",
+                    isCorrect: true
+                  },
+                  {
+                    text: "C. Rajagopalachari",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Rajendra Prasad",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Lord Wavell",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The Lucknow Pact of 1916 was an agreement of joint political demands between the Indian National Congress and which organisation?",
+                difficulty: "MEDIUM",
+                explanation: "In the Lucknow Pact of 1916, the Indian National Congress and the All-India Muslim League agreed on joint constitutional demands and Congress accepted separate electorates.",
+                options: [
+                  {
+                    text: "The All-India Muslim League",
+                    isCorrect: true
+                  },
+                  {
+                    text: "The Hindu Mahasabha",
+                    isCorrect: false
+                  },
+                  {
+                    text: "The Ghadar Party",
+                    isCorrect: false
+                  },
+                  {
+                    text: "The Swaraj Party",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The resolution of Purna Swaraj (complete independence) was adopted by the Indian National Congress at the 1929 session presided over by which leader?",
+                difficulty: "HARD",
+                explanation: "The Lahore session of 1929, presided over by Jawaharlal Nehru, adopted the Purna Swaraj resolution, and 26 January 1930 was observed as the first Independence Day.",
+                options: [
+                  {
+                    text: "Jawaharlal Nehru",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Motilal Nehru",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Mahatma Gandhi",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Vallabhbhai Patel",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Who was the President of the Indian National Congress at the time the Quit India Movement was launched in 1942?",
+                difficulty: "HARD",
+                explanation: "Maulana Abul Kalam Azad served as Congress President from 1940 to 1946 and thus led the party when the Quit India Movement began in August 1942.",
+                options: [
+                  {
+                    text: "Maulana Abul Kalam Azad",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Jawaharlal Nehru",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Subhas Chandra Bose",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Rajendra Prasad",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Who was the first Governor-General of Bengal, appointed under the Regulating Act of 1773?",
+                difficulty: "HARD",
+                explanation: "Warren Hastings became the first Governor-General of Bengal under the Regulating Act of 1773; Lord William Bentinck later became the first Governor-General of India under the Charter Act of 1833.",
+                options: [
+                  {
+                    text: "Warren Hastings",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Lord Cornwallis",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Robert Clive",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Lord William Bentinck",
+                    isCorrect: false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            slug: "ancient-medieval-india",
+            name: "Ancient & Medieval India",
+            marks: 1,
+            negative: 0.33,
+            test: {
+              slug: "wbcs-ancient-medieval-india-practice-1",
+              title: "Ancient & Medieval India — Practice Test",
+              description: "15 WBCS-style questions on Ancient & Medieval India. +1 correct, −1/3 wrong."
+            },
+            questions: [
+              {
+                text: "The Great Bath, a large watertight tank widely regarded as the most famous structure of the Indus Valley Civilisation, was excavated at which site?",
+                difficulty: "EASY",
+                explanation: "The Great Bath, built of finely fitted burnt bricks and waterproofed with bitumen, was found at Mohenjo-daro in the Sindh region.",
+                options: [
+                  {
+                    text: "Harappa",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Mohenjo-daro",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Lothal",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Kalibangan",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Witnessing the immense bloodshed and suffering of which war led Emperor Ashoka to renounce further conquest and embrace Buddhism?",
+                difficulty: "EASY",
+                explanation: "The Kalinga war (c. 261 BCE), described in Ashoka's own Rock Edict XIII, so appalled him with its carnage that he turned to Buddhism and the policy of Dhamma.",
+                options: [
+                  {
+                    text: "The Kalinga war",
+                    isCorrect: true
+                  },
+                  {
+                    text: "The Battle of Hydaspes",
+                    isCorrect: false
+                  },
+                  {
+                    text: "The Second Battle of Tarain",
+                    isCorrect: false
+                  },
+                  {
+                    text: "The Battle of Talikota",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Babur founded the Mughal Empire in India after defeating Ibrahim Lodi in which battle?",
+                difficulty: "EASY",
+                explanation: "Babur defeated Ibrahim Lodi at the First Battle of Panipat in 1526, using field artillery and the tulughma tactic, which established Mughal rule in northern India.",
+                options: [
+                  {
+                    text: "The Battle of Khanwa",
+                    isCorrect: false
+                  },
+                  {
+                    text: "The First Battle of Panipat",
+                    isCorrect: true
+                  },
+                  {
+                    text: "The Battle of Haldighati",
+                    isCorrect: false
+                  },
+                  {
+                    text: "The Battle of Plassey",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The rule of which dynasty is conventionally described as the 'Golden Age' of ancient India for its achievements in art, literature, science, and mathematics?",
+                difficulty: "EASY",
+                explanation: "The Gupta period (c. 4th–6th century CE) is called the Golden Age for advances such as the works of Kalidasa and Aryabhata and the flourishing of classical art.",
+                options: [
+                  {
+                    text: "The Mauryas",
+                    isCorrect: false
+                  },
+                  {
+                    text: "The Kushanas",
+                    isCorrect: false
+                  },
+                  {
+                    text: "The Guptas",
+                    isCorrect: true
+                  },
+                  {
+                    text: "The Cholas",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Who served as the chief adviser to Chandragupta Maurya and is traditionally credited with authoring the Arthashastra, a treatise on statecraft and economics?",
+                difficulty: "MEDIUM",
+                explanation: "Kautilya, also known as Chanakya, was Chandragupta Maurya's mentor and minister and is credited with the Arthashastra. Megasthenes, a distractor, was the Greek ambassador who visited the Mauryan court.",
+                options: [
+                  {
+                    text: "Megasthenes",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Kautilya (Chanakya)",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Kalidasa",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Patanjali",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which of the four Vedas is the oldest and consists mainly of hymns of praise addressed to various deities?",
+                difficulty: "MEDIUM",
+                explanation: "The Rigveda is the oldest of the Vedas and is a collection of hymns (suktas) in praise of gods such as Indra, Agni, and Varuna.",
+                options: [
+                  {
+                    text: "The Rigveda",
+                    isCorrect: true
+                  },
+                  {
+                    text: "The Samaveda",
+                    isCorrect: false
+                  },
+                  {
+                    text: "The Yajurveda",
+                    isCorrect: false
+                  },
+                  {
+                    text: "The Atharvaveda",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The Delhi Sultanate began in 1206 with the establishment of which dynasty by Qutb-ud-din Aibak?",
+                difficulty: "MEDIUM",
+                explanation: "Qutb-ud-din Aibak, a former slave general of Muhammad Ghori, founded the Slave (Mamluk) dynasty, the first of the five dynasties of the Delhi Sultanate.",
+                options: [
+                  {
+                    text: "The Khalji dynasty",
+                    isCorrect: false
+                  },
+                  {
+                    text: "The Tughlaq dynasty",
+                    isCorrect: false
+                  },
+                  {
+                    text: "The Slave (Mamluk) dynasty",
+                    isCorrect: true
+                  },
+                  {
+                    text: "The Lodi dynasty",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which Delhi Sultan is famous for introducing rigorous market and price-control reforms to keep the cost of essential goods low?",
+                difficulty: "MEDIUM",
+                explanation: "Alauddin Khalji introduced elaborate market regulations, fixing prices of grain, cloth, and other goods and appointing officers to enforce them, largely to maintain a large standing army cheaply.",
+                options: [
+                  {
+                    text: "Iltutmish",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Alauddin Khalji",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Firoz Shah Tughlaq",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Muhammad bin Tughlaq",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The Chinese Buddhist pilgrim who travelled through India during the reign of Harshavardhana and left a detailed account of the country was:",
+                difficulty: "MEDIUM",
+                explanation: "Xuanzang (Hiuen Tsang) visited India in the 7th century during Harsha's reign. Faxian, a distractor, had visited earlier during the reign of Chandragupta II.",
+                options: [
+                  {
+                    text: "Faxian (Fa-Hien)",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Megasthenes",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Xuanzang (Hiuen Tsang)",
+                    isCorrect: true
+                  },
+                  {
+                    text: "I-tsing",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The syncretic religious order known as Din-i-Ilahi was promulgated by which Mughal emperor?",
+                difficulty: "MEDIUM",
+                explanation: "Akbar founded Din-i-Ilahi in 1582, a small ethical order drawing on several faiths, as part of his policy of religious tolerance (sulh-i-kul).",
+                options: [
+                  {
+                    text: "Babur",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Akbar",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Jahangir",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Aurangzeb",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which Bhakti saint, born in Bengal, popularised Krishna-centred devotion and the practice of congregational chanting (sankirtana), inspiring the Gaudiya Vaishnava movement?",
+                difficulty: "MEDIUM",
+                explanation: "Chaitanya Mahaprabhu (1486–1534), born at Nabadwip in Bengal, spread ecstatic Krishna devotion through sankirtana and founded the Gaudiya Vaishnava tradition.",
+                options: [
+                  {
+                    text: "Kabir",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Guru Nanak",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Chaitanya Mahaprabhu",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Ramananda",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The Allahabad Pillar inscription (Prayaga Prashasti), composed by the court poet Harishena, records the conquests and achievements of which Gupta ruler?",
+                difficulty: "MEDIUM",
+                explanation: "The Prayaga Prashasti glorifies Samudragupta, detailing his military campaigns across northern and southern India, which earned him comparisons to a conqueror.",
+                options: [
+                  {
+                    text: "Chandragupta I",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Samudragupta",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Chandragupta II",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Skandagupta",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which Indus Valley site in present-day Rajasthan has yielded the earliest evidence of a ploughed agricultural field?",
+                difficulty: "HARD",
+                explanation: "Kalibangan, on the banks of the Ghaggar, provided evidence of a pre-Harappan ploughed field and is also noted for its fire altars. Lothal, a distractor, is known for its dockyard.",
+                options: [
+                  {
+                    text: "Lothal",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Dholavira",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Kalibangan",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Banawali",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "In the Vedic polity, which pair of popular assemblies is most frequently mentioned as advising and checking the authority of the tribal chief (rajan)?",
+                difficulty: "HARD",
+                explanation: "The Sabha and Samiti were the two key assemblies of the Vedic period; the Samiti was a larger popular gathering while the Sabha was a smaller body of elders or notables.",
+                options: [
+                  {
+                    text: "Sabha and Samiti",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Vidatha and Gana",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Paura and Janapada",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Ur and Kula",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "In the Battle of Khanwa (1527), Babur defeated a powerful Rajput confederacy led by which ruler of Mewar?",
+                difficulty: "HARD",
+                explanation: "At Khanwa, Babur defeated Rana Sanga (Sangram Singh) of Mewar, consolidating Mughal supremacy in northern India. Rana Pratap and Prithviraj Chauhan, distractors, belonged to later and earlier periods respectively.",
+                options: [
+                  {
+                    text: "Prithviraj Chauhan",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Rana Pratap",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Rana Sanga (Sangram Singh) of Mewar",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Jaimal of Chittor",
+                    isCorrect: false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        slug: "polity-economy",
+        name: "Indian Polity & Economy",
+        chapters: [
+          {
+            slug: "indian-polity",
+            name: "Indian Polity & Constitution",
+            marks: 1,
+            negative: 0.33,
+            test: {
+              slug: "wbcs-indian-polity-practice-1",
+              title: "Indian Polity & Constitution — Practice Test",
+              description: "15 WBCS-style questions on Indian Polity & Constitution. +1 correct, −1/3 wrong."
+            },
+            questions: [
+              {
+                text: "The words \"Socialist\", \"Secular\" and \"Integrity\" were added to the Preamble of the Indian Constitution by which amendment?",
+                difficulty: "EASY",
+                explanation: "The 42nd Amendment Act, 1976 inserted the words \"Socialist\", \"Secular\" and \"Integrity\" into the Preamble of the Constitution.",
+                options: [
+                  {
+                    text: "42nd Amendment Act, 1976",
+                    isCorrect: true
+                  },
+                  {
+                    text: "44th Amendment Act, 1978",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1st Amendment Act, 1951",
+                    isCorrect: false
+                  },
+                  {
+                    text: "73rd Amendment Act, 1992",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which Article of the Constitution guarantees the Right to Constitutional Remedies, described by Dr. B.R. Ambedkar as the \"heart and soul\" of the Constitution?",
+                difficulty: "EASY",
+                explanation: "Article 32 gives citizens the right to move the Supreme Court directly for enforcement of Fundamental Rights, which is why Ambedkar called it the heart and soul of the Constitution.",
+                options: [
+                  {
+                    text: "Article 32",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Article 14",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Article 19",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Article 21",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The Fundamental Duties of citizens are enumerated in which Part of the Indian Constitution?",
+                difficulty: "EASY",
+                explanation: "Fundamental Duties were added by the 42nd Amendment (1976) and are listed in Part IV-A under Article 51A.",
+                options: [
+                  {
+                    text: "Part IV-A",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Part III",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Part IV",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Part II",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "What is the minimum age prescribed by the Constitution for a person to be eligible for election as President of India?",
+                difficulty: "EASY",
+                explanation: "Article 58 requires that a candidate for the office of President must have completed 35 years of age.",
+                options: [
+                  {
+                    text: "35 years",
+                    isCorrect: true
+                  },
+                  {
+                    text: "25 years",
+                    isCorrect: false
+                  },
+                  {
+                    text: "30 years",
+                    isCorrect: false
+                  },
+                  {
+                    text: "40 years",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "As provided in the Constitution, what is the maximum sanctioned strength of the Rajya Sabha (Council of States)?",
+                difficulty: "MEDIUM",
+                explanation: "Article 80 fixes the maximum strength of the Rajya Sabha at 250 — up to 238 representatives of States and Union Territories plus 12 members nominated by the President.",
+                options: [
+                  {
+                    text: "250",
+                    isCorrect: true
+                  },
+                  {
+                    text: "245",
+                    isCorrect: false
+                  },
+                  {
+                    text: "238",
+                    isCorrect: false
+                  },
+                  {
+                    text: "275",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The idea of Directive Principles of State Policy in the Indian Constitution was borrowed from the Constitution of which country?",
+                difficulty: "MEDIUM",
+                explanation: "The Directive Principles of State Policy were inspired by the Irish Constitution, which had itself borrowed the concept from Spain.",
+                options: [
+                  {
+                    text: "Ireland",
+                    isCorrect: true
+                  },
+                  {
+                    text: "United States",
+                    isCorrect: false
+                  },
+                  {
+                    text: "United Kingdom",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Canada",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Who administers the oath of office to the President of India?",
+                difficulty: "MEDIUM",
+                explanation: "Under Article 60, the oath of office to the President is administered by the Chief Justice of India, or in his absence, the senior-most judge of the Supreme Court.",
+                options: [
+                  {
+                    text: "The Chief Justice of India",
+                    isCorrect: true
+                  },
+                  {
+                    text: "The Vice-President",
+                    isCorrect: false
+                  },
+                  {
+                    text: "The Speaker of the Lok Sabha",
+                    isCorrect: false
+                  },
+                  {
+                    text: "The Prime Minister",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "A Money Bill can be introduced in Parliament only in which House?",
+                difficulty: "MEDIUM",
+                explanation: "Under Article 110, a Money Bill can be introduced only in the Lok Sabha and only on the recommendation of the President; the Rajya Sabha can retain it for a maximum of 14 days.",
+                options: [
+                  {
+                    text: "Lok Sabha",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Rajya Sabha",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Either House of Parliament",
+                    isCorrect: false
+                  },
+                  {
+                    text: "A joint sitting of both Houses",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The Eleventh Schedule of the Constitution, which lists the subjects to be devolved to Panchayats, was added by which amendment?",
+                difficulty: "MEDIUM",
+                explanation: "The 73rd Amendment Act, 1992 added the Eleventh Schedule containing 29 subjects for Panchayats; the 74th Amendment added the Twelfth Schedule for Municipalities.",
+                options: [
+                  {
+                    text: "73rd Amendment Act, 1992",
+                    isCorrect: true
+                  },
+                  {
+                    text: "74th Amendment Act, 1992",
+                    isCorrect: false
+                  },
+                  {
+                    text: "42nd Amendment Act, 1976",
+                    isCorrect: false
+                  },
+                  {
+                    text: "44th Amendment Act, 1978",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "A judge of the Supreme Court of India holds office until attaining what age?",
+                difficulty: "MEDIUM",
+                explanation: "Under Article 124, a Supreme Court judge holds office until the age of 65 years, whereas a High Court judge retires at 62 years.",
+                options: [
+                  {
+                    text: "65 years",
+                    isCorrect: true
+                  },
+                  {
+                    text: "62 years",
+                    isCorrect: false
+                  },
+                  {
+                    text: "60 years",
+                    isCorrect: false
+                  },
+                  {
+                    text: "70 years",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which Article of the Constitution provides for the imposition of President's Rule in a State on the failure of constitutional machinery?",
+                difficulty: "MEDIUM",
+                explanation: "Article 356 allows the President to assume the functions of a State government (President's Rule) when constitutional machinery fails; Article 352 deals with National Emergency and Article 360 with Financial Emergency.",
+                options: [
+                  {
+                    text: "Article 356",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Article 352",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Article 360",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Article 370",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "In West Bengal's three-tier Panchayati Raj system, the body functioning at the intermediate (block) level is known as the:",
+                difficulty: "MEDIUM",
+                explanation: "In the three-tier structure, the Gram Panchayat operates at the village level, the Panchayat Samiti at the intermediate/block level, and the Zilla Parishad at the district level.",
+                options: [
+                  {
+                    text: "Panchayat Samiti",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Gram Panchayat",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Zilla Parishad",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Gram Sansad",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Under which Article can the President of India seek the advisory opinion of the Supreme Court on a question of law or fact of public importance?",
+                difficulty: "HARD",
+                explanation: "Article 143 confers advisory jurisdiction on the Supreme Court, allowing the President to refer questions of law or fact to it for an opinion.",
+                options: [
+                  {
+                    text: "Article 143",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Article 32",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Article 137",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Article 226",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The expression \"procedure established by law\" used in Article 21 of the Indian Constitution was borrowed from the Constitution of which country?",
+                difficulty: "HARD",
+                explanation: "The phrase \"procedure established by law\" was adopted from the Japanese Constitution, in contrast to the American doctrine of \"due process of law\".",
+                options: [
+                  {
+                    text: "Japan",
+                    isCorrect: true
+                  },
+                  {
+                    text: "United States",
+                    isCorrect: false
+                  },
+                  {
+                    text: "United Kingdom",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Ireland",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which amendment made the advice of the Council of Ministers binding on the President by amending Article 74?",
+                difficulty: "HARD",
+                explanation: "The 42nd Amendment made ministerial advice binding on the President; the 44th Amendment later allowed the President to return the advice once for reconsideration.",
+                options: [
+                  {
+                    text: "42nd Amendment Act, 1976",
+                    isCorrect: true
+                  },
+                  {
+                    text: "44th Amendment Act, 1978",
+                    isCorrect: false
+                  },
+                  {
+                    text: "24th Amendment Act, 1971",
+                    isCorrect: false
+                  },
+                  {
+                    text: "61st Amendment Act, 1989",
+                    isCorrect: false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            slug: "indian-economy",
+            name: "Indian Economy",
+            marks: 1,
+            negative: 0.33,
+            test: {
+              slug: "wbcs-indian-economy-practice-1",
+              title: "Indian Economy — Practice Test",
+              description: "15 WBCS-style questions on Indian Economy. +1 correct, −1/3 wrong."
+            },
+            questions: [
+              {
+                text: "In the standard classification of an economy, which of the following activities belongs to the primary sector?",
+                difficulty: "EASY",
+                explanation: "The primary sector covers activities that directly use natural resources, such as agriculture, fishing, forestry and mining; manufacturing is secondary and banking or IT services are tertiary.",
+                options: [
+                  {
+                    text: "Fishing and forestry",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Manufacturing of textiles",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Software development",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Banking and insurance",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which institution in India is responsible for issuing currency notes (other than the one-rupee note) and acting as the country's central bank?",
+                difficulty: "EASY",
+                explanation: "The Reserve Bank of India (RBI) is the central bank and the sole authority for issuing currency notes except the one-rupee note and coins, which are issued by the Government of India.",
+                options: [
+                  {
+                    text: "State Bank of India",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Reserve Bank of India",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Ministry of Finance",
+                    isCorrect: false
+                  },
+                  {
+                    text: "NITI Aayog",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The Green Revolution in India, which sharply raised foodgrain production, was primarily associated with increased output of which crops?",
+                difficulty: "EASY",
+                explanation: "The Green Revolution centred on high-yielding varieties of wheat and rice, boosting cereal production; wheat gains in states like Punjab and Haryana were especially dramatic.",
+                options: [
+                  {
+                    text: "Wheat and rice",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Tea and coffee",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Cotton and jute",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Sugarcane and tobacco",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The Goods and Services Tax (GST) introduced in India is best described as which type of tax?",
+                difficulty: "EASY",
+                explanation: "GST is an indirect tax levied on the supply of goods and services; it replaced multiple indirect taxes like excise duty, service tax and VAT.",
+                options: [
+                  {
+                    text: "A direct tax on personal income",
+                    isCorrect: false
+                  },
+                  {
+                    text: "An indirect tax on the supply of goods and services",
+                    isCorrect: true
+                  },
+                  {
+                    text: "A tax levied only on corporate profits",
+                    isCorrect: false
+                  },
+                  {
+                    text: "A tax on inherited wealth",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "NITI Aayog, established in 2015, replaced which earlier body as the premier policy think-tank of the Government of India?",
+                difficulty: "MEDIUM",
+                explanation: "NITI Aayog (National Institution for Transforming India) replaced the Planning Commission, shifting from centralised five-year planning to a think-tank and cooperative federalism role.",
+                options: [
+                  {
+                    text: "The Finance Commission",
+                    isCorrect: false
+                  },
+                  {
+                    text: "The Planning Commission",
+                    isCorrect: true
+                  },
+                  {
+                    text: "The National Development Council",
+                    isCorrect: false
+                  },
+                  {
+                    text: "The University Grants Commission",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "When the Reserve Bank of India raises the repo rate, what is the most direct intended effect on the economy?",
+                difficulty: "MEDIUM",
+                explanation: "The repo rate is the rate at which the RBI lends to commercial banks; raising it makes borrowing costlier, tends to reduce money supply and demand, and is used to control inflation.",
+                options: [
+                  {
+                    text: "Borrowing becomes cheaper and inflation is encouraged",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Borrowing becomes costlier, helping to control inflation",
+                    isCorrect: true
+                  },
+                  {
+                    text: "The government's fiscal deficit automatically falls",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Foreign exchange reserves are directly transferred to banks",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Fiscal policy, as distinct from monetary policy, is primarily concerned with which of the following?",
+                difficulty: "MEDIUM",
+                explanation: "Fiscal policy deals with government taxation and public expenditure and is managed by the government (Ministry of Finance), whereas monetary policy deals with money supply and interest rates and is managed by the RBI.",
+                options: [
+                  {
+                    text: "Government taxation and public expenditure",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Setting the repo rate and cash reserve ratio",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Managing the money supply through open market operations",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Fixing the exchange rate of the rupee",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "In the Union Budget, which of the following is an example of a direct tax?",
+                difficulty: "MEDIUM",
+                explanation: "A direct tax is paid directly by the person on whom it is levied and cannot be shifted; income tax and corporation tax are direct taxes, while GST and customs duty are indirect taxes.",
+                options: [
+                  {
+                    text: "Goods and Services Tax",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Customs duty",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Corporation tax",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Excise duty",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The term 'disinvestment' in the context of the Indian economy refers to which of the following?",
+                difficulty: "MEDIUM",
+                explanation: "Disinvestment is the sale or dilution of the government's equity stake in public sector undertakings, done to raise resources and improve efficiency, not the closure of firms.",
+                options: [
+                  {
+                    text: "The government selling part of its stake in public sector undertakings",
+                    isCorrect: true
+                  },
+                  {
+                    text: "A fall in total private investment during a recession",
+                    isCorrect: false
+                  },
+                  {
+                    text: "The RBI reducing its holdings of foreign currency",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Banks writing off bad loans from their books",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "A situation of rising general price levels combined with stagnant economic growth and high unemployment is known as which of the following?",
+                difficulty: "MEDIUM",
+                explanation: "Stagflation describes the simultaneous occurrence of stagnation (low growth, high unemployment) and inflation, a combination that challenges standard policy responses.",
+                options: [
+                  {
+                    text: "Deflation",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Stagflation",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Disinflation",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Hyperinflation",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "'Disguised unemployment', a concept especially relevant to Indian agriculture, is best described as which situation?",
+                difficulty: "MEDIUM",
+                explanation: "In disguised unemployment more people are engaged in work than are actually required, so that some can be removed without reducing output; their marginal productivity is effectively zero.",
+                options: [
+                  {
+                    text: "Workers who are laid off during an economic downturn",
+                    isCorrect: false
+                  },
+                  {
+                    text: "More people employed in an activity than are actually needed, so removing some would not reduce output",
+                    isCorrect: true
+                  },
+                  {
+                    text: "People who remain unemployed only between two jobs",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Workers unemployed because their skills have become obsolete",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The 'Cash Reserve Ratio' (CRR) as a monetary policy instrument of the RBI refers to which of the following?",
+                difficulty: "HARD",
+                explanation: "CRR is the proportion of a bank's net demand and time liabilities that it must keep as reserves with the RBI; raising CRR reduces the funds banks have for lending, tightening liquidity.",
+                options: [
+                  {
+                    text: "The proportion of deposits banks must keep as reserves with the RBI",
+                    isCorrect: true
+                  },
+                  {
+                    text: "The share of deposits banks must invest in government securities",
+                    isCorrect: false
+                  },
+                  {
+                    text: "The minimum cash a customer must keep in a savings account",
+                    isCorrect: false
+                  },
+                  {
+                    text: "The rate at which banks lend surplus cash to one another",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Gross Domestic Product (GDP) at market prices differs from GDP at factor cost mainly on account of which adjustment?",
+                difficulty: "HARD",
+                explanation: "GDP at market prices equals GDP at factor cost plus indirect taxes minus subsidies; market prices reflect what buyers pay, while factor cost reflects what producers receive.",
+                options: [
+                  {
+                    text: "Adding net factor income from abroad",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Adding indirect taxes and subtracting subsidies",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Subtracting depreciation of capital",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Adding remittances sent by citizens working abroad",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Under the GST structure in India, the tax collected on an intra-state (within the same state) supply of goods is shared through which components?",
+                difficulty: "HARD",
+                explanation: "For a supply within a single state, GST is split into Central GST (CGST) collected by the Centre and State GST (SGST) collected by the state; inter-state supplies attract Integrated GST (IGST) instead.",
+                options: [
+                  {
+                    text: "IGST alone, collected entirely by the Centre",
+                    isCorrect: false
+                  },
+                  {
+                    text: "CGST and SGST, shared between the Centre and the state",
+                    isCorrect: true
+                  },
+                  {
+                    text: "SGST alone, collected entirely by the state",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Customs duty and CGST together",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The concept of the 'poverty line' in India, as traditionally estimated, is based primarily on which of the following criteria?",
+                difficulty: "MEDIUM",
+                explanation: "The poverty line has traditionally been defined in terms of a minimum level of per-capita consumption expenditure needed to meet a specified calorie/nutritional requirement, separately for rural and urban areas.",
+                options: [
+                  {
+                    text: "The average income of the richest ten percent of households",
+                    isCorrect: false
+                  },
+                  {
+                    text: "A minimum level of consumption expenditure needed to meet a specified calorie requirement",
+                    isCorrect: true
+                  },
+                  {
+                    text: "The number of people who are unemployed in a given year",
+                    isCorrect: false
+                  },
+                  {
+                    text: "The total value of assets owned by a household",
+                    isCorrect: false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        slug: "indian-geography",
+        name: "Geography of India",
+        chapters: [
+          {
+            slug: "india-geography",
+            name: "Geography of India",
+            marks: 1,
+            negative: 0.33,
+            test: {
+              slug: "wbcs-india-geography-practice-1",
+              title: "Geography of India — Practice Test",
+              description: "15 WBCS-style questions on Geography of India. +1 correct, −1/3 wrong."
+            },
+            questions: [
+              {
+                text: "Which is the highest mountain peak in India, located in the state of Sikkim close to the West Bengal (Darjeeling) border?",
+                difficulty: "EASY",
+                explanation: "Kangchenjunga (about 8,586 m) is the highest peak in India, straddling the Sikkim-Nepal border and famously visible from Darjeeling in West Bengal.",
+                options: [
+                  {
+                    text: "Kangchenjunga",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Nanda Devi",
+                    isCorrect: false
+                  },
+                  {
+                    text: "K2 (Godwin-Austen)",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Mount Everest",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The Sundarbans, the world's largest mangrove delta lying in West Bengal, is formed mainly by which river system?",
+                difficulty: "EASY",
+                explanation: "The Sundarbans delta is built by the combined sediments of the Ganga and Brahmaputra (with the Meghna) as they empty into the Bay of Bengal.",
+                options: [
+                  {
+                    text: "Ganga-Brahmaputra",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Godavari-Krishna",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Narmada-Tapi",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Mahanadi-Subarnarekha",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which soil type is the most widespread across the Northern Plains of India and is the most important for the country's agriculture?",
+                difficulty: "EASY",
+                explanation: "Alluvial soil, deposited by rivers, covers most of the Northern Plains and is the most fertile and agriculturally productive soil in India.",
+                options: [
+                  {
+                    text: "Alluvial soil",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Black (regur) soil",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Red soil",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Laterite soil",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which of the following is a Peninsular river that does NOT originate in the Himalayas?",
+                difficulty: "EASY",
+                explanation: "The Godavari rises in the Western Ghats at Trimbak (Maharashtra) and is a Peninsular river, whereas the Ganga, Yamuna and Brahmaputra are Himalayan rivers.",
+                options: [
+                  {
+                    text: "Godavari",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Ganga",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Yamuna",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Brahmaputra",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The black soil (regur) of the Deccan Trap region is especially well suited for the cultivation of which crop?",
+                difficulty: "MEDIUM",
+                explanation: "Black soil retains moisture well and is rich in lime and iron, making it ideal for cotton, which is why it is also called 'black cotton soil'.",
+                options: [
+                  {
+                    text: "Cotton",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Tea",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Rice",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Wheat",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The violent pre-monsoon evening thunderstorms that strike West Bengal in April and May are locally known as?",
+                difficulty: "MEDIUM",
+                explanation: "These north-westerly pre-monsoon squalls, called Kalbaisakhi or Nor'westers, bring heavy rain and gusty winds to West Bengal and Assam before the summer monsoon.",
+                options: [
+                  {
+                    text: "Kalbaisakhi (Nor'westers)",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Loo",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Mango showers",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Cherry blossom showers",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The Raniganj field in West Bengal, one of India's oldest, is associated with the mining of which mineral?",
+                difficulty: "MEDIUM",
+                explanation: "Raniganj in West Bengal is one of India's oldest and largest coalfields, lying in the Damodar valley coal belt.",
+                options: [
+                  {
+                    text: "Coal",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Bauxite",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Manganese",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Mica",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The Western Ghats and the Eastern Ghats meet at which group of hills in southern India?",
+                difficulty: "MEDIUM",
+                explanation: "The Nilgiri Hills mark the junction of the Western and Eastern Ghats; the Anaimalai, Cardamom and Palani hills are all parts of the Western Ghats further south.",
+                options: [
+                  {
+                    text: "Nilgiri Hills",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Anaimalai Hills",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Cardamom Hills",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Palani Hills",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which river, notorious for its devastating floods before the building of dams, was historically called the 'Sorrow of Bengal'?",
+                difficulty: "MEDIUM",
+                explanation: "The Damodar was called the 'Sorrow of Bengal' for its destructive floods, later controlled by the Damodar Valley Corporation; the Kosi is the 'Sorrow of Bihar'.",
+                options: [
+                  {
+                    text: "Damodar",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Kosi",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Teesta",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Subarnarekha",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which channel separates the Andaman Islands from the Nicobar Islands in the Bay of Bengal?",
+                difficulty: "MEDIUM",
+                explanation: "The Ten Degree Channel, roughly along the 10 degree N latitude, separates the Andaman group from the Nicobar group of islands.",
+                options: [
+                  {
+                    text: "Ten Degree Channel",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Duncan Passage",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Palk Strait",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Nine Degree Channel",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Kaziranga National Park, world-renowned for the great one-horned rhinoceros, is located in which state?",
+                difficulty: "MEDIUM",
+                explanation: "Kaziranga National Park, a UNESCO World Heritage Site famous for the one-horned rhinoceros, lies in Assam along the Brahmaputra floodplain.",
+                options: [
+                  {
+                    text: "Assam",
+                    isCorrect: true
+                  },
+                  {
+                    text: "West Bengal",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Arunachal Pradesh",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Meghalaya",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Tamil Nadu and the Coromandel Coast receive most of their annual rainfall from which source?",
+                difficulty: "MEDIUM",
+                explanation: "Unlike most of India, Tamil Nadu gets the bulk of its rain during October-December from the retreating (northeast) monsoon, which picks up moisture over the Bay of Bengal.",
+                options: [
+                  {
+                    text: "The retreating (northeast) monsoon",
+                    isCorrect: true
+                  },
+                  {
+                    text: "The southwest monsoon",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Western disturbances",
+                    isCorrect: false
+                  },
+                  {
+                    text: "The Loo winds",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The Palghat (Palakkad) Gap, an important lowland pass in the Western Ghats, connects Kerala with which neighbouring state?",
+                difficulty: "HARD",
+                explanation: "The Palghat Gap links Palakkad in Kerala with Coimbatore in Tamil Nadu, serving as a major route for road, rail and monsoon winds through the Western Ghats.",
+                options: [
+                  {
+                    text: "Tamil Nadu",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Karnataka",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Andhra Pradesh",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Goa",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The Teesta, a major river of North Bengal that rises in Sikkim, ultimately joins which larger river?",
+                difficulty: "HARD",
+                explanation: "After flowing through Sikkim and North Bengal, the Teesta enters Bangladesh and merges with the Brahmaputra (the Jamuna), of which it is a tributary.",
+                options: [
+                  {
+                    text: "Brahmaputra",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Ganga",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Mahananda",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Hooghly",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Barren Island, the only confirmed active volcano in India, is situated in which region?",
+                difficulty: "HARD",
+                explanation: "Barren Island, India's only active volcano, lies in the Andaman Sea and is part of the Andaman Islands group.",
+                options: [
+                  {
+                    text: "The Andaman Islands",
+                    isCorrect: true
+                  },
+                  {
+                    text: "The Nicobar Islands",
+                    isCorrect: false
+                  },
+                  {
+                    text: "The Lakshadweep Islands",
+                    isCorrect: false
+                  },
+                  {
+                    text: "The Gulf of Kutch",
+                    isCorrect: false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        slug: "general-science",
+        name: "General Science",
+        chapters: [
+          {
+            slug: "physics-chemistry",
+            name: "Physics & Chemistry",
+            marks: 1,
+            negative: 0.33,
+            test: {
+              slug: "wbcs-physics-chemistry-practice-1",
+              title: "Physics & Chemistry — Practice Test",
+              description: "15 WBCS-style questions on Physics & Chemistry. +1 correct, −1/3 wrong."
+            },
+            questions: [
+              {
+                text: "What is the SI unit of electric current?",
+                difficulty: "EASY",
+                explanation: "Electric current is measured in amperes (A); the volt measures potential difference, the watt measures power, and the ohm measures resistance.",
+                options: [
+                  {
+                    text: "Ampere",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Volt",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Watt",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Ohm",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Common table salt used in cooking is chemically known as:",
+                difficulty: "EASY",
+                explanation: "Ordinary table salt is sodium chloride (NaCl). Sodium bicarbonate is baking soda, calcium carbonate is the main component of limestone, and potassium chloride is used only as a low-sodium salt substitute.",
+                options: [
+                  {
+                    text: "Sodium chloride",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Sodium bicarbonate",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Calcium carbonate",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Potassium chloride",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which instrument is used to measure atmospheric pressure?",
+                difficulty: "EASY",
+                explanation: "A barometer measures atmospheric pressure; a thermometer measures temperature, a hygrometer measures humidity, and an ammeter measures electric current.",
+                options: [
+                  {
+                    text: "Barometer",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Thermometer",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Hygrometer",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Ammeter",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which gas present in air is essential for burning (combustion)?",
+                difficulty: "EASY",
+                explanation: "Oxygen supports combustion; nitrogen and carbon dioxide actually extinguish fire, and hydrogen is itself a fuel rather than a supporter of burning.",
+                options: [
+                  {
+                    text: "Oxygen",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Nitrogen",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Carbon dioxide",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Hydrogen",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Sound waves cannot travel through which of the following?",
+                difficulty: "MEDIUM",
+                explanation: "Sound needs a material medium to propagate; a vacuum contains no particles to carry the vibrations, whereas air, water and steel all transmit sound.",
+                options: [
+                  {
+                    text: "Vacuum",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Water",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Steel",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Air",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which metal exists in the liquid state at ordinary room temperature?",
+                difficulty: "MEDIUM",
+                explanation: "Mercury is the only metal that is liquid at room temperature. Bromine is also liquid at room temperature but it is a non-metal, while sodium and lead are solid metals.",
+                options: [
+                  {
+                    text: "Mercury",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Sodium",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Bromine",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Lead",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "A solution having a pH value of 3 is:",
+                difficulty: "MEDIUM",
+                explanation: "On the pH scale, values below 7 are acidic, exactly 7 is neutral, and above 7 is basic (alkaline); so a pH of 3 indicates an acidic solution.",
+                options: [
+                  {
+                    text: "Acidic",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Neutral",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Basic (alkaline)",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Neither acidic nor basic",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The substance commonly called 'slaked lime', used in whitewashing walls, is chemically:",
+                difficulty: "MEDIUM",
+                explanation: "Slaked lime is calcium hydroxide, Ca(OH)2, made by adding water to quicklime (calcium oxide, CaO). It absorbs carbon dioxide from air to form calcium carbonate, giving walls a hard white finish.",
+                options: [
+                  {
+                    text: "Calcium hydroxide",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Calcium oxide",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Calcium carbonate",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Calcium sulphate",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The heating element (coil) of an electric iron or heater is usually made of:",
+                difficulty: "MEDIUM",
+                explanation: "Nichrome, an alloy of nickel and chromium, has high resistivity and a high melting point, so it becomes red-hot and produces heat without melting; copper, aluminium and silver are good conductors used for wiring, not heating.",
+                options: [
+                  {
+                    text: "Nichrome",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Copper",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Aluminium",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Silver",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "In the visible spectrum, which colour of light has the longest wavelength?",
+                difficulty: "MEDIUM",
+                explanation: "Red light has the longest wavelength (around 700 nm) and violet the shortest; this is why red is bent the least when white light passes through a prism.",
+                options: [
+                  {
+                    text: "Red",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Green",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Blue",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Violet",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Solid naphthalene balls, kept to protect clothes from moths, slowly disappear without leaving any liquid residue. This is because of:",
+                difficulty: "MEDIUM",
+                explanation: "Naphthalene undergoes sublimation, changing directly from the solid state to vapour without passing through the liquid state.",
+                options: [
+                  {
+                    text: "Sublimation",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Evaporation",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Melting",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Condensation",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "In a common wheelbarrow the load lies between the fulcrum (wheel) and the effort (hands). This makes it an example of a:",
+                difficulty: "MEDIUM",
+                explanation: "In a second-class lever the load is positioned between the fulcrum and the effort, as in a wheelbarrow or a nutcracker; this arrangement gives a mechanical advantage greater than one.",
+                options: [
+                  {
+                    text: "Second-class lever",
+                    isCorrect: true
+                  },
+                  {
+                    text: "First-class lever",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Third-class lever",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Fixed pulley",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "A resistor of 5 ohms carries a current of 2 amperes. Using Ohm's law, the potential difference across the resistor is:",
+                difficulty: "HARD",
+                explanation: "By Ohm's law, V = I x R = 2 A x 5 ohms = 10 volts.",
+                options: [
+                  {
+                    text: "10 volts",
+                    isCorrect: true
+                  },
+                  {
+                    text: "2.5 volts",
+                    isCorrect: false
+                  },
+                  {
+                    text: "7 volts",
+                    isCorrect: false
+                  },
+                  {
+                    text: "20 volts",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which of the following oxides is amphoteric, meaning it reacts with both acids and bases?",
+                difficulty: "HARD",
+                explanation: "Aluminium oxide is amphoteric, reacting with both acids and alkalis; sodium oxide and magnesium oxide are basic oxides, while carbon dioxide is an acidic oxide.",
+                options: [
+                  {
+                    text: "Aluminium oxide",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Sodium oxide",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Carbon dioxide",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Magnesium oxide",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "When an iron nail is left dipped in blue copper sulphate solution, the blue colour fades and a brownish deposit forms on the nail. This happens because iron is:",
+                difficulty: "HARD",
+                explanation: "Iron is more reactive than copper in the reactivity series, so it displaces copper from copper sulphate solution, depositing reddish-brown copper on the nail and forming greenish iron sulphate.",
+                options: [
+                  {
+                    text: "More reactive than copper and displaces it",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Less reactive than copper and gets coated",
+                    isCorrect: false
+                  },
+                  {
+                    text: "A non-metal that dissolves in the solution",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Chemically inert and simply reflects the blue colour",
+                    isCorrect: false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            slug: "biology-everyday-science",
+            name: "Biology & Everyday Science",
+            marks: 1,
+            negative: 0.33,
+            test: {
+              slug: "wbcs-biology-everyday-science-practice-1",
+              title: "Biology & Everyday Science — Practice Test",
+              description: "15 WBCS-style questions on Biology & Everyday Science. +1 correct, −1/3 wrong."
+            },
+            questions: [
+              {
+                text: "Which cell organelle is commonly called the 'powerhouse of the cell' because it is the main site of ATP production during aerobic respiration?",
+                difficulty: "EASY",
+                explanation: "Mitochondria carry out oxidative phosphorylation and the Krebs cycle, producing most of the cell's ATP, which is why they are termed the powerhouse of the cell.",
+                options: [
+                  {
+                    text: "Mitochondrion",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Ribosome",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Golgi apparatus",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Lysosome",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The deficiency of which vitamin causes the disease scurvy, characterised by bleeding gums and slow wound healing?",
+                difficulty: "EASY",
+                explanation: "Scurvy is caused by a deficiency of Vitamin C (ascorbic acid), which is needed for collagen synthesis and healthy connective tissue.",
+                options: [
+                  {
+                    text: "Vitamin C",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Vitamin D",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Vitamin B12",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Vitamin K",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "In the human body, which organ is the primary site where most digestion and absorption of nutrients takes place?",
+                difficulty: "EASY",
+                explanation: "The small intestine, with its villi and digestive enzymes plus bile and pancreatic juice, is the main site for both digestion and absorption of nutrients.",
+                options: [
+                  {
+                    text: "Small intestine",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Stomach",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Large intestine",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Oesophagus",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which green pigment in plants absorbs light energy and is essential for the process of photosynthesis?",
+                difficulty: "EASY",
+                explanation: "Chlorophyll is the green pigment in chloroplasts that captures light energy used to convert carbon dioxide and water into glucose during photosynthesis.",
+                options: [
+                  {
+                    text: "Chlorophyll",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Haemoglobin",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Melanin",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Carotene",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "A person with blood group AB is often called a 'universal recipient'. This is because their blood plasma lacks which of the following?",
+                difficulty: "MEDIUM",
+                explanation: "Blood group AB plasma has neither anti-A nor anti-B antibodies, so an AB individual can receive red cells of any ABO group, making them the universal recipient. (Their red cells actually carry both A and B antigens.)",
+                options: [
+                  {
+                    text: "Both anti-A and anti-B antibodies in the plasma",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Both A and B antigens on red cells",
+                    isCorrect: false
+                  },
+                  {
+                    text: "The Rh antigen",
+                    isCorrect: false
+                  },
+                  {
+                    text: "All plasma proteins",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which disease is caused by a bacterium and spread mainly through droplets, primarily affecting the lungs and characterised by persistent cough, weight loss and evening fever?",
+                difficulty: "MEDIUM",
+                explanation: "Tuberculosis is caused by the bacterium Mycobacterium tuberculosis, which chiefly infects the lungs and spreads through airborne droplets from coughing.",
+                options: [
+                  {
+                    text: "Tuberculosis",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Malaria",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Dengue",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Influenza",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Malaria in humans is caused by a protozoan parasite of the genus Plasmodium. Which organism acts as the vector that transmits this parasite?",
+                difficulty: "MEDIUM",
+                explanation: "The female Anopheles mosquito transmits Plasmodium from person to person; the male mosquito feeds on plant nectar and does not spread malaria.",
+                options: [
+                  {
+                    text: "Female Anopheles mosquito",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Female Aedes mosquito",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Female Culex mosquito",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Common housefly",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which part of the human nervous system controls balance, posture and coordination of voluntary muscular movements?",
+                difficulty: "MEDIUM",
+                explanation: "The cerebellum, part of the hindbrain, coordinates voluntary movements and maintains posture and balance; damage to it causes loss of coordination.",
+                options: [
+                  {
+                    text: "Cerebellum",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Cerebrum",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Medulla oblongata",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Hypothalamus",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "During photosynthesis in green plants, which gas is absorbed from the atmosphere and which gas is released as a by-product?",
+                difficulty: "MEDIUM",
+                explanation: "In photosynthesis, plants take in carbon dioxide and, after splitting water, release oxygen as a by-product while forming glucose.",
+                options: [
+                  {
+                    text: "Carbon dioxide is absorbed and oxygen is released",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Oxygen is absorbed and carbon dioxide is released",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Nitrogen is absorbed and oxygen is released",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Carbon dioxide is absorbed and nitrogen is released",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The deficiency of iodine in the diet commonly leads to which of the following conditions in adults?",
+                difficulty: "MEDIUM",
+                explanation: "Iodine is required to make thyroid hormones; its deficiency enlarges the thyroid gland, producing a swelling in the neck known as goitre.",
+                options: [
+                  {
+                    text: "Goitre",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Rickets",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Beri-beri",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Night blindness",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "In the human circulatory system, which blood vessel carries oxygenated blood from the lungs back to the left atrium of the heart?",
+                difficulty: "MEDIUM",
+                explanation: "The pulmonary veins are exceptional in carrying oxygenated blood from the lungs to the left atrium, unlike most veins which carry deoxygenated blood.",
+                options: [
+                  {
+                    text: "Pulmonary vein",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Pulmonary artery",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Aorta",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Superior vena cava",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which of the following food items is the richest source of protein among the options listed?",
+                difficulty: "MEDIUM",
+                explanation: "Pulses (dals) are a rich plant source of protein, whereas rice and potato are mainly carbohydrate and butter is mainly fat.",
+                options: [
+                  {
+                    text: "Pulses (dal)",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Rice",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Potato",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Butter",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "In an ecosystem, green plants that manufacture their own food through photosynthesis are placed at which trophic level?",
+                difficulty: "HARD",
+                explanation: "Green plants are producers (autotrophs) and occupy the first trophic level, forming the base of the food chain on which all consumers depend.",
+                options: [
+                  {
+                    text: "Producers (first trophic level)",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Primary consumers (second trophic level)",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Secondary consumers (third trophic level)",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Decomposers only",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "A person suffering from a disorder in which the pancreas fails to produce enough insulin will most directly show which of the following symptoms?",
+                difficulty: "HARD",
+                explanation: "Insulin lowers blood glucose; when the pancreas produces too little insulin (diabetes mellitus), blood sugar rises and excess glucose is excreted in the urine.",
+                options: [
+                  {
+                    text: "High blood sugar with glucose appearing in the urine",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Low blood calcium causing muscle cramps",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Reduced haemoglobin causing anaemia",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Excess thyroid hormone causing weight loss",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "During strenuous exercise, when muscle cells do not get enough oxygen, glucose is broken down anaerobically, leading to the accumulation of which substance that causes muscle fatigue and cramps?",
+                difficulty: "HARD",
+                explanation: "Under low oxygen, muscle cells carry out anaerobic respiration that converts glucose to lactic acid, whose build-up causes fatigue and cramps.",
+                options: [
+                  {
+                    text: "Lactic acid",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Ethanol",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Pyruvic acid that is fully oxidised to carbon dioxide",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Uric acid",
+                    isCorrect: false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        slug: "mental-ability",
+        name: "General Mental Ability",
+        chapters: [
+          {
+            slug: "reasoning",
+            name: "Reasoning & Mental Ability",
+            marks: 1,
+            negative: 0.33,
+            test: {
+              slug: "wbcs-reasoning-practice-1",
+              title: "Reasoning & Mental Ability — Practice Test",
+              description: "15 WBCS-style questions on Reasoning & Mental Ability. +1 correct, −1/3 wrong."
+            },
+            questions: [
+              {
+                text: "Find the next number in the series: 2, 4, 8, 16, ?",
+                difficulty: "EASY",
+                explanation: "Each term is double the previous one (2, 4, 8, 16), so the next term is 16 × 2 = 32.",
+                options: [
+                  {
+                    text: "32",
+                    isCorrect: true
+                  },
+                  {
+                    text: "24",
+                    isCorrect: false
+                  },
+                  {
+                    text: "30",
+                    isCorrect: false
+                  },
+                  {
+                    text: "20",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Find the next letter in the series: C, E, G, I, ?",
+                difficulty: "EASY",
+                explanation: "The letters advance by two positions each step (C→E→G→I), so the next letter is K.",
+                options: [
+                  {
+                    text: "K",
+                    isCorrect: true
+                  },
+                  {
+                    text: "J",
+                    isCorrect: false
+                  },
+                  {
+                    text: "L",
+                    isCorrect: false
+                  },
+                  {
+                    text: "M",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which of the following numbers is the odd one out: 3, 5, 9, 11?",
+                difficulty: "EASY",
+                explanation: "3, 5 and 11 are prime numbers, whereas 9 = 3 × 3 is composite, making it the odd one out.",
+                options: [
+                  {
+                    text: "9",
+                    isCorrect: true
+                  },
+                  {
+                    text: "3",
+                    isCorrect: false
+                  },
+                  {
+                    text: "5",
+                    isCorrect: false
+                  },
+                  {
+                    text: "11",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Cat is to Kitten as Dog is to ?",
+                difficulty: "EASY",
+                explanation: "A young cat is called a kitten and a young dog is called a puppy; the relation is animal to its young.",
+                options: [
+                  {
+                    text: "Puppy",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Cub",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Calf",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Foal",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "In a certain code, CAT is written as DBU. How would DOG be written in the same code?",
+                difficulty: "MEDIUM",
+                explanation: "Each letter is shifted one place forward (C→D, A→B, T→U); applying the same shift to DOG gives E, P, H.",
+                options: [
+                  {
+                    text: "EPH",
+                    isCorrect: true
+                  },
+                  {
+                    text: "EPG",
+                    isCorrect: false
+                  },
+                  {
+                    text: "DPG",
+                    isCorrect: false
+                  },
+                  {
+                    text: "EQH",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Pointing to a photograph, a man said, \"She is the daughter of my grandfather's only son.\" How is the woman in the photograph related to the man?",
+                difficulty: "MEDIUM",
+                explanation: "The grandfather's only son is the man's own father, so the father's daughter is the man's sister.",
+                options: [
+                  {
+                    text: "Sister",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Mother",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Aunt",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Daughter",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "A man walks 5 km towards north, then turns right and walks 3 km, then turns right again and walks 5 km. How far is he from his starting point?",
+                difficulty: "MEDIUM",
+                explanation: "Walking 5 km north, 3 km east and 5 km south brings him back to the starting latitude but 3 km to the east, so he is 3 km away.",
+                options: [
+                  {
+                    text: "3 km",
+                    isCorrect: true
+                  },
+                  {
+                    text: "13 km",
+                    isCorrect: false
+                  },
+                  {
+                    text: "8 km",
+                    isCorrect: false
+                  },
+                  {
+                    text: "5 km",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Find the missing number in the series: 3, 6, 11, 18, 27, ?",
+                difficulty: "MEDIUM",
+                explanation: "The differences between terms increase by 2 (3, 5, 7, 9); adding the next difference 11 to 27 gives 38.",
+                options: [
+                  {
+                    text: "38",
+                    isCorrect: true
+                  },
+                  {
+                    text: "36",
+                    isCorrect: false
+                  },
+                  {
+                    text: "40",
+                    isCorrect: false
+                  },
+                  {
+                    text: "37",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "In a row of 40 students, Ravi is 12th from the left end. What is his position from the right end?",
+                difficulty: "MEDIUM",
+                explanation: "Position from the right = total − position from left + 1 = 40 − 12 + 1 = 29th.",
+                options: [
+                  {
+                    text: "29th",
+                    isCorrect: true
+                  },
+                  {
+                    text: "28th",
+                    isCorrect: false
+                  },
+                  {
+                    text: "30th",
+                    isCorrect: false
+                  },
+                  {
+                    text: "27th",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "In a certain code, MEAT (4 letters) is coded as 8 and BREAD (5 letters) is coded as 10. Using the same rule, how would CHEESE be coded?",
+                difficulty: "MEDIUM",
+                explanation: "Each word's code equals its number of letters multiplied by 2; CHEESE has 6 letters, so 6 × 2 = 12.",
+                options: [
+                  {
+                    text: "12",
+                    isCorrect: true
+                  },
+                  {
+                    text: "10",
+                    isCorrect: false
+                  },
+                  {
+                    text: "14",
+                    isCorrect: false
+                  },
+                  {
+                    text: "11",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Statements: All roses are flowers. All flowers are plants. Which conclusion definitely follows?",
+                difficulty: "MEDIUM",
+                explanation: "Since all roses are flowers and all flowers are plants, it necessarily follows that all roses are plants.",
+                options: [
+                  {
+                    text: "All roses are plants",
+                    isCorrect: true
+                  },
+                  {
+                    text: "All plants are roses",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Some plants are not flowers",
+                    isCorrect: false
+                  },
+                  {
+                    text: "No rose is a plant",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Complete the analogy: 5 : 25 :: 7 : ?",
+                difficulty: "MEDIUM",
+                explanation: "The second term is the square of the first (5² = 25), so 7² = 49.",
+                options: [
+                  {
+                    text: "49",
+                    isCorrect: true
+                  },
+                  {
+                    text: "35",
+                    isCorrect: false
+                  },
+                  {
+                    text: "42",
+                    isCorrect: false
+                  },
+                  {
+                    text: "14",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "In a certain code language, FRIEND is written as HTKGPF. How is MOTHER written in that code?",
+                difficulty: "HARD",
+                explanation: "Each letter is moved two places forward (F→H, R→T, I→K, E→G, N→P, D→F); applying +2 to MOTHER gives OQVJGT.",
+                options: [
+                  {
+                    text: "OQVJGT",
+                    isCorrect: true
+                  },
+                  {
+                    text: "OQXJGT",
+                    isCorrect: false
+                  },
+                  {
+                    text: "MQVJGT",
+                    isCorrect: false
+                  },
+                  {
+                    text: "OQVJGR",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "A is B's brother. E is B's mother. A and D are brothers. C is D's father. How is E related to C?",
+                difficulty: "HARD",
+                explanation: "A, B and D are all siblings whose mother is E; since C is D's father, C and E are D's parents, making E the wife of C.",
+                options: [
+                  {
+                    text: "Wife",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Sister",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Mother",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Daughter",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "A man walks 4 km towards north, then turns right and walks 3 km, then turns right and walks 8 km. What is the straight-line distance between his final position and his starting point?",
+                difficulty: "HARD",
+                explanation: "His net displacement is 4 km south (4 north minus 8 south) and 3 km east, so the distance = √(4² + 3²) = √25 = 5 km.",
+                options: [
+                  {
+                    text: "5 km",
+                    isCorrect: true
+                  },
+                  {
+                    text: "7 km",
+                    isCorrect: false
+                  },
+                  {
+                    text: "11 km",
+                    isCorrect: false
+                  },
+                  {
+                    text: "15 km",
+                    isCorrect: false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        slug: "english",
+        name: "English",
+        chapters: [
+          {
+            slug: "english-composition",
+            name: "English Composition",
+            marks: 1,
+            negative: 0.33,
+            test: {
+              slug: "wbcs-english-composition-practice-1",
+              title: "English Composition — Practice Test",
+              description: "15 WBCS-style questions on English Composition. +1 correct, −1/3 wrong."
+            },
+            questions: [
+              {
+                text: "Choose the correct verb to complete the sentence: 'The list of approved candidates ___ on the notice board.'",
+                difficulty: "EASY",
+                explanation: "The subject is 'the list' (singular); the phrase 'of approved candidates' does not change the number, so the singular verb 'is' is correct.",
+                options: [
+                  {
+                    text: "is",
+                    isCorrect: true
+                  },
+                  {
+                    text: "are",
+                    isCorrect: false
+                  },
+                  {
+                    text: "were",
+                    isCorrect: false
+                  },
+                  {
+                    text: "have been",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Fill in the blank with the correct preposition: 'She has been living in Kolkata ___ 2010.'",
+                difficulty: "EASY",
+                explanation: "'Since' is used with a fixed point in time (2010) to mark the start of an action that continues to the present; 'for' would need a duration.",
+                options: [
+                  {
+                    text: "since",
+                    isCorrect: true
+                  },
+                  {
+                    text: "for",
+                    isCorrect: false
+                  },
+                  {
+                    text: "from",
+                    isCorrect: false
+                  },
+                  {
+                    text: "by",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Fill in the blank with the correct article: 'He is ___ honest and hard-working man.'",
+                difficulty: "EASY",
+                explanation: "'Honest' begins with a silent 'h' and therefore a vowel sound, so the article 'an' is used, not 'a'.",
+                options: [
+                  {
+                    text: "an",
+                    isCorrect: true
+                  },
+                  {
+                    text: "a",
+                    isCorrect: false
+                  },
+                  {
+                    text: "the",
+                    isCorrect: false
+                  },
+                  {
+                    text: "no article is needed",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Choose the word most similar in meaning to 'BENEVOLENT'.",
+                difficulty: "EASY",
+                explanation: "'Benevolent' means well-meaning and kindly, so 'kind' is the closest synonym; 'cruel' is its antonym.",
+                options: [
+                  {
+                    text: "Kind",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Cruel",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Wealthy",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Timid",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Choose the grammatically correct option: 'By the time we reached the station, the train ___.'",
+                difficulty: "MEDIUM",
+                explanation: "The past perfect 'had left' is needed because the train's departure happened before the later past action of reaching the station.",
+                options: [
+                  {
+                    text: "had left",
+                    isCorrect: true
+                  },
+                  {
+                    text: "has left",
+                    isCorrect: false
+                  },
+                  {
+                    text: "left",
+                    isCorrect: false
+                  },
+                  {
+                    text: "has been leaving",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Fill in the blank with the correct article: '___ Ganga is one of the longest rivers in India.'",
+                difficulty: "MEDIUM",
+                explanation: "Names of rivers always take the definite article 'the', as in 'the Ganga', 'the Hooghly', or 'the Brahmaputra'.",
+                options: [
+                  {
+                    text: "The",
+                    isCorrect: true
+                  },
+                  {
+                    text: "A",
+                    isCorrect: false
+                  },
+                  {
+                    text: "An",
+                    isCorrect: false
+                  },
+                  {
+                    text: "No article is needed",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Identify the part of the sentence that contains an error: 'One of the boys / who came late / to the meeting / were my neighbour.'",
+                difficulty: "MEDIUM",
+                explanation: "The subject of the main clause is 'One' (singular), so the verb must be 'was', not 'were'.",
+                options: [
+                  {
+                    text: "were my neighbour",
+                    isCorrect: true
+                  },
+                  {
+                    text: "One of the boys",
+                    isCorrect: false
+                  },
+                  {
+                    text: "who came late",
+                    isCorrect: false
+                  },
+                  {
+                    text: "to the meeting",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Choose the option that best corrects the sentence: 'No sooner I had reached home than it started raining.'",
+                difficulty: "MEDIUM",
+                explanation: "After the negative opener 'No sooner', the auxiliary is inverted with the subject, giving 'No sooner had I reached', correctly followed by 'than'.",
+                options: [
+                  {
+                    text: "No sooner had I reached home than it started raining.",
+                    isCorrect: true
+                  },
+                  {
+                    text: "No sooner I reached home than it started raining.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "No sooner had I reached home when it started raining.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "No sooner I had reached home then it started raining.",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Choose the one word that best substitutes the phrase: 'a person who can speak many languages'.",
+                difficulty: "MEDIUM",
+                explanation: "A 'polyglot' is a person who knows and uses several languages; a 'bilingual' knows only two, and a 'linguist' is one who studies language scientifically.",
+                options: [
+                  {
+                    text: "Polyglot",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Bilingual",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Linguist",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Orator",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "What does the idiom 'to bury the hatchet' mean?",
+                difficulty: "MEDIUM",
+                explanation: "'To bury the hatchet' means to make peace and end a quarrel or hostility.",
+                options: [
+                  {
+                    text: "To make peace and end a quarrel",
+                    isCorrect: true
+                  },
+                  {
+                    text: "To hide evidence of a crime",
+                    isCorrect: false
+                  },
+                  {
+                    text: "To bring up an old dispute again",
+                    isCorrect: false
+                  },
+                  {
+                    text: "To work extremely hard",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Choose the word most nearly OPPOSITE in meaning to 'FRUGAL'.",
+                difficulty: "MEDIUM",
+                explanation: "'Frugal' means economical or sparing in spending; its antonym is 'extravagant' (wasteful). 'Thrifty', 'economical' and 'miserly' are near-synonyms of frugal.",
+                options: [
+                  {
+                    text: "Extravagant",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Thrifty",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Economical",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Miserly",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Fill in the blank with the correct preposition: 'The clerk was accused ___ accepting a bribe.'",
+                difficulty: "MEDIUM",
+                explanation: "The verb 'accuse' collocates with the preposition 'of' (accused of + noun/gerund).",
+                options: [
+                  {
+                    text: "of",
+                    isCorrect: true
+                  },
+                  {
+                    text: "for",
+                    isCorrect: false
+                  },
+                  {
+                    text: "with",
+                    isCorrect: false
+                  },
+                  {
+                    text: "about",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Identify the part of the sentence that contains an error: 'The number of road accidents / in the city / have increased / considerably this year.'",
+                difficulty: "HARD",
+                explanation: "'The number of' is treated as singular and takes 'has increased'; only 'a number of' takes a plural verb.",
+                options: [
+                  {
+                    text: "have increased",
+                    isCorrect: true
+                  },
+                  {
+                    text: "The number of road accidents",
+                    isCorrect: false
+                  },
+                  {
+                    text: "in the city",
+                    isCorrect: false
+                  },
+                  {
+                    text: "considerably this year",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Choose the one word that best substitutes the phrase: 'a person or habit that cannot be corrected or reformed'.",
+                difficulty: "HARD",
+                explanation: "'Incorrigible' describes someone or something beyond correction or reform; 'incurable' relates to disease and 'irrevocable' means something that cannot be undone.",
+                options: [
+                  {
+                    text: "Incorrigible",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Incurable",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Irrevocable",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Intractable",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "What does the expression 'Hobson's choice' mean?",
+                difficulty: "HARD",
+                explanation: "'Hobson's choice' is an apparently free choice in which there is really only one option available, i.e. take it or leave it. It is not a choice between two evils, which is a dilemma.",
+                options: [
+                  {
+                    text: "An apparent choice where there is really no alternative",
+                    isCorrect: true
+                  },
+                  {
+                    text: "A difficult choice between two equally bad options",
+                    isCorrect: false
+                  },
+                  {
+                    text: "A choice made hastily without thought",
+                    isCorrect: false
+                  },
+                  {
+                    text: "A choice offered to someone as a reward",
+                    isCorrect: false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+];
+
 async function main() {
   // 1) Exam catalogue (single source of truth: src/lib/exams.ts).
   for (const [i, e] of examCatalogue.entries()) {
@@ -5006,7 +9358,7 @@ async function main() {
   // 2) Content — only seeds questions for a chapter that has none yet (preserves real attempts).
   let created = 0;
   let skipped = 0;
-  for (const ec of [...content, ...moreContent, ...wave3, ...wave4, ...wave5, ...wave6, ...wave7, ...wave8, ...wave9, ...wave10, ...wave11, ...wave12, ...wave13, ...wave14, ...wave15, ...wave16]) {
+  for (const ec of [...content, ...moreContent, ...wave3, ...wave4, ...wave5, ...wave6, ...wave7, ...wave8, ...wave9, ...wave10, ...wave11, ...wave12, ...wave13, ...wave14, ...wave15, ...wave16, ...wave17]) {
     const exam = await prisma.exam.findUniqueOrThrow({ where: { slug: ec.examSlug } });
     for (const [si, sc] of ec.subjects.entries()) {
       const subject = await prisma.subject.upsert({

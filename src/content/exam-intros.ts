@@ -12,6 +12,281 @@ export type ExamIntro = {
 
 export const examIntros: ExamIntro[] = [
   {
+    examSlug: "wb-police-constable",
+    heading: "West Bengal Police Constable: Exam Pattern, Syllabus & Free Preparation",
+    paragraphs: ["The West Bengal Police Constable recruitment is a mass-scale state government exam conducted by the West Bengal Police Recruitment Board (WBPRB), Kolkata, to fill Constable posts in the West Bengal Police force (Kolkata Police constables are recruited separately). It is one of West Bengal's largest and most competitive recruitment drives — the 2024 cycle alone carried 11,749 vacancies against several lakh applicants across the state.", "The exam is open to candidates aged 18–30 who have passed the Madhyamik (Class 10) examination from the West Bengal Board of Secondary Education or an equivalent board, and who can read, write and speak Bengali (permanent residents of the Darjeeling and Kalimpong hill sub-divisions are exempt from the Bengali requirement). Selection runs through several stages: a Preliminary Written Test (screening only), the Physical Measurement Test (PMT) and Physical Efficiency Test (PET), a Final Written Examination that counts toward merit, and finally an Interview/Personality Test. Both written stages are objective MCQ papers with negative marking.", "PadhoDost helps you prepare for every written stage completely free — no fees, no subscriptions. You get free full-length mock tests modelled on the real MCQ pattern, chapter-wise practice sets for General Knowledge, everyday science, elementary mathematics and reasoning, an All-India rank so you can see where you stand against other aspirants, and a dedicated West Bengal General Knowledge bank covering the state's history, geography, culture and current affairs that this exam tests heavily."],
+    pattern: [
+      {
+        label: "Selection stages",
+        value: "Preliminary Written Test → PMT → PET → Final Written Examination → Interview"
+      },
+      {
+        label: "Preliminary Written Test",
+        value: "100 MCQs, 100 marks, 60 minutes (qualifying/screening only)"
+      },
+      {
+        label: "Final Written Examination",
+        value: "85 MCQs, 85 marks, 60 minutes (counts toward final merit)"
+      },
+      {
+        label: "Interview / Personality Test",
+        value: "15 marks (final merit = Final Written 85 + Interview 15 = 100)"
+      },
+      {
+        label: "Negative marking",
+        value: "1/4 (0.25) mark deducted for each wrong answer in both written papers"
+      }
+    ],
+    topics: ["General Awareness & General Knowledge", "Current Affairs (national and West Bengal state)", "Indian History & the National Movement", "Indian & West Bengal Geography", "Indian Polity & Constitution", "General Science & Everyday Science", "Elementary Mathematics (arithmetic, Madhyamik standard)", "Reasoning & Logical Analysis (analogies, series, coding-decoding)"],
+    tips: ["Master the Preliminary and Final Written syllabus together — they share the same topics (GK, maths, reasoning, plus English in the Final), so consistent daily practice pays off in both stages.", "Since negative marking of 0.25 applies, avoid blind guessing; attempt only the questions where you can eliminate at least two options, and build accuracy through timed mock tests.", "West Bengal GK and state current affairs are frequently asked, so give special attention to the state's districts, rivers, festivals, personalities and recent state-level events alongside national affairs.", "Do not skip the physical standards — start running and endurance practice early (male 1600 m in 6 min 30 sec, female 800 m in 4 min) so the PMT/PET stage does not eliminate you after you clear the written test."],
+    faqs: [
+      {
+        q: "Who is eligible for the West Bengal Police Constable exam?",
+        a: "Candidates aged 18–30 years (with upper-age relaxation for reserved categories per WB rules) who have passed the Madhyamik (Class 10) examination from the West Bengal Board of Secondary Education or an equivalent board, and who can read, write and speak Bengali (residents of the Darjeeling and Kalimpong hill sub-divisions are exempt from the Bengali requirement)."
+      },
+      {
+        q: "What is the exam pattern for WB Police Constable?",
+        a: "There is a Preliminary Written Test (100 MCQs, 100 marks, 60 minutes) used only for screening, followed by the Physical Measurement Test and Physical Efficiency Test, then a Final Written Examination (85 MCQs, 85 marks, 60 minutes) that counts toward merit, and an Interview worth 15 marks. Final merit is out of 100 (85 written + 15 interview)."
+      },
+      {
+        q: "Is there negative marking in the exam?",
+        a: "Yes. Both the Preliminary and the Final Written papers deduct 1/4 (0.25) mark for every wrong answer. There is no penalty for questions you leave unanswered, so answer only when you are reasonably confident."
+      },
+      {
+        q: "Is knowledge of Bengali required, and in what language is the exam?",
+        a: "Candidates must be able to read, write and speak Bengali, except permanent residents of the hill sub-divisions of Darjeeling and Kalimpong who are exempt. The question papers are provided in the languages specified in the official notification, so always confirm the medium and any language-paper details on the WBPRB notice for your cycle."
+      },
+      {
+        q: "How should I prepare for the WB Police Constable written exam?",
+        a: "Cover General Knowledge, current affairs (national and West Bengal), general and everyday science, elementary mathematics at Madhyamik standard, and reasoning. Practise plenty of full-length MCQ mock tests under a 60-minute limit, revise West Bengal GK thoroughly, and prepare physically for the PMT/PET in parallel. PadhoDost's free mock tests and chapter practice cover this entire syllabus."
+      },
+      {
+        q: "Is PadhoDost really free?",
+        a: "Yes, PadhoDost is completely free. All mock tests, chapter-wise practice sets, All-India rank and West Bengal GK material for the WB Police Constable exam are available at no cost — there are no fees or subscriptions."
+      }
+    ]
+  },
+  {
+    examSlug: "wbpsc-clerkship",
+    heading: "WBPSC Clerkship: Exam Pattern, Syllabus & Free Preparation",
+    paragraphs: ["The WBPSC Clerkship Examination is a state-level recruitment test conducted by the West Bengal Public Service Commission (WBPSC) to fill Lower Division Clerk and equivalent clerical posts across West Bengal government offices. It is one of the state's most-applied government exams, run in irregular cycles (roughly every one to three years rather than on a fixed annual calendar), so aspirants should always confirm the latest dates on the official site, psc.wb.gov.in.", "The Clerkship is open to a wide pool of candidates: the minimum qualification is a Madhyamik (Class 10) pass from WBBSE or an equivalent board, the age range is generally 18 to 40 years (with relaxations for reserved categories), and candidates must be able to read and write Bengali (with an exemption for Nepali-speaking hill candidates). Selection runs across three parts: Part I is an objective (OMR/MCQ) Preliminary test, Part II is a descriptive Final paper in English and a regional language, and Part III is a qualifying typing and basic computer test.", "PadhoDost helps you prepare for the Clerkship completely free. You get full-length mock tests modelled on the real 100-mark objective pattern, chapter-wise practice for Arithmetic and General Studies, an All-India rank so you can benchmark yourself against other aspirants, and dedicated West Bengal General Knowledge sets covering the state's geography, history, culture and current affairs that this exam loves to test."],
+    pattern: [
+      {
+        label: "Selection stages",
+        value: "Part I Preliminary (objective/MCQ), Part II Final (descriptive), Part III Typing & Computer test (qualifying)"
+      },
+      {
+        label: "Part I questions",
+        value: "100 MCQs — English, Arithmetic and General Studies/General Awareness"
+      },
+      {
+        label: "Part I marks & duration",
+        value: "100 marks in 90 minutes"
+      },
+      {
+        label: "Negative marking",
+        value: "0.25 mark deducted per wrong MCQ in Part I (verify the exact penalty on the official notification)"
+      },
+      {
+        label: "Part II Final",
+        value: "Descriptive — Group A English (50) + Group B regional language (50) = 100 marks in 60 minutes"
+      }
+    ],
+    topics: ["English — grammar, vocabulary, synonyms/antonyms, error correction and comprehension", "Arithmetic — number system, HCF & LCM, percentage, ratio & proportion, average", "Arithmetic — simple & compound interest, profit & loss, time & work, time-speed-distance", "General Studies — current affairs (national and West Bengal)", "General Studies — Indian history and the national movement", "General Studies — Indian and world geography (with West Bengal focus)", "General Studies — Indian polity and the Constitution", "General Studies — general science and everyday science"],
+    tips: ["Master Class-10 (Madhyamik) arithmetic first — the maths section is scoring and predictable, so drill percentage, ratio, interest, profit & loss and time-work until they are automatic.", "Because Part I has 0.25 negative marking, avoid blind guessing; attempt only where you can eliminate at least two options, and leave doubtful questions blank.", "Build a strong West Bengal GK base — rivers, districts, festivals, historical sites and famous personalities of the state appear regularly, alongside national current affairs.", "Do not neglect Part II: practise précis, letter-drafting and English-to-Bengali translation, and build typing speed early (around 20 wpm English / 10 wpm Bengali) for the qualifying Part III."],
+    faqs: [
+      {
+        q: "What is the eligibility for the WBPSC Clerkship exam?",
+        a: "You need to have passed Madhyamik (Class 10) from WBBSE or an equivalent board, be generally between 18 and 40 years of age (with relaxations for reserved categories such as OBC +3 and SC/ST +5 years), and be able to read and write Bengali."
+      },
+      {
+        q: "What is the exam pattern?",
+        a: "There are three parts: Part I is a 100-mark objective (MCQ/OMR) test of 90 minutes covering English, Arithmetic and General Studies; Part II is a 100-mark descriptive paper in English and a regional language; and Part III is a qualifying typing and basic-computer test."
+      },
+      {
+        q: "Is there negative marking?",
+        a: "Yes, in the Part I objective paper 0.25 mark is deducted for each wrong answer. The descriptive Part II has no negative marking. Always confirm the exact penalty on the official notification for your cycle."
+      },
+      {
+        q: "Which languages can I choose and is there a language requirement?",
+        a: "In Part II you write English (Group A) plus one regional language (Group B) chosen from Bengali, Hindi, Urdu, Nepali or Santali. The exam also requires the ability to read and write Bengali, except for Nepali-speaking candidates from the hill subdivisions."
+      },
+      {
+        q: "How should I prepare for the Clerkship?",
+        a: "Focus on Class-10 level Arithmetic and English grammar for quick, reliable scoring, build a solid base in West Bengal and national General Studies, and take regular full-length mock tests to improve speed and accuracy while managing negative marking. Also practise typing early for Part III."
+      },
+      {
+        q: "Is PadhoDost free?",
+        a: "Yes, PadhoDost is completely free. All mock tests, chapter-wise practice, West Bengal GK sets and All-India rank features are available at no cost."
+      }
+    ]
+  },
+  {
+    examSlug: "wbpsc-misc",
+    heading: "WBPSC Miscellaneous Services: Exam Pattern, Syllabus & Free Preparation",
+    paragraphs: ["The WBPSC Miscellaneous Services Examination is a graduate-level recruitment test conducted by the West Bengal Public Service Commission (WBPSC) to fill Group B and Group C posts in various departments of the Government of West Bengal. It is not held on a strictly fixed annual calendar and is notified when vacancies arise; the most recent cycle (Advertisement 13/2024) advertised 19 posts. It is a state-focused exam that gives strong weight to West Bengal history, geography, economy and current affairs alongside general studies.", "The exam is open to Indian citizens who hold a Bachelor's degree from a recognised university and can read, write and speak Bengali (candidates whose mother tongue is Nepali are exempt from the Bengali requirement). For the 13/2024 cycle the age band was 20-39 years as on 01.01.2024, with statutory relaxations for SC/ST, OBC-NCL and PwBD candidates. Selection runs through three stages: a Preliminary screening test (MCQ, marks not counted in final merit), a descriptive Final/Mains examination of three papers, and a Personality Test / Interview.", "PadhoDost helps you prepare for every stage completely free. You get full-length mock tests that mirror the real 100-question Preliminary pattern, chapter-wise practice for General Studies, Arithmetic and West Bengal GK, an All-India rank so you can benchmark yourself against other aspirants, and a dedicated West Bengal knowledge bank covering the state's history, rivers, districts, festivals and personalities that this exam loves to test."],
+    pattern: [
+      {
+        label: "Stages",
+        value: "Preliminary (MCQ, screening) → Final/Mains (descriptive, 3 papers) → Personality Test/Interview"
+      },
+      {
+        label: "Prelims questions",
+        value: "100 MCQs — General Studies (75) + Arithmetic (25)"
+      },
+      {
+        label: "Prelims marks & duration",
+        value: "200 marks (2 marks per question), 90 minutes"
+      },
+      {
+        label: "Negative marking",
+        value: "Yes in Prelims — commonly reported as 1/3 of the marks for a wrong answer; confirm on the official question booklet"
+      },
+      {
+        label: "Mains & Interview",
+        value: "Mains 450 marks (3 papers × 150: English, Regional Language, GS & Arithmetic); Interview 100 marks"
+      }
+    ],
+    topics: ["History and Culture of India and West Bengal", "Geography of India and West Bengal", "Indian Polity, Governance and the Constitution", "Indian Economy and economic development", "General Science and Science & Technology", "Environment, Ecology and general awareness", "Current Affairs (national and international)", "Arithmetic at Madhyamik (Class 10) standard"],
+    tips: ["Build strong West Bengal general knowledge — history, geography, rivers, districts, festivals and famous personalities carry noticeable weight in this state-run exam.", "Master Madhyamik (Class 10) arithmetic thoroughly; 25 of the 100 Prelims questions come from topics like percentage, ratio, profit & loss, time-work-speed and simple/compound interest.", "Practise with negative marking on, since a wrong answer can cost you a fraction of the marks — learn to skip questions you are genuinely unsure about.", "Do not neglect the descriptive Mains and language paper: build daily reading and précis/composition practice in English and Bengali well before the Prelims result."],
+    faqs: [
+      {
+        q: "Who is eligible for the WBPSC Miscellaneous Services Examination?",
+        a: "You need a Bachelor's degree from a recognised university and the ability to read, write and speak Bengali (Nepali mother-tongue candidates are exempt). For the 13/2024 cycle the age band was 20-39 years as on 01.01.2024, with relaxations of +5 years for SC/ST, +3 years for OBC-NCL and up to 45 years for PwBD candidates. Always confirm the exact figures on the current official notification."
+      },
+      {
+        q: "What is the exam pattern and how many stages are there?",
+        a: "There are three stages. The Preliminary is a 100-question MCQ paper of 200 marks in 90 minutes (75 General Studies + 25 Arithmetic) and is only a screening test — its marks are not added to the final merit. The Final/Mains has three descriptive papers of 150 marks each (English; Regional Language; General Studies & Arithmetic). Finally there is a 100-mark Personality Test/Interview."
+      },
+      {
+        q: "Is there negative marking?",
+        a: "Yes, in the Preliminary examination each wrong answer carries a penalty — commonly reported as one-third of the marks allotted to that question. The exact penalty is printed on the question booklet, so confirm it on the official paper. The descriptive Mains papers do not have negative marking."
+      },
+      {
+        q: "Is there a language requirement, and which languages can I use in Mains?",
+        a: "Candidates must be able to read, write and speak Bengali, except those whose mother tongue is Nepali. In the Mains, Paper II is a regional-language paper for which you can choose Bengali, Hindi, Urdu, Nepali or Santali. The official notification does not fix a limit on the number of attempts; eligibility is governed mainly by the age and qualification criteria."
+      },
+      {
+        q: "How should I prepare for this exam?",
+        a: "Focus on General Studies with a strong West Bengal emphasis (history, geography, polity, economy, science, environment and current affairs), and drill Class 10-standard arithmetic. Take full-length timed mock tests with negative marking, revise regularly, and start descriptive English and Bengali writing practice early. PadhoDost's chapter practice, mock tests and West Bengal GK bank are built for exactly this pattern."
+      },
+      {
+        q: "Is PadhoDost really free?",
+        a: "Yes. PadhoDost is fully free. All mock tests, chapter-wise practice, explanations, All-India rank and the West Bengal general-knowledge material are available at no cost, so you can prepare for the WBPSC Miscellaneous Services Examination without paying anything."
+      }
+    ]
+  },
+  {
+    examSlug: "wb-police-si",
+    heading: "West Bengal Police Sub-Inspector (SI): Exam Pattern, Syllabus & Free Preparation",
+    paragraphs: ["The West Bengal Police Sub-Inspector (SI) examination is a state-level recruitment conducted by the West Bengal Police Recruitment Board (WBPRB) to fill Sub-Inspector posts in the Armed and Unarmed Branches of the West Bengal Police. It is one of the most sought-after uniformed-service openings in the state, and the selection is spread across a Preliminary written test, physical tests, a Final Combined Competitive Examination (Mains) and a Personality Test. Because the board does not follow a fixed annual calendar and runs cycles only when vacancies arise, aspirants should always confirm notification and exam dates on the official site, prb.wb.gov.in.", "The exam is open to Indian graduates aged roughly 20 to 27 years (with statutory relaxations for reserved categories) who hold a Bachelor's degree in any discipline from a recognised university and can read, write and speak Bengali (candidates from the Nepali-speaking hill sub-divisions are exempted from the Bengali requirement). The journey begins with a 100-question objective Preliminary Examination covering General Studies, Arithmetic and Logical & Analytical Reasoning, followed by the Physical Measurement Test (PMT) and Physical Efficiency Test (PET), then a three-paper Final Combined Competitive Examination and finally an Interview or Personality Test that decides the merit list. Given the very large graduate applicant pool competing for a few hundred posts, consistent, well-targeted preparation is essential.", "PadhoDost helps you prepare for the WB Police SI exam completely free of cost. You get full-length mock tests modelled on the actual exam pattern, chapter-wise practice sets for Reasoning, Arithmetic and General Studies, and dedicated West Bengal General Knowledge drills covering the state's geography, history, culture and current affairs. Every attempt is scored with an All-India rank so you can benchmark yourself against thousands of other aspirants, review detailed explanations for each question, and track your improvement over time — all without paying a rupee."],
+    pattern: [
+      {
+        label: "Selection stages",
+        value: "Preliminary Exam -> PMT & PET -> Final Combined Competitive Exam (Mains) -> Personality Test/Interview"
+      },
+      {
+        label: "Preliminary questions",
+        value: "100 objective MCQs (General Studies, Arithmetic, Logical & Analytical Reasoning)"
+      },
+      {
+        label: "Preliminary marks",
+        value: "200 marks (2 marks per question)"
+      },
+      {
+        label: "Preliminary duration",
+        value: "90 minutes"
+      },
+      {
+        label: "Negative marking",
+        value: "1/4 penalty — 0.5 mark deducted for each wrong answer in the Preliminary Exam"
+      }
+    ],
+    topics: ["General Studies — Indian history, geography, polity, economics and general science", "Current Affairs and current events (national and West Bengal)", "West Bengal geography, history and culture", "Arithmetic — ratio & proportion, percentage, profit & loss", "Arithmetic — time, speed & distance, and time & work", "Elementary mensuration and basic trigonometry", "Logical & Analytical Reasoning — coding-decoding, analogies, series and classification", "English grammar, vocabulary and comprehension (Final/Mains stage)"],
+    tips: ["Master the Preliminary Arithmetic and Reasoning sections first — they are the most scoring and can be locked down with daily timed practice, unlike the vast General Studies syllabus.", "Build strong West Bengal General Knowledge: the state's rivers, districts, festivals, historical sites and famous personalities appear frequently, so keep a dedicated WB GK notebook.", "Because the Preliminary Exam carries a 1/4 negative marking (0.5 mark per wrong answer), practise smart guessing — only attempt questions where you can eliminate at least two options.", "Do not neglect the physical standards: start running and endurance training early alongside your studies so you clear the PMT and PET comfortably once you qualify the written stage."],
+    faqs: [
+      {
+        q: "What is the eligibility for the WB Police SI exam?",
+        a: "You need a Bachelor's degree in any discipline from a recognised university and must generally be 20 to 27 years old (with relaxations for reserved categories as per rules). You must also be able to read, write and speak Bengali, except for candidates from the Nepali-speaking hill sub-divisions. Confirm exact figures in the official notification on prb.wb.gov.in."
+      },
+      {
+        q: "What is the exam pattern for the Preliminary stage?",
+        a: "The Preliminary Examination has 100 objective MCQs worth 200 marks (2 marks each) to be answered in 90 minutes, covering General Studies, Arithmetic and Logical & Analytical Reasoning. It is a screening test; qualifiers move on to the Physical tests and then the Final Combined Competitive Examination."
+      },
+      {
+        q: "Is there negative marking in the WB Police SI exam?",
+        a: "Yes. In the Preliminary Examination, 1/4 of the marks (0.5 mark) is deducted for every wrong answer. Negative marking also commonly applies to objective components of the Final/Mains stage, so always verify the exact scheme in the cycle's notification."
+      },
+      {
+        q: "Is there a language requirement or a limit on attempts?",
+        a: "Candidates must be able to read, write and speak Bengali (Nepali-speaking hill sub-division residents are exempt), and the Mains includes a regional-language paper (Bengali/Hindi/Urdu/Nepali). The number of attempts is effectively governed by the age limit rather than a fixed cap; check the official notification for the current rule."
+      },
+      {
+        q: "How should I prepare for the WB Police SI exam?",
+        a: "Focus on the high-scoring Arithmetic and Reasoning sections with daily timed practice, build a strong base in West Bengal and national General Studies with current affairs, take regular full-length mock tests to manage negative marking, and train physically for the PMT and PET in parallel."
+      },
+      {
+        q: "Is PadhoDost free to use?",
+        a: "Yes, PadhoDost is completely free. All mock tests, chapter-wise practice, West Bengal GK drills, All-India rank and detailed explanations are available at no cost, so you can prepare fully for the WB Police SI exam without paying anything."
+      }
+    ]
+  },
+  {
+    examSlug: "wb-primary-tet",
+    heading: "West Bengal Primary TET: Exam Pattern, Syllabus & Free Preparation",
+    paragraphs: ["The West Bengal Primary TET (Teacher Eligibility Test) is a single-stage written eligibility examination conducted by the West Bengal Board of Primary Education (WBBPE), an autonomous body under the School Education Department, Government of West Bengal. It tests whether a candidate is eligible to be appointed as a primary school teacher for Classes I to V in the state. Qualifying the TET earns an eligibility certificate; it is not itself a direct appointment, and actual teaching posts are filled through a separate recruitment process.", "The exam is taken by aspiring primary teachers across West Bengal and is highly competitive — TET-2022 saw over 6 lakh candidates appear. To be eligible, a candidate must have passed Senior Secondary (10+2) with at least 50% marks (45% for reserved categories) along with a 2-year D.El.Ed / D.Ed teacher-training certificate (or B.Ed as permitted), with a minimum age of 18. The test is a single written paper of 150 MCQs covering Child Development & Pedagogy, Language I, Language II (English), Mathematics and Environmental Studies, and the ability to read, write and speak Bengali is expected (exact figures should be confirmed on the official notification).", "PadhoDost helps you prepare for the West Bengal Primary TET completely free. Practise full-length free mock tests that mirror the 150-question, no-negative-marking pattern, drill chapter-by-chapter question banks in Child Development & Pedagogy and EVS, and benchmark yourself with an All-India rank so you know exactly where you stand. We also cover West Bengal general knowledge and state-focused content so you are ready for the regional emphasis of the exam."],
+    pattern: [
+      {
+        label: "Stages",
+        value: "Single-stage written eligibility test (Primary, Classes I–V)"
+      },
+      {
+        label: "Number of Questions",
+        value: "150 MCQs (30 each from 5 sections)"
+      },
+      {
+        label: "Total Marks",
+        value: "150 (1 mark per question)"
+      },
+      {
+        label: "Duration",
+        value: "150 minutes (2 hours 30 minutes)"
+      },
+      {
+        label: "Negative Marking",
+        value: "No negative marking"
+      }
+    ],
+    topics: ["Child Development & Pedagogy (ages 6–11, learning and inclusive education)", "Language I – reading comprehension and pedagogy of language development (usually Bengali)", "Language II – English comprehension and language pedagogy", "Mathematics – content (numbers, geometry, measurement, data) and pedagogy", "Environmental Studies (EVS) – content and pedagogy", "Concept, significance and evaluation in EVS", "Understanding diversity, learners and the learning process", "Concepts of inclusive education and children with special needs"],
+    tips: ["Give equal weight to all five sections — each carries 30 marks, so weakness in any one (often Child Development & Pedagogy or EVS) can cost you the qualifying cut-off.", "Because there is no negative marking, attempt every question — make an informed guess on items you are unsure about rather than leaving them blank.", "Master NCERT/D.El.Ed-level pedagogy theory (Piaget, Vygotsky, learning principles, assessment) as these concepts are repeatedly tested in the CDP section.", "Practise EVS with a West Bengal focus — revise state rivers, districts, festivals and environment topics, and solve previous-year papers against the official WBBPE answer keys."],
+    faqs: [
+      {
+        q: "What is the eligibility to appear for the West Bengal Primary TET?",
+        a: "You need Senior Secondary (10+2) with at least 50% marks (45% for reserved categories) plus a 2-year D.El.Ed/D.Ed teacher-training certificate (or B.Ed as permitted), with a minimum age of 18. Confirm exact figures on the official WBBPE notification."
+      },
+      {
+        q: "What is the exam pattern of the WB Primary TET?",
+        a: "It is a single written paper of 150 multiple-choice questions for 150 marks, to be completed in 2 hours 30 minutes. The paper has five sections — Child Development & Pedagogy, Language I, Language II (English), Mathematics and EVS — with 30 questions each."
+      },
+      {
+        q: "Is there negative marking in the WB Primary TET?",
+        a: "No. There is no negative marking, so a wrong answer costs you nothing beyond the mark for that question. It is always in your interest to attempt every question."
+      },
+      {
+        q: "Is there a language requirement or limit on attempts?",
+        a: "Candidates are expected to be able to read, write and speak Bengali, and Language I is typically the Bengali/regional first language while Language II is English. WBBPE has not fixed a strict cap on the number of attempts for the eligibility test — check the official notification for the current cycle's rules."
+      },
+      {
+        q: "How should I prepare for the WB Primary TET?",
+        a: "Cover all five sections evenly at D.El.Ed/Class 12 standard, build strong pedagogy fundamentals, revise West Bengal-focused EVS and GK, and take timed full-length mock tests. Solving previous-year questions and checking them against official WBBPE answer keys is one of the most effective strategies."
+      },
+      {
+        q: "Is PadhoDost really free?",
+        a: "Yes, PadhoDost is fully free. All mock tests, chapter-wise practice, explanations and your All-India rank are available at no cost."
+      }
+    ]
+  },
+  {
     examSlug: "ssc-cgl",
     heading: "SSC CGL & Banking: Your Gateway to a Government Job",
     paragraphs: ["The SSC Combined Graduate Level (CGL) exam is conducted by the Staff Selection Commission to recruit graduates into Group B and Group C posts across ministries, departments, and offices of the Government of India. Popular posts include Income Tax Inspector, Assistant Section Officer, and Auditor. Alongside SSC CGL, lakhs of aspirants prepare for banking exams like IBPS PO, IBPS Clerk, and SBI PO, which share a very similar aptitude-based syllabus.","Anyone who has completed a bachelor's degree can appear, and the exam draws millions of candidates every year, making it one of India's most competitive recruitment routes. The selection is staged: Tier-1 is a common objective screening test, followed by Tier-2, which is more specialised.","On PadhoDost you can take free full-length Tier-1 mock tests that mirror the real timing and marking, drill individual sections like Quant and Reasoning through chapter-wise practice, and see your All-India rank against other aspirants. Visual explainers break down tricky topics such as time-and-work, data interpretation, and syllogisms so concepts actually stick."],

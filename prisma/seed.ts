@@ -22843,6 +22843,2954 @@ const wave21: ExamContent[] = [
   }
 ];
 
+const wave22: ExamContent[] = [
+  {
+    examSlug: "wb-police-constable",
+    subjects: [
+      {
+        slug: "practice",
+        name: "General Awareness & Aptitude",
+        chapters: [
+          {
+            slug: "wbpc-gk-science",
+            name: "General Knowledge, Current Affairs & Everyday Science",
+            marks: 1,
+            negative: 0,
+            test: {
+              slug: "wbpc-gk-science-practice",
+              title: "General Knowledge, Current Affairs & Everyday Science — Practice Test",
+              description: "12 practice questions for wb police constable. +1 each, no negative marking."
+            },
+            questions: [
+              {
+                text: "Who is known as the 'Father of the Indian Constitution'?",
+                difficulty: "EASY",
+                explanation: "Dr. B. R. Ambedkar chaired the Drafting Committee of the Constituent Assembly and is widely regarded as the chief architect of the Indian Constitution.",
+                options: [
+                  {
+                    text: "Mahatma Gandhi",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Dr. B. R. Ambedkar",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Jawaharlal Nehru",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Sardar Vallabhbhai Patel",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which gas do green plants absorb from the atmosphere during photosynthesis?",
+                difficulty: "EASY",
+                explanation: "During photosynthesis plants take in carbon dioxide and release oxygen, using sunlight to make food.",
+                options: [
+                  {
+                    text: "Oxygen",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Nitrogen",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Carbon dioxide",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Hydrogen",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The Tricolour (national flag of India) has how many spokes in the Ashoka Chakra?",
+                difficulty: "EASY",
+                explanation: "The navy-blue Ashoka Chakra at the centre of the Indian flag has 24 spokes, representing the wheel of law (dharma).",
+                options: [
+                  {
+                    text: "12",
+                    isCorrect: false
+                  },
+                  {
+                    text: "18",
+                    isCorrect: false
+                  },
+                  {
+                    text: "24",
+                    isCorrect: true
+                  },
+                  {
+                    text: "36",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which vitamin is produced in the human body when the skin is exposed to sunlight?",
+                difficulty: "EASY",
+                explanation: "Sunlight (ultraviolet rays) triggers the skin to synthesise Vitamin D, which is important for strong bones.",
+                options: [
+                  {
+                    text: "Vitamin A",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Vitamin C",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Vitamin D",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Vitamin K",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which is the largest planet in our solar system?",
+                difficulty: "EASY",
+                explanation: "Jupiter is the largest planet in the solar system by both diameter and mass.",
+                options: [
+                  {
+                    text: "Saturn",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Earth",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Jupiter",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Neptune",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The chemical symbol 'Na' stands for which element?",
+                difficulty: "MEDIUM",
+                explanation: "'Na' comes from the Latin name 'Natrium' and represents sodium, a soft, highly reactive metal.",
+                options: [
+                  {
+                    text: "Nickel",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Nitrogen",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Neon",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Sodium",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "In which year did India gain independence from British rule?",
+                difficulty: "EASY",
+                explanation: "India became independent on 15 August 1947, ending nearly two centuries of British colonial rule.",
+                options: [
+                  {
+                    text: "1942",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1945",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1947",
+                    isCorrect: true
+                  },
+                  {
+                    text: "1950",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which organ of the human body is primarily responsible for purifying the blood by removing waste as urine?",
+                difficulty: "MEDIUM",
+                explanation: "The kidneys filter waste products and excess water from the blood, forming urine.",
+                options: [
+                  {
+                    text: "Liver",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Kidney",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Heart",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Lungs",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The 'Jallianwala Bagh massacre' took place in which city?",
+                difficulty: "MEDIUM",
+                explanation: "The massacre occurred on 13 April 1919 in Amritsar, Punjab, when troops under General Dyer fired on a peaceful gathering.",
+                options: [
+                  {
+                    text: "Lahore",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Amritsar",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Delhi",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Kolkata",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which instrument is used to measure atmospheric pressure?",
+                difficulty: "MEDIUM",
+                explanation: "A barometer measures atmospheric (air) pressure and is commonly used in weather forecasting.",
+                options: [
+                  {
+                    text: "Thermometer",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Barometer",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Hygrometer",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Ammeter",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Who was the first woman Prime Minister of India?",
+                difficulty: "EASY",
+                explanation: "Indira Gandhi was India's first (and so far only) woman Prime Minister, first taking office in 1966.",
+                options: [
+                  {
+                    text: "Sarojini Naidu",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Pratibha Patil",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Indira Gandhi",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Sonia Gandhi",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The disease 'anaemia' in humans is caused by the deficiency of which element in the body?",
+                difficulty: "HARD",
+                explanation: "Iron is essential for making haemoglobin in red blood cells; its deficiency leads to anaemia, causing weakness and fatigue.",
+                options: [
+                  {
+                    text: "Calcium",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Iron",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Iodine",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Sodium",
+                    isCorrect: false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            slug: "wbpc-wb-gk",
+            name: "West Bengal General Knowledge (history, geography, culture, current affairs)",
+            marks: 1,
+            negative: 0,
+            test: {
+              slug: "wbpc-wb-gk-practice",
+              title: "West Bengal General Knowledge (history, geography, culture, current affairs) — Practice Test",
+              description: "12 practice questions for wb police constable. +1 each, no negative marking."
+            },
+            questions: [
+              {
+                text: "What is the capital city of West Bengal?",
+                difficulty: "EASY",
+                explanation: "Kolkata (formerly Calcutta) is the capital of West Bengal and served as the capital of British India until 1911.",
+                options: [
+                  {
+                    text: "Howrah",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Kolkata",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Siliguri",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Durgapur",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which river flows through Kolkata?",
+                difficulty: "EASY",
+                explanation: "The Hooghly, a distributary of the Ganga, flows past Kolkata and is central to the city's history and trade.",
+                options: [
+                  {
+                    text: "Damodar",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Teesta",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Hooghly",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Mahananda",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Durga Puja, the largest festival of West Bengal, is celebrated mainly in which month of the Bengali calendar season?",
+                difficulty: "MEDIUM",
+                explanation: "Durga Puja is celebrated in autumn (Sharat), usually in the months of Ashwin/September–October, and is often called Sharadotsav.",
+                options: [
+                  {
+                    text: "Spring (Basanta)",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Autumn (Sharat)",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Monsoon (Barsha)",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Winter (Sheet)",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Rabindranath Tagore, the first non-European to win the Nobel Prize in Literature, was awarded it for which work?",
+                difficulty: "MEDIUM",
+                explanation: "Tagore won the Nobel Prize in Literature in 1913, largely for his collection of poems 'Gitanjali' (Song Offerings).",
+                options: [
+                  {
+                    text: "Gora",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Gitanjali",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Ghare Baire",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Chokher Bali",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The Sundarbans, famous for the Royal Bengal Tiger, is located in which part of West Bengal?",
+                difficulty: "MEDIUM",
+                explanation: "The Sundarbans is a large mangrove delta region in the south of West Bengal, at the mouth of the Ganga–Brahmaputra, and a UNESCO World Heritage Site.",
+                options: [
+                  {
+                    text: "Northern hills",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Western plateau",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Southern delta (coastal)",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Central plains",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which is the highest peak in West Bengal, located in the Darjeeling region?",
+                difficulty: "HARD",
+                explanation: "Sandakphu (about 3,636 m) is the highest point within West Bengal. Kanchenjunga is higher but lies on the Sikkim–Nepal border, not inside West Bengal.",
+                options: [
+                  {
+                    text: "Sandakphu",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Tiger Hill",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Kanchenjunga",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Phalut",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which Bengali social reformer is chiefly associated with the movement for widow remarriage in the 19th century?",
+                difficulty: "MEDIUM",
+                explanation: "Ishwar Chandra Vidyasagar led the movement for widow remarriage, which resulted in the Hindu Widows' Remarriage Act of 1856.",
+                options: [
+                  {
+                    text: "Ishwar Chandra Vidyasagar",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Bankim Chandra Chattopadhyay",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Michael Madhusudan Dutt",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Jibanananda Das",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which West Bengal city is known as the 'Steel City' of the state, associated with the Durgapur Steel Plant?",
+                difficulty: "MEDIUM",
+                explanation: "Durgapur, in Paschim Bardhaman district, is a major industrial hub known for the Durgapur Steel Plant.",
+                options: [
+                  {
+                    text: "Asansol",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Durgapur",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Kharagpur",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Haldia",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The Teesta river, an important river of North Bengal, mainly flows through which district?",
+                difficulty: "HARD",
+                explanation: "The Teesta flows through the districts of North Bengal including Jalpaiguri, and is a key river of the region.",
+                options: [
+                  {
+                    text: "Purulia",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Jalpaiguri",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Bankura",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Murshidabad",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Who composed 'Vande Mataram', the national song of India, in his Bengali novel Anandamath?",
+                difficulty: "MEDIUM",
+                explanation: "'Vande Mataram' was written by Bankim Chandra Chattopadhyay and appears in his 1882 novel 'Anandamath'.",
+                options: [
+                  {
+                    text: "Rabindranath Tagore",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Kazi Nazrul Islam",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Bankim Chandra Chattopadhyay",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Sarat Chandra Chattopadhyay",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Poush Mela, a famous traditional fair of West Bengal, is held in which town associated with Rabindranath Tagore?",
+                difficulty: "HARD",
+                explanation: "Poush Mela is held every winter at Santiniketan, the town in Birbhum district where Tagore founded Visva-Bharati University.",
+                options: [
+                  {
+                    text: "Bishnupur",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Santiniketan",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Nabadwip",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Tarapith",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Bishnupur, famous for its terracotta temples and Baluchari sarees, is located in which district of West Bengal?",
+                difficulty: "HARD",
+                explanation: "Bishnupur, in Bankura district, is renowned for its terracotta temples built by the Malla kings and for Baluchari silk sarees.",
+                options: [
+                  {
+                    text: "Bankura",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Malda",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Nadia",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Hooghly",
+                    isCorrect: false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    examSlug: "wbpsc-clerkship",
+    subjects: [
+      {
+        slug: "practice",
+        name: "Aptitude & General Studies",
+        chapters: [
+          {
+            slug: "clk-arithmetic",
+            name: "Arithmetic & Quantitative Aptitude",
+            marks: 1,
+            negative: 0,
+            test: {
+              slug: "clk-arithmetic-practice",
+              title: "Arithmetic & Quantitative Aptitude — Practice Test",
+              description: "12 practice questions for wbpsc clerkship. +1 each, no negative marking."
+            },
+            questions: [
+              {
+                text: "What is the HCF (greatest common divisor) of 24 and 36?",
+                difficulty: "EASY",
+                explanation: "24 = 2^3 x 3 and 36 = 2^2 x 3^2, so the HCF is 2^2 x 3 = 12.",
+                options: [
+                  {
+                    text: "6",
+                    isCorrect: false
+                  },
+                  {
+                    text: "12",
+                    isCorrect: true
+                  },
+                  {
+                    text: "18",
+                    isCorrect: false
+                  },
+                  {
+                    text: "72",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "A shopkeeper buys an article for Rs 400 and sells it for Rs 500. What is his profit percentage?",
+                difficulty: "EASY",
+                explanation: "Profit = 500 - 400 = 100, so profit % = (100/400) x 100 = 25%.",
+                options: [
+                  {
+                    text: "20%",
+                    isCorrect: false
+                  },
+                  {
+                    text: "25%",
+                    isCorrect: true
+                  },
+                  {
+                    text: "10%",
+                    isCorrect: false
+                  },
+                  {
+                    text: "125%",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "What is 15% of 240?",
+                difficulty: "EASY",
+                explanation: "15% of 240 = (15/100) x 240 = 36.",
+                options: [
+                  {
+                    text: "24",
+                    isCorrect: false
+                  },
+                  {
+                    text: "30",
+                    isCorrect: false
+                  },
+                  {
+                    text: "36",
+                    isCorrect: true
+                  },
+                  {
+                    text: "40",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The average of 10, 20, 30, 40 and 50 is:",
+                difficulty: "EASY",
+                explanation: "Sum = 150 and there are 5 numbers, so the average = 150/5 = 30.",
+                options: [
+                  {
+                    text: "25",
+                    isCorrect: false
+                  },
+                  {
+                    text: "30",
+                    isCorrect: true
+                  },
+                  {
+                    text: "35",
+                    isCorrect: false
+                  },
+                  {
+                    text: "40",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The simple interest on Rs 2000 at 5% per annum for 2 years is:",
+                difficulty: "MEDIUM",
+                explanation: "SI = (P x R x T)/100 = (2000 x 5 x 2)/100 = Rs 200.",
+                options: [
+                  {
+                    text: "Rs 100",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Rs 150",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Rs 200",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Rs 220",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "If two numbers are in the ratio 3 : 4 and their sum is 63, the larger number is:",
+                difficulty: "MEDIUM",
+                explanation: "The parts total 3 + 4 = 7, so one part = 63/7 = 9; the larger number = 4 x 9 = 36.",
+                options: [
+                  {
+                    text: "27",
+                    isCorrect: false
+                  },
+                  {
+                    text: "28",
+                    isCorrect: false
+                  },
+                  {
+                    text: "36",
+                    isCorrect: true
+                  },
+                  {
+                    text: "40",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The LCM of 6, 8 and 12 is:",
+                difficulty: "MEDIUM",
+                explanation: "The smallest number divisible by 6, 8 and 12 is 24 (24/6=4, 24/8=3, 24/12=2).",
+                options: [
+                  {
+                    text: "24",
+                    isCorrect: true
+                  },
+                  {
+                    text: "36",
+                    isCorrect: false
+                  },
+                  {
+                    text: "48",
+                    isCorrect: false
+                  },
+                  {
+                    text: "72",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "A train travels 180 km in 3 hours. What is its speed in km/h?",
+                difficulty: "EASY",
+                explanation: "Speed = distance/time = 180/3 = 60 km/h.",
+                options: [
+                  {
+                    text: "45",
+                    isCorrect: false
+                  },
+                  {
+                    text: "50",
+                    isCorrect: false
+                  },
+                  {
+                    text: "60",
+                    isCorrect: true
+                  },
+                  {
+                    text: "90",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "If a man can do a piece of work in 10 days, how much of the work does he complete in 4 days?",
+                difficulty: "MEDIUM",
+                explanation: "In one day he does 1/10 of the work, so in 4 days he does 4/10 = 2/5.",
+                options: [
+                  {
+                    text: "1/5",
+                    isCorrect: false
+                  },
+                  {
+                    text: "2/5",
+                    isCorrect: true
+                  },
+                  {
+                    text: "1/2",
+                    isCorrect: false
+                  },
+                  {
+                    text: "3/5",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The compound interest on Rs 1000 at 10% per annum for 2 years (compounded annually) is:",
+                difficulty: "HARD",
+                explanation: "Amount = 1000 x (1.1)^2 = 1000 x 1.21 = Rs 1210, so CI = 1210 - 1000 = Rs 210.",
+                options: [
+                  {
+                    text: "Rs 200",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Rs 210",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Rs 220",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Rs 231",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "A number when increased by 20% becomes 96. What is the original number?",
+                difficulty: "HARD",
+                explanation: "If the number is x, then 1.2x = 96, so x = 96/1.2 = 80.",
+                options: [
+                  {
+                    text: "76",
+                    isCorrect: false
+                  },
+                  {
+                    text: "80",
+                    isCorrect: true
+                  },
+                  {
+                    text: "84",
+                    isCorrect: false
+                  },
+                  {
+                    text: "115",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "By selling an article for Rs 90, a man loses 10%. What was the cost price?",
+                difficulty: "HARD",
+                explanation: "Selling at a 10% loss means SP = 90% of CP, so CP = 90 / 0.9 = Rs 100.",
+                options: [
+                  {
+                    text: "Rs 81",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Rs 99",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Rs 100",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Rs 110",
+                    isCorrect: false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            slug: "clk-gs",
+            name: "General Studies (India & West Bengal)",
+            marks: 1,
+            negative: 0,
+            test: {
+              slug: "clk-gs-practice",
+              title: "General Studies (India & West Bengal) — Practice Test",
+              description: "12 practice questions for wbpsc clerkship. +1 each, no negative marking."
+            },
+            questions: [
+              {
+                text: "What is the capital of West Bengal?",
+                difficulty: "EASY",
+                explanation: "Kolkata (formerly Calcutta) is the capital of West Bengal and a major metropolitan city on the Hooghly river.",
+                options: [
+                  {
+                    text: "Howrah",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Kolkata",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Siliguri",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Durgapur",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The river that flows through Kolkata is a distributary of the Ganga known as the:",
+                difficulty: "EASY",
+                explanation: "The Hooghly (Hugli) is a distributary of the Ganga on whose banks Kolkata and Howrah stand.",
+                options: [
+                  {
+                    text: "Damodar",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Teesta",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Hooghly",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Mahananda",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which is the biggest festival of West Bengal, celebrated widely in autumn?",
+                difficulty: "EASY",
+                explanation: "Durga Puja is the largest and most important festival of West Bengal; it has been inscribed on UNESCO's Intangible Cultural Heritage list.",
+                options: [
+                  {
+                    text: "Onam",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Durga Puja",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Bihu",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Pongal",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The Sundarbans, famous for the Royal Bengal Tiger, are located in which part of West Bengal?",
+                difficulty: "MEDIUM",
+                explanation: "The Sundarbans form a large mangrove delta in the south of West Bengal, along the Bay of Bengal, and are a UNESCO World Heritage Site.",
+                options: [
+                  {
+                    text: "Northern hills",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Western plateau",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Southern delta",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Central plains",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Who wrote the Indian national anthem 'Jana Gana Mana'?",
+                difficulty: "EASY",
+                explanation: "Rabindranath Tagore, born in Kolkata, wrote 'Jana Gana Mana' and was the first Indian and Asian to win the Nobel Prize in Literature (1913).",
+                options: [
+                  {
+                    text: "Bankim Chandra Chattopadhyay",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Rabindranath Tagore",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Kazi Nazrul Islam",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Sarat Chandra Chattopadhyay",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The famous hill station of Darjeeling in West Bengal is well known for its:",
+                difficulty: "EASY",
+                explanation: "Darjeeling is world-famous for its tea gardens and the Darjeeling Himalayan Railway, a UNESCO World Heritage Site.",
+                options: [
+                  {
+                    text: "Coffee",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Tea",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Cotton",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Rubber",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which physicist from Bengal is remembered for the 'Boson' particle, named in his honour?",
+                difficulty: "MEDIUM",
+                explanation: "Satyendra Nath Bose, a Bengali physicist, worked with Einstein on Bose-Einstein statistics; the class of particles called bosons is named after him.",
+                options: [
+                  {
+                    text: "C. V. Raman",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Satyendra Nath Bose",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Meghnad Saha",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Homi Bhabha",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "How many fundamental rights are currently guaranteed by the Constitution of India?",
+                difficulty: "MEDIUM",
+                explanation: "There are six fundamental rights after the Right to Property was removed in 1978: equality, freedom, against exploitation, freedom of religion, cultural & educational rights, and constitutional remedies.",
+                options: [
+                  {
+                    text: "Five",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Six",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Seven",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Nine",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "In which year did India gain independence from British rule?",
+                difficulty: "EASY",
+                explanation: "India became independent on 15 August 1947; it later became a republic on 26 January 1950.",
+                options: [
+                  {
+                    text: "1942",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1945",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1947",
+                    isCorrect: true
+                  },
+                  {
+                    text: "1950",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The 'Quit India Movement' was launched by Mahatma Gandhi in which year?",
+                difficulty: "MEDIUM",
+                explanation: "The Quit India Movement began in August 1942, demanding an immediate end to British rule during the Second World War.",
+                options: [
+                  {
+                    text: "1930",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1942",
+                    isCorrect: true
+                  },
+                  {
+                    text: "1919",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1945",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which district of West Bengal is famous for the temple town and terracotta temples of Bishnupur?",
+                difficulty: "HARD",
+                explanation: "Bishnupur, in Bankura district, is renowned for its terracotta temples built by the Malla kings and for Baluchari sarees.",
+                options: [
+                  {
+                    text: "Bankura",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Malda",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Nadia",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Purulia",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The gas most responsible for the greenhouse effect and global warming is:",
+                difficulty: "MEDIUM",
+                explanation: "Carbon dioxide (CO2) is a major greenhouse gas that traps heat in the atmosphere and contributes significantly to global warming.",
+                options: [
+                  {
+                    text: "Oxygen",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Nitrogen",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Carbon dioxide",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Hydrogen",
+                    isCorrect: false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    examSlug: "wbpsc-misc",
+    subjects: [
+      {
+        slug: "practice",
+        name: "General Studies & Aptitude",
+        chapters: [
+          {
+            slug: "misc-gs",
+            name: "General Studies — Indian Polity, History, Geography & Economy",
+            marks: 1,
+            negative: 0,
+            test: {
+              slug: "misc-gs-practice",
+              title: "General Studies — Indian Polity, History, Geography & Economy — Practice Test",
+              description: "12 practice questions for wbpsc misc. +1 each, no negative marking."
+            },
+            questions: [
+              {
+                text: "Which part of the Indian Constitution contains the Fundamental Rights?",
+                difficulty: "EASY",
+                explanation: "Fundamental Rights are enshrined in Part III (Articles 12 to 35) of the Constitution. Part IV contains the Directive Principles of State Policy.",
+                options: [
+                  {
+                    text: "Part III",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Part IV",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Part II",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Part V",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The Directive Principles of State Policy in the Indian Constitution were borrowed from the Constitution of which country?",
+                difficulty: "MEDIUM",
+                explanation: "The Directive Principles of State Policy were inspired by the Irish Constitution, which had itself adopted them from the Spanish Constitution.",
+                options: [
+                  {
+                    text: "United States",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Ireland",
+                    isCorrect: true
+                  },
+                  {
+                    text: "United Kingdom",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Canada",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Who was the first Governor-General of independent India?",
+                difficulty: "MEDIUM",
+                explanation: "Lord Mountbatten was the first Governor-General of independent India (1947-48). C. Rajagopalachari was the first and only Indian Governor-General, who succeeded him.",
+                options: [
+                  {
+                    text: "C. Rajagopalachari",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Lord Mountbatten",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Rajendra Prasad",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Lord Wavell",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The Battle of Plassey, which laid the foundation of British rule in India, was fought in which year?",
+                difficulty: "EASY",
+                explanation: "The Battle of Plassey was fought in 1757 between Robert Clive of the East India Company and Siraj-ud-Daulah, the Nawab of Bengal. The Battle of Buxar followed in 1764.",
+                options: [
+                  {
+                    text: "1764",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1757",
+                    isCorrect: true
+                  },
+                  {
+                    text: "1707",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1761",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which of the following rivers is known as the 'Sorrow of Bihar'?",
+                difficulty: "MEDIUM",
+                explanation: "The Kosi river is called the 'Sorrow of Bihar' because of its frequent, devastating floods and its tendency to change course.",
+                options: [
+                  {
+                    text: "Gandak",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Son",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Kosi",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Ganga",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The Tropic of Cancer does NOT pass through which of the following Indian states?",
+                difficulty: "HARD",
+                explanation: "The Tropic of Cancer passes through eight Indian states including Rajasthan, Madhya Pradesh and West Bengal, but not Odisha.",
+                options: [
+                  {
+                    text: "Rajasthan",
+                    isCorrect: false
+                  },
+                  {
+                    text: "West Bengal",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Odisha",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Madhya Pradesh",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "In the Indian Parliament, a Money Bill can be introduced only in which House?",
+                difficulty: "MEDIUM",
+                explanation: "Under Article 110, a Money Bill can be introduced only in the Lok Sabha, and that too on the recommendation of the President. The Rajya Sabha can only make recommendations.",
+                options: [
+                  {
+                    text: "Rajya Sabha",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Lok Sabha",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Either House",
+                    isCorrect: false
+                  },
+                  {
+                    text: "A joint sitting",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Who is known as the 'Father of the Indian Constitution'?",
+                difficulty: "EASY",
+                explanation: "Dr. B. R. Ambedkar, as Chairman of the Drafting Committee of the Constituent Assembly, is regarded as the chief architect and 'Father of the Indian Constitution'.",
+                options: [
+                  {
+                    text: "Jawaharlal Nehru",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Mahatma Gandhi",
+                    isCorrect: false
+                  },
+                  {
+                    text: "B. R. Ambedkar",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Sardar Vallabhbhai Patel",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The 'Grand Trunk Road', one of Asia's oldest and longest roads, was built during the reign of which ruler?",
+                difficulty: "HARD",
+                explanation: "Sher Shah Suri built (rebuilt on an ancient route) the Grand Trunk Road connecting the eastern and northern parts of the subcontinent; it was originally known as the Sadak-e-Azam.",
+                options: [
+                  {
+                    text: "Akbar",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Sher Shah Suri",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Ashoka",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Shah Jahan",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which body in India is responsible for the collection and preparation of national income estimates?",
+                difficulty: "MEDIUM",
+                explanation: "The National Statistical Office (NSO), under the Ministry of Statistics and Programme Implementation, compiles national income and GDP estimates in India.",
+                options: [
+                  {
+                    text: "Reserve Bank of India",
+                    isCorrect: false
+                  },
+                  {
+                    text: "NITI Aayog",
+                    isCorrect: false
+                  },
+                  {
+                    text: "National Statistical Office (NSO)",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Finance Commission",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The Dandi March (Salt Satyagraha) led by Mahatma Gandhi began in which year?",
+                difficulty: "EASY",
+                explanation: "The Dandi March began on 12 March 1930, when Gandhi and his followers marched to the coastal village of Dandi to break the salt law, launching the Civil Disobedience Movement.",
+                options: [
+                  {
+                    text: "1919",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1930",
+                    isCorrect: true
+                  },
+                  {
+                    text: "1942",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1928",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which Indian institution acts as the lender of last resort and controls the country's monetary policy?",
+                difficulty: "EASY",
+                explanation: "The Reserve Bank of India (RBI), established in 1935, is the central bank; it formulates monetary policy, issues currency and acts as the lender of last resort to commercial banks.",
+                options: [
+                  {
+                    text: "State Bank of India",
+                    isCorrect: false
+                  },
+                  {
+                    text: "SEBI",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Reserve Bank of India",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Finance Ministry",
+                    isCorrect: false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            slug: "misc-wb",
+            name: "West Bengal — History, Geography, Economy & Current Affairs",
+            marks: 1,
+            negative: 0,
+            test: {
+              slug: "misc-wb-practice",
+              title: "West Bengal — History, Geography, Economy & Current Affairs — Practice Test",
+              description: "12 practice questions for wbpsc misc. +1 each, no negative marking."
+            },
+            questions: [
+              {
+                text: "What is the capital city of West Bengal?",
+                difficulty: "EASY",
+                explanation: "Kolkata (formerly Calcutta) is the capital of West Bengal and served as the capital of British India until 1911.",
+                options: [
+                  {
+                    text: "Howrah",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Kolkata",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Siliguri",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Durgapur",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The Sundarbans, the world's largest mangrove forest and a UNESCO World Heritage Site, lies in the delta of which river system?",
+                difficulty: "MEDIUM",
+                explanation: "The Sundarbans lie in the vast delta formed by the Ganga, Brahmaputra and Meghna rivers, and are famous for the Royal Bengal Tiger.",
+                options: [
+                  {
+                    text: "Ganga-Brahmaputra-Meghna",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Damodar-Ajay",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Teesta-Torsa",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Mahananda-Jaldhaka",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The Damodar river was historically known by which name due to its devastating floods?",
+                difficulty: "MEDIUM",
+                explanation: "The Damodar was called the 'Sorrow of Bengal' due to its frequent floods; the Damodar Valley Corporation (DVC) was set up to control it.",
+                options: [
+                  {
+                    text: "Sorrow of Bengal",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Sorrow of Bihar",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Sorrow of India",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Sorrow of Assam",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Rabindranath Tagore, born in Kolkata, won the Nobel Prize in Literature in 1913 for which work?",
+                difficulty: "EASY",
+                explanation: "Rabindranath Tagore won the Nobel Prize in Literature in 1913, largely for 'Gitanjali' (Song Offerings), becoming the first non-European and first Indian Nobel laureate in literature.",
+                options: [
+                  {
+                    text: "Gora",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Gitanjali",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Ghare Baire",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Chokher Bali",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which is the highest peak in West Bengal, located in the Darjeeling Himalayas?",
+                difficulty: "HARD",
+                explanation: "Sandakphu, at about 3,636 metres, is the highest point in West Bengal. Kanchenjunga is the world's third-highest mountain but its summit lies on the Sikkim-Nepal border, not within West Bengal.",
+                options: [
+                  {
+                    text: "Sandakphu",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Tiger Hill",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Phalut",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Kanchenjunga",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Durga Puja, the biggest festival of West Bengal, was inscribed on the UNESCO Representative List of Intangible Cultural Heritage of Humanity in which year?",
+                difficulty: "MEDIUM",
+                explanation: "'Durga Puja in Kolkata' was added to UNESCO's Representative List of the Intangible Cultural Heritage of Humanity in December 2021.",
+                options: [
+                  {
+                    text: "2019",
+                    isCorrect: false
+                  },
+                  {
+                    text: "2021",
+                    isCorrect: true
+                  },
+                  {
+                    text: "2015",
+                    isCorrect: false
+                  },
+                  {
+                    text: "2023",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The famous Hazarduari Palace, known for its thousand doors, is located in which district of West Bengal?",
+                difficulty: "HARD",
+                explanation: "Hazarduari Palace ('palace with a thousand doors') is situated at Murshidabad, the former capital of the Nawabs of Bengal, on the bank of the Bhagirathi river.",
+                options: [
+                  {
+                    text: "Murshidabad",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Malda",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Birbhum",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Bankura",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Santiniketan, the town where Rabindranath Tagore founded Visva-Bharati, is located in which West Bengal district?",
+                difficulty: "MEDIUM",
+                explanation: "Santiniketan is in Birbhum district. Tagore established Visva-Bharati there; Santiniketan was declared a UNESCO World Heritage Site in 2023.",
+                options: [
+                  {
+                    text: "Bardhaman",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Nadia",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Birbhum",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Purulia",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The Teesta river, a major river of North Bengal, is the subject of a long-standing water-sharing dispute between India and which neighbouring country?",
+                difficulty: "MEDIUM",
+                explanation: "The Teesta water-sharing dispute is between India and Bangladesh; the river flows from Sikkim through North Bengal into Bangladesh before joining the Brahmaputra.",
+                options: [
+                  {
+                    text: "Nepal",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Bhutan",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Bangladesh",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Myanmar",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which West Bengal city is famously known as the 'Steel City' of the state, home to a major steel plant set up in the 1950s-60s?",
+                difficulty: "MEDIUM",
+                explanation: "Durgapur is known as the 'Steel City' of West Bengal and the 'Ruhr of India', built around the Durgapur Steel Plant in the industrial Damodar valley belt.",
+                options: [
+                  {
+                    text: "Asansol",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Durgapur",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Haldia",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Kharagpur",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Ishwar Chandra Vidyasagar, the great Bengali reformer, is especially remembered for championing which social cause?",
+                difficulty: "MEDIUM",
+                explanation: "Ishwar Chandra Vidyasagar was instrumental in the passage of the Hindu Widows' Remarriage Act of 1856 and reformed Bengali prose and education.",
+                options: [
+                  {
+                    text: "Abolition of the zamindari system",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Widow remarriage",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Prohibition of child labour",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Promotion of khadi",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "How many districts did West Bengal have after the bifurcation that created Kalimpong, i.e. the count widely recognised in the 2010s (before later proposed additions)?",
+                difficulty: "HARD",
+                explanation: "West Bengal has 23 districts following the creation of newer districts such as Kalimpong, Jhargram, Paschim Bardhaman and Alipurduar; the state government has proposed further districts, so always check the latest official count.",
+                options: [
+                  {
+                    text: "19",
+                    isCorrect: false
+                  },
+                  {
+                    text: "23",
+                    isCorrect: true
+                  },
+                  {
+                    text: "27",
+                    isCorrect: false
+                  },
+                  {
+                    text: "16",
+                    isCorrect: false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    examSlug: "wb-police-si",
+    subjects: [
+      {
+        slug: "practice",
+        name: "Reasoning & General Studies",
+        chapters: [
+          {
+            slug: "si-reasoning",
+            name: "Logical & Analytical Reasoning",
+            marks: 1,
+            negative: 0,
+            test: {
+              slug: "si-reasoning-practice",
+              title: "Logical & Analytical Reasoning — Practice Test",
+              description: "12 practice questions for wb police si. +1 each, no negative marking."
+            },
+            questions: [
+              {
+                text: "In a certain code, 'TABLE' is written as 'UBCMF'. How is 'CHAIR' written in the same code?",
+                difficulty: "EASY",
+                explanation: "Each letter is shifted one place forward in the alphabet. C->D, H->I, A->B, I->J, R->S gives DIBJS.",
+                options: [
+                  {
+                    text: "DIBJS",
+                    isCorrect: true
+                  },
+                  {
+                    text: "DIBSJ",
+                    isCorrect: false
+                  },
+                  {
+                    text: "DJBIS",
+                    isCorrect: false
+                  },
+                  {
+                    text: "EIBJS",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Find the next number in the series: 3, 6, 11, 18, 27, ?",
+                difficulty: "EASY",
+                explanation: "The differences increase by 2 each time: +3, +5, +7, +9, +11. So 27 + 11 = 38.",
+                options: [
+                  {
+                    text: "36",
+                    isCorrect: false
+                  },
+                  {
+                    text: "38",
+                    isCorrect: true
+                  },
+                  {
+                    text: "40",
+                    isCorrect: false
+                  },
+                  {
+                    text: "42",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Pointing to a photograph, a man said, 'She is the daughter of my grandfather's only son.' How is the woman related to the man?",
+                difficulty: "MEDIUM",
+                explanation: "The grandfather's only son is the man's own father, so the father's daughter is the man's sister.",
+                options: [
+                  {
+                    text: "Mother",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Aunt",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Sister",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Cousin",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "If 'A + B' means A is the mother of B, 'A - B' means A is the brother of B, and 'A x B' means A is the father of B, then which expression shows that P is the maternal uncle of Q?",
+                difficulty: "HARD",
+                explanation: "P - M means P is M's brother, and M + Q means M is Q's mother. So P is the brother of Q's mother, i.e., Q's maternal uncle.",
+                options: [
+                  {
+                    text: "P - M + Q",
+                    isCorrect: true
+                  },
+                  {
+                    text: "P + M - Q",
+                    isCorrect: false
+                  },
+                  {
+                    text: "P x M - Q",
+                    isCorrect: false
+                  },
+                  {
+                    text: "P - M x Q",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Choose the odd one out: 8, 27, 64, 100, 125",
+                difficulty: "MEDIUM",
+                explanation: "8, 27, 64 and 125 are perfect cubes (2^3, 3^3, 4^3, 5^3), but 100 is a perfect square, not a cube.",
+                options: [
+                  {
+                    text: "27",
+                    isCorrect: false
+                  },
+                  {
+                    text: "64",
+                    isCorrect: false
+                  },
+                  {
+                    text: "100",
+                    isCorrect: true
+                  },
+                  {
+                    text: "125",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Statements: All roses are flowers. Some flowers fade quickly. Conclusion: Some roses fade quickly. Is the conclusion valid?",
+                difficulty: "HARD",
+                explanation: "The flowers that fade quickly need not include any roses, so the conclusion is not a necessary consequence of the statements.",
+                options: [
+                  {
+                    text: "Definitely true",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Definitely false",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Does not necessarily follow",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Cannot use the statements",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "A is taller than B but shorter than C. D is taller than C. Who is the tallest?",
+                difficulty: "EASY",
+                explanation: "The order from shortest to tallest is B < A < C < D, so D is the tallest.",
+                options: [
+                  {
+                    text: "A",
+                    isCorrect: false
+                  },
+                  {
+                    text: "B",
+                    isCorrect: false
+                  },
+                  {
+                    text: "C",
+                    isCorrect: false
+                  },
+                  {
+                    text: "D",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "If in a certain language MADRAS is coded as NBESBT, then how is BOMBAY coded?",
+                difficulty: "MEDIUM",
+                explanation: "Each letter is replaced by the next letter of the alphabet. B->C, O->P, M->N, B->C, A->B, Y->Z gives CPNCBZ.",
+                options: [
+                  {
+                    text: "CPNCBZ",
+                    isCorrect: true
+                  },
+                  {
+                    text: "CPNCAZ",
+                    isCorrect: false
+                  },
+                  {
+                    text: "DPNCBZ",
+                    isCorrect: false
+                  },
+                  {
+                    text: "CQNCBZ",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "A man walks 5 km north, turns right and walks 3 km, then turns right again and walks 5 km. How far is he from the starting point?",
+                difficulty: "MEDIUM",
+                explanation: "He goes 5 km north, 3 km east, then 5 km south, ending up level with the start but 3 km to the east — a distance of 3 km.",
+                options: [
+                  {
+                    text: "3 km",
+                    isCorrect: true
+                  },
+                  {
+                    text: "5 km",
+                    isCorrect: false
+                  },
+                  {
+                    text: "8 km",
+                    isCorrect: false
+                  },
+                  {
+                    text: "13 km",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Complete the analogy: Doctor is to Hospital as Teacher is to ?",
+                difficulty: "EASY",
+                explanation: "A doctor works in a hospital, just as a teacher works in a school; the relationship is professional-to-workplace.",
+                options: [
+                  {
+                    text: "Student",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Book",
+                    isCorrect: false
+                  },
+                  {
+                    text: "School",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Education",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "In a row of 40 students, Ravi is 11th from the left end. What is his position from the right end?",
+                difficulty: "MEDIUM",
+                explanation: "Position from the right = total - position from left + 1 = 40 - 11 + 1 = 30th.",
+                options: [
+                  {
+                    text: "29th",
+                    isCorrect: false
+                  },
+                  {
+                    text: "30th",
+                    isCorrect: true
+                  },
+                  {
+                    text: "31st",
+                    isCorrect: false
+                  },
+                  {
+                    text: "28th",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Find the missing term: AZ, BY, CX, ?",
+                difficulty: "MEDIUM",
+                explanation: "The first letters go forward A, B, C, D while the second letters go backward Z, Y, X, W, giving DW.",
+                options: [
+                  {
+                    text: "DW",
+                    isCorrect: true
+                  },
+                  {
+                    text: "DV",
+                    isCorrect: false
+                  },
+                  {
+                    text: "EW",
+                    isCorrect: false
+                  },
+                  {
+                    text: "CW",
+                    isCorrect: false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            slug: "si-wb-gk",
+            name: "West Bengal General Knowledge",
+            marks: 1,
+            negative: 0,
+            test: {
+              slug: "si-wb-gk-practice",
+              title: "West Bengal General Knowledge — Practice Test",
+              description: "12 practice questions for wb police si. +1 each, no negative marking."
+            },
+            questions: [
+              {
+                text: "What is the capital city of West Bengal?",
+                difficulty: "EASY",
+                explanation: "Kolkata, on the banks of the Hooghly river, is the capital of West Bengal and served as the capital of British India until 1911.",
+                options: [
+                  {
+                    text: "Howrah",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Kolkata",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Siliguri",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Durgapur",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which river flows through Kolkata and is a distributary of the Ganga?",
+                difficulty: "EASY",
+                explanation: "The Hooghly (Hugli) is a distributary of the Ganga that flows past Kolkata and Howrah before reaching the Bay of Bengal.",
+                options: [
+                  {
+                    text: "Teesta",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Damodar",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Hooghly",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Mahananda",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The Sundarbans, famous for the Royal Bengal Tiger, is located in which part of West Bengal?",
+                difficulty: "MEDIUM",
+                explanation: "The Sundarbans mangrove delta lies in the south of West Bengal where the Ganga-Brahmaputra system meets the Bay of Bengal, and it is a UNESCO World Heritage Site.",
+                options: [
+                  {
+                    text: "Northern hills",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Western plateau",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Deltaic south (Bay of Bengal)",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Central plains",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which is the biggest and most widely celebrated festival of West Bengal?",
+                difficulty: "EASY",
+                explanation: "Durga Puja is the largest festival of West Bengal and was inscribed on UNESCO's Intangible Cultural Heritage list in 2021.",
+                options: [
+                  {
+                    text: "Diwali",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Durga Puja",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Holi",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Chhath",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Rabindranath Tagore, the first non-European Nobel laureate in Literature (1913), was awarded the prize for which work?",
+                difficulty: "MEDIUM",
+                explanation: "Tagore won the 1913 Nobel Prize in Literature largely for 'Gitanjali' (Song Offerings); he also composed India's national anthem.",
+                options: [
+                  {
+                    text: "Gora",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Gitanjali",
+                    isCorrect: true
+                  },
+                  {
+                    text: "The Home and the World",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Chokher Bali",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which hill town in northern West Bengal is famous for its tea and the Darjeeling Himalayan Railway, a UNESCO World Heritage Site?",
+                difficulty: "EASY",
+                explanation: "Darjeeling is renowned for its tea gardens and the toy train of the Darjeeling Himalayan Railway, which UNESCO listed as a World Heritage Site in 1999.",
+                options: [
+                  {
+                    text: "Kurseong",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Kalimpong",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Darjeeling",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Jalpaiguri",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The Victoria Memorial, a marble monument built in memory of Queen Victoria, is located in which city?",
+                difficulty: "EASY",
+                explanation: "The Victoria Memorial, completed in 1921, stands in Kolkata and is one of the city's most iconic colonial-era landmarks.",
+                options: [
+                  {
+                    text: "Murshidabad",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Kolkata",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Bishnupur",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Malda",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which of the following districts of West Bengal shares an international border and is famous for tea and the Teesta river?",
+                difficulty: "MEDIUM",
+                explanation: "Jalpaiguri in North Bengal lies near the international borders and is well known for its tea estates and the Teesta river.",
+                options: [
+                  {
+                    text: "Purulia",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Bankura",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Jalpaiguri",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Nadia",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Who is regarded as one of West Bengal's great social reformers and championed widow remarriage in the 19th century?",
+                difficulty: "MEDIUM",
+                explanation: "Ishwar Chandra Vidyasagar was a key figure of the Bengal Renaissance who campaigned for widow remarriage and women's education, leading to the Hindu Widows' Remarriage Act of 1856.",
+                options: [
+                  {
+                    text: "Ishwar Chandra Vidyasagar",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Subhas Chandra Bose",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Bankim Chandra Chattopadhyay",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Bidhan Chandra Roy",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The temple town of Bishnupur in Bankura district is famous for which architectural style?",
+                difficulty: "HARD",
+                explanation: "Bishnupur, once the capital of the Malla kings, is renowned for its ornate terracotta (baked-clay) temples built in the 17th and 18th centuries.",
+                options: [
+                  {
+                    text: "Marble domes",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Terracotta temples",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Rock-cut caves",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Ironwork bridges",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which physician and freedom fighter, honoured with National Doctors' Day in India on his birth and death anniversary (1 July), served as a Chief Minister of West Bengal?",
+                difficulty: "HARD",
+                explanation: "Dr. Bidhan Chandra Roy, a distinguished physician and Chief Minister of West Bengal, is commemorated by National Doctors' Day on 1 July, his birth and death anniversary.",
+                options: [
+                  {
+                    text: "Bidhan Chandra Roy",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Prafulla Chandra Ghosh",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Jyoti Basu",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Meghnad Saha",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Murshidabad, on the bank of the Bhagirathi river, was historically important as the capital of which region under the Nawabs?",
+                difficulty: "MEDIUM",
+                explanation: "Murshidabad served as the capital of the Bengal Subah under the Nawabs of Bengal, including Siraj-ud-Daulah, before the British rose to power after the Battle of Plassey in 1757.",
+                options: [
+                  {
+                    text: "Awadh",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Bengal (Bengal Subah)",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Mysore",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Hyderabad",
+                    isCorrect: false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    examSlug: "wb-primary-tet",
+    subjects: [
+      {
+        slug: "practice",
+        name: "Pedagogy & Core Subjects",
+        chapters: [
+          {
+            slug: "tet-cdp",
+            name: "Child Development & Pedagogy",
+            marks: 1,
+            negative: 0,
+            test: {
+              slug: "tet-cdp-practice",
+              title: "Child Development & Pedagogy — Practice Test",
+              description: "12 practice questions for wb primary tet. +1 each, no negative marking."
+            },
+            questions: [
+              {
+                text: "According to Jean Piaget, a child in the concrete operational stage (roughly 7–11 years) is typically able to:",
+                difficulty: "MEDIUM",
+                explanation: "In Piaget's concrete operational stage children can reason logically about concrete objects and grasp conservation, but abstract/hypothetical reasoning appears later in the formal operational stage.",
+                options: [
+                  {
+                    text: "Think abstractly and reason about hypothetical situations",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Perform logical operations on concrete objects and understand conservation",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Understand the world only through senses and motor actions",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Use language for the first time to represent objects",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The 'Zone of Proximal Development' (ZPD) is a concept given by which psychologist?",
+                difficulty: "EASY",
+                explanation: "Lev Vygotsky proposed the ZPD — the gap between what a learner can do alone and what they can do with guidance from a more capable person.",
+                options: [
+                  {
+                    text: "Jean Piaget",
+                    isCorrect: false
+                  },
+                  {
+                    text: "B. F. Skinner",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Lev Vygotsky",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Sigmund Freud",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The term 'scaffolding' in the teaching-learning process refers to:",
+                difficulty: "EASY",
+                explanation: "Scaffolding, linked to Vygotsky's ZPD, is temporary guided support that is gradually removed as the learner becomes independent.",
+                options: [
+                  {
+                    text: "Punishing a child for repeated mistakes",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Temporary support given to a learner that is gradually withdrawn as competence grows",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Physical construction material used in classrooms",
+                    isCorrect: false
+                  },
+                  {
+                    text: "A fixed syllabus that cannot be changed",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "A teacher uses stars and praise to encourage good behaviour in class. This is an example of:",
+                difficulty: "MEDIUM",
+                explanation: "Adding a pleasant stimulus (praise, stars) to increase a desired behaviour is positive reinforcement in Skinner's operant conditioning.",
+                options: [
+                  {
+                    text: "Negative reinforcement",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Punishment",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Positive reinforcement",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Extinction",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which of the following best reflects the idea of 'child-centred education'?",
+                difficulty: "EASY",
+                explanation: "Child-centred education places the learner's interests, experiences and active involvement at the core of teaching, rather than rote transmission.",
+                options: [
+                  {
+                    text: "The teacher lectures and children memorise silently",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Learning is built around the child's needs, interests and active participation",
+                    isCorrect: true
+                  },
+                  {
+                    text: "All children are made to learn at exactly the same pace",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Only textbooks decide what is taught",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Howard Gardner is best known for his theory of:",
+                difficulty: "MEDIUM",
+                explanation: "Howard Gardner proposed the theory of multiple intelligences, arguing that intelligence has several relatively independent forms such as linguistic, logical-mathematical and musical.",
+                options: [
+                  {
+                    text: "Psychosocial development",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Multiple intelligences",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Classical conditioning",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Moral development",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Assessment 'for' learning (formative assessment) is mainly intended to:",
+                difficulty: "MEDIUM",
+                explanation: "Formative (assessment for learning) is continuous and diagnostic, using feedback to improve the learning process, unlike summative assessment which mainly judges final achievement.",
+                options: [
+                  {
+                    text: "Rank and grade students at the end of the year",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Provide ongoing feedback to improve teaching and learning",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Select students for admission",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Award certificates only",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Inclusive education primarily means:",
+                difficulty: "EASY",
+                explanation: "Inclusive education brings all learners, including children with diverse abilities and special needs, into common regular classrooms with appropriate support.",
+                options: [
+                  {
+                    text: "Teaching gifted children separately from others",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Educating children with disabilities only in special schools",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Educating all children, including those with special needs, together in regular classrooms",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Excluding slow learners from the mainstream",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "A child consistently reverses letters like 'b' and 'd' and struggles specifically with reading despite normal intelligence. This may indicate:",
+                difficulty: "MEDIUM",
+                explanation: "Dyslexia is a specific learning disability affecting reading and word recognition; dyscalculia relates to mathematics, which is different.",
+                options: [
+                  {
+                    text: "Dyslexia",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Dyscalculia",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Colour blindness",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Autism",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "According to Lawrence Kohlberg, morality is primarily studied in the domain of:",
+                difficulty: "MEDIUM",
+                explanation: "Kohlberg extended Piaget's work to describe stages of moral reasoning, from pre-conventional to post-conventional levels.",
+                options: [
+                  {
+                    text: "Language development",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Moral (ethical) development",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Physical development",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Sensory development",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The most appropriate way to deal with individual differences among learners in a classroom is to:",
+                difficulty: "EASY",
+                explanation: "Recognising individual differences calls for differentiated instruction — varied methods, pace and materials so that diverse learners can succeed.",
+                options: [
+                  {
+                    text: "Ignore the differences and teach uniformly",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Use varied teaching methods and materials to suit different learners",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Promote only the fast learners",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Give the same test with no adaptation to every child",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "'Errors made by children during learning' should be viewed by a good teacher as:",
+                difficulty: "MEDIUM",
+                explanation: "In constructivist thinking, errors reveal a child's current understanding and are valuable diagnostic tools that guide further teaching rather than grounds for punishment.",
+                options: [
+                  {
+                    text: "A sign that the child cannot learn",
+                    isCorrect: false
+                  },
+                  {
+                    text: "A reason for harsh punishment",
+                    isCorrect: false
+                  },
+                  {
+                    text: "A natural and useful part of the learning process",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Something to be completely ignored",
+                    isCorrect: false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            slug: "tet-evs",
+            name: "Environmental Studies (EVS) & its Pedagogy",
+            marks: 1,
+            negative: 0,
+            test: {
+              slug: "tet-evs-practice",
+              title: "Environmental Studies (EVS) & its Pedagogy — Practice Test",
+              description: "12 practice questions for wb primary tet. +1 each, no negative marking."
+            },
+            questions: [
+              {
+                text: "Which is the largest mangrove forest in the world, located partly in West Bengal, India?",
+                difficulty: "EASY",
+                explanation: "The Sundarbans, in the Ganges–Brahmaputra delta of West Bengal and Bangladesh, is the world's largest mangrove forest and home to the Royal Bengal Tiger.",
+                options: [
+                  {
+                    text: "Gir Forest",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Sundarbans",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Kaziranga",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Nilgiri Forest",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The process by which green plants make their own food using sunlight is called:",
+                difficulty: "EASY",
+                explanation: "Photosynthesis is the process in which green plants use sunlight, carbon dioxide and water to produce food (glucose) and release oxygen.",
+                options: [
+                  {
+                    text: "Respiration",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Transpiration",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Photosynthesis",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Digestion",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which gas do human beings mainly breathe in from the air to stay alive?",
+                difficulty: "EASY",
+                explanation: "Humans inhale oxygen, which is used in respiration to release energy, and exhale carbon dioxide as a waste product.",
+                options: [
+                  {
+                    text: "Carbon dioxide",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Nitrogen",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Oxygen",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Hydrogen",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "In EVS pedagogy, the subject Environmental Studies at the primary level is best described as:",
+                difficulty: "MEDIUM",
+                explanation: "At the primary stage EVS is an integrated subject that weaves together science and social studies around the child's immediate natural and social surroundings.",
+                options: [
+                  {
+                    text: "A subject that keeps science, social science and environment as fully separate disciplines",
+                    isCorrect: false
+                  },
+                  {
+                    text: "An integrated subject linking the natural and social environment of the child",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Only the study of pollution",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Only the study of maps",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which of the following is a renewable source of energy?",
+                difficulty: "EASY",
+                explanation: "Solar energy is renewable because it is continuously available from the Sun, unlike coal, petroleum and natural gas, which are exhaustible fossil fuels.",
+                options: [
+                  {
+                    text: "Coal",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Petroleum",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Solar energy",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Natural gas",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The most effective method to teach EVS to young children is:",
+                difficulty: "MEDIUM",
+                explanation: "EVS pedagogy emphasises hands-on, activity-based and experiential learning where children explore and observe their real environment rather than memorise facts.",
+                options: [
+                  {
+                    text: "Rote memorisation of definitions",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Activity-based and experiential learning through observation of surroundings",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Long dictation of notes",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Only showing textbook pictures",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which river flows through Kolkata, the capital of West Bengal?",
+                difficulty: "EASY",
+                explanation: "The Hooghly, a distributary of the Ganga, flows past Kolkata and has historically been vital to the city's trade and settlement.",
+                options: [
+                  {
+                    text: "Yamuna",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Hooghly",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Godavari",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Narmada",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which of the following animals is the national animal of India and is found in the Sundarbans?",
+                difficulty: "EASY",
+                explanation: "The tiger is India's national animal, and the Royal Bengal Tiger is the iconic species of the Sundarbans in West Bengal.",
+                options: [
+                  {
+                    text: "Lion",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Elephant",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Royal Bengal Tiger",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Leopard",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which of the following is the correct sequence of a simple food chain?",
+                difficulty: "MEDIUM",
+                explanation: "Energy flows from producers to consumers: grass (producer) is eaten by the deer (herbivore), which is eaten by the tiger (carnivore).",
+                options: [
+                  {
+                    text: "Grass → Deer → Tiger",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Tiger → Deer → Grass",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Deer → Grass → Tiger",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Tiger → Grass → Deer",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The main cause of the depletion of the ozone layer in the atmosphere is:",
+                difficulty: "MEDIUM",
+                explanation: "Chlorofluorocarbons (CFCs), once used in refrigerants and aerosols, break down ozone molecules and are the chief cause of ozone-layer depletion.",
+                options: [
+                  {
+                    text: "Oxygen gas",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Chlorofluorocarbons (CFCs)",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Water vapour",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Nitrogen gas",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The 'Rabindra Setu', a famous cantilever bridge over the Hooghly river, is popularly known as:",
+                difficulty: "MEDIUM",
+                explanation: "Rabindra Setu over the Hooghly is popularly called the Howrah Bridge and is one of Kolkata's most recognised landmarks connecting Howrah and Kolkata.",
+                options: [
+                  {
+                    text: "Howrah Bridge",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Vidyasagar Setu",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Bandra–Worli Sea Link",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Golden Gate Bridge",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which of the following practices best helps in conserving water at home?",
+                difficulty: "EASY",
+                explanation: "Fixing leaks and rainwater harvesting are effective water-conservation practices, while the other options waste water.",
+                options: [
+                  {
+                    text: "Leaving taps running while brushing",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Repairing leaking taps and harvesting rainwater",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Washing vehicles daily with running hosepipes",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Letting overhead tanks overflow",
+                    isCorrect: false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+];
+
 async function main() {
   // 1) Exam catalogue (single source of truth: src/lib/exams.ts).
   for (const [i, e] of examCatalogue.entries()) {
@@ -22860,7 +25808,7 @@ async function main() {
   // 2) Content — only seeds questions for a chapter that has none yet (preserves real attempts).
   let created = 0;
   let skipped = 0;
-  for (const ec of [...content, ...moreContent, ...wave3, ...wave4, ...wave5, ...wave6, ...wave7, ...wave8, ...wave9, ...wave10, ...wave11, ...wave12, ...wave13, ...wave14, ...wave15, ...wave16, ...wave17, ...wave18, ...wave19, ...wave20, ...wave21]) {
+  for (const ec of [...content, ...moreContent, ...wave3, ...wave4, ...wave5, ...wave6, ...wave7, ...wave8, ...wave9, ...wave10, ...wave11, ...wave12, ...wave13, ...wave14, ...wave15, ...wave16, ...wave17, ...wave18, ...wave19, ...wave20, ...wave21, ...wave22]) {
     const exam = await prisma.exam.findUniqueOrThrow({ where: { slug: ec.examSlug } });
     for (const [si, sc] of ec.subjects.entries()) {
       const subject = await prisma.subject.upsert({

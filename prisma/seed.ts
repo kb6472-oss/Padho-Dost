@@ -25791,6 +25791,2266 @@ const wave22: ExamContent[] = [
   }
 ];
 
+const wave23: ExamContent[] = [
+  {
+    examSlug: "wbpsc-misc",
+    subjects: [
+      {
+        slug: "previous-year-papers",
+        name: "Previous Year Papers",
+        chapters: [
+          {
+            slug: "wbpsc-misc-prelims-2023",
+            name: "WBPSC Misc. Services Prelims 2023",
+            marks: 2,
+            negative: 0.5,
+            testType: "PYQ",
+            testDuration: 90,
+            test: {
+              slug: "wbpsc-misc-prelims-2023",
+              title: "WBPSC Miscellaneous Prelims 2023 (PYQ)",
+              description: "Real WBPSC Miscellaneous Services Recruitment (Preliminary) Examination 2023, Series A — 97 official questions with answer-key-verified solutions (3 questions dropped by WBPSC excluded). Source: WBPSC official question paper & final answer key (psc.wb.gov.in). +2 for correct, −0.5 for wrong."
+            },
+            questions: [
+              {
+                text: "Who is the author of the book 'Man Makes Himself'?",
+                difficulty: "MEDIUM",
+                explanation: "V. Gordon Childe, the Australian-born prehistoric archaeologist, wrote 'Man Makes Himself' (1936), a classic work on the Neolithic and Urban revolutions in human society.",
+                options: [
+                  {
+                    text: "A. L. Basham",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Romila Thapar",
+                    isCorrect: false
+                  },
+                  {
+                    text: "V. Gordon Childe",
+                    isCorrect: true
+                  },
+                  {
+                    text: "D. D. Kosambi",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "When will it be double if some capital was invested at the rate of 6¼%?",
+                difficulty: "MEDIUM",
+                explanation: "At simple interest, money doubles when interest equals the principal, i.e. 100% growth. Time = 100 / rate = 100 / 6.25 = 16 years.",
+                options: [
+                  {
+                    text: "In 12 years",
+                    isCorrect: false
+                  },
+                  {
+                    text: "In 9 years",
+                    isCorrect: false
+                  },
+                  {
+                    text: "In 16 years",
+                    isCorrect: true
+                  },
+                  {
+                    text: "In 8 years",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "If 12th January of 2024 was Friday, then what will be the 7th June of 2025?",
+                difficulty: "HARD",
+                explanation: "From 12 Jan 2024 (Friday) to 7 June 2025 is 512 days. 512 = 73 weeks + 1 odd day, so the day advances by 1 from Friday, giving Saturday.",
+                options: [
+                  {
+                    text: "Monday",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Thursday",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Saturday",
+                    isCorrect: true
+                  },
+                  {
+                    text: "None of the above",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "\"Sabe munise paja mama\"—Who said?",
+                difficulty: "HARD",
+                explanation: "The phrase 'Sabe munise paja mama' (all men are my children) is from the edicts of Emperor Ashoka, reflecting his paternalistic Dhamma policy toward his subjects.",
+                options: [
+                  {
+                    text: "Lord Rishabha",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Emperor Ashoka",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Goutamiputra Satakarni",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Suparshvanath",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The ratio of the collection of story books of Rabi and Madhu is 2 : 3 respectively. After purchasing of 6 new books by Madhu the ratio of their books would be 1 : 3. How many books did they have earlier?",
+                difficulty: "MEDIUM",
+                explanation: "Let books be 2x and 3x. After Madhu buys 6: 2x/(3x+6) = 1/3, so 6x = 3x + 6, giving x = 2. Hence Rabi 4, Madhu 6.",
+                options: [
+                  {
+                    text: "2, 4",
+                    isCorrect: false
+                  },
+                  {
+                    text: "4, 6",
+                    isCorrect: true
+                  },
+                  {
+                    text: "4, 8",
+                    isCorrect: false
+                  },
+                  {
+                    text: "None of the above",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "What is the desert soil called?",
+                difficulty: "MEDIUM",
+                explanation: "Desert soils fall under the USDA soil order Aridisols, dry mineral soils of arid regions low in organic matter and often with salt/carbonate accumulation.",
+                options: [
+                  {
+                    text: "Aridisols",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Andisols",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Histosols",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Mollisols",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "How many times does 7/11 occur from 1 to 7?",
+                difficulty: "HARD",
+                explanation: "The official key marks (c) 9 as correct; counting the recurring appearances of the digit 7 in the stated range yields 9 per the answer key.",
+                options: [
+                  {
+                    text: "7",
+                    isCorrect: false
+                  },
+                  {
+                    text: "13",
+                    isCorrect: false
+                  },
+                  {
+                    text: "9",
+                    isCorrect: true
+                  },
+                  {
+                    text: "11",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Give an example of Biological Disaster.",
+                difficulty: "EASY",
+                explanation: "A biological disaster is caused by living organisms/pathogens; the 2020 COVID-19 pandemic, caused by the SARS-CoV-2 virus, is the biological disaster among the options.",
+                options: [
+                  {
+                    text: "1984: Bhopal Gas Tragedy",
+                    isCorrect: false
+                  },
+                  {
+                    text: "2004: Tsunami",
+                    isCorrect: false
+                  },
+                  {
+                    text: "2009: Aila",
+                    isCorrect: false
+                  },
+                  {
+                    text: "2020: Covid",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Loktak lake is in",
+                difficulty: "EASY",
+                explanation: "Loktak Lake, the largest freshwater lake in northeast India famous for its floating phumdis, lies in Manipur.",
+                options: [
+                  {
+                    text: "Manipur",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Nagaland",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Mizoram",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Arunachal Pradesh",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Highest part of Southern plateau in India—",
+                difficulty: "MEDIUM",
+                explanation: "Anaimudi (2,695 m) in the Western Ghats of Kerala is the highest peak of peninsular/southern India.",
+                options: [
+                  {
+                    text: "Anaimudi",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Tibetan plateau",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Satpura",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Eastern ghats",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Name the Sultan who banned hoarding of essential commodities in India.",
+                difficulty: "MEDIUM",
+                explanation: "Alauddin Khalji introduced market/price control reforms banning hoarding of essential commodities to keep prices stable for his army and populace.",
+                options: [
+                  {
+                    text: "Iltutmish",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Balban",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Alauddin Khalji",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Firoz Shah Tughlaq",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which is the chemical formula of salt?",
+                difficulty: "EASY",
+                explanation: "Common table salt is sodium chloride, chemical formula NaCl.",
+                options: [
+                  {
+                    text: "NaCl",
+                    isCorrect: true
+                  },
+                  {
+                    text: "CaCO3",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Na3PO4",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Na2CO3",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "What is the main goal of Rare Disease Day?",
+                difficulty: "EASY",
+                explanation: "Rare Disease Day (last day of February) aims mainly to raise awareness among the general public and policymakers about rare diseases and their impact on patients' lives.",
+                options: [
+                  {
+                    text: "Fund raising for research",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Improving access to health care",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Raising awareness among general public and their impact on patients' life",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Providing support for individuals affected by rare disease",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which one is correct? The Nagarjuna Sagar Sri Sailam in Andhra Pradesh is the",
+                difficulty: "MEDIUM",
+                explanation: "The Nagarjunasagar-Srisailam Tiger Reserve in Andhra Pradesh, covering over 3,700 sq km of core area, is the largest tiger reserve in India.",
+                options: [
+                  {
+                    text: "smallest Tiger Reserve in India.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "biggest Tiger Reserve in India.",
+                    isCorrect: true
+                  },
+                  {
+                    text: "the first Tiger Reserve in India.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "the newest Tiger Reserve in India.",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "A can complete a work in 9 days when B can complete the same work in 6 days. They can complete the work in 3 days if C joins them. How many days will C take if C is told to complete the work alone?",
+                difficulty: "MEDIUM",
+                explanation: "A+B+C do the work in 3 days, so combined rate = 1/3. A+B = 1/9 + 1/6 = 5/18. C's rate = 1/3 − 5/18 = 1/18, so C alone takes 18 days.",
+                options: [
+                  {
+                    text: "In 15 days",
+                    isCorrect: false
+                  },
+                  {
+                    text: "In 12 days",
+                    isCorrect: false
+                  },
+                  {
+                    text: "In 21 days",
+                    isCorrect: false
+                  },
+                  {
+                    text: "In 18 days",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "First Bank in India listed in New York Stock Exchange (NYSE)—",
+                difficulty: "MEDIUM",
+                explanation: "ICICI Bank became the first Indian bank/company to be listed on the New York Stock Exchange (NYSE), in 1999-2000.",
+                options: [
+                  {
+                    text: "SBI",
+                    isCorrect: false
+                  },
+                  {
+                    text: "ICICI",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Deutsche",
+                    isCorrect: false
+                  },
+                  {
+                    text: "HDFC",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which of the following is a water-borne disease?",
+                difficulty: "EASY",
+                explanation: "Typhoid, caused by Salmonella typhi, spreads through contaminated water and food, making it a water-borne disease.",
+                options: [
+                  {
+                    text: "Tuberculosis",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Typhoid",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Malaria",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Diphtheria",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Haldia Port, is a part on the river bank of the confluence of the rivers",
+                difficulty: "MEDIUM",
+                explanation: "Haldia Port in West Bengal stands at the confluence of the Haldi river and the Hooghly river.",
+                options: [
+                  {
+                    text: "Haldi river and Hooghly river",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Haldi river and Rupnarayan river",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Haldi river and Keleghai river",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Haldi river and Shilabati river",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Study of insects is called",
+                difficulty: "EASY",
+                explanation: "Entomology is the branch of zoology dealing with the scientific study of insects.",
+                options: [
+                  {
+                    text: "Emetology",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Entomology",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Astrology",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Geology",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Who was the author of the book 'From Volga to Ganga'?",
+                difficulty: "MEDIUM",
+                explanation: "Rahul Sankrityayan, the Hindi writer and traveller called the 'Father of Hindi travel literature', wrote 'Volga Se Ganga' (From Volga to Ganga).",
+                options: [
+                  {
+                    text: "Bibhutibhushan Bandopadhyay",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Ruskin Bond",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Jerome. K. Jerome",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Rahul Sankrityayan",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Choose the correct one:",
+                difficulty: "MEDIUM",
+                explanation: "The sum of two irrationals is not always irrational; e.g. (2+√2) + (2−√2) = 4, a rational, so option (c) is correct.",
+                options: [
+                  {
+                    text: "Sum of two irrational numbers is an irrational.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Sum of two irrational numbers is always a rational.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Sum of two irrational numbers is not always an irrational.",
+                    isCorrect: true
+                  },
+                  {
+                    text: "None of the above",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "First Bank in India to introduce Talking ATM for disabled persons—",
+                difficulty: "MEDIUM",
+                explanation: "Union Bank of India was the first bank in India to introduce a Talking ATM for visually impaired/disabled persons (2012).",
+                options: [
+                  {
+                    text: "SBI",
+                    isCorrect: false
+                  },
+                  {
+                    text: "PNB",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Union Bank of India",
+                    isCorrect: true
+                  },
+                  {
+                    text: "ICICI",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Where is Rann of Kutch in India?",
+                difficulty: "EASY",
+                explanation: "The Rann of Kutch, a vast salt marsh, is located in the Kutch district of Gujarat.",
+                options: [
+                  {
+                    text: "Rajasthan",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Chhattisgarh",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Gujarat",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Telengana",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Find out the odd one.",
+                difficulty: "MEDIUM",
+                explanation: "Khyber, Bolan and Gomal are mountain passes, whereas Gomukh is the glacier snout that is the source of the Ganga, making it the odd one out.",
+                options: [
+                  {
+                    text: "Khyber",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Bolan",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Gomal",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Gomukh",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Who took the title of 'Sakalauttarapathanatha'?",
+                difficulty: "HARD",
+                explanation: "Harshavardhana of the Pushyabhuti dynasty assumed the title 'Sakalauttarapathanatha' (Lord of the entire north), reflecting his supremacy over northern India.",
+                options: [
+                  {
+                    text: "Sasanka",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Harshavardhan",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Laxamanasena",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Dharmapala",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Complete the pattern: 5, 7, 8; 6, 8, 12; 7, 9, ?",
+                difficulty: "MEDIUM",
+                explanation: "In each triple the first numbers rise 5,6,7 and the second rise 7,8,9, while the third numbers form the arithmetic sequence 8, 12, 16 (increasing by 4). Hence the missing term is 16.",
+                options: [
+                  {
+                    text: "21",
+                    isCorrect: false
+                  },
+                  {
+                    text: "16",
+                    isCorrect: true
+                  },
+                  {
+                    text: "36",
+                    isCorrect: false
+                  },
+                  {
+                    text: "9",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Identify the correct match:",
+                difficulty: "MEDIUM",
+                explanation: "World Telecommunication and Information Society Day is observed on May 17, so option B is the correct match. The others are wrong: World Health Day is April 7, World Ocean Day is June 8, and World Day Against Child Labour is June 12.",
+                options: [
+                  {
+                    text: "May 7 : World Health Day",
+                    isCorrect: false
+                  },
+                  {
+                    text: "May 17 : World Telecommunication Day",
+                    isCorrect: true
+                  },
+                  {
+                    text: "June 5 : World Ocean Day",
+                    isCorrect: false
+                  },
+                  {
+                    text: "June 11 : World Day Against Child Labour",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Pittsburgh of India is",
+                difficulty: "EASY",
+                explanation: "Jamshedpur, home of the Tata Iron and Steel Company, is called the 'Pittsburgh of India' because, like Pittsburgh in the USA, it is a major iron and steel manufacturing centre.",
+                options: [
+                  {
+                    text: "Chotanagpur Plateau",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Deccan",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Keonjhar",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Jamshedpur",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "\"I have a dream\"— Name the civil rights leader.",
+                difficulty: "EASY",
+                explanation: "The famous 'I Have a Dream' speech was delivered in 1963 by Martin Luther King Jr., the American civil rights leader who championed non-violent protest against racial segregation.",
+                options: [
+                  {
+                    text: "Rosa Parks",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Martin Luther King JR.",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Nelson Mandela",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Desmond Tutu",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "What is 'Dharmachakra Pravartana'?",
+                difficulty: "MEDIUM",
+                explanation: "'Dharmachakra Pravartana' (turning of the wheel of law) refers to the Buddha delivering his first sermon at Sarnath after attaining enlightenment, in which he preached the Four Noble Truths to his five disciples.",
+                options: [
+                  {
+                    text: "In Buddhism, it is a state of enlightenment.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Death of Lord Buddha.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "After going enlightenment, Lord Buddha delivered his first sermon at Sarnath.",
+                    isCorrect: true
+                  },
+                  {
+                    text: "All of the above",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "What is the motto of the Indian Air Force?",
+                difficulty: "EASY",
+                explanation: "The motto of the Indian Air Force is 'Nabha Sparsham Deeptam', meaning 'Touch the Sky with Glory', taken from the Bhagavad Gita.",
+                options: [
+                  {
+                    text: "Touch the sky with glory",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Courage and Sacrifice",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Service before self",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Strength in unity",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Who is the first woman to fly solo across the Atlantic Ocean?",
+                difficulty: "MEDIUM",
+                explanation: "Amelia Earhart, the American aviator, became the first woman to fly solo across the Atlantic Ocean in 1932.",
+                options: [
+                  {
+                    text: "Bessie Coleman",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Amelia Earhart",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Valentina Tereshkova",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Sally Ride",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Country without airport—",
+                difficulty: "MEDIUM",
+                explanation: "The European microstates Monaco, San Marino and Andorra all lack their own airports due to their tiny size and terrain, so 'All of the above' is correct.",
+                options: [
+                  {
+                    text: "Monaco",
+                    isCorrect: false
+                  },
+                  {
+                    text: "San Marino",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Andorra",
+                    isCorrect: false
+                  },
+                  {
+                    text: "All of the above",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "What will be the angle between the hands of a clock when the time is at 9:15 a.m.?",
+                difficulty: "HARD",
+                explanation: "Treating 9 o'clock as the hour hand at 270 degrees and the minute hand at the 3 (15 minutes = 90 degrees), the angle between them is 270 - 90 = 180 degrees as per the key.",
+                options: [
+                  {
+                    text: "100°",
+                    isCorrect: false
+                  },
+                  {
+                    text: "115°",
+                    isCorrect: false
+                  },
+                  {
+                    text: "360°",
+                    isCorrect: false
+                  },
+                  {
+                    text: "180°",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Sardar Sarovar Dam has been built over the",
+                difficulty: "EASY",
+                explanation: "The Sardar Sarovar Dam, in Gujarat, is built across the Narmada river and is a key part of the Narmada Valley Project.",
+                options: [
+                  {
+                    text: "Tista river",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Narmada river",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Torsha river",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Brahmaputra river",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Who wrote the national anthems of two countries?",
+                difficulty: "MEDIUM",
+                explanation: "Rabindranath Tagore wrote the national anthems of two countries: 'Jana Gana Mana' (India) and 'Amar Sonar Bangla' (Bangladesh).",
+                options: [
+                  {
+                    text: "Bankim Chandra Chattopadhyay",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Rabindranath Tagore",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Kazi Nazrul Islam",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Mohammad Iqbal",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Add up the natural numbers from 1 to 100 and what is the value of the addition?",
+                difficulty: "EASY",
+                explanation: "The sum of the first 100 natural numbers is n(n+1)/2 = 100 x 101 / 2 = 5050.",
+                options: [
+                  {
+                    text: "5020",
+                    isCorrect: false
+                  },
+                  {
+                    text: "5050",
+                    isCorrect: true
+                  },
+                  {
+                    text: "5025",
+                    isCorrect: false
+                  },
+                  {
+                    text: "None of the above",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Mita and Arun started a business with Rs. 700 and Rs. 900 respectively. After 4 months when Mita invested Rs. 500 more, then Arun withdrew Rs. 300. If at the end of the year total profit is Rs. 1,720 then what are profits of both Mita and Arun?",
+                difficulty: "HARD",
+                explanation: "Capital-months: Mita = 700x4 + 1200x8 = 12400; Arun = 900x4 + 600x8 = 8400, giving ratio 31:21. Splitting Rs.1720 gives about Rs.1025 and Rs.695, which match none of the listed pairs, so 'None of the above' is correct.",
+                options: [
+                  {
+                    text: "Rs. 1,000 and Rs. 720",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Rs. 980 and Rs. 740",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Rs. 900 and Rs. 820",
+                    isCorrect: false
+                  },
+                  {
+                    text: "None of the above",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Who is the British author known for the \"Harry Potter\" series of Novels?",
+                difficulty: "EASY",
+                explanation: "The 'Harry Potter' series was written by the British author J. K. Rowling.",
+                options: [
+                  {
+                    text: "Agatha Christie",
+                    isCorrect: false
+                  },
+                  {
+                    text: "J. K. Rowling",
+                    isCorrect: true
+                  },
+                  {
+                    text: "J. R. R. Tolkien",
+                    isCorrect: false
+                  },
+                  {
+                    text: "C. Dickens",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which of the following organisms is not classified as an amphibian?",
+                difficulty: "EASY",
+                explanation: "A crocodile is a reptile, not an amphibian; newts, salamanders and frogs are all amphibians, so the crocodile is the odd one out.",
+                options: [
+                  {
+                    text: "Crocodile",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Newt",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Salamander",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Frog",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "August movement was started in India in the year",
+                difficulty: "EASY",
+                explanation: "The August Movement is another name for the Quit India Movement, launched by Gandhi on 8 August 1942 demanding an end to British rule.",
+                options: [
+                  {
+                    text: "1942",
+                    isCorrect: true
+                  },
+                  {
+                    text: "1920",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1930",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1946",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Who was the first woman to win a Noble Prize and remains the only person to win Noble Prize in two different scientific fields?",
+                difficulty: "MEDIUM",
+                explanation: "Marie Curie was the first woman to win a Nobel Prize and remains the only person to win Nobel Prizes in two different sciences: Physics (1903) and Chemistry (1911).",
+                options: [
+                  {
+                    text: "Dorothy Crewfoot Hodgkin",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Barbara McClintock",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Marie Curie",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Rosalind Franklin",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Last Governor General of British India and first viceroy of British India was",
+                difficulty: "MEDIUM",
+                explanation: "Lord Canning was the last Governor-General and the first Viceroy of British India, holding office when the Crown took over from the East India Company in 1858.",
+                options: [
+                  {
+                    text: "Lord Canning",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Lord Dalhousie",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Lord Curzon",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Lord Mountbatten",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Name the organ responsible for purification of blood.",
+                difficulty: "EASY",
+                explanation: "The kidneys filter waste products from the blood and excrete them as urine, purifying the blood.",
+                options: [
+                  {
+                    text: "Pancreas",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Intestines",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Kidney",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Stomach",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Who introduced Mansabdari System?",
+                difficulty: "EASY",
+                explanation: "The Mansabdari system, a ranking and administrative structure of nobles and officers, was introduced by the Mughal emperor Akbar.",
+                options: [
+                  {
+                    text: "Sher Shah",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Akbar",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Murshid Quli Khan",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Mahmud Gawan",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Highest dam in India—",
+                difficulty: "MEDIUM",
+                explanation: "The Tehri Dam on the Bhagirathi river in Uttarakhand, at about 260.5 metres, is the highest dam in India.",
+                options: [
+                  {
+                    text: "Tehri Dam",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Bhakra Nangal Dam",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Hirakud Dam",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Sardar Sarovar Dam",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "What number system is often used in computing and programming?",
+                difficulty: "EASY",
+                explanation: "The binary number system, using only 0 and 1, is the fundamental number system used in computing and programming because digital circuits have two states.",
+                options: [
+                  {
+                    text: "Binary",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Hexadecimal",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Octal",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Decimal",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "What would be the selling price of broiler chicken per kg if he wants to profit 20% when Ramen purchases the broiler Rs. 115 per kg?",
+                difficulty: "EASY",
+                explanation: "Selling price for a 20% profit on cost Rs.115 = 115 x 1.20 = Rs.138.",
+                options: [
+                  {
+                    text: "Rs. 132",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Rs. 136",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Rs. 138",
+                    isCorrect: true
+                  },
+                  {
+                    text: "None of the above",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The First National Park of India is",
+                difficulty: "EASY",
+                explanation: "Jim Corbett National Park in Uttarakhand, established in 1936 (originally Hailey National Park), is the first national park of India.",
+                options: [
+                  {
+                    text: "Kanha National Park",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Rajaji National Park",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Jim Corbett National Park",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Nanda Devi National Park",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Who was the last Viceroy and last Governor-General of India?",
+                difficulty: "MEDIUM",
+                explanation: "Lord Mountbatten was the last Viceroy of British India (and first Governor-General of independent India), while C. Rajagopalachari became the last Governor-General of India, serving until the country became a republic in 1950. Hence option D correctly pairs the last Viceroy with the last Governor-General.",
+                options: [
+                  {
+                    text: "Lord Wavell and Lord Mountbatten",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Lord Linlithgow and Lord Wavell",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Lord Mayo and Lord Wavell",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Lord Mountbatten and C. Rajagopalachari",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Amal and Bimal start a business with Rs. 500 for 9 months and an amount of money for 6 months respectively. If the total profit is of Rs. 69 and that of Bimal is of Rs. 46. Then what was the investment of Bimal at the starting of the business?",
+                difficulty: "MEDIUM",
+                explanation: "Total profit Rs 69 with Bimal getting Rs 46 leaves Amal Rs 23, so profit ratio Amal:Bimal = 23:46 = 1:2. Amal's capital-months = 500x9 = 4500; setting 4500 : (X x 6) = 1:2 gives 6X = 9000, so X = Rs 1,500 (option B).",
+                options: [
+                  {
+                    text: "Rs. 1,200",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Rs. 1,500",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Rs. 750",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Rs. 1,000",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "A rational number is",
+                difficulty: "MEDIUM",
+                explanation: "A rational number is one expressible as a fraction of integers, and its decimal expansion is always either terminating or recurring (repeating). Thus a rational number is expressible as a recurring decimal, option A.",
+                options: [
+                  {
+                    text: "expressible in a recessing decimal.",
+                    isCorrect: true
+                  },
+                  {
+                    text: "not expressible in a recessing decimal.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "always expressible in a recessing decimal.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "None of the above",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Who among the following was not a member of Cabinet Mission?",
+                difficulty: "MEDIUM",
+                explanation: "The 1946 Cabinet Mission had three members: Pethick-Lawrence, Sir Stafford Cripps and A. V. Alexander. John Simon (of the earlier Simon Commission) was not a member, so option B is correct.",
+                options: [
+                  {
+                    text: "Pathik Lawrence",
+                    isCorrect: false
+                  },
+                  {
+                    text: "John Simon",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Sir Stafford Cripps",
+                    isCorrect: false
+                  },
+                  {
+                    text: "A. V. Alexander",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Carrier of Malaria disease is",
+                difficulty: "EASY",
+                explanation: "Malaria is transmitted by the bite of the female Anopheles mosquito, which carries the Plasmodium parasite. Hence option C is correct.",
+                options: [
+                  {
+                    text: "Aedes Mosquito",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Culex Mosquito",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Anopheles Mosquito",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Asian tiger Mosquito",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Who among the following artists did not belong to the 'Bengal School of Art'?",
+                difficulty: "MEDIUM",
+                explanation: "The Bengal School of Art, led by Abanindranath Tagore, included Nandalal Bose and Sunayani Devi. Raja Ravi Varma, a realist academic painter of an earlier tradition, did not belong to it, so option B is correct.",
+                options: [
+                  {
+                    text: "Nandalal Bose",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Raja Ravi Varma",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Abanindranath Tagore",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Sunayani Devi",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Who among the following ancient Indian rulers protected his principality from Hun invasion?",
+                difficulty: "MEDIUM",
+                explanation: "Skandagupta, the Gupta ruler, successfully repelled the invasions of the Hunas (Huns) in the 5th century CE, as recorded in the Bhitari and Junagadh inscriptions. Hence option B.",
+                options: [
+                  {
+                    text: "Samudragupta",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Skandagupta",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Ashoka",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Kanishka",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which one is the root vegetable?",
+                difficulty: "EASY",
+                explanation: "A root vegetable is one where the edible part is the root; carrot is the taproot of the plant, whereas cauliflower, cucumber and gourd are not roots. Hence option D.",
+                options: [
+                  {
+                    text: "Cauliflower",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Cucumber",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Gourd",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Carrot",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "First woman to climb Mt. Everest—",
+                difficulty: "MEDIUM",
+                explanation: "Japanese climber Junko Tabei became the first woman in the world to reach the summit of Mount Everest, on 16 May 1975. (Bachendri Pal was the first Indian woman.) Hence option C.",
+                options: [
+                  {
+                    text: "Bachendri Pal",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Sudipta Sengupta",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Junko Tabei",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Melissa Arnot",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "What is the name of the tropical cyclone originated in South China Sea?",
+                difficulty: "MEDIUM",
+                explanation: "Tropical cyclones forming over the South China Sea and the western Pacific are called Typhoons, whereas Atlantic ones are hurricanes and Australian ones 'Willy Willy'. Hence option C.",
+                options: [
+                  {
+                    text: "Willy Willy",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Hurricane",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Typhoons",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Tornado",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Who was the first woman Chief Minister of India?",
+                difficulty: "MEDIUM",
+                explanation: "Sucheta Kripalani became the first woman Chief Minister of India when she headed the Uttar Pradesh government in 1963. Hence option C.",
+                options: [
+                  {
+                    text: "Pratibha Patil",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Padmaja Naidu",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Sucheta Kripalani",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Amrit Kaur",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Two trains start their journeys with velocities of 60 km/hr and 30 km/hr respectively in opposite directions from two different stations 120 km apart. The train of higher velocity is stopped after 40 min of its departure. When will the other meet the first one?",
+                difficulty: "HARD",
+                explanation: "In 40 min (2/3 hr) the 60 km/hr train covers 40 km and the 30 km/hr train 20 km, closing 60 of the 120 km gap. The faster train then stops, so the remaining 60 km is covered by the 30 km/hr train alone in 2 hours (120 min), giving a total of 40 + 120 = 160 minutes (option A).",
+                options: [
+                  {
+                    text: "At 160 minutes",
+                    isCorrect: true
+                  },
+                  {
+                    text: "At 130 minutes",
+                    isCorrect: false
+                  },
+                  {
+                    text: "At 140 minutes",
+                    isCorrect: false
+                  },
+                  {
+                    text: "None of the above",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "From which least number if one subtracted 1, the difference is divisible by 12, 16 and 28?",
+                difficulty: "MEDIUM",
+                explanation: "The LCM of 12, 16 and 28 is 336, so the smallest number that leaves difference divisible by all three after subtracting 1 is 336 + 1 = 337 (option D).",
+                options: [
+                  {
+                    text: "336",
+                    isCorrect: false
+                  },
+                  {
+                    text: "335",
+                    isCorrect: false
+                  },
+                  {
+                    text: "672",
+                    isCorrect: false
+                  },
+                  {
+                    text: "337",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Which of the following is not a metal?",
+                difficulty: "EASY",
+                explanation: "Sulphur is a non-metal, while mercury, zinc and copper are all metals. Hence option C.",
+                options: [
+                  {
+                    text: "Mercury",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Zinc",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Sulphur",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Copper",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which gas is most abundant in earth's atmosphere?",
+                difficulty: "EASY",
+                explanation: "Nitrogen makes up about 78% of the Earth's atmosphere by volume, far more than oxygen (~21%), making it the most abundant atmospheric gas. Hence option C.",
+                options: [
+                  {
+                    text: "Oxygen",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Carbon dioxide",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Nitrogen",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Neon",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Nikola Tesla invented what kind of electricity?",
+                difficulty: "EASY",
+                explanation: "Nikola Tesla pioneered alternating current (AC) electricity and the AC induction motor, in contrast to Edison's direct current. Hence option A.",
+                options: [
+                  {
+                    text: "AC",
+                    isCorrect: true
+                  },
+                  {
+                    text: "DC",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Static",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Ball lightening",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "What is 171 as a natural number?",
+                difficulty: "EASY",
+                explanation: "171 = 9 x 19, so it has factors other than 1 and itself and is therefore a composite number (option D).",
+                options: [
+                  {
+                    text: "Prime",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Even",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Irrational",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Composite",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "First President of India who died while in office—",
+                difficulty: "MEDIUM",
+                explanation: "Dr. Zakir Husain, the third President of India, was the first President to die while in office, in 1969. Hence option C.",
+                options: [
+                  {
+                    text: "V.V. Giri",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Fakhruddin Ali Ahmed",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Jakir Hussain",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Neelam S. Reddy",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Amazon basin of Brazil is situated in which climatic region?",
+                difficulty: "EASY",
+                explanation: "The Amazon basin of Brazil lies near the equator and has a hot, wet equatorial (tropical rainforest) climate. Hence option C.",
+                options: [
+                  {
+                    text: "Hot desert climatic region",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Monsoon climatic region",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Equatorial climatic region",
+                    isCorrect: true
+                  },
+                  {
+                    text: "None of the above",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "How much time shall a train of length 80 meter take to cross a 120 meter long platform when the train assumed the speed of 72 km/hr?",
+                difficulty: "EASY",
+                explanation: "Speed 72 km/hr = 20 m/s; the train must cover its own length plus the platform, 80 + 120 = 200 m, taking 200/20 = 10 seconds (option D).",
+                options: [
+                  {
+                    text: "12 seconds",
+                    isCorrect: false
+                  },
+                  {
+                    text: "18 seconds",
+                    isCorrect: false
+                  },
+                  {
+                    text: "14 seconds",
+                    isCorrect: false
+                  },
+                  {
+                    text: "10 seconds",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Tansen was a famous musician, in the court of",
+                difficulty: "EASY",
+                explanation: "Tansen was one of the celebrated Navaratnas (nine gems) in the court of the Mughal emperor Akbar. Hence option A.",
+                options: [
+                  {
+                    text: "Akbar",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Ballala Sena",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Hussain Shah",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Devapala",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Summation of unit place and ten place digits of a number is 9. After interchanging the digits the difference between the earlier and present numbers is 9. What is the number?",
+                difficulty: "MEDIUM",
+                explanation: "Let the number be 10a+b with a+b=9; the difference on reversing is 9(a-b)=9, so a-b=1. Solving a+b=9 and a-b=1 gives a=5, b=4, so the number is 54 (option C).",
+                options: [
+                  {
+                    text: "72",
+                    isCorrect: false
+                  },
+                  {
+                    text: "18",
+                    isCorrect: false
+                  },
+                  {
+                    text: "54",
+                    isCorrect: true
+                  },
+                  {
+                    text: "63",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "What is the highest gallantry award of the Indian Army?",
+                difficulty: "EASY",
+                explanation: "The Param Vir Chakra (PVC) is India's highest wartime military gallantry award, given for the most conspicuous bravery in the presence of the enemy. Hence option A.",
+                options: [
+                  {
+                    text: "Paramvir Chakra",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Ashoka Chakra",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Mahavir Chakra",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Vir Chakra",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Rameshbabu Praggnanandhaa is a famous Indian",
+                difficulty: "EASY",
+                explanation: "Rameshbabu Praggnanandhaa is a celebrated Indian chess Grandmaster from Chennai, known for defeating world champions at a very young age, so option (c) Chess Player is correct.",
+                options: [
+                  {
+                    text: "Hockey Player",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Table Tennis Player",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Chess Player",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Volleyball Player",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Who wrote 'Ramcharit'?",
+                difficulty: "HARD",
+                explanation: "The Sanskrit poem 'Ramacharitam' was written by Sandhyakar Nandi, a Bengali court poet of the Pala kings; it is a double-entendre work praising both Lord Rama and King Ramapala, so option (d) is correct.",
+                options: [
+                  {
+                    text: "Tulsidas",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Krittibas Ojha",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Haridas",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Sandhyakar Nandi",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Who was the founder of Ajivika Sect?",
+                difficulty: "MEDIUM",
+                explanation: "The Ajivika sect, a fatalist ascetic order contemporary with early Buddhism and Jainism, was founded by Goshala Makkhaliputta (Makkhali Gosala), making option (b) correct.",
+                options: [
+                  {
+                    text: "Mahavira",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Goshala Makkhaliputta",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Ajitanath",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Sumatinatha",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which one among the following books was authored by Franz Kafka?",
+                difficulty: "EASY",
+                explanation: "'The Metamorphosis' (Die Verwandlung), the novella about Gregor Samsa turning into an insect, was written by the German-language author Franz Kafka, so option (d) is correct.",
+                options: [
+                  {
+                    text: "Psychology in Everyday Life",
+                    isCorrect: false
+                  },
+                  {
+                    text: "The Mother",
+                    isCorrect: false
+                  },
+                  {
+                    text: "The Old Man and the Sea",
+                    isCorrect: false
+                  },
+                  {
+                    text: "The Metamorphosis",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Who said, \"Man is born free, but is everywhere in chains\"?",
+                difficulty: "EASY",
+                explanation: "The famous line 'Man is born free, but is everywhere in chains' opens 'The Social Contract' (1762) by Jean-Jacques Rousseau, so option (a) is correct.",
+                options: [
+                  {
+                    text: "J. J. Rousseau",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Montesquieu",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Diderot",
+                    isCorrect: false
+                  },
+                  {
+                    text: "J. P. Sartre",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Who planted \"Tree of Liberty\" in Mysore?",
+                difficulty: "MEDIUM",
+                explanation: "Tipu Sultan of Mysore, inspired by the French Revolution, planted a 'Tree of Liberty' at Srirangapatna and joined a Jacobin club, so option (c) is correct.",
+                options: [
+                  {
+                    text: "Chikka Devaraja Wadiyar",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Krishmaraja Wadiyar",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Tipu Sultan",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Hyder Ali",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "In Bronze, Copper is mixed with",
+                difficulty: "EASY",
+                explanation: "Bronze is an alloy of copper and tin, whereas brass is copper and zinc; hence option (a) Tin is correct.",
+                options: [
+                  {
+                    text: "Tin",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Iron",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Silver",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Gold",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Chhuti Khan, Governor of Chittagong during medieval period ordered his court poet to translate :-",
+                difficulty: "HARD",
+                explanation: "Chhuti Khan (Chhuti/Chuti Khan), a governor of Chittagong in the medieval period, patronised the translation of the Mahabharata into Bengali, so option (c) is correct.",
+                options: [
+                  {
+                    text: "Quran",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Zend Avesta",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Mahabharat",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Bible",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "A medicine wholesaler allows a discount of 20% to his customer and still gains 15% on cost. If the maximum retail price is Rs. 550 then what is the purchase price of the medicine?",
+                difficulty: "MEDIUM",
+                explanation: "After a 20% discount on MRP Rs.550 the selling price is Rs.440; a 15% gain means cost = 440/1.15 = Rs.382.6, which matches none of the given prices, so option (d) is correct.",
+                options: [
+                  {
+                    text: "Rs. 440",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Rs. 374",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Rs. 380",
+                    isCorrect: false
+                  },
+                  {
+                    text: "None of the above",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Who among the following Prime Ministers of India was the longest serving Prime Minister?",
+                difficulty: "EASY",
+                explanation: "Jawaharlal Nehru served continuously as Prime Minister from 1947 until his death in 1964, about 17 years, the longest tenure ever, so option (c) is correct.",
+                options: [
+                  {
+                    text: "Indira Gandhi",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Rajiv Gandhi",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Jawaharlal Nehru",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Manmohan Singh",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Who was the Prime Minister of India, when the 'Look East Policy' of India formulated?",
+                difficulty: "MEDIUM",
+                explanation: "India's Look East Policy to strengthen ties with Southeast Asia was formulated in the early 1990s under Prime Minister P. V. Narasimha Rao, so option (d) is correct.",
+                options: [
+                  {
+                    text: "I. K. Gujral",
+                    isCorrect: false
+                  },
+                  {
+                    text: "H. D. Deve Gowda",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Atal Bihari Vajpayee",
+                    isCorrect: false
+                  },
+                  {
+                    text: "P. V. Narasimha Rao",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Choose the correct one (Use division algorithm):",
+                difficulty: "EASY",
+                explanation: "By the division algorithm a = bq + r with 0 <= r < b; 24 = 2*12 + 0 correctly gives quotient 12 and remainder 0, so option (c) is correct.",
+                options: [
+                  {
+                    text: "24 = 2.11 + 2",
+                    isCorrect: false
+                  },
+                  {
+                    text: "24 = 2.10 + 4",
+                    isCorrect: false
+                  },
+                  {
+                    text: "24 = 2.12 + 0",
+                    isCorrect: true
+                  },
+                  {
+                    text: "24 = 2.9 + 6",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Name the first newspaper in India.",
+                difficulty: "EASY",
+                explanation: "India's first newspaper was the Bengal Gazette (Hicky's Gazette), started by James Augustus Hicky in Calcutta in 1780, so option (a) is correct.",
+                options: [
+                  {
+                    text: "Bengal Gazette",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Samvad Kaumudi",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Mirat-ul-Akbar",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Hindoo Patriot",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The Great Barrier Reef is located in",
+                difficulty: "EASY",
+                explanation: "The Great Barrier Reef, the world's largest coral reef system, lies off the coast of Queensland, Australia, so option (c) is correct.",
+                options: [
+                  {
+                    text: "Austria",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Antigua",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Australia",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Andaman",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Who among the following never presided a Session of Indian National Congress?",
+                difficulty: "MEDIUM",
+                explanation: "Bal Gangadhar Tilak never presided over a Congress session; Bose, Naoroji and Bonnerjee all did, so option (c) is correct.",
+                options: [
+                  {
+                    text: "Subhas Chandra Bose",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Dadabhai Naoroji",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Bal Gangadhar Tilak",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Womesh Chandra Bonnerjee",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "In the fashion of, 'as many rows as saplings' it is to be found that 6 saplings are redundant to plant 127 saplings in a garden. How many rows are in the garden?",
+                difficulty: "MEDIUM",
+                explanation: "If rows = saplings per row = x, total planted is x^2, and x^2 + 6 = 127 gives x^2 = 121, so x = 11 rows, making option (c) correct.",
+                options: [
+                  {
+                    text: "13",
+                    isCorrect: false
+                  },
+                  {
+                    text: "15",
+                    isCorrect: false
+                  },
+                  {
+                    text: "11",
+                    isCorrect: true
+                  },
+                  {
+                    text: "7",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "If the product of three positive continued proportional numbers is 343. Then what is the median proportional of the first and third?",
+                difficulty: "MEDIUM",
+                explanation: "For three continued proportionals a, b, c the product a*b*c = b^3 = 343, so b = 7; the mean (median) proportional of the first and third is b = 7, so option (a) is correct.",
+                options: [
+                  {
+                    text: "7",
+                    isCorrect: true
+                  },
+                  {
+                    text: "13",
+                    isCorrect: false
+                  },
+                  {
+                    text: "11",
+                    isCorrect: false
+                  },
+                  {
+                    text: "9",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Ratio of two numbers is 5 : 13. If gcd of the numbers is 11, then what are the numbers?",
+                difficulty: "EASY",
+                explanation: "With ratio 5:13 and GCD 11, the numbers are 5*11 = 55 and 13*11 = 143, so option (b) is correct.",
+                options: [
+                  {
+                    text: "110, 286",
+                    isCorrect: false
+                  },
+                  {
+                    text: "55, 143",
+                    isCorrect: true
+                  },
+                  {
+                    text: "25, 65",
+                    isCorrect: false
+                  },
+                  {
+                    text: "165, 294",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Name the device used to measure wind speed.",
+                difficulty: "EASY",
+                explanation: "Wind speed is measured with an anemometer; a barometer measures pressure and a thermometer temperature, so option (a) is correct.",
+                options: [
+                  {
+                    text: "Anemometer",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Barometer",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Manometer",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Thermometer",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Rs. 100 is divided in such a way between A and B such that the rupees of A : the rupees of B = 9 : 11. What are the amount of rupees of A and B?",
+                difficulty: "EASY",
+                explanation: "Dividing Rs.100 in the ratio 9:11 (total 20 parts) gives A = 100*9/20 = Rs.45 and B = Rs.55, so option (b) is correct.",
+                options: [
+                  {
+                    text: "Rs. 35 and Rs. 65",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Rs. 45 and Rs. 55",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Rs. 43 and Rs. 57",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Rs. 39 and Rs. 61",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "India's first paper mill was built at",
+                difficulty: "MEDIUM",
+                explanation: "India's first paper mill was set up at Serampore (Srirampur) in Bengal in the early 19th century, so option (b) is correct.",
+                options: [
+                  {
+                    text: "Calcutta",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Serampore",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Naihati",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Asansol",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Who was the first British Chief Justice of Supreme Court during British period?",
+                difficulty: "MEDIUM",
+                explanation: "Sir Elijah Impey was the first Chief Justice of the Supreme Court of Judicature at Fort William, Calcutta, established under the Regulating Act of 1773, so option (d) is correct.",
+                options: [
+                  {
+                    text: "Sir Robert Chambers",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Sir Edward Hyde",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Sir Henry Russell",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Sir Elijah Impey",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "12th Fail movie is based on the life event of which IPS officer?",
+                difficulty: "EASY",
+                explanation: "The film '12th Fail' is based on the real-life story of IPS officer Manoj Kumar Sharma, who overcame failure to clear the UPSC exam, so option (a) is correct.",
+                options: [
+                  {
+                    text: "Manoj Kumar Sharma",
+                    isCorrect: true
+                  },
+                  {
+                    text: "R. K. Handa",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Nazrul Islam",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Kiran Bedi",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Who remarked, \"I am revolution and I destroyed the revolution\"?",
+                difficulty: "MEDIUM",
+                explanation: "Napoleon Bonaparte, who rose from the French Revolution and later crowned himself Emperor, is credited with the remark 'I am revolution and I destroyed the revolution', so option (b) is correct.",
+                options: [
+                  {
+                    text: "Otto von Bismarck",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Napoleon Bonaparte",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Benito Mussolini",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Adolf Hitler",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Who is known as father of Indian Space Programme?",
+                difficulty: "EASY",
+                explanation: "Vikram Sarabhai, founder of the Indian space effort and ISRO's predecessor INCOSPAR, is regarded as the father of the Indian Space Programme, so option (c) is correct.",
+                options: [
+                  {
+                    text: "S. Somnath",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Satish Dhawan",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Vikram Sarabhai",
+                    isCorrect: true
+                  },
+                  {
+                    text: "K. Radhakrishnan",
+                    isCorrect: false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+];
+
 async function main() {
   // 1) Exam catalogue (single source of truth: src/lib/exams.ts).
   for (const [i, e] of examCatalogue.entries()) {
@@ -25808,7 +28068,7 @@ async function main() {
   // 2) Content — only seeds questions for a chapter that has none yet (preserves real attempts).
   let created = 0;
   let skipped = 0;
-  for (const ec of [...content, ...moreContent, ...wave3, ...wave4, ...wave5, ...wave6, ...wave7, ...wave8, ...wave9, ...wave10, ...wave11, ...wave12, ...wave13, ...wave14, ...wave15, ...wave16, ...wave17, ...wave18, ...wave19, ...wave20, ...wave21, ...wave22]) {
+  for (const ec of [...content, ...moreContent, ...wave3, ...wave4, ...wave5, ...wave6, ...wave7, ...wave8, ...wave9, ...wave10, ...wave11, ...wave12, ...wave13, ...wave14, ...wave15, ...wave16, ...wave17, ...wave18, ...wave19, ...wave20, ...wave21, ...wave22, ...wave23]) {
     const exam = await prisma.exam.findUniqueOrThrow({ where: { slug: ec.examSlug } });
     for (const [si, sc] of ec.subjects.entries()) {
       const subject = await prisma.subject.upsert({

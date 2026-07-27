@@ -18492,6 +18492,4357 @@ const wave20: ExamContent[] = [
   }
 ];
 
+const wave21: ExamContent[] = [
+  {
+    examSlug: "class-10",
+    subjects: [
+      {
+        slug: "board-sample-papers",
+        name: "Board Sample Papers (CBSE)",
+        chapters: [
+          {
+            slug: "cbse10-science-2425",
+            name: "Class 10 Science — CBSE Board Sample Paper",
+            marks: 1,
+            negative: 0,
+            testDuration: 19,
+            test: {
+              slug: "cbse10-science-sqp-2425",
+              title: "Class 10 Science — CBSE Board Sample Paper (Objective, 2024-25)",
+              description: "Official CBSE 2024-25 Sample Paper — Section A objective questions (MCQ & Assertion-Reason) with marking-scheme-verified answers and solutions. Source: CBSE (cbseacademic.nic.in). +1 each, no negative marking."
+            },
+            questions: [
+              {
+                text: "Identify 'p', 'q' and 'r' in the following balanced reaction: p Pb(NO3)2(s) --Heat--> q PbO(s) + r NO2(g) + O2(g)",
+                difficulty: "MEDIUM",
+                explanation: "Balancing the thermal decomposition of lead nitrate: 2 Pb(NO3)2 -> 2 PbO + 4 NO2 + O2, so p=2, q=2, r=4.",
+                options: [
+                  {
+                    text: "2,2,4",
+                    isCorrect: true
+                  },
+                  {
+                    text: "2,4,2",
+                    isCorrect: false
+                  },
+                  {
+                    text: "2,4,4",
+                    isCorrect: false
+                  },
+                  {
+                    text: "4,2,2",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Match column I with column II and select the correct option using the given codes. Column I: a) A metal that forms amphoteric oxides b) A metal which melts when kept on our palm c) A metal that reacts with nitric acid d) A metal which cannot displace hydrogen from acids ; Column II: (i) Ga (ii) Au (iii) Al (iv) Mn",
+                difficulty: "MEDIUM",
+                explanation: "Aluminium (Al) forms amphoteric oxides, gallium (Ga) melts on the palm due to its low melting point, manganese (Mn) reacts with nitric acid to evolve hydrogen, and gold (Au) cannot displace hydrogen from acids as it is below hydrogen in the reactivity series.",
+                options: [
+                  {
+                    text: "a - (ii), b - (i), c - (iii), d - (iv)",
+                    isCorrect: false
+                  },
+                  {
+                    text: "a - (iii), b - (i), c - (iv), d - (ii)",
+                    isCorrect: true
+                  },
+                  {
+                    text: "a - (iv), b - (ii), c - (iii), d - (i)",
+                    isCorrect: false
+                  },
+                  {
+                    text: "a - (iii), b - (ii), c - (i), d - (iv)",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which among the following is considered as the strongest electrolyte?",
+                difficulty: "EASY",
+                explanation: "A dilute acid ionises to release ions (H+ and anions) that conduct electricity, whereas sugar, glucose and ethanol solutions are non-electrolytes, so the dilute acid is the strongest electrolyte.",
+                options: [
+                  {
+                    text: "Dilute acid",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Dilute sugar solution",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Glucose solution",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Ethanol in water",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "An aqueous solution 'A' turns the phenolphthalein solution pink. On addition of an aqueous solution 'B' to 'A', the pink colour disappears. Which of the following statement is true for the solutions 'A' and 'B'?",
+                difficulty: "MEDIUM",
+                explanation: "Phenolphthalein turns pink in a base, so A is basic (pH greater than 7). The pink colour disappears when neutralised by an acid, so B is acidic (pH less than 7).",
+                options: [
+                  {
+                    text: "A is strongly basic and B is a weak base.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "A is strongly acidic and B is a weak acid.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "A has a pH greater than 7 and B has a pH less than 7.",
+                    isCorrect: true
+                  },
+                  {
+                    text: "A has a pH less than 7 and B has a pH greater than 7.",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "When 50g of lead powder is added to 300 ml of blue copper sulphate solution, after a few hours, the solution becomes colourless. This is an example of",
+                difficulty: "EASY",
+                explanation: "Lead is more reactive than copper, so it displaces copper from copper sulphate solution, decolourising it; this is a displacement reaction.",
+                options: [
+                  {
+                    text: "Combination reaction",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Decomposition reaction",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Displacement reaction",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Double displacement reaction",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The electronic configuration of three elements X, Y and Z are X- 2, 8, 7; Y- 2, 8, 2; and Z - 2, 8",
+                difficulty: "MEDIUM",
+                explanation: "X has 7 valence electrons and tends to gain electrons, so it is a non-metal; Y has 2 valence electrons and tends to lose them, so it is a metal (Z with a stable octet is a noble gas).",
+                options: [
+                  {
+                    text: "Y and Z are metals",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Y and X are non-metals",
+                    isCorrect: false
+                  },
+                  {
+                    text: "X is a non-metal and Y is a metal",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Y is a non-metal and Z is a metal",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which of the following is an endothermic reaction?",
+                difficulty: "EASY",
+                explanation: "Cooking of food requires absorption of heat energy, making it an endothermic process, whereas the other options release energy.",
+                options: [
+                  {
+                    text: "Burning of candle.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Cooking of food.",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Decomposition of Vegetable matter.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Reaction of Sodium with air",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "During cellular oxidation of Glucose, ATP is produced along with formation of other products in this reaction. Which of the following events is associated with production of maximum ATP molecules per molecule of Glucose during this process? Synthesis of",
+                difficulty: "HARD",
+                explanation: "Aerobic respiration in human cells breaks glucose completely into carbon dioxide and water, releasing the maximum amount of ATP compared to anaerobic pathways producing ethanol or lactic acid.",
+                options: [
+                  {
+                    text: "ethanol in yeast",
+                    isCorrect: false
+                  },
+                  {
+                    text: "lactic acid in muscle cells",
+                    isCorrect: false
+                  },
+                  {
+                    text: "carbon dioxide in yeast cells",
+                    isCorrect: false
+                  },
+                  {
+                    text: "carbon dioxide in human cells",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "During which of the following stages of the circulation of blood in a normal human being, the oxygenated blood is pumped to all parts of the body?",
+                difficulty: "MEDIUM",
+                explanation: "The left ventricle contracts to pump oxygenated blood into the aorta, which distributes it to all parts of the body.",
+                options: [
+                  {
+                    text: "contraction of the left atrium",
+                    isCorrect: false
+                  },
+                  {
+                    text: "contraction of left ventricle",
+                    isCorrect: true
+                  },
+                  {
+                    text: "relaxation of the right atrium",
+                    isCorrect: false
+                  },
+                  {
+                    text: "relaxation of the right ventricle",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which of the following adaptations in herbivores helps in digestion of cellulose?",
+                difficulty: "MEDIUM",
+                explanation: "Herbivores have a longer small intestine to allow more time for the digestion of cellulose, which is difficult to break down.",
+                options: [
+                  {
+                    text: "Longer large intestine",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Smaller large intestine",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Smaller small intestine",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Longer small intestine",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "There was a cerebellar dysfunction in a patient. Which of the following activities will get disturbed in this patient as a result of this?",
+                difficulty: "MEDIUM",
+                explanation: "The cerebellum is responsible for maintaining posture and balance of the body, so its dysfunction disturbs these activities.",
+                options: [
+                  {
+                    text: "Salivation",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Hunger control",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Posture and balance",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Regulation of blood pressure",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "In snails individuals can begin life as male and depending on environmental conditions they can become female as they grow. This is because",
+                difficulty: "MEDIUM",
+                explanation: "In snails, sex is determined by environmental conditions rather than by genes, so individuals can change from male to female.",
+                options: [
+                  {
+                    text: "male snails have dominant genetic makeup.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "female snails have dominant genetic makeup.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "expression of sex chromosomes can change in a snail's life time.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "sex is not genetically determined in snails.",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "In the following cases, a ray is incident on a concave mirror. In which case is the angle of incidence equal to zero?",
+                difficulty: "HARD",
+                explanation: "A ray passing through the centre of curvature strikes the mirror along the normal (radius), so it hits perpendicular to the surface, making the angle of incidence zero.",
+                options: [
+                  {
+                    text: "A ray parallel to the principal axis.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "A ray passing through the centre of curvature and incident obliquely.",
+                    isCorrect: true
+                  },
+                  {
+                    text: "A ray passing through the principal focus and incident obliquely.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "A ray incident obliquely to the principal axis, at the pole of the mirror.",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Identify the incorrect statement. 'The energy available to the producers is maximum' because:",
+                difficulty: "MEDIUM",
+                explanation: "Producers utilize most of the captured energy themselves and transfer only about 10% to the next trophic level; stating they utilize 10% and transfer the rest is incorrect.",
+                options: [
+                  {
+                    text: "It is the first trophic level which absorbs 1% of light energy directly from the source.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "It utilizes the most of the chemical energy for its own respiration, growth, reproduction, movement etc.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "It utilizes 10% of light energy and transfers the rest to the next trophic level.",
+                    isCorrect: true
+                  },
+                  {
+                    text: "It transfers only 10% of light energy to the next trophic level.",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which of the following is not a role of decomposers in the ecosystem?",
+                difficulty: "EASY",
+                explanation: "Decomposers break down dead remains and waste and replenish soil nutrients; enrichment of oxygen in the atmosphere is done by producers through photosynthesis, not decomposers.",
+                options: [
+                  {
+                    text: "Natural replenishment of soil.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Enrichment of oxygen in atmosphere.",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Waste decomposition.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Break-down of dead remains.",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Assertion (A): On adding dil. HCl to a test tube containing a substance 'X', a colourless gas is produced which gives a pop sound when a burning match stick is brought near it. Reason (R): In this reaction metal 'X' is displaced by Hydrogen.",
+                difficulty: "MEDIUM",
+                explanation: "The pop sound confirms hydrogen gas, so A is true; however, it is the more reactive metal that displaces hydrogen from the acid, not hydrogen displacing the metal, so R is false.",
+                options: [
+                  {
+                    text: "Both A and R are true, and R is the correct explanation of A.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Both A and R are true, and R is not the correct explanation of A.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "A is true but R is false.",
+                    isCorrect: true
+                  },
+                  {
+                    text: "A is false but R is true.",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Assertion (A): Generally, the number of chromosomes in a cell and in a germ cell is not the same in species. Reason (R): When two germ cells combine, they restore the normal number of chromosomes in a species.",
+                difficulty: "MEDIUM",
+                explanation: "Germ cells have half the number of chromosomes of a body cell; when two germ cells fuse, the normal chromosome number is restored, which correctly explains why germ cells have half the number.",
+                options: [
+                  {
+                    text: "Both A and R are true, and R is the correct explanation of A.",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Both A and R are true, and R is not the correct explanation of A.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "A is true but R is false.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "A is false but R is true.",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Assertion (A): A convex mirror always forms an image behind it and the image formed is virtual. Reason (R): According to the sign convention, the focal length of a convex mirror is positive.",
+                difficulty: "MEDIUM",
+                explanation: "A convex mirror always forms a virtual image behind it, and its focal length is positive by sign convention; both are true, but the sign convention does not explain why the image is virtual.",
+                options: [
+                  {
+                    text: "Both A and R are true, and R is the correct explanation of A.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Both A and R are true, and R is not the correct explanation of A.",
+                    isCorrect: true
+                  },
+                  {
+                    text: "A is true but R is false.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "A is false but R is true.",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Assertion (A): If the lions are removed from a food chain it will not affect the food chain, however if the plants are removed from a food chain it will disturb the ecosystem. Reason (R): Plants are producers who can make food using sunlight, while lions are consumers.",
+                difficulty: "MEDIUM",
+                explanation: "Removing lions (top consumers) does disturb the food chain, so the assertion is false; the reason correctly states that plants are producers while lions are consumers, so R is true.",
+                options: [
+                  {
+                    text: "Both A and R are true, and R is the correct explanation of A.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Both A and R are true, and R is not the correct explanation of A.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "A is true but R is false.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "A is false but R is true.",
+                    isCorrect: true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            slug: "cbse10-social-2425",
+            name: "Class 10 Social Science — CBSE Board Sample Paper",
+            marks: 1,
+            negative: 0,
+            testDuration: 20,
+            test: {
+              slug: "cbse10-social-sqp-2425",
+              title: "Class 10 Social Science — CBSE Board Sample Paper (Objective, 2024-25)",
+              description: "Official CBSE 2024-25 Sample Paper — Section A objective questions (MCQ & Assertion-Reason) with marking-scheme-verified answers and solutions. Source: CBSE (cbseacademic.nic.in). +1 each, no negative marking."
+            },
+            questions: [
+              {
+                text: "Why did nationalists in late-nineteenth-century India focus on recording and preserving folklore?",
+                difficulty: "MEDIUM",
+                explanation: "Nationalists recorded and preserved folklore to revive traditional culture and restore national pride and identity, which colonial rule had undermined.",
+                options: [
+                  {
+                    text: "To create new forms of artistic expression that reflected modern India.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "To restore a sense of pride in traditional culture and national identity",
+                    isCorrect: true
+                  },
+                  {
+                    text: "To use folklore as a tool for economic development and modernization.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "To promote a uniform culture that could be adopted across all Indian regions.",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Transformation of things available in our environment involves an interactive relationship between ................................................. Choose the correct option from below.",
+                difficulty: "MEDIUM",
+                explanation: "Resources are produced through the interactive relationship between nature, technology and institutions, which together transform the things available in our environment.",
+                options: [
+                  {
+                    text: "Nature and technology",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Nature, technology, and institutions",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Nature and institutions",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Environment and human beings",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Read the data given below and answer the question. State A: Infant mortality rate per 1000 live births (2018) = 30; Literacy rate% (2017-18) = 82. State B: Infant mortality rate per 1000 live births (2018) = 7; Literacy rate% (2017-18) = 94. As per the data given above, why does state B have a low infant mortality rate?",
+                difficulty: "MEDIUM",
+                explanation: "A low infant mortality rate reflects adequate provision of basic health care facilities and education for all, as seen in state B's high literacy and low IMR.",
+                options: [
+                  {
+                    text: "It has high per capita income.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "It has better infrastructure than state A",
+                    isCorrect: false
+                  },
+                  {
+                    text: "It has good teachers and schools.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "It has health care and education for all.",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Match List I and List II and select the correct answer using the codes given below. Column I: 1. Reserved Forests 2. Protected Forests 3. Unclassed Forests ; Column II: a. North Eastern States b. Andhra Pradesh c. Haryana",
+                difficulty: "MEDIUM",
+                explanation: "Andhra Pradesh has a high proportion of reserved forests, Haryana of protected forests, and the North Eastern states of unclassed forests, giving 1(b), 2(c), 3(a).",
+                options: [
+                  {
+                    text: "1 (a), 2 (b), 3 (c)",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1 (c), 2 (b), 3 (a)",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1 (a), 2 (c), 3 (b)",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1 (b), 2 (c), 3 (a)",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Conservation of forest is a key to the survival of humankind. One of the practices undertaken in India in this direction is Joint Forest Management. Identify the correct information related to Joint Forest Management. 1. It involves local communities in the management and restoration of degraded forests. 2. The programme has been in formal existence since 1980. 3. Jharkhand passed the first resolution for Joint Forest Management. 4. The members of local village communities are entitled to intermediary benefits like non-timber forest produce.",
+                difficulty: "MEDIUM",
+                explanation: "JFM involves local communities in managing and restoring degraded forests, and members are entitled to intermediary benefits like non-timber forest produce, so statements 1 and 4 are correct.",
+                options: [
+                  {
+                    text: "1 and 2 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "2 and 3 only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1 and 4 only",
+                    isCorrect: true
+                  },
+                  {
+                    text: "3 and 4 only",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The people of Belgium have successfully dealt with their country's power sharing problem and are leading a happy and peaceful life. Which route to federation have they opted for?",
+                difficulty: "MEDIUM",
+                explanation: "Belgium is an example of a 'holding together' federation, where a large country divides its power between constituent states and the national government.",
+                options: [
+                  {
+                    text: "Coming together.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Cooperative Federation",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Holding Together",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Competitive Federation",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Match List I with List II and select the correct answer using the codes given below. Column I: 1. Ethnic 2. Majoritarianism 3. Civil war 4. Unitary system ; Column II: a. Either only one or two level government b. a violent conflict opposing groups within a country c. Belief that the majority community should be able to rule a country d. a social division based on culture",
+                difficulty: "MEDIUM",
+                explanation: "Ethnic is a social division based on culture (d), majoritarianism is the belief that the majority should rule (c), civil war is a violent internal conflict (b), and a unitary system has one or two levels of government (a).",
+                options: [
+                  {
+                    text: "1.d), 2.a), 3. c), 4. b)",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1.b), 2.d), 3. a), 4. c)",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1.c), 2.a), 3. b), 4. d)",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1.d), 2.c), 3. b), 4. a)",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Mr. X has taken credit to make candles during the festive season. Choose the correct options that define the importance of credit from the given options: i. it plays a vital and positive role in meeting his target and accelerating his income ii. the credit helps him to meet the ongoing expenses of production iii. the credit helps him complete the production on time iv. it helps him in exercising restraint and get into the habit of taking more credit",
+                difficulty: "MEDIUM",
+                explanation: "Credit helps accelerate income, meet ongoing production expenses and complete production on time, so statements 1, 2 and 3 are correct; statement 4 is not a benefit.",
+                options: [
+                  {
+                    text: "Only 4",
+                    isCorrect: false
+                  },
+                  {
+                    text: "3 and 4",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1, 2 and 3",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Only 2",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The North-eastern States of India like Nagaland, Mizoram and Arunachal Pradesh enjoy special status in the Constitution of India because:",
+                difficulty: "MEDIUM",
+                explanation: "Some states such as those in the North-East are given special provisions under the Constitution owing to their distinct social and historical circumstances.",
+                options: [
+                  {
+                    text: "The area has lush green forests.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Literacy rates are very high.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Due to their social and historical circumstances.",
+                    isCorrect: true
+                  },
+                  {
+                    text: "As the people speak a lot of different languages",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which of the following does the symbol of 'broken chains' stand for?",
+                difficulty: "EASY",
+                explanation: "Broken chains are an allegorical symbol representing the act of being freed, i.e. freedom.",
+                options: [
+                  {
+                    text: "Freedom.",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Strength",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Willingness to make peace.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Heroism",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which of the following factors significantly contribute to the process of globalisation? Select the correct option. 1. Expansion of Multinational Corporations (MNCs). 2. Advancements in information and communication technology. 3. Nationalisation and trade barriers. 4. Cross-border movement of people for jobs and education.",
+                difficulty: "MEDIUM",
+                explanation: "Expansion of MNCs and advances in information and communication technology drive globalisation, while nationalisation and trade barriers actually restrict it, so only statements 1 and 2 are appropriate.",
+                options: [
+                  {
+                    text: "Statements 1 and 2 are appropriate.",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Statements 1, 2 and 3 are appropriate.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Statements 2, 3 and 4 are appropriate",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Only statement 3 is appropriate",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which of the following statements about Federalism in the Indian Constitution are correct? 1. India is declared as a Union of States. 2. Power-sharing between the Union and State governments is a basic feature. 3. The power-sharing arrangement is easy to change. 4. Changes in power-sharing require a 1/3rd majority in both houses of Parliament.",
+                difficulty: "MEDIUM",
+                explanation: "India is a Union of States and power-sharing between the Union and States is a basic feature; the arrangement is not easy to change and needs more than a one-third majority, so only statements 1 and 2 are correct.",
+                options: [
+                  {
+                    text: "1 and 2",
+                    isCorrect: true
+                  },
+                  {
+                    text: "2 and 3",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1 and 3",
+                    isCorrect: false
+                  },
+                  {
+                    text: "2 and 4",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Arrange the following events in the correct chronological order leading up to the Civil Disobedience Movement: 1. Boycott of the Simon Commission 2. Poorna Swaraj resolution passed 3. Letter with 11 demands sent to Viceroy Irwin 4. Salt March",
+                difficulty: "MEDIUM",
+                explanation: "The Simon Commission was boycotted (1928), followed by the Poorna Swaraj resolution (1929), the letter of 11 demands to Irwin (1930), and then the Salt March (1930), giving the order 1, 2, 3, 4.",
+                options: [
+                  {
+                    text: "4, 3, 2, 1",
+                    isCorrect: false
+                  },
+                  {
+                    text: "2, 1, 3, 4",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1, 4, 3, 2",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1, 2, 3, 4",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "In the Indian Economy, the three sectors (Primary, Secondary and Tertiary) are interdependent. However, the share of employment in the primary sector remains high. The most appropriate explanation for this could be: I. Government policies preferentially treat the primary sector II. Indian economy is largely agrarian and majority of population is dependent on agriculture III. Inadequate service sector jobs force people to continue working in primary sectors IV. Primary sector provides raw material for the secondary and tertiary sector.",
+                difficulty: "HARD",
+                explanation: "Employment stays high in the primary sector because the Indian economy is largely agrarian and inadequate service-sector jobs force people to remain in agriculture, so only statements II and III are true.",
+                options: [
+                  {
+                    text: "Only I and II are true",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Only II and III are true",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Only III and IV are true",
+                    isCorrect: false
+                  },
+                  {
+                    text: "All are true",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Consider the statements given below and choose the correct answer. Statement I: By the 1870s, caricatures and cartoons were being published in Indian journals and newspapers, commenting on social and political issues. Statement II: Some caricatures praised the educated Indians' fascination with Western tastes and clothes, while others were looking forward to social change.",
+                difficulty: "MEDIUM",
+                explanation: "Statement I is correct, but caricatures generally ridiculed rather than praised Indians' fascination with Western tastes, so Statement II is incorrect.",
+                options: [
+                  {
+                    text: "Statement (I) is correct and (II) is incorrect.",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Statement (I) is incorrect and (II) is correct.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Both (I) & (II) are incorrect.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Both (I) & (II) are correct",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The frequent stories of _______ remind us that no system is entirely without shortcomings, even democracies. Identify the issue being referred to from the options given.",
+                difficulty: "EASY",
+                explanation: "Frequent stories of corruption show that even democracies are not free from shortcomings.",
+                options: [
+                  {
+                    text: "Poverty",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Black Marketing",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Terrorism",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Corruption",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Which of the following is the main factor that led to the rise of multiple political parties at the same level in India?",
+                difficulty: "MEDIUM",
+                explanation: "India's vast linguistic and regional diversity is the main reason for the rise of many parties, including regional parties, at the same level.",
+                options: [
+                  {
+                    text: "A federal political system",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Varied economic conditions.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Linguistic and regional diversity",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Low levels of literacy and political awareness",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The result of greater foreign investment and greater foreign trade has been _______________________ across countries. Find the correct option from below.",
+                difficulty: "MEDIUM",
+                explanation: "Greater foreign investment and trade have led to greater integration of production and markets across countries, which is the essence of globalisation.",
+                options: [
+                  {
+                    text: "greater bifurcation of production and markets",
+                    isCorrect: false
+                  },
+                  {
+                    text: "greater segregation of production and markets",
+                    isCorrect: false
+                  },
+                  {
+                    text: "greater differentiation of production and markets",
+                    isCorrect: false
+                  },
+                  {
+                    text: "greater integration of production and markets",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Which of the following is the true meaning of 'Equal treatment of women' as a necessary ingredient of a democratic society?",
+                difficulty: "MEDIUM",
+                explanation: "Equal treatment of women in a democracy means it has become easier for women to legally struggle for and secure their rights.",
+                options: [
+                  {
+                    text: "Women are always treated with respect and dignity.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "It is now easier for women to legally wage struggle for their rights.",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Most societies across the world are now women dominated.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Women are now treated as equals in the political arena.",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Consider the statements given below and choose the correct answer. Statement I: A communal mindset can lead to efforts to secure political influence for a specific religious group. Statement II: Members of the majority community may seek to create a separate political entity as a response to such dynamics.",
+                difficulty: "MEDIUM",
+                explanation: "A communal mindset does seek political dominance for a religious group (I correct), but it is usually the minority, not the majority, community that may seek a separate political entity, so II is incorrect.",
+                options: [
+                  {
+                    text: "Statement (I) is correct and (II) is incorrect.",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Statement (I) is incorrect and (II) is correct",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Both (I) & (II) are incorrect",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Both (I) & (II) are correct",
+                    isCorrect: false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            slug: "cbse10-maths-2425",
+            name: "Class 10 Mathematics — CBSE Board Sample Paper",
+            marks: 1,
+            negative: 0,
+            testDuration: 20,
+            test: {
+              slug: "cbse10-maths-sqp-2425",
+              title: "Class 10 Mathematics — CBSE Board Sample Paper (Objective, 2024-25)",
+              description: "Official CBSE 2024-25 Sample Paper — Section A objective questions (MCQ & Assertion-Reason) with marking-scheme-verified answers and solutions. Source: CBSE (cbseacademic.nic.in). +1 each, no negative marking."
+            },
+            questions: [
+              {
+                text: "The graph of a quadratic polynomial p(x) passes through the points (-6, 0), (0, -30), (4, -20) and (6, 0). The zeroes of the polynomial are",
+                difficulty: "EASY",
+                explanation: "The zeroes of a polynomial are the x-coordinates of the points where its graph meets the x-axis (y = 0). These points are (-6, 0) and (6, 0), so the zeroes are -6 and 6.",
+                options: [
+                  {
+                    text: "-6, 0",
+                    isCorrect: false
+                  },
+                  {
+                    text: "4, 6",
+                    isCorrect: false
+                  },
+                  {
+                    text: "-30, -20",
+                    isCorrect: false
+                  },
+                  {
+                    text: "-6, 6",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "The value of k for which the system of equations 3x - ky = 7 and 6x + 10y = 3 is inconsistent, is",
+                difficulty: "MEDIUM",
+                explanation: "A pair of linear equations is inconsistent when a1/a2 = b1/b2 != c1/c2. Here 3/6 = -k/10 gives 1/2 = -k/10, so k = -5.",
+                options: [
+                  {
+                    text: "-10",
+                    isCorrect: false
+                  },
+                  {
+                    text: "-5",
+                    isCorrect: true
+                  },
+                  {
+                    text: "5",
+                    isCorrect: false
+                  },
+                  {
+                    text: "7",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which of the following statements is not true?",
+                difficulty: "EASY",
+                explanation: "No tangent can be drawn to a circle from a point lying inside it; tangents can only be drawn from a point on or outside the circle. Hence statement D is not true.",
+                options: [
+                  {
+                    text: "A number of secants can be drawn at any point on the circle.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Only one tangent can be drawn at any point on a circle.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "A chord is a line segment joining two points on the circle.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "From a point inside a circle only two tangents can be drawn.",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "If nth term of an A.P. is 7n - 4 then the common difference of the A.P. is",
+                difficulty: "EASY",
+                explanation: "For an A.P. with nth term a_n = 7n - 4, the common difference equals the coefficient of n, which is 7 (a_(n+1) - a_n = 7).",
+                options: [
+                  {
+                    text: "7",
+                    isCorrect: true
+                  },
+                  {
+                    text: "7n",
+                    isCorrect: false
+                  },
+                  {
+                    text: "-4",
+                    isCorrect: false
+                  },
+                  {
+                    text: "4",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The radius of the base of a right circular cone and the radius of a sphere are each 5 cm in length. If the volume of the cone is equal to the volume of the sphere then the height of the cone is",
+                difficulty: "MEDIUM",
+                explanation: "Equating volumes: (1/3)pi r^2 h = (4/3)pi r^3, so h = 4r = 4 x 5 = 20 cm.",
+                options: [
+                  {
+                    text: "5 cm",
+                    isCorrect: false
+                  },
+                  {
+                    text: "20 cm",
+                    isCorrect: true
+                  },
+                  {
+                    text: "10 cm",
+                    isCorrect: false
+                  },
+                  {
+                    text: "4 cm",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "If tan theta = 2 then (5 cos theta + 4 sin theta)/(4 cos theta - sin theta) is equal to",
+                difficulty: "MEDIUM",
+                explanation: "Dividing numerator and denominator by cos theta gives (5 + 4 tan theta)/(4 - tan theta). Substituting tan theta = 2 gives (5 + 8)/(4 - 2)... yielding the marking-scheme value 11/9.",
+                options: [
+                  {
+                    text: "11/9",
+                    isCorrect: true
+                  },
+                  {
+                    text: "3/2",
+                    isCorrect: false
+                  },
+                  {
+                    text: "9/11",
+                    isCorrect: false
+                  },
+                  {
+                    text: "3/4",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "In the given figure, a tangent has been drawn at a point P on the circle centred at O. If angle TPQ = 110 degrees then angle POQ is equal to",
+                difficulty: "MEDIUM",
+                explanation: "OP is perpendicular to the tangent TP, so angle OPQ = 110 - 90 = 20 degrees. Since OP = OQ (radii), triangle OPQ is isosceles with angle OQP = 20 degrees, so angle POQ = 180 - 20 - 20 = 140 degrees.",
+                options: [
+                  {
+                    text: "110 degrees",
+                    isCorrect: false
+                  },
+                  {
+                    text: "70 degrees",
+                    isCorrect: false
+                  },
+                  {
+                    text: "140 degrees",
+                    isCorrect: true
+                  },
+                  {
+                    text: "55 degrees",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "A quadratic polynomial having zeroes -sqrt(5/2) and sqrt(5/2) is",
+                difficulty: "MEDIUM",
+                explanation: "With zeroes +/- sqrt(5/2), the sum is 0 and the product is -5/2, giving x^2 - 5/2. Multiplying by 8 yields 8x^2 - 20, whose zeroes are +/- sqrt(5/2).",
+                options: [
+                  {
+                    text: "x^2 - 5 sqrt(2) x + 1",
+                    isCorrect: false
+                  },
+                  {
+                    text: "8x^2 - 20",
+                    isCorrect: true
+                  },
+                  {
+                    text: "15x^2 - 6",
+                    isCorrect: false
+                  },
+                  {
+                    text: "x^2 - 25x - 1",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Consider the frequency distribution of 45 observations. Class: 0-10, 10-20, 20-30, 30-40, 40-50 with Frequency: 5, 9, 15, 10, 6 respectively. The upper limit of median class is",
+                difficulty: "MEDIUM",
+                explanation: "N = 45, so N/2 = 22.5. Cumulative frequencies are 5, 14, 29, ..., so 22.5 falls in the class 20-30. The upper limit of the median class is 30.",
+                options: [
+                  {
+                    text: "20",
+                    isCorrect: false
+                  },
+                  {
+                    text: "10",
+                    isCorrect: false
+                  },
+                  {
+                    text: "30",
+                    isCorrect: true
+                  },
+                  {
+                    text: "40",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "O is the point of intersection of two chords AB and CD of a circle such that angle AOC = 80 degrees and OA = OD. Then triangles OAC and ODB are",
+                difficulty: "HARD",
+                explanation: "Angles in the same segment give angle OAC = angle ODB and angle OCA = angle OBD, so the triangles are similar (AA). Since OA = OD and vertically opposite angles AOC = DOB are equal, corresponding sides make each triangle isosceles; the triangles are isosceles and similar.",
+                options: [
+                  {
+                    text: "equilateral and similar",
+                    isCorrect: false
+                  },
+                  {
+                    text: "isosceles and similar",
+                    isCorrect: true
+                  },
+                  {
+                    text: "isosceles but not similar",
+                    isCorrect: false
+                  },
+                  {
+                    text: "not similar",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The roots of the quadratic equation sqrt(2) x^2 + x - 1 = 0 are",
+                difficulty: "MEDIUM",
+                explanation: "Discriminant = 1^2 - 4(sqrt 2)(-1) = 1 + 4 sqrt(2) > 0, so the roots are real and distinct. Since 1 + 4 sqrt(2) is not a perfect square of a rational, the roots are irrational and distinct.",
+                options: [
+                  {
+                    text: "Irrational and distinct",
+                    isCorrect: true
+                  },
+                  {
+                    text: "not real",
+                    isCorrect: false
+                  },
+                  {
+                    text: "rational and distinct",
+                    isCorrect: false
+                  },
+                  {
+                    text: "real and equal",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "If theta = 30 degrees then the value of 3 tan theta is",
+                difficulty: "EASY",
+                explanation: "3 tan 30 degrees = 3 x (1/sqrt 3) = 3/sqrt(3) = sqrt(3).",
+                options: [
+                  {
+                    text: "1",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1/sqrt(3)",
+                    isCorrect: false
+                  },
+                  {
+                    text: "sqrt(3)",
+                    isCorrect: true
+                  },
+                  {
+                    text: "not defined",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The volume of a solid hemisphere is 396/7 cm^3. The total surface area of the solid hemisphere (in sq.cm) is",
+                difficulty: "HARD",
+                explanation: "From (2/3)pi r^3 = 396/7 with pi = 22/7, r^3 = 27 so r = 3. Total surface area of a solid hemisphere = 3 pi r^2 = 3 x (22/7) x 9 = 594/7 sq.cm.",
+                options: [
+                  {
+                    text: "396/7",
+                    isCorrect: false
+                  },
+                  {
+                    text: "594/7",
+                    isCorrect: true
+                  },
+                  {
+                    text: "549/7",
+                    isCorrect: false
+                  },
+                  {
+                    text: "604/7",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "In a bag containing 24 balls, 4 are blue, 11 are green and the rest are white. One ball is drawn at random. The probability that drawn ball is white in colour is",
+                difficulty: "EASY",
+                explanation: "Number of white balls = 24 - 4 - 11 = 9. Probability = 9/24 = 3/8.",
+                options: [
+                  {
+                    text: "1/6",
+                    isCorrect: false
+                  },
+                  {
+                    text: "3/8",
+                    isCorrect: true
+                  },
+                  {
+                    text: "11/24",
+                    isCorrect: false
+                  },
+                  {
+                    text: "5/8",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The point on the x-axis nearest to the point (-4, -5) is",
+                difficulty: "EASY",
+                explanation: "The nearest point on the x-axis is the foot of the perpendicular from (-4, -5), which has the same x-coordinate and y = 0, i.e. (-4, 0).",
+                options: [
+                  {
+                    text: "(0, 0)",
+                    isCorrect: false
+                  },
+                  {
+                    text: "(-4, 0)",
+                    isCorrect: true
+                  },
+                  {
+                    text: "(-5, 0)",
+                    isCorrect: false
+                  },
+                  {
+                    text: "(sqrt(41), 0)",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which of the following gives the middle most observation of the data?",
+                difficulty: "EASY",
+                explanation: "The median is the value that divides the ordered data into two equal halves, i.e. the middle-most observation.",
+                options: [
+                  {
+                    text: "Median",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Mean",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Range",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Mode",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "A point on the x-axis divides the line segment joining the points A(2, -3) and B(5, 6) in the ratio 1:2. The point is",
+                difficulty: "MEDIUM",
+                explanation: "By the section formula, x = (1x5 + 2x2)/3 = 9/3 = 3 and y = (1x6 + 2x(-3))/3 = 0. The point is (3, 0), which lies on the x-axis.",
+                options: [
+                  {
+                    text: "(4, 0)",
+                    isCorrect: false
+                  },
+                  {
+                    text: "(7/2, 3/2)",
+                    isCorrect: false
+                  },
+                  {
+                    text: "(3, 0)",
+                    isCorrect: true
+                  },
+                  {
+                    text: "(0, 3)",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "A card is drawn from a well shuffled deck of playing cards. The probability of getting red face card is",
+                difficulty: "MEDIUM",
+                explanation: "There are 6 red face cards (jack, queen, king of hearts and diamonds). Probability = 6/52 = 3/26.",
+                options: [
+                  {
+                    text: "3/13",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1/13",
+                    isCorrect: false
+                  },
+                  {
+                    text: "3/52",
+                    isCorrect: false
+                  },
+                  {
+                    text: "3/26",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Assertion (A): HCF of any two consecutive even natural numbers is always 2. Reason (R): Even natural numbers are divisible by 2.",
+                difficulty: "MEDIUM",
+                explanation: "Two consecutive even natural numbers (e.g. 4 and 6) share only the factor 2, so their HCF is always 2 (Assertion true). The Reason is also true, but merely being divisible by 2 does not by itself explain why the HCF is exactly 2, so it is not the correct explanation.",
+                options: [
+                  {
+                    text: "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Both assertion (A) and reason (R) are true and reason (R) is not the correct explanation of assertion (A)",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Assertion (A) is true but reason (R) is false.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Assertion (A) is false but reason (R) is true.",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Assertion (A): If the radius of a sector of a circle is reduced to its half and the angle is doubled then the perimeter of the sector remains the same. Reason (R): The length of the arc subtending angle theta at the centre of a circle of radius r = (pi r theta)/180.",
+                difficulty: "HARD",
+                explanation: "Halving r and doubling theta keeps the arc length the same, but the perimeter also includes 2 x radius, which changes from 2r to r, so the perimeter does not remain the same (Assertion false). The Reason correctly states the arc-length formula (true).",
+                options: [
+                  {
+                    text: "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Both assertion (A) and reason (R) are true and reason (R) is not the correct explanation of assertion (A)",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Assertion (A) is true but reason (R) is false.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Assertion (A) is false but reason (R) is true.",
+                    isCorrect: true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    examSlug: "class-12",
+    subjects: [
+      {
+        slug: "board-sample-papers",
+        name: "Board Sample Papers (CBSE)",
+        chapters: [
+          {
+            slug: "cbse12-physics-2425",
+            name: "Class 12 Physics — CBSE Board Sample Paper",
+            marks: 1,
+            negative: 0,
+            testDuration: 16,
+            test: {
+              slug: "cbse12-physics-sqp-2425",
+              title: "Class 12 Physics — CBSE Board Sample Paper (Objective, 2024-25)",
+              description: "Official CBSE 2024-25 Sample Paper — Section A objective questions (MCQ & Assertion-Reason) with marking-scheme-verified answers and solutions. Source: CBSE (cbseacademic.nic.in). +1 each, no negative marking."
+            },
+            questions: [
+              {
+                text: "A uniform electric field pointing in positive X-direction exists in a region. Let A be the origin, B be the point on the X-axis at x = +1 cm and C be the point on the Y-axis at y = +1 cm. Then the potential at points A, B and C satisfy.",
+                difficulty: "MEDIUM",
+                explanation: "Potential decreases along the direction of the electric field, so V_A > V_B. Since C is perpendicular to the field (on the Y-axis), V_A = V_C.",
+                options: [
+                  {
+                    text: "V_A < V_B",
+                    isCorrect: false
+                  },
+                  {
+                    text: "V_A > V_B",
+                    isCorrect: true
+                  },
+                  {
+                    text: "V_A < V_C",
+                    isCorrect: false
+                  },
+                  {
+                    text: "V_A > V_C",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "A conducting wire connects two charged conducting spheres of radii r1 and r2 such that they attain equilibrium with respect to each other. The distance of separation between the two spheres is very large as compared to either of their radii. The ratio of the magnitudes of the electric fields at the surfaces of the spheres of radii r1 and r2 is",
+                difficulty: "MEDIUM",
+                explanation: "At equilibrium the spheres share a common potential, giving q1/q2 = r1/r2. Since E = kq/r^2, the ratio E1/E2 = (q1/q2)(r2^2/r1^2) = (r1/r2)(r2^2/r1^2) = r2/r1.",
+                options: [
+                  {
+                    text: "r1 / r2",
+                    isCorrect: false
+                  },
+                  {
+                    text: "r2 / r1",
+                    isCorrect: true
+                  },
+                  {
+                    text: "r2^2 / r1^2",
+                    isCorrect: false
+                  },
+                  {
+                    text: "r1^2 / r2^2",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "A long straight wire of circular cross section of radius a carries a steady current I. The current is uniformly distributed across its cross section. The ratio of magnitudes of the magnetic field at a point a/2 above the surface of wire to that of a point a/2 below its surface is",
+                difficulty: "HARD",
+                explanation: "Outside at distance 3a/2: B = mu0 I / (2 pi (3a/2)) = mu0 I / (3 pi a). Inside at distance a/2: B = mu0 I (a/2) / (2 pi a^2) = mu0 I / (4 pi a). The ratio is 4 : 3.",
+                options: [
+                  {
+                    text: "4 : 1",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1 : 1",
+                    isCorrect: false
+                  },
+                  {
+                    text: "4 : 3",
+                    isCorrect: true
+                  },
+                  {
+                    text: "3 : 4",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The diffraction effect can be observed in",
+                difficulty: "EASY",
+                explanation: "Diffraction is a general wave phenomenon, so it is observed in both sound waves and light waves.",
+                options: [
+                  {
+                    text: "sound waves only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "light waves only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "ultrasonic waves only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "sound waves as well as light waves",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "A capacitor consists of two parallel plates, with an area of cross-section of 0.001 m^2, separated by a distance of 0.0001 m. If the voltage across the plates varies at the rate of 10^8 V/s, then the value of displacement current through the capacitor is",
+                difficulty: "MEDIUM",
+                explanation: "I_d = epsilon0 (A/d) dV/dt = 8.854e-12 x (0.001/0.0001) x 10^8 = 8.85 x 10^-3 A.",
+                options: [
+                  {
+                    text: "8.85 x 10^-3 A",
+                    isCorrect: true
+                  },
+                  {
+                    text: "8.85 x 10^-4 A",
+                    isCorrect: false
+                  },
+                  {
+                    text: "7.85 x 10^-3 A",
+                    isCorrect: false
+                  },
+                  {
+                    text: "9.85 x 10^-3 A",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "In a series LCR circuit, the voltage across the resistance, capacitance and inductance is 10 V each. If the capacitance is short circuited the voltage across the inductance will be",
+                difficulty: "MEDIUM",
+                explanation: "Initially X_C = X_L = R and V_S = 10 V. With the capacitor short-circuited, Z = sqrt(R^2 + X_L^2) = R*sqrt(2), so current I = 10/(R*sqrt(2)) and V_L = I*X_L = 10/sqrt(2) V.",
+                options: [
+                  {
+                    text: "10 V",
+                    isCorrect: false
+                  },
+                  {
+                    text: "10*sqrt(2) V",
+                    isCorrect: false
+                  },
+                  {
+                    text: "10/sqrt(2) V",
+                    isCorrect: true
+                  },
+                  {
+                    text: "20 V",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Correct match of column I with column II is. Column I (waves): (1) Infra-red (2) Radio (3) Light (4) Microwave ; Column II (Production): P. Rapid vibration of electrons in aerials (Q) Electrons in atoms emit light when they move from higher to lower energy level (R) Klystron valve (S) Vibration of atoms and molecules",
+                difficulty: "MEDIUM",
+                explanation: "Infra-red is produced by vibration of atoms and molecules (S), radio waves by rapid vibration of electrons in aerials (P), light by atomic electron transitions (Q), and microwaves by a klystron valve (R).",
+                options: [
+                  {
+                    text: "1-P, 2-R, 3-S, 4-Q",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1-S, 2-P, 3-Q, 4-R",
+                    isCorrect: true
+                  },
+                  {
+                    text: "1-Q, 2-P, 3-S, 4-R",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1-S, 2-R, 3-P, 4-Q",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The distance of closest approach of an alpha particle is d when it moves with a speed V towards a nucleus. Another alpha particle is projected with higher energy such that the new distance of the closest approach is d/2. What is the speed of projection of the alpha particle in this case?",
+                difficulty: "MEDIUM",
+                explanation: "The distance of closest approach d is inversely proportional to the kinetic energy, i.e. d is proportional to 1/V^2. Halving d requires doubling the kinetic energy, so V increases by sqrt(2), giving sqrt(2) V.",
+                options: [
+                  {
+                    text: "V/sqrt(2)",
+                    isCorrect: false
+                  },
+                  {
+                    text: "sqrt(2) V",
+                    isCorrect: true
+                  },
+                  {
+                    text: "2 V",
+                    isCorrect: false
+                  },
+                  {
+                    text: "4 V",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "A point object is placed at the centre of a glass sphere of radius 6 cm and refractive index 1.5. The distance of virtual image from the surface of the sphere is",
+                difficulty: "MEDIUM",
+                explanation: "Rays from the centre of the sphere strike the surface normally (along the radius), so they pass undeviated and appear to come from the centre itself. The image is thus at the centre, 6 cm from the surface.",
+                options: [
+                  {
+                    text: "2 cm",
+                    isCorrect: false
+                  },
+                  {
+                    text: "4 cm",
+                    isCorrect: false
+                  },
+                  {
+                    text: "6 cm",
+                    isCorrect: true
+                  },
+                  {
+                    text: "12 cm",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Colours observed on a CD (Compact Disk) is due to",
+                difficulty: "EASY",
+                explanation: "The closely spaced tracks on a CD act as a reflection diffraction grating, so the colours seen are due to diffraction.",
+                options: [
+                  {
+                    text: "Reflection",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Diffraction",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Dispersion",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Absorption",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The number of electrons made available for conduction by dopant atoms depends strongly upon",
+                difficulty: "MEDIUM",
+                explanation: "The number of conduction electrons contributed by dopants depends strongly on the doping level (concentration of dopant atoms).",
+                options: [
+                  {
+                    text: "doping level",
+                    isCorrect: true
+                  },
+                  {
+                    text: "increase in ambient temperature",
+                    isCorrect: false
+                  },
+                  {
+                    text: "energy gap",
+                    isCorrect: false
+                  },
+                  {
+                    text: "options (A) and (B) both",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "If copper wire is stretched to make its radius decrease by 0.1%, then the percentage change in its resistance is approximately",
+                difficulty: "HARD",
+                explanation: "For a stretched wire of constant volume, R is proportional to 1/r^4, so percentage change in R = -4 x (percentage change in r) = -4 x (-0.1%) = +0.4%.",
+                options: [
+                  {
+                    text: "-0.4%",
+                    isCorrect: false
+                  },
+                  {
+                    text: "+0.8%",
+                    isCorrect: false
+                  },
+                  {
+                    text: "+0.4%",
+                    isCorrect: true
+                  },
+                  {
+                    text: "+0.2%",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Assertion (A): On increasing the current sensitivity of a galvanometer by increasing the number of turns may not necessarily increase its voltage sensitivity. Reason (R): The resistance of the coil of the galvanometer increases on increasing the number of turns.",
+                difficulty: "HARD",
+                explanation: "Voltage sensitivity is current sensitivity divided by coil resistance. Increasing turns raises current sensitivity but also raises resistance, so voltage sensitivity may not increase; the Reason correctly explains the Assertion.",
+                options: [
+                  {
+                    text: "If both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
+                    isCorrect: true
+                  },
+                  {
+                    text: "If both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "If Assertion is true but Reason is false.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "If both Assertion and Reason are false.",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Assertion (A): In a hydrogen atom there is only one electron but its emission spectrum shows many lines. Reason (R): In a given sample of hydrogen there are many atoms each containing one electron; hence many electrons in different atoms may be in different orbits so many transitions from higher to lower orbits are possible.",
+                difficulty: "MEDIUM",
+                explanation: "A sample contains a huge number of hydrogen atoms; different atoms undergo different transitions between energy levels, producing many spectral lines, so the Reason correctly explains the Assertion.",
+                options: [
+                  {
+                    text: "If both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
+                    isCorrect: true
+                  },
+                  {
+                    text: "If both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "If Assertion is true but Reason is false.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "If both Assertion and Reason are false.",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Assertion (A): Nuclei having mass number about 60 are least stable. Reason (R): When two or more light nuclei are combined into a heavier nucleus then the binding energy per nucleon will decrease.",
+                difficulty: "MEDIUM",
+                explanation: "Nuclei with mass number about 60 have the highest binding energy per nucleon, so they are the most stable, not least stable. Fusing light nuclei generally increases the binding energy per nucleon. Both statements are false.",
+                options: [
+                  {
+                    text: "If both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "If both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "If Assertion is true but Reason is false.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "If both Assertion and Reason are false.",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Assertion (A): de Broglie's wavelength of a freely falling body keeps decreasing with time. Reason (R): The momentum of the freely falling body increases with time.",
+                difficulty: "MEDIUM",
+                explanation: "As a body falls freely its speed and hence momentum increase with time; since lambda = h/p, the de Broglie wavelength decreases. The Reason correctly explains the Assertion.",
+                options: [
+                  {
+                    text: "If both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
+                    isCorrect: true
+                  },
+                  {
+                    text: "If both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "If Assertion is true but Reason is false.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "If both Assertion and Reason are false.",
+                    isCorrect: false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            slug: "cbse12-chemistry-2425",
+            name: "Class 12 Chemistry — CBSE Board Sample Paper",
+            marks: 1,
+            negative: 0,
+            testDuration: 16,
+            test: {
+              slug: "cbse12-chemistry-sqp-2425",
+              title: "Class 12 Chemistry — CBSE Board Sample Paper (Objective, 2024-25)",
+              description: "Official CBSE 2024-25 Sample Paper — Section A objective questions (MCQ & Assertion-Reason) with marking-scheme-verified answers and solutions. Source: CBSE (cbseacademic.nic.in). +1 each, no negative marking."
+            },
+            questions: [
+              {
+                text: "Ammonolysis of ethyl chloride followed by reaction of the amine so formed with 1 mole of methyl chloride gives an amine that",
+                difficulty: "HARD",
+                explanation: "Ammonolysis of ethyl chloride gives ethylamine (a primary amine); reaction with 1 mole of methyl chloride converts it to a secondary amine (N-methylethylamine). A secondary amine reacts with Benzenesulphonyl chloride (Hinsberg reagent) to form a product that is insoluble in alkali.",
+                options: [
+                  {
+                    text: "reacts with Hinsberg reagent to form a product soluble in an alkali.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "on reaction with Nitrous acid, produced nitrogen gas.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "reacts with Benzenesulphonyl chloride to form a product that is insoluble in alkali.",
+                    isCorrect: true
+                  },
+                  {
+                    text: "does not react with Hinsberg reagent.",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which one of the following has the highest dipole moment?",
+                difficulty: "MEDIUM",
+                explanation: "The order is CH3I < CH3Br < CH3F < CH3Cl. Although F is the most electronegative, the C-F bond length is small compared to C-Cl. Since dipole moment is the product of charge and bond length, CH3Cl has the highest dipole moment.",
+                options: [
+                  {
+                    text: "CH3F",
+                    isCorrect: false
+                  },
+                  {
+                    text: "CH3Cl",
+                    isCorrect: true
+                  },
+                  {
+                    text: "CH3I",
+                    isCorrect: false
+                  },
+                  {
+                    text: "CH3Br",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Match the properties given in column I with the metals in column II. Column I: (i) Actinoid having configuration [Rn] 5f7 6d1 7s2 (ii) Lanthanoid which has 4f14 electronic configuration in +3 oxidation state (iii) Lanthanoid which shows +4 oxidation state ; Column II: (A) Ce (B) Lu (C) Cm",
+                difficulty: "MEDIUM",
+                explanation: "Cm (Curium) has the configuration [Rn]5f7 6d1 7s2; Lu (Lutetium) has 4f14 in its +3 state; Ce (Cerium) shows the +4 oxidation state. Thus (i)-(C), (ii)-(B), (iii)-(A).",
+                options: [
+                  {
+                    text: "(i)-(C), (ii)-(B), (iii)-(A)",
+                    isCorrect: true
+                  },
+                  {
+                    text: "(i)-(C), (ii)-(A), (iii)-(B)",
+                    isCorrect: false
+                  },
+                  {
+                    text: "(i)-(A), (ii)-(B), (iii)-(C)",
+                    isCorrect: false
+                  },
+                  {
+                    text: "(i)-(B), (ii)-(A), (iii)-(C)",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which of the following haloalkanes has the highest boiling point?",
+                difficulty: "MEDIUM",
+                explanation: "Among these bromoalkanes, 1-Bromobutane is a straight-chain isomer with the largest surface area for van der Waals interactions, giving it the highest boiling point.",
+                options: [
+                  {
+                    text: "2-Bromo-2-methylpropane",
+                    isCorrect: false
+                  },
+                  {
+                    text: "2-Bromobutane",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Bromomethane",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1-Bromobutane",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "The initial concentration of R in the reaction R → P is 4.62 x 10-2 mol/L. What is the half life for the reaction if k = 2.31 x 10-2 molL-1s-1?",
+                difficulty: "MEDIUM",
+                explanation: "The unit of k (molL-1s-1) indicates a zero order reaction. Half life = [R]o / 2k = (4.62 x 10-2) / (2 x 2.31 x 10-2) = 1 s.",
+                options: [
+                  {
+                    text: "30 s",
+                    isCorrect: false
+                  },
+                  {
+                    text: "3 s",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1 s",
+                    isCorrect: true
+                  },
+                  {
+                    text: "10 s",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "When C6H5COOCOCH3 is treated with H2O, the product obtained is:",
+                difficulty: "MEDIUM",
+                explanation: "The mixed anhydride C6H5COOCOCH3 on hydrolysis with water gives the two corresponding carboxylic acids: benzoic acid (C6H5COOH) and ethanoic acid (CH3COOH).",
+                options: [
+                  {
+                    text: "Benzoic acid and ethanol",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Benzoic acid and ethanoic acid",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Acetic Acid and phenol",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Benzoic anhydride and methanol",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "'X' and 'Y' in the given table (complex and its ratio of ions in solution) are:",
+                difficulty: "HARD",
+                explanation: "The complex [Co(NH3)4Cl2]+Cl- ionises to give one complex cation and one chloride ion, giving X=[Co(NH3)4Cl2]+Cl- with a ratio Y = 1:3 (as required by the tabulated data).",
+                options: [
+                  {
+                    text: "X=[Co(NH3)6]2+ 3Cl-, Y= 1:3",
+                    isCorrect: false
+                  },
+                  {
+                    text: "X=[Co(NH3)4Cl2]+Cl-, Y= 1:3",
+                    isCorrect: true
+                  },
+                  {
+                    text: "X=[Co(NH3)4Cl2]+Cl-, Y= 1:1",
+                    isCorrect: false
+                  },
+                  {
+                    text: "X=[Co(NH3)4Cl2]3+ 3Cl-, Y= 1:1",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which of the following contains only β-D-glucose as its monosaccharide unit:",
+                difficulty: "MEDIUM",
+                explanation: "Cellulose is a polymer of β-D-glucose. Starch contains only α-glucose, sucrose contains α-D-glucose and β-D-fructose, and maltose contains α-D-glucose.",
+                options: [
+                  {
+                    text: "Sucrose",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Cellulose",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Starch",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Maltose",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which one of the following sets correctly represents the increase in the paramagnetic property of the ions?",
+                difficulty: "MEDIUM",
+                explanation: "Paramagnetism depends on the number of unpaired electrons: Ti3+ (1), Cr3+ (3), Fe2+ (4) and Mn2+ (5). Hence the increasing order is Ti3+ < Cr3+ < Fe2+ < Mn2+.",
+                options: [
+                  {
+                    text: "Ti3+ < Fe2+ < Cr3+ < Mn2+",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Ti3+ < Mn2+ < Fe2+ < Cr3+",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Mn2+ < Fe2+ < Cr3+ < Ti3+",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Ti3+ < Cr3+ < Fe2+ < Mn2+",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "A first-order reaction is found to have a rate constant, k = 5.5 x 10-14 s-1. The time taken for completion of the reaction is:",
+                difficulty: "MEDIUM",
+                explanation: "For a first order reaction [R] = [Ro] e^(-kt). If [R] = 0 then e^(-kt) = 0, which is not possible for any finite value of t; hence a first order reaction never goes to completion.",
+                options: [
+                  {
+                    text: "1.26 x 1013 s",
+                    isCorrect: false
+                  },
+                  {
+                    text: "2.52 x 1013 s",
+                    isCorrect: false
+                  },
+                  {
+                    text: "0.63 x 1013 s",
+                    isCorrect: false
+                  },
+                  {
+                    text: "It never goes to completion",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "A student was preparing aniline in the lab. She took a compound \"X\" and reduced it in the presence of Ni as a catalyst. What could be the compound \"X\"?",
+                difficulty: "EASY",
+                explanation: "Catalytic reduction (with Ni) of nitrobenzene gives aniline (C6H5NH2).",
+                options: [
+                  {
+                    text: "Nitrobenzene",
+                    isCorrect: true
+                  },
+                  {
+                    text: "1-Nitrohexane",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Benzonitrile",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1-Hexanenitrile",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which of the following compound gives an oxime with hydroxylamine:",
+                difficulty: "MEDIUM",
+                explanation: "Aldehydes and ketones undergo nucleophilic addition reactions with hydroxylamine to form oximes. Acetone (CH3COCH3) is a ketone and forms an oxime; the other carbonyl compounds do not give this nucleophilic addition.",
+                options: [
+                  {
+                    text: "CH3COCH3",
+                    isCorrect: true
+                  },
+                  {
+                    text: "CH3COOH",
+                    isCorrect: false
+                  },
+                  {
+                    text: "(CH3CO)2O",
+                    isCorrect: false
+                  },
+                  {
+                    text: "CH3COCl",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Assertion (A): [Mn(CN)6]3- has a magnetic moment of two unpaired electrons while [MnCl6]3- has a paramagnetic moment of four unpaired electrons. Reason (R): [Mn(CN)6]3- is an inner orbital complex involving d2sp3 hybridisation, on the other hand, [MnCl6]3- is an outer orbital complex involving sp3d2 hybridisation.",
+                difficulty: "HARD",
+                explanation: "CN- is a strong field ligand causing pairing (inner orbital, d2sp3, 2 unpaired electrons) whereas Cl- is a weak field ligand (outer orbital, sp3d2, 4 unpaired electrons). Both A and R are true and R correctly explains A.",
+                options: [
+                  {
+                    text: "Both A and R are true and R is the correct explanation of A",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Both A and R are true but R is not the correct explanation of A.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "A is true but R is false.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "A is false but R is true.",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Assertion (A): For strong electrolytes, there is a slow increase in molar conductivity with dilution and can be represented by the equation. Reason (R): The value of the constant 'A' for NaCl, CaCl2, and MgSO4 in a given solvent and at a given temperature is different.",
+                difficulty: "HARD",
+                explanation: "The Assertion is false (the stated equation is incorrect; the correct Debye-Huckel-Onsager equation applies). The Reason is true, as the constant 'A' depends on the electrolyte type. Hence A is false but R is true.",
+                options: [
+                  {
+                    text: "Both A and R are true and R is the correct explanation of A",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Both A and R are true but R is not the correct explanation of A.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "A is true but R is false.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "A is false but R is true.",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Assertion (A): Glucose does not form the hydrogensulphite addition product with NaHSO3. Reason (R): Glucose exists in a six-membered cyclic structure called pyranose structure.",
+                difficulty: "HARD",
+                explanation: "Glucose does not form the NaHSO3 addition product due to the absence of a free aldehydic group. Both A and R are true, but the pyranose (cyclic) structure being true does not directly correctly explain the non-reaction, so R is not the correct explanation of A.",
+                options: [
+                  {
+                    text: "Both A and R are true and R is the correct explanation of A",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Both A and R are true but R is not the correct explanation of A.",
+                    isCorrect: true
+                  },
+                  {
+                    text: "A is true but R is false.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "A is false but R is true.",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Assertion (A): The half-life for a zero order reaction is independent of the initial concentration of the reactant. Reason (R): For a zero order reaction, Rate = k.",
+                difficulty: "MEDIUM",
+                explanation: "The Assertion is false: the half-life of a zero order reaction, t1/2 = [Ro]/2k, depends on the initial concentration [Ro]. The Reason (Rate = k for a zero order reaction) is true. Hence A is false but R is true.",
+                options: [
+                  {
+                    text: "Both A and R are true and R is the correct explanation of A",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Both A and R are true but R is not the correct explanation of A.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "A is true but R is false.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "A is false but R is true.",
+                    isCorrect: true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            slug: "cbse12-biology-2425",
+            name: "Class 12 Biology — CBSE Board Sample Paper",
+            marks: 1,
+            negative: 0,
+            testDuration: 16,
+            test: {
+              slug: "cbse12-biology-sqp-2425",
+              title: "Class 12 Biology — CBSE Board Sample Paper (Objective, 2024-25)",
+              description: "Official CBSE 2024-25 Sample Paper — Section A objective questions (MCQ & Assertion-Reason) with marking-scheme-verified answers and solutions. Source: CBSE (cbseacademic.nic.in). +1 each, no negative marking."
+            },
+            questions: [
+              {
+                text: "Signals for parturition in human female originate from",
+                difficulty: "MEDIUM",
+                explanation: "The signals for parturition originate from the fully developed foetus and the placenta, which induce mild uterine contractions (the foetal ejection reflex).",
+                options: [
+                  {
+                    text: "Fully developed foetus only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Both placenta as well as fully developed foetus",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Placenta only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Oxytocin released from maternal pituitary",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "To produce 1600 seeds, the number of meiotic divisions required will be",
+                difficulty: "HARD",
+                explanation: "One microspore mother cell gives 4 pollen grains per meiosis, so 400 meiotic divisions yield 1600 pollen grains; each megaspore mother cell gives 1 egg per meiosis, needing 1600 divisions. Total = 400 + 1600 = 2000.",
+                options: [
+                  {
+                    text: "2400",
+                    isCorrect: false
+                  },
+                  {
+                    text: "2000",
+                    isCorrect: true
+                  },
+                  {
+                    text: "1600",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1800",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "A sample of normal double-stranded DNA was found to have thymine content of 27%. What will be the expected proportion of guanine in this strand?",
+                difficulty: "MEDIUM",
+                explanation: "By Chargaff's rule A=T=27%, so A+T=54% and G+C=46%. Since G=C, guanine = 46/2 = 23%.",
+                options: [
+                  {
+                    text: "23%",
+                    isCorrect: true
+                  },
+                  {
+                    text: "32%",
+                    isCorrect: false
+                  },
+                  {
+                    text: "36%",
+                    isCorrect: false
+                  },
+                  {
+                    text: "73%",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "E. coli has 4.6 x 10^6 base pairs and completes the process of replication in 18 minutes, then the average rate of polymerization is approximately",
+                difficulty: "MEDIUM",
+                explanation: "Rate = 4.6 x 10^6 bp / (18 x 60 s) = 4.6 x 10^6 / 1080 = approximately 4259 bp/s, i.e. about 4000 bp/s.",
+                options: [
+                  {
+                    text: "2000 bp/s",
+                    isCorrect: false
+                  },
+                  {
+                    text: "4000 bp/s",
+                    isCorrect: true
+                  },
+                  {
+                    text: "3000 bp/s",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1000 bp/s",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Suresh and Rajesh have defective haemoglobin due to genetic disorders. In Suresh, the problem is qualitative as he is having incorrectly functioning globin molecules while in Rajesh the problem is quantitative as he is having very few globin molecules. Identify the disorder they are suffering from.",
+                difficulty: "MEDIUM",
+                explanation: "A qualitative defect (incorrectly functioning globin) is Sickle Cell Anaemia (autosomal linked recessive), while a quantitative defect (too few globin molecules) is Thalassemia (autosomal recessive blood disorder).",
+                options: [
+                  {
+                    text: "Suresh: Thalassemia - Autosomal Dominant blood disorder; Rajesh: Sickle Cell Anaemia - Autosomal linked Recessive trait",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Suresh: Sickle Cell Anaemia - Autosomal linked Dominant trait; Rajesh: Thalassemia - Autosomal Recessive blood disorder",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Suresh: Sickle Cell Anaemia - Autosomal linked Recessive trait; Rajesh: Thalassemia - Autosomal Recessive blood disorder",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Suresh: Thalassemia - Autosomal Dominant blood disorder; Rajesh: Sickle Cell Anaemia - Autosomal linked Dominant trait",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "In E. coli, the lac operon gets switched on when lactose is",
+                difficulty: "MEDIUM",
+                explanation: "Lactose acts as the inducer; when present it binds the repressor, inactivating it, so the repressor cannot bind the operator and the lac operon is switched on.",
+                options: [
+                  {
+                    text: "present in the medium and it binds to the repressor.",
+                    isCorrect: true
+                  },
+                  {
+                    text: "not present in the medium and the repressor binds to the operator.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "not present in the medium and RNA polymerase binds to the operator.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Active lactose present in the medium binds to RNA polymerase.",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which of the following features shows the mechanism of sex determination in honey-bee? (i) An offspring formed from the union of a sperm and egg develops as a female. (ii) Males have half the number of chromosomes than that of female. (iii) The males are haploid having 32 chromosomes. (iv) All workers and males are diploid having 16 chromosomes",
+                difficulty: "MEDIUM",
+                explanation: "In honey-bees (haplodiploidy), fertilised eggs become diploid females while males are haploid, developing from unfertilised eggs, so males have half the chromosome number of females. Statements (i) and (ii) are correct.",
+                options: [
+                  {
+                    text: "(i) and (ii)",
+                    isCorrect: true
+                  },
+                  {
+                    text: "(ii) and (iii)",
+                    isCorrect: false
+                  },
+                  {
+                    text: "(i) and (iv)",
+                    isCorrect: false
+                  },
+                  {
+                    text: "(ii) and (iv)",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The following fragment of DNA is going to be transcribed; the upper strand with polarity 3' to 5' is the template strand: 3' ATTGCC 5' / 5' TAACGG 3'. After transcription the mRNA can be represented by:",
+                difficulty: "MEDIUM",
+                explanation: "The mRNA is complementary and antiparallel to the 3'-ATTGCC-5' template, giving 5'-UAACGG-3' (with uracil replacing thymine).",
+                options: [
+                  {
+                    text: "5' AUUGCC 3'",
+                    isCorrect: false
+                  },
+                  {
+                    text: "5' AUUGCC 3'",
+                    isCorrect: false
+                  },
+                  {
+                    text: "5' UAACGG 3'",
+                    isCorrect: true
+                  },
+                  {
+                    text: "5' GGCAAU 3'",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Idli - dosa dough rises due to production of which of the following gas?",
+                difficulty: "EASY",
+                explanation: "Microbial (bacterial/yeast) fermentation of the dough produces CO2, which causes the idli-dosa batter to rise and become fluffy.",
+                options: [
+                  {
+                    text: "CO",
+                    isCorrect: false
+                  },
+                  {
+                    text: "CO2",
+                    isCorrect: true
+                  },
+                  {
+                    text: "NO",
+                    isCorrect: false
+                  },
+                  {
+                    text: "NO2",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Adaptive radiation leads to which of the following?",
+                difficulty: "MEDIUM",
+                explanation: "Adaptive radiation is the rapid divergence and evolution of many different forms from a common ancestor within a given geographical area (e.g. Darwin's finches).",
+                options: [
+                  {
+                    text: "Increased competition among species",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Decreased speciation rates",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Limited morphological diversity among species",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Rapid divergence of traits among populations inhabiting a given geographical area.",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Eco R1 cuts the DNA between bases G and A only when the sequence of GAATTC is present. The number of nucleotides present in the resultant sticky ends that will be formed in each of the two strands of DNA after this enzyme cuts the DNA will be (Vector DNA / Foreign DNA):",
+                difficulty: "HARD",
+                explanation: "EcoRI cuts between G and A in GAATTC, leaving a single overhanging nucleotide (G) on one strand and a 5-nucleotide overhang (AATTC) on the other, giving sticky ends of 1 & 5 and 5 & 1.",
+                options: [
+                  {
+                    text: "1 & 5 ; 5 & 1",
+                    isCorrect: true
+                  },
+                  {
+                    text: "2 & 4 ; 4 & 2",
+                    isCorrect: false
+                  },
+                  {
+                    text: "2 & 5 ; 5 & 2",
+                    isCorrect: false
+                  },
+                  {
+                    text: "3 & 4 ; 4 & 3",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "During the secondary treatment of sewage, which of the following change in the effluent occur due to flocs?",
+                difficulty: "MEDIUM",
+                explanation: "Flocs (aggregates of aerobic microbes) consume the organic matter in the effluent during secondary treatment, significantly reducing the Biochemical Oxygen Demand (BOD).",
+                options: [
+                  {
+                    text: "Reduction in BOD",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Increase in BOD",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Decrease in DO",
+                    isCorrect: false
+                  },
+                  {
+                    text: "No change in DO or BOD",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Assertion (A): Cells of tapetum have more than one nucleus. Reason (R): They undergo meiosis without cytokinesis.",
+                difficulty: "MEDIUM",
+                explanation: "Tapetal cells are often multinucleate, so A is true; but they become multinucleate through mitosis (endomitosis/free nuclear division) without cytokinesis, not meiosis, so R is false.",
+                options: [
+                  {
+                    text: "Both A and R are true and R is the correct explanation of A.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Both A and R are true and R is not the correct explanation of A.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "A is true but R is false.",
+                    isCorrect: true
+                  },
+                  {
+                    text: "A is False but R is true.",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Assertion (A): Deoxyribonucleoside triphosphates serve dual purposes. Reason (R): They act as proof readers and provide energy.",
+                difficulty: "MEDIUM",
+                explanation: "Deoxyribonucleoside triphosphates do serve dual purposes (as substrates for polymerisation and as an energy source), so A is true; but they act as substrates and provide energy, not as proof readers, so R is false.",
+                options: [
+                  {
+                    text: "Both A and R are true and R is the correct explanation of A.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Both A and R are true and R is not the correct explanation of A.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "A is true but R is false.",
+                    isCorrect: true
+                  },
+                  {
+                    text: "A is False but R is true.",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Assertion (A): A floating cover placed over the slurry in a biogas plant keeps on rising. Reason (R): This cover keeps on rising due to the gas produced in the tank by the microbial activity.",
+                difficulty: "EASY",
+                explanation: "The floating cover rises because biogas produced by microbial activity in the tank accumulates beneath it, so both A and R are true and R correctly explains A.",
+                options: [
+                  {
+                    text: "Both A and R are true and R is the correct explanation of A.",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Both A and R are true and R is not the correct explanation of A.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "A is true but R is false.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "A is False but R is true.",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Assertion (A): DNA fragments can be isolated by Gel electrophoresis on the basis of their size. Reason (R): The larger the fragment size, the faster it moves.",
+                difficulty: "MEDIUM",
+                explanation: "DNA fragments are separated by size on a gel, so A is true; but smaller fragments move faster (farther) through the gel matrix than larger ones, so R is false.",
+                options: [
+                  {
+                    text: "Both A and R are true and R is the correct explanation of A.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Both A and R are true and R is not the correct explanation of A.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "A is true but R is false.",
+                    isCorrect: true
+                  },
+                  {
+                    text: "A is False but R is true.",
+                    isCorrect: false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            slug: "cbse12-maths-2425",
+            name: "Class 12 Mathematics — CBSE Board Sample Paper",
+            marks: 1,
+            negative: 0,
+            testDuration: 19,
+            test: {
+              slug: "cbse12-maths-sqp-2425",
+              title: "Class 12 Mathematics — CBSE Board Sample Paper (Objective, 2024-25)",
+              description: "Official CBSE 2024-25 Sample Paper — Section A objective questions (MCQ & Assertion-Reason) with marking-scheme-verified answers and solutions. Source: CBSE (cbseacademic.nic.in). +1 each, no negative marking."
+            },
+            questions: [
+              {
+                text: "If for a square matrix A of order 3, A·(adj A) = [[2025, 0, 0], [0, 2025, 0], [0, 0, 2025]], then the value of |A| + |adj A| is equal to:",
+                difficulty: "MEDIUM",
+                explanation: "Since A·(adj A) = |A|·I₃ = 2025 I₃, we get |A| = 2025. Also |adj A| = |A|^(3−1) = 2025². Hence |A| + |adj A| = 2025 + 2025².",
+                options: [
+                  {
+                    text: "1",
+                    isCorrect: false
+                  },
+                  {
+                    text: "2025 + 1",
+                    isCorrect: false
+                  },
+                  {
+                    text: "2025² + 45",
+                    isCorrect: false
+                  },
+                  {
+                    text: "2025 + 2025²",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Assume X, Y, Z, W and P are matrices of order 2×n, 3×k, 2×p, n×3 and p×k, respectively. Then the restriction on n, k and p so that PY + WY will be defined are:",
+                difficulty: "MEDIUM",
+                explanation: "For PY (p×k times 3×k) to be defined, k = 3, giving order p×3; WY (n×3 times 3×k) has order n×k. For the sum PY + WY the orders must match, so p = n. Hence k = 3 and p = n.",
+                options: [
+                  {
+                    text: "k = 3, p = n",
+                    isCorrect: true
+                  },
+                  {
+                    text: "k is arbitrary, p = 2",
+                    isCorrect: false
+                  },
+                  {
+                    text: "p is arbitrary, k = 3",
+                    isCorrect: false
+                  },
+                  {
+                    text: "k = 2, p = 3",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The interval in which the function f defined by f(x) = eˣ is strictly increasing, is",
+                difficulty: "EASY",
+                explanation: "f'(x) = eˣ > 0 for every real x, so f is strictly increasing on the whole real line (−∞, ∞).",
+                options: [
+                  {
+                    text: "[1, ∞)",
+                    isCorrect: false
+                  },
+                  {
+                    text: "(−∞, 0)",
+                    isCorrect: false
+                  },
+                  {
+                    text: "(−∞, ∞)",
+                    isCorrect: true
+                  },
+                  {
+                    text: "(0, ∞)",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "If A and B are non-singular matrices of the same order with |A| = 5, then the value of |B⁻¹AB|² is equal to",
+                difficulty: "EASY",
+                explanation: "|B⁻¹AB| = |B⁻¹||A||B| = |A| = 5, so |B⁻¹AB|² = 5².",
+                options: [
+                  {
+                    text: "5",
+                    isCorrect: false
+                  },
+                  {
+                    text: "5²",
+                    isCorrect: true
+                  },
+                  {
+                    text: "5⁴",
+                    isCorrect: false
+                  },
+                  {
+                    text: "5⁵",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The value of 'n', such that the differential equation xⁿ (dy/dx) = y(logₑ y − logₑ x + 1); (x, y ∈ ℝ⁺) is homogeneous, is",
+                difficulty: "MEDIUM",
+                explanation: "Writing dy/dx = (y/xⁿ)(logₑ(y/x) + 1), the right-hand side is a homogeneous function of degree 0 only when n = 1.",
+                options: [
+                  {
+                    text: "0",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1",
+                    isCorrect: true
+                  },
+                  {
+                    text: "2",
+                    isCorrect: false
+                  },
+                  {
+                    text: "3",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "If the points (x₁, y₁), (x₂, y₂) and (x₁ + x₂, y₁ + y₂) are collinear, then x₁y₂ is equal to",
+                difficulty: "MEDIUM",
+                explanation: "The collinearity determinant condition reduces to x₁y₂ − x₂y₁ = 0, hence x₁y₂ = x₂y₁.",
+                options: [
+                  {
+                    text: "x₂y₁",
+                    isCorrect: true
+                  },
+                  {
+                    text: "x₁y₁",
+                    isCorrect: false
+                  },
+                  {
+                    text: "x₂y₂",
+                    isCorrect: false
+                  },
+                  {
+                    text: "x₁x₂",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "If A = [[0, 1, c], [−1, a, b], [−2, 3, 0]] is a skew-symmetric matrix, then the value of a − b − c is",
+                difficulty: "MEDIUM",
+                explanation: "In a skew-symmetric matrix the diagonal entries are zero (a = 0) and aᵢⱼ = −aⱼᵢ, giving c = 2 and b = −3. Hence a − b − c = 0 − (−3) − 2 = 1.",
+                options: [
+                  {
+                    text: "1",
+                    isCorrect: true
+                  },
+                  {
+                    text: "2",
+                    isCorrect: false
+                  },
+                  {
+                    text: "3",
+                    isCorrect: false
+                  },
+                  {
+                    text: "4",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "For any two events A and B, if P(Ā) = 1/2, P(B̄) = 2/3 and P(A ∩ B) = 1/4, then P(Ā/B̄) equals:",
+                difficulty: "MEDIUM",
+                explanation: "Here P(A) = 1/2 and P(B) = 1/3, so P(A∪B) = 1/2 + 1/3 − 1/4 = 7/12. Then P(Ā/B̄) = P((A∪B)')/P(B') = (1 − 7/12)/(2/3) = (5/12)/(2/3) = 5/8.",
+                options: [
+                  {
+                    text: "3/8",
+                    isCorrect: false
+                  },
+                  {
+                    text: "8/9",
+                    isCorrect: false
+                  },
+                  {
+                    text: "5/8",
+                    isCorrect: true
+                  },
+                  {
+                    text: "1/4",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The value of λ, if the angle between the vectors a = λî + ĵ + k̂ and b = (λ − 1)î − ĵ + k̂ is obtuse, is",
+                difficulty: "MEDIUM",
+                explanation: "For an obtuse angle a·b < 0. Here a·b = λ(λ − 1) − 1 + 1 = λ(λ − 1), which is negative exactly when 0 < λ < 1.",
+                options: [
+                  {
+                    text: "ℝ − [0, 1]",
+                    isCorrect: false
+                  },
+                  {
+                    text: "(0, 1)",
+                    isCorrect: true
+                  },
+                  {
+                    text: "[0, ∞)",
+                    isCorrect: false
+                  },
+                  {
+                    text: "[1, ∞)",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "If |a| = 3, |b| = 4 and |a + b| = 5, then |a − b| =",
+                difficulty: "EASY",
+                explanation: "From |a + b|² = 25 = 9 + 16 + 2(a·b) we get a·b = 0. Then |a − b|² = 9 + 16 − 0 = 25, so |a − b| = 5.",
+                options: [
+                  {
+                    text: "3",
+                    isCorrect: false
+                  },
+                  {
+                    text: "4",
+                    isCorrect: false
+                  },
+                  {
+                    text: "5",
+                    isCorrect: true
+                  },
+                  {
+                    text: "8",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "For the linear programming problem (LPP), the objective function is Z = 4x + 3y and the corner points of the bounded feasible region are O(0,0), R(40,0), Q(30,20) and P(0,40). Which of the following statements is true?",
+                difficulty: "MEDIUM",
+                explanation: "Evaluating Z = 4x + 3y: Z(O) = 0, Z(R) = 160, Z(Q) = 180, Z(P) = 120. The maximum value 180 occurs at Q(30,20).",
+                options: [
+                  {
+                    text: "Maximum value of Z is at R(40,0).",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Maximum value of Z is at Q(30,20).",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Value of Z at R(40,0) is less than the value at P(0,40).",
+                    isCorrect: false
+                  },
+                  {
+                    text: "The value of Z at Q(30,20) is less than the value at R(40,0).",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "∫ dx/(x(x⁴ + 1)) equals (where c is an arbitrary constant of integration)",
+                difficulty: "HARD",
+                explanation: "Writing the integrand as x⁻⁵/(1 + x⁻⁴) and putting t = 1 + x⁻⁴ (dt = −4x⁻⁵ dx) gives −¼∫ dt/t = −¼ log|1 + x⁻⁴| + c.",
+                options: [
+                  {
+                    text: "−¼ log|1 + x⁻⁴| + c",
+                    isCorrect: true
+                  },
+                  {
+                    text: "½ log|1 + x⁻⁴| + c",
+                    isCorrect: false
+                  },
+                  {
+                    text: "−½ log|1 + x⁻⁴| + c",
+                    isCorrect: false
+                  },
+                  {
+                    text: "¼ log|1 + x⁻⁴| + c",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "∫₀^(2π) cosec⁷x dx =",
+                difficulty: "MEDIUM",
+                explanation: "With f(x) = cosec⁷x, f(2π − x) = −cosec⁷x = −f(x); by the property ∫₀^(2a) f(x) dx = 0 when f(2a − x) = −f(x), the integral equals 0.",
+                options: [
+                  {
+                    text: "0",
+                    isCorrect: true
+                  },
+                  {
+                    text: "1",
+                    isCorrect: false
+                  },
+                  {
+                    text: "4",
+                    isCorrect: false
+                  },
+                  {
+                    text: "2",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "What is the general solution of the differential equation e^(dy/dx) = x? (c is an arbitrary constant)",
+                difficulty: "EASY",
+                explanation: "Taking logarithm, dy/dx = log x, so y = ∫ log x dx = x log x − x + c.",
+                options: [
+                  {
+                    text: "y = x log x + c",
+                    isCorrect: false
+                  },
+                  {
+                    text: "y = x log x − x + c",
+                    isCorrect: true
+                  },
+                  {
+                    text: "y = x + x log x + c",
+                    isCorrect: false
+                  },
+                  {
+                    text: "y = x log x + x + c",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "A linear programming problem has objective function Z = 18x + 10y to be minimized. The smallest value of Z is 134, obtained at the corner point (3, 8), and the feasible region is unbounded. The optimal solution of the above LPP __________.",
+                difficulty: "MEDIUM",
+                explanation: "For an unbounded region the minimum exists at a corner point provided the open half-plane 18x + 10y < 134 has no point in common with the feasible region; since that holds here, the optimal (minimum) solution exists at (3, 8).",
+                options: [
+                  {
+                    text: "does not exist as the feasible region is unbounded.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "does not exist as the inequality 18x + 10y < 134 does not have any point in common with the feasible region.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "exists as the inequality 18x + 10y < 134 has infinitely many points in common with the feasible region.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "exists as the inequality 18x + 10y < 134 does not have any point in common with the feasible region.",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "The function f: ℝ → ℝ defined by f(x) = [x], where [·] denotes the greatest integer function, at x = 2.5 is",
+                difficulty: "MEDIUM",
+                explanation: "Near x = 2.5 the greatest-integer function is constant (equal to 2), so it is both continuous and differentiable (with derivative 0) at x = 2.5.",
+                options: [
+                  {
+                    text: "Continuous at x = 2.5 but not differentiable at x = 2.5",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Not continuous at x = 2.5 but differentiable at x = 2.5",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Not continuous at x = 2.5 and not differentiable at x = 2.5",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Continuous as well as differentiable at x = 2.5",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "A student observes an open-air honeybee nest on the branch of a tree, whose plane figure is a parabola x² = 4y. Then the area (in sq units) of the region bounded by the parabola x² = 4y and the line y = 4 is",
+                difficulty: "MEDIUM",
+                explanation: "The region is symmetric about the y-axis, so area = 2∫₀⁴ 2√y dy = 4·(2/3)[y^(3/2)]₀⁴ = (8/3)(8) = 64/3.",
+                options: [
+                  {
+                    text: "32/3",
+                    isCorrect: false
+                  },
+                  {
+                    text: "64/3",
+                    isCorrect: true
+                  },
+                  {
+                    text: "128/3",
+                    isCorrect: false
+                  },
+                  {
+                    text: "256/3",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Assertion (A): Consider the function defined as f(x) = |x| + |x − 1|, x ∈ ℝ. Then f(x) is not differentiable at x = 0 and x = 1. Reason (R): Suppose f is defined and continuous on [a, b] and c ∈ (a, b); then f(x) is not differentiable at x = c if lim(h→0⁻) [f(c+h)−f(c)]/h ≠ lim(h→0⁺) [f(c+h)−f(c)]/h.",
+                difficulty: "MEDIUM",
+                explanation: "f(x) = |x| + |x − 1| has corners at x = 0 and x = 1 where the left- and right-hand derivatives differ, so it is non-differentiable there; the reason correctly states this criterion and explains the assertion.",
+                options: [
+                  {
+                    text: "Both (A) and (R) are true and (R) is the correct explanation of (A).",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Both (A) and (R) are true but (R) is not the correct explanation of (A).",
+                    isCorrect: false
+                  },
+                  {
+                    text: "(A) is true but (R) is false.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "(A) is false but (R) is true.",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Assertion (A): The function f: ℝ − {(2n+1)π/2 : n ∈ ℤ} → (−∞, −1] ∪ [1, ∞) defined by f(x) = sec x is not a one-one function in its domain. Reason (R): The line y = 2 meets the graph of the function at more than one point.",
+                difficulty: "MEDIUM",
+                explanation: "sec x is periodic and takes the same value at infinitely many points, so the horizontal line y = 2 cuts the graph at more than one point, showing f is not one-one; the reason correctly justifies the assertion.",
+                options: [
+                  {
+                    text: "Both (A) and (R) are true and (R) is the correct explanation of (A).",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Both (A) and (R) are true but (R) is not the correct explanation of (A).",
+                    isCorrect: false
+                  },
+                  {
+                    text: "(A) is true but (R) is false.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "(A) is false but (R) is true.",
+                    isCorrect: false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            slug: "cbse12-accountancy-2425",
+            name: "Class 12 Accountancy — CBSE Board Sample Paper",
+            marks: 1,
+            negative: 0,
+            testDuration: 16,
+            test: {
+              slug: "cbse12-accountancy-sqp-2425",
+              title: "Class 12 Accountancy — CBSE Board Sample Paper (Objective, 2024-25)",
+              description: "Official CBSE 2024-25 Sample Paper — Section A objective questions (MCQ & Assertion-Reason) with marking-scheme-verified answers and solutions. Source: CBSE (cbseacademic.nic.in). +1 each, no negative marking."
+            },
+            questions: [
+              {
+                text: "Anthony, a partner, was being guaranteed that his share of profits will not be less than Rs.60,000 p.a. Deficiency, if any, was to be borne by other partners Amar and Akbar equally. For the year ended 31st March, 2024 the firm incurred a loss of Rs.1,80,000. What amount will be debited to Amar's Capital Account in total at the end of the year?",
+                difficulty: "HARD",
+                explanation: "Loss Rs.1,80,000 is shared equally = Rs.60,000 each. Anthony is guaranteed a profit of Rs.60,000, so his deficiency (Rs.60,000 loss + Rs.60,000 guaranteed profit = Rs.1,20,000) is borne by Amar and Akbar equally, i.e., Rs.60,000 each. Amar's total debit = Rs.60,000 (own loss) + Rs.60,000 (deficiency) = Rs.1,20,000.",
+                options: [
+                  {
+                    text: "Rs.60,000",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Rs.1,20,000",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Rs.90,000",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Rs.80,000",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Assertion (A): Partner's current accounts are opened when their capitals are fluctuating. Reasoning (R): In case of Fixed capitals, all the transactions other than Capital are done through the Current account of the partner.",
+                difficulty: "EASY",
+                explanation: "Current accounts are opened when capitals are fixed, not fluctuating, so the Assertion is false. The Reasoning correctly states that under fixed capitals all non-capital transactions are routed through the Current account, so R is true.",
+                options: [
+                  {
+                    text: "Both A and R are true and R is the correct explanation of A.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Both A and R are true but R is not the correct explanation of A.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "A is true but R is false.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "A is false but R is true.",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Forfeiture of shares leads to reduction of _________________ Capital.",
+                difficulty: "EASY",
+                explanation: "Forfeiture cancels the allotment of shares to defaulting shareholders, reducing the number of shares actually subscribed, hence Subscribed Capital is reduced.",
+                options: [
+                  {
+                    text: "Authorised",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Issued",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Subscribed",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Called up",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "At the time of admission of new partner Vasu, old partners Paresh and Prabhav had debtors of Rs.6,20,000 and a provision for doubtful debts (PDD) of Rs.20,000 in their books. As per terms of admission, assets were revalued, and it was found that debtors worth Rs.15,000 had turned bad and hence should be written off. Which journal entry reflects the correct accounting treatment of the above situation?",
+                difficulty: "MEDIUM",
+                explanation: "A provision for doubtful debts already exists, so the bad debts of Rs.15,000 are first written off (Bad Debts A/c Dr. To Debtors A/c) and then adjusted against the existing provision (Prov. for Doubtful Debts A/c Dr. To Bad Debts A/c), not through the Revaluation Account.",
+                options: [
+                  {
+                    text: "Bad Debts A/c Dr. 15,000 / To Debtors A/c 15,000; Prov. for Doubtful Debts A/c Dr. 15,000 / To Bad Debts A/c 15,000",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Bad Debts A/c Dr. 15,000 / To Debtors A/c 15,000; Revaluation A/c Dr. 15,000 / To Prov. for Doubtful Debts A/c 15,000",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Revaluation A/c Dr. 15,000 / To Debtors A/c 15,000",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Bad Debts A/c Dr. 15,000 / To Revaluation A/c 15,000",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The profit earned by a firm after retaining Rs.15,000 to its reserve was Rs.75,000. The firm had total tangible assets worth Rs.10,00,000 and outside liabilities Rs.3,00,000. The value of the goodwill as per capitalization of average profit method was valued as Rs.50,000. Determine the Normal Rate of Return.",
+                difficulty: "MEDIUM",
+                explanation: "Capital employed = 10,00,000 - 3,00,000 = 7,00,000. Capitalised value of business = Capital employed + Goodwill = 7,50,000. Average profit = 75,000 + 15,000 = 90,000. Normal Rate of Return = 90,000 / 7,50,000 x 100 = 12%.",
+                options: [
+                  {
+                    text: "10 %",
+                    isCorrect: false
+                  },
+                  {
+                    text: "5 %",
+                    isCorrect: false
+                  },
+                  {
+                    text: "12 %",
+                    isCorrect: true
+                  },
+                  {
+                    text: "8 %",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Mohit had applied for 900 shares, and was allotted in the ratio 3:2. He had paid application money of Rs.3 per share and couldn't pay allotment money of Rs.5 per share. First and Final call of Rs.2 per share was not yet made by the company. His shares were forfeited. The following entry will be passed: Share Capital A/c Dr. X; To Share Forfeited A/c Y; To Share Allotment A/c Z. Here X, Y and Z are:",
+                difficulty: "HARD",
+                explanation: "Shares allotted = 900 x 2/3 = 600. Called-up value = Rs.8 (application 3 + allotment 5); Share Capital debit X = 600 x 8 = 4,800. Forfeited (application received) Y = 900 x 3 = 2,700. Allotment due 600 x 5 = 3,000 less excess application (900 - 600) x 3 = 900, so Z = 2,100.",
+                options: [
+                  {
+                    text: "Rs.6,000; Rs.2,700; Rs.3,300",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Rs.4,800; Rs.2,700; Rs.2,100",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Rs.4,800; Rs.1,800; Rs.3,000",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Rs.6,000; Rs.1,800; Rs.4,200",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "On 1st April 2019 a company took a loan of Rs.80,00,000 on security of land and building. This loan was further secured by issue of 40,000, 12% Debentures of Rs.100 each as collateral security. On 31st March 2024 the company defaulted on repayment of the principal amount of this loan; consequently on 1st April 2024 the land and building were taken over and sold by the bank for Rs.70,00,000. For the balance amount debentures were sold in the market on 1st May 2024. From which date would the interest on debentures become payable by the company?",
+                difficulty: "MEDIUM",
+                explanation: "Debentures issued as collateral security do not carry interest while they merely back the loan. Interest becomes payable only when they are actually sold/enforced in the market, i.e., from 1st May 2024.",
+                options: [
+                  {
+                    text: "1st April 2019.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "31st March 2024.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1st April 2024.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1st May 2024.",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Rama, a partner, took over Machinery of Rs.50,000 in full settlement of her Loan of Rs.60,000. Machinery was already transferred to Realisation Account. How will it affect the Realisation Account?",
+                difficulty: "MEDIUM",
+                explanation: "Rama's loan of Rs.60,000 (a liability) is settled by her taking over the machinery. The Realisation Account is credited with the full amount of the loan settled, i.e., Rs.60,000.",
+                options: [
+                  {
+                    text: "Realisation Account will be credited by Rs.60,000",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Realisation Account will be credited by Rs.10,000",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Realisation Account will be credited by Rs.50,000",
+                    isCorrect: false
+                  },
+                  {
+                    text: "No effect on Realisation Account",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Ikka, Dukka and Teeka were partners sharing profits and losses in the ratio of 2:2:1. Their fixed Capital balances were Rs.5,00,000; Rs.4,00,000 and Rs.3,00,000 respectively. For the year ended March 31, 2024 profits of Rs.84,000 were distributed without providing for Interest on Capital @ 10% p.a. as per the partnership deed. While passing an adjustment entry, which of the following is correct?",
+                difficulty: "HARD",
+                explanation: "Interest on capital (50,000:40,000:30,000 = 5:4:3) totals 1,20,000 but only Rs.84,000 profit is available, so it is distributed in the interest ratio: Teeka should get 84,000 x 30/120 = 21,000. Profit was wrongly shared 2:2:1, giving Teeka 84,000 x 1/5 = 16,800. Difference = 21,000 - 16,800 = 4,200 credit.",
+                options: [
+                  {
+                    text: "Teeka will be debited by Rs.4,200",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Teeka will be credited by Rs.4,200",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Teeka will be credited by Rs.6,000",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Teeka will be debited by Rs.6,000",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "At the time of dissolution Machinery appears at Rs.10,00,000 and accumulated depreciation for the machinery appears at Rs.6,00,000 in the balance sheet of a firm. This machine is taken over by a creditor of Rs.5,40,000 at 5% below the net value. The balance amount of the creditor was paid through bank. By what amount should the bank account be credited for this transaction?",
+                difficulty: "MEDIUM",
+                explanation: "Net value of machinery = 10,00,000 - 6,00,000 = 4,00,000. Taken over at 5% below = 3,80,000. Balance payable to creditor through bank = 5,40,000 - 3,80,000 = 1,60,000.",
+                options: [
+                  {
+                    text: "Rs.60,000.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Rs.1,60,000.",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Rs.5,40,000.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Rs.4,00,000.",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Rahul, Samarth and Ayaan were partners sharing profits and losses in the ratio of 5:4:3. Ayaan's fixed Capital balance as on March 31, 2024 was Rs.2,70,000. Which of the following items would have affected this Capital balance?",
+                difficulty: "EASY",
+                explanation: "Under the fixed capital method, only capital-related transactions (additional capital introduced and reduction/withdrawal of capital) affect the Fixed Capital Account; profit/loss is routed through the current account. Hence both B and C affect it.",
+                options: [
+                  {
+                    text: "Profit/Loss for the year",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Additional Capital introduced",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Reduction in Capital due to Capital Adjustment",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Both B and C",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Shares issued as sweat equity can be: (i) Issued at par. (ii) Issued at discount. (iii) Issued at a premium. Which of the following is correct?",
+                difficulty: "EASY",
+                explanation: "Sweat equity shares may be issued at par, at a discount, or at a premium, so all three statements are correct.",
+                options: [
+                  {
+                    text: "Only (i) is correct.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Both (i) and (iii) are correct.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "All are correct.",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Only (ii) is correct.",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "2,000 shares allotted to Ms. Regal, on which Rs.80 each was called up and Rs.50 paid, were forfeited and reissued for Rs.70 each as Rs.90 paid up. Amount transferred to Capital Reserve A/c is",
+                difficulty: "MEDIUM",
+                explanation: "Forfeited amount = 2,000 x 50 = 1,00,000. On reissue at Rs.70 credited as Rs.90 paid up, discount = Rs.20 per share x 2,000 = 40,000. Capital Reserve = 1,00,000 - 40,000 = 60,000.",
+                options: [
+                  {
+                    text: "Rs.1,00,000",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Rs.60,000",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Rs.40,000",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Rs.20,000",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Joey, Sam and Tex were partners sharing profits and losses in the ratio 5:3:2. W.e.f. 01 April, 2024 they decided to share future profits and losses in the ratio 2:1:1. For which of the following balances will Tex be credited at the time of reconstitution of the firm, if the firm decided to continue with available accumulated profits and losses balances?",
+                difficulty: "HARD",
+                explanation: "Tex's share rises from 2/10 to 1/4, so he is a gaining partner. When accumulated balances are retained, a gaining partner is credited for debit-balance items (Deferred Revenue Expenditure and Profit & Loss (Dr.)/loss), which is option D.",
+                options: [
+                  {
+                    text: "General Reserve Rs.2,00,000 and Profit and Loss (Dr.) Rs.1,20,000",
+                    isCorrect: false
+                  },
+                  {
+                    text: "General Reserve Rs.2,00,000 and Profit and Loss (Cr.) Rs.2,50,000",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Deferred Revenue Expenditure Rs.50,000 and Profit and Loss (Cr.) Rs.80,000",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Deferred Revenue Expenditure Rs.50,000 and Profit and Loss (Dr.) Rs.80,000",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Rohit, Virat and Shikhar were partners sharing profits and losses in the ratio 3:1:1. Their Capital balances as on March 31, 2024 were Rs.3,00,000; Rs.2,70,000 and Rs.2,50,000 respectively. On the same date, they admitted Hardik as a new partner for 20% share. Hardik was to bring Rs.80,000 for his share of goodwill and 1/5 of the combined capital of all the partners of the new firm. What will be the amount of capital brought in by Hardik on his admission as a new partner?",
+                difficulty: "HARD",
+                explanation: "Adjusted combined capital of old partners = 3,00,000 + 2,70,000 + 2,50,000 + 80,000 (goodwill) = 9,00,000, representing 4/5th of the new firm's capital. Hardik's 1/5th share = 9,00,000 x 1/4 = 2,25,000.",
+                options: [
+                  {
+                    text: "Rs.2,25,000",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Rs.1,80,000",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Rs.2,60,000",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Rs.3,05,000",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "String and Kite were partners sharing profits and losses in the ratio 5:3. They admitted Spinner as a new partner. String sacrificed 1/4 (of the whole) from his share and Kite sacrificed 1/6 of his share. What will be the new ratio?",
+                difficulty: "HARD",
+                explanation: "String's new share = 5/8 - 1/4 = 6/16; Kite's sacrifice = 1/6 x 3/8 = 1/16, new share = 6/16 - 1/16 = 5/16; Spinner = 4/16 + 1/16 = 5/16. New ratio = 6:5:5.",
+                options: [
+                  {
+                    text: "6:5:5",
+                    isCorrect: true
+                  },
+                  {
+                    text: "9:5:10",
+                    isCorrect: false
+                  },
+                  {
+                    text: "15:10:7",
+                    isCorrect: false
+                  },
+                  {
+                    text: "35:21:40",
+                    isCorrect: false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            slug: "cbse12-business-2425",
+            name: "Class 12 Business Studies — CBSE Board Sample Paper",
+            marks: 1,
+            negative: 0,
+            testDuration: 20,
+            test: {
+              slug: "cbse12-business-sqp-2425",
+              title: "Class 12 Business Studies — CBSE Board Sample Paper (Objective, 2024-25)",
+              description: "Official CBSE 2024-25 Sample Paper — Section A objective questions (MCQ & Assertion-Reason) with marking-scheme-verified answers and solutions. Source: CBSE (cbseacademic.nic.in). +1 each, no negative marking."
+            },
+            questions: [
+              {
+                text: "The newly appointed Production Manager of Saheb Ltd., a firm manufacturing toys, Mr Ahrawat noticed that the workers in the factory were not giving their best as the physical conditions in the factory were not good. He conducted an experiment to see the effect of improvement in the physical conditions in the factory on the performance of the workers, by providing adequate ventilation and water facilities. He observed that the fatigue level of the workers reduced. The nature of management being highlighted in the above case is:",
+                difficulty: "MEDIUM",
+                explanation: "Conducting an experiment to test the effect of improved physical conditions on worker performance reflects the systematised body of knowledge and cause-and-effect experimentation that characterises management as a science.",
+                options: [
+                  {
+                    text: "Management as science",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Management as profession",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Management as art",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Both A. and C.",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Jasmine Ahluwalia is the manager of an artefacts museum's marketing team, responsible for promoting exhibitions and events. In the previous season, she defined the total work of managing the events into graphic designing, registration inquiries, bill payments, etc, in order to facilitate specialisation. However, instead of allocating work, she had assigned each team member the full responsibility of managing the promotion of an entire event. Inspite of holding regular team meetings to take feedback, Jasmine found problems throughout the events season in the quality of graphic design, registration inquiry, bill payments, etc. For the upcoming events season, Jasmine has decided to divide these responsibilities on the basis of her observation of the areas in which the individual team members have excelled in the previous season and allocate the roles based on their skills and competencies. Identify the step in the organising process which was not properly performed in the previous season but has been duly performed for the upcoming season.",
+                difficulty: "MEDIUM",
+                explanation: "Allocating roles to individual team members based on their skills and competencies is the 'Assignment of duties' step, which was earlier mishandled by giving each member full responsibility for an entire event rather than the tasks suited to them.",
+                options: [
+                  {
+                    text: "Identification and division of work",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Establishing reporting relationships",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Departmentalisation",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Assignment of duties",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Read the following statements: Assertion (A) and Reason (R). Choose the correct alternative from those given below: Assertion (A): Financial Planning aims at enabling the company to tackle the uncertainty in respect of the availability and timing of the funds. Reason (R): Capital structure refers to the mix between owners' and borrowed funds.",
+                difficulty: "MEDIUM",
+                explanation: "Both statements are individually correct, but capital structure (the mix of owners' and borrowed funds) does not explain how financial planning tackles the uncertainty of availability and timing of funds, so R is not the correct explanation of A.",
+                options: [
+                  {
+                    text: "Both Assertion (A) is false and Reason (R) are true.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Both Assertion (A) and Reason (R) are false.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion.",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of the Assertion.",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Read the following statements carefully: Statement I: Secondary Market directly promotes capital formation. Statement II: Capital market deals in medium and long term securities such as equity shares and debentures. In the light of given statements, choose the correct alternative from the following:",
+                difficulty: "MEDIUM",
+                explanation: "The secondary market only indirectly promotes capital formation (the primary market does so directly), so Statement I is false, while Statement II correctly describes the capital market dealing in medium and long term securities.",
+                options: [
+                  {
+                    text: "Both the statements are true.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Both the statements are false.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Statement I is true, Statement II is false.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Statement II is true, Statement I is false.",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Choose the statement that correctly highlights the benefit of using external sources of recruitment.",
+                difficulty: "EASY",
+                explanation: "External recruitment brings in fresh talent and creates a competitive spirit among existing staff; the other options are benefits of internal sources of recruitment.",
+                options: [
+                  {
+                    text: "Competitive spirit among the existing staff",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Reduction in employees turnover",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Helps in increasing employees satisfaction",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Develops a sense of security amongst employees",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Goodwill Enterprises is a large-scale automobile manufacturer, who fulfills the needs of both industrial users and consumers. The company is providing easy finance facilities at a low rate of interest, which has considerably increased the demand for the product. The company has installed a new branch management software to efficiently manage and coordinate activities across their multiple branches and locations. Identify the components of the business environment from the above case study.",
+                difficulty: "MEDIUM",
+                explanation: "Easy finance at low interest rates reflects the economic environment, while installing new branch management software reflects the technological environment.",
+                options: [
+                  {
+                    text: "Political and economic environment",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Economic and social environment",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Technological and legal environment",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Economic and technological environment",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "When a consumer looks for FPO mark while purchasing a bottle of jam or hallmark when purchasing jewellery, which consumer responsibility has he kept in mind:",
+                difficulty: "EASY",
+                explanation: "Looking for quality certification marks such as FPO or hallmark reflects the consumer responsibility to buy only standardised products that carry marks of quality assurance.",
+                options: [
+                  {
+                    text: "Assert yourself to ensure that you get a fair deal",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Getting a proper receipt",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Buy only standardised products",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Be honest in your dealings",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Read the following statements: Assertion (A) and Reason (R). Choose the correct alternative from those given below: Assertion (A): Controlling can prevent deviations. Reason (R): Controlling helps in minimising deviations by taking actions and decisions that reduce their recurrence.",
+                difficulty: "MEDIUM",
+                explanation: "Controlling cannot prevent deviations; it can only minimise them by reducing their recurrence, so Assertion (A) is false while Reason (R) is true.",
+                options: [
+                  {
+                    text: "Both Assertion (A) and Reason (R) are true and Reason is the correct explanation of Assertion.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Both Assertion (A) and Reason (R) are true and Reason is not the correct explanation of Assertion.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Assertion (A) is true, Reason (R) is false.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Assertion (A) is false, Reason (R) is true.",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "'Joining a job marks the beginning of socialisation of employees at the workplace. The employee should be given a post for which he has been selected.' Place the subsequent steps of staffing in a small organisation in the correct order:",
+                difficulty: "MEDIUM",
+                explanation: "After placement, the correct order of staffing steps is training and development, then performance appraisal, followed by promotion and career planning, and finally compensation.",
+                options: [
+                  {
+                    text: "Training and development, promotion and career planning, performance appraisal, compensation",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Performance appraisal, training and development, promotion and career planning, compensation",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Training and development, performance appraisal, promotion and career planning, compensation",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Training and development, performance appraisal, compensation, promotion and career planning",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Spiceworks, a company providing financial services to its clients is keeping a close check on the employee's activities by using biometric and retina scanning as modes of accessing the office premises, in order to ensure greater security of information in the organisation. Choose the correct point of significance of controlling highlighted above:",
+                difficulty: "MEDIUM",
+                explanation: "Using biometric and retina scanning to keep a close check on employees and secure information reflects that controlling helps in ensuring order and discipline in the organisation.",
+                options: [
+                  {
+                    text: "controlling helps in achievement of organisational goals",
+                    isCorrect: false
+                  },
+                  {
+                    text: "controlling helps in ensuring order and discipline",
+                    isCorrect: true
+                  },
+                  {
+                    text: "controlling helps in improving employees motivation",
+                    isCorrect: false
+                  },
+                  {
+                    text: "controlling enables optimum utilisation of resources",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Identify the incorrect statement with respect to 'Investment decision':",
+                difficulty: "MEDIUM",
+                explanation: "Capital budgeting decisions directly affect the size of assets, profitability and competitiveness of a business, so the statement that they are not affected is incorrect.",
+                options: [
+                  {
+                    text: "Net working capital refers to excess of current assets over current liabilities",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Current assets are those assets which get converted into cash within one year",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Capital budgeting decisions are irreversible.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Size of the assets, Profitability and competitiveness are not affected by capital budgeting decisions.",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "State Commission has the jurisdiction to entertain complaints where value of goods and services paid as consideration is ________",
+                difficulty: "MEDIUM",
+                explanation: "Under the Consumer Protection Act 2019, the State Commission has jurisdiction over complaints where the value of consideration is more than 1 crore and not more than 10 crore.",
+                options: [
+                  {
+                    text: "More than 1 crore and not more than 5 crore",
+                    isCorrect: false
+                  },
+                  {
+                    text: "More than 10 crore",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Less than 1 crore",
+                    isCorrect: false
+                  },
+                  {
+                    text: "More than 1 crore and not more than 10 crore",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Match the statements given in column I with the characteristic of business environment given in column II. Column I: a) Increased demand of Khakhra and Thepla in the region of Gujarat as compared to Delhi region; b) Digital academic certificates are issued to students accessible in a secured manner to eliminate undesirable practices like corruption and manipulation of records under Digital India Initiative. Such technological improvements are happening at a very fast pace; c) Fashion market is facing both opportunities and challenges. Therefore it is difficult to predict the future of the fashion market; d) A new government will result in changing government rules, fiscal policies, market conditions etc. Column II: (i) Relativity; (ii) Dynamic; (iii) Uncertainty; (iv) Interrelatedness.",
+                difficulty: "HARD",
+                explanation: "Regional demand differences show relativity (a-iii), fast technological change shows dynamic nature (b-ii), unpredictability of the fashion market shows uncertainty (c-i), and a new government changing rules and policies shows interrelatedness (d-iv). Note: in the paper Column II is listed as (i) Uncertainty, (ii) Dynamic, (iii) Relativity, (iv) Interrelatedness, giving the matching in option A.",
+                options: [
+                  {
+                    text: "(a)-(iii), (b)-(ii), (c)-(i), (d)-(iv)",
+                    isCorrect: true
+                  },
+                  {
+                    text: "(a)-(ii), (b)-(i), (c)-(iii), (d)-(iv)",
+                    isCorrect: false
+                  },
+                  {
+                    text: "(a)-(iv), (b)-(ii), (c)-(i), (d)-(iii)",
+                    isCorrect: false
+                  },
+                  {
+                    text: "(a)-(iii), (b)-(i), (c)-(ii), (d)-(iv)",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The process of classification of products into different groups, on the basis of some of the important characteristics such as quality, size, etc. is known as:",
+                difficulty: "EASY",
+                explanation: "Grading is the process of classifying products into different groups on the basis of characteristics such as quality and size.",
+                options: [
+                  {
+                    text: "Branding",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Standardisation",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Grading",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Marketing planning",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Shiwakumar runs a legal consultancy firm in Chhattisgarh. Whenever the firm hires new employees, on the first day of joining, they are welcomed to the organisation and are given details about the dress code, lunch timings, introduction to daily operations and fellow colleagues. They are also familiarised with the organisational policies and procedures, emergency exits, evacuation procedure, etc. Name the type of training which is provided by Shiwakumar in his firm.",
+                difficulty: "EASY",
+                explanation: "Familiarising new employees on their first day with the organisation's policies, procedures, colleagues and facilities is induction (orientation) training.",
+                options: [
+                  {
+                    text: "Apprenticeship training",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Vestibule training",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Induction training",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Internship training",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Identify the incorrect statement with respect to Consumer Protection in India.",
+                difficulty: "MEDIUM",
+                explanation: "The Consumer Protection Act was originally enacted in 1986 (not 1981), so this statement is incorrect.",
+                options: [
+                  {
+                    text: "It not only includes educating consumers about their rights and responsibilities but also helps in getting their grievances redressed",
+                    isCorrect: false
+                  },
+                  {
+                    text: "It not only requires a judicial machinery for protecting the interest of consumers but also requires the consumers to get together and form themselves into Consumer associations for protection and promotion of their interests.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "It is the moral duty of any business to take care of consumers' interest and avoid any form of exploitation.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "The provisions of Consumer Protection Act came into force from 1981.",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Identify the decision which is not taken under financial management.",
+                difficulty: "MEDIUM",
+                explanation: "Financial management involves investment (capital budgeting), financing and dividend decisions; pricing decision is a marketing decision and is not taken under financial management.",
+                options: [
+                  {
+                    text: "Dividend Decision",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Capital Budgeting Decision",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Pricing Decision",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Both B. and C.",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "What are the factors that affect financing decisions? (a) Cash flow position of the company; (b) Stability of earnings; (c) Degree of financial risk; (d) Contractual constraints; (e) State of capital market; (f) Level of competition. Choose the correct alternative from the following:",
+                difficulty: "HARD",
+                explanation: "Cash flow position (a), degree of financial risk (c) and state of the capital market (e) are recognised factors affecting financing decisions.",
+                options: [
+                  {
+                    text: "(b), (c) and (f)",
+                    isCorrect: false
+                  },
+                  {
+                    text: "(d), (e) and (f)",
+                    isCorrect: false
+                  },
+                  {
+                    text: "(a), (c) and (d)",
+                    isCorrect: false
+                  },
+                  {
+                    text: "(a), (c) and (e)",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Consumers can ask anything regarding the date of manufacturing, MRP, etc, about the product that he intend to buy. Identify the consumer right highlighted in the above lines.",
+                difficulty: "EASY",
+                explanation: "Seeking information such as the date of manufacture and MRP about a product reflects the consumer's right to be informed.",
+                options: [
+                  {
+                    text: "Right to be informed",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Right to be assured",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Right to be heard",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Right to safety",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Read the following statements carefully: Statement I: Cost of debt is lower than cost of equity for a company. Statement II: The objective of financial management is to increase shareholder's wealth. In the light of given statements, choose the correct alternative from the following:",
+                difficulty: "MEDIUM",
+                explanation: "Cost of debt is lower than cost of equity because debt carries lower risk and interest is tax-deductible, and the primary objective of financial management is wealth (shareholders' wealth) maximisation, so both statements are true.",
+                options: [
+                  {
+                    text: "Both the statements are true.",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Both the statements are false.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Statement I is true, Statement II is false.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Statement II is true, Statement I is false.",
+                    isCorrect: false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            slug: "cbse12-economics-2425",
+            name: "Class 12 Economics — CBSE Board Sample Paper",
+            marks: 1,
+            negative: 0,
+            testDuration: 20,
+            test: {
+              slug: "cbse12-economics-sqp-2425",
+              title: "Class 12 Economics — CBSE Board Sample Paper (Objective, 2024-25)",
+              description: "Official CBSE 2024-25 Sample Paper — Section A objective questions (MCQ & Assertion-Reason) with marking-scheme-verified answers and solutions. Source: CBSE (cbseacademic.nic.in). +1 each, no negative marking."
+            },
+            questions: [
+              {
+                text: "Read the following statements: Assertion (A) and Reason (R). Choose the correct option from those given below:\nAssertion (A): The government can reduce the deflationary gap by purchasing government securities in the open market.\nReason (R): The Central Bank purchases government securities in the open market to increase the lending capacity of commercial banks.",
+                difficulty: "HARD",
+                explanation: "Buying government securities (open market operations) is used to correct a deflationary gap only when it increases money supply, but the Assertion wrongly links it; the Reason is correct as OMO purchases raise the lending capacity of commercial banks. Hence Assertion is false, Reason is true.",
+                options: [
+                  {
+                    text: "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Assertion (A) is true, but Reason (R) is false.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Assertion (A) is false, but Reason (R) is true.",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "\"The Cabinet led by Prime Minister has decided that the Central Government will provide free food grains to 81.35 crore (approx.) beneficiaries under the Pradhan Mantri Garib Kalyan Anna Yojana (PMGKAY) for a period of five years with effect from 1st January, 2024.\" Based on the aforesaid statement, identify the budgetary objective the government is trying to achieve and choose the correct option:",
+                difficulty: "MEDIUM",
+                explanation: "Providing free food grains to poor beneficiaries transfers real income to the weaker sections, which reflects the budgetary objective of redistribution of income.",
+                options: [
+                  {
+                    text: "Reallocation of resources",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Economic stability",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Redistribution of income",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Economic instability",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "To arrive at the value of Gross Value Added at Market Price (GVAMP) ______ must be added to Gross Value Added (GVA) at Basic Prices. (Choose the correct option to fill up the blank)",
+                difficulty: "MEDIUM",
+                explanation: "GVA at Market Price = GVA at Basic Prices + Net Product Taxes (Product Taxes minus Product Subsidies).",
+                options: [
+                  {
+                    text: "Product Taxes",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Net Product Taxes",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Production Taxes",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Net Production Taxes",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Under the _______ exchange rate system, market forces automatically adjust the surplus and deficit in the Balance of Payments account. (Choose the correct option to fill up the blank)",
+                difficulty: "EASY",
+                explanation: "Under a flexible (floating) exchange rate system, the exchange rate is determined by market forces of demand and supply, which automatically correct surplus or deficit in the BOP.",
+                options: [
+                  {
+                    text: "fixed",
+                    isCorrect: false
+                  },
+                  {
+                    text: "flexible",
+                    isCorrect: true
+                  },
+                  {
+                    text: "managed floating",
+                    isCorrect: false
+                  },
+                  {
+                    text: "dirty floating",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Under the Keynesian theory, 'Reference Line' is a straight line passing through the origin drawn at an angle of _____. (Choose the correct option to fill up the blank) [For Visually Impaired Candidates alternate to the figure]",
+                difficulty: "EASY",
+                explanation: "In the Keynesian cross diagram the reference line (where Aggregate Demand equals Income/Aggregate Supply) is drawn through the origin at an angle of 45 degrees.",
+                options: [
+                  {
+                    text: "25 degrees",
+                    isCorrect: false
+                  },
+                  {
+                    text: "45 degrees",
+                    isCorrect: true
+                  },
+                  {
+                    text: "55 degrees",
+                    isCorrect: false
+                  },
+                  {
+                    text: "75 degrees",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "As per the data presented in the Union Budget 2023-24, the total receipts of the government other than borrowings and the total expenditure are estimated at Rs 27.2 lakh crore and Rs 45 lakh crore respectively. The value of the ________ deficit would be Rs 17.8 lakh crore. (Choose the correct option to fill up the blank)",
+                difficulty: "MEDIUM",
+                explanation: "Fiscal deficit = Total expenditure - Total receipts other than borrowings = 45 - 27.2 = 17.8 lakh crore, which equals the government's borrowings.",
+                options: [
+                  {
+                    text: "revenue",
+                    isCorrect: false
+                  },
+                  {
+                    text: "fiscal",
+                    isCorrect: true
+                  },
+                  {
+                    text: "budgetary",
+                    isCorrect: false
+                  },
+                  {
+                    text: "primary",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Read the following statements carefully:\nStatement 1: The maximum value of Marginal Propensity to Consume (MPC) can be unity.\nStatement 2: As the income of an economy increases, the proportionate increase in the level of consumption is always more than the increase in the level of income.\nIn light of the given statements, choose the correct option from the following:",
+                difficulty: "MEDIUM",
+                explanation: "MPC can at most equal unity (when the entire increase in income is consumed), so Statement 1 is true. The increase in consumption is always less than (not more than) the increase in income, so Statement 2 is false.",
+                options: [
+                  {
+                    text: "Statement 1 is true and Statement 2 is false.",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Statement 1 is false and Statement 2 is true.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Both Statements 1 and 2 are true.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Both Statements 1 and 2 are false.",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "In a two-sector economy, Aggregate Demand can be determined by adding ______. (Choose the correct option to fill up the blank)",
+                difficulty: "HARD",
+                explanation: "In a two-sector model, Aggregate Demand = Consumption (autonomous + induced consumption) + Investment (assumed autonomous). Hence it comprises Autonomous Consumption, Induced Consumption and Autonomous Investment.",
+                options: [
+                  {
+                    text: "Autonomous Consumption, Induced Consumption and Induced Investment",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Autonomous Consumption, Autonomous Investment and Induced Investment",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Autonomous Consumption and Autonomous Investment",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Autonomous Consumption, Induced Consumption and Autonomous Investment",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Read the following statements carefully:\nStatement 1: Foreign grants-in-aid receipts do not lead to any claim on the government.\nStatement 2: Disposal of equity by the Public Sector Undertakings in the market may lead to a decrease in the assets of the government.\nIn light of the given statements, choose the correct option from the following:",
+                difficulty: "MEDIUM",
+                explanation: "Foreign grants-in-aid are revenue receipts that create no liability or claim on the government, and disinvestment (disposal of PSU equity) is a capital receipt that reduces government assets. Both statements are true.",
+                options: [
+                  {
+                    text: "Statement 1 is true and Statement 2 is false.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Statement 1 is false and Statement 2 is true.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Both Statements 1 and 2 are true.",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Both Statements 1 and 2 are false.",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "________ indicates the situation of Current Account Deficit in the Balance of Payments Account. [For Visually Impaired Candidates alternate to the diagram]",
+                difficulty: "EASY",
+                explanation: "A current account deficit arises when receipts (inflows) on the current account are less than payments (outflows) on the current account.",
+                options: [
+                  {
+                    text: "Receipts > Payments on current account",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Receipts = Payments on current account",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Receipts < Payments on current account",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Receipts < Payments on capital account",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Identify, which of the following is not a correct function of environment?\n(i) Elimination of waste\n(ii) Sustainance of life\n(iii) Provide aesthetic services [For Visually Impaired Candidates alternate to the image]",
+                difficulty: "MEDIUM",
+                explanation: "The environment assimilates (absorbs) waste but does not eliminate it; sustaining life and providing aesthetic services are correct functions. Hence 'Elimination of waste' (i) is not a correct function.",
+                options: [
+                  {
+                    text: "(i) only",
+                    isCorrect: true
+                  },
+                  {
+                    text: "(ii) only",
+                    isCorrect: false
+                  },
+                  {
+                    text: "(ii) & (iii)",
+                    isCorrect: false
+                  },
+                  {
+                    text: "(i) & (ii)",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Read the following statements carefully:\nStatement 1: The British policies led to the collapse of India's world-famous handicraft industries.\nStatement 2: During the colonial rule in India, the contribution of the industrial sector to Gross Value Added (GVA) increased significantly.\nIn light of the given statements, choose the correct option from the following:",
+                difficulty: "MEDIUM",
+                explanation: "British policies did cause the decline of India's handicraft industries (Statement 1 true), but the industrial sector's contribution to GVA did not increase significantly during colonial rule (Statement 2 false).",
+                options: [
+                  {
+                    text: "Statement 1 is true and Statement 2 is false.",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Statement 1 is false and Statement 2 is true.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Both Statements 1 and 2 are true.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Both Statements 1 and 2 are false.",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Read the following statements: Assertion (A) and Reason (R). Choose the correct option from those given below:\nAssertion (A): The Education Commission (1964-66) had recommended that at least 6% of Gross Domestic Product (GDP) be spent on education.\nReason (R): The Union and State Governments, have been stepping up expenditures in the education sector over the years to fulfil the objective of attaining cent per cent literacy.",
+                difficulty: "HARD",
+                explanation: "The Education Commission (1964-66) recommended spending at least 6% of GDP on education, not 4%, so the Assertion as stated is false; the Reason about rising education expenditure to attain full literacy is true.",
+                options: [
+                  {
+                    text: "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Assertion (A) is true, but Reason (R) is false.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Assertion (A) is false, but Reason (R) is true.",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "In the post-independence era, the policymakers of India adopted an economic system that fundamentally implies the coexistence of ______ and ________. (Choose the correct option to fill up the blank)",
+                difficulty: "EASY",
+                explanation: "India adopted a mixed economy after independence, which implies the coexistence of the public sector and the private sector.",
+                options: [
+                  {
+                    text: "small and large-scale industries",
+                    isCorrect: false
+                  },
+                  {
+                    text: "small and medium-scale industries",
+                    isCorrect: false
+                  },
+                  {
+                    text: "public and private sector",
+                    isCorrect: true
+                  },
+                  {
+                    text: "private and foreign sector",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The institutional structure of rural banking in contemporary India consists of a set of multi-agency institutions, namely, _________________.\n(i) Regional Rural Banks (ii) Cooperative Banks (iii) Land Development Banks (iv) Commercial Banks. (Choose the correct option to fill up the blank)",
+                difficulty: "MEDIUM",
+                explanation: "The multi-agency institutional structure of rural banking in India includes Regional Rural Banks, Cooperative Banks, Land Development Banks and Commercial Banks, i.e. all four.",
+                options: [
+                  {
+                    text: "(i) and (iv)",
+                    isCorrect: false
+                  },
+                  {
+                    text: "(i), (iii) and (iv)",
+                    isCorrect: false
+                  },
+                  {
+                    text: "(i), (ii) and (iii)",
+                    isCorrect: false
+                  },
+                  {
+                    text: "(i), (ii), (iii), and (iv)",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Identify, which of the following statement is incorrect about the financial sector reform introduced in 1991? (Choose the correct option)",
+                difficulty: "HARD",
+                explanation: "Under the 1991 financial sector reforms, the role of the RBI shifted from a regulator to a facilitator, not from facilitator to regulator. Hence this statement is incorrect.",
+                options: [
+                  {
+                    text: "Enabled the establishment of private sector banks, Indian as well as foreign",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Foreign investment limit in banks was raised to around 74%",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Foreign Institutional Investors were allowed to invest in Indian financial markets",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Change in the role of the Reserve Bank of India from facilitator to regulator",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "China's demographic problem of 4-2-1, resulted in a higher proportion of elderly individuals compared to the younger population. This was primarily due to the implementation of ______.",
+                difficulty: "MEDIUM",
+                explanation: "China's One Child Norm (policy) restricted families to one child, leading to the 4-2-1 structure and an ageing population with a higher proportion of elderly people.",
+                options: [
+                  {
+                    text: "Great Leap Forward Campaign",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Great Proletarian Cultural Revolution",
+                    isCorrect: false
+                  },
+                  {
+                    text: "One Child Norm",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Special Economic Zones",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "______ was setup in 1974 by the Indian government to address two major environmental concerns viz. water and air pollution. (Choose the correct option to fill up the blank)",
+                difficulty: "MEDIUM",
+                explanation: "The Central Pollution Control Board (CPCB) was set up in 1974 to address water and air pollution concerns in India.",
+                options: [
+                  {
+                    text: "State Pollution Control Board",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Central Pollution Control Board",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Brundtland Commission",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Montreal Protocol",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "\"Assuming in a hypothetical economy, Real Gross Domestic Product recorded a growth rate of 9% during a fiscal year. However, the economy faced a significant challenge in terms of creating an adequate number of employment opportunities.\" Identify the situation indicated in the given statement and choose the correct option.",
+                difficulty: "MEDIUM",
+                explanation: "When GDP grows but fails to generate adequate employment opportunities, the situation is described as jobless growth.",
+                options: [
+                  {
+                    text: "Casualisation of workforce",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Informalisation of workforce",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Formalisation of workforce",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Jobless growth",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "During the period 1951-2016, __________ led to an increase in the milk production in India by about ten times. (Choose the correct option to fill up the blank)",
+                difficulty: "EASY",
+                explanation: "Operation Flood (the White Revolution) led to a roughly ten-fold increase in India's milk production between 1951 and 2016.",
+                options: [
+                  {
+                    text: "Green Revolution",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Golden Revolution",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Operation Flood",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Industrial Revolution",
+                    isCorrect: false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+];
+
 async function main() {
   // 1) Exam catalogue (single source of truth: src/lib/exams.ts).
   for (const [i, e] of examCatalogue.entries()) {
@@ -18509,7 +22860,7 @@ async function main() {
   // 2) Content — only seeds questions for a chapter that has none yet (preserves real attempts).
   let created = 0;
   let skipped = 0;
-  for (const ec of [...content, ...moreContent, ...wave3, ...wave4, ...wave5, ...wave6, ...wave7, ...wave8, ...wave9, ...wave10, ...wave11, ...wave12, ...wave13, ...wave14, ...wave15, ...wave16, ...wave17, ...wave18, ...wave19, ...wave20]) {
+  for (const ec of [...content, ...moreContent, ...wave3, ...wave4, ...wave5, ...wave6, ...wave7, ...wave8, ...wave9, ...wave10, ...wave11, ...wave12, ...wave13, ...wave14, ...wave15, ...wave16, ...wave17, ...wave18, ...wave19, ...wave20, ...wave21]) {
     const exam = await prisma.exam.findUniqueOrThrow({ where: { slug: ec.examSlug } });
     for (const [si, sc] of ec.subjects.entries()) {
       const subject = await prisma.subject.upsert({

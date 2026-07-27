@@ -28051,6 +28051,4589 @@ const wave23: ExamContent[] = [
   }
 ];
 
+const wave24: ExamContent[] = [
+  {
+    examSlug: "wbcs",
+    subjects: [
+      {
+        slug: "previous-year-papers",
+        name: "Previous Year Papers",
+        chapters: [
+          {
+            slug: "wbcs-prelims-2022",
+            name: "WBCS Prelims 2022 — General Studies",
+            marks: 1,
+            negative: 0.33,
+            testType: "PYQ",
+            testDuration: 150,
+            test: {
+              slug: "wbcs-prelims-2022-gs",
+              title: "WBCS Prelims 2022 — General Studies (PYQ)",
+              description: "Real WBCS (West Bengal Civil Service) Preliminary 2022, General Studies paper (Series B) — 198 official questions with answer-key-verified solutions (2 questions dropped by WBPSC are excluded). Source: WBPSC official question paper & final answer key (psc.wb.gov.in). +1 for correct, −0.33 for wrong."
+            },
+            questions: [
+              {
+                text: "\"I have done my duty.\"—Which tense is this?",
+                difficulty: "EASY",
+                explanation: "'Have done' is the present perfect tense, formed with has/have + past participle, showing an action just completed with present relevance.",
+                options: [
+                  {
+                    text: "Present Indefinite",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Present Perfect",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Past Perfect",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Past Indefinite",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Find the synonym of 'Covert'.",
+                difficulty: "MEDIUM",
+                explanation: "'Covert' means hidden or concealed, so its synonym is 'Secret'; its opposite is 'overt' (open).",
+                options: [
+                  {
+                    text: "Revert",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Secret",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Desert",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Honest",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "What is the most appropriate passive form of \"Who has done the work?\"?",
+                difficulty: "MEDIUM",
+                explanation: "Active 'Who has done the work?' converts to passive 'By whom has the work been done?', where the agent 'who' becomes 'by whom' and the verb takes 'been done'.",
+                options: [
+                  {
+                    text: "Who has been done the work?",
+                    isCorrect: false
+                  },
+                  {
+                    text: "By whom has been done the work?",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Whom has done the work by?",
+                    isCorrect: false
+                  },
+                  {
+                    text: "By whom has the work been done?",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "What parts of speech is the word 'Adjective'?",
+                difficulty: "EASY",
+                explanation: "The word 'Adjective' is itself a naming word (the name of a part of speech), so grammatically it functions as a Noun.",
+                options: [
+                  {
+                    text: "Pronoun",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Noun",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Adjective",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Adverb",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Find the correctly spelt word.",
+                difficulty: "EASY",
+                explanation: "The correct spelling is 'Rehearsal' (from 'rehearse'), spelt r-e-h-e-a-r-s-a-l.",
+                options: [
+                  {
+                    text: "Reharsal",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Rehersal",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Rehearsal",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Rehearsel",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "'Philanthropist' means",
+                difficulty: "EASY",
+                explanation: "A 'Philanthropist' is one who loves and helps mankind, i.e. a humanitarian; the root 'phil' means love and 'anthropos' means man.",
+                options: [
+                  {
+                    text: "Humanitarian",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Hater of man",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Lover of animals",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Lover of books",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Give the one word substitution of: One who talks continuously",
+                difficulty: "MEDIUM",
+                explanation: "'Loquacious' means very talkative, so it is the one-word substitute for one who talks continuously.",
+                options: [
+                  {
+                    text: "Voracious",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Impecunious",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Loquacious",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Avaricious",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Instead of 'tolerance' we can say",
+                difficulty: "MEDIUM",
+                explanation: "'Bear with' means to be patient with or tolerate, so it can replace 'tolerance'.",
+                options: [
+                  {
+                    text: "bear on",
+                    isCorrect: false
+                  },
+                  {
+                    text: "bear in",
+                    isCorrect: false
+                  },
+                  {
+                    text: "bear with",
+                    isCorrect: true
+                  },
+                  {
+                    text: "bear at",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "What type of sentence is 'Do or Die'?",
+                difficulty: "MEDIUM",
+                explanation: "'Do or Die' joins two independent clauses ('Do' or '[you will] Die') with the coordinating conjunction 'or', making it a compound sentence.",
+                options: [
+                  {
+                    text: "Simple",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Complex",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Exclamatory",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Compound",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "What is the synonym of 'Atrocity'?",
+                difficulty: "EASY",
+                explanation: "'Atrocity' means an extremely cruel or wicked act, so its synonym is 'Cruelty'.",
+                options: [
+                  {
+                    text: "Solidarity",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Pity",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Cruelty",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Punctuality",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The antonym of 'Forgo' is",
+                difficulty: "MEDIUM",
+                explanation: "'Forgo' means to give up or relinquish, so its antonym is 'Claim' (to demand or take).",
+                options: [
+                  {
+                    text: "Claim",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Despise",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Undergo",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Remember",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The idiomatic expression 'A slap on the wrist' means",
+                difficulty: "MEDIUM",
+                explanation: "The idiom 'a slap on the wrist' means a very mild punishment or reprimand for a wrongdoing.",
+                options: [
+                  {
+                    text: "Short on time",
+                    isCorrect: false
+                  },
+                  {
+                    text: "A very mild punishment",
+                    isCorrect: true
+                  },
+                  {
+                    text: "To have a dispute",
+                    isCorrect: false
+                  },
+                  {
+                    text: "To force an issue",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Replace the underlined portion with an idiom from the list below: They finally agreed on the business deal.",
+                difficulty: "MEDIUM",
+                explanation: "'See eye to eye' means to agree with someone, correctly replacing 'agreed on the business deal'.",
+                options: [
+                  {
+                    text: "let the cat out of the bag",
+                    isCorrect: false
+                  },
+                  {
+                    text: "see eye to eye",
+                    isCorrect: true
+                  },
+                  {
+                    text: "to feel under the weather",
+                    isCorrect: false
+                  },
+                  {
+                    text: "to cut a corner",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "It has been established that (P) Einstein was (Q) although a great scientist (R) weak in arithmetic (S) right from his school days. To form a correct and meaningful sentence, the proper sequence should be:",
+                difficulty: "MEDIUM",
+                explanation: "The correct order is (Q)(P)(R)(S): 'although a great scientist, Einstein was weak in arithmetic right from his school days.'",
+                options: [
+                  {
+                    text: "(Q) (P) (R) (S)",
+                    isCorrect: true
+                  },
+                  {
+                    text: "(P) (R) (S) (Q)",
+                    isCorrect: false
+                  },
+                  {
+                    text: "(P) (S) (Q) (R)",
+                    isCorrect: false
+                  },
+                  {
+                    text: "(Q) (P) (S) (R)",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Give the one word substitution of: Creature having both male and female organs",
+                difficulty: "MEDIUM",
+                explanation: "A 'Hermaphrodite' is an organism possessing both male and female reproductive organs.",
+                options: [
+                  {
+                    text: "Sodomite",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Homosexual",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Masochist",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Hermaphrodite",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Fill in the blank with the correct word. Ram and his brothers were four in ______.",
+                difficulty: "EASY",
+                explanation: "When counting a definite total of persons the fixed idiom is 'four in number', so 'number' is correct.",
+                options: [
+                  {
+                    text: "quantity",
+                    isCorrect: false
+                  },
+                  {
+                    text: "number",
+                    isCorrect: true
+                  },
+                  {
+                    text: "numbers",
+                    isCorrect: false
+                  },
+                  {
+                    text: "totality",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Choose the appropriate antonym of 'Adore'.",
+                difficulty: "EASY",
+                explanation: "'Adore' means to love or worship deeply, so its antonym is 'Hate'.",
+                options: [
+                  {
+                    text: "Love",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Like",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Hate",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Ignore",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Fill in the blank with the appropriate option: She has no control ______ her temper.",
+                difficulty: "EASY",
+                explanation: "The correct collocation is 'control over', so 'She has no control over her temper.'",
+                options: [
+                  {
+                    text: "on",
+                    isCorrect: false
+                  },
+                  {
+                    text: "with",
+                    isCorrect: false
+                  },
+                  {
+                    text: "over",
+                    isCorrect: true
+                  },
+                  {
+                    text: "after",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Fill in the blank with the appropriate option: What are you worrying ______?",
+                difficulty: "EASY",
+                explanation: "The verb 'worry' takes the preposition 'about', so 'What are you worrying about?'",
+                options: [
+                  {
+                    text: "to",
+                    isCorrect: false
+                  },
+                  {
+                    text: "with",
+                    isCorrect: false
+                  },
+                  {
+                    text: "for",
+                    isCorrect: false
+                  },
+                  {
+                    text: "about",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "An Obstetrician deals with",
+                difficulty: "MEDIUM",
+                explanation: "An obstetrician is a doctor specialising in pregnancy, childbirth and the postpartum period.",
+                options: [
+                  {
+                    text: "Child disease",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Liver disease",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Pregnancy & child birth",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Nerve disease",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Use a correct gerund in the blank space: I like ______ pictures.",
+                difficulty: "MEDIUM",
+                explanation: "After 'like', the gerund 'painting' (verb + -ing acting as noun) correctly fills the blank: 'I like painting pictures.'",
+                options: [
+                  {
+                    text: "painting",
+                    isCorrect: true
+                  },
+                  {
+                    text: "painted",
+                    isCorrect: false
+                  },
+                  {
+                    text: "to paint",
+                    isCorrect: false
+                  },
+                  {
+                    text: "paint",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Fill in the blank with the appropriate option: He spends hours ______ the phone everyday.",
+                difficulty: "EASY",
+                explanation: "The idiomatic collocation is 'on the phone', so 'He spends hours on the phone every day.'",
+                options: [
+                  {
+                    text: "at",
+                    isCorrect: false
+                  },
+                  {
+                    text: "on",
+                    isCorrect: true
+                  },
+                  {
+                    text: "with",
+                    isCorrect: false
+                  },
+                  {
+                    text: "in",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Fill in the blank with the appropriate option: He works ______ an insurance company.",
+                difficulty: "MEDIUM",
+                explanation: "With companies the standard usage is 'work for', so 'He works for an insurance company.'",
+                options: [
+                  {
+                    text: "for",
+                    isCorrect: true
+                  },
+                  {
+                    text: "at",
+                    isCorrect: false
+                  },
+                  {
+                    text: "in",
+                    isCorrect: false
+                  },
+                  {
+                    text: "with",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which one is the plural number?",
+                difficulty: "MEDIUM",
+                explanation: "'Alumni' is the plural of 'alumnus'; index, hypothesis and analysis are singular forms.",
+                options: [
+                  {
+                    text: "Index",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Alumni",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Hypothesis",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Analysis",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Insert the right preposition in the blank space: He died ______ dengue.",
+                difficulty: "MEDIUM",
+                explanation: "To state the cause of death from a disease English uses 'died of', so 'He died of dengue.'",
+                options: [
+                  {
+                    text: "with",
+                    isCorrect: false
+                  },
+                  {
+                    text: "from",
+                    isCorrect: false
+                  },
+                  {
+                    text: "of",
+                    isCorrect: true
+                  },
+                  {
+                    text: "by",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The radioactive element used in heart-pacemakers is",
+                difficulty: "HARD",
+                explanation: "Plutonium-238 is the radioactive element used as the power source in nuclear (radioisotope) heart pacemakers.",
+                options: [
+                  {
+                    text: "Uranium",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Deuterium",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Plutonium",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Radium",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which of the following isotopes is used in dating archaeological findings?",
+                difficulty: "MEDIUM",
+                explanation: "Carbon-14 (¹⁴₆C), a radioactive isotope, is used in radiocarbon dating to determine the age of archaeological remains.",
+                options: [
+                  {
+                    text: "235/92 U",
+                    isCorrect: false
+                  },
+                  {
+                    text: "14/6 C",
+                    isCorrect: true
+                  },
+                  {
+                    text: "3/1 H",
+                    isCorrect: false
+                  },
+                  {
+                    text: "18/8 O",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "West Bengal Industrial Development Corporation Ltd. (WBIDC) was established in",
+                difficulty: "HARD",
+                explanation: "The West Bengal Industrial Development Corporation Ltd. (WBIDC) was established in 1967 as the state's industrial promotion agency.",
+                options: [
+                  {
+                    text: "1967",
+                    isCorrect: true
+                  },
+                  {
+                    text: "1981",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1977",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1983",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "acme : mace :: alga : ?",
+                difficulty: "MEDIUM",
+                explanation: "The first three letters are rearranged by moving the third letter to the front while the last letter stays put: acme (ACM+E) becomes mace (MAC+E). Likewise alga (ALG+A) becomes gala (GAL+A), so the answer is 'gala'.",
+                options: [
+                  {
+                    text: "glaa",
+                    isCorrect: false
+                  },
+                  {
+                    text: "gaal",
+                    isCorrect: false
+                  },
+                  {
+                    text: "laga",
+                    isCorrect: false
+                  },
+                  {
+                    text: "gala",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Which of the following pair do not match?",
+                difficulty: "HARD",
+                explanation: "Quwwat-ul-Islam (Kubbatul Islam) Mosque is in Delhi, not Ajmer; Ajmer is famous for the Adhai Din Ka Jhonpra, so the Ajmer pair does not match.",
+                options: [
+                  {
+                    text: "Jaunpur — Atala Masjid",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Malwa — Jahaz Mahal",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Ajmer — Kubbatul Islam",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Gaur — Bara Sona Masjid",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Who is the present Chairman of UPSC?",
+                difficulty: "MEDIUM",
+                explanation: "Dr. Manoj Soni was the Chairman of the Union Public Service Commission (UPSC) at the time of the exam.",
+                options: [
+                  {
+                    text: "Manoj Soni",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Arvind Saxena",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Vinay Mittal",
+                    isCorrect: false
+                  },
+                  {
+                    text: "P. K. Joshi",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The Self-respect Movement was founded by",
+                difficulty: "MEDIUM",
+                explanation: "The Self-Respect Movement was founded in 1925 by Periyar E. V. Ramasamy Naicker in Tamil Nadu to promote rationalism and social equality.",
+                options: [
+                  {
+                    text: "Ambedkar",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Periyar E. V. Ramasamy Naicker",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Dinkarrao Javalkar",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Keshavrao Jedhe",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Chand Bibi ruled over which of the Deccan Sultanates?",
+                difficulty: "MEDIUM",
+                explanation: "Chand Bibi was the regent of the Ahmednagar Sultanate and famously defended Ahmednagar fort against the Mughals.",
+                options: [
+                  {
+                    text: "Bijapur",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Berar",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Ahmednagar",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Golkonda",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Pure water freezes at a temperature—",
+                difficulty: "EASY",
+                explanation: "Pure water freezes at 0°C, which equals 32°F on the Fahrenheit scale.",
+                options: [
+                  {
+                    text: "47 °F",
+                    isCorrect: false
+                  },
+                  {
+                    text: "32 °F",
+                    isCorrect: true
+                  },
+                  {
+                    text: "0 °F",
+                    isCorrect: false
+                  },
+                  {
+                    text: "19 °F",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "As of 2022, which country is the biggest opium producer?",
+                difficulty: "EASY",
+                explanation: "As of 2022 Afghanistan was the world's largest producer of opium (the raw material for heroin).",
+                options: [
+                  {
+                    text: "China",
+                    isCorrect: false
+                  },
+                  {
+                    text: "India",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Afghanistan",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Nepal",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Who painted the image of Bharat Mata?",
+                difficulty: "MEDIUM",
+                explanation: "The iconic image of 'Bharat Mata' (1905) was painted by Abanindranath Tagore, founder of the Bengal School of Art.",
+                options: [
+                  {
+                    text: "Rabindranath Tagore",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Abanindranath Tagore",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Bankim Chandra Chattopadhyay",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Mahatma Gandhi",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Loktak lake is located in the state of",
+                difficulty: "EASY",
+                explanation: "Loktak Lake, the largest freshwater lake in northeast India known for its floating phumdis, is located in Manipur.",
+                options: [
+                  {
+                    text: "Karnataka",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Arunachal Pradesh",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Manipur",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Bihar",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Who among the following Viceroys repealed the Vernacular Press Act of 1878?",
+                difficulty: "MEDIUM",
+                explanation: "Lord Ripon repealed the Vernacular Press Act of 1878 (enacted by Lytton) in 1882.",
+                options: [
+                  {
+                    text: "Lord Lytton",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Lord Curzon",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Lord Dufferin",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Lord Ripon",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Who has been appointed as the CEO and MD of Air India?",
+                difficulty: "MEDIUM",
+                explanation: "Campbell Wilson was appointed CEO and Managing Director of Air India in 2022 after Tata took over the airline.",
+                options: [
+                  {
+                    text: "Campbell Wilson",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Ajay Singh",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Alan Joyce",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Maen Razougi",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "'ELISA' test is employed to diagnose",
+                difficulty: "MEDIUM",
+                explanation: "ELISA (Enzyme-Linked Immunosorbent Assay) detects antibodies in blood; its best-known use is as the screening test for HIV/AIDS antibodies. It relies on an enzyme-linked antigen-antibody colour reaction.",
+                options: [
+                  {
+                    text: "Polio Virus",
+                    isCorrect: false
+                  },
+                  {
+                    text: "AIDS antibodies",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Tuberculosis",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Cancer",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "In a family there are six members A, B, C, D, E, F. A and B are married couple. D is only son of C. A is father of E, who is granddaughter of F, whose husband has died and C is brother of A. How many male members are in the family?",
+                difficulty: "HARD",
+                explanation: "A (father of E) and B are a married couple, so A is male. C is brother of A, so C is male. D is 'only son' of C, so D is male. F is female (her husband has died, and she is grandmother). B and E are female. Thus the male members are A, C and D = 3.",
+                options: [
+                  {
+                    text: "3",
+                    isCorrect: true
+                  },
+                  {
+                    text: "4",
+                    isCorrect: false
+                  },
+                  {
+                    text: "5",
+                    isCorrect: false
+                  },
+                  {
+                    text: "2",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which one of the following states, Dulhasti Hydroelectric power project is located?",
+                difficulty: "MEDIUM",
+                explanation: "The Dulhasti Hydroelectric Power Project is a run-of-the-river plant on the Chenab river in the Kishtwar district of Jammu & Kashmir, operated by NHPC.",
+                options: [
+                  {
+                    text: "Uttarakhand",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Jammu & Kashmir",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Himachal Pradesh",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Sikkim",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "P is wife of Q and mother of R. R is grand-daughter of W. S is grandmother of T and mother of Q. Which of the following is true?",
+                difficulty: "HARD",
+                explanation: "P (wife of Q) is mother of R, and S is mother of Q and grandmother of T, so R and T are cousins/siblings in the same generation. R being grand-daughter of W confirms R is female, and among the given options only 'R is sister of T' holds true.",
+                options: [
+                  {
+                    text: "R is sister of T.",
+                    isCorrect: true
+                  },
+                  {
+                    text: "R is brother of T.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Q is daughter of S.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "None of the above",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The Reserve Bank of India was established in the year",
+                difficulty: "EASY",
+                explanation: "The Reserve Bank of India was established on 1 April 1935 under the RBI Act, 1934, following the recommendations of the Hilton Young Commission.",
+                options: [
+                  {
+                    text: "1930",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1935",
+                    isCorrect: true
+                  },
+                  {
+                    text: "1947",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1951",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Match the following: (a) Kot Diji, (b) Harappa, (c) Kalibangan, (d) Mohenjodaro; 1. Luigi Pio Tessitori, 2. F.A. Khan, G.S. Ghurye, 3. Daya Ram Sahani, 4. Rakhal Das Bandyopadhyay",
+                difficulty: "HARD",
+                explanation: "Kot Diji was excavated by F.A. Khan (2), Harappa by Daya Ram Sahani (3), Kalibangan is associated with Luigi Pio Tessitori (1), and Mohenjodaro by Rakhal Das Banerjee (4), giving the match (a-2), (b-3), (c-1), (d-4).",
+                options: [
+                  {
+                    text: "(a-2), (b-3), (c-1), (d-4)",
+                    isCorrect: true
+                  },
+                  {
+                    text: "(a-1), (b-3), (c-2), (d-4)",
+                    isCorrect: false
+                  },
+                  {
+                    text: "(a-4), (b-1), (c-2), (d-3)",
+                    isCorrect: false
+                  },
+                  {
+                    text: "(a-3), (b-2), (c-4), (d-1)",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "In a chess tournament each of six players will play every other player exactly once. How many matches will be played in the tournament?",
+                difficulty: "EASY",
+                explanation: "Each pair of 6 players plays once, so the number of matches equals combinations C(6,2) = (6×5)/2 = 15.",
+                options: [
+                  {
+                    text: "12",
+                    isCorrect: false
+                  },
+                  {
+                    text: "15",
+                    isCorrect: true
+                  },
+                  {
+                    text: "30",
+                    isCorrect: false
+                  },
+                  {
+                    text: "72",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "If Water is called Black, Black is called Tree, Tree is called Blue, Blue is called Rain, Rain is called Pink and Pink is called Fish in a certain language, then what is the colour of sky?",
+                difficulty: "MEDIUM",
+                explanation: "The sky is blue; in this coded language 'Blue is called Rain', so the colour of the sky is called 'Rain'.",
+                options: [
+                  {
+                    text: "Blue",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Rain",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Fish",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Pink",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Who is the current Chief of the Army Staff of India?",
+                difficulty: "MEDIUM",
+                explanation: "At the time of the 2022 exam the Chief of the Army Staff was General Manoj Pande, who took charge on 30 April 2022 as the 29th COAS.",
+                options: [
+                  {
+                    text: "General Upendra Dwivedi",
+                    isCorrect: false
+                  },
+                  {
+                    text: "General Manoj Pande",
+                    isCorrect: true
+                  },
+                  {
+                    text: "General Rana Pratap Kalita",
+                    isCorrect: false
+                  },
+                  {
+                    text: "General Surinder Singh Mahal",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "'Peaty' soils of Kerala is known as",
+                difficulty: "HARD",
+                explanation: "The peaty, highly acidic organic soils of the Kuttanad region of Kerala are locally known as 'Kari' soils, formed under waterlogged, humus-rich conditions.",
+                options: [
+                  {
+                    text: "Reh",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Kari",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Kallar",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Thur",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "What is the percentage of a cloth that should be excluded from 40 metre cloth so that the remaining portion is 7 metre?",
+                difficulty: "MEDIUM",
+                explanation: "Portion to be excluded = 40 − 7 = 33 metres. Percentage excluded = (33/40)×100 = 82.5%.",
+                options: [
+                  {
+                    text: "17.5",
+                    isCorrect: false
+                  },
+                  {
+                    text: "19",
+                    isCorrect: false
+                  },
+                  {
+                    text: "82.5",
+                    isCorrect: true
+                  },
+                  {
+                    text: "81",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The Himalayas are formed of parallel fold ranges, of which the oldest range is",
+                difficulty: "MEDIUM",
+                explanation: "Among the parallel Himalayan fold ranges, the Great Himalayan (Himadri) Range is the oldest and highest, formed of the ancient crystalline core, while the Siwaliks are the youngest.",
+                options: [
+                  {
+                    text: "the Siwalik Range",
+                    isCorrect: false
+                  },
+                  {
+                    text: "the Lesser Himalayan Range",
+                    isCorrect: false
+                  },
+                  {
+                    text: "the Great Himalayan Range",
+                    isCorrect: true
+                  },
+                  {
+                    text: "the Dhaula Dhar Range",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Fill in the blank: Satyajit Ray's ________ birth anniversary is being celebrated this year, 2022.",
+                difficulty: "EASY",
+                explanation: "Satyajit Ray was born on 2 May 1921, so in 2022 his 101st birth anniversary was being celebrated.",
+                options: [
+                  {
+                    text: "100th",
+                    isCorrect: false
+                  },
+                  {
+                    text: "102nd",
+                    isCorrect: false
+                  },
+                  {
+                    text: "101st",
+                    isCorrect: true
+                  },
+                  {
+                    text: "103rd",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Who pioneered 'Rakhi Bandhan' festival during partition of Bengal?",
+                difficulty: "MEDIUM",
+                explanation: "Rabindranath Tagore pioneered the 'Rakhi Bandhan' festival on 16 October 1905 during the Partition of Bengal to promote Hindu-Muslim unity and protest the division.",
+                options: [
+                  {
+                    text: "Chittaranjan Das",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Rabindranath Tagore",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Pramathanath Mitra",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Pulin Behari Das",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Who has been appointed as the new Chief Election Commissioner of India?",
+                difficulty: "MEDIUM",
+                explanation: "Rajiv Kumar was appointed the 25th Chief Election Commissioner of India, taking charge in May 2022.",
+                options: [
+                  {
+                    text: "Sanjiv Kumar",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Rajiv Kumar",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Rajiv Mehta",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Sushil Mehta",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Earliest evidence of settled agriculture in the subcontinent comes from",
+                difficulty: "MEDIUM",
+                explanation: "Mehrgarh (in present-day Balochistan, Pakistan) provides the earliest evidence of settled agriculture and Neolithic farming in the Indian subcontinent, dating back to around 7000 BCE.",
+                options: [
+                  {
+                    text: "Utnur",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Burzahom",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Mehrgarh",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Bagor",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Who has become the second Indian to score 10,000 runs in T-20 cricket?",
+                difficulty: "MEDIUM",
+                explanation: "Rohit Sharma became the second Indian, after Virat Kohli, to score 10,000 runs in T20 cricket.",
+                options: [
+                  {
+                    text: "K L Rahul",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Shikhar Dhawan",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Rohit Sharma",
+                    isCorrect: true
+                  },
+                  {
+                    text: "M S Dhoni",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "There are 15 chairs in a row. Position of P is at the middle. Q is at 12th position counting from the right. How many chairs are in between P and Q?",
+                difficulty: "EASY",
+                explanation: "In 15 chairs, the middle position P is the 8th chair. Q at 12th from the right is the (15−12+1)=4th chair from the left. Chairs between the 4th and 8th positions are 5, 6, 7 = 3 chairs.",
+                options: [
+                  {
+                    text: "4",
+                    isCorrect: false
+                  },
+                  {
+                    text: "5",
+                    isCorrect: false
+                  },
+                  {
+                    text: "2",
+                    isCorrect: false
+                  },
+                  {
+                    text: "3",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "'The Constitution of India is neither purely federal nor purely unitary but is a combination of both'. — Who said so?",
+                difficulty: "MEDIUM",
+                explanation: "The constitutional commentator D.D. Basu described the Indian Constitution as neither purely federal nor purely unitary but a combination of both (quasi-federal).",
+                options: [
+                  {
+                    text: "Jawaharlal Nehru",
+                    isCorrect: false
+                  },
+                  {
+                    text: "D.D. Basu",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Dr. Ambedkar",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Rajendra Prasad",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which would come in place of '?' in the given series? ACE, FGH, ?, PON",
+                difficulty: "MEDIUM",
+                explanation: "The key is the first letter of each group: A, F, ?, P, which advance by 5 (A=1, F=6, K=11, P=16). So the missing group begins with K, giving 'KKK' as the answer.",
+                options: [
+                  {
+                    text: "KKK",
+                    isCorrect: true
+                  },
+                  {
+                    text: "JKI",
+                    isCorrect: false
+                  },
+                  {
+                    text: "HJH",
+                    isCorrect: false
+                  },
+                  {
+                    text: "IKL",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Who was felicitated by Aurobindo Ghosh as 'the Prophet of Great Political Creed'?",
+                difficulty: "HARD",
+                explanation: "Bipin Chandra Pal, the fiery extremist leader, was hailed by Aurobindo Ghosh as 'the Prophet of Great Political Creed' for his advocacy of Swaraj.",
+                options: [
+                  {
+                    text: "Brahmabandhab Upadhyay",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Ashwini Kumar Dutta",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Rashbehari Bose",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Bipin Chandra Pal",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Which of the following is an aquatic fern?",
+                difficulty: "MEDIUM",
+                explanation: "Salvinia is a free-floating aquatic fern (a water fern), whereas Adiantum, Dryopteris and Equisetum are terrestrial pteridophytes.",
+                options: [
+                  {
+                    text: "Adiantum",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Dryopteris",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Salvinia",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Equisetum",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which of the following taxes is within the Jurisdiction of the Central Government?",
+                difficulty: "MEDIUM",
+                explanation: "Corporation Tax (tax on company profits) is levied and collected by the Central Government; professional tax, land revenue and excise on alcoholic liquor fall under state jurisdiction.",
+                options: [
+                  {
+                    text: "Corporation Tax",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Professional Tax",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Land Revenue",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Excise on alcoholic liquors",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Members of the State Public Service Commission are appointed by",
+                difficulty: "EASY",
+                explanation: "Under Article 316, the Chairman and members of a State Public Service Commission are appointed by the Governor of the State.",
+                options: [
+                  {
+                    text: "the President of India",
+                    isCorrect: false
+                  },
+                  {
+                    text: "the Prime Minister of India",
+                    isCorrect: false
+                  },
+                  {
+                    text: "the Governor of the State",
+                    isCorrect: true
+                  },
+                  {
+                    text: "None of them",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which state is known as the 'Molassis basin'?",
+                difficulty: "HARD",
+                explanation: "Mizoram is known as the 'Molassis basin' because its terrain consists largely of soft, unconsolidated Tertiary molasse sedimentary deposits forming small, rounded hills.",
+                options: [
+                  {
+                    text: "Bihar",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Rajasthan",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Mizoram",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Assam",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "For the purpose of legislation, education is enlisted in the",
+                difficulty: "EASY",
+                explanation: "Education was shifted to the Concurrent List by the 42nd Constitutional Amendment (1976), so both the Union and the States can legislate on it.",
+                options: [
+                  {
+                    text: "Union List",
+                    isCorrect: false
+                  },
+                  {
+                    text: "State List",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Concurrent List",
+                    isCorrect: true
+                  },
+                  {
+                    text: "None of the above",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "'Loringa' mangrove is located in",
+                difficulty: "HARD",
+                explanation: "The Coringa (Loringa) mangrove wildlife sanctuary lies in the Godavari estuary of Andhra Pradesh, the second-largest stretch of mangrove forest in India.",
+                options: [
+                  {
+                    text: "Gujarat",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Kerala",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Odisha",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Andhra Pradesh",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Who wrote Humayunnamah?",
+                difficulty: "MEDIUM",
+                explanation: "The Humayun-nama, a memoir of Emperor Humayun's life, was written by his half-sister Gulbadan Begum at Akbar's request.",
+                options: [
+                  {
+                    text: "Gulbadan Begum",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Humayun",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Birbal",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Abul Fazl",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Who among the following Indians won solitary gold medal at the Asian Wrestling Championships, 2022?",
+                difficulty: "MEDIUM",
+                explanation: "Ravi Kumar Dahiya won India's solitary gold medal at the 2022 Asian Wrestling Championships, in the men's 57 kg freestyle category.",
+                options: [
+                  {
+                    text: "Bajrang Punia",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Deepak Punia",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Ravi Kumar Dahiya",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Gourav Baliyan",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The average of 6 consecutive odd numbers is 64. Greatest of them is",
+                difficulty: "EASY",
+                explanation: "For 6 consecutive odd numbers the average equals the mean of the 3rd and 4th terms. With average 64, the numbers are 59,61,63,65,67,69; the greatest is 69.",
+                options: [
+                  {
+                    text: "67",
+                    isCorrect: false
+                  },
+                  {
+                    text: "65",
+                    isCorrect: false
+                  },
+                  {
+                    text: "71",
+                    isCorrect: false
+                  },
+                  {
+                    text: "69",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "What is the minimum age required by a citizen to be qualified for being a member of the Lok Sabha?",
+                difficulty: "EASY",
+                explanation: "Under Article 84(b) of the Constitution, the minimum age to be a member of the Lok Sabha is 25 years.",
+                options: [
+                  {
+                    text: "21",
+                    isCorrect: false
+                  },
+                  {
+                    text: "25",
+                    isCorrect: true
+                  },
+                  {
+                    text: "30",
+                    isCorrect: false
+                  },
+                  {
+                    text: "35",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "'Curie' is unit of",
+                difficulty: "MEDIUM",
+                explanation: "The Curie (Ci) is a unit of radioactivity, defined as 3.7×10^10 disintegrations per second, named after Marie and Pierre Curie.",
+                options: [
+                  {
+                    text: "Radioactivity",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Temperature",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Heat",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Energy",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Who was elected the President of India for the second time?",
+                difficulty: "MEDIUM",
+                explanation: "Dr. Rajendra Prasad was the only person elected President of India for a second term, serving two full terms from 1952 to 1962.",
+                options: [
+                  {
+                    text: "Rajendra Prasad",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Sarvapalli Radhakrishnan",
+                    isCorrect: false
+                  },
+                  {
+                    text: "V.V. Giri",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Sankar Dayal Sharma",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Kumari river is a tributary of",
+                difficulty: "MEDIUM",
+                explanation: "The Kumari river is a tributary of the Kansabati (Kangsabati) river in West Bengal, joining it before it flows to the sea.",
+                options: [
+                  {
+                    text: "Mahanadi",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Damodar",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Kansabati",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Ajoy",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "A number series is given with one wrong term. Identify the wrong term given: 53 59 63 67 71",
+                difficulty: "MEDIUM",
+                explanation: "The series is of prime numbers: 53, 59, 61, 67, 71. The term 63 is not prime (63=7×9) and should be 61, so 63 is the wrong term.",
+                options: [
+                  {
+                    text: "53",
+                    isCorrect: false
+                  },
+                  {
+                    text: "63",
+                    isCorrect: true
+                  },
+                  {
+                    text: "67",
+                    isCorrect: false
+                  },
+                  {
+                    text: "71",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The Act that gave enormous powers to the British Government to repress political activities was",
+                difficulty: "EASY",
+                explanation: "The Rowlatt Act of 1919 gave the British government sweeping powers to arrest and detain suspects without trial to repress political activity, provoking nationwide protest.",
+                options: [
+                  {
+                    text: "Arms Act",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Vernacular Press Act",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Rowlatt Act",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Act III of 1882",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Who has been appointed as the new Chief Minister of Tripura?",
+                difficulty: "MEDIUM",
+                explanation: "Dr. Manik Saha was appointed the Chief Minister of Tripura in May 2022, replacing Biplab Kumar Deb.",
+                options: [
+                  {
+                    text: "Manik Saha",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Jishnu Dev",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Narendra Chandra Debbarma",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Ratan Lal Nath",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Who was the first Indian Governor General of free India?",
+                difficulty: "MEDIUM",
+                explanation: "Chakravarti Rajagopalachari (Rajaji) was the first and only Indian Governor-General of independent India, serving from 1948 to 1950.",
+                options: [
+                  {
+                    text: "Rajendra Prasad",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Chakraborty Rajagopalachari",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Sarvapalli Radhakrishnan",
+                    isCorrect: false
+                  },
+                  {
+                    text: "None of them",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Who was the founder of 'Anushilan Samity'?",
+                difficulty: "MEDIUM",
+                explanation: "Pramathanath Mitra (P. Mitra), a Calcutta barrister, founded the revolutionary Anushilan Samiti in 1902 in Bengal.",
+                options: [
+                  {
+                    text: "Ashwini Kumar Dutta",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Bipin Chandra Pal",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Aurobindo Ghosh",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Pramathanath Mitra",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Which one of the following animals is known as a 'living fossil'?",
+                difficulty: "MEDIUM",
+                explanation: "Peripatus (velvet worm) is called a 'living fossil' because it is a connecting link between annelids and arthropods, showing characters of both and surviving almost unchanged over geological time.",
+                options: [
+                  {
+                    text: "Peripatus",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Amoeba",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Prawn",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Apple snail",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Choose the correct chronological order of the following dynasties of Delhi Sultanate:",
+                difficulty: "MEDIUM",
+                explanation: "The correct chronological order of the Delhi Sultanate dynasties is Ilbari/Mamluk Turks (1206), Khilji (1290), Tughluq (1320) and Lodi (1451), so option B is right.",
+                options: [
+                  {
+                    text: "Lodi, Ilbari Turks, Tughluq, Khilji",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Ilbari Turks, Khilji, Tughluq, Lodi",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Tughluq, Khilji, Lodi, Ilbari Turks",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Khilji, Lodi, Tughluq, Ilbari Turks",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The Chairman of the Public Accounts Committee is",
+                difficulty: "MEDIUM",
+                explanation: "By convention the Chairman of the Public Accounts Committee is drawn from the Opposition, appointed by the Speaker, to ensure independent scrutiny of government spending.",
+                options: [
+                  {
+                    text: "a member of the Ruling Party",
+                    isCorrect: false
+                  },
+                  {
+                    text: "a member of the Opposition Party",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Union Finance Minister",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Deputy Speaker of the Parliament",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The vitamin which helps in clotting of blood is",
+                difficulty: "EASY",
+                explanation: "Vitamin K is essential for the synthesis of clotting factors (like prothrombin) in the liver, so it helps blood coagulation.",
+                options: [
+                  {
+                    text: "A",
+                    isCorrect: false
+                  },
+                  {
+                    text: "D",
+                    isCorrect: false
+                  },
+                  {
+                    text: "B",
+                    isCorrect: false
+                  },
+                  {
+                    text: "K",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Koel is a tributary of",
+                difficulty: "MEDIUM",
+                explanation: "The Koel (North Koel) is a tributary of the Son river, which itself joins the Ganga.",
+                options: [
+                  {
+                    text: "Son",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Chambal",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Yamuna",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Ganga",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "What is the chromosome number in human ovum?",
+                difficulty: "MEDIUM",
+                explanation: "The human ovum is a haploid gamete carrying only 23 chromosomes, not 36/46/48, so the correct answer is 'None of the above'.",
+                options: [
+                  {
+                    text: "36",
+                    isCorrect: false
+                  },
+                  {
+                    text: "46",
+                    isCorrect: false
+                  },
+                  {
+                    text: "48",
+                    isCorrect: false
+                  },
+                  {
+                    text: "None of the above",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "'Seahorse' is a",
+                difficulty: "EASY",
+                explanation: "The seahorse (genus Hippocampus) is a bony fish that breathes through gills and has fins, despite its horse-like head.",
+                options: [
+                  {
+                    text: "Mammal",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Plant",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Fish",
+                    isCorrect: true
+                  },
+                  {
+                    text: "None of the above",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Earliest fossil remains of archaic Homo sapiens has been found in",
+                difficulty: "MEDIUM",
+                explanation: "The earliest fossil of archaic Homo sapiens in India, the 'Narmada Man', was found at Hathnora in the Narmada valley.",
+                options: [
+                  {
+                    text: "Siwalik hills",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Narmada valley",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Nallamalai hills",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Chotanagpur Plateau",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which country recently replaced Russia in the UN Human Rights Council?",
+                difficulty: "MEDIUM",
+                explanation: "After Russia was suspended from the UN Human Rights Council in April 2022 over the Ukraine war, the Czech Republic was elected to fill its vacant seat.",
+                options: [
+                  {
+                    text: "Poland",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Czech Republic",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Syria",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Chile",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Who is the director of the film 'The Kashmir Files'?",
+                difficulty: "EASY",
+                explanation: "The 2022 film 'The Kashmir Files', based on the exodus of Kashmiri Pandits, was directed by Vivek Agnihotri.",
+                options: [
+                  {
+                    text: "Farhan Akhtar",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Karan Johar",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Vivek Agnihotri",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Anurag Kashyap",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Who enunciated his famous formula that 'Swaraj' must be for the 'masses' and not for the 'classes' alone?",
+                difficulty: "HARD",
+                explanation: "Chittaranjan (C. R.) Das argued that Swaraj must be for the masses and not for the classes alone, stressing a broad-based, inclusive freedom struggle.",
+                options: [
+                  {
+                    text: "Motilal Nehru",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Gandhiji",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Subhas Chandra Bose",
+                    isCorrect: false
+                  },
+                  {
+                    text: "C. R. Das",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Any money bill can not be introduced in the Parliament without the consent of the",
+                difficulty: "MEDIUM",
+                explanation: "Under Article 117, a Money Bill can be introduced only on the recommendation of the President of India.",
+                options: [
+                  {
+                    text: "Prime Minister of India",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Speaker of the Parliament",
+                    isCorrect: false
+                  },
+                  {
+                    text: "President of India",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Union Finance Minister",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Xiomara Castro has become the first ever female President of which nation?",
+                difficulty: "MEDIUM",
+                explanation: "Xiomara Castro was sworn in in January 2022 as the first-ever woman President of Honduras.",
+                options: [
+                  {
+                    text: "Cuba",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Honduras",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Mexico",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Colombia",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The earlier name of WTO was",
+                difficulty: "EASY",
+                explanation: "The World Trade Organization (WTO), established in 1995, replaced the earlier General Agreement on Tariffs and Trade (GATT).",
+                options: [
+                  {
+                    text: "UNCTAD",
+                    isCorrect: false
+                  },
+                  {
+                    text: "GATT",
+                    isCorrect: true
+                  },
+                  {
+                    text: "UNIDO",
+                    isCorrect: false
+                  },
+                  {
+                    text: "OECD",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "In which of the following inscriptions we find earliest reference to 'Sati'?",
+                difficulty: "HARD",
+                explanation: "The Eran stone inscription of Bhanugupta (510 CE) in Madhya Pradesh carries the earliest epigraphic reference to the practice of Sati.",
+                options: [
+                  {
+                    text: "Asokan inscription of Girnar",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Aihole inscription",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Eran inscription",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Damodarpur inscription",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The radiation carrying maximum energy—",
+                difficulty: "EASY",
+                explanation: "Gamma rays have the shortest wavelength and highest frequency in the electromagnetic spectrum, and since energy is proportional to frequency (E=hf), they carry the maximum energy.",
+                options: [
+                  {
+                    text: "UV rays",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Gamma rays",
+                    isCorrect: true
+                  },
+                  {
+                    text: "X-rays",
+                    isCorrect: false
+                  },
+                  {
+                    text: "IR rays",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "When was the 'Carlyle Circular' issued?",
+                difficulty: "MEDIUM",
+                explanation: "The Carlyle Circular, forbidding students from participating in the Swadeshi/anti-partition agitation, was issued by R. W. Carlyle in 1905.",
+                options: [
+                  {
+                    text: "1905",
+                    isCorrect: true
+                  },
+                  {
+                    text: "1901",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1902",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1906",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which one of the following is not correctly matched?",
+                difficulty: "MEDIUM",
+                explanation: "The Sevak-Gangtok route is served by NH-31A (old numbering), not NH-34, so the pairing 'NH-34 — Sevak-Gangtok' is incorrect.",
+                options: [
+                  {
+                    text: "NH-2—Delhi-Kolkata",
+                    isCorrect: false
+                  },
+                  {
+                    text: "NH-35—Barasat-Bangoan",
+                    isCorrect: false
+                  },
+                  {
+                    text: "NH-41—Kolaghat-Haldia",
+                    isCorrect: false
+                  },
+                  {
+                    text: "NH-34—Sevak-Gangtok",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Who is the Guardian of the Public Purse in India?",
+                difficulty: "MEDIUM",
+                explanation: "The Comptroller and Auditor General (CAG) audits all government receipts and expenditure and is therefore called the guardian of the public purse.",
+                options: [
+                  {
+                    text: "The President of India",
+                    isCorrect: false
+                  },
+                  {
+                    text: "The Union Finance Minister",
+                    isCorrect: false
+                  },
+                  {
+                    text: "The Comptroller & Auditor General of India",
+                    isCorrect: true
+                  },
+                  {
+                    text: "The Public Accounts Committee",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "SEBI stands for the",
+                difficulty: "EASY",
+                explanation: "SEBI stands for the Securities and Exchange Board of India, the statutory regulator of the country's securities market.",
+                options: [
+                  {
+                    text: "State Earnings Board of India",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Securities and Exchange Bank of India",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Securities and Exchange Board of India",
+                    isCorrect: true
+                  },
+                  {
+                    text: "State Exchange Bank of India",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Who among the following was the contemporary ruler of Bengal during Chaitanyadeva's time?",
+                difficulty: "MEDIUM",
+                explanation: "Sri Chaitanya Mahaprabhu's lifetime coincided with the reign of Alauddin Hussain Shah, the independent Sultan of Bengal (1494-1519).",
+                options: [
+                  {
+                    text: "Nusrat Shah",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Fatheh Shah",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Husein Shah Sharqi",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Alauddin Hussein Shah",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Which country hosted the 5th BIMSTEC Summit in March, 2022?",
+                difficulty: "MEDIUM",
+                explanation: "The 5th BIMSTEC Summit in March 2022 was hosted (virtually) by Sri Lanka from Colombo, which also assumed the chairmanship.",
+                options: [
+                  {
+                    text: "Sri Lanka",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Bangladesh",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Japan",
+                    isCorrect: false
+                  },
+                  {
+                    text: "South Korea",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Who wrote the book 'Hind Swaraj'?",
+                difficulty: "EASY",
+                explanation: "'Hind Swaraj' (1909) was written by Mahatma Gandhi, setting out his ideas on self-rule and modern civilization.",
+                options: [
+                  {
+                    text: "Jawaharlal Nehru",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Lal Bahadur Shastri",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Mahatma Gandhi",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Maulana Abul Kalam Azad",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Who ridiculed Gandhi as 'seditious fakir'?",
+                difficulty: "MEDIUM",
+                explanation: "Winston Churchill famously derided Gandhi as a 'seditious Middle Temple lawyer, now posing as a fakir' during the 1931 talks.",
+                options: [
+                  {
+                    text: "Winston Churchill",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Ramsay MacDonald",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Lord Irwin",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Cripps",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which of the following is chiefly present in LPG?",
+                difficulty: "EASY",
+                explanation: "Liquefied Petroleum Gas (LPG) is chiefly a mixture dominated by butane (with some propane), used as domestic cooking fuel.",
+                options: [
+                  {
+                    text: "Methane",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Ethane",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Propane",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Butane",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Which former Prime Minister was conferred with Netaji Award, 2022 by the Netaji Research Bureau?",
+                difficulty: "MEDIUM",
+                explanation: "The Netaji Award 2022 of the Netaji Research Bureau was conferred on former Japanese Prime Minister Shinzo Abe.",
+                options: [
+                  {
+                    text: "Barack Obama",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Shinjo Abe",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Theresa May",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Fumio Kishida",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Jawahar Rozgar Yojana for rural employment was started in the year",
+                difficulty: "MEDIUM",
+                explanation: "The Jawahar Rozgar Yojana, a rural wage-employment programme, was launched in 1989 by merging NREP and RLEGP.",
+                options: [
+                  {
+                    text: "1959",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1979",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1969",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1989",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "The Montagu-Chelmsford Reforms were announced in the year",
+                difficulty: "HARD",
+                explanation: "The Montagu-Chelmsford Report proposing the reforms was published in 1918 (the reforms were later enacted through the Government of India Act, 1919).",
+                options: [
+                  {
+                    text: "1919",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1918",
+                    isCorrect: true
+                  },
+                  {
+                    text: "1920",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1921",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which will come next to— B2E, D5H, F12K, H27N, ?",
+                difficulty: "MEDIUM",
+                explanation: "First letters advance by two (B,D,F,H,J); the numbers follow 2,5,12,27,58 (each ×2 plus increasing amount); third letters advance by three (E,H,K,N,Q), giving J58Q.",
+                options: [
+                  {
+                    text: "I58Q",
+                    isCorrect: false
+                  },
+                  {
+                    text: "I57R",
+                    isCorrect: false
+                  },
+                  {
+                    text: "J57Q",
+                    isCorrect: false
+                  },
+                  {
+                    text: "J58Q",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Who was known as the 'Grand Old Man of India'?",
+                difficulty: "EASY",
+                explanation: "Dadabhai Naoroji, an early Congress leader and author of the Drain Theory, was popularly called the 'Grand Old Man of India'.",
+                options: [
+                  {
+                    text: "Badruddin Tyabji",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Surendranath Banerjea",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Gopal Krishna Gokhale",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Dadabhai Naoroji",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Who has been appointed as the new Prime Minister of Sri Lanka in May, 2022?",
+                difficulty: "MEDIUM",
+                explanation: "Amid Sri Lanka's economic crisis, Ranil Wickremesinghe was appointed Prime Minister in May 2022.",
+                options: [
+                  {
+                    text: "Mahinda Rajapaksa",
+                    isCorrect: false
+                  },
+                  {
+                    text: "D. M. Jayaratne",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Ranil Wickremesinghe",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Sirimaro Bandaranaike",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Legendary musician Pandit Shiv Kumar Sharma, who passed away recently, is associated with which of the following instruments?",
+                difficulty: "EASY",
+                explanation: "Pandit Shiv Kumar Sharma, who died in 2022, was the maestro who established the santoor as a classical concert instrument.",
+                options: [
+                  {
+                    text: "Sitar",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Flute",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Sarod",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Santoor",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "The 'powerhouse' of cell is",
+                difficulty: "EASY",
+                explanation: "The mitochondrion is called the 'powerhouse of the cell' because it generates most of the cell's ATP through cellular respiration.",
+                options: [
+                  {
+                    text: "Nucleus",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Lysosome",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Mitochondria",
+                    isCorrect: true
+                  },
+                  {
+                    text: "DNA",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Who was recently appointed as the Ambassador of India in U.S.?",
+                difficulty: "MEDIUM",
+                explanation: "Taranjit Singh Sandhu was appointed India's Ambassador to the United States.",
+                options: [
+                  {
+                    text: "Varsh Vardhan Singh",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Jai Shankar",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Taranjit Singh Sandhu",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Vijay Gokhale",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Who built Buland Darwaza?",
+                difficulty: "EASY",
+                explanation: "The Buland Darwaza at Fatehpur Sikri was built by Emperor Akbar around 1575 to commemorate his victory over Gujarat.",
+                options: [
+                  {
+                    text: "Humayun",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Akbar",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Shah Jahan",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Aurangzib",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Who used 'Tulghumah' as a military tactic for the first time in India?",
+                difficulty: "MEDIUM",
+                explanation: "Babur first used the Tulghuma (flanking/wheeling) battle tactic in India at the First Battle of Panipat (1526).",
+                options: [
+                  {
+                    text: "Alauddin Khilji",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Muhammad bin Tughluq",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Babur",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Akbar",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Alakananda and Bhagirathi rivers make confluence at",
+                difficulty: "MEDIUM",
+                explanation: "The Alaknanda and Bhagirathi rivers meet at Devprayag in Uttarakhand, and downstream the combined stream is called the Ganga.",
+                options: [
+                  {
+                    text: "Dev Prayag",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Karna Prayag",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Rudra Prayag",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Vishnu Prayag",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "'Pongol' is the main festival of",
+                difficulty: "EASY",
+                explanation: "Pongal is the main harvest festival of Tamil Nadu, celebrated in mid-January.",
+                options: [
+                  {
+                    text: "Tamilnadu",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Karnataka",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Kerala",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Andhra Pradesh",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Bills other than money bills are introduced for being passed by the Parliament in",
+                difficulty: "MEDIUM",
+                explanation: "Unlike Money Bills (only in Lok Sabha), ordinary bills may be introduced in either House of Parliament.",
+                options: [
+                  {
+                    text: "Lok Sabha",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Rajya Sabha",
+                    isCorrect: false
+                  },
+                  {
+                    text: "any House of the Parliament",
+                    isCorrect: true
+                  },
+                  {
+                    text: "joint session of both the Houses of the Parliament",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "If the sequence of alphabets is reversed, which of the following will be the 14th letter?",
+                difficulty: "MEDIUM",
+                explanation: "When A-Z is reversed, the 14th letter is the 14th from the end, i.e. the 13th from the start (27-14=13), which is M.",
+                options: [
+                  {
+                    text: "N",
+                    isCorrect: false
+                  },
+                  {
+                    text: "L",
+                    isCorrect: false
+                  },
+                  {
+                    text: "O",
+                    isCorrect: false
+                  },
+                  {
+                    text: "M",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "The ex-officio Chairman of the Rajya Sabha is",
+                difficulty: "EASY",
+                explanation: "Under Article 89, the Vice-President of India is the ex-officio Chairman of the Rajya Sabha and presides over its sittings.",
+                options: [
+                  {
+                    text: "the President",
+                    isCorrect: false
+                  },
+                  {
+                    text: "the Vice-President",
+                    isCorrect: true
+                  },
+                  {
+                    text: "the Prime Minister",
+                    isCorrect: false
+                  },
+                  {
+                    text: "None of them",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "In a group of cows and hens, the number of legs are 14 more than twice the number of heads. How many cows are there?",
+                difficulty: "MEDIUM",
+                explanation: "Let cows = c, hens = h. Legs = 4c + 2h and heads = c + h. Given 4c + 2h = 2(c + h) + 14, so 2c = 14, giving c = 7 cows.",
+                options: [
+                  {
+                    text: "7",
+                    isCorrect: true
+                  },
+                  {
+                    text: "12",
+                    isCorrect: false
+                  },
+                  {
+                    text: "5",
+                    isCorrect: false
+                  },
+                  {
+                    text: "10",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The age of father is twice that of elder son. Ten years hence, the age of the father will be three times that of the younger son. If the difference of ages of the two sons is 15 years, find the age of the father.",
+                difficulty: "HARD",
+                explanation: "Father = 2 x elder son. Sons differ by 15, so elder = younger + 15 and father = 2(Y+15) = 2Y+30. Ten years hence: 2Y+40 = 3(Y+10), so Y = 10 and father = 50 years.",
+                options: [
+                  {
+                    text: "50 years",
+                    isCorrect: true
+                  },
+                  {
+                    text: "55 years",
+                    isCorrect: false
+                  },
+                  {
+                    text: "60 years",
+                    isCorrect: false
+                  },
+                  {
+                    text: "70 years",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The next term in the sequence 4, 10, 22, 46 is",
+                difficulty: "MEDIUM",
+                explanation: "Each term follows n x 2 + 2: 4->10->22->46, so 46 x 2 + 2 = 94.",
+                options: [
+                  {
+                    text: "56",
+                    isCorrect: false
+                  },
+                  {
+                    text: "66",
+                    isCorrect: false
+                  },
+                  {
+                    text: "94",
+                    isCorrect: true
+                  },
+                  {
+                    text: "92",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "When Gandhi-Irwin Pact was signed?",
+                difficulty: "EASY",
+                explanation: "The Gandhi-Irwin Pact was signed on 5 March 1931, after which Gandhi suspended the Civil Disobedience Movement and agreed to attend the Second Round Table Conference.",
+                options: [
+                  {
+                    text: "1931",
+                    isCorrect: true
+                  },
+                  {
+                    text: "1930",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1932",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1929",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Who was the first president of the All India Kisan Sabha?",
+                difficulty: "MEDIUM",
+                explanation: "The All India Kisan Sabha was founded in 1936 at Lucknow with Swami Sahajanand Saraswati as its first president.",
+                options: [
+                  {
+                    text: "Swami Sahajanand Saraswati",
+                    isCorrect: true
+                  },
+                  {
+                    text: "N. G. Ranga",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Jawaharlal Nehru",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Jaya Prakash Narayan",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The western part of Teesta river in West Bengal is called",
+                difficulty: "MEDIUM",
+                explanation: "The narrow, marshy foothill belt on the western side of the Teesta in West Bengal is called the Terai (the eastern side being the Duars).",
+                options: [
+                  {
+                    text: "Terai",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Duars",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Bagar",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Bhabar",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The Kasai and Keleghai rivers join to form",
+                difficulty: "MEDIUM",
+                explanation: "The Kasai (Kangsabati) and Keleghai rivers unite to form the Haldi river, which meets the Hooghly near Haldia.",
+                options: [
+                  {
+                    text: "the Rupnarayan river",
+                    isCorrect: false
+                  },
+                  {
+                    text: "the Haldi river",
+                    isCorrect: true
+                  },
+                  {
+                    text: "the Subarnarekha river",
+                    isCorrect: false
+                  },
+                  {
+                    text: "the Damodar river",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The Sariska Tiger Sanctuary is located at",
+                difficulty: "MEDIUM",
+                explanation: "The Sariska Tiger Reserve is located in the Alwar district of Rajasthan.",
+                options: [
+                  {
+                    text: "Bharatpur",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Alwar",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Darrah",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Puskar",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Andaman & Nicobar islands are separated by",
+                difficulty: "EASY",
+                explanation: "The Andaman group and the Nicobar group of islands are separated by the Ten Degree Channel.",
+                options: [
+                  {
+                    text: "Nine degree Channel",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Ten degree Channel",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Eight degree Channel",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Seven degree Channel",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Fill in the gap: 3, 8, 6, 14, ______, 20",
+                difficulty: "MEDIUM",
+                explanation: "The series alternates two progressions: odd positions 3, 6, 9 (adding 3) and even positions 8, 14, 20 (adding 6). The missing fifth term is 9.",
+                options: [
+                  {
+                    text: "11",
+                    isCorrect: false
+                  },
+                  {
+                    text: "10",
+                    isCorrect: false
+                  },
+                  {
+                    text: "8",
+                    isCorrect: false
+                  },
+                  {
+                    text: "9",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Who is the protector of the Fundamental Rights of a citizen?",
+                difficulty: "EASY",
+                explanation: "The Judiciary is the protector and guarantor of Fundamental Rights, enforcing them through writs under Articles 32 and 226.",
+                options: [
+                  {
+                    text: "Legislature",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Judiciary",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Executive",
+                    isCorrect: false
+                  },
+                  {
+                    text: "None of the above",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which of the following are the right bank tributaries to Ganga?",
+                difficulty: "MEDIUM",
+                explanation: "The Yamuna and the Son are the principal right-bank tributaries of the Ganga. The Damodar actually joins the Hooghly, a distributary of the Ganga, so the official key still counts it on the right bank, making option B the intended answer.",
+                options: [
+                  {
+                    text: "Yamuna, Chambal and Son",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Yamuna, Son and Damodar",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Yamuna, Gandak and Son",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Yamuna, Chambal and Damodar",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The name of Prasanta Chandra Mahalanobis is associated with",
+                difficulty: "MEDIUM",
+                explanation: "Statistician P.C. Mahalanobis designed the model underlying the Second Five-Year Plan (1956-61), which emphasised heavy industry.",
+                options: [
+                  {
+                    text: "First Five-Year Plan",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Second Five-Year Plan",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Third Five-Year Plan",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Fourth Five-Year Plan",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which of the following fractions is greater than 3/4 and less than 5/6?",
+                difficulty: "MEDIUM",
+                explanation: "3/4 = 0.75 and 5/6 = 0.833; 4/5 = 0.80 lies between them.",
+                options: [
+                  {
+                    text: "2/3",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1/2",
+                    isCorrect: false
+                  },
+                  {
+                    text: "4/5",
+                    isCorrect: true
+                  },
+                  {
+                    text: "9/10",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which among the following refers to 'unpaid labour'?",
+                difficulty: "HARD",
+                explanation: "'Vishti' (Bisthi) refers to forced or unpaid labour extracted by the state in ancient and early medieval India.",
+                options: [
+                  {
+                    text: "Shulka",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Udranga",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Bali",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Bisthi",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Who was the author of 'The Philosophy of the Bomb'?",
+                difficulty: "HARD",
+                explanation: "'The Philosophy of the Bomb' (1930) was written by Bhagwati Charan Vohra as the HSRA's reply to Gandhi's condemnation of revolutionary violence.",
+                options: [
+                  {
+                    text: "Bhagwati Charan Vohra",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Bipin Chandra Pal",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Yashpal",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Aurobindo Ghosh",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which metal is present in haemoglobin?",
+                difficulty: "EASY",
+                explanation: "Haemoglobin contains iron (in the haem group), which binds oxygen for transport in the blood.",
+                options: [
+                  {
+                    text: "Iron",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Zinc",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Magnesium",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Copper",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Viktor Orban has registered a fourth consecutive win in which nation's General Election?",
+                difficulty: "EASY",
+                explanation: "Viktor Orban won a fourth consecutive term as Prime Minister in Hungary's 2022 general election.",
+                options: [
+                  {
+                    text: "Armenia",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Sweden",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Switzerland",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Hungary",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "If CAT and BOAT are written as XZG and YLZG respectively in a code language, how is EGG to be written?",
+                difficulty: "MEDIUM",
+                explanation: "The code reverses the alphabet (A<->Z, B<->Y, ...). E->V, G->T, G->T, so EGG becomes VTT.",
+                options: [
+                  {
+                    text: "VSS",
+                    isCorrect: false
+                  },
+                  {
+                    text: "URR",
+                    isCorrect: false
+                  },
+                  {
+                    text: "VTT",
+                    isCorrect: true
+                  },
+                  {
+                    text: "UTT",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which part of human eye has the maximum refractive index?",
+                difficulty: "MEDIUM",
+                explanation: "The crystalline lens has the highest refractive index (about 1.41) among the eye's optical components.",
+                options: [
+                  {
+                    text: "Aqueous humour",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Vitreous humour",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Lens",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Cornea",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which among the following is present in refrigerator?",
+                difficulty: "EASY",
+                explanation: "Chlorofluorocarbons (CFCs) have been the common refrigerant gases used in refrigerators.",
+                options: [
+                  {
+                    text: "Carbon dioxide",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Methane",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Helium",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Chlorofluorocarbon",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "The 'Radcliffe Line' lies between",
+                difficulty: "EASY",
+                explanation: "The Radcliffe Line, drawn by Sir Cyril Radcliffe in 1947, is the boundary between India and Pakistan.",
+                options: [
+                  {
+                    text: "India and China",
+                    isCorrect: false
+                  },
+                  {
+                    text: "India and Bangladesh",
+                    isCorrect: false
+                  },
+                  {
+                    text: "India and Bhutan",
+                    isCorrect: false
+                  },
+                  {
+                    text: "India and Pakistan",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Which of the following dynasties was designated as 'Balhar' by the Arab travellers?",
+                difficulty: "HARD",
+                explanation: "Arab travellers called the Rashtrakuta rulers 'Balhara' (from the title Vallabharaja), describing them as among the greatest kings of India.",
+                options: [
+                  {
+                    text: "Chalukya",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Chola",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Rashtrakuta",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Pandya",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which one of the following is the highest peak of South Bengal?",
+                difficulty: "MEDIUM",
+                explanation: "Gorgaburu, in the Ayodhya Hills of the Purulia region, is the highest peak of South Bengal.",
+                options: [
+                  {
+                    text: "Sandakphu",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Gorgaburu",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Pareshnath",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Biharinath",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Bronze is an alloy of",
+                difficulty: "EASY",
+                explanation: "Bronze is an alloy of copper and tin.",
+                options: [
+                  {
+                    text: "Copper and Zinc",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Tin and Zinc",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Copper and Tin",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Iron and Zinc",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "O2- is isoelectronic with",
+                difficulty: "MEDIUM",
+                explanation: "O2- has 10 electrons (8 + 2). F- also has 10 electrons (9 + 1), so the two are isoelectronic.",
+                options: [
+                  {
+                    text: "F-",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Cl-",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Li+",
+                    isCorrect: false
+                  },
+                  {
+                    text: "K+",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Who founded Servants of India Society?",
+                difficulty: "MEDIUM",
+                explanation: "Gopal Krishna Gokhale founded the Servants of India Society in 1905 to train workers for national service.",
+                options: [
+                  {
+                    text: "Annie Besant",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Mahadev Govind Ranade",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Gokhale",
+                    isCorrect: true
+                  },
+                  {
+                    text: "B. G. Tilak",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "'Ornithology' is the science of",
+                difficulty: "EASY",
+                explanation: "Ornithology is the branch of zoology dealing with the study of birds.",
+                options: [
+                  {
+                    text: "Bird",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Reptile",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Amphibia",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Mammal",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Among six persons A, B, C, D, E, F, there are 3 married couples of which A, C, E are husbands; B, C, D are cousins and B is not wife of A. Then husband of B is",
+                difficulty: "HARD",
+                explanation: "Husbands are A, C, E and wives are B, D, F. B and C are cousins so B cannot be C's wife, and B is not A's wife; therefore B's husband is E.",
+                options: [
+                  {
+                    text: "C",
+                    isCorrect: false
+                  },
+                  {
+                    text: "E",
+                    isCorrect: true
+                  },
+                  {
+                    text: "A",
+                    isCorrect: false
+                  },
+                  {
+                    text: "F",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Who founded 'Gadar Party' (1913) and where?",
+                difficulty: "MEDIUM",
+                explanation: "The Ghadar Party was founded in 1913 at San Francisco (America) with Lala Hardayal as a key founder.",
+                options: [
+                  {
+                    text: "Bhagat Singh, Great Britain",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Lala Lajpat Rai, France",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Lala Hardayal, America",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Captain Mohan Singh, Germany",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Mettur dam is built on ________ river.",
+                difficulty: "MEDIUM",
+                explanation: "The Mettur Dam in Tamil Nadu is built across the Cauvery river.",
+                options: [
+                  {
+                    text: "Mahanadi",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Godavari",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Krishna",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Cauvery",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Which one of the following animals is not 'warm-blooded'?",
+                difficulty: "EASY",
+                explanation: "The toad is an amphibian and is cold-blooded (poikilothermic); hen, tiger and bat are warm-blooded.",
+                options: [
+                  {
+                    text: "Hen",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Tiger",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Bat",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Toad",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Ram Prasad Bismil's name is associated with",
+                difficulty: "MEDIUM",
+                explanation: "Ram Prasad Bismil was a leader of the 1925 Kakori train robbery (Conspiracy) Case and was hanged for it in 1927.",
+                options: [
+                  {
+                    text: "Kakori Conspiracy Case",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Lahore Conspiracy Case",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Alipur Bomb Case",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Meerat Conspiracy Case",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which of the following constitutional amendments gives a constitutional status to the Panchayati Raj institutions?",
+                difficulty: "MEDIUM",
+                explanation: "The 73rd Constitutional Amendment Act, 1992 gave constitutional status to Panchayati Raj institutions (Part IX).",
+                options: [
+                  {
+                    text: "72nd",
+                    isCorrect: false
+                  },
+                  {
+                    text: "73rd",
+                    isCorrect: true
+                  },
+                  {
+                    text: "74th",
+                    isCorrect: false
+                  },
+                  {
+                    text: "75th",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Under which article of the Constitution the President can take over the administration of a State in his own hand?",
+                difficulty: "EASY",
+                explanation: "Article 356 empowers the President to impose President's Rule and take over a State's administration when its constitutional machinery fails.",
+                options: [
+                  {
+                    text: "Article 352",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Article 356",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Article 351",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Article 350",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The Gupta King who destroyed Sakas was",
+                difficulty: "MEDIUM",
+                explanation: "Chandragupta II (Vikramaditya) destroyed the Western Kshatrapas (Sakas) and took the title Sakari.",
+                options: [
+                  {
+                    text: "Samudra Gupta",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Chandra Gupta-I",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Kumara Gupta",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Chandra Gupta-II",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "In a certain code KOLKATA is coded as 11151211012001. How will BENGAL be coded?",
+                difficulty: "MEDIUM",
+                explanation: "Each letter is replaced by its two-digit position number. B=02, E=05, N=14, G=07, A=01, L=12 gives 020514070112.",
+                options: [
+                  {
+                    text: "020514070112",
+                    isCorrect: true
+                  },
+                  {
+                    text: "020514210111",
+                    isCorrect: false
+                  },
+                  {
+                    text: "020521250110",
+                    isCorrect: false
+                  },
+                  {
+                    text: "020514200112",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The first transgenic crop was",
+                difficulty: "HARD",
+                explanation: "Tobacco was the first transgenic (genetically engineered) crop, developed in 1983.",
+                options: [
+                  {
+                    text: "Tobacco",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Cotton",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Pea",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Rice",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Lata Mangeskar was awarded Bharat Ratna in the year —",
+                difficulty: "MEDIUM",
+                explanation: "Lata Mangeshkar was awarded the Bharat Ratna, India's highest civilian honour, in 2001.",
+                options: [
+                  {
+                    text: "2000",
+                    isCorrect: false
+                  },
+                  {
+                    text: "2003",
+                    isCorrect: false
+                  },
+                  {
+                    text: "2001",
+                    isCorrect: true
+                  },
+                  {
+                    text: "2005",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "'Navjivan' was edited by",
+                difficulty: "MEDIUM",
+                explanation: "'Navjivan' was a weekly journal in Gujarati started and edited by Mahatma Gandhi from 1919, used to spread his ideas on satyagraha and non-cooperation.",
+                options: [
+                  {
+                    text: "Rasbehari Basu",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Gandhiji",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Lala Hardayal",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Aurobindo Ghosh",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The fourth term of the following alphabet series— ZXYW, VTUS, RPQO, ________, JHIG",
+                difficulty: "MEDIUM",
+                explanation: "Each block takes four consecutive letters and writes them in the order 4th, 2nd, 3rd, 1st, with each successive block shifting back by four letters. After RPQO the next block uses K-N: N(4th), L(2nd), M(3rd), K(1st) = NLMK, option (c).",
+                options: [
+                  {
+                    text: "LNKM",
+                    isCorrect: false
+                  },
+                  {
+                    text: "NLKM",
+                    isCorrect: false
+                  },
+                  {
+                    text: "NLMK",
+                    isCorrect: true
+                  },
+                  {
+                    text: "LNMK",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Notuburu iron ore mines are located in",
+                difficulty: "HARD",
+                explanation: "The Noamundi/Notuburu iron ore mines lie in the Singhbhum district (Jharkhand), a major iron-ore belt of eastern India.",
+                options: [
+                  {
+                    text: "Singhbhum District",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Mayurbhanj District",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Baster District",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Durg District",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The Vice-President of India is",
+                difficulty: "EASY",
+                explanation: "Under Article 66, the Vice-President is elected by an electoral college consisting of the members of both Houses of Parliament (Lok Sabha and Rajya Sabha) through proportional representation by single transferable vote.",
+                options: [
+                  {
+                    text: "directly elected by the people.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "nominated by the President.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "elected by the members of the state legislatures.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "elected by an electoral college constituted by members of the two Houses of the Parliament.",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Which quantity is increased in step-down transformer?",
+                difficulty: "MEDIUM",
+                explanation: "A step-down transformer reduces voltage; since power is conserved, lowering the voltage increases the current in the secondary coil.",
+                options: [
+                  {
+                    text: "Voltage",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Current",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Wattage",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Frequency",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Who won the best Director Award at Oscars, 2022?",
+                difficulty: "MEDIUM",
+                explanation: "Jane Campion won the Best Director Oscar in 2022 for 'The Power of the Dog', becoming the third woman to win the award.",
+                options: [
+                  {
+                    text: "Patty Jenkins",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Ava Duvernay",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Sofia Coppola",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Jane Campion",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Who won the Sahitya Akademi Award, 2021 in the English language category?",
+                difficulty: "HARD",
+                explanation: "Namita Gokhale won the 2021 Sahitya Akademi Award in English for her novel 'Things to Leave Behind'.",
+                options: [
+                  {
+                    text: "Namita Gokhale",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Khalid Hossain",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Arundhati Roy",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Kiran Gaurav",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "In a camp there was food for 190 days of 4000 men. After 30 days 800 men left. Remaining men will spend the remaining food in how many days?",
+                difficulty: "MEDIUM",
+                explanation: "Food for 4000 men for 190 days = 760000 man-days; after 30 days, 4000×30=120000 used, leaving 640000 for 3200 men. 640000/3200 = 200 days.",
+                options: [
+                  {
+                    text: "250 days",
+                    isCorrect: false
+                  },
+                  {
+                    text: "230 days",
+                    isCorrect: false
+                  },
+                  {
+                    text: "200 days",
+                    isCorrect: true
+                  },
+                  {
+                    text: "170 days",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The quorum requirements in the Rajya Sabha is",
+                difficulty: "MEDIUM",
+                explanation: "The quorum to constitute a sitting of either House is one-tenth of the total membership; the Rajya Sabha has 245 members, so the quorum is about 25.",
+                options: [
+                  {
+                    text: "25",
+                    isCorrect: true
+                  },
+                  {
+                    text: "50",
+                    isCorrect: false
+                  },
+                  {
+                    text: "100",
+                    isCorrect: false
+                  },
+                  {
+                    text: "126",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "A fruit seller after purchasing a basket of mangoes saw that some fruits are rotten. He incurred a loss of 5% after selling the rest of the mangoes at ₹ 2,280. How much money did he spend in purchasing a basket of mangoes?",
+                difficulty: "MEDIUM",
+                explanation: "At a 5% loss the selling price is 95% of cost: cost × 0.95 = 2280, so cost = 2280/0.95 = ₹2,400.",
+                options: [
+                  {
+                    text: "₹ 3,000",
+                    isCorrect: false
+                  },
+                  {
+                    text: "₹ 4,000",
+                    isCorrect: false
+                  },
+                  {
+                    text: "₹ 2,400",
+                    isCorrect: true
+                  },
+                  {
+                    text: "₹ 2,500",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Stammering is to Speech as Deafness is to",
+                difficulty: "EASY",
+                explanation: "Stammering is a defect of speech; analogously deafness is a defect/impairment of hearing, so the answer is Hearing.",
+                options: [
+                  {
+                    text: "Ear",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Hearing",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Noise",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Commotion",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which of the following districts of West Bengal has the highest child sex ratio in 2011?",
+                difficulty: "HARD",
+                explanation: "Among the listed districts, Howrah recorded the highest child sex ratio (0-6 years) in the 2011 Census of West Bengal.",
+                options: [
+                  {
+                    text: "Darjeeling",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Howrah",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Kolkata",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Malda",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Who among the following Sultans organized Iqta, army, currency and other most important organs of Delhi Sultanate?",
+                difficulty: "HARD",
+                explanation: "Iltutmish, the Slave-dynasty Sultan, consolidated the Delhi Sultanate by organising the iqta system of land grants, the army, and introduced the silver tanka and copper jital currency.",
+                options: [
+                  {
+                    text: "Shamsuddin Iltutmish",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Giyasuddin Balban",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Muhammad bin Tughluq",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Alauddin Khilji",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "On which date the Indian Constitution was adopted by the Constituent Assembly?",
+                difficulty: "EASY",
+                explanation: "The Constituent Assembly adopted the Constitution of India on 26 November 1949; it came into force on 26 January 1950.",
+                options: [
+                  {
+                    text: "August 15, 1947",
+                    isCorrect: false
+                  },
+                  {
+                    text: "November 26, 1949",
+                    isCorrect: true
+                  },
+                  {
+                    text: "January 26, 1950",
+                    isCorrect: false
+                  },
+                  {
+                    text: "August 15, 1950",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Match List-I with List-II: List-I (a) Moriyas (b) Videhas (c) Licchavis (d) Mallas; List-II 1. Pippalivana 2. Mithila 3. Vaishali 4. Kapilavastu. Which of the above is/are not properly matched?",
+                difficulty: "HARD",
+                explanation: "The Mallas ruled Kushinagar and Pava, whereas Kapilavastu (4) was the capital of the Sakyas, so pairing Mallas with Kapilavastu is the mismatch. (Pippalivana (1) is linked with the Moriyas.) Hence (d-4) is not properly matched.",
+                options: [
+                  {
+                    text: "(a-1), (b-2), (c-3)",
+                    isCorrect: false
+                  },
+                  {
+                    text: "(d-4)",
+                    isCorrect: true
+                  },
+                  {
+                    text: "(c-3), (d-4)",
+                    isCorrect: false
+                  },
+                  {
+                    text: "All of the above",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Who among the following was associated with the Bardoli Satyagraha (1928)?",
+                difficulty: "EASY",
+                explanation: "The 1928 Bardoli Satyagraha in Gujarat, a no-tax peasant movement against revenue hikes, was led by Vallabhbhai Patel, who earned the title 'Sardar' for its success.",
+                options: [
+                  {
+                    text: "Rajendra Prasad",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Vallabhbhai Patel",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Motilal Nehru",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Jawaharlal Nehru",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Where was Chauri Chaura?",
+                difficulty: "MEDIUM",
+                explanation: "Chauri Chaura is in Gorakhpur district, Uttar Pradesh, where a mob burned a police station in Feb 1922, leading Gandhi to withdraw the Non-Cooperation Movement.",
+                options: [
+                  {
+                    text: "Patna",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Bhagalpur",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Gaya",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Gorakhpur",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "How many districts are there in West Bengal?",
+                difficulty: "MEDIUM",
+                explanation: "At the time of the exam West Bengal had 23 districts following the creation of new districts such as Jhargram, Kalimpong, Paschim and Purba Bardhaman.",
+                options: [
+                  {
+                    text: "20",
+                    isCorrect: false
+                  },
+                  {
+                    text: "19",
+                    isCorrect: false
+                  },
+                  {
+                    text: "23",
+                    isCorrect: true
+                  },
+                  {
+                    text: "25",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which among the Mughal princes assassinated Abul Fazl?",
+                difficulty: "MEDIUM",
+                explanation: "Abul Fazl, Akbar's chronicler and author of Akbarnama, was assassinated in 1602 by Bir Singh Bundela at the instigation of Prince Salim (later Jahangir).",
+                options: [
+                  {
+                    text: "Khasru",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Selim",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Azimushhan",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Khurram",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The Poona Pact took place in the year",
+                difficulty: "EASY",
+                explanation: "The Poona Pact between Gandhi and B.R. Ambedkar, reserving seats for the Depressed Classes within a joint electorate, was signed in 1932.",
+                options: [
+                  {
+                    text: "1857",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1932",
+                    isCorrect: true
+                  },
+                  {
+                    text: "1935",
+                    isCorrect: false
+                  },
+                  {
+                    text: "1942",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "A particle is moving in a uniform circular motion with constant speed V along a circle of radius r. The acceleration of the particle is",
+                difficulty: "MEDIUM",
+                explanation: "In uniform circular motion the speed is constant but direction changes, giving a centripetal acceleration directed to the centre of magnitude V²/r.",
+                options: [
+                  {
+                    text: "Zero",
+                    isCorrect: false
+                  },
+                  {
+                    text: "V/r",
+                    isCorrect: false
+                  },
+                  {
+                    text: "V/r²",
+                    isCorrect: false
+                  },
+                  {
+                    text: "V²/r",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Who was the founder of Tattwabodhini Sabha in Bengal?",
+                difficulty: "MEDIUM",
+                explanation: "The Tattwabodhini Sabha was founded in Calcutta in 1839 by Debendranath Tagore to propagate Brahmo (Vedantic) ideas and reform.",
+                options: [
+                  {
+                    text: "Dadoba Pandurang",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Debendranath Tagore",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Radha Kanta Deb",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Keshab Chandra Sen",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The Advocate General of a State is appointed by",
+                difficulty: "EASY",
+                explanation: "Under Article 165, the Advocate General, the highest law officer of a State, is appointed by the Governor of that State.",
+                options: [
+                  {
+                    text: "the Chief Minister.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "the State Legislature.",
+                    isCorrect: false
+                  },
+                  {
+                    text: "the Governor.",
+                    isCorrect: true
+                  },
+                  {
+                    text: "the State Law Minister.",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which one of the following dam is not meant for irrigation?",
+                difficulty: "HARD",
+                explanation: "The Sivasamudram project on the Cauvery is a hydroelectric power station, not an irrigation dam, unlike Bhavani Sagar, Krishnaraja Sagar and Bhakra Nangal which serve irrigation.",
+                options: [
+                  {
+                    text: "Bhavani Sagar",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Sivasamudram",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Krishnaraja Sagar",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Bhakra Nangal",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Arrange the list of foreign travellers in chronological order: (a) Xuanzang (Hieun Tsang) (b) Itsing (c) Fa Tsien (d) Megasthenes",
+                difficulty: "HARD",
+                explanation: "Chronologically: Megasthenes (c.300 BCE, Maurya) → Fa Tsien/Faxian (c.400 CE, Gupta) → Hieun Tsang (7th c.) → Itsing (late 7th c.), i.e. (d),(c),(a),(b).",
+                options: [
+                  {
+                    text: "(a), (b), (c), (d)",
+                    isCorrect: false
+                  },
+                  {
+                    text: "(a), (d), (b), (c)",
+                    isCorrect: false
+                  },
+                  {
+                    text: "(d), (c), (a), (b)",
+                    isCorrect: true
+                  },
+                  {
+                    text: "(d), (c), (b), (a)",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Who among the following stated that there was no slavery in India?",
+                difficulty: "MEDIUM",
+                explanation: "Megasthenes, the Greek envoy at Chandragupta Maurya's court, wrote in his Indica that there was no slavery in India.",
+                options: [
+                  {
+                    text: "Strabo",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Ptolemy",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Megasthenes",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Xuanzang (Hieun Tsang)",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which of the following countries won the Thomas Cup International Badminton Championship, 2022?",
+                difficulty: "EASY",
+                explanation: "India won the Thomas Cup (men's team badminton) for the first time in 2022, defeating 14-time champions Indonesia in the final.",
+                options: [
+                  {
+                    text: "Indonesia",
+                    isCorrect: false
+                  },
+                  {
+                    text: "India",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Malaysia",
+                    isCorrect: false
+                  },
+                  {
+                    text: "China",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "In which city, Australia will host the 2026 Commonwealth Games?",
+                difficulty: "MEDIUM",
+                explanation: "The 2026 Commonwealth Games were awarded to the Australian state of Victoria (later cancelled), so the intended host answer is Victoria.",
+                options: [
+                  {
+                    text: "Victoria",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Sydney",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Perth",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Brisbane",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Who among the following was the Greek king of Syria mentioned in Asokan edict?",
+                difficulty: "HARD",
+                explanation: "Asoka's Rock Edict XIII names Antiochus II Theos of Syria (Amtiyoka) among the Greek kings to whom he sent his message of dhamma.",
+                options: [
+                  {
+                    text: "Antiochus II Theos",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Ptolemy II",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Antigonus",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Alexander",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Fermentation ability of Yeast is due to",
+                difficulty: "HARD",
+                explanation: "Yeast ferments sugar to alcohol and carbon dioxide chiefly through the enzyme zymase, a complex it produces.",
+                options: [
+                  {
+                    text: "Amylase",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Zymase",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Invertase",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Galactase",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The first sermon of Gautama Buddha is called",
+                difficulty: "MEDIUM",
+                explanation: "Gautama Buddha's first sermon at Sarnath is called Dharmachakra Pravartana ('turning of the wheel of law'), in which he preached the Four Noble Truths.",
+                options: [
+                  {
+                    text: "Mahabhinishkraman",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Dharmachakra Pravartana",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Dhammaghos",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Mahaparinirvana",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The Non-Cooperation programme was adopted in the",
+                difficulty: "MEDIUM",
+                explanation: "The Non-Cooperation programme was formally adopted by the Indian National Congress at its Nagpur session in December 1920.",
+                options: [
+                  {
+                    text: "Lahore session",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Congress session at Nagpur",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Gujarat Congress",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Second Round Table Conference",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Who among the Mughal Emperors/Courtiers made arrangement for translation of Upanisadas into Farsi?",
+                difficulty: "MEDIUM",
+                explanation: "Prince Dara Shukoh, Shah Jahan's eldest son, had the Upanishads translated into Persian in his work 'Sirr-i-Akbar' (The Great Secret).",
+                options: [
+                  {
+                    text: "Babur",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Akbar",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Shah Jahan",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Dara Sukoh",
+                    isCorrect: true
+                  }
+                ]
+              },
+              {
+                text: "Who won the Women's Badminton Singles title at Swiss Open, 2022?",
+                difficulty: "MEDIUM",
+                explanation: "P.V. Sindhu won the women's singles title at the Swiss Open 2022, beating Busanan Ongbamrungphan of Thailand in the final.",
+                options: [
+                  {
+                    text: "Saina Nehwal",
+                    isCorrect: false
+                  },
+                  {
+                    text: "P.V. Sindhu",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Carolina Marin",
+                    isCorrect: false
+                  },
+                  {
+                    text: "B. Ongbamrungphan",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "The Eastern Ghats and the Western Ghats meet at",
+                difficulty: "MEDIUM",
+                explanation: "The Eastern Ghats and Western Ghats converge at the Nilgiri Hills in the Western Ghats of South India.",
+                options: [
+                  {
+                    text: "Cardamom Hills",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Palani Hills",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Nilgiri Hills",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Annamalai Hills",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Who is the first Law Officer of the Government of India?",
+                difficulty: "EASY",
+                explanation: "The Attorney General of India, appointed under Article 76, is the highest (first) law officer of the Government of India.",
+                options: [
+                  {
+                    text: "Chief Justice of India",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Union Law Minister",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Attorney General of India",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Law Secretary",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which Chola king was known as Arumolivarman before his coronation?",
+                difficulty: "HARD",
+                explanation: "The great Chola ruler Rajaraja I was known as Arulmozhi/Arumolivarman before he ascended the throne in 985 CE.",
+                options: [
+                  {
+                    text: "Vira Rajendra",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Rajaraja I",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Kulottunga I",
+                    isCorrect: false
+                  },
+                  {
+                    text: "None of them",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Who among the following put forward the famous Drain Theory?",
+                difficulty: "EASY",
+                explanation: "Dadabhai Naoroji propounded the 'Drain of Wealth' theory in his book 'Poverty and Un-British Rule in India', arguing that Britain was draining India's wealth.",
+                options: [
+                  {
+                    text: "Dadabhai Naoroji",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Surendranath Banerjea",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Gopal Krishna Gokhale",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Bal Gangadhar Tilak",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Which Indian Architect has been conferred the prestigious Royal Gold Medal, 2022?",
+                difficulty: "MEDIUM",
+                explanation: "Indian architect Balkrishna Doshi (also a 2018 Pritzker laureate) was conferred the RIBA Royal Gold Medal for 2022.",
+                options: [
+                  {
+                    text: "Balkrishna Doshi",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Sheila Sri Prakash",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Brinda Samaya",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Hafeez Contractor",
+                    isCorrect: false
+                  }
+                ]
+              },
+              {
+                text: "Who is the composer of Allahabad Prasasti?",
+                difficulty: "MEDIUM",
+                explanation: "The Allahabad Prasasti (Prayag Prashasti), eulogising Samudragupta, was composed by his court poet Harishena and inscribed on an Asokan pillar.",
+                options: [
+                  {
+                    text: "Harishena",
+                    isCorrect: true
+                  },
+                  {
+                    text: "Bishakhdutta",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Kalidasa",
+                    isCorrect: false
+                  },
+                  {
+                    text: "Shudrak",
+                    isCorrect: false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+];
+
 async function main() {
   // 1) Exam catalogue (single source of truth: src/lib/exams.ts).
   for (const [i, e] of examCatalogue.entries()) {
@@ -28068,7 +32651,7 @@ async function main() {
   // 2) Content — only seeds questions for a chapter that has none yet (preserves real attempts).
   let created = 0;
   let skipped = 0;
-  for (const ec of [...content, ...moreContent, ...wave3, ...wave4, ...wave5, ...wave6, ...wave7, ...wave8, ...wave9, ...wave10, ...wave11, ...wave12, ...wave13, ...wave14, ...wave15, ...wave16, ...wave17, ...wave18, ...wave19, ...wave20, ...wave21, ...wave22, ...wave23]) {
+  for (const ec of [...content, ...moreContent, ...wave3, ...wave4, ...wave5, ...wave6, ...wave7, ...wave8, ...wave9, ...wave10, ...wave11, ...wave12, ...wave13, ...wave14, ...wave15, ...wave16, ...wave17, ...wave18, ...wave19, ...wave20, ...wave21, ...wave22, ...wave23, ...wave24]) {
     const exam = await prisma.exam.findUniqueOrThrow({ where: { slug: ec.examSlug } });
     for (const [si, sc] of ec.subjects.entries()) {
       const subject = await prisma.subject.upsert({

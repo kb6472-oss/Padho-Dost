@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { redirect } from "next/navigation";
 import { getSessionUser, syncUser, toDisplayUser } from "@/lib/auth";
 import { getDashboardData } from "@/lib/dashboard";
 
@@ -12,7 +11,7 @@ const fmtDate = (d: Date | null) =>
 
 export default async function DashboardPage() {
   const su = await getSessionUser();
-  if (!su) redirect("/login?next=/dashboard");
+  if (!su) return <GuestDashboard />;
   await syncUser(su); // ensure the DB row exists
   const display = toDisplayUser(su);
   const firstName = (display?.name || display?.email || "there").split(" ")[0].split("@")[0];
@@ -229,6 +228,67 @@ function Stat({ value, label, tone }: { value: number | string; label: string; t
     <div className="rounded-2xl border border-border bg-background py-4 text-center">
       <div className={`font-display text-2xl font-extrabold ${tones[tone]}`}>{value}</div>
       <div className="mt-1 text-xs text-muted">{label}</div>
+    </div>
+  );
+}
+
+// Shown to guests instead of an abrupt bounce to /login. The Progress tab is one of
+// five primary bottom-nav destinations, so sending a curious guest straight into a
+// login wall — on a product that promises "no sign-up needed to start" — was a
+// dead-end. This explains what an account adds and keeps them exploring either way.
+function GuestDashboard() {
+  const perks = [
+    { icon: "🔥", text: "A daily streak that keeps you consistent" },
+    { icon: "🏆", text: "Your All-India rank saved on every test" },
+    { icon: "🎯", text: "A personalised list of your weak topics" },
+    { icon: "📖", text: "Resume tests and reading on any device" },
+  ];
+  const explore = [
+    { href: "/exams", emoji: "🎓", label: "Browse exams" },
+    { href: "/daily", emoji: "📅", label: "Daily challenge" },
+    { href: "/study", emoji: "📚", label: "Visual explainers" },
+  ];
+  return (
+    <div className="mx-auto max-w-2xl px-4 py-10 sm:px-6">
+      <h1 className="font-display text-2xl font-extrabold tracking-tight text-foreground sm:text-3xl">Your progress</h1>
+      <p className="mt-1 text-sm text-muted">
+        Practise without an account — or sign in to save it all. No spam, no sales calls, ever.
+      </p>
+
+      <div className="mt-6 rounded-2xl border border-brand-200 bg-brand-50 p-6">
+        <p className="font-display text-base font-bold text-brand-900">Sign in — free — to unlock:</p>
+        <ul className="mt-3 space-y-2">
+          {perks.map((p) => (
+            <li key={p.text} className="flex gap-2.5 text-sm text-brand-900/90">
+              <span aria-hidden="true">{p.icon}</span>
+              <span>{p.text}</span>
+            </li>
+          ))}
+        </ul>
+        <Link
+          href="/login?next=/dashboard"
+          className="mt-5 inline-block rounded-full bg-brand-600 px-7 py-3 text-sm font-semibold text-white transition-colors hover:bg-brand-700"
+        >
+          Sign in — it&apos;s free →
+        </Link>
+        <p className="mt-2 text-xs text-brand-700">Takes one tap. The tests you&apos;ve already taken carry over when you sign in.</p>
+      </div>
+
+      <div className="mt-8">
+        <h2 className="font-display text-lg font-bold text-foreground">Meanwhile, start practising</h2>
+        <div className="mt-3 grid gap-3 sm:grid-cols-3">
+          {explore.map((e) => (
+            <Link
+              key={e.href}
+              href={e.href}
+              className="rounded-2xl border border-border bg-background p-4 text-sm font-semibold text-foreground transition-colors hover:border-brand-300"
+            >
+              <span aria-hidden="true" className="text-lg">{e.emoji}</span>
+              <span className="mt-1.5 block">{e.label}</span>
+            </Link>
+          ))}
+        </div>
+      </div>
     </div>
   );
 }

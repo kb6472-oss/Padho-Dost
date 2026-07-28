@@ -39,14 +39,16 @@ export default function OnboardingPrompt({ exams }: { exams: ExamChip[] }) {
         Pick your exam and we&apos;ll personalise your dashboard, track your progress, and
         unlock full mock tests as you practise.
       </p>
-      <div className="mt-4 flex flex-wrap gap-2">
+      {/* Horizontal scroll row on phones so the prompt stays one line tall and never
+          buries the exam grid below it; wraps normally once there's room (sm+). */}
+      <div className="mt-4 flex gap-2 overflow-x-auto pb-1 sm:flex-wrap sm:overflow-visible sm:pb-0">
         {exams.map((e) => (
           <button
             key={e.slug}
             type="button"
             disabled={pending}
             onClick={() => choose(e.slug)}
-            className="inline-flex items-center gap-2 rounded-full border border-brand-300 bg-background px-4 py-2 text-sm font-semibold text-foreground transition-colors hover:border-brand-500 hover:bg-brand-50 disabled:opacity-60"
+            className="inline-flex shrink-0 items-center gap-2 rounded-full border border-brand-300 bg-background px-4 py-2 text-sm font-semibold text-foreground transition-colors hover:border-brand-500 hover:bg-brand-50 disabled:opacity-60 sm:shrink"
           >
             <span>{e.emoji}</span>
             {picking === e.slug && pending ? "Setting…" : e.name}

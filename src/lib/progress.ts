@@ -10,6 +10,24 @@ const dateKey = (d: Date) => d.toISOString().slice(0, 10);
 
 type ChapterStat = { chapterId: string; attempted: number; correct: number };
 
+export type StreakSummary = { streak: number; doneToday: boolean; atRisk: boolean };
+
+// Effective streak for display — derived from lastStudyDay vs the current IST day.
+// The cached User.currentStreak is only recomputed on activity (never after a missed
+// day), so reading it raw would keep showing a broken streak. today -> stands & done;
+// yesterday -> stands but at risk of breaking today; older/none -> effectively 0.
+export async function getStreakSummary(userId: string): Promise<StreakSummary> {
+  const user = await prisma.user.findUnique({
+    where: { id: userId },
+    select: { currentStreak: true, lastStudyDay: true },
+  });
+  const streak = user?.currentStreak ?? 0;
+  const last = user?.lastStudyDay ? dateKey(user.lastStudyDay) : null;
+  if (last === dateKey(istDate())) return { streak, doneToday: true, atRisk: false };
+  if (last === dateKey(istDate(-1))) return { streak, doneToday: false, atRisk: true };
+  return { streak: 0, doneToday: false, atRisk: false };
+}
+
 // Log today's study activity + advance the consecutive-IST-day streak.
 export async function bumpStudyStreak(userId: string, questionsAnswered = 0, secondsStudied = 0) {
   const today = istDate();

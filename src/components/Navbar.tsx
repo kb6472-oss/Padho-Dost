@@ -5,7 +5,9 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { Menu, Search, X } from "lucide-react";
 import { signOut } from "@/lib/user-actions";
+import { fetchStreakSummary } from "@/lib/streak-actions";
 import ClaimAnon from "@/components/ClaimAnon";
+import StreakPill from "@/components/StreakPill";
 
 const navLinks = [
   { href: "/exams", label: "Exams" },
@@ -47,6 +49,25 @@ export default function Navbar() {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
   const [user, setUser] = useState<NavUser | null>(null);
+  const [streak, setStreak] = useState<{ streak: number; atRisk: boolean } | null>(null);
+
+  // Once a user is resolved, pull their (effective) streak for the pill. Clears when
+  // the user logs out. Runs client-side so the layout stays statically renderable.
+  useEffect(() => {
+    if (!user) {
+      setStreak(null);
+      return;
+    }
+    let cancelled = false;
+    fetchStreakSummary()
+      .then((s) => {
+        if (!cancelled) setStreak(s && s.streak > 0 ? { streak: s.streak, atRisk: s.atRisk } : null);
+      })
+      .catch(() => {});
+    return () => {
+      cancelled = true;
+    };
+  }, [user]);
 
   useEffect(() => {
     if (!process.env.NEXT_PUBLIC_SUPABASE_URL || !process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY) return;
@@ -118,6 +139,7 @@ export default function Navbar() {
           </Link>
           {user ? (
             <>
+              {streak && <StreakPill streak={streak.streak} atRisk={streak.atRisk} />}
               <Link href="/dashboard" className="flex items-center gap-2 transition-opacity hover:opacity-80">
                 <Avatar user={user} />
                 <span className="max-w-[120px] truncate text-sm font-medium text-foreground">
@@ -143,6 +165,7 @@ export default function Navbar() {
         </div>
 
         <div className="flex items-center gap-1 md:hidden">
+          {streak && <StreakPill streak={streak.streak} atRisk={streak.atRisk} />}
           <Link
             href="/search"
             aria-label="Search"

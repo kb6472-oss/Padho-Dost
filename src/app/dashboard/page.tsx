@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { getSessionUser, syncUser, toDisplayUser } from "@/lib/auth";
 import { getDashboardData } from "@/lib/dashboard";
+import StudyHeatmap from "@/components/StudyHeatmap";
 
 export const metadata: Metadata = { title: "Dashboard", robots: { index: false } };
 
@@ -16,7 +17,8 @@ export default async function DashboardPage() {
   const display = toDisplayUser(su);
   const firstName = (display?.name || display?.email || "there").split(" ")[0].split("@")[0];
 
-  const { attempts, weakAreas, stats, streak, enrollments, reading, mistakesCount, badges } = await getDashboardData(su.id);
+  const { attempts, weakAreas, stats, streak, enrollments, reading, mistakesCount, badges, heatmap } =
+    await getDashboardData(su.id);
 
   return (
     <div className="mx-auto max-w-5xl px-4 py-10 sm:px-6">
@@ -59,6 +61,12 @@ export default async function DashboardPage() {
               </Link>
             ))}
           </div>
+        </div>
+      )}
+
+      {heatmap.activeDays > 0 && (
+        <div className="mt-8">
+          <StudyHeatmap grid={heatmap.grid} activeDays={heatmap.activeDays} />
         </div>
       )}
 

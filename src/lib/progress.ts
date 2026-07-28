@@ -58,6 +58,43 @@ export async function bumpStudyStreak(userId: string, questionsAnswered = 0, sec
   });
 }
 
+export type HeatCell = { key: string | null; level: 0 | 1 | 2 | 3 | 4 };
+
+// A GitHub-style "don't break the chain" grid of the last `weeks` weeks, columns =
+// weeks, rows = Sun..Sat. Cells past today (top-right of the current week) are null.
+// Level buckets a day's total activity (questions answered + explainers finished).
+export async function getStudyHeatmap(userId: string, weeks = 13): Promise<{ grid: HeatCell[][]; activeDays: number }> {
+  const rows = await prisma.studyDay.findMany({
+    where: { userId, day: { gte: istDate(-(weeks * 7 + 7)) } },
+    select: { day: true, questionsAnswered: true, explainersRead: true },
+  });
+  const activity = new Map<string, number>();
+  for (const r of rows) activity.set(dateKey(r.day), r.questionsAnswered + r.explainersRead);
+
+  const bucket = (n: number): 0 | 1 | 2 | 3 | 4 => (n <= 0 ? 0 : n < 10 ? 1 : n < 30 ? 2 : n < 80 ? 3 : 4);
+  const todayDow = istDate().getUTCDay(); // 0=Sun
+  const startOffset = -(todayDow + (weeks - 1) * 7); // Sunday of the earliest shown week
+
+  const grid: HeatCell[][] = [];
+  let activeDays = 0;
+  for (let col = 0; col < weeks; col++) {
+    const week: HeatCell[] = [];
+    for (let row = 0; row < 7; row++) {
+      const offset = startOffset + col * 7 + row;
+      if (offset > 0) {
+        week.push({ key: null, level: 0 }); // a future day in the current (partial) week
+        continue;
+      }
+      const key = dateKey(istDate(offset));
+      const level = bucket(activity.get(key) ?? 0);
+      if (level > 0) activeDays++;
+      week.push({ key, level });
+    }
+    grid.push(week);
+  }
+  return { grid, activeDays };
+}
+
 // Records LMS progress after a logged-in user submits a test.
 export async function recordTestProgress(input: {
   userId: string;

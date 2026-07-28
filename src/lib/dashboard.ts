@@ -1,5 +1,6 @@
 import { prisma } from "@/lib/prisma";
 import { getBadges } from "@/lib/badges";
+import { getStudyHeatmap } from "@/lib/progress";
 
 export async function getDashboardData(userId: string) {
   const attempts = await prisma.attempt.findMany({
@@ -41,7 +42,7 @@ export async function getDashboardData(userId: string) {
     best: pcts.length ? Math.round(Math.max(...pcts)) : 0,
   };
 
-  const [user, enrollments, reading, mistakes, explainersRead] = await Promise.all([
+  const [user, enrollments, reading, mistakes, explainersRead, heatmap] = await Promise.all([
     prisma.user.findUnique({ where: { id: userId }, select: { currentStreak: true, longestStreak: true } }),
     prisma.enrollment.findMany({
       where: { userId },
@@ -60,6 +61,7 @@ export async function getDashboardData(userId: string) {
       select: { questionId: true },
     }),
     prisma.explainerProgress.count({ where: { userId } }),
+    getStudyHeatmap(userId),
   ]);
 
   const totalAnswered = attempts.reduce((a, x) => a + x.correctCount + x.wrongCount, 0);
@@ -80,5 +82,6 @@ export async function getDashboardData(userId: string) {
     reading,
     mistakesCount: mistakes.length,
     badges,
+    heatmap,
   };
 }

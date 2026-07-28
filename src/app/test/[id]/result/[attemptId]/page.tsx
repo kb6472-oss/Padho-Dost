@@ -69,7 +69,39 @@ export default async function ResultPage({ params }: Props) {
     attempt.correctCount + attempt.wrongCount > 0
       ? Math.round((attempt.correctCount / (attempt.correctCount + attempt.wrongCount)) * 100)
       : 0;
-  const ranking = await getTestRanking(mockTest.id, score);
+  // "vs last attempt" — the only contest a weak student can reliably win. Fetch the
+  // same owner's previous submitted attempt on THIS test (userId when logged in, else
+  // the guest anonId), folded into the ranking query so it costs no extra round-trip.
+  const ownerWhere = attempt.userId
+    ? { userId: attempt.userId }
+    : attempt.anonId
+      ? { anonId: attempt.anonId }
+      : null;
+  const [ranking, prevAttempt] = await Promise.all([
+    getTestRanking(mockTest.id, score),
+    ownerWhere
+      ? prisma.attempt.findFirst({
+          where: {
+            mockTestId: mockTest.id,
+            status: "SUBMITTED",
+            id: { not: attempt.id },
+            ...(attempt.submittedAt ? { submittedAt: { lt: attempt.submittedAt } } : {}),
+            ...ownerWhere,
+          },
+          orderBy: { submittedAt: "desc" },
+          select: { score: true, totalMarks: true },
+        })
+      : Promise.resolve(null),
+  ]);
+
+  // Same clamp/formula as `pct`, using the prior attempt's own totalMarks, so the
+  // delta can never drift from the two displayed percentages.
+  const prevPct = prevAttempt
+    ? Math.max(0, Math.min(100, prevAttempt.totalMarks > 0 ? ((prevAttempt.score ?? 0) / prevAttempt.totalMarks) * 100 : 0))
+    : null;
+  const curRounded = Math.round(pct);
+  const prevRounded = prevPct != null ? Math.round(prevPct) : null;
+  const delta = prevRounded != null ? curRounded - prevRounded : null;
 
   // Per-question time analysis (only when dwell times were captured).
   const timed = attempt.answers.filter((a) => a.timeSpentSec != null);
@@ -177,6 +209,25 @@ export default async function ResultPage({ params }: Props) {
         </div>
         {attempt.timeTakenSec != null && (
           <p className="mt-4 text-xs text-muted">⏱️ Time taken: {mmss(attempt.timeTakenSec)}</p>
+        )}
+
+        {prevRounded != null && delta != null && (
+          <div className="mt-4 flex flex-wrap items-center justify-center gap-2 text-sm">
+            <span className="text-muted">
+              Last time {prevRounded}% → today {curRounded}%
+            </span>
+            <span
+              className={`rounded-full px-2.5 py-1 text-xs font-bold ${
+                delta > 0
+                  ? "bg-emerald-100 text-emerald-700"
+                  : delta < 0
+                    ? "bg-rose-100 text-rose-700"
+                    : "bg-slate-100 text-slate-600"
+              }`}
+            >
+              {delta > 0 ? `+${delta}` : delta < 0 ? `${delta}` : "same score"}
+            </span>
+          </div>
         )}
 
       </div>

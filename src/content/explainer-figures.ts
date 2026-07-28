@@ -460,4 +460,174 @@ export const explainerFigures: Record<string, ExplainerFigure[]> = {
       </svg>`,
     },
   ],
+
+  "structure-of-atom-explained": [
+    {
+      afterHeading: 1,
+      caption: "Bohr's model: a tiny dense nucleus with electrons in fixed shells (K, L, M …).",
+      svg: `<svg viewBox="0 0 340 320" xmlns="${S}" role="img" aria-label="Bohr model of an atom with nucleus and two electron shells">
+        <circle cx="170" cy="150" r="46" fill="none" stroke="#a5b4fc" stroke-width="1.6"/>
+        <circle cx="170" cy="150" r="88" fill="none" stroke="#a5b4fc" stroke-width="1.6"/>
+        <circle cx="170" cy="150" r="17" fill="#e11d48"/>
+        <text x="170" y="155" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="700" fill="#fff">+</text>
+        <g fill="#4338ca">
+          <circle cx="170" cy="104" r="5.5"/><circle cx="170" cy="196" r="5.5"/>
+          <circle cx="170" cy="62" r="5.5"/><circle cx="258" cy="150" r="5.5"/><circle cx="170" cy="238" r="5.5"/><circle cx="82" cy="150" r="5.5"/>
+        </g>
+        <text x="150" y="128" font-family="sans-serif" font-size="12" font-weight="700" fill="#6366f1">K</text>
+        <text x="150" y="86" font-family="sans-serif" font-size="12" font-weight="700" fill="#6366f1">L</text>
+        <line x1="176" y1="166" x2="188" y2="270" stroke="#64748b" stroke-width="1"/>
+        <text x="192" y="290" text-anchor="middle" font-family="sans-serif" font-size="11.5" fill="#475569">nucleus (protons + neutrons)</text>
+        <text x="18" y="306" font-family="sans-serif" font-size="11.5" fill="#4338ca">● electron</text>
+      </svg>`,
+    },
+  ],
+
+  "heredity-and-evolution-explained": [
+    {
+      afterHeading: 1,
+      caption: "A Punnett square crosses the parents' gametes — Tt × Tt gives a 3 : 1 tall-to-short ratio.",
+      svg: `<svg viewBox="0 0 320 300" xmlns="${S}" role="img" aria-label="Punnett square for a Tt by Tt monohybrid cross">
+        <text x="178" y="34" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#1e293b">Cross: Tt × Tt</text>
+        <text x="144" y="76" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#4338ca">T</text>
+        <text x="212" y="76" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#4338ca">t</text>
+        <text x="92" y="128" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#be123c">T</text>
+        <text x="92" y="196" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#be123c">t</text>
+        <rect x="110" y="90" width="68" height="68" fill="#c7d2fe" stroke="#4338ca" stroke-width="1.5"/>
+        <rect x="178" y="90" width="68" height="68" fill="#ddd6fe" stroke="#4338ca" stroke-width="1.5"/>
+        <rect x="110" y="158" width="68" height="68" fill="#ddd6fe" stroke="#4338ca" stroke-width="1.5"/>
+        <rect x="178" y="158" width="68" height="68" fill="#fde68a" stroke="#4338ca" stroke-width="1.5"/>
+        <g font-family="sans-serif" font-size="16" font-weight="700" fill="#1e293b" text-anchor="middle">
+          <text x="144" y="130">TT</text><text x="212" y="130">Tt</text><text x="144" y="198">Tt</text><text x="212" y="198">tt</text>
+        </g>
+        <text x="178" y="256" text-anchor="middle" font-family="sans-serif" font-size="12.5" font-weight="700" fill="#334155">3 Tall : 1 short</text>
+      </svg>`,
+    },
+  ],
+
+  "arithmetic-progressions-explained": [
+    {
+      afterHeading: 1,
+      caption: "In an AP each term jumps by the same common difference d — here d = 4.",
+      svg: `<svg viewBox="0 0 470 150" xmlns="${S}" role="img" aria-label="Arithmetic progression terms on a number line with common difference 4">
+        <line x1="30" y1="95" x2="450" y2="95" stroke="#334155" stroke-width="1.6"/>
+        <g font-family="sans-serif">
+          <g fill="#4f46e5">
+            <circle cx="60" cy="95" r="5"/><circle cx="150" cy="95" r="5"/><circle cx="240" cy="95" r="5"/><circle cx="330" cy="95" r="5"/><circle cx="420" cy="95" r="5"/>
+          </g>
+          <g font-size="14" font-weight="700" fill="#4338ca" text-anchor="middle">
+            <text x="60" y="122">3</text><text x="150" y="122">7</text><text x="240" y="122">11</text><text x="330" y="122">15</text><text x="420" y="122">19</text>
+          </g>
+          <path d="M60,88 Q105,58 150,88" fill="none" stroke="#94a3b8" stroke-width="1.4"/>
+          <path d="M150,88 Q195,58 240,88" fill="none" stroke="#94a3b8" stroke-width="1.4"/>
+          <path d="M240,88 Q285,58 330,88" fill="none" stroke="#94a3b8" stroke-width="1.4"/>
+          <path d="M330,88 Q375,58 420,88" fill="none" stroke="#94a3b8" stroke-width="1.4"/>
+          <g font-size="12" font-weight="700" fill="#475569" text-anchor="middle">
+            <text x="105" y="58">+4</text><text x="195" y="58">+4</text><text x="285" y="58">+4</text><text x="375" y="58">+4</text>
+          </g>
+          <text x="240" y="20" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1e293b">aₙ = a + (n − 1)d</text>
+        </g>
+      </svg>`,
+    },
+  ],
+
+  "probability-explained": [
+    {
+      afterHeading: 1,
+      caption: "Probability = favourable ÷ total. A die has 6 faces; 3 are even, so P(even) = 3/6 = ½.",
+      svg: `<svg viewBox="0 0 460 170" xmlns="${S}" role="img" aria-label="Sample space of a die with even outcomes highlighted">
+        <g font-family="sans-serif" text-anchor="middle" font-size="18" font-weight="700">
+          <rect x="20" y="45" width="54" height="54" rx="9" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1.6"/><text x="47" y="80" fill="#334155">1</text>
+          <rect x="92" y="45" width="54" height="54" rx="9" fill="#dcfce7" stroke="#16a34a" stroke-width="2.2"/><text x="119" y="80" fill="#15803d">2</text>
+          <rect x="164" y="45" width="54" height="54" rx="9" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1.6"/><text x="191" y="80" fill="#334155">3</text>
+          <rect x="236" y="45" width="54" height="54" rx="9" fill="#dcfce7" stroke="#16a34a" stroke-width="2.2"/><text x="263" y="80" fill="#15803d">4</text>
+          <rect x="308" y="45" width="54" height="54" rx="9" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1.6"/><text x="335" y="80" fill="#334155">5</text>
+          <rect x="380" y="45" width="54" height="54" rx="9" fill="#dcfce7" stroke="#16a34a" stroke-width="2.2"/><text x="407" y="80" fill="#15803d">6</text>
+        </g>
+        <text x="230" y="140" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#1e293b">P(even) = 3 favourable / 6 total = 1/2</text>
+      </svg>`,
+    },
+  ],
+
+  "linear-equations-explained": [
+    {
+      afterHeading: 1,
+      caption: "Two equations = two lines; the point where they cross is the solution (x, y).",
+      svg: `<svg viewBox="0 0 340 300" xmlns="${S}" role="img" aria-label="Two straight lines intersecting at the solution point">
+        <line x1="40" y1="240" x2="320" y2="240" stroke="#94a3b8" stroke-width="1.5"/>
+        <line x1="70" y1="30" x2="70" y2="270" stroke="#94a3b8" stroke-width="1.5"/>
+        <text x="312" y="256" font-family="sans-serif" font-size="12" fill="#64748b">x</text>
+        <text x="78" y="42" font-family="sans-serif" font-size="12" fill="#64748b">y</text>
+        <line x1="55" y1="215" x2="300" y2="70" stroke="#4f46e5" stroke-width="2.5"/>
+        <line x1="55" y1="60" x2="300" y2="210" stroke="#0d9488" stroke-width="2.5"/>
+        <circle cx="182" cy="140" r="6" fill="#e11d48"/>
+        <text x="192" y="132" font-family="sans-serif" font-size="12.5" font-weight="700" fill="#be123c">solution (x, y)</text>
+        <text x="284" y="66" font-family="sans-serif" font-size="11.5" font-weight="700" fill="#4338ca">line 1</text>
+        <text x="284" y="224" font-family="sans-serif" font-size="11.5" font-weight="700" fill="#0f766e">line 2</text>
+      </svg>`,
+    },
+  ],
+
+  "gravitation-explained": [
+    {
+      afterHeading: 1,
+      caption: "Every two masses pull on each other — stronger with more mass, weaker with distance².",
+      svg: `<svg viewBox="0 0 420 210" xmlns="${S}" role="img" aria-label="Two masses attracting each other with gravitational force">
+        <circle cx="105" cy="95" r="40" fill="#c7d2fe" stroke="#4338ca" stroke-width="2"/>
+        <text x="105" y="101" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#312e81">m₁</text>
+        <circle cx="320" cy="95" r="24" fill="#fde68a" stroke="#b45309" stroke-width="2"/>
+        <text x="320" y="101" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#92400e">m₂</text>
+        <line x1="152" y1="95" x2="205" y2="95" stroke="#e11d48" stroke-width="2.5"/>
+        <path d="M213,95 L199,89 L199,101 Z" fill="#e11d48"/>
+        <line x1="273" y1="95" x2="220" y2="95" stroke="#e11d48" stroke-width="2.5"/>
+        <path d="M212,95 L226,89 L226,101 Z" fill="#e11d48"/>
+        <text x="163" y="83" font-family="sans-serif" font-size="12" font-weight="700" fill="#be123c">F</text>
+        <text x="252" y="83" font-family="sans-serif" font-size="12" font-weight="700" fill="#be123c">F</text>
+        <line x1="105" y1="150" x2="320" y2="150" stroke="#64748b" stroke-width="1" stroke-dasharray="4 3"/>
+        <text x="212" y="168" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#475569">r</text>
+        <text x="210" y="196" text-anchor="middle" font-family="sans-serif" font-size="12.5" font-weight="700" fill="#1e293b">F = G·m₁·m₂ / r²</text>
+      </svg>`,
+    },
+  ],
+
+  "statistics-explained": [
+    {
+      afterHeading: 1,
+      caption: "The mean is the balancing height — the level the bars would settle to if levelled out.",
+      svg: `<svg viewBox="0 0 400 230" xmlns="${S}" role="img" aria-label="Bar chart with a dashed mean line">
+        <line x1="45" y1="30" x2="45" y2="185" stroke="#334155" stroke-width="1.6"/>
+        <line x1="45" y1="185" x2="370" y2="185" stroke="#334155" stroke-width="1.6"/>
+        <rect x="70" y="125" width="40" height="60" fill="#a5b4fc"/>
+        <rect x="130" y="95" width="40" height="90" fill="#818cf8"/>
+        <rect x="190" y="65" width="40" height="120" fill="#6366f1"/>
+        <rect x="250" y="135" width="40" height="50" fill="#a5b4fc"/>
+        <rect x="310" y="105" width="40" height="80" fill="#818cf8"/>
+        <line x1="45" y1="105" x2="370" y2="105" stroke="#e11d48" stroke-width="2" stroke-dasharray="6 4"/>
+        <text x="360" y="100" text-anchor="end" font-family="sans-serif" font-size="12" font-weight="700" fill="#be123c">mean</text>
+        <g font-family="sans-serif" font-size="11" fill="#475569" text-anchor="middle">
+          <text x="90" y="202">A</text><text x="150" y="202">B</text><text x="210" y="202">C</text><text x="270" y="202">D</text><text x="330" y="202">E</text>
+        </g>
+        <text x="200" y="222" text-anchor="middle" font-family="sans-serif" font-size="11.5" fill="#334155">mean = sum of values ÷ how many</text>
+      </svg>`,
+    },
+  ],
+
+  "time-speed-distance-explained": [
+    {
+      afterHeading: 1,
+      caption: "On a distance–time graph the slope IS the speed — steeper line, faster motion.",
+      svg: `<svg viewBox="0 0 380 280" xmlns="${S}" role="img" aria-label="Distance-time graph where slope equals speed">
+        <line x1="50" y1="40" x2="50" y2="230" stroke="#334155" stroke-width="1.6"/>
+        <line x1="50" y1="230" x2="350" y2="230" stroke="#334155" stroke-width="1.6"/>
+        <text x="50" y="28" text-anchor="middle" font-family="sans-serif" font-size="11.5" fill="#64748b">distance</text>
+        <text x="350" y="252" text-anchor="end" font-family="sans-serif" font-size="11.5" fill="#64748b">time</text>
+        <line x1="50" y1="230" x2="300" y2="70" stroke="#4f46e5" stroke-width="3"/>
+        <line x1="150" y1="166" x2="260" y2="166" stroke="#0d9488" stroke-width="1.6" stroke-dasharray="5 3"/>
+        <line x1="260" y1="166" x2="260" y2="96" stroke="#0d9488" stroke-width="1.6" stroke-dasharray="5 3"/>
+        <text x="205" y="182" text-anchor="middle" font-family="sans-serif" font-size="11.5" font-weight="700" fill="#0f766e">time</text>
+        <text x="268" y="135" font-family="sans-serif" font-size="11.5" font-weight="700" fill="#0f766e">distance</text>
+        <text x="190" y="258" text-anchor="middle" font-family="sans-serif" font-size="12.5" font-weight="700" fill="#1e293b">slope = distance ÷ time = speed</text>
+      </svg>`,
+    },
+  ],
 };

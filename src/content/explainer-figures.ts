@@ -630,4 +630,173 @@ export const explainerFigures: Record<string, ExplainerFigure[]> = {
       </svg>`,
     },
   ],
+
+  "acids-bases-salts-explained": [
+    {
+      afterHeading: 1,
+      caption: "The pH scale runs 0–14: below 7 is acidic, 7 is neutral, above 7 is basic (alkaline).",
+      svg: `<svg viewBox="0 0 460 170" xmlns="${S}" role="img" aria-label="The pH scale from 0 to 14">
+        <g>
+          <rect x="30" y="55" width="57" height="40" fill="#dc2626"/>
+          <rect x="87" y="55" width="57" height="40" fill="#f97316"/>
+          <rect x="144" y="55" width="57" height="40" fill="#facc15"/>
+          <rect x="201" y="55" width="57" height="40" fill="#22c55e"/>
+          <rect x="258" y="55" width="57" height="40" fill="#14b8a6"/>
+          <rect x="315" y="55" width="57" height="40" fill="#0ea5e9"/>
+          <rect x="372" y="55" width="58" height="40" fill="#6d28d9"/>
+        </g>
+        <g font-family="sans-serif" font-size="11" fill="#334155" text-anchor="middle">
+          <text x="30" y="112">0</text><text x="87" y="112">2</text><text x="144" y="112">4</text><text x="201" y="112">6</text><text x="230" y="112">7</text><text x="258" y="112">8</text><text x="315" y="112">10</text><text x="372" y="112">12</text><text x="430" y="112">14</text>
+        </g>
+        <path d="M230,50 L224,40 L236,40 Z" fill="#111827"/>
+        <text x="230" y="34" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="700" fill="#111827">7 · Neutral</text>
+        <text x="88" y="140" text-anchor="middle" font-family="sans-serif" font-size="12.5" font-weight="700" fill="#b91c1c">← Acidic</text>
+        <text x="372" y="140" text-anchor="middle" font-family="sans-serif" font-size="12.5" font-weight="700" fill="#5b21b6">Basic →</text>
+      </svg>`,
+    },
+  ],
+
+  "mixture-alligation-explained": [
+    {
+      afterHeading: 1,
+      caption: "The alligation cross: subtract diagonally around the mean to get the mixing ratio.",
+      svg: `<svg viewBox="0 0 380 270" xmlns="${S}" role="img" aria-label="Alligation cross diagram">
+        <line x1="110" y1="70" x2="270" y2="200" stroke="#94a3b8" stroke-width="1.4"/>
+        <line x1="270" y1="70" x2="110" y2="200" stroke="#94a3b8" stroke-width="1.4"/>
+        <g font-family="sans-serif" text-anchor="middle">
+          <rect x="55" y="42" width="110" height="34" rx="7" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.6"/><text x="110" y="64" font-size="12.5" font-weight="700" fill="#4338ca">Cheaper (c)</text>
+          <rect x="215" y="42" width="110" height="34" rx="7" fill="#fffbeb" stroke="#d97706" stroke-width="1.6"/><text x="270" y="64" font-size="12.5" font-weight="700" fill="#b45309">Dearer (d)</text>
+          <rect x="135" y="118" width="110" height="34" rx="7" fill="#f1f5f9" stroke="#475569" stroke-width="1.6"/><text x="190" y="140" font-size="12.5" font-weight="700" fill="#334155">Mean (m)</text>
+          <rect x="55" y="194" width="110" height="34" rx="7" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.6"/><text x="110" y="216" font-size="12.5" font-weight="700" fill="#15803d">d − m</text>
+          <rect x="215" y="194" width="110" height="34" rx="7" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.6"/><text x="270" y="216" font-size="12.5" font-weight="700" fill="#15803d">m − c</text>
+          <text x="190" y="256" font-size="12.5" font-weight="700" fill="#1e293b">cheaper : dearer = (d − m) : (m − c)</text>
+        </g>
+      </svg>`,
+    },
+  ],
+
+  "cell-cycle-and-cell-division-explained": [
+    {
+      afterHeading: 1,
+      caption: "The cell cycle: a long interphase (G1 → S → G2) of growth and DNA copying, then M (division).",
+      svg: `<svg viewBox="0 0 320 300" xmlns="${S}" role="img" aria-label="The cell cycle wheel with G1, S, G2 and M phases">
+        <path d="M160,150 L160,60 A90,90 0 0 1 212.9,222.8 Z" fill="#a5b4fc"/>
+        <path d="M160,150 L212.9,222.8 A90,90 0 0 1 74.4,177.8 Z" fill="#6366f1"/>
+        <path d="M160,150 L74.4,177.8 A90,90 0 0 1 107.1,77.2 Z" fill="#818cf8"/>
+        <path d="M160,150 L107.1,77.2 A90,90 0 0 1 160,60 Z" fill="#f59e0b"/>
+        <circle cx="160" cy="150" r="42" fill="#fff"/>
+        <text x="160" y="146" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="700" fill="#334155">Cell</text>
+        <text x="160" y="162" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="700" fill="#334155">cycle</text>
+        <g font-family="sans-serif" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">
+          <text x="205" y="120">G1</text><text x="150" y="215">S</text><text x="95" y="150">G2</text><text x="120" y="92">M</text>
+        </g>
+        <g font-family="sans-serif" font-size="10.5" fill="#475569" text-anchor="middle">
+          <text x="270" y="118">growth</text><text x="150" y="285">DNA copied</text><text x="42" y="150">grow</text><text x="70" y="70">divide</text>
+        </g>
+      </svg>`,
+    },
+  ],
+
+  "compound-interest-explained": [
+    {
+      afterHeading: 1,
+      caption: "Simple interest grows in a straight line; compound interest curves upward as interest earns interest.",
+      svg: `<svg viewBox="0 0 380 260" xmlns="${S}" role="img" aria-label="Simple vs compound interest growth curves">
+        <line x1="50" y1="30" x2="50" y2="215" stroke="#334155" stroke-width="1.6"/>
+        <line x1="50" y1="215" x2="350" y2="215" stroke="#334155" stroke-width="1.6"/>
+        <text x="50" y="24" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#64748b">amount</text>
+        <text x="350" y="235" text-anchor="end" font-family="sans-serif" font-size="11" fill="#64748b">years</text>
+        <path d="M50,170 Q220,150 330,55" fill="none" stroke="#4f46e5" stroke-width="3"/>
+        <line x1="50" y1="170" x2="330" y2="95" stroke="#0d9488" stroke-width="2.5"/>
+        <circle cx="50" cy="170" r="4" fill="#334155"/>
+        <text x="58" y="184" font-family="sans-serif" font-size="10.5" fill="#475569">principal</text>
+        <text x="250" y="60" font-family="sans-serif" font-size="11.5" font-weight="700" fill="#4338ca">compound</text>
+        <text x="250" y="112" font-family="sans-serif" font-size="11.5" font-weight="700" fill="#0f766e">simple</text>
+      </svg>`,
+    },
+  ],
+
+  "chemical-bonding-explained": [
+    {
+      afterHeading: 1,
+      caption: "An ionic bond: sodium gives its single outer electron to chlorine; the opposite ions then attract.",
+      svg: `<svg viewBox="0 0 420 220" xmlns="${S}" role="img" aria-label="Ionic bonding between sodium and chlorine">
+        <circle cx="85" cy="95" r="40" fill="#eef2ff" stroke="#4f46e5" stroke-width="2"/>
+        <text x="85" y="101" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#312e81">Na</text>
+        <circle cx="125" cy="95" r="5" fill="#e11d48"/>
+        <circle cx="320" cy="95" r="44" fill="#ecfdf5" stroke="#16a34a" stroke-width="2"/>
+        <text x="320" y="101" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#166534">Cl</text>
+        <line x1="140" y1="95" x2="255" y2="95" stroke="#e11d48" stroke-width="2.5"/>
+        <path d="M263,95 L249,89 L249,101 Z" fill="#e11d48"/>
+        <text x="200" y="84" text-anchor="middle" font-family="sans-serif" font-size="11.5" font-weight="700" fill="#be123c">gives 1 e⁻</text>
+        <text x="85" y="170" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#4338ca">Na⁺</text>
+        <text x="320" y="170" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#166534">Cl⁻</text>
+        <text x="203" y="170" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#475569">↔</text>
+        <text x="203" y="196" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#475569">opposite charges attract</text>
+      </svg>`,
+    },
+  ],
+
+  "carbon-compounds-explained": [
+    {
+      afterHeading: 1,
+      caption: "Carbon forms four covalent bonds — as in methane (CH₄), one carbon sharing with four hydrogens.",
+      svg: `<svg viewBox="0 0 300 270" xmlns="${S}" role="img" aria-label="Structural formula of methane CH4">
+        <line x1="150" y1="135" x2="150" y2="70" stroke="#334155" stroke-width="2"/>
+        <line x1="150" y1="135" x2="150" y2="200" stroke="#334155" stroke-width="2"/>
+        <line x1="150" y1="135" x2="85" y2="135" stroke="#334155" stroke-width="2"/>
+        <line x1="150" y1="135" x2="215" y2="135" stroke="#334155" stroke-width="2"/>
+        <circle cx="150" cy="135" r="24" fill="#334155"/>
+        <text x="150" y="141" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="700" fill="#fff">C</text>
+        <g font-family="sans-serif" font-size="15" font-weight="700" fill="#0f766e" text-anchor="middle">
+          <circle cx="150" cy="55" r="17" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.6"/><text x="150" y="60">H</text>
+          <circle cx="150" cy="215" r="17" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.6"/><text x="150" y="220">H</text>
+          <circle cx="68" cy="135" r="17" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.6"/><text x="68" y="140">H</text>
+          <circle cx="232" cy="135" r="17" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.6"/><text x="232" y="140">H</text>
+        </g>
+        <text x="150" y="252" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#1e293b">Methane · CH₄</text>
+      </svg>`,
+    },
+  ],
+
+  "ratio-proportion-basics": [
+    {
+      afterHeading: 1,
+      caption: "A ratio splits a whole into equal parts — 3 : 2 means 5 parts, so 20 splits as 12 and 8.",
+      svg: `<svg viewBox="0 0 420 170" xmlns="${S}" role="img" aria-label="A bar divided in the ratio 3 to 2">
+        <rect x="40" y="55" width="204" height="45" fill="#6366f1"/>
+        <rect x="244" y="55" width="136" height="45" fill="#f59e0b"/>
+        <g stroke="#fff" stroke-width="2">
+          <line x1="108" y1="55" x2="108" y2="100"/><line x1="176" y1="55" x2="176" y2="100"/><line x1="312" y1="55" x2="312" y2="100"/>
+        </g>
+        <text x="142" y="45" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#4338ca">3 parts</text>
+        <text x="312" y="45" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#b45309">2 parts</text>
+        <text x="142" y="122" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#4338ca">12</text>
+        <text x="312" y="122" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#b45309">8</text>
+        <text x="210" y="152" text-anchor="middle" font-family="sans-serif" font-size="12.5" font-weight="700" fill="#1e293b">3 : 2 of 20  →  12 : 8</text>
+      </svg>`,
+    },
+  ],
+
+  "human-eye-and-colourful-world-explained": [
+    {
+      afterHeading: 1,
+      caption: "A prism bends each colour by a different amount, splitting white light into the VIBGYOR spectrum.",
+      svg: `<svg viewBox="0 0 420 240" xmlns="${S}" role="img" aria-label="A prism dispersing white light into a spectrum">
+        <line x1="30" y1="110" x2="176" y2="128" stroke="#334155" stroke-width="3"/>
+        <text x="30" y="98" font-family="sans-serif" font-size="11.5" font-weight="700" fill="#334155">white light</text>
+        <polygon points="205,45 150,180 260,180" fill="#e0e7ff" stroke="#6366f1" stroke-width="2" fill-opacity="0.6"/>
+        <g stroke-width="3">
+          <line x1="228" y1="150" x2="405" y2="96" stroke="#ef4444"/>
+          <line x1="228" y1="150" x2="405" y2="112" stroke="#f97316"/>
+          <line x1="228" y1="150" x2="405" y2="128" stroke="#eab308"/>
+          <line x1="228" y1="150" x2="405" y2="144" stroke="#22c55e"/>
+          <line x1="228" y1="150" x2="405" y2="160" stroke="#3b82f6"/>
+          <line x1="228" y1="150" x2="405" y2="176" stroke="#4f46e5"/>
+          <line x1="228" y1="150" x2="405" y2="192" stroke="#8b5cf6"/>
+        </g>
+        <text x="356" y="220" text-anchor="middle" font-family="sans-serif" font-size="11.5" font-weight="700" fill="#334155">spectrum (VIBGYOR)</text>
+      </svg>`,
+    },
+  ],
 };

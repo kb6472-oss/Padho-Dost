@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { prisma } from "@/lib/prisma";
-import { getExplainer, type Block } from "@/content/explainers";
+import { getExplainer, explainers, type Block } from "@/content/explainers";
+import { exams } from "@/lib/exams";
 import { ogImage } from "@/lib/og-meta";
 import ExplainerReader from "@/components/ExplainerReader";
 import JsonLd from "@/components/JsonLd";
@@ -46,6 +47,16 @@ export default async function ExplainerPage({ params }: Props) {
   const updatedLabel = updated
     ? updated.toLocaleDateString("en-IN", { day: "numeric", month: "long", year: "numeric" })
     : null;
+
+  // Wayfinding: the exam this explainer belongs to, and sibling explainers to read
+  // next. Without these, an explainer with no practice test is a dead end — a student
+  // finishes reading and has nowhere to go. Same-subject reads come first.
+  const exam = exams.find((e) => e.slug === content.examSlug && e.status === "live") ?? null;
+  const sameExam = explainers.filter((e) => e.examSlug === content.examSlug && e.slug !== slug);
+  const related = [
+    ...sameExam.filter((e) => e.subjectSlug === content.subjectSlug),
+    ...sameExam.filter((e) => e.subjectSlug !== content.subjectSlug),
+  ].slice(0, 4);
 
   const quizzes = content.blocks.filter((b): b is Extract<Block, { type: "quiz" }> => b.type === "quiz");
   const jsonLd = {
@@ -106,6 +117,15 @@ export default async function ExplainerPage({ params }: Props) {
         {updatedLabel ? ` · Updated ${updatedLabel}` : ""}
       </p>
 
+      {exam && (
+        <Link
+          href={`/exams/${exam.slug}`}
+          className="mt-3 inline-flex items-center gap-1.5 rounded-full border border-border bg-surface px-3 py-1 text-xs font-semibold text-foreground/80 transition-colors hover:border-brand-300 hover:text-brand-700"
+        >
+          <span aria-hidden="true">{exam.emoji}</span> Part of {exam.name} prep
+        </Link>
+      )}
+
       <div className="mt-7">
         <ExplainerReader slug={slug} blocks={content.blocks} />
       </div>
@@ -124,6 +144,29 @@ export default async function ExplainerPage({ params }: Props) {
             Take the practice test →
           </Link>
         </div>
+      )}
+
+      {related.length > 0 && (
+        <section className="mt-12">
+          <h2 className="font-display text-lg font-bold text-foreground">Keep studying</h2>
+          <div className="mt-4 grid gap-3 sm:grid-cols-2">
+            {related.map((r) => (
+              <Link
+                key={r.slug}
+                href={`/study/${r.slug}`}
+                className="group rounded-2xl border border-border bg-background p-4 transition-colors hover:border-brand-300"
+              >
+                <p className="text-[11px] font-semibold uppercase tracking-wide text-muted">{r.readingMinutes} min read</p>
+                <p className="mt-1 text-sm font-semibold leading-snug text-foreground group-hover:text-brand-700">{r.title}</p>
+              </Link>
+            ))}
+          </div>
+          {exam && (
+            <Link href={`/exams/${exam.slug}`} className="mt-4 inline-block text-sm font-semibold text-brand-600 hover:text-brand-700">
+              See all {exam.name} study material →
+            </Link>
+          )}
+        </section>
       )}
     </article>
   );

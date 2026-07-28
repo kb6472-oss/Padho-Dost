@@ -14,7 +14,9 @@ export default function ExplainerReader({ slug, blocks }: { slug: string; blocks
       const scrollable = el.scrollHeight - el.clientHeight;
       const p = scrollable > 0 ? Math.min(100, Math.round((el.scrollTop / scrollable) * 100)) : 100;
       setPct(p);
-      if (p - lastSaved.current >= 25 || (p >= 95 && lastSaved.current < 95)) {
+      // Fire a save at >=90 (the server's DONE cutoff) so a read that ends in the
+      // 90-94% band is deterministically credited, plus on any big scroll jump.
+      if (p - lastSaved.current >= 25 || (p >= 90 && lastSaved.current < 90)) {
         lastSaved.current = p;
         saveReadingProgress(slug, p).catch(() => {});
       }

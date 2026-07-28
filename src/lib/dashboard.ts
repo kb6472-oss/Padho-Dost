@@ -60,7 +60,7 @@ export async function getDashboardData(userId: string) {
       distinct: ["questionId"],
       select: { questionId: true },
     }),
-    prisma.explainerProgress.count({ where: { userId } }),
+    prisma.explainerProgress.count({ where: { userId, status: "DONE" } }),
     getStudyHeatmap(userId),
     prisma.bookmark.count({ where: { userId, questionId: { not: null } } }),
   ]);

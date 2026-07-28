@@ -2,7 +2,7 @@
 
 import { useState, useTransition } from "react";
 import { Bookmark, BookmarkCheck } from "lucide-react";
-import { toggleQuestionBookmark } from "@/lib/bookmark-actions";
+import { setQuestionBookmark } from "@/lib/bookmark-actions";
 
 // Save-for-revision toggle on a question. Optimistic: flips immediately, reconciles
 // with the server result, reverts if the action fails (e.g. session expired).
@@ -26,7 +26,8 @@ export default function BookmarkButton({
         const next = !saved;
         setSaved(next);
         start(async () => {
-          const res = await toggleQuestionBookmark(questionId);
+          // Send the DESIRED state so a stale seed can't invert intent.
+          const res = await setQuestionBookmark(questionId, next);
           setSaved(res.ok ? res.bookmarked : !next);
         });
       }}

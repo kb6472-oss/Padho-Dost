@@ -22,11 +22,13 @@ if [ "${DEPLOY_REEXEC:-}" != "1" ]; then
   exec env DEPLOY_REEXEC=1 bash "$0" "$@"
 fi
 
-echo "==> [1/5] Applying schema + regenerating Prisma client (prisma db push)…"
-# Idempotent — a no-op when the schema already matches. Applies new indexes / unique
-# constraints and REGENERATES the client (src/generated is gitignored), which the app
-# imports and the build type-checks. Uses DIRECT_URL via prisma.config.ts.
+echo "==> [1/5] Applying schema + regenerating Prisma client…"
+# db push is idempotent (no-op when the schema already matches) and applies new
+# indexes / unique constraints via DIRECT_URL. It does NOT reliably re-run the
+# prisma-client generator in this setup, so regenerate the client EXPLICITLY —
+# src/generated is gitignored and the build type-checks against it.
 npx prisma db push
+npx prisma generate
 
 echo "==> [2/5] Building the app (clean .next + npm run build)…"
 rm -rf .next

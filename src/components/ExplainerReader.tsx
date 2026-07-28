@@ -24,22 +24,59 @@ export default function ExplainerReader({ slug, blocks }: { slug: string; blocks
     return () => window.removeEventListener("scroll", onScroll);
   }, [slug]);
 
+  // Give every heading a stable anchor id, and collect them for the contents nav.
+  // Long prose explainers (grammar, polity, GK) are walls of text with no way to
+  // jump around; a short "On this page" list turns the headings into wayfinding.
+  const idByIndex = new Map<number, string>();
+  const headings: { id: string; text: string }[] = [];
+  blocks.forEach((b, i) => {
+    if (b.type === "heading") {
+      const id = `${slugify(b.text)}-${i}`;
+      idByIndex.set(i, id);
+      headings.push({ id, text: b.text });
+    }
+  });
+
   return (
     <>
       <div className="fixed left-0 top-16 z-40 h-1 bg-brand-600 transition-[width] duration-150" style={{ width: `${pct}%` }} />
       <div className="space-y-5">
+        {headings.length >= 4 && <Contents headings={headings} />}
         {blocks.map((b, i) => (
-          <BlockView key={i} block={b} />
+          <BlockView key={i} block={b} headingId={idByIndex.get(i)} />
         ))}
       </div>
     </>
   );
 }
 
-function BlockView({ block }: { block: Block }) {
+function slugify(s: string) {
+  return s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
+}
+
+function Contents({ headings }: { headings: { id: string; text: string }[] }) {
+  return (
+    <nav aria-label="On this page" className="rounded-2xl border border-border bg-surface p-4">
+      <p className="text-xs font-semibold uppercase tracking-wide text-muted">On this page</p>
+      <ul className="mt-2 space-y-1.5">
+        {headings.map((h) => (
+          <li key={h.id} className="flex gap-2 text-[15px]">
+            <span aria-hidden="true" className="text-muted">·</span>
+            <a href={`#${h.id}`} className="font-medium text-brand-700 hover:text-brand-900 hover:underline">
+              {h.text}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </nav>
+  );
+}
+
+function BlockView({ block, headingId }: { block: Block; headingId?: string }) {
   switch (block.type) {
     case "heading":
-      return <h2 className="pt-2 font-display text-xl font-bold tracking-tight text-foreground">{block.text}</h2>;
+      // scroll-mt clears the sticky navbar so an anchor jump lands the heading in view.
+      return <h2 id={headingId} className="scroll-mt-24 pt-2 font-display text-xl font-bold tracking-tight text-foreground">{block.text}</h2>;
     case "para":
       return <p className="text-[15px] leading-relaxed text-foreground/90">{block.text}</p>;
     case "analogy":

@@ -1,6 +1,8 @@
 // Visual explainer content — rich, structured, stored in the repo (free to serve, SEO-friendly).
 // The DB Explainer row holds metadata; the actual content lives here keyed by slug.
 
+import { explainerFigures } from "./explainer-figures";
+
 export type Block =
   | { type: "heading"; text: string }
   | { type: "para"; text: string }
@@ -11,6 +13,7 @@ export type Block =
   | { type: "callout"; tone?: "tip" | "warn" | "info"; text: string }
   | { type: "keypoints"; title?: string; items: string[] }
   | { type: "table"; headers: string[]; rows: string[][] }
+  | { type: "figure"; svg: string; caption?: string }
   | { type: "quiz"; question: string; options: string[]; correct: number; explain: string };
 
 export type ExplainerContent = {
@@ -7778,4 +7781,35 @@ export const explainers: ExplainerContent[] = [
   },
 ];
 
-export const getExplainer = (slug: string) => explainers.find((e) => e.slug === slug);
+// Splice any hand-authored figures for this explainer into its block list.
+// Figures are anchored "after the Nth heading" so they survive edits to the prose,
+// and inserted from the bottom up so earlier insertions don't shift later targets.
+function withFigures(base: ExplainerContent): ExplainerContent {
+  const figs = explainerFigures[base.slug];
+  if (!figs || figs.length === 0) return base;
+
+  const headingIdx: number[] = [];
+  base.blocks.forEach((b, i) => {
+    if (b.type === "heading") headingIdx.push(i);
+  });
+
+  const resolved = figs
+    .map((f) => {
+      const n = f.afterHeading ?? 1;
+      // After the Nth heading; fall back to the top if that heading doesn't exist.
+      const at = headingIdx.length >= n ? headingIdx[n - 1] + 1 : 0;
+      return { fig: f, at };
+    })
+    .sort((a, b) => b.at - a.at);
+
+  const blocks = [...base.blocks];
+  for (const { fig, at } of resolved) {
+    blocks.splice(at, 0, { type: "figure", svg: fig.svg, caption: fig.caption });
+  }
+  return { ...base, blocks };
+}
+
+export const getExplainer = (slug: string) => {
+  const base = explainers.find((e) => e.slug === slug);
+  return base ? withFigures(base) : undefined;
+};

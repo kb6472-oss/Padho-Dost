@@ -136,6 +136,21 @@ function BlockView({ block }: { block: Block }) {
           </table>
         </div>
       );
+    case "figure":
+      return (
+        <figure className="my-1">
+          {/* Build-time authored + validated SVG (no scripts). White plate keeps
+              dark-stroked diagrams legible in both light and dark themes.
+              The [&_svg] utilities force the SVG to scale to the container. */}
+          <div
+            className="mx-auto flex justify-center overflow-x-auto rounded-2xl border border-border bg-white p-4 [&_svg]:h-auto [&_svg]:w-full [&_svg]:max-w-[440px]"
+            dangerouslySetInnerHTML={{ __html: block.svg }}
+          />
+          {block.caption && (
+            <figcaption className="mt-2 text-center text-caption text-muted">{block.caption}</figcaption>
+          )}
+        </figure>
+      );
     case "quiz":
       return <QuizBlock block={block} />;
   }

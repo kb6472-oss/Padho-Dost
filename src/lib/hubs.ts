@@ -9,17 +9,18 @@ import { prisma } from "@/lib/prisma";
 // functions turn that latent structure into real pages, built entirely from
 // content that already exists.
 //
-// MockTest has no chapter FK. But each chapter's practice test is seeded as a
-// single type:"CHAPTER" test whose questions all belong to that one chapter, so
+// MockTest has no chapter FK. But each chapter's test is seeded as a single
+// CHAPTER- or PYQ-type test whose questions all belong to that one chapter, so
 // we map tests to chapters through their first question — one query, no N+1.
+// (FULL tests span a whole subject/exam and are deliberately excluded here.)
 // ─────────────────────────────────────────────────────────────────────────────
 
 type ChapterTestInfo = { id: string; title: string; questions: number; durationMinutes: number };
 
-// exam.id -> (chapter.id -> its practice test). One query for the whole exam.
+// exam.id -> (chapter.id -> its chapter/PYQ test). One query for the whole exam.
 async function chapterTestsForExam(examId: string): Promise<Map<string, ChapterTestInfo>> {
   const tests = await prisma.mockTest.findMany({
-    where: { examId, type: "CHAPTER" },
+    where: { examId, type: { in: ["CHAPTER", "PYQ"] } },
     select: {
       id: true,
       title: true,

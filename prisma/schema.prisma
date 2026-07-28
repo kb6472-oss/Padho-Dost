@@ -286,6 +286,11 @@ model Attempt {
   @@index([userId])
   @@index([anonId])
   @@index([mockTestId])
+  // Index-backs the weekly leaderboard (submittedAt >= now-7d, always with
+  // status='SUBMITTED') and getTestRanking's per-test score comparisons — both were
+  // full scans of the SUBMITTED set before.
+  @@index([status, submittedAt])
+  @@index([mockTestId, status, score])
 }
 
 model Answer {
@@ -350,7 +355,11 @@ model Bookmark {
   explainerId String?
   explainer   Explainer? @relation(fields: [explainerId], references: [id], onDelete: Cascade)
 
-  @@index([userId])
+  // One row per (user, question). Postgres treats NULL questionId as distinct, so
+  // explainer-only bookmarks are unaffected. Makes the toggle a clean atomic upsert
+  // and prevents the duplicate rows the old findFirst→create could produce. The
+  // leading userId column also serves the by-user list/count queries.
+  @@unique([userId, questionId])
 }
 
 // ─────────────────── Progress / personalization ───────────────────

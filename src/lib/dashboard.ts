@@ -9,30 +9,20 @@ export async function getDashboardData(userId: string) {
     orderBy: { submittedAt: "desc" },
   });
 
-  // Per-chapter accuracy (weak areas) from this user's answered questions.
-  const answers = await prisma.answer.findMany({
-    where: {
-      attempt: { userId, status: "SUBMITTED" },
-      selectedOptionId: { not: null },
-    },
-    select: {
-      isCorrect: true,
-      question: { select: { chapter: { select: { id: true, name: true } } } },
-    },
+  // Per-chapter accuracy (weak areas) from the maintained ChapterProgress rollup —
+  // recordTestProgress increments attempted/correct per chapter on each submit, so this
+  // is one indexed read per user instead of scanning every Answer row they ever wrote.
+  const chapterRollup = await prisma.chapterProgress.findMany({
+    where: { userId, questionsAttempted: { gt: 0 } },
+    select: { questionsAttempted: true, questionsCorrect: true, chapter: { select: { name: true } } },
   });
 
-  const byChapter = new Map<string, { name: string; correct: number; total: number }>();
-  for (const a of answers) {
-    const ch = a.question.chapter;
-    if (!ch) continue;
-    const e = byChapter.get(ch.id) ?? { name: ch.name, correct: 0, total: 0 };
-    e.total++;
-    if (a.isCorrect) e.correct++;
-    byChapter.set(ch.id, e);
-  }
-
-  const weakAreas = [...byChapter.values()]
-    .map((e) => ({ name: e.name, accuracy: Math.round((e.correct / e.total) * 100), total: e.total }))
+  const weakAreas = chapterRollup
+    .map((c) => ({
+      name: c.chapter.name,
+      accuracy: Math.round((c.questionsCorrect / c.questionsAttempted) * 100),
+      total: c.questionsAttempted,
+    }))
     .sort((a, b) => a.accuracy - b.accuracy);
 
   const pcts = attempts.map((a) => (a.totalMarks > 0 ? ((a.score ?? 0) / a.totalMarks) * 100 : 0));

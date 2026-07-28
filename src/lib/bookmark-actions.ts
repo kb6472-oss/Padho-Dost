@@ -6,10 +6,9 @@ import { revalidatePath } from "next/cache";
 
 // Set a question's saved-for-revision bookmark to an EXPLICIT desired state. Taking
 // the target (not blindly flipping server state) means a stale optimistic seed can't
-// invert intent. The Bookmark model has no @@unique([userId, questionId]) yet, so:
-//  - unset uses deleteMany (idempotent; also sweeps up any old duplicate rows),
-//  - set validates the question exists (avoids an unhandled FK-violation 500) and
-//    only creates when not already present.
+// invert intent. Backed by the @@unique([userId, questionId]): unset is an idempotent
+// deleteMany, set is an atomic upsert (no duplicate rows possible). The question is
+// validated first so a bad id returns cleanly instead of an unhandled FK 500.
 // Guests are a no-op (ok:false → the button reverts its optimistic flip).
 export async function setQuestionBookmark(
   questionId: string,
@@ -27,8 +26,11 @@ export async function setQuestionBookmark(
 
   const q = await prisma.question.findUnique({ where: { id: questionId }, select: { id: true } });
   if (!q) return { ok: false, bookmarked: false };
-  const existing = await prisma.bookmark.findFirst({ where: { userId: su.id, questionId }, select: { id: true } });
-  if (!existing) await prisma.bookmark.create({ data: { userId: su.id, questionId } });
+  await prisma.bookmark.upsert({
+    where: { userId_questionId: { userId: su.id, questionId } },
+    create: { userId: su.id, questionId },
+    update: {},
+  });
   revalidatePath("/practice/bookmarks");
   return { ok: true, bookmarked: true };
 }

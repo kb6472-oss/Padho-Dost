@@ -21,14 +21,21 @@ echo "==> [1/4] Syncing to origin/main…"
 git fetch origin
 git reset --hard origin/main
 
-echo "==> [2/4] Building the app (clean .next + npm run build)…"
+echo "==> [2/5] Applying schema + regenerating Prisma client (prisma db push)…"
+# Idempotent — a no-op when the schema already matches. Applies new indexes / unique
+# constraints and REGENERATES the client (src/generated is gitignored), which the app
+# imports. Uses DIRECT_URL (session pooler) via prisma.config.ts. Non-destructive
+# changes apply without a prompt; a genuinely destructive diff errors out (set -e).
+npx prisma db push
+
+echo "==> [3/5] Building the app (clean .next + npm run build)…"
 rm -rf .next
 npm run build
 
-echo "==> [3/4] Seeding new content (npm run db:seed)…"
+echo "==> [4/5] Seeding new content (npm run db:seed)…"
 npm run db:seed
 
-echo "==> [4/4] Restarting the app (pm2 restart padhodost)…"
+echo "==> [5/5] Restarting the app (pm2 restart padhodost)…"
 pm2 restart padhodost --update-env
 
 echo "✅ Deployed $(git rev-parse --short HEAD). Live at https://padhodost.com — hard-refresh to see changes."

@@ -259,4 +259,205 @@ export const explainerFigures: Record<string, ExplainerFigure[]> = {
       </svg>`,
     },
   ],
+
+  "coordinate-geometry-explained": [
+    {
+      afterHeading: 1,
+      caption: "Every point is an (x, y) pair; the axes split the plane into four quadrants.",
+      svg: `<svg viewBox="0 0 360 320" xmlns="${S}" role="img" aria-label="Cartesian plane with point P at 3, 2">
+        <g stroke="#eef2ff" stroke-width="1">
+          <line x1="60" y1="20" x2="60" y2="300"/><line x1="90" y1="20" x2="90" y2="300"/><line x1="120" y1="20" x2="120" y2="300"/><line x1="150" y1="20" x2="150" y2="300"/>
+          <line x1="210" y1="20" x2="210" y2="300"/><line x1="240" y1="20" x2="240" y2="300"/><line x1="270" y1="20" x2="270" y2="300"/><line x1="300" y1="20" x2="300" y2="300"/>
+          <line x1="30" y1="70" x2="330" y2="70"/><line x1="30" y1="100" x2="330" y2="100"/><line x1="30" y1="130" x2="330" y2="130"/>
+          <line x1="30" y1="190" x2="330" y2="190"/><line x1="30" y1="220" x2="330" y2="220"/><line x1="30" y1="250" x2="330" y2="250"/>
+        </g>
+        <line x1="24" y1="160" x2="336" y2="160" stroke="#334155" stroke-width="1.6"/>
+        <line x1="180" y1="16" x2="180" y2="304" stroke="#334155" stroke-width="1.6"/>
+        <text x="330" y="176" font-family="sans-serif" font-size="12" fill="#64748b">x</text>
+        <text x="188" y="26" font-family="sans-serif" font-size="12" fill="#64748b">y</text>
+        <g font-family="sans-serif" font-size="12" font-weight="700" fill="#94a3b8">
+          <text x="258" y="52">I (+,+)</text><text x="96" y="52">II (−,+)</text><text x="96" y="278">III (−,−)</text><text x="258" y="278">IV (+,−)</text>
+        </g>
+        <line x1="270" y1="100" x2="270" y2="160" stroke="#e11d48" stroke-width="1" stroke-dasharray="4 3"/>
+        <line x1="180" y1="100" x2="270" y2="100" stroke="#e11d48" stroke-width="1" stroke-dasharray="4 3"/>
+        <circle cx="270" cy="100" r="4.5" fill="#e11d48"/>
+        <text x="278" y="96" font-family="sans-serif" font-size="13" font-weight="700" fill="#be123c">P (3, 2)</text>
+        <g font-family="sans-serif" font-size="10.5" fill="#475569" text-anchor="middle">
+          <text x="210" y="176">1</text><text x="240" y="176">2</text><text x="270" y="176">3</text>
+          <text x="170" y="133">1</text><text x="170" y="103">2</text>
+        </g>
+      </svg>`,
+    },
+  ],
+
+  "triangles-explained": [
+    {
+      afterHeading: 1,
+      caption: "The three interior angles of any triangle always add up to 180°.",
+      svg: `<svg viewBox="0 0 360 270" xmlns="${S}" role="img" aria-label="Triangle showing interior angles sum to 180 degrees">
+        <polygon points="55,215 305,215 175,55" fill="#eef2ff" stroke="#4f46e5" stroke-width="2.5"/>
+        <path d="M85,215 A30,30 0 0 0 78,192" fill="none" stroke="#e11d48" stroke-width="2"/>
+        <path d="M275,215 A30,30 0 0 1 285,190" fill="none" stroke="#0d9488" stroke-width="2"/>
+        <path d="M160,80 A26,26 0 0 0 192,82" fill="none" stroke="#b45309" stroke-width="2"/>
+        <text x="92" y="205" font-family="sans-serif" font-size="14" font-weight="700" fill="#be123c">A</text>
+        <text x="262" y="205" font-family="sans-serif" font-size="14" font-weight="700" fill="#0f766e">B</text>
+        <text x="169" y="100" font-family="sans-serif" font-size="14" font-weight="700" fill="#b45309">C</text>
+        <text x="180" y="252" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#1e293b">∠A + ∠B + ∠C = 180°</text>
+      </svg>`,
+    },
+  ],
+
+  "profit-and-loss-basics": [
+    {
+      afterHeading: 1,
+      caption: "Selling above cost gives profit; the extra length is exactly SP − CP.",
+      svg: `<svg viewBox="0 0 420 200" xmlns="${S}" role="img" aria-label="Bar comparison of cost price and selling price showing profit">
+        <text x="18" y="55" font-family="sans-serif" font-size="12.5" font-weight="700" fill="#334155">Cost Price</text>
+        <rect x="110" y="42" width="200" height="30" rx="4" fill="#6366f1"/>
+        <text x="210" y="62" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#fff">₹800</text>
+        <text x="18" y="118" font-family="sans-serif" font-size="12.5" font-weight="700" fill="#334155">Selling Price</text>
+        <rect x="110" y="105" width="200" height="30" rx="4" fill="#6366f1"/>
+        <rect x="310" y="105" width="50" height="30" rx="4" fill="#10b981"/>
+        <text x="210" y="125" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#fff">₹800</text>
+        <text x="335" y="125" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="700" fill="#fff">+200</text>
+        <text x="335" y="152" text-anchor="middle" font-family="sans-serif" font-size="10.5" font-weight="700" fill="#047857">Profit</text>
+        <text x="110" y="185" font-family="sans-serif" font-size="12.5" font-weight="700" fill="#1e293b">Profit = SP − CP = ₹1000 − ₹800 = ₹200</text>
+      </svg>`,
+    },
+  ],
+
+  "percentages-basics": [
+    {
+      afterHeading: 1,
+      caption: "'Per cent' means 'out of 100' — shade 45 of the 100 squares and you have 45%.",
+      svg: `<svg viewBox="0 0 300 300" xmlns="${S}" role="img" aria-label="Hundred-square grid with 45 squares shaded to show 45 percent">
+        <rect x="50" y="30" width="220" height="88" fill="#6366f1"/>
+        <rect x="50" y="118" width="110" height="22" fill="#6366f1"/>
+        <g stroke="#c7d2fe" stroke-width="1">
+          <line x1="72" y1="30" x2="72" y2="250"/><line x1="94" y1="30" x2="94" y2="250"/><line x1="116" y1="30" x2="116" y2="250"/><line x1="138" y1="30" x2="138" y2="250"/><line x1="160" y1="30" x2="160" y2="250"/><line x1="182" y1="30" x2="182" y2="250"/><line x1="204" y1="30" x2="204" y2="250"/><line x1="226" y1="30" x2="226" y2="250"/><line x1="248" y1="30" x2="248" y2="250"/>
+          <line x1="50" y1="52" x2="270" y2="52"/><line x1="50" y1="74" x2="270" y2="74"/><line x1="50" y1="96" x2="270" y2="96"/><line x1="50" y1="118" x2="270" y2="118"/><line x1="50" y1="140" x2="270" y2="140"/><line x1="50" y1="162" x2="270" y2="162"/><line x1="50" y1="184" x2="270" y2="184"/><line x1="50" y1="206" x2="270" y2="206"/><line x1="50" y1="228" x2="270" y2="228"/>
+        </g>
+        <rect x="50" y="30" width="220" height="220" fill="none" stroke="#4338ca" stroke-width="2"/>
+        <text x="160" y="280" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#1e293b">45 out of 100 = 45%</text>
+      </svg>`,
+    },
+  ],
+
+  "number-series-explained": [
+    {
+      afterHeading: 1,
+      caption: "Find the rule between terms — here the gaps grow +3, +5, +7, +9, so next is +11 = 37.",
+      svg: `<svg viewBox="0 0 470 170" xmlns="${S}" role="img" aria-label="Number series with growing differences">
+        <g font-family="sans-serif">
+          <path d="M60,90 Q97,55 134,90" fill="none" stroke="#94a3b8" stroke-width="1.4"/>
+          <path d="M138,90 Q175,55 212,90" fill="none" stroke="#94a3b8" stroke-width="1.4"/>
+          <path d="M216,90 Q253,55 290,90" fill="none" stroke="#94a3b8" stroke-width="1.4"/>
+          <path d="M294,90 Q331,55 368,90" fill="none" stroke="#94a3b8" stroke-width="1.4"/>
+          <path d="M372,90 Q409,55 446,90" fill="none" stroke="#e11d48" stroke-width="1.6" stroke-dasharray="4 3"/>
+          <g font-size="12" font-weight="700" fill="#475569" text-anchor="middle">
+            <text x="97" y="52">+3</text><text x="175" y="52">+5</text><text x="253" y="52">+7</text><text x="331" y="52">+9</text><text x="409" y="52" fill="#be123c">+11</text>
+          </g>
+          <g>
+            <circle cx="60" cy="103" r="22" fill="#eef2ff" stroke="#4f46e5" stroke-width="2"/><text x="60" y="108" text-anchor="middle" font-size="14" font-weight="700" fill="#4338ca">2</text>
+            <circle cx="138" cy="103" r="22" fill="#eef2ff" stroke="#4f46e5" stroke-width="2"/><text x="138" y="108" text-anchor="middle" font-size="14" font-weight="700" fill="#4338ca">5</text>
+            <circle cx="216" cy="103" r="22" fill="#eef2ff" stroke="#4f46e5" stroke-width="2"/><text x="216" y="108" text-anchor="middle" font-size="14" font-weight="700" fill="#4338ca">10</text>
+            <circle cx="294" cy="103" r="22" fill="#eef2ff" stroke="#4f46e5" stroke-width="2"/><text x="294" y="108" text-anchor="middle" font-size="14" font-weight="700" fill="#4338ca">17</text>
+            <circle cx="372" cy="103" r="22" fill="#eef2ff" stroke="#4f46e5" stroke-width="2"/><text x="372" y="108" text-anchor="middle" font-size="14" font-weight="700" fill="#4338ca">26</text>
+            <circle cx="446" cy="103" r="22" fill="#fef2f2" stroke="#e11d48" stroke-width="2"/><text x="446" y="108" text-anchor="middle" font-size="15" font-weight="700" fill="#be123c">?</text>
+          </g>
+        </g>
+      </svg>`,
+    },
+  ],
+
+  "coding-decoding-explained": [
+    {
+      afterHeading: 1,
+      caption: "Most codes rest on A=1 … Z=26 (or its reverse). Memorise the anchors A, E, J, O, T, Z.",
+      svg: `<svg viewBox="0 0 460 170" xmlns="${S}" role="img" aria-label="Alphabet to number mapping strip">
+        <g font-family="sans-serif" text-anchor="middle">
+          <g font-size="14" font-weight="700">
+            <rect x="24" y="45" width="40" height="40" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.6"/><text x="44" y="71" fill="#4338ca">A</text>
+            <rect x="70" y="45" width="40" height="40" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.6"/><text x="90" y="71" fill="#4338ca">B</text>
+            <rect x="116" y="45" width="40" height="40" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.6"/><text x="136" y="71" fill="#4338ca">C</text>
+            <rect x="162" y="45" width="40" height="40" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.6"/><text x="182" y="71" fill="#4338ca">D</text>
+            <rect x="208" y="45" width="40" height="40" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.6"/><text x="228" y="71" fill="#4338ca">E</text>
+            <text x="286" y="72" font-size="18" fill="#94a3b8">· · ·</text>
+            <rect x="392" y="45" width="40" height="40" rx="6" fill="#fef2f2" stroke="#e11d48" stroke-width="1.6"/><text x="412" y="71" fill="#be123c">Z</text>
+          </g>
+          <g font-size="13" font-weight="700" fill="#0f766e">
+            <text x="44" y="110">1</text><text x="90" y="110">2</text><text x="136" y="110">3</text><text x="182" y="110">4</text><text x="228" y="110">5</text><text x="412" y="110" fill="#be123c">26</text>
+          </g>
+          <text x="230" y="145" font-size="12" font-weight="700" fill="#334155">Reverse: A=26, Z=1 → position n ↔ (27 − n)</text>
+        </g>
+      </svg>`,
+    },
+  ],
+
+  "blood-relations-explained": [
+    {
+      afterHeading: 1,
+      caption: "Draw a family tree — □ male, ○ female, = marriage, | descent. Then read the link.",
+      svg: `<svg viewBox="0 0 420 300" xmlns="${S}" role="img" aria-label="Three generation family tree">
+        <g font-family="sans-serif" text-anchor="middle">
+          <rect x="150" y="30" width="30" height="30" fill="#eef2ff" stroke="#4f46e5" stroke-width="2"/>
+          <circle cx="245" cy="45" r="15" fill="#fdf2f8" stroke="#db2777" stroke-width="2"/>
+          <line x1="180" y1="45" x2="230" y2="45" stroke="#334155" stroke-width="2"/>
+          <text x="165" y="80" font-size="11" fill="#475569">Grandfather</text>
+          <text x="245" y="80" font-size="11" fill="#475569">Grandmother</text>
+          <line x1="203" y1="60" x2="203" y2="98" stroke="#334155" stroke-width="1.6"/>
+          <line x1="120" y1="98" x2="285" y2="98" stroke="#334155" stroke-width="1.6"/>
+          <line x1="120" y1="98" x2="120" y2="112" stroke="#334155" stroke-width="1.6"/>
+          <line x1="285" y1="98" x2="285" y2="112" stroke="#334155" stroke-width="1.6"/>
+          <rect x="105" y="112" width="30" height="30" fill="#eef2ff" stroke="#4f46e5" stroke-width="2"/>
+          <circle cx="200" cy="127" r="15" fill="#fdf2f8" stroke="#db2777" stroke-width="2"/>
+          <line x1="135" y1="127" x2="185" y2="127" stroke="#334155" stroke-width="2"/>
+          <circle cx="285" cy="127" r="15" fill="#fdf2f8" stroke="#db2777" stroke-width="2"/>
+          <text x="120" y="162" font-size="11" fill="#475569">Father</text>
+          <text x="200" y="162" font-size="11" fill="#475569">Mother</text>
+          <text x="285" y="162" font-size="11" fill="#475569">Aunt</text>
+          <line x1="160" y1="142" x2="160" y2="185" stroke="#334155" stroke-width="1.6"/>
+          <line x1="120" y1="185" x2="210" y2="185" stroke="#334155" stroke-width="1.6"/>
+          <line x1="120" y1="185" x2="120" y2="200" stroke="#334155" stroke-width="1.6"/>
+          <line x1="210" y1="185" x2="210" y2="200" stroke="#334155" stroke-width="1.6"/>
+          <circle cx="120" cy="215" r="15" fill="#fef2f2" stroke="#e11d48" stroke-width="2.2"/><text x="120" y="220" font-size="12" font-weight="700" fill="#be123c">You</text>
+          <rect x="195" y="200" width="30" height="30" fill="#eef2ff" stroke="#4f46e5" stroke-width="2"/>
+          <text x="210" y="250" font-size="11" fill="#475569">Brother</text>
+          <g font-size="11.5" fill="#334155" text-anchor="start">
+            <rect x="60" y="268" width="14" height="14" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.6"/><text x="80" y="279" text-anchor="start">male</text>
+            <circle cx="150" cy="275" r="7" fill="#fdf2f8" stroke="#db2777" stroke-width="1.6"/><text x="162" y="279" text-anchor="start">female</text>
+            <text x="240" y="279" text-anchor="start">━ marriage · │ child</text>
+          </g>
+        </g>
+      </svg>`,
+    },
+  ],
+
+  "direction-distance-explained": [
+    {
+      afterHeading: 1,
+      caption: "Sketch each move on a compass; the shortest distance back is the straight-line displacement.",
+      svg: `<svg viewBox="0 0 360 300" xmlns="${S}" role="img" aria-label="Direction sense: walk north then east, displacement is the hypotenuse">
+        <g font-family="sans-serif">
+          <g stroke="#94a3b8" stroke-width="1.4">
+            <line x1="55" y1="30" x2="55" y2="78"/><line x1="31" y1="54" x2="79" y2="54"/>
+          </g>
+          <g font-size="11" font-weight="700" fill="#64748b" text-anchor="middle">
+            <text x="55" y="26">N</text><text x="55" y="92">S</text><text x="86" y="58">E</text><text x="24" y="58">W</text>
+          </g>
+          <line x1="100" y1="245" x2="100" y2="130" stroke="#4f46e5" stroke-width="2.5"/>
+          <path d="M100,122 L94,136 L106,136 Z" fill="#4f46e5"/>
+          <line x1="100" y1="130" x2="255" y2="130" stroke="#4f46e5" stroke-width="2.5"/>
+          <path d="M263,130 L249,124 L249,136 Z" fill="#4f46e5"/>
+          <path d="M100,130 L118,130 L118,148" fill="none" stroke="#334155" stroke-width="1.6"/>
+          <line x1="100" y1="245" x2="255" y2="130" stroke="#e11d48" stroke-width="2" stroke-dasharray="6 4"/>
+          <circle cx="100" cy="245" r="5" fill="#1e293b"/><text x="86" y="262" font-size="12" font-weight="700" fill="#1e293b">Start</text>
+          <circle cx="255" cy="130" r="5" fill="#1e293b"/><text x="262" y="126" font-size="12" font-weight="700" fill="#1e293b">End</text>
+          <text x="80" y="192" font-size="12" font-weight="700" fill="#4338ca" text-anchor="end">3 km N</text>
+          <text x="178" y="122" font-size="12" font-weight="700" fill="#4338ca" text-anchor="middle">4 km E</text>
+          <text x="200" y="205" font-size="12" font-weight="700" fill="#be123c" transform="rotate(-37 200 205)">5 km</text>
+        </g>
+      </svg>`,
+    },
+  ],
 };

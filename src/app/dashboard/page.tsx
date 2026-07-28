@@ -17,7 +17,7 @@ export default async function DashboardPage() {
   const display = toDisplayUser(su);
   const firstName = (display?.name || display?.email || "there").split(" ")[0].split("@")[0];
 
-  const { attempts, weakAreas, stats, streak, enrollments, reading, mistakesCount, badges, heatmap } =
+  const { attempts, weakAreas, stats, streak, enrollments, reading, mistakesCount, bookmarksCount, badges, heatmap } =
     await getDashboardData(su.id);
 
   return (
@@ -107,6 +107,24 @@ export default async function DashboardPage() {
                 </div>
               </div>
               <span className="font-semibold text-rose-600">→</span>
+            </Link>
+          )}
+
+          {bookmarksCount > 0 && (
+            <Link
+              href="/practice/bookmarks"
+              className="mt-4 flex items-center justify-between gap-3 rounded-2xl border border-amber-200 bg-amber-50 p-4 transition-colors hover:bg-amber-100"
+            >
+              <div className="flex items-center gap-3">
+                <span className="text-2xl">🔖</span>
+                <div>
+                  <p className="text-sm font-semibold text-amber-900">Your bookmarks</p>
+                  <p className="text-xs text-amber-700">
+                    {bookmarksCount} question{bookmarksCount > 1 ? "s" : ""} saved for revision
+                  </p>
+                </div>
+              </div>
+              <span className="font-semibold text-amber-600">→</span>
             </Link>
           )}
 

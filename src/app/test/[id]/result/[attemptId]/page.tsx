@@ -8,6 +8,8 @@ import { ANON_COOKIE } from "@/lib/anon";
 import { getTestRanking } from "@/lib/ranking";
 import { BookOpen, Target } from "lucide-react";
 import ShareResult from "@/components/ShareResult";
+import BookmarkButton from "@/components/BookmarkButton";
+import { getBookmarkedQuestionIds } from "@/lib/bookmarks";
 import TrackedLink from "@/components/TrackedLink";
 import { AdSlot } from "@/components/Ads";
 import { ButtonLink } from "@/components/ui/Button";
@@ -168,6 +170,11 @@ export default async function ResultPage({ params }: Props) {
         }),
       ])
     : [null, null];
+
+  // Which reviewed questions the signed-in user has already bookmarked (one query).
+  const bookmarkedIds = user
+    ? await getBookmarkedQuestionIds(user.id, mockTest.questions.map((tq) => tq.question.id))
+    : new Set<string>();
 
   return (
     <div className="mx-auto max-w-3xl px-4 py-10 sm:px-6">
@@ -394,17 +401,20 @@ export default async function ResultPage({ params }: Props) {
                   Question {i + 1}
                   {ans?.timeSpentSec != null ? ` · ⏱️ ${ans.timeSpentSec}s` : ""}
                 </span>
-                <span
-                  className={`rounded-full px-2.5 py-1 text-xs font-semibold ${
-                    status === "correct"
-                      ? "bg-emerald-100 text-emerald-700"
-                      : status === "wrong"
-                        ? "bg-rose-100 text-rose-700"
-                        : "bg-slate-100 text-slate-600"
-                  }`}
-                >
-                  {status === "correct" ? "✓ Correct" : status === "wrong" ? "✗ Wrong" : "— Skipped"}
-                </span>
+                <div className="flex items-center gap-2">
+                  {user && <BookmarkButton questionId={q.id} initialBookmarked={bookmarkedIds.has(q.id)} />}
+                  <span
+                    className={`rounded-full px-2.5 py-1 text-xs font-semibold ${
+                      status === "correct"
+                        ? "bg-emerald-100 text-emerald-700"
+                        : status === "wrong"
+                          ? "bg-rose-100 text-rose-700"
+                          : "bg-slate-100 text-slate-600"
+                    }`}
+                  >
+                    {status === "correct" ? "✓ Correct" : status === "wrong" ? "✗ Wrong" : "— Skipped"}
+                  </span>
+                </div>
               </div>
 
               <p className="mt-2 text-sm font-medium leading-relaxed text-foreground">{q.text}</p>

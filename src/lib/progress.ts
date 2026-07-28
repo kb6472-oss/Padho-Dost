@@ -29,12 +29,16 @@ export async function getStreakSummary(userId: string): Promise<StreakSummary> {
 }
 
 // Log today's study activity + advance the consecutive-IST-day streak.
-export async function bumpStudyStreak(userId: string, questionsAnswered = 0, secondsStudied = 0) {
+export async function bumpStudyStreak(userId: string, questionsAnswered = 0, secondsStudied = 0, explainersRead = 0) {
   const today = istDate();
   await prisma.studyDay.upsert({
     where: { userId_day: { userId, day: today } },
-    update: { questionsAnswered: { increment: questionsAnswered }, secondsStudied: { increment: secondsStudied } },
-    create: { userId, day: today, questionsAnswered, secondsStudied },
+    update: {
+      questionsAnswered: { increment: questionsAnswered },
+      secondsStudied: { increment: secondsStudied },
+      explainersRead: { increment: explainersRead },
+    },
+    create: { userId, day: today, questionsAnswered, secondsStudied, explainersRead },
   });
 
   const user = await prisma.user.findUnique({

@@ -66,7 +66,11 @@ export default async function ResultPage({ params }: Props) {
   const { mockTest } = attempt;
   const answersByQ = new Map(attempt.answers.map((a) => [a.questionId, a]));
   const score = attempt.score ?? 0;
-  const pct = Math.max(0, Math.min(100, mockTest.totalMarks > 0 ? (score / mockTest.totalMarks) * 100 : 0));
+  // Use the attempt's OWN snapshotted totalMarks (stored at submit), not the live
+  // test's, so a historical result stays correct even if the test's marks later change
+  // — and so both sides of the "vs last attempt" delta share denominator semantics.
+  const denom = attempt.totalMarks > 0 ? attempt.totalMarks : mockTest.totalMarks;
+  const pct = Math.max(0, Math.min(100, denom > 0 ? (score / denom) * 100 : 0));
   const accuracy =
     attempt.correctCount + attempt.wrongCount > 0
       ? Math.round((attempt.correctCount / (attempt.correctCount + attempt.wrongCount)) * 100)
@@ -183,7 +187,7 @@ export default async function ResultPage({ params }: Props) {
         <p className="text-caption font-semibold uppercase tracking-wide text-brand-600">Your Score</p>
 
         <div className="mt-4">
-          <ScoreDial pct={Math.round(pct)} score={fmt(score)} total={fmt(mockTest.totalMarks)} />
+          <ScoreDial pct={Math.round(pct)} score={fmt(score)} total={fmt(denom)} />
         </div>
 
         <p className="mt-3 text-body text-muted">{mockTest.title}</p>
@@ -323,7 +327,7 @@ export default async function ResultPage({ params }: Props) {
           testId={mockTest.id}
           testTitle={mockTest.title}
           score={fmt(score)}
-          total={fmt(mockTest.totalMarks)}
+          total={fmt(denom)}
           pct={Math.round(pct)}
           rank={ranking.total > 1 ? ranking.rank : null}
         />

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { getLeaderboard, getMyLeaderboardRow } from "@/lib/leaderboard";
 import { getSessionUser } from "@/lib/auth";
-import { exams } from "@/lib/exams";
+import { liveExams } from "@/lib/exams";
 
 export const metadata: Metadata = {
   title: "Leaderboard",
@@ -11,7 +11,6 @@ export const metadata: Metadata = {
 };
 
 const medal = (rank: number) => (rank === 1 ? "🥇" : rank === 2 ? "🥈" : rank === 3 ? "🥉" : `${rank}`);
-const liveExams = exams.filter((e) => e.status === "live");
 
 function href({ period, exam }: { period?: "week"; exam?: string }) {
   const p = new URLSearchParams();
@@ -66,6 +65,7 @@ export default async function LeaderboardPage({ searchParams }: { searchParams: 
             <Link
               key={p}
               href={href({ period: p === "week" ? "week" : undefined, exam: examSlug })}
+              aria-current={active ? "page" : undefined}
               className={`rounded-full px-4 py-1.5 text-sm font-semibold transition-colors ${
                 active ? "bg-brand-600 text-white" : "border border-border text-muted hover:text-foreground"
               }`}
@@ -80,6 +80,7 @@ export default async function LeaderboardPage({ searchParams }: { searchParams: 
       <div className="mt-3 flex gap-2 overflow-x-auto pb-1">
         <Link
           href={href({ period: weekParam })}
+          aria-current={!examSlug ? "page" : undefined}
           className={`shrink-0 rounded-full px-3 py-1 text-xs font-semibold transition-colors ${
             !examSlug ? "bg-brand-50 text-brand-700 ring-1 ring-brand-200" : "border border-border text-muted hover:text-foreground"
           }`}
@@ -92,6 +93,7 @@ export default async function LeaderboardPage({ searchParams }: { searchParams: 
             <Link
               key={e.slug}
               href={href({ period: weekParam, exam: e.slug })}
+              aria-current={active ? "page" : undefined}
               className={`shrink-0 rounded-full px-3 py-1 text-xs font-semibold transition-colors ${
                 active ? "bg-brand-50 text-brand-700 ring-1 ring-brand-200" : "border border-border text-muted hover:text-foreground"
               }`}
@@ -107,7 +109,7 @@ export default async function LeaderboardPage({ searchParams }: { searchParams: 
           No scores yet{period === "week" ? " this week" : ""} — be the first on the board!
         </p>
       ) : (
-        <div className="mt-6 overflow-hidden rounded-2xl border border-border">
+        <div className="mt-6 overflow-x-auto rounded-2xl border border-border">
           <table className="w-full text-sm">
             <thead>
               <tr className="bg-surface text-xs uppercase tracking-wide text-muted">

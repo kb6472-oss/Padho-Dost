@@ -119,12 +119,20 @@ export async function submitAttempt(input: SubmitInput): Promise<{ attemptId: st
   // A server-side IN_PROGRESS attempt (from cross-device resume) is finalized in place;
   // otherwise a fresh SUBMITTED attempt is created.
   const prior = input.clientAttemptId
-    ? await prisma.attempt.findUnique({ where: { clientAttemptId: input.clientAttemptId }, select: { id: true } })
+    ? await prisma.attempt.findUnique({
+        where: { clientAttemptId: input.clientAttemptId },
+        select: { id: true, userId: true, anonId: true },
+      })
     : null;
+  // Only finalize a prior attempt IN PLACE if it belongs to THIS caller. Without this,
+  // a forged clientAttemptId would let anyone delete another user's answers (deleteMany
+  // below) and re-own their attempt (finalData sets userId/anonId). Server-managed
+  // IN_PROGRESS attempts exist only for logged-in users, so a guest never owns a prior.
+  const ownsPrior = !!prior && (user ? prior.userId === user.id : !!input.anonId && prior.anonId === input.anonId);
 
   let attempt: { id: string };
   try {
-    if (prior) {
+    if (prior && ownsPrior) {
       await prisma.answer.deleteMany({ where: { attemptId: prior.id } });
       attempt = await prisma.attempt.update({
         where: { id: prior.id },
@@ -135,7 +143,9 @@ export async function submitAttempt(input: SubmitInput): Promise<{ attemptId: st
       attempt = await prisma.attempt.create({
         data: {
           mockTestId: test.id,
-          clientAttemptId: input.clientAttemptId ?? null,
+          // Don't reuse a clientAttemptId that maps to someone else's attempt — it would
+          // collide on the unique key. Create an unlinked fresh attempt instead.
+          clientAttemptId: prior ? null : (input.clientAttemptId ?? null),
           ...finalData,
           answers: { create: answerRows },
         },

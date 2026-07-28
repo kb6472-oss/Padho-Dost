@@ -29,9 +29,11 @@ export async function signOut() {
 // Merge a guest's anonymous attempts into the now-logged-in account.
 // The anonId is taken from the server-set httpOnly cookie (set when the guest first
 // submitted) — not blindly from the client — so a user can't claim someone else's guest data.
-export async function claimAnonData(anonId: string): Promise<{ ok: boolean; claimed: number }> {
-  const cookieAnon = (await cookies()).get(ANON_COOKIE)?.value;
-  const claimId = cookieAnon || anonId; // prefer the trusted cookie; fall back for older sessions
+export async function claimAnonData(_anonId?: string): Promise<{ ok: boolean; claimed: number }> {
+  // Trust ONLY the server-set httpOnly cookie — never the client-supplied anonId. With
+  // the old `cookieAnon || anonId` fallback, a logged-in user could pass any guest's
+  // anonId and claim their attempts. The cookie is set for every guest at submit time.
+  const claimId = (await cookies()).get(ANON_COOKIE)?.value;
   if (!claimId) return { ok: false, claimed: 0 };
 
   const supabase = await createClient();

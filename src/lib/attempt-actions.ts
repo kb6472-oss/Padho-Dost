@@ -70,9 +70,17 @@ export async function saveProgress(
   data: { currentQuestionIndex: number; remainingSec: number | null; progressJson: string },
 ): Promise<void> {
   if (!clientAttemptId) return;
+  // Scope the write to the caller's own attempt — otherwise anyone knowing another
+  // user's clientAttemptId could overwrite their in-progress state. Server-managed
+  // attempts exist only for logged-in users, so no session → nothing to save.
+  const supabase = await createClient();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+  if (!user) return;
   try {
     await prisma.attempt.updateMany({
-      where: { clientAttemptId, status: "IN_PROGRESS" },
+      where: { clientAttemptId, status: "IN_PROGRESS", userId: user.id },
       data: {
         currentQuestionIndex: data.currentQuestionIndex,
         remainingSec: data.remainingSec,

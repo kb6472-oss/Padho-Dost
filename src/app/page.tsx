@@ -124,8 +124,8 @@ export default async function Home() {
 
             <p className="mx-auto mt-4 max-w-xl text-body-lg text-muted lg:mx-0">
               Exam-pattern papers, All-India rank and concept-first explainers for{" "}
-              <span className="font-semibold text-foreground">SSC, Banking, Railways, UPSC, JEE, NEET</span> and
-              CBSE boards. No paywall. No sales calls. No catch.
+              <span className="font-semibold text-foreground">SSC, Banking, Railways, UPSC, JEE, NEET & West Bengal exams</span>{" "}
+              plus CBSE boards. No paywall. No sales calls. No catch.
             </p>
 
             <div className="mt-7 flex flex-col items-center gap-3 sm:flex-row lg:items-start">

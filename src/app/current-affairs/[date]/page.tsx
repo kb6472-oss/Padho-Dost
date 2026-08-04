@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { getCurrentAffairs, getCaDigest } from "@/lib/current-affairs";
+import { getCaDigest } from "@/lib/current-affairs";
 import { AdSlot } from "@/components/Ads";
 import CaQuiz from "@/components/CaQuiz";
 
@@ -132,9 +132,12 @@ export default async function CurrentAffairsDatePage({ params }: Props) {
     );
   }
 
-  // ── Fallback: raw headline list. Never indexed, never monetised. ───────────
-  const items = await getCurrentAffairs(date);
-
+  // ── No digest yet ──────────────────────────────────────────────────────────
+  // We deliberately do NOT render the raw fetched headlines. They are an unedited
+  // wire aggregate that can include off-topic / foreign stories, so the ONLY current
+  // affairs PadhoDost ever publishes is the exam-format digest above (written from
+  // the day's India news by the daily build-ca-digest job). Until that runs, show a
+  // clean "check back" state instead of low-quality junk.
   return (
     <div className="mx-auto max-w-3xl px-4 py-12 sm:px-6">
       <p className="text-sm font-semibold uppercase tracking-wide text-brand-600">🗞️ Daily Current Affairs</p>
@@ -143,42 +146,21 @@ export default async function CurrentAffairsDatePage({ params }: Props) {
       </h1>
       <p className="mt-1 text-sm text-muted">{pretty(date)}</p>
 
-      {items.length === 0 ? (
-        <div className="mt-8 rounded-2xl border border-dashed border-border bg-surface p-8 text-center">
-          <div className="text-3xl">🗞️</div>
-          <p className="mt-2 text-sm font-medium text-foreground">No digest for this date yet</p>
-          <p className="mt-1 text-sm text-muted">Fresh current affairs are published every morning — check back soon!</p>
+      <div className="mt-8 rounded-2xl border border-dashed border-border bg-surface p-8 text-center">
+        <div className="text-3xl">🗞️</div>
+        <p className="mt-2 text-sm font-medium text-foreground">Today&apos;s current affairs aren&apos;t ready yet</p>
+        <p className="mt-1 text-sm text-muted">
+          We publish an exam-format digest of the day&apos;s India news every morning — check back soon.
+        </p>
+        <div className="mt-5 flex flex-wrap justify-center gap-2">
+          <Link href="/exams" className="rounded-full bg-brand-600 px-5 py-2.5 text-sm font-semibold text-white hover:bg-brand-700">
+            Browse exams
+          </Link>
+          <Link href={`/gk/${date}`} className="rounded-full border border-border px-5 py-2.5 text-sm font-semibold text-foreground hover:bg-surface">
+            Today&apos;s GK →
+          </Link>
         </div>
-      ) : (
-        <div className="mt-8 space-y-4">
-          <p className="rounded-xl bg-surface p-3 text-sm text-muted">
-            Today&apos;s exam-format digest isn&apos;t ready yet. In the meantime, here are the headlines it
-            will be written from.
-          </p>
-          {items.map((it) => (
-            <article key={it.id} className="rounded-2xl border border-border bg-background p-5">
-              <div className="flex flex-wrap items-center gap-2 text-xs text-muted">
-                {it.source && <span className="font-semibold text-foreground">{it.source}</span>}
-                {it.category && <span className="rounded-full bg-surface px-2 py-0.5 capitalize">{it.category}</span>}
-              </div>
-              <h2 className="mt-1.5 font-display text-base font-semibold text-foreground">{it.title}</h2>
-              {/* Publisher descriptions are deliberately not rendered — headline + attributed link only. */}
-              <a
-                href={it.url}
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                className="mt-2 inline-block text-sm font-medium text-brand-600 hover:underline"
-              >
-                Read at source →
-              </a>
-            </article>
-          ))}
-          <p className="pt-2 text-xs text-muted">
-            Headlines link to the original publishers — PadhoDost is not the publisher and does not
-            reproduce their articles.
-          </p>
-        </div>
-      )}
+      </div>
     </div>
   );
 }

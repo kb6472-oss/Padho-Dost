@@ -9,6 +9,11 @@ export const metadata: Metadata = {
   robots: { index: false, follow: false },
 };
 
+// Dynamic so it re-checks the latest digest date per request (and auto-advances the
+// moment the daily build-ca-digest job publishes a new day) instead of baking the
+// build-day date into a static redirect.
+export const dynamic = "force-dynamic";
+
 export default async function CurrentAffairsIndex() {
   const latest = await getLatestCADate();
   redirect(`/current-affairs/${latest ?? istToday()}`);

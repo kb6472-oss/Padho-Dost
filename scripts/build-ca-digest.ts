@@ -246,6 +246,53 @@ function istDayKey(): string {
   return new Date(Date.now() + 5.5 * 3600_000).toISOString().slice(0, 10);
 }
 
+// Free models sometimes truncate mid-JSON (hit their output cap). Try a strict parse;
+// if it fails, salvage the intro + every COMPLETE fact object (bracket-counted) and
+// drop the incomplete tail + quiz. A partial digest still beats publishing nothing.
+function parseDigestLenient(text: string): Digest | null {
+  try {
+    return JSON.parse(text) as Digest;
+  } catch {
+    /* fall through to salvage */
+  }
+
+  const factsKey = text.indexOf('"facts"');
+  const arrStart = factsKey >= 0 ? text.indexOf("[", factsKey) : -1;
+  if (arrStart < 0) return null;
+
+  const facts: Digest["facts"] = [];
+  let depth = 0, objStart = -1, inStr = false, esc = false;
+  for (let i = arrStart + 1; i < text.length; i++) {
+    const c = text[i];
+    if (inStr) {
+      if (esc) esc = false;
+      else if (c === "\\") esc = true;
+      else if (c === '"') inStr = false;
+      continue;
+    }
+    if (c === '"') inStr = true;
+    else if (c === "{") { if (depth === 0) objStart = i; depth++; }
+    else if (c === "}") {
+      depth--;
+      if (depth === 0 && objStart >= 0) {
+        try { facts.push(JSON.parse(text.slice(objStart, i + 1)) as Digest["facts"][number]); } catch { /* skip broken */ }
+        objStart = -1;
+      }
+    } else if (c === "]" && depth === 0) {
+      break; // facts array closed cleanly
+    }
+  }
+  if (facts.length === 0) return null;
+
+  let intro = "Today's exam-relevant current affairs.";
+  const introMatch = text.match(/"intro"\s*:\s*("(?:[^"\\]|\\.)*")/);
+  if (introMatch) {
+    try { intro = JSON.parse(introMatch[1]) as string; } catch { /* keep default */ }
+  }
+
+  return { intro, facts, quiz: [] };
+}
+
 async function main() {
   if (!USE_OPENROUTER && !process.env.ANTHROPIC_API_KEY) {
     console.error("Set OPENROUTER_API_KEY (free tier) or ANTHROPIC_API_KEY in .env — skipping digest build.");
@@ -275,7 +322,7 @@ async function main() {
     .map((r, i) => `[${i}] ${r.title}${r.summary ? `\n    ${r.summary}` : ""}\n    — ${r.source ?? "unknown source"}`)
     .join("\n\n");
 
-  const userPrompt = `Today is ${dayKey} (IST). Here are today's raw news items as source material:\n\n${sourceBlock}\n\nWrite the exam-format current-affairs digest for this day. Aim for up to 10 facts and up to 5 quiz questions, but include only genuinely exam-relevant items — discard the rest.`;
+  const userPrompt = `Today is ${dayKey} (IST). Here are today's raw news items as source material:\n\n${sourceBlock}\n\nWrite the exam-format current-affairs digest for this day. Aim for up to 6 facts and up to 3 quiz questions, but include only genuinely exam-relevant items — discard the rest. Keep each "detail" to 1–2 tight sentences so the whole JSON stays compact.`;
 
   let generated: Generated;
   try {
@@ -286,11 +333,9 @@ async function main() {
     return;
   }
 
-  let digest: Digest;
-  try {
-    digest = JSON.parse(generated.text) as Digest;
-  } catch (e) {
-    console.error("Response was not valid JSON:", e instanceof Error ? e.message : e, "\n---\n", generated.text.slice(0, 500));
+  const digest = parseDigestLenient(generated.text);
+  if (!digest) {
+    console.error("Could not parse or salvage any facts from the model response:\n---\n", generated.text.slice(0, 500));
     process.exitCode = 1;
     return;
   }

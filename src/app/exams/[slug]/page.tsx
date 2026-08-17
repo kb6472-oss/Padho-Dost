@@ -262,6 +262,12 @@ export default async function ExamDetailPage({ params }: Props) {
               <p className="mt-1 text-sm text-muted">
                 Actual past-exam papers with full solutions — the closest thing to the real exam.
               </p>
+              <Link
+                href={`/exams/${slug}/pyq`}
+                className="mt-3 inline-flex items-center gap-1.5 rounded-full border border-brand-200 bg-brand-50 px-4 py-2 text-sm font-semibold text-brand-700 transition-colors hover:border-brand-400"
+              >
+                🧭 Browse these questions by topic →
+              </Link>
               <div className="mt-4 space-y-3">
                 {pyqTests.map((test) => (
                   <TestCard key={test.id} test={test} />

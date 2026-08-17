@@ -37,10 +37,13 @@ npm run build
 echo "==> [3/6] Seeding new content (npm run db:seed)…"
 npm run db:seed
 
-echo "==> [4/6] Generating sectional (whole-subject) tests…"
+echo "==> [4/6] Generating sectional tests + applying PYQ topics…"
 # Idempotent — upserts one SECTIONAL test per eligible exam-subject from existing
 # questions and rebuilds its question set. Safe to run every deploy.
 npx tsx scripts/generate-sectional-tests.ts
+# Applies the committed PYQ topic classification + backfills year on PYQ questions.
+# Idempotent; needs the Question.topic column that `prisma db push` added above.
+npx tsx scripts/apply-pyq-topics.ts
 
 echo "==> [5/6] Restarting the app (pm2 restart padhodost)…"
 pm2 restart padhodost --update-env

@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { prisma } from "@/lib/prisma";
 import { getDigestDates } from "@/lib/current-affairs";
 import { getSubjectPaths, getChapterPaths } from "@/lib/hubs";
+import { getPyqExams, getPyqTopicPaths } from "@/lib/pyq";
 
 const BASE = "https://padhodost.com";
 
@@ -66,6 +67,23 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.6,
   }));
 
+  // PYQ-by-topic — one index per exam with past papers, plus a page per topic that
+  // groups those questions across years (real Q&A content that ranks for
+  // "<exam> <topic> previous year questions").
+  const [pyqExams, pyqTopicPaths] = await Promise.all([getPyqExams(), getPyqTopicPaths()]);
+  const pyqIndexRoutes: MetadataRoute.Sitemap = pyqExams.map((e) => ({
+    url: `${BASE}/exams/${e.slug}/pyq`,
+    lastModified: now,
+    changeFrequency: "monthly",
+    priority: 0.7,
+  }));
+  const pyqTopicRoutes: MetadataRoute.Sitemap = pyqTopicPaths.map((p) => ({
+    url: `${BASE}/exams/${p.exam}/pyq/${p.topic}`,
+    lastModified: now,
+    changeFrequency: "monthly",
+    priority: 0.6,
+  }));
+
   // Dated /daily and /gk pages stay EXCLUDED and noindex — a single MCQ each
   // (~40 words) is thin inventory. Re-add once they carry the explanation,
   // related explainers and archive nav (Phase 2 of docs/REDESIGN-PLAN.md).
@@ -88,6 +106,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...examRoutes,
     ...subjectRoutes,
     ...chapterRoutes,
+    ...pyqIndexRoutes,
+    ...pyqTopicRoutes,
     ...explainerRoutes,
     ...caRoutes,
   ];

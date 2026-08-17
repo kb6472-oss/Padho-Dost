@@ -34,10 +34,15 @@ echo "==> [2/5] Building the app (clean .next + npm run build)…"
 rm -rf .next
 npm run build
 
-echo "==> [3/5] Seeding new content (npm run db:seed)…"
+echo "==> [3/6] Seeding new content (npm run db:seed)…"
 npm run db:seed
 
-echo "==> [4/5] Restarting the app (pm2 restart padhodost)…"
+echo "==> [4/6] Generating sectional (whole-subject) tests…"
+# Idempotent — upserts one SECTIONAL test per eligible exam-subject from existing
+# questions and rebuilds its question set. Safe to run every deploy.
+npx tsx scripts/generate-sectional-tests.ts
+
+echo "==> [5/6] Restarting the app (pm2 restart padhodost)…"
 pm2 restart padhodost --update-env
 
-echo "==> [5/5] ✅ Deployed $(git rev-parse --short HEAD). Live at https://padhodost.com — hard-refresh to see changes."
+echo "==> [6/6] ✅ Deployed $(git rev-parse --short HEAD). Live at https://padhodost.com — hard-refresh to see changes."

@@ -39,6 +39,7 @@ enum TestType {
   FULL
   PYQ
   DAILY
+  SECTIONAL
 }
 
 enum AttemptStatus {

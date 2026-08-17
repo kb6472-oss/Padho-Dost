@@ -71,6 +71,21 @@ export default async function SubjectHubPage({ params }: Props) {
         </p>
       </header>
 
+      {hub.sectional && (
+        <Link
+          href={`/test/${hub.sectional.id}`}
+          className="mt-6 flex items-center justify-between gap-3 rounded-2xl border border-brand-200 bg-brand-50 p-4 transition-colors hover:border-brand-400"
+        >
+          <div>
+            <p className="font-display text-base font-bold text-brand-900">🎯 Full {hub.subject.name} section test</p>
+            <p className="mt-0.5 text-sm text-brand-700">
+              {hub.sectional.questions} questions across the whole section · {hub.sectional.durationMinutes} min · one timed test
+            </p>
+          </div>
+          <span className="shrink-0 font-semibold text-brand-600">Start →</span>
+        </Link>
+      )}
+
       <ul className="mt-8 space-y-3">
         {hub.chapters.map((c) => (
           <li key={c.slug}>

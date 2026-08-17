@@ -55,6 +55,35 @@ export async function getLatestCADate(): Promise<string | null> {
   }
 }
 
+// All published digests in a calendar month ("YYYY-MM"), oldest-first, with their
+// facts — for the monthly current-affairs compilation (a high-intent revision page).
+export async function getCaMonth(month: string) {
+  if (!/^\d{4}-\d{2}$/.test(month)) return null;
+  const start = new Date(`${month}-01T00:00:00Z`);
+  const end = new Date(start);
+  end.setUTCMonth(end.getUTCMonth() + 1);
+  try {
+    return await prisma.caDigest.findMany({
+      where: { day: { gte: start, lt: end } },
+      orderBy: { day: "asc" },
+      include: { facts: { orderBy: { order: "asc" } } },
+    });
+  } catch {
+    return null;
+  }
+}
+
+// Distinct months (newest-first, "YYYY-MM") that have at least one digest — powers the
+// monthly compilation's prev/next nav and the archive listing.
+export async function getDigestMonths(): Promise<string[]> {
+  try {
+    const rows = await prisma.caDigest.findMany({ select: { day: true }, orderBy: { day: "desc" } });
+    return [...new Set(rows.map((r) => r.day.toISOString().slice(0, 7)))];
+  } catch {
+    return [];
+  }
+}
+
 // Recent days that actually have a digest — for the sitemap (only real content).
 // Defensive: if the table isn't migrated yet, return [] rather than breaking the sitemap.
 export async function getRecentCADates(limit = 14): Promise<string[]> {

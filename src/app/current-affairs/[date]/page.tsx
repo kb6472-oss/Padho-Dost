@@ -62,6 +62,12 @@ export default async function CurrentAffairsDatePage({ params }: Props) {
           {digest.facts.length} exam-relevant updates
           {digest.quiz.length > 0 ? ` · ${digest.quiz.length}-question quiz` : ""}
         </p>
+        <Link
+          href={`/current-affairs/month/${date.slice(0, 7)}`}
+          className="mt-2 inline-block text-sm font-semibold text-brand-600 hover:text-brand-700"
+        >
+          📚 See the whole month&apos;s current affairs →
+        </Link>
 
         <div className="mt-8 space-y-5">
           {digest.facts.map((f, i) => (

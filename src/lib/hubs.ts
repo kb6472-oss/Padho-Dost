@@ -115,7 +115,7 @@ export const getChapterHub = cache(async (examSlug: string, subjectSlug: string,
   });
   if (!chapter || chapter._count.questions === 0) return null;
 
-  const [difficulty, testByChapter, siblingsRaw] = await Promise.all([
+  const [difficulty, testByChapter, siblingsRaw, sampleRaw] = await Promise.all([
     prisma.question.groupBy({
       by: ["difficulty"],
       where: { chapterId: chapter.id },
@@ -128,6 +128,22 @@ export const getChapterHub = cache(async (examSlug: string, subjectSlug: string,
       orderBy: [{ order: "asc" }, { name: "asc" }],
       select: { slug: true, name: true },
     }),
+    // A bounded, deterministic set of fully-solved MCQs to render ON the page —
+    // real indexable Q&A text (what long-tail "…questions with answers" searches
+    // land on). createdAt order keeps the sample stable (cacheable); the full bank
+    // stays behind the timed test.
+    prisma.question.findMany({
+      where: { chapterId: chapter.id, type: "MCQ", explanation: { not: null }, options: { some: { isCorrect: true } } },
+      orderBy: { createdAt: "asc" },
+      take: 8,
+      select: {
+        id: true,
+        text: true,
+        explanation: true,
+        difficulty: true,
+        options: { orderBy: { order: "asc" }, select: { text: true, isCorrect: true } },
+      },
+    }),
   ]);
 
   const diff = { EASY: 0, MEDIUM: 0, HARD: 0 } as Record<string, number>;
@@ -137,6 +153,17 @@ export const getChapterHub = cache(async (examSlug: string, subjectSlug: string,
   const prev = idx > 0 ? siblingsRaw[idx - 1] : null;
   const next = idx >= 0 && idx < siblingsRaw.length - 1 ? siblingsRaw[idx + 1] : null;
 
+  // Keep only well-formed solved examples: exactly-usable MCQs with a marked answer.
+  const sampleQuestions = sampleRaw
+    .filter((q) => q.options.length >= 2 && q.options.some((o) => o.isCorrect) && !!q.explanation)
+    .map((q) => ({
+      id: q.id,
+      text: q.text,
+      explanation: q.explanation as string,
+      difficulty: q.difficulty,
+      options: q.options.map((o) => ({ text: o.text, isCorrect: o.isCorrect })),
+    }));
+
   return {
     exam: chapter.exam,
     subject: chapter.subject,
@@ -145,6 +172,7 @@ export const getChapterHub = cache(async (examSlug: string, subjectSlug: string,
     difficulty: diff,
     explainers: chapter.explainers,
     test: testByChapter.get(chapter.id) ?? null,
+    sampleQuestions,
     siblings: siblingsRaw,
     prev,
     next,

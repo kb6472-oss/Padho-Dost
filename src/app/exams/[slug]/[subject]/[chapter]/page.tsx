@@ -50,9 +50,41 @@ export default async function ChapterHubPage({ params }: Props) {
     .map((k) => ({ k, n: hub.difficulty[k] ?? 0 }))
     .filter((r) => r.n > 0);
 
+  // schema.org Quiz → eligible for Google's "Practice problems" rich result. Built
+  // from the same solved MCQs shown on the page, so the markup never diverges.
+  const quizLd =
+    hub.sampleQuestions.length > 0
+      ? {
+          "@context": "https://schema.org",
+          "@type": "Quiz",
+          name: `${hub.chapter.name} — Practice Questions with Answers`,
+          about: { "@type": "Thing", name: hub.chapter.name },
+          educationalAlignment: [
+            { "@type": "AlignmentObject", alignmentType: "educationalSubject", targetName: hub.subject.name },
+          ],
+          hasPart: hub.sampleQuestions.map((q) => {
+            const correct = q.options.find((o) => o.isCorrect)!;
+            return {
+              "@type": "Question",
+              eduQuestionType: "Multiple choice",
+              text: q.text,
+              suggestedAnswer: q.options
+                .filter((o) => !o.isCorrect)
+                .map((o, i) => ({ "@type": "Answer", position: i, text: o.text })),
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: correct.text,
+                comment: { "@type": "Comment", text: q.explanation },
+              },
+            };
+          }),
+        }
+      : null;
+
   return (
     <div className="mx-auto max-w-3xl px-4 py-10 sm:px-6">
       <JsonLd data={breadcrumb} />
+      {quizLd && <JsonLd data={quizLd} />}
 
       <nav aria-label="Breadcrumb" className="text-caption text-muted">
         <ol className="flex flex-wrap items-center gap-1.5">
@@ -122,6 +154,66 @@ export default async function ChapterHubPage({ params }: Props) {
               </div>
             ))}
           </div>
+        </section>
+      )}
+
+      {/* Solved practice questions — real, indexable Q&A on the page. The answer +
+          solution live inside <details> (self-test UX) but stay in the HTML so
+          crawlers index them; only a bounded sample shows, the rest is in the test. */}
+      {hub.sampleQuestions.length > 0 && (
+        <section className="mt-10">
+          <h2 className="font-display text-h3 font-bold text-foreground">
+            {hub.chapter.name} — solved practice questions
+          </h2>
+          <p className="mt-1.5 text-body text-muted">
+            {hub.sampleQuestions.length} {hub.exam.shortName} {hub.subject.name} questions with step-by-step
+            solutions. Attempt each, then reveal the answer.
+          </p>
+          <ol className="mt-5 space-y-4">
+            {hub.sampleQuestions.map((q, i) => {
+              const correctIdx = q.options.findIndex((o) => o.isCorrect);
+              const correctLetter = String.fromCharCode(65 + correctIdx);
+              return (
+                <li key={q.id} className="surface-1 p-5">
+                  <div className="flex items-center justify-between gap-3">
+                    <span className="text-caption font-semibold text-muted">Q{i + 1}</span>
+                    <span className="text-caption capitalize text-muted">{q.difficulty.toLowerCase()}</span>
+                  </div>
+                  <p className="mt-2 text-body font-medium leading-relaxed text-foreground">{q.text}</p>
+                  <ul className="mt-3 space-y-2">
+                    {q.options.map((o, oi) => (
+                      <li
+                        key={oi}
+                        className="flex items-start gap-3 rounded-xl border border-border bg-background p-3 text-body"
+                      >
+                        <span className="flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-surface text-caption font-bold text-muted">
+                          {String.fromCharCode(65 + oi)}
+                        </span>
+                        <span className="flex-1">{o.text}</span>
+                      </li>
+                    ))}
+                  </ul>
+                  <details className="mt-3 rounded-xl bg-brand-50 p-3.5">
+                    <summary className="cursor-pointer text-body font-semibold text-brand-700">
+                      Show answer &amp; solution
+                    </summary>
+                    <p className="mt-2 text-body font-semibold text-emerald-700">
+                      Correct answer: ({correctLetter}) {q.options[correctIdx]?.text}
+                    </p>
+                    <p className="mt-2 text-body leading-relaxed text-brand-900">{q.explanation}</p>
+                  </details>
+                </li>
+              );
+            })}
+          </ol>
+          {hub.test && (
+            <p className="mt-4 text-body text-muted">
+              Want the full set?{" "}
+              <Link href={`/test/${hub.test.id}`} className="font-semibold text-brand-600 hover:text-brand-700">
+                Practise all {hub.questions} {hub.chapter.name} questions →
+              </Link>
+            </p>
+          )}
         </section>
       )}
 

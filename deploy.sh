@@ -47,6 +47,9 @@ npx tsx scripts/apply-pyq-topics.ts
 # Applies committed Bengali translations to the WB-vertical PYQ (Question/Option .textBn).
 # Idempotent; needs the *.textBn columns that `prisma db push` added above.
 npx tsx scripts/apply-pyq-bengali.ts
+# Seeds the CDS (Defence) previous-year paper from committed key-verified data.
+# Idempotent (deterministic ids); needs the cds exam that db:seed created above.
+npx tsx scripts/seed-pyq-cds.ts
 
 echo "==> [5/6] Restarting the app (pm2 restart padhodost)…"
 pm2 restart padhodost --update-env

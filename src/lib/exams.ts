@@ -98,6 +98,15 @@ export const exams: Exam[] = [
     chip: "bg-teal-100 text-teal-700",
   },
   {
+    slug: "cds",
+    name: "CDS (Defence)",
+    short: "CDS",
+    emoji: "🎖️",
+    blurb: "Combined Defence Services (IMA / OTA / Navy / Air Force) — General Knowledge, with real UPSC previous-year papers.",
+    status: "live",
+    chip: "bg-slate-100 text-slate-700",
+  },
+  {
     slug: "wbcs",
     name: "WBCS (West Bengal)",
     short: "WBCS",

@@ -44,6 +44,9 @@ npx tsx scripts/generate-sectional-tests.ts
 # Applies the committed PYQ topic classification + backfills year on PYQ questions.
 # Idempotent; needs the Question.topic column that `prisma db push` added above.
 npx tsx scripts/apply-pyq-topics.ts
+# Applies committed Bengali translations to the WB-vertical PYQ (Question/Option .textBn).
+# Idempotent; needs the *.textBn columns that `prisma db push` added above.
+npx tsx scripts/apply-pyq-bengali.ts
 
 echo "==> [5/6] Restarting the app (pm2 restart padhodost)…"
 pm2 restart padhodost --update-env

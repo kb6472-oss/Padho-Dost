@@ -63,10 +63,12 @@ export const getPyqTopicsForExam = cache(async (examSlug: string) => {
 export type PyqSolvedQuestion = {
   id: string;
   text: string;
+  textBn: string | null;
   explanation: string | null;
+  explanationBn: string | null;
   year: number | null;
   paper: string | null;
-  options: { text: string; isCorrect: boolean }[];
+  options: { text: string; textBn: string | null; isCorrect: boolean }[];
 };
 
 // All PYQs of one topic within one exam, newest year first — for the topic page.
@@ -86,10 +88,12 @@ export const getPyqTopicQuestions = cache(async (examSlug: string, topicSlug: st
     select: {
       id: true,
       text: true,
+      textBn: true,
       explanation: true,
+      explanationBn: true,
       year: true,
       chapter: { select: { name: true } },
-      options: { orderBy: { order: "asc" }, select: { text: true, isCorrect: true } },
+      options: { orderBy: { order: "asc" }, select: { text: true, textBn: true, isCorrect: true } },
     },
   });
   if (rows.length === 0) return null;
@@ -97,7 +101,9 @@ export const getPyqTopicQuestions = cache(async (examSlug: string, topicSlug: st
   const questions: PyqSolvedQuestion[] = rows.map((q) => ({
     id: q.id,
     text: q.text,
+    textBn: q.textBn,
     explanation: q.explanation,
+    explanationBn: q.explanationBn,
     year: q.year,
     paper: q.chapter?.name ?? null,
     options: q.options,

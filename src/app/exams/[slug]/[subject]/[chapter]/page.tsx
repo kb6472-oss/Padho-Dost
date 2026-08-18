@@ -6,6 +6,7 @@ import { getChapterHub } from "@/lib/hubs";
 import { ogImage } from "@/lib/og-meta";
 import JsonLd from "@/components/JsonLd";
 import { ButtonLink } from "@/components/ui/Button";
+import { Bn } from "@/components/Bengali";
 
 type Props = { params: Promise<{ slug: string; subject: string; chapter: string }> };
 
@@ -180,6 +181,7 @@ export default async function ChapterHubPage({ params }: Props) {
                     <span className="text-caption capitalize text-muted">{q.difficulty.toLowerCase()}</span>
                   </div>
                   <p className="mt-2 text-body font-medium leading-relaxed text-foreground">{q.text}</p>
+                  <Bn className="mt-1.5 block text-body leading-relaxed text-muted">{q.textBn}</Bn>
                   <ul className="mt-3 space-y-2">
                     {q.options.map((o, oi) => (
                       <li
@@ -189,7 +191,10 @@ export default async function ChapterHubPage({ params }: Props) {
                         <span className="flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-surface text-caption font-bold text-muted">
                           {String.fromCharCode(65 + oi)}
                         </span>
-                        <span className="flex-1">{o.text}</span>
+                        <span className="flex-1">
+                          {o.text}
+                          <Bn className="mt-0.5 block text-muted">{o.textBn}</Bn>
+                        </span>
                       </li>
                     ))}
                   </ul>
@@ -201,6 +206,7 @@ export default async function ChapterHubPage({ params }: Props) {
                       Correct answer: ({correctLetter}) {q.options[correctIdx]?.text}
                     </p>
                     <p className="mt-2 text-body leading-relaxed text-brand-900">{q.explanation}</p>
+                    <Bn className="mt-2 block leading-relaxed text-brand-900/80">{q.explanationBn}</Bn>
                   </details>
                 </li>
               );

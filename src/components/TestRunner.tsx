@@ -6,9 +6,10 @@ import { submitAttempt } from "@/lib/test-actions";
 import { startAttempt, saveProgress } from "@/lib/attempt-actions";
 import { track } from "@/lib/analytics";
 import Modal from "@/components/ui/Modal";
+import { Bn } from "@/components/Bengali";
 
-type Opt = { id: string; text: string };
-type Q = { id: string; text: string; marks: number; negativeMarks: number; options: Opt[] };
+type Opt = { id: string; text: string; textBn?: string | null };
+type Q = { id: string; text: string; textBn?: string | null; marks: number; negativeMarks: number; options: Opt[] };
 export type RunnerTest = {
   id: string;
   title: string;
@@ -469,6 +470,7 @@ export default function TestRunner({ test }: { test: RunnerTest }) {
         </div>
 
         <p className="mt-4 text-body-lg font-medium leading-relaxed text-foreground">{q.text}</p>
+        <Bn className="mt-2 block text-body-lg leading-relaxed text-muted">{q.textBn}</Bn>
 
         {/* Options are a radiogroup, not a pile of buttons. Previously a screen
             reader announced four unrelated buttons with no indication that they
@@ -497,7 +499,10 @@ export default function TestRunner({ test }: { test: RunnerTest }) {
                 >
                   {String.fromCharCode(65 + i)}
                 </span>
-                <span className="flex-1 font-medium">{o.text}</span>
+                <span className="flex-1 font-medium">
+                  {o.text}
+                  <Bn className="mt-0.5 block font-normal text-muted">{o.textBn}</Bn>
+                </span>
                 {/* Selection is not signalled by colour alone. */}
                 {active && (
                   <span aria-hidden="true" className="shrink-0 text-body font-bold text-brand-600">

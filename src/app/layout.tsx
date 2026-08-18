@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Inter, Poppins } from "next/font/google";
+import { Inter, Poppins, Noto_Sans_Bengali } from "next/font/google";
 import "./globals.css";
 import { SiteHeader, SiteFooter } from "@/components/SiteChrome";
 import JsonLd from "@/components/JsonLd";
@@ -55,6 +55,15 @@ const poppins = Poppins({
   display: "swap",
 });
 
+// Bengali script for the WB-vertical bilingual layer (translated PYQ questions).
+// Loaded once; applied only to Bengali spans via the `--font-bengali` variable.
+const notoBengali = Noto_Sans_Bengali({
+  subsets: ["bengali"],
+  weight: ["400", "500", "600"],
+  variable: "--font-bengali",
+  display: "swap",
+});
+
 export const metadata: Metadata = {
   metadataBase: new URL("https://padhodost.com"),
   alternates: { canonical: "/" },
@@ -102,7 +111,7 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en-IN" className={`${inter.variable} ${poppins.variable} antialiased`}>
+    <html lang="en-IN" className={`${inter.variable} ${poppins.variable} ${notoBengali.variable} antialiased`}>
       <body className="flex min-h-screen flex-col bg-background font-sans text-foreground">
         <JsonLd data={siteJsonLd} />
         <Analytics />

@@ -24,9 +24,10 @@ export default async function TestPage({ params }: Props) {
             select: {
               id: true,
               text: true,
+              textBn: true,
               marks: true,
               negativeMarks: true,
-              options: { select: { id: true, text: true }, orderBy: { order: "asc" } },
+              options: { select: { id: true, text: true, textBn: true }, orderBy: { order: "asc" } },
             },
           },
         },

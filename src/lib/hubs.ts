@@ -139,9 +139,11 @@ export const getChapterHub = cache(async (examSlug: string, subjectSlug: string,
       select: {
         id: true,
         text: true,
+        textBn: true,
         explanation: true,
+        explanationBn: true,
         difficulty: true,
-        options: { orderBy: { order: "asc" }, select: { text: true, isCorrect: true } },
+        options: { orderBy: { order: "asc" }, select: { text: true, textBn: true, isCorrect: true } },
       },
     }),
   ]);
@@ -159,9 +161,11 @@ export const getChapterHub = cache(async (examSlug: string, subjectSlug: string,
     .map((q) => ({
       id: q.id,
       text: q.text,
+      textBn: q.textBn,
       explanation: q.explanation as string,
+      explanationBn: q.explanationBn,
       difficulty: q.difficulty,
-      options: q.options.map((o) => ({ text: o.text, isCorrect: o.isCorrect })),
+      options: q.options.map((o) => ({ text: o.text, textBn: o.textBn, isCorrect: o.isCorrect })),
     }));
 
   return {

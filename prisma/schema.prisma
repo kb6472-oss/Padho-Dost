@@ -175,6 +175,8 @@ model Question {
   numericAnswer Float? // when type = NUMERIC
   year          Int? // when sourced from a previous-year paper
   topic         String? // syllabus topic slug for PYQ grouping (e.g. "polity") — see src/lib/pyq-topics.ts
+  textBn        String? // Bengali translation of `text` (WB vertical bilingual layer) — see scripts/apply-pyq-bengali.ts
+  explanationBn String? // Bengali translation of `explanation`
 
   examId    String
   exam      Exam     @relation(fields: [examId], references: [id], onDelete: Cascade)
@@ -200,6 +202,7 @@ model Question {
 model Option {
   id        String  @id @default(cuid())
   text      String
+  textBn    String? // Bengali translation of `text` (WB vertical bilingual layer)
   isCorrect Boolean @default(false)
   order     Int     @default(0)
 

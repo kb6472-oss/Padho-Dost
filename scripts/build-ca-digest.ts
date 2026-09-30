@@ -32,6 +32,25 @@ const MODEL =
   process.env.CA_DIGEST_MODEL ??
   (USE_OPENROUTER ? "google/gemma-4-26b-a4b-it:free" : "claude-opus-4-8");
 
+// Free models are flaky (upstream 429s, empty or truncated replies) — a single
+// model failing used to silently skip the whole day. Try the primary model, then
+// these fallbacks, each twice. Override with CA_DIGEST_FALLBACKS="a:free,b:free".
+const DEFAULT_FALLBACKS = [
+  "google/gemma-4-31b-it:free",
+  "qwen/qwen3.8-27b:free",
+  "nvidia/nemotron-3-super-120b-a12b:free",
+];
+const MODELS = USE_OPENROUTER
+  ? [
+      ...new Set([
+        MODEL,
+        ...(process.env.CA_DIGEST_FALLBACKS?.split(",").map((s) => s.trim()).filter(Boolean) ?? DEFAULT_FALLBACKS),
+      ]),
+    ]
+  : [MODEL];
+
+const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
+
 const CATEGORIES = [
   "Appointments",
   "Schemes & Policy",
@@ -176,7 +195,7 @@ function extractJson(s: string): string {
   return start >= 0 && end > start ? body.slice(start, end + 1) : body;
 }
 
-async function viaOpenRouter(system: string, user: string): Promise<Generated> {
+async function viaOpenRouter(model: string, system: string, user: string): Promise<Generated> {
   const res = await fetch("https://openrouter.ai/api/v1/chat/completions", {
     method: "POST",
     headers: {
@@ -186,7 +205,7 @@ async function viaOpenRouter(system: string, user: string): Promise<Generated> {
       "X-Title": "PadhoDost CA Digest",
     },
     body: JSON.stringify({
-      model: MODEL,
+      model,
       temperature: 0.3,
       max_tokens: 8000,
       messages: [
@@ -207,7 +226,7 @@ async function viaOpenRouter(system: string, user: string): Promise<Generated> {
   if (!content) throw new Error(`OpenRouter returned no content: ${JSON.stringify(data).slice(0, 300)}`);
   return {
     text: extractJson(content),
-    model: data.model ?? MODEL,
+    model: data.model ?? model,
     usage: { input: data.usage?.prompt_tokens ?? 0, output: data.usage?.completion_tokens ?? 0 },
   };
 }
@@ -299,7 +318,10 @@ async function main() {
     process.exit(1);
   }
 
-  const dayKey = istDayKey();
+  // Optional YYYY-MM-DD argument targets a past day (testing / backfilling missed
+  // days); with no argument it builds today's (IST) digest, as the cron does.
+  const argDay = process.argv.slice(2).find((a) => /^\d{4}-\d{2}-\d{2}$/.test(a));
+  const dayKey = argDay ?? istDayKey();
   const day = new Date(dayKey);
 
   const existing = await prisma.caDigest.findUnique({ where: { day } });
@@ -324,18 +346,36 @@ async function main() {
 
   const userPrompt = `Today is ${dayKey} (IST). Here are today's raw news items as source material:\n\n${sourceBlock}\n\nWrite the exam-format current-affairs digest for this day. Aim for up to 6 facts and up to 3 quiz questions, but include only genuinely exam-relevant items — discard the rest. Keep each "detail" to 1–2 tight sentences so the whole JSON stays compact.`;
 
-  let generated: Generated;
-  try {
-    generated = USE_OPENROUTER ? await viaOpenRouter(SYSTEM, userPrompt) : await viaAnthropic(SYSTEM, userPrompt);
-  } catch (e) {
-    console.error("Model call failed:", e instanceof Error ? e.message : e);
-    process.exitCode = 1;
-    return;
+  // Try each model (primary first) twice; accept the first reply that parses AND
+  // has facts. A parsed-but-empty reply is kept only as a last resort, so a
+  // genuinely quiet news day still behaves as before.
+  let generated: Generated | null = null;
+  let digest: ReturnType<typeof parseDigestLenient> = null;
+  let emptyFallback: { g: Generated; d: NonNullable<ReturnType<typeof parseDigestLenient>> } | null = null;
+  const failures: string[] = [];
+  for (const m of MODELS) {
+    for (let attempt = 1; attempt <= 2; attempt++) {
+      try {
+        const g = USE_OPENROUTER ? await viaOpenRouter(m, SYSTEM, userPrompt) : await viaAnthropic(SYSTEM, userPrompt);
+        const d = parseDigestLenient(g.text);
+        if (d && (d.facts?.length ?? 0) > 0) {
+          generated = g;
+          digest = d;
+          break;
+        }
+        if (d && !emptyFallback) emptyFallback = { g, d };
+        failures.push(`${m} #${attempt}: ${d ? "no facts" : "unparseable"} — ${g.text.slice(0, 120).replace(/\s+/g, " ")}`);
+      } catch (e) {
+        failures.push(`${m} #${attempt}: ${e instanceof Error ? e.message.slice(0, 200) : String(e)}`);
+        await sleep(attempt * 5000); // back off before retrying (429s are common on free tiers)
+      }
+    }
+    if (digest) break;
   }
-
-  const digest = parseDigestLenient(generated.text);
-  if (!digest) {
-    console.error("Could not parse or salvage any facts from the model response:\n---\n", generated.text.slice(0, 500));
+  if (!digest && emptyFallback) ({ g: generated, d: digest } = emptyFallback);
+  if (failures.length) console.warn(`[${dayKey}] model attempts that failed:\n  ${failures.join("\n  ")}`);
+  if (!digest || !generated) {
+    console.error(`[${new Date().toISOString()}] all models failed for ${dayKey} — no digest written.`);
     process.exitCode = 1;
     return;
   }

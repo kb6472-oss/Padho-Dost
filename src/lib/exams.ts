@@ -102,7 +102,7 @@ export const exams: Exam[] = [
     name: "CDS (Defence)",
     short: "CDS",
     emoji: "🎖️",
-    blurb: "Combined Defence Services (IMA / OTA / Navy / Air Force) — General Knowledge, with real UPSC previous-year papers.",
+    blurb: "Combined Defence Services (IMA / OTA / Navy / Air Force) — GK, Elementary Maths & English, with real UPSC previous-year papers.",
     status: "live",
     chip: "bg-slate-100 text-slate-700",
   },

@@ -17,6 +17,7 @@ export const PYQ_TOPICS: PyqTopic[] = [
   { slug: "science-tech", label: "Science & Technology", blurb: "Physics, chemistry, biology, health, IT, space and defence" },
   { slug: "current-affairs", label: "Current Affairs", blurb: "Recent events, awards, sports, schemes and appointments" },
   { slug: "reasoning", label: "Reasoning & Aptitude", blurb: "Reasoning, mental ability and quantitative aptitude" },
+  { slug: "mathematics", label: "Mathematics", blurb: "Arithmetic, algebra, geometry, trigonometry, mensuration and statistics" },
   { slug: "english-language", label: "English Language", blurb: "Grammar, vocabulary and comprehension" },
   { slug: "art-culture", label: "Art & Culture", blurb: "Art, culture, festivals, literature and heritage" },
   { slug: "general-knowledge", label: "General Knowledge", blurb: "Static general knowledge and miscellaneous topics" },

@@ -1,15 +1,16 @@
 import { cache } from "react";
+import { cacheContent } from "@/lib/content-cache";
 import { prisma } from "@/lib/prisma";
 
 // All exams in catalogue order (for the /exams listing).
-export const getExams = cache(async () => {
+const getExamsUncached = cache(async () => {
   return prisma.exam.findMany({ orderBy: { order: "asc" } });
 });
 
 // Per-exam content volume, keyed by exam slug — surfaced on every ExamCard so a
 // student can see there are thousands of questions here instead of guessing.
 // One grouped query per entity rather than N per card.
-export const getExamCounts = cache(async () => {
+const getExamCountEntries = cacheContent(async () => {
   const [exams, questions, explainers] = await Promise.all([
     prisma.exam.findMany({
       select: { id: true, slug: true, _count: { select: { mockTests: true } } },
@@ -21,7 +22,8 @@ export const getExamCounts = cache(async () => {
   const qById = new Map(questions.map((q) => [q.examId, q._count._all]));
   const eById = new Map(explainers.map((e) => [e.examId, e._count._all]));
 
-  return new Map(
+  // Plain entries (not a Map) so the result survives the JSON cache.
+  return [...new Map(
     exams.map((e) => [
       e.slug,
       {
@@ -30,11 +32,11 @@ export const getExamCounts = cache(async () => {
         explainers: eById.get(e.id) ?? 0,
       },
     ]),
-  );
-});
+  )];
+}, "data:examCounts");
 
 // One exam with its mock tests + question counts (for /exams/[slug]).
-export const getExamWithTests = cache(async (slug: string) => {
+const getExamWithTestsUncached = cache(async (slug: string) => {
   return prisma.exam.findUnique({
     where: { slug },
     include: {
@@ -45,3 +47,8 @@ export const getExamWithTests = cache(async (slug: string) => {
     },
   });
 });
+
+// Cached for an hour (content only changes on deploy) — see content-cache.ts.
+export const getExams = cache(cacheContent(getExamsUncached, "data:getExams"));
+export const getExamWithTests = cache(cacheContent(getExamWithTestsUncached, "data:getExamWithTests"));
+export const getExamCounts = cache(async () => new Map(await getExamCountEntries()));

@@ -1,4 +1,5 @@
 import { cache } from "react";
+import { cacheContent } from "@/lib/content-cache";
 import { prisma } from "@/lib/prisma";
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -44,7 +45,7 @@ async function chapterTestsForExam(examId: string): Promise<Map<string, ChapterT
   return byChapter;
 }
 
-export const getSubjectHub = cache(async (examSlug: string, subjectSlug: string) => {
+const getSubjectHubUncached = cache(async (examSlug: string, subjectSlug: string) => {
   const subject = await prisma.subject.findFirst({
     where: { slug: subjectSlug, exam: { slug: examSlug, status: "LIVE" } },
     include: {
@@ -100,7 +101,7 @@ export const getSubjectHub = cache(async (examSlug: string, subjectSlug: string)
   };
 });
 
-export const getChapterHub = cache(async (examSlug: string, subjectSlug: string, chapterSlug: string) => {
+const getChapterHubUncached = cache(async (examSlug: string, subjectSlug: string, chapterSlug: string) => {
   const chapter = await prisma.chapter.findFirst({
     where: { slug: chapterSlug, subject: { slug: subjectSlug }, exam: { slug: examSlug, status: "LIVE" } },
     include: {
@@ -185,7 +186,7 @@ export const getChapterHub = cache(async (examSlug: string, subjectSlug: string,
 
 // Subjects for an exam, each with its chapter + question counts — for the
 // "Study by topic" strip on the exam page (the crawl path into the hubs).
-export const getExamSubjects = cache(async (examSlug: string) => {
+const getExamSubjectsUncached = cache(async (examSlug: string) => {
   const subjects = await prisma.subject.findMany({
     where: { exam: { slug: examSlug, status: "LIVE" }, chapters: { some: { questions: { some: {} } } } },
     orderBy: [{ order: "asc" }, { name: "asc" }],
@@ -206,7 +207,7 @@ export const getExamSubjects = cache(async (examSlug: string) => {
 // ── Sitemap helpers ──────────────────────────────────────────────────────────
 // Every subject/chapter that has questions becomes an indexable URL.
 
-export const getSubjectPaths = cache(async () => {
+const getSubjectPathsUncached = cache(async () => {
   const subjects = await prisma.subject.findMany({
     where: { exam: { status: "LIVE" }, chapters: { some: { questions: { some: {} } } } },
     select: { slug: true, exam: { select: { slug: true } } },
@@ -214,10 +215,17 @@ export const getSubjectPaths = cache(async () => {
   return subjects.map((s) => ({ exam: s.exam.slug, subject: s.slug }));
 });
 
-export const getChapterPaths = cache(async () => {
+const getChapterPathsUncached = cache(async () => {
   const chapters = await prisma.chapter.findMany({
     where: { questions: { some: {} }, exam: { status: "LIVE" } },
     select: { slug: true, subject: { select: { slug: true } }, exam: { select: { slug: true } } },
   });
   return chapters.map((c) => ({ exam: c.exam.slug, subject: c.subject.slug, chapter: c.slug }));
 });
+
+// Cached for an hour (content only changes on deploy) — see content-cache.ts.
+export const getSubjectHub = cache(cacheContent(getSubjectHubUncached, "hubs:getSubjectHub"));
+export const getChapterHub = cache(cacheContent(getChapterHubUncached, "hubs:getChapterHub"));
+export const getExamSubjects = cache(cacheContent(getExamSubjectsUncached, "hubs:getExamSubjects"));
+export const getSubjectPaths = cache(cacheContent(getSubjectPathsUncached, "hubs:getSubjectPaths"));
+export const getChapterPaths = cache(cacheContent(getChapterPathsUncached, "hubs:getChapterPaths"));

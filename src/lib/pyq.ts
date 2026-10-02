@@ -1,4 +1,5 @@
 import { cache } from "react";
+import { cacheContent } from "@/lib/content-cache";
 import { prisma } from "@/lib/prisma";
 import { PYQ_TOPICS, pyqTopic, pyqTopicOrder } from "@/lib/pyq-topics";
 
@@ -12,7 +13,7 @@ import { PYQ_TOPICS, pyqTopic, pyqTopicOrder } from "@/lib/pyq-topics";
 const PYQ_WHERE = { chapter: { subject: { slug: "previous-year-papers" } } } as const;
 
 // Exams that have any classified PYQ — the crawl roots + sitemap source.
-export const getPyqExams = cache(async () => {
+const getPyqExamsUncached = cache(async () => {
   const exams = await prisma.exam.findMany({
     where: { status: "LIVE", questions: { some: { ...PYQ_WHERE, topic: { not: null } } } },
     orderBy: { name: "asc" },
@@ -22,7 +23,7 @@ export const getPyqExams = cache(async () => {
 });
 
 // One exam's topics with question counts + the year span — for /exams/[slug]/pyq.
-export const getPyqTopicsForExam = cache(async (examSlug: string) => {
+const getPyqTopicsForExamUncached = cache(async (examSlug: string) => {
   const exam = await prisma.exam.findFirst({
     where: { slug: examSlug, status: "LIVE" },
     select: { slug: true, name: true, shortName: true, emoji: true },
@@ -72,7 +73,7 @@ export type PyqSolvedQuestion = {
 };
 
 // All PYQs of one topic within one exam, newest year first — for the topic page.
-export const getPyqTopicQuestions = cache(async (examSlug: string, topicSlug: string) => {
+const getPyqTopicQuestionsUncached = cache(async (examSlug: string, topicSlug: string) => {
   const topic = pyqTopic(topicSlug);
   if (!topic) return null;
 
@@ -122,7 +123,7 @@ export const getPyqTopicQuestions = cache(async (examSlug: string, topicSlug: st
 });
 
 // Sitemap: every (exam, topic) that has classified PYQs.
-export const getPyqTopicPaths = cache(async () => {
+const getPyqTopicPathsUncached = cache(async () => {
   const rows = await prisma.question.groupBy({
     by: ["examId", "topic"],
     where: { topic: { not: null }, exam: { status: "LIVE" }, ...PYQ_WHERE },
@@ -135,3 +136,9 @@ export const getPyqTopicPaths = cache(async () => {
     .map((r) => ({ exam: slugById.get(r.examId), topic: r.topic as string }))
     .filter((r): r is { exam: string; topic: string } => !!r.exam && PYQ_TOPICS.some((t) => t.slug === r.topic));
 });
+
+// Cached for an hour (content only changes on deploy) — see content-cache.ts.
+export const getPyqExams = cache(cacheContent(getPyqExamsUncached, "pyq:getPyqExams"));
+export const getPyqTopicsForExam = cache(cacheContent(getPyqTopicsForExamUncached, "pyq:getPyqTopicsForExam"));
+export const getPyqTopicQuestions = cache(cacheContent(getPyqTopicQuestionsUncached, "pyq:getPyqTopicQuestions"));
+export const getPyqTopicPaths = cache(cacheContent(getPyqTopicPathsUncached, "pyq:getPyqTopicPaths"));

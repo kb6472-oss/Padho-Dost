@@ -6,32 +6,47 @@ import { ogImage } from "@/lib/og-meta";
 import JsonLd from "@/components/JsonLd";
 import { Bn } from "@/components/Bengali";
 
-type Props = { params: Promise<{ slug: string; topic: string }> };
+type Props = { params: Promise<{ slug: string; topic: string }>; searchParams: Promise<{ page?: string }> };
 
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
+// Big topics ran to 800 KB of HTML (every question + its solution, twice over in the
+// RSC payload). 25 per page keeps each page light on mobile data.
+const PAGE_SIZE = 25;
+const pageOf = (raw: string | undefined, total: number) => {
+  const pages = Math.max(1, Math.ceil(total / PAGE_SIZE));
+  return { pages, page: Math.min(pages, Math.max(1, Number.parseInt(raw ?? "1", 10) || 1)) };
+};
+
+export async function generateMetadata({ params, searchParams }: Props): Promise<Metadata> {
   const { slug, topic } = await params;
+  const { page: rawPage } = await searchParams;
   const data = await getPyqTopicQuestions(slug, topic);
   if (!data) return { title: "Topic not found" };
 
   const span = data.years.length ? `${Math.min(...data.years)}–${Math.max(...data.years)}` : "";
-  const title = `${data.exam.shortName} ${data.topic.label} — Previous Year Questions`;
+  const { page } = pageOf(rawPage, data.questions.length);
+  const title = `${data.exam.shortName} ${data.topic.label} — Previous Year Questions${page > 1 ? ` (page ${page})` : ""}`;
   const description = `${data.questions.length} ${data.exam.name} ${data.topic.label} previous-year questions ${span ? `(${span}) ` : ""}with answers and full solutions. Free, no sign-up.`;
   const og = ogImage(`${data.topic.label} PYQs`, `${data.exam.shortName} · ${data.questions.length} solved`);
   return {
     title,
     description,
-    alternates: { canonical: `/exams/${slug}/pyq/${topic}` },
+    alternates: { canonical: `/exams/${slug}/pyq/${topic}${page > 1 ? `?page=${page}` : ""}` },
     openGraph: { title, description, url: `/exams/${slug}/pyq/${topic}`, type: "website", images: [og] },
     twitter: { card: "summary_large_image", title, description, images: [og] },
   };
 }
 
-export default async function PyqTopicPage({ params }: Props) {
+export default async function PyqTopicPage({ params, searchParams }: Props) {
   const { slug, topic } = await params;
   const data = await getPyqTopicQuestions(slug, topic);
   if (!data) notFound();
 
-  const { exam, questions, years, siblings } = data;
+  const { exam, years, siblings } = data;
+  const total = data.questions.length;
+  const { page, pages } = pageOf((await searchParams).page, total);
+  const offset = (page - 1) * PAGE_SIZE;
+  const questions = data.questions.slice(offset, offset + PAGE_SIZE);
+  const pageHref = (p: number) => `/exams/${slug}/pyq/${topic}${p > 1 ? `?page=${p}` : ""}`;
   const span = years.length ? `${Math.min(...years)}–${Math.max(...years)}` : "";
 
   // Group the questions by year for a paper-trail feel (newest first).
@@ -78,7 +93,7 @@ export default async function PyqTopicPage({ params }: Props) {
         }
       : null;
 
-  let counter = 0;
+  let counter = offset;
 
   return (
     <div className="mx-auto max-w-3xl px-4 py-10 sm:px-6">
@@ -103,7 +118,7 @@ export default async function PyqTopicPage({ params }: Props) {
           {data.topic.label}
         </h1>
         <p className="mt-2 text-body text-muted">
-          {questions.length} {exam.shortName} {data.topic.label} question{questions.length > 1 ? "s" : ""} from past
+          {total} {exam.shortName} {data.topic.label} question{total > 1 ? "s" : ""} from past
           papers{span ? ` (${span})` : ""}, each with the answer and a full solution. {data.topic.blurb}.
         </p>
       </header>
@@ -164,6 +179,28 @@ export default async function PyqTopicPage({ params }: Props) {
           </ol>
         </section>
       ))}
+
+      {pages > 1 && (
+        <nav aria-label="Pages" className="mt-10 flex items-center justify-between gap-3 border-t border-border pt-6 text-body">
+          {page > 1 ? (
+            <Link href={pageHref(page - 1)} className="rounded-full border border-border px-4 py-2.5 font-semibold text-foreground hover:border-brand-300">
+              ← Previous
+            </Link>
+          ) : (
+            <span />
+          )}
+          <span className="text-caption text-muted">
+            Questions {offset + 1}–{offset + questions.length} of {total} · page {page} of {pages}
+          </span>
+          {page < pages ? (
+            <Link href={pageHref(page + 1)} className="rounded-full bg-brand-600 px-4 py-2.5 font-semibold text-white hover:bg-brand-700">
+              Next →
+            </Link>
+          ) : (
+            <span />
+          )}
+        </nav>
+      )}
 
       {siblings.length > 0 && (
         <section className="mt-12 border-t border-border pt-6">

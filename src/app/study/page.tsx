@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { prisma } from "@/lib/prisma";
+import { cacheContent } from "@/lib/content-cache";
 import { getSessionUser } from "@/lib/auth";
 import { getExamGoal } from "@/lib/enroll";
 import StudyBrowser, { type StudyExplainer, type StudyExam } from "@/components/StudyBrowser";
@@ -11,20 +12,27 @@ export const metadata: Metadata = {
   alternates: { canonical: "/study" },
 };
 
+// Published explainer list is content (changes only on deploy) — cached; see content-cache.ts.
+const getPublishedExplainers = cacheContent(
+  () =>
+  prisma.explainer.findMany({
+    where: { status: "PUBLISHED" },
+    select: {
+      slug: true,
+      title: true,
+      summary: true,
+      readingMinutes: true,
+      exam: { select: { slug: true, shortName: true, emoji: true } },
+      subject: { select: { name: true, order: true } },
+    },
+    orderBy: [{ examId: "asc" }, { title: "asc" }],
+  }),
+  "study:explainers",
+);
+
 export default async function StudyPage() {
   const [rows, user, goal] = await Promise.all([
-    prisma.explainer.findMany({
-      where: { status: "PUBLISHED" },
-      select: {
-        slug: true,
-        title: true,
-        summary: true,
-        readingMinutes: true,
-        exam: { select: { slug: true, shortName: true, emoji: true } },
-        subject: { select: { name: true, order: true } },
-      },
-      orderBy: [{ examId: "asc" }, { title: "asc" }],
-    }),
+    getPublishedExplainers(),
     getSessionUser(),
     getExamGoal(),
   ]);

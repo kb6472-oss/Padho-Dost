@@ -4,6 +4,7 @@ import { Suspense, useState } from "react";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { createClient } from "@/lib/supabase/client";
+import GoogleSignIn from "@/components/GoogleSignIn";
 
 function LoginForm() {
   const [email, setEmail] = useState("");
@@ -104,6 +105,13 @@ function LoginForm() {
         </div>
       ) : (
         <div className="mt-8 space-y-4">
+          <GoogleSignIn
+            nextUrl={nextUrl}
+            onError={(m) => {
+              setStatus("error");
+              setMessage(m);
+            }}
+            fallback={
           <button
             type="button"
             onClick={signInWithGoogle}
@@ -117,6 +125,8 @@ function LoginForm() {
             </svg>
             Continue with Google
           </button>
+            }
+          />
 
           <div className="flex items-center gap-3">
             <div className="h-px flex-1 bg-border" />

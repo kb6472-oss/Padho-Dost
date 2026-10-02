@@ -169,8 +169,10 @@ export default async function ResultPage({ params }: Props) {
               },
             },
           },
-          orderBy: { createdAt: "asc" },
-          select: { id: true, title: true, _count: { select: { questions: true } } },
+          // Smallest matching test first = the most focused practice. Oldest-first used to
+          // pick the 100+ question full-section paper for a one-chapter weakness.
+          orderBy: [{ questions: { _count: "asc" } }, { createdAt: "asc" }],
+          select: { id: true, title: true, type: true, _count: { select: { questions: true } } },
         }),
       ])
     : [null, null];
@@ -270,7 +272,7 @@ export default async function ResultPage({ params }: Props) {
             {nextTest && (
               <ButtonLink href={`/test/${nextTest.id}`} variant="secondary" size="md" className="sm:flex-1">
                 <Target className="h-[18px] w-[18px]" strokeWidth={2.2} aria-hidden="true" />
-                Practise it · {nextTest._count.questions} Qs
+                {nextTest.type === "CHAPTER" ? "Practise it" : nextTest.title.split(" — ")[0]} · {nextTest._count.questions} Qs
               </ButtonLink>
             )}
           </div>

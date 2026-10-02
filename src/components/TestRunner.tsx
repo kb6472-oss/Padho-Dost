@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState, useSyncExternalStore } from "react";
 import { useRouter } from "next/navigation";
 import { submitAttempt } from "@/lib/test-actions";
 import { startAttempt, saveProgress } from "@/lib/attempt-actions";
@@ -18,6 +18,8 @@ export type RunnerTest = {
   negativeMarking: boolean;
   questions: Q[];
 };
+
+const noopSubscribe = () => () => {};
 
 function getAnonId(): string {
   let id = localStorage.getItem("pd_anon");
@@ -52,6 +54,10 @@ export default function TestRunner({ test }: { test: RunnerTest }) {
   const [startedAt, setStartedAt] = useState(0);
   const [timeLeft, setTimeLeft] = useState(durationSec);
   const [submitting, setSubmitting] = useState(false);
+  // false during SSR + hydration, true once React is attached. On slow phones the page
+  // can take seconds to become interactive; a tap on "Start test" before that was
+  // silently lost, so the button says "Loading…" until it can actually respond.
+  const hydrated = useSyncExternalStore(noopSubscribe, () => true, () => false);
   const [submitError, setSubmitError] = useState<string | null>(null);
   const [confirmOpen, setConfirmOpen] = useState(false);
   const [exitOpen, setExitOpen] = useState(false);
@@ -355,9 +361,10 @@ export default function TestRunner({ test }: { test: RunnerTest }) {
           <button
             type="button"
             onClick={beginTest}
-            className="mt-6 inline-flex h-13 w-full items-center justify-center rounded-full bg-brand-600 px-8 text-body-lg font-semibold text-white transition-colors hover:bg-brand-700"
+            disabled={!hydrated}
+            className="mt-6 inline-flex h-13 w-full items-center justify-center rounded-full bg-brand-600 px-8 text-body-lg font-semibold text-white transition-colors hover:bg-brand-700 disabled:cursor-wait disabled:opacity-70"
           >
-            Start test
+            {hydrated ? "Start test" : "Loading…"}
           </button>
           <p className="mt-3 text-caption text-muted">No sign-up needed.</p>
         </div>

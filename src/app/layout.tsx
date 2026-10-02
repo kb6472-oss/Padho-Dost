@@ -62,6 +62,9 @@ const notoBengali = Noto_Sans_Bengali({
   weight: ["400", "500", "600"],
   variable: "--font-bengali",
   display: "swap",
+  // Only WB-vertical PYQ pages render Bengali; don't make every page download the
+  // ~105 KB font up front. unicode-range still fetches it on pages that need it.
+  preload: false,
 });
 
 export const metadata: Metadata = {

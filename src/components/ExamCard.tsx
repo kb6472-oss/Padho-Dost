@@ -71,5 +71,5 @@ export default function ExamCard({ exam, counts }: { exam: Exam; counts?: ExamCo
       </Link>
     );
   }
-  return <div className="surface-2 h-full cursor-default opacity-80">{inner}</div>;
+  return <div className="surface-2 h-full cursor-default">{inner}</div>;
 }

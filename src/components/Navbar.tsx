@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { Menu, Search, X } from "lucide-react";
-import { signOut } from "@/lib/user-actions";
+import { logoutAndReload } from "@/lib/logout";
 import { fetchStreakSummary } from "@/lib/streak-actions";
 import ClaimAnon from "@/components/ClaimAnon";
 import StreakPill from "@/components/StreakPill";
@@ -146,11 +146,9 @@ export default function Navbar() {
                   {user.name || user.email}
                 </span>
               </Link>
-              <form action={signOut}>
-                <button type="submit" className="text-sm font-semibold text-muted transition-colors hover:text-rose-600">
+              <button type="button" onClick={() => void logoutAndReload()} className="text-sm font-semibold text-muted transition-colors hover:text-rose-600">
                   Log out
                 </button>
-              </form>
             </>
           ) : (
             <>
@@ -205,11 +203,9 @@ export default function Navbar() {
                     <Avatar user={user} />
                     <span className="truncate text-sm font-medium text-foreground">{user.name || user.email}</span>
                   </Link>
-                  <form action={signOut}>
-                    <button type="submit" className="w-full rounded-full border border-border px-4 py-2.5 text-center text-sm font-semibold text-foreground">
-                      Log out
-                    </button>
-                  </form>
+                  <button type="button" onClick={() => void logoutAndReload()} className="w-full rounded-full border border-border px-4 py-2.5 text-center text-sm font-semibold text-foreground">
+                  Log out
+                </button>
                 </>
               ) : (
                 <>

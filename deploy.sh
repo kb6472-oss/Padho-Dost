@@ -63,4 +63,9 @@ npx tsx scripts/seed-pyq-cds.ts
 echo "==> [5/6] Restarting the app (pm2 restart padhodost)…"
 pm2 restart padhodost --update-env
 
+# Warm the page cache in the background: visit every sitemap URL once (2 at a time)
+# so Googlebot and students get cached HTML instead of a cold render after a deploy.
+(sleep 8; curl -s "http://localhost:${PORT:-3000}/sitemap.xml" | grep -o "<loc>[^<]*" | sed "s#<loc>https://padhodost.com#http://localhost:${PORT:-3000}#" | xargs -n1 -P2 curl -s -o /dev/null --max-time 60) >/dev/null 2>&1 &
+echo "    (warming the page cache in the background — takes a few minutes)"
+
 echo "==> [6/6] ✅ Deployed $(git rev-parse --short HEAD). Live at https://padhodost.com — hard-refresh to see changes."

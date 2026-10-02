@@ -10,6 +10,13 @@ import { Bn } from "@/components/Bengali";
 
 type Props = { params: Promise<{ slug: string; subject: string; chapter: string }> };
 
+// ISR: rendered on the first visit, then served as cached HTML (refreshed hourly),
+// so Googlebot and students get an instant response instead of live DB reads.
+export const revalidate = 3600;
+export async function generateStaticParams() {
+  return [];
+}
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug, subject, chapter } = await params;
   const hub = await getChapterHub(slug, subject, chapter);

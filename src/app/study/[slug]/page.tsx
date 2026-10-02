@@ -11,6 +11,13 @@ import { AdSlot } from "@/components/Ads";
 
 type Props = { params: Promise<{ slug: string }> };
 
+// ISR: rendered on the first visit, then served as cached HTML (refreshed hourly),
+// so Googlebot and students get an instant response instead of live DB reads.
+export const revalidate = 3600;
+export async function generateStaticParams() {
+  return [];
+}
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const c = getExplainer(slug);

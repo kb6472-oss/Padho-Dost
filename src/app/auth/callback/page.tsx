@@ -23,8 +23,18 @@ export default function AuthCallbackPage() {
       }
 
       const supabase = createClient();
-      const { error } = await supabase.auth.exchangeCodeForSession(code);
-      if (error) {
+      // The browser client already exchanges ?code= itself on init (detectSessionInUrl).
+      // Exchanging the one-time code a second time fails — which used to show
+      // "That sign-in link didn't work" to students who were in fact signed in.
+      // So: use the session if it exists; exchange manually only if it doesn't.
+      let {
+        data: { session },
+      } = await supabase.auth.getSession();
+      if (!session) {
+        const { error } = await supabase.auth.exchangeCodeForSession(code);
+        if (!error) session = (await supabase.auth.getSession()).data.session;
+      }
+      if (!session) {
         setFailed(true);
         setTimeout(() => window.location.replace("/login?error=1"), 600);
         return;

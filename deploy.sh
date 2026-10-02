@@ -22,6 +22,15 @@ if [ "${DEPLOY_REEXEC:-}" != "1" ]; then
   exec env DEPLOY_REEXEC=1 bash "$0" "$@"
 fi
 
+# Install dependencies when package-lock.json changed since the last deploy —
+# otherwise a version bump (e.g. a security upgrade) never reaches the server.
+LOCK_HASH="$(sha256sum package-lock.json | cut -d' ' -f1)"
+if [ "$(cat .deployed-lock-hash 2>/dev/null)" != "$LOCK_HASH" ]; then
+  echo "==> Dependencies changed — running npm ci…"
+  npm ci --include=dev --no-audit --no-fund   # the build needs devDependencies (tailwind/postcss, TS)
+  echo "$LOCK_HASH" > .deployed-lock-hash
+fi
+
 echo "==> [1/5] Applying schema + regenerating Prisma client…"
 # db push is idempotent (no-op when the schema already matches) and applies new
 # indexes / unique constraints via DIRECT_URL. It does NOT reliably re-run the

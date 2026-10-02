@@ -1,4 +1,17 @@
 import type { NextConfig } from "next";
+import { execSync } from "node:child_process";
+
+// Version-skew protection: a tab opened before a deploy gets a full reload on its next
+// navigation / Server Action instead of "Failed to find Server Action" errors. Keyed to
+// the git commit, which is the same at build time and when `next start` boots.
+function deploymentId(): string | undefined {
+  if (process.env.NEXT_DEPLOYMENT_ID) return process.env.NEXT_DEPLOYMENT_ID;
+  try {
+    return execSync("git rev-parse --short HEAD", { stdio: ["ignore", "pipe", "ignore"] }).toString().trim() || undefined;
+  } catch {
+    return undefined;
+  }
+}
 
 // Defense-in-depth headers applied to every response.
 const securityHeaders = [
@@ -11,6 +24,7 @@ const securityHeaders = [
 
 const nextConfig: NextConfig = {
   poweredByHeader: false,
+  deploymentId: deploymentId(),
   async headers() {
     return [{ source: "/:path*", headers: securityHeaders }];
   },

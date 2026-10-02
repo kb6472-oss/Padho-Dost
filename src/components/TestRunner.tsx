@@ -244,7 +244,15 @@ export default function TestRunner({ test }: { test: RunnerTest }) {
           localStorage.removeItem(`pd_cattempt_${test.id}`);
           router.push(`/test/${test.id}/result/${res.attemptId}`);
           return;
-        } catch {
+        } catch (e) {
+          // We deployed while this tab was open: the server no longer knows this build's
+          // action ids, so every retry would fail the same way. Answers are saved on this
+          // device on every change — reload into the new version and resume from there.
+          if (/server action|older or newer deployment/i.test(String((e as Error)?.message ?? e))) {
+            setSubmitError("PadhoDost was just updated. Reloading — your answers are saved…");
+            setTimeout(() => window.location.reload(), 1200);
+            return;
+          }
           if (attempt < maxTries - 1) {
             // Exponential backoff, capped — 1s, 2s, 4s, 8s, 15s.
             const wait = Math.min(1000 * 2 ** attempt, 15000);

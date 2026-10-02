@@ -10,6 +10,8 @@ import { getExamIntro } from "@/content/exam-intros";
 import { ogImage } from "@/lib/og-meta";
 import ExamGoalButton from "@/components/ExamGoalButton";
 import JsonLd from "@/components/JsonLd";
+import { getExamInfo } from "@/lib/exam-info";
+import { ExamGuideNav } from "@/components/exam-info/ExamInfoPage";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -135,6 +137,7 @@ export default async function ExamDetailPage({ params }: Props) {
   const goal = await getExamGoal();
   const intro = getExamIntro(slug);
   const subjects = await getExamSubjects(slug);
+  const guide = getExamInfo(slug);
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -201,6 +204,14 @@ export default async function ExamDetailPage({ params }: Props) {
           </div>
         </div>
       </div>
+
+      {/* Exam guide — syllabus, pattern, eligibility, dates, cut-offs, salary (official sources). */}
+      {guide && (
+        <section className="mt-8">
+          <h2 className="font-display text-lg font-bold text-foreground">{guide.examName} exam guide</h2>
+          <ExamGuideNav slug={slug} hasCalculator={!!guide.calculator} />
+        </section>
+      )}
 
       {/* Study by topic — the entry into the subject/chapter hub pages. Also the
           internal-link path that makes those ~240 pages crawlable. */}

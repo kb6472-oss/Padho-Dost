@@ -1,0 +1,785 @@
+{
+  "slug": "ssc-cgl",
+  "examName": "SSC CGL 2026",
+  "conductingBody": "Staff Selection Commission (SSC), Government of India",
+  "cycle": "2026",
+  "lastChecked": "2026-10-02",
+  "overview": "SSC CGL is a national exam held by the Staff Selection Commission. It fills Group B and Group C posts in central government ministries, departments and offices. Examples are Assistant Section Officer, Inspector (Income Tax, Central Excise, Posts), Auditor, Accountant, Tax Assistant and Junior Statistical Officer. CGL 2026 has two computer-based tiers. Tier-I is only a screening test. The final merit list uses Tier-II marks only. Any graduate can apply, but a few posts need a specific degree or subject. The SSC notice of 24 September 2026 gives 10,731 tentative vacancies. Tier-I runs from 30 September to 30 October 2026.",
+  "officialWebsite": "https://ssc.gov.in",
+  "notificationUrl": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_cgl_2026.pdf",
+  "sources": [
+    {
+      "label": "Staff Selection Commission – official website",
+      "url": "https://ssc.gov.in"
+    },
+    {
+      "label": "SSC – Notice of Combined Graduate Level Examination, 2026 (21.05.2026): dates, posts, pay levels, eligibility, scheme, syllabus",
+      "url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_cgl_2026.pdf"
+    },
+    {
+      "label": "SSC – Notice on re-opening of CGL 2026 application window (23.06.2026)",
+      "url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/CGLE_Reopen_23062026.pdf"
+    },
+    {
+      "label": "SSC – Important Notice: Schedule of CGL 2026 Tier-I (12.09.2026)",
+      "url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Important%20Notice%202026_cgle_2026_12092026.pdf"
+    },
+    {
+      "label": "SSC – Exam city and Admission Certificate information, CGL 2026 Tier-I (21.09.2026)",
+      "url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/cgle_2026_city_live_21092026.pdf"
+    },
+    {
+      "label": "SSC – Tentative Vacancy of CGL 2026 as on 24.09.2026",
+      "url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Tentative_vacancy_CGLE2026_24092026.pdf"
+    },
+    {
+      "label": "SSC – CGL 2025 Tier-I result write-up with cut-offs (18.12.2025)",
+      "url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/writeup_181225.pdf"
+    },
+    {
+      "label": "SSC – Corrigendum to CGL 2025 Tier-I result, corrected List-3 cut-offs (14.01.2026)",
+      "url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Corrigendum.pdf"
+    },
+    {
+      "label": "SSC – CGL 2024 Tier-I result write-up with cut-offs (05.12.2024)",
+      "url": "https://ssc.gov.in/api/attachment/uploads/masterData/Results/Result%20Write-up%20CGLE%202024%20Tier%20I_51224.pdf"
+    },
+    {
+      "label": "SSC – CGL 2024 Tier-I additional result, revised List-3 cut-offs (17.01.2025)",
+      "url": "https://ssc.gov.in/api/attachment/uploads/masterData/Results/Writeup_Additional%20result_17012025.pdf"
+    },
+    {
+      "label": "SSC – Notice of CGL 2025 (Tier-I scheme: 100 questions, 200 marks)",
+      "url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/CGLE_2025%20Notice_Approved%20final_09062025.pdf"
+    },
+    {
+      "label": "SSC – Notice of CGL 2024 (Tier-I scheme: 100 questions, 200 marks)",
+      "url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_CGLE_2024_06_24.pdf"
+    }
+  ],
+  "dates": [
+    {
+      "event": "Notification published on ssc.gov.in",
+      "date": "21 May 2026",
+      "status": "done"
+    },
+    {
+      "event": "Online application window (first round)",
+      "date": "21 May 2026 to 22 June 2026 (11 pm)",
+      "status": "done"
+    },
+    {
+      "event": "Application window re-opened",
+      "date": "23 June 2026 (11 pm) to 25 June 2026 (11 pm)",
+      "status": "done"
+    },
+    {
+      "event": "Last date for online fee payment (revised)",
+      "date": "26 June 2026 (11 pm)",
+      "status": "done"
+    },
+    {
+      "event": "Application form correction window (revised)",
+      "date": "1 July 2026 to 3 July 2026 (11 pm)",
+      "status": "done"
+    },
+    {
+      "event": "Exam city details released for Tier-I",
+      "date": "21 September 2026",
+      "status": "done"
+    },
+    {
+      "event": "Updated tentative vacancies published",
+      "date": "24 September 2026",
+      "status": "done"
+    },
+    {
+      "event": "Tier-I exam (computer-based) begins",
+      "date": "30 September 2026",
+      "status": "done"
+    },
+    {
+      "event": "Tier-I exam last day",
+      "date": "30 October 2026",
+      "status": "upcoming"
+    },
+    {
+      "event": "Tier-I admit card (Admission Certificate)",
+      "date": "About 2–3 days before each candidate's exam date",
+      "status": "tentative"
+    },
+    {
+      "event": "Tier-II exam (computer-based)",
+      "date": "December 2026",
+      "status": "tentative"
+    }
+  ],
+  "vacancies": {
+    "total": 10731,
+    "note": "Tentative vacancies as on 24 September 2026 (SSC notice). Split by category: UR 4,412, SC 1,715, ST 804, OBC 2,772, EWS 1,028. Within these, 373 are for ex-servicemen and 464 for persons with benchmark disabilities. The first notice of 21 May 2026 said about 12,256 vacancies. SSC says final vacancies may change. SSC does not collect state-wise or zone-wise vacancies."
+  },
+  "pattern": [
+    {
+      "stage": "Tier-I (all posts)",
+      "mode": "Computer Based Examination (online, objective multiple-choice questions)",
+      "duration": "1 hour. Each of the 4 sections has its own 15-minute timer. Candidates eligible for a scribe get 1 hour 20 minutes (20 minutes per section).",
+      "sections": [
+        {
+          "name": "General Intelligence and Reasoning",
+          "questions": 25,
+          "marks": 50
+        },
+        {
+          "name": "General Awareness",
+          "questions": 25,
+          "marks": 50
+        },
+        {
+          "name": "Quantitative Aptitude",
+          "questions": 25,
+          "marks": 50
+        },
+        {
+          "name": "English Comprehension",
+          "questions": 25,
+          "marks": 50
+        }
+      ],
+      "totalQuestions": 100,
+      "totalMarks": 200,
+      "marking": "2 marks for each correct answer (50 marks for 25 questions). 0.50 mark is cut for each wrong answer.",
+      "notes": [
+        "Questions come in English and Hindi, except the English Comprehension section.",
+        "Minimum qualifying marks: UR 30%, OBC/EWS 25%, all other categories 20%.",
+        "Tier-I is for shortlisting only. Its marks are not added to the final merit list.",
+        "SSC fixes separate Tier-I cut-offs for (a) JSO and Statistical Investigator Grade-II, (b) Assistant Audit Officer and Assistant Accounts Officer, and (c) all other posts.",
+        "If the exam runs in many shifts, marks are normalized using SSC's published method.",
+        "Reasoning, General Awareness and English questions are at graduation level. Quantitative Aptitude questions are at Class 10 level."
+      ]
+    },
+    {
+      "stage": "Tier-II Paper-I (compulsory for all posts)",
+      "mode": "Computer Based Examination (objective MCQs, plus one typing task)",
+      "duration": "Session-I: 2 hours 15 minutes (Section-I 1 hour, Section-II 1 hour, Section-III 15 minutes). Session-II: 15 minutes for the Data Entry Speed Test, on the same day. Scribe-eligible candidates get extra time.",
+      "sections": [
+        {
+          "name": "Section-I A: Mathematical Abilities",
+          "questions": 30,
+          "marks": 90
+        },
+        {
+          "name": "Section-I B: Reasoning and General Intelligence",
+          "questions": 30,
+          "marks": 90
+        },
+        {
+          "name": "Section-II A: English Language and Comprehension",
+          "questions": 45,
+          "marks": 135
+        },
+        {
+          "name": "Section-II B: General Awareness",
+          "questions": 25,
+          "marks": 75
+        },
+        {
+          "name": "Section-III: Computer Knowledge Test (qualifying only)",
+          "questions": 20,
+          "marks": 60
+        },
+        {
+          "name": "Section-IV: Data Entry Speed Test (qualifying only)",
+          "questions": null,
+          "marks": null
+        }
+      ],
+      "totalQuestions": 150,
+      "totalMarks": 450,
+      "marking": "3 marks for each correct answer. 1 mark is cut for each wrong answer in Sections I, II and III.",
+      "notes": [
+        "Section-I has a 30-minute timer for each subject. Section-II gives 40 minutes for English and 20 minutes for General Awareness.",
+        "You must qualify every section of Paper-I separately.",
+        "Only Sections I and II (390 marks) count for merit. Sections III and IV are qualifying only.",
+        "Data Entry Speed Test: type a passage of about 2,000 key presses in 15 minutes. Maximum errors allowed: UR 20%, OBC/EWS 25%, others 30%.",
+        "Some posts (for example ASO in CSS/MEA/AFHQ, CBIC Inspectors and Executive Assistant, Postal/Sorting Assistant, Tax Assistant) need higher qualifying standards in the computer test and/or typing test.",
+        "Mathematics is at Class 10 level and English at Class 12 level.",
+        "The final merit list is made from Tier-II marks only."
+      ]
+    },
+    {
+      "stage": "Tier-II Paper-II: Statistics (only for JSO and Statistical Investigator Grade-II)",
+      "mode": "Computer Based Examination (objective MCQs)",
+      "duration": "2 hours (2 hours 40 minutes for scribe-eligible candidates)",
+      "sections": [
+        {
+          "name": "Statistics",
+          "questions": 100,
+          "marks": 200
+        }
+      ],
+      "totalQuestions": 100,
+      "totalMarks": 200,
+      "marking": "2 marks for each correct answer. 0.50 mark is cut for each wrong answer.",
+      "notes": [
+        "Only candidates who applied for these posts and are shortlisted for them in Tier-I take this paper.",
+        "Merit for these posts uses Paper-I Sections I and II plus Paper-II.",
+        "Questions are at graduation level."
+      ]
+    },
+    {
+      "stage": "Tier-II Paper-III: General Studies (Finance and Economics) (only for Assistant Audit Officer and Assistant Accounts Officer)",
+      "mode": "Computer Based Examination (objective MCQs)",
+      "duration": "2 hours (2 hours 40 minutes for scribe-eligible candidates)",
+      "sections": [
+        {
+          "name": "Part A: Finance and Accounts",
+          "questions": null,
+          "marks": 80
+        },
+        {
+          "name": "Part B: Economics and Governance",
+          "questions": null,
+          "marks": 120
+        }
+      ],
+      "totalQuestions": 100,
+      "totalMarks": 200,
+      "marking": "2 marks for each correct answer. 0.50 mark is cut for each wrong answer.",
+      "notes": [
+        "Only candidates shortlisted in Tier-I for these posts take this paper.",
+        "Merit for these posts uses Paper-I Sections I and II plus Paper-III.",
+        "Questions are at graduation level."
+      ]
+    }
+  ],
+  "syllabus": [
+    {
+      "stage": "Tier-I",
+      "sections": [
+        {
+          "name": "General Intelligence and Reasoning",
+          "topics": [
+            "Verbal and non-verbal reasoning",
+            "Semantic, symbolic/number and figural analogy",
+            "Semantic, symbolic/number and figural classification",
+            "Semantic, number and figural series",
+            "Coding and decoding",
+            "Numerical and symbolic operations",
+            "Space orientation and space visualization",
+            "Venn diagrams and drawing inferences",
+            "Punched hole / pattern folding and unfolding; figure completion",
+            "Embedded figures",
+            "Word building and problem solving",
+            "Indexing, address matching, date and city matching",
+            "Classification of centre codes / roll numbers; small and capital letter coding",
+            "Statement and conclusion; syllogism",
+            "Critical thinking, emotional intelligence, social intelligence"
+          ]
+        },
+        {
+          "name": "General Awareness",
+          "topics": [
+            "Current events",
+            "Science in everyday life",
+            "India and its neighbouring countries: history and culture",
+            "Geography",
+            "Economy",
+            "General policy",
+            "Scientific research"
+          ]
+        },
+        {
+          "name": "Quantitative Aptitude",
+          "topics": [
+            "Whole numbers, decimals, fractions and number relationships",
+            "Percentage, ratio and proportion, square roots, averages",
+            "Interest, profit and loss, discount, partnership",
+            "Mixture and alligation, time and distance, time and work",
+            "Basic algebraic identities, elementary surds, graphs of linear equations",
+            "Triangles and their centres; congruence and similarity",
+            "Circles: chords, tangents, angles, common tangents",
+            "Mensuration: triangle, quadrilaterals, regular polygons, circle, prism, cone, cylinder, sphere, hemisphere, cuboid, pyramid",
+            "Trigonometric ratios, degree and radian, standard identities, complementary angles, heights and distances",
+            "Data interpretation: histogram, frequency polygon, bar diagram, pie chart"
+          ]
+        },
+        {
+          "name": "English Comprehension",
+          "topics": [
+            "Understanding correct English",
+            "Basic comprehension",
+            "Basic writing ability"
+          ]
+        }
+      ]
+    },
+    {
+      "stage": "Tier-II Paper-I",
+      "sections": [
+        {
+          "name": "Section-I A: Mathematical Abilities",
+          "topics": [
+            "Number systems: whole numbers, decimals, fractions",
+            "Percentages, ratio and proportion, square roots, averages",
+            "Simple and compound interest, profit and loss, discount, partnership",
+            "Mixture and alligation, time and distance, time and work",
+            "Algebra: basic identities, elementary surds, graphs of linear equations",
+            "Geometry: triangle centres, congruence and similarity, circles, chords, tangents",
+            "Mensuration: 2D and 3D figures (prism, cone, cylinder, sphere, hemisphere, cuboid, pyramid)",
+            "Trigonometry: ratios, complementary angles, heights and distances, standard identities",
+            "Statistics and probability: tables and graphs, mean, median, mode, standard deviation, simple probability"
+          ]
+        },
+        {
+          "name": "Section-I B: Reasoning and General Intelligence",
+          "topics": [
+            "Semantic, symbolic/number and figural analogy",
+            "Semantic, symbolic/number and figural classification",
+            "Semantic, number and figural series",
+            "Symbolic and numerical operations, trends",
+            "Space orientation, Venn diagrams, drawing inferences",
+            "Punched hole / pattern folding and unfolding, figure completion, embedded figures",
+            "Coding and decoding, word building, problem solving",
+            "Critical thinking, emotional intelligence, social intelligence"
+          ]
+        },
+        {
+          "name": "Section-II A: English Language and Comprehension",
+          "topics": [
+            "Vocabulary, grammar and sentence structure",
+            "Synonyms, antonyms, homonyms",
+            "Spot the error, fill in the blanks",
+            "Spellings and misspelt words",
+            "Idioms and phrases, one-word substitution",
+            "Sentence improvement",
+            "Active and passive voice",
+            "Direct and indirect speech",
+            "Shuffling of sentence parts and of sentences in a passage",
+            "Cloze passage",
+            "Reading comprehension: three or more passages (one simple story-type, others on current affairs)"
+          ]
+        },
+        {
+          "name": "Section-II B: General Awareness",
+          "topics": [
+            "Current events",
+            "Science in everyday life",
+            "India and its neighbouring countries: history, culture, geography",
+            "Economy, general policy and scientific research"
+          ]
+        },
+        {
+          "name": "Section-III: Computer Knowledge",
+          "topics": [
+            "Computer basics: organisation of a computer, CPU, input/output devices, memory, backup devices, ports, Windows Explorer, keyboard shortcuts",
+            "Software: Windows operating system, MS Word, MS Excel, PowerPoint",
+            "Internet and e-mail: browsing, searching, downloading and uploading, managing e-mail, e-banking",
+            "Networking and cyber security: devices and protocols, threats such as hacking, viruses, worms and Trojans, and how to prevent them"
+          ]
+        },
+        {
+          "name": "Section-IV: Data Entry Speed Test",
+          "topics": [
+            "Typing a passage of about 2,000 key presses in 15 minutes (qualifying)"
+          ]
+        }
+      ]
+    },
+    {
+      "stage": "Tier-II Paper-II (Statistics)",
+      "sections": [
+        {
+          "name": "Statistics",
+          "topics": [
+            "Collection, classification and presentation of data: primary and secondary data, tabulation, graphs, frequency distributions",
+            "Measures of central tendency: mean, median, mode; quartiles, deciles, percentiles",
+            "Measures of dispersion: range, quartile deviation, mean deviation, standard deviation, relative dispersion",
+            "Moments, skewness and kurtosis",
+            "Correlation and regression: scatter diagram, correlation coefficient, regression lines, Spearman's rank correlation, association of attributes, multiple and partial correlation (three variables)",
+            "Probability: definitions, conditional and compound probability, independent events, Bayes' theorem",
+            "Random variables and distributions: expectation, variance, moments; binomial, Poisson, normal, exponential; joint distribution of two discrete variables",
+            "Sampling theory: population and sample, sampling and non-sampling errors, probability and non-probability sampling methods, sample size",
+            "Statistical inference: point and interval estimation, estimators, methods of estimation, hypothesis testing, Z, t, chi-square and F tests, confidence intervals",
+            "Analysis of variance: one-way and two-way",
+            "Time series analysis: components, trend, seasonal variation",
+            "Index numbers: construction, types, formulae, base shifting and splicing, cost of living index"
+          ]
+        }
+      ]
+    },
+    {
+      "stage": "Tier-II Paper-III (General Studies – Finance and Economics)",
+      "sections": [
+        {
+          "name": "Part A: Finance and Accounts (80 marks)",
+          "topics": [
+            "Financial accounting: nature, scope, limitations, basic concepts and conventions, GAAP",
+            "Single and double entry, books of original entry, journal, ledgers",
+            "Bank reconciliation, trial balance, rectification of errors",
+            "Manufacturing, trading, profit and loss appropriation accounts, balance sheet",
+            "Capital vs revenue expenditure, depreciation accounting, valuation of inventories",
+            "Accounts of non-profit organisations: receipts and payments, income and expenditure",
+            "Bills of exchange, self-balancing ledgers"
+          ]
+        },
+        {
+          "name": "Part B: Economics and Governance (120 marks)",
+          "topics": [
+            "Comptroller and Auditor General of India: constitutional provisions, role and duties",
+            "Finance Commission: role and functions",
+            "Basics of economics and micro-economics; production possibility curve",
+            "Demand and supply: laws, elasticity, consumer behaviour (Marshallian and indifference curve approaches)",
+            "Production and cost: factors, law of variable proportions, returns to scale",
+            "Market forms and price setting: perfect competition, monopoly, monopolistic competition, oligopoly",
+            "Indian economy: role of agriculture, industry and services; national income; population; poverty and unemployment; infrastructure",
+            "Economic reforms since 1991: liberalisation, privatisation, globalisation, disinvestment",
+            "Money and banking: RBI, commercial banks, RRBs, payments banks; monetary and fiscal policy; budget, fiscal deficit, balance of payments; FRBM Act, 2003",
+            "Role of information technology in governance"
+          ]
+        }
+      ]
+    }
+  ],
+  "eligibility": {
+    "nationality": "You must be a citizen of India, or a subject of Nepal or Bhutan. A person of Indian origin who migrated from Pakistan, Burma, Sri Lanka, Kenya, Uganda, Tanzania, Zambia, Malawi, Zaire, Ethiopia or Vietnam to settle permanently in India can also apply. Everyone except Indian citizens needs an eligibility certificate from the Government of India before getting a job offer.",
+    "age": {
+      "summary": "Age is counted as on 1 August 2026. The limit depends on the post. 18–27 years (born between 2 Aug 1999 and 1 Aug 2008): all Pay Level 4 and 5 Group C posts, such as Auditor, Accountant, Tax Assistant, UDC/SSA and Postal/Sorting Assistant. 20–30 years (born between 2 Aug 1996 and 1 Aug 2006): ASO in CSS, Ministry of Railways, MEA and AFHQ, and Sub Inspector in CBI. 18–30 years (born between 2 Aug 1996 and 1 Aug 2008): most other Group B posts. 18–32 years (born between 2 Aug 1994 and 1 Aug 2008): Junior Statistical Officer.",
+      "relaxations": [
+        {
+          "category": "SC / ST",
+          "relaxation": "5 years"
+        },
+        {
+          "category": "OBC",
+          "relaxation": "3 years"
+        },
+        {
+          "category": "PwBD (General/EWS)",
+          "relaxation": "10 years"
+        },
+        {
+          "category": "PwBD (OBC)",
+          "relaxation": "13 years"
+        },
+        {
+          "category": "PwBD (SC/ST)",
+          "relaxation": "15 years"
+        },
+        {
+          "category": "Ex-Servicemen",
+          "relaxation": "3 years after subtracting military service from actual age on 1 August 2026"
+        },
+        {
+          "category": "Defence personnel disabled in operations during hostilities or in a disturbed area and released because of it",
+          "relaxation": "3 years (8 years for SC/ST)"
+        },
+        {
+          "category": "Central Govt civilian employees with at least 3 years regular, continuous service (Group C posts only)",
+          "relaxation": "Up to 40 years of age (up to 45 for SC/ST)"
+        },
+        {
+          "category": "Widows, divorced women and judicially separated women who have not remarried (Group C posts only)",
+          "relaxation": "Up to 35 years of age (up to 40 for SC/ST)"
+        }
+      ]
+    },
+    "education": [
+      {
+        "posts": "All posts not listed below",
+        "requirement": "Bachelor's degree from a recognised university, or equivalent."
+      },
+      {
+        "posts": "Assistant Audit Officer (Central Cadre)",
+        "requirement": "Bachelor's degree from a recognised university or institute. Desirable: CA, CMA, CS, M.Com, Master's in Business Studies, MBA (Finance) or Master's in Business Economics."
+      },
+      {
+        "posts": "Assistant Audit Officer (State Cadre) and Assistant Accounts Officer (State Cadre)",
+        "requirement": "Bachelor's degree, plus the ability to read, write, speak and understand the state's regional/official language at Class 10 level, with a certificate from a recognised board. Same desirable qualifications as the Central Cadre post."
+      },
+      {
+        "posts": "Junior Statistical Officer (MoSPI)",
+        "requirement": "Bachelor's degree in any subject with at least 60% marks in Mathematics in Class 12, OR a Bachelor's degree in any subject with Statistics as one of the subjects in the degree."
+      },
+      {
+        "posts": "Statistical Investigator Grade-II (Ministry of Home Affairs)",
+        "requirement": "Bachelor's degree in Statistics, Mathematics, Economics, Demography, Population Studies, Operations Research, Information Technology, Computer Science, Computer Engineering, Computer Technology, Computer Application, Data Science or Artificial Intelligence."
+      },
+      {
+        "posts": "Final-year students",
+        "requirement": "You can apply, but you must have the required degree, with the result declared, on or before 1 August 2026."
+      }
+    ],
+    "other": [
+      "The education cut-off date is 1 August 2026. A result that the university is still processing on that date does not count.",
+      "Degrees through open and distance learning count only if the university was approved by the UGC Distance Education Bureau for that period.",
+      "Only male candidates can be selected for vacancies in the Border Roads Organisation (BRO).",
+      "Some posts need physical and medical standards. These include CBIC Inspectors, Inspector and Sub-Inspector in CBN, Sub-Inspector/JIO in NCB, Sub-Inspector in CBI and NIA, and UDC/SSA in BRO. The department checks these after final selection.",
+      "Ex-servicemen who are only matriculates can apply for Group C ex-servicemen vacancies only, and only if they have at least 15 years of service.",
+      "Application fee: ₹100. Women, SC, ST, PwBD and eligible ex-servicemen candidates do not pay any fee.",
+      "Selected Assistant Audit Officers and Assistant Accounts Officers must pass a departmental exam during probation to be confirmed.",
+      "Posts carry All India Service Liability, so you can be posted anywhere in India."
+    ]
+  },
+  "cutoffs": [
+    {
+      "year": "2025",
+      "stage": "Tier-I – List-3 (all posts except JSO and Statistical Investigator Gr-II)",
+      "note": "Official cut-off marks out of 200 (normalized). Tier-I was held from 12 to 26 September 2025, with a re-exam on 14 October 2025. Values are the corrected figures from the SSC corrigendum of 14 January 2026. They replace some figures in the result of 18 December 2025.",
+      "rows": [
+        {
+          "category": "UR",
+          "marks": "136.40215"
+        },
+        {
+          "category": "OBC",
+          "marks": "130.36617"
+        },
+        {
+          "category": "EWS",
+          "marks": "127.41630"
+        },
+        {
+          "category": "SC",
+          "marks": "115.02843"
+        },
+        {
+          "category": "ST",
+          "marks": "106.38576"
+        },
+        {
+          "category": "ESM",
+          "marks": "92.82040"
+        },
+        {
+          "category": "PwBD-OH",
+          "marks": "100.87394"
+        },
+        {
+          "category": "PwBD-HH",
+          "marks": "68.79973"
+        },
+        {
+          "category": "PwBD-VH",
+          "marks": "72.05369"
+        },
+        {
+          "category": "PwBD-Others",
+          "marks": "40.17527"
+        }
+      ]
+    },
+    {
+      "year": "2025",
+      "stage": "Tier-I – List-1 (Junior Statistical Officer)",
+      "note": "Official cut-off marks out of 200 (normalized), from the SSC Tier-I result of 18 December 2025. Only candidates who applied for JSO were considered.",
+      "rows": [
+        {
+          "category": "UR",
+          "marks": "153.46108"
+        },
+        {
+          "category": "OBC",
+          "marks": "153.46108"
+        },
+        {
+          "category": "EWS",
+          "marks": "151.58638"
+        },
+        {
+          "category": "SC",
+          "marks": "137.29518"
+        },
+        {
+          "category": "ST",
+          "marks": "136.40211"
+        },
+        {
+          "category": "PwBD-OH",
+          "marks": "125.16130"
+        },
+        {
+          "category": "PwBD-HH",
+          "marks": "104.04315"
+        },
+        {
+          "category": "PwBD-VH",
+          "marks": "134.15850"
+        },
+        {
+          "category": "PwBD-Others",
+          "marks": "91.01367"
+        }
+      ]
+    },
+    {
+      "year": "2024",
+      "stage": "Tier-I – List-3 (all posts except JSO and Statistical Investigator Gr-II)",
+      "note": "Official cut-off marks out of 200 (normalized). Tier-I was held from 9 to 26 September 2024. UR, OBC, EWS, SC and ST values are the revised cut-offs from SSC's additional result of 17 January 2025, issued after court orders. Other values are from the result of 5 December 2024.",
+      "rows": [
+        {
+          "category": "UR",
+          "marks": "152.97275"
+        },
+        {
+          "category": "OBC",
+          "marks": "146.23244"
+        },
+        {
+          "category": "EWS",
+          "marks": "141.82144"
+        },
+        {
+          "category": "SC",
+          "marks": "126.42235"
+        },
+        {
+          "category": "ST",
+          "marks": "111.85520"
+        },
+        {
+          "category": "ESM",
+          "marks": "69.92674"
+        },
+        {
+          "category": "PwBD-OH",
+          "marks": "113.10008"
+        },
+        {
+          "category": "PwBD-HH",
+          "marks": "64.79156"
+        },
+        {
+          "category": "PwBD-VH",
+          "marks": "102.97465"
+        },
+        {
+          "category": "PwBD-Others",
+          "marks": "45.74000"
+        }
+      ]
+    },
+    {
+      "year": "2024",
+      "stage": "Tier-I – List-1 (Junior Statistical Officer)",
+      "note": "Official cut-off marks out of 200 (normalized), from the SSC Tier-I result of 5 December 2024. Categories with no vacancies were not listed.",
+      "rows": [
+        {
+          "category": "UR",
+          "marks": "167.02061"
+        },
+        {
+          "category": "OBC",
+          "marks": "160.65216"
+        },
+        {
+          "category": "EWS",
+          "marks": "161.73406"
+        },
+        {
+          "category": "SC",
+          "marks": "143.53855"
+        },
+        {
+          "category": "ST",
+          "marks": "135.23007"
+        },
+        {
+          "category": "PwBD-OH",
+          "marks": "133.35717"
+        },
+        {
+          "category": "PwBD-HH",
+          "marks": "95.45162"
+        },
+        {
+          "category": "PwBD-VH",
+          "marks": "122.51903"
+        }
+      ]
+    }
+  ],
+  "salary": [
+    {
+      "posts": "Assistant Audit Officer (Central and State Cadre), Assistant Accounts Officer (State Cadre) – C&AG",
+      "payLevel": "Pay Level 8 (Group B Gazetted)",
+      "pay": "₹47,600 – ₹1,51,100"
+    },
+    {
+      "posts": "Assistant Section Officer (CSS, IB, Railways, MEA, AFHQ, MeitY, other ministries), Inspector of Income Tax (CBDT), Inspector – Central Excise / Preventive Officer / Examiner (CBIC), Assistant Enforcement Officer (ED), Sub Inspector (CBI), Inspector Posts, Inspector (CBN)",
+      "payLevel": "Pay Level 7 (Group B)",
+      "pay": "₹44,900 – ₹1,42,400"
+    },
+    {
+      "posts": "Assistant/ASO (other ministries), Executive Assistant (CBIC), Research Assistant (NHRC), Divisional Accountant (C&AG), Sub Inspector (NIA), Sub-Inspector/Junior Intelligence Officer (NCB), Junior Statistical Officer (MoSPI), Statistical Investigator Grade-II (MHA), Office Superintendent (CBDT), Section Head (DGFT)",
+      "payLevel": "Pay Level 6 (Group B)",
+      "pay": "₹35,400 – ₹1,12,400"
+    },
+    {
+      "posts": "Auditor (C&AG, CGDA, other ministries), Accountant (C&AG, CGA), Accountant/Junior Accountant (other ministries)",
+      "payLevel": "Pay Level 5 (Group C)",
+      "pay": "₹29,200 – ₹92,300"
+    },
+    {
+      "posts": "Postal Assistant/Sorting Assistant, Senior Secretariat Assistant/UDC, Senior Administrative Assistant (MES), Tax Assistant (CBDT and CBIC), Sub-Inspector (CBN)",
+      "payLevel": "Pay Level 4 (Group C)",
+      "pay": "₹25,500 – ₹81,100"
+    }
+  ],
+  "salaryNote": "These are the pay levels and basic pay ranges printed in the CGL 2026 notice (21 May 2026). The notice does not list allowances or in-hand salary.",
+  "faqs": [
+    {
+      "q": "When is the SSC CGL 2026 Tier-I exam?",
+      "a": "SSC's notice of 12 September 2026 says Tier-I runs from 30 September to 30 October 2026. Your admit card is expected 2–3 days before your own exam date. Tier-II is tentatively planned for December 2026."
+    },
+    {
+      "q": "How many vacancies are there in SSC CGL 2026?",
+      "a": "SSC lists 10,731 tentative vacancies as on 24 September 2026. The first notice of 21 May 2026 said about 12,256. Final numbers may still change."
+    },
+    {
+      "q": "What is the age limit for SSC CGL 2026?",
+      "a": "Age is counted as on 1 August 2026. Depending on the post, the limit is 18–27, 20–30, 18–30 or 18–32 years (18–32 is for JSO). SC/ST get 5 more years, OBC 3 years and PwBD 10 years."
+    },
+    {
+      "q": "Is there negative marking?",
+      "a": "Yes. In Tier-I, 0.50 mark is cut for each wrong answer (a correct answer gets 2 marks). In Tier-II Paper-I, 1 mark is cut per wrong answer in Sections I–III (a correct answer gets 3 marks). In Papers II and III, 0.50 mark is cut per wrong answer."
+    },
+    {
+      "q": "Do Tier-I marks count in the final selection?",
+      "a": "No. Tier-I is only used to shortlist candidates for Tier-II. The final merit list uses Tier-II marks only: Sections I and II of Paper-I, plus Paper-II or Paper-III for the posts that need them."
+    },
+    {
+      "q": "What were the Tier-I cut-offs in CGL 2025?",
+      "a": "For all posts except JSO and SI Grade-II, the corrected official cut-offs (out of 200) were: UR 136.40, OBC 130.37, EWS 127.42, SC 115.03 and ST 106.39. Cut-offs change every year."
+    }
+  ],
+  "calculator": {
+    "stage": "Tier-I",
+    "sections": [
+      {
+        "name": "General Intelligence and Reasoning",
+        "questions": 25,
+        "correctMarks": 2,
+        "wrongMarks": -0.5
+      },
+      {
+        "name": "General Awareness",
+        "questions": 25,
+        "correctMarks": 2,
+        "wrongMarks": -0.5
+      },
+      {
+        "name": "Quantitative Aptitude",
+        "questions": 25,
+        "correctMarks": 2,
+        "wrongMarks": -0.5
+      },
+      {
+        "name": "English Comprehension",
+        "questions": 25,
+        "correctMarks": 2,
+        "wrongMarks": -0.5
+      }
+    ],
+    "note": "Tier-I has 100 questions for 200 marks, and 0.50 mark is cut for each wrong answer (CGL 2026 notice, para 13.8). This gives your raw score. SSC normalizes marks across shifts, so your official score may be different."
+  }
+}

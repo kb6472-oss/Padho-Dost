@@ -3,6 +3,7 @@ import { prisma } from "@/lib/prisma";
 import { getDigestDates } from "@/lib/current-affairs";
 import { getSubjectPaths, getChapterPaths } from "@/lib/hubs";
 import { getPyqExams, getPyqTopicPaths } from "@/lib/pyq";
+import { examInfoSlugs, getExamInfo, INFO_KINDS } from "@/lib/exam-info";
 
 const BASE = "https://padhodost.com";
 
@@ -84,6 +85,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.6,
   }));
 
+  // Exam-information pages + score calculators (official-source guides).
+  const infoRoutes: MetadataRoute.Sitemap = examInfoSlugs().flatMap((slug) => [
+    ...INFO_KINDS.map((k) => ({ url: `${BASE}/exams/${slug}/${k.kind}`, lastModified: now, changeFrequency: "weekly" as const, priority: 0.8 })),
+    ...(getExamInfo(slug)?.calculator ? [{ url: `${BASE}/exams/${slug}/score-calculator`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.7 }] : []),
+  ]);
+
   // Dated /daily and /gk pages stay EXCLUDED and noindex — a single MCQ each
   // (~40 words) is thin inventory. Re-add once they carry the explanation,
   // related explainers and archive nav (Phase 2 of docs/REDESIGN-PLAN.md).
@@ -106,6 +113,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...examRoutes,
     ...subjectRoutes,
     ...chapterRoutes,
+    ...infoRoutes,
     ...pyqIndexRoutes,
     ...pyqTopicRoutes,
     ...explainerRoutes,

@@ -1,0 +1,730 @@
+{
+  "slug": "wbcs",
+  "examName": "WBCS",
+  "conductingBody": "Public Service Commission, West Bengal (WBPSC)",
+  "cycle": "2024 · Advt. No. 08/2024",
+  "lastChecked": "2026-10-02",
+  "overview": "The WBCS (Exe.) etc. Examination is run by the Public Service Commission, West Bengal. It fills posts in four groups. Group A covers WBCS (Executive) and other Group A services. Group B is the West Bengal Police Service. Group C and Group D cover a range of state posts. You fill in one application and can choose one or more groups. There are three stages. The first is the Preliminary exam, a 200-mark objective (MCQ) screening test. The second is the Main exam, with six compulsory papers, and Group A and B candidates also take one optional subject of two papers. The third is the Personality Test. Prelims marks are used only for screening. Your final rank comes from the Main and the Personality Test marks added together. For the 2024 cycle, applications ran from 18 November 2025 to 17 December 2025. The Prelims took place on 14 June 2026, and WBPSC published the final answer key on 27 August 2026. As of 2 October 2026, WBPSC had not announced the Prelims result or the Main exam dates. The 2024 exam uses the older scheme from the 2014 notification. WBPSC has said that a new scheme (P&AR Notification No. 695-PAR dated 17 June 2025) will apply from the WBCS 2025 exam. The next cycle, WBCS 2025, has only an indicative advertisement so far (No. 03/2025, dated 29 November 2025).",
+  "officialWebsite": "https://psc.wb.gov.in",
+  "notificationUrl": "https://psc.wb.gov.in/Download?param1=Ad_20251114122448_Advertisement_2024_Final.pdf&param2=advertisement",
+  "sources": [
+    {
+      "label": "WBPSC official website (home page and notice listings)",
+      "url": "https://psc.wb.gov.in/"
+    },
+    {
+      "label": "WBPSC Detailed Advertisement No. 08/2024 – WBCS (Exe.) etc. Examination, 2024 (dated 14.11.2025)",
+      "url": "https://psc.wb.gov.in/Download?param1=Ad_20251114122448_Advertisement_2024_Final.pdf&param2=advertisement"
+    },
+    {
+      "label": "WBPSC Scheme and Syllabus – WBCS (Exe.) etc. Examination, 2024 (Advt. No. 8/2024)",
+      "url": "https://psc.wb.gov.in/Download?param1=20251114121739_SCHEME_SYLLABUS-2024_Final.pdf&param2=advertisement"
+    },
+    {
+      "label": "WBPSC Indicative Advertisement No. 08/2024 (dated 20.11.2024)",
+      "url": "https://psc.wb.gov.in/Download?param1=An_20241120110521_WBCS24Indicative.pdf&param2=advertisement"
+    },
+    {
+      "label": "WBPSC notice: WBCS 2024 to follow the 2014 scheme; new scheme from WBCS 2025 (dated 14.08.2025)",
+      "url": "https://psc.wb.gov.in/Download?param1=An_20250816135627_WBCS_NOTICE_2.pdf&param2=advertisement"
+    },
+    {
+      "label": "WBPSC notice: earlier 2023/2024 new-scheme notifications cancelled (dated 14.08.2025)",
+      "url": "https://psc.wb.gov.in/Download?param1=An_20250816135235_WBCS_NOTICE_1.pdf&param2=advertisement"
+    },
+    {
+      "label": "WBPSC announcement: application closing date extended to 16.12.2025 (dated 05.12.2025)",
+      "url": "https://psc.wb.gov.in/Download?param1=An_20251205171638_IMPORTANT_ANNOUNCEMENT_WBCS_2024.pdf&param2=advertisement"
+    },
+    {
+      "label": "WBPSC announcement: application closing date extended to midnight of 17.12.2025 (dated 16.12.2025)",
+      "url": "https://psc.wb.gov.in/Download?param1=An_20251216162840_IMPORTANT_ANNOUNCEMENT_08_2024.pdf&param2=advertisement"
+    },
+    {
+      "label": "WBPSC announcement: Edit Window and certificate upload 22.12.2025 to 29.12.2025 (dated 18.12.2025)",
+      "url": "https://psc.wb.gov.in/Download?param1=An_20251221143754_IMPORTANT_ANNOUNCEMENT_08_2024_WBCS.pdf&param2=advertisement"
+    },
+    {
+      "label": "WBPSC announcement: Edit Window extended to 05.01.2026 (dated 29.12.2025)",
+      "url": "https://psc.wb.gov.in/Download?param1=An_20251229161747_Important_Announcent_Edit_Window_WBCS_2024.pdf&param2=advertisement"
+    },
+    {
+      "label": "WBPSC announcement: Edit Window extended to 07.01.2026 (dated 02.01.2026)",
+      "url": "https://psc.wb.gov.in/Download?param1=An_20260102181636_WBCS24_Notice.pdf&param2=advertisement"
+    },
+    {
+      "label": "WBPSC announcement: WBCS (Preliminary) 2024 on 14.06.2026, e-admit card from 04.06.2026 (dated 14.05.2026)",
+      "url": "https://psc.wb.gov.in/Download?param1=An_20260514112520_WBCS24_IA.pdf&param2=advertisement"
+    },
+    {
+      "label": "WBPSC official WBCS(P)-2024 question booklet, Series A (cover instructions incl. negative marking)",
+      "url": "https://psc.wb.gov.in/Download?param1=20260728155644_WBCS_P-2024-A_merged_1_compressed.pdf&param2=PYQP"
+    },
+    {
+      "label": "WBPSC previous year question papers listing",
+      "url": "https://psc.wb.gov.in/previous_year_question_paper.jsp"
+    },
+    {
+      "label": "WBPSC provisional answer key, WBCS (Preli) 2024 (No. 1041-PSC/CON(Q), dated 24.06.2026)",
+      "url": "https://psc.wb.gov.in/Download?param1=202606241652_WBCS_24_Prelim_AK.pdf&param2=advertisement"
+    },
+    {
+      "label": "WBPSC final answer key, WBCS (Preli) 2024 (No. 1104-PSC/CON(Q), dated 27.08.2026)",
+      "url": "https://psc.wb.gov.in/Download?param1=202608271742_FINAL_ANSWER_KEY_WBCS_2024_PRELI.pdf&param2=advertisement"
+    },
+    {
+      "label": "WBPSC announcement: Edit option for OBC sub-category/UR details (No. 192/PSC(I), dated 03.09.2026)",
+      "url": "https://psc.wb.gov.in/Download?param1=An_20260903165957_EDIT_Category_OBC.pdf&param2=advertisement"
+    },
+    {
+      "label": "WBPSC Indicative Advertisement No. 03/2025 – WBCS (Exe.) etc. Examination, 2025 (dated 29.11.2025)",
+      "url": "https://psc.wb.gov.in/Download?param1=An_20251129151248_Indwbcs25.pdf&param2=advertisement"
+    },
+    {
+      "label": "WBPSC announcement: category-wise cut-off marks for Personality Test, Group D posts, WBCS (Exe.) etc. Examination 2020 (Advt. No. 22/2019)",
+      "url": "https://psc.wb.gov.in/Download?param1=An_20230705150738_CUTOFF22-19.pdf&param2=advertisement"
+    }
+  ],
+  "dates": [
+    {
+      "event": "Indicative advertisement for WBCS 2024 (Advt. No. 08/2024) published",
+      "date": "20 November 2024",
+      "status": "done"
+    },
+    {
+      "event": "Detailed advertisement and Scheme & Syllabus for WBCS 2024 released",
+      "date": "14 November 2025",
+      "status": "done"
+    },
+    {
+      "event": "Online application opens",
+      "date": "18 November 2025",
+      "status": "done"
+    },
+    {
+      "event": "Online application closes (first set as 9 December 2025, 3:00 pm; WBPSC extended it twice)",
+      "date": "17 December 2025 (by 11:59 pm)",
+      "status": "done"
+    },
+    {
+      "event": "Edit Window and upload of category certificates (first set as 22–29 December 2025; WBPSC extended it twice)",
+      "date": "22 December 2025 – 7 January 2026 (by 11:59 pm)",
+      "status": "done"
+    },
+    {
+      "event": "Indicative advertisement for the next cycle, WBCS 2025 (Advt. No. 03/2025)",
+      "date": "29 November 2025",
+      "status": "done"
+    },
+    {
+      "event": "e-Admit cards for the Preliminary exam available on psc.wb.gov.in",
+      "date": "4 June 2026",
+      "status": "done"
+    },
+    {
+      "event": "Preliminary Examination (12:00 noon to 2:30 pm; venue entry closes at 11:30 am)",
+      "date": "14 June 2026",
+      "status": "done"
+    },
+    {
+      "event": "Provisional answer key published",
+      "date": "24 June 2026",
+      "status": "done"
+    },
+    {
+      "event": "Window to raise objections to the provisional answer key",
+      "date": "30 June 2026 – 6 July 2026",
+      "status": "done"
+    },
+    {
+      "event": "Final answer key published",
+      "date": "27 August 2026",
+      "status": "done"
+    },
+    {
+      "event": "Edit window to update OBC sub-category / UR category details",
+      "date": "6 September 2026 – 14 September 2026",
+      "status": "done"
+    }
+  ],
+  "vacancies": {
+    "total": null,
+    "note": "Not officially published yet. Advertisement No. 08/2024 says WBPSC will announce the number of vacancies later. It also says posts in a group may not be filled if the department does not report vacancies in time. As of 2 October 2026, no WBCS 2024 vacancy list was found on the WBPSC website. Some vacancies may be reserved for EWS, SC, ST, OBC (Non-Creamy Layer) and PwBD candidates of West Bengal. Reservation for Meritorious Sportspersons applies only to Group D posts."
+  },
+  "pattern": [
+    {
+      "stage": "Preliminary Examination",
+      "mode": "Offline objective (MCQ) test. You mark answers on an OMR sheet with a black ball-point pen.",
+      "duration": "2 hours 30 minutes",
+      "sections": [
+        {
+          "name": "English Composition",
+          "questions": 25,
+          "marks": 25
+        },
+        {
+          "name": "General Science",
+          "questions": 25,
+          "marks": 25
+        },
+        {
+          "name": "Current Events of National & International Importance",
+          "questions": 25,
+          "marks": 25
+        },
+        {
+          "name": "History of India",
+          "questions": 25,
+          "marks": 25
+        },
+        {
+          "name": "Geography of India with special reference to West Bengal",
+          "questions": 25,
+          "marks": 25
+        },
+        {
+          "name": "Indian Polity and Economy",
+          "questions": 25,
+          "marks": 25
+        },
+        {
+          "name": "Indian National Movement",
+          "questions": 25,
+          "marks": 25
+        },
+        {
+          "name": "General Mental Ability",
+          "questions": 25,
+          "marks": 25
+        }
+      ],
+      "totalQuestions": 200,
+      "totalMarks": 200,
+      "marking": "There is one paper, General Studies, with 200 questions worth 200 marks. All questions carry equal marks, so each correct answer gets 1 mark. Each wrong answer loses 0.25 mark, as printed on the 2024 question booklet.",
+      "notes": [
+        "Each of the 8 areas carries 25 marks. Because all questions carry equal marks, this works out to 25 questions per area.",
+        "Each question has four options, (A) to (D). Marking more than one circle counts as a wrong answer.",
+        "The Prelims is only a screening test. Its marks are not added to your final merit score.",
+        "Only candidates who qualify in the Prelims of a given year can sit the Main exam of that same year.",
+        "The paper is set at the level of a graduate in any subject.",
+        "The exam is held in Kolkata and in district centres across West Bengal. In 2024 there were 25 district centres.",
+        "In the 2024 final answer key, every candidate gets 1 mark for each question marked '*', whether or not they attempted it."
+      ]
+    },
+    {
+      "stage": "Main Examination",
+      "mode": "Offline written exam. Four compulsory papers are MCQ, answered on OMR sheets. Papers I and II (languages) and the optional papers are conventional (descriptive) answer papers.",
+      "duration": "3 hours per paper",
+      "sections": [
+        {
+          "name": "Paper I – Bengali/Hindi/Urdu/Nepali/Santali (letter or report writing, précis, composition, translation from English) – conventional",
+          "questions": null,
+          "marks": 200
+        },
+        {
+          "name": "Paper II – English (letter or report writing, précis, composition, translation into English) – conventional",
+          "questions": null,
+          "marks": 200
+        },
+        {
+          "name": "Paper III – General Studies-I (Indian History with emphasis on National Movement; Geography of India with reference to West Bengal) – MCQ",
+          "questions": null,
+          "marks": 200
+        },
+        {
+          "name": "Paper IV – General Studies-II (Science & Technology, Environment, General Knowledge, Current Affairs) – MCQ",
+          "questions": null,
+          "marks": 200
+        },
+        {
+          "name": "Paper V – The Constitution of India and Indian Economy including role and functions of RBI – MCQ",
+          "questions": null,
+          "marks": 200
+        },
+        {
+          "name": "Paper VI – Arithmetic and Test of Reasoning – MCQ",
+          "questions": null,
+          "marks": 200
+        },
+        {
+          "name": "Optional Subject Paper 1 (Group A and B candidates only) – conventional",
+          "questions": null,
+          "marks": 200
+        },
+        {
+          "name": "Optional Subject Paper 2 (Group A and B candidates only) – conventional",
+          "questions": null,
+          "marks": 200
+        }
+      ],
+      "totalQuestions": null,
+      "totalMarks": 1600,
+      "marking": "Each paper carries 200 marks. Every wrong answer in an MCQ paper carries negative marking, at the rate printed on the question booklet. If you reveal your identity in an answer script (for example your name or roll number), 10% of that paper's full marks will be cut.",
+      "notes": [
+        "Group A and B candidates write all 6 compulsory papers plus one optional subject of two papers, for 1600 marks.",
+        "Group C and D candidates write only the 6 compulsory papers, for 1200 marks.",
+        "For Paper I you pick one language: Bengali, Hindi, Urdu, Nepali or Santali. Paper II asks you to translate from that language into English.",
+        "You can answer every paper except the language papers in English or Bengali, but you must use only one language within a paper. The Political Science and Botany optionals may also be answered in Nepali.",
+        "The scheme says Santali papers are set in the Ol Chiki script and must be answered in Ol Chiki.",
+        "There are 38 optional subjects to choose from. The optional papers are at about Honours degree level. Law, Medical Science and Engineering are at LLB, MBBS and BE level.",
+        "WBPSC can set qualifying marks in any paper and in the aggregate. If you fail to reach the qualifying mark in a paper, that paper is left out of your aggregate.",
+        "The official scheme does not say how many questions each MCQ paper has."
+      ]
+    },
+    {
+      "stage": "Personality Test",
+      "mode": "Interview at the Public Service Commission office, Kolkata",
+      "duration": "Not stated in the official scheme",
+      "sections": [
+        {
+          "name": "Group A & B services",
+          "questions": null,
+          "marks": 200
+        },
+        {
+          "name": "Group C services and posts",
+          "questions": null,
+          "marks": 150
+        },
+        {
+          "name": "Group D posts",
+          "questions": null,
+          "marks": 100
+        }
+      ],
+      "totalQuestions": null,
+      "totalMarks": null,
+      "marking": "Each candidate has one Personality Test. Marks are then given separately for each group applied for, out of 200 (A & B), 150 (C) or 100 (D).",
+      "notes": [
+        "Candidates are called in order of merit based on their Main exam results.",
+        "Your final merit is based on your Main exam marks plus your Personality Test marks.",
+        "Maximum total marks are 1800 for Group A, 1800 for Group B, 1350 for Group C and 1300 for Group D.",
+        "Group B (West Bengal Police Service) candidates are specially tested for suitability for police service.",
+        "If your mother tongue is not Bengali or Nepali, your knowledge of Bengali is tested at the Personality Test.",
+        "To qualify, your aggregate (written plus Personality Test) must reach at least: UR 40%, EWS 40%, OBC (A & B) 38%, SC 35%, ST 30%, PwBD 30%, MSP 40%. WBPSC may relax these marks for reserved categories.",
+        "If two candidates tie, the higher Personality Test mark ranks first. Next comes the higher compulsory aggregate, then the best compulsory papers, and finally the older candidate."
+      ]
+    }
+  ],
+  "syllabus": [
+    {
+      "stage": "Preliminary Examination (General Studies, 200 marks)",
+      "sections": [
+        {
+          "name": "English Composition",
+          "topics": [
+            "Synonyms and antonyms",
+            "Idioms and phrases",
+            "Vocabulary",
+            "Phrasal verbs",
+            "Words with more than one meaning",
+            "Use of suitable and qualifying words"
+          ]
+        },
+        {
+          "name": "General Science",
+          "topics": [
+            "General understanding of science",
+            "Science in everyday observation and experience",
+            "Level expected of an educated person who has not specially studied science"
+          ]
+        },
+        {
+          "name": "Current Events of National & International Importance",
+          "topics": [
+            "Important national and international events (the official outline gives no further detail)"
+          ]
+        },
+        {
+          "name": "History of India",
+          "topics": [
+            "Broad general understanding of Indian history",
+            "Social, economic and political aspects"
+          ]
+        },
+        {
+          "name": "Geography of India with special reference to West Bengal",
+          "topics": [
+            "Physical geography of India",
+            "Social and economic geography of India",
+            "Indian agriculture and natural resources",
+            "Special focus on West Bengal"
+          ]
+        },
+        {
+          "name": "Indian Polity and Economy",
+          "topics": [
+            "India's political system",
+            "Panchayati Raj",
+            "Community development",
+            "Planning in India"
+          ]
+        },
+        {
+          "name": "Indian National Movement",
+          "topics": [
+            "Nature and character of the 19th-century resurgence",
+            "Growth of nationalism",
+            "Attainment of independence"
+          ]
+        },
+        {
+          "name": "General Mental Ability",
+          "topics": [
+            "Logical perception",
+            "Understanding",
+            "Drawing natural conclusions"
+          ]
+        }
+      ]
+    },
+    {
+      "stage": "Main Examination – Compulsory Papers (200 marks each)",
+      "sections": [
+        {
+          "name": "Paper I – Bengali/Hindi/Urdu/Nepali/Santali (conventional)",
+          "topics": [
+            "Letter writing (within 150 words) or drafting a report (within 200 words)",
+            "Précis writing",
+            "Composition",
+            "Translation from English into the chosen language"
+          ]
+        },
+        {
+          "name": "Paper II – English (conventional)",
+          "topics": [
+            "Letter writing (within 150 words) or drafting a report (within 200 words)",
+            "Précis writing",
+            "Composition",
+            "Translation from Bengali/Hindi/Urdu/Nepali/Santali into English"
+          ]
+        },
+        {
+          "name": "Paper III – General Studies-I (MCQ)",
+          "topics": [
+            "Indian History, with special emphasis on the National Movement",
+            "Geography of India, with special reference to West Bengal"
+          ]
+        },
+        {
+          "name": "Paper IV – General Studies-II (MCQ)",
+          "topics": [
+            "Science and scientific and technological advances",
+            "Environment: biodiversity and Coastal Regulation Zone",
+            "Environment: global warming",
+            "Environment: industrial and environmental pollution",
+            "Environment: ozone layer and related issues",
+            "General knowledge",
+            "Current affairs"
+          ]
+        },
+        {
+          "name": "Paper V – The Constitution of India and Indian Economy including role and functions of RBI (MCQ)",
+          "topics": [
+            "The Constitution of India",
+            "Centre–State relations and devolution of central funds to states",
+            "Planning process and objectives of Five-Year Plans",
+            "Functions of the Reserve Bank of India and monetary policy",
+            "Central Finance Commission and State Finance Commission",
+            "Fiscal policy of the Government of India"
+          ]
+        },
+        {
+          "name": "Paper VI – Arithmetic and Test of Reasoning (MCQ)",
+          "topics": [
+            "Arithmetic at the level of Madhyamik (WBBSE) compulsory Mathematics",
+            "Analytical reasoning: data sufficiency",
+            "Logical reasoning: logical deduction, strength of arguments, implication of sentences, inferring from diagrams",
+            "Series: letter series and number series",
+            "Inferring from data",
+            "Analogy tests",
+            "Symbol interpretation",
+            "Mathematical puzzles",
+            "Odd man out",
+            "Perception test",
+            "Non-verbal reasoning",
+            "Selecting the correct sequence"
+          ]
+        }
+      ]
+    },
+    {
+      "stage": "Main Examination – Optional Subject (Group A and B only; two papers of 200 marks each)",
+      "sections": [
+        {
+          "name": "Language and literature optionals",
+          "topics": [
+            "Bengali",
+            "Hindi",
+            "Sanskrit",
+            "English",
+            "Pali",
+            "Arabic",
+            "Persian",
+            "French",
+            "Urdu",
+            "Santali",
+            "Nepali",
+            "Comparative Literature"
+          ]
+        },
+        {
+          "name": "Science, engineering and professional optionals",
+          "topics": [
+            "Agriculture",
+            "Animal Husbandry and Veterinary Science",
+            "Botany",
+            "Chemistry",
+            "Civil Engineering",
+            "Computer Science",
+            "Electrical Engineering",
+            "Geology",
+            "Mathematics",
+            "Mechanical Engineering",
+            "Medical Science",
+            "Physics",
+            "Physiology",
+            "Statistics",
+            "Zoology"
+          ]
+        },
+        {
+          "name": "Humanities, social science and commerce optionals",
+          "topics": [
+            "Anthropology",
+            "Commerce and Accountancy",
+            "Economics",
+            "Geography",
+            "History",
+            "Law",
+            "Management",
+            "Philosophy",
+            "Political Science",
+            "Psychology",
+            "Sociology"
+          ]
+        },
+        {
+          "name": "Note on optional syllabi",
+          "topics": [
+            "Each optional has a detailed two-paper syllabus in the official WBCS 2024 Scheme & Syllabus PDF",
+            "Standard is about Honours degree level; Law, Medical Science and Engineering follow LLB, MBBS and BE level"
+          ]
+        }
+      ]
+    },
+    {
+      "stage": "Personality Test",
+      "sections": [
+        {
+          "name": "What is assessed",
+          "topics": [
+            "Questions on matters of general interest",
+            "Alertness of mind",
+            "Clear and logical expression",
+            "Intellectual and moral integrity",
+            "Leadership",
+            "Range of interests"
+          ]
+        },
+        {
+          "name": "Special checks",
+          "topics": [
+            "Suitability for police service (Group B, West Bengal Police Service)",
+            "Knowledge of Bengali for candidates whose mother tongue is not Bengali or Nepali"
+          ]
+        }
+      ]
+    }
+  ],
+  "eligibility": {
+    "nationality": "You must be a citizen of India, by birth or by registration, or a national of another country that the Government of India has declared eligible. Candidates in the second category need an eligibility certificate from the Government before they can be offered an appointment.",
+    "age": {
+      "summary": "Age is counted on 1 January 2024. Group A and C: 21 to 36 years (born between 2 January 1988 and 1 January 2003). Group B (West Bengal Police Service): 20 to 36 years (born between 2 January 1988 and 1 January 2004). Group D: 21 to 39 years (born between 2 January 1985 and 1 January 2003). If you are between 20 and 21 (born between 1 January 2003 and 1 January 2004), you can apply for Group B only. WBPSC accepts only the age recorded in your Madhyamik or equivalent certificate.",
+      "relaxations": [
+        {
+          "category": "SC / ST of West Bengal",
+          "relaxation": "Upper age limit relaxed by 5 years"
+        },
+        {
+          "category": "OBC (Non-Creamy Layer) of West Bengal",
+          "relaxation": "Upper age limit relaxed by 3 years"
+        },
+        {
+          "category": "Persons with Benchmark Disabilities (40% and above)",
+          "relaxation": "Upper age limit relaxed up to 45 years"
+        },
+        {
+          "category": "SC / ST / OBC candidates from other states",
+          "relaxation": "No relaxation; they are considered for unreserved posts only"
+        }
+      ]
+    },
+    "education": [
+      {
+        "posts": "All groups (A, B, C and D)",
+        "requirement": "A degree from a recognised university. You must hold it by the closing date of the application."
+      },
+      {
+        "posts": "West Bengal Junior Social Welfare Service (Group C) – posts in Homes for the Blind and/or Deaf",
+        "requirement": "A degree, diploma or certificate in training the blind and/or deaf is essential. Candidates without it can still be appointed, but must complete in-service training."
+      }
+    ],
+    "other": [
+      "Language: You must be able to read, write and speak Bengali. This does not apply if your mother tongue is Nepali. If your mother tongue is neither Bengali nor Nepali, your Bengali will be tested at the Personality Test, and poor performance can lead to cancellation of your candidature.",
+      "West Bengal Subordinate Land Revenue Service, Grade-I needs a good working knowledge of written and spoken Bengali. Candidates whose mother tongue is Nepali are exempt, but must pass a departmental Bengali exam within two years. Selected candidates also go through 6 months of in-service training.",
+      "Physical standard for Group B (West Bengal Police Service): minimum height 1.65 m for men and 1.50 m for women. The height rule is relaxed for groups such as Gorkhas, Garhwalis and Assamese tribals. You must state your height in the application form.",
+      "You must have good health and good character. Selected candidates must pass a medical board and a police verification of antecedents.",
+      "Reservation benefits for EWS, SC, ST and OBC (Non-Creamy Layer) apply only to candidates of West Bengal. You need a certificate from a West Bengal competent authority, issued on or before the closing date.",
+      "Reservation for Meritorious Sportspersons applies only to Group D posts.",
+      "Submit only one application and choose your group(s) in it. You cannot change your groups later. More than one application from the same person may be cancelled.",
+      "Fee: ₹210 plus service charges, paid online. SC/ST candidates of West Bengal and PwBD candidates (40% and above) do not pay a fee. OBC candidates pay the full fee."
+    ]
+  },
+  "cutoffs": [
+    {
+      "year": "2020",
+      "stage": "Main Examination – minimum marks to be called for the Personality Test (Group D posts only)",
+      "note": "This is the official WBPSC notice for the WBCS (Exe.) etc. Examination 2020 (Advt. No. 22/2019), uploaded on 5 July 2023. It covers Group D posts only, and the notice does not say what total these marks are out of. No other category-wise WBCS cut-off list was found on WBPSC's notice pages. For the WBCS 2021 Prelims, WBPSC published only a clarification without numbers.",
+      "rows": [
+        {
+          "category": "UR",
+          "marks": "771.33"
+        },
+        {
+          "category": "OBC-A",
+          "marks": "757.66"
+        },
+        {
+          "category": "OBC-B",
+          "marks": "771.33"
+        },
+        {
+          "category": "SC",
+          "marks": "725"
+        },
+        {
+          "category": "ST",
+          "marks": "655.99"
+        },
+        {
+          "category": "PH (VH)",
+          "marks": "633.67"
+        }
+      ]
+    }
+  ],
+  "salary": [
+    {
+      "posts": "Group A – West Bengal Civil Service (Executive); Assistant Commissioner of Revenue (integrated West Bengal Revenue Service); West Bengal Co-operative Service; West Bengal Labour Service; West Bengal Food and Supplies Service; West Bengal Employment Service (except Employment Officer (Technical))",
+      "payLevel": "Pay Level 16",
+      "pay": "₹56,100 – ₹1,44,300"
+    },
+    {
+      "posts": "Group B – West Bengal Police Service",
+      "payLevel": "Pay Level 16",
+      "pay": "₹56,100 – ₹1,44,300"
+    },
+    {
+      "posts": "Group C – Superintendent, District Correctional Home / Deputy Superintendent, Central Correctional Home",
+      "payLevel": "Pay Level 15",
+      "pay": "₹42,600 – ₹1,09,800"
+    },
+    {
+      "posts": "Group C – Joint Block Development Officer; Deputy Assistant Director of Consumer Affairs and Fair Business Practices; West Bengal Junior Social Welfare Service; West Bengal Subordinate Land Revenue Service, Grade-I; Assistant Commercial Tax Officer; Registrar (District Consumer Disputes Redressal Commission) / Joint Registrar (West Bengal State Consumer Disputes Redressal Commission)",
+      "payLevel": "Pay Level 14",
+      "pay": "₹39,900 – ₹1,02,800"
+    },
+    {
+      "posts": "Group C – Assistant Canal Revenue Officer (Irrigation); Chief Controller of Correctional Services",
+      "payLevel": "Pay Level 12",
+      "pay": "₹35,800 – ₹92,100"
+    },
+    {
+      "posts": "Group D – Inspector of Co-operative Societies; Panchayat Development Officer (Panchayat and Rural Development Department); Rehabilitation Officer (Refugee Relief and Rehabilitation Department)",
+      "payLevel": "Pay Level 10",
+      "pay": "₹32,100 – ₹82,900"
+    }
+  ],
+  "salaryNote": "These pay levels and ranges come from WBPSC Advertisement No. 08/2024. Dearness Allowance (DA), Medical Allowance (MA) and House Rent Allowance (HRA) are paid on top, as per rules. All appointments start on a temporary basis.",
+  "faqs": [
+    {
+      "q": "Which WBCS exam is the latest, and where does it stand now?",
+      "a": "The latest is the WBCS (Exe.) etc. Examination 2024 (Advt. No. 08/2024). The Prelims took place on 14 June 2026, and the final answer key came out on 27 August 2026. As of 2 October 2026, the Prelims result and the Main exam dates had not been announced. For WBCS 2025, there is only an indicative advertisement (No. 03/2025). WBPSC says a new scheme will apply from the 2025 exam."
+    },
+    {
+      "q": "What is the WBCS Prelims pattern and negative marking?",
+      "a": "There is one General Studies paper with 200 MCQs worth 200 marks, and you get 2½ hours. The paper covers 8 areas of 25 marks each. A correct answer gets 1 mark. The 2024 question booklet says 0.25 mark is cut for each wrong answer."
+    },
+    {
+      "q": "Do Prelims marks count in the final merit list?",
+      "a": "No. The Prelims only decides who goes on to the Main exam. Your final merit is based on your Main exam marks plus your Personality Test marks."
+    },
+    {
+      "q": "What is the age limit for WBCS 2024?",
+      "a": "Age is counted on 1 January 2024. Groups A and C: 21–36 years. Group B (Police): 20–36 years. Group D: 21–39 years. SC/ST candidates of West Bengal get 5 extra years, OBC (Non-Creamy Layer) candidates of West Bengal get 3, and PwBD candidates can apply up to age 45."
+    },
+    {
+      "q": "Do I need to know Bengali to apply?",
+      "a": "Yes. You must be able to read, write and speak Bengali, unless your mother tongue is Nepali. If your mother tongue is neither Bengali nor Nepali, your Bengali will be tested at the Personality Test, and a poor result can cancel your candidature."
+    },
+    {
+      "q": "Which Main exam papers do I write for each group?",
+      "a": "Every candidate writes six compulsory papers of 200 marks each. Papers I and II are descriptive language papers, and Papers III to VI are MCQ. Group A and B candidates also take one optional subject of two 200-mark papers. Maximum totals, including the Personality Test, are 1800 for Groups A and B, 1350 for Group C and 1300 for Group D."
+    }
+  ],
+  "calculator": {
+    "stage": "Prelims",
+    "note": "WBCS Prelims 2024 has 200 questions of equal value for 200 marks, so each correct answer gets 1 mark. The 2024 question booklet says 0.25 mark is cut for each wrong answer. Each of the 8 areas carries 25 marks, which means 25 questions per area. Prelims marks are used only to pick candidates for the Main exam. They do not count in the final merit.",
+    "sections": [
+      {
+        "name": "English Composition",
+        "questions": 25,
+        "correctMarks": 1,
+        "wrongMarks": -0.25
+      },
+      {
+        "name": "General Science",
+        "questions": 25,
+        "correctMarks": 1,
+        "wrongMarks": -0.25
+      },
+      {
+        "name": "Current Events of National & International Importance",
+        "questions": 25,
+        "correctMarks": 1,
+        "wrongMarks": -0.25
+      },
+      {
+        "name": "History of India",
+        "questions": 25,
+        "correctMarks": 1,
+        "wrongMarks": -0.25
+      },
+      {
+        "name": "Geography of India with special reference to West Bengal",
+        "questions": 25,
+        "correctMarks": 1,
+        "wrongMarks": -0.25
+      },
+      {
+        "name": "Indian Polity and Economy",
+        "questions": 25,
+        "correctMarks": 1,
+        "wrongMarks": -0.25
+      },
+      {
+        "name": "Indian National Movement",
+        "questions": 25,
+        "correctMarks": 1,
+        "wrongMarks": -0.25
+      },
+      {
+        "name": "General Mental Ability",
+        "questions": 25,
+        "correctMarks": 1,
+        "wrongMarks": -0.25
+      }
+    ]
+  }
+}

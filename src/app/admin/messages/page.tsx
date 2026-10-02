@@ -4,6 +4,7 @@ import { prisma } from "@/lib/prisma";
 import { isAdmin } from "@/lib/admin";
 import { setMessageHandled } from "@/lib/admin-actions";
 import Badge from "@/components/ui/Badge";
+import { AdminNav } from "@/components/admin/AdminUi";
 
 export const metadata: Metadata = { title: "Messages", robots: { index: false, follow: false } };
 
@@ -25,7 +26,8 @@ export default async function AdminMessagesPage() {
 
   return (
     <div className="mx-auto max-w-3xl px-4 py-10 sm:px-6">
-      <h1 className="font-display text-h1 font-extrabold tracking-tight text-foreground">Messages</h1>
+      <AdminNav active="messages" />
+      <h1 className="mt-6 font-display text-h1 font-extrabold tracking-tight text-foreground">Messages</h1>
       <p className="mt-2 text-body text-muted">
         Contact form and “report a mistake” submissions. {open} open, {messages.length} total.
       </p>

@@ -14,20 +14,41 @@ function istDayKey(): string {
   return new Date(Date.now() + 5.5 * 3600_000).toISOString().slice(0, 10);
 }
 
+// GNews' free tier returns at most 10 articles per request, and "nation" alone left
+// the digest with only 1–2 exam-relevant facts a day. Pull several categories
+// (6 requests/day of the free 100). Override with GNEWS_CATEGORIES="a,b,c".
+const GNEWS_CATEGORIES = (process.env.GNEWS_CATEGORIES ?? "nation,business,world,science,technology,sports")
+  .split(",")
+  .map((s) => s.trim())
+  .filter(Boolean);
+
 async function fetchGNews(key: string): Promise<Item[]> {
-  const url = `https://gnews.io/api/v4/top-headlines?category=nation&lang=en&country=in&max=10&apikey=${key}`;
-  const res = await fetch(url);
-  if (!res.ok) throw new Error(`GNews ${res.status}: ${await res.text()}`);
-  const data = (await res.json()) as { articles?: Array<Record<string, unknown>> };
-  return (data.articles ?? []).map((a) => ({
-    title: String(a.title ?? "").trim(),
-    summary: a.description ? String(a.description).trim() : null,
-    source: (a.source as { name?: string })?.name ?? null,
-    url: String(a.url ?? ""),
-    imageUrl: a.image ? String(a.image) : null,
-    category: "nation",
-    publishedAt: a.publishedAt ? new Date(String(a.publishedAt)) : null,
-  }));
+  const out: Item[] = [];
+  for (const category of GNEWS_CATEGORIES) {
+    try {
+      const url = `https://gnews.io/api/v4/top-headlines?category=${category}&lang=en&country=in&max=10&apikey=${key}`;
+      const res = await fetch(url);
+      if (!res.ok) throw new Error(`GNews ${res.status}: ${(await res.text()).slice(0, 200)}`);
+      const data = (await res.json()) as { articles?: Array<Record<string, unknown>> };
+      for (const a of data.articles ?? []) {
+        out.push({
+          title: String(a.title ?? "").trim(),
+          summary: a.description ? String(a.description).trim() : null,
+          source: (a.source as { name?: string })?.name ?? null,
+          url: String(a.url ?? ""),
+          imageUrl: a.image ? String(a.image) : null,
+          category,
+          publishedAt: a.publishedAt ? new Date(String(a.publishedAt)) : null,
+        });
+      }
+    } catch (e) {
+      console.warn(`GNews category "${category}" failed:`, e instanceof Error ? e.message : e);
+    }
+    await new Promise((r) => setTimeout(r, 1200)); // stay under the free tier's per-second limit
+  }
+  // The same story can appear under two categories — keep the first.
+  const seen = new Set<string>();
+  return out.filter((it) => (seen.has(it.url) ? false : (seen.add(it.url), true)));
 }
 
 async function fetchNewsData(key: string): Promise<Item[]> {

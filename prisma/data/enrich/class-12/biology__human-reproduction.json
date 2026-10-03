@@ -1,0 +1,131 @@
+{
+  "exam": "class-12",
+  "subject": "biology",
+  "chapter": "human-reproduction",
+  "notes": {
+    "summary": "This chapter covers the male and female reproductive systems, gametogenesis (spermatogenesis and oogenesis) and its hormonal control, the structure of the sperm, the menstrual cycle, fertilisation and implantation, pregnancy and embryonic development, parturition and lactation. CBSE tests NCERT facts, the sequence of ducts and events, the role of hormones in each phase, and numerical reasoning about gamete output.",
+    "keyPoints": [
+      "The testes lie in the scrotum, which keeps them 2–2.5 °C below body temperature; each testis has about 250 testicular lobules, each with 1–3 highly coiled seminiferous tubules.",
+      "Sperm route: seminiferous tubules → rete testis → vasa efferentia → epididymis → vas deferens → ejaculatory duct → urethra.",
+      "Seminal plasma (from seminal vesicles, prostate and bulbourethral glands) is rich in fructose, calcium and certain enzymes; bulbourethral secretion also lubricates the penis.",
+      "Spermatogenesis: spermatogonium (2n = 46) → primary spermatocyte (46) → two secondary spermatocytes (23) → four spermatids (23) → spermiogenesis → sperms; release from the seminiferous tubules is spermiation. One primary oocyte gives only one ovum.",
+      "Hormones in males: GnRH from the hypothalamus releases LH and FSH; LH acts on Leydig cells (androgens) and FSH acts on Sertoli cells (factors that help spermiogenesis).",
+      "Sperm: head (haploid nucleus + enzyme-filled acrosome), neck, middle piece with numerous mitochondria (energy for the tail) and tail.",
+      "Ovarian follicles: primary → secondary → tertiary follicle with a fluid-filled antrum and theca interna/externa → mature Graafian follicle.",
+      "Menstrual cycle (about 28 days): menstrual phase (3–5 days); follicular phase (endometrium proliferates under oestrogens from growing follicles); LH surge and ovulation (about day 14); luteal phase (corpus luteum secretes progesterone). Without fertilisation the corpus luteum degenerates and menstruation follows.",
+      "Development milestones: heart after 1 month; limbs and digits by the end of the 2nd month; most organ systems by 12 weeks; first foetal movements and hair on the head in the 5th month; eyelids separate and eyelashes form by about 24 weeks. hCG, hPL and relaxin are produced in women only during pregnancy."
+    ],
+    "traps": [
+      "Confusing spermiogenesis (spermatid to sperm) with spermiation (release of sperms from the seminiferous tubules).",
+      "Swapping the targets of LH (Leydig cells) and FSH (Sertoli cells) in the male.",
+      "Assuming one primary oocyte forms four ova like a primary spermatocyte — it forms one ovum and polar bodies.",
+      "Placing the vasa efferentia before the rete testis in the sequence of ducts.",
+      "Thinking progesterone drives the proliferative phase — oestrogen does; progesterone maintains the endometrium in the luteal phase."
+    ],
+    "examTip": "For sequence or hormone questions, write the chain in the margin (organ → hormone → target → effect) before reading the options, so look-alike distractors cannot mislead you."
+  },
+  "questions": [
+    {
+      "text": "The scrotum helps maintain the temperature of the testes at about how much lower than the normal internal body temperature, which is necessary for spermatogenesis?",
+      "difficulty": "EASY",
+      "options": ["0.5–1 °C", "2–2.5 °C", "5–6 °C", "8–10 °C"],
+      "answer": 1,
+      "explanation": "The testes lie outside the abdominal cavity in a pouch called the scrotum.\nThe scrotum keeps them about 2–2.5 °C cooler than the internal body temperature.\nThis lower temperature is necessary for normal spermatogenesis."
+    },
+    {
+      "text": "Which part of a human sperm contains numerous mitochondria that provide energy for the movement of the tail?",
+      "difficulty": "EASY",
+      "options": ["Head", "Neck", "Middle piece", "Tail"],
+      "answer": 2,
+      "explanation": "A sperm consists of a head, neck, middle piece and tail.\nThe middle piece has numerous mitochondria that produce energy.\nThis energy drives the tail and gives the sperm the motility needed for fertilisation."
+    },
+    {
+      "text": "After spermiogenesis, sperm heads remain embedded in the Sertoli cells and are finally released from the seminiferous tubules. This release is called:",
+      "difficulty": "EASY",
+      "options": ["Spermiation", "Spermiogenesis", "Spermatogenesis", "Insemination"],
+      "answer": 0,
+      "explanation": "Spermatogenesis is the whole process of sperm formation, and spermiogenesis is the transformation of spermatids into sperms.\nThe newly formed sperms stay attached to Sertoli cells by their heads.\nTheir release from the seminiferous tubules is called spermiation."
+    },
+    {
+      "text": "The correct sequence of the passage of sperms in the human male reproductive system is:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Seminiferous tubules → vasa efferentia → rete testis → epididymis → vas deferens → urethra",
+        "Seminiferous tubules → rete testis → epididymis → vasa efferentia → ejaculatory duct → vas deferens → urethra",
+        "Rete testis → seminiferous tubules → epididymis → vasa efferentia → vas deferens → urethra",
+        "Seminiferous tubules → rete testis → vasa efferentia → epididymis → vas deferens → ejaculatory duct → urethra"
+      ],
+      "answer": 3,
+      "explanation": "Sperms are formed in the seminiferous tubules, which open into the rete testis.\nFrom the rete testis, the vasa efferentia lead into the epididymis, where sperms are stored.\nThe epididymis leads to the vas deferens, which joins the duct of the seminal vesicle to form the ejaculatory duct that opens into the urethra."
+    },
+    {
+      "text": "The secretions of the male accessory glands constitute the seminal plasma, which is rich in:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Glucose, sodium and hCG",
+        "Fructose, calcium and certain enzymes",
+        "Sucrose, potassium and testosterone",
+        "Lactose, iron and mucus"
+      ],
+      "answer": 1,
+      "explanation": "The male accessory glands are the paired seminal vesicles, the prostate and the paired bulbourethral glands.\nTheir secretions form the seminal plasma, which is rich in fructose, calcium and certain enzymes.\nThe secretion of the bulbourethral glands also helps in lubrication of the penis."
+    },
+    {
+      "text": "During the follicular (proliferative) phase of the menstrual cycle, the endometrium of the uterus regenerates mainly under the influence of:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Progesterone secreted by the corpus luteum",
+        "hCG secreted by the placenta",
+        "Oestrogens secreted by the growing ovarian follicles",
+        "Prolactin secreted by the pituitary"
+      ],
+      "answer": 2,
+      "explanation": "In the follicular phase, the levels of LH and FSH rise gradually and stimulate follicular development.\nThe growing follicles secrete oestrogens.\nOestrogens make the endometrium regenerate by proliferation; progesterone acts later, in the luteal phase."
+    },
+    {
+      "text": "In the human male, FSH (follicle stimulating hormone) acts on:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Sertoli cells, stimulating secretion of some factors that help in spermiogenesis",
+        "Leydig cells, stimulating synthesis and secretion of androgens",
+        "Spermatids directly, converting them into sperms",
+        "The hypothalamus, stimulating the release of GnRH"
+      ],
+      "answer": 0,
+      "explanation": "At puberty, GnRH from the hypothalamus stimulates the anterior pituitary to release LH and FSH.\nLH acts on the Leydig cells and stimulates the synthesis and secretion of androgens.\nFSH acts on the Sertoli cells and stimulates the secretion of some factors that help in spermiogenesis."
+    },
+    {
+      "text": "Assertion (A): Menstruation occurs only if the released ovum is not fertilised.\nReason (R): In the absence of fertilisation, the corpus luteum continues to secrete large amounts of progesterone.\nChoose the correct option.",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true, and R is the correct explanation of A",
+        "Both Assertion (A) and Reason (R) are true, but R is not the correct explanation of A",
+        "Assertion (A) is true, but Reason (R) is false",
+        "Assertion (A) is false, but Reason (R) is true"
+      ],
+      "answer": 2,
+      "explanation": "The endometrium is maintained by progesterone from the corpus luteum; if the ovum is not fertilised, the endometrium breaks down and menstrual flow follows, so A is true.\nIn the absence of fertilisation, the corpus luteum degenerates and progesterone levels fall — it does not continue secreting large amounts.\nSo A is true and R is false."
+    },
+    {
+      "text": "In a tertiary ovarian follicle, the characteristic fluid-filled cavity is called the:",
+      "difficulty": "MEDIUM",
+      "options": ["Blastocoel", "Coelom", "Lumen of the fallopian tube", "Antrum"],
+      "answer": 3,
+      "explanation": "A primary follicle gains more layers of granulosa cells and a theca to become a secondary follicle.\nThe secondary follicle then becomes a tertiary follicle, characterised by a fluid-filled cavity called the antrum.\nIts theca layer is organised into an inner theca interna and an outer theca externa."
+    },
+    {
+      "text": "How many sperms are formed from 25 primary spermatocytes, and how many ova are formed from 25 primary oocytes?",
+      "difficulty": "HARD",
+      "options": ["100 sperms and 100 ova", "100 sperms and 25 ova", "50 sperms and 25 ova", "25 sperms and 25 ova"],
+      "answer": 1,
+      "explanation": "Each primary spermatocyte completes meiosis to give 4 spermatids, which become 4 sperms: 25 × 4 = 100 sperms.\nEach primary oocyte divides unequally: meiosis I gives a secondary oocyte and the first polar body, and meiosis II gives one ovum and the second polar body.\nSo each primary oocyte yields only one ovum: 25 ova."
+    },
+    {
+      "text": "During human pregnancy, the first movements of the foetus and the appearance of hair on its head are usually observed during the:",
+      "difficulty": "HARD",
+      "options": ["Fifth month", "Second month", "Seventh month", "Ninth month"],
+      "answer": 0,
+      "explanation": "The heart forms after about one month of pregnancy, and limbs and digits develop by the end of the second month.\nBy the end of 12 weeks (first trimester), most major organ systems are formed.\nThe first movements of the foetus and hair on the head usually appear during the fifth month; eyelids separate by about 24 weeks."
+    }
+  ]
+}

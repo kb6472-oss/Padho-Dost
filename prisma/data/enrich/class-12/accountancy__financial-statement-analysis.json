@@ -1,0 +1,162 @@
+{
+  "exam": "class-12",
+  "subject": "accountancy",
+  "chapter": "financial-statement-analysis",
+  "notes": {
+    "summary": "This unit covers the Schedule III format of company financial statements, the objectives and limitations of financial statement analysis, and its tools: comparative and common-size statements, ratio analysis and the Cash Flow Statement prepared as per AS-3 (indirect method). CBSE tests it through ratio computations (often working backwards from given data), classification of items and cash-flow activities, effect-of-transaction questions and assertion-reason items.",
+    "keyPoints": [
+      "Schedule III Balance Sheet: Equity and Liabilities (Shareholders' funds, Non-current liabilities, Current liabilities) and Assets (Non-current assets, Current assets). Loose tools and stores and spares are shown under Inventories; calls in advance under Other current liabilities.",
+      "Tools of analysis: comparative statements (horizontal analysis; % change = change ÷ previous year's figure × 100), common-size statements (vertical analysis; P&L items as % of revenue from operations, Balance Sheet items as % of total assets or total equity and liabilities), ratio analysis and cash flow statement.",
+      "Liquidity ratios: Current ratio = Current assets ÷ Current liabilities (conventionally 2 : 1). Quick ratio = Quick assets ÷ Current liabilities (conventionally 1 : 1), where quick assets = current assets − inventories − prepaid expenses.",
+      "Solvency ratios: Debt-equity = Long-term debt ÷ Shareholders' funds; Total assets to debt = Total assets ÷ Long-term debt; Proprietary ratio = Shareholders' funds ÷ Total assets; Interest coverage = Profit before interest and tax ÷ Interest on long-term debt.",
+      "Activity ratios: Inventory turnover = Cost of revenue from operations ÷ Average inventory; Trade receivables turnover = Credit revenue ÷ Average trade receivables; Trade payables turnover = Net credit purchases ÷ Average trade payables; Working capital turnover = Revenue from operations ÷ Working capital.",
+      "Profitability ratios: Gross profit ratio; Operating ratio = (Cost of revenue from operations + Operating expenses) ÷ Revenue × 100; Operating profit ratio = 100 − Operating ratio; Net profit ratio; Return on investment = PBIT ÷ Capital employed × 100.",
+      "Gross profit on cost vs on sales: 25% on cost equals 20% on sales. Example: revenue ₹9,00,000 with GP 25% on cost gives cost of revenue = 9,00,000 × 100/125 = ₹7,20,000.",
+      "Cash flow from operating activities (indirect method): net profit before tax + depreciation, amortisation, loss on sale of assets and interest paid − profit on sale of assets, interest and dividend received; then subtract increases in current assets and add increases in current liabilities; finally deduct income tax paid.",
+      "Classification for a non-financial company: purchase or sale of fixed assets and investments, interest and dividend received → investing; issue or redemption of shares and debentures, borrowings, interest and dividend paid → financing. For a financial enterprise, interest and dividend received and interest paid are operating. Cash equivalents are short-term, highly liquid investments with a maturity of three months or less from acquisition; equity shares are never cash equivalents.",
+      "Limitations of financial analysis: based on historical data, ignores price-level changes and qualitative aspects (management quality, labour relations), affected by window dressing and personal judgement, and different accounting policies make inter-firm comparison difficult."
+    ],
+    "traps": [
+      "Using revenue from operations instead of cost of revenue from operations in the inventory turnover ratio, or treating gross profit 'on cost' as 'on sales'.",
+      "Taking profit after tax or profit before tax instead of profit before interest and tax for the interest coverage ratio and return on investment.",
+      "In the indirect method, adding an increase in trade receivables or adding a profit on sale of a fixed asset; both must be deducted.",
+      "Classifying interest received as an operating activity for an ordinary trading or manufacturing company (it is investing), or treating investments in equity shares as cash equivalents.",
+      "Assuming that a transaction which reduces current assets and current liabilities by the same amount leaves the current ratio unchanged; it changes unless the ratio is exactly 1 : 1."
+    ],
+    "examTip": "Write the ratio formula first, then compute the numerator and denominator separately as working notes (cost of revenue, average inventory, PBIT, shareholders' funds) so that every step is checkable and earns marks."
+  },
+  "questions": [
+    {
+      "text": "Which of the following is a limitation of financial statement analysis?",
+      "difficulty": "EASY",
+      "options": [
+        "It ignores qualitative aspects such as the quality of management and employee relations",
+        "It helps in judging the solvency of a business",
+        "It makes inter-firm comparison possible",
+        "It shows the trend of performance over a number of years"
+      ],
+      "answer": 0,
+      "explanation": "Financial analysis uses only monetary data recorded in the financial statements.\nQualitative factors such as quality of management, employee morale and labour relations are not recorded, so the analysis ignores them; this is a limitation.\nJudging solvency, enabling inter-firm comparison and showing trends are objectives or uses of analysis, not limitations.\nSo the limitation is that it ignores qualitative aspects."
+    },
+    {
+      "text": "As per Schedule III of the Companies Act, 2013, 'Loose tools' are shown in the Balance Sheet of a company under the sub-head",
+      "difficulty": "EASY",
+      "options": [
+        "Property, Plant and Equipment",
+        "Inventories",
+        "Other current assets",
+        "Intangible assets"
+      ],
+      "answer": 1,
+      "explanation": "Schedule III lists the classes of Inventories as raw materials, work-in-progress, finished goods, stock-in-trade, stores and spares, loose tools and others.\nLoose tools are small tools that are consumed or replaced quickly, so they are not shown as Property, Plant and Equipment.\nInventories is a sub-head under the major head Current Assets.\nSo loose tools are shown under Inventories."
+    },
+    {
+      "text": "For preparing a Cash Flow Statement as per AS-3, which of the following is treated as a cash equivalent?",
+      "difficulty": "EASY",
+      "options": [
+        "Investment in equity shares of another company",
+        "A fixed deposit with a bank for 5 years",
+        "Trade receivables collectable within 6 months",
+        "Treasury bills purchased with a maturity of 2 months from the date of acquisition"
+      ],
+      "answer": 3,
+      "explanation": "AS-3 defines cash equivalents as short-term, highly liquid investments that are readily convertible into known amounts of cash and subject to insignificant risk of change in value.\nGenerally only investments with a maturity of three months or less from the date of acquisition qualify.\nEquity shares are excluded because their value can change significantly; a 5-year deposit is long-term; trade receivables are not investments.\nSo treasury bills with a 2-month maturity are cash equivalents."
+    },
+    {
+      "text": "From the comparative Statement of Profit and Loss of X Ltd.:\nRevenue from operations: ₹20,00,000 (2023-24) and ₹25,00,000 (2024-25)\nTotal expenses: ₹15,00,000 (2023-24) and ₹18,00,000 (2024-25)\nThe percentage change in profit before tax in 2024-25 is",
+      "difficulty": "MEDIUM",
+      "options": [
+        "25%",
+        "20%",
+        "40%",
+        "28.57%"
+      ],
+      "answer": 2,
+      "explanation": "Profit before tax = Revenue from operations − Total expenses.\n2023-24: 20,00,000 − 15,00,000 = ₹5,00,000; 2024-25: 25,00,000 − 18,00,000 = ₹7,00,000.\nAbsolute change = ₹2,00,000.\nIn a comparative statement the previous year is the base: % change = 2,00,000 ÷ 5,00,000 × 100 = 40%.\n25% and 20% are the changes in revenue and expenses; 28.57% wrongly uses the current year as base."
+    },
+    {
+      "text": "The Equity and Liabilities side of the Balance Sheet of Y Ltd. shows only the following items: Equity share capital ₹4,00,000; Reserves and surplus ₹2,00,000; Long-term borrowings ₹3,00,000; Current liabilities ₹1,00,000. The proprietary ratio of Y Ltd. is",
+      "difficulty": "MEDIUM",
+      "options": [
+        "0.4 : 1",
+        "2 : 1",
+        "0.67 : 1",
+        "0.6 : 1"
+      ],
+      "answer": 3,
+      "explanation": "Proprietary ratio = Shareholders' funds ÷ Total assets.\nShareholders' funds = 4,00,000 + 2,00,000 = ₹6,00,000.\nTotal assets = Total equity and liabilities = 6,00,000 + 3,00,000 + 1,00,000 = ₹10,00,000.\nProprietary ratio = 6,00,000 ÷ 10,00,000 = 0.6 : 1.\n2 : 1 is shareholders' funds ÷ long-term debt, and 0.67 : 1 wrongly divides by capital employed (₹9,00,000)."
+    },
+    {
+      "text": "The current ratio of a company is 2 : 1. What will be the effect on this ratio if the company pays ₹50,000 to a trade payable in cash?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "The ratio will increase",
+        "The ratio will decrease",
+        "The ratio will not change",
+        "The ratio will become 1 : 1"
+      ],
+      "answer": 0,
+      "explanation": "Payment to a trade payable reduces current assets (cash) and current liabilities (trade payables) by the same amount.\nWhen the ratio is more than 1, an equal reduction in both raises the ratio.\nExample: current assets ₹2,00,000 and current liabilities ₹1,00,000 give 2 : 1.\nAfter payment: 1,50,000 ÷ 50,000 = 3 : 1.\nSo the current ratio increases."
+    },
+    {
+      "text": "From the following information of Z Ltd. for the year, calculate the net cash flow from operating activities (assume no income tax was paid):\nNet profit before tax ₹2,00,000\nDepreciation on plant ₹30,000\nProfit on sale of machinery ₹5,000\nIncrease in trade receivables ₹20,000\nIncrease in trade payables ₹15,000",
+      "difficulty": "MEDIUM",
+      "options": [
+        "₹2,30,000",
+        "₹2,20,000",
+        "₹1,90,000",
+        "₹2,60,000"
+      ],
+      "answer": 1,
+      "explanation": "Start with net profit before tax: ₹2,00,000.\nAdd depreciation (non-cash expense) ₹30,000 and deduct profit on sale of machinery (investing item) ₹5,000: operating profit before working capital changes = ₹2,25,000.\nDeduct increase in trade receivables ₹20,000 and add increase in trade payables ₹15,000: 2,25,000 − 20,000 + 15,000 = ₹2,20,000.\nWith no tax paid, net cash flow from operating activities = ₹2,20,000."
+    },
+    {
+      "text": "For a finance company whose main business is lending money and investing, interest received on loans given is classified in the Cash Flow Statement under",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Investing activities",
+        "Financing activities",
+        "Operating activities",
+        "None, because it is a non-cash item"
+      ],
+      "answer": 2,
+      "explanation": "AS-3 classifies cash flows according to the principal revenue-producing activities of the enterprise.\nFor a financial enterprise, lending and investing is its main business, so interest received is an operating cash inflow.\nFor a non-financial company, the same interest received would be an investing activity.\nSo for a finance company it is shown under operating activities."
+    },
+    {
+      "text": "Assertion (A): A very high quick ratio always indicates efficient management of the firm's liquid resources.\nReason (R): The quick ratio is calculated by excluding inventories and prepaid expenses from current assets.",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 3,
+      "explanation": "Quick assets = Current assets − Inventories − Prepaid expenses, so R is true.\nA very high quick ratio means excess cash or receivables lying idle, which earns little and may reflect slack credit collection.\nSo a very high quick ratio does not always indicate efficient management; A is false.\nHence A is false but R is true."
+    },
+    {
+      "text": "The following information relates to P Ltd. for a year: Profit after tax ₹4,20,000; Tax rate 30%; 10% Debentures ₹10,00,000 (outstanding for the whole year). The interest coverage ratio is",
+      "difficulty": "HARD",
+      "options": [
+        "6 times",
+        "7 times",
+        "4.2 times",
+        "5.2 times"
+      ],
+      "answer": 1,
+      "explanation": "Interest coverage ratio = Profit before interest and tax ÷ Interest on long-term debt.\nProfit before tax = 4,20,000 ÷ (1 − 0.30) = 4,20,000 ÷ 0.70 = ₹6,00,000.\nInterest on debentures = 10% of 10,00,000 = ₹1,00,000.\nPBIT = 6,00,000 + 1,00,000 = ₹7,00,000.\nRatio = 7,00,000 ÷ 1,00,000 = 7 times (6 times wrongly uses PBT, 4.2 times uses PAT)."
+    },
+    {
+      "text": "Revenue from operations of Q Ltd. is ₹9,00,000 and gross profit is 25% on cost. Opening inventory is ₹80,000 and closing inventory is ₹1,60,000. The inventory turnover ratio is",
+      "difficulty": "HARD",
+      "options": [
+        "6 times",
+        "5.625 times",
+        "7.5 times",
+        "4.5 times"
+      ],
+      "answer": 0,
+      "explanation": "Inventory turnover ratio = Cost of revenue from operations ÷ Average inventory.\nGP is 25% on cost, so revenue = 125% of cost: cost = 9,00,000 × 100/125 = ₹7,20,000.\nAverage inventory = (80,000 + 1,60,000) ÷ 2 = ₹1,20,000.\nRatio = 7,20,000 ÷ 1,20,000 = 6 times.\nTaking 25% on sales gives 5.625 times, using revenue gives 7.5 times and using closing inventory gives 4.5 times."
+    }
+  ]
+}

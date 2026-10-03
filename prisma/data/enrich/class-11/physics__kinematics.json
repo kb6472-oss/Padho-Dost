@@ -1,0 +1,106 @@
+{
+  "exam": "class-11",
+  "subject": "physics",
+  "chapter": "kinematics",
+  "notes": {
+    "summary": "This chapter (Motion in a Straight Line) covers position, path length and displacement, average and instantaneous speed and velocity, acceleration, position–time and velocity–time graphs, the equations of uniformly accelerated motion, free fall, and the use of differentiation and integration to describe motion. CBSE tests it through graph-interpretation and conceptual MCQs plus two- or three-step numericals.",
+    "keyPoints": [
+      "Displacement is the change in position (a vector that can be positive, negative or zero); path length is the total distance covered (a scalar, never negative). Since |displacement| ≤ path length, the magnitude of average velocity is always less than or equal to average speed.",
+      "Instantaneous velocity v = dx/dt = slope of the x–t graph; acceleration a = dv/dt = slope of the v–t graph; area under the v–t graph = displacement. A speedometer shows instantaneous speed.",
+      "Equations for constant acceleration: v = u + at; s = ut + ½at²; v² = u² + 2as; s = ½(u + v)t; distance in the nth second sₙ = u + (a/2)(2n − 1).",
+      "Starting from rest with constant acceleration, distances covered in successive equal time intervals are in the ratio 1 : 3 : 5 : 7 … (Galileo's law of odd numbers), while total distances after t, 2t, 3t are in the ratio 1 : 4 : 9.",
+      "Stopping distance = u²/2a, so it is proportional to the square of the initial speed: doubling the speed makes it four times. Example: 20 m/s with 5 m/s² retardation gives 40 m; 40 m/s gives 160 m.",
+      "Free fall (upward taken positive): a = −g = −9.8 m/s². For a body thrown up with speed u: maximum height = u²/2g, time to reach the top = u/g, total time to return = 2u/g, and it returns with the same speed. At the top, v = 0 but acceleration is still g downward.",
+      "Average speed over two equal distances covered at v₁ and v₂ = 2v₁v₂/(v₁ + v₂) (40 and 60 km/h give 48 km/h); over two equal time intervals it is (v₁ + v₂)/2.",
+      "Velocity and acceleration in the same direction → the body speeds up; in opposite directions → it slows down. A negative acceleration does not always mean the body is slowing down.",
+      "Calculus: if x = 3t² + 2t − 5 then v = 6t + 2 and a = 6 m/s². When acceleration is not constant (e.g. v = 3t² + 2), find displacement by integration, ∫v dt, not by the kinematic equations."
+    ],
+    "traps": [
+      "Taking the simple average of two speeds when the distances (not the times) are equal.",
+      "Saying the acceleration of a vertically thrown ball is zero at the highest point.",
+      "Using s = ut + ½at² or the average of initial and final velocities when the acceleration is not constant.",
+      "Sign errors in problems where a ball is thrown up from a tower or building; fix one direction as positive and write the displacement to the ground as −h.",
+      "Confusing the distance covered in the nth second with the distance covered in n seconds."
+    ],
+    "examTip": "Fix a positive direction at the start of every numerical and write u, a and s with their signs before substituting into any equation."
+  },
+  "questions": [
+    {
+      "text": "The slope of the position–time graph of a body moving along a straight line, at any instant, gives its:",
+      "difficulty": "EASY",
+      "options": ["Acceleration", "Displacement", "Instantaneous velocity", "Distance travelled"],
+      "answer": 2,
+      "explanation": "Instantaneous velocity is defined as v = dx/dt, the rate of change of position with time. Geometrically, dx/dt is the slope of the tangent to the x–t graph at that instant. (The slope of a velocity–time graph gives acceleration instead.) So the slope of the x–t graph gives instantaneous velocity."
+    },
+    {
+      "text": "The speedometer of a car measures its:",
+      "difficulty": "EASY",
+      "options": ["Average speed", "Instantaneous speed", "Average velocity", "Acceleration"],
+      "answer": 1,
+      "explanation": "A speedometer shows how fast the car is moving at that particular moment. That is the magnitude of the instantaneous velocity, called instantaneous speed. It does not show direction, so it is not velocity, and it does not average over the journey. Answer: instantaneous speed."
+    },
+    {
+      "text": "For a body moving along a straight line, the magnitude of its average velocity over any time interval is:",
+      "difficulty": "EASY",
+      "options": ["Less than or equal to its average speed", "Always greater than its average speed", "Always equal to its average speed", "Always zero"],
+      "answer": 0,
+      "explanation": "Average velocity = displacement ÷ time, and average speed = path length ÷ time. The magnitude of displacement can never exceed the path length; the two are equal only when the body moves in one direction without turning back. Therefore |average velocity| ≤ average speed."
+    },
+    {
+      "text": "A car travels the first half of a distance along a straight road at 40 km/h and the second half at 60 km/h. Its average speed for the whole journey is:",
+      "difficulty": "MEDIUM",
+      "options": ["50 km/h", "52 km/h", "45 km/h", "48 km/h"],
+      "answer": 3,
+      "explanation": "Let each half be d km. Time for the first half = d/40 h and for the second half = d/60 h. Total time = d/40 + d/60 = (3d + 2d)/120 = d/24 h. Average speed = total distance ÷ total time = 2d ÷ (d/24) = 48 km/h. The simple mean, 50 km/h, is wrong because more time is spent at the lower speed."
+    },
+    {
+      "text": "The position of a particle moving along the x-axis is given by x = 3t² + 2t − 5, where x is in metres and t is in seconds. Its velocity at t = 2 s is:",
+      "difficulty": "MEDIUM",
+      "options": ["11 m/s", "12 m/s", "14 m/s", "8 m/s"],
+      "answer": 2,
+      "explanation": "Velocity v = dx/dt = d(3t² + 2t − 5)/dt = 6t + 2. At t = 2 s, v = 6 × 2 + 2 = 14 m/s. (11 m is the position x at t = 2 s, not the velocity.) Answer: 14 m/s."
+    },
+    {
+      "text": "The velocity of a particle moving along a straight line is v = 3t² + 2, where v is in m/s and t is in seconds. The displacement of the particle between t = 0 and t = 2 s is:",
+      "difficulty": "MEDIUM",
+      "options": ["16 m", "12 m", "28 m", "14 m"],
+      "answer": 1,
+      "explanation": "The acceleration a = dv/dt = 6t is not constant, so the equations of uniformly accelerated motion cannot be used. Displacement = ∫v dt from 0 to 2 = [t³ + 2t] evaluated from 0 to 2. This gives (8 + 4) − 0 = 12 m. Averaging the initial and final velocities (2 m/s and 14 m/s) would wrongly give 16 m."
+    },
+    {
+      "text": "A body starts from rest and moves along a straight line with uniform acceleration. The distances covered by it in the 1st, 2nd and 3rd seconds of its motion are in the ratio:",
+      "difficulty": "MEDIUM",
+      "options": ["1 : 3 : 5", "1 : 2 : 3", "1 : 4 : 9", "1 : 2 : 4"],
+      "answer": 0,
+      "explanation": "Distance in the nth second: sₙ = u + (a/2)(2n − 1). With u = 0: s₁ = a/2, s₂ = 3a/2, s₃ = 5a/2. Ratio = 1 : 3 : 5 (Galileo's law of odd numbers). The ratio 1 : 4 : 9 is for the total distances covered in 1 s, 2 s and 3 s."
+    },
+    {
+      "text": "A car moving with initial speed u is brought to rest by a constant retardation over a distance s. If the initial speed is doubled and the retardation remains the same, the stopping distance becomes:",
+      "difficulty": "MEDIUM",
+      "options": ["Two times s", "Half of s", "Unchanged", "Four times s"],
+      "answer": 3,
+      "explanation": "Using v² = u² − 2as with final velocity v = 0, the stopping distance is s = u²/2a. So for a fixed retardation, s ∝ u². If u is doubled, s becomes 2² = 4 times. This is why stopping distance rises sharply with speed."
+    },
+    {
+      "text": "A ball is thrown vertically upward. Neglecting air resistance, at its highest point the ball has:",
+      "difficulty": "MEDIUM",
+      "options": ["Zero velocity and zero acceleration", "Zero velocity and an acceleration of 9.8 m/s² downward", "Maximum velocity and zero acceleration", "Zero velocity and an acceleration of 9.8 m/s² upward"],
+      "answer": 1,
+      "explanation": "At the highest point the ball stops momentarily, so its velocity is zero. Gravity still acts on it, so its acceleration remains g = 9.8 m/s² directed downward throughout the flight. If the acceleration were zero there, the ball would stay at rest in mid-air. So the velocity is zero and the acceleration is 9.8 m/s² downward."
+    },
+    {
+      "text": "A ball is thrown vertically upward with a speed of 10 m/s from the top of a tower 40 m high. Taking g = 10 m/s² and neglecting air resistance, the ball hits the ground after:",
+      "difficulty": "HARD",
+      "options": ["2 s", "2.83 s", "5 s", "4 s"],
+      "answer": 3,
+      "explanation": "Take upward as positive with the point of projection as origin; the ground is then at displacement s = −40 m, with u = +10 m/s and a = −10 m/s². Using s = ut + ½at²: −40 = 10t − 5t². So 5t² − 10t − 40 = 0, i.e. t² − 2t − 8 = 0, which factorises as (t − 4)(t + 2) = 0. Rejecting the negative root, t = 4 s."
+    },
+    {
+      "text": "A car starts from rest, accelerates uniformly at 2 m/s² and then immediately decelerates uniformly at 4 m/s² until it stops. The whole motion takes 30 s. The maximum speed reached by the car is:",
+      "difficulty": "HARD",
+      "options": ["40 m/s", "60 m/s", "20 m/s", "80 m/s"],
+      "answer": 0,
+      "explanation": "Let the maximum speed be v. Time taken to accelerate t₁ = v/2 and time taken to decelerate t₂ = v/4. Total time t₁ + t₂ = v/2 + v/4 = 3v/4 = 30 s. So v = 40 m/s. (As a check, distance = area of the v–t triangle = ½ × 30 × 40 = 600 m.)"
+    }
+  ]
+}

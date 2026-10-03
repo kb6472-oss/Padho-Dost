@@ -1,0 +1,107 @@
+{
+  "exam": "jee",
+  "subject": "chemistry",
+  "chapter": "chemical-bonding",
+  "notes": {
+    "summary": "This chapter covers the Kössel–Lewis approach, ionic and covalent bonds, bond parameters, resonance, VSEPR theory, valence bond theory with hybridisation, molecular orbital theory for homonuclear diatomic molecules, and hydrogen bonding. JEE Main tests shapes and hybridisation, bond order and magnetism from MOT, dipole moments, bond angles and lengths, lattice enthalpy and Fajans' rules.",
+    "keyPoints": [
+      "Formal charge = (valence electrons) − (non-bonding electrons) − ½(bonding electrons). The best Lewis structure keeps formal charges as small as possible. Example: the central O in O₃ has formal charge +1.",
+      "VSEPR repulsion order: lone pair–lone pair > lone pair–bond pair > bond pair–bond pair. Steric number (σ-bonded atoms + lone pairs on the central atom) 2, 3, 4, 5, 6 gives sp, sp², sp³, sp³d, sp³d² hybridisation.",
+      "Shapes with lone pairs: NH₃ pyramidal (107°), H₂O bent (104.5°), SF₄ see-saw, ClF₃ T-shaped, XeF₂ and I₃⁻ linear (3 equatorial lone pairs), BrF₅ square pyramidal, XeF₄ square planar. SF₆ is octahedral (sp³d²).",
+      "In a trigonal bipyramid such as PCl₅, axial bonds are longer than equatorial bonds. Each axial bond pair is repelled by three equatorial bond pairs at 90°, while each equatorial bond pair feels only two at 90°.",
+      "Bond order = ½(N_b − N_a). A higher bond order means a shorter and stronger bond; a bond order of 0 means the molecule does not exist (He₂, Be₂). N₂⁺ and N₂⁻ both have a bond order of 2.5.",
+      "MO filling: for up to 14 electrons (B₂, C₂, N₂), s–p mixing puts π2p below σ2p. For O₂ and F₂, σ2p lies below π2p. B₂ and O₂ are paramagnetic; C₂, N₂, NO⁺ and O₂²⁻ are diamagnetic.",
+      "Dipole moment μ = q × d, with 1 D = 3.33 × 10⁻³⁰ C m. It is zero for symmetric molecules (CO₂, BF₃, CH₄, CCl₄). NH₃ (1.47 D) has a larger dipole moment than NF₃ (0.24 D) because in NH₃ the lone-pair moment adds to the bond moments. % ionic character = (observed μ / μ for full charges) × 100.",
+      "Lattice enthalpy increases with ionic charge and decreases with ionic size: MgO > CaO > NaCl (788 kJ mol⁻¹) > KCl.",
+      "Fajans' rules: covalent character increases with a small, highly charged cation, a large anion, and a cation with a pseudo-noble-gas (18-electron) configuration.",
+      "Resonance: the hybrid is the single real structure and is more stable than any canonical form. Canonical forms differ only in electron positions. Both O–O bonds in O₃ are equal at 128 pm."
+    ],
+    "traps": [
+      "Counting only the central atom's lone pairs when the question asks for the total number of lone pairs (I₃⁻ has 9 in total).",
+      "Ignoring s–p mixing, which wrongly makes C₂ paramagnetic or B₂ diamagnetic.",
+      "Assuming the same hybridisation means the same shape: CH₄, NH₃ and H₂O are all sp³ but differ in shape.",
+      "Treating resonance structures as real forms that interconvert.",
+      "Taking a zero dipole moment as proof that there are no polar bonds (CO₂ has polar C=O bonds)."
+    ],
+    "examTip": "For any shape question, first count the steric number (σ-bonded atoms + lone pairs on the central atom); hybridisation, shape and approximate bond angle follow at once."
+  },
+  "questions": [
+    {
+      "text": "The hybridisation of sulphur and the shape of the SF₆ molecule are, respectively:",
+      "difficulty": "EASY",
+      "options": ["sp³d, trigonal bipyramidal", "sp³d², square planar", "sp³d², octahedral", "sp³, tetrahedral"],
+      "answer": 2,
+      "explanation": "S has 6 valence electrons, and all six form bonds with six F atoms, leaving no lone pairs.\nSteric number = 6 bond pairs + 0 lone pairs = 6, so the hybridisation is sp³d².\nWith no lone pairs, all six positions are occupied and the shape is octahedral (all F–S–F angles are 90°)."
+    },
+    {
+      "text": "Which of the following statements about resonance is correct?",
+      "difficulty": "EASY",
+      "options": ["The canonical structures exist in rapid equilibrium, with the molecule switching between them", "The resonance hybrid has lower energy than any single canonical structure", "In O₃ the two O–O bonds have different lengths, one single and one double", "Canonical structures may differ in the positions of the atoms (nuclei)"],
+      "answer": 1,
+      "explanation": "The resonance hybrid is the one real structure, and it is more stable than any canonical form. The difference in energy is the resonance energy.\nCanonical forms have no separate existence and differ only in the arrangement of electrons, not of nuclei.\nIn O₃ both O–O bonds are equal (128 pm), between the single-bond (148 pm) and double-bond (121 pm) lengths."
+    },
+    {
+      "text": "In the Lewis structure of ozone (O₃), the formal charge on the central oxygen atom is:",
+      "difficulty": "EASY",
+      "options": ["0", "−1", "+2", "+1"],
+      "answer": 3,
+      "explanation": "The central O forms one double bond and one single bond and keeps one lone pair.\nFormal charge = valence electrons − non-bonding electrons − ½(bonding electrons) = 6 − 2 − ½(6) = +1.\nThe singly bonded terminal O carries −1 and the doubly bonded terminal O carries 0, so the net charge is 0."
+    },
+    {
+      "text": "According to molecular orbital theory, which of the following pairs of species have the same bond order?",
+      "difficulty": "MEDIUM",
+      "options": ["N₂⁺ and N₂⁻", "O₂⁺ and O₂⁻", "N₂ and O₂", "CO and NO"],
+      "answer": 0,
+      "explanation": "N₂ (14 electrons) has bond order 3.\nN₂⁺ (13 electrons) loses one bonding electron from σ2p: bond order (9 − 4)/2 = 2.5.\nN₂⁻ (15 electrons) gains one antibonding electron in π∗2p: bond order (10 − 5)/2 = 2.5.\nThe other pairs differ: O₂⁺ 2.5 vs O₂⁻ 1.5; N₂ 3 vs O₂ 2; CO 3 vs NO 2.5."
+    },
+    {
+      "text": "The correct order of O–N–O bond angle in NO₂⁺, NO₂ and NO₂⁻ is:",
+      "difficulty": "MEDIUM",
+      "options": ["NO₂⁻ > NO₂ > NO₂⁺", "NO₂ > NO₂⁺ > NO₂⁻", "NO₂⁺ > NO₂⁻ > NO₂", "NO₂⁺ > NO₂ > NO₂⁻"],
+      "answer": 3,
+      "explanation": "NO₂⁺ has no lone pair on N (sp hybridised), so it is linear at 180°.\nNO₂ has a single unpaired electron on N, which repels the bonds only weakly, giving about 134°.\nNO₂⁻ has a full lone pair on N, which repels the bonds strongly, giving about 115°.\nSo the order is NO₂⁺ > NO₂ > NO₂⁻."
+    },
+    {
+      "text": "NH₃ (dipole moment about 1.47 D) has a much larger dipole moment than NF₃ (about 0.24 D), even though both molecules are pyramidal. The best explanation is:",
+      "difficulty": "MEDIUM",
+      "options": ["Fluorine is less electronegative than hydrogen", "NF₃ is planar while NH₃ is pyramidal", "In NH₃ the lone-pair moment and the resultant N–H bond moment point the same way, while in NF₃ the N–F bond moments oppose the lone-pair moment", "Hydrogen bonding in NH₃ increases the dipole moment of each individual molecule"],
+      "answer": 2,
+      "explanation": "N is more electronegative than H, so each N–H bond moment points towards N, the same direction as the lone pair's moment. The two add.\nF is more electronegative than N, so the N–F bond moments point away from N, opposite to the lone pair's moment. They largely cancel.\nSo μ(NH₃) is much greater than μ(NF₃)."
+    },
+    {
+      "text": "In the trigonal bipyramidal PCl₅ molecule, the axial P–Cl bonds are longer than the equatorial P–Cl bonds because:",
+      "difficulty": "MEDIUM",
+      "options": ["The axial bond pairs suffer greater repulsion from the other bond pairs", "Axial bonds are formed using d-orbitals alone", "The axial chlorine atoms carry lone pairs that the equatorial ones lack", "The equatorial bonds have partial double-bond character due to resonance"],
+      "answer": 0,
+      "explanation": "Each axial bond pair has three equatorial bond pairs at 90° to it.\nEach equatorial bond pair has only two bond pairs (the axial ones) at 90°; the other equatorial bonds are at 120°.\nThe greater repulsion pushes the axial bonds outward, so they are longer and weaker. This also makes PCl₅ fairly reactive."
+    },
+    {
+      "text": "A diatomic molecule AB has a dipole moment of 1.2 D and a bond length of 1.0 Å. If the bond were completely ionic (charges +e and −e), what percentage of that dipole moment does the observed value represent? (e = 1.6 × 10⁻¹⁹ C, 1 D = 3.33 × 10⁻³⁰ C m)",
+      "difficulty": "MEDIUM",
+      "options": ["12%", "25%", "48%", "75%"],
+      "answer": 1,
+      "explanation": "Dipole moment for 100% ionic character: μ = e × d = 1.6 × 10⁻¹⁹ C × 1.0 × 10⁻¹⁰ m = 1.6 × 10⁻²⁹ C m.\nIn debye: 1.6 × 10⁻²⁹/3.33 × 10⁻³⁰ ≈ 4.8 D.\n% ionic character = (1.2/4.8) × 100 = 25%."
+    },
+    {
+      "text": "Which of the following is the correct order of lattice enthalpy?",
+      "difficulty": "MEDIUM",
+      "options": ["MgO > CaO > NaCl > KCl", "NaCl > KCl > MgO > CaO", "KCl > NaCl > CaO > MgO", "CaO > MgO > KCl > NaCl"],
+      "answer": 0,
+      "explanation": "Lattice enthalpy is roughly proportional to (product of ionic charges)/(sum of ionic radii).\nThe oxides have 2+ and 2− ions, so their lattice enthalpies are several times larger than those of the 1+/1− chlorides (MgO about 3800 kJ mol⁻¹ against NaCl 788 kJ mol⁻¹).\nWithin each pair, the smaller cation gives the higher value: Mg²⁺ < Ca²⁺ and Na⁺ < K⁺ in size.\nSo MgO > CaO > NaCl > KCl."
+    },
+    {
+      "text": "The total number of lone pairs of electrons on all the atoms of the triiodide ion, I₃⁻, is:",
+      "difficulty": "HARD",
+      "options": ["3", "6", "9", "7"],
+      "answer": 2,
+      "explanation": "Total valence electrons = 3 × 7 + 1 = 22, i.e. 11 pairs.\nThere are 2 bonding pairs (I–I–I), which leaves 9 lone pairs.\nThe central I has 3 lone pairs (equatorial positions, sp³d, linear ion), and each terminal I has 3 lone pairs: 3 + 3 + 3 = 9.\nAnswering 3 counts only the central atom's lone pairs."
+    },
+    {
+      "text": "Consider the species O₂, C₂, B₂, N₂, NO⁺ and O₂²⁻. According to molecular orbital theory, how many of them are paramagnetic?",
+      "difficulty": "HARD",
+      "options": ["1", "2", "3", "4"],
+      "answer": 1,
+      "explanation": "O₂ (16 electrons): two unpaired electrons in π∗2p, so paramagnetic.\nB₂ (10 electrons): s–p mixing puts π2p below σ2p, giving π2px¹ π2py¹, so paramagnetic.\nC₂ (12 electrons): π2p⁴, all paired, so diamagnetic. N₂ and NO⁺ (14 electrons each): all paired, so diamagnetic. O₂²⁻ (18 electrons): π∗2p⁴, all paired, so diamagnetic.\nTotal paramagnetic = 2 (O₂ and B₂). Answering 3 comes from forgetting s–p mixing for C₂."
+    }
+  ]
+}

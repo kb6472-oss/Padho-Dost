@@ -1,0 +1,161 @@
+{
+  "exam": "neet",
+  "subject": "physics",
+  "chapter": "thermodynamics",
+  "notes": {
+    "summary": "Thermodynamics covers thermal equilibrium and the zeroth law, internal energy, heat and work, the first law, specific heats of gases, thermodynamic processes (isothermal, adiabatic, isobaric, isochoric, cyclic) and the second law with heat engines, refrigerators and the Carnot engine. NEET mixes formula numericals (work, ΔU, efficiency, COP, adiabatic relations) with statement and assertion–reason items on processes and laws.",
+    "keyPoints": [
+      "Zeroth law: if A and B are each in thermal equilibrium with C, they are in thermal equilibrium with each other; it gives the concept of temperature.",
+      "First law: ΔQ = ΔU + ΔW, where ΔW is the work done by the gas. Example: 200 J supplied and 50 J of work done gives ΔU = 150 J.",
+      "Internal energy is a state function (for an ideal gas it depends only on T); heat and work are path functions. In a cyclic process ΔU = 0, so net Q = net W = area enclosed on the P–V diagram.",
+      "Isobaric: W = PΔV = nRΔT, Q = nCpΔT, ΔU = nCvΔT. Fraction of heat going into ΔU = Cv/Cp = 1/γ (3/5 for monatomic, 5/7 for diatomic).",
+      "Isothermal: ΔU = 0, Q = W = nRT ln(V₂/V₁). Adiabatic: Q = 0, PV^γ = constant, TV^(γ−1) = constant, W = (P₁V₁ − P₂V₂)/(γ − 1). The adiabatic slope on a P–V diagram is γ times the isothermal slope.",
+      "Molar specific heats: monatomic Cv = 3R/2, Cp = 5R/2, γ = 5/3; diatomic Cv = 5R/2, Cp = 7R/2, γ = 7/5. Mayer's relation: Cp − Cv = R.",
+      "Heat engine efficiency η = W/Q₁ = 1 − Q₂/Q₁; Carnot η = 1 − T₂/T₁ (kelvin). Refrigerator COP α = Q₂/W, Carnot value T₂/(T₁ − T₂); heat rejected Q₁ = Q₂ + W.",
+      "Second law — Kelvin–Planck: no engine can convert all the heat it absorbs into work; Clausius: heat cannot flow from a colder to a hotter body by itself without external work.",
+      "Free expansion of an ideal gas into vacuum in an insulated vessel: Q = 0 and W = 0, so ΔU = 0 and the temperature is unchanged; the process is irreversible."
+    ],
+    "traps": [
+      "Using Celsius temperatures in Carnot efficiency or adiabatic relations; always convert to kelvin.",
+      "Mixing sign conventions for work: in ΔQ = ΔU + ΔW, ΔW is the work done by the gas.",
+      "Thinking adiabatic means constant temperature; in an adiabatic process Q = 0, but the temperature changes.",
+      "Using Cv instead of Cp for the heat supplied at constant pressure.",
+      "Treating heat or work as state functions; only state variables such as U, P, V and T are path-independent."
+    ],
+    "examTip": "For any process question, first write Q, W and ΔU for that process side by side; most wrong options can then be eliminated in seconds."
+  },
+  "questions": [
+    {
+      "text": "The zeroth law of thermodynamics leads to the concept of:",
+      "difficulty": "EASY",
+      "options": [
+        "internal energy",
+        "entropy",
+        "temperature",
+        "heat"
+      ],
+      "answer": 2,
+      "explanation": "The zeroth law states that two systems that are each in thermal equilibrium with a third system are in thermal equilibrium with each other.\nThe property that has the same value for all systems in thermal equilibrium is temperature.\nSo the zeroth law gives the concept of temperature."
+    },
+    {
+      "text": "An ideal gas is taken through a cyclic process and returns to its initial state. Which of the following is necessarily true for the complete cycle?",
+      "difficulty": "EASY",
+      "options": [
+        "ΔU = 0, and the net heat absorbed equals the net work done by the gas",
+        "ΔU = 0, and the net work done is also zero",
+        "The net heat absorbed is zero, but ΔU is not zero",
+        "ΔU equals the net work done by the gas"
+      ],
+      "answer": 0,
+      "explanation": "Internal energy is a state function; the gas returns to the same state, so ΔU = 0 for the cycle.\nFirst law: ΔQ = ΔU + ΔW = 0 + ΔW, so net heat absorbed = net work done.\nThe net work is generally not zero; it equals the area enclosed by the cycle on the P–V diagram."
+    },
+    {
+      "text": "A gas expands at a constant pressure of 1 × 10⁵ Pa from a volume of 2 litres to 5 litres. The work done by the gas is:",
+      "difficulty": "EASY",
+      "options": [
+        "3 × 10⁵ J",
+        "500 J",
+        "30 J",
+        "300 J"
+      ],
+      "answer": 3,
+      "explanation": "At constant pressure, W = PΔV.\nΔV = 5 − 2 = 3 L = 3 × 10⁻³ m³.\nW = 1 × 10⁵ × 3 × 10⁻³ = 300 J.\n(3 × 10⁵ J results from not converting litres to m³.)"
+    },
+    {
+      "text": "Heat is supplied to an ideal diatomic gas at constant pressure. The fraction of the heat supplied that is used to increase the internal energy of the gas is:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "2/7",
+        "5/7",
+        "3/5",
+        "2/5"
+      ],
+      "answer": 1,
+      "explanation": "At constant pressure: Q = nCpΔT and ΔU = nCvΔT.\nFraction = ΔU/Q = Cv/Cp = 1/γ.\nFor a diatomic gas Cv = 5R/2 and Cp = 7R/2, so the fraction = 5/7.\n(2/7 is the fraction converted into work; 3/5 is the value for a monatomic gas.)"
+    },
+    {
+      "text": "A monatomic ideal gas (γ = 5/3) at 27 °C is suddenly (adiabatically) compressed to 1/8 of its original volume. The final temperature of the gas is:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "1200 K",
+        "2400 K",
+        "600 K",
+        "300 K"
+      ],
+      "answer": 0,
+      "explanation": "For an adiabatic process TV^(γ−1) = constant, so T₂ = T₁ (V₁/V₂)^(γ−1).\nT₁ = 27 + 273 = 300 K, V₁/V₂ = 8 and γ − 1 = 2/3.\n8^(2/3) = (8^(1/3))² = 2² = 4.\nT₂ = 300 × 4 = 1200 K (927 °C)."
+    },
+    {
+      "text": "On a P–V diagram, an isothermal curve and an adiabatic curve for the same ideal gas pass through a common point. The ratio of the slope of the adiabatic curve to that of the isothermal curve at that point is (γ = Cp/Cv):",
+      "difficulty": "MEDIUM",
+      "options": [
+        "1/γ",
+        "1",
+        "γ − 1",
+        "γ"
+      ],
+      "answer": 3,
+      "explanation": "Isothermal: PV = constant, so dP/dV = −P/V.\nAdiabatic: PV^γ = constant, so dP/dV = −γP/V.\nRatio of slopes (adiabatic : isothermal) = γ.\nSince γ > 1, the adiabatic curve is steeper."
+    },
+    {
+      "text": "A refrigerator has a coefficient of performance of 5. If it extracts 500 J of heat from the cold interior in each cycle, the heat rejected to the surroundings per cycle is:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "100 J",
+        "600 J",
+        "400 J",
+        "2500 J"
+      ],
+      "answer": 1,
+      "explanation": "COP α = Q₂/W, so the work input W = Q₂/α = 500/5 = 100 J.\nBy energy conservation, heat rejected Q₁ = Q₂ + W = 500 + 100 = 600 J.\n(100 J is only the work input.)"
+    },
+    {
+      "text": "Assertion (A): When an ideal gas is compressed adiabatically, its internal energy increases.\nReason (R): In an adiabatic process, the gas exchanges heat with its surroundings.\nChoose the correct option.",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 2,
+      "explanation": "In an adiabatic process Q = 0, i.e. no heat is exchanged, so R is false.\nFrom the first law ΔU = −W; during compression the work done by the gas is negative, so ΔU is positive and the temperature rises. A is true.\nSo A is true but R is false."
+    },
+    {
+      "text": "Two moles of a monatomic ideal gas are heated at constant pressure so that its temperature rises by 50 K. Taking R = 8.3 J mol⁻¹ K⁻¹, the heat supplied to the gas is:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "1245 J",
+        "830 J",
+        "4150 J",
+        "2075 J"
+      ],
+      "answer": 3,
+      "explanation": "At constant pressure Q = nCpΔT, with Cp = 5R/2 for a monatomic gas.\nQ = 2 × (5/2 × 8.3) × 50 = 2 × 20.75 × 50 = 2075 J.\n(1245 J = nCvΔT is the rise in internal energy and 830 J = nRΔT is the work done by the gas.)"
+    },
+    {
+      "text": "Consider the following statements about an ideal gas:\nI. The internal energy of an ideal gas depends only on its temperature.\nII. The work done by a gas is a state function.\nIII. The heat absorbed by a gas depends on the path followed between the initial and final states.\nIV. In a free expansion of an ideal gas into vacuum inside an insulated container, the temperature of the gas does not change.\nWhich of the statements are correct?",
+      "difficulty": "HARD",
+      "options": [
+        "I, III and IV only",
+        "I and II only",
+        "II, III and IV only",
+        "I, II, III and IV"
+      ],
+      "answer": 0,
+      "explanation": "I is true: an ideal gas has no intermolecular forces, so U depends only on T.\nII is false: work equals the area under the P–V curve and depends on the path, so it is a path function.\nIII is true: heat, like work, is a path function.\nIV is true: in free expansion Q = 0 and W = 0, so ΔU = 0 and the temperature of an ideal gas is unchanged.\nCorrect: I, III and IV only."
+    },
+    {
+      "text": "An ideal gas expands from the same initial state to the same final volume by three different processes: isobaric, isothermal and adiabatic. The correct order of the work done by the gas is:",
+      "difficulty": "HARD",
+      "options": [
+        "W(adiabatic) > W(isothermal) > W(isobaric)",
+        "W(isothermal) > W(isobaric) > W(adiabatic)",
+        "W(isobaric) > W(isothermal) > W(adiabatic)",
+        "W(isobaric) = W(isothermal) = W(adiabatic)"
+      ],
+      "answer": 2,
+      "explanation": "Work done = area under the curve on the P–V diagram between the same V₁ and V₂.\nIn the isobaric process the pressure stays at its initial (highest) value throughout.\nIn the isothermal process P falls as 1/V, and in the adiabatic process it falls faster, as 1/V^γ (steeper curve).\nSo the areas, and hence the work, are in the order isobaric > isothermal > adiabatic."
+    }
+  ]
+}

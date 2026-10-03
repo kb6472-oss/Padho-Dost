@@ -1,0 +1,161 @@
+{
+  "exam": "class-10",
+  "subject": "economics",
+  "chapter": "development",
+  "notes": {
+    "summary": "This NCERT chapter looks at what development means to different people, income and non-income goals, how countries and states are compared using per capita income, why averages and income alone can mislead, the role of public facilities, the Human Development Report and sustainability. CBSE tests it through data-table and case-based questions comparing states or countries, assertion-reason items, and definitions such as IMR, literacy rate, BMI and life expectancy.",
+    "keyPoints": [
+      "Different people have different, sometimes conflicting, developmental goals: a landless rural labourer wants more days of work, better wages and a local school; a prosperous farmer wants higher support prices; industrialists may want more dams for electricity, while people whose land would be submerged oppose them. Development for one can be destruction for another.",
+      "People also seek non-material goals such as equal treatment, freedom, security and respect. When women take up paid work outside the home, their dignity in the household and society increases, provided the working environment is safe and secure.",
+      "Per capita (average) income = total income of the country ÷ total population. Total income is not used to compare countries because populations differ. The World Bank's World Development Report classifies countries by per capita income into rich (high-income), middle-income and low-income; India falls in the low middle-income group.",
+      "Averages hide disparities. Example: incomes of five citizens in Country X are ₹9,000, ₹10,000, ₹11,000, ₹10,500, ₹9,500 and in Country Y are ₹1,000, ₹1,500, ₹2,000, ₹500, ₹45,000 — both average ₹10,000, but income is far more equally shared in X.",
+      "Money cannot buy everything: a pollution-free environment, unadulterated medicines and protection from infectious diseases usually need collective action. For many important things (security, schools, health care, a working PDS) collective provision is the best and cheapest way. Kerala has a low infant mortality rate because of adequate basic health and education facilities, even though some states have higher per capita income.",
+      "Definitions: Infant Mortality Rate = children dying before the age of one per 1000 live births in that year; Literacy rate (NCERT tables) = proportion of literate population aged 7 and above; Net Attendance Ratio = children of the given age group attending school as a percentage of all children of that age group.",
+      "BMI = weight in kg ÷ (height in m)². Below 18.5 = undernourished; above 25 = overweight. Example: 45 kg and 1.6 m → 45 ÷ 2.56 ≈ 17.6, so undernourished.",
+      "The Human Development Report, published by UNDP, compares countries on educational levels, health status and per capita income. Indicators: per capita income in US dollars (PPP, so that a dollar buys the same goods in every country), life expectancy at birth (average expected length of life at the time of birth), mean years of schooling (average years of education of people aged 25 and above) and expected years of schooling (years a child of school-entry age can expect to receive).",
+      "Sustainable development meets present needs without reducing the ability of future generations to meet theirs. Groundwater is renewable but is overused when we extract more than rain replenishes; crude oil is non-renewable and gets exhausted with use, though new reserves may be discovered. Environmental degradation does not respect national or state boundaries."
+    ],
+    "traps": [
+      "Confusing the World Development Report (World Bank, uses per capita income only) with the Human Development Report (UNDP, uses health, education and income).",
+      "Assuming a higher per capita income automatically means better health and education — data for states like Kerala show otherwise.",
+      "Forgetting to square the height when calculating BMI (45 ÷ 1.6 gives a wrong 28.1 instead of 17.6).",
+      "Using total national income to compare countries instead of per capita income.",
+      "Calling groundwater non-renewable — it is renewable but can be overused faster than it is replenished."
+    ],
+    "examTip": "In data-table questions, compare IMR, literacy and attendance separately from per capita income before choosing — CBSE usually rewards the conclusion that income alone does not measure development."
+  },
+  "questions": [
+    {
+      "text": "Which of the following is most likely to be a developmental goal of a landless rural labourer?",
+      "difficulty": "EASY",
+      "options": [
+        "Higher support prices for crops",
+        "More electricity through big dams for industries",
+        "More days of work, better wages and a local school for the children",
+        "The same freedom as her brother to decide what she wants to do"
+      ],
+      "answer": 2,
+      "explanation": "NCERT lists the goals of landless rural labourers as more days of work, better wages, a local school with quality education and no social discrimination.\nHigher support prices are the goal of prosperous farmers.\nMore electricity from dams is the goal of industrialists.\nThe same freedom as a brother is the goal of a girl from a rich urban family.\nSo the correct answer is more days of work, better wages and a local school."
+    },
+    {
+      "text": "To get more electricity, industrialists may want more dams to be built, but the people whose land would be submerged by the dams oppose them. What does this example show about development?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Different persons can have conflicting developmental goals; what is development for one may be destructive for another",
+        "Electricity is not needed for the development of a country",
+        "Only the goals of industrialists matter for national development",
+        "Building dams always reduces the total income of a country"
+      ],
+      "answer": 0,
+      "explanation": "Industrialists gain from more electricity, while displaced people lose their land and livelihood.\nNCERT uses this to show that developmental goals of different people can conflict.\nThe other options are sweeping statements that the example does not support.\nSo the example shows conflicting goals: development for one can be destructive for another."
+    },
+    {
+      "text": "Which of the following can money usually NOT buy for an individual living in a polluted locality?",
+      "difficulty": "EASY",
+      "options": [
+        "A two-wheeler",
+        "Clothes and furniture",
+        "Packaged food items",
+        "A pollution-free environment"
+      ],
+      "answer": 3,
+      "explanation": "Material goods such as vehicles, clothes, furniture and packaged food can be bought with money.\nNCERT notes that money normally cannot buy a pollution-free environment or ensure unadulterated medicines, unless one shifts to a community that already has them.\nSuch things are best and most cheaply provided collectively.\nSo the answer is a pollution-free environment."
+    },
+    {
+      "text": "Country X and Country Y each have five citizens. Their monthly incomes (in ₹) are:\nCountry X: 9,000; 10,000; 11,000; 10,500; 9,500\nCountry Y: 1,000; 1,500; 2,000; 500; 45,000\nWhich statement is correct?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Country Y has a higher average income because one citizen earns ₹45,000",
+        "Both countries have the same average income of ₹10,000, but income is distributed more equally in Country X",
+        "Country X has a higher average income, so it is more developed",
+        "Both countries have the same average income, so living conditions of most citizens are the same in both"
+      ],
+      "answer": 1,
+      "explanation": "Total for X = 9,000 + 10,000 + 11,000 + 10,500 + 9,500 = ₹50,000; average = 50,000 ÷ 5 = ₹10,000.\nTotal for Y = 1,000 + 1,500 + 2,000 + 500 + 45,000 = ₹50,000; average = 50,000 ÷ 5 = ₹10,000.\nThe averages are equal, but in Y four citizens are very poor and one is very rich, while incomes in X are close to each other.\nThis shows that averages hide disparities, so the correct statement is that both average ₹10,000 but X is more equal."
+    },
+    {
+      "text": "Body Mass Index (BMI) = weight in kg ÷ (height in m)². A student weighs 45 kg and is 1.6 m tall. Taking a BMI below 18.5 as undernourished and above 25 as overweight, what are the student's BMI and nutritional status?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "About 17.6 — undernourished",
+        "About 28.1 — overweight",
+        "About 17.6 — normal",
+        "About 22.5 — normal"
+      ],
+      "answer": 0,
+      "explanation": "Square the height: 1.6 × 1.6 = 2.56 m².\nBMI = 45 ÷ 2.56 ≈ 17.6.\nSince 17.6 is less than 18.5, the student is undernourished.\nThe value 28.1 comes from dividing 45 by 1.6 without squaring, which is a common mistake.\nSo the BMI is about 17.6 and the student is undernourished."
+    },
+    {
+      "text": "In the Human Development Report, the term 'life expectancy at birth' denotes:",
+      "difficulty": "EASY",
+      "options": [
+        "The age at which a person starts working",
+        "The number of children who die before the age of one per 1000 live births",
+        "The number of years of schooling a child can expect to receive",
+        "The average expected length of life of a person at the time of birth"
+      ],
+      "answer": 3,
+      "explanation": "Life expectancy at birth is the average expected length of life of a person at the time of birth.\nDeaths before age one per 1000 live births is the Infant Mortality Rate.\nYears of schooling a child can expect to receive is expected years of schooling.\nSo the correct answer is the average expected length of life at birth."
+    },
+    {
+      "text": "In the Human Development Report, the average number of years of education received by people aged 25 years and above is called:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Expected years of schooling",
+        "Mean years of schooling",
+        "Net Attendance Ratio",
+        "Literacy rate"
+      ],
+      "answer": 1,
+      "explanation": "Mean years of schooling looks back at adults: the average years of education of people aged 25 and above.\nExpected years of schooling looks ahead: the years a child of school-entry age can expect to receive.\nNet Attendance Ratio and literacy rate measure school attendance and the ability to read and write, not years of education.\nSo the answer is mean years of schooling."
+    },
+    {
+      "text": "Why does the Human Development Report express the per capita income of all countries in US dollars on a purchasing power parity (PPP) basis?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Because the US dollar is the official currency of all UN member countries",
+        "To show only the income of the richest citizens of each country",
+        "So that incomes can be compared, with every dollar buying the same amount of goods and services in any country",
+        "Because the report ranks countries on the basis of per capita income alone"
+      ],
+      "answer": 2,
+      "explanation": "Countries use different currencies and have different price levels, so incomes cannot be compared directly.\nNCERT explains that per capita income is calculated in dollars for all countries so that it can be compared, in a way that every dollar would buy the same amount of goods and services in any country.\nThe HDR does not rank on income alone; it also uses health and education.\nSo the purpose is fair comparison with equal purchasing power."
+    },
+    {
+      "text": "Study the data for three states:\nState P — per capita income ₹2,40,000; infant mortality rate 30 per 1000 live births; literacy rate 80%\nState Q — per capita income ₹2,00,000; infant mortality rate 7 per 1000 live births; literacy rate 94%\nState R — per capita income ₹45,000; infant mortality rate 32 per 1000 live births; literacy rate 62%\nWhich conclusion is best supported by the data?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "State P is the most developed in every respect",
+        "Infant mortality rises steadily as per capita income falls in all three states",
+        "State R has the best health outcomes among the three",
+        "State Q has a lower per capita income than State P but better health and education, so per capita income alone is not an adequate measure of development"
+      ],
+      "answer": 3,
+      "explanation": "P has the highest income, but Q has a much lower IMR (7 against 30) and higher literacy (94% against 80%), so P is not best in every respect.\nIMR does not move steadily with income: P (highest income) has 30, Q has 7 and R has 32.\nR has the highest IMR, so it has the worst health outcome.\nThe data show that a state with lower income can do better on health and education, so income alone is not enough to judge development."
+    },
+    {
+      "text": "Assertion (A): Average income is useful for comparing countries, but it does not tell us how income is distributed among people.\nReason (R): A country with a higher average income always has better health and education indicators than a country with a lower average income.\nChoose the correct option:",
+      "difficulty": "HARD",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 2,
+      "explanation": "A is true: two countries can have the same average income while one has a very unequal distribution, so averages hide disparities.\nR is false: higher income does not guarantee better health and education. For example, Kerala has a lower infant mortality rate and higher literacy than some states with higher per capita income, because of good public facilities.\nSo A is true but R is false."
+    },
+    {
+      "text": "Consider the following statements about the Human Development Report:\nI. It compares countries on the basis of educational levels, health status and per capita income.\nII. A country with a higher per capita income must always get a higher HDI rank.\nIII. It is brought out by the World Bank.\nIV. Life expectancy at birth is one of the indicators it uses.\nWhich of the statements are correct?",
+      "difficulty": "HARD",
+      "options": [
+        "I, III and IV only",
+        "I and IV only",
+        "II and III only",
+        "I, II and IV only"
+      ],
+      "answer": 1,
+      "explanation": "I is correct: the HDR compares countries on education, health and per capita income.\nII is wrong: because health and education are also counted, a country with lower income can rank higher.\nIII is wrong: the HDR is published by UNDP; the World Bank brings out the World Development Report.\nIV is correct: life expectancy at birth is a key health indicator in the HDR.\nSo only I and IV are correct."
+    }
+  ]
+}

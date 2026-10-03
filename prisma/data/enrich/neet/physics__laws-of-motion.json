@@ -1,0 +1,161 @@
+{
+  "exam": "neet",
+  "subject": "physics",
+  "chapter": "laws-of-motion",
+  "notes": {
+    "summary": "Laws of Motion covers Newton's three laws, momentum and impulse, conservation of linear momentum, equilibrium of concurrent forces, friction, connected bodies and the dynamics of circular motion. NEET asks quick numericals built on free-body diagrams and F = ma: impulse, recoil and explosions, friction on level and inclined surfaces, apparent weight in lifts and vehicles on curved roads.",
+    "keyPoints": [
+      "First law defines inertia, and mass is the measure of inertia. Second law: F = dp/dt = ma for constant mass; 1 N = 1 kg m/s².",
+      "Impulse J = F × Δt = Δp. Catching a ball with the hands moving back increases Δt and so reduces the average force for the same Δp.",
+      "Third law: action and reaction are equal, opposite, simultaneous and act on different bodies, so they never cancel each other.",
+      "Conservation of momentum: with zero net external force, total momentum stays constant. A body at rest that explodes into m₁ and m₂ gives m₁v₁ = m₂v₂ (opposite directions); the lighter fragment gets more kinetic energy.",
+      "Equilibrium of concurrent forces: vector sum = 0 (ΣFx = 0, ΣFy = 0). A hanging weight W pulled sideways by a horizontal force F: the rope makes tan θ = F/W with the vertical.",
+      "Friction: static friction is self-adjusting, 0 ≤ fs ≤ μsN; kinetic friction fk = μkN; generally μk < μs, and rolling friction is the smallest. Angle of repose: tan θ = μs.",
+      "Block sliding down a rough incline: a = g(sin θ − μk cos θ); on a smooth incline a = g sin θ.",
+      "Apparent weight in a lift: N = m(g + a) when accelerating upward, N = m(g − a) when accelerating downward, N = 0 in free fall.",
+      "Circular motion needs a centripetal force mv²/r. Level road: vmax = √(μs r g). Banked road without friction: tan θ = v²/(r g)."
+    ],
+    "traps": [
+      "Writing friction as μsN even when the applied force is less than limiting friction; static friction then just equals the applied force.",
+      "Cancelling action and reaction in a free-body diagram even though they act on different bodies.",
+      "Ignoring the reversal of direction in impulse problems: when a ball bounces back, Δp = m(v + u), not m(v − u).",
+      "Using the full speed instead of the component normal to the wall in oblique collisions.",
+      "Assuming the tension in a string holding a hanging mass equals its weight even while the system accelerates."
+    ],
+    "examTip": "Draw a free-body diagram for each body, write ΣF = ma along the direction of motion, and compare with limiting friction before assuming that a body moves."
+  },
+  "questions": [
+    {
+      "text": "While catching a fast-moving cricket ball, a fielder gradually pulls his hands backward. He does this to:",
+      "difficulty": "EASY",
+      "options": [
+        "reduce the change in momentum of the ball",
+        "increase the impulse imparted to the ball",
+        "increase the time of impact and thereby reduce the force on his hands",
+        "decrease the time of impact and thereby reduce the force on his hands"
+      ],
+      "answer": 2,
+      "explanation": "The change in momentum of the ball (from mv to zero) is fixed, so the impulse F × Δt = Δp is fixed.\nPulling the hands back increases the time Δt over which the ball is stopped.\nSince F = Δp/Δt, a larger Δt gives a smaller average force on the hands."
+    },
+    {
+      "text": "According to Newton's third law, action and reaction forces are equal and opposite. They do not cancel each other because they:",
+      "difficulty": "EASY",
+      "options": [
+        "act on two different bodies",
+        "act on the same body at different times",
+        "are not always equal in magnitude",
+        "act along different lines"
+      ],
+      "answer": 0,
+      "explanation": "Action and reaction always act on two different bodies (for example, the Earth pulls a ball and the ball pulls the Earth).\nForces can cancel only when they act on the same body.\nThey are equal, opposite, simultaneous and along the same line, so they do not cancel only because they act on different bodies."
+    },
+    {
+      "text": "A person stands on a weighing machine placed on the floor of a lift. If the lift cable breaks and the lift falls freely under gravity, the reading of the machine will be:",
+      "difficulty": "EASY",
+      "options": [
+        "equal to his true weight",
+        "double his true weight",
+        "half his true weight",
+        "zero"
+      ],
+      "answer": 3,
+      "explanation": "When the lift accelerates downward with acceleration a, the normal reaction (machine reading) is N = m(g − a).\nIn free fall a = g, so N = m(g − g) = 0.\nThe machine reads zero, and the person feels weightless."
+    },
+    {
+      "text": "A box of mass 10 kg rests on a horizontal floor. The coefficient of static friction between the box and the floor is 0.5. A horizontal push of 30 N is applied to the box. Taking g = 10 m/s², the frictional force acting on the box is:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "50 N",
+        "30 N",
+        "0 N",
+        "20 N"
+      ],
+      "answer": 1,
+      "explanation": "Limiting static friction = μsN = μs mg = 0.5 × 10 × 10 = 50 N.\nThe applied force (30 N) is less than 50 N, so the box does not move.\nStatic friction is self-adjusting and just balances the applied force.\nFrictional force = 30 N, opposite to the push."
+    },
+    {
+      "text": "A bomb of mass 3 kg at rest explodes into two fragments of masses 1 kg and 2 kg. The 1 kg fragment flies off with a speed of 20 m/s. The kinetic energy of the 2 kg fragment is:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "100 J",
+        "200 J",
+        "400 J",
+        "50 J"
+      ],
+      "answer": 0,
+      "explanation": "Initial momentum = 0, so after the explosion m₁v₁ = m₂v₂ in opposite directions.\n1 × 20 = 2 × v₂, so v₂ = 10 m/s.\nKE = ½m₂v₂² = ½ × 2 × 10² = 100 J.\n(The 1 kg fragment has 200 J; the lighter piece carries more kinetic energy.)"
+    },
+    {
+      "text": "A car takes a turn on a level (unbanked) circular road of radius 100 m. The coefficient of static friction between the tyres and the road is 0.4. Taking g = 10 m/s², the maximum speed with which the car can take the turn without skidding is:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "10 m/s",
+        "40 m/s",
+        "20 m/s",
+        "6.3 m/s"
+      ],
+      "answer": 2,
+      "explanation": "On a level road the centripetal force is provided only by static friction: mv²/r ≤ μs mg.\nvmax = √(μs r g) = √(0.4 × 100 × 10) = √400 = 20 m/s.\nThe result does not depend on the mass of the car."
+    },
+    {
+      "text": "A block of mass 3 kg lying on a smooth horizontal table is connected by a light inextensible string, passing over a frictionless pulley at the edge of the table, to a block of mass 2 kg hanging vertically. Taking g = 10 m/s², the tension in the string is:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "20 N",
+        "8 N",
+        "24 N",
+        "12 N"
+      ],
+      "answer": 3,
+      "explanation": "Driving force = weight of the hanging block = 2 × 10 = 20 N; total mass in motion = 3 + 2 = 5 kg.\nAcceleration a = 20/5 = 4 m/s².\nFor the 3 kg block on the table, tension is the only horizontal force: T = 3 × 4 = 12 N.\nCheck with the hanging block: 20 − T = 2 × 4 gives T = 12 N."
+    },
+    {
+      "text": "A mass of 6 kg hangs from the ceiling by a light rope. A horizontal force of 50 N is applied at the midpoint of the rope and the system comes to rest in equilibrium. Taking g = 10 m/s², the angle that the upper half of the rope makes with the vertical is closest to:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "50°",
+        "40°",
+        "30°",
+        "45°"
+      ],
+      "answer": 1,
+      "explanation": "At the midpoint three forces balance: the pull of the lower rope equal to the weight W = 6 × 10 = 60 N (downward), the horizontal force F = 50 N, and the tension T in the upper rope.\nT cos θ = 60 N and T sin θ = 50 N.\ntan θ = 50/60 ≈ 0.83, so θ ≈ 40° with the vertical.\n(50° is the angle with the horizontal.)"
+    },
+    {
+      "text": "Assertion (A): Static friction is a self-adjusting force.\nReason (R): The coefficient of kinetic friction between two surfaces is generally less than the coefficient of static friction.\nChoose the correct option.",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 1,
+      "explanation": "Static friction takes whatever value, from zero up to μsN, is needed to prevent relative motion, so it adjusts itself to the applied force. A is true.\nIt is an experimental fact that μk is generally less than μs. R is true.\nR only compares the two coefficients and does not explain why static friction adjusts itself, so R is not the correct explanation of A."
+    },
+    {
+      "text": "A ball of mass 0.2 kg strikes a smooth rigid wall with a speed of 10 m/s at an angle of 60° with the normal to the wall, and rebounds with the same speed at the same angle. The magnitude of the impulse imparted to the ball by the wall is:",
+      "difficulty": "HARD",
+      "options": [
+        "4 N s",
+        "3.46 N s",
+        "2 N s",
+        "zero"
+      ],
+      "answer": 2,
+      "explanation": "Resolve the velocity: component along the normal = v cos 60° = 10 × 0.5 = 5 m/s; the component parallel to the wall (v sin 60°) does not change.\nOnly the normal component reverses, so its change = 5 − (−5) = 10 m/s.\nImpulse = mΔv = 0.2 × 10 = 2 N s, along the normal away from the wall.\n(Using sin 60° gives 3.46 N s; ignoring the angle gives 4 N s.)"
+    },
+    {
+      "text": "A block of mass 2 kg slides down a rough inclined plane of inclination 37°. The coefficient of kinetic friction between the block and the plane is 0.25. Taking g = 10 m/s², sin 37° = 0.6 and cos 37° = 0.8, the acceleration of the block down the plane is:",
+      "difficulty": "HARD",
+      "options": [
+        "4 m/s²",
+        "6 m/s²",
+        "8 m/s²",
+        "2 m/s²"
+      ],
+      "answer": 0,
+      "explanation": "Along the incline: ma = mg sin θ − μkN, with N = mg cos θ.\na = g(sin θ − μk cos θ) = 10(0.6 − 0.25 × 0.8).\na = 10(0.6 − 0.2) = 10 × 0.4 = 4 m/s².\n(6 m/s² ignores friction; the mass of the block does not affect the answer.)"
+    }
+  ]
+}

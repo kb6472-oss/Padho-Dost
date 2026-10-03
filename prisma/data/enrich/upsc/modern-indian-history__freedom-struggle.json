@@ -1,0 +1,105 @@
+{
+  "exam": "upsc",
+  "subject": "modern-indian-history",
+  "chapter": "freedom-struggle",
+  "notes": {
+    "summary": "Covers the national movement from the founding of the Congress (1885) through the Moderate and Extremist phases, the Gandhian mass movements, revolutionary activity and the constitutional negotiations up to 1947. UPSC tests it through chronology, pairs of leaders and events, and statements on what each pact, commission or Congress session actually provided.",
+    "keyPoints": [
+      "Phases: Moderates (1885–1905: petitions, Dadabhai Naoroji's drain theory); Extremists and Swadeshi (1905–1918: Lal-Bal-Pal, Aurobindo; Muslim League founded at Dacca in 1906; Surat split in 1907); Gandhian era (1917–1947).",
+      "Gandhi's early experiments: Champaran 1917 (indigo, tinkathia system, first civil disobedience in India), Ahmedabad mill strike 1918 (plague bonus, first hunger strike), Kheda 1918 (remission of revenue after crop failure, first non-cooperation).",
+      "1919–1929: Rowlatt Act and Jallianwala Bagh (1919); Non-Cooperation–Khilafat (1920–22) withdrawn after Chauri Chaura; Simon Commission (1927, no Indian member, 'Simon Go Back'); Nehru Report (1928) sought dominion status; Lahore session (1929) adopted Purna Swaraj and 26 January 1930 was observed as Independence Day.",
+      "Civil Disobedience: Dandi March 12 March–6 April 1930; Gandhi–Irwin Pact (March 1931); Karachi session (1931, president Vallabhbhai Patel) — resolutions on Fundamental Rights and National Economic Programme; Congress attended only the Second Round Table Conference (1931); Ambedkar attended all three.",
+      "Communal Award (August 1932) → Gandhi's fast in Yerawada jail → Poona Pact (September 1932): joint electorates with 147 reserved seats for the depressed classes in provincial legislatures, in place of 71 seats under separate electorates.",
+      "1939–1942: Congress ministries resign (1939); August Offer (1940); Individual Satyagraha (October 1940, Vinoba Bhave first, Nehru second); Cripps Mission (March 1942); Quit India resolution (8 August 1942, Bombay — 'Do or Die').",
+      "1945–1947: INA trials at the Red Fort (Shah Nawaz Khan, P.K. Sehgal, G.S. Dhillon); Royal Indian Navy revolt (February 1946, Bombay); Cabinet Mission (1946); Mountbatten Plan (3 June 1947); Indian Independence Act (July 1947).",
+      "Revolutionaries: India House, London (Shyamji Krishna Varma, 1905); Ghadar Party, San Francisco (Lala Har Dayal, Sohan Singh Bhakna, 1913); Komagata Maru (1914); Kakori (1925); HSRA (1928, Chandrashekhar Azad, Bhagat Singh); Chittagong armoury raid (1930, Surya Sen)."
+    ],
+    "traps": [
+      "Thinking the Nehru Report demanded complete independence — it asked for dominion status; Purna Swaraj came only at Lahore in 1929.",
+      "Mixing up Kheda (revenue remission) with the Ahmedabad mill strike (plague bonus and Gandhi's first hunger strike).",
+      "Assuming Gandhi attended all the Round Table Conferences — he attended only the Second; Ambedkar and Tej Bahadur Sapru attended all three.",
+      "Believing the Poona Pact retained separate electorates — it replaced them with reserved seats in joint electorates.",
+      "Placing the Cripps Mission (1942) after the Cabinet Mission (1946) in chronology questions."
+    ],
+    "examTip": "Keep a one-line year ladder in mind (1905–1907–1916–1919–1920–1927–1929–1930–1931–1932–1940–1942–1946–1947) and anchor every chronology or pairs option to it before judging the statements."
+  },
+  "questions": [
+    {
+      "text": "The split in the Indian National Congress between the Moderates and the Extremists took place at which session?",
+      "difficulty": "EASY",
+      "options": ["Calcutta, 1906", "Surat, 1907", "Lucknow, 1916", "Banaras, 1905"],
+      "answer": 1,
+      "explanation": "Moderates and Extremists differed over the pace and methods of the Swadeshi movement and over the choice of Congress president. The quarrel came to a head at the Surat session in December 1907 (president Rash Behari Ghosh), and the party split. The Calcutta session of 1906 under Dadabhai Naoroji had declared Swaraj as the goal, and the Lucknow session of 1916 reunited the two groups. Answer: Surat, 1907."
+    },
+    {
+      "text": "Who was chosen by Mahatma Gandhi as the first satyagrahi of the Individual Satyagraha launched in October 1940?",
+      "difficulty": "EASY",
+      "options": ["Jawaharlal Nehru", "Sardar Vallabhbhai Patel", "C. Rajagopalachari", "Acharya Vinoba Bhave"],
+      "answer": 3,
+      "explanation": "After the August Offer of 1940 was rejected, Gandhi launched a limited Individual Satyagraha to assert the right of free speech against India's forced involvement in the war. Satyagrahis were chosen one by one so as not to embarrass Britain with a mass movement. Vinoba Bhave was the first satyagrahi, Jawaharlal Nehru the second and Brahma Dutt the third. Answer: Acharya Vinoba Bhave."
+    },
+    {
+      "text": "The Bardoli Satyagraha of 1928, after which the women of Bardoli conferred the title of 'Sardar' on its leader, was a campaign against:",
+      "difficulty": "EASY",
+      "options": ["An increase in land revenue, led by Vallabhbhai Patel", "Forced indigo cultivation, led by Rajendra Prasad", "The salt tax, led by C. Rajagopalachari", "Forced labour in the forests, led by Alluri Sitarama Raju"],
+      "answer": 0,
+      "explanation": "In Bardoli taluka (Surat district) the Bombay government raised the land revenue demand. Vallabhbhai Patel led the peasants in a no-revenue campaign in 1928. A subsequent inquiry (Maxwell–Broomfield) found the increase unjustified and reduced it. The women of Bardoli gave Patel the title 'Sardar'. Answer: an increase in land revenue, led by Vallabhbhai Patel."
+    },
+    {
+      "text": "Consider the following pairs:\nMovement — Associated feature\n1. Champaran Satyagraha (1917) — Oppression of indigo cultivators under the tinkathia system\n2. Kheda Satyagraha (1918) — Dispute between mill-owners and workers over the plague bonus\n3. Ahmedabad Mill Strike (1918) — Gandhi's first hunger strike in India\nWhich of the pairs given above is/are correctly matched?",
+      "difficulty": "MEDIUM",
+      "options": ["1 only", "1 and 3 only", "2 and 3 only", "1, 2 and 3"],
+      "answer": 1,
+      "explanation": "In Champaran, European planters forced peasants to grow indigo on 3/20 of their land (the tinkathia system); this was Gandhi's first civil disobedience in India — pair 1 is correct. Kheda (1918) was about peasants demanding remission of land revenue after crop failure; it was his first non-cooperation — pair 2 is wrong. The plague bonus dispute was the Ahmedabad mill strike (1918), where Gandhi undertook his first hunger strike — pair 3 is correct. Answer: 1 and 3 only."
+    },
+    {
+      "text": "Consider the following statements regarding the Gandhi–Irwin Pact (March 1931):\n1. The Congress agreed to suspend the Civil Disobedience Movement and to participate in the Second Round Table Conference.\n2. The Government agreed to release political prisoners who had not been convicted of violence.\n3. The Government accepted the Congress demand for a public inquiry into police excesses.\nWhich of the statements given above is/are correct?",
+      "difficulty": "MEDIUM",
+      "options": ["1 and 2 only", "2 and 3 only", "1 only", "1, 2 and 3"],
+      "answer": 0,
+      "explanation": "Under the Delhi (Gandhi–Irwin) Pact the Congress suspended Civil Disobedience and agreed to attend the next Round Table Conference — statement 1 is correct. The Government agreed to release political prisoners not convicted of violence, to allow coastal villagers to make salt for their own use, to permit peaceful picketing and to return confiscated land not yet sold — statement 2 is correct. Irwin refused a public inquiry into police excesses and refused to commute the death sentences of Bhagat Singh and his comrades — statement 3 is wrong. Answer: 1 and 2 only."
+    },
+    {
+      "text": "Consider the following statements:\n1. The Simon Commission, appointed in 1927, did not have a single Indian member.\n2. Lala Lajpat Rai died of injuries received in a police lathi-charge at Lahore during a demonstration against the Simon Commission.\n3. The Nehru Report (1928), prepared in response to the Simon Commission, demanded complete independence for India.\nWhich of the statements given above is/are correct?",
+      "difficulty": "MEDIUM",
+      "options": ["1 only", "2 and 3 only", "1 and 2 only", "1, 2 and 3"],
+      "answer": 2,
+      "explanation": "The Indian Statutory (Simon) Commission had seven British members of Parliament under Sir John Simon and no Indian, which led to the 'Simon Go Back' boycott — statement 1 is correct. Lala Lajpat Rai was injured in a lathi-charge at Lahore in October 1928 and died in November 1928 — statement 2 is correct. The Nehru Report, drafted by a committee under Motilal Nehru, asked for dominion status, which younger leaders such as Jawaharlal Nehru and Subhas Bose opposed; complete independence was adopted only at Lahore in 1929 — statement 3 is wrong. Answer: 1 and 2 only."
+    },
+    {
+      "text": "The resolutions on Fundamental Rights and the National Economic Programme were adopted by the Indian National Congress at which session?",
+      "difficulty": "MEDIUM",
+      "options": ["Lahore, 1929", "Haripura, 1938", "Karachi, 1931", "Faizpur, 1936"],
+      "answer": 2,
+      "explanation": "The Karachi session of March 1931 was presided over by Vallabhbhai Patel. It endorsed the Gandhi–Irwin Pact and reaffirmed the goal of Purna Swaraj. It adopted a resolution on Fundamental Rights (free speech, equality before law, universal adult franchise, free primary education) and a National Economic Programme (relief in rent and revenue, better conditions for workers, state control of key industries). Lahore 1929 adopted Purna Swaraj, Faizpur 1936 was the first session held in a village, and Haripura 1938 was presided over by Subhas Chandra Bose. Answer: Karachi, 1931."
+    },
+    {
+      "text": "Consider the following statements about the Round Table Conferences held in London (1930–32):\n1. Mahatma Gandhi attended the First Round Table Conference.\n2. The Indian National Congress participated only in the Second Round Table Conference.\n3. B.R. Ambedkar attended all three Round Table Conferences.\nWhich of the statements given above is/are correct?",
+      "difficulty": "MEDIUM",
+      "options": ["2 and 3 only", "3 only", "1 and 2 only", "1, 2 and 3"],
+      "answer": 0,
+      "explanation": "The First Conference (November 1930–January 1931) was boycotted by the Congress because Civil Disobedience was on, so Gandhi did not attend it — statement 1 is wrong. After the Gandhi–Irwin Pact, Gandhi attended the Second Conference (September–December 1931) as the sole Congress representative; the Congress stayed away from the Third (November–December 1932) — statement 2 is correct. B.R. Ambedkar, representing the depressed classes, attended all three, as did Tej Bahadur Sapru — statement 3 is correct. Answer: 2 and 3 only."
+    },
+    {
+      "text": "The Ghadar Party, formed in 1913 among Indian immigrants on the Pacific coast of North America with its headquarters at San Francisco, is most closely associated with:",
+      "difficulty": "MEDIUM",
+      "options": ["Shyamji Krishna Varma", "Lala Har Dayal", "Madam Bhikaji Cama", "V.D. Savarkar"],
+      "answer": 1,
+      "explanation": "The Ghadar Party was formed by Indian (largely Punjabi) immigrants in the USA and Canada, led by Lala Har Dayal with Sohan Singh Bhakna as president; it published the weekly 'Ghadar' and attempted an armed revolt in India in 1915. Shyamji Krishna Varma founded India House in London (1905). Madam Bhikaji Cama unfurled an Indian flag at Stuttgart (1907). V.D. Savarkar founded Abhinav Bharat (1904). Answer: Lala Har Dayal."
+    },
+    {
+      "text": "Consider the following statements about the Poona Pact (September 1932):\n1. It was signed after Gandhi began a fast unto death in Yerawada jail against the Communal Award.\n2. It retained separate electorates for the depressed classes, as provided in the Communal Award.\n3. It increased the number of seats reserved for the depressed classes in the provincial legislatures compared with the Communal Award.\nWhich of the statements given above is/are correct?",
+      "difficulty": "HARD",
+      "options": ["1 and 2 only", "2 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 2,
+      "explanation": "Ramsay MacDonald's Communal Award (August 1932) gave the depressed classes separate electorates, and Gandhi began a fast unto death in Yerawada jail in September 1932 — statement 1 is correct. The Poona Pact, signed by Gandhi and B.R. Ambedkar, gave up separate electorates in favour of joint electorates with reserved seats — statement 2 is wrong. Reserved seats in the provincial legislatures rose from 71 under the Award to 147, with 18 per cent of seats in the Central Legislature — statement 3 is correct. Answer: 1 and 3 only."
+    },
+    {
+      "text": "Arrange the following events in chronological order:\n1. Cripps Mission\n2. Gandhi–Irwin Pact\n3. Appointment of the Simon Commission\n4. Cabinet Mission\nSelect the correct answer using the code given below:",
+      "difficulty": "HARD",
+      "options": ["2-3-1-4", "3-2-4-1", "2-3-4-1", "3-2-1-4"],
+      "answer": 3,
+      "explanation": "Date each event: the Simon Commission was appointed in November 1927; the Gandhi–Irwin Pact was signed in March 1931; the Cripps Mission came in March 1942; the Cabinet Mission arrived in March 1946. Arranging from earliest to latest gives 3 (1927), 2 (1931), 1 (1942), 4 (1946). Answer: 3-2-1-4."
+    }
+  ]
+}

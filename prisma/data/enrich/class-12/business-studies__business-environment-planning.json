@@ -1,0 +1,107 @@
+{
+  "exam": "class-12",
+  "subject": "business-studies",
+  "chapter": "business-environment-planning",
+  "notes": {
+    "summary": "This chapter covers two NCERT chapters. Business Environment deals with its meaning, features, importance and dimensions, plus the 1991 LPG reforms and demonetisation. Planning deals with its meaning, features, importance, limitations, process and types of plans. CBSE tests both mainly through short case lines where you must identify the dimension, importance, feature, step or type of plan being described.",
+    "keyPoints": [
+      "Business environment = the totality of external forces that affect a firm but are beyond its control. Specific forces: customers, competitors, suppliers, investors. General forces: economic, social, technological, political, legal.",
+      "Features: totality of external forces, specific and general forces, inter-relatedness, dynamic nature, uncertainty, complexity and relativity (e.g. demand for sarees is high in India but negligible in France).",
+      "Importance: (i) identifying opportunities and getting first-mover advantage (Maruti and the small-car market), (ii) identifying threats and early warning signals, (iii) tapping useful resources, (iv) coping with rapid changes, (v) assisting in planning and policy formulation, (vi) improving performance.",
+      "Dimensions with NCERT examples. Economic: interest rates, inflation, disposable income. Social: festivals, health and fitness trends. Technological: digital watches replacing conventional ones. Political: political stability. Legal: the statutory warning 'Smoking is injurious to health' on cigarette packs.",
+      "1991 New Industrial Policy (LPG). Liberalisation: licensing abolished for most industries, freedom to decide scale and prices, lower taxes, easier imports and exports. Privatisation: disinvestment and fewer industries reserved for the public sector. Globalisation: integration with the world economy, lower import duties. Impact: more competition, more demanding customers, rapid technological change, need for change, market orientation, need to develop human resources, loss of budgetary support to PSUs.",
+      "Demonetisation (8 November 2016): ₹500 and ₹1000 notes were withdrawn. It aimed to curb black money and counterfeit currency and pushed the economy towards digital, less-cash transactions.",
+      "Planning = deciding in advance what to do, how to do it and who will do it. Features: focuses on objectives, primary function, pervasive, continuous, futuristic, involves decision making, mental exercise.",
+      "Importance of planning: provides direction, reduces risk of uncertainty, reduces overlapping and wasteful activities, promotes innovative ideas, facilitates decision making, establishes standards for controlling. Limitations: leads to rigidity, may not work in a dynamic environment, reduces creativity, involves huge costs, is time-consuming, does not guarantee success.",
+      "Planning process: setting objectives → developing premises → identifying alternative courses → evaluating alternatives → selecting an alternative → implementing the plan → follow-up action.",
+      "Types of plans. Single-use: programme, budget. Standing: policy, procedure, method, rule. Objectives and strategy are also plans. Procedure = steps in chronological order. Method = the prescribed way of doing one task. Rule = no discretion allowed. Strategy = a comprehensive plan covering long-term objectives, a course of action and resource allocation, framed after studying the environment."
+    ],
+    "traps": [
+      "Confusing procedure (a chronological sequence of steps for a routine activity) with method (the best way of doing one particular task).",
+      "Calling the statutory warning on cigarette packs 'social' environment. It is a legal requirement, so it belongs to the legal dimension.",
+      "Writing 'developing premises' as the first step of planning. The first step is setting objectives; premises come second.",
+      "Treating a budget only as a plan. It is a single-use plan and also a control device.",
+      "Mixing up 'early warning signals' (spotting threats) with 'first-mover advantage' (spotting opportunities) when identifying the importance of business environment."
+    ],
+    "examTip": "In case questions, underline the key phrase (e.g. 'first to spot', 'step by step', 'no deviation allowed', 'in advance') and quote it in your answer before naming the concept."
+  },
+  "questions": [
+    {
+      "text": "The Government made it compulsory for cigarette manufacturers to print the statutory warning 'Smoking is injurious to health' on every pack. This is an example of which dimension of the business environment?",
+      "difficulty": "EASY",
+      "options": ["Social environment", "Economic environment", "Legal environment", "Technological environment"],
+      "answer": 2,
+      "explanation": "The warning is printed because a law requires it, not because of customs or income levels. Rules framed by Parliament and the courts, such as packaging and labelling requirements, form the legal environment. NCERT uses this very example for the legal dimension. Hence the answer is the legal environment."
+    },
+    {
+      "text": "In ABC Ltd, raw material is purchased in a fixed sequence: (1) receive a requisition from the store, (2) invite quotations, (3) select a supplier, (4) place the order, (5) inspect the goods on arrival. This sequence is an example of which type of plan?",
+      "difficulty": "EASY",
+      "options": ["Method", "Procedure", "Rule", "Policy"],
+      "answer": 1,
+      "explanation": "A procedure lays down the exact steps to be followed, in chronological order, for a routine activity. A method is the prescribed way of doing one particular task. A rule allows no deviation, and a policy is only a general guideline. The five purchase steps form a chronological sequence, so this is a procedure."
+    },
+    {
+      "text": "Planning requires the application of mind involving foresight, intelligent imagination and sound judgement. Which feature of planning does this statement highlight?",
+      "difficulty": "EASY",
+      "options": ["Planning is pervasive", "Planning is continuous", "Planning focuses on achieving objectives", "Planning is a mental exercise"],
+      "answer": 3,
+      "explanation": "NCERT describes planning as an intellectual activity of thinking rather than doing. Foresight, imagination and sound judgement are all thinking abilities. This feature is called 'planning is a mental exercise'."
+    },
+    {
+      "text": "Maruti Udyog became the leader in the Indian small-car market because it was the first to recognise that rising petrol prices and a growing middle class would create a large demand for small, fuel-efficient cars. Which importance of business environment is highlighted?",
+      "difficulty": "MEDIUM",
+      "options": ["It helps in identifying opportunities and getting the first-mover advantage", "It helps in identifying threats and early warning signals", "It helps in tapping useful resources", "It helps in coping with rapid changes"],
+      "answer": 0,
+      "explanation": "Maruti studied the environment, spotted a new opportunity before others and entered the market first. Being early let it build market share before competitors arrived. NCERT gives this example for 'identification of opportunities and getting the first-mover advantage'."
+    },
+    {
+      "text": "The demand for sarees is very high in India but almost nil in France. Which feature of business environment does this illustrate?",
+      "difficulty": "MEDIUM",
+      "options": ["Dynamic nature", "Inter-relatedness", "Uncertainty", "Relativity"],
+      "answer": 3,
+      "explanation": "Relativity means that the business environment, and how it affects a firm, differs from one country or region to another. The same product (sarees) faces very different demand in India and in France because their social and cultural settings differ. This is the feature of relativity."
+    },
+    {
+      "text": "Which of the following was NOT a liberalisation measure under the New Industrial Policy of 1991?",
+      "difficulty": "MEDIUM",
+      "options": ["Abolishing licensing requirements in most industries", "Reserving more industries exclusively for the public sector", "Freedom in deciding the scale of business activities", "Reduction in tax rates and removal of unnecessary controls"],
+      "answer": 1,
+      "explanation": "Liberalisation means freeing industry from unnecessary government controls. Abolishing licensing, letting firms decide their scale of operations and cutting tax rates all reduce controls. Reserving more industries for the public sector would increase restrictions; in fact, the 1991 policy cut down the list of industries reserved for the public sector. So that option is NOT a liberalisation measure."
+    },
+    {
+      "text": "Assertion (A): After the economic reforms of 1991, Indian firms faced increased competition.\nReason (R): Delicensing and the entry of foreign firms opened the Indian market to many new players.\nChoose the correct option.",
+      "difficulty": "MEDIUM",
+      "options": ["Both A and R are true and R is the correct explanation of A", "Both A and R are true but R is not the correct explanation of A", "A is true but R is false", "A is false but R is true"],
+      "answer": 0,
+      "explanation": "NCERT lists 'increasing competition' as the first impact of the 1991 policy changes on business. The cause was delicensing, which let new domestic firms enter freely, together with the entry of foreign firms. So A is true, R is true, and R explains why competition increased."
+    },
+    {
+      "text": "Which option shows the correct order of these four steps in the planning process?\n(i) Selecting an alternative\n(ii) Developing premises\n(iii) Evaluating alternative courses\n(iv) Identifying alternative courses of action",
+      "difficulty": "MEDIUM",
+      "options": ["(iv), (ii), (iii), (i)", "(ii), (iii), (iv), (i)", "(ii), (iv), (iii), (i)", "(ii), (iv), (i), (iii)"],
+      "answer": 2,
+      "explanation": "The planning process is: setting objectives → developing premises → identifying alternative courses → evaluating them → selecting the best alternative → implementing → follow-up. Among the four given steps, premises come first, then identifying alternatives, then evaluating them, then selecting one. The order is (ii), (iv), (iii), (i)."
+    },
+    {
+      "text": "A sales manager says, 'Without a plan, I cannot judge whether the actual performance of my team is good or bad.' Which importance of planning does this statement reflect?",
+      "difficulty": "MEDIUM",
+      "options": ["Planning promotes innovative ideas", "Planning establishes standards for controlling", "Planning reduces overlapping and wasteful activities", "Planning facilitates decision making"],
+      "answer": 1,
+      "explanation": "Controlling means comparing actual performance with planned standards. Plans provide the goals and standards against which actual results are measured. Without them, controlling has nothing to compare with. Hence planning establishes standards for controlling."
+    },
+    {
+      "text": "Assertion (A): Planning is a pervasive function of management.\nReason (R): Planning is done only by top-level managers.\nChoose the correct option.",
+      "difficulty": "HARD",
+      "options": ["Both A and R are true and R is the correct explanation of A", "Both A and R are true but R is not the correct explanation of A", "A is true but R is false", "A is false but R is true"],
+      "answer": 2,
+      "explanation": "Planning is pervasive: it is needed in all types of organisations, in all departments and at all levels of management, so A is true. Top management plans for the whole organisation, middle management for departments and supervisors for day-to-day operations, so planning is not done only at the top level and R is false. Answer: A is true but R is false."
+    },
+    {
+      "text": "Raghav Foods decided to enter the rural market over the next five years. After studying the business environment, it chose to sell its products in low-priced small sachets to counter its competitors, and it set aside ₹50 crore for this. Which type of plan has the company framed?",
+      "difficulty": "HARD",
+      "options": ["Policy", "Programme", "Objective", "Strategy"],
+      "answer": 3,
+      "explanation": "A strategy is a comprehensive plan made after studying the business environment. It has three dimensions: deciding long-term objectives (entering the rural market), adopting a particular course of action (low-priced sachets to counter competitors) and allocating resources (₹50 crore). All three are present, so this is a strategy. A programme is a detailed plan for one specific project, and a policy is only a general guideline."
+    }
+  ]
+}

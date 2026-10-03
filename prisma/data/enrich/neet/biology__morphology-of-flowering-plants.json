@@ -1,0 +1,106 @@
+{
+  "exam": "neet",
+  "subject": "biology",
+  "chapter": "morphology-of-flowering-plants",
+  "notes": {
+    "summary": "This chapter covers the external form of roots, stems, leaves, inflorescences, flowers, fruits and seeds, how each part can be modified, and the semi-technical description of the families Fabaceae, Solanaceae and Liliaceae. NEET tests example-based recall (which plant shows which modification, aestivation or placentation) and reading floral formulae.",
+    "keyPoints": [
+      "Root regions from the tip upward: root cap, meristematic activity, elongation, maturation (bears root hairs). Root modifications: storage (carrot, turnip, adventitious roots of sweet potato), prop roots (banyan), stilt roots (maize, sugarcane), pneumatophores (Rhizophora).",
+      "Stem modifications: underground food-storing stems (potato, ginger, turmeric, Colocasia); stem tendrils (cucumber, pumpkin, grapevine); thorns (Citrus, Bougainvillea); phylloclades (Opuntia, Euphorbia); runners and stolons (grass, strawberry, mint, jasmine); offsets (Pistia, Eichhornia); suckers (banana, pineapple, Chrysanthemum).",
+      "Leaf: legumes have a swollen leaf base called the pulvinus, and monocots have a sheathing leaf base. Dicots show reticulate venation and monocots parallel venation. Neem has pinnately compound leaves and silk cotton palmately compound leaves. Phyllotaxy is alternate (china rose, mustard, sunflower), opposite (Calotropis, guava) or whorled (Alstonia).",
+      "Leaf modifications: tendrils (pea), spines (cacti), phyllodes (Australian Acacia, where the petiole becomes green and leaf-like) and insect-trapping leaves (pitcher plant, Venus fly trap).",
+      "Ovary position: hypogynous flowers have a superior ovary (mustard, china rose, brinjal); perigynous flowers have a half-inferior ovary (plum, rose, peach); epigynous flowers have an inferior ovary (guava, cucumber, ray florets of sunflower).",
+      "Aestivation: valvate (Calotropis), twisted (china rose, lady's finger, cotton), imbricate (Cassia, gulmohur), vexillary (pea, bean).",
+      "Placentation: marginal (pea), axile (china rose, tomato, lemon), parietal (mustard, Argemone), free central (Dianthus, Primrose), basal (sunflower, marigold).",
+      "Seeds: a dicot seed has a seed coat (testa and tegmen), hilum, micropyle and an embryo with radicle, plumule and two cotyledons. A monocot seed has a scutellum, a coleoptile around the plumule and a coleorhiza around the radicle. Castor and maize are endospermic; bean, gram and pea are non-endospermic.",
+      "Fabaceae: vexillary corolla, diadelphous stamens (9) + 1, monocarpellary ovary, marginal placentation, legume fruit. Solanaceae: epipetalous stamens, bicarpellary syncarpous superior ovary placed obliquely, swollen placenta with axile placentation. Liliaceae: perianth of 3 + 3 tepals, epitepalous stamens (3 + 3), tricarpellary superior ovary with axile placentation."
+    ],
+    "traps": [
+      "Pea tendrils are modified leaves, but cucumber, pumpkin and grapevine tendrils are modified stems.",
+      "Epipetalous means stamens fixed to petals (brinjal). Epiphyllous means stamens fixed to the perianth (lily).",
+      "A phylloclade is a flattened green stem (Opuntia). A phyllode is a flattened green petiole (Australian Acacia).",
+      "Lemon and tomato show axile placentation, not parietal or marginal.",
+      "Sweet potato is a modified root, but potato is a modified stem."
+    ],
+    "examTip": "Make a one-page example sheet (plant → modification, aestivation or placentation). Most morphology questions are solved by recalling the NCERT example, not by reasoning it out."
+  },
+  "questions": [
+    {
+      "text": "Pneumatophores are roots that grow vertically upward above the ground and help the plant get oxygen for respiration. They are found in:",
+      "difficulty": "EASY",
+      "options": ["Banyan", "Rhizophora", "Maize", "Carrot"],
+      "answer": 1,
+      "explanation": "Rhizophora grows in swampy areas where the soil has little oxygen. Many of its roots grow vertically upward as pneumatophores to take in oxygen. Banyan has prop roots, maize has stilt roots and carrot has a storage tap root. The answer is Rhizophora."
+    },
+    {
+      "text": "In some leguminous plants the leaf base becomes swollen. This swollen leaf base is called the:",
+      "difficulty": "EASY",
+      "options": ["Stipule", "Petiole", "Pulvinus", "Lamina"],
+      "answer": 2,
+      "explanation": "The leaf base attaches the leaf to the stem and may carry two lateral outgrowths called stipules. In monocots the leaf base forms a sheath around the stem. In some legumes the leaf base swells, and this swelling is called the pulvinus. The answer is pulvinus."
+    },
+    {
+      "text": "Which of the following plants has palmately compound leaves?",
+      "difficulty": "EASY",
+      "options": ["Silk cotton", "Neem", "Pea", "Rose"],
+      "answer": 0,
+      "explanation": "In a pinnately compound leaf, many leaflets sit along a common axis (the rachis), as in neem. In a palmately compound leaf, all the leaflets are attached at one point, the tip of the petiole, as in silk cotton. Pea and rose also have pinnately compound leaves. The answer is silk cotton."
+    },
+    {
+      "text": "Match List I with List II:\nList I (Stem modification): (a) Flattened, green, photosynthetic stem (b) Offset (a lateral branch with short internodes, each node bearing a rosette of leaves and a tuft of roots) (c) Sucker (a lateral branch from the underground base of the stem that grows horizontally under the soil and then comes up obliquely) (d) Stem thorn\nList II (Example): (i) Pistia (ii) Opuntia (iii) Bougainvillea (iv) Banana\nChoose the correct option.",
+      "difficulty": "MEDIUM",
+      "options": ["a-i, b-ii, c-iv, d-iii", "a-ii, b-i, c-iii, d-iv", "a-ii, b-iv, c-i, d-iii", "a-ii, b-i, c-iv, d-iii"],
+      "answer": 3,
+      "explanation": "Opuntia has a flattened, green, photosynthetic stem (a-ii). The aquatic plant Pistia forms offsets (b-i). Banana spreads by suckers from the underground stem base (c-iv). Bougainvillea has axillary buds modified into thorns (d-iii). The correct match is a-ii, b-i, c-iv, d-iii."
+    },
+    {
+      "text": "Which of the following pairs of placentation type and example is INCORRECTLY matched?",
+      "difficulty": "MEDIUM",
+      "options": ["Marginal — lemon", "Axile — china rose and tomato", "Free central — Dianthus and Primrose", "Basal — sunflower and marigold"],
+      "answer": 0,
+      "explanation": "In marginal placentation the placenta forms a ridge along the ventral suture of a one-chambered ovary, as in pea. Lemon, china rose and tomato have axile placentation, with ovules on a central axis in a multilocular ovary. Dianthus and Primrose show free central placentation, and sunflower and marigold show basal placentation. The wrong pair is marginal — lemon."
+    },
+    {
+      "text": "In which type of aestivation does one margin of each petal overlap the next one, as in china rose, lady's finger and cotton?",
+      "difficulty": "MEDIUM",
+      "options": ["Valvate", "Twisted", "Imbricate", "Vexillary"],
+      "answer": 1,
+      "explanation": "In valvate aestivation the petals only touch at their margins, as in Calotropis. In twisted aestivation one margin of each petal overlaps the next in a regular direction, as in china rose, lady's finger and cotton. Imbricate aestivation has overlaps with no fixed direction (Cassia, gulmohur), and vexillary is the pea-type corolla. The answer is twisted."
+    },
+    {
+      "text": "In a monocot seed such as maize, the single large, shield-shaped cotyledon is the ____, and the sheath that encloses the plumule is the ____.",
+      "difficulty": "MEDIUM",
+      "options": ["Coleoptile; scutellum", "Scutellum; coleorhiza", "Aleurone layer; coleoptile", "Scutellum; coleoptile"],
+      "answer": 3,
+      "explanation": "A monocot embryo has one large, shield-shaped cotyledon called the scutellum. The embryonal axis carries the plumule and the radicle. The plumule is enclosed in a sheath called the coleoptile, and the radicle in a sheath called the coleorhiza. The answer is scutellum, then coleoptile."
+    },
+    {
+      "text": "Which of the following plants has endospermic (albuminous) seeds?",
+      "difficulty": "MEDIUM",
+      "options": ["Bean", "Gram", "Pea", "Castor"],
+      "answer": 3,
+      "explanation": "In some seeds the endosperm formed after double fertilisation stays as a food-storing tissue in the mature seed. These are endospermic seeds, and castor is the NCERT example. In bean, gram and pea the endosperm is used up and absent from the mature seed, so those seeds are non-endospermic. The answer is castor."
+    },
+    {
+      "text": "Which of the following features is characteristic of the family Solanaceae?",
+      "difficulty": "MEDIUM",
+      "options": ["A bicarpellary, syncarpous, superior ovary placed obliquely, with a swollen placenta bearing many ovules (axile placentation)", "A monocarpellary ovary with marginal placentation and diadelphous stamens", "A perianth of six tepals in two whorls (3 + 3) with six epitepalous stamens", "An inferior ovary with parietal placentation and a pappus-bearing calyx"],
+      "answer": 0,
+      "explanation": "Solanaceae (potato, brinjal, tomato, petunia) has a bicarpellary, syncarpous, superior ovary placed obliquely, a swollen placenta with many ovules and axile placentation. A monocarpellary ovary with marginal placentation and diadelphous stamens describes Fabaceae. Six tepals in two whorls with six epitepalous stamens describes Liliaceae. The answer is the first option."
+    },
+    {
+      "text": "Consider the following pairs:\nI. Stilt roots — maize and sugarcane\nII. Prop roots — banyan\nIII. Swollen food-storing adventitious roots — sweet potato\nIV. Phyllode — Opuntia\nHow many of these pairs are correctly matched?",
+      "difficulty": "HARD",
+      "options": ["One", "Two", "Three", "Four"],
+      "answer": 2,
+      "explanation": "Pair I is correct: maize and sugarcane have supporting roots from the lower nodes, called stilt roots. Pair II is correct: banyan has hanging prop roots. Pair III is correct: the adventitious roots of sweet potato swell and store food. Pair IV is wrong: Opuntia has a phylloclade (a flattened stem), while a phyllode (a flattened petiole) is found in Australian Acacia. Three pairs are correct."
+    },
+    {
+      "text": "Assertion (A): The stamens in the flowers of brinjal are epipetalous.\nReason (R): In the epipetalous condition, the stamens are attached to the perianth.\nChoose the correct option.",
+      "difficulty": "HARD",
+      "options": ["Both A and R are true, and R is the correct explanation of A", "Both A and R are true, but R is not the correct explanation of A", "A is true, but R is false", "A is false, but R is true"],
+      "answer": 2,
+      "explanation": "A is true: brinjal (Solanaceae) has stamens attached to its petals. R is false: stamens attached to the petals are epipetalous, while stamens attached to the perianth are called epiphyllous, as in lily. So A is true but R is false."
+    }
+  ]
+}

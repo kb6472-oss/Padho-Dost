@@ -1,0 +1,121 @@
+{
+  "exam": "class-12",
+  "subject": "economics",
+  "chapter": "money-and-banking",
+  "notes": {
+    "summary": "This chapter explains money and its functions, the supply of money (currency held by the public and net demand deposits of commercial banks), how commercial banks create money through deposits and loans, and the functions of the Reserve Bank of India, including credit control through bank rate, repo and reverse repo rates, CRR, SLR, open market operations and margin requirements. CBSE tests definitions, short money-creation numericals and the direction in which each policy tool changes the money supply.",
+    "keyPoints": [
+      "Functions of money: medium of exchange (removes the need for double coincidence of wants), unit of account / measure of value, store of value and standard of deferred payments.",
+      "Money supply is the stock of money held by the public; the producers of money (government, RBI and commercial banks) are not part of the public. M1 = Currency held by the public + Net demand deposits of commercial banks; inter-bank deposits and cash in bank vaults are excluded.",
+      "Currency notes are fiat money and legal tender: they have value by government order, not because of intrinsic value, and cannot be refused in payment.",
+      "Money multiplier = 1 ÷ LRR. Total deposits created = Initial deposit × 1/LRR. E.g. ₹500 crore at LRR 10% gives ₹5,000 crore; at LRR 20% it gives ₹2,500 crore.",
+      "Credit creation rounds at LRR 10% with an initial deposit of ₹1,000: loans of ₹900, then ₹810, then ₹729 ... each round is (1 − LRR) times the previous one.",
+      "Repo rate: rate at which RBI lends to banks against government securities; reverse repo rate: rate at which RBI borrows from banks. Raising either rate tightens credit.",
+      "CRR: share of deposits kept as cash with the RBI; SLR: share kept by banks themselves as liquid assets (cash, gold, approved securities). Higher CRR or SLR means less lendable funds and lower money supply.",
+      "Open market operations: RBI buying securities injects money, selling securities absorbs money. Margin requirement: raising the margin from 20% to 40% cuts the loan on ₹1,00,000 collateral from ₹80,000 to ₹60,000.",
+      "RBI functions: bank of issue, banker to the government, banker's bank and lender of last resort, financial supervision, custodian of foreign exchange reserves and controller of credit."
+    ],
+    "traps": [
+      "Writing money multiplier = LRR instead of 1/LRR, or confusing total deposits created with additional deposits created (total − initial).",
+      "Mixing up repo rate (RBI lends) and reverse repo rate (RBI borrows).",
+      "Including inter-bank deposits, cash held in bank vaults or time deposits in M1.",
+      "Thinking an increase in CRR raises the money multiplier — it lowers it.",
+      "Assuming that RBI selling securities increases money supply — selling absorbs money from banks."
+    ],
+    "examTip": "For every policy-tool question, trace one chain — tool changes, then banks' lendable funds change, then credit and money supply change — and the direction of the answer follows."
+  },
+  "questions": [
+    {
+      "text": "When the price of a pen is ₹20 and that of a book is ₹100, we can say that one book is worth five pens. Which function of money makes such a comparison possible?",
+      "difficulty": "EASY",
+      "options": ["Medium of exchange", "Unit of account (measure of value)", "Store of value", "Standard of deferred payments"],
+      "answer": 1,
+      "explanation": "Money provides a common unit in which the values of all goods and services are expressed.\nWith prices of ₹20 and ₹100, relative values can be compared directly (100 ÷ 20 = 5).\nThis is the unit of account (measure of value) function of money."
+    },
+    {
+      "text": "The rate at which the Reserve Bank of India borrows money from commercial banks is called the:",
+      "difficulty": "EASY",
+      "options": ["Repo rate", "Bank rate", "Reverse repo rate", "Cash Reserve Ratio"],
+      "answer": 2,
+      "explanation": "Under repo, the RBI lends to commercial banks against government securities.\nUnder reverse repo, the direction is reversed: banks park their surplus funds with the RBI, i.e. the RBI borrows from them.\nThe rate paid by the RBI on such borrowing is the reverse repo rate."
+    },
+    {
+      "text": "Currency notes issued in India are called fiat money because they:",
+      "difficulty": "EASY",
+      "options": [
+        "Are legal tender issued on the authority (fiat) of the government, and their value does not depend on any intrinsic worth",
+        "Are fully backed by an equal value of gold held by the government",
+        "Have an intrinsic value equal to their face value",
+        "Can be refused by a seller in payment of a debt"
+      ],
+      "answer": 0,
+      "explanation": "Fiat money gets its value from a government order (fiat), not from the value of the material it is made of.\nCurrency notes are also legal tender, so no one can refuse them in settlement of transactions.\nThe intrinsic (paper) value of a note is far below its face value, so the other statements are wrong."
+    },
+    {
+      "text": "From the following data (₹ crore), calculate the money supply M1 (currency held by the public plus net demand deposits held by commercial banks):\nCurrency held by the public: 800\nDemand deposits of the public with commercial banks: 600\nTime deposits of the public with commercial banks: 1,500\nInter-bank demand deposits: 50",
+      "difficulty": "MEDIUM",
+      "options": ["₹2,900 crore", "₹1,450 crore", "₹2,950 crore", "₹1,400 crore"],
+      "answer": 3,
+      "explanation": "M1 = Currency held by the public + Net demand deposits of the public with banks.\nInter-bank deposits are excluded because banks are producers of money, not part of the public, and time deposits are not part of M1.\nM1 = 800 + 600 = ₹1,400 crore."
+    },
+    {
+      "text": "A bank receives an initial deposit of ₹1,000 and the legal reserve ratio is 10%. Assuming every loan is redeposited in the banking system, the amount lent in the SECOND round of credit creation is:",
+      "difficulty": "MEDIUM",
+      "options": ["₹900", "₹100", "₹810", "₹729"],
+      "answer": 2,
+      "explanation": "Round 1: reserves = 10% of 1,000 = ₹100, so the loan = 1,000 − 100 = ₹900.\nThe ₹900 comes back to the banks as a fresh deposit.\nRound 2: reserves = 10% of 900 = ₹90, so the loan = 900 − 90 = ₹810.\n(₹729 would be the third-round loan.)"
+    },
+    {
+      "text": "Assertion (A): An increase in the Cash Reserve Ratio reduces the credit-creating capacity of commercial banks.\nReason (R): A higher Cash Reserve Ratio increases the value of the money multiplier.\nChoose the correct option.",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true, and R is the correct explanation of A",
+        "Both Assertion (A) and Reason (R) are true, but R is not the correct explanation of A",
+        "Assertion (A) is true, but Reason (R) is false",
+        "Assertion (A) is false, but Reason (R) is true"
+      ],
+      "answer": 2,
+      "explanation": "A higher CRR means banks must keep a larger part of their deposits with the RBI, leaving less to lend, so A is true.\nMoney multiplier = 1 ÷ reserve ratio; raising the ratio from 10% to 20% lowers the multiplier from 10 to 5.\nSo a higher CRR decreases the multiplier, and R is false."
+    },
+    {
+      "text": "The RBI raises the margin requirement on loans against a particular security from 20% to 40%. For a borrower who offers that security worth ₹1,00,000 as collateral, the maximum loan changes from:",
+      "difficulty": "MEDIUM",
+      "options": ["₹20,000 to ₹40,000", "₹80,000 to ₹60,000", "₹1,00,000 to ₹60,000", "₹80,000 to ₹40,000"],
+      "answer": 1,
+      "explanation": "The margin is the part of the security's value that the bank does not lend.\nAt 20% margin, loan = 1,00,000 − 20,000 = ₹80,000.\nAt 40% margin, loan = 1,00,000 − 40,000 = ₹60,000.\nSo the higher margin reduces credit from ₹80,000 to ₹60,000."
+    },
+    {
+      "text": "The function of the RBI under which it maintains the accounts of the Central and State governments, receives and makes payments on their behalf and manages public debt is called:",
+      "difficulty": "MEDIUM",
+      "options": ["Banker to the government", "Banker's bank", "Bank of issue", "Lender of last resort"],
+      "answer": 0,
+      "explanation": "As banker to the government, the RBI keeps government accounts and receives and makes payments for the governments.\nIt also manages public debt and advises the government on financial matters.\nBanker's bank and lender of last resort relate to commercial banks, and bank of issue relates to currency."
+    },
+    {
+      "text": "A commercial bank has total deposits of ₹1,000 crore. The CRR is 4% and the SLR is 18%. Assuming both ratios apply to total deposits and the bank lends out all the remaining funds, the maximum amount it can lend is:",
+      "difficulty": "MEDIUM",
+      "options": ["₹820 crore", "₹960 crore", "₹220 crore", "₹780 crore"],
+      "answer": 3,
+      "explanation": "CRR reserve = 4% of 1,000 = ₹40 crore (kept with the RBI).\nSLR reserve = 18% of 1,000 = ₹180 crore (kept by the bank as liquid assets).\nLendable amount = 1,000 − 40 − 180 = ₹780 crore."
+    },
+    {
+      "text": "Which of the following is NOT included in the money supply (M1) of an economy?",
+      "difficulty": "HARD",
+      "options": [
+        "Currency notes held by households",
+        "Cash held in the vaults of commercial banks",
+        "Demand deposits of a firm with a commercial bank",
+        "Coins held by a shopkeeper"
+      ],
+      "answer": 1,
+      "explanation": "Money supply is the stock of money held by the public at a point of time.\nThe producers of money — the government, the RBI and commercial banks — are not part of the public.\nSo cash lying in banks' own vaults is excluded, while currency and demand deposits held by households and firms are included."
+    },
+    {
+      "text": "Fresh deposits of ₹500 crore enter the banking system. If the legal reserve ratio is raised from 10% to 20%, the total deposits that can be created (including the initial deposit) fall by:",
+      "difficulty": "HARD",
+      "options": ["₹2,500 crore", "₹500 crore", "₹5,000 crore", "₹1,000 crore"],
+      "answer": 0,
+      "explanation": "Total deposits = Initial deposit × 1/LRR.\nAt LRR 10%: 500 × 10 = ₹5,000 crore.\nAt LRR 20%: 500 × 5 = ₹2,500 crore.\nFall = 5,000 − 2,500 = ₹2,500 crore."
+    }
+  ]
+}

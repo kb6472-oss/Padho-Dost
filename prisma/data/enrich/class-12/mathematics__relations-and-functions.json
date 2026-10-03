@@ -1,0 +1,161 @@
+{
+  "exam": "class-12",
+  "subject": "mathematics",
+  "chapter": "relations-and-functions",
+  "notes": {
+    "summary": "This chapter covers types of relations (empty, universal, reflexive, symmetric, transitive and equivalence) with equivalence classes, and types of functions (one-one, onto and bijective) as prescribed in the CBSE syllabus. CBSE asks direct MCQs on identifying properties and counting relations and functions, assertion-reason items, and longer proofs that a relation is an equivalence relation or a function is a bijection.",
+    "keyPoints": [
+      "A relation R from A to B is a subset of A × B. If n(A) = m and n(B) = n, the number of relations from A to B is 2^(mn); on a set with n elements it is 2^(n²), e.g. 2⁴ = 16 when n = 2.",
+      "Empty relation: no element is related to any element (R = ∅). Universal relation: every element is related to every element (R = A × A). Both are called trivial relations.",
+      "Reflexive: (a, a) ∈ R for every a ∈ A. Symmetric: (a, b) ∈ R ⇒ (b, a) ∈ R. Transitive: (a, b) ∈ R and (b, c) ∈ R ⇒ (a, c) ∈ R. An equivalence relation has all three properties.",
+      "Counting on a set of n elements: reflexive relations 2^(n² − n) (64 for n = 3); symmetric relations 2^(n(n + 1)/2) (8 for n = 2). On {1, 2, 3} there are exactly 5 equivalence relations.",
+      "An equivalence relation splits A into disjoint equivalence classes whose union is A. Example: on Z, a R b ⇔ 2 divides (a − b) gives two classes, the even integers [0] and the odd integers [1].",
+      "One counter-example is enough to disprove a property. R = {(a, b): a ≤ b²} on R is not reflexive (a = 1/2), not symmetric ((1, 2) ∈ R but (2, 1) ∉ R) and not transitive ((3, 2) and (2, 1.5) ∈ R but (3, 1.5) ∉ R).",
+      "One-one (injective): f(x₁) = f(x₂) ⇒ x₁ = x₂. Onto (surjective): range = codomain. Bijective = one-one and onto. Examples: f(x) = x³ on R is bijective; f(x) = x² on N is one-one but not onto; on R it is neither.",
+      "Counting functions from A (m elements) to B (n elements): total functions nᵐ; one-one functions n!/(n − m)! when m ≤ n (none when m > n); bijections n! when m = n.",
+      "Domain and codomain matter: f(x) = 2x is a bijection from R to R but only one-one (not onto) from N to N."
+    ],
+    "traps": [
+      "Declaring a relation reflexive because some pairs (a, a) are present. Every element of the set must be related to itself.",
+      "Assuming a relation is not transitive just because pairs are missing. Check every chain (a, b), (b, c); a relation with no such chain is transitive by default.",
+      "Thinking symmetric + transitive implies reflexive. It does not, because an element may be related to nothing.",
+      "Ignoring the codomain while testing onto: f(x) = x² is onto from R to [0, ∞) but not from R to R.",
+      "Using mⁿ instead of nᵐ for the number of functions from an m-element set to an n-element set."
+    ],
+    "examTip": "Test each property in one line with general elements, or disprove it with one specific counter-example written out in full; examiners give marks for the counter-example."
+  },
+  "questions": [
+    {
+      "text": "The total number of relations that can be defined on the set A = {a, b} is:",
+      "difficulty": "EASY",
+      "options": [
+        "4",
+        "8",
+        "16",
+        "2"
+      ],
+      "answer": 2,
+      "explanation": "A × A has 2 × 2 = 4 ordered pairs. Every subset of A × A is a relation on A. A set with 4 elements has 2⁴ = 16 subsets. So 16 relations can be defined on A."
+    },
+    {
+      "text": "Let A = {1, 2} and B = {a, b, c}. The total number of functions from A to B is:",
+      "difficulty": "EASY",
+      "options": [
+        "6",
+        "9",
+        "8",
+        "5"
+      ],
+      "answer": 1,
+      "explanation": "Each element of A can be mapped to any of the 3 elements of B. Element 1 has 3 choices and element 2 has 3 choices. Total functions = 3 × 3 = 3² = 9. (6 is the number of one-one functions, and 8 = 2³ comes from wrongly using mⁿ.)"
+    },
+    {
+      "text": "The function f: N → N defined by f(x) = x² is:",
+      "difficulty": "EASY",
+      "options": [
+        "One-one but not onto",
+        "Onto but not one-one",
+        "Both one-one and onto",
+        "Neither one-one nor onto"
+      ],
+      "answer": 0,
+      "explanation": "On N, if x₁² = x₂² then x₁ = x₂ because both are positive, so f is one-one. The range is {1, 4, 9, 16, ...}, so numbers such as 2 and 3 in the codomain N have no pre-image and f is not onto. Hence f is one-one but not onto."
+    },
+    {
+      "text": "On the set A = {1, 2, 3, ..., 12}, the relation R = {(a, b): |a − b| is a multiple of 4} is an equivalence relation. The set of all elements of A related to 1 is:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "{1, 4, 8, 12}",
+        "{5, 9}",
+        "{1, 3, 5, 7, 9, 11}",
+        "{1, 5, 9}"
+      ],
+      "answer": 3,
+      "explanation": "We need b in A with |1 − b| equal to 0, 4, 8, ... This gives b = 1 (difference 0, a multiple of 4), b = 5 (difference 4) and b = 9 (difference 8); b = 13 is not in A. So the equivalence class of 1 is {1, 5, 9}. The element 1 itself is included because R is reflexive."
+    },
+    {
+      "text": "On the set A = {1, 2, 3, ..., 14}, the relation R is defined by R = {(x, y): 3x − y = 0}. Then R is:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Reflexive only",
+        "Neither reflexive, nor symmetric, nor transitive",
+        "Symmetric and transitive but not reflexive",
+        "An equivalence relation"
+      ],
+      "answer": 1,
+      "explanation": "R = {(1, 3), (2, 6), (3, 9), (4, 12)}. Not reflexive: (1, 1) ∉ R since 3 × 1 − 1 ≠ 0. Not symmetric: (1, 3) ∈ R but (3, 1) ∉ R. Not transitive: (1, 3) and (3, 9) are in R, but (1, 9) ∉ R since 3 × 1 − 9 ≠ 0. So R is neither reflexive, nor symmetric, nor transitive."
+    },
+    {
+      "text": "Assertion (A): The function f: R → R defined by f(x) = x³ is a bijection.\nReason (R): Every polynomial function of odd degree from R to R is one-one.\nChoose the correct option.",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": 2,
+      "explanation": "If x₁³ = x₂³ then x₁ = x₂, so x³ is one-one. For any real y, x = ∛y gives f(x) = y, so it is onto. Hence A is true. R is false: g(x) = x³ − x has odd degree but g(0) = g(1) = 0, so it is not one-one. Answer: A is true but R is false."
+    },
+    {
+      "text": "The number of symmetric relations that can be defined on the set A = {1, 2} is:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "8",
+        "16",
+        "4",
+        "6"
+      ],
+      "answer": 0,
+      "explanation": "A × A = {(1, 1), (2, 2), (1, 2), (2, 1)}. The pairs (1, 1) and (2, 2) can each be included or left out freely: 2 × 2 = 4 ways. The pairs (1, 2) and (2, 1) must be taken together or not at all: 2 ways. Total symmetric relations = 4 × 2 = 8, which matches 2^(n(n + 1)/2) = 2³."
+    },
+    {
+      "text": "On the set A = {1, 2, 3}, consider the relation R = {(1, 1), (1, 2), (2, 1), (2, 2)}. Then R is:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Reflexive and symmetric but not transitive",
+        "An equivalence relation",
+        "Reflexive and transitive but not symmetric",
+        "Symmetric and transitive but not reflexive"
+      ],
+      "answer": 3,
+      "explanation": "Not reflexive: (3, 3) ∉ R although 3 ∈ A. Symmetric: (1, 2) ∈ R and (2, 1) ∈ R. Transitive: every chain works, e.g. (1, 2), (2, 1) gives (1, 1) ∈ R, and (2, 1), (1, 2) gives (2, 2) ∈ R. So R is symmetric and transitive but not reflexive."
+    },
+    {
+      "text": "Let f: N → N be defined by f(n) = (n + 1)/2 if n is odd, and f(n) = n/2 if n is even. Then f is:",
+      "difficulty": "HARD",
+      "options": [
+        "One-one but not onto",
+        "Onto but not one-one",
+        "Both one-one and onto",
+        "Neither one-one nor onto"
+      ],
+      "answer": 1,
+      "explanation": "f(1) = (1 + 1)/2 = 1 and f(2) = 2/2 = 1, so two different inputs give the same output and f is not one-one. For any m ∈ N, f(2m) = 2m/2 = m, so every natural number has a pre-image and f is onto. Hence f is onto but not one-one."
+    },
+    {
+      "text": "Let A = {1, 2, 3}. The number of relations on A containing (1, 2) and (1, 3) which are reflexive and symmetric but not transitive is:",
+      "difficulty": "HARD",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 0,
+      "explanation": "Reflexivity requires (1, 1), (2, 2), (3, 3), and symmetry requires (2, 1) and (3, 1) too. R₁ = {(1, 1), (2, 2), (3, 3), (1, 2), (2, 1), (1, 3), (3, 1)} is not transitive, since (2, 1) and (1, 3) are in R₁ but (2, 3) is not. The only pairs left are (2, 3) and (3, 2), which must be added together for symmetry; adding them gives A × A, which is transitive. So exactly 1 such relation exists."
+    },
+    {
+      "text": "The relation R on the set of real numbers defined by R = {(a, b): a ≤ b²} is:",
+      "difficulty": "HARD",
+      "options": [
+        "Reflexive and transitive but not symmetric",
+        "Reflexive only",
+        "Neither reflexive, nor symmetric, nor transitive",
+        "Symmetric and transitive but not reflexive"
+      ],
+      "answer": 2,
+      "explanation": "Not reflexive: for a = 1/2, a² = 1/4 and 1/2 ≤ 1/4 is false, so (1/2, 1/2) ∉ R. Not symmetric: (1, 2) ∈ R since 1 ≤ 4, but (2, 1) ∉ R since 2 ≤ 1 is false. Not transitive: (3, 2) ∈ R since 3 ≤ 4 and (2, 1.5) ∈ R since 2 ≤ 2.25, but (3, 1.5) ∉ R since 3 ≤ 2.25 is false. So R has none of the three properties."
+    }
+  ]
+}

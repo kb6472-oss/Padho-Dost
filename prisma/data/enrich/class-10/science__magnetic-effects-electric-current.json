@@ -1,0 +1,132 @@
+{
+  "exam": "class-10",
+  "subject": "science",
+  "chapter": "magnetic-effects-electric-current",
+  "notes": {
+    "summary": "This chapter explains how an electric current produces a magnetic field (straight wire, circular loop, solenoid), the force on a current-carrying conductor placed in a magnetic field (Fleming's left-hand rule), AC versus DC, and domestic electric circuits with their safety devices. CBSE tests it through direction-finding questions, field-line properties, assertion-reason items and simple power–current calculations for household circuits.",
+    "keyPoints": [
+      "A magnetic field has both magnitude and direction. Outside a magnet, field lines emerge from the north pole and merge at the south pole; inside the magnet they run from south to north, so every line is a closed loop. Closer lines mean a stronger field, and no two lines ever cross.",
+      "Oersted (1820) found that a current in a wire deflects a nearby compass needle — the first evidence that electricity and magnetism are linked.",
+      "Straight wire: field lines are concentric circles around the wire. The field increases with the current and decreases with distance from the wire. Direction: right-hand thumb rule (thumb along the current, curled fingers give the field).",
+      "Circular coil: near the centre the field lines are nearly straight. The field at the centre is proportional to the current and to the number of turns n (each turn adds its field). Example: 3 times the turns and 2 times the current give 3 × 2 = 6 times the field.",
+      "Solenoid: the field inside is uniform (parallel straight lines) and the pattern outside is like that of a bar magnet. The end where the current appears anticlockwise to the viewer is the north pole. A soft iron core inside a solenoid makes an electromagnet.",
+      "Force on a conductor in a field: maximum when the current is perpendicular to the field, zero when parallel. Reversing either the current or the field reverses the force; reversing both leaves it unchanged. Fleming's left-hand rule: forefinger = field, middle finger = current, thumb = force (motion).",
+      "Electrons moving one way are a conventional current in the opposite direction, so reverse the direction before applying Fleming's left-hand rule to an electron beam.",
+      "DC flows in one direction (cells); AC reverses direction periodically. Indian AC is 50 Hz: one cycle takes 1/50 s and the direction reverses every 1/100 s. AC can be transmitted over long distances without much loss of energy.",
+      "Domestic wiring: live wire (red insulation), neutral wire (black), earth wire (green); the potential difference between live and neutral in India is 220 V. Appliances are connected in parallel; a 15 A circuit serves high-power appliances (geyser, air cooler) and a 5 A circuit serves bulbs and fans.",
+      "Fuse check: total current I = total power ÷ V. Example: 1100 W on a 220 V line draws 1100 ÷ 220 = 5 A, which is the limit for a 5 A fuse."
+    ],
+    "traps": [
+      "Applying Fleming's left-hand rule to an electron beam without first reversing the direction to get the conventional current.",
+      "Thinking field lines outside a magnet go from south to north, or that they end at the poles; they are closed loops.",
+      "Assuming that reversing both the current and the magnetic field reverses the force; the force keeps its original direction.",
+      "Saying Indian AC changes direction every 1/50 s; one cycle takes 1/50 s, but the direction reverses twice in each cycle, i.e. every 1/100 s.",
+      "Using the right-hand thumb rule to find the force on a conductor; it gives the field around a wire, while Fleming's left-hand rule gives the force."
+    ],
+    "examTip": "For every direction question, write the three directions (field, current, force) as north/south/east/west/up/down on rough paper before choosing an option, and convert electron flow to conventional current first."
+  },
+  "questions": [
+    {
+      "text": "In 1820, a scientist noticed that a compass needle placed near a wire was deflected whenever an electric current was passed through the wire. This observation first showed that electricity and magnetism are linked. The scientist was:",
+      "difficulty": "EASY",
+      "options": ["Michael Faraday", "Hans Christian Oersted", "André-Marie Ampère", "Isaac Newton"],
+      "answer": 1,
+      "explanation": "In 1820 Hans Christian Oersted observed that a compass needle near a current-carrying wire got deflected.\nThis showed that an electric current produces a magnetic field around it.\nThe CGS unit of magnetic field strength, the oersted, is named after him.\nSo the answer is Hans Christian Oersted."
+    },
+    {
+      "text": "Which one of the following statements about the magnetic field lines of a bar magnet is correct?",
+      "difficulty": "EASY",
+      "options": [
+        "Outside the magnet, they start at the south pole and end at the north pole",
+        "They are open curves that begin and end at the two poles",
+        "Two field lines can cross each other near the poles, where the field is strong",
+        "They form closed curves, running from the south pole to the north pole inside the magnet"
+      ],
+      "answer": 3,
+      "explanation": "Outside a magnet, field lines emerge from the north pole and merge at the south pole.\nInside the magnet they run from the south pole back to the north pole, so every field line is a closed curve.\nField lines never cross; near the poles they are only crowded together, showing a stronger field.\nSo the correct statement is that they form closed curves, running from south to north inside the magnet."
+    },
+    {
+      "text": "Assertion (A): Two magnetic field lines never intersect each other.\nReason (R): If two field lines crossed, a compass needle placed at the point of intersection would have to point in two directions at the same time, which is not possible.\nChoose the correct option.",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 0,
+      "explanation": "The direction of the magnetic field at a point is the direction in which the north pole of a compass needle placed there points.\nAt any point the field can have only one direction.\nIf two field lines crossed, there would be two field directions at the crossing point, so the compass needle would have to point two ways at once.\nHence field lines never intersect, and R correctly explains A."
+    },
+    {
+      "text": "A long straight wire is held vertically, and a steady current flows upward through it. What is the direction of the magnetic field produced by the wire at a point that lies due east of the wire, on the same horizontal level?",
+      "difficulty": "MEDIUM",
+      "options": ["Towards south", "Vertically downward", "Towards north", "Towards west"],
+      "answer": 2,
+      "explanation": "Use the right-hand thumb rule: point the thumb along the current (upward); the curled fingers show the direction of the field.\nSeen from above, the field lines are anticlockwise circles around the wire.\nOn an anticlockwise circle viewed from above (north at the top, east on the right), the tangent at the east point points towards the north.\nThe field is horizontal, tangent to the circle, so it cannot be vertical.\nSo the field at the point east of the wire is towards north."
+    },
+    {
+      "text": "In a house, a geyser and an air cooler are connected to a separate circuit with a current rating of 15 A, while bulbs and fans are on a circuit with a current rating of 5 A. The main reason for this arrangement is that:",
+      "difficulty": "EASY",
+      "options": [
+        "bulbs and fans run on DC while geysers and coolers run on AC",
+        "geysers and coolers need a potential difference higher than 220 V",
+        "the 15 A circuit has no fuse, so it never trips",
+        "high-power appliances such as geysers and coolers draw a much larger current"
+      ],
+      "answer": 3,
+      "explanation": "All household appliances get the same 220 V because they are connected in parallel.\nFrom P = VI, the current I = P ÷ V, so a high-power appliance draws a large current; for example, a 2000 W geyser draws 2000 ÷ 220 ≈ 9.1 A.\nSuch a current would overload a 5 A circuit, so high-power appliances are put on a separate 15 A circuit with its own fuse.\nSo the reason is that high-power appliances draw a much larger current."
+    },
+    {
+      "text": "A circular coil carrying a current produces a magnetic field at its centre. If the number of turns of the coil is made three times and the current is doubled, keeping the radius the same, the magnetic field at the centre becomes:",
+      "difficulty": "MEDIUM",
+      "options": ["2 times", "3 times", "6 times", "1.5 times"],
+      "answer": 2,
+      "explanation": "The field at the centre of a circular coil is directly proportional to the current through it.\nFor a coil of n turns, the fields of all the turns add up, so the field is n times that of a single turn.\nTripling the turns multiplies the field by 3, and doubling the current multiplies it by 2.\nNew field = 3 × 2 = 6 times the original field."
+    },
+    {
+      "text": "A student looks at one end of a long current-carrying solenoid and sees that the current in the turns facing her flows in the anticlockwise direction. This end of the solenoid behaves as:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "a north pole",
+        "a south pole",
+        "neither pole, because the field at the ends of a solenoid is zero",
+        "a north pole only if a soft iron core is placed inside the solenoid"
+      ],
+      "answer": 0,
+      "explanation": "A current-carrying solenoid behaves like a bar magnet, with a north pole at one end and a south pole at the other.\nCurl the fingers of the right hand along the current in the turns (anticlockwise as seen by the student); the thumb then points towards the student, giving the direction of the field inside.\nSo the field lines come out of the end facing the student.\nField lines emerge from a north pole, so this end is a north pole; a soft iron core only makes the field stronger."
+    },
+    {
+      "text": "A beam of electrons moves horizontally towards the north and enters a region where a uniform magnetic field acts vertically upward. In which direction will the beam be deflected?",
+      "difficulty": "HARD",
+      "options": ["Towards east", "Towards west", "Vertically upward", "Vertically downward"],
+      "answer": 1,
+      "explanation": "Electrons are negatively charged, so electrons moving north are equivalent to a conventional current flowing towards the south.\nApply Fleming's left-hand rule: forefinger along the field (vertically upward), middle finger along the current (towards south).\nThe thumb then points towards the west, which is the direction of the force.\nThe force is perpendicular to both the field and the motion, so it cannot be upward or downward.\nThe beam is deflected towards the west."
+    },
+    {
+      "text": "A straight conductor carrying a current is placed in a uniform magnetic field. Consider the following statements:\nI. The force on the conductor is maximum when the current is perpendicular to the field.\nII. The force on the conductor is zero when it is placed parallel to the field.\nIII. Reversing only the direction of the current reverses the direction of the force.\nIV. Reversing both the current and the magnetic field reverses the direction of the force.\nWhich of these statements are correct?",
+      "difficulty": "MEDIUM",
+      "options": ["I and II only", "I, II and III only", "I, III and IV only", "I, II, III and IV"],
+      "answer": 1,
+      "explanation": "The force (and hence the displacement) of the conductor is largest when the current is at right angles to the field, so I is correct.\nWhen the conductor lies parallel to the field, no force acts on it, so II is correct.\nReversing either the current or the field reverses the force, as Fleming's left-hand rule shows, so III is correct.\nReversing both together reverses the force twice, so it keeps its original direction; IV is wrong.\nSo the correct statements are I, II and III only."
+    },
+    {
+      "text": "The alternating current (AC) supplied to Indian homes has a frequency of 50 Hz. After what time interval does this current reverse its direction?",
+      "difficulty": "MEDIUM",
+      "options": ["1/100 s", "1/50 s", "1/25 s", "1/200 s"],
+      "answer": 0,
+      "explanation": "A frequency of 50 Hz means 50 complete cycles per second, so one cycle takes 1/50 s.\nIn each cycle the current flows one way for half the cycle and the opposite way for the other half, so it reverses direction twice per cycle.\nTime between reversals = (1/50) ÷ 2 = 1/100 s.\nSo the current reverses its direction every 1/100 s."
+    },
+    {
+      "text": "A domestic circuit works at 220 V and is protected by a 10 A fuse. All appliances are connected in parallel. Which one of the following combinations can be run at the same time without blowing the fuse?",
+      "difficulty": "HARD",
+      "options": [
+        "A 1500 W room heater and a 1000 W electric iron",
+        "A 2000 W geyser and three 100 W bulbs",
+        "A 1000 W electric iron, a 750 W toaster and four 100 W bulbs",
+        "A 1200 W microwave oven and a 1200 W electric kettle"
+      ],
+      "answer": 2,
+      "explanation": "Maximum power the fuse allows = V × I = 220 V × 10 A = 2200 W; any total above this draws more than 10 A.\nOption 1: 1500 + 1000 = 2500 W, current = 2500 ÷ 220 ≈ 11.4 A, so the fuse blows.\nOption 2: 2000 + 3 × 100 = 2300 W, current ≈ 10.5 A, so the fuse blows.\nOption 4: 1200 + 1200 = 2400 W, current ≈ 10.9 A, so the fuse blows.\nOption 3: 1000 + 750 + 4 × 100 = 2150 W, current = 2150 ÷ 220 ≈ 9.8 A, which is below 10 A.\nSo only the iron, toaster and four bulbs can run together safely."
+    }
+  ]
+}

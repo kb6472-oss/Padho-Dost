@@ -1,0 +1,107 @@
+{
+  "exam": "jee",
+  "subject": "mathematics",
+  "chapter": "trigonometry",
+  "notes": {
+    "summary": "Trigonometry covers trigonometric ratios and identities (compound, multiple and sub-multiple angles, sum–product forms), trigonometric equations with general solutions, and inverse trigonometric functions with principal values. JEE Main tests fast identity simplification, maximum and minimum of trigonometric expressions, counting solutions in an interval and principal-value traps in inverse functions.",
+    "keyPoints": [
+      "Compound angles: sin(A ± B) = sinA cosB ± cosA sinB, tan(A + B) = (tanA + tanB)/(1 − tanA tanB). If A + B = 45°, then (1 + tanA)(1 + tanB) = 2.",
+      "Double angle in terms of tan: sin 2A = 2tanA/(1 + tan²A), cos 2A = (1 − tan²A)/(1 + tan²A).",
+      "Triple angle: sin 3A = 3sinA − 4sin³A, cos 3A = 4cos³A − 3cosA, tan 3A = (3tanA − tan³A)/(1 − 3tan²A).",
+      "Useful values: sin 18° = (√5 − 1)/4, cos 36° = (√5 + 1)/4, tan 15° = 2 − √3, tan 75° = 2 + √3.",
+      "cos²A − sin²B = cos(A + B)cos(A − B) and sin²A − sin²B = sin(A + B)sin(A − B).",
+      "a sin x + b cos x lies in [−√(a² + b²), √(a² + b²)]; combine shifted terms into this form first.",
+      "General solutions (n ∈ Z): sin x = sin α → x = nπ + (−1)ⁿα; cos x = cos α → x = 2nπ ± α; tan x = tan α → x = nπ + α.",
+      "Principal ranges: sin⁻¹ in [−π/2, π/2], cos⁻¹ in [0, π], tan⁻¹ in (−π/2, π/2). Also sin⁻¹x + cos⁻¹x = π/2 and tan⁻¹x + cot⁻¹x = π/2.",
+      "sin⁻¹(sin x) = x only for x in [−π/2, π/2]; otherwise shift by multiples of π, e.g. sin⁻¹(sin 2π/3) = π/3.",
+      "tan⁻¹x + tan⁻¹y = tan⁻¹[(x + y)/(1 − xy)] when xy < 1; add π when x, y > 0 and xy > 1."
+    ],
+    "traps": [
+      "Cancelling a common factor such as cos x or sin x from both sides of an equation, which loses its roots.",
+      "Keeping values where tan or sec is undefined (such as x = π/2) after solving a tan equation.",
+      "Writing sin⁻¹(sin x) = x when x lies outside the principal range.",
+      "Adding amplitudes of terms with different phases, e.g. taking the maximum of 5cosθ + 3cos(θ + π/3) as 5 + 3.",
+      "Ignoring the quadrant when fixing the sign of sin, cos or tan."
+    ],
+    "examTip": "For equations or interval-counting questions, factorise instead of dividing, list the roots quadrant by quadrant, and check every root against the domain of the original expression."
+  },
+  "questions": [
+    {
+      "text": "The value of sin 18° is:",
+      "difficulty": "EASY",
+      "options": ["(√5 + 1)/4", "(√5 − 1)/4", "(√3 − 1)/(2√2)", "√(10 − 2√5)/4"],
+      "answer": 1,
+      "explanation": "Let θ = 18°, so 5θ = 90° and 2θ = 90° − 3θ, giving sin 2θ = cos 3θ.\n2sinθ cosθ = 4cos³θ − 3cosθ; divide by cosθ ≠ 0: 2sinθ = 4cos²θ − 3 = 1 − 4sin²θ.\n4sin²θ + 2sinθ − 1 = 0, so sinθ = (−2 ± √20)/8 = (−1 ± √5)/4.\nθ is acute, so sin 18° = (√5 − 1)/4 ≈ 0.309.\n((√5 + 1)/4 is cos 36° and (√3 − 1)/(2√2) is sin 15°.)"
+    },
+    {
+      "text": "If A + B = 45°, then the value of (1 + tan A)(1 + tan B) is:",
+      "difficulty": "EASY",
+      "options": ["1", "√2", "0", "2"],
+      "answer": 3,
+      "explanation": "tan(A + B) = tan 45° = 1, so (tanA + tanB)/(1 − tanA tanB) = 1.\ntanA + tanB = 1 − tanA tanB, i.e. tanA + tanB + tanA tanB = 1.\n(1 + tanA)(1 + tanB) = 1 + tanA + tanB + tanA tanB = 1 + 1 = 2."
+    },
+    {
+      "text": "The principal value of sin⁻¹(sin(2π/3)) is:",
+      "difficulty": "EASY",
+      "options": ["π/3", "2π/3", "−π/3", "π/6"],
+      "answer": 0,
+      "explanation": "The principal range of sin⁻¹ is [−π/2, π/2], and 2π/3 lies outside it.\nsin(2π/3) = sin(π − 2π/3) = sin(π/3).\nπ/3 lies in [−π/2, π/2], so sin⁻¹(sin(2π/3)) = π/3."
+    },
+    {
+      "text": "The number of solutions of the equation sin 2x = cos x in the interval [0, 2π] is:",
+      "difficulty": "MEDIUM",
+      "options": ["2", "3", "4", "6"],
+      "answer": 2,
+      "explanation": "sin 2x − cos x = 2sinx cosx − cosx = cosx(2sinx − 1) = 0.\ncos x = 0 gives x = π/2, 3π/2.\nsin x = 1/2 gives x = π/6, 5π/6.\nTotal = 4 solutions. (Dividing by cos x would wrongly lose π/2 and 3π/2.)"
+    },
+    {
+      "text": "The minimum value of 9tan²θ + 4cot²θ, for θ where both terms are defined, is:",
+      "difficulty": "MEDIUM",
+      "options": ["13", "12", "6", "36"],
+      "answer": 1,
+      "explanation": "Both terms are positive, so apply AM ≥ GM.\n9tan²θ + 4cot²θ ≥ 2√(9tan²θ × 4cot²θ) = 2√36 = 12.\nEquality needs 9tan²θ = 4cot²θ, i.e. tan²θ = 2/3, which is possible.\nMinimum value = 12. (13 comes from wrongly putting tanθ = cotθ = 1.)"
+    },
+    {
+      "text": "The value of cos(2 tan⁻¹(1/7)) is:",
+      "difficulty": "MEDIUM",
+      "options": ["7/25", "48/49", "49/50", "24/25"],
+      "answer": 3,
+      "explanation": "Let θ = tan⁻¹(1/7), so tanθ = 1/7.\ncos 2θ = (1 − tan²θ)/(1 + tan²θ) = (1 − 1/49)/(1 + 1/49).\n= (48/49)/(50/49) = 48/50 = 24/25.\n(7/25 is sin 2θ, not cos 2θ.)"
+    },
+    {
+      "text": "For all x at which the expression is defined, (sin 3x)/(sin x) − (cos 3x)/(cos x) equals:",
+      "difficulty": "MEDIUM",
+      "options": ["1", "4", "2", "2cos 2x"],
+      "answer": 2,
+      "explanation": "sin 3x = 3sinx − 4sin³x, so (sin 3x)/(sin x) = 3 − 4sin²x.\ncos 3x = 4cos³x − 3cosx, so (cos 3x)/(cos x) = 4cos²x − 3.\nDifference = 6 − 4(sin²x + cos²x) = 6 − 4 = 2.\nCheck: (sin3x cosx − cos3x sinx)/(sinx cosx) = sin 2x/(½ sin 2x) = 2."
+    },
+    {
+      "text": "The maximum value of 5cosθ + 3cos(θ + π/3) + 3 is:",
+      "difficulty": "MEDIUM",
+      "options": ["11", "3 + √34", "10", "7"],
+      "answer": 2,
+      "explanation": "Expand: 3cos(θ + π/3) = (3/2)cosθ − (3√3/2)sinθ.\nExpression = (13/2)cosθ − (3√3/2)sinθ + 3.\nAmplitude = √(169/4 + 27/4) = √(196/4) = √49 = 7.\nMaximum = 7 + 3 = 10. (11 wrongly adds 5 + 3 + 3 as if both cosines peak together.)"
+    },
+    {
+      "text": "The value of cos²48° − sin²12° is:",
+      "difficulty": "MEDIUM",
+      "options": ["(√5 + 1)/8", "(√5 − 1)/8", "(√5 + 1)/4", "1/2"],
+      "answer": 0,
+      "explanation": "Use cos²A − sin²B = cos(A + B)cos(A − B).\nWith A = 48°, B = 12°: cos 60° × cos 36°.\ncos 36° = (√5 + 1)/4, so the value = (1/2) × (√5 + 1)/4 = (√5 + 1)/8 ≈ 0.4045."
+    },
+    {
+      "text": "The value of sin⁻¹(sin 10), where the angle 10 is measured in radians, is:",
+      "difficulty": "HARD",
+      "options": ["10 − 3π", "3π − 10", "4π − 10", "10"],
+      "answer": 1,
+      "explanation": "sin⁻¹(sin x) = x only when x lies in [−π/2, π/2]; 10 does not.\n10 lies between 5π/2 ≈ 7.85 and 7π/2 ≈ 11.0. Since sin(3π − x) = sin x, sin 10 = sin(3π − 10).\n3π − 10 ≈ 9.4248 − 10 = −0.575, which lies in [−π/2, π/2].\nSo sin⁻¹(sin 10) = 3π − 10. (10 − 3π has the wrong sign: sin 10 is negative.)"
+    },
+    {
+      "text": "The general solution of the equation tan 3x = tan x is (n is any integer):",
+      "difficulty": "HARD",
+      "options": ["x = nπ/2", "x = nπ/4", "x = nπ/3", "x = nπ"],
+      "answer": 3,
+      "explanation": "tan 3x = tan x gives 3x = nπ + x, so x = nπ/2.\nFor odd n, x = π/2, 3π/2, … where tan x (and tan 3x) is undefined, so these values must be rejected.\nOnly even n survive: x = mπ.\nGeneral solution: x = nπ, n ∈ Z."
+    }
+  ]
+}

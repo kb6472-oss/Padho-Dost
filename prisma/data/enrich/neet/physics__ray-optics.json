@@ -1,0 +1,161 @@
+{
+  "exam": "neet",
+  "subject": "physics",
+  "chapter": "ray-optics",
+  "notes": {
+    "summary": "Ray Optics covers reflection by plane and spherical mirrors, refraction and Snell's law, total internal reflection, refraction at spherical surfaces and thin lenses (lens maker's formula, power, combinations), refraction through a prism, dispersion and scattering, the human eye and optical instruments. NEET asks sign-convention-based numericals on mirrors and lenses, prism and TIR problems, magnifying power of microscopes and telescopes, and NCERT application facts such as mirage, optical fibres and the colour of the sky.",
+    "keyPoints": [
+      "Mirror formula 1/v + 1/u = 1/f, f = R/2, m = −v/u; lens formula 1/v − 1/u = 1/f, m = v/u (New Cartesian sign convention, distances measured from the pole or optical centre).",
+      "Rotating a plane mirror by θ turns the reflected ray through 2θ for a fixed incident ray.",
+      "Snell's law n₁ sin i = n₂ sin r; n = c/v. Frequency does not change on refraction, wavelength becomes λ/n. Real depth/apparent depth = n.",
+      "Critical angle: sin C = 1/n (light going from denser to rarer). TIR explains mirage, the sparkle of diamond (C ≈ 24°), optical fibres and totally reflecting prisms.",
+      "Refraction at a spherical surface: n₂/v − n₁/u = (n₂ − n₁)/R. Lens maker's formula: 1/f = (n₂₁ − 1)(1/R₁ − 1/R₂); a glass lens in water has a longer focal length because n₂₁ decreases.",
+      "Power P = 1/f (f in metres), unit dioptre; thin lenses in contact: P = P₁ + P₂. Myopia is corrected by a concave lens of f = −(far point distance); hypermetropia by a convex lens.",
+      "Prism: A + δ = i + e; at minimum deviation i = e and n = sin[(A + δm)/2]/sin(A/2). Thin prism: δ = (n − 1)A.",
+      "Scattering ∝ 1/λ⁴: the sky looks blue, and the Sun looks red at sunrise and sunset because blue light is scattered away along the long path through air.",
+      "Simple microscope m = 1 + D/f (image at near point, D = 25 cm). Compound microscope m = mₒ × mₑ. Telescope in normal adjustment m = fₒ/fₑ, tube length fₒ + fₑ."
+    ],
+    "traps": [
+      "Ignoring the New Cartesian sign convention (for example, taking f of a concave mirror as positive) and getting real and virtual images reversed.",
+      "Thinking frequency changes on refraction; only speed and wavelength change.",
+      "Forgetting that a lens's focal length changes in a liquid while a mirror's focal length does not.",
+      "Mixing up eye defects: myopia needs a diverging (concave) lens, hypermetropia a converging (convex) lens.",
+      "Using P = 1/f with f in centimetres instead of metres."
+    ],
+    "examTip": "Write the sign of every u, v, f and R before substituting; a five-second sign check prevents most errors in mirror and lens numericals."
+  },
+  "questions": [
+    {
+      "text": "A ray of light falls on a plane mirror. Keeping the incident ray fixed, the mirror is rotated through 10° about an axis lying in its plane and perpendicular to the plane of incidence. The reflected ray turns through:",
+      "difficulty": "EASY",
+      "options": [
+        "10°",
+        "20°",
+        "5°",
+        "40°"
+      ],
+      "answer": 1,
+      "explanation": "When the mirror rotates by θ, its normal also rotates by θ.\nThe angle of incidence changes by θ and so does the angle of reflection, so the angle between the incident and reflected rays changes by 2θ.\nReflected ray turns through 2 × 10° = 20°."
+    },
+    {
+      "text": "The mirage seen on a hot road or in a desert on a sunny day is mainly due to:",
+      "difficulty": "EASY",
+      "options": [
+        "total internal reflection of light",
+        "dispersion of light",
+        "scattering of light",
+        "diffraction of light"
+      ],
+      "answer": 0,
+      "explanation": "Air close to the hot ground is hotter and optically rarer than the air above it.\nLight from a distant object bends away from the normal as it passes downward through layers of decreasing refractive index.\nWhen the angle of incidence exceeds the critical angle, total internal reflection occurs, and an inverted image appears as if reflected from a pool of water."
+    },
+    {
+      "text": "A thin prism of refracting angle 5° is made of glass of refractive index 1.6. The deviation it produces in a ray of light is:",
+      "difficulty": "EASY",
+      "options": [
+        "8°",
+        "5°",
+        "13°",
+        "3°"
+      ],
+      "answer": 3,
+      "explanation": "For a thin prism, δ = (n − 1)A.\nδ = (1.6 − 1) × 5° = 0.6 × 5° = 3°.\n(8° comes from using nA instead of (n − 1)A.)"
+    },
+    {
+      "text": "A convex lens made of glass (refractive index 1.5) has a focal length of 20 cm in air. When it is completely immersed in water (refractive index 4/3), its focal length becomes:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "20 cm",
+        "15 cm",
+        "80 cm",
+        "26.7 cm"
+      ],
+      "answer": 2,
+      "explanation": "By the lens maker's formula, 1/f ∝ (n₂₁ − 1), where n₂₁ is the refractive index of glass relative to the surrounding medium.\nIn air: n₂₁ − 1 = 1.5 − 1 = 0.5. In water: n₂₁ = 1.5 ÷ (4/3) = 1.125, so n₂₁ − 1 = 0.125.\nf(water)/f(air) = 0.5/0.125 = 4.\nf(water) = 4 × 20 = 80 cm."
+    },
+    {
+      "text": "A myopic person cannot see objects clearly beyond 2 m. The power of the lens required to correct this defect, so that he can see distant objects clearly, is:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "−0.5 D",
+        "+0.5 D",
+        "−2 D",
+        "+2 D"
+      ],
+      "answer": 0,
+      "explanation": "The corrective lens must form a virtual image of a very distant object at the far point, 2 m in front of the eye.\nu = −∞ and v = −2 m, so 1/f = 1/v − 1/u = −1/2 − 0, giving f = −2 m (concave lens).\nP = 1/f = −0.5 D."
+    },
+    {
+      "text": "An object is placed 10 cm in front of a concave mirror of focal length 15 cm. The image formed is:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "30 cm in front of the mirror, real, inverted and 3 times magnified",
+        "6 cm in front of the mirror, real and diminished",
+        "6 cm behind the mirror, virtual and erect",
+        "30 cm behind the mirror, virtual, erect and 3 times magnified"
+      ],
+      "answer": 3,
+      "explanation": "Sign convention: u = −10 cm, f = −15 cm.\n1/v = 1/f − 1/u = −1/15 + 1/10 = (−2 + 3)/30 = 1/30, so v = +30 cm, i.e. behind the mirror (virtual).\nm = −v/u = −(30)/(−10) = +3, so the image is erect and 3 times magnified.\nThis is how a concave shaving mirror works, with the object inside the focus."
+    },
+    {
+      "text": "Light of wavelength 600 nm in air enters a glass slab of refractive index 1.5. Inside the glass, the wavelength and frequency of the light are:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "900 nm, frequency unchanged",
+        "400 nm, frequency unchanged",
+        "400 nm, frequency increases",
+        "600 nm, frequency decreases"
+      ],
+      "answer": 1,
+      "explanation": "Frequency is fixed by the source and does not change on refraction.\nSpeed in glass v = c/n; since v = fλ with f unchanged, λ(glass) = λ(air)/n.\nλ(glass) = 600/1.5 = 400 nm, with frequency unchanged."
+    },
+    {
+      "text": "A thin equiconvex lens of focal length 20 cm is cut into two identical plano-convex lenses by a plane perpendicular to its principal axis passing through its optical centre. The focal length of each plano-convex piece is:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "20 cm",
+        "10 cm",
+        "40 cm",
+        "80 cm"
+      ],
+      "answer": 2,
+      "explanation": "Equiconvex lens: 1/f = (n − 1)(1/R + 1/R) = 2(n − 1)/R = 1/20.\nEach plano-convex piece has one curved surface (radius R) and one plane surface (R = ∞): 1/f′ = (n − 1)/R.\nSo 1/f′ = ½ × 1/20 = 1/40, giving f′ = 40 cm.\n(If the lens were cut along the principal axis instead, each half would keep f = 20 cm.)"
+    },
+    {
+      "text": "Assertion (A): The Sun appears reddish at sunrise and sunset.\nReason (R): Light of longer wavelength is scattered much more by the molecules of the atmosphere than light of shorter wavelength.\nChoose the correct option.",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 2,
+      "explanation": "At sunrise and sunset sunlight travels a much longer path through the atmosphere; most of the blue (short-wavelength) light is scattered away and the light reaching us is mainly red. A is true.\nRayleigh scattering ∝ 1/λ⁴, so shorter wavelengths are scattered more, not longer ones. R is false.\nSo A is true but R is false."
+    },
+    {
+      "text": "In a compound microscope, the objective has a focal length of 1 cm and the eyepiece has a focal length of 5 cm. An object is placed 1.2 cm in front of the objective, and the final image is formed at the least distance of distinct vision (25 cm). The magnifying power of the microscope is:",
+      "difficulty": "HARD",
+      "options": [
+        "30",
+        "25",
+        "11",
+        "50"
+      ],
+      "answer": 0,
+      "explanation": "Objective: u = −1.2 cm, f = +1 cm. 1/v = 1/f + 1/u = 1/1 − 1/1.2 = 0.2/1.2 = 1/6, so v = 6 cm.\nMagnification by the objective mₒ = v/u = 6/(−1.2) = −5 (magnitude 5).\nEyepiece with the final image at D: mₑ = 1 + D/fₑ = 1 + 25/5 = 6.\nMagnifying power = mₒ × mₑ = 5 × 6 = 30 (in magnitude)."
+    },
+    {
+      "text": "A small air bubble is trapped inside a solid glass sphere of radius 10 cm and refractive index 1.5. The bubble lies on a radius at a distance of 5 cm from the surface, and it is viewed from outside along that radius from the nearer side. The apparent distance of the bubble from that surface is:",
+      "difficulty": "HARD",
+      "options": [
+        "5 cm",
+        "3.33 cm",
+        "6 cm",
+        "4 cm"
+      ],
+      "answer": 3,
+      "explanation": "Use refraction at a spherical surface: n₂/v − n₁/u = (n₂ − n₁)/R, with light going from glass (n₁ = 1.5) into air (n₂ = 1).\nTaking the direction of light (towards the observer) as positive: u = −5 cm, and the centre of curvature is inside the glass, so R = −10 cm.\n1/v − 1.5/(−5) = (1 − 1.5)/(−10), so 1/v + 0.3 = 0.05 and 1/v = −0.25.\nv = −4 cm: the bubble appears 4 cm inside the glass from the surface.\n(3.33 cm = 5/1.5 would be correct only for a plane surface.)"
+    }
+  ]
+}

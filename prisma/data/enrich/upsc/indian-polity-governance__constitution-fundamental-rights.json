@@ -1,0 +1,162 @@
+{
+  "exam": "upsc",
+  "subject": "indian-polity-governance",
+  "chapter": "constitution-fundamental-rights",
+  "notes": {
+    "summary": "Covers the making of the Constitution, the Preamble, Fundamental Rights (Articles 12–35), Directive Principles and Fundamental Duties. UPSC tests it through statement-based questions on exact Article numbers, landmark cases, amendments and the exceptions attached to each right.",
+    "keyPoints": [
+      "Constituent Assembly: formed under the Cabinet Mission Plan (1946); first met on 9 December 1946 with Dr. Sachchidananda Sinha as temporary President; Dr. Rajendra Prasad elected President on 11 December 1946; Objectives Resolution moved by Nehru on 13 December 1946; Constitution adopted 26 November 1949 and in force from 26 January 1950.",
+      "Preamble: amended only once (42nd Amendment, 1976 added Socialist, Secular, Integrity). Berubari Union (1960) — not a part of the Constitution; Kesavananda Bharati (1973) — a part, and amendable without altering the basic structure; it is non-justiciable and neither a source of power nor a limit on legislative power.",
+      "Article 12 defines 'State'; Article 13 voids laws inconsistent with Fundamental Rights and is the textual basis of judicial review. 'Law' in Article 13 includes ordinances, rules, bye-laws, notifications, customs and usages.",
+      "Rights only for citizens: Articles 15, 16, 19, 29 and 30. Rights available to all persons, citizens and foreigners alike (enemy aliens excepted): Articles 14, 20, 21, 21A, 22 and 23–28.",
+      "Article 19 now guarantees six freedoms; 19(1)(f) (property) was deleted and Article 31 repealed by the 44th Amendment (1978) — property is now a constitutional right under Article 300A, not a Fundamental Right.",
+      "Article 20: no ex post facto criminal law, no double jeopardy (only before a court or judicial tribunal), no self-incrimination (testimonial compulsion only). Articles 20 and 21 cannot be suspended even during a National Emergency (44th Amendment).",
+      "Article 22: an arrested person must be produced before the nearest magistrate within 24 hours (excluding journey time); these safeguards do not cover enemy aliens or preventive detainees; preventive detention beyond 3 months needs an Advisory Board report.",
+      "Writs (Article 32 — Supreme Court; Article 226 — High Courts, wider scope): habeas corpus (public and private persons), mandamus (not against private persons, the President or Governors), prohibition (only judicial or quasi-judicial bodies), certiorari (quash orders), quo warranto (any interested person may seek it).",
+      "Borrowed features: DPSP — Ireland; Fundamental Duties — USSR; suspension of Fundamental Rights in Emergency — Weimar Germany; Concurrent List — Australia; 'procedure established by law' — Japan; residuary powers with the Centre — Canada; amendment procedure — South Africa.",
+      "Fundamental Duties: Part IVA, Article 51A, added by the 42nd Amendment on the Swaran Singh Committee's recommendation; the 11th duty (education of children aged 6–14) added by the 86th Amendment (2002). The 42nd Amendment also added DPSPs 39(f), 39A, 43A and 48A."
+    ],
+    "traps": [
+      "Assuming every Fundamental Right is available to foreigners — Articles 15, 16, 19, 29 and 30 are for citizens only.",
+      "Writing 'due process of law' for Article 21 — the text says 'procedure established by law' (from Japan); Maneka Gandhi (1978) only required that procedure to be fair, just and reasonable.",
+      "Believing mandamus lies against a private individual or the President — it does not; habeas corpus, however, lies against private persons too.",
+      "Mixing up the Preamble cases: Berubari (1960) said it is not a part; Kesavananda Bharati (1973) said it is a part and can be amended within the basic structure.",
+      "Thinking Article 22 safeguards protect everyone — enemy aliens and persons held under preventive detention laws are excluded from clauses (1) and (2)."
+    ],
+    "examTip": "In every statement question, first check for the 'only citizens' versus 'all persons' trap and for an Article number swapped with its neighbour (25/26/27/28 or 14/15/16) — these two tricks eliminate most wrong options."
+  },
+  "questions": [
+    {
+      "text": "How many freedoms are guaranteed to the citizens of India under Article 19(1) of the Constitution as it stands after the 44th Amendment Act, 1978?",
+      "difficulty": "EASY",
+      "options": [
+        "Five",
+        "Seven",
+        "Six",
+        "Eight"
+      ],
+      "answer": 2,
+      "explanation": "Article 19(1) originally guaranteed seven freedoms. The 44th Amendment Act, 1978 deleted Article 19(1)(f), the right to acquire, hold and dispose of property. The remaining freedoms are: speech and expression; to assemble peaceably and without arms; to form associations, unions or co-operative societies; to move freely throughout India; to reside and settle in any part of India; and to practise any profession, trade or business. Answer: six."
+    },
+    {
+      "text": "Which Article of the Constitution of India provides that no religious instruction shall be provided in any educational institution wholly maintained out of State funds?",
+      "difficulty": "EASY",
+      "options": [
+        "Article 25",
+        "Article 26",
+        "Article 27",
+        "Article 28"
+      ],
+      "answer": 3,
+      "explanation": "Article 25 gives freedom of conscience and the right to profess, practise and propagate religion. Article 26 gives religious denominations freedom to manage their religious affairs. Article 27 bars compelling anyone to pay taxes for promoting a particular religion. Article 28(1) bans religious instruction in institutions wholly maintained out of State funds; 28(2) exempts State-administered institutions set up under an endowment or trust requiring such instruction, and 28(3) bars compulsion in State-recognised or State-aided institutions. Answer: Article 28."
+    },
+    {
+      "text": "At its first meeting on 9 December 1946, the Constituent Assembly elected which member as its temporary (provisional) President?",
+      "difficulty": "EASY",
+      "options": [
+        "Dr. Rajendra Prasad",
+        "Dr. Sachchidananda Sinha",
+        "Dr. B.R. Ambedkar",
+        "Sir B.N. Rau"
+      ],
+      "answer": 1,
+      "explanation": "Following the French practice, the oldest member of the Assembly was made its temporary President. That member was Dr. Sachchidananda Sinha. Dr. Rajendra Prasad was elected the permanent President on 11 December 1946. Dr. B.R. Ambedkar chaired the Drafting Committee and Sir B.N. Rau was the Constitutional Advisor. Answer: Dr. Sachchidananda Sinha."
+    },
+    {
+      "text": "Consider the following statements regarding Article 14 of the Constitution of India:\n1. The concept of 'equality before law' is of British origin.\n2. The concept of 'equal protection of laws' has been taken from the American Constitution.\n3. The right under Article 14 is available to foreigners and to legal persons such as statutory corporations, in addition to citizens.\nWhich of the statements given above is/are correct?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "answer": 3,
+      "explanation": "Article 14 says the State shall not deny to any person equality before law or the equal protection of the laws within the territory of India. 'Equality before law' is a negative concept (no special privileges for anyone) drawn from the British rule of law, so statement 1 is correct. 'Equal protection of laws' is a positive concept (equal treatment in equal circumstances) drawn from the US Constitution, so statement 2 is correct. The word 'person' covers citizens, foreigners and legal persons such as companies and statutory corporations, so statement 3 is correct. Answer: 1, 2 and 3."
+    },
+    {
+      "text": "Consider the following statements about the writs issued by the Supreme Court and the High Courts:\n1. The writ of habeas corpus can be issued against private individuals as well as public authorities.\n2. The writ of mandamus can be issued against a private individual to compel the performance of a private contract.\n3. The writ of quo warranto can be sought by any interested person and not necessarily by the aggrieved person.\nWhich of the statements given above are correct?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "1 and 2 only",
+        "1 and 3 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "answer": 1,
+      "explanation": "Habeas corpus ('to have the body') orders a detained person to be produced before the court and lies against both public authorities and private individuals — statement 1 is correct. Mandamus ('we command') is issued to a public official, public body, corporation, inferior court or tribunal; it cannot be issued against a private individual or body, to enforce a contractual obligation, or against the President or a Governor — statement 2 is wrong. Quo warranto ('by what authority') examines a person's claim to a public office and, unlike most writs, can be sought by any interested person — statement 3 is correct. Answer: 1 and 3 only."
+    },
+    {
+      "text": "Consider the following statements regarding Article 22 of the Constitution of India:\n1. A person arrested under an ordinary law must be produced before the nearest magistrate within 24 hours, excluding the time of journey.\n2. The safeguards given to a person arrested under an ordinary law are also available to an enemy alien.\n3. A law of preventive detention cannot authorise detention beyond three months unless an Advisory Board reports sufficient cause for such detention.\nWhich of the statements given above is/are correct?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "answer": 2,
+      "explanation": "Article 22(1) and (2) give an arrested person the right to be told the grounds of arrest, to consult a lawyer, and to be produced before the nearest magistrate within 24 hours excluding journey time — statement 1 is correct. Article 22(3) states that these safeguards do not apply to an enemy alien or to a person arrested under a preventive detention law — statement 2 is wrong. Article 22(4) bars detention beyond three months without an Advisory Board report of sufficient cause (the 44th Amendment's reduction to two months has not been brought into force) — statement 3 is correct. Answer: 1 and 3 only."
+    },
+    {
+      "text": "Consider the following pairs:\nFeature of the Indian Constitution — Source\n1. Suspension of Fundamental Rights during Emergency — Weimar Constitution of Germany\n2. Concurrent List — Australia\n3. 'Procedure established by law' — United States of America\n4. Vesting of residuary powers in the Centre — Canada\nWhich of the pairs given above are correctly matched?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "1, 2 and 4 only",
+        "1 and 3 only",
+        "2, 3 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "answer": 0,
+      "explanation": "Suspension of Fundamental Rights during an Emergency comes from the Weimar Constitution of Germany — pair 1 is correct. The Concurrent List (along with freedom of trade and commerce and the joint sitting) comes from Australia — pair 2 is correct. 'Procedure established by law' in Article 21 comes from Japan; the US Constitution uses 'due process of law' — pair 3 is wrong. A federation with a strong Centre and residuary powers vested in the Centre come from Canada — pair 4 is correct. Answer: 1, 2 and 4 only."
+    },
+    {
+      "text": "Consider the following statements about the Fundamental Duties in the Constitution of India:\n1. They were added by the 42nd Amendment Act, 1976 on the recommendations of the Swaran Singh Committee.\n2. The 86th Amendment Act, 2002 raised the number of Fundamental Duties listed in Article 51A to eleven.\n3. Like the Fundamental Rights, they are directly enforceable by the courts through writs.\nWhich of the statements given above is/are correct?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "1 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "answer": 1,
+      "explanation": "The 42nd Amendment Act, 1976 inserted Part IVA (Article 51A) with ten duties, following the Swaran Singh Committee (which had suggested eight) — statement 1 is correct. The 86th Amendment Act, 2002 added an eleventh duty: parents or guardians must provide opportunities for education to their child aged 6 to 14 — statement 2 is correct. The duties are non-justiciable; the Constitution provides no direct legal sanction for their violation, though Parliament may enforce them by law — statement 3 is wrong. Answer: 1 and 2 only."
+    },
+    {
+      "text": "Consider the following statements regarding the Preamble to the Constitution of India:\n1. In the Berubari Union case (1960), the Supreme Court held that the Preamble is not a part of the Constitution.\n2. The Preamble is a source of power to the legislature and can be enforced in a court of law.\n3. The Preamble can be amended under Article 368, provided its basic features are not altered.\nWhich of the statements given above is/are correct?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "1 and 3 only",
+        "1 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "answer": 0,
+      "explanation": "In the Berubari Union case (1960) the Supreme Court said the Preamble is not a part of the Constitution, though it is a key to the minds of its makers — statement 1 is correct. The Preamble is neither a source of power to the legislature nor a prohibition on its powers, and it is non-justiciable — statement 2 is wrong. In Kesavananda Bharati (1973) the Court held the Preamble to be a part of the Constitution that can be amended under Article 368 without touching its basic features; it was amended once, by the 42nd Amendment (1976) — statement 3 is correct. Answer: 1 and 3 only."
+    },
+    {
+      "text": "Consider the following statements regarding Article 20 of the Constitution of India:\n1. The protection against ex post facto laws in Article 20(1) also bars the retrospective imposition of civil liabilities and taxes.\n2. The protection against double jeopardy is not available in departmental or administrative proceedings.\n3. Compelling an accused to give thumb impressions or a blood specimen does not violate the protection against self-incrimination.\nWhich of the statements given above is/are correct?",
+      "difficulty": "HARD",
+      "options": [
+        "1 and 2 only",
+        "2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "answer": 2,
+      "explanation": "Article 20(1) prohibits conviction under an ex post facto criminal law and a penalty greater than the one in force when the act was done; it applies only to criminal laws, so civil and tax laws can be retrospective — statement 1 is wrong. Article 20(2) (no prosecution and punishment twice for the same offence) applies only to proceedings before a court of law or judicial tribunal, not to departmental or administrative proceedings — statement 2 is correct. Article 20(3) covers testimonial compulsion only; it does not cover compulsory production of material objects, thumb impressions, specimen signatures or blood specimens — statement 3 is correct. Answer: 2 and 3 only."
+    },
+    {
+      "text": "Which of the following Directive Principles of State Policy were added to the Constitution of India by the 42nd Amendment Act, 1976?\n1. Equal justice and free legal aid to the poor (Article 39A)\n2. Participation of workers in the management of industries (Article 43A)\n3. Protection and improvement of the environment and safeguarding of forests and wildlife (Article 48A)\n4. Uniform civil code for the citizens (Article 44)\nSelect the correct answer using the code given below:",
+      "difficulty": "HARD",
+      "options": [
+        "1, 2 and 3 only",
+        "1 and 4 only",
+        "2 and 3 only",
+        "1, 2, 3 and 4"
+      ],
+      "answer": 0,
+      "explanation": "The 42nd Amendment Act, 1976 added four Directive Principles: Article 39(f) (healthy development of children), Article 39A (equal justice and free legal aid), Article 43A (workers' participation in management of industries) and Article 48A (environment, forests and wildlife). So items 1, 2 and 3 were added by it. Article 44 (uniform civil code) has been in the original Constitution since 1950. Later additions include Article 38(2) by the 44th Amendment and Article 43B by the 97th Amendment. Answer: 1, 2 and 3 only."
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "exam": "jee",
+  "subject": "physics",
+  "chapter": "gravitation",
+  "notes": {
+    "summary": "Gravitation covers Newton's law of gravitation, the acceleration due to gravity and its variation, Kepler's laws, gravitational potential and potential energy, escape speed and satellite motion. JEE Main tests it through short numericals on the variation of g, orbital speed, period and energy, and energy or angular-momentum conservation in a 1/r field.",
+    "keyPoints": [
+      "F = Gm₁m₂/r², with G = 6.67 × 10⁻¹¹ N m² kg⁻² and dimensions [M⁻¹L³T⁻²]. At the surface g = GM/R² ≈ 9.8 m/s², so GM = gR².",
+      "Height: g_h = g/(1 + h/R)² ≈ g(1 − 2h/R) for h ≪ R. Depth: g_d = g(1 − d/R), so g = 0 at the centre. For small h, g at height h equals g at depth 2h.",
+      "Rotation: g' = g − ω²R cos²λ (λ = latitude). The effect is largest at the equator and zero at the poles. A body at the equator would be weightless if ω = √(g/R) ≈ 1.25 × 10⁻³ rad/s.",
+      "Spherical shell: field inside is zero and potential inside is constant (−GM/R). Uniform solid sphere: field inside = GMr/R³ (linear in r), and potential at the centre = −3GM/(2R).",
+      "Potential energy U = −GMm/r. Work to lift m from the surface to height h is GMmh/[R(R + h)] = mgh/(1 + h/R). For h = R this gives mgR/2, not mgR.",
+      "Escape speed v_e = √(2GM/R) = √(2gR) ≈ 11.2 km/s for Earth. It does not depend on the body's mass or the direction of projection.",
+      "Circular orbit of radius r: v_o = √(GM/r), T = 2π√(r³/GM), KE = GMm/2r, U = −GMm/r, E = −GMm/2r. From the same orbit, escape speed = √2 × v_o (about 41.4% more).",
+      "Kepler's laws: orbits are ellipses with the Sun at one focus; areal velocity dA/dt = L/2m is constant (angular momentum is conserved); T² ∝ a³. So v_perihelion × r_p = v_aphelion × r_a.",
+      "Satellite facts: a near-surface orbit has v ≈ 7.9 km/s and T ≈ 84 min. A geostationary orbit lies in the equatorial plane, moves west to east, has T = 24 h and is about 36,000 km above the surface.",
+      "Two-body (binary) systems: each body circles the common centre of mass. The orbit radius is not the separation. Use the separation in the force and each body's own radius in the centripetal term."
+    ],
+    "traps": [
+      "Using mgh for large heights. Use U = −GMm/r at the two positions instead, because g is not constant.",
+      "Mixing up the small-height formula g(1 − 2h/R) with the depth formula g(1 − d/R).",
+      "Assuming potential is zero wherever the field is zero, e.g. inside a shell or at the centre of a solid sphere.",
+      "In binary-star problems, taking the separation d as the orbit radius instead of d/2 (for equal masses).",
+      "Thinking escape speed depends on the mass of the body or on the angle of projection."
+    ],
+    "examTip": "In any orbit or projection problem, write energy conservation (and angular momentum conservation for ellipses) first and replace GM by gR². Most JEE gravitation numericals then take one line of algebra."
+  },
+  "questions": [
+    {
+      "text": "The dimensional formula of the universal gravitational constant G is:",
+      "difficulty": "EASY",
+      "options": ["[M L³ T⁻²]", "[M⁻¹ L² T⁻²]", "[M⁻¹ L³ T⁻²]", "[M⁻² L³ T⁻²]"],
+      "answer": 2,
+      "explanation": "From F = Gm₁m₂/r², G = Fr²/(m₁m₂).\nDimensions = [M L T⁻²][L²]/[M²] = [M⁻¹ L³ T⁻²].\nIts SI unit is N m² kg⁻²."
+    },
+    {
+      "text": "Kepler's second law says the line joining a planet to the Sun sweeps out equal areas in equal time intervals. This law follows directly from the conservation of:",
+      "difficulty": "EASY",
+      "options": ["Angular momentum of the planet about the Sun", "Linear momentum of the planet", "Kinetic energy of the planet", "Gravitational potential energy of the planet"],
+      "answer": 0,
+      "explanation": "Areal velocity dA/dt = L/(2m), where L is the planet's angular momentum about the Sun.\nGravity is a central force (along the line to the Sun), so its torque about the Sun is zero and L stays constant.\nSo dA/dt is constant. Linear momentum, KE and PE all change along an elliptical orbit."
+    },
+    {
+      "text": "If the Earth suddenly stopped rotating about its axis, with its shape and mass unchanged, the acceleration due to gravity would:",
+      "difficulty": "EASY",
+      "options": ["Decrease at the equator and remain unchanged at the poles", "Increase at the equator and remain unchanged at the poles", "Increase at both the equator and the poles", "Remain unchanged everywhere"],
+      "answer": 1,
+      "explanation": "Effective gravity is g' = g − ω²R cos²λ.\nAt the equator (λ = 0°) rotation reduces g by ω²R ≈ 0.034 m/s². If ω became 0, this reduction would vanish and g would increase.\nAt the poles (λ = 90°) cos²λ = 0, so rotation has no effect and g stays the same."
+    },
+    {
+      "text": "Take the Earth as a uniform sphere of radius R. At a small height h above the surface (h ≪ R), the acceleration due to gravity has a certain value. At what depth below the surface does g have the same value?",
+      "difficulty": "MEDIUM",
+      "options": ["h/2", "h", "√2 h", "2h"],
+      "answer": 3,
+      "explanation": "For h ≪ R, g at height h is g_h ≈ g(1 − 2h/R).\nAt depth d, g_d = g(1 − d/R).\nSet them equal: 2h/R = d/R, so d = 2h."
+    },
+    {
+      "text": "What angular speed of rotation would make a body lying on the Earth's equator feel weightless? (g = 10 m/s², R = 6.4 × 10⁶ m)",
+      "difficulty": "MEDIUM",
+      "options": ["7.3 × 10⁻⁵ rad/s", "1.25 × 10⁻³ rad/s", "1.56 × 10⁻⁶ rad/s", "1.77 × 10⁻³ rad/s"],
+      "answer": 1,
+      "explanation": "At the equator the effective gravity is g' = g − ω²R. The body is weightless when g' = 0, i.e. ω²R = g.\nω = √(g/R) = √(10/6.4 × 10⁶) = √(1.5625 × 10⁻⁶) = 1.25 × 10⁻³ rad/s.\nThis would make a day about 84 min long. 7.3 × 10⁻⁵ rad/s is the present value, and 1.56 × 10⁻⁶ comes from forgetting the square root."
+    },
+    {
+      "text": "The gravitational potential at the centre of a uniform solid sphere of mass M and radius R is:",
+      "difficulty": "MEDIUM",
+      "options": ["−3GM/(2R)", "−GM/R", "−GM/(2R)", "Zero"],
+      "answer": 0,
+      "explanation": "Inside a uniform solid sphere, V(r) = −GM(3R² − r²)/(2R³).\nAt the centre r = 0, so V = −3GM/(2R).\nThe field at the centre is zero, but the potential is not. The potential at the centre is 1.5 times the surface value of −GM/R."
+    },
+    {
+      "text": "A planet moves around the Sun in an elliptical orbit. Its closest distance from the Sun is r and its farthest distance is 3r. The ratio of its maximum kinetic energy to its minimum kinetic energy is:",
+      "difficulty": "MEDIUM",
+      "options": ["3", "√3", "9", "1/9"],
+      "answer": 2,
+      "explanation": "Angular momentum about the Sun is conserved. At the closest and farthest points the velocity is perpendicular to the radius, so m·v_p·r = m·v_a·(3r), which gives v_p/v_a = 3.\nKE ∝ v², so KE_max/KE_min = 3² = 9."
+    },
+    {
+      "text": "A satellite moves in a circular orbit around the Earth. By what percentage must its speed be increased, instantaneously and along its direction of motion, for it to just escape from the Earth's gravitational field?",
+      "difficulty": "MEDIUM",
+      "options": ["100%", "50%", "29.3%", "41.4%"],
+      "answer": 3,
+      "explanation": "Orbital speed at radius r: v_o = √(GM/r).\nEscape speed from the same point: v_esc = √(2GM/r) = √2 × v_o.\nRequired increase = (√2 − 1) × 100% ≈ 41.4%. (29.3% is 1 − 1/√2, which is the wrong ratio.)"
+    },
+    {
+      "text": "The work done in raising a body of mass m from the Earth's surface to a height equal to the Earth's radius R is (g = acceleration due to gravity at the surface):",
+      "difficulty": "MEDIUM",
+      "options": ["mgR", "mgR/2", "2mgR", "mgR/4"],
+      "answer": 1,
+      "explanation": "W = U_final − U_initial = (−GMm/2R) − (−GMm/R) = GMm/(2R).\nUsing GM = gR², W = mgR/2.\nThe answer mgR is wrong because g is not constant over a height of R."
+    },
+    {
+      "text": "A body is projected vertically upward from the Earth's surface with a speed equal to half the escape velocity. Neglecting air resistance, the maximum height it reaches above the surface is (R = radius of the Earth):",
+      "difficulty": "HARD",
+      "options": ["R/4", "R/2", "R/3", "R"],
+      "answer": 2,
+      "explanation": "v = v_e/2 = (1/2)√(2GM/R), so v² = GM/(2R).\nEnergy conservation: ½mv² − GMm/R = −GMm/(R + h).\nGM/(4R) − GM/R = −3GM/(4R) = −GM/(R + h), so R + h = 4R/3.\nh = R/3. (R/4 comes from wrongly using h = v²/2g with constant g.)"
+    },
+    {
+      "text": "Two stars, each of mass M, stay a fixed distance d apart and move in circular orbits about their common centre of mass under their mutual gravitational attraction. The period of revolution is:",
+      "difficulty": "HARD",
+      "options": ["2π√(d³/(2GM))", "2π√(d³/(GM))", "2π√(d³/(8GM))", "2π√(2d³/(GM))"],
+      "answer": 0,
+      "explanation": "The centre of mass is at the midpoint, so each star moves in a circle of radius d/2.\nThe gravitational force (separation d) provides the centripetal force: Mω²(d/2) = GM²/d².\nω² = 2GM/d³, so T = 2π/ω = 2π√(d³/(2GM)).\nUsing radius d instead gives 2π√(d³/GM). Using distance d/2 in the force law as well gives 2π√(d³/(8GM))."
+    }
+  ]
+}

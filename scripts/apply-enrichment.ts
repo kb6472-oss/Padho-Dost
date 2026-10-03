@@ -63,7 +63,7 @@ async function applyFile(path: string) {
       typeof q.explanation === "string" && q.explanation.trim() &&
       DIFFS.includes(q.difficulty) &&
       Array.isArray(q.options) && q.options.length === 4 && q.options.every((o) => typeof o === "string" && o.trim()) &&
-      new Set(q.options.map(norm)).size === 4 &&
+      new Set(q.options.map((o) => o.replace(/\s+/g, " ").trim())).size === 4 && // case matters: Tt vs TT vs tt
       Number.isInteger(q.answer) && q.answer >= 0 && q.answer < 4 &&
       !seen.has(norm(q.text));
     if (ok) seen.add(norm(q.text));

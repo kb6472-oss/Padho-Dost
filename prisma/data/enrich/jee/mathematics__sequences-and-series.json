@@ -1,0 +1,107 @@
+{
+  "exam": "jee",
+  "subject": "mathematics",
+  "chapter": "sequences-and-series",
+  "notes": {
+    "summary": "Sequences and Series covers arithmetic and geometric progressions, arithmetic, geometric and harmonic means with the AM–GM inequality, sums of special series (Σn, Σn², Σn³), arithmetico-geometric series and the method of differences. JEE Main asks quick term and sum manipulations, AM–GM based maximum or minimum problems and sums of non-standard series.",
+    "keyPoints": [
+      "AP: aₙ = a + (n − 1)d, Sₙ = (n/2)[2a + (n − 1)d] = (n/2)(a + l). Also aₙ = Sₙ − Sₙ₋₁, so Sₙ = 3n² + 5n gives aₙ = 6n + 2.",
+      "If the ratio of Sₙ for two APs is given as a function of n, the ratio of their k-th terms is that function evaluated at n = 2k − 1.",
+      "GP: aₙ = arⁿ⁻¹, Sₙ = a(rⁿ − 1)/(r − 1) for r ≠ 1, S∞ = a/(1 − r) for |r| < 1. The squares of a GP form a GP with ratio r².",
+      "Take three terms in AP as a − d, a, a + d and three terms in GP as a/r, a, ar so that the sum or product simplifies at once.",
+      "Means of positive a, b: AM = (a + b)/2, GM = √(ab), HM = 2ab/(a + b); AM ≥ GM ≥ HM and GM² = AM × HM.",
+      "AM–GM for optimisation: split terms so the product is fixed, e.g. for max of xy²z³ with x + y + z = 6 use the six terms x, y/2, y/2, z/3, z/3, z/3.",
+      "Standard sums: Σn = n(n + 1)/2, Σn² = n(n + 1)(2n + 1)/6, Σn³ = [n(n + 1)/2]², Σn(n + 1) = n(n + 1)(n + 2)/3.",
+      "Method of differences: if successive differences form an AP or GP, find Tₙ first (1, 3, 7, 15, … has Tₙ = 2ⁿ − 1), then sum.",
+      "Telescoping: write Tₙ = f(n) − f(n + 1), e.g. 1/(n(n + 1)) = 1/n − 1/(n + 1).",
+      "Sum of numbers divisible by 3 or 5 up to N = S(multiples of 3) + S(multiples of 5) − S(multiples of 15)."
+    ],
+    "traps": [
+      "Using Sₙ itself as the n-th term; the n-th term is Sₙ − Sₙ₋₁.",
+      "Substituting n = k instead of n = 2k − 1 in the sum ratio when asked for the ratio of k-th terms.",
+      "Applying S∞ = a/(1 − r) when |r| ≥ 1.",
+      "Using an equal split (x = y = z) in AM–GM when the variables carry unequal powers.",
+      "Double-counting common multiples, such as multiples of 15, when adding two APs."
+    ],
+    "examTip": "For any 'find the sum' question, write the general term Tₙ first — it tells you immediately whether to use AP or GP formulas, standard sums or telescoping."
+  },
+  "questions": [
+    {
+      "text": "The sum of the first n terms of an arithmetic progression is Sₙ = 3n² + 5n. The 10th term of this AP is:",
+      "difficulty": "EASY",
+      "options": ["350", "62", "56", "68"],
+      "answer": 1,
+      "explanation": "The n-th term is aₙ = Sₙ − Sₙ₋₁.\nS₁₀ = 3(100) + 5(10) = 350; S₉ = 3(81) + 5(9) = 288.\na₁₀ = 350 − 288 = 62.\n(Equivalently aₙ = 6n + 2, giving a₁₀ = 62; 350 is S₁₀, not a₁₀.)"
+    },
+    {
+      "text": "The arithmetic mean and the geometric mean of two positive numbers are 10 and 8 respectively. The two numbers are:",
+      "difficulty": "EASY",
+      "options": ["12 and 8", "10 and 10", "18 and 2", "16 and 4"],
+      "answer": 3,
+      "explanation": "AM = 10 gives a + b = 20; GM = 8 gives ab = 64.\nThe numbers are roots of t² − 20t + 64 = 0, i.e. (t − 16)(t − 4) = 0.\nThe numbers are 16 and 4. Check: (16 + 4)/2 = 10 and √64 = 8."
+    },
+    {
+      "text": "Three numbers are in geometric progression. Their product is 216 and their sum is 19. The largest of the three numbers is:",
+      "difficulty": "EASY",
+      "options": ["9", "12", "6", "8"],
+      "answer": 0,
+      "explanation": "Take the numbers as a/r, a, ar. Product = a³ = 216, so a = 6.\nSum: 6/r + 6 + 6r = 19, so 6r² − 13r + 6 = 0.\n(2r − 3)(3r − 2) = 0, giving r = 3/2 or 2/3.\nEither way the numbers are 4, 6, 9, so the largest is 9."
+    },
+    {
+      "text": "The sum of all natural numbers from 1 to 100 that are divisible by 3 or by 5 is:",
+      "difficulty": "MEDIUM",
+      "options": ["2733", "2418", "2103", "1683"],
+      "answer": 1,
+      "explanation": "Multiples of 3: 3, 6, …, 99 — 33 terms, sum = 33 × (3 + 99)/2 = 1683.\nMultiples of 5: 5, 10, …, 100 — 20 terms, sum = 20 × (5 + 100)/2 = 1050.\nMultiples of 15 are counted twice: 15, 30, …, 90 — 6 terms, sum = 6 × (15 + 90)/2 = 315.\nRequired sum = 1683 + 1050 − 315 = 2418."
+    },
+    {
+      "text": "The sum 1·2 + 2·3 + 3·4 + … + 10·11 is:",
+      "difficulty": "MEDIUM",
+      "options": ["385", "495", "440", "330"],
+      "answer": 2,
+      "explanation": "General term Tₖ = k(k + 1) = k² + k.\nSum = Σk² + Σk for k = 1 to 10 = 385 + 55 = 440.\nCheck with Σk(k + 1) = n(n + 1)(n + 2)/3 = 10 × 11 × 12/3 = 440."
+    },
+    {
+      "text": "In an arithmetic progression, the m-th term is 1/n and the n-th term is 1/m, where m ≠ n. The (mn)-th term of the AP is:",
+      "difficulty": "MEDIUM",
+      "options": ["0", "1/(mn)", "mn", "1"],
+      "answer": 3,
+      "explanation": "a + (m − 1)d = 1/n and a + (n − 1)d = 1/m.\nSubtract: (m − n)d = 1/n − 1/m = (m − n)/(mn), so d = 1/(mn).\nThen a = 1/n − (m − 1)/(mn) = 1/(mn).\nT(mn) = a + (mn − 1)d = 1/(mn) + (mn − 1)/(mn) = 1."
+    },
+    {
+      "text": "The sums of the first n terms of two arithmetic progressions are in the ratio (7n + 1) : (4n + 27) for every n. The ratio of their 11th terms is:",
+      "difficulty": "MEDIUM",
+      "options": ["78 : 71", "4 : 3", "3 : 4", "7 : 4"],
+      "answer": 1,
+      "explanation": "Sₙ/Sₙ' = [2a + (n − 1)d]/[2a' + (n − 1)d'].\nThe k-th term ratio is [a + (k − 1)d]/[a' + (k − 1)d'], which matches when n − 1 = 2(k − 1), i.e. n = 2k − 1.\nFor k = 11, put n = 21: (7 × 21 + 1)/(4 × 21 + 27) = 148/111 = 4/3.\n(78 : 71 comes from wrongly putting n = 11.)"
+    },
+    {
+      "text": "The value of 1² − 2² + 3² − 4² + … + 19² − 20² is:",
+      "difficulty": "MEDIUM",
+      "options": ["−210", "210", "−200", "−420"],
+      "answer": 0,
+      "explanation": "Pair the terms: (1² − 2²) + (3² − 4²) + … + (19² − 20²).\nEach pair (2k − 1)² − (2k)² = (2k − 1 − 2k)(2k − 1 + 2k) = −(4k − 1).\nSum over k = 1 to 10: −(4 × 55 − 10) = −210.\nShortcut: the total equals −(1 + 2 + … + 20) = −210."
+    },
+    {
+      "text": "An infinite geometric progression with common ratio r (|r| < 1) has sum 3, and the sum of the squares of its terms is 9/2. The first term of the progression is:",
+      "difficulty": "MEDIUM",
+      "options": ["1", "3/2", "2", "3"],
+      "answer": 2,
+      "explanation": "a/(1 − r) = 3 … (1). The squares form a GP with ratio r², so a²/(1 − r²) = 9/2 … (2).\nSquaring (1): a²/(1 − r)² = 9. Dividing (2) by this: (1 − r)/(1 + r) = 1/2.\n2 − 2r = 1 + r, so r = 1/3.\nFrom (1): a = 3(1 − 1/3) = 2. Check: 4/(1 − 1/9) = 4.5."
+    },
+    {
+      "text": "If x, y, z are positive real numbers with x + y + z = 6, then the maximum value of x y² z³ is:",
+      "difficulty": "HARD",
+      "options": ["64", "216", "36", "108"],
+      "answer": 3,
+      "explanation": "Write the sum as six terms: x + y/2 + y/2 + z/3 + z/3 + z/3 = 6.\nAM ≥ GM: 6/6 ≥ [x (y/2)² (z/3)³]^(1/6), so x y² z³/(4 × 27) ≤ 1.\nx y² z³ ≤ 108, with equality when x = y/2 = z/3 = 1, i.e. x = 1, y = 2, z = 3 (sum 6).\nMaximum = 108. (x = y = z = 2 gives only 64.)"
+    },
+    {
+      "text": "The sum of the first 10 terms of the series 1 + 3 + 7 + 15 + 31 + … is:",
+      "difficulty": "HARD",
+      "options": ["2046", "1023", "2036", "2047"],
+      "answer": 2,
+      "explanation": "Successive differences are 2, 4, 8, 16, … (a GP), which suggests Tₙ = 2ⁿ − 1; check: 1, 3, 7, 15, 31.\nS₁₀ = Σ(2ⁿ − 1) for n = 1 to 10 = (2 + 4 + … + 2¹⁰) − 10.\n2 + 4 + … + 2¹⁰ = 2(2¹⁰ − 1) = 2046.\nS₁₀ = 2046 − 10 = 2036."
+    }
+  ]
+}

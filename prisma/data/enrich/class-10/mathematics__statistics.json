@@ -1,0 +1,111 @@
+{
+  "exam": "class-10",
+  "subject": "mathematics",
+  "chapter": "statistics",
+  "notes": {
+    "summary": "This chapter covers the mean, median and mode of grouped data. CBSE tests direct calculation from frequency tables, finding a missing frequency from a given mean or median, identifying the median and modal classes, and using the empirical relation between the three measures.",
+    "keyPoints": [
+      "Class mark xᵢ = (lower limit + upper limit)/2; class size h = difference between consecutive class marks (class marks 15, 20, 25 → h = 5, class of mark 20 is 17.5–22.5).",
+      "Mean by direct method: x̄ = Σfᵢxᵢ / Σfᵢ.",
+      "Assumed-mean method: dᵢ = xᵢ − a, x̄ = a + Σfᵢdᵢ/Σfᵢ. Step-deviation method: uᵢ = (xᵢ − a)/h, x̄ = a + h × Σfᵢuᵢ/Σfᵢ. All three methods give the same mean.",
+      "Median of grouped data = l + [(n/2 − cf)/f] × h, where l = lower limit of the median class, cf = cumulative frequency of the class just BEFORE the median class, f = frequency of the median class.",
+      "Median class = the first class whose cumulative frequency is greater than or equal to n/2.",
+      "Mode = l + [(f₁ − f₀)/(2f₁ − f₀ − f₂)] × h, where f₁ = frequency of the modal class, f₀ = frequency of the class before it, f₂ = frequency of the class after it.",
+      "Empirical relation: 3 Median = Mode + 2 Mean. Example: mode 24 and mean 30 give median = (24 + 60)/3 = 28.",
+      "The sum of deviations of observations from their mean is always zero: Σ(xᵢ − x̄) = 0.",
+      "Classes must be continuous for the median and mode formulas; convert 10–19, 20–29 into 9.5–19.5, 19.5–29.5 before applying them."
+    ],
+    "traps": [
+      "Using the cumulative frequency of the median class itself instead of the class just before it.",
+      "Taking the class with the highest frequency as the median class; that is the modal class.",
+      "Swapping f₀ and f₂ in the mode formula, or using the lower limit of the wrong class.",
+      "Using lower or upper class limits instead of class marks while finding the mean.",
+      "Applying the median or mode formula to inclusive (discontinuous) classes without adjusting the limits."
+    ],
+    "examTip": "Always add a cumulative-frequency column first; it gives n, locates the median class instantly and earns step marks."
+  },
+  "questions": [
+    {
+      "text": "The mean of the five observations x, x + 2, x + 4, x + 6 and x + 8 is 11. The value of x is",
+      "difficulty": "EASY",
+      "options": ["7", "11", "5", "9"],
+      "answer": 0,
+      "explanation": "Sum of observations = 5x + 20.\nMean = (5x + 20)/5 = x + 4.\nx + 4 = 11, so x = 7."
+    },
+    {
+      "text": "The class marks of a frequency distribution are 15, 20, 25, 30, ... The class corresponding to the class mark 20 is",
+      "difficulty": "EASY",
+      "options": ["15–20", "17.5–22.5", "20–25", "18–22"],
+      "answer": 1,
+      "explanation": "Class size h = difference between consecutive class marks = 20 − 15 = 5.\nThe class extends h/2 = 2.5 on either side of its class mark.\nClass = (20 − 2.5) to (20 + 2.5) = 17.5–22.5."
+    },
+    {
+      "text": "The sum of the deviations of a set of n observations from their mean is always",
+      "difficulty": "EASY",
+      "options": ["equal to the mean", "1", "0", "equal to n"],
+      "answer": 2,
+      "explanation": "Σ(xᵢ − x̄) = Σxᵢ − n x̄.\nSince x̄ = Σxᵢ/n, Σxᵢ = n x̄, so Σ(xᵢ − x̄) = n x̄ − n x̄ = 0.\nExample: 2, 4, 9 have mean 5; the deviations −3, −1 and +4 add up to 0."
+    },
+    {
+      "text": "Find the mean of the following frequency distribution:\nClass: 10–20 | 20–30 | 30–40 | 40–50 | 50–60\nFrequency: 2 | 3 | 8 | 4 | 3",
+      "difficulty": "MEDIUM",
+      "options": ["36.5", "31.5", "41.5", "35"],
+      "answer": 0,
+      "explanation": "Class marks xᵢ: 15, 25, 35, 45, 55.\nfᵢxᵢ: 30, 75, 280, 180, 165; Σfᵢxᵢ = 730 and Σfᵢ = 20.\nMean = 730 ÷ 20 = 36.5.\n(31.5 and 41.5 come from wrongly using lower and upper limits instead of class marks.)"
+    },
+    {
+      "text": "Find the median of the following frequency distribution:\nClass: 0–20 | 20–40 | 40–60 | 60–80 | 80–100\nFrequency: 6 | 8 | 10 | 12 | 4",
+      "difficulty": "MEDIUM",
+      "options": ["46", "52", "32", "50"],
+      "answer": 1,
+      "explanation": "n = 40, so n/2 = 20. Cumulative frequencies: 6, 14, 24, 36, 40.\nThe first cf ≥ 20 is 24, so the median class is 40–60: l = 40, cf = 14, f = 10, h = 20.\nMedian = l + [(n/2 − cf)/f] × h = 40 + [(20 − 14)/10] × 20 = 40 + 12 = 52.\n(32 comes from wrongly using cf = 24 of the median class itself.)"
+    },
+    {
+      "text": "Find the mode of the following frequency distribution:\nClass: 0–10 | 10–20 | 20–30 | 30–40 | 40–50\nFrequency: 6 | 10 | 18 | 12 | 4",
+      "difficulty": "MEDIUM",
+      "options": ["25", "24.29", "25.71", "22.11"],
+      "answer": 2,
+      "explanation": "The highest frequency is 18, so the modal class is 20–30: l = 20, f₁ = 18, f₀ = 10, f₂ = 12, h = 10.\nMode = l + [(f₁ − f₀)/(2f₁ − f₀ − f₂)] × h = 20 + [8/(36 − 10 − 12)] × 10.\n= 20 + (8/14) × 10 = 20 + 5.71 = 25.71.\n(24.29 results from swapping f₀ and f₂.)"
+    },
+    {
+      "text": "For a frequency distribution, the mode is 24 and the mean is 30. Using the empirical relationship between mean, median and mode, the median is",
+      "difficulty": "MEDIUM",
+      "options": ["27", "28", "33", "26"],
+      "answer": 1,
+      "explanation": "Empirical relation: Mode = 3 Median − 2 Mean, i.e. 3 Median = Mode + 2 Mean.\n3 Median = 24 + 2 × 30 = 84.\nMedian = 28.\n(27 is just the average of 24 and 30, which is not the empirical relation.)"
+    },
+    {
+      "text": "Consider the following distribution:\nClass: 0–5 | 5–10 | 10–15 | 15–20 | 20–25\nFrequency: 10 | 15 | 12 | 20 | 9\nThe sum of the lower limits of the median class and the modal class is",
+      "difficulty": "MEDIUM",
+      "options": ["15", "30", "35", "25"],
+      "answer": 3,
+      "explanation": "n = 66, so n/2 = 33. Cumulative frequencies: 10, 25, 37, 57, 66.\nThe first cf ≥ 33 is 37, so the median class is 10–15 (lower limit 10).\nThe highest frequency is 20, so the modal class is 15–20 (lower limit 15).\nSum = 10 + 15 = 25."
+    },
+    {
+      "text": "Assertion (A): The median of the data 2, 3, 9, 16, 9, 3, 9 is 16.\nReason (R): The median is the middle-most observation when the data are arranged in ascending or descending order.\nChoose the correct option.",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A.",
+        "Both A and R are true but R is not the correct explanation of A.",
+        "A is true but R is false.",
+        "A is false but R is true."
+      ],
+      "answer": 3,
+      "explanation": "R is the correct definition of median, so R is true.\nArranging the data: 2, 3, 3, 9, 9, 9, 16. With n = 7, the median is the 4th value = 9, not 16 (16 is the middle of the unarranged list).\nHence A is false but R is true."
+    },
+    {
+      "text": "The mean of the following distribution is 25. Find the missing frequency x.\nClass: 0–10 | 10–20 | 20–30 | 30–40 | 40–50\nFrequency: 5 | x | 10 | 6 | 4",
+      "difficulty": "HARD",
+      "options": ["4", "5", "6", "8"],
+      "answer": 0,
+      "explanation": "Class marks: 5, 15, 25, 35, 45. Σf = 25 + x.\nΣfx = 25 + 15x + 250 + 210 + 180 = 665 + 15x.\nMean: (665 + 15x)/(25 + x) = 25, so 665 + 15x = 625 + 25x, giving 10x = 40.\nx = 4. Check: Σf = 29, Σfx = 725 and 725 ÷ 29 = 25."
+    },
+    {
+      "text": "The median of the following distribution is 27. Find the missing frequency f.\nClass: 0–10 | 10–20 | 20–30 | 30–40 | 40–50\nFrequency: 5 | 8 | f | 10 | 7",
+      "difficulty": "HARD",
+      "options": ["8", "12", "10", "7"],
+      "answer": 2,
+      "explanation": "n = 30 + f. The median 27 lies in 20–30, so l = 20, cf = 5 + 8 = 13, h = 10, and the class frequency is f.\n27 = 20 + [((30 + f)/2 − 13)/f] × 10, so 7f = 5(30 + f) − 130 = 20 + 5f.\n2f = 20, so f = 10.\nCheck: n = 40, n/2 = 20, cumulative frequencies 5, 13, 23, so 20–30 is indeed the median class and median = 20 + (7/10) × 10 = 27."
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "exam": "class-11",
+  "subject": "physics",
+  "chapter": "laws-of-motion",
+  "notes": {
+    "summary": "This chapter covers Newton's three laws of motion, momentum and impulse, conservation of linear momentum, equilibrium of concurrent forces, static, kinetic and rolling friction, and the dynamics of uniform circular motion including vehicles on level and banked roads. CBSE tests conceptual statements about the laws and free-body-diagram numericals on blocks, pulleys, lifts, inclines and circular turns.",
+    "keyPoints": [
+      "First law (law of inertia): a body stays at rest or in uniform motion in a straight line unless a net external force acts on it. Mass is the measure of inertia. A passenger falls forward when a bus stops suddenly (inertia of motion).",
+      "Second law: F = dp/dt, which becomes F = ma for constant mass; 1 N = 1 kg m s⁻². Impulse J = F × Δt = Δp, unit N s. For a fixed Δp, a longer Δt means a smaller force (catching a ball with moving hands, airbags, sand pits).",
+      "Third law: action and reaction are equal in magnitude, opposite in direction, simultaneous and act on different bodies, so they never cancel each other. Rocket propulsion and walking are examples.",
+      "Conservation of linear momentum: with no net external force, total momentum stays constant. Gun recoil: mv = MV. An object exploding from rest gives fragments equal and opposite momenta; the lighter fragment gets more kinetic energy since KE = p²/2m.",
+      "Equilibrium of a particle: the vector sum of all forces is zero. For three concurrent forces, each force is equal and opposite to the resultant of the other two (6 N east and 8 N north are balanced by 10 N directed opposite to their resultant, about 53° south of west).",
+      "Friction: static friction is self-adjusting up to a maximum fs(max) = μs N; kinetic friction fk = μk N with μk < μs; friction is independent of the area of contact. A block just slides on an incline when tan θ = μs (angle of repose). Rolling friction is much smaller than sliding friction; lubricants and ball bearings reduce friction.",
+      "Connected bodies on a smooth surface: a = F/(m₁ + m₂); when F pushes m₁ against m₂, the contact force on m₂ is m₂a (20 N on 4 kg + 6 kg gives a = 2 m/s² and contact force 12 N). Apparent weight in a lift: m(g + a) accelerating up, m(g − a) accelerating down, zero in free fall.",
+      "Uniform circular motion needs a centripetal force mv²/r directed towards the centre. On a level road, friction supplies it: vmax = √(μs r g). On a banked road without friction, the ideal speed is v₀ = √(r g tan θ); with friction, vmax = √[r g (μs + tan θ)/(1 − μs tan θ)]."
+    ],
+    "traps": [
+      "Thinking that action and reaction cancel each other; they act on two different bodies.",
+      "Using the difference of speeds instead of their sum when a ball reverses direction in an impulse question.",
+      "Assuming static friction always equals μs N; it only reaches this maximum when the body is about to slide.",
+      "Treating centripetal force as a separate new force; it is always provided by friction, tension, normal reaction, gravity or a combination.",
+      "In contact-force problems, multiplying the acceleration by the wrong mass; the force on the pushed block is (mass of pushed block) × a."
+    ],
+    "examTip": "Draw a separate free-body diagram for each body, list every force with the agent that exerts it, and then apply ΣF = ma along the direction of acceleration."
+  },
+  "questions": [
+    {
+      "text": "When a moving bus stops suddenly, the passengers standing in it tend to fall forward. This is due to:",
+      "difficulty": "EASY",
+      "options": ["Inertia of rest", "Inertia of motion", "Newton's third law of motion", "Friction between the floor and the feet"],
+      "answer": 1,
+      "explanation": "The feet of a standing passenger stop along with the bus because of friction with the floor. The upper part of the body, however, tends to keep moving forward with its earlier velocity, as Newton's first law states. This tendency of a moving body to continue its motion is called inertia of motion, so the passenger falls forward."
+    },
+    {
+      "text": "For a body moving in a circle with uniform speed, the net force acting on it is directed:",
+      "difficulty": "EASY",
+      "options": ["Along the tangent to the circle", "Away from the centre", "Towards the centre of the circle", "Perpendicular to the plane of the circle"],
+      "answer": 2,
+      "explanation": "In uniform circular motion the speed is constant, but the direction of velocity changes continuously. This requires a centripetal acceleration v²/r directed towards the centre. By Newton's second law, the net force mv²/r is also directed towards the centre. So the answer is towards the centre of the circle."
+    },
+    {
+      "text": "A rocket moves upward by pushing hot exhaust gases backward out of its nozzle. This is best explained by:",
+      "difficulty": "EASY",
+      "options": ["Newton's first law of motion", "The law of gravitation", "Archimedes' principle", "Newton's third law of motion (conservation of linear momentum)"],
+      "answer": 3,
+      "explanation": "The rocket exerts a force on the exhaust gases, pushing them backward (action). The gases exert an equal and opposite force on the rocket, pushing it forward (reaction). Equivalently, the total momentum of rocket and gases is conserved, so the backward momentum given to the gases equals the forward momentum gained by the rocket. Hence the answer is Newton's third law."
+    },
+    {
+      "text": "A cricket ball of mass 0.15 kg moving at 12 m/s is hit by a bat and returns along the same line at 20 m/s. The magnitude of the impulse imparted to the ball is:",
+      "difficulty": "MEDIUM",
+      "options": ["4.8 N s", "1.2 N s", "3.0 N s", "1.8 N s"],
+      "answer": 0,
+      "explanation": "Impulse = change in momentum = m(v − u). Take the direction of the return as positive: u = −12 m/s and v = +20 m/s. Impulse = 0.15 × [20 − (−12)] = 0.15 × 32 = 4.8 N s. Using 20 − 12 = 8 m/s would wrongly give 1.2 N s because it ignores the reversal of direction."
+    },
+    {
+      "text": "A cricketer moves his hands backward while catching a fast-moving ball. This helps because it:",
+      "difficulty": "MEDIUM",
+      "options": ["Reduces the total change in momentum of the ball", "Increases the time of impact and so reduces the force on the hands", "Increases the force so that the ball stops quickly", "Reduces the mass of the ball"],
+      "answer": 1,
+      "explanation": "The ball has to be brought to rest, so its change in momentum Δp is fixed whatever the cricketer does. Since F × Δt = Δp, increasing the stopping time Δt reduces the average force F. Moving the hands back increases Δt, so the force on the hands is smaller and they are less likely to get hurt."
+    },
+    {
+      "text": "A block placed on a rough inclined plane just begins to slide down when the angle of inclination is increased to 30°. The coefficient of static friction between the block and the plane is:",
+      "difficulty": "MEDIUM",
+      "options": ["1/2", "√3", "1/√3 (about 0.58)", "√3/2"],
+      "answer": 2,
+      "explanation": "When the block is just about to slide, friction is at its limiting value. Along the incline: mg sin θ = μs N, and perpendicular to it: N = mg cos θ. So μs = tan θ = tan 30° = 1/√3 ≈ 0.58. This angle is called the angle of repose."
+    },
+    {
+      "text": "A car takes a turn on a level (unbanked) circular road of radius 50 m. The coefficient of static friction between the tyres and the road is 0.2. Taking g = 10 m/s², the maximum safe speed of the car is:",
+      "difficulty": "MEDIUM",
+      "options": ["100 m/s", "5 m/s", "20 m/s", "10 m/s"],
+      "answer": 3,
+      "explanation": "On a level road, static friction provides the centripetal force: mv²/r ≤ μs mg. So vmax = √(μs r g). vmax = √(0.2 × 50 × 10) = √100 = 10 m/s. (100 is v² in m²/s², not the speed.)"
+    },
+    {
+      "text": "Two blocks of masses 4 kg and 6 kg are placed in contact on a smooth horizontal floor. A horizontal force of 20 N is applied to the 4 kg block, pushing both blocks together. The force exerted by the 4 kg block on the 6 kg block is:",
+      "difficulty": "MEDIUM",
+      "options": ["8 N", "12 N", "20 N", "10 N"],
+      "answer": 1,
+      "explanation": "Both blocks move together, so a = F/(m₁ + m₂) = 20/(4 + 6) = 2 m/s². The only horizontal force on the 6 kg block is the contact force from the 4 kg block. Contact force = m₂a = 6 × 2 = 12 N. (8 N is the net force on the 4 kg block, 20 − 12.)"
+    },
+    {
+      "text": "A particle is in equilibrium under three concurrent forces. Two of them are 6 N towards east and 8 N towards north. The third force is:",
+      "difficulty": "MEDIUM",
+      "options": ["10 N, directed opposite to the resultant of the two forces", "14 N, directed opposite to the resultant of the two forces", "10 N, directed along the resultant of the two forces", "2 N, directed towards west"],
+      "answer": 0,
+      "explanation": "For equilibrium the net force must be zero, so the third force must cancel the resultant of the other two. The two given forces are perpendicular, so their resultant = √(6² + 8²) = √100 = 10 N, pointing at tan⁻¹(4/3) ≈ 53° north of east. The third force must therefore be 10 N directed exactly opposite to this resultant, i.e. at tan⁻¹(4/3) ≈ 53° south of west."
+    },
+    {
+      "text": "A car moves at 20 m/s on a circular road of radius 40 m. Taking g = 10 m/s², the angle at which the road should be banked so that no friction is needed for the turn is:",
+      "difficulty": "HARD",
+      "options": ["30°", "60°", "45°", "tan⁻¹(0.5)"],
+      "answer": 2,
+      "explanation": "On a frictionless banked road, the horizontal component of the normal reaction provides the centripetal force: N sin θ = mv²/r, and the vertical component balances the weight: N cos θ = mg. Dividing the two equations: tan θ = v²/(rg). tan θ = 20²/(40 × 10) = 400/400 = 1. So θ = 45°."
+    },
+    {
+      "text": "A shell of mass 3 kg at rest explodes into two fragments of masses 1 kg and 2 kg. The 1 kg fragment flies off with a speed of 20 m/s. The kinetic energy of the 2 kg fragment is:",
+      "difficulty": "HARD",
+      "options": ["100 J", "200 J", "400 J", "50 J"],
+      "answer": 0,
+      "explanation": "The initial momentum is zero, so by conservation of momentum the two fragments have equal and opposite momenta: 1 × 20 = 2 × v, giving v = 10 m/s. KE of the 2 kg fragment = ½ × 2 × 10² = 100 J. (200 J is the KE of the 1 kg fragment; the lighter piece carries more kinetic energy.)"
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "exam": "upsc",
+  "subject": "indian-economy",
+  "chapter": "banking-fiscal-policy",
+  "notes": {
+    "summary": "This chapter covers the RBI and its monetary policy tools, measures of money supply, banking terms such as NPAs, and the government's budget: receipts, deficits, constitutional funds and taxes like GST. UPSC Prelims tests it with statement-based questions on the direction of a policy tool's effect, exact deficit definitions and the constitutional articles behind fiscal institutions.",
+    "keyPoints": [
+      "RBI: set up in 1935 on the Hilton Young Commission's recommendation, nationalised in 1949. It has the sole right to issue banknotes (Section 22, RBI Act); ₹1 notes and all coins are issued by the Government of India under the Coinage Act, 2011.",
+      "Quantitative tools: CRR (cash kept with the RBI as a share of NDTL), SLR (cash, gold or approved securities kept by banks themselves), repo (RBI lends), reverse repo and Standing Deposit Facility (RBI absorbs), MSF (overnight borrowing above repo, can dip into SLR securities; ceiling of the corridor), Bank Rate and Open Market Operations.",
+      "Liquidity direction: OMO purchase, CRR/SLR cut and rate cuts inject liquidity; OMO sale, CRR hike and RBI selling dollars absorb it. To fight inflation the RBI raises repo or CRR.",
+      "Inflation targeting: the 2016 amendment to the RBI Act added Section 45ZA (the Centre sets the CPI target in consultation with the RBI, once every five years) and Section 45ZB (a six-member Monetary Policy Committee chaired by the Governor, who has a casting vote). The target notified for 2016–21 and again for 2021–26 was 4% CPI inflation with a tolerance band of 2% to 6%.",
+      "Money supply: M1 = currency with public + demand deposits + other deposits with RBI; M2 = M1 + post office savings deposits; M3 (broad money) = M1 + net time deposits of banks; M4 = M3 + total post office deposits (excluding NSCs). Liquidity falls from M1 to M4. Money multiplier = 1 ÷ reserve ratio (20% gives 5).",
+      "Deficits: Fiscal deficit = total expenditure − (revenue receipts + non-debt capital receipts); Revenue deficit = revenue expenditure − revenue receipts; Primary deficit = fiscal deficit − interest payments; Effective revenue deficit = revenue deficit − grants for creation of capital assets. Example: expenditure 480, revenue receipts 300, non-debt capital receipts 20, interest 100 gives FD 160 and PD 60.",
+      "Capital receipts either create a liability (borrowings) or reduce assets (disinvestment, loan recovery). Dividends and interest received are non-tax revenue receipts.",
+      "Funds and articles: Consolidated Fund of India – Art 266(1); Public Account (provident funds, small savings, deposits) – Art 266(2); Contingency Fund – Art 267; Finance Commission – Art 280; IGST – Art 269A; GST Council – Art 279A; alcoholic liquor for human consumption is outside GST (Art 366(12A)).",
+      "NPA: a loan whose interest or principal is overdue for more than 90 days (norm since 2004). Sub-categories: substandard (NPA up to 12 months), doubtful (substandard for over 12 months) and loss assets."
+    ],
+    "traps": [
+      "Swapping repo (RBI lends to banks) and reverse repo (RBI borrows from banks), or thinking the MSF rate is below the repo rate.",
+      "Believing SLR is kept with the RBI; only CRR is held with the RBI, SLR assets are held by the banks themselves.",
+      "Treating dividends or interest receipts as capital receipts, or counting borrowings as 'receipts' when computing the fiscal deficit.",
+      "Assuming all currency, including ₹1 notes and coins, is issued by the RBI.",
+      "Putting post office savings deposits in M3; they belong to M2 and M4."
+    ],
+    "examTip": "For any deficit question, write FD = expenditure − non-debt receipts first; the revenue and primary deficits then follow in one step each."
+  },
+  "questions": [
+    {
+      "text": "The 'reverse repo rate' of the Reserve Bank of India is the rate at which:",
+      "difficulty": "EASY",
+      "options": [
+        "Commercial banks lend to their most creditworthy corporate customers",
+        "The RBI borrows money from commercial banks against government securities",
+        "The RBI lends short-term funds to commercial banks against government securities",
+        "Commercial banks lend to one another in the call money market"
+      ],
+      "answer": 1,
+      "explanation": "Under repo, the RBI lends to banks against securities (option C).\nUnder reverse repo the transaction is reversed: banks park surplus funds with the RBI, which pays them the reverse repo rate, so liquidity is absorbed from the system.\nOption A describes a bank's prime lending rate and option D the call rate. (Since 2022 the Standing Deposit Facility forms the floor of the policy corridor, but the definition of reverse repo is unchanged.)\nAnswer: The RBI borrows money from commercial banks."
+    },
+    {
+      "text": "As per the RBI's prudential norms, a term loan is classified as a Non-Performing Asset (NPA) when the interest or instalment of principal remains overdue for more than:",
+      "difficulty": "EASY",
+      "options": [
+        "30 days",
+        "60 days",
+        "180 days",
+        "90 days"
+      ],
+      "answer": 3,
+      "explanation": "The RBI adopted the 90-day overdue norm for identifying NPAs from March 2004; earlier the period was 180 days.\nAccounts overdue for 1–30, 31–60 and 61–90 days are flagged as Special Mention Accounts SMA-0, SMA-1 and SMA-2 before they turn into NPAs.\nNPAs are further classified as substandard, doubtful and loss assets.\nAnswer: 90 days."
+    },
+    {
+      "text": "Money received by the Government of India on account of provident funds, small savings deposits and similar deposits, where the government acts largely as a banker, is credited to:",
+      "difficulty": "EASY",
+      "options": [
+        "The Consolidated Fund of India",
+        "The Contingency Fund of India",
+        "The Public Account of India",
+        "The Consolidated Fund of the States"
+      ],
+      "answer": 2,
+      "explanation": "Article 266(1) places all revenues, loans raised and loan recoveries of the Union in the Consolidated Fund of India.\nArticle 266(2) says all other public money received by the government goes to the Public Account of India; this includes provident funds and small savings (through the National Small Savings Fund).\nSince this money belongs to depositors, payments from the Public Account do not need appropriation by Parliament. The Contingency Fund (Art 267) is a separate emergency imprest.\nAnswer: The Public Account of India."
+    },
+    {
+      "text": "With reference to the measures of money supply used by the RBI, consider the following statements:\n1. M3 is known as 'broad money' and includes net time deposits with banks.\n2. M1 is the most liquid of the money supply measures.\n3. Savings deposits with post office savings banks are included in M3.\nWhich of the statements given above is/are correct?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "answer": 0,
+      "explanation": "M1 = currency with the public + demand deposits + other deposits with the RBI; it is the most liquid measure, so statement 2 is correct.\nM3 = M1 + net time deposits of banks and is called broad money, so statement 1 is correct.\nPost office savings deposits are added in M2 (M1 + post office savings deposits) and in M4, not in M3, so statement 3 is wrong.\nAnswer: 1 and 2 only."
+    },
+    {
+      "text": "Which of the following are capital receipts of the Government of India?\n1. Proceeds from disinvestment of shares in public sector enterprises\n2. Recovery of loans given to State Governments\n3. Dividends received from public sector enterprises\n4. Market borrowings through dated government securities\nSelect the correct answer using the code given below:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "1 and 2 only",
+        "3 and 4 only",
+        "1, 2 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "answer": 2,
+      "explanation": "A capital receipt either creates a liability or reduces the government's assets.\nDisinvestment reduces assets (shares sold), loan recovery reduces assets (loans outstanding) and borrowings create a liability, so 1, 2 and 4 are capital receipts.\nDividends from PSUs neither create a liability nor reduce assets; they are non-tax revenue receipts.\nAnswer: 1, 2 and 4 only."
+    },
+    {
+      "text": "Consider the following statements about the Marginal Standing Facility (MSF) of the RBI:\n1. It enables scheduled commercial banks to borrow funds from the RBI on an overnight basis.\n2. Banks may use a part of the securities held for meeting their Statutory Liquidity Ratio (SLR) as collateral under it.\n3. The MSF rate is kept lower than the policy repo rate.\nWhich of the statements given above is/are correct?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "1 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "answer": 1,
+      "explanation": "The MSF was introduced in May 2011 as an emergency overnight borrowing window for scheduled commercial banks, so statement 1 is correct.\nUnder it banks can dip into their SLR holdings up to a prescribed limit, so statement 2 is correct.\nBecause it is a penal window, the MSF rate is set above the repo rate and forms the upper bound of the policy rate corridor, so statement 3 is wrong.\nAnswer: 1 and 2 only."
+    },
+    {
+      "text": "Consider the following statements about the Monetary Policy Committee (MPC) in India:\n1. It is a statutory body constituted under the Reserve Bank of India Act, 1934, as amended in 2016.\n2. It has six members, and the RBI Governor is its ex officio chairperson.\n3. The inflation target that the MPC works towards is set by the Central Government in consultation with the RBI.\nWhich of the statements given above is/are correct?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "answer": 3,
+      "explanation": "The Finance Act, 2016 amended the RBI Act, inserting Section 45ZB to constitute the MPC, so it is statutory (statement 1 correct).\nThe MPC has six members: three from the RBI (the Governor as chairperson with a casting vote, the Deputy Governor in charge of monetary policy and one officer) and three external members appointed by the Centre (statement 2 correct).\nUnder Section 45ZA the Central Government, in consultation with the RBI, fixes the CPI inflation target once every five years (statement 3 correct).\nAnswer: 1, 2 and 3."
+    },
+    {
+      "text": "Which of the following actions by the RBI would tend to increase liquidity in the banking system?\n1. Purchase of government securities through Open Market Operations\n2. An increase in the Cash Reserve Ratio\n3. A reduction in the Statutory Liquidity Ratio\n4. Sale of US dollars by the RBI in the foreign exchange market\nSelect the correct answer using the code given below:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "1 and 3 only",
+        "1, 2 and 3 only",
+        "2 and 4 only",
+        "1, 3 and 4 only"
+      ],
+      "answer": 0,
+      "explanation": "When the RBI buys securities it pays rupees to banks, injecting liquidity (1 increases).\nA higher CRR locks more of banks' deposits with the RBI, absorbing liquidity (2 decreases).\nA lower SLR frees funds that banks had to hold in approved securities, so they can lend more (3 increases).\nWhen the RBI sells dollars it receives rupees from the market, which drains liquidity (4 decreases).\nAnswer: 1 and 3 only."
+    },
+    {
+      "text": "Consider the following statements regarding currency issue in India:\n1. The one-rupee note is issued by the Government of India (Ministry of Finance) and bears the signature of the Finance Secretary.\n2. Currency notes of all other denominations are issued by the RBI and bear the signature of the RBI Governor.\n3. Coins are minted by the RBI in its own mints.\nWhich of the statements given above is/are correct?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "1 only",
+        "1 and 3 only",
+        "1 and 2 only",
+        "2 and 3 only"
+      ],
+      "answer": 2,
+      "explanation": "Under Section 22 of the RBI Act the RBI has the sole right to issue banknotes, and these carry the Governor's signature (statement 2 correct).\nThe ₹1 note is an exception: it is issued by the Government of India and signed by the Finance Secretary (statement 1 correct).\nCoins are issued by the Government under the Coinage Act, 2011 and minted at government mints (Mumbai, Hyderabad, Kolkata and Noida); the RBI only distributes them (statement 3 wrong).\nAnswer: 1 and 2 only."
+    },
+    {
+      "text": "Consider the following hypothetical budget figures (in ₹ thousand crore):\nRevenue receipts = 300\nNon-debt capital receipts (recovery of loans + disinvestment) = 20\nTotal expenditure = 480\nInterest payments = 100\nWhat is the primary deficit?",
+      "difficulty": "HARD",
+      "options": [
+        "₹160 thousand crore",
+        "₹60 thousand crore",
+        "₹80 thousand crore",
+        "₹260 thousand crore"
+      ],
+      "answer": 1,
+      "explanation": "Fiscal deficit = total expenditure − (revenue receipts + non-debt capital receipts).\nFD = 480 − (300 + 20) = 480 − 320 = 160.\nPrimary deficit = fiscal deficit − interest payments = 160 − 100 = 60.\n160 is the fiscal deficit itself, 80 comes from ignoring non-debt capital receipts, and 260 from adding interest instead of subtracting it.\nAnswer: ₹60 thousand crore."
+    },
+    {
+      "text": "With reference to the Goods and Services Tax (GST) in India, consider the following statements:\n1. Integrated GST (IGST) on inter-State supplies is levied and collected by the Central Government.\n2. The GST Council is a constitutional body under Article 279A.\n3. Alcoholic liquor for human consumption is outside the scope of GST.\nWhich of the statements given above is/are correct?",
+      "difficulty": "HARD",
+      "options": [
+        "1, 2 and 3",
+        "1 and 2 only",
+        "2 and 3 only",
+        "3 only"
+      ],
+      "answer": 0,
+      "explanation": "Article 269A provides that GST on inter-State supplies (IGST) is levied and collected by the Centre and then apportioned between the Union and the States (statement 1 correct).\nArticle 279A, inserted by the 101st Amendment, creates the GST Council chaired by the Union Finance Minister with State Finance Ministers as members (statement 2 correct).\nArticle 366(12A) defines GST as a tax on any supply of goods or services except alcoholic liquor for human consumption (statement 3 correct).\nAnswer: 1, 2 and 3."
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "exam": "class-12",
+  "subject": "mathematics",
+  "chapter": "determinants",
+  "notes": {
+    "summary": "This chapter covers the determinant of square matrices up to order 3, minors and cofactors, the adjoint and inverse of a matrix, the area of a triangle using determinants, and solving systems of linear equations by the matrix method, including deciding whether a system is consistent. CBSE tests quick determinant and adjoint/inverse computations, results such as |kA| = kⁿ|A| and |adj A| = |A|ⁿ⁻¹, and the consistency of systems.",
+    "keyPoints": [
+      "|[[a, b], [c, d]]| = ad − bc. For a 3 × 3 determinant, expand along any row or column using the sign pattern + − + / − + − / + − +; choose the row or column with the most zeros.",
+      "Minor Mᵢⱼ = determinant left after deleting row i and column j; cofactor Aᵢⱼ = (−1)ⁱ⁺ʲ Mᵢⱼ. E.g. in [[2, −3], [4, 5]], M₂₁ = −3 and A₂₁ = +3.",
+      "adj A = transpose of the cofactor matrix. For a 2 × 2 matrix, adj [[a, b], [c, d]] = [[d, −b], [−c, a]] (swap the diagonal entries, change the signs of the other two).",
+      "A(adj A) = (adj A)A = |A| I, and A⁻¹ = (1/|A|) adj A exists only if |A| ≠ 0 (non-singular matrix).",
+      "For an n × n matrix: |kA| = kⁿ|A|, |AB| = |A||B|, |A⁻¹| = 1/|A|, |adj A| = |A|ⁿ⁻¹. E.g. n = 3 and |A| = 2 give |3A| = 27 × 2 = 54.",
+      "Area of a triangle with vertices (x₁, y₁), (x₂, y₂), (x₃, y₃) = ½ |x₁(y₂ − y₃) + x₂(y₃ − y₁) + x₃(y₁ − y₂)|. Zero area means the points are collinear; when the area is given, use both the + and − values.",
+      "System AX = B: if |A| ≠ 0, there is a unique solution X = A⁻¹B. If |A| = 0 and (adj A)B ≠ O, the system is inconsistent (no solution). If |A| = 0 and (adj A)B = O, it may have infinitely many solutions or none.",
+      "A matrix identity such as A² − 4A + I = O gives A⁻¹ = 4I − A after multiplying both sides by A⁻¹ (valid when |A| ≠ 0)."
+    ],
+    "traps": [
+      "Forgetting the minus sign of the middle term while expanding a 3 × 3 determinant along a row.",
+      "Writing |kA| = k|A| instead of kⁿ|A| for an n × n matrix.",
+      "Forgetting to transpose the cofactor matrix while forming adj A.",
+      "Taking only the positive value when an area is given — |expression| = 8 gives two equations.",
+      "Concluding 'no solution' as soon as |A| = 0 without checking (adj A)B."
+    ],
+    "examTip": "For any inverse or system question, find |A| first: if it is 0, the inverse does not exist and there is no unique solution — this alone often eliminates two options."
+  },
+  "questions": [
+    {
+      "text": "The value of the determinant |[[1, 2, 0], [0, 3, 1], [2, 0, 1]]| is:",
+      "difficulty": "EASY",
+      "options": [
+        "−1",
+        "7",
+        "3",
+        "11"
+      ],
+      "answer": 1,
+      "explanation": "Expand along the first row: 1 × (3·1 − 1·0) − 2 × (0·1 − 1·2) + 0 × (0·0 − 3·2).\n= 1 × 3 − 2 × (−2) + 0.\n= 3 + 4 = 7.\n(Forgetting the minus sign of the middle term gives 3 − 4 = −1.)"
+    },
+    {
+      "text": "For the matrix [[2, −3], [4, 5]], the minor M₂₁ and the cofactor A₂₁ of the element a₂₁ = 4 are:",
+      "difficulty": "EASY",
+      "options": [
+        "M₂₁ = −3, A₂₁ = −3",
+        "M₂₁ = 3, A₂₁ = −3",
+        "M₂₁ = −3, A₂₁ = 3",
+        "M₂₁ = 5, A₂₁ = −5"
+      ],
+      "answer": 2,
+      "explanation": "Deleting row 2 and column 1 leaves only the entry −3, so M₂₁ = −3.\nA₂₁ = (−1)²⁺¹ × M₂₁ = (−1) × (−3) = 3.\nSo M₂₁ = −3 and A₂₁ = 3."
+    },
+    {
+      "text": "If A = [[3, 1], [2, 4]], then adj A equals:",
+      "difficulty": "EASY",
+      "options": [
+        "[[4, −1], [−2, 3]]",
+        "[[4, −2], [−1, 3]]",
+        "[[−4, 1], [2, −3]]",
+        "[[3, −1], [−2, 4]]"
+      ],
+      "answer": 0,
+      "explanation": "For [[a, b], [c, d]], adj = [[d, −b], [−c, a]].\nHere a = 3, b = 1, c = 2, d = 4, so adj A = [[4, −1], [−2, 3]].\nCheck: |A| = 12 − 2 = 10, and A(adj A) = [[12 − 2, −3 + 3], [8 − 8, −2 + 12]] = [[10, 0], [0, 10]] = |A| I."
+    },
+    {
+      "text": "The inverse of the matrix A = [[2, 5], [1, 3]] is:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "[[3, 5], [1, 2]]",
+        "[[2, −5], [−1, 3]]",
+        "[[−3, 5], [1, −2]]",
+        "[[3, −5], [−1, 2]]"
+      ],
+      "answer": 3,
+      "explanation": "|A| = 2 × 3 − 5 × 1 = 1 ≠ 0, so A is invertible.\nadj A = [[3, −5], [−1, 2]].\nA⁻¹ = (1/|A|) adj A = [[3, −5], [−1, 2]].\nCheck: A × A⁻¹ = [[6 − 5, −10 + 10], [3 − 3, −5 + 6]] = I."
+    },
+    {
+      "text": "If |[[x, 2], [18, x]]| = |[[6, 2], [18, 6]]|, then x equals:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "±6",
+        "±6√2",
+        "±3",
+        "0"
+      ],
+      "answer": 0,
+      "explanation": "Left side = x·x − 2·18 = x² − 36.\nRight side = 6·6 − 2·18 = 36 − 36 = 0.\nx² − 36 = 0 gives x² = 36.\nSo x = 6 or x = −6, i.e. x = ±6. (Equating x² − 36 to 36 instead of 0 gives ±6√2.)"
+    },
+    {
+      "text": "If the area of the triangle with vertices (k, 0), (4, 0) and (0, 2) is 4 square units, then:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "k = 8 only",
+        "k = 0 or k = 8",
+        "k = 0 or k = −8",
+        "k = 4"
+      ],
+      "answer": 1,
+      "explanation": "Area = ½ |k(0 − 2) + 4(2 − 0) + 0(0 − 0)| = ½ |8 − 2k|.\n½ |8 − 2k| = 4 gives |8 − 2k| = 8.\n8 − 2k = 8 gives k = 0, and 8 − 2k = −8 gives k = 8.\nSo k = 0 or k = 8."
+    },
+    {
+      "text": "The system of linear equations x + 2y = 2 and 2x + 4y = 3 is:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Consistent with a unique solution",
+        "Consistent with infinitely many solutions",
+        "Inconsistent (no solution)",
+        "Consistent with exactly two solutions"
+      ],
+      "answer": 2,
+      "explanation": "Write the system as AX = B with A = [[1, 2], [2, 4]] and B = [[2], [3]].\n|A| = 4 − 4 = 0, so there is no unique solution.\nadj A = [[4, −2], [−2, 1]], and (adj A)B = [[8 − 6], [−4 + 3]] = [[2], [−1]] ≠ O.\nSince |A| = 0 and (adj A)B ≠ O, the system is inconsistent."
+    },
+    {
+      "text": "Using the matrix method, the solution of the system 2x + 5y = 1 and 3x + 2y = 7 is:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "x = −3, y = 1",
+        "x = 3, y = −1",
+        "x = 1, y = 3",
+        "x = 3, y = 1"
+      ],
+      "answer": 1,
+      "explanation": "A = [[2, 5], [3, 2]], B = [[1], [7]], and |A| = 4 − 15 = −11 ≠ 0.\nA⁻¹ = (1/−11) [[2, −5], [−3, 2]].\nX = A⁻¹B = (1/−11) [[2 − 35], [−3 + 14]] = (1/−11) [[−33], [11]] = [[3], [−1]].\nSo x = 3 and y = −1 (check: 6 − 5 = 1 and 9 − 2 = 7)."
+    },
+    {
+      "text": "Assertion (A): If A is a 3 × 3 matrix with |A| = 2, then |3A| = 6.\nReason (R): For a square matrix A of order n and a scalar k, |kA| = kⁿ|A|.\nChoose the correct option.",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true, and R is the correct explanation of A",
+        "Both Assertion (A) and Reason (R) are true, but R is not the correct explanation of A",
+        "Assertion (A) is true, but Reason (R) is false",
+        "Assertion (A) is false, but Reason (R) is true"
+      ],
+      "answer": 3,
+      "explanation": "R is a standard result: in kA every one of the n rows is multiplied by k, so |kA| = kⁿ|A|.\nFor n = 3: |3A| = 3³ × |A| = 27 × 2 = 54, not 6.\nSo A is false and R is true."
+    },
+    {
+      "text": "If A = [[2, 3], [1, 2]] satisfies A² − 4A + I = O, then A⁻¹ equals:",
+      "difficulty": "HARD",
+      "options": [
+        "[[−2, 3], [1, −2]]",
+        "[[2, −1], [−3, 2]]",
+        "[[2, −3], [−1, 2]]",
+        "[[2, 3], [1, 2]]"
+      ],
+      "answer": 2,
+      "explanation": "|A| = 4 − 3 = 1 ≠ 0, so A⁻¹ exists.\nMultiply A² − 4A + I = O by A⁻¹: A − 4I + A⁻¹ = O, so A⁻¹ = 4I − A.\n4I − A = [[4 − 2, 0 − 3], [0 − 1, 4 − 2]] = [[2, −3], [−1, 2]].\nThe formula (1/|A|) adj A gives the same matrix."
+    },
+    {
+      "text": "The values of x for which |[[x, 1, 1], [1, x, 1], [1, 1, x]]| = 0 are:",
+      "difficulty": "HARD",
+      "options": [
+        "x = 1 or x = −2",
+        "x = −1 or x = 2",
+        "x = 1 only",
+        "x = 0 or x = 3"
+      ],
+      "answer": 0,
+      "explanation": "Expand along the first row: x(x·x − 1·1) − 1(1·x − 1·1) + 1(1·1 − x·1).\n= x³ − x − x + 1 + 1 − x = x³ − 3x + 2.\nx³ − 3x + 2 = (x − 1)²(x + 2).\nSo the determinant is 0 when x = 1 or x = −2."
+    }
+  ]
+}

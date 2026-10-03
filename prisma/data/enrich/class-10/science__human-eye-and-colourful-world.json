@@ -1,0 +1,136 @@
+{
+  "exam": "class-10",
+  "subject": "science",
+  "chapter": "human-eye-and-colourful-world",
+  "notes": {
+    "summary": "This chapter covers the structure and working of the human eye, the power of accommodation, defects of vision (myopia, hypermetropia, presbyopia) and their correction, refraction and dispersion through a glass prism, the rainbow, atmospheric refraction (twinkling of stars, advance sunrise) and scattering of light (Tyndall effect, blue sky, reddish sunrise and sunset). CBSE tests it through reasoning MCQs on natural phenomena, lens-power numericals for vision defects and assertion-reason items.",
+    "keyPoints": [
+      "Parts of the eye: cornea (most refraction happens at its outer surface), iris (a dark muscular diaphragm that controls pupil size), pupil (regulates the light entering; it widens in dim light), crystalline lens (fine adjustment of focal length), ciliary muscles (change the lens curvature) and retina (light-sensitive cells send electrical signals through the optic nerve to the brain). The image on the retina is real and inverted.",
+      "Accommodation: for a distant object the ciliary muscles relax, the lens becomes thin and its focal length increases; for a near object they contract, the lens becomes thicker and its focal length decreases. Near point of a young adult is about 25 cm; far point is infinity.",
+      "Myopia (near-sightedness): the image of a distant object forms in front of the retina, because of excessive curvature of the eye lens or elongation of the eyeball. It is corrected by a concave lens with f = −(far point). Example: far point 80 cm → f = −0.8 m → P = −1.25 D.",
+      "Hypermetropia (far-sightedness): the image of a near object forms behind the retina, because the focal length of the eye lens is too long or the eyeball is too small. It is corrected by a convex lens. Example: near point 1 m, reading at 25 cm → 1/f = 1/(−100) − 1/(−25) = 3/100 → f = 33.3 cm → P = +3.0 D.",
+      "Presbyopia: with age, the ciliary muscles weaken and the lens becomes less flexible, so the near point recedes; it is corrected with a convex lens. A person with both myopia and presbyopia uses bifocal lenses: the upper part is concave (distant vision) and the lower part convex (reading). Cataract: the lens becomes milky and cloudy, treated by surgery.",
+      "Prism: light bends at both faces; the angle between the incident and emergent rays is the angle of deviation. Dispersion happens because different colours bend through different angles — red the least, violet the most — giving the spectrum VIBGYOR. Newton showed that a second, identical, inverted prism recombines the spectrum into white light.",
+      "Rainbow: a natural spectrum seen after rain. Water droplets act like tiny prisms — they refract and disperse sunlight, reflect it internally and refract it again on the way out — so a rainbow is always seen in the direction opposite to the Sun.",
+      "Atmospheric refraction is caused by the varying optical density of air: stars twinkle (they are point sources whose apparent position and brightness flicker, and they appear slightly higher than their actual position); planets do not twinkle (extended sources); the Sun is visible about 2 minutes before actual sunrise and about 2 minutes after actual sunset, lengthening daylight by about 4 minutes; the Sun's disc looks flattened near the horizon; objects seen through hot air above a fire appear to waver.",
+      "Scattering: the Tyndall effect is the scattering of light by colloidal particles (a sunbeam through a forest canopy or a dusty room). Very fine particles scatter mainly blue light, so the clear sky looks blue; red light, whose wavelength is about 1.8 times that of blue, is scattered least, so danger signals are red. At sunrise and sunset sunlight passes through more air, blue is scattered away and the Sun looks reddish. At very high altitudes the sky looks dark because there is little scattering. Large particles scatter all colours nearly equally, so the scattered light looks white."
+    ],
+    "traps": [
+      "Saying the ciliary muscles contract for distant vision: they relax, and the lens becomes thinner.",
+      "Using the wrong point in defect numericals: myopia uses the far point (with u = infinity); hypermetropia uses the near point (with u = −25 cm).",
+      "Mixing up deviation and scattering: violet is deviated the most by a prism, while red is scattered the least by air.",
+      "Naming the wrong phenomenon: twinkling of stars is atmospheric refraction, the blue sky is scattering, and the rainbow is dispersion plus internal reflection.",
+      "Placing the rainbow towards the Sun: it is always seen with the Sun behind the observer."
+    ],
+    "examTip": "In defect-correction numericals, write u and v with signs (object at 25 cm or at infinity, image at the defective near or far point), apply 1/f = 1/v − 1/u, convert f to metres and check the sign of P: negative for myopia, positive for hypermetropia."
+  },
+  "questions": [
+    {
+      "text": "When you walk into a dimly lit room from bright sunlight, the size of the pupil of your eye:",
+      "difficulty": "EASY",
+      "options": [
+        "decreases, controlled by the ciliary muscles",
+        "increases, controlled by the iris",
+        "remains unchanged",
+        "decreases, controlled by the retina"
+      ],
+      "answer": 1,
+      "explanation": "The iris is a dark muscular diaphragm that controls the size of the pupil, and the pupil regulates how much light enters the eye. In dim light the iris widens the pupil to let in more light. This adjustment takes a little time, which is why we cannot see clearly for a moment after entering a dark room. So the pupil increases, controlled by the iris."
+    },
+    {
+      "text": "When a beam of sunlight enters a dense forest through gaps in the canopy, its path becomes visible because tiny water droplets in the mist scatter the light. This phenomenon is called:",
+      "difficulty": "EASY",
+      "options": ["dispersion", "total internal reflection", "atmospheric refraction", "Tyndall effect"],
+      "answer": 3,
+      "explanation": "When light passes through a medium containing tiny particles such as mist droplets, dust or smoke, the particles scatter the light and make the beam visible. NCERT calls this scattering by colloidal particles the Tyndall effect and gives the sunbeam in a dense forest as its example. Dispersion is the splitting of white light into colours, which is not what happens here. So the answer is the Tyndall effect."
+    },
+    {
+      "text": "Most of the refraction of light rays entering the human eye takes place at the:",
+      "difficulty": "EASY",
+      "options": ["outer surface of the cornea", "crystalline lens", "pupil", "retina"],
+      "answer": 0,
+      "explanation": "Light enters the eye through the cornea, a thin transparent membrane that bulges outward. NCERT states that most of the refraction of light entering the eye occurs at the outer surface of the cornea. The crystalline lens only provides the finer adjustment of focal length needed to focus on objects at different distances. So the answer is the outer surface of the cornea."
+    },
+    {
+      "text": "When a normal eye looks at a distant object, which of the following happens?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Ciliary muscles contract, the lens becomes thick, and its focal length decreases",
+        "Ciliary muscles contract, the lens becomes thin, and its focal length increases",
+        "Ciliary muscles relax, the lens becomes thin, and its focal length increases",
+        "Ciliary muscles relax, the lens becomes thick, and its focal length decreases"
+      ],
+      "answer": 2,
+      "explanation": "Rays from a distant object are nearly parallel and need only a little bending. The ciliary muscles relax, so the lens becomes thin and its focal length increases, focusing the image on the retina. For a near object the muscles contract, the lens thickens and its focal length decreases. So for distant vision: muscles relax, lens thin, focal length increases."
+    },
+    {
+      "text": "A person suffering from myopia cannot see objects clearly beyond 80 cm. The power of the lens required to correct this defect is:",
+      "difficulty": "MEDIUM",
+      "options": ["+1.25 D", "−1.25 D", "−0.8 D", "+0.8 D"],
+      "answer": 1,
+      "explanation": "The corrective lens must form an image of a very distant object (u = infinity) at the person's far point, so v = −80 cm. Using 1/f = 1/v − 1/u = −1/80 − 0, f = −80 cm = −0.8 m, which is a concave lens. P = 1/f = 1/(−0.8) = −1.25 D. (−0.8 is the focal length in metres, not the power.)"
+    },
+    {
+      "text": "An elderly person has presbyopia along with myopia and uses bifocal lenses. Which statement about these lenses is correct?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Both portions are convex lenses of different powers",
+        "The upper portion is convex for distant vision and the lower portion is concave for reading",
+        "Both portions are concave lenses of different powers",
+        "The upper portion is concave for distant vision and the lower portion is convex for near vision"
+      ],
+      "answer": 3,
+      "explanation": "Presbyopia is caused by weakening ciliary muscles and a less flexible eye lens, so the near point recedes and a convex lens is needed for reading. Myopia makes distant objects blurred and needs a concave lens. A bifocal lens combines both: the upper part is concave for looking at distant objects and the lower part is convex for near work. So the upper portion is concave and the lower portion is convex."
+    },
+    {
+      "text": "Danger signal lights are red in colour because red light:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "is deviated the most by a prism",
+        "is scattered the most by air molecules",
+        "is scattered the least by fog and smoke, so it can be seen from a long distance",
+        "has the shortest wavelength among visible colours"
+      ],
+      "answer": 2,
+      "explanation": "Red light has the longest wavelength in the visible spectrum, about 1.8 times that of blue light. Light of longer wavelength is scattered the least by fog, smoke and air molecules. So red light travels farthest without losing its colour and can be seen clearly from a distance. (Violet, not red, is deviated most by a prism.) The answer is that red is scattered the least."
+    },
+    {
+      "text": "Atmospheric refraction makes the Sun visible a little before actual sunrise and a little after actual sunset. By about how much does this lengthen the duration of daylight?",
+      "difficulty": "MEDIUM",
+      "options": ["About 4 minutes", "About 2 minutes", "About 30 minutes", "About 1 hour"],
+      "answer": 0,
+      "explanation": "Air near the Earth is optically denser than air higher up, so sunlight bends as it comes through the atmosphere. Because of this, the Sun is seen about 2 minutes before it actually crosses the horizon at sunrise. It also stays visible about 2 minutes after actual sunset. Total gain = 2 + 2 = about 4 minutes."
+    },
+    {
+      "text": "Assertion (A): A rainbow is always formed in the direction opposite to that of the Sun.\nReason (R): Tiny water droplets in the atmosphere refract and disperse sunlight, reflect it internally, and refract it again as it comes out, sending the light back towards the observer.\nChoose the correct option.",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A.",
+        "Both A and R are true, but R is not the correct explanation of A.",
+        "A is true, but R is false.",
+        "A is false, but R is true."
+      ],
+      "answer": 0,
+      "explanation": "NCERT states that a rainbow is always formed in the direction opposite to the Sun, so A is true. Each droplet acts like a small prism: sunlight is refracted and dispersed on entering, reflected inside the drop, and refracted again on leaving, which is also true. The internal reflection turns the dispersed light back towards an observer who has the Sun behind them, so R explains A. Both are true and R is the correct explanation."
+    },
+    {
+      "text": "The near point of a hypermetropic eye is 1 m. What is the power of the lens required so that the person can read a book held at 25 cm from the eye?",
+      "difficulty": "HARD",
+      "options": ["−3.0 D", "+4.0 D", "+1.0 D", "+3.0 D"],
+      "answer": 3,
+      "explanation": "The corrective lens must form a virtual image of the book (u = −25 cm) at the near point, so v = −100 cm. Using 1/f = 1/v − 1/u = −1/100 − (−1/25) = −1/100 + 4/100 = 3/100, f = 100/3 cm ≈ 33.3 cm = 0.333 m. P = 1/f = 1/0.333 = +3.0 D, which is a convex lens. (Taking 1/0.25 alone gives the wrong +4.0 D.)"
+    },
+    {
+      "text": "Assertion (A): Clouds usually appear white.\nReason (R): Clouds are made of very fine particles that scatter mainly blue light, which has a short wavelength.\nChoose the correct option.",
+      "difficulty": "HARD",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A.",
+        "Both A and R are true, but R is not the correct explanation of A.",
+        "A is true, but R is false.",
+        "A is false, but R is true."
+      ],
+      "answer": 2,
+      "explanation": "The colour of scattered light depends on the size of the scattering particles. Very fine particles, such as air molecules, scatter mainly blue light, which is why the sky is blue. Cloud droplets are much larger than the wavelength of light, so they scatter all colours nearly equally and the scattered light looks white; A is true. R wrongly describes cloud particles as very fine scatterers of blue light, so R is false. A is true, but R is false."
+    }
+  ]
+}

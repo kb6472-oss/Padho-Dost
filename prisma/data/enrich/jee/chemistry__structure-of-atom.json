@@ -1,0 +1,107 @@
+{
+  "exam": "jee",
+  "subject": "chemistry",
+  "chapter": "structure-of-atom",
+  "notes": {
+    "summary": "Structure of Atom covers subatomic particles, Bohr's model for hydrogen-like species, the hydrogen spectrum, the dual nature of matter and radiation (photoelectric effect, de Broglie, Heisenberg), quantum numbers, orbital nodes and electronic configuration. JEE Main mostly sets short numericals on Bohr energies, radii and velocities, spectral lines, photon energy and de Broglie wavelength, plus quick conceptual checks on quantum numbers and nodes.",
+    "keyPoints": [
+      "Photon energy: E = hν = hc/λ. Shortcut: E (eV) = 1240/λ (nm), so λ = 400 nm gives about 3.1 eV.",
+      "Bohr model for a hydrogen-like species of atomic number Z: rₙ = 0.529 n²/Z Å, Eₙ = −13.6 Z²/n² eV, vₙ = 2.18 × 10⁶ Z/n m s⁻¹, angular momentum mvr = nh/2π.",
+      "Rydberg formula: 1/λ = RZ²(1/n₁² − 1/n₂²), R = 1.097 × 10⁷ m⁻¹. Lyman n₁ = 1 (UV), Balmer n₁ = 2 (visible), Paschen 3, Brackett 4, Pfund 5 (infrared).",
+      "In a series, the longest wavelength is the smallest jump (e.g. 2 → 1 for Lyman, 121.6 nm) and the shortest is the series limit (∞ → 1, 91.2 nm).",
+      "Number of lines when an electron falls from level n to the ground state = n(n − 1)/2; n = 5 gives 10 lines.",
+      "Photoelectric effect: hν = hν₀ + ½mv²max, and ½mv²max = eV₀. Kinetic energy depends on frequency; the number of electrons depends on intensity.",
+      "de Broglie: λ = h/mv = h/√(2m·KE); for an electron accelerated through V volts, λ ≈ 12.27/√V Å. A Bohr orbit holds a whole number of waves: 2πr = nλ.",
+      "Heisenberg: Δx·Δp ≥ h/4π, i.e. Δx·Δv ≥ h/(4πm); it matters only for microscopic particles such as electrons.",
+      "Quantum numbers: n (size and energy), l = 0 to n − 1 (shape), m = −l to +l (orientation), s = ±½. Orbital angular momentum = √(l(l + 1)) h/2π; a shell holds n² orbitals and 2n² electrons.",
+      "Nodes: radial = n − l − 1, angular = l, total = n − 1 (5p has 3 radial and 1 angular node). Exceptions to Aufbau: Cr = [Ar]3d⁵4s¹, Cu = [Ar]3d¹⁰4s¹."
+    ],
+    "traps": [
+      "Forgetting the Z² factor in energy and wavenumber, or the Z/n factor in velocity, for He⁺, Li²⁺ and other hydrogen-like ions.",
+      "Not converting nm, Å or μm into metres before using E = hc/λ or λ = h/mv.",
+      "Using h/2π instead of h/4π in the uncertainty principle, which doubles the answer.",
+      "Mixing up the longest wavelength of a series (smallest energy gap) with the shortest wavelength (series limit).",
+      "Counting radial nodes as n − l instead of n − l − 1, or quoting the Bohr value nh/2π as the orbital angular momentum of a p or d electron."
+    ],
+    "examTip": "Memorise E (eV) = 1240/λ (nm) and the Bohr scalings r ∝ n²/Z, E ∝ Z²/n², v ∝ Z/n — most atom-structure numericals in JEE Main then become one-line ratio problems."
+  },
+  "questions": [
+    {
+      "text": "The energy of one photon of ultraviolet radiation of wavelength 300 nm is: (h = 6.626 × 10⁻³⁴ J s, c = 3.0 × 10⁸ m s⁻¹)",
+      "difficulty": "EASY",
+      "options": ["2.21 × 10⁻²⁷ J", "6.63 × 10⁻¹⁹ J", "6.63 × 10⁻²⁸ J", "1.99 × 10⁻²⁵ J"],
+      "answer": 1,
+      "explanation": "Use E = hc/λ.\nConvert the wavelength: λ = 300 nm = 3.00 × 10⁻⁷ m.\nhc = 6.626 × 10⁻³⁴ × 3.0 × 10⁸ = 1.988 × 10⁻²⁵ J m.\nE = 1.988 × 10⁻²⁵ / 3.00 × 10⁻⁷ = 6.63 × 10⁻¹⁹ J (about 4.1 eV).\n6.63 × 10⁻²⁸ J results from not converting nm to m."
+    },
+    {
+      "text": "Which of the following sets contains species that are all isoelectronic with one another?",
+      "difficulty": "EASY",
+      "options": ["Na⁺, Mg²⁺, Cl⁻, Ne", "K⁺, Ca²⁺, F⁻, Ar", "N³⁻, O²⁻, F⁻, Na⁺", "O²⁻, S²⁻, Ne, Mg²⁺"],
+      "answer": 2,
+      "explanation": "Isoelectronic species have the same number of electrons.\nN³⁻ = 7 + 3 = 10, O²⁻ = 8 + 2 = 10, F⁻ = 9 + 1 = 10, Na⁺ = 11 − 1 = 10.\nIn the other sets Cl⁻, K⁺, Ca²⁺, Ar and S²⁻ have 18 electrons while the rest have 10.\nSo N³⁻, O²⁻, F⁻, Na⁺ are all isoelectronic (10 electrons each)."
+    },
+    {
+      "text": "The shortest wavelength (series limit) of the Lyman series in the hydrogen spectrum is: (R = 1.097 × 10⁷ m⁻¹)",
+      "difficulty": "EASY",
+      "options": ["121.6 nm", "364.6 nm", "656.3 nm", "91.2 nm"],
+      "answer": 3,
+      "explanation": "The shortest wavelength corresponds to the largest energy jump, n₂ = ∞ → n₁ = 1.\n1/λ = R(1/1² − 1/∞²) = R.\nλ = 1/R = 1/(1.097 × 10⁷) m = 9.12 × 10⁻⁸ m = 91.2 nm.\n121.6 nm is the longest Lyman line (2 → 1) and 364.6 nm is the Balmer limit."
+    },
+    {
+      "text": "According to Bohr's model, the ratio of the speed of the electron in the first orbit of the hydrogen atom to the speed of the electron in the third orbit of the Li²⁺ ion (Z = 3) is:",
+      "difficulty": "MEDIUM",
+      "options": ["1 : 1", "1 : 3", "3 : 1", "1 : 9"],
+      "answer": 0,
+      "explanation": "In Bohr's model vₙ = 2.18 × 10⁶ × (Z/n) m s⁻¹, so v ∝ Z/n.\nHydrogen, n = 1: Z/n = 1/1 = 1.\nLi²⁺, n = 3: Z/n = 3/3 = 1.\nRatio = 1 : 1."
+    },
+    {
+      "text": "The ratio of the longest wavelength of the Lyman series to the longest wavelength of the Balmer series in the hydrogen spectrum is:",
+      "difficulty": "MEDIUM",
+      "options": ["27 : 5", "4 : 9", "5 : 27", "3 : 4"],
+      "answer": 2,
+      "explanation": "Longest wavelength means the smallest jump within each series.\nLyman (2 → 1): 1/λL = R(1 − 1/4) = 3R/4, so λL = 4/(3R).\nBalmer (3 → 2): 1/λB = R(1/4 − 1/9) = 5R/36, so λB = 36/(5R).\nλL/λB = (4/3) ÷ (36/5) = 20/108 = 5/27, i.e. 5 : 27."
+    },
+    {
+      "text": "The number of radial nodes and angular nodes, respectively, in a 5p orbital is:",
+      "difficulty": "MEDIUM",
+      "options": ["4 and 1", "3 and 1", "3 and 2", "1 and 3"],
+      "answer": 1,
+      "explanation": "For 5p: n = 5 and l = 1.\nRadial nodes = n − l − 1 = 5 − 1 − 1 = 3.\nAngular nodes = l = 1.\nTotal nodes = n − 1 = 4, consistent. Answer: 3 radial and 1 angular."
+    },
+    {
+      "text": "According to quantum mechanics, the magnitude of the orbital angular momentum of an electron in a 3p orbital is: (ħ = h/2π)",
+      "difficulty": "MEDIUM",
+      "options": ["3ħ", "√6 ħ", "Zero", "√2 ħ"],
+      "answer": 3,
+      "explanation": "Orbital angular momentum = √(l(l + 1)) ħ; it depends on l, not on n.\nFor any p orbital l = 1, so L = √(1 × 2) ħ = √2 ħ.\n3ħ is the Bohr value nh/2π for n = 3, and √6 ħ would apply to a d orbital (l = 2).\nAnswer: √2 ħ."
+    },
+    {
+      "text": "If the uncertainty in the position of an electron is 0.1 nm, the minimum uncertainty in its velocity is approximately: (h = 6.626 × 10⁻³⁴ J s, mass of electron = 9.11 × 10⁻³¹ kg)",
+      "difficulty": "MEDIUM",
+      "options": ["5.79 × 10⁵ m s⁻¹", "7.27 × 10⁶ m s⁻¹", "1.16 × 10⁶ m s⁻¹", "5.79 × 10⁻⁵ m s⁻¹"],
+      "answer": 0,
+      "explanation": "Heisenberg: Δx·m·Δv ≥ h/4π, so Δv = h/(4π m Δx).\nΔx = 0.1 nm = 1.0 × 10⁻¹⁰ m.\n4π m Δx = 12.566 × 9.11 × 10⁻³¹ × 1.0 × 10⁻¹⁰ = 1.145 × 10⁻³⁹ kg m.\nΔv = 6.626 × 10⁻³⁴ / 1.145 × 10⁻³⁹ ≈ 5.79 × 10⁵ m s⁻¹.\n(Using h/2π gives 1.16 × 10⁶ and omitting 4π gives 7.27 × 10⁶.)"
+    },
+    {
+      "text": "A 25 W bulb emits monochromatic yellow light of wavelength 0.57 μm. The number of photons emitted per second is approximately: (h = 6.626 × 10⁻³⁴ J s, c = 3.0 × 10⁸ m s⁻¹)",
+      "difficulty": "MEDIUM",
+      "options": ["3.49 × 10⁻¹⁹", "7.17 × 10²⁵", "7.17 × 10¹⁹", "1.39 × 10⁻²⁰"],
+      "answer": 2,
+      "explanation": "Energy of one photon: E = hc/λ with λ = 0.57 μm = 5.7 × 10⁻⁷ m.\nE = 1.988 × 10⁻²⁵ / 5.7 × 10⁻⁷ = 3.49 × 10⁻¹⁹ J.\nPower 25 W = 25 J s⁻¹, so photons per second = 25 / 3.49 × 10⁻¹⁹.\nN ≈ 7.17 × 10¹⁹ photons per second.\n(3.49 × 10⁻¹⁹ is the energy per photon, not the count.)"
+    },
+    {
+      "text": "In a hydrogen-like ion, the electronic transition from n = 4 to n = 2 emits radiation of the same wavelength as the first line of the Lyman series (n = 2 to n = 1) of the hydrogen atom. The ion is:",
+      "difficulty": "HARD",
+      "options": ["Be³⁺", "Li²⁺", "B⁴⁺", "He⁺"],
+      "answer": 3,
+      "explanation": "For a hydrogen-like ion, 1/λ = RZ²(1/n₁² − 1/n₂²).\nIon, 4 → 2: 1/λ = RZ²(1/4 − 1/16) = 3RZ²/16.\nHydrogen Lyman first line, 2 → 1: 1/λ = R(1 − 1/4) = 3R/4.\nEqual wavelengths: 3RZ²/16 = 3R/4, so Z² = 4 and Z = 2.\nThe ion is He⁺."
+    },
+    {
+      "text": "Using Bohr's model, the de Broglie wavelength of the electron in the third orbit of the hydrogen atom is approximately: (radius of the first Bohr orbit = 0.529 Å)",
+      "difficulty": "HARD",
+      "options": ["9.97 Å", "29.9 Å", "3.32 Å", "4.76 Å"],
+      "answer": 0,
+      "explanation": "Radius of the third orbit: r₃ = 0.529 × 3² = 4.761 Å.\nBohr's quantisation in wave form: the orbit holds a whole number of waves, 2πr = nλ.\nλ = 2πr₃/3 = (2 × 3.1416 × 4.761)/3 = 29.91/3.\nλ ≈ 9.97 Å (about 1.0 nm).\n29.9 Å is the full circumference, obtained by forgetting to divide by n."
+    }
+  ]
+}

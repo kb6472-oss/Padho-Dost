@@ -1,0 +1,142 @@
+{
+  "exam": "class-12",
+  "subject": "biology",
+  "chapter": "sexual-reproduction-flowering-plants",
+  "notes": {
+    "summary": "This chapter traces the sexual life cycle of angiosperms: the stamen, microsporangium and pollen grain; the pistil, ovule and embryo sac; kinds of pollination and outbreeding devices; pollen-pistil interaction and artificial hybridisation; double fertilisation; and the development of endosperm, embryo, seed and fruit, along with apomixis and polyembryony. CBSE tests NCERT facts and examples, ploidy of different structures, sequences of events and assertion-reason items.",
+    "keyPoints": [
+      "A typical anther is bilobed and dithecous with four microsporangia; the microsporangium wall has epidermis, endothecium, middle layers and the nourishing tapetum.",
+      "Pollen wall: exine of sporopollenin (with germ pores where it is absent) and intine of cellulose and pectin. Pollen can be stored for years in liquid nitrogen at −196 °C in pollen banks.",
+      "Ploidy, taking 2n = 24: nucellus and integuments 2n = 24; megaspore, egg and generative cell n = 12; endosperm 3n = 36; embryo 2n = 24.",
+      "Embryo sac: the functional megaspore nucleus divides mitotically three times to give 8 nuclei and 7 cells (egg apparatus of 2 synergids + egg, 3 antipodals, and a central cell with 2 polar nuclei).",
+      "Pollination types: autogamy (same flower), geitonogamy (another flower of the same plant — genetically like autogamy) and xenogamy (another plant). Viola, Oxalis and Commelina bear both chasmogamous and cleistogamous flowers.",
+      "Outbreeding devices: dichogamy, different positions of anther and stigma, self-incompatibility and unisexual flowers. Monoecy (castor, maize) prevents autogamy only; dioecy (papaya) prevents both autogamy and geitonogamy.",
+      "Wind-pollinated flowers have light non-sticky pollen, well-exposed stamens, large feathery stigmas and a single ovule per ovary (corn tassels are stigmas and styles). Water pollination: Vallisneria (at the surface), Zostera (submerged, with long ribbon-like pollen).",
+      "Artificial hybridisation uses emasculation (removing anthers before they dehisce) and bagging; emasculation is not needed when the female parent bears unisexual flowers.",
+      "Grass embryo: scutellum = cotyledon, coleoptile = sheath over the shoot apex, coleorrhiza = sheath over the radicle and root cap. A persistent nucellus in the seed is the perisperm (black pepper, beet).",
+      "Each seed needs one megaspore mother cell meiosis, but one pollen mother cell meiosis gives four pollen grains: 100 seeds need 100 + 25 = 125 meioses."
+    ],
+    "traps": [
+      "Calling geitonogamy genetically cross-pollination — it only uses a pollinating agent; the pollen comes from the same plant.",
+      "Giving 3n to the nucellus or 2n to the endosperm; the nucellus is maternal tissue (2n) and the endosperm is triploid.",
+      "Mixing up the coleoptile (covers the shoot apex) and the coleorrhiza (covers the radicle).",
+      "Thinking monoecy prevents geitonogamy — only dioecy prevents both autogamy and geitonogamy.",
+      "Forgetting that one microspore mother cell gives four pollen grains while one megaspore mother cell gives only one functional megaspore."
+    ],
+    "examTip": "For ploidy questions, first label each structure as sporophytic (2n), gametophytic (n) or endosperm (3n), then multiply the haploid number accordingly."
+  },
+  "questions": [
+    {
+      "text": "A typical angiosperm anther is:",
+      "difficulty": "EASY",
+      "options": [
+        "Monothecous with two microsporangia",
+        "Dithecous (bilobed) with four microsporangia",
+        "Dithecous with two microsporangia",
+        "Tetrathecous with eight microsporangia"
+      ],
+      "answer": 1,
+      "explanation": "A typical anther is bilobed, and each lobe has two theca, so it is dithecous.\nEach theca contains two microsporangia (pollen sacs).\nSo a typical anther has four microsporangia in all (tetrasporangiate)."
+    },
+    {
+      "text": "The prominent apertures on the exine of a pollen grain, where sporopollenin is absent and through which the pollen tube emerges, are called:",
+      "difficulty": "EASY",
+      "options": ["Germ pores", "Micropyles", "Pits", "Hila"],
+      "answer": 0,
+      "explanation": "The exine is made of sporopollenin, which withstands high temperatures, strong acids and alkalis.\nAt certain places, called germ pores, sporopollenin is absent.\nWhen the pollen grain germinates on the stigma, the pollen tube comes out through a germ pore."
+    },
+    {
+      "text": "In pollen banks used for crop-breeding programmes, pollen grains of many species are stored for years in liquid nitrogen at a temperature of:",
+      "difficulty": "EASY",
+      "options": ["−20 °C", "−80 °C", "0 °C", "−196 °C"],
+      "answer": 3,
+      "explanation": "Pollen of many species, such as rice and wheat, loses viability within about 30 minutes of release.\nTo keep pollen viable for breeding, it is stored cryogenically in liquid nitrogen.\nLiquid nitrogen holds the pollen at −196 °C, preserving it for years."
+    },
+    {
+      "text": "In a flowering plant with 2n = 24 chromosomes, the number of chromosomes in a cell of the nucellus, a cell of the endosperm and the generative cell of the pollen grain respectively will be:",
+      "difficulty": "MEDIUM",
+      "options": ["12, 36, 24", "24, 24, 12", "24, 36, 12", "12, 24, 36"],
+      "answer": 2,
+      "explanation": "The nucellus is part of the ovule, a sporophytic (diploid) tissue: 2n = 24.\nThe endosperm forms by triple fusion of one male gamete (n) with two polar nuclei (n + n), so it is 3n = 36.\nThe generative cell belongs to the male gametophyte, so it is haploid: n = 12."
+    },
+    {
+      "text": "Plants such as Viola (common pansy), Oxalis and Commelina are well known because they:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Are pollinated only by water",
+        "Produce both chasmogamous and cleistogamous flowers",
+        "Show adventive polyembryony",
+        "Are strictly dioecious"
+      ],
+      "answer": 1,
+      "explanation": "Chasmogamous flowers open and expose their anthers and stigma, while cleistogamous flowers never open.\nViola, Oxalis and Commelina produce both types of flowers.\nThe cleistogamous flowers are invariably autogamous and assure seed set even when pollinators are absent."
+    },
+    {
+      "text": "Which of the following conditions prevents both autogamy and geitonogamy?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Monoecy, as in castor and maize",
+        "Cleistogamy, as in Commelina",
+        "Dioecy, as in papaya",
+        "Bisexual flowers in which anthers and stigma mature together"
+      ],
+      "answer": 2,
+      "explanation": "In monoecious plants (castor, maize), male and female flowers are on the same plant, so autogamy is prevented but geitonogamy can still occur.\nCleistogamy and simultaneous maturation of anther and stigma actually favour self-pollination.\nIn dioecious plants such as papaya, male and female flowers are on different plants, so pollen must come from another plant — both autogamy and geitonogamy are prevented."
+    },
+    {
+      "text": "The silky tassels seen on a corn (maize) cob are:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Anthers that release pollen",
+        "Bracts that protect the cob",
+        "Filaments of the male flowers",
+        "Stigmas and styles that wave in the wind to trap pollen"
+      ],
+      "answer": 3,
+      "explanation": "Maize is wind-pollinated, and wind-pollinated flowers have large, well-exposed, often feathery stigmas.\nThe tassels on the cob are the long stigmas and styles of the female flowers.\nThey wave in the wind and trap the light, non-sticky pollen grains carried by it."
+    },
+    {
+      "text": "In an artificial hybridisation programme, emasculation is NOT required when the female parent:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Produces unisexual flowers",
+        "Produces bisexual flowers",
+        "Produces cleistogamous flowers",
+        "Produces chasmogamous bisexual flowers"
+      ],
+      "answer": 0,
+      "explanation": "Emasculation is the removal of anthers from a flower bud before the anthers dehisce, to prevent self-pollination.\nIt is needed only when the female parent has bisexual flowers.\nIf the female parent produces unisexual (female) flowers, there are no anthers to remove; only bagging is done before and after pollination."
+    },
+    {
+      "text": "Assertion (A): Geitonogamy is functionally cross-pollination but genetically similar to autogamy.\nReason (R): In geitonogamy, a pollinating agent transfers pollen grains from one plant to the stigma of a flower on a different plant.\nChoose the correct option.",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true, and R is the correct explanation of A",
+        "Both Assertion (A) and Reason (R) are true, but R is not the correct explanation of A",
+        "Assertion (A) is true, but Reason (R) is false",
+        "Assertion (A) is false, but Reason (R) is true"
+      ],
+      "answer": 2,
+      "explanation": "Geitonogamy is the transfer of pollen from the anther to the stigma of another flower of the SAME plant.\nIt needs a pollinating agent, so functionally it is like cross-pollination, but the pollen comes from the same plant, so genetically it is like autogamy — A is true.\nTransfer of pollen to a flower on a different plant is xenogamy, so R is false."
+    },
+    {
+      "text": "To produce 100 seeds (each with one embryo) in an angiosperm, the minimum number of meiotic divisions required is:",
+      "difficulty": "HARD",
+      "options": ["100", "125", "150", "200"],
+      "answer": 1,
+      "explanation": "Female side: one megaspore mother cell gives four megaspores by meiosis, but only one is functional and forms one embryo sac with one egg, so 100 eggs need 100 meioses.\nMale side: one pollen mother cell gives four pollen grains by meiosis, and each pollen grain brings the two male gametes needed for one double fertilisation, so 100 pollen grains need 100 ÷ 4 = 25 meioses.\nTotal = 100 + 25 = 125."
+    },
+    {
+      "text": "In the embryo of a grass (a monocot), the scutellum, the coleoptile and the coleorrhiza respectively are:",
+      "difficulty": "HARD",
+      "options": [
+        "Endosperm; sheath enclosing the radicle and root cap; sheath enclosing the shoot apex",
+        "Sheath enclosing the radicle; cotyledon; sheath enclosing the shoot apex",
+        "Cotyledon; sheath enclosing the radicle and root cap; sheath enclosing the shoot apex and leaf primordia",
+        "Cotyledon; sheath enclosing the shoot apex and leaf primordia; sheath enclosing the radicle and root cap"
+      ],
+      "answer": 3,
+      "explanation": "A grass embryo has one large, shield-shaped cotyledon called the scutellum, placed laterally.\nThe shoot apex and a few leaf primordia are enclosed in a hollow foliar structure, the coleoptile.\nThe radicle and root cap are enclosed in an undifferentiated sheath, the coleorrhiza.\nSo the order is cotyledon; sheath over the shoot; sheath over the root."
+    }
+  ]
+}

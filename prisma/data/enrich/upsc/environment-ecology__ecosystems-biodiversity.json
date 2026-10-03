@@ -1,0 +1,162 @@
+{
+  "exam": "upsc",
+  "subject": "environment-ecology",
+  "chapter": "ecosystems-biodiversity",
+  "notes": {
+    "summary": "This chapter covers ecosystem structure and function (energy flow, food chains, ecological pyramids, nutrient cycles, succession), interactions between species, and biodiversity: its levels, patterns, threats and conservation. UPSC Prelims mixes NCERT Class 12 ecology facts with applied examples, often as 'how many pairs are correctly matched' or multi-statement questions.",
+    "keyPoints": [
+      "Productivity: Gross Primary Productivity − respiration of producers = Net Primary Productivity. Energy flow is one-way; by Lindeman's 10% law only about 10% of energy passes to the next trophic level.",
+      "Pyramids: the pyramid of energy is always upright; the pyramid of numbers is inverted for a single tree with many insects; the pyramid of biomass is generally inverted in the sea because the standing crop of phytoplankton is smaller than that of the animals feeding on it.",
+      "Food chains: the grazing food chain starts with green plants and is the main energy route in aquatic ecosystems; the detritus food chain starts with dead organic matter and carries most of the energy in terrestrial ecosystems such as forests.",
+      "Biomagnification: non-degradable toxins such as DDT build up at higher trophic levels. NCERT example: 0.003 ppb in water rises to about 25 ppm in fish-eating birds, causing eggshell thinning.",
+      "Species interactions by sign: mutualism +/+ (lichen, mycorrhiza), commensalism +/0 (orchid on a mango branch, cattle egret and grazing cattle), parasitism and predation +/−, brood parasitism (cuckoo lays eggs in a crow's nest), amensalism −/0, competition −/− (Gause's exclusion principle).",
+      "Niche vs habitat: habitat is where a species lives; niche is its functional role, including resource use and interactions. Ecotone = transition zone between two communities; edge effect = higher species richness at the ecotone.",
+      "Nutrient cycles: carbon and nitrogen cycles are gaseous; phosphorus is sedimentary, with rocks as reservoir and negligible atmospheric exchange. About 71% of global carbon is dissolved in the oceans. Nitrogen fixation turns N₂ into ammonia (Rhizobium, Azotobacter, cyanobacteria); denitrification turns nitrates back to N₂ (Pseudomonas, Thiobacillus).",
+      "Biodiversity patterns: India has about 2.4% of the world's land area but around 8% of recorded species and is one of the 17 megadiverse countries identified by Conservation International (NCERT calls it one of 12 mega-diversity countries), with 4 of the world's 36 biodiversity hotspots. Humboldt's species–area relation: log S = log C + Z log A, with Z usually 0.1–0.2, but 0.6–1.2 for whole continents.",
+      "Evil quartet of biodiversity loss: habitat loss and fragmentation, over-exploitation (Steller's sea cow, passenger pigeon), alien species invasions (Nile perch in Lake Victoria, Parthenium, Lantana, water hyacinth) and co-extinctions.",
+      "Conservation: in situ – national parks, sanctuaries, biosphere reserves, sacred groves (Khasi and Jaintia Hills, Aravallis, Western Ghats, Bastar); ex situ – zoos, botanical gardens, seed banks, cryopreservation."
+    ],
+    "traps": [
+      "Assuming all ecological pyramids are always upright; only the pyramid of energy is.",
+      "Confusing niche (role) with habitat (address), or ecotone (the zone) with edge effect (the higher richness found there).",
+      "Calling the conversion of nitrates into nitrogen gas 'nitrogen fixation'; it is denitrification.",
+      "Treating an epiphytic orchid on a mango tree as a parasite; it is a commensal.",
+      "Thinking biomagnification happens because toxins are excreted quickly; it happens because they are not broken down or excreted."
+    ],
+    "examTip": "In interaction questions, first mark each species +, − or 0, then match the sign pattern (+/+, +/0, +/−, −/0) to the term before reading the options."
+  },
+  "questions": [
+    {
+      "text": "A species that occurs naturally only in a particular geographical region and nowhere else in the world is called:",
+      "difficulty": "EASY",
+      "options": [
+        "An exotic species",
+        "An endemic species",
+        "A keystone species",
+        "A flagship species"
+      ],
+      "answer": 1,
+      "explanation": "Endemism means a species is restricted to a particular region; the lion-tailed macaque, for example, is endemic to the Western Ghats.\nAn exotic species is one introduced from elsewhere, a keystone species has an unusually large effect on its ecosystem, and a flagship species (such as the tiger) is a charismatic species used to rally conservation support.\nAnswer: An endemic species."
+    },
+    {
+      "text": "The tendency of an ecotone to contain a greater number of species and a higher population density than either of the adjoining communities is known as:",
+      "difficulty": "EASY",
+      "options": [
+        "Ecological succession",
+        "Biomagnification",
+        "Edge effect",
+        "Ecological equivalence"
+      ],
+      "answer": 2,
+      "explanation": "An ecotone, such as a forest–grassland boundary, contains species from both neighbouring communities plus 'edge species' that live mainly in the transition zone.\nThis increase in variety and density at the boundary is called the edge effect.\nSuccession is the sequential change of communities over time, and biomagnification is the build-up of toxins along food chains.\nAnswer: Edge effect."
+    },
+    {
+      "text": "The term 'ecological niche' of a species refers to:",
+      "difficulty": "EASY",
+      "options": [
+        "The functional role of the species, including its use of resources and its interactions with other species",
+        "The physical place where the species lives",
+        "The total number of individuals of the species in an area",
+        "The transitional zone between two ecosystems"
+      ],
+      "answer": 0,
+      "explanation": "A habitat is the physical place where an organism lives (its 'address').\nA niche is the role it plays (its 'profession'): what it eats, the conditions it tolerates and how it interacts with other species.\nThe number of individuals is population size and the transition zone is an ecotone.\nAnswer: The functional role of the species, including resource use and interactions."
+    },
+    {
+      "text": "Consider the following statements about ecological pyramids:\n1. The pyramid of numbers in a single-tree ecosystem, where one tree supports many insects, is inverted.\n2. The pyramid of biomass in a typical sea ecosystem is generally inverted.\n3. In a grassland ecosystem, the pyramid of numbers is upright.\nWhich of the statements given above is/are correct?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "answer": 3,
+      "explanation": "Statement 1: one large tree (a single producer) supports a very large number of herbivorous insects, so the base of the pyramid of numbers is narrower than the next level, i.e. inverted.\nStatement 2: in the sea, a small standing crop of phytoplankton supports a larger standing crop of zooplankton and fish, so the pyramid of biomass is generally inverted.\nStatement 3: in a grassland, many grass plants support fewer herbivores and still fewer carnivores, so the pyramid is upright.\nAnswer: 1, 2 and 3."
+    },
+    {
+      "text": "Consider the following statements regarding food chains:\n1. A detritus food chain begins with dead organic matter.\n2. In an aquatic ecosystem, the grazing food chain is the major conduit of energy flow.\n3. In a terrestrial ecosystem, a much smaller fraction of energy flows through the detritus food chain than through the grazing food chain.\nWhich of the statements given above is/are correct?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "answer": 0,
+      "explanation": "Statement 1 is correct: the detritus food chain starts with dead leaves, remains and excreta, which are broken down by detritivores and decomposers.\nStatement 2 is correct: NCERT notes that in aquatic ecosystems the grazing food chain is the major conduit for energy flow.\nStatement 3 is wrong: in terrestrial ecosystems a much larger fraction of energy flows through the detritus food chain than through the grazing food chain.\nAnswer: 1 and 2 only."
+    },
+    {
+      "text": "With reference to biomagnification, consider the following statements:\n1. It refers to the increase in concentration of a toxic substance at successive trophic levels of a food chain.\n2. It occurs mainly because the toxic substance is rapidly broken down and excreted by organisms.\n3. High concentrations of DDT in fish-eating birds have been linked to the thinning of their eggshells.\nWhich of the statements given above is/are correct?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "1 only",
+        "1 and 3 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "answer": 1,
+      "explanation": "Statement 1 is the definition of biomagnification.\nStatement 2 is wrong: a toxin magnifies precisely because organisms cannot metabolise or excrete it, so it accumulates (often in fat) and passes up the chain; DDT rises from 0.003 ppb in water to about 25 ppm in fish-eating birds.\nStatement 3 is correct: high DDT disturbs calcium metabolism, producing thin eggshells that break early and causing bird populations to decline.\nAnswer: 1 and 3 only."
+    },
+    {
+      "text": "Consider the following pairs of ecological interactions:\n1. A cuckoo laying its eggs in the nest of a crow — Brood parasitism\n2. An orchid growing as an epiphyte on a mango branch — Parasitism\n3. Lichen (an association of a fungus with an alga or cyanobacterium) — Mutualism\n4. Cattle egret foraging close to grazing cattle — Commensalism\nHow many of the pairs given above are correctly matched?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Only one",
+        "Only two",
+        "Only three",
+        "All four"
+      ],
+      "answer": 2,
+      "explanation": "Pair 1 is correct: the crow incubates and raises the cuckoo's young.\nPair 2 is wrong: the epiphytic orchid only uses the mango branch for support and draws no nutrients from it, so it is commensalism (+/0).\nPair 3 is correct: the fungus provides shelter and absorbs water and minerals, while the alga or cyanobacterium makes food (+/+).\nPair 4 is correct: the egret eats insects stirred up by the cattle, which are unaffected (+/0).\nAnswer: Only three."
+    },
+    {
+      "text": "The introduction of the Nile perch into Lake Victoria in East Africa eventually led to the extinction of more than 200 species of native cichlid fish. This is an example of which cause of biodiversity loss?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Over-exploitation",
+        "Co-extinction",
+        "Habitat fragmentation",
+        "Alien species invasion"
+      ],
+      "answer": 3,
+      "explanation": "NCERT lists four major causes of biodiversity loss, the 'Evil Quartet': habitat loss and fragmentation, over-exploitation, alien species invasions and co-extinctions.\nThe Nile perch was a predatory fish brought in from outside, and it wiped out native cichlids, which makes this an alien species invasion.\nOther examples are Parthenium, Lantana and water hyacinth in India; Steller's sea cow and the passenger pigeon are examples of over-exploitation.\nAnswer: Alien species invasion."
+    },
+    {
+      "text": "Consider the following statements regarding sacred groves in India:\n1. They are patches of forest protected by local communities on religious grounds and represent a form of in situ conservation.\n2. Such groves are found in the Khasi and Jaintia Hills of Meghalaya and in parts of the Western Ghats.\n3. All sacred groves are notified as national parks under the Wild Life (Protection) Act, 1972.\nWhich of the statements given above is/are correct?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "1 and 2 only",
+        "1 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "answer": 0,
+      "explanation": "Statement 1 is correct: sacred groves are forest patches left untouched by communities because of religious beliefs, conserving species in their natural habitat (in situ).\nStatement 2 is correct: NCERT names the Khasi and Jaintia Hills (Meghalaya), the Aravalli Hills (Rajasthan), the Western Ghats of Karnataka and Maharashtra, and the Sarguja, Chanda and Bastar areas.\nStatement 3 is wrong: sacred groves are community-protected and are not, as a class, notified as national parks.\nAnswer: 1 and 2 only."
+    },
+    {
+      "text": "Consider the following statements about biogeochemical cycles:\n1. The phosphorus cycle has no significant gaseous exchange with the atmosphere, unlike the carbon cycle.\n2. Of the total global carbon, about 71% is found dissolved in the oceans.\n3. The conversion of nitrates into free nitrogen gas by certain bacteria is called nitrogen fixation.\nWhich of the statements given above is/are correct?",
+      "difficulty": "HARD",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "1 and 2 only",
+        "1, 2 and 3"
+      ],
+      "answer": 2,
+      "explanation": "Statement 1 is correct: the reservoir of phosphorus is phosphate rock; it enters ecosystems through weathering, and its gaseous exchange between organisms and the environment is negligible, so it is a sedimentary cycle.\nStatement 2 is correct: NCERT states that about 71% of global carbon is dissolved in the oceans, which helps regulate atmospheric CO₂.\nStatement 3 is wrong: nitrates being reduced to N₂ (by bacteria such as Pseudomonas and Thiobacillus) is denitrification; nitrogen fixation is the conversion of N₂ into ammonia.\nAnswer: 1 and 2 only."
+    },
+    {
+      "text": "With reference to the species–area relationship described by Alexander von Humboldt, consider the following statements:\n1. Within a region, species richness increases with the explored area, but only up to a limit.\n2. On a logarithmic scale, the relationship is a straight line described by log S = log C + Z log A.\n3. When very large areas such as entire continents are analysed, the slope Z is much steeper than its usual range of 0.1 to 0.2.\nWhich of the statements given above is/are correct?",
+      "difficulty": "HARD",
+      "options": [
+        "1 and 2 only",
+        "1, 2 and 3",
+        "2 only",
+        "1 and 3 only"
+      ],
+      "answer": 1,
+      "explanation": "Humboldt observed that species richness rises with explored area, but only up to a limit (statement 1 correct).\nThe relation S = CA^Z becomes a straight line on log scales: log S = log C + Z log A, where Z is the slope (statement 2 correct).\nNCERT notes that Z usually lies between 0.1 and 0.2 regardless of taxonomic group or region, but for very large areas such as whole continents it is much steeper, about 0.6 to 1.2 (statement 3 correct).\nAnswer: 1, 2 and 3."
+    }
+  ]
+}

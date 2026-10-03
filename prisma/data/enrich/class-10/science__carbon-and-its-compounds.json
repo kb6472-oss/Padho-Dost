@@ -1,0 +1,142 @@
+{
+  "exam": "class-10",
+  "subject": "science",
+  "chapter": "carbon-and-its-compounds",
+  "notes": {
+    "summary": "This chapter covers covalent bonding in carbon, its versatility (catenation and tetravalency), hydrocarbons, homologous series, functional groups and nomenclature, and the chemical properties of carbon compounds, ethanol and ethanoic acid, ending with soaps and detergents. CBSE tests electron-dot structures, naming, isomers, reaction-based identification and assertion-reason items on soaps and detergents.",
+    "keyPoints": [
+      "Carbon (electronic configuration 2, 4) neither gains nor loses 4 electrons; it shares electrons to form covalent bonds. H₂ has a single bond, O₂ a double bond and N₂ a triple bond. Covalent compounds generally have low melting and boiling points and are poor conductors of electricity.",
+      "Allotropes of carbon: diamond (each carbon bonded to 4 others in a rigid 3-D structure, hardest substance), graphite (each carbon bonded to 3 others in hexagonal layers, good conductor), fullerene C-60 (football-shaped).",
+      "Alkanes CₙH₂ₙ₊₂ are saturated (single bonds); alkenes CₙH₂ₙ have a double bond; alkynes CₙH₂ₙ₋₂ have a triple bond. Successive members of a homologous series differ by –CH₂– and 14 u (e.g., CH₄ = 16 u, C₂H₆ = 30 u).",
+      "Structural isomers have the same molecular formula but different structures: butane (C₄H₁₀) has 2 and pentane (C₅H₁₂) has 3 structural isomers.",
+      "Functional groups and naming: –Cl/–Br (prefix chloro/bromo), –OH (suffix -ol), –CHO (suffix -al), >C=O (suffix -one), –COOH (suffix -oic acid). Examples: CH₃CHO ethanal, CH₃COCH₃ propanone, CH₃COCH₂CH₃ butanone, CH₃CH₂Cl chloroethane.",
+      "Combustion: CH₄ + 2O₂ → CO₂ + 2H₂O + heat and light. Saturated hydrocarbons generally burn with a clean blue flame; unsaturated ones give a yellow sooty flame.",
+      "Oxidation: ethanol with alkaline KMnO₄ or acidified K₂Cr₂O₇ (oxidising agents) → ethanoic acid. Addition: vegetable oils + H₂ in presence of Ni or Pd catalyst → saturated fats. Substitution: CH₄ + Cl₂ → CH₃Cl + HCl in sunlight.",
+      "Ethanol reactions: 2Na + 2CH₃CH₂OH → 2CH₃CH₂O⁻Na⁺ + H₂ (gas burns with a pop); heating with excess concentrated H₂SO₄ at 443 K dehydrates it to ethene: CH₃CH₂OH → CH₂=CH₂ + H₂O.",
+      "Ethanoic acid: a 5–8% solution in water is vinegar; pure ethanoic acid freezes at 290 K (glacial acetic acid). With NaHCO₃ or Na₂CO₃ it gives CO₂, which turns lime water milky. Esterification: CH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O (acid catalyst); the ester with NaOH gives back ethanol and sodium ethanoate (saponification).",
+      "Soaps are sodium or potassium salts of long-chain carboxylic acids; in water they form micelles (ionic ends outside, hydrocarbon tails trapping oily dirt) but form insoluble scum with Ca²⁺ and Mg²⁺ ions of hard water. Detergents (sodium salts of sulphonic acids or ammonium salts) work well even in hard water."
+    ],
+    "traps": [
+      "Forgetting the C–C bonds while counting covalent bonds (propane has 8 C–H + 2 C–C = 10 bonds).",
+      "Confusing -al (aldehyde, –CHO at the end of the chain) with -one (ketone, >C=O inside the chain).",
+      "Calling KMnO₄ a catalyst or concentrated H₂SO₄ an oxidising agent — here KMnO₄ is an oxidising agent and hot concentrated H₂SO₄ acts as a dehydrating agent.",
+      "Thinking detergents are salts of long-chain carboxylic acids — that describes soaps.",
+      "Writing the alkyne formula as CₙH₂ₙ, which is the alkene formula."
+    ],
+    "examTip": "Before naming any compound, count the carbons for the root word, locate the functional group for the suffix or prefix, and recheck that every carbon in your structure has exactly four bonds."
+  },
+  "questions": [
+    {
+      "text": "What is the molecular formula of the alkyne containing three carbon atoms?",
+      "difficulty": "EASY",
+      "options": ["C₃H₈", "C₃H₆", "C₃H₄", "C₃H₃"],
+      "answer": 2,
+      "explanation": "The general formula of alkynes is CₙH₂ₙ₋₂.\nFor n = 3: H = 2 × 3 − 2 = 4, so the formula is C₃H₄ (propyne).\nC₃H₈ is the alkane (propane) and C₃H₆ is the alkene (propene)."
+    },
+    {
+      "text": "Two successive members of a homologous series differ in their molecular formula and molecular mass by:",
+      "difficulty": "EASY",
+      "options": [
+        "A –CH₂– unit and 14 u",
+        "A –CH₃ unit and 15 u",
+        "A –C₂H₄– unit and 28 u",
+        "A –CH₂– unit and 12 u"
+      ],
+      "answer": 0,
+      "explanation": "Successive members of a homologous series differ by one –CH₂– unit.\nMass of –CH₂– = 12 + 2 × 1 = 14 u.\nExample: CH₄ (16 u) and C₂H₆ (30 u) differ by 14 u."
+    },
+    {
+      "text": "The nitrogen molecule (N₂) is formed by:",
+      "difficulty": "EASY",
+      "options": [
+        "A single covalent bond",
+        "A double covalent bond",
+        "An ionic bond",
+        "A triple covalent bond"
+      ],
+      "answer": 3,
+      "explanation": "Nitrogen (atomic number 7) has configuration 2, 5, so it needs 3 more electrons to complete its octet.\nEach nitrogen atom shares 3 electrons with the other, forming 3 shared pairs.\nThree shared pairs make a triple covalent bond (N≡N)."
+    },
+    {
+      "text": "How many single covalent bonds are present in one molecule of propane (C₃H₈)?",
+      "difficulty": "MEDIUM",
+      "options": ["8", "10", "11", "3"],
+      "answer": 1,
+      "explanation": "Propane has a chain of 3 carbon atoms: CH₃–CH₂–CH₃.\nC–C bonds = 2; C–H bonds = 8.\nTotal = 2 + 8 = 10 single covalent bonds.\nCheck: total valencies = 3 × 4 + 8 × 1 = 20, and 20 ÷ 2 = 10 bonds."
+    },
+    {
+      "text": "When ethanol is warmed with alkaline potassium permanganate solution, the purple colour of the permanganate disappears at first. What is ethanol converted into, and what is the role of potassium permanganate?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Ethanoic acid; alkaline KMnO₄ acts as an oxidising agent",
+        "Ethene; KMnO₄ acts as a dehydrating agent",
+        "Ethane; KMnO₄ acts as a reducing agent",
+        "Ethyl ethanoate; KMnO₄ acts as a catalyst"
+      ],
+      "answer": 0,
+      "explanation": "Alkaline KMnO₄ supplies oxygen to ethanol, oxidising it.\nCH₃CH₂OH is oxidised to CH₃COOH (ethanoic acid).\nThe permanganate is used up, so its colour disappears initially.\nSubstances that add oxygen to others are oxidising agents."
+    },
+    {
+      "text": "A small piece of sodium is dropped into a test tube containing ethanol. Which gas is evolved, and how can it be tested?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Oxygen; it rekindles a glowing splinter",
+        "Carbon dioxide; it turns lime water milky",
+        "Hydrogen; it burns with a pop sound when a burning splinter is brought near",
+        "Ethene; it decolourises bromine water"
+      ],
+      "answer": 2,
+      "explanation": "Sodium reacts with ethanol to form sodium ethoxide and hydrogen gas.\n2Na + 2CH₃CH₂OH → 2CH₃CH₂O⁻Na⁺ + H₂.\nHydrogen burns with a pop sound when a lighted splinter is brought near."
+    },
+    {
+      "text": "A student adds sodium hydrogencarbonate to ethanoic acid in a test tube and passes the gas formed through lime water. What will the student observe?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "No reaction, since ethanoic acid is a weak acid",
+        "A pop sound, as hydrogen gas is formed",
+        "A sweet fruity smell, as an ester is formed",
+        "Brisk effervescence, and the gas turns lime water milky"
+      ],
+      "answer": 3,
+      "explanation": "Ethanoic acid, though weak, reacts with carbonates and hydrogencarbonates.\nCH₃COOH + NaHCO₃ → CH₃COONa + H₂O + CO₂.\nCO₂ comes out as brisk effervescence and turns lime water milky (CaCO₃ forms)."
+    },
+    {
+      "text": "What is the IUPAC name of the compound CH₃–CO–CH₂–CH₃?",
+      "difficulty": "MEDIUM",
+      "options": ["Butanal", "Butanone", "Propanone", "Butanoic acid"],
+      "answer": 1,
+      "explanation": "Count the carbon atoms: 4, so the root is 'butan-'.\nThe functional group >C=O is inside the chain, so it is a ketone with suffix '-one'.\nName = butanone.\nButanal would be CH₃CH₂CH₂CHO (–CHO at the end), and propanone has only 3 carbons."
+    },
+    {
+      "text": "Assertion (A): Detergents work effectively even in hard water.\nReason (R): Detergents are sodium or potassium salts of long-chain carboxylic acids.\n\nChoose the correct option.",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A.",
+        "Both A and R are true, but R is not the correct explanation of A.",
+        "A is true, but R is false.",
+        "A is false, but R is true."
+      ],
+      "answer": 2,
+      "explanation": "The charged ends of detergents do not form insoluble precipitates with Ca²⁺ and Mg²⁺ ions of hard water, so A is true.\nSodium or potassium salts of long-chain carboxylic acids are soaps, not detergents.\nDetergents are generally sodium salts of sulphonic acids or ammonium salts with chloride or bromide ions, so R is false.\nHence A is true but R is false."
+    },
+    {
+      "text": "How many structural isomers are possible for pentane (C₅H₁₂)?",
+      "difficulty": "HARD",
+      "options": ["5", "3", "2", "4"],
+      "answer": 1,
+      "explanation": "Isomer 1: a straight chain of 5 carbon atoms (n-pentane).\nIsomer 2: a chain of 4 carbons with one –CH₃ branch on the second carbon (isopentane).\nIsomer 3: a chain of 3 carbons with two –CH₃ branches on the middle carbon (neopentane).\nAny other drawing repeats one of these, so pentane has 3 structural isomers."
+    },
+    {
+      "text": "Ethanol is heated at 443 K with excess concentrated sulphuric acid. What is the main organic product, and what is the role of the acid?",
+      "difficulty": "HARD",
+      "options": [
+        "Ethanoic acid; the acid acts as an oxidising agent",
+        "Ethane; the acid acts as a reducing agent",
+        "Ethyl ethanoate; the acid acts only as a catalyst",
+        "Ethene; the acid acts as a dehydrating agent"
+      ],
+      "answer": 3,
+      "explanation": "At 443 K, hot concentrated H₂SO₄ removes a water molecule from ethanol.\nCH₃CH₂OH → CH₂=CH₂ + H₂O (in presence of hot conc. H₂SO₄).\nThe product is ethene, and the acid acts as a dehydrating agent.\nEthyl ethanoate would need ethanoic acid as well, which is not present."
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "exam": "class-12",
+  "subject": "chemistry",
+  "chapter": "chemical-kinetics",
+  "notes": {
+    "summary": "Chemical kinetics deals with how fast reactions occur: average and instantaneous rate, rate law, order and molecularity, integrated rate equations for zero- and first-order reactions, half-life, pseudo first-order reactions, and the effect of temperature and catalysts through the Arrhenius equation and collision theory. CBSE asks numericals on rate expressions, first-order kinetics and the Arrhenius equation, along with conceptual and assertion-reason items.",
+    "keyPoints": [
+      "Rate for aA + bB → cC + dD: rate = −(1/a)d[A]/dt = −(1/b)d[B]/dt = (1/c)d[C]/dt = (1/d)d[D]/dt. Example: in N₂ + 3H₂ → 2NH₃, if H₂ is used up at 0.3 mol L⁻¹ s⁻¹, NH₃ forms at 0.2 mol L⁻¹ s⁻¹. Instantaneous rate = slope of the tangent to the concentration–time curve.",
+      "Rate law: rate = k[A]ˣ[B]ʸ, where x and y are found by experiment (e.g. the initial-rate method), not from the balanced equation. Order = x + y; it can be zero, fractional or a whole number.",
+      "Units of k = (mol L⁻¹)¹⁻ⁿ s⁻¹: zero order mol L⁻¹ s⁻¹, first order s⁻¹, second order L mol⁻¹ s⁻¹.",
+      "Molecularity = the number of species colliding in an elementary step. It is always a whole number (1, 2, rarely 3), never zero or fractional. For a complex reaction, the order is decided by the slowest (rate-determining) step.",
+      "Zero order: [R] = [R]₀ − kt; t½ = [R]₀/2k, so half-life is proportional to the initial concentration. Examples: decomposition of NH₃ on a hot platinum surface at high pressure, decomposition of HI on gold.",
+      "First order: k = (2.303/t) log([R]₀/[R]); t½ = 0.693/k, independent of [R]₀. A plot of log[R] against t is a straight line of slope −k/2.303 (ln[R] against t has slope −k). 75% completion takes 2 half-lives; 99.9% takes about 10.",
+      "Pseudo first-order reactions: acid hydrolysis of ethyl acetate (rate = k′[CH₃COOC₂H₅]) and inversion of cane sugar. Water is present in large excess, so its concentration stays almost constant.",
+      "Arrhenius equation: k = A e^(−Ea/RT), so ln k = ln A − Ea/RT and a plot of ln k against 1/T has slope −Ea/R. For two temperatures: log(k₂/k₁) = (Ea/2.303R)(1/T₁ − 1/T₂). If k doubles from 298 K to 308 K, Ea ≈ 52.9 kJ mol⁻¹.",
+      "Collision theory: rate = P Z_AB e^(−Ea/RT). Only collisions with energy at least equal to the threshold energy and with proper orientation are effective; e^(−Ea/RT) is the fraction of molecules with energy ≥ Ea.",
+      "A catalyst lowers Ea by providing an alternative pathway. It does not change ΔG or the equilibrium constant, and it speeds up the forward and backward reactions equally."
+    ],
+    "traps": [
+      "Writing the order from the coefficients of the balanced equation. Order must come from experimental data.",
+      "Forgetting the stoichiometric factors when relating rates, e.g. taking the rate of formation of NH₃ as equal to the rate of disappearance of H₂.",
+      "Using log values without the 2.303 factor (or ln values with it) in first-order and Arrhenius calculations.",
+      "Thinking half-life is constant for every reaction. It is constant only for first order; for zero order it is proportional to [R]₀.",
+      "Saying molecularity can be zero or fractional, or applying molecularity to an overall complex reaction."
+    ],
+    "examTip": "Before substituting in any formula, write the unit of k and the order it implies; checking units catches most wrong-formula errors in kinetics numericals."
+  },
+  "questions": [
+    {
+      "text": "The rate constant of a reaction is 2.5 × 10⁻³ L mol⁻¹ s⁻¹. The order of the reaction is:",
+      "difficulty": "EASY",
+      "options": ["Zero", "First", "Second", "Third"],
+      "answer": 2,
+      "explanation": "The unit of k for an nth-order reaction is (mol L⁻¹)¹⁻ⁿ s⁻¹. For n = 2 this is (mol L⁻¹)⁻¹ s⁻¹ = L mol⁻¹ s⁻¹. Zero order gives mol L⁻¹ s⁻¹, first order gives s⁻¹ and third order gives L² mol⁻² s⁻¹. So the reaction is second order."
+    },
+    {
+      "text": "Which of the following statements about order and molecularity is correct?",
+      "difficulty": "EASY",
+      "options": ["Order can be zero or fractional, but molecularity is always a whole number", "Molecularity can be zero for some reactions", "Order is always equal to the molecularity of the overall reaction", "Molecularity is determined experimentally, while order is calculated from the balanced equation"],
+      "answer": 0,
+      "explanation": "Order is found experimentally and can be zero, fractional or a whole number. Molecularity is the number of reacting species in an elementary step, so it can only be 1, 2 or 3, never zero or fractional. Order and molecularity are equal only for elementary reactions. So the first statement is correct."
+    },
+    {
+      "text": "From a graph of the concentration of a reactant against time, the instantaneous rate of the reaction at a particular moment is obtained from:",
+      "difficulty": "EASY",
+      "options": ["The area under the curve up to that moment", "The ratio of the total change in concentration to the total time", "The intercept on the concentration axis", "The slope of the tangent drawn to the curve at that moment"],
+      "answer": 3,
+      "explanation": "Average rate = −Δ[R]/Δt over an interval. As the interval becomes very small, the average rate becomes the instantaneous rate, −d[R]/dt. Graphically, this is the slope of the tangent to the concentration–time curve at that moment (taken with a negative sign for a reactant)."
+    },
+    {
+      "text": "For the reaction N₂(g) + 3H₂(g) → 2NH₃(g), hydrogen is consumed at a rate of 0.3 mol L⁻¹ s⁻¹. The rate of formation of NH₃ is:",
+      "difficulty": "MEDIUM",
+      "options": ["0.45 mol L⁻¹ s⁻¹", "0.20 mol L⁻¹ s⁻¹", "0.10 mol L⁻¹ s⁻¹", "0.30 mol L⁻¹ s⁻¹"],
+      "answer": 1,
+      "explanation": "Rate = −d[N₂]/dt = −(1/3)d[H₂]/dt = (1/2)d[NH₃]/dt. So d[NH₃]/dt = (2/3) × (−d[H₂]/dt). d[NH₃]/dt = (2/3) × 0.3 = 0.20 mol L⁻¹ s⁻¹."
+    },
+    {
+      "text": "The rate law for a reaction is rate = k[A]²[B]. If the concentration of A is doubled and that of B is halved, the rate of the reaction becomes:",
+      "difficulty": "MEDIUM",
+      "options": ["2 times the original rate", "4 times the original rate", "Unchanged", "8 times the original rate"],
+      "answer": 0,
+      "explanation": "New rate = k(2[A])²([B]/2) = k × 4[A]² × [B]/2. This simplifies to 2k[A]²[B]. So the rate becomes 2 times the original rate."
+    },
+    {
+      "text": "The acid hydrolysis of ethyl acetate, CH₃COOC₂H₅ + H₂O → CH₃COOH + C₂H₅OH (in the presence of H⁺), involves two reactant molecules but follows first-order kinetics because:",
+      "difficulty": "MEDIUM",
+      "options": ["H⁺ ions are used up during the reaction", "Ethyl acetate is present in large excess", "The reaction takes place in a single step", "Water is present in large excess, so its concentration remains nearly constant"],
+      "answer": 3,
+      "explanation": "The true rate is k[CH₃COOC₂H₅][H₂O]. Water is the solvent and is in large excess, so its concentration hardly changes during the reaction. It can be merged into the constant: rate = k′[CH₃COOC₂H₅], where k′ = k[H₂O]. Such a reaction is called pseudo first-order."
+    },
+    {
+      "text": "For a first-order reaction, a graph of log[R] (y-axis) against time t (x-axis) is a straight line. Its slope is:",
+      "difficulty": "MEDIUM",
+      "options": ["−k", "k/2.303", "−k/2.303", "+2.303k"],
+      "answer": 2,
+      "explanation": "The integrated first-order equation is ln[R] = ln[R]₀ − kt. Converting to base 10: log[R] = log[R]₀ − (k/2.303)t. This has the form y = c + mx with slope m = −k/2.303. The slope is −k only for a plot of ln[R] against t."
+    },
+    {
+      "text": "Assertion (A): The half-life of a zero-order reaction is independent of the initial concentration of the reactant.\nReason (R): For a zero-order reaction, t½ = [R]₀/2k.\nChoose the correct option.",
+      "difficulty": "MEDIUM",
+      "options": ["Both A and R are true and R is the correct explanation of A", "Both A and R are true but R is not the correct explanation of A", "A is true but R is false", "A is false but R is true"],
+      "answer": 3,
+      "explanation": "For zero order, [R] = [R]₀ − kt. At t = t½, [R] = [R]₀/2, so [R]₀/2 = kt½ and t½ = [R]₀/2k; R is true. This shows t½ is directly proportional to [R]₀, so A is false (independence of [R]₀ holds for first-order reactions). Answer: A is false but R is true."
+    },
+    {
+      "text": "The following initial-rate data were obtained for the reaction A + B → Products at a fixed temperature:\nExperiment 1: [A] = 0.10 M, [B] = 0.10 M, initial rate = 1.2 × 10⁻³ mol L⁻¹ s⁻¹\nExperiment 2: [A] = 0.20 M, [B] = 0.10 M, initial rate = 4.8 × 10⁻³ mol L⁻¹ s⁻¹\nExperiment 3: [A] = 0.10 M, [B] = 0.20 M, initial rate = 1.2 × 10⁻³ mol L⁻¹ s⁻¹\nThe rate law and the rate constant are:",
+      "difficulty": "HARD",
+      "options": ["Rate = k[A][B]; k = 0.12 L mol⁻¹ s⁻¹", "Rate = k[A]²; k = 0.12 L mol⁻¹ s⁻¹", "Rate = k[A]²[B]; k = 1.2 L² mol⁻² s⁻¹", "Rate = k[A]; k = 0.012 s⁻¹"],
+      "answer": 1,
+      "explanation": "Experiments 1 and 2: [A] doubles with [B] fixed and the rate becomes 4 times (4.8/1.2 = 4), so the order with respect to A is 2. Experiments 1 and 3: [B] doubles with [A] fixed and the rate does not change, so the order with respect to B is 0. Rate law: rate = k[A]². From experiment 1, k = 1.2 × 10⁻³/(0.10)² = 0.12 L mol⁻¹ s⁻¹."
+    },
+    {
+      "text": "A first-order reaction takes 40 minutes for 30% decomposition. Its half-life is approximately (log 7 = 0.8451):",
+      "difficulty": "HARD",
+      "options": ["66.7 min", "23.0 min", "77.7 min", "57.1 min"],
+      "answer": 2,
+      "explanation": "After 30% decomposition, [R] = 0.70[R]₀. k = (2.303/t) log([R]₀/[R]) = (2.303/40) log(10/7). log(10/7) = 1 − 0.8451 = 0.1549, so k = 2.303 × 0.1549/40 = 8.92 × 10⁻³ min⁻¹. t½ = 0.693/k = 0.693/(8.92 × 10⁻³) ≈ 77.7 min."
+    },
+    {
+      "text": "The rate constant of a reaction doubles when the temperature is raised from 298 K to 308 K. The activation energy of the reaction is (R = 8.314 J K⁻¹ mol⁻¹, log 2 = 0.3010):",
+      "difficulty": "HARD",
+      "options": ["52.9 kJ mol⁻¹", "23.0 kJ mol⁻¹", "121.8 kJ mol⁻¹", "5.29 kJ mol⁻¹"],
+      "answer": 0,
+      "explanation": "log(k₂/k₁) = (Ea/2.303R) × (T₂ − T₁)/(T₁T₂). Here log 2 = 0.3010 and (T₂ − T₁)/(T₁T₂) = 10/(298 × 308) = 1.0895 × 10⁻⁴ K⁻¹. Ea = 2.303 × 8.314 × 0.3010/(1.0895 × 10⁻⁴) = 52898 J mol⁻¹ ≈ 52.9 kJ mol⁻¹."
+    }
+  ]
+}

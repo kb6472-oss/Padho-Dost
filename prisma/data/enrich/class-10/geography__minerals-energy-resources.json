@@ -1,0 +1,137 @@
+{
+  "exam": "class-10",
+  "subject": "geography",
+  "chapter": "minerals-energy-resources",
+  "notes": {
+    "summary": "This chapter explains what minerals and ores are, how minerals occur in different rocks, the major ferrous, non-ferrous and non-metallic minerals with their belts in India, the hazards of mining and the need for conservation, and conventional and non-conventional sources of energy. CBSE tests it through factual MCQs on locations and belts, statement and matching items, assertion-reason questions on conservation and map work on iron ore mines, coal mines, oil fields and power plants.",
+    "keyPoints": [
+      "Ore: an accumulation of a mineral mixed with other elements, in a concentration high enough to make extraction commercially viable.",
+      "Modes of occurrence: veins (small) and lodes (large) in cracks, crevices, faults or joints of igneous and metamorphic rocks give tin, copper, zinc and lead; beds and layers of sedimentary rocks give coal, some iron ore, gypsum, potash salt and sodium salt; decomposition of surface rocks leaves a residual weathered mass such as bauxite; placer deposits in alluvial sands of valley floors and hill bases give gold, silver, tin and platinum; ocean water gives common salt, magnesium and bromine, and ocean beds have manganese nodules.",
+      "Distribution: peninsular rocks hold most of India's coal, metallic minerals and mica; sedimentary rocks on the western and eastern flanks of the peninsula (Gujarat, Assam) hold most petroleum; Rajasthan has many non-ferrous minerals; the northern alluvial plains are almost devoid of economic minerals.",
+      "Iron ore: magnetite is the finest ore (up to 70% iron) with excellent magnetic qualities, valuable in the electrical industry; haematite (50 to 60% iron) is the most important industrial ore by quantity. Belts: Odisha–Jharkhand (Badampahar in Mayurbhanj and Kendujhar; Gua and Noamundi in Singhbhum); Durg–Bastar–Chandrapur (Bailadila hills in Bastar, Chhattisgarh, exported to Japan and South Korea via Vishakhapatnam port); Ballari–Chitradurga–Chikkamagaluru–Tumakuru (Kudremukh, a 100% export unit that sends ore as slurry by pipeline to a port near Mangaluru); Maharashtra–Goa (exported through Marmagao port).",
+      "Manganese: about 10 kg is needed to make one tonne of steel; also used for bleaching powder, insecticides and paints; Odisha is the leading producer. Copper: Balaghat (Madhya Pradesh), Khetri (Rajasthan), Singhbhum (Jharkhand). Bauxite: Amarkantak plateau, Maikal hills and Bilaspur–Katni plateau; Panchpatmali deposits in Koraput, Odisha.",
+      "Mica: splits into thin sheets and has high di-electric strength, low power loss and resistance to high voltage, so it is used in electrical and electronic industries; Koderma–Gaya–Hazaribagh belt of Jharkhand, Ajmer (Rajasthan) and Nellore (Andhra Pradesh). Limestone is the basic raw material for cement and for smelting iron ore in blast furnaces.",
+      "Mining hazards: miners inhale dust and suffer pulmonary diseases; risk of roof collapse, flooding and fire; water sources get contaminated; dumping of waste and slurry degrades land and soil. Conservation: minerals are finite and non-renewable and form over millions of years, so use them in a planned, sustainable way, improve technology for low-grade ores, and recycle metals, use scrap and substitutes.",
+      "Coal: peat (lowest grade) → lignite (soft brown coal with high moisture; main reserves at Neyveli, Tamil Nadu; used for power) → bituminous (metallurgical coal is high-grade bituminous used in blast furnaces) → anthracite (highest quality hard coal). Gondwana coal (a little over 200 million years old) is mainly in the Damodar valley (Jharia, Raniganj, Bokaro) and also in the Godavari, Mahanadi, Son and Wardha valleys; Tertiary coal is in Meghalaya, Assam, Arunachal Pradesh and Nagaland. Rat-hole mining is practised in Meghalaya (Jowai, Cherrapunji).",
+      "Petroleum occurs in anticlines and fault traps, held in porous rock such as limestone or sandstone and sealed by non-porous rock. Fields: Mumbai High (offshore), Gujarat (Ankleshwar is the most important, also Kalol), Assam, the oldest oil-producing state (Digboi, Naharkatiya, Moran-Hugrijan). Natural gas: Krishna–Godavari basin and Gulf of Khambhat; used as fuel in power plants, as raw material for fertilisers and as CNG in vehicles.",
+      "Electricity and non-conventional energy: hydel power from fast-flowing water is renewable (Bhakra Nangal, Damodar Valley Corporation, Kopili); thermal power uses non-renewable coal, petroleum and natural gas. Nuclear: uranium in Jharkhand and the Aravalli ranges of Rajasthan, thorium in the monazite sands of Kerala; plants at Tarapur (Maharashtra), Narora (Uttar Pradesh), Kakrapar (Gujarat), Kalpakkam (Tamil Nadu), Rawatbhata (Rajasthan) and Kaiga (Karnataka). Wind: Nagercoil–Madurai belt in Tamil Nadu, Jaisalmer. Tidal: Gulf of Khambhat, Gulf of Kuchchh and the Sundarbans. Geothermal: Parvati valley near Manikaran (Himachal Pradesh) and Puga valley (Ladakh). Biogas from dung gives fuel plus manure."
+    ],
+    "traps": [
+      "Swapping magnetite and haematite: magnetite has the highest iron content, but haematite is the most used by quantity.",
+      "Placing Digboi or Naharkatiya in Gujarat: they are in Assam; Ankleshwar and Kalol are the Gujarat fields.",
+      "Reversing coal grades: anthracite is the best (highest carbon) and peat the poorest; lignite is the Neyveli coal.",
+      "Saying bauxite occurs in veins and lodes: it forms from the decomposition of surface rocks.",
+      "Forgetting that hydel power is renewable while thermal power depends on non-renewable fossil fuels."
+    ],
+    "examTip": "For location questions, anchor each place to its belt or state (Bailadila – Chhattisgarh, Kudremukh – Karnataka, Neyveli – Tamil Nadu, Ankleshwar – Gujarat, Digboi – Assam, Kalpakkam – Tamil Nadu) and strike out options that mix up states."
+  },
+  "questions": [
+    {
+      "text": "In geography, the term 'ore' refers to:",
+      "difficulty": "EASY",
+      "options": [
+        "any rock found on the Earth's surface",
+        "an accumulation of a mineral mixed with other elements, in a concentration high enough to make extraction commercially viable",
+        "a mineral that has already been purified in a factory",
+        "only metallic minerals found in sedimentary rocks"
+      ],
+      "answer": 1,
+      "explanation": "Minerals are generally found in ores. NCERT defines an ore as an accumulation of a mineral mixed with other elements. The mineral content must be concentrated enough to make its extraction commercially viable. Ores can be metallic or non-metallic and occur in different rock types, so the correct option is the definition based on commercially viable concentration."
+    },
+    {
+      "text": "Gold, silver, tin and platinum often occur as 'placer deposits'. Such deposits are found in:",
+      "difficulty": "EASY",
+      "options": [
+        "cracks and joints of igneous rocks as lodes",
+        "beds and layers of sedimentary rocks",
+        "ocean water, dissolved as salts",
+        "alluvial sands of valley floors and the base of hills"
+      ],
+      "answer": 3,
+      "explanation": "Placer deposits are alluvial deposits. They occur in the sands of valley floors and at the base of hills. The minerals in them, such as gold, silver, tin and platinum, are not corroded by water, so they survive transport and settle there. So placer deposits are found in alluvial sands of valley floors and the base of hills."
+    },
+    {
+      "text": "Lignite is a low-grade brown coal that is soft and has a high moisture content. Its principal reserves in India are at:",
+      "difficulty": "EASY",
+      "options": ["Neyveli in Tamil Nadu", "Jharia in Jharkhand", "Raniganj in West Bengal", "Digboi in Assam"],
+      "answer": 0,
+      "explanation": "NCERT states that the principal lignite reserves are at Neyveli in Tamil Nadu, where it is used to generate electricity. Jharia and Raniganj are Gondwana coalfields of the Damodar valley with bituminous coal. Digboi is an oil field, not a coalfield. So the answer is Neyveli in Tamil Nadu."
+    },
+    {
+      "text": "In igneous and metamorphic rocks, minerals may occur in cracks, crevices, faults or joints; the smaller occurrences are called veins and the larger ones lodes. Which group of minerals is commonly obtained from veins and lodes?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Coal, gypsum and potash salt",
+        "Bauxite only",
+        "Tin, copper, zinc and lead",
+        "Common salt, magnesium and bromine"
+      ],
+      "answer": 2,
+      "explanation": "Veins and lodes form when minerals in molten or gaseous form are forced upward through cavities and then cool and solidify. Major metallic minerals such as tin, copper, zinc and lead are obtained this way. Coal, gypsum and potash salt occur in sedimentary beds, bauxite forms from decomposition of surface rocks, and salt, magnesium and bromine come from ocean water. So the answer is tin, copper, zinc and lead."
+    },
+    {
+      "text": "Which iron ore is the most important industrial iron ore in terms of the quantity used, with an iron content of about 50–60 per cent?",
+      "difficulty": "MEDIUM",
+      "options": ["Magnetite", "Haematite", "Siderite", "Bauxite"],
+      "answer": 1,
+      "explanation": "Magnetite is the finest iron ore, with up to 70 per cent iron and excellent magnetic qualities, but it is not the one used in the largest quantity. Haematite contains 50 to 60 per cent iron and is the most important industrial iron ore by quantity. Bauxite is the ore of aluminium, not iron. So the answer is haematite."
+    },
+    {
+      "text": "The Bailadila range of hills, which looks like the hump of an ox and contains very high-grade haematite, belongs to which iron ore belt?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Odisha–Jharkhand belt",
+        "Ballari–Chitradurga–Chikkamagaluru–Tumakuru belt",
+        "Maharashtra–Goa belt",
+        "Durg–Bastar–Chandrapur belt"
+      ],
+      "answer": 3,
+      "explanation": "The Bailadila hills lie in the Bastar district of Chhattisgarh. NCERT places them in the Durg–Bastar–Chandrapur belt, which lies in Chhattisgarh and Maharashtra. Ore from these mines is exported to Japan and South Korea via Vishakhapatnam port. So the answer is the Durg–Bastar–Chandrapur belt."
+    },
+    {
+      "text": "Nearly 10 kg of this mineral is needed to manufacture one tonne of steel, and it is also used to make bleaching powder, insecticides and paints. The mineral is:",
+      "difficulty": "MEDIUM",
+      "options": ["Manganese", "Mica", "Bauxite", "Copper"],
+      "answer": 0,
+      "explanation": "NCERT notes that about 10 kg of manganese is required to manufacture one tonne of steel. Manganese is also used in making bleaching powder, insecticides and paints. Mica is used in electrical industries, bauxite gives aluminium and copper is used in wires and electronics. So the mineral is manganese."
+    },
+    {
+      "text": "Which of the following is the most important oil field of Gujarat?",
+      "difficulty": "MEDIUM",
+      "options": ["Digboi", "Naharkatiya", "Ankleshwar", "Moran-Hugrijan"],
+      "answer": 2,
+      "explanation": "In Gujarat, NCERT names Ankleshwar as the most important oil field. Digboi, Naharkatiya and Moran-Hugrijan are oil fields of Assam, the oldest oil-producing state of India. So the answer is Ankleshwar."
+    },
+    {
+      "text": "Which of the following regions of India provide ideal conditions for using tidal energy?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "The Thar desert and the Ladakh plateau",
+        "The Gulf of Khambhat, the Gulf of Kuchchh and the Gangetic delta in the Sundarbans",
+        "The Nilgiri hills and the Western Ghats",
+        "The Chota Nagpur plateau and the Malwa plateau"
+      ],
+      "answer": 1,
+      "explanation": "Tidal power is generated by building dams across narrow openings to the sea: water enters at high tide, is trapped, and flows out through turbines at low tide. This needs a coastline with a large tidal range and narrow inlets. NCERT names the Gulf of Khambhat and the Gulf of Kuchchh in Gujarat and the Gangetic delta in the Sundarbans of West Bengal. The other options are inland regions with no tides."
+    },
+    {
+      "text": "Consider the following statements about coal in India:\nI. Gondwana coal, a little over 200 million years old, is found mainly in the Damodar valley (Jharia, Raniganj, Bokaro).\nII. Tertiary coal deposits occur in Meghalaya, Assam, Arunachal Pradesh and Nagaland.\nIII. Metallurgical coal is high-grade bituminous coal of special value for smelting iron in blast furnaces.\nIV. Anthracite is the lowest-quality coal with the least carbon content.\nWhich of the statements are correct?",
+      "difficulty": "HARD",
+      "options": ["I and II only", "I, II and IV only", "II and III only", "I, II and III only"],
+      "answer": 3,
+      "explanation": "Statement I is correct: the major Gondwana coalfields of the Damodar valley include Jharia, Raniganj and Bokaro. Statement II is correct: Tertiary coal (about 55 million years old) occurs in the north-eastern states named. Statement III is correct: NCERT describes metallurgical coal as high-grade bituminous coal used in blast furnaces. Statement IV is wrong because anthracite is the highest-quality hard coal; peat is the lowest grade. So I, II and III only are correct."
+    },
+    {
+      "text": "Match the nuclear power plant with the state in which it is located:\nP. Narora\nQ. Kakrapar\nR. Kalpakkam\nS. Tarapur\n1. Gujarat\n2. Maharashtra\n3. Tamil Nadu\n4. Uttar Pradesh",
+      "difficulty": "HARD",
+      "options": [
+        "P-1, Q-4, R-3, S-2",
+        "P-4, Q-1, R-2, S-3",
+        "P-4, Q-1, R-3, S-2",
+        "P-3, Q-1, R-4, S-2"
+      ],
+      "answer": 2,
+      "explanation": "Narora is on the Ganga in Uttar Pradesh (P-4). Kakrapar is near Surat in Gujarat (Q-1). Kalpakkam is near Chennai in Tamil Nadu (R-3). Tarapur, India's first nuclear power station, is in Maharashtra (S-2). So the correct match is P-4, Q-1, R-3, S-2."
+    }
+  ]
+}

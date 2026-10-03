@@ -1,0 +1,162 @@
+{
+  "exam": "neet",
+  "subject": "chemistry",
+  "chapter": "equilibrium",
+  "notes": {
+    "summary": "This chapter covers physical and chemical equilibria, the law of mass action, Kc and Kp, Le Chatelier's principle, and ionic equilibrium: acids and bases, pH, ionisation of weak electrolytes, buffers, salt hydrolysis and the solubility product. NEET typically sets about two questions: one on K or Le Chatelier's principle and one numerical on pH, buffers or Ksp.",
+    "keyPoints": [
+      "Equilibrium is dynamic: the forward and backward rates are equal, so concentrations stay constant while both reactions continue. Pure solids and liquids are left out of K; for CaCO₃(s) ⇌ CaO(s) + CO₂(g), Kp = p(CO₂).",
+      "Kp = Kc (RT)^Δn_g, where Δn_g = gaseous moles of products − gaseous moles of reactants. Kp = Kc when Δn_g = 0 (H₂ + I₂ ⇌ 2HI).",
+      "Manipulating K: reversing the equation gives 1/K; multiplying all coefficients by n gives Kⁿ; adding equations multiplies their K values. K changes only with temperature; a catalyst changes neither K nor the equilibrium position.",
+      "Reaction quotient: Q < K → net forward reaction; Q > K → net backward reaction; Q = K → at equilibrium.",
+      "Le Chatelier's principle: higher pressure favours the side with fewer gaseous moles; higher temperature favours the endothermic direction (and changes K); adding an inert gas at constant volume has no effect.",
+      "Acid–base concepts: Arrhenius (gives H⁺ or OH⁻ in water); Brønsted–Lowry (proton donor or acceptor; conjugate pairs differ by one H⁺; H₂O, HCO₃⁻ and HSO₄⁻ are amphiprotic); Lewis (electron-pair acceptor or donor, e.g. BF₃ and AlCl₃ are Lewis acids). A strong acid has a very weak conjugate base; Ka × Kb = Kw.",
+      "pH = −log[H⁺]; Kw = 1.0 × 10⁻¹⁴ at 298 K, so pH + pOH = 14. For a weak acid, α = √(Ka/C) and [H⁺] = √(Ka·C); for 0.1 M CH₃COOH (Ka = 1.8 × 10⁻⁵), pH ≈ 2.87.",
+      "Buffers (Henderson equation): acidic buffer pH = pKa + log([salt]/[acid]); basic buffer pOH = pKb + log([salt]/[base]). Equal concentrations give pH = pKa (or pOH = pKb).",
+      "Salt hydrolysis: a salt of a strong acid and weak base (NH₄Cl) is acidic; a salt of a weak acid and strong base (CH₃COONa) is basic; for a salt of a weak acid and weak base (CH₃COONH₄), pH = 7 + ½(pKa − pKb).",
+      "Solubility product: AB, Ksp = s²; AB₂ or A₂B, Ksp = 4s³; AB₃ or A₃B, Ksp = 27s⁴. A precipitate forms when the ionic product exceeds Ksp. A common ion lowers solubility."
+    ],
+    "traps": [
+      "Putting pure solids or liquids into K, or using moles instead of concentrations (divide by the volume).",
+      "Forgetting how many H⁺ or OH⁻ ions each formula unit gives (Ba(OH)₂ gives 2OH⁻), or the 2s and 3s factors in Ksp expressions.",
+      "Not halving concentrations when equal volumes of two solutions are mixed, before comparing the ionic product with Ksp.",
+      "Treating the basic-buffer equation as if it gave pH directly; it gives pOH, so subtract from 14.",
+      "Thinking K changes with pressure, concentration or a catalyst; only temperature changes K."
+    ],
+    "examTip": "Draw a quick ICE (initial–change–equilibrium) table for every K numerical, and check whether the question wants pH or pOH before choosing; the distractors are built from exactly these slips."
+  },
+  "questions": [
+    {
+      "text": "For the heterogeneous equilibrium CaCO₃(s) ⇌ CaO(s) + CO₂(g), the equilibrium constant Kp is given by:",
+      "difficulty": "EASY",
+      "options": [
+        "Kp = p(CaO) × p(CO₂) ÷ p(CaCO₃)",
+        "Kp = 1 ÷ p(CO₂)",
+        "Kp = p(CO₂)",
+        "Kp = [CaO][CO₂] ÷ [CaCO₃]"
+      ],
+      "answer": 2,
+      "explanation": "Pure solids have constant activity (taken as 1), so CaCO₃(s) and CaO(s) do not appear in the expression.\nOnly the gaseous product remains, so Kp = p(CO₂).\nSo at a given temperature, the pressure of CO₂ over the solids is fixed, whatever the amounts of CaCO₃ and CaO.\nAnswer: Kp = p(CO₂)."
+    },
+    {
+      "text": "Which of the following species can act both as a Brønsted–Lowry acid and as a Brønsted–Lowry base?",
+      "difficulty": "EASY",
+      "options": [
+        "HSO₄⁻",
+        "SO₄²⁻",
+        "NH₄⁺",
+        "H₃O⁺"
+      ],
+      "answer": 0,
+      "explanation": "An amphiprotic species can both donate and accept a proton.\nHSO₄⁻ can donate H⁺ (HSO₄⁻ → SO₄²⁻ + H⁺) and can also accept H⁺ (HSO₄⁻ + H⁺ → H₂SO₄).\nSO₄²⁻ has no proton to donate, while NH₄⁺ and H₃O⁺ act only as proton donors.\nAnswer: HSO₄⁻."
+    },
+    {
+      "text": "The pH of a 0.005 M aqueous solution of barium hydroxide, Ba(OH)₂, at 25 °C is: (assume complete dissociation)",
+      "difficulty": "EASY",
+      "options": [
+        "11.7",
+        "2.0",
+        "2.3",
+        "12.0"
+      ],
+      "answer": 3,
+      "explanation": "Ba(OH)₂ → Ba²⁺ + 2OH⁻, so each formula unit gives two OH⁻ ions.\n[OH⁻] = 2 × 0.005 = 0.01 M, so pOH = −log(0.01) = 2.\npH = 14 − pOH = 14 − 2 = 12.0. (Forgetting the factor 2 gives 11.7.)\nAnswer: 12.0."
+    },
+    {
+      "text": "At a certain temperature, the equilibrium constant for A(g) + B(g) ⇌ C(g) is 4. At the same temperature, the equilibrium constant for 2C(g) ⇌ 2A(g) + 2B(g) is:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "16",
+        "0.0625",
+        "0.25",
+        "0.125"
+      ],
+      "answer": 1,
+      "explanation": "Reversing the reaction inverts K: for C ⇌ A + B, K' = 1/4 = 0.25.\nMultiplying every coefficient by 2 squares the constant: K'' = (1/4)² = 1/16.\n1/16 = 0.0625.\nAnswer: 0.0625."
+    },
+    {
+      "text": "The pH of a 0.1 M solution of acetic acid (Ka = 1.8 × 10⁻⁵) at 25 °C is approximately: (log 1.34 = 0.127)",
+      "difficulty": "MEDIUM",
+      "options": [
+        "1.00",
+        "4.74",
+        "2.87",
+        "3.87"
+      ],
+      "answer": 2,
+      "explanation": "For a weak acid with small α, [H⁺] = √(Ka × C).\n[H⁺] = √(1.8 × 10⁻⁵ × 0.1) = √(1.8 × 10⁻⁶) = 1.34 × 10⁻³ M.\npH = −log(1.34 × 10⁻³) = 3 − 0.127 = 2.87.\n1.00 treats the acid as fully ionised, and 4.74 is its pKa.\nAnswer: 2.87."
+    },
+    {
+      "text": "Consider the following statements about physical equilibria:\nI. At 1.013 bar pressure, liquid water and water vapour are in equilibrium at 100 °C (373 K).\nII. Increasing the pressure on the ice ⇌ water equilibrium at 0 °C causes some ice to melt.\nIII. The solubility of a gas in a liquid increases as the pressure of the gas above the liquid increases.\nIV. Once equilibrium is reached, the forward and reverse processes stop completely.\nWhich of the statements are correct?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "I, II and III only",
+        "II and IV only",
+        "I and III only",
+        "I, II, III and IV"
+      ],
+      "answer": 0,
+      "explanation": "I is true: 100 °C is the normal boiling point of water at 1.013 bar.\nII is true: ice occupies a larger volume than the same mass of water, so higher pressure shifts the equilibrium towards the smaller-volume liquid and ice melts.\nIII is true: this is Henry's law, which is why soda bottles are sealed under high CO₂ pressure.\nIV is false: equilibrium is dynamic, and both processes continue at equal rates.\nAnswer: I, II and III only."
+    },
+    {
+      "text": "A buffer solution contains 0.2 M NH₃ and 0.02 M NH₄Cl. If the pKb of NH₃ is 4.75, the pH of the buffer at 25 °C is:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "3.75",
+        "8.25",
+        "9.25",
+        "10.25"
+      ],
+      "answer": 3,
+      "explanation": "For a basic buffer: pOH = pKb + log([salt]/[base]).\npOH = 4.75 + log(0.02/0.2) = 4.75 + log(0.1) = 4.75 − 1 = 3.75.\npH = 14 − 3.75 = 10.25.\n3.75 is the pOH, and 9.25 would be the pH for equal concentrations.\nAnswer: 10.25."
+    },
+    {
+      "text": "The molar solubility of CaF₂ in water at a certain temperature is 2 × 10⁻⁴ mol L⁻¹. Its solubility product (Ksp) at that temperature is:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "8 × 10⁻¹²",
+        "3.2 × 10⁻¹¹",
+        "4 × 10⁻⁸",
+        "1.6 × 10⁻¹¹"
+      ],
+      "answer": 1,
+      "explanation": "CaF₂(s) ⇌ Ca²⁺ + 2F⁻; if the solubility is s, then [Ca²⁺] = s and [F⁻] = 2s.\nKsp = s × (2s)² = 4s³.\nKsp = 4 × (2 × 10⁻⁴)³ = 4 × 8 × 10⁻¹² = 3.2 × 10⁻¹¹.\nAnswer: 3.2 × 10⁻¹¹."
+    },
+    {
+      "text": "Assertion (A): The chloride ion (Cl⁻) is an extremely weak Brønsted base in water.\nReason (R): HCl is a strong acid, and the conjugate base of a strong acid is very weak.",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true, and R is the correct explanation of A",
+        "Both Assertion (A) and Reason (R) are true, but R is not the correct explanation of A",
+        "Assertion (A) is true, but Reason (R) is false",
+        "Assertion (A) is false, but Reason (R) is true"
+      ],
+      "answer": 0,
+      "explanation": "For a conjugate acid–base pair, Ka × Kb = Kw, so a very large Ka means a very small Kb.\nHCl ionises almost completely in water (strong acid), so its conjugate base Cl⁻ has almost no tendency to take back a proton.\nThis is why NaCl solution is neutral. R correctly explains A.\nAnswer: both are true and R is the correct explanation of A."
+    },
+    {
+      "text": "1.0 mol of H₂ and 1.0 mol of I₂ are heated in a closed 1 L vessel until the equilibrium H₂(g) + I₂(g) ⇌ 2HI(g) is reached. At equilibrium, 1.6 mol of HI is present. The value of Kc is:",
+      "difficulty": "HARD",
+      "options": [
+        "16",
+        "4",
+        "40",
+        "64"
+      ],
+      "answer": 3,
+      "explanation": "Let x mol of H₂ react: then HI formed = 2x = 1.6, so x = 0.8.\nAt equilibrium in 1 L: [H₂] = [I₂] = 1.0 − 0.8 = 0.2 M and [HI] = 1.6 M.\nKc = [HI]² ÷ ([H₂][I₂]) = (1.6)² ÷ (0.2 × 0.2) = 2.56 ÷ 0.04 = 64.\nForgetting to square [HI] gives 40.\nAnswer: 64."
+    },
+    {
+      "text": "Equal volumes of 0.002 M BaCl₂ solution and 0.002 M Na₂SO₄ solution are mixed. Given that Ksp of BaSO₄ = 1.1 × 10⁻¹⁰, which statement is correct?",
+      "difficulty": "HARD",
+      "options": [
+        "No precipitate forms because the solutions are too dilute",
+        "No precipitate forms because the ionic product, 1 × 10⁻⁶, is less than Ksp",
+        "BaSO₄ precipitates because the ionic product, 1 × 10⁻⁶, exceeds Ksp",
+        "BaSO₄ precipitates because the ionic product, 4 × 10⁻⁶, exceeds Ksp"
+      ],
+      "answer": 2,
+      "explanation": "Mixing equal volumes doubles the total volume, so each concentration is halved: [Ba²⁺] = [SO₄²⁻] = 0.001 M.\nIonic product Q = [Ba²⁺][SO₄²⁻] = 0.001 × 0.001 = 1 × 10⁻⁶.\nQ (1 × 10⁻⁶) is greater than Ksp (1.1 × 10⁻¹⁰), so BaSO₄ precipitates.\nThe value 4 × 10⁻⁶ comes from forgetting to halve the concentrations.\nAnswer: BaSO₄ precipitates because the ionic product, 1 × 10⁻⁶, exceeds Ksp."
+    }
+  ]
+}

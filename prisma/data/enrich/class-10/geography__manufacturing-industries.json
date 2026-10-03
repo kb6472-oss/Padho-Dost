@@ -1,0 +1,122 @@
+{
+  "exam": "class-10",
+  "subject": "geography",
+  "chapter": "manufacturing-industries",
+  "notes": {
+    "summary": "This chapter covers why manufacturing matters for development, the factors that decide where industries are located, how industries are classified, the major agro-based (cotton, jute, sugar) and mineral-based (iron and steel, aluminium) industries, chemical, fertiliser, cement, automobile and IT industries, and industrial pollution and its control. CBSE tests it through classification and location-reason MCQs, statement and matching items, assertion-reason questions and map work on textile centres, iron and steel plants and software technology parks.",
+    "keyPoints": [
+      "Manufacturing means producing goods in large quantities by processing raw materials into more valuable products. It modernises agriculture, reduces people's dependence on agriculture by creating jobs in the secondary and tertiary sectors, helps reduce unemployment and poverty, and earns foreign exchange through exports.",
+      "Location factors: raw material, labour, capital, power and market, along with government policy. Industries cluster near urban centres to use agglomeration economies such as banking, insurance, transport, labour and financial advice.",
+      "Classification: by raw material — agro-based (cotton, woollen, jute, silk textiles, sugar, edible oil) and mineral-based (iron and steel, cement, aluminium, machine tools, petrochemicals); by main role — basic or key (iron and steel, copper and aluminium smelting) and consumer (sugar, toothpaste, paper, sewing machines, fans); by capital — small scale is defined by the maximum investment allowed on the assets of a unit; by ownership — public (BHEL, SAIL), private (TISCO, Bajaj Auto, Dabur), joint (Oil India Ltd) and cooperative (sugar in Maharashtra, coir in Kerala); by bulk — heavy (iron and steel) and light (electrical goods).",
+      "Textiles: the only industry in India self-reliant and complete in the value chain from raw material to the highest value-added products. Cotton: first successful mill in Mumbai in 1854; spinning is centralised in Maharashtra, Gujarat and Tamil Nadu while weaving is highly decentralised. Jute: first mill at Rishra near Kolkata in 1855; the Hugli basin offers nearness to jute fields, cheap water transport, rail and road links, water for processing, cheap labour, and Kolkata's banking, insurance and port; National Jute Policy 2005 aims at better productivity, quality and prices for farmers.",
+      "Sugar is a seasonal industry with bulky cane that loses sucrose after harvest, so mills stay near cane fields. Mills have shifted to the southern and western states, especially Maharashtra, because the cane there has higher sucrose content, the cooler climate gives a longer crushing season, and cooperatives are more successful.",
+      "Iron and steel is a basic and heavy industry. Iron ore, coking coal and limestone are needed in a ratio of about 4 : 2 : 1, plus some manganese to harden steel. The Chota Nagpur plateau has the largest concentration because of low-cost iron ore, high-grade raw materials close by, cheap labour and a large home market.",
+      "Aluminium smelting is the second most important metallurgical industry; its raw material is bauxite, a dark reddish rock. The two prime location factors are a regular supply of electricity and an assured source of raw material at minimum cost.",
+      "Chemical industry: inorganic chemicals (sulphuric acid for fertilisers, synthetic fibres, plastics, adhesives, paints and dyes; nitric acid, alkalies, soda ash, caustic soda) are widely spread; organic chemicals (petrochemicals) are located near oil refineries; the industry is its own largest consumer. Fertilisers: nitrogenous (mainly urea), phosphatic, ammonium phosphate (DAP) and complex NPK fertilisers; potash is entirely imported because India has no commercially usable reserves. Cement needs limestone, silica and gypsum; the first cement plant was set up in Chennai in 1904.",
+      "Pollution: air (sulphur dioxide, carbon monoxide, smoke), water (organic and inorganic wastes from paper, pulp, chemical, textile and dyeing units, refineries, tanneries and electroplating), thermal (hot water from factories and thermal plants drained before cooling), soil and noise. Control: reuse and recycle water, harvest rainwater, treat effluents (primary — mechanical screening, grinding, flocculation, sedimentation; secondary — biological; tertiary — biological, chemical and physical, including recycling), fit smoke stacks with electrostatic precipitators, fabric filters, scrubbers and inertial separators, use oil or gas instead of coal, and use silencers and ear plugs. NTPC maximises ash use, plants green belts and monitors its power stations ecologically.",
+      "Commonly listed map items: cotton textile — Mumbai, Indore, Surat, Kanpur, Coimbatore; iron and steel — Durgapur, Bokaro, Jamshedpur, Bhilai, Vijayanagar, Salem; software technology parks — Noida, Gandhinagar, Mumbai, Pune, Hyderabad, Bengaluru, Chennai, Thiruvananthapuram."
+    ],
+    "traps": [
+      "Mixing classification criteria: 'basic' refers to an industry's role (its products feed other industries) while 'heavy' refers to bulk and weight; iron and steel happens to be both.",
+      "Calling Oil India Ltd a public sector unit: NCERT gives it as the example of the joint sector; cooperative units are owned by producers or workers.",
+      "Writing the iron and steel raw-material ratio in the wrong order: it is iron ore : coking coal : limestone = 4 : 2 : 1.",
+      "Explaining the southward shift of sugar mills with cheap labour: NCERT's reasons are higher sucrose content, a longer crushing season and successful cooperatives.",
+      "Swapping treatment stages: primary treatment is mechanical, secondary is biological."
+    ],
+    "examTip": "For classification questions, first identify the criterion being asked (raw material, role, capital, ownership or bulk) and only then match the NCERT example, because options often mix examples from different criteria."
+  },
+  "questions": [
+    {
+      "text": "On the basis of the bulk and weight of raw materials and finished goods, which of the following is a heavy industry?",
+      "difficulty": "EASY",
+      "options": ["Electrical goods industry", "Iron and steel industry", "Watch-making industry", "Software industry"],
+      "answer": 1,
+      "explanation": "NCERT classifies industries by bulk and weight into heavy and light industries. Heavy industries use bulky raw materials and produce heavy goods, the example being iron and steel. Light industries such as electrical goods use light raw materials and produce light goods. So the heavy industry is the iron and steel industry."
+    },
+    {
+      "text": "The first successful cotton textile mill in India was established in 1854 at:",
+      "difficulty": "EASY",
+      "options": ["Ahmedabad", "Kolkata", "Kanpur", "Mumbai"],
+      "answer": 3,
+      "explanation": "NCERT records that the first successful textile mill was established in Mumbai in 1854. Early mills were concentrated in the cotton-growing belt of Maharashtra and Gujarat because of raw cotton, markets, transport, port facilities, labour and a moist climate. So the answer is Mumbai."
+    },
+    {
+      "text": "Industries owned and operated by the producers or suppliers of raw materials, by workers, or by both are called cooperative sector industries. Which of the following are examples given by NCERT?",
+      "difficulty": "EASY",
+      "options": [
+        "Sugar industry in Maharashtra and coir industry in Kerala",
+        "BHEL and SAIL",
+        "TISCO and Bajaj Auto Ltd.",
+        "Oil India Ltd."
+      ],
+      "answer": 0,
+      "explanation": "In cooperative industries, members pool their resources and share profits or losses in proportion. NCERT's examples are the sugar industry in Maharashtra and the coir industry in Kerala. BHEL and SAIL are public sector units, TISCO and Bajaj Auto are private sector, and Oil India Ltd is joint sector. So the answer is sugar in Maharashtra and coir in Kerala."
+    },
+    {
+      "text": "On the basis of ownership, NCERT gives Oil India Ltd. (OIL) as an example of which sector?",
+      "difficulty": "MEDIUM",
+      "options": ["Public sector", "Cooperative sector", "Joint sector", "Private sector"],
+      "answer": 2,
+      "explanation": "Industries are classified by ownership as public, private, joint and cooperative. Joint sector industries are run jointly by the state and individuals or groups of individuals. Oil India Ltd is jointly owned by the public and private sectors, so it is NCERT's example of the joint sector."
+    },
+    {
+      "text": "Many industries tend to come together in and around an urban centre to use the advantages it offers, such as banking, insurance, transport, labour, consultants and financial advice. These advantages are known as:",
+      "difficulty": "MEDIUM",
+      "options": ["Economies of scale", "Agglomeration economies", "Industrial deregulation", "Market saturation"],
+      "answer": 1,
+      "explanation": "Cities provide markets and services such as banking, insurance, transport, labour and financial advice to industries. NCERT calls the advantages gained by clustering near such a centre agglomeration economies. Over time this leads to large industrial agglomerations. So the answer is agglomeration economies."
+    },
+    {
+      "text": "In the iron and steel industry, iron ore, coking coal and limestone are required in approximately which ratio?",
+      "difficulty": "MEDIUM",
+      "options": ["1 : 2 : 4", "2 : 1 : 1", "4 : 1 : 2", "4 : 2 : 1"],
+      "answer": 3,
+      "explanation": "NCERT states that iron ore, coking coal and limestone are needed in a ratio of approximately 4 : 2 : 1. Some manganese is also needed to harden the steel. The option 4 : 1 : 2 swaps coal and limestone, and 1 : 2 : 4 reverses the order. So the correct ratio is 4 : 2 : 1."
+    },
+    {
+      "text": "Which two factors are the prime factors for the location of an aluminium smelting plant?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Cheap labour and nearness to a port",
+        "Availability of water and a cool climate",
+        "Regular supply of electricity and an assured source of raw material at minimum cost",
+        "A large urban market and skilled software professionals"
+      ],
+      "answer": 2,
+      "explanation": "Aluminium smelting is India's second most important metallurgical industry, and it uses bauxite as its raw material. The process consumes a very large amount of power and needs a steady supply of bauxite. NCERT therefore names a regular supply of electricity and an assured source of raw material at minimum cost as the two prime location factors."
+    },
+    {
+      "text": "Assertion (A): India imports all the potash it needs for making fertilisers.\nReason (R): India does not have any reserves of commercially usable potash or potassium compounds.\nChoose the correct option.",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A.",
+        "Both A and R are true, but R is not the correct explanation of A.",
+        "A is true, but R is false.",
+        "A is false, but R is true."
+      ],
+      "answer": 0,
+      "explanation": "NCERT states that potash for fertilisers is entirely imported, so A is true. The reason given is that India has no reserves of commercially usable potash or potassium compounds in any form, so R is true. The lack of reserves is exactly why India must import, so R correctly explains A."
+    },
+    {
+      "text": "Hot water from factories and thermal power plants is drained into rivers and ponds before it has cooled down. This causes:",
+      "difficulty": "MEDIUM",
+      "options": ["Noise pollution", "Thermal pollution", "Air pollution", "Soil pollution only"],
+      "answer": 1,
+      "explanation": "NCERT describes thermal pollution of water as occurring when hot water from factories and thermal plants is drained into rivers and ponds before cooling. The raised water temperature harms aquatic life. Noise, air and soil pollution have other causes. So the answer is thermal pollution."
+    },
+    {
+      "text": "Sugar mills in India have been shifting towards the southern and western states, especially Maharashtra. Which of the following reasons are correct?\nI. The sugarcane grown there has a higher sucrose content.\nII. The cooler climate ensures a longer crushing season.\nIII. The cooperatives are more successful in these states.\nIV. Sugarcane is a light raw material that does not lose sucrose after harvesting, so it can be carried far.",
+      "difficulty": "HARD",
+      "options": ["I and II only", "II and IV only", "I, II and III only", "I, II, III and IV"],
+      "answer": 2,
+      "explanation": "NCERT gives three reasons for the shift: cane with higher sucrose content (I), a cooler climate that ensures a longer crushing season (II) and more successful cooperatives (III). Statement IV is wrong because sugarcane is bulky and its sucrose content falls during long haulage, which is why mills are located close to cane fields. So I, II and III only are correct."
+    },
+    {
+      "text": "Match the stage of industrial effluent treatment with the method used:\nP. Primary treatment\nQ. Secondary treatment\nR. Tertiary treatment\n1. Biological process\n2. Mechanical means such as screening, grinding, flocculation and sedimentation\n3. Biological, chemical and physical processes, including recycling of wastewater",
+      "difficulty": "HARD",
+      "options": ["P-1, Q-2, R-3", "P-3, Q-1, R-2", "P-2, Q-3, R-1", "P-2, Q-1, R-3"],
+      "answer": 3,
+      "explanation": "NCERT describes three stages of effluent treatment. Primary treatment uses mechanical means such as screening, grinding, flocculation and sedimentation (P-2). Secondary treatment uses a biological process (Q-1). Tertiary treatment combines biological, chemical and physical processes, including recycling of wastewater (R-3). So the correct match is P-2, Q-1, R-3."
+    }
+  ]
+}

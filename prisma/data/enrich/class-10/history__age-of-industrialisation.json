@@ -1,0 +1,107 @@
+{
+  "exam": "class-10",
+  "subject": "history",
+  "chapter": "age-of-industrialisation",
+  "notes": {
+    "summary": "The chapter explains how industrial production developed: from proto-industrial rural production for international markets, to factories and steam power in Britain, to the decline of Indian handloom exports under the East India Company and the slow rise of Indian factories and small-scale industry. CBSE tests key terms (proto-industrialisation, stapler, gomastha, jobber), causes and effects, and assertion-reason items on why industrial change was slow and uneven.",
+    "keyPoints": [
+      "Proto-industrialisation: large-scale production for international markets before factories, done in the countryside by peasant households under the control of merchants, because urban crafts and trade guilds restricted entry in the towns.",
+      "Factories: the earliest English factories came up by the 1730s; Richard Arkwright created the cotton mill; raw cotton imports rose from 2.5 million pounds (1760) to 22 million pounds (1787). Cotton was the leading sector until the 1840s, after which iron and steel led as railways expanded.",
+      "Change was slow: James Watt improved Newcomen's steam engine (patented 1781, manufactured by Matthew Boulton), yet in the early 19th century there were only 321 steam engines in all of England, and even by the end of the century less than 20% of workers were in technologically advanced sectors.",
+      "Victorian industrialists often preferred hand labour: labour was plentiful and cheap, machines were costly, many industries were seasonal and the upper classes preferred handmade goods. Women attacked the Spinning Jenny (James Hargreaves, 1764) for fear of losing work.",
+      "Indian textiles: before machine industry, Indian silk and cotton goods dominated world markets through Surat, Masulipatam and Hooghly; after the 1750s Surat and Hooghly declined while Bombay and Calcutta grew.",
+      "Company control: after the 1760s the East India Company appointed gomasthas to supervise weavers, gave advances (loans) and stopped weavers from selling to other buyers; weavers in the Carnatic and Bengal deserted villages and revolted.",
+      "Decline: cotton piece-goods fell from about 33% of India's exports (1811–12) to about 3% (1850–51); Manchester imports flooded the local market, and the American Civil War (1860s) made raw cotton scarce and costly.",
+      "Indian factories: first cotton mill in Bombay (1854); first jute mill in Bengal (1855); Elgin Mill, Kanpur (1860s); first Ahmedabad cotton mill a year later; first spinning and weaving mill of Madras (1874). Early entrepreneurs such as Dwarkanath Tagore, Dinshaw Petit and J.N. Tata built capital through the China trade.",
+      "European managing agencies (Bird Heiglers & Co., Andrew Yule, Jardine Skinner & Co.) controlled a large sector of Indian industry until the First World War; jobbers recruited mill workers from villages.",
+      "Growth phases: early Indian mills made coarse yarn, much of it exported to China; after 1900 the Swadeshi movement and the loss of the China market shifted them to cloth (piece-goods output doubled between 1900 and 1912); during the First World War Manchester imports fell and Indian mills supplied army needs; by 1941 over 35% of handlooms had fly shuttles."
+    ],
+    "traps": [
+      "Gomastha (the Company's paid supervisor of weavers) and jobber (the recruiter of mill workers) are different; do not mix them up.",
+      "Proto-industrialisation was NOT factory-based; it was rural household production organised by merchants.",
+      "Industrialisation was slow and uneven: traditional industries and hand labour stayed important in Britain well into the 19th century.",
+      "The American Civil War hurt Indian weavers by making raw cotton scarce and expensive, not by flooding India with American cloth.",
+      "James Hargreaves invented the Spinning Jenny, Richard Arkwright created the cotton mill and James Watt improved the steam engine; match each name to the right innovation."
+    ],
+    "examTip": "Memorise the key terms (proto-industrialisation, stapler, fuller, carding, gomastha, jobber) and a few anchor dates (1730s, 1781, 1854, 1855, 1874, 1914–18), because most one-mark CBSE questions on this chapter hinge on them."
+  },
+  "questions": [
+    {
+      "text": "After the 1760s, the East India Company appointed a paid servant to supervise weavers, collect supplies and examine the quality of cloth. Such a servant was called a:",
+      "difficulty": "EASY",
+      "options": ["jobber", "gomastha", "stapler", "fuller"],
+      "answer": 1,
+      "explanation": "To eliminate existing traders and brokers and control weavers directly, the Company appointed paid servants called gomasthas.\nThey supervised weavers, collected supplies and examined cloth quality, and often punished weavers for delays.\nA jobber recruited mill workers, a stapler sorted wool and a fuller pleated cloth.\nAnswer: gomastha."
+    },
+    {
+      "text": "In the English woollen industry of the 17th and 18th centuries, a 'stapler' was a person who:",
+      "difficulty": "EASY",
+      "options": ["gathered cloth by pleating it", "dyed and finished cloth in London", "'stapled' or sorted wool according to its fibre", "recruited workers from villages for factories"],
+      "answer": 2,
+      "explanation": "NCERT defines a stapler as a person who 'staples' or sorts wool according to its fibre.\nThe wool then passed to spinners and weavers, then to the fuller (who gathered cloth by pleating) and to dyers, with finishing done in London.\nAnswer: 'stapled' or sorted wool according to its fibre."
+    },
+    {
+      "text": "Dwarkanath Tagore of Bengal, who set up six joint-stock companies in the 1830s and 1840s, had first made his fortune in:",
+      "difficulty": "EASY",
+      "options": ["the China trade", "indigo plantations in Bihar", "jute mills in Calcutta", "railway construction"],
+      "answer": 0,
+      "explanation": "Many early Indian industrialists built up capital through trade before investing in industry.\nNCERT notes that Dwarkanath Tagore made his fortune in the China trade and then turned to industrial investment, setting up six joint-stock companies in the 1830s and 1840s.\nHis enterprises sank in the wider business crises of the 1840s.\nAnswer: the China trade."
+    },
+    {
+      "text": "In the 17th and 18th centuries, merchants from European towns moved to the countryside to get goods produced by peasants. The main reason was that:",
+      "difficulty": "MEDIUM",
+      "options": ["towns had no markets for finished cloth", "factories in the towns had already employed all the available workers", "governments had banned all production inside towns", "urban crafts and trade guilds were powerful and restricted the entry of new people into trades"],
+      "answer": 3,
+      "explanation": "In towns, crafts and trade guilds controlled production, regulated prices and competition, and restricted the entry of new people; rulers also granted them monopoly rights.\nSo merchants could not expand production in the towns and turned to the countryside, where poor peasants and cottagers who had lost access to the commons through enclosures needed extra income.\nFactories had not yet come up, so that option is wrong.\nAnswer: urban crafts and trade guilds were powerful and restricted the entry of new people into trades."
+    },
+    {
+      "text": "Why did many industrialists in Victorian Britain prefer hand labour to machines?",
+      "difficulty": "MEDIUM",
+      "options": ["Machines for spinning and weaving had not yet been invented", "Labour was plentiful and cheap, machines needed large capital investment, and many industries were seasonal", "Trade unions had made the use of machines illegal", "The British government taxed every machine heavily"],
+      "answer": 1,
+      "explanation": "Step 1: Victorian Britain had no shortage of human labour; poor peasants and vagrants moved to the cities in large numbers, so wages were low.\nStep 2: Machines were costly, needed large capital and were often ineffective or expensive to repair.\nStep 3: In seasonal industries such as gas works, breweries, book-binding and ship repairing, industrialists preferred workers they could hire for the season; products needing variety and fine design also required human skill.\nAnswer: labour was plentiful and cheap, machines needed large capital investment, and many industries were seasonal."
+    },
+    {
+      "text": "When the American Civil War broke out in the 1860s, Indian handloom weavers were badly affected because:",
+      "difficulty": "MEDIUM",
+      "options": ["American cloth flooded Indian markets", "the war stopped all trade between India and Britain", "Britain bought large quantities of raw cotton from India, so raw cotton became scarce and very expensive for weavers", "the British government banned handloom weaving in India"],
+      "answer": 2,
+      "explanation": "Cotton supplies from the USA to Britain were cut off during the American Civil War, so Britain turned to India.\nRaw cotton exports from India rose sharply and its price shot up.\nIndian weavers were starved of supplies and forced to buy raw cotton at very high prices, which made weaving unprofitable.\nAnswer: Britain bought large quantities of raw cotton from India, so raw cotton became scarce and very expensive for weavers."
+    },
+    {
+      "text": "In the late 19th century, the early cotton mills set up by Indian industrialists mainly produced:",
+      "difficulty": "MEDIUM",
+      "options": ["fine muslin for export to Europe", "woollen cloth for the British army", "machine-made cloth printed with Manchester labels", "coarse cotton yarn, much of which was exported to China"],
+      "answer": 3,
+      "explanation": "Early Indian cotton mills produced coarse cotton yarn (thread) rather than fabric.\nThis yarn was used by Indian handloom weavers or exported to China.\nOnly in the first decade of the 20th century, with the Swadeshi movement and the decline of yarn exports to China, did Indian industrialists shift to cloth production.\nAnswer: coarse cotton yarn, much of which was exported to China."
+    },
+    {
+      "text": "Bird Heiglers & Co., Andrew Yule, and Jardine Skinner & Co. were among the most important:",
+      "difficulty": "MEDIUM",
+      "options": ["Indian textile mills founded during the Swadeshi movement", "European managing agencies that controlled a large sector of Indian industry", "trade guilds that controlled production in English towns", "shipping companies owned by Parsi merchants of Bombay"],
+      "answer": 1,
+      "explanation": "Until the First World War, European managing agencies controlled a large sector of Indian industries; Bird Heiglers & Co., Andrew Yule and Jardine Skinner & Co. were three of the biggest.\nThey raised capital through joint-stock companies and managed them.\nIndian financiers often provided capital, but the Europeans made the investment and business decisions.\nAnswer: European managing agencies that controlled a large sector of Indian industry."
+    },
+    {
+      "text": "British manufacturers selling cloth in India printed images of Indian gods and goddesses, such as Krishna or Saraswati, on cloth labels. The main purpose was to:",
+      "difficulty": "MEDIUM",
+      "options": ["make the goods appear familiar to Indian buyers and suggest divine approval for them", "show that the cloth had been woven by Indian handloom weavers", "support the Swadeshi movement's call to buy Indian goods", "meet a legal requirement of the colonial government"],
+      "answer": 0,
+      "explanation": "Labels helped make the company and its product known to buyers.\nNCERT explains that images of gods and goddesses on labels implied divine approval of the goods, and also made goods manufactured in a foreign land appear somewhat familiar to Indian people.\nIndian manufacturers, by contrast, used nationalist messages in their advertisements.\nAnswer: make the goods appear familiar to Indian buyers and suggest divine approval for them."
+    },
+    {
+      "text": "Consider the following statements about industrialisation in Britain:\nI. Cotton was the leading sector until the 1840s, after which the iron and steel industry led the way.\nII. Even at the end of the 19th century, less than 20% of the total workforce was employed in technologically advanced industrial sectors.\nIII. In the early 19th century, most of England's steam engines were used in cotton mills, with very few in mining.\nWhich of the statements given above are correct?",
+      "difficulty": "HARD",
+      "options": ["II and III only", "I and III only", "I and II only", "I, II and III"],
+      "answer": 2,
+      "explanation": "Statement I is correct: cotton led until the 1840s; then railway expansion (in England from the 1840s and in the colonies from the 1860s) made iron and steel the leading sector.\nStatement II is correct: new industries could not easily displace traditional ones, and less than 20% of workers were in advanced sectors even at the end of the 19th century.\nStatement III is wrong: in the early 19th century there were only 321 steam engines in England, of which 80 were in cotton, 9 in wool and the rest in mining, canal works and iron works.\nAnswer: I and II only."
+    },
+    {
+      "text": "Assertion (A): Industrial production in India grew rapidly during the First World War (1914–1918).\nReason (R): Manchester imports into India declined as British mills were busy with war production, and Indian mills were called upon to supply war needs.\nChoose the correct option.",
+      "difficulty": "HARD",
+      "options": ["Both Assertion (A) and Reason (R) are true, and R is the correct explanation of A.", "Both A and R are true, but R is not the correct explanation of A.", "A is true, but R is false.", "A is false, but R is true."],
+      "answer": 0,
+      "explanation": "Step 1: During the war, British mills turned to producing for the army, so Manchester imports into India fell and Indian mills suddenly had a vast home market.\nStep 2: Indian factories were also called upon to supply jute bags, cloth for army uniforms, tents, leather boots, horse and mule saddles and many other items.\nStep 3: New factories were set up and old ones ran multiple shifts, so industrial production boomed. A is true and R explains it. After the war, Manchester could never recapture its old position in India.\nAnswer: Both A and R are true, and R is the correct explanation of A."
+    }
+  ]
+}

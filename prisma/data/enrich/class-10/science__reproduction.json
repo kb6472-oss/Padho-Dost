@@ -1,0 +1,122 @@
+{
+  "exam": "class-10",
+  "subject": "science",
+  "chapter": "reproduction",
+  "notes": {
+    "summary": "This chapter explains why organisms reproduce (copying of DNA with small variations), the asexual modes (fission, fragmentation, regeneration, budding, vegetative propagation and spore formation), sexual reproduction in flowering plants, the human reproductive system and reproductive health. CBSE tests it through organism-to-mode identification with NCERT examples, the sequence of events after fertilisation, assertion-reason items and case-based questions on contraception and sexually transmitted diseases.",
+    "keyPoints": [
+      "Reproduction involves copying DNA along with extra cellular apparatus. Copying is never perfectly accurate, so small variations arise; consistent copying keeps the body design stable, while variation helps a population survive if its niche changes (for example, heat-tolerant bacteria surviving a rise in water temperature).",
+      "Fission: binary fission in Amoeba (splits in any plane) and Leishmania (splits in a definite plane in relation to its whip-like flagellum); multiple fission in Plasmodium (the malarial parasite), which divides into many daughter cells at once.",
+      "Fragmentation: Spirogyra simply breaks into pieces that grow into new individuals. Regeneration: Planaria and Hydra rebuild a whole body from a cut piece using specialised cells. Budding: Hydra (bud from regenerative cells) and yeast.",
+      "Vegetative propagation: layering, grafting and stem cuttings (sugarcane, rose, grape); Bryophyllum produces buds in the notches of its leaf margin; banana, orange, rose and jasmine have lost the ability to form seeds. Benefits: earlier flowering and fruiting, and offspring genetically similar to the parent. Tissue culture grows a callus from a small piece of tissue in nutrient medium, which is then shifted to a hormone medium to form plantlets.",
+      "Spore formation: in Rhizopus (bread mould) the blob-like sporangia on the hyphae contain spores with thick protective walls that germinate on a moist surface.",
+      "Flower: stamen (anther makes pollen) is male; pistil (stigma, style, ovary with ovules) is female. Unisexual flowers: papaya, watermelon; bisexual flowers: hibiscus, mustard. After pollination a pollen tube grows through the style to the ovule. After fertilisation: zygote → embryo, ovule → seed (with a tough seed coat), ovary → fruit; petals, sepals, stamens, style and stigma may shrivel and fall off.",
+      "Seed and germination: the embryo has a plumule (future shoot), a radicle (future root) and cotyledons (stored food).",
+      "Human male: testes lie in the scrotum because sperm formation needs a temperature lower than body temperature; testes also make testosterone. Sperms travel through the vas deferens to the urethra (a common passage for sperms and urine); seminal vesicles and the prostate gland add fluid that nourishes the sperms and eases their transport.",
+      "Human female: an ovary releases one egg every month; fertilisation occurs in the oviduct (fallopian tube); the embryo implants in the thickened uterine lining; the placenta (a disc in the uterine wall with villi on the embryo's side) passes glucose and oxygen to the embryo and removes its wastes; development takes about nine months. If the egg is not fertilised, the lining breaks down and is shed as blood and mucus (menstruation), roughly every month for 2 to 8 days.",
+      "Reproductive health: bacterial STDs are gonorrhoea and syphilis; viral STDs are warts and HIV-AIDS. Contraception: condom (barrier, also protects against STDs), oral pills (change hormonal balance), copper-T or loop in the uterus, and surgery (vasectomy blocks the vas deferens, tubectomy blocks the fallopian tube). Prenatal sex determination is prohibited by law because female foeticide lowers the sex ratio."
+    ],
+    "traps": [
+      "Saying fertilisation happens in the uterus: it happens in the oviduct; the uterus is where the embryo implants and develops.",
+      "Mixing up fragmentation and regeneration: Spirogyra just breaks into pieces, whereas Planaria rebuilds lost parts using specialised cells.",
+      "Thinking the seed coat or fruit comes from petals: the ovule becomes the seed (and its coat) and the ovary becomes the fruit.",
+      "Assuming asexual offspring are perfectly identical: small DNA-copying errors still create minor variations.",
+      "Believing the copper-T or pills protect against STDs: only barrier methods such as the condom do."
+    ],
+    "examTip": "When a question names an organism, recall the exact NCERT pairing (Amoeba – binary fission, Leishmania – binary fission in a definite plane, Plasmodium – multiple fission, Hydra – budding and regeneration, Planaria – regeneration, Spirogyra – fragmentation, Rhizopus – spores, Bryophyllum – leaf buds), because most distractors simply swap these."
+  },
+  "questions": [
+    {
+      "text": "Which of the following organisms reproduces by multiple fission, dividing into many daughter cells at the same time?",
+      "difficulty": "EASY",
+      "options": ["Amoeba", "Hydra", "Plasmodium", "Planaria"],
+      "answer": 2,
+      "explanation": "Amoeba divides into two cells by binary fission. Hydra reproduces by budding and Planaria by regeneration. The malarial parasite Plasmodium divides into many daughter cells simultaneously, which is multiple fission. So the answer is Plasmodium."
+    },
+    {
+      "text": "In human females, fertilisation of the egg by a sperm normally takes place in the:",
+      "difficulty": "EASY",
+      "options": ["uterus", "oviduct (fallopian tube)", "ovary", "vagina"],
+      "answer": 1,
+      "explanation": "The ovary releases an egg, which is carried towards the uterus through the oviduct. Sperms deposited in the vagina travel up through the uterus into the oviduct, where they meet the egg. The zygote formed then moves to the uterus and implants in its lining. So fertilisation occurs in the oviduct (fallopian tube)."
+    },
+    {
+      "text": "A gardener places a leaf of a plant on moist soil and finds new plants growing from buds in the notches along the leaf margin. The plant is most likely:",
+      "difficulty": "EASY",
+      "options": ["Rose", "Potato", "Spirogyra", "Bryophyllum"],
+      "answer": 3,
+      "explanation": "Rose is propagated by stem cuttings and potato by buds (eyes) on its tuber, which is a stem. Spirogyra is an alga that reproduces by fragmentation. Bryophyllum produces buds in the notches along its leaf margin, and these fall on soil and grow into new plants. So the plant is Bryophyllum."
+    },
+    {
+      "text": "In which organism does binary fission take place in a definite plane, in relation to a whip-like structure (flagellum) present at one end of the cell?",
+      "difficulty": "MEDIUM",
+      "options": ["Leishmania", "Amoeba", "Yeast", "Plasmodium"],
+      "answer": 0,
+      "explanation": "Amoeba also shows binary fission, but the cell can split in any plane. Yeast reproduces by budding and Plasmodium by multiple fission. Leishmania, which causes kala-azar, has a whip-like structure at one end, and its binary fission occurs in a definite orientation relative to it. So the answer is Leishmania."
+    },
+    {
+      "text": "In a germinating seed, which part develops into the future shoot?",
+      "difficulty": "MEDIUM",
+      "options": ["Radicle", "Cotyledon", "Plumule", "Seed coat"],
+      "answer": 2,
+      "explanation": "The seed contains the embryo, which has a plumule, a radicle and one or two cotyledons. The radicle grows into the root, while the cotyledons store food for the growing seedling. The seed coat only protects the seed. The plumule develops into the future shoot."
+    },
+    {
+      "text": "Which of the following pairs of plants bear unisexual flowers, that is, flowers having either stamens or a pistil but not both?",
+      "difficulty": "MEDIUM",
+      "options": ["Hibiscus and mustard", "Papaya and watermelon", "Hibiscus and papaya", "Mustard and watermelon"],
+      "answer": 1,
+      "explanation": "A unisexual flower contains either stamens (male) or a pistil (female). NCERT gives papaya and watermelon as plants with unisexual flowers. Hibiscus and mustard have bisexual flowers containing both stamens and a pistil. So the correct pair is papaya and watermelon."
+    },
+    {
+      "text": "Which of the following sexually transmitted diseases are caused by bacteria?",
+      "difficulty": "MEDIUM",
+      "options": ["Warts and HIV-AIDS", "Gonorrhoea and HIV-AIDS", "Syphilis and warts", "Gonorrhoea and syphilis"],
+      "answer": 3,
+      "explanation": "NCERT classifies sexually transmitted diseases by their cause. Gonorrhoea and syphilis are bacterial infections. Warts and HIV-AIDS are viral infections. So the bacterial pair is gonorrhoea and syphilis."
+    },
+    {
+      "text": "Assertion (A): In human males, the testes are located outside the abdominal cavity in the scrotum.\nReason (R): Formation of sperms requires a temperature lower than the normal body temperature.\nChoose the correct option.",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A.",
+        "Both A and R are true, but R is not the correct explanation of A.",
+        "A is true, but R is false.",
+        "A is false, but R is true."
+      ],
+      "answer": 0,
+      "explanation": "The testes lie in the scrotum, outside the abdominal cavity, so A is true. Sperm formation needs a temperature slightly lower than normal body temperature, so R is true. The scrotum keeps the testes cooler for exactly this reason, so R explains A. Both are true and R is the correct explanation of A."
+    },
+    {
+      "text": "Assertion (A): Variations produced during reproduction help in the survival of a species over time.\nReason (R): Every variation makes the individual better suited to its present environment.\nChoose the correct option.",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A.",
+        "Both A and R are true, but R is not the correct explanation of A.",
+        "A is true, but R is false.",
+        "A is false, but R is true."
+      ],
+      "answer": 2,
+      "explanation": "If a niche changes drastically, for example a rise in water temperature, some variants (such as heat-tolerant bacteria) may survive while others die, so variation protects the species and A is true. However, not every variation is useful: many are neutral or even harmful, and whether a variant is advantageous depends on the environment. So R is false. A is true, but R is false."
+    },
+    {
+      "text": "Consider the following changes in a flowering plant after fertilisation:\nI. Zygote → embryo\nII. Ovule → seed\nIII. Ovary → fruit\nIV. Petals → seed coat\nWhich of these are correct?",
+      "difficulty": "HARD",
+      "options": ["I and II only", "II and III only", "I, II, III and IV", "I, II and III only"],
+      "answer": 3,
+      "explanation": "After fertilisation the zygote divides many times to form the embryo inside the ovule, so I is correct. The ovule develops a tough coat and becomes the seed, so II is correct. The ovary grows rapidly and ripens into the fruit, so III is correct. The petals, sepals, stamens, style and stigma usually shrivel and fall off; the seed coat comes from the ovule, so IV is wrong. The correct changes are I, II and III only."
+    },
+    {
+      "text": "Which of the following statements about the human placenta is correct?",
+      "difficulty": "HARD",
+      "options": [
+        "The blood of the mother and the embryo mix freely inside the placenta.",
+        "It has villi on the embryo's side, which provide a large surface area for glucose and oxygen to pass from the mother to the embryo.",
+        "It is formed in the oviduct and carries the embryo to the uterus.",
+        "It nourishes the baby only after birth, through breast milk."
+      ],
+      "answer": 1,
+      "explanation": "The placenta is a disc-like tissue embedded in the uterine wall. On the embryo's side it has villi, surrounded on the mother's side by blood spaces. The villi give a large surface area across which glucose and oxygen pass from mother to embryo and wastes pass from embryo to mother, without the two bloods mixing. It forms in the uterus, not the oviduct, and works during pregnancy. So the correct statement is the one about villi providing a large surface area."
+    }
+  ]
+}

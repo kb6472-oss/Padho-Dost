@@ -1,0 +1,122 @@
+{
+  "exam": "class-12",
+  "subject": "biology",
+  "chapter": "molecular-basis-of-inheritance",
+  "notes": {
+    "summary": "This chapter explains the structure and packaging of DNA, the search for the genetic material, DNA replication, transcription and RNA processing, the genetic code and translation, regulation of gene expression through the lac operon, and the Human Genome Project and DNA fingerprinting. CBSE tests NCERT facts, base-pairing and length calculations, strand polarity in transcription and assertion-reason items on experiments and gene regulation.",
+    "keyPoints": [
+      "Nucleoside = nitrogenous base + pentose sugar (joined by an N-glycosidic bond), e.g. adenosine; nucleotide = nucleoside + phosphate; nucleotides are joined by 3′–5′ phosphodiester bonds.",
+      "B-DNA is a right-handed double helix with antiparallel strands, pitch 3.4 nm, about 10 bp per turn and 0.34 nm between base pairs. Length = number of bp × 0.34 × 10⁻⁹ m; a human diploid cell with 6.6 × 10⁹ bp has about 2.2 m of DNA.",
+      "Chargaff's rule: A = T and G = C; an A–T pair has 2 and a G–C pair has 3 hydrogen bonds. Total H-bonds = 2 × (A–T pairs) + 3 × (G–C pairs).",
+      "Packaging: positively charged histones (rich in lysine and arginine) form an octamer around which about 200 bp of DNA wraps to make a nucleosome. Euchromatin is loosely packed and transcriptionally active; heterochromatin is dense and inactive.",
+      "Genetic material: Griffith's transformation (heat-killed S + live R killed mice); Avery, MacLeod and McCarty (only DNase stopped transformation); Hershey and Chase (³²P-labelled DNA entered the bacteria).",
+      "Replication is semiconservative; DNA polymerase works only 5′→3′, so the lagging strand is made as Okazaki fragments, which DNA ligase joins.",
+      "Transcription uses the template strand (3′→5′); the coding strand has the same sequence as the RNA, with U in place of T. In eukaryotes, RNA polymerase I makes rRNAs (28S, 18S, 5.8S), II makes hnRNA, and III makes tRNA, 5S rRNA and snRNAs; hnRNA undergoes splicing, capping (methyl guanosine triphosphate at the 5′ end) and tailing (poly-A at the 3′ end).",
+      "Translation: amino acids in a polypeptide = (coding nucleotides from start codon to stop codon ÷ 3) − 1, because the stop codon codes for no amino acid. In bacteria, 23S rRNA acts as the ribozyme for peptide-bond formation.",
+      "lac operon: z codes β-galactosidase, y codes permease, a codes transacetylase; the i gene codes the repressor; lactose (allolactose) is the inducer.",
+      "Human Genome Project: 3164.7 million bp, about 30,000 genes, less than 2% codes for proteins, 99.9% of bases identical between people; chromosome 1 has the most genes (2968) and Y the fewest (231)."
+    ],
+    "traps": [
+      "Writing the mRNA as the complement of the coding strand — the mRNA matches the coding strand (with U) and is complementary to the template strand.",
+      "Counting the stop codon as an amino acid while finding the length of a polypeptide.",
+      "Using a base percentage as a number of base pairs: 30% C in a 1,000 bp DNA means 600 C out of 2,000 bases, i.e. 600 G–C pairs, not 300.",
+      "Calling adenosine a nucleotide — without a phosphate group it is a nucleoside.",
+      "Mixing up the lac genes: y codes permease, not β-galactosidase."
+    ],
+    "examTip": "In any strand-sequence question, write both strands with their 5′ and 3′ ends marked before choosing, because most wrong options differ only in polarity."
+  },
+  "questions": [
+    {
+      "text": "Adenosine, formed when adenine is linked to a ribose sugar, is an example of a:",
+      "difficulty": "EASY",
+      "options": ["Nucleotide", "Nucleoside", "Nitrogenous base", "Dinucleotide"],
+      "answer": 1,
+      "explanation": "A nitrogenous base linked to a pentose sugar through an N-glycosidic bond forms a nucleoside.\nAdenine + ribose = adenosine, so adenosine is a nucleoside.\nWhen a phosphate group is attached to the 5′-OH of the sugar, it becomes a nucleotide (adenylic acid)."
+    },
+    {
+      "text": "In Griffith's experiment with Streptococcus pneumoniae, mice died when they were injected with:",
+      "difficulty": "EASY",
+      "options": [
+        "Heat-killed S strain alone",
+        "Live R strain alone",
+        "A mixture of heat-killed S strain and live R strain",
+        "Heat-killed R strain alone"
+      ],
+      "answer": 2,
+      "explanation": "The live S strain (with a mucous coat) is virulent, while the R strain is not.\nHeat-killed S strain alone or live R strain alone does not kill mice.\nA mixture of heat-killed S and live R killed the mice, because some R bacteria were transformed into virulent S bacteria by a transforming principle from the dead S cells."
+    },
+    {
+      "text": "During DNA replication, the discontinuously synthesised Okazaki fragments on the lagging strand are later joined together by the enzyme:",
+      "difficulty": "EASY",
+      "options": ["DNA ligase", "Helicase", "Primase", "RNA polymerase"],
+      "answer": 0,
+      "explanation": "DNA polymerase can add nucleotides only in the 5′→3′ direction.\nSo on one template strand, replication is discontinuous and short Okazaki fragments are formed.\nThese fragments are later joined by the enzyme DNA ligase."
+    },
+    {
+      "text": "A typical diploid human cell contains about 6.6 × 10⁹ base pairs of DNA. Taking the distance between two consecutive base pairs as 0.34 nm, the total length of DNA in the cell is approximately:",
+      "difficulty": "MEDIUM",
+      "options": ["0.22 m", "22 m", "1.1 m", "2.2 m"],
+      "answer": 3,
+      "explanation": "Length = number of base pairs × distance between consecutive base pairs.\n0.34 nm = 0.34 × 10⁻⁹ m.\nLength = 6.6 × 10⁹ × 0.34 × 10⁻⁹ m = 2.244 m ≈ 2.2 m."
+    },
+    {
+      "text": "Assertion (A): Histones are positively charged proteins.\nReason (R): Histones are rich in the basic amino acid residues lysine and arginine, which carry positive charges in their side chains.\nChoose the correct option.",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true, and R is the correct explanation of A",
+        "Both Assertion (A) and Reason (R) are true, but R is not the correct explanation of A",
+        "Assertion (A) is true, but Reason (R) is false",
+        "Assertion (A) is false, but Reason (R) is true"
+      ],
+      "answer": 0,
+      "explanation": "Histones are a set of positively charged, basic proteins, so A is true.\nTheir positive charge comes from the abundance of lysine and arginine, whose side chains carry positive charges, so R is true and explains A.\nThis positive charge lets histones bind the negatively charged DNA to form nucleosomes."
+    },
+    {
+      "text": "If the coding strand of a transcription unit has the sequence 5′-ATGCATGC-3′, the sequence of the RNA transcribed from this unit is:",
+      "difficulty": "MEDIUM",
+      "options": ["5′-UACGUACG-3′", "5′-GCAUGCAU-3′", "5′-AUGCAUGC-3′", "5′-ATGCATGC-3′"],
+      "answer": 2,
+      "explanation": "The template strand is complementary and antiparallel to the coding strand: 3′-TACGTACG-5′.\nRNA is built 5′→3′ complementary to the template, so it has the same sequence as the coding strand with U in place of T.\nRNA = 5′-AUGCAUGC-3′."
+    },
+    {
+      "text": "In eukaryotes, the precursor of mRNA, called heterogeneous nuclear RNA (hnRNA), is transcribed by:",
+      "difficulty": "MEDIUM",
+      "options": ["RNA polymerase I", "RNA polymerase II", "RNA polymerase III", "DNA polymerase III"],
+      "answer": 1,
+      "explanation": "The eukaryotic nucleus has three RNA polymerases with a clear division of labour.\nRNA polymerase I transcribes rRNAs (28S, 18S and 5.8S), and RNA polymerase III transcribes tRNA, 5S rRNA and snRNAs.\nRNA polymerase II transcribes hnRNA, the precursor of mRNA."
+    },
+    {
+      "text": "In the lac operon of E. coli, the structural gene y codes for:",
+      "difficulty": "MEDIUM",
+      "options": ["β-galactosidase", "Transacetylase", "The repressor protein", "Permease"],
+      "answer": 3,
+      "explanation": "The lac operon has three structural genes: z, y and a.\nz codes for β-galactosidase, which hydrolyses lactose into galactose and glucose, and a codes for transacetylase.\ny codes for permease, which increases the permeability of the cell to β-galactosides; the repressor is coded by the i gene."
+    },
+    {
+      "text": "Which of the following statements about the human genome, as revealed by the Human Genome Project, is correct?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "About 80% of the genome codes for proteins",
+        "The Y chromosome carries the largest number of genes",
+        "The human genome contains about 3164.7 million nucleotide bases",
+        "Any two humans differ in about 10% of their nucleotide bases"
+      ],
+      "answer": 2,
+      "explanation": "The human genome contains 3164.7 million nucleotide bases.\nLess than 2% of the genome codes for proteins, and 99.9% of the bases are the same in all people.\nChromosome 1 has the most genes (2968), while the Y chromosome has the fewest (231)."
+    },
+    {
+      "text": "A double-stranded DNA segment has 1,000 base pairs, and cytosine makes up 30% of its total bases. The total number of hydrogen bonds holding the two strands together is:",
+      "difficulty": "HARD",
+      "options": ["2,400", "2,600", "2,300", "2,000"],
+      "answer": 1,
+      "explanation": "Total bases = 2 × 1,000 = 2,000; C = 30% of 2,000 = 600, so G = 600 and there are 600 G–C pairs.\nA + T = 2,000 − 1,200 = 800, so A = T = 400 and there are 400 A–T pairs.\nH-bonds = 3 × 600 + 2 × 400 = 1,800 + 800 = 2,600."
+    },
+    {
+      "text": "The coding region of an mRNA, from the start codon AUG up to and including the stop codon, contains 900 nucleotides. Ignoring any post-translational changes, the number of amino acids in the polypeptide formed is:",
+      "difficulty": "HARD",
+      "options": ["300", "298", "900", "299"],
+      "answer": 3,
+      "explanation": "Each codon has 3 nucleotides, so the region has 900 ÷ 3 = 300 codons.\nThe start codon AUG codes for methionine and is counted.\nThe stop codon does not code for any amino acid.\nAmino acids = 300 − 1 = 299."
+    }
+  ]
+}

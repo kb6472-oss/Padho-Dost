@@ -1,0 +1,140 @@
+{
+  "exam": "class-10",
+  "subject": "political-science",
+  "chapter": "power-sharing",
+  "notes": {
+    "summary": "Power Sharing contrasts how Belgium accommodated its linguistic communities with how Sri Lanka adopted majoritarian measures, explains the prudential and moral reasons for sharing power, and classifies the forms of power sharing found in modern democracies. CBSE asks for facts from the two case studies, identification of the form of power sharing in a given example, and assertion-reason items on why power sharing is desirable.",
+    "keyPoints": [
+      "Belgium: about 59% Dutch-speakers (Flemish region), 40% French-speakers (Wallonia) and 1% German-speakers. In the capital Brussels, about 80% speak French and 20% Dutch, so the national minority was the majority in the capital.",
+      "Belgium amended its constitution four times between 1970 and 1993. The central government must have equal numbers of Dutch- and French-speaking ministers, and some special laws need the support of a majority of members from each linguistic group.",
+      "Many powers of the central government were given to the state governments of the two regions, and these state governments are not subordinate to the central government. Brussels has a separate government with equal representation of both communities, and a 'community government' elected by each language group (Dutch, French, German) handles cultural, educational and language-related issues.",
+      "The Belgian model avoided civic strife, and Brussels was chosen as the headquarters of the European Union.",
+      "Sri Lanka (independent in 1948): about 74% Sinhala-speakers and 18% Tamil-speakers. Tamil natives concentrated in the north and east are Sri Lankan Tamils (about 13%); those whose forefathers came from India as plantation workers in the colonial period are 'Indian Tamils' (about 5%).",
+      "Majoritarian measures in Sri Lanka: the 1956 Act made Sinhala the only official language; preferential policies favoured Sinhala applicants for university positions and government jobs; the constitution required the state to protect and foster Buddhism. Tamil demands were denied, and by the 1980s groups demanded an independent Tamil Eelam in the north and east, leading to civil war.",
+      "Prudential reason for power sharing: it reduces the possibility of conflict between social groups and ensures political stability. Moral reason: it is the very spirit of democracy, because people have a right to be consulted on how they are governed.",
+      "Forms of power sharing: (1) horizontal, among legislature, executive and judiciary, with checks and balances; (2) vertical, among governments at different levels (union, state, local); (3) among social groups, e.g. community government in Belgium, reserved constituencies in India; (4) among political parties, pressure groups and movements, e.g. coalitions and interest groups of traders, farmers and workers."
+    ],
+    "traps": [
+      "Writing that Sri Lanka's conflict was between Hindus and Muslims; the main divide was between Sinhala-speakers and Tamil-speakers.",
+      "Mixing up the two reasons: reducing conflict is the prudential reason, while 'spirit of democracy' is the moral reason.",
+      "Thinking Belgium's state governments are subordinate to the central government; NCERT stresses that they are not.",
+      "Classifying reserved constituencies as vertical power sharing; they are power sharing among social groups.",
+      "Confusing Belgium's national majority (Dutch-speakers) with the majority in Brussels (French-speakers)."
+    ],
+    "examTip": "For 'identify the form of power sharing' questions, ask whether power is split between organs (horizontal), between levels (vertical), between communities (social groups) or between parties and interest groups, and match the example to exactly one of these."
+  },
+  "questions": [
+    {
+      "text": "Sri Lanka, an island nation with a diverse population, emerged as an independent country in the year:",
+      "difficulty": "EASY",
+      "options": ["1947", "1956", "1948", "1950"],
+      "answer": 2,
+      "explanation": "Sri Lanka became an independent country in 1948.\nThe year 1956 is when an Act was passed recognising Sinhala as the only official language, a different event that is often confused with independence.\nIndia, not Sri Lanka, became independent in 1947.\nSo Sri Lanka became independent in 1948."
+    },
+    {
+      "text": "Among the Tamil-speaking people of Sri Lanka, those called 'Indian Tamils' are people:",
+      "difficulty": "EASY",
+      "options": [
+        "whose forefathers came from India as plantation workers during the colonial period",
+        "who are Indian citizens living temporarily in Sri Lanka",
+        "who are natives of the country living in its northern and eastern parts",
+        "who migrated from Sri Lanka to India during the civil war"
+      ],
+      "answer": 0,
+      "explanation": "Tamil-speakers form about 18% of Sri Lanka's population.\nTamil natives of the country, concentrated in the north and east, are called Sri Lankan Tamils (about 13%).\nThe rest (about 5%), whose forefathers came from India as plantation workers during the colonial period, are called Indian Tamils.\nSo Indian Tamils are descendants of plantation workers who came from India in colonial times."
+    },
+    {
+      "text": "In Belgium as a whole, Dutch-speakers form about 59% of the population and French-speakers about 40%. What was the linguistic situation in the capital city, Brussels?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Dutch-speakers were about 80% and French-speakers about 20%",
+        "Both communities were exactly equal in number",
+        "German-speakers formed the majority",
+        "French-speakers were about 80% and Dutch-speakers about 20%"
+      ],
+      "answer": 3,
+      "explanation": "Although Dutch-speakers are the majority in Belgium as a whole, the situation in Brussels was the reverse.\nIn Brussels about 80% of the people speak French and only about 20% speak Dutch.\nSo the Dutch-speakers were a majority in the country but a minority in the capital, which made tensions between the two communities more acute in Brussels.\nThe answer is French-speakers about 80% and Dutch-speakers about 20%."
+    },
+    {
+      "text": "To accommodate the regional and linguistic differences among its people, how many times did Belgium amend its constitution between 1970 and 1993?",
+      "difficulty": "MEDIUM",
+      "options": ["Twice", "Three times", "Four times", "Six times"],
+      "answer": 2,
+      "explanation": "Belgian leaders recognised the existence of regional differences and cultural diversities.\nBetween 1970 and 1993 they amended the constitution four times to work out an arrangement that would enable everyone to live together.\nThese changes brought equal representation in the central government, powerful regional governments, a separate Brussels government and community governments.\nSo the constitution was amended four times."
+    },
+    {
+      "text": "Consider the following statements about the Belgian model of power sharing:\nI. The number of Dutch- and French-speaking ministers in the central government must be equal.\nII. The state governments of the two regions are subordinate to the central government.\nIII. Brussels has a separate government in which both communities have equal representation.\nIV. A community government elected by each language group has power over cultural, educational and language-related issues.\nWhich of these statements are correct?",
+      "difficulty": "HARD",
+      "options": ["I, II and III only", "I, III and IV only", "II and IV only", "I, II, III and IV"],
+      "answer": 1,
+      "explanation": "The Belgian constitution prescribes equal numbers of Dutch- and French-speaking ministers in the central government, so no single community can decide alone; I is correct.\nMany powers of the central government were given to the state governments of the two regions, and these state governments are NOT subordinate to the central government; II is wrong.\nBrussels has a separate government in which both communities have equal representation; III is correct.\nThe community government, elected by people of one language group wherever they live, handles cultural, educational and language-related issues; IV is correct.\nSo the correct statements are I, III and IV only."
+    },
+    {
+      "text": "Sri Lankan Tamils' demands for recognition of Tamil as an official language, regional autonomy and equal opportunity in education and jobs were repeatedly denied. By the 1980s, several Tamil political organisations were demanding:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "an independent Tamil Eelam (state) in the northern and eastern parts of Sri Lanka",
+        "the merger of Tamil-majority areas with India",
+        "the abolition of the Sri Lankan Parliament",
+        "a community government on the Belgian model for all minorities"
+      ],
+      "answer": 0,
+      "explanation": "After 1956 the government adopted a series of majoritarian measures favouring the Sinhala community.\nSri Lankan Tamils launched parties and struggles for recognition of Tamil, regional autonomy and equality of opportunity, but these demands were denied.\nBy the 1980s several political organisations were formed demanding an independent Tamil Eelam (state) in the northern and eastern parts of Sri Lanka.\nThe distrust between the communities turned into a civil war.\nSo the demand was for an independent Tamil Eelam in the north and east."
+    },
+    {
+      "text": "In India, some constituencies in the Lok Sabha and the State Legislative Assemblies are reserved for Scheduled Castes and Scheduled Tribes. This arrangement is an example of power sharing:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "among different organs of government",
+        "among governments at different levels",
+        "among different social groups",
+        "among political parties and pressure groups"
+      ],
+      "answer": 2,
+      "explanation": "Reserved constituencies give socially weaker sections a guaranteed share of seats in the legislatures.\nNCERT describes such arrangements as giving space in government and administration to diverse social groups who might otherwise feel alienated from the government.\nIt does not divide power between organs (horizontal) or between levels (vertical), and it is not about competition among parties.\nSo it is power sharing among different social groups."
+    },
+    {
+      "text": "Which one of the following examples is correctly matched with the form of power sharing it shows?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "The Supreme Court striking down a law made by Parliament — vertical division of power",
+        "Associations of farmers and traders influencing government decisions — power sharing among pressure groups and movements",
+        "Division of subjects between the Union and State governments — horizontal distribution of power",
+        "Community government for each language group in Belgium — power sharing among different organs of government"
+      ],
+      "answer": 1,
+      "explanation": "When the judiciary checks the legislature, power is shared among organs of government; this is horizontal, not vertical, so the first pair is wrong.\nDividing subjects between Union and State governments is sharing among levels of government; this is vertical, not horizontal, so the third pair is wrong.\nBelgium's community government shares power among language groups, i.e. among social groups, so the fourth pair is wrong.\nInterest groups of farmers, traders, industrialists and workers share power by sitting on government committees or influencing decisions, which is power sharing among pressure groups and movements.\nSo the correctly matched pair is the one about farmers' and traders' associations."
+    },
+    {
+      "text": "Assertion (A): Power sharing helps to reduce the possibility of conflict between social groups.\nReason (R): People have a right to be consulted on how they are to be governed, and this is why power sharing is the very spirit of democracy.\nChoose the correct option.",
+      "difficulty": "HARD",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 1,
+      "explanation": "A states the prudential reason for power sharing: it reduces the possibility of conflict between social groups and so ensures political stability. A is true.\nR states the moral reason: citizens have a right to be consulted and to have a stake in government, which is the spirit of democracy. R is also true.\nHowever, R explains why power sharing is valuable in itself, not how it reduces conflict; NCERT presents these as two separate sets of reasons.\nSo both A and R are true, but R is not the correct explanation of A."
+    },
+    {
+      "text": "Which one of the following was NOT among the majoritarian measures adopted by the democratically elected governments of Sri Lanka after independence?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "An Act of 1956 recognising Sinhala as the only official language",
+        "Preferential policies favouring Sinhala applicants for university positions and government jobs",
+        "A constitutional provision that the state shall protect and foster Buddhism",
+        "Equal numbers of Sinhala- and Tamil-speaking ministers in the central government"
+      ],
+      "answer": 3,
+      "explanation": "Sri Lankan governments sought to establish the supremacy of the Sinhala-speaking majority.\nThey passed the 1956 Act making Sinhala the only official language, adopted preferential policies for Sinhala applicants in universities and government jobs, and provided that the state shall protect and foster Buddhism.\nGuaranteeing equal numbers of ministers from different language groups is a power-sharing measure; it was Belgium's arrangement for Dutch- and French-speakers, not a Sri Lankan policy.\nSo the measure NOT adopted in Sri Lanka is equal representation of Sinhala- and Tamil-speaking ministers."
+    },
+    {
+      "text": "The Belgian model of accommodating its linguistic communities has worked well. Which city, home to both French- and Dutch-speaking communities, was chosen as the headquarters of the European Union?",
+      "difficulty": "EASY",
+      "options": ["Brussels", "Antwerp", "Paris", "Geneva"],
+      "answer": 0,
+      "explanation": "Brussels is the capital of Belgium; about 80% of its people speak French and about 20% speak Dutch.\nIt has a separate government in which both communities have equal representation.\nNCERT notes that, given the success of this arrangement, it is not surprising that Brussels was chosen as the headquarters of the European Union.\nSo the answer is Brussels."
+    }
+  ]
+}

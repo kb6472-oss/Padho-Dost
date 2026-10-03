@@ -1,0 +1,210 @@
+{
+  "exam": "class-10",
+  "subject": "science",
+  "chapter": "electricity",
+  "notes": {
+    "summary": "This chapter covers electric current, potential difference, Ohm's law, the factors affecting resistance, series and parallel combinations of resistors, the heating effect of current and electric power. CBSE tests it through short numericals (Ohm's law, combinations, power and energy bills), assertion-reason items and application questions on fuses, filaments and household wiring.",
+    "keyPoints": [
+      "Current I = Q/t; 1 A = 1 C/s. Charge on an electron = 1.6 × 10⁻¹⁹ C, so 1 C ≈ 6.25 × 10¹⁸ electrons. Conventional current flows opposite to the flow of electrons.",
+      "Potential difference V = W/Q; 1 V = 1 J/C. Example: moving 2 C of charge across 12 V needs W = 12 × 2 = 24 J.",
+      "Ohm's law: V = IR at constant temperature; the V–I graph of an ohmic conductor is a straight line through the origin. An ammeter is joined in series and a voltmeter in parallel.",
+      "Resistance R = ρL/A. Resistivity ρ (unit Ω m) depends only on the material and its temperature. Doubling the length doubles R; stretching a wire to double its length (same volume) makes R four times.",
+      "Metals and alloys have resistivity of about 10⁻⁸ to 10⁻⁶ Ω m; insulators like rubber and glass have 10¹² to 10¹⁷ Ω m. Alloys such as nichrome have higher resistivity than pure metals and do not oxidise readily at high temperature, so they are used in heating elements.",
+      "Series: Rs = R₁ + R₂ + R₃; the same current flows through each resistor and the voltage divides. Parallel: 1/Rp = 1/R₁ + 1/R₂ + 1/R₃; the voltage across each is the same and Rp is less than the smallest resistor. Example: 2 Ω, 3 Ω and 6 Ω in parallel give 1 Ω.",
+      "Joule's law of heating: H = I²Rt. Example: 2 A through 4 Ω for 5 s gives H = 4 × 4 × 5 = 80 J. Used in electric irons, toasters, heaters, bulbs (tungsten filament, melting point 3380 °C) and fuses.",
+      "Power P = VI = I²R = V²/R; 1 W = 1 J/s. A bulb rated 100 W, 220 V has R = 220² ÷ 100 = 484 Ω and draws I = 100 ÷ 220 ≈ 0.45 A.",
+      "Commercial unit of energy: 1 kWh (1 unit) = 3.6 × 10⁶ J. Units consumed = power in kW × time in hours. Example: 1 kW iron used 2 h a day for 30 days = 60 units.",
+      "Household appliances are connected in parallel so that each gets the full supply voltage and can be switched on or off independently; a fuse is connected in series and melts when the current exceeds its rating."
+    ],
+    "traps": [
+      "Not converting minutes or hours into seconds in Q = It and H = I²Rt, or not converting watts into kilowatts when calculating units (kWh).",
+      "Using the diameter instead of the radius in A = πr² when finding the resistance or length of a wire.",
+      "Thinking resistivity changes when a wire is cut or stretched — only resistance changes; resistivity depends on the material and temperature.",
+      "Assuming the higher-wattage bulb glows brighter in a series circuit — with the same current, the bulb of higher resistance (lower wattage rating) dissipates more power and glows brighter.",
+      "Adding resistances directly for a parallel combination; the equivalent resistance in parallel is always less than the smallest individual resistance."
+    ],
+    "examTip": "Write the formula first, convert every quantity to SI units (or to kW and hours for electricity bills), and check that a parallel-combination answer is smaller than the smallest resistor before ticking an option."
+  },
+  "questions": [
+    {
+      "text": "A current of 0.5 A flows through the filament of a torch bulb for 10 minutes. What amount of electric charge flows through the circuit in this time?",
+      "difficulty": "EASY",
+      "options": ["5 C", "300 C", "30 C", "3000 C"],
+      "answer": 1,
+      "explanation": "Use Q = I × t.\nConvert time into seconds: t = 10 min = 10 × 60 = 600 s.\nQ = 0.5 A × 600 s = 300 C.\n(Taking t = 10 without converting gives the wrong value 5 C.)"
+    },
+    {
+      "text": "The charge on one electron is 1.6 × 10⁻¹⁹ C. Approximately how many electrons together carry a charge of 1 coulomb?",
+      "difficulty": "EASY",
+      "options": ["1.6 × 10⁻¹⁹", "6.022 × 10²³", "6.25 × 10¹⁸", "9 × 10⁹"],
+      "answer": 2,
+      "explanation": "Number of electrons n = Q ÷ e.\nn = 1 C ÷ (1.6 × 10⁻¹⁹ C) = 0.625 × 10¹⁹.\nn = 6.25 × 10¹⁸ electrons."
+    },
+    {
+      "text": "How much work is done in moving a charge of 2 C between two points that have a potential difference of 12 V?",
+      "difficulty": "EASY",
+      "options": ["6 J", "14 J", "0.17 J", "24 J"],
+      "answer": 3,
+      "explanation": "Potential difference V = W ÷ Q, so W = V × Q.\nW = 12 V × 2 C = 24 J.\nDividing (12 ÷ 2 = 6) or adding (12 + 2 = 14) the values is a common mistake."
+    },
+    {
+      "text": "A student wants to measure the current through a resistor and the potential difference across it in a circuit. How should the ammeter and the voltmeter be connected?",
+      "difficulty": "EASY",
+      "options": [
+        "Ammeter in series with the resistor and voltmeter in parallel across the resistor",
+        "Both the ammeter and the voltmeter in series with the resistor",
+        "Ammeter in parallel across the resistor and voltmeter in series with it",
+        "Both the ammeter and the voltmeter in parallel across the resistor"
+      ],
+      "answer": 0,
+      "explanation": "An ammeter has very low resistance and must carry the whole current, so it is joined in series.\nA voltmeter has high resistance and measures the potential difference between two points, so it is joined in parallel across the resistor.\nHence: ammeter in series, voltmeter in parallel."
+    },
+    {
+      "text": "The resistivity of a metallic wire depends on:",
+      "difficulty": "EASY",
+      "options": [
+        "Its length",
+        "Its area of cross-section",
+        "The nature of its material and its temperature",
+        "The current flowing through it"
+      ],
+      "answer": 2,
+      "explanation": "Resistance R = ρL/A depends on length L and area A.\nResistivity ρ is a characteristic property of the material; it changes only with the material and its temperature.\nCutting or stretching a wire changes its resistance, not its resistivity."
+    },
+    {
+      "text": "Why are alloys such as nichrome commonly used in the heating elements of electric irons and toasters instead of pure metals?",
+      "difficulty": "EASY",
+      "options": [
+        "They have low resistivity and a low melting point",
+        "They are better conductors of electricity than pure metals",
+        "They are cheaper than all pure metals",
+        "They have high resistivity and do not oxidise (burn) readily at high temperatures"
+      ],
+      "answer": 3,
+      "explanation": "Heat produced H = I²Rt is larger when resistance is higher.\nAlloys have higher resistivity than their constituent metals.\nThey also do not oxidise (burn) readily at high temperatures.\nSo nichrome is preferred for heating elements."
+    },
+    {
+      "text": "A uniform wire of resistance 10 Ω is cut into two equal halves, and the two halves are then connected in parallel. What is the resistance of the combination?",
+      "difficulty": "MEDIUM",
+      "options": ["5 Ω", "20 Ω", "2.5 Ω", "10 Ω"],
+      "answer": 2,
+      "explanation": "Resistance is proportional to length, so each half has resistance 10 ÷ 2 = 5 Ω.\nTwo equal resistors R in parallel give R ÷ 2.\nEquivalent resistance = 5 ÷ 2 = 2.5 Ω."
+    },
+    {
+      "text": "Three resistors of 2 Ω, 3 Ω and 6 Ω are connected in parallel. What is their equivalent resistance?",
+      "difficulty": "MEDIUM",
+      "options": ["11 Ω", "1 Ω", "6 Ω", "0.5 Ω"],
+      "answer": 1,
+      "explanation": "For a parallel combination: 1/Rp = 1/R₁ + 1/R₂ + 1/R₃.\n1/Rp = 1/2 + 1/3 + 1/6 = (3 + 2 + 1)/6 = 6/6 = 1.\nRp = 1 Ω, which is less than the smallest resistor (2 Ω), as expected.\n(11 Ω is the series value.)"
+    },
+    {
+      "text": "Resistors of 5 Ω, 10 Ω and 15 Ω are connected in series to a 12 V battery. What is the potential difference across the 10 Ω resistor?",
+      "difficulty": "MEDIUM",
+      "options": ["4 V", "0.4 V", "6 V", "12 V"],
+      "answer": 0,
+      "explanation": "In series, Rs = 5 + 10 + 15 = 30 Ω.\nCurrent I = V ÷ R = 12 ÷ 30 = 0.4 A, and it is the same through every resistor.\nPotential difference across 10 Ω = I × R = 0.4 × 10 = 4 V."
+    },
+    {
+      "text": "A current of 2 A flows through a resistor of 4 Ω for 5 s. How much heat is produced in the resistor?",
+      "difficulty": "MEDIUM",
+      "options": ["40 J", "16 J", "20 J", "80 J"],
+      "answer": 3,
+      "explanation": "Joule's law of heating: H = I²Rt.\nH = (2)² × 4 × 5 = 4 × 4 × 5 = 80 J.\nForgetting to square the current gives 40 J; forgetting time gives 16 J."
+    },
+    {
+      "text": "An electric iron of 1000 W is used for 2 hours every day. How many units (kWh) of electrical energy does it consume in 30 days?",
+      "difficulty": "MEDIUM",
+      "options": ["60 units", "6 units", "600 units", "2000 units"],
+      "answer": 0,
+      "explanation": "Convert power to kilowatts: 1000 W = 1 kW.\nTotal time = 2 h × 30 = 60 h.\nEnergy = P × t = 1 kW × 60 h = 60 kWh.\n1 kWh = 1 unit, so the iron uses 60 units."
+    },
+    {
+      "text": "An electric bulb is rated 100 W, 220 V. What is the resistance of its filament when it glows normally?",
+      "difficulty": "MEDIUM",
+      "options": ["0.45 Ω", "484 Ω", "2.2 Ω", "22 000 Ω"],
+      "answer": 1,
+      "explanation": "Power P = V² ÷ R, so R = V² ÷ P.\nR = (220)² ÷ 100 = 48 400 ÷ 100 = 484 Ω.\n(0.45 is the current in amperes, P ÷ V, not the resistance.)"
+    },
+    {
+      "text": "Assertion (A): Electrical appliances in a house are connected in parallel rather than in series.\nReason (R): In a parallel arrangement, each appliance gets the full supply voltage and can be switched on or off independently.\n\nChoose the correct option.",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A.",
+        "Both A and R are true, but R is not the correct explanation of A.",
+        "A is true, but R is false.",
+        "A is false, but R is true."
+      ],
+      "answer": 0,
+      "explanation": "Domestic wiring is done in parallel, so A is true.\nIn parallel, the potential difference across every branch equals the supply voltage, and each branch has its own switch, so R is true.\nIn series, the voltage would be shared and one fault or switch would cut off all appliances.\nR correctly explains A."
+    },
+    {
+      "text": "Assertion (A): Tungsten is used almost exclusively for making the filaments of electric bulbs.\nReason (R): Tungsten has a low melting point.\n\nChoose the correct option.",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A.",
+        "Both A and R are true, but R is not the correct explanation of A.",
+        "A is true, but R is false.",
+        "A is false, but R is true."
+      ],
+      "answer": 2,
+      "explanation": "A filament must glow at a very high temperature without melting.\nTungsten has a very high melting point (3380 °C), so it is used for filaments; A is true.\nR says tungsten has a low melting point, which is false.\nSo A is true but R is false."
+    },
+    {
+      "text": "Assertion (A): The resistance of a wire increases when its area of cross-section is decreased.\nReason (R): The resistance of a wire is directly proportional to its length.\n\nChoose the correct option.",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A.",
+        "Both A and R are true, but R is not the correct explanation of A.",
+        "A is true, but R is false.",
+        "A is false, but R is true."
+      ],
+      "answer": 1,
+      "explanation": "R = ρL/A, so R is inversely proportional to area A; a thinner wire has more resistance, so A is true.\nR is also directly proportional to length L, so R is true.\nBut the statement about length does not explain the effect of area.\nBoth are true, and R is not the correct explanation of A."
+    },
+    {
+      "text": "An electric oven of 2 kW is operated on a domestic electric circuit of 220 V that has a current rating of 5 A. What will happen?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "It works normally because 2 kW is a small load",
+        "It draws about 0.11 A, so nothing unusual happens",
+        "It draws about 4.5 A, which is within the rating",
+        "It draws about 9.1 A, which exceeds 5 A, so the fuse blows or the circuit breaker trips"
+      ],
+      "answer": 3,
+      "explanation": "Current drawn I = P ÷ V = 2000 W ÷ 220 V ≈ 9.1 A.\nThis is more than the 5 A rating of the circuit (overloading).\nThe excess current heats the fuse wire, which melts and breaks the circuit (or the MCB trips)."
+    },
+    {
+      "text": "A wire of resistance R is stretched uniformly so that its length becomes double. Assuming its volume remains the same, what is its new resistance?",
+      "difficulty": "HARD",
+      "options": ["2R", "R/2", "4R", "R/4"],
+      "answer": 2,
+      "explanation": "Volume = A × L stays constant, so if L becomes 2L, the area becomes A/2.\nOriginal R = ρL/A.\nNew resistance = ρ(2L) ÷ (A/2) = 4 × ρL/A = 4R.\n(2R ignores the decrease in area.)"
+    },
+    {
+      "text": "Two bulbs rated 100 W, 220 V and 60 W, 220 V are connected in series across a 220 V supply. Which bulb glows brighter?",
+      "difficulty": "HARD",
+      "options": [
+        "The 60 W bulb",
+        "The 100 W bulb",
+        "Both glow equally",
+        "Neither, because current cannot flow through two bulbs in series"
+      ],
+      "answer": 0,
+      "explanation": "Resistance R = V² ÷ P: for 100 W, R = 48 400 ÷ 100 = 484 Ω; for 60 W, R = 48 400 ÷ 60 ≈ 807 Ω.\nIn series the same current flows through both bulbs.\nPower P = I²R is larger for the larger resistance.\nSo the 60 W bulb dissipates more power and glows brighter."
+    },
+    {
+      "text": "Two resistors of 4 Ω each are connected in parallel, and this combination is connected in series with a 3 Ω resistor across a 10 V battery. What is the current through each 4 Ω resistor?",
+      "difficulty": "HARD",
+      "options": ["2 A", "1 A", "0.5 A", "2.5 A"],
+      "answer": 1,
+      "explanation": "Two 4 Ω resistors in parallel: Rp = 4 ÷ 2 = 2 Ω.\nTotal resistance = 2 + 3 = 5 Ω.\nTotal current I = V ÷ R = 10 ÷ 5 = 2 A.\nThis current divides equally between the two equal 4 Ω resistors: 2 ÷ 2 = 1 A each."
+    },
+    {
+      "text": "A copper wire has a diameter of 0.5 mm and resistivity 1.6 × 10⁻⁸ Ω m. What length of this wire is needed to make a resistance of 10 Ω? (Take π = 3.14)",
+      "difficulty": "HARD",
+      "options": ["About 122.7 m", "About 491 m", "About 30.7 m", "About 12.3 m"],
+      "answer": 0,
+      "explanation": "Radius r = 0.5 mm ÷ 2 = 0.25 mm = 0.25 × 10⁻³ m.\nArea A = πr² = 3.14 × (0.25 × 10⁻³)² = 3.14 × 6.25 × 10⁻⁸ ≈ 1.96 × 10⁻⁷ m².\nFrom R = ρL/A: L = RA ÷ ρ = (10 × 1.96 × 10⁻⁷) ÷ (1.6 × 10⁻⁸) ≈ 122.7 m.\n(Using the diameter instead of the radius gives about 491 m.)"
+    }
+  ]
+}

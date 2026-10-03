@@ -1,0 +1,105 @@
+{
+  "exam": "class-10",
+  "subject": "mathematics",
+  "chapter": "triangles",
+  "notes": {
+    "summary": "This chapter covers similar figures, similarity of triangles, the Basic Proportionality Theorem (Thales theorem) and its converse, and the AA, SSS and SAS similarity criteria. CBSE tests it through numericals on BPT and proportional sides, correct vertex correspondence in similar triangles, real-life shadow problems and assertion-reason items on the conditions for similarity.",
+    "keyPoints": [
+      "Similar figures have the same shape but not necessarily the same size. All circles, all squares and all equilateral triangles are similar; congruent figures are always similar, but similar figures need not be congruent.",
+      "Two polygons with the same number of sides are similar if (i) their corresponding angles are equal AND (ii) their corresponding sides are in the same ratio. One condition alone is not enough for polygons (square vs rhombus, square vs rectangle).",
+      "For triangles, one condition implies the other: equal corresponding angles ⇔ proportional corresponding sides.",
+      "Basic Proportionality Theorem: if DE ∥ BC in △ABC with D on AB and E on AC, then AD/DB = AE/EC. Equivalent forms: AD/AB = AE/AC and DB/AB = EC/AC. Example: AD = 2, DB = 3, AE = 4 ⇒ EC = 6.",
+      "Converse of BPT: if AD/DB = AE/EC, then DE ∥ BC. Special case: the line joining the mid-points of two sides of a triangle is parallel to the third side.",
+      "Similarity criteria: AA (two pairs of equal angles; same as AAA), SSS (all three pairs of sides proportional), SAS (one pair of equal angles and the sides including them proportional).",
+      "In similar triangles, the ratio of corresponding sides = ratio of perimeters = ratio of corresponding altitudes, medians and angle bisectors.",
+      "Useful results: in trapezium ABCD with AB ∥ DC and diagonals meeting at O, △AOB ~ △COD, so AO/OC = BO/OD = AB/CD. In △ABC right-angled at A with AD ⊥ BC, △ABD ~ △CAD, so AD² = BD × DC.",
+      "Shadow problems: a vertical stick and a tower observed at the same time form similar triangles, so height ÷ shadow is the same for both."
+    ],
+    "traps": [
+      "Writing the similarity in the wrong vertex order: △ABC ~ △PQR means A↔P, B↔Q, C↔R. Match equal angles first, then read off the sides.",
+      "Mixing part and whole in BPT, such as writing AD/AB = AE/EC; both ratios must be part/part or both part/whole.",
+      "SSA is not a similarity criterion; in SAS the equal angle must be the one included between the two proportional sides.",
+      "Assuming two quadrilaterals (for example two rectangles) are similar just because their angles are equal or their sides are proportional; polygons need both conditions."
+    ],
+    "examTip": "Before using any ratio, write the similarity statement with matching vertices (for example △RPQ ~ △RTS) and read the side ratios straight from it; this avoids most correspondence errors."
+  },
+  "questions": [
+    {
+      "text": "Which of the following pairs of triangles are always similar?",
+      "difficulty": "EASY",
+      "options": ["Any two isosceles triangles", "Any two right-angled triangles", "Any two equilateral triangles", "Any two scalene triangles"],
+      "answer": 2,
+      "explanation": "Every equilateral triangle has all three angles equal to 60°.\nSo any two equilateral triangles have equal corresponding angles and are similar by the AA criterion.\nIsosceles, right-angled or scalene triangles can have different angles, so they need not be similar.\nAnswer: any two equilateral triangles."
+    },
+    {
+      "text": "Which of the following pairs of figures is NOT always similar?",
+      "difficulty": "EASY",
+      "options": ["Two circles", "Two rectangles", "Two squares", "Two equilateral triangles"],
+      "answer": 1,
+      "explanation": "Circles, squares and equilateral triangles each have a fixed shape, so any two of a kind are similar.\nTwo rectangles always have equal angles (all 90°), but their sides need not be proportional. Example: a 1 cm × 2 cm rectangle and a 1 cm × 3 cm rectangle give 1/1 ≠ 2/3.\nSo two rectangles are not always similar.\nAnswer: two rectangles."
+    },
+    {
+      "text": "A vertical stick 1.5 m long casts a shadow 2 m long on level ground. At the same time, a nearby tower casts a shadow 36 m long. What is the height of the tower?",
+      "difficulty": "EASY",
+      "options": ["48 m", "24 m", "37.5 m", "27 m"],
+      "answer": 3,
+      "explanation": "Step 1: The sun's rays make the same angle with the ground for both objects and both stand vertically, so the two triangles are similar (AA).\nStep 2: Height ÷ shadow is the same for both: 1.5/2 = h/36.\nStep 3: h = 36 × 1.5 ÷ 2 = 27 m. (48 m comes from inverting the ratio.)\nAnswer: 27 m."
+    },
+    {
+      "text": "In △ABC, D and E are points on AB and AC respectively such that DE ∥ BC. If AD = (x + 1) cm, DB = (3x − 1) cm, AE = (x + 3) cm and EC = (3x + 4) cm, find the value of x.",
+      "difficulty": "MEDIUM",
+      "options": ["4", "7", "1", "9"],
+      "answer": 1,
+      "explanation": "Step 1: By BPT, AD/DB = AE/EC, so (x + 1)/(3x − 1) = (x + 3)/(3x + 4).\nStep 2: Cross-multiply: (x + 1)(3x + 4) = (x + 3)(3x − 1), which gives 3x² + 7x + 4 = 3x² + 8x − 3.\nStep 3: Cancel 3x²: 7x + 4 = 8x − 3 ⇒ x = 7.\nCheck: AD = 8, DB = 20, AE = 10, EC = 25, and 8/20 = 10/25 = 2/5.\nAnswer: x = 7."
+    },
+    {
+      "text": "In △PQR, points E and F lie on sides PQ and PR respectively. If PE = 2 cm, PQ = 5 cm, PF = 3 cm and PR = 7.5 cm, which statement is correct?",
+      "difficulty": "MEDIUM",
+      "options": ["EF ∥ QR, by the converse of the Basic Proportionality Theorem", "EF is not parallel to QR because PE ≠ PF", "EF ∥ QR only if PQ = PR", "EF = QR/2, by the mid-point theorem"],
+      "answer": 0,
+      "explanation": "Step 1: EQ = PQ − PE = 5 − 2 = 3 cm and FR = PR − PF = 7.5 − 3 = 4.5 cm.\nStep 2: PE/EQ = 2/3 and PF/FR = 3/4.5 = 2/3.\nStep 3: E and F divide PQ and PR in the same ratio, so EF ∥ QR by the converse of BPT. E and F are not mid-points, so the mid-point theorem does not apply.\nAnswer: EF ∥ QR, by the converse of the Basic Proportionality Theorem."
+    },
+    {
+      "text": "ABCD is a trapezium with AB ∥ DC. Its diagonals AC and BD intersect at O. If AB = 12 cm, DC = 8 cm and AC = 15 cm, find AO.",
+      "difficulty": "MEDIUM",
+      "options": ["6 cm", "7.5 cm", "9 cm", "10 cm"],
+      "answer": 2,
+      "explanation": "Step 1: In △AOB and △COD, ∠OAB = ∠OCD (alternate angles, since AB ∥ DC) and ∠AOB = ∠COD (vertically opposite angles), so △AOB ~ △COD by AA.\nStep 2: Hence AO/OC = AB/CD = 12/8 = 3/2.\nStep 3: AO = (3/5) × AC = (3/5) × 15 = 9 cm, and OC = 6 cm.\nAnswer: 9 cm."
+    },
+    {
+      "text": "In △ABC, AB = 3 cm, AC = 4.5 cm and ∠A = 50°. In △DEF, DE = 6 cm, DF = 9 cm and ∠D = 50°. Which statement is correct?",
+      "difficulty": "MEDIUM",
+      "options": ["△ABC ~ △DEF by SSS, and BC : EF = 1 : 2", "△ABC ~ △DEF by SAS, and BC : EF = 1 : 4", "The triangles cannot be proved similar without knowing BC and EF", "△ABC ~ △DEF by SAS, and BC : EF = 1 : 2"],
+      "answer": 3,
+      "explanation": "Step 1: AB/DE = 3/6 = 1/2 and AC/DF = 4.5/9 = 1/2, so the sides including ∠A and ∠D are proportional.\nStep 2: The included angles are equal (∠A = ∠D = 50°), so △ABC ~ △DEF by the SAS criterion. SSS cannot be used because BC and EF are not given.\nStep 3: In similar triangles all corresponding sides are in the same ratio, so BC : EF = 1 : 2 (1 : 4 comes from wrongly squaring the ratio).\nAnswer: △ABC ~ △DEF by SAS, and BC : EF = 1 : 2."
+    },
+    {
+      "text": "Assertion (A): In △ABC, if D and E are the mid-points of AB and AC respectively, then DE ∥ BC.\nReason (R): If a line divides any two sides of a triangle in the same ratio, then it is parallel to the third side.\nChoose the correct option.",
+      "difficulty": "MEDIUM",
+      "options": ["Both Assertion (A) and Reason (R) are true, and R is the correct explanation of A.", "Both A and R are true, but R is not the correct explanation of A.", "A is true, but R is false.", "A is false, but R is true."],
+      "answer": 0,
+      "explanation": "Step 1: R is the converse of the Basic Proportionality Theorem, which is true.\nStep 2: Since D and E are mid-points, AD/DB = 1 and AE/EC = 1, so D and E divide AB and AC in the same ratio 1 : 1.\nStep 3: By R, DE ∥ BC. So A is true and follows directly from R.\nAnswer: Both A and R are true, and R is the correct explanation of A."
+    },
+    {
+      "text": "Assertion (A): Two quadrilaterals whose corresponding sides are proportional are always similar.\nReason (R): Two polygons with the same number of sides are similar if their corresponding angles are equal and their corresponding sides are in the same ratio.\nChoose the correct option.",
+      "difficulty": "MEDIUM",
+      "options": ["Both Assertion (A) and Reason (R) are true, and R is the correct explanation of A.", "Both A and R are true, but R is not the correct explanation of A.", "A is true, but R is false.", "A is false, but R is true."],
+      "answer": 3,
+      "explanation": "Step 1: R is the NCERT condition for similar polygons; both equal angles and proportional sides are needed. So R is true.\nStep 2: For quadrilaterals, proportional sides alone are not enough. Example: a square of side 4 cm and a rhombus of side 4 cm with an angle of 60° have sides in the ratio 1 : 1, but their angles are not equal, so they are not similar.\nStep 3: Hence A is false.\nAnswer: A is false, but R is true."
+    },
+    {
+      "text": "In △ABC, ∠BAC = 90° and AD is perpendicular to BC, with D on BC. If BD = 4 cm and DC = 9 cm, find the length of AD.",
+      "difficulty": "HARD",
+      "options": ["6.5 cm", "6 cm", "5 cm", "36 cm"],
+      "answer": 1,
+      "explanation": "Step 1: In △ADB and △CDA, ∠ADB = ∠CDA = 90°.\nStep 2: ∠BAD = 90° − ∠B, and in △ABC, ∠ACB = 90° − ∠B, so ∠BAD = ∠ACD. Hence △ADB ~ △CDA by AA.\nStep 3: Corresponding sides give AD/CD = BD/AD, so AD² = BD × DC = 4 × 9 = 36.\nStep 4: AD = √36 = 6 cm. (6.5 cm is just the average of 4 and 9.)\nAnswer: 6 cm."
+    },
+    {
+      "text": "In △PQR, S is a point on PR and T is a point on QR such that ∠RTS = ∠RPQ. If RP = 12 cm, RS = 6 cm and RT = 4 cm, find RQ.",
+      "difficulty": "HARD",
+      "options": ["8 cm", "9 cm", "18 cm", "16 cm"],
+      "answer": 2,
+      "explanation": "Step 1: In △RPQ and △RTS, ∠R is common and ∠RPQ = ∠RTS (given), so △RPQ ~ △RTS by AA, with R↔R, P↔T and Q↔S.\nStep 2: Corresponding sides give RP/RT = RQ/RS.\nStep 3: 12/4 = RQ/6 ⇒ RQ = 3 × 6 = 18 cm. Pairing RP with RS instead gives 8 cm, which is a correspondence error.\nAnswer: 18 cm."
+    }
+  ]
+}

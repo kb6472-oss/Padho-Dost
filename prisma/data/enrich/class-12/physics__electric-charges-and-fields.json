@@ -1,0 +1,130 @@
+{
+  "exam": "class-12",
+  "subject": "physics",
+  "chapter": "electric-charges-and-fields",
+  "notes": {
+    "summary": "This chapter covers the properties of electric charge, Coulomb's law and the superposition principle, electric field and field lines, the electric dipole (its field, the torque on it and its behaviour in uniform and non-uniform fields), electric flux and Gauss's law with applications to a line charge, a plane sheet and a spherical shell. CBSE tests direct numericals on force, field and flux, conceptual statements on field lines and dipoles, and assertion-reason items on Gauss's law.",
+    "keyPoints": [
+      "Charge is additive, conserved and quantised: q = ne with e = 1.6 × 10⁻¹⁹ C. A body can carry 2e or 10e but never 1.5e. Rubbing glass with silk transfers electrons from glass to silk, leaving glass positive.",
+      "Coulomb's law: F = (1/4πε₀) q₁q₂/r², with 1/4πε₀ = 9 × 10⁹ N m² C⁻² and ε₀ = 8.854 × 10⁻¹² C² N⁻¹ m⁻². In a medium of dielectric constant K, F_medium = F_air/K.",
+      "Superposition: the net force on a charge is the vector sum of the forces due to every other charge. Three equal charges q at the corners of an equilateral triangle of side a: net force on each = √3 kq²/a².",
+      "Electric field E = F/q₀; for a point charge E = kq/r², directed away from a positive charge. At the midpoint of +q and −q separated by d, E = 8kq/d² towards −q.",
+      "Field lines start on positive and end on negative charges, never cross (the field has one direction at a point) and never form closed loops (the electrostatic field is conservative); crowded lines mean a strong field.",
+      "Dipole moment p = q × 2a, directed from −q to +q. Short dipole: E_axial = 2kp/r³ along p, E_equatorial = kp/r³ opposite to p. Torque τ = p × E, |τ| = pE sin θ. Uniform field: zero net force; non-uniform field with p ∥ E: net force towards the stronger field and zero torque.",
+      "Electric flux Φ = EA cos θ (θ between E and the area normal), unit N m² C⁻¹. Gauss's law: net flux through a closed surface = q_enclosed/ε₀; outside charges give zero net flux although they change E at points on the surface.",
+      "Gauss's law results: infinite line charge E = λ/(2πε₀r); infinite plane sheet E = σ/(2ε₀), independent of distance; two parallel sheets with +σ and −σ: E = σ/ε₀ between and zero outside; thin spherical shell: E = kQ/r² outside and zero inside."
+    ],
+    "traps": [
+      "Not converting μC to C (× 10⁻⁶) and cm to m before substituting — this produces answers off by factors of 10⁴ or more.",
+      "Using cos θ for torque (it is pE sin θ) and sin θ for flux (it is EA cos θ, with θ measured from the area normal).",
+      "Assuming the field at the midpoint of +q and −q is zero — it is zero only midway between two equal like charges.",
+      "Writing σ/ε₀ for a single sheet (it is σ/2ε₀) or σ/2ε₀ between two oppositely charged sheets (it is σ/ε₀).",
+      "Saying a dipole never feels a net force — the net force is zero only in a uniform field."
+    ],
+    "examTip": "In superposition questions, draw each force or field as a separate arrow with its direction before adding; marks are usually lost on direction, not on magnitude."
+  },
+  "questions": [
+    {
+      "text": "Two point charges repel each other with a force of 8 N when placed in air. If they are immersed in a medium of dielectric constant 4, keeping their separation unchanged, the force between them becomes:",
+      "difficulty": "EASY",
+      "options": ["32 N", "2 N", "0.5 N", "8 N"],
+      "answer": 1,
+      "explanation": "In a medium of dielectric constant K, F_medium = F_air/K.\nF_medium = 8/4 = 2 N, and the force is still repulsive."
+    },
+    {
+      "text": "Which of the following cannot be the charge on an isolated body? (e = 1.6 × 10⁻¹⁹ C)",
+      "difficulty": "EASY",
+      "options": ["3.2 × 10⁻¹⁹ C", "4.8 × 10⁻¹⁹ C", "2.4 × 10⁻¹⁹ C", "1.6 × 10⁻¹⁸ C"],
+      "answer": 2,
+      "explanation": "Charge is quantised: q = ne, where n is an integer.\n3.2 × 10⁻¹⁹ C = 2e, 4.8 × 10⁻¹⁹ C = 3e and 1.6 × 10⁻¹⁸ C = 10e are all allowed.\n2.4 × 10⁻¹⁹ C = 1.5e is not an integral multiple of e, so it is not possible."
+    },
+    {
+      "text": "When a glass rod is rubbed with a silk cloth, the glass rod becomes positively charged. This is because:",
+      "difficulty": "EASY",
+      "options": [
+        "protons are transferred from the silk to the glass rod",
+        "positive charge is created on the glass rod by friction",
+        "electrons are transferred from the silk to the glass rod",
+        "electrons are transferred from the glass rod to the silk"
+      ],
+      "answer": 3,
+      "explanation": "In charging by friction only electrons are transferred; protons are bound inside nuclei.\nGlass loses electrons to silk, so the glass is left with a net positive charge and the silk gets an equal negative charge.\nNo charge is created — total charge is conserved."
+    },
+    {
+      "text": "A short electric dipole has a dipole moment of 2 × 10⁻⁸ C m. The magnitude of the electric field at a point on its axis, 10 cm from its centre, in air is (1/4πε₀ = 9 × 10⁹ N m² C⁻²)",
+      "difficulty": "MEDIUM",
+      "options": ["3.6 × 10⁵ N C⁻¹", "1.8 × 10⁵ N C⁻¹", "3.6 × 10⁴ N C⁻¹", "7.2 × 10⁵ N C⁻¹"],
+      "answer": 0,
+      "explanation": "On the axial line of a short dipole, E = 2kp/r³.\nE = 2 × 9 × 10⁹ × 2 × 10⁻⁸ / (0.1)³ = 360 / 10⁻³.\nE = 3.6 × 10⁵ N C⁻¹, directed along p.\n1.8 × 10⁵ N C⁻¹ is the equatorial value kp/r³, and 3.6 × 10⁴ N C⁻¹ comes from wrongly using r² instead of r³."
+    },
+    {
+      "text": "An electric dipole of dipole moment 6 × 10⁻⁹ C m is placed in a uniform electric field of 2 × 10⁴ N C⁻¹ with its axis making an angle of 30° with the field. The magnitude of the torque acting on the dipole is",
+      "difficulty": "MEDIUM",
+      "options": ["1.04 × 10⁻⁴ N m", "1.2 × 10⁻⁴ N m", "6 × 10⁻⁵ N m", "3 × 10⁻⁵ N m"],
+      "answer": 2,
+      "explanation": "Torque on a dipole: τ = pE sin θ.\nτ = 6 × 10⁻⁹ × 2 × 10⁴ × sin 30° = 1.2 × 10⁻⁴ × 0.5.\nτ = 6 × 10⁻⁵ N m.\nUsing cos 30° wrongly gives 1.04 × 10⁻⁴ N m, and leaving out sin θ gives 1.2 × 10⁻⁴ N m."
+    },
+    {
+      "text": "An electric dipole is placed in a non-uniform electric field with its dipole moment p parallel to the field E. The dipole experiences:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "zero net force and zero torque",
+        "a net force in the direction of increasing field and zero torque",
+        "a net force in the direction of decreasing field and a non-zero torque",
+        "zero net force but maximum torque"
+      ],
+      "answer": 1,
+      "explanation": "Torque τ = pE sin θ = 0 because θ = 0°.\nIn a non-uniform field the forces on +q and −q have different magnitudes, so a net force acts.\nWith p parallel to E the net force points towards increasing field (with p antiparallel it points towards decreasing field)."
+    },
+    {
+      "text": "A uniform electric field of 500 N C⁻¹ acts along the +x direction. The electric flux through a square of side 20 cm whose normal makes an angle of 60° with the x-axis is",
+      "difficulty": "MEDIUM",
+      "options": ["10 N m² C⁻¹", "17.3 N m² C⁻¹", "20 N m² C⁻¹", "50 N m² C⁻¹"],
+      "answer": 0,
+      "explanation": "Area A = (0.20 m)² = 0.04 m².\nΦ = EA cos θ, where θ is the angle between E and the area normal.\nΦ = 500 × 0.04 × cos 60° = 20 × 0.5 = 10 N m² C⁻¹.\nUsing sin 60° gives 17.3 N m² C⁻¹, and ignoring the angle gives 20 N m² C⁻¹."
+    },
+    {
+      "text": "Assertion (A): The net electric flux through a closed surface depends on the charges lying outside the surface.\nReason (R): The electric field at any point on a closed surface is produced by all the charges, both inside and outside the surface.\nChoose the correct option:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+        "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+        "Assertion (A) is true, but Reason (R) is false.",
+        "Assertion (A) is false, but Reason (R) is true."
+      ],
+      "answer": 3,
+      "explanation": "By Gauss's law, net flux = q_enclosed/ε₀. Field lines of an outside charge enter and leave the surface equally, so their net flux is zero. Hence A is false.\nThe field E at each point of the surface is the vector sum of the fields of all charges, inside and outside, so R is true.\nTherefore A is false but R is true."
+    },
+    {
+      "text": "Point charges of +2 μC and −2 μC are placed 20 cm apart in air. The electric field at the midpoint of the line joining them is (1/4πε₀ = 9 × 10⁹ N m² C⁻²)",
+      "difficulty": "MEDIUM",
+      "options": [
+        "3.6 × 10⁶ N C⁻¹, directed towards the −2 μC charge",
+        "zero",
+        "1.8 × 10⁶ N C⁻¹, directed towards the −2 μC charge",
+        "3.6 × 10⁶ N C⁻¹, directed towards the +2 μC charge"
+      ],
+      "answer": 0,
+      "explanation": "The midpoint is 0.10 m from each charge.\nField due to each charge = 9 × 10⁹ × 2 × 10⁻⁶ / (0.10)² = 1.8 × 10⁶ N C⁻¹.\nThe field of +2 μC points away from it and the field of −2 μC points towards it, so both point towards the −2 μC charge and add.\nNet field = 3.6 × 10⁶ N C⁻¹ towards the −2 μC charge."
+    },
+    {
+      "text": "Three equal point charges of +1 μC each are placed at the corners of an equilateral triangle of side 10 cm in air. The magnitude of the net electrostatic force on any one of the charges is (1/4πε₀ = 9 × 10⁹ N m² C⁻²)",
+      "difficulty": "HARD",
+      "options": ["zero", "0.9 N", "1.56 N", "1.8 N"],
+      "answer": 2,
+      "explanation": "Force due to each of the other two charges: F = 9 × 10⁹ × (10⁻⁶)² / (0.1)² = 0.9 N (repulsive).\nThe two forces act at 60° to each other.\nResultant = √(F² + F² + 2F² cos 60°) = F√3 = 0.9 × 1.732 ≈ 1.56 N.\nIt acts along the bisector of the angle at that corner, pointing away from the triangle."
+    },
+    {
+      "text": "Two large, thin, parallel plane sheets carry uniform surface charge densities +σ and −σ, where σ = 8.85 × 10⁻⁸ C m⁻². The magnitudes of the electric field in the region between the sheets and in the region outside them are, respectively (ε₀ = 8.85 × 10⁻¹² C² N⁻¹ m⁻²)",
+      "difficulty": "HARD",
+      "options": [
+        "5 × 10³ N C⁻¹ and zero",
+        "1 × 10⁴ N C⁻¹ and zero",
+        "1 × 10⁴ N C⁻¹ and 1 × 10⁴ N C⁻¹",
+        "zero and 1 × 10⁴ N C⁻¹"
+      ],
+      "answer": 1,
+      "explanation": "Each sheet alone produces E = σ/(2ε₀) = 8.85 × 10⁻⁸ / (2 × 8.85 × 10⁻¹²) = 5 × 10³ N C⁻¹.\nBetween the sheets the two fields point the same way and add: E = σ/ε₀ = 1 × 10⁴ N C⁻¹.\nOutside the sheets they point in opposite directions and cancel: E = 0."
+    }
+  ]
+}

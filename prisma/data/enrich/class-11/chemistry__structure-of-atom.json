@@ -1,0 +1,106 @@
+{
+  "exam": "class-11",
+  "subject": "chemistry",
+  "chapter": "structure-of-atom",
+  "notes": {
+    "summary": "This chapter covers the discovery of subatomic particles, the Thomson and Rutherford models, atomic number, mass number, isotopes and isobars, electromagnetic radiation and Planck's quantum theory, the photoelectric effect, the hydrogen spectrum and Bohr's model, dual behaviour of matter and the uncertainty principle, quantum numbers, shapes and nodes of orbitals, and the rules for writing electronic configurations. CBSE tests definitions, quantum-number validity, configurations and short numericals on photon energy, Bohr energies and de Broglie wavelength.",
+    "keyPoints": [
+      "Subatomic particles: J.J. Thomson measured e/m of the electron (1.758820 × 10¹¹ C kg⁻¹); Millikan's oil drop experiment gave e = 1.602 × 10⁻¹⁹ C; electron mass = 9.1094 × 10⁻³¹ kg. Rutherford's α-scattering showed that most of the atom is empty space with a tiny, dense, positive nucleus.",
+      "Isotopes have the same atomic number Z but different mass number A (¹H, ²H, ³H); isobars have the same A but different Z (¹⁴C and ¹⁴N); isotones have the same number of neutrons.",
+      "c = νλ and photon energy E = hν = hc/λ with h = 6.626 × 10⁻³⁴ J s. A 600 nm photon carries about 3.31 × 10⁻¹⁹ J.",
+      "Photoelectric effect: no electrons are emitted below the threshold frequency ν₀, however intense the light; hν = hν₀ + ½mv². Intensity controls the number of electrons emitted per second, frequency controls their kinetic energy, and emission is instantaneous.",
+      "Bohr model for hydrogen-like species: Eₙ = −2.18 × 10⁻¹⁸ (Z²/n²) J = −13.6 Z²/n² eV and rₙ = 52.9 n²/Z pm. Hydrogen series: Lyman (ends at n = 1, UV), Balmer (n = 2, visible), Paschen (n = 3), Brackett (n = 4) and Pfund (n = 5), the last three in the infrared. The n = 3 → 2 jump releases 1.89 eV.",
+      "Maximum number of spectral lines when electrons in a sample fall from level n₂ to n₁ = Δn(Δn + 1)/2 where Δn = n₂ − n₁ (from n = 5 to 1: 10 lines). A single atom can give at most Δn lines.",
+      "Dual behaviour: de Broglie wavelength λ = h/mv = h/p (an electron at 2.0 × 10⁶ m/s has λ ≈ 364 pm). Heisenberg: Δx × Δp ≥ h/4π, so precise Bohr orbits have no meaning for electrons.",
+      "Quantum numbers: n = 1, 2, 3 …; l = 0 to (n − 1) for s, p, d, f; mₗ = −l to +l; mₛ = +½ or −½. Orbitals in a subshell = 2l + 1; maximum electrons in a shell = 2n². Radial nodes = n − l − 1, angular nodes = l, total nodes = n − 1 (4d: 1 radial + 2 angular).",
+      "Filling rules: Aufbau order by the (n + l) rule (1s 2s 2p 3s 3p 4s 3d 4p 5s …); Pauli exclusion principle (no two electrons with all four quantum numbers the same, so at most 2 per orbital); Hund's rule (degenerate orbitals are singly filled before pairing). Exceptions due to extra stability of half-filled and fully filled subshells: Cr = [Ar] 3d⁵ 4s¹ and Cu = [Ar] 3d¹⁰ 4s¹."
+    ],
+    "traps": [
+      "Allowing l to equal n; subshells such as 1p, 2d and 3f do not exist.",
+      "Believing that brighter light gives faster photoelectrons; intensity changes only their number.",
+      "Forgetting to convert nm to m (× 10⁻⁹) before using E = hc/λ.",
+      "Writing Cr as [Ar] 3d⁴ 4s² and Cu as [Ar] 3d⁹ 4s².",
+      "Confusing the maximum lines from a single atom (Δn) with those from a sample of many atoms (Δn(Δn + 1)/2)."
+    ],
+    "examTip": "For any quantum-number question, first check that l ≤ n − 1 and that mₗ lies between −l and +l; these two checks usually eliminate the wrong options at once."
+  },
+  "questions": [
+    {
+      "text": "Atoms of different elements that have the same mass number but different atomic numbers, such as ¹⁴C and ¹⁴N, are called:",
+      "difficulty": "EASY",
+      "options": ["Isotopes", "Isotones", "Isobars", "Isoelectronic species"],
+      "answer": 2,
+      "explanation": "Mass number A = number of protons + number of neutrons. ¹⁴C (Z = 6) and ¹⁴N (Z = 7) have the same A = 14 but different Z. Atoms with the same mass number but different atomic numbers are called isobars. Isotopes have the same Z but different A, and isotones have the same number of neutrons."
+    },
+    {
+      "text": "Millikan's oil drop experiment was used to determine the:",
+      "difficulty": "EASY",
+      "options": ["Charge-to-mass ratio (e/m) of the electron", "Charge on the electron", "Mass of the proton", "Existence of the atomic nucleus"],
+      "answer": 1,
+      "explanation": "Millikan studied charged oil droplets moving between electrically charged plates and found that their charges were always whole-number multiples of a smallest charge, about 1.6 × 10⁻¹⁹ C. This smallest unit is the charge on the electron. The e/m ratio had been measured earlier by J.J. Thomson, and the nucleus was discovered by Rutherford."
+    },
+    {
+      "text": "Which rule states that pairing of electrons in the orbitals of a subshell (such as the three 2p orbitals) does not begin until each orbital of that subshell has received one electron?",
+      "difficulty": "EASY",
+      "options": ["Aufbau principle", "Pauli exclusion principle", "Heisenberg's uncertainty principle", "Hund's rule of maximum multiplicity"],
+      "answer": 3,
+      "explanation": "Hund's rule of maximum multiplicity says that electrons enter degenerate orbitals (orbitals of equal energy) singly with parallel spins, and pairing starts only after every orbital of the subshell is half-filled. This is why nitrogen (2p³) has three unpaired electrons. The Aufbau principle gives the order of filling, and the Pauli principle limits each orbital to two electrons of opposite spin."
+    },
+    {
+      "text": "The energy of a photon of wavelength 600 nm is: (h = 6.626 × 10⁻³⁴ J s, c = 3.0 × 10⁸ m/s)",
+      "difficulty": "MEDIUM",
+      "options": ["3.31 × 10⁻¹⁹ J", "3.31 × 10⁻²⁸ J", "1.99 × 10⁻²⁵ J", "3.31 × 10⁻¹⁶ J"],
+      "answer": 0,
+      "explanation": "E = hν = hc/λ. Convert λ to metres: 600 nm = 600 × 10⁻⁹ m = 6.0 × 10⁻⁷ m. E = (6.626 × 10⁻³⁴ × 3.0 × 10⁸) ÷ (6.0 × 10⁻⁷) = (1.988 × 10⁻²⁵) ÷ (6.0 × 10⁻⁷). E = 3.31 × 10⁻¹⁹ J. Forgetting to convert nm into m gives the wrong value 3.31 × 10⁻²⁸ J."
+    },
+    {
+      "text": "In the photoelectric effect, the frequency of the incident light is kept constant above the threshold frequency and its intensity is increased. The quantity that increases is the:",
+      "difficulty": "MEDIUM",
+      "options": ["Kinetic energy of each emitted electron", "Threshold frequency of the metal", "Number of electrons emitted per second", "Work function of the metal"],
+      "answer": 2,
+      "explanation": "Light behaves as a stream of photons, each of energy hν. Higher intensity means more photons striking the metal per second, so more electrons are ejected per second. The kinetic energy of each electron depends only on frequency: ½mv² = hν − hν₀. The threshold frequency and work function are properties of the metal and do not change. So the number of electrons emitted per second increases."
+    },
+    {
+      "text": "Electrons in a sample of hydrogen atoms are excited to the n = 5 level. When they return to the ground state (n = 1), the maximum number of different spectral lines that can be observed is:",
+      "difficulty": "MEDIUM",
+      "options": ["4", "5", "15", "10"],
+      "answer": 3,
+      "explanation": "In a sample containing many atoms, every possible downward jump between levels 5 and 1 can occur. Number of lines = Δn(Δn + 1)/2, where Δn = 5 − 1 = 4. Lines = 4 × 5/2 = 10. They are 5→4, 5→3, 5→2, 5→1, 4→3, 4→2, 4→1, 3→2, 3→1 and 2→1. (A single atom can give at most 4 lines, by stepping 5 → 4 → 3 → 2 → 1.)"
+    },
+    {
+      "text": "Which of the following sets of quantum numbers (n, l, mₗ, mₛ) is NOT possible for an electron in an atom?",
+      "difficulty": "MEDIUM",
+      "options": ["n = 3, l = 2, mₗ = −2, mₛ = +½", "n = 2, l = 2, mₗ = 0, mₛ = −½", "n = 4, l = 0, mₗ = 0, mₛ = +½", "n = 3, l = 1, mₗ = −1, mₛ = −½"],
+      "answer": 1,
+      "explanation": "The rules are: l can have values from 0 to (n − 1); mₗ ranges from −l to +l; mₛ is +½ or −½. For n = 2, l can only be 0 or 1, so l = 2 is not allowed (there is no 2d subshell). The other three sets obey all the rules and describe 3d, 4s and 3p electrons. So the set n = 2, l = 2 is not possible."
+    },
+    {
+      "text": "The ground-state electronic configuration of copper (Z = 29) is:",
+      "difficulty": "MEDIUM",
+      "options": ["[Ar] 3d¹⁰ 4s¹", "[Ar] 3d⁹ 4s²", "[Ar] 3d¹⁰ 4p¹", "[Ar] 3d⁸ 4s² 4p¹"],
+      "answer": 0,
+      "explanation": "Simple Aufbau filling would give [Ar] 3d⁹ 4s². However, a completely filled d subshell (3d¹⁰) is extra stable because of its symmetrical electron distribution and larger exchange energy. So one 4s electron shifts to the 3d subshell, giving [Ar] 3d¹⁰ 4s¹. Chromium (Z = 24) is a similar exception, [Ar] 3d⁵ 4s¹."
+    },
+    {
+      "text": "The energy of the electron in the nth orbit of a hydrogen atom is Eₙ = −13.6/n² eV. The energy of the photon emitted when the electron jumps from n = 3 to n = 2 is about:",
+      "difficulty": "MEDIUM",
+      "options": ["10.2 eV", "12.09 eV", "3.4 eV", "1.89 eV"],
+      "answer": 3,
+      "explanation": "E₃ = −13.6/9 = −1.51 eV and E₂ = −13.6/4 = −3.40 eV. Photon energy = E₃ − E₂ = −1.51 − (−3.40) = 1.89 eV. This line belongs to the Balmer series and lies in the visible (red) region. (10.2 eV is the 2 → 1 jump and 12.09 eV is the 3 → 1 jump.)"
+    },
+    {
+      "text": "The de Broglie wavelength of an electron moving with a speed of 2.0 × 10⁶ m/s is: (mass of electron = 9.1 × 10⁻³¹ kg, h = 6.626 × 10⁻³⁴ J s)",
+      "difficulty": "HARD",
+      "options": ["7.28 × 10⁻¹⁰ m", "3.64 × 10⁻¹⁰ m", "3.64 × 10⁻⁷ m", "1.82 × 10⁻¹⁰ m"],
+      "answer": 1,
+      "explanation": "λ = h/mv. Momentum mv = 9.1 × 10⁻³¹ × 2.0 × 10⁶ = 1.82 × 10⁻²⁴ kg m/s. λ = (6.626 × 10⁻³⁴) ÷ (1.82 × 10⁻²⁴) = 3.64 × 10⁻¹⁰ m, i.e. 364 pm. This is comparable to X-ray wavelengths, which is why electrons show diffraction."
+    },
+    {
+      "text": "The numbers of radial nodes and angular nodes in a 4d orbital are, respectively:",
+      "difficulty": "HARD",
+      "options": ["1 and 2", "2 and 1", "3 and 0", "0 and 2"],
+      "answer": 0,
+      "explanation": "For a 4d orbital, n = 4 and l = 2. Radial nodes = n − l − 1 = 4 − 2 − 1 = 1. Angular nodes = l = 2. Check: total nodes = n − 1 = 3 = 1 + 2. So a 4d orbital has 1 radial node and 2 angular nodes."
+    }
+  ]
+}

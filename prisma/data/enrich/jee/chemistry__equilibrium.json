@@ -1,0 +1,112 @@
+{
+  "exam": "jee",
+  "subject": "chemistry",
+  "chapter": "equilibrium",
+  "notes": {
+    "summary": "Equilibrium covers chemical equilibrium (law of mass action, Kc and Kp, reaction quotient, Le Chatelier's principle) and ionic equilibrium (acid–base concepts, pH, weak electrolytes, salt hydrolysis, buffers, solubility product and the common-ion effect). JEE Main sets numericals on Kp and Kc, equilibrium amounts, pH of acids, bases, salts, buffers and mixtures, and Ksp-based solubility and precipitation.",
+    "keyPoints": [
+      "Kp = Kc(RT)^Δn, where Δn = moles of gaseous products − moles of gaseous reactants; Kp = Kc when Δn = 0, as in H₂ + I₂ ⇌ 2HI.",
+      "Manipulating K: reversing a reaction gives 1/K, multiplying all coefficients by n gives Kⁿ (halving gives √K), adding reactions multiplies their K values.",
+      "Pure solids and liquids are omitted from K. Q < K → forward shift, Q > K → backward shift, Q = K → at equilibrium.",
+      "Le Chatelier: higher pressure favours fewer gas moles; higher temperature favours the endothermic side and is the only change that alters K; a catalyst changes neither K nor the position; inert gas at constant volume has no effect.",
+      "Water: Kw = [H⁺][OH⁻] = 1.0 × 10⁻¹⁴ at 25 °C, so pH + pOH = 14. Kw rises with temperature, so neutral water at higher temperature has pH below 7.",
+      "Weak acid of concentration C: α = √(Ka/C), [H⁺] = √(Ka·C). For a conjugate pair Ka × Kb = Kw. A strong acid present alongside suppresses the weak acid: α = Ka/[H⁺].",
+      "Salt hydrolysis: weak acid + strong base salt pH = 7 + ½(pKa + log C); strong acid + weak base salt pH = 7 − ½(pKb + log C); weak acid + weak base salt pH = 7 + ½(pKa − pKb), independent of concentration.",
+      "Henderson–Hasselbalch: acidic buffer pH = pKa + log([salt]/[acid]); basic buffer pOH = pKb + log([salt]/[base]). Buffer action is best when the ratio is 1.",
+      "Ksp for AₓBᵧ in terms of molar solubility s: AB = s², AB₂ = 4s³, A₂B = 4s³, A₃B₂ = 108s⁵. A precipitate forms only when the ionic product exceeds Ksp.",
+      "Common-ion effect lowers solubility: for Ag₂CrO₄ in c M Ag⁺, s = Ksp/c²."
+    ],
+    "traps": [
+      "Counting all moles instead of only gaseous moles for Δn, or writing solids and liquids into Kc.",
+      "Forgetting dilution when two solutions are mixed (equal volumes halve each concentration) before finding pH or the ionic product.",
+      "Ignoring water's own 10⁻⁷ M H⁺ for very dilute acids: 10⁻⁸ M HCl is slightly acidic (pH ≈ 6.98), never pH 8.",
+      "Not raising the common ion's concentration to its stoichiometric power in Ksp, e.g. [Ag⁺]² for Ag₂CrO₄.",
+      "Believing a catalyst, or an inert gas added at constant volume, shifts the equilibrium."
+    ],
+    "examTip": "Before any pH calculation, classify the solution (strong acid or base, weak acid or base, salt, buffer or mixture) and work out what is left after neutralisation — the correct formula then follows directly."
+  },
+  "questions": [
+    {
+      "text": "At a certain temperature, Kc for the reaction H₂(g) + I₂(g) ⇌ 2HI(g) is 49. At the same temperature, Kc for the reaction HI(g) ⇌ ½H₂(g) + ½I₂(g) is:",
+      "difficulty": "EASY",
+      "options": ["1/49", "1/7", "7", "24.5"],
+      "answer": 1,
+      "explanation": "Reversing the reaction inverts K: for 2HI ⇌ H₂ + I₂, K = 1/49.\nHalving all coefficients takes the square root of K.\nFor HI ⇌ ½H₂ + ½I₂, K = (1/49)^(1/2) = 1/7."
+    },
+    {
+      "text": "Which of the following species can act as a Lewis acid?",
+      "difficulty": "EASY",
+      "options": ["NH₃", "Cl⁻", "H₂O", "BF₃"],
+      "answer": 3,
+      "explanation": "A Lewis acid is an electron-pair acceptor; a Lewis base is an electron-pair donor.\nIn BF₃ boron has only six valence electrons (incomplete octet), so it accepts a lone pair, e.g. forming F₃B←NH₃.\nNH₃, H₂O and Cl⁻ all have lone pairs to donate, so they are Lewis bases.\nAnswer: BF₃."
+    },
+    {
+      "text": "If s is the molar solubility of calcium phosphate, Ca₃(PO₄)₂, in water, its solubility product Ksp is:",
+      "difficulty": "EASY",
+      "options": ["108 s⁵", "6 s⁵", "36 s⁵", "s⁵"],
+      "answer": 0,
+      "explanation": "Ca₃(PO₄)₂(s) ⇌ 3Ca²⁺(aq) + 2PO₄³⁻(aq).\nIf s mol L⁻¹ dissolves, [Ca²⁺] = 3s and [PO₄³⁻] = 2s.\nKsp = (3s)³(2s)² = 27s³ × 4s² = 108 s⁵."
+    },
+    {
+      "text": "The pH of a 1.0 × 10⁻⁸ M aqueous solution of HCl at 25 °C is:",
+      "difficulty": "MEDIUM",
+      "options": ["8.00", "7.00", "6.00", "About 6.98 (slightly less than 7)"],
+      "answer": 3,
+      "explanation": "HCl supplies only 10⁻⁸ M H⁺, smaller than water's own 10⁻⁷ M, so the ionisation of water cannot be ignored.\nLet water supply x M: (x + 10⁻⁸)·x = 1.0 × 10⁻¹⁴, giving x ≈ 9.5 × 10⁻⁸ M.\nTotal [H⁺] = 9.5 × 10⁻⁸ + 1.0 × 10⁻⁸ ≈ 1.05 × 10⁻⁷ M.\npH = −log(1.05 × 10⁻⁷) ≈ 6.98. An acid solution can never have pH 8."
+    },
+    {
+      "text": "50 mL of 0.10 M HCl is mixed with 50 mL of 0.20 M NaOH at 25 °C. The pH of the resulting solution is:",
+      "difficulty": "MEDIUM",
+      "options": ["13.00", "12.70", "12.40", "1.30"],
+      "answer": 1,
+      "explanation": "mmol H⁺ = 50 × 0.10 = 5.0; mmol OH⁻ = 50 × 0.20 = 10.0.\nAfter neutralisation, excess OH⁻ = 5.0 mmol in a total volume of 100 mL.\n[OH⁻] = 5.0/100 = 0.050 M, so pOH = −log 0.050 = 1.30.\npH = 14 − 1.30 = 12.70."
+    },
+    {
+      "text": "For the reaction H₂(g) + I₂(g) ⇌ 2HI(g), Kc = 64 at a certain temperature. If 1.0 mol of H₂ and 1.0 mol of I₂ are heated in a closed 1.0 L vessel at this temperature, the amount of HI present at equilibrium is:",
+      "difficulty": "MEDIUM",
+      "options": ["0.8 mol", "1.78 mol", "1.6 mol", "0.4 mol"],
+      "answer": 2,
+      "explanation": "Let x mol of H₂ react: at equilibrium H₂ = 1 − x, I₂ = 1 − x, HI = 2x (volume 1 L).\nKc = (2x)²/(1 − x)² = 64, so 2x/(1 − x) = 8.\n2x = 8 − 8x, giving 10x = 8 and x = 0.8.\nHI at equilibrium = 2x = 1.6 mol."
+    },
+    {
+      "text": "The solubility product of a sparingly soluble metal hydroxide M(OH)₂ is 4.0 × 10⁻¹² at 25 °C. The pH of its saturated aqueous solution is:",
+      "difficulty": "MEDIUM",
+      "options": ["10.30", "10.00", "9.70", "3.70"],
+      "answer": 0,
+      "explanation": "M(OH)₂ ⇌ M²⁺ + 2OH⁻, so Ksp = s(2s)² = 4s³.\n4s³ = 4.0 × 10⁻¹², so s = 1.0 × 10⁻⁴ M.\n[OH⁻] = 2s = 2.0 × 10⁻⁴ M, so pOH = 4 − log 2 = 3.70.\npH = 14 − 3.70 = 10.30."
+    },
+    {
+      "text": "The Ksp of Ag₂CrO₄ is 1.1 × 10⁻¹² at 25 °C. Its molar solubility in a 0.10 M AgNO₃ solution is:",
+      "difficulty": "MEDIUM",
+      "options": ["1.1 × 10⁻¹¹ M", "6.5 × 10⁻⁵ M", "1.1 × 10⁻¹⁰ M", "1.1 × 10⁻¹² M"],
+      "answer": 2,
+      "explanation": "Ag₂CrO₄ ⇌ 2Ag⁺ + CrO₄²⁻, Ksp = [Ag⁺]²[CrO₄²⁻].\nThe common ion gives [Ag⁺] ≈ 0.10 M (the 2s from the salt is negligible).\ns = [CrO₄²⁻] = Ksp/[Ag⁺]² = 1.1 × 10⁻¹² / (0.10)² = 1.1 × 10⁻¹⁰ M.\n(6.5 × 10⁻⁵ M is the solubility in pure water; 1.1 × 10⁻¹¹ M comes from forgetting to square [Ag⁺].)"
+    },
+    {
+      "text": "Equal volumes of 0.008 M CaCl₂ and 0.008 M Na₂SO₄ are mixed at 25 °C. Given Ksp(CaSO₄) = 2.4 × 10⁻⁵, which statement is correct?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "A precipitate forms, since the ionic product 6.4 × 10⁻⁵ exceeds Ksp",
+        "A precipitate forms, since the ionic product 3.2 × 10⁻⁵ exceeds Ksp",
+        "The mixture is exactly saturated, since the ionic product equals Ksp",
+        "No precipitate forms, since the ionic product 1.6 × 10⁻⁵ is less than Ksp"
+      ],
+      "answer": 3,
+      "explanation": "Mixing equal volumes halves each concentration: [Ca²⁺] = [SO₄²⁻] = 0.004 M.\nIonic product Q = (0.004)(0.004) = 1.6 × 10⁻⁵.\nQ (1.6 × 10⁻⁵) < Ksp (2.4 × 10⁻⁵), so the solution is unsaturated.\nNo precipitate forms. (6.4 × 10⁻⁵ is obtained if dilution is ignored.)"
+    },
+    {
+      "text": "The pH of a 0.1 M aqueous solution of ammonium formate (HCOONH₄) at 25 °C is: (pKa of HCOOH = 3.75, pKb of NH₃ = 4.75)",
+      "difficulty": "HARD",
+      "options": ["7.50", "7.00", "6.50", "6.00"],
+      "answer": 2,
+      "explanation": "Ammonium formate is a salt of a weak acid and a weak base; both ions hydrolyse.\nFor such salts pH = 7 + ½(pKa − pKb), independent of concentration.\npH = 7 + ½(3.75 − 4.75) = 7 − 0.50 = 6.50.\nThe solution is slightly acidic because formic acid (Ka) is stronger than ammonia (Kb)."
+    },
+    {
+      "text": "The degree of dissociation of acetic acid in a solution that is 0.10 M in CH₃COOH and also 0.10 M in HCl is: (Ka of CH₃COOH = 1.8 × 10⁻⁵)",
+      "difficulty": "HARD",
+      "options": ["1.8 × 10⁻⁴", "1.34 × 10⁻²", "1.8 × 10⁻⁵", "4.2 × 10⁻³"],
+      "answer": 0,
+      "explanation": "HCl ionises completely, so [H⁺] ≈ 0.10 M; this common ion suppresses acetic acid.\nKa = [H⁺][CH₃COO⁻]/[CH₃COOH] = (0.10)(0.10α)/(0.10(1 − α)) ≈ 0.10α.\nα = 1.8 × 10⁻⁵ / 0.10 = 1.8 × 10⁻⁴.\n(Without HCl, α = √(Ka/C) = 1.34 × 10⁻², about 75 times larger.)"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "exam": "jee",
+  "subject": "physics",
+  "chapter": "work-energy-power",
+  "notes": {
+    "summary": "Work, Energy and Power covers work done by constant and variable forces, kinetic and potential energy, the work-energy theorem, conservative forces and potential-energy curves, power, collisions and motion in a vertical circle. JEE Main tests it through energy-conservation shortcuts, elastic and inelastic collision formulas, variable-force integrals and vertical-circle conditions.",
+    "keyPoints": [
+      "Work W = F·d = Fd cosθ for a constant force; W = ∫F dx for a variable force (area under the F–x graph). Work can be positive, negative or zero.",
+      "Work-energy theorem: work done by all forces, including friction, equals the change in kinetic energy. Example: a block reaching a spring on a rough floor obeys ½mv² = ½kx² + μmgx.",
+      "Conservative forces (gravity, spring force, electrostatic force) do path-independent work and zero work round a closed path; friction and air drag are non-conservative.",
+      "F = −dU/dx. Equilibrium where dU/dx = 0; stable if U is a minimum (d²U/dx² > 0), unstable if a maximum, neutral if U is constant.",
+      "Spring: F = −kx and U = ½kx²; work to stretch from x₁ to x₂ = ½k(x₂² − x₁²).",
+      "Power P = dW/dt = F·v; 1 hp = 746 W; 1 kWh = 3.6 × 10⁶ J. Kinetic energy and momentum are linked by K = p²/2m.",
+      "Elastic head-on collision with m₂ at rest: v₁ = (m₁ − m₂)u/(m₁ + m₂), v₂ = 2m₁u/(m₁ + m₂); equal masses exchange velocities; fraction of KE transferred = 4m₁m₂/(m₁ + m₂)².",
+      "Perfectly inelastic collision: bodies stick together, momentum is conserved and KE lost = ½[m₁m₂/(m₁ + m₂)](u₁ − u₂)². Coefficient of restitution e = speed of separation ÷ speed of approach.",
+      "Vertical circle on a string: minimum speed √(gR) at the top and √(5gR) at the bottom; T_bottom − T_top = 6mg whenever the circle is completed.",
+      "Work to pull up a hanging part of a chain = (mass of the hanging part) × g × (depth of its centre of mass)."
+    ],
+    "traps": [
+      "Ignoring the sign of work: gravity on a rising body and kinetic friction do negative work.",
+      "Using conservation of mechanical energy when friction acts; use the work-energy theorem instead.",
+      "Assuming kinetic energy is conserved in every collision; only momentum is always conserved when no external impulse acts.",
+      "Taking the full hanging length of a chain instead of the depth of its centre of mass.",
+      "Using √(gR) as the minimum speed at the bottom of a vertical circle; that is the minimum speed at the top."
+    ],
+    "examTip": "Whenever a problem links speeds at two positions, go straight to energy (or the work-energy theorem if friction acts) instead of finding forces and acceleration."
+  },
+  "questions": [
+    {
+      "text": "A force F = (3î + 4ĵ − 2k̂) N acts on a particle while it undergoes a displacement d = (2î − ĵ + 3k̂) m. The work done by the force is:",
+      "difficulty": "EASY",
+      "options": ["16 J", "−4 J", "4 J", "Zero"],
+      "answer": 1,
+      "explanation": "Work is the scalar (dot) product: W = F·d = FₓDₓ + F_yD_y + F_zD_z. W = (3)(2) + (4)(−1) + (−2)(3) = 6 − 4 − 6 = −4 J. The negative sign means the force has a component opposite to the displacement."
+    },
+    {
+      "text": "A car moves at a constant speed of 20 m/s on a level road while its engine exerts a forward force of 500 N to overcome resistive forces. The power delivered by the engine is:",
+      "difficulty": "EASY",
+      "options": ["25 W", "1 kW", "100 kW", "10 kW"],
+      "answer": 3,
+      "explanation": "Power P = F·v. With the force along the velocity: P = 500 × 20 = 10000 W = 10 kW."
+    },
+    {
+      "text": "Which of the following forces is non-conservative?",
+      "difficulty": "EASY",
+      "options": ["Gravitational force", "Electrostatic force", "Kinetic friction", "Elastic spring force"],
+      "answer": 2,
+      "explanation": "For a conservative force, the work done depends only on the initial and final positions and is zero round any closed path, so a potential energy can be defined. Kinetic friction always opposes relative motion, so its work round a closed path is negative and depends on the path length; it is non-conservative."
+    },
+    {
+      "text": "The potential energy of a particle moving along the x-axis is U(x) = 3x² − 12x, where U is in joules and x in metres. The particle has an equilibrium position at:",
+      "difficulty": "MEDIUM",
+      "options": ["x = 2 m, stable equilibrium", "x = 2 m, unstable equilibrium", "x = 4 m, stable equilibrium", "x = 0, neutral equilibrium"],
+      "answer": 0,
+      "explanation": "Force F = −dU/dx = −(6x − 12). Equilibrium requires F = 0, so x = 2 m. Second derivative d²U/dx² = 6 > 0, so U is a minimum there and the equilibrium is stable. (x = 4 m is where U = 0, not where the force is zero.)"
+    },
+    {
+      "text": "A ball of mass 2 kg moving at 6 m/s collides head-on and elastically with a ball of mass 4 kg at rest. Taking the original direction of motion as positive, the velocities of the 2 kg and 4 kg balls after the collision are respectively:",
+      "difficulty": "MEDIUM",
+      "options": ["0 and 3 m/s", "2 m/s and 2 m/s", "−2 m/s and 4 m/s", "−3 m/s and 3 m/s"],
+      "answer": 2,
+      "explanation": "For a 1-D elastic collision with m₂ at rest: v₁ = (m₁ − m₂)u/(m₁ + m₂) = (2 − 4)(6)/6 = −2 m/s; v₂ = 2m₁u/(m₁ + m₂) = 2 × 2 × 6/6 = 4 m/s. Check momentum: 2 × 6 = 12 = 2(−2) + 4(4). Check KE: 36 J = 4 J + 32 J. (2 m/s each would be the perfectly inelastic case.)"
+    },
+    {
+      "text": "A neutron of mass m moving with kinetic energy K collides head-on and elastically with a carbon-12 nucleus (mass 12m) at rest. The fraction of K transferred to the carbon nucleus is:",
+      "difficulty": "MEDIUM",
+      "options": ["121/169", "1/12", "12/169", "48/169"],
+      "answer": 3,
+      "explanation": "In a head-on elastic collision with the target at rest, the fraction of KE transferred = 4m₁m₂/(m₁ + m₂)². = 4(m)(12m)/(13m)² = 48/169 ≈ 0.28. The neutron keeps [(m₁ − m₂)/(m₁ + m₂)]² = 121/169, and 48/169 + 121/169 = 1. This is why light nuclei are used as moderators to slow down neutrons."
+    },
+    {
+      "text": "A small stone tied to a light string of length 2 m is whirled in a vertical circle (g = 10 m/s²). The minimum speed it must have at the lowest point so that it just completes the circle is:",
+      "difficulty": "MEDIUM",
+      "options": ["4.5 m/s", "6.3 m/s", "8.9 m/s", "10 m/s"],
+      "answer": 3,
+      "explanation": "At the top, the minimum speed corresponds to zero tension: mg = mv_top²/R, so v_top² = gR. Energy conservation between bottom and top (rise of 2R): v_bottom² = v_top² + 2g(2R) = 5gR. v_bottom = √(5 × 10 × 2) = √100 = 10 m/s. (4.5 m/s = √(gR) is the minimum speed at the top.)"
+    },
+    {
+      "text": "A uniform chain of mass 4 kg and length 2 m lies on a smooth horizontal table with one-third of its length hanging vertically over the edge (g = 10 m/s²). The work needed to pull the hanging part slowly back onto the table is about:",
+      "difficulty": "MEDIUM",
+      "options": ["4.4 J", "13.3 J", "8.9 J", "2.2 J"],
+      "answer": 0,
+      "explanation": "Hanging part: mass M/3 = 4/3 kg and length L/3 = 2/3 m. Its centre of mass is (2/3)/2 = 1/3 m below the table top. Work = increase in potential energy = (4/3) × 10 × (1/3) = 40/9 ≈ 4.4 J. (8.9 J wrongly uses the full hanging length 2/3 m as the height.)"
+    },
+    {
+      "text": "An elevator with a total mass (including passengers) of 1200 kg moves upward at a constant speed of 3 m/s. A frictional force of 3000 N opposes its motion (g = 10 m/s²). The minimum power the motor must deliver is:",
+      "difficulty": "MEDIUM",
+      "options": ["36 kW", "45 kW", "9 kW", "27 kW"],
+      "answer": 1,
+      "explanation": "At constant speed the net force is zero, so the motor's upward force = weight + friction = 1200 × 10 + 3000 = 15000 N. Power P = Fv = 15000 × 3 = 45000 W = 45 kW. (36 kW ignores friction.)"
+    },
+    {
+      "text": "A bob of mass m attached to a light string of length R moves in a vertical circle. Its speed at the lowest point is √(7gR). The tension in the string when the bob is at the highest point is:",
+      "difficulty": "HARD",
+      "options": ["mg", "2mg", "3mg", "8mg"],
+      "answer": 1,
+      "explanation": "Energy conservation from bottom to top (rise 2R): v_top² = v_bottom² − 2g(2R) = 7gR − 4gR = 3gR. At the top, tension and weight both point towards the centre: T + mg = mv_top²/R = 3mg. So T = 2mg. (8mg is the tension at the lowest point: T = mg + m(7gR)/R; note 8mg − 2mg = 6mg.)"
+    },
+    {
+      "text": "A block of mass 2 kg slides on a rough horizontal floor (coefficient of kinetic friction 0.5) and has a speed of 2 m/s at the instant it touches the free end of a horizontal spring of force constant 600 N/m (g = 10 m/s²). The maximum compression of the spring is:",
+      "difficulty": "HARD",
+      "options": ["11.5 cm", "20 cm", "10 cm", "5 cm"],
+      "answer": 2,
+      "explanation": "Apply the work-energy theorem from first contact to maximum compression x (where the block stops): ½mv² = ½kx² + μmg x. 4 = 300x² + 10x → 300x² + 10x − 4 = 0 → x = [−10 + √(100 + 4800)]/600 = (−10 + 70)/600 = 0.1 m = 10 cm. Check: ½ × 600 × 0.01 + 10 × 0.1 = 3 + 1 = 4 J. (Ignoring friction gives √(8/600) m ≈ 11.5 cm.)"
+    }
+  ]
+}

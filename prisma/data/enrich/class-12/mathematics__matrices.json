@@ -1,0 +1,110 @@
+{
+  "exam": "class-12",
+  "subject": "mathematics",
+  "chapter": "matrices",
+  "notes": {
+    "summary": "Matrices covers the order and types of matrices, equality, addition, scalar multiplication and multiplication, transpose, symmetric and skew-symmetric matrices, and the idea of an invertible matrix. CBSE tests it through 1-mark MCQs and assertion-reason items on orders, products, transposes and symmetric/skew-symmetric properties, plus short computations of products and unknown entries.",
+    "keyPoints": [
+      "A matrix of order m × n has mn elements; a matrix with 12 elements can have orders 1×12, 12×1, 2×6, 6×2, 3×4 and 4×3 (one order for each divisor of 12).",
+      "Number of matrices of order m × n whose entries come from a set of k values = kᵐⁿ; e.g. 3 × 3 matrices with entries 0 or 1: 2⁹ = 512.",
+      "Equality: A = B only if both have the same order and every corresponding entry is equal — compare entry by entry to form equations.",
+      "The product AB exists only when columns of A = rows of B; (m × n)(n × p) gives m × p. In general AB ≠ BA, and AB = O does not force A = O or B = O.",
+      "Transpose rules: (Aᵀ)ᵀ = A, (kA)ᵀ = kAᵀ, (A + B)ᵀ = Aᵀ + Bᵀ, (AB)ᵀ = BᵀAᵀ (the order reverses).",
+      "Symmetric: Aᵀ = A (aᵢⱼ = aⱼᵢ). Skew-symmetric: Aᵀ = −A, so every diagonal entry is 0. For any square A: A + Aᵀ is symmetric, A − Aᵀ is skew-symmetric, and A = ½(A + Aᵀ) + ½(A − Aᵀ).",
+      "Invertible matrix: AB = BA = I; the inverse, if it exists, is unique and (AB)⁻¹ = B⁻¹A⁻¹. An identity such as A² − 5A + 7I = O gives A⁻¹ = (5I − A)/7 after multiplying by A⁻¹.",
+      "Since A and I commute, the binomial expansion works for (I + A)ⁿ; it does not work for (A + B)² unless AB = BA, because (A + B)² = A² + AB + BA + B²."
+    ],
+    "traps": [
+      "Writing (A + B)² = A² + 2AB + B² or (A + B)(A − B) = A² − B² without checking that AB = BA.",
+      "Forgetting that the order reverses: writing (AB)ᵀ = AᵀBᵀ or (AB)⁻¹ = A⁻¹B⁻¹.",
+      "Mixing up aᵢⱼ: i is the row and j is the column, so a₂₃ is in row 2, column 3.",
+      "Assuming that if AB is defined then BA is defined and has the same order (2 × 3 times 3 × 2 gives 2 × 2, but the reverse product is 3 × 3).",
+      "Forgetting that the diagonal of a skew-symmetric matrix must be zero, while the diagonal of a symmetric matrix can be anything."
+    ],
+    "examTip": "Before multiplying, write the orders side by side as (m × n)(n × p) to check the product exists and find its order, then compute one entry at a time as row × column."
+  },
+  "questions": [
+    {
+      "text": "For a 2 × 3 matrix A = [aᵢⱼ] whose elements are given by aᵢⱼ = 2i − j, the element a₂₃ is:",
+      "difficulty": "EASY",
+      "options": ["4", "1", "−1", "5"],
+      "answer": 1,
+      "explanation": "In aᵢⱼ, i is the row number and j is the column number.\nFor a₂₃: i = 2 and j = 3.\na₂₃ = 2(2) − 3 = 4 − 3 = 1.\n(Using 2j − i by mistake gives 4.)"
+    },
+    {
+      "text": "The number of all possible matrices of order 3 × 3 with each entry 0 or 1 is:",
+      "difficulty": "EASY",
+      "options": ["18", "81", "9", "512"],
+      "answer": 3,
+      "explanation": "A 3 × 3 matrix has 9 entries.\nEach entry can be filled in 2 ways (0 or 1).\nTotal number of matrices = 2 × 2 × ... (9 times) = 2⁹ = 512."
+    },
+    {
+      "text": "If A = [[2, −1], [3, 4]] and B = [[1, 5], [−2, 0]], then 2A − B equals:",
+      "difficulty": "EASY",
+      "options": ["[[3, −7], [8, 8]]", "[[3, 3], [8, 8]]", "[[5, 3], [4, 8]]", "[[3, −7], [4, 8]]"],
+      "answer": 0,
+      "explanation": "2A = [[4, −2], [6, 8]].\nSubtract B entry by entry: 4 − 1 = 3, −2 − 5 = −7, 6 − (−2) = 8, 8 − 0 = 8.\nSo 2A − B = [[3, −7], [8, 8]]."
+    },
+    {
+      "text": "If A = [[1, 0], [0, −1]] and B = [[0, 1], [1, 0]], then AB + BA equals:",
+      "difficulty": "MEDIUM",
+      "options": ["I (the identity matrix)", "[[0, 2], [−2, 0]]", "O (the zero matrix)", "[[0, 2], [2, 0]]"],
+      "answer": 2,
+      "explanation": "AB = [[1·0 + 0·1, 1·1 + 0·0], [0·0 + (−1)·1, 0·1 + (−1)·0]] = [[0, 1], [−1, 0]].\nBA = [[0·1 + 1·0, 0·0 + 1·(−1)], [1·1 + 0·0, 1·0 + 0·(−1)]] = [[0, −1], [1, 0]].\nAB + BA = [[0, 0], [0, 0]] = O.\nHere BA = −AB, so AB ≠ BA: matrix multiplication is not commutative."
+    },
+    {
+      "text": "Assertion (A): For any two square matrices A and B of the same order, AB = BA.\nReason (R): If A and B are square matrices of the same order, then both AB and BA are defined and have the same order.\nChoose the correct option.",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true, and R is the correct explanation of A",
+        "Both Assertion (A) and Reason (R) are true, but R is not the correct explanation of A",
+        "Assertion (A) is true, but Reason (R) is false",
+        "Assertion (A) is false, but Reason (R) is true"
+      ],
+      "answer": 3,
+      "explanation": "R is true: for two n × n matrices, AB and BA are both defined and both are of order n × n.\nA is false: being defined does not make them equal. For A = [[1, 0], [0, −1]] and B = [[0, 1], [1, 0]], AB = [[0, 1], [−1, 0]] but BA = [[0, −1], [1, 0]].\nSo A is false and R is true."
+    },
+    {
+      "text": "If the matrix A = [[0, a, −3], [2, 0, −1], [b, 1, 0]] is skew-symmetric, then the values of a and b are:",
+      "difficulty": "MEDIUM",
+      "options": ["a = 2, b = −3", "a = −2, b = 3", "a = −2, b = −3", "a = 2, b = 3"],
+      "answer": 1,
+      "explanation": "For a skew-symmetric matrix, aᵢⱼ = −aⱼᵢ.\na₁₂ = −a₂₁ gives a = −2.\na₃₁ = −a₁₃ gives b = −(−3) = 3.\nCheck: a₂₃ = −1 and a₃₂ = 1, and all diagonal entries are 0, as required.\nSo a = −2 and b = 3."
+    },
+    {
+      "text": "If A = [[3, 1], [−1, 2]] satisfies the equation A² − 5A + kI = O, where I is the 2 × 2 identity matrix and O is the zero matrix, then k equals:",
+      "difficulty": "MEDIUM",
+      "options": ["7", "5", "−7", "1"],
+      "answer": 0,
+      "explanation": "A² = [[3·3 + 1·(−1), 3·1 + 1·2], [(−1)·3 + 2·(−1), (−1)·1 + 2·2]] = [[8, 5], [−5, 3]].\n5A = [[15, 5], [−5, 10]].\nA² − 5A = [[−7, 0], [0, −7]] = −7I.\nSo −7I + kI = O gives k = 7."
+    },
+    {
+      "text": "A stationery shop sold pens and notebooks on two days. The quantity matrix (rows: Day 1, Day 2; columns: pens, notebooks) is Q = [[10, 5], [6, 8]], and the price matrix in rupees (rows: pen, notebook) is P = [[10], [40]]. Using the product QP, the total revenue of the shop over the two days is:",
+      "difficulty": "MEDIUM",
+      "options": ["₹710", "₹380", "₹680", "₹300"],
+      "answer": 2,
+      "explanation": "Q is 2 × 2 and P is 2 × 1, so QP is 2 × 1 and gives the revenue of each day.\nDay 1: 10 × 10 + 5 × 40 = 100 + 200 = ₹300.\nDay 2: 6 × 10 + 8 × 40 = 60 + 320 = ₹380.\nTotal revenue = 300 + 380 = ₹680. (Using QᵀP by mistake gives 340 + 370 = ₹710.)"
+    },
+    {
+      "text": "If A is a matrix of order 3 × 4 and B is a matrix such that both AᵀB and BAᵀ are defined, then the order of B is:",
+      "difficulty": "MEDIUM",
+      "options": ["4 × 3", "3 × 3", "4 × 4", "3 × 4"],
+      "answer": 3,
+      "explanation": "Aᵀ has order 4 × 3.\nAᵀB is defined, so the number of rows of B = number of columns of Aᵀ = 3.\nBAᵀ is defined, so the number of columns of B = number of rows of Aᵀ = 4.\nHence B is of order 3 × 4."
+    },
+    {
+      "text": "Let R = [1  x  1] be a 1 × 3 row matrix, M = [[1, 3, 2], [2, 5, 1], [15, 3, 2]] and C = [[1], [2], [x]] a 3 × 1 column matrix. The values of x for which the product RMC = O are:",
+      "difficulty": "HARD",
+      "options": ["x = 2 or x = 14", "x = −2 or x = −14", "x = −2 or x = 14", "x = −4 or x = −7"],
+      "answer": 1,
+      "explanation": "RM = [1 + 2x + 15, 3 + 5x + 3, 2 + x + 2] = [16 + 2x, 6 + 5x, 4 + x].\n(RM)C = (16 + 2x)(1) + (6 + 5x)(2) + (4 + x)(x) = 16 + 2x + 12 + 10x + 4x + x².\nSo x² + 16x + 28 = 0, i.e. (x + 2)(x + 14) = 0.\nHence x = −2 or x = −14."
+    },
+    {
+      "text": "If A is a square matrix such that A² = A, then (I + A)³ − 7A equals:",
+      "difficulty": "HARD",
+      "options": ["A", "I + A", "I", "I − A"],
+      "answer": 2,
+      "explanation": "Since A² = A, we get A³ = A²·A = A·A = A² = A.\nI and A commute, so (I + A)³ = I + 3A + 3A² + A³.\n= I + 3A + 3A + A = I + 7A.\nTherefore (I + A)³ − 7A = I."
+    }
+  ]
+}

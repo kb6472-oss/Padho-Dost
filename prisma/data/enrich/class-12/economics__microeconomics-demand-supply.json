@@ -1,0 +1,162 @@
+{
+  "exam": "class-12",
+  "subject": "economics",
+  "chapter": "microeconomics-demand-supply",
+  "notes": {
+    "summary": "This chapter covers the theory of demand and supply in Class 12 Microeconomics: determinants of demand and supply, the two laws, movement versus shift, price elasticity of demand and supply, and market equilibrium under perfect competition, including shifts and government price controls (ceiling and floor). CBSE tests it through numericals (elasticity, equilibrium price, market demand), reasoning about curves described in words, and assertion-reason items.",
+    "keyPoints": [
+      "Demand function: Dx = f(Px, Pr, Y, T, E), i.e. own price, prices of related goods, income, tastes and expectations. Law of demand: other things constant, price and quantity demanded are inversely related. Market demand = horizontal sum of individual demands at each price.",
+      "Movement along the demand curve (expansion or contraction) is caused only by the good's own price. A shift (increase or decrease in demand) is caused by income, prices of related goods, tastes or expectations.",
+      "Related goods: substitutes (tea and coffee) – a rise in the price of Y shifts demand for X to the right; complements (car and petrol) – a rise in the price of Y shifts demand for X to the left. Normal good: income ↑ → demand ↑; inferior good: income ↑ → demand ↓.",
+      "Price elasticity of demand: ed = (% change in Q)/(% change in P) = (ΔQ/ΔP) × (P/Q), taken as an absolute value. For a linear demand q = a − bp, ed = bp/q. A rectangular hyperbola demand curve has ed = 1 at every point.",
+      "Factors affecting ed: availability of close substitutes, nature of the good (necessity or luxury), share of income spent on it, number of uses. Total expenditure method: if price falls and expenditure rises, demand is elastic; if expenditure falls, inelastic; if unchanged, unitary.",
+      "Law of supply: price and quantity supplied are directly related. Supply shifts right with better technology, lower input prices, more firms or a subsidy; it shifts left with higher input prices or a unit tax.",
+      "Price elasticity of supply es = (% change in Qs)/(% change in P). Straight-line supply curve through the origin: es = 1; meeting the price axis at a positive price: es > 1; meeting the quantity axis: es < 1. Example: P rises from ₹10 to ₹12 (20%) and Qs from 100 to 130 (30%), so es = 1.5.",
+      "Equilibrium is where qd = qs. Example: qd = 100 − 2p and qs = 40 + 4p give p* = ₹10, q* = 80. Above p*, excess supply pushes the price down; below p*, excess demand pushes it up.",
+      "Shifts: demand rises alone → price and quantity both rise; supply rises alone → price falls and quantity rises; demand and supply rise by equal amounts → quantity rises and price is unchanged.",
+      "Price ceiling (maximum price below equilibrium, e.g. on wheat or kerosene) → excess demand, rationing through fair price shops, black markets. Price floor (minimum price above equilibrium, e.g. MSP or minimum wage) → excess supply, which the government buys up as buffer stock."
+    ],
+    "traps": [
+      "Calling a price-induced change a 'change in demand'. A change in the good's own price causes only a change in quantity demanded (a movement along the curve).",
+      "Taking percentage changes from the new values instead of the initial values in the percentage method.",
+      "Calling a straight-line demand curve 'constant elasticity'. Elasticity varies along it; only a rectangular hyperbola has constant (unitary) elasticity.",
+      "Saying a price floor creates a shortage. A floor above equilibrium creates a surplus; a ceiling below equilibrium creates a shortage.",
+      "Swapping substitutes and complements while predicting the direction of a shift."
+    ],
+    "examTip": "For every numerical, write the formula, list the initial P and Q, take elasticity as an absolute value and finish by stating whether it is elastic, inelastic or unitary."
+  },
+  "questions": [
+    {
+      "text": "Cars and petrol are complementary goods. If the price of petrol rises sharply, other things remaining the same, the demand curve for cars will:",
+      "difficulty": "EASY",
+      "options": [
+        "Shift to the right",
+        "Remain unchanged, with a movement along it",
+        "Become vertical",
+        "Shift to the left"
+      ],
+      "answer": 3,
+      "explanation": "Complementary goods are used together. A rise in the price of petrol makes running a car costlier, so fewer cars are demanded at every price of cars. Because the change comes from the price of a related good, not the car's own price, the whole demand curve for cars shifts to the left."
+    },
+    {
+      "text": "A market has only two consumers, with demand functions d₁ = 10 − p and d₂ = 15 − 2p. The market demand at a price of ₹3 is:",
+      "difficulty": "EASY",
+      "options": [
+        "16 units",
+        "7 units",
+        "9 units",
+        "19 units"
+      ],
+      "answer": 0,
+      "explanation": "Market demand is the horizontal sum of individual demands at each price. At p = 3: d₁ = 10 − 3 = 7 units and d₂ = 15 − 2 × 3 = 9 units. Market demand = 7 + 9 = 16 units."
+    },
+    {
+      "text": "A firm adopts an improved technology that lowers its cost of production. Other things remaining constant, its supply curve will:",
+      "difficulty": "EASY",
+      "options": [
+        "Shift to the left",
+        "Shift to the right",
+        "Remain unchanged",
+        "Become perfectly inelastic"
+      ],
+      "answer": 1,
+      "explanation": "Better technology reduces the cost of producing each unit, so production becomes more profitable. The firm is willing to supply more at every price. Since this is a change in a factor other than the good's own price, the supply curve shifts to the right."
+    },
+    {
+      "text": "A demand curve is a rectangular hyperbola, so total expenditure (P × Q) is the same at every point on it. The price elasticity of demand along this curve is:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Zero at every point",
+        "Greater than one at every point",
+        "Equal to one at every point",
+        "Different at different points"
+      ],
+      "answer": 2,
+      "explanation": "On a rectangular hyperbola, P × Q is constant. By the total expenditure method, if total expenditure stays unchanged when price changes, demand is unitary elastic. So elasticity equals one at every point of the curve."
+    },
+    {
+      "text": "In a perfectly competitive market, demand is qd = 100 − 2p and supply is qs = 40 + 4p, where p is in ₹. The equilibrium price and quantity are:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "p = ₹20, q = 60 units",
+        "p = ₹10, q = 80 units",
+        "p = ₹6, q = 88 units",
+        "p = ₹10, q = 100 units"
+      ],
+      "answer": 1,
+      "explanation": "At equilibrium qd = qs, so 100 − 2p = 40 + 4p. This gives 60 = 6p, so p = ₹10. Substituting, qd = 100 − 2 × 10 = 80 and qs = 40 + 4 × 10 = 80. Equilibrium: p = ₹10, q = 80 units."
+    },
+    {
+      "text": "When the price of a good rises from ₹10 to ₹12 per unit, its quantity supplied rises from 100 units to 130 units. The price elasticity of supply is:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "0.67",
+        "1.2",
+        "0.3",
+        "1.5"
+      ],
+      "answer": 3,
+      "explanation": "Percentage change in quantity supplied = (130 − 100)/100 × 100 = 30%. Percentage change in price = (12 − 10)/10 × 100 = 20%. es = 30%/20% = 1.5. Since es > 1, supply is elastic."
+    },
+    {
+      "text": "The government fixes a maximum price (price ceiling) for wheat below its market equilibrium price. Which of the following is the most likely result?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Excess demand for wheat, which may lead to rationing and black marketing",
+        "Excess supply of wheat, which the government has to buy",
+        "No effect on the quantities demanded and supplied",
+        "A rise in the legal market price of wheat back to the equilibrium level"
+      ],
+      "answer": 0,
+      "explanation": "At a price below equilibrium, consumers want to buy more while producers offer less. So quantity demanded exceeds quantity supplied, creating excess demand (a shortage). Since the price cannot legally rise, the government uses ration cards and fair price shops, and black markets may develop. Excess supply results from a price floor, not a ceiling."
+    },
+    {
+      "text": "When the price of a good falls from ₹20 to ₹18 per unit, the total expenditure on it rises from ₹400 to ₹450. The price elasticity of demand by the percentage method (in absolute value) is:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "0.4",
+        "1",
+        "2.5",
+        "1.25"
+      ],
+      "answer": 2,
+      "explanation": "Quantity = total expenditure/price. At ₹20, Q = 400/20 = 20 units; at ₹18, Q = 450/18 = 25 units. Percentage change in quantity = (25 − 20)/20 × 100 = 25%. Percentage change in price = (18 − 20)/20 × 100 = −10%. ed = 25%/10% = 2.5 in absolute value, so demand is elastic, which agrees with total expenditure rising when price falls."
+    },
+    {
+      "text": "The demand function for a good is q = 20 − 2p, where p is in ₹. What is the price elasticity of demand (in absolute value) at p = ₹6?",
+      "difficulty": "HARD",
+      "options": [
+        "2.67",
+        "0.75",
+        "1.5",
+        "0.375"
+      ],
+      "answer": 2,
+      "explanation": "At p = 6, q = 20 − 2 × 6 = 8 units. For a linear demand curve, ed = (ΔQ/ΔP) × (P/Q), and ΔQ/ΔP = −2. In absolute value, ed = 2 × (6/8) = 1.5. Demand is elastic at this price."
+    },
+    {
+      "text": "In a perfectly competitive market, both the demand curve and the supply curve shift to the right, and the shift in demand is exactly equal in magnitude to the shift in supply. Compared with the original equilibrium:",
+      "difficulty": "HARD",
+      "options": [
+        "Price rises and quantity remains the same",
+        "Price remains the same and quantity increases",
+        "Price falls and quantity increases",
+        "Both price and quantity remain the same"
+      ],
+      "answer": 1,
+      "explanation": "An increase in demand alone raises both price and quantity. An increase in supply alone lowers price and raises quantity. When both increase by the same amount, the upward pressure on price from demand exactly cancels the downward pressure from supply, so price stays the same. Quantity rises because both shifts push it up."
+    },
+    {
+      "text": "Assertion (A): When the government fixes a minimum support price above the equilibrium price, there is excess demand in the market.\nReason (R): At a price above the equilibrium price, quantity supplied is greater than quantity demanded.\nChoose the correct option.",
+      "difficulty": "HARD",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": 3,
+      "explanation": "A price floor such as MSP is set above the equilibrium price. At this higher price, producers supply more and consumers demand less, so quantity supplied exceeds quantity demanded; R is true. The result is excess supply (a surplus that the government buys), not excess demand, so A is false. Answer: A is false but R is true."
+    }
+  ]
+}

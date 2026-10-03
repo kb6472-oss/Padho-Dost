@@ -1,0 +1,162 @@
+{
+  "exam": "class-11",
+  "subject": "biology",
+  "chapter": "cell-structure-function",
+  "notes": {
+    "summary": "This chapter covers cell theory, how prokaryotic and eukaryotic cells differ, and the structure and function of each part of the cell: the envelope, membranes, endomembrane system, mitochondria, plastids, ribosomes, cytoskeleton, cilia and flagella, centrosome and nucleus. CBSE tests it with facts about who discovered what, organelle–function matching, numerical features (70S/80S, 9 + 2) and comparison questions.",
+    "keyPoints": [
+      "Cell theory: Schleiden (1838) and Schwann (1839); Virchow (1855) added 'Omnis cellula-e cellula'. Leeuwenhoek first saw and described a live cell, and Robert Brown discovered the nucleus.",
+      "Size range: Mycoplasma about 0.3 μm (smallest), bacteria 3–5 μm, human RBC about 7 μm across. The ostrich egg is the largest isolated single cell, and nerve cells are among the longest.",
+      "Prokaryotic cell envelope: glycocalyx (a slime layer or a capsule), cell wall and plasma membrane. Mesosomes help with wall formation, DNA replication and respiration. Plasmids carry extra genes such as antibiotic resistance. Ribosomes are 70S (50S + 30S).",
+      "Plasma membrane: a lipid bilayer with proteins (the human RBC membrane is about 52% protein and 40% lipid), described by the fluid mosaic model of Singer and Nicolson (1972).",
+      "Plant cell wall: primary wall, secondary wall and a middle lamella of calcium pectate. Plasmodesmata connect the cytoplasm of neighbouring cells.",
+      "The endomembrane system is the ER, Golgi, lysosomes and vacuoles; mitochondria, chloroplasts and peroxisomes are not part of it. RER makes proteins, SER makes lipids and steroids, and the Golgi packages materials and forms glycoproteins and glycolipids (its cis face receives, its trans face releases).",
+      "Mitochondria and chloroplasts have double membranes and are semi-autonomous, with their own circular DNA and 70S ribosomes. Plastids include chloroplasts, chromoplasts and leucoplasts; leucoplasts are amyloplasts (starch), elaioplasts (oils and fats) and aleuroplasts (proteins).",
+      "Eukaryotic 80S ribosomes = 60S + 40S subunits. S is the Svedberg unit (sedimentation coefficient). A polysome is several ribosomes on one mRNA. The vacuole is bounded by the tonoplast.",
+      "The axoneme of cilia and flagella has 9 + 2 microtubules (nine doublets and a central pair) and arises from a basal body. Centrioles have nine peripheral triplets in a cartwheel pattern and no central pair.",
+      "Chromosomes by centromere position: metacentric (middle), sub-metacentric (slightly off-centre), acrocentric (near one end) and telocentric (at the end). Kinetochores are disc-shaped structures on the sides of the centromere."
+    ],
+    "traps": [
+      "Crediting Robert Hooke with seeing a live cell (he saw dead cork cells), or crediting Robert Brown with cell theory.",
+      "Mixing up ribosome subunits. 70S = 50S + 30S and 80S = 60S + 40S; S values do not simply add up.",
+      "Confusing the nine doublets of cilia and flagella (9 + 2) with the nine triplets of centrioles and basal bodies.",
+      "Counting mitochondria or chloroplasts as part of the endomembrane system.",
+      "Mixing up leucoplast types: aleuroplast = protein, elaioplast = oil and fat, amyloplast = starch."
+    ],
+    "examTip": "In 'odd one out' or matching questions, first sort the organelles into single-membrane, double-membrane and non-membranous groups. Most distractors drop out straight away."
+  },
+  "questions": [
+    {
+      "text": "Who first saw and described a live cell?",
+      "difficulty": "EASY",
+      "options": [
+        "Robert Hooke",
+        "Robert Brown",
+        "Anton von Leeuwenhoek",
+        "Rudolf Virchow"
+      ],
+      "answer": 2,
+      "explanation": "Anton von Leeuwenhoek was the first to see and describe a live cell. Robert Hooke had seen dead cork cells. Robert Brown later discovered the nucleus, and Rudolf Virchow proposed that new cells arise from existing cells. So the answer is Anton von Leeuwenhoek."
+    },
+    {
+      "text": "The largest isolated single cell is the:",
+      "difficulty": "EASY",
+      "options": [
+        "egg of an ostrich",
+        "nerve cell of a human",
+        "human ovum",
+        "red blood cell of a human"
+      ],
+      "answer": 0,
+      "explanation": "Cells vary widely in size: Mycoplasma is about 0.3 μm, bacteria are 3–5 μm, and a human RBC is about 7 μm across. Nerve cells are among the longest cells, but the largest isolated single cell is the egg of an ostrich. So the answer is the ostrich egg."
+    },
+    {
+      "text": "In plant cells, the membrane that surrounds the vacuole and helps transport ions into it against a concentration gradient is called the:",
+      "difficulty": "EASY",
+      "options": [
+        "plasmalemma",
+        "tonoplast",
+        "nuclear envelope",
+        "cisterna"
+      ],
+      "answer": 1,
+      "explanation": "The vacuole is a space enclosed by a membrane that holds water, sap, excretory products and other materials. Its single membrane is called the tonoplast. The tonoplast moves ions and other materials into the vacuole against the concentration gradient, so their concentration is higher in the vacuole than in the cytoplasm. In plant cells the vacuole can take up to 90% of the cell volume. So the answer is the tonoplast."
+    },
+    {
+      "text": "In some bacteria the outermost layer of the cell envelope, the glycocalyx, is thick and tough. Such a glycocalyx is called the:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "slime layer",
+        "mesosome",
+        "pilus",
+        "capsule"
+      ],
+      "answer": 3,
+      "explanation": "The bacterial cell envelope has three layers: the outer glycocalyx, the cell wall and the plasma membrane. The glycocalyx varies in composition and thickness between bacteria. When it is a loose sheath it is called the slime layer; when it is thick and tough it is called the capsule. Mesosomes are infoldings of the membrane and pili are surface outgrowths. So the answer is the capsule."
+    },
+    {
+      "text": "The middle lamella, which glues neighbouring plant cells together, is mainly made of:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "cellulose",
+        "calcium pectate",
+        "lignin",
+        "suberin"
+      ],
+      "answer": 1,
+      "explanation": "A plant cell wall has a primary wall, a secondary wall (formed on the inner side in mature cells) and the middle lamella between neighbouring cells. The middle lamella is mainly calcium pectate, which holds adjacent cells together. Cellulose is the main component of the primary wall. So the answer is calcium pectate."
+    },
+    {
+      "text": "The 80S ribosomes of eukaryotic cells are made up of two subunits of sizes:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "60S and 40S",
+        "50S and 30S",
+        "40S and 30S",
+        "70S and 50S"
+      ],
+      "answer": 0,
+      "explanation": "Ribosomes are named by their sedimentation coefficient in Svedberg units (S), which reflects their size and density. Eukaryotic 80S ribosomes are made of 60S and 40S subunits, while prokaryotic 70S ribosomes are made of 50S and 30S subunits. S values do not simply add: 60S + 40S forms an 80S ribosome, not 100S. So the answer is 60S and 40S."
+    },
+    {
+      "text": "Leucoplasts that store proteins are called:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "amyloplasts",
+        "elaioplasts",
+        "aleuroplasts",
+        "chromoplasts"
+      ],
+      "answer": 2,
+      "explanation": "Leucoplasts are colourless plastids that store nutrients. Amyloplasts store carbohydrates (starch, as in potato), elaioplasts store oils and fats, and aleuroplasts store proteins. Chromoplasts are coloured plastids containing carotenoid pigments, not storage leucoplasts. So the answer is aleuroplasts."
+    },
+    {
+      "text": "Which of the following is NOT considered a part of the endomembrane system?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Endoplasmic reticulum",
+        "Golgi complex",
+        "Lysosome",
+        "Mitochondrion"
+      ],
+      "answer": 3,
+      "explanation": "The endomembrane system is made up of the endoplasmic reticulum, Golgi complex, lysosomes and vacuoles, whose functions are coordinated. Mitochondria, chloroplasts and peroxisomes are also enclosed by membranes, but their functions are not coordinated with these organelles, so they are left out. So the answer is the mitochondrion."
+    },
+    {
+      "text": "A chromosome whose centromere is situated close to one end, forming one extremely short arm and one very long arm, is called:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "acrocentric",
+        "metacentric",
+        "sub-metacentric",
+        "telocentric"
+      ],
+      "answer": 0,
+      "explanation": "Chromosomes are classified by where the centromere sits. Metacentric: centromere in the middle, giving two equal arms. Sub-metacentric: slightly away from the middle, giving one shorter and one longer arm. Acrocentric: close to one end, giving one extremely short and one very long arm. Telocentric: centromere at the very end. So the answer is acrocentric."
+    },
+    {
+      "text": "Which of the following is NOT found in the matrix of a mitochondrion?",
+      "difficulty": "HARD",
+      "options": [
+        "A single circular DNA molecule",
+        "A few RNA molecules",
+        "80S ribosomes",
+        "Components required for protein synthesis"
+      ],
+      "answer": 2,
+      "explanation": "The mitochondrial matrix contains a single circular DNA molecule, a few RNA molecules, ribosomes and the components needed for protein synthesis, which makes the organelle semi-autonomous. Its ribosomes are the 70S type, like those of prokaryotes, not the 80S type found in the eukaryotic cytoplasm. Mitochondria also divide by fission. So 80S ribosomes are not found in the matrix."
+    },
+    {
+      "text": "Each centriole has a cartwheel-like organisation made of nine evenly spaced peripheral fibrils of tubulin protein. Each of these peripheral fibrils is a:",
+      "difficulty": "HARD",
+      "options": [
+        "doublet",
+        "triplet",
+        "singlet",
+        "9 + 2 bundle"
+      ],
+      "answer": 1,
+      "explanation": "A centrosome has two centrioles lying at right angles to each other. Each centriole is made of nine peripheral fibrils of tubulin, and each fibril is a triplet; neighbouring triplets are linked. A central protein hub is joined to the triplets by radial spokes. This is different from the axoneme of cilia and flagella, which has nine doublets around a central pair (9 + 2). So each fibril is a triplet."
+    }
+  ]
+}

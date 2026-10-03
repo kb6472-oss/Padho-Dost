@@ -1,0 +1,184 @@
+{
+  "exam": "class-10",
+  "subject": "mathematics",
+  "chapter": "polynomials",
+  "notes": {
+    "summary": "This chapter covers zeroes of polynomials, their geometrical meaning as the points where the graph of y = p(x) meets the x-axis, and the relationship between the zeroes and the coefficients of a quadratic polynomial. CBSE tests it with 1-mark MCQs and assertion-reason items on the sum and product of zeroes, forming a quadratic from given zeroes, and finding unknown coefficients from a condition on the zeroes.",
+    "keyPoints": [
+      "A zero of p(x) is a value k for which p(k) = 0. The zero of the linear polynomial ax + b is −b/a; for example, 2x + 3 has the zero −3/2.",
+      "Geometrically, the zeroes of p(x) are the x-coordinates of the points where the graph of y = p(x) meets the x-axis; the number of such points equals the number of zeroes.",
+      "A polynomial of degree n has at most n zeroes: a linear polynomial has 1, a quadratic at most 2, a cubic at most 3.",
+      "The graph of ax² + bx + c is a parabola that opens upwards if a > 0 and downwards if a < 0; it can meet the x-axis at 2, 1 or 0 points.",
+      "For ax² + bx + c with zeroes α and β: α + β = −b/a and αβ = c/a. For 6x² − 7x − 3: sum = 7/6, product = −1/2 (zeroes 3/2 and −1/3).",
+      "Forming a quadratic from its zeroes: k[x² − (sum)x + (product)]. Sum 1/4 and product −1 gives 4x² − x − 4.",
+      "Useful identities: α² + β² = (α + β)² − 2αβ; (α − β)² = (α + β)² − 4αβ; 1/α + 1/β = (α + β)/αβ.",
+      "Special conditions: zeroes are reciprocals → product c/a = 1; zeroes equal in size but opposite in sign → sum = 0, so b = 0; one zero is 0 → c = 0.",
+      "Factorise by splitting the middle term or by taking out a common factor: 4u² + 8u = 4u(u + 2), so the zeroes are 0 and −2."
+    ],
+    "traps": [
+      "Writing the sum of zeroes as b/a instead of −b/a.",
+      "Losing the zero u = 0 after taking out a common factor (4u² + 8u has two zeroes, 0 and −2).",
+      "Forming the polynomial as x² + (sum)x + product — the middle term must carry a minus sign.",
+      "Using α² + β² = (α + β)² + 2αβ, or forgetting the factor 2 in 2αβ.",
+      "Counting the point where the graph meets the y-axis as a zero; only points on the x-axis give zeroes."
+    ],
+    "examTip": "In every zero–coefficient question, first write α + β and αβ from the coefficients, then rewrite whatever is asked in terms of these two quantities."
+  },
+  "questions": [
+    {
+      "text": "What is the zero of the linear polynomial p(x) = 2x + 3?",
+      "difficulty": "EASY",
+      "options": ["3/2", "−2/3", "−3/2", "3"],
+      "answer": 2,
+      "explanation": "A zero is the value of x for which p(x) = 0.\n2x + 3 = 0 → 2x = −3 → x = −3/2.\nThis matches the general result: the zero of ax + b is −b/a = −3/2."
+    },
+    {
+      "text": "The graph of y = p(x) for a polynomial p(x) crosses the x-axis at exactly three distinct points and does not meet the x-axis anywhere else. How many zeroes does p(x) have?",
+      "difficulty": "EASY",
+      "options": ["3", "2", "1", "Cannot be found without the equation"],
+      "answer": 0,
+      "explanation": "The zeroes of p(x) are the x-coordinates of the points where the graph of y = p(x) meets the x-axis.\nThe graph meets the x-axis at exactly 3 points.\nSo p(x) has 3 zeroes."
+    },
+    {
+      "text": "A polynomial of degree n can have at most how many zeroes?",
+      "difficulty": "EASY",
+      "options": ["n − 1", "n", "n + 1", "2n"],
+      "answer": 1,
+      "explanation": "A polynomial of degree n has at most n zeroes, so its graph meets the x-axis at most n times.\nFor example, a linear polynomial has 1 zero, a quadratic at most 2 and a cubic at most 3.\nSo the answer is n."
+    },
+    {
+      "text": "The graph of the quadratic polynomial p(x) = ax² + bx + c is a parabola. If a < 0, the parabola:",
+      "difficulty": "EASY",
+      "options": [
+        "opens upwards",
+        "is a straight line",
+        "always cuts the x-axis at two points",
+        "opens downwards"
+      ],
+      "answer": 3,
+      "explanation": "The graph of ax² + bx + c (a ≠ 0) is a parabola.\nIf a > 0 it opens upwards (∪ shape); if a < 0 it opens downwards (∩ shape).\nIt may cut the x-axis at 2, 1 or 0 points depending on the polynomial, so 'always two points' is wrong.\nFor a < 0, the parabola opens downwards."
+    },
+    {
+      "text": "What are the zeroes of the polynomial 4u² + 8u?",
+      "difficulty": "EASY",
+      "options": ["0 and 2", "0 and −2", "−2 only", "4 and −2"],
+      "answer": 1,
+      "explanation": "Take out the common factor: 4u² + 8u = 4u(u + 2).\n4u = 0 gives u = 0, and u + 2 = 0 gives u = −2.\nCheck with a = 4, b = 8, c = 0: sum = −8/4 = −2 = 0 + (−2) and product = 0/4 = 0.\nThe zeroes are 0 and −2."
+    },
+    {
+      "text": "For the polynomial t² − 15, what are the sum and the product of its zeroes respectively?",
+      "difficulty": "EASY",
+      "options": ["0 and 15", "15 and 0", "0 and −15", "−15 and 0"],
+      "answer": 2,
+      "explanation": "t² − 15 = (t − √15)(t + √15), so the zeroes are √15 and −√15.\nSum = √15 + (−√15) = 0, which equals −b/a = −0/1.\nProduct = √15 × (−√15) = −15, which equals c/a = −15/1.\nSo the sum is 0 and the product is −15."
+    },
+    {
+      "text": "What are the zeroes of the quadratic polynomial 6x² − 7x − 3?",
+      "difficulty": "MEDIUM",
+      "options": ["3/2 and −1/3", "−3/2 and 1/3", "2/3 and −3", "7/6 and −1/2"],
+      "answer": 0,
+      "explanation": "Split the middle term: ac = 6 × (−3) = −18; two numbers with product −18 and sum −7 are −9 and 2.\n6x² − 9x + 2x − 3 = 3x(2x − 3) + 1(2x − 3) = (3x + 1)(2x − 3).\nThe zeroes are x = −1/3 and x = 3/2.\nCheck: sum = 3/2 − 1/3 = 7/6 = −b/a and product = −1/2 = c/a (7/6 and −1/2 are the sum and product, not the zeroes)."
+    },
+    {
+      "text": "A quadratic polynomial whose zeroes have sum 1/4 and product −1 is:",
+      "difficulty": "MEDIUM",
+      "options": ["4x² + x − 4", "x² − 4x − 1", "4x² − x − 4", "4x² − x + 4"],
+      "answer": 2,
+      "explanation": "A quadratic with sum of zeroes S and product P is k[x² − Sx + P].\nHere it is k[x² − (1/4)x − 1].\nTake k = 4 to clear the fraction: 4x² − x − 4.\nCheck: sum = −(−1)/4 = 1/4 and product = −4/4 = −1."
+    },
+    {
+      "text": "Which quadratic polynomial has sum of zeroes √2 and product of zeroes 1/3?",
+      "difficulty": "MEDIUM",
+      "options": ["3x² + 3√2x + 1", "x² + √2x + 1/3", "3x² − √2x + 1", "3x² − 3√2x + 1"],
+      "answer": 3,
+      "explanation": "Use k[x² − (sum)x + (product)] = k[x² − √2x + 1/3].\nTake k = 3: 3x² − 3√2x + 1.\nCheck: sum = −(−3√2)/3 = √2 and product = 1/3.\nNote that 3x² − √2x + 1 has sum √2/3, not √2."
+    },
+    {
+      "text": "If α and β are the zeroes of the polynomial x² − 5x + 6, what is the value of 1/α + 1/β?",
+      "difficulty": "MEDIUM",
+      "options": ["6/5", "5/6", "−5/6", "1/5"],
+      "answer": 1,
+      "explanation": "α + β = −b/a = 5 and αβ = c/a = 6.\n1/α + 1/β = (α + β)/αβ = 5/6.\nCheck: the zeroes are 2 and 3, and 1/2 + 1/3 = 5/6."
+    },
+    {
+      "text": "If α and β are the zeroes of the polynomial 2x² − 5x + 1, what is the value of α² + β²?",
+      "difficulty": "MEDIUM",
+      "options": ["21/4", "29/4", "25/4", "23/4"],
+      "answer": 0,
+      "explanation": "α + β = −b/a = 5/2 and αβ = c/a = 1/2.\nα² + β² = (α + β)² − 2αβ.\n= 25/4 − 2 × 1/2 = 25/4 − 1 = 21/4."
+    },
+    {
+      "text": "If one zero of the polynomial 3x² + 8x + k is the reciprocal of the other, what is the value of k?",
+      "difficulty": "MEDIUM",
+      "options": ["8", "1/3", "−3", "3"],
+      "answer": 3,
+      "explanation": "Let the zeroes be α and 1/α; their product is α × 1/α = 1.\nProduct of zeroes = c/a = k/3.\nk/3 = 1 → k = 3."
+    },
+    {
+      "text": "If 2 and −3 are the zeroes of the polynomial x² + (a + 1)x + b, then:",
+      "difficulty": "MEDIUM",
+      "options": ["a = −7, b = −1", "a = 0, b = −6", "a = 5, b = −1", "a = 2, b = −6"],
+      "answer": 1,
+      "explanation": "Sum of zeroes = 2 + (−3) = −1, and it equals −(a + 1)/1, so a + 1 = 1 and a = 0.\nProduct of zeroes = 2 × (−3) = −6, and it equals b/1, so b = −6.\nCheck: x² + x − 6 = (x − 2)(x + 3).\nHence a = 0, b = −6."
+    },
+    {
+      "text": "The graph of a quadratic polynomial y = p(x) cuts the x-axis at the points (−2, 0) and (5, 0). Which of the following could be p(x)?",
+      "difficulty": "MEDIUM",
+      "options": ["x² + 3x − 10", "x² − 7x + 10", "x² − 3x − 10", "x² + 7x + 10"],
+      "answer": 2,
+      "explanation": "The x-coordinates of the points where the graph cuts the x-axis are the zeroes: −2 and 5.\nSum = −2 + 5 = 3 and product = −2 × 5 = −10.\np(x) = x² − (sum)x + (product) = x² − 3x − 10.\nCheck: (x + 2)(x − 5) = x² − 3x − 10."
+    },
+    {
+      "text": "Assertion (A): The quadratic polynomial x² + 4x + 5 has two real zeroes.\nReason (R): A quadratic polynomial can have at most two zeroes.",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A.",
+        "Both A and R are true, but R is not the correct explanation of A.",
+        "A is true, but R is false.",
+        "A is false, but R is true."
+      ],
+      "answer": 3,
+      "explanation": "x² + 4x + 5 = (x + 2)² + 1, which is at least 1 for every real x.\nSo it is never 0, its graph never meets the x-axis, and it has no real zeroes (also b² − 4ac = 16 − 20 = −4 < 0). A is false.\nR is true: a polynomial of degree 2 has at most 2 zeroes.\nHence A is false, but R is true."
+    },
+    {
+      "text": "Assertion (A): If the sum of the zeroes of the polynomial kx² + 2x + 3k is equal to their product, then k = −2/3.\nReason (R): For the quadratic polynomial ax² + bx + c, the sum of the zeroes is −b/a and their product is c/a.",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A.",
+        "Both A and R are true, but R is not the correct explanation of A.",
+        "A is true, but R is false.",
+        "A is false, but R is true."
+      ],
+      "answer": 0,
+      "explanation": "By R, sum = −2/k and product = 3k/k = 3.\nSetting −2/k = 3 gives k = −2/3, so A is true.\nR states the correct relations, and A follows directly from them.\nHence both A and R are true, and R is the correct explanation of A."
+    },
+    {
+      "text": "If α and β are the zeroes of the polynomial x² − 6x + k and 3α + 2β = 20, what is the value of k?",
+      "difficulty": "HARD",
+      "options": ["16", "−8", "−16", "12"],
+      "answer": 2,
+      "explanation": "α + β = 6, so 2α + 2β = 12.\nSubtract this from 3α + 2β = 20 to get α = 8; then β = 6 − 8 = −2.\nk = αβ = 8 × (−2) = −16.\nCheck: x² − 6x − 16 = (x − 8)(x + 2)."
+    },
+    {
+      "text": "If α and β are the zeroes of the polynomial x² − x − 2, which polynomial has zeroes 2α + 1 and 2β + 1?",
+      "difficulty": "HARD",
+      "options": ["x² − 4x − 5", "x² + 4x − 5", "x² − 4x + 5", "x² − 3x − 5"],
+      "answer": 0,
+      "explanation": "α + β = 1 and αβ = −2.\nNew sum = (2α + 1) + (2β + 1) = 2(α + β) + 2 = 4.\nNew product = (2α + 1)(2β + 1) = 4αβ + 2(α + β) + 1 = −8 + 2 + 1 = −5.\nRequired polynomial = x² − 4x − 5.\nCheck: the zeroes of x² − x − 2 are 2 and −1, giving new zeroes 5 and −1, and (x − 5)(x + 1) = x² − 4x − 5."
+    },
+    {
+      "text": "If α and β are the zeroes of the polynomial x² − 5x + k and α − β = 1, what is the value of k?",
+      "difficulty": "HARD",
+      "options": ["4", "24", "−6", "6"],
+      "answer": 3,
+      "explanation": "α + β = 5 and αβ = k.\n(α − β)² = (α + β)² − 4αβ → 1² = 25 − 4k.\n4k = 24 → k = 6.\nCheck: x² − 5x + 6 has zeroes 3 and 2, which differ by 1."
+    },
+    {
+      "text": "If α and β are the zeroes of the polynomial x² − p(x + 1) − c, what is the value of (α + 1)(β + 1)?",
+      "difficulty": "HARD",
+      "options": ["c − 1", "1 − c", "1 + c", "p − c"],
+      "answer": 1,
+      "explanation": "Write it in standard form: x² − px − (p + c).\nSo α + β = p and αβ = −(p + c).\n(α + 1)(β + 1) = αβ + (α + β) + 1 = −p − c + p + 1.\n= 1 − c."
+    }
+  ]
+}

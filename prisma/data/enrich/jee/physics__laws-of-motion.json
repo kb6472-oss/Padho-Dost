@@ -1,0 +1,170 @@
+{
+  "exam": "jee",
+  "subject": "physics",
+  "chapter": "laws-of-motion",
+  "notes": {
+    "summary": "Laws of Motion covers Newton's three laws, momentum and impulse, conservation of linear momentum, equilibrium of concurrent forces, friction, connected bodies and the dynamics of circular motion on level and banked roads. JEE Main mostly sets free-body-diagram problems: pulleys and blocks, contact forces, static versus kinetic friction, lifts and pseudo-forces, and momentum conservation in recoil and explosions.",
+    "keyPoints": [
+      "Second law in general form: F_net = dp/dt; for constant mass F = ma. Impulse J = ∫F dt = Δp, the area under the force–time graph.",
+      "Conservation of momentum: with zero net external force, total momentum is constant. Gun recoil speed V = mv/M; in an explosion from rest the vector sum of fragment momenta is zero.",
+      "Third law: action and reaction are equal, opposite, simultaneous and act on different bodies, so they never cancel each other.",
+      "Apparent weight in a lift: N = m(g + a) when accelerating upward, m(g − a) when accelerating downward, and zero in free fall.",
+      "Friction: static friction is self-adjusting up to f_max = μs N; kinetic friction f_k = μk N with μk < μs. Angle of repose: tanθ = μs (θ = 30° gives μs = 1/√3).",
+      "Connected bodies: Atwood machine a = (m₁ − m₂)g/(m₁ + m₂), T = 2m₁m₂g/(m₁ + m₂). Two blocks in contact on a smooth floor, with F applied to m₁: contact force between them = m₂F/(m₁ + m₂).",
+      "In an accelerating (non-inertial) frame add a pseudo-force −ma; a pendulum in a car accelerating at a hangs at tanθ = a/g with the vertical.",
+      "Circular motion: level road v_max = √(μs r g); banked road without friction tanθ = v²/(rg); with friction v_max = √[rg(μs + tanθ)/(1 − μs tanθ)].",
+      "Minimum force to drag a block on a rough floor = μmg/√(1 + μ²), applied at an angle θ above the horizontal with tanθ = μ.",
+      "A uniform rope pulled by F at one end on a smooth surface has tension varying linearly: T = F(1 − x/L) at distance x from the pulled end."
+    ],
+    "traps": [
+      "Writing friction as μN when the body is not sliding; static friction equals the applied force until it reaches μs N.",
+      "Ignoring the reversal of direction in impulse problems: a rebound with the same speed gives Δp = 2mv, not zero.",
+      "Taking the normal reaction as mg on an incline, in an accelerating lift, or when a force is applied at an angle.",
+      "Adding pseudo-forces while working in the ground (inertial) frame, or forgetting them in the accelerating frame.",
+      "Treating weight and normal reaction as a third-law pair; they act on the same body, so they are not."
+    ],
+    "examTip": "Draw a separate free-body diagram for every block, take axes along the acceleration, write ΣF = ma for each, and check the result with a limiting case such as μ = 0 or one mass tending to zero."
+  },
+  "questions": [
+    {
+      "text": "A ball of mass 0.2 kg moving at 10 m/s strikes a wall normally and rebounds with the same speed. The magnitude of the impulse imparted to the ball by the wall is:",
+      "difficulty": "EASY",
+      "options": ["Zero", "2 N s", "4 N s", "1 N s"],
+      "answer": 2,
+      "explanation": "Impulse = change in momentum. Taking the rebound direction as positive, initial velocity = −10 m/s and final velocity = +10 m/s. Δp = m(v − u) = 0.2 × (10 − (−10)) = 0.2 × 20 = 4 N s. (Zero comes from ignoring the reversal of direction.)"
+    },
+    {
+      "text": "A gun of mass 5 kg fires a bullet of mass 20 g with a muzzle speed of 500 m/s. The recoil speed of the gun is:",
+      "difficulty": "EASY",
+      "options": ["2 m/s", "0.2 m/s", "20 m/s", "5 m/s"],
+      "answer": 0,
+      "explanation": "The system is initially at rest, so total momentum stays zero. m_bullet × v_bullet = M_gun × V. V = (0.020 × 500)/5 = 10/5 = 2 m/s, opposite to the bullet's motion."
+    },
+    {
+      "text": "A person of mass 60 kg stands on a weighing scale inside a lift that is accelerating upward at 2 m/s² (g = 10 m/s²). The reading of the scale (normal force on the person) is:",
+      "difficulty": "EASY",
+      "options": ["480 N", "600 N", "120 N", "720 N"],
+      "answer": 3,
+      "explanation": "Forces on the person: normal force N upward, weight mg downward. Newton's second law: N − mg = ma → N = m(g + a) = 60 × (10 + 2) = 720 N. (480 N would be the reading when the lift accelerates downward at 2 m/s².)"
+    },
+    {
+      "text": "A block placed on an inclined plane just begins to slide when the angle of inclination is slowly increased to 30°. The coefficient of static friction between the block and the plane is:",
+      "difficulty": "EASY",
+      "options": ["0.5", "1/√3 ≈ 0.58", "√3 ≈ 1.73", "0.87"],
+      "answer": 1,
+      "explanation": "At the angle of repose θ, the component of weight along the plane equals limiting friction: mg sinθ = μs mg cosθ. So μs = tanθ = tan 30° = 1/√3 ≈ 0.58."
+    },
+    {
+      "text": "A cricketer moves his hands backward while catching a fast-moving ball. This helps him because it:",
+      "difficulty": "EASY",
+      "options": ["increases the time of impact and so reduces the force on his hands", "reduces the change in momentum of the ball", "increases the impulse on his hands", "makes the ball's momentum zero instantly"],
+      "answer": 0,
+      "explanation": "The ball must be brought to rest, so its change in momentum Δp (the impulse) is fixed. Since Δp = F × Δt, moving the hands back increases the stopping time Δt, which reduces the average force F = Δp/Δt on the hands."
+    },
+    {
+      "text": "The action and reaction forces described by Newton's third law do not cancel each other because they:",
+      "difficulty": "EASY",
+      "options": ["are unequal in magnitude", "act along different lines", "act on different bodies", "act at different instants of time"],
+      "answer": 2,
+      "explanation": "Third-law forces are equal in magnitude, opposite in direction, act along the same line and at the same instant, but they act on two different bodies. Forces can cancel only when they act on the same body, so each body's motion is decided by the forces acting on it alone."
+    },
+    {
+      "text": "Two blocks of masses 2 kg and 3 kg are placed in contact on a frictionless horizontal surface. A horizontal force of 10 N is applied to the 2 kg block, pushing both blocks together. The force exerted by the 2 kg block on the 3 kg block is:",
+      "difficulty": "MEDIUM",
+      "options": ["10 N", "4 N", "6 N", "5 N"],
+      "answer": 2,
+      "explanation": "Common acceleration a = F/(m₁ + m₂) = 10/5 = 2 m/s². The only horizontal force on the 3 kg block is the contact force N, so N = 3 × 2 = 6 N. (4 N is the net force on the 2 kg block: 10 − 6 = 4 N.)"
+    },
+    {
+      "text": "A block of mass 2 kg rests on a horizontal floor. The coefficient of static friction is 0.5 and the coefficient of kinetic friction is 0.4 (g = 10 m/s²). A horizontal force of 5 N is applied to the block. The frictional force acting on the block is:",
+      "difficulty": "MEDIUM",
+      "options": ["5 N", "10 N", "8 N", "Zero"],
+      "answer": 0,
+      "explanation": "Limiting static friction = μs N = 0.5 × 2 × 10 = 10 N. The applied force (5 N) is less than this, so the block stays at rest. Static friction is self-adjusting and just balances the applied force: f = 5 N, opposite to the push. (8 N is kinetic friction, which acts only while sliding.)"
+    },
+    {
+      "text": "Two masses of 3 kg and 2 kg are connected by a light inextensible string passing over a smooth, light pulley and released (g = 10 m/s²). The tension in the string is:",
+      "difficulty": "MEDIUM",
+      "options": ["20 N", "30 N", "25 N", "24 N"],
+      "answer": 3,
+      "explanation": "Acceleration a = (m₁ − m₂)g/(m₁ + m₂) = (3 − 2) × 10/5 = 2 m/s². For the 2 kg mass moving up: T − 20 = 2 × 2 → T = 24 N. Check with the 3 kg mass: 30 − T = 3 × 2 → T = 24 N. (Formula: T = 2m₁m₂g/(m₁ + m₂) = 120/5 = 24 N.)"
+    },
+    {
+      "text": "A 4 kg block on a horizontal table is connected by a light string, passing over a smooth pulley at the edge of the table, to a 1 kg block hanging vertically. The coefficient of kinetic friction between the 4 kg block and the table is 0.1 (g = 10 m/s²). Once the system is moving, its acceleration is:",
+      "difficulty": "MEDIUM",
+      "options": ["2 m/s²", "1.2 m/s²", "1.0 m/s²", "2.8 m/s²"],
+      "answer": 1,
+      "explanation": "Driving force = weight of the hanging block = 1 × 10 = 10 N. Kinetic friction on the 4 kg block = μk × 4 × 10 = 4 N. Treating both blocks as one system: a = (10 − 4)/(4 + 1) = 6/5 = 1.2 m/s². (2 m/s² ignores friction.)"
+    },
+    {
+      "text": "A small bob hangs by a light string from the roof of a car that is accelerating horizontally at (10/√3) m/s² (g = 10 m/s²). In the steady state, the angle made by the string with the vertical is:",
+      "difficulty": "MEDIUM",
+      "options": ["30°", "60°", "45°", "0°"],
+      "answer": 0,
+      "explanation": "In the car's frame a pseudo-force ma acts on the bob opposite to the acceleration. Equilibrium: T sinθ = ma and T cosθ = mg, so tanθ = a/g = (10/√3)/10 = 1/√3. θ = 30°, with the bob tilted backward (opposite to the car's acceleration)."
+    },
+    {
+      "text": "A car takes a turn on a level (unbanked) circular road of radius 150 m. The coefficient of static friction between the tyres and the road is 0.6 (g = 10 m/s²). The maximum speed with which the car can take the turn without skidding is:",
+      "difficulty": "MEDIUM",
+      "options": ["15 m/s", "30 m/s", "9.5 m/s", "90 m/s"],
+      "answer": 1,
+      "explanation": "On a level road, static friction supplies the centripetal force: mv²/r ≤ μs mg. So v_max = √(μs r g) = √(0.6 × 150 × 10) = √900 = 30 m/s (108 km/h). The mass cancels, so it does not matter."
+    },
+    {
+      "text": "A circular track of radius 40√3 m (about 69.3 m) is to be banked so that a vehicle moving at 20 m/s needs no friction to take the turn (g = 10 m/s²). The required angle of banking is:",
+      "difficulty": "MEDIUM",
+      "options": ["30°", "45°", "60°", "15°"],
+      "answer": 0,
+      "explanation": "Without friction, the normal force provides both balance and centripetal force: N cosθ = mg and N sinθ = mv²/r. Dividing, tanθ = v²/(rg) = 400/(40√3 × 10) = 1/√3. So θ = 30°."
+    },
+    {
+      "text": "A body of mass 2 kg, initially at rest, is acted upon by a force F = (10 + 2t) N along a straight line, where t is in seconds. Its speed at t = 3 s is:",
+      "difficulty": "MEDIUM",
+      "options": ["15 m/s", "24 m/s", "19.5 m/s", "8 m/s"],
+      "answer": 2,
+      "explanation": "Impulse = ∫F dt from 0 to 3 s = [10t + t²] from 0 to 3 = 30 + 9 = 39 N s. Impulse = change in momentum, so 2v − 0 = 39 → v = 19.5 m/s. (Using only 10 N gives 15 m/s; using F(3) = 16 N for the whole 3 s gives 24 m/s.)"
+    },
+    {
+      "text": "A block slides down a rough inclined plane of inclination 37° (sin 37° = 0.6, cos 37° = 0.8). The coefficient of kinetic friction between the block and the plane is 0.5 (g = 10 m/s²). The acceleration of the block is:",
+      "difficulty": "MEDIUM",
+      "options": ["6 m/s²", "2 m/s²", "4 m/s²", "10 m/s²"],
+      "answer": 1,
+      "explanation": "Normal force N = mg cosθ, so kinetic friction = μk mg cosθ up the plane. Along the plane: mg sinθ − μk mg cosθ = ma → a = g(sinθ − μk cosθ) = 10(0.6 − 0.5 × 0.8) = 10 × 0.2 = 2 m/s². (6 m/s² ignores friction.)"
+    },
+    {
+      "text": "A block of mass 2 kg is pressed against a rough vertical wall by a horizontal force F. The coefficient of static friction between the block and the wall is 0.5 (g = 10 m/s²). The minimum value of F that keeps the block from sliding down is:",
+      "difficulty": "MEDIUM",
+      "options": ["10 N", "20 N", "4 N", "40 N"],
+      "answer": 3,
+      "explanation": "The wall's normal reaction equals F. Upward friction must balance the weight, and it can be at most μs N = μs F. So μs F ≥ mg → F ≥ mg/μs = 20/0.5 = 40 N. (10 N comes from multiplying by μ instead of dividing.)"
+    },
+    {
+      "text": "A block of mass 10 kg rests on a rough horizontal floor; the coefficient of static friction is 0.75 (g = 10 m/s²). A force F is applied at an angle θ above the horizontal. The minimum force that can just start the block moving, and the angle at which it must be applied, are:",
+      "difficulty": "HARD",
+      "options": ["75 N at θ = 0°", "60 N at θ = 53°", "60 N at θ = 37°", "45 N at θ = 37°"],
+      "answer": 2,
+      "explanation": "With F at angle θ, N = mg − F sinθ. At the point of sliding: F cosθ = μ(mg − F sinθ) → F = μmg/(cosθ + μ sinθ). The denominator is largest, equal to √(1 + μ²) = 1.25, when tanθ = μ = 0.75, i.e. θ = 37°. F_min = μmg/√(1 + μ²) = 0.75 × 100/1.25 = 60 N. (At 53° the denominator is 0.6 + 0.6 = 1.2, giving 62.5 N; pulling horizontally needs 75 N.)"
+    },
+    {
+      "text": "A shell at rest explodes into three fragments. Two fragments, each of mass 1 kg, fly off at right angles to each other, each with a speed of 12 m/s. The third fragment has a mass of 2 kg. Its velocity is:",
+      "difficulty": "HARD",
+      "options": ["12 m/s, at 135° to each of the other two fragments", "6√2 m/s ≈ 8.5 m/s, at 135° to each of the other two fragments", "6√2 m/s ≈ 8.5 m/s, at 90° to one of the other fragments", "12√2 m/s ≈ 17 m/s, opposite to the resultant momentum of the other two"],
+      "answer": 1,
+      "explanation": "Initial momentum is zero, so the final momenta must add to zero. The two 1 kg fragments each have momentum 12 kg m/s at right angles; their resultant is 12√2 kg m/s along the bisector. The third fragment carries an equal and opposite momentum: 2v = 12√2 → v = 6√2 ≈ 8.5 m/s. It moves opposite to the bisector, i.e. at 180° − 45° = 135° to each of the other two."
+    },
+    {
+      "text": "A block A of mass 2 kg rests on top of a block B of mass 4 kg, which lies on a frictionless horizontal floor. The coefficient of static friction between A and B is 0.5 (g = 10 m/s²). A horizontal force F is applied to the lower block B. The maximum value of F for which A and B move together without slipping is:",
+      "difficulty": "HARD",
+      "options": ["10 N", "20 N", "60 N", "30 N"],
+      "answer": 3,
+      "explanation": "Only friction from B can accelerate A, and it is at most μs m_A g. So A's maximum acceleration is a_max = μs g = 0.5 × 10 = 5 m/s². For both blocks to move together at this acceleration: F_max = (m_A + m_B) a_max = 6 × 5 = 30 N. (10 N is just the limiting friction μs m_A g.)"
+    },
+    {
+      "text": "A uniform rope of mass 2 kg and length 4 m lies straight on a smooth horizontal surface. A horizontal force of 10 N is applied at one end along the length of the rope. The tension in the rope at a point 1 m from the end where the force is applied is:",
+      "difficulty": "HARD",
+      "options": ["2.5 N", "10 N", "5 N", "7.5 N"],
+      "answer": 3,
+      "explanation": "Acceleration of the whole rope a = F/M = 10/2 = 5 m/s². The part beyond the point (length 3 m, mass 2 × 3/4 = 1.5 kg) is accelerated only by the tension there: T = 1.5 × 5 = 7.5 N. In general T = F(1 − x/L) = 10 × (1 − 1/4) = 7.5 N."
+    }
+  ]
+}

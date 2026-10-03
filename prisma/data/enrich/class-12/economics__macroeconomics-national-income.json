@@ -1,0 +1,127 @@
+{
+  "exam": "class-12",
+  "subject": "economics",
+  "chapter": "macroeconomics-national-income",
+  "notes": {
+    "summary": "This chapter introduces basic macroeconomic concepts — stocks and flows, final and intermediate goods, consumption and capital goods, gross and net investment, and the circular flow of income — and the three methods (value added, income and expenditure) of estimating national income and related aggregates such as GDP, NDP, GNP and NNP at market price and factor cost. CBSE tests definitions, numerical estimation of aggregates, real versus nominal GDP and the limits of GDP as an index of welfare.",
+    "keyPoints": [
+      "A stock is measured at a point of time (wealth, capital, money supply); a flow is measured over a period (income, investment, depreciation, consumption).",
+      "Final goods are bought for final consumption or investment (a machine bought by a factory is a final, capital good); intermediate goods are used up or resold within the year (raw materials, electricity used in production).",
+      "Three adjustments: Factor cost = Market price − Net indirect taxes (indirect taxes − subsidies); Net = Gross − Depreciation; National = Domestic + Net factor income from abroad (NFIA).",
+      "National Income = NNP at FC = GDP at MP − Depreciation + NFIA − NIT. Example: GDP at MP 1,730, depreciation 100, NFIA 10, NIT 120 gives NNP at FC = 1,520.",
+      "Value added method: Value of output = Sales + Change in stock (closing − opening); GVA at MP = Value of output − Intermediate consumption.",
+      "Income method: NDP at FC = Compensation of employees + Rent + Interest + Profit + Mixed income of self-employed. Compensation includes wages, salaries, payments in kind and the employer's contribution to social security.",
+      "Expenditure method: GDP at MP = Private final consumption + Government final consumption + Gross domestic capital formation (fixed capital formation + change in stock) + Net exports (X − M).",
+      "Gross investment = Net investment + Depreciation; Net investment = change in the capital stock during the year.",
+      "Real GDP = Nominal GDP × 100 ÷ GDP deflator; growth in nominal GDP overstates growth in output when prices rise.",
+      "GDP is a weak index of welfare because of unequal distribution of income, non-monetary exchanges (e.g. services of homemakers) and externalities (e.g. pollution, a negative externality that is not deducted)."
+    ],
+    "traps": [
+      "Treating 'net factor income to abroad' as a positive NFIA — it must be subtracted.",
+      "Forgetting the change in stock while computing value of output, or adding it with the wrong sign when closing stock is smaller than opening stock.",
+      "Including transfer payments (pensions, scholarships), sale of second-hand goods or purchase of shares and bonds in national income.",
+      "Deducting depreciation twice, or forgetting to deduct net indirect taxes when moving from market price to factor cost.",
+      "Classifying goods by their nature instead of their end use — the same wheat is final for a household but intermediate for a flour mill."
+    ],
+    "examTip": "In every numerical, first write the aggregate you are given and the one you need (Gross/Net, Domestic/National, MP/FC), then make only the adjustments that change — depreciation, NFIA and NIT — one per letter."
+  },
+  "questions": [
+    {
+      "text": "Which of the following is a stock concept?",
+      "difficulty": "EASY",
+      "options": ["Income", "Investment", "Consumption expenditure", "Wealth"],
+      "answer": 3,
+      "explanation": "A stock is measured at a particular point of time, while a flow is measured over a period of time.\nIncome, investment and consumption expenditure are measured per period (for example, per year), so they are flows.\nWealth is the value of assets held on a given date, so it is a stock."
+    },
+    {
+      "text": "Which of the following is a final good?",
+      "difficulty": "EASY",
+      "options": [
+        "Wheat purchased by a flour mill",
+        "A machine purchased by a factory for use in production",
+        "Cloth bought by a tailoring firm to make shirts for sale",
+        "Electricity consumed by a factory"
+      ],
+      "answer": 1,
+      "explanation": "Goods are classified by their end use, not by their nature.\nWheat for a flour mill, cloth for a tailoring firm and electricity used by a factory are used up in production during the year, so they are intermediate goods.\nA machine bought for production is a capital good used for many years; it is part of investment and is a final good."
+    },
+    {
+      "text": "In the two-sector circular flow of income (households and firms), factor payments such as rent, wages, interest and profit flow:",
+      "difficulty": "EASY",
+      "options": [
+        "From firms to households",
+        "From households to firms",
+        "From the government to firms",
+        "From firms to the rest of the world"
+      ],
+      "answer": 0,
+      "explanation": "In the two-sector model, households own the factors of production and supply factor services to firms.\nFirms pay for these services in the form of rent, wages, interest and profit.\nSo factor payments flow from firms to households, while consumption spending flows back from households to firms."
+    },
+    {
+      "text": "In an economy, the stock of capital at the beginning of a year was ₹2,000 crore and at the end of the year ₹2,300 crore. Depreciation during the year was ₹100 crore. Gross investment during the year is:",
+      "difficulty": "MEDIUM",
+      "options": ["₹300 crore", "₹2,300 crore", "₹400 crore", "₹200 crore"],
+      "answer": 2,
+      "explanation": "Net investment = Closing capital stock − Opening capital stock = 2,300 − 2,000 = ₹300 crore.\nGross investment = Net investment + Depreciation.\nGross investment = 300 + 100 = ₹400 crore."
+    },
+    {
+      "text": "For a firm, value of output = ₹1,200 crore, intermediate consumption = ₹500 crore, depreciation = ₹50 crore and net indirect taxes = ₹70 crore. Its Net Value Added at Factor Cost is:",
+      "difficulty": "MEDIUM",
+      "options": ["₹650 crore", "₹580 crore", "₹630 crore", "₹700 crore"],
+      "answer": 1,
+      "explanation": "GVA at MP = Value of output − Intermediate consumption = 1,200 − 500 = ₹700 crore.\nNVA at MP = GVA at MP − Depreciation = 700 − 50 = ₹650 crore.\nNVA at FC = NVA at MP − Net indirect taxes = 650 − 70 = ₹580 crore."
+    },
+    {
+      "text": "A firm's sales during a year are ₹900 lakh, its opening stock is ₹60 lakh, closing stock is ₹40 lakh and purchase of raw materials is ₹500 lakh. Its Gross Value Added at Market Price is:",
+      "difficulty": "MEDIUM",
+      "options": ["₹400 lakh", "₹420 lakh", "₹340 lakh", "₹380 lakh"],
+      "answer": 3,
+      "explanation": "Change in stock = Closing stock − Opening stock = 40 − 60 = −₹20 lakh.\nValue of output = Sales + Change in stock = 900 + (−20) = ₹880 lakh.\nGVA at MP = Value of output − Intermediate consumption = 880 − 500 = ₹380 lakh."
+    },
+    {
+      "text": "From the following data (₹ crore), calculate National Income:\nCompensation of employees: 800\nRent: 150\nInterest: 120\nProfit: 330\nMixed income of self-employed: 400\nNet factor income to abroad: 30",
+      "difficulty": "MEDIUM",
+      "options": ["₹1,770 crore", "₹1,830 crore", "₹1,800 crore", "₹1,400 crore"],
+      "answer": 0,
+      "explanation": "Income method: NDP at FC = Compensation of employees + Rent + Interest + Profit + Mixed income.\nNDP at FC = 800 + 150 + 120 + 330 + 400 = ₹1,800 crore.\nNet factor income TO abroad of 30 means NFIA = −30.\nNational Income (NNP at FC) = 1,800 − 30 = ₹1,770 crore."
+    },
+    {
+      "text": "Smoke from a factory damages the health of people living nearby, but the factory pays them no compensation. When GDP is used as an index of welfare, this situation is an example of:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "A positive externality that raises GDP",
+        "A non-monetary exchange",
+        "A negative externality that GDP does not account for",
+        "A transfer payment"
+      ],
+      "answer": 2,
+      "explanation": "An externality is a benefit or harm caused to others by an activity, for which no payment is made.\nHere people are harmed without being compensated, so it is a negative externality.\nGDP counts the factory's output but does not subtract this harm, so GDP overstates welfare."
+    },
+    {
+      "text": "Assertion (A): Imputed rent of owner-occupied houses is included in national income.\nReason (R): Imputed rent is a transfer income received without any productive service in return.\nChoose the correct option.",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true, and R is the correct explanation of A",
+        "Both Assertion (A) and Reason (R) are true, but R is not the correct explanation of A",
+        "Assertion (A) is true, but Reason (R) is false",
+        "Assertion (A) is false, but Reason (R) is true"
+      ],
+      "answer": 2,
+      "explanation": "An owner living in his own house enjoys housing services that would otherwise have been paid for as rent.\nThe estimated (imputed) value of these services is a factor income for a productive service and is included in national income, so A is true.\nTransfer incomes, such as pensions, are received without any service in return; imputed rent is not one, so R is false."
+    },
+    {
+      "text": "In the base year, the GDP of an economy was ₹2,500 crore. In the current year, nominal GDP is ₹3,300 crore and the GDP deflator is 110 (base year = 100). The growth of real GDP over the base year is:",
+      "difficulty": "HARD",
+      "options": ["32%", "20%", "10%", "22%"],
+      "answer": 1,
+      "explanation": "Real GDP in the current year = Nominal GDP × 100 ÷ GDP deflator = 3,300 × 100 ÷ 110 = ₹3,000 crore.\nIn the base year, real GDP = nominal GDP = ₹2,500 crore.\nGrowth of real GDP = (3,000 − 2,500) ÷ 2,500 × 100 = 20%.\n(32% is the growth of nominal GDP, which includes the rise in prices.)"
+    },
+    {
+      "text": "From the following data (₹ crore), calculate National Income (NNP at FC):\nPrivate final consumption expenditure: 1,000\nGovernment final consumption expenditure: 300\nGross domestic fixed capital formation: 400\nChange in stock: 50\nNet exports: −20\nDepreciation: 100\nNet indirect taxes: 120\nNet factor income from abroad: 10",
+      "difficulty": "HARD",
+      "options": ["₹1,500 crore", "₹1,560 crore", "₹1,640 crore", "₹1,520 crore"],
+      "answer": 3,
+      "explanation": "GDP at MP = 1,000 + 300 + 400 + 50 + (−20) = ₹1,730 crore.\nNDP at MP = 1,730 − 100 = ₹1,630 crore.\nNNP at MP = 1,630 + 10 = ₹1,640 crore.\nNNP at FC = 1,640 − 120 = ₹1,520 crore."
+    }
+  ]
+}

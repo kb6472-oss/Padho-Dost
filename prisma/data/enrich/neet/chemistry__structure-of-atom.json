@@ -1,0 +1,161 @@
+{
+  "exam": "neet",
+  "subject": "chemistry",
+  "chapter": "structure-of-atom",
+  "notes": {
+    "summary": "This chapter traces atomic structure from the discovery of the electron, proton and neutron through the Thomson, Rutherford and Bohr models to the quantum mechanical model: electromagnetic radiation, the photoelectric effect, the hydrogen spectrum, dual nature, the uncertainty principle, quantum numbers, orbitals and electronic configuration. NEET usually asks one or two questions, mostly on quantum numbers, nodes and configurations, plus short numericals on E = hν, Bohr-model formulas, de Broglie wavelength and spectral lines.",
+    "keyPoints": [
+      "Particles: electron (charge −1.602 × 10⁻¹⁹ C, mass 9.109 × 10⁻³¹ kg; e/m measured by Thomson, charge by Millikan), proton, and neutron (Chadwick, 1932). Mass number A = Z + number of neutrons. Isotopes have the same Z; isobars have the same A (¹⁴C and ¹⁴N); isotones have the same number of neutrons.",
+      "Rutherford's gold-foil experiment: most α-particles passed undeflected (the atom is mostly empty space), and very few (about 1 in 20,000) bounced back (a tiny, dense, positive nucleus). The model could not explain atomic stability or line spectra.",
+      "Radiation: c = νλ; wave number ν̄ = 1/λ; E = hν = hc/λ with h = 6.626 × 10⁻³⁴ J s. Photoelectric effect: KE_max = hν − hν₀. Frequency decides the kinetic energy and intensity decides the number of electrons; there is no emission below the threshold frequency ν₀, however intense the light.",
+      "Bohr model for H-like species: Eₙ = −2.18 × 10⁻¹⁸ (Z²/n²) J = −13.6 Z²/n² eV; rₙ = 52.9 n²/Z pm; angular momentum mvr = nh/2π.",
+      "Hydrogen spectrum: 1/λ = R_H Z² (1/n₁² − 1/n₂²) with R_H = 1.097 × 10⁷ m⁻¹. Lyman (n₁ = 1) lies in the UV, Balmer (n₁ = 2) in the visible, and Paschen (3), Brackett (4) and Pfund (5) in the IR. Maximum number of lines from level n down to the ground state = n(n − 1)/2.",
+      "Dual nature: de Broglie λ = h/mv = h/p = h/√(2m·KE). Heisenberg: Δx · Δp ≥ h/4π; the effect matters only for microscopic particles such as electrons.",
+      "Quantum numbers: n (shell, holds up to 2n² electrons); l = 0 to n − 1 (s, p, d, f); m_l = −l to +l (2l + 1 orbitals); m_s = +½ or −½. Nodes: radial = n − l − 1, angular = l, total = n − 1.",
+      "Filling rules: Aufbau principle (lower n + l first; if equal, lower n first), Pauli exclusion principle (at most 2 electrons per orbital, with opposite spins), Hund's rule (degenerate orbitals are singly occupied first). Exceptions: Cr = [Ar]3d⁵4s¹ and Cu = [Ar]3d¹⁰4s¹, because half-filled and fully filled subshells are extra stable.",
+      "In hydrogen, orbital energy depends only on n (3s = 3p = 3d). In multi-electron atoms it depends on both n and l (3s < 3p < 3d) because of shielding and penetration."
+    ],
+    "traps": [
+      "Using Z instead of Z² in the Bohr energy, or forgetting Z in the radius formula, for He⁺ and Li²⁺.",
+      "Mixing up radial nodes (n − l − 1) and angular nodes (l).",
+      "Believing that more intense light ejects faster photoelectrons; intensity changes only the number of electrons.",
+      "Writing Cu as 3d⁹4s² or Cr as 3d⁴4s², and forgetting that ions lose 4s electrons first (Fe³⁺ = [Ar]3d⁵).",
+      "Using h/2π instead of h/4π in the uncertainty relation, or leaving lengths in Å or nm instead of metres."
+    ],
+    "examTip": "For any H-like species, write Eₙ ∝ −Z²/n² and rₙ ∝ n²/Z first and scale from the hydrogen values (−13.6 eV and 52.9 pm) instead of recomputing the constants."
+  },
+  "questions": [
+    {
+      "text": "In Rutherford's α-particle scattering experiment with a thin gold foil, most α-particles passed straight through without deflection. This observation led to the conclusion that:",
+      "difficulty": "EASY",
+      "options": [
+        "Most of the space inside the atom is empty",
+        "The positive charge is spread uniformly throughout the atom",
+        "Electrons revolve in fixed circular orbits",
+        "The nucleus contains neutrons"
+      ],
+      "answer": 0,
+      "explanation": "If most α-particles go through undeflected, most of the atom offers no obstruction, so most of the atom is empty space.\nA few were deflected through large angles and about 1 in 20,000 bounced back, showing that the positive charge and most of the mass sit in a tiny nucleus.\nA uniform positive charge is Thomson's model, fixed orbits come from Bohr, and neutrons were discovered later by Chadwick.\nAnswer: most of the space inside the atom is empty."
+    },
+    {
+      "text": "The numbers of protons, neutrons and electrons in the ion ³⁵Cl⁻ (atomic number of Cl = 17) are, respectively:",
+      "difficulty": "EASY",
+      "options": [
+        "17, 18, 17",
+        "18, 17, 18",
+        "17, 18, 18",
+        "17, 35, 18"
+      ],
+      "answer": 2,
+      "explanation": "Protons = atomic number Z = 17.\nNeutrons = A − Z = 35 − 17 = 18.\nElectrons = 17 + 1 = 18, because the ion carries one extra electron (charge −1).\nAnswer: 17, 18, 18."
+    },
+    {
+      "text": "The ground-state electronic configuration of copper (Z = 29) is:",
+      "difficulty": "EASY",
+      "options": [
+        "[Ar] 3d⁹ 4s²",
+        "[Ar] 3d¹⁰ 4s¹",
+        "[Ar] 3d¹⁰ 4p¹",
+        "[Ar] 3d⁸ 4s² 4p¹"
+      ],
+      "answer": 1,
+      "explanation": "After [Ar] (18 electrons), 11 electrons remain for the 4s and 3d subshells.\nThe Aufbau principle predicts 3d⁹4s², but a completely filled 3d¹⁰ subshell is extra stable (symmetrical distribution and greater exchange energy).\nSo one 4s electron moves into 3d, giving [Ar]3d¹⁰4s¹. Chromium is similar: [Ar]3d⁵4s¹.\nAnswer: [Ar] 3d¹⁰ 4s¹."
+    },
+    {
+      "text": "The threshold frequency of a metal is 7.0 × 10¹⁴ s⁻¹. What is the maximum kinetic energy of an electron emitted when radiation of frequency 1.0 × 10¹⁵ s⁻¹ falls on the metal? (h = 6.626 × 10⁻³⁴ J s)",
+      "difficulty": "MEDIUM",
+      "options": [
+        "6.626 × 10⁻¹⁹ J",
+        "4.638 × 10⁻¹⁹ J",
+        "1.126 × 10⁻¹⁸ J",
+        "1.988 × 10⁻¹⁹ J"
+      ],
+      "answer": 3,
+      "explanation": "Einstein's photoelectric equation: KE_max = hν − hν₀ = h(ν − ν₀).\nν − ν₀ = 1.0 × 10¹⁵ − 7.0 × 10¹⁴ = 3.0 × 10¹⁴ s⁻¹.\nKE_max = 6.626 × 10⁻³⁴ × 3.0 × 10¹⁴ = 1.988 × 10⁻¹⁹ J.\n6.626 × 10⁻¹⁹ J is hν (photon energy) and 4.638 × 10⁻¹⁹ J is hν₀ (work function).\nAnswer: 1.988 × 10⁻¹⁹ J."
+    },
+    {
+      "text": "Consider the following statements about the photoelectric effect:\nI. Electrons are ejected only if the frequency of the incident light is equal to or greater than the threshold frequency of the metal.\nII. Above the threshold frequency, increasing the intensity of light increases the number of electrons ejected but not their maximum kinetic energy.\nIII. The maximum kinetic energy of the ejected electrons increases linearly with the frequency of the incident light.\nIV. Light below the threshold frequency can eject electrons if it is intense enough and falls on the metal for a long enough time.\nWhich of the statements are correct?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "I, II and III only",
+        "I and IV only",
+        "II, III and IV only",
+        "I, II, III and IV"
+      ],
+      "answer": 0,
+      "explanation": "I is true: each photon must carry at least hν₀ to remove an electron.\nII is true: intensity means the number of photons, so it raises the number of electrons but not their energy.\nIII is true: KE_max = hν − hν₀, a straight line against ν with slope h.\nIV is false: emission is instantaneous and does not happen at all below ν₀, however intense the light or long the exposure.\nAnswer: I, II and III only."
+    },
+    {
+      "text": "In a sample of hydrogen atoms, the electrons are excited to the n = 5 level. The maximum number of different spectral lines that can be emitted as they return to the ground state (n = 1) is:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "4",
+        "5",
+        "10",
+        "15"
+      ],
+      "answer": 2,
+      "explanation": "Electrons can drop in any combination of steps between n = 5 and n = 1.\nMaximum number of lines = n(n − 1)/2 = 5 × 4 ÷ 2 = 10.\nThey are 5→4, 5→3, 5→2, 5→1, 4→3, 4→2, 4→1, 3→2, 3→1 and 2→1.\nAnswer: 10."
+    },
+    {
+      "text": "According to Bohr's theory, the radius of the nth orbit of a hydrogen-like species is rₙ = 52.9 (n²/Z) pm. The radius of the second orbit (n = 2) of He⁺ (Z = 2) is:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "52.9 pm",
+        "105.8 pm",
+        "211.6 pm",
+        "26.45 pm"
+      ],
+      "answer": 1,
+      "explanation": "rₙ = 52.9 × n²/Z pm.\nFor He⁺ with n = 2: r = 52.9 × 2² ÷ 2 = 52.9 × 4 ÷ 2 = 105.8 pm.\nLeaving out Z gives 211.6 pm, the radius of the second orbit of hydrogen.\nAnswer: 105.8 pm."
+    },
+    {
+      "text": "The set of quantum numbers (n, l, m_l, m_s) for the valence electron of a potassium atom (Z = 19) in its ground state is:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "n = 4, l = 1, m_l = 0, m_s = +½",
+        "n = 3, l = 2, m_l = 0, m_s = +½",
+        "n = 4, l = 1, m_l = −1, m_s = +½",
+        "n = 4, l = 0, m_l = 0, m_s = +½"
+      ],
+      "answer": 3,
+      "explanation": "K: 1s² 2s² 2p⁶ 3s² 3p⁶ 4s¹, so the valence (19th) electron is in 4s.\nBy the (n + l) rule, 4s (4 + 0 = 4) fills before 3d (3 + 2 = 5), so the electron is not in 3d.\nFor 4s: n = 4, l = 0, m_l = 0, and m_s = +½ (or −½).\nAnswer: n = 4, l = 0, m_l = 0, m_s = +½."
+    },
+    {
+      "text": "Assertion (A): In a hydrogen atom, the 3s, 3p and 3d orbitals have the same energy.\nReason (R): For a one-electron species, the energy of an orbital depends only on the principal quantum number n.",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true, and R is the correct explanation of A",
+        "Both Assertion (A) and Reason (R) are true, but R is not the correct explanation of A",
+        "Assertion (A) is true, but Reason (R) is false",
+        "Assertion (A) is false, but Reason (R) is true"
+      ],
+      "answer": 0,
+      "explanation": "For hydrogen, Eₙ = −2.18 × 10⁻¹⁸ (Z²/n²) J, which has no dependence on l.\nSo all orbitals with the same n (3s, 3p, 3d) are degenerate. A is true.\nR states exactly this, so R explains A. In multi-electron atoms, shielding makes the energy depend on l too (3s < 3p < 3d).\nAnswer: both are true and R is the correct explanation of A."
+    },
+    {
+      "text": "What is the wavelength of the spectral line emitted when the electron in a hydrogen atom falls from n = 3 to n = 2? (Rydberg constant R_H = 1.097 × 10⁷ m⁻¹)",
+      "difficulty": "HARD",
+      "options": [
+        "121.5 nm",
+        "102.6 nm",
+        "656.3 nm",
+        "486.2 nm"
+      ],
+      "answer": 2,
+      "explanation": "1/λ = R_H (1/n₁² − 1/n₂²) with n₁ = 2 and n₂ = 3.\n1/λ = 1.097 × 10⁷ × (1/4 − 1/9) = 1.097 × 10⁷ × 5/36 = 1.5236 × 10⁶ m⁻¹.\nλ = 1 ÷ (1.5236 × 10⁶) = 6.563 × 10⁻⁷ m = 656.3 nm, the red H-alpha line of the Balmer series (visible).\n121.5 nm (2→1) and 102.6 nm (3→1) are Lyman lines, and 486.2 nm is 4→2.\nAnswer: 656.3 nm."
+    },
+    {
+      "text": "The position of an electron (mass 9.11 × 10⁻³¹ kg) is known to within 0.1 Å (1 × 10⁻¹¹ m). The minimum uncertainty in its velocity is approximately: (h = 6.626 × 10⁻³⁴ J s; Δx · Δp ≥ h/4π)",
+      "difficulty": "HARD",
+      "options": [
+        "7.27 × 10⁷ m s⁻¹",
+        "5.79 × 10⁶ m s⁻¹",
+        "5.79 × 10⁴ m s⁻¹",
+        "1.16 × 10⁷ m s⁻¹"
+      ],
+      "answer": 1,
+      "explanation": "Δx · mΔv = h/4π, so Δv = h ÷ (4π m Δx).\nDenominator: 4 × 3.1416 × 9.11 × 10⁻³¹ × 1 × 10⁻¹¹ = 1.145 × 10⁻⁴⁰ kg m.\nΔv = 6.626 × 10⁻³⁴ ÷ 1.145 × 10⁻⁴⁰ = 5.79 × 10⁶ m s⁻¹.\nUsing h alone gives 7.27 × 10⁷, and using h/2π gives 1.16 × 10⁷.\nAnswer: 5.79 × 10⁶ m s⁻¹."
+    }
+  ]
+}

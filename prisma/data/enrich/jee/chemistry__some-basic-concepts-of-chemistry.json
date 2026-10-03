@@ -1,0 +1,106 @@
+{
+  "exam": "jee",
+  "subject": "chemistry",
+  "chapter": "some-basic-concepts-of-chemistry",
+  "notes": {
+    "summary": "This chapter covers the laws of chemical combination, Dalton's atomic theory, atomic and molecular masses, the mole concept, percentage composition, empirical and molecular formulae, stoichiometry with limiting reagents, and concentration terms. JEE Main asks quick numericals on mole conversions, limiting reagents, converting between concentration units and formula determination, and these skills are used throughout physical chemistry.",
+    "keyPoints": [
+      "1 mol = 6.022 × 10²³ particles. n = mass/molar mass = N/N_A = gas volume/22.4 L at STP (22.7 L at 1 bar and 273.15 K).",
+      "Laws of chemical combination: conservation of mass, definite proportions, multiple proportions (oxygen per fixed mass of hydrogen in H₂O : H₂O₂ = 1 : 2), Gay-Lussac's law of gaseous volumes, and Avogadro's law.",
+      "Average atomic mass = Σ(fractional abundance × isotopic mass). Example: 75% ³⁵Cl + 25% ³⁷Cl gives 35.5 u.",
+      "Empirical formula from % composition: divide each % by its atomic mass and reduce to the simplest whole-number ratio. Molecular formula = n × empirical formula, where n = molar mass/empirical formula mass and molar mass = 2 × vapour density.",
+      "Limiting reagent: divide the available moles of each reactant by its coefficient; the smallest value marks the limiting reagent, and all products are calculated from it.",
+      "Molarity M = moles of solute per litre of solution (changes with temperature). Molality m = moles of solute per kg of solvent (does not change with temperature). Mole fraction x_A = n_A/n_total; a 1 m aqueous solution has x_solute = 1/56.5 ≈ 0.0177.",
+      "Interconversions (density d in g/mL, M₂ = molar mass of solute): m = 1000M/(1000d − M·M₂). Molarity from mass %: M = 10 × d × (%)/M₂; for example, 98% H₂SO₄ with d = 1.84 gives 18.4 M.",
+      "Dilution: M₁V₁ = M₂V₂. Mixing two solutions of the same solute: M = (M₁V₁ + M₂V₂)/(V₁ + V₂).",
+      "Significant figures: in × and ÷, keep the fewest significant figures of any factor; in + and −, keep the fewest decimal places. Leading zeros never count, and trailing zeros after a decimal point do."
+    ],
+    "traps": [
+      "Using the mass of the solution instead of the mass of the solvent when calculating molality.",
+      "Working out the product from the reactant in excess instead of the limiting reagent.",
+      "Using 22.4 L for gases away from STP, or for substances that are not gases at STP (H₂O is a liquid).",
+      "Taking a simple average of isotopic masses instead of the abundance-weighted average.",
+      "Confusing vapour density with molar mass (molar mass = 2 × vapour density)."
+    ],
+    "examTip": "Convert every given quantity to moles first, apply the mole ratio from the balanced equation, and convert back to grams or litres only at the last step."
+  },
+  "questions": [
+    {
+      "text": "Hydrogen and oxygen combine to form both water (H₂O) and hydrogen peroxide (H₂O₂). For a fixed mass of hydrogen, the masses of oxygen that combine with it in H₂O and in H₂O₂ are in the ratio:",
+      "difficulty": "EASY",
+      "options": ["2 : 1", "1 : 1", "1 : 2", "1 : 16"],
+      "answer": 2,
+      "explanation": "In H₂O, 2 g of hydrogen combines with 16 g of oxygen.\nIn H₂O₂, 2 g of hydrogen combines with 32 g of oxygen.\nThe ratio is 16 : 32 = 1 : 2, a simple whole-number ratio. This illustrates the law of multiple proportions."
+    },
+    {
+      "text": "Chlorine occurs naturally as two isotopes, ³⁵Cl (75%) and ³⁷Cl (25%). Taking the isotopic masses as 35 u and 37 u, the average atomic mass of chlorine is:",
+      "difficulty": "EASY",
+      "options": ["36.0 u", "35.5 u", "35.25 u", "36.5 u"],
+      "answer": 1,
+      "explanation": "Average atomic mass = Σ(fractional abundance × isotopic mass).\n= 0.75 × 35 + 0.25 × 37 = 26.25 + 9.25 = 35.5 u.\n36.0 u is the unweighted average, and 36.5 u comes from swapping the abundances."
+    },
+    {
+      "text": "The product 2.5 × 1.25, expressed to the correct number of significant figures, is:",
+      "difficulty": "EASY",
+      "options": ["3.125", "3.13", "3", "3.1"],
+      "answer": 3,
+      "explanation": "In multiplication, the result keeps as many significant figures as the factor with the fewest.\n2.5 has 2 significant figures and 1.25 has 3, so the answer needs 2.\n3.125 rounded to 2 significant figures is 3.1."
+    },
+    {
+      "text": "What is the mole fraction of the solute in a 1 molal aqueous solution? (H₂O = 18 g/mol)",
+      "difficulty": "MEDIUM",
+      "options": ["0.0177", "0.0180", "0.0555", "0.9823"],
+      "answer": 0,
+      "explanation": "1 molal means 1 mol of solute in 1000 g of water.\nMoles of water = 1000/18 = 55.56 mol.\nx_solute = 1/(1 + 55.56) = 1/56.56 ≈ 0.0177.\n0.0180 = 1/55.56 forgets to add the solute's moles to the total, and 0.9823 is the mole fraction of water."
+    },
+    {
+      "text": "An aqueous solution of NaCl is 3.0 M and has a density of 1.25 g/mL. Its molality is approximately: (NaCl = 58.5 g/mol)",
+      "difficulty": "MEDIUM",
+      "options": ["2.40 mol/kg", "3.00 mol/kg", "2.79 mol/kg", "3.75 mol/kg"],
+      "answer": 2,
+      "explanation": "Take 1 L of solution: its mass is 1000 × 1.25 = 1250 g.\nMass of NaCl = 3.0 × 58.5 = 175.5 g, so mass of water = 1250 − 175.5 = 1074.5 g = 1.0745 kg.\nMolality = 3.0/1.0745 ≈ 2.79 mol/kg.\n2.40 comes from dividing by the solution's mass (1.25 kg) instead of the solvent's."
+    },
+    {
+      "text": "A hydrocarbon has the empirical formula CH and a vapour density of 39. Its molecular formula is: (C = 12, H = 1)",
+      "difficulty": "MEDIUM",
+      "options": ["C₂H₂", "C₄H₄", "C₈H₈", "C₆H₆"],
+      "answer": 3,
+      "explanation": "Molar mass = 2 × vapour density = 2 × 39 = 78 g/mol.\nEmpirical formula mass of CH = 12 + 1 = 13.\nn = 78/13 = 6, so the molecular formula is (CH)₆ = C₆H₆ (benzene)."
+    },
+    {
+      "text": "10 g of H₂ is mixed with 64 g of O₂ and the mixture is exploded so that water forms: 2H₂ + O₂ → 2H₂O. The maximum mass of water formed is: (H = 1, O = 16)",
+      "difficulty": "MEDIUM",
+      "options": ["90 g", "72 g", "36 g", "74 g"],
+      "answer": 1,
+      "explanation": "Moles of H₂ = 10/2 = 5 mol. Moles of O₂ = 64/32 = 2 mol.\n2 mol of O₂ needs 4 mol of H₂, and 5 mol is available, so O₂ is the limiting reagent.\nWater formed = 2 × 2 = 4 mol = 4 × 18 = 72 g, with 1 mol (2 g) of H₂ left over.\n90 g wrongly treats H₂ as limiting, and 74 g just adds the two masses."
+    },
+    {
+      "text": "What volume of air (20% oxygen by volume) is needed to completely burn 2 L of propane gas, with all volumes measured at the same temperature and pressure?\nC₃H₈ + 5O₂ → 3CO₂ + 4H₂O",
+      "difficulty": "MEDIUM",
+      "options": ["10 L", "35 L", "100 L", "50 L"],
+      "answer": 3,
+      "explanation": "By Gay-Lussac's law, gas volumes react in the same ratio as their moles.\n1 L of C₃H₈ needs 5 L of O₂, so 2 L of propane needs 10 L of O₂.\nAir is 20% O₂, so the volume of air = 10/0.20 = 50 L.\n10 L is the oxygen alone, and 35 L comes from using the ratio for ethane (3.5 O₂ per C₂H₆)."
+    },
+    {
+      "text": "An aqueous glucose solution is 18% glucose by mass. Its molality is about: (glucose, C₆H₁₂O₆ = 180 g/mol)",
+      "difficulty": "MEDIUM",
+      "options": ["1.22 mol/kg", "1.00 mol/kg", "0.82 mol/kg", "1.80 mol/kg"],
+      "answer": 0,
+      "explanation": "Take 100 g of solution: 18 g of glucose and 82 g of water.\nMoles of glucose = 18/180 = 0.10 mol.\nMolality = 0.10/0.082 kg ≈ 1.22 mol/kg.\n1.00 mol/kg comes from using 100 g of solution instead of 82 g of solvent."
+    },
+    {
+      "text": "A 1.84 g mixture of CaCO₃ and MgCO₃ is heated strongly until both carbonates decompose completely into CaO, MgO and CO₂. The solid residue weighs 0.96 g. The mass of CaCO₃ in the original mixture is: (Ca = 40, Mg = 24, C = 12, O = 16)",
+      "difficulty": "HARD",
+      "options": ["0.84 g", "1.00 g", "1.20 g", "0.92 g"],
+      "answer": 1,
+      "explanation": "Molar masses: CaCO₃ = 100 and CaO = 56; MgCO₃ = 84 and MgO = 40.\nLet the mass of CaCO₃ be x g, so MgCO₃ = (1.84 − x) g.\nResidue: (56/100)x + (40/84)(1.84 − x) = 0.96.\nMultiply by 84: 47.04x + 73.6 − 40x = 80.64, so 7.04x = 7.04 and x = 1.00 g.\nCheck: 1.00 g CaCO₃ gives 0.56 g CaO, and 0.84 g MgCO₃ (0.01 mol) gives 0.40 g MgO; total 0.96 g."
+    },
+    {
+      "text": "Ammonia is oxidised according to 4NH₃ + 5O₂ → 4NO + 6H₂O. If 1.0 mol of NH₃ and 1.0 mol of O₂ are mixed and the reaction goes to completion, then:",
+      "difficulty": "HARD",
+      "options": ["1.0 mol of NO forms and no NH₃ is left", "0.8 mol of NO forms and 0.25 mol of O₂ is left", "0.8 mol of NO forms and 0.2 mol of NH₃ is left", "1.25 mol of NO forms and no O₂ is left"],
+      "answer": 2,
+      "explanation": "Mole ÷ coefficient: NH₃ = 1.0/4 = 0.25 and O₂ = 1.0/5 = 0.20, so O₂ is the limiting reagent.\n1.0 mol of O₂ reacts with (4/5) × 1.0 = 0.8 mol of NH₃.\nNO formed = 0.8 mol, H₂O formed = 1.2 mol, and NH₃ left = 1.0 − 0.8 = 0.2 mol. All the O₂ is used up."
+    }
+  ]
+}

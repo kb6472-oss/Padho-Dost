@@ -1,0 +1,104 @@
+{
+  "exam": "class-10",
+  "subject": "mathematics",
+  "chapter": "trigonometry-applications",
+  "notes": {
+    "summary": "This chapter applies trigonometric ratios to find heights and distances using angles of elevation and depression, with problems limited to at most two right triangles and angles of 30°, 45° and 60°. CBSE tests it through 2–3 mark numericals, case-based questions and MCQs on towers, buildings, shadows, ladders, ramps, kites and moving objects.",
+    "keyPoints": [
+      "Line of sight: the line from the observer's eye to the point being viewed. Angle of elevation: between the horizontal and the line of sight to an object ABOVE eye level. Angle of depression: between the horizontal and the line of sight to an object BELOW eye level.",
+      "The angle of depression from A to B equals the angle of elevation from B to A, because they are alternate angles between parallel horizontal lines.",
+      "Key values: tan 30° = 1/√3, tan 45° = 1, tan 60° = √3; sin 30° = cos 60° = 1/2; sin 60° = cos 30° = √3/2; √3 ≈ 1.732.",
+      "Choose the ratio by what is known and unknown: height and horizontal distance → tan; height and slant length (ladder, kite string, ramp) → sin; horizontal distance and slant length → cos.",
+      "Observer's height: if the eyes are h m above the ground, use (object height − h) in the triangle.",
+      "Two positions on the same side at 30° and 60°: distances are h√3 and h/√3, so the gap between the positions is 2h/√3 and the nearer distance is one-third of the farther one.",
+      "Two objects on opposite sides of a tower of height h at angles α and β are h cot α + h cot β apart; on the same side they are h cot α − h cot β apart.",
+      "Shadow of a vertical pole of height h when the sun's elevation is θ = h/tan θ (= h cot θ); as θ increases, the shadow becomes shorter."
+    ],
+    "traps": [
+      "Measuring the angle of depression from the vertical instead of from the horizontal.",
+      "Forgetting to subtract the observer's eye height, or adding it twice.",
+      "Using tan when the slant length (hypotenuse) is involved; use sin or cos instead.",
+      "Mixing up 1/√3 and √3: tan 30° = 1/√3 (small angle, small ratio) and tan 60° = √3."
+    ],
+    "examTip": "Draw a neat rough figure first, mark the right angle, the known side and the unknown, and simplify surds (for example 15/√3 = 5√3), because CBSE marking expects the simplified form."
+  },
+  "questions": [
+    {
+      "text": "The line drawn from the eye of an observer to the point on the object being viewed is called the:",
+      "difficulty": "EASY",
+      "options": ["line of sight", "horizontal line", "angle of elevation", "line of depression"],
+      "answer": 0,
+      "explanation": "NCERT defines the line of sight as the line drawn from the eye of an observer to the point in the object viewed by the observer.\nThe angles of elevation and depression are measured between this line and the horizontal.\nAnswer: line of sight."
+    },
+    {
+      "text": "From the top of a lighthouse, the angle of depression of a boat is 30°. What is the angle of elevation of the top of the lighthouse as seen from the boat, and why?",
+      "difficulty": "EASY",
+      "options": ["60°, because the two angles are complementary", "30°, because the two angles are alternate angles between parallel horizontal lines", "30°, because the two angles are vertically opposite angles", "120°, because the two angles are supplementary"],
+      "answer": 1,
+      "explanation": "The horizontal line through the observer at the top and the horizontal line through the boat are parallel.\nThe line of sight joining them is a transversal, so the angle of depression (at the top) and the angle of elevation (at the boat) are alternate angles and therefore equal.\nAnswer: 30°, because the two angles are alternate angles between parallel horizontal lines."
+    },
+    {
+      "text": "A ramp for wheelchair users is to be built up to a doorway 1 m above the ground. If the ramp makes an angle of 30° with the ground, what should its length be?",
+      "difficulty": "EASY",
+      "options": ["1 m", "√3 m", "2/√3 m", "2 m"],
+      "answer": 3,
+      "explanation": "Step 1: The height (1 m) is opposite the 30° angle and the ramp is the hypotenuse, so use sin 30°.\nStep 2: sin 30° = 1/L ⇒ 1/2 = 1/L.\nStep 3: L = 2 m.\nAnswer: 2 m."
+    },
+    {
+      "text": "From a point on the ground, the angles of elevation of the bottom and the top of a flagstaff fixed on top of a 15 m high building are 45° and 60° respectively. What is the length of the flagstaff?",
+      "difficulty": "MEDIUM",
+      "options": ["15√3 m", "15(√3 − 1) m", "15(√3 + 1) m", "5√3 m"],
+      "answer": 1,
+      "explanation": "Step 1: Let the point be d m from the building. For the bottom of the flagstaff: tan 45° = 15/d ⇒ d = 15 m.\nStep 2: For the top: tan 60° = (15 + f)/15 ⇒ 15 + f = 15√3.\nStep 3: f = 15√3 − 15 = 15(√3 − 1) m ≈ 10.98 m. (15√3 m is the height of the top of the flagstaff above the ground.)\nAnswer: 15(√3 − 1) m."
+    },
+    {
+      "text": "A tree breaks due to a storm, and the broken part bends so that its top touches the ground, making an angle of 30° with the ground. The top touches the ground 12 m from the foot of the tree. What was the original height of the tree?",
+      "difficulty": "MEDIUM",
+      "options": ["12√3 m", "8√3 m", "4√3 m", "12 m"],
+      "answer": 0,
+      "explanation": "Step 1: Let the standing part be h₁ and the broken (slanting) part be h₂; the horizontal distance is 12 m.\nStep 2: tan 30° = h₁/12 ⇒ h₁ = 12/√3 = 4√3 m.\nStep 3: cos 30° = 12/h₂ ⇒ h₂ = 12 × 2/√3 = 24/√3 = 8√3 m.\nStep 4: Original height = 4√3 + 8√3 = 12√3 m ≈ 20.78 m.\nAnswer: 12√3 m."
+    },
+    {
+      "text": "From the top of a 50 m high lighthouse, the angles of depression of two ships on opposite sides of the lighthouse are 30° and 45°. If the ships and the foot of the lighthouse are in a straight line, what is the distance between the ships?",
+      "difficulty": "MEDIUM",
+      "options": ["50(√3 − 1) m", "50√3 m", "50(√3 + 1) m", "100 m"],
+      "answer": 2,
+      "explanation": "Step 1: The angles of elevation from the ships equal the angles of depression, 30° and 45°.\nStep 2: Ship at 30°: tan 30° = 50/x ⇒ x = 50√3 m.\nStep 3: Ship at 45°: tan 45° = 50/y ⇒ y = 50 m.\nStep 4: The ships are on opposite sides, so the distance = x + y = 50√3 + 50 = 50(√3 + 1) m ≈ 136.6 m. Subtracting would apply only if both were on the same side.\nAnswer: 50(√3 + 1) m."
+    },
+    {
+      "text": "The angle of elevation of the top of a building from the foot of a tower is 30°, and the angle of elevation of the top of the tower from the foot of the building is 60°. If the tower is 60 m high, what is the height of the building?",
+      "difficulty": "MEDIUM",
+      "options": ["20√3 m", "30 m", "60√3 m", "20 m"],
+      "answer": 3,
+      "explanation": "Step 1: Let the distance between the tower and the building be d. From the foot of the building: tan 60° = 60/d ⇒ d = 60/√3 = 20√3 m.\nStep 2: From the foot of the tower: tan 30° = h/d ⇒ h = d/√3 = 20√3/√3.\nStep 3: h = 20 m. (20√3 m is the distance between them, not the height.)\nAnswer: 20 m."
+    },
+    {
+      "text": "A 1.2 m tall boy is standing at some distance from a 25.2 m tall building. As he walks towards the building, the angle of elevation from his eyes to the top of the building increases from 30° to 60°. How far did he walk?",
+      "difficulty": "MEDIUM",
+      "options": ["16 m", "16√3 m", "24√3 m", "8√3 m"],
+      "answer": 1,
+      "explanation": "Step 1: Height of the building above the boy's eyes = 25.2 − 1.2 = 24 m.\nStep 2: At 30°: distance = 24/tan 30° = 24√3 m.\nStep 3: At 60°: distance = 24/tan 60° = 24/√3 = 8√3 m.\nStep 4: Distance walked = 24√3 − 8√3 = 16√3 m ≈ 27.7 m.\nAnswer: 16√3 m."
+    },
+    {
+      "text": "Assertion (A): If the sun's angle of elevation increases from 30° to 60°, the shadow of a vertical pole becomes one-third of its earlier length.\nReason (R): For a vertical pole of height h, the length of its shadow when the sun's angle of elevation is θ is h × tan θ.\nChoose the correct option.",
+      "difficulty": "MEDIUM",
+      "options": ["Both Assertion (A) and Reason (R) are true, and R is the correct explanation of A.", "Both A and R are true, but R is not the correct explanation of A.", "A is true, but R is false.", "A is false, but R is true."],
+      "answer": 2,
+      "explanation": "Step 1: tan θ = h/shadow, so shadow = h/tan θ, not h × tan θ. Hence R is false.\nStep 2: At 30°: shadow = h ÷ (1/√3) = h√3. At 60°: shadow = h/√3.\nStep 3: Ratio = (h/√3) ÷ (h√3) = 1/3, so the new shadow is one-third of the old one and A is true.\nAnswer: A is true, but R is false."
+    },
+    {
+      "text": "A straight highway leads to the foot of a tower. A man at the top of the tower sees a car, approaching at a uniform speed, at an angle of depression of 30°. Ten seconds later, the angle of depression of the car is 60°. How much more time will the car take to reach the foot of the tower?",
+      "difficulty": "HARD",
+      "options": ["5 s", "10 s", "20 s", "10√3 s"],
+      "answer": 0,
+      "explanation": "Step 1: Let the tower's height be h. At 30°, the car's distance = h/tan 30° = h√3; at 60°, its distance = h/tan 60° = h/√3.\nStep 2: Distance covered in 10 s = h√3 − h/√3 = (3h − h)/√3 = 2h/√3.\nStep 3: Remaining distance = h/√3, which is half of 2h/√3.\nStep 4: At uniform speed, the time needed is half of 10 s = 5 s.\nAnswer: 5 s."
+    },
+    {
+      "text": "A statue 2 m tall stands on a pedestal. From a point on the ground, the angle of elevation of the top of the statue is 60° and that of the top of the pedestal is 45°. What is the height of the pedestal?",
+      "difficulty": "HARD",
+      "options": ["(√3 − 1) m", "2√3 m", "(√3 + 1) m", "2(√3 + 1) m"],
+      "answer": 2,
+      "explanation": "Step 1: Let the pedestal's height be h and the point's distance from it be d. tan 45° = h/d ⇒ d = h.\nStep 2: tan 60° = (h + 2)/d ⇒ √3h = h + 2.\nStep 3: h(√3 − 1) = 2 ⇒ h = 2/(√3 − 1) = 2(√3 + 1)/(3 − 1) = (√3 + 1) m ≈ 2.73 m.\nAnswer: (√3 + 1) m."
+    }
+  ]
+}

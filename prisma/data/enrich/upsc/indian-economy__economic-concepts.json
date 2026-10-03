@@ -1,0 +1,162 @@
+{
+  "exam": "upsc",
+  "subject": "indian-economy",
+  "chapter": "economic-concepts",
+  "notes": {
+    "summary": "Basic Economic Concepts covers national income accounting, inflation and price indices, demand and elasticity, market structures, unemployment and the standard curves of macroeconomics. UPSC Prelims tests these through statement-based questions that hinge on precise definitions, such as what GDP includes or how production taxes differ from product taxes, rather than on long calculations.",
+    "keyPoints": [
+      "National income chain: GNP = GDP + Net Factor Income from Abroad (NFIA); NNP = GNP − depreciation; National Income = NNP at factor cost. Example: GDP 100, NFIA −2, depreciation 10 gives NNP = 88.",
+      "Market price vs factor cost: FC = MP − net indirect taxes. Since the 2015 revision (base 2011-12), India uses GVA at basic prices = GVA at factor cost + production taxes − production subsidies, and GDP at market prices = GVA at basic prices + product taxes − product subsidies.",
+      "GDP counts only final goods and services produced in the current period. It includes imputed rent of owner-occupied houses and own-account production, but excludes transfer payments (pensions, scholarships), second-hand sales and purely financial transactions (shares, bonds).",
+      "GDP deflator = (Nominal GDP ÷ Real GDP) × 100. If nominal GDP is 120 and real GDP is 100, the deflator is 120, i.e. prices rose 20% over the base year.",
+      "Inflation vocabulary: demand-pull (excess demand), cost-push (input costs, e.g. crude oil), stagflation (high inflation + stagnant output + high unemployment), disinflation (inflation rate falls but stays positive), deflation (general price level falls), core inflation (excludes volatile food and fuel).",
+      "Price indices: WPI is compiled by the Office of the Economic Adviser, DPIIT, and covers goods only; CPI (Rural, Urban, Combined) is compiled by the NSO under MoSPI and includes services. The RBI's inflation target is defined in terms of CPI (Combined).",
+      "Elasticity: price elasticity = %ΔQd ÷ %ΔP. Zero = perfectly inelastic, infinite = perfectly elastic. Cross-price elasticity is positive for substitutes (tea and coffee) and negative for complements (petrol and cars). Income elasticity is negative for inferior goods; all Giffen goods are inferior but not vice versa.",
+      "Keynesian investment multiplier k = 1 ÷ (1 − MPC) = 1 ÷ MPS. With MPC = 0.8, k = 5, so an extra ₹10 crore of investment raises income by ₹50 crore.",
+      "Unemployment types: disguised (marginal productivity of extra workers is zero, common in Indian agriculture), seasonal, frictional (between jobs), structural (skill or technology mismatch), cyclical (business-cycle downturn).",
+      "Market structures and curves: perfect competition (price taker, horizontal demand curve), monopoly (single seller, downward-sloping demand), monopolistic competition (product differentiation), oligopoly (few interdependent sellers). Phillips curve: inflation vs unemployment; Laffer curve: tax rate vs revenue; Lorenz curve and Gini coefficient: inequality; Engel's law: food share of spending falls as income rises."
+    ],
+    "traps": [
+      "Treating disinflation and deflation as the same thing: a fall in inflation from 6% to 3% still means prices are rising.",
+      "Counting transfer payments, second-hand goods or share purchases in GDP, or forgetting that imputed rent of owner-occupied houses is included.",
+      "Calling GDP 'national income': technically national income is NNP at factor cost.",
+      "Mixing up production taxes (levied irrespective of output, e.g. land revenue, stamp duty) with product taxes (levied per unit, e.g. GST) in the GVA–GDP bridge.",
+      "Assuming every inferior good is a Giffen good, or that WPI includes services."
+    ],
+    "examTip": "For any national income statement, quickly write the chain GDP → GNP (+NFIA) → NNP (−depreciation) → factor cost (−net indirect taxes) in the margin and test each statement against it."
+  },
+  "questions": [
+    {
+      "text": "The term 'stagflation' refers to an economic situation in which:",
+      "difficulty": "EASY",
+      "options": [
+        "Prices fall continuously while output rises",
+        "Output grows rapidly while prices remain stable",
+        "High inflation coexists with stagnant output and high unemployment",
+        "The rate of inflation declines but remains positive"
+      ],
+      "answer": 2,
+      "explanation": "Stagflation combines 'stagnation' and 'inflation'.\nIt describes rising prices together with slow or no growth in output and high unemployment, as seen after the oil price shocks of the 1970s.\nA falling but positive inflation rate (option D) is disinflation, not stagflation.\nAnswer: High inflation coexists with stagnant output and high unemployment."
+    },
+    {
+      "text": "In which of the following situations is 'disguised unemployment' said to exist?",
+      "difficulty": "EASY",
+      "options": [
+        "More people are engaged in a work than are actually needed, so the marginal productivity of the extra workers is zero",
+        "Workers are without a job for a short period while moving from one job to another",
+        "Workers lose their jobs because of a downturn in the business cycle",
+        "Workers remain idle during the off-season of agriculture"
+      ],
+      "answer": 0,
+      "explanation": "In disguised unemployment people appear to be employed, but removing some of them would not reduce total output.\nThe NCERT example is a family of five working on a plot that needs only three; the marginal productivity of the two extra workers is zero.\nOption B is frictional, C is cyclical and D is seasonal unemployment.\nAnswer: More people are engaged than needed, so their marginal productivity is zero."
+    },
+    {
+      "text": "If the annual rate of inflation in an economy falls from 6% to 3%, the economy is said to be experiencing:",
+      "difficulty": "EASY",
+      "options": [
+        "Deflation",
+        "Disinflation",
+        "Stagflation",
+        "Reflation"
+      ],
+      "answer": 1,
+      "explanation": "The inflation rate is still positive (3%), so the general price level is still rising, only more slowly.\nA slowdown in the rate of inflation is called disinflation.\nDeflation would require a negative inflation rate (falling prices), and reflation is a policy push to raise output and prices after a slump.\nAnswer: Disinflation."
+    },
+    {
+      "text": "Consider the following statements regarding price indices in India:\n1. The Wholesale Price Index (WPI) is compiled by the Office of the Economic Adviser, Department for Promotion of Industry and Internal Trade (DPIIT).\n2. The Consumer Price Index (Combined) is compiled by the National Statistics Office (NSO).\n3. The WPI basket includes the prices of services such as transport and banking.\nWhich of the statements given above is/are correct?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "1 and 2 only",
+        "1 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "answer": 0,
+      "explanation": "Statement 1 is correct: WPI is released by the Office of the Economic Adviser, DPIIT, Ministry of Commerce and Industry.\nStatement 2 is correct: CPI (Rural, Urban and Combined) is compiled by the NSO under the Ministry of Statistics and Programme Implementation.\nStatement 3 is wrong: WPI covers only goods (primary articles, fuel and power, manufactured products); services are captured in CPI.\nAnswer: 1 and 2 only."
+    },
+    {
+      "text": "A rise in the price of petrol leads to a fall in the demand for petrol-driven cars. The cross-price elasticity of demand between petrol and such cars is therefore:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Positive, because the two goods are substitutes",
+        "Negative, because the two goods are complements",
+        "Zero, because the two goods are unrelated",
+        "Positive, because the two goods are complements"
+      ],
+      "answer": 1,
+      "explanation": "Cross-price elasticity = % change in quantity demanded of good X ÷ % change in price of good Y.\nHere the price of petrol rises (+) and the demand for cars falls (−), so the ratio is negative.\nGoods used together have negative cross elasticity and are complements; substitutes such as tea and coffee have positive cross elasticity.\nAnswer: Negative, because the two goods are complements."
+    },
+    {
+      "text": "Which one of the following is included while estimating the Gross Domestic Product (GDP) of a country?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Old-age pensions paid by the government",
+        "Purchase of shares of a company in the stock market",
+        "Sale of a second-hand car between two households",
+        "Imputed rent of owner-occupied houses"
+      ],
+      "answer": 3,
+      "explanation": "GDP measures the value of final goods and services produced within the country during the year.\nPensions are transfer payments with no corresponding production; buying shares is a financial transaction; a used car was already counted in the year it was produced.\nOwner-occupied houses produce housing services, so their imputed rent is counted as part of GDP.\nAnswer: Imputed rent of owner-occupied houses."
+    },
+    {
+      "text": "The Phillips curve, in its original short-run form, depicts:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "An inverse relationship between the rate of inflation (or wage growth) and the rate of unemployment",
+        "The relationship between the tax rate and total tax revenue",
+        "The relationship between household income and the share of income spent on food",
+        "A direct relationship between money supply and real output in the long run"
+      ],
+      "answer": 0,
+      "explanation": "A. W. Phillips (1958) found, using UK data, that money-wage growth was high when unemployment was low and vice versa.\nThis was later restated as a short-run trade-off between inflation and unemployment.\nOption B describes the Laffer curve and option C describes Engel's law; in the long run the Phillips curve is regarded as vertical.\nAnswer: An inverse relationship between inflation and unemployment."
+    },
+    {
+      "text": "In a simple Keynesian model, if the marginal propensity to consume (MPC) is 0.75, an increase of ₹100 crore in investment will raise national income by:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "₹75 crore",
+        "₹133 crore",
+        "₹25 crore",
+        "₹400 crore"
+      ],
+      "answer": 3,
+      "explanation": "Investment multiplier k = 1 ÷ (1 − MPC).\nk = 1 ÷ (1 − 0.75) = 1 ÷ 0.25 = 4.\nChange in income = k × change in investment = 4 × ₹100 crore = ₹400 crore.\n₹75 crore (MPC × 100), ₹133 crore (100 ÷ MPC) and ₹25 crore (MPS × 100) come from using the wrong formula.\nAnswer: ₹400 crore."
+    },
+    {
+      "text": "Consider the following statements:\n1. Under perfect competition, an individual firm is a price taker.\n2. Under monopoly, the demand curve faced by the firm is perfectly elastic.\n3. Product differentiation is a characteristic feature of monopolistic competition.\nWhich of the statements given above is/are correct?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3",
+        "1 and 3 only"
+      ],
+      "answer": 3,
+      "explanation": "Statement 1 is correct: a perfectly competitive firm is too small to influence price, so it faces a horizontal (perfectly elastic) demand curve at the market price.\nStatement 2 is wrong: a monopolist is the whole industry and faces the downward-sloping market demand curve, so it must lower price to sell more.\nStatement 3 is correct: many sellers offering differentiated products (brands of soap or toothpaste) define monopolistic competition.\nAnswer: 1 and 3 only."
+    },
+    {
+      "text": "With reference to national income accounting in India, consider the following statements:\n1. GVA at basic prices = GVA at factor cost + production taxes − production subsidies.\n2. GDP at market prices = GVA at basic prices + product taxes − product subsidies.\nWhich of the statements given above is/are correct?",
+      "difficulty": "HARD",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "answer": 2,
+      "explanation": "Since the 2015 revision of national accounts (base year 2011-12), sector-wise output in India is measured as GVA at basic prices.\nProduction taxes and subsidies (e.g. land revenue, stamp duty, professional tax) are linked to production but not to the quantity produced; adding them to GVA at factor cost gives GVA at basic prices.\nProduct taxes and subsidies (e.g. GST, excise, food subsidy) are levied per unit of product; adding net product taxes to GVA at basic prices gives GDP at market prices.\nAnswer: Both 1 and 2."
+    },
+    {
+      "text": "Consider the following statements about Purchasing Power Parity (PPP):\n1. PPP-based comparisons of GDP adjust for differences in price levels between countries.\n2. For a developing country like India, GDP measured in PPP terms is lower than GDP converted at market exchange rates.\n3. The 'Big Mac Index' published by The Economist is an informal illustration of the PPP idea.\nWhich of the statements given above is/are correct?",
+      "difficulty": "HARD",
+      "options": [
+        "1 only",
+        "1 and 3 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "answer": 1,
+      "explanation": "Statement 1 is correct: a PPP exchange rate equates the purchasing power of currencies, so the same basket costs the same everywhere after conversion.\nStatement 2 is wrong: non-traded goods and services are cheaper in developing countries, so their GDP in PPP terms is higher, not lower, than at market exchange rates.\nStatement 3 is correct: since 1986 The Economist has compared burger prices across countries as a light-hearted PPP test.\nAnswer: 1 and 3 only."
+    }
+  ]
+}

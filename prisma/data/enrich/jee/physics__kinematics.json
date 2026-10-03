@@ -1,0 +1,107 @@
+{
+  "exam": "jee",
+  "subject": "physics",
+  "chapter": "kinematics",
+  "notes": {
+    "summary": "Kinematics describes motion without asking what causes it: displacement, velocity and acceleration in one dimension, relative velocity, projectile motion and uniform circular motion. JEE Main tests it through the equations of motion, calculus-based motion (acceleration given as a function of t, x or v), projectile formulas, river-boat and rain-man relative velocity, and graph interpretation.",
+    "keyPoints": [
+      "Constant acceleration: v = u + at, s = ut + ½at², v² = u² + 2as; distance in the nth second sₙ = u + a(2n − 1)/2. Example: from rest with a = 4 m/s², the 5th second covers 18 m.",
+      "Variable acceleration needs calculus: v = dx/dt, a = dv/dt = v dv/dx. If a = 6t from rest at the origin, v = 3t² and x = t³.",
+      "Distance ≥ |displacement|. When the velocity changes sign, split the interval at the instant v = 0 and add the magnitudes of each part.",
+      "Average speed over equal distances = 2v₁v₂/(v₁ + v₂); over equal time intervals = (v₁ + v₂)/2. Example: 40 km/h and 60 km/h over equal halves of distance give 48 km/h.",
+      "Free fall from rest: distances in successive seconds are in the ratio 1 : 3 : 5 : …; maximum height for an upward throw H = u²/2g (u = 20 m/s gives 20 m with g = 10 m/s²).",
+      "Projectile: T = 2u sinθ/g, H = u²sin²θ/2g, R = u²sin2θ/g, trajectory y = x tanθ − gx²/(2u²cos²θ). R is maximum at 45° and equal for θ and 90° − θ.",
+      "Relative velocity v_AB = v_A − v_B. Two bodies moving only under gravity have zero relative acceleration, so their separation changes linearly with time.",
+      "River crossing (width d, boat speed v, river speed u): minimum time d/v when heading straight across (drift ud/v); to land directly opposite (needs v > u) head upstream at sinφ = u/v, time d/√(v² − u²).",
+      "Uniform circular motion: speed is constant but velocity changes direction; centripetal acceleration a = v²/r = ω²r, directed towards the centre.",
+      "Graphs: slope of x–t gives velocity, slope of v–t gives acceleration, area under v–t gives displacement, area under a–t gives change in velocity."
+    ],
+    "traps": [
+      "Using s = ut + ½at² when the acceleration is not constant (for example a = 6t).",
+      "Taking the arithmetic mean of two speeds for equal distances; the correct average is 2v₁v₂/(v₁ + v₂).",
+      "Forgetting that an object released from a rising balloon or moving lift starts with the vehicle's velocity, not from rest.",
+      "Reporting displacement when distance is asked (or the reverse) for a particle that turns back.",
+      "Mixing up the minimum-time and shortest-path conditions in river-boat problems."
+    ],
+    "examTip": "Fix one sign convention (for example, upward positive) before writing any equation, and check whether the acceleration is constant before using the three equations of motion."
+  },
+  "questions": [
+    {
+      "text": "A car covers the first half of a straight-road journey (by distance) at 40 km/h and the second half at 60 km/h. Its average speed for the whole journey is:",
+      "difficulty": "EASY",
+      "options": ["50 km/h", "48 km/h", "45 km/h", "52 km/h"],
+      "answer": 1,
+      "explanation": "Average speed = total distance ÷ total time. For two equal distances d: time = d/40 + d/60, so v_avg = 2d ÷ (d/40 + d/60) = 2v₁v₂/(v₁ + v₂). v_avg = 2 × 40 × 60/(40 + 60) = 4800/100 = 48 km/h. (50 km/h, the arithmetic mean, is valid only for equal time intervals.)"
+    },
+    {
+      "text": "A body starts from rest and moves with a uniform acceleration of 4 m/s². The distance it covers during the 5th second of its motion is:",
+      "difficulty": "EASY",
+      "options": ["50 m", "20 m", "32 m", "18 m"],
+      "answer": 3,
+      "explanation": "Distance in the nth second: sₙ = u + (a/2)(2n − 1). With u = 0, a = 4 m/s², n = 5: s₅ = 0 + 2 × 9 = 18 m. Check: distance in 5 s = ½ × 4 × 25 = 50 m, in 4 s = ½ × 4 × 16 = 32 m, difference = 18 m."
+    },
+    {
+      "text": "A particle moves along a circle of radius 2 m with a constant speed of 4 m/s. The magnitude of its acceleration is:",
+      "difficulty": "EASY",
+      "options": ["2 m/s²", "zero, since the speed is constant", "8 m/s²", "16 m/s²"],
+      "answer": 2,
+      "explanation": "In uniform circular motion the speed is constant but the direction of velocity keeps changing, so there is a centripetal acceleration. a = v²/r = 4²/2 = 16/2 = 8 m/s², directed towards the centre."
+    },
+    {
+      "text": "The velocity of a particle moving along the x-axis varies with its position as v = 4√x, where v is in m/s and x is in m. The acceleration of the particle is:",
+      "difficulty": "MEDIUM",
+      "options": ["8 m/s², constant", "4 m/s², constant", "16 m/s², constant", "It increases in proportion to √x"],
+      "answer": 0,
+      "explanation": "Use a = v dv/dx. dv/dx = 4 × 1/(2√x) = 2/√x. a = 4√x × 2/√x = 8 m/s², independent of x. Alternatively, v² = 16x; comparing with v² = u² + 2ax (u = 0 at x = 0) gives 2a = 16, so a = 8 m/s² (constant)."
+    },
+    {
+      "text": "A particle starts from rest at the origin and moves along the x-axis with acceleration a = 6t, where a is in m/s² and t is in s. Its displacement at t = 2 s is:",
+      "difficulty": "MEDIUM",
+      "options": ["12 m", "24 m", "4 m", "8 m"],
+      "answer": 3,
+      "explanation": "Acceleration is not constant, so integrate. v = ∫6t dt = 3t² (v = 0 at t = 0). x = ∫3t² dt = t³ (x = 0 at t = 0). At t = 2 s: x = 2³ = 8 m. (Using s = ½at² with a = 12 m/s² wrongly gives 24 m; 12 is the velocity in m/s at t = 2 s.)"
+    },
+    {
+      "text": "A particle moves along the x-axis with position x = t² − 6t + 5, where x is in metres and t in seconds. The distance travelled by the particle between t = 0 and t = 5 s is:",
+      "difficulty": "MEDIUM",
+      "options": ["5 m", "13 m", "9 m", "4 m"],
+      "answer": 1,
+      "explanation": "v = dx/dt = 2t − 6, which is zero at t = 3 s, so the particle turns back then. x(0) = 5 m, x(3) = 9 − 18 + 5 = −4 m, x(5) = 25 − 30 + 5 = 0. Distance = |−4 − 5| + |0 − (−4)| = 9 + 4 = 13 m. (The displacement is only −5 m.)"
+    },
+    {
+      "text": "The trajectory of a projectile launched from the ground (g = 10 m/s²) is y = x − x²/20, where x and y are in metres and y is measured vertically upward from the launch point. The horizontal range of the projectile is:",
+      "difficulty": "MEDIUM",
+      "options": ["5 m", "10 m", "20 m", "40 m"],
+      "answer": 2,
+      "explanation": "The projectile lands when y = 0: x − x²/20 = 0 → x(1 − x/20) = 0 → x = 0 or x = 20 m. So R = 20 m. (Comparing with y = x tanθ − gx²/(2u²cos²θ): tanθ = 1, θ = 45°, u² = 200; maximum height = R tanθ/4 = 5 m, which is a distractor.)"
+    },
+    {
+      "text": "A boat can move at 5 m/s in still water. It has to cross a river 120 m wide, flowing at 4 m/s, and reach the point directly opposite its starting point. The time taken to cross is:",
+      "difficulty": "MEDIUM",
+      "options": ["24 s", "30 s", "13.3 s", "40 s"],
+      "answer": 3,
+      "explanation": "To land directly opposite, the boat must head upstream at angle φ from the perpendicular so that its upstream component cancels the river flow: 5 sinφ = 4 → sinφ = 0.8 (φ = 53°). Component across the river = 5 cosφ = 5 × 0.6 = 3 m/s. Time = 120/3 = 40 s. (24 s is the minimum time, obtained by heading straight across, which causes drift.)"
+    },
+    {
+      "text": "A balloon is rising vertically with a constant speed of 10 m/s. When it is 75 m above the ground, a stone is released from it. Taking g = 10 m/s², the time taken by the stone to reach the ground is:",
+      "difficulty": "MEDIUM",
+      "options": ["5 s", "3 s", "√15 s ≈ 3.9 s", "6 s"],
+      "answer": 0,
+      "explanation": "At release the stone has the balloon's velocity, 10 m/s upward. Taking upward positive: −75 = 10t − ½ × 10 × t² → 5t² − 10t − 75 = 0 → t² − 2t − 15 = 0 → (t − 5)(t + 3) = 0. Rejecting the negative root, t = 5 s. (√15 s assumes release from rest; 3 s assumes the initial velocity is downward.)"
+    },
+    {
+      "text": "Two balls are projected at the same instant from the same point with the same speed of 20 m/s, one vertically upward and the other at 30° above the horizontal (g = 10 m/s²). The distance between the two balls after 1 s is:",
+      "difficulty": "HARD",
+      "options": ["10 m", "17.3 m", "20 m", "34.6 m"],
+      "answer": 2,
+      "explanation": "Both balls have the same acceleration g, so their relative acceleration is zero and the relative velocity stays constant. v_A = (0, 20) m/s, v_B = (20 cos30°, 20 sin30°) = (17.3, 10) m/s. Relative velocity = (17.3, −10), magnitude √(300 + 100) = 20 m/s. After 1 s (ball B is still in flight; its flight time is 2 s) the separation = 20 × 1 = 20 m. Check with positions: A at (0, 15), B at (17.3, 5); distance = √(300 + 100) = 20 m."
+    },
+    {
+      "text": "Ship A is moving due east at 4 m/s. Ship B, which is initially 100 m due north of A, is moving due south at 3 m/s. The minimum distance between the two ships during their motion is:",
+      "difficulty": "HARD",
+      "options": ["60 m", "80 m", "100 m", "Zero, they collide"],
+      "answer": 1,
+      "explanation": "Work in A's frame. Velocity of B relative to A = (0, −3) − (4, 0) = (−4, −3) m/s, speed 5 m/s. Initial position of B relative to A = (0, 100) m. B moves on a straight line in this frame, so the minimum separation is the perpendicular distance from A to that line: |r × v|/|v| = |0 × (−3) − 100 × (−4)|/5 = 400/5 = 80 m. (Check: |r|² = 16t² + (100 − 3t)² = 25t² − 600t + 10000, minimum at t = 12 s giving 6400, i.e. 80 m.)"
+    }
+  ]
+}

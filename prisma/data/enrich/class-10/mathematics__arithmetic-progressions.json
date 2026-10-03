@@ -1,0 +1,116 @@
+{
+  "exam": "class-10",
+  "subject": "mathematics",
+  "chapter": "arithmetic-progressions",
+  "notes": {
+    "summary": "Arithmetic Progressions covers sequences with a constant common difference, the formula for the nth term and the sum of the first n terms, and their use in real-life problems. CBSE board papers test finding a term or the number of terms, the nth term from the end, sums, and word problems on salaries, savings, prizes and stacking.",
+    "keyPoints": [
+      "An AP has the form a, a + d, a + 2d, …, where d = a₂ − a₁ = a₃ − a₂ is the common difference. d can be positive, negative, zero or a fraction; for 10, 7, 4, … d = −3.",
+      "nth term: aₙ = a + (n − 1)d. Example: the 10th term of 2, 5, 8, … is 2 + 9 × 3 = 29.",
+      "nth term from the end of a finite AP with last term l: l − (n − 1)d.",
+      "Three numbers a, b, c are in AP exactly when 2b = a + c (b is the arithmetic mean of a and c).",
+      "Sum of first n terms: Sₙ = n/2 [2a + (n − 1)d] = n/2 (a + l). Example: 1 + 2 + … + 100 = 50 × 101 = 5050.",
+      "From the sum to a term: aₙ = Sₙ − Sₙ₋₁, and a₁ = S₁.",
+      "Number of terms from a to l: n = (l − a)/d + 1. Example: three-digit multiples of 7 run from 105 to 994, giving (994 − 105)/7 + 1 = 128 terms.",
+      "Sum of first n natural numbers = n(n + 1)/2; sum of first n odd numbers = n².",
+      "When Sₙ leads to a quadratic in n, keep only the natural-number root that makes sense in the situation (for example, a row cannot have a negative number of logs)."
+    ],
+    "traps": [
+      "Using n instead of (n − 1) in aₙ = a + (n − 1)d or in d = (l − a)/(n − 1).",
+      "Taking d = a₁ − a₂ instead of a₂ − a₁, which gives the wrong sign for decreasing APs.",
+      "Year/term confusion in word problems: the 11th year counted from 1995 is 2005, not 2006.",
+      "Forgetting the 1/2 in Sₙ, or accepting both roots of a quadratic without checking which one fits.",
+      "Counting terms as (l − a)/d and forgetting to add 1."
+    ],
+    "examTip": "Before calculating, write down a, d, n and whether the question asks for aₙ or Sₙ; in 'how many terms' questions, finish by checking that n is a natural number that fits the situation."
+  },
+  "questions": [
+    {
+      "text": "If 2x, x + 10 and 3x + 2 are three consecutive terms of an AP, the value of x is:",
+      "difficulty": "EASY",
+      "options": ["5", "6", "8", "4"],
+      "answer": 1,
+      "explanation": "For three consecutive terms of an AP, 2 × (middle term) = sum of the other two.\n2(x + 10) = 2x + (3x + 2).\n2x + 20 = 5x + 2, so 3x = 18 and x = 6.\nCheck: the terms are 12, 16, 20 with common difference 4."
+    },
+    {
+      "text": "The common difference of the AP 1/p, (1 − p)/p, (1 − 2p)/p, … (p ≠ 0) is:",
+      "difficulty": "EASY",
+      "options": ["1", "p", "−1", "−p"],
+      "answer": 2,
+      "explanation": "d = a₂ − a₁ = (1 − p)/p − 1/p = (1 − p − 1)/p = −p/p = −1.\nCheck: a₃ − a₂ = (1 − 2p − 1 + p)/p = −p/p = −1.\nSo d = −1."
+    },
+    {
+      "text": "Assertion (A): The sequence 1, 4, 9, 16, … is not an arithmetic progression.\nReason (R): In an AP, the difference between every pair of consecutive terms must be the same.\nChoose the correct option.",
+      "difficulty": "EASY",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A.",
+        "Both A and R are true but R is not the correct explanation of A.",
+        "A is true but R is false.",
+        "A is false but R is true."
+      ],
+      "answer": 0,
+      "explanation": "Differences: 4 − 1 = 3, 9 − 4 = 5, 16 − 9 = 7. They are not constant, so the sequence is not an AP: A is true.\nR is the definition of an AP, so R is true.\nThe sequence fails to be an AP exactly because the differences are not equal, so R explains A."
+    },
+    {
+      "text": "The 11th term from the last term of the AP 10, 7, 4, …, −62 is:",
+      "difficulty": "MEDIUM",
+      "options": ["−29", "−35", "32", "−32"],
+      "answer": 3,
+      "explanation": "Here a = 10, d = 7 − 10 = −3 and last term l = −62.\nnth term from the end = l − (n − 1)d = −62 − (11 − 1)(−3) = −62 + 30 = −32.\nCheck: −62 = 10 + (n − 1)(−3) gives n = 25 terms; the 11th from the end is the 15th term = 10 + 14(−3) = −32."
+    },
+    {
+      "text": "How many three-digit numbers are divisible by 7?",
+      "difficulty": "MEDIUM",
+      "options": ["128", "127", "142", "129"],
+      "answer": 0,
+      "explanation": "The smallest three-digit multiple of 7 is 105 and the largest is 994 (7 × 142).\nThey form an AP with a = 105, d = 7, l = 994.\nn = (l − a)/d + 1 = (994 − 105)/7 + 1 = 889/7 + 1 = 127 + 1 = 128."
+    },
+    {
+      "text": "Subba Rao started work in 1995 at an annual salary of ₹5000 and received an increment of ₹200 every year. In which year did his annual income reach ₹7000?",
+      "difficulty": "MEDIUM",
+      "options": ["2004", "2005", "2006", "2015"],
+      "answer": 1,
+      "explanation": "Yearly salaries form an AP with a = 5000 and d = 200.\n7000 = 5000 + (n − 1) × 200, so n − 1 = 10 and n = 11.\nThe 1st year is 1995, so the 11th year is 1995 + 10 = 2005."
+    },
+    {
+      "text": "The sum of the first n terms of an AP is given by Sₙ = 4n − n². The nth term of this AP is:",
+      "difficulty": "MEDIUM",
+      "options": ["5 − 2n", "3 − 2n", "2n − 5", "4 − 2n"],
+      "answer": 0,
+      "explanation": "Use aₙ = Sₙ − Sₙ₋₁.\nSₙ₋₁ = 4(n − 1) − (n − 1)² = 4n − 4 − n² + 2n − 1 = 6n − n² − 5.\naₙ = (4n − n²) − (6n − n² − 5) = 5 − 2n.\nCheck: a₁ = 3 and S₁ = 4 − 1 = 3."
+    },
+    {
+      "text": "Assertion (A): −5, −5/2, 0, 5/2, … is an AP with common difference 5/2.\nReason (R): The common difference of an AP must be a non-zero integer.\nChoose the correct option.",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A.",
+        "Both A and R are true but R is not the correct explanation of A.",
+        "A is true but R is false.",
+        "A is false but R is true."
+      ],
+      "answer": 2,
+      "explanation": "Differences: −5/2 − (−5) = 5/2, 0 − (−5/2) = 5/2, 5/2 − 0 = 5/2. They are constant, so A is true.\nThe common difference can be any real number: positive, negative, zero or a fraction. So R is false.\nAnswer: A is true but R is false."
+    },
+    {
+      "text": "The middle term of the AP 213, 205, 197, …, 37 is:",
+      "difficulty": "MEDIUM",
+      "options": ["117", "125", "133", "121"],
+      "answer": 1,
+      "explanation": "a = 213, d = −8, l = 37.\n37 = 213 + (n − 1)(−8), so n − 1 = 176/8 = 22 and n = 23 (odd).\nMiddle term = the (23 + 1)/2 = 12th term = 213 + 11 × (−8) = 213 − 88 = 125."
+    },
+    {
+      "text": "The sum of the first 7 terms of an AP is 49 and the sum of its first 17 terms is 289. The sum of its first n terms is:",
+      "difficulty": "HARD",
+      "options": ["n² + 1", "2n²", "n(n + 1)", "n²"],
+      "answer": 3,
+      "explanation": "S₇ = 7/2 (2a + 6d) = 7(a + 3d) = 49, so a + 3d = 7.\nS₁₇ = 17/2 (2a + 16d) = 17(a + 8d) = 289, so a + 8d = 17.\nSubtracting: 5d = 10, so d = 2 and a = 1.\nSₙ = n/2 [2 × 1 + (n − 1) × 2] = n/2 × 2n = n²."
+    },
+    {
+      "text": "200 logs are stacked so that there are 20 logs in the bottom row, 19 in the next row, 18 in the row above it, and so on. How many rows are there, and how many logs are in the top row?",
+      "difficulty": "HARD",
+      "options": ["25 rows, 1 log in the top row", "20 rows, 1 log in the top row", "16 rows, 4 logs in the top row", "16 rows, 5 logs in the top row"],
+      "answer": 3,
+      "explanation": "The rows form an AP with a = 20, d = −1 and Sₙ = 200.\n200 = n/2 [40 + (n − 1)(−1)] = n(41 − n)/2, so n² − 41n + 400 = 0.\n(n − 16)(n − 25) = 0, so n = 16 or n = 25.\nFor n = 25 the top row would have 20 − 24 = −4 logs, which is impossible, so n = 16.\nTop row = a₁₆ = 20 + 15(−1) = 5 logs."
+    }
+  ]
+}

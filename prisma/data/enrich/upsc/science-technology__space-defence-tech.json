@@ -1,0 +1,160 @@
+{
+  "exam": "upsc",
+  "subject": "science-technology",
+  "chapter": "space-defence-tech",
+  "notes": {
+    "summary": "This chapter covers India's space programme (history, launch vehicles, orbits, satellite series and landmark missions) and defence technology (missile types, propulsion, platforms and strategic capabilities). UPSC Prelims tests stable mission facts and the basic science behind them, such as orbits, escape velocity, cryogenic propulsion and ballistic versus cruise missiles, usually in multi-statement form.",
+    "keyPoints": [
+      "Milestones: first sounding rocket (Nike-Apache) launched from Thumba (TERLS), near Thiruvananthapuram, on 21 November 1963 under Vikram Sarabhai; ISRO formed in 1969; Aryabhata launched in 1975 (on a Soviet rocket); SLV-3 put Rohini into orbit in 1980.",
+      "Launch vehicles: PSLV has four stages that alternate solid, liquid, solid, liquid and is the workhorse for Sun-synchronous orbits (it launched Chandrayaan-1, the Mars Orbiter Mission and Aditya-L1). GSLV has a cryogenic upper stage for geosynchronous transfer orbit. LVM3 (GSLV Mk III) launched Chandrayaan-2 and Chandrayaan-3.",
+      "Orbits: Sun-synchronous orbits are near-polar, typically 600–800 km up, and cross each place at the same local solar time, which suits remote sensing. Geostationary orbit is equatorial, about 35,786 km up, with a period of 23 h 56 min. Escape velocity from Earth is about 11.2 km/s; orbital speed near the surface is about 7.9 km/s.",
+      "Missions: Chandrayaan-1 (2008, evidence of water); Mars Orbiter Mission (2013–14, succeeded on the first attempt); Chandrayaan-3 (Vikram lander touched down near the lunar south pole on 23 August 2023, declared National Space Day by the Government of India); Aditya-L1 (launched 2023, in a halo orbit around Sun–Earth L1, about 1.5 million km from Earth).",
+      "Satellite series: INSAT/GSAT for communication and meteorology; IRS, Cartosat (cartography), RISAT (synthetic aperture radar, all-weather imaging) and Oceansat (ocean observation) for Earth observation; NavIC (IRNSS) for regional navigation; AstroSat (2015) is India's first multi-wavelength space observatory.",
+      "Cryogenic propulsion: liquid hydrogen fuel (about −253°C) and liquid oxygen oxidiser (about −183°C) give a much higher specific impulse (about 450 s, against under 300 s for solid motors). India's indigenous cryogenic stage first flew successfully on GSLV-D5 in January 2014.",
+      "Missiles: the IGMDP (1983) produced Prithvi, Agni, Trishul, Akash and Nag. Ballistic missiles are powered only early in flight and then follow an arching trajectory; cruise missiles are powered throughout and fly low. BrahMos (India–Russia) is a supersonic cruise missile (about Mach 2.8). Hypersonic means above Mach 5; a scramjet is an air-breathing engine for such speeds.",
+      "Platforms and capabilities: Tejas light combat aircraft; INS Vikrant (commissioned 2022, first indigenously designed and built aircraft carrier); INS Arihant (nuclear-powered ballistic missile submarine, giving India a sea-based leg of its nuclear triad); Mission Shakti (2019 anti-satellite test against a satellite in low Earth orbit)."
+    ],
+    "traps": [
+      "Confusing escape velocity (about 11.2 km/s) with orbital velocity near the surface (about 7.9 km/s).",
+      "Thinking geostationary satellites are in polar orbits, or that remote-sensing satellites are mainly geostationary.",
+      "Calling BrahMos a ballistic or a hypersonic missile; it is a supersonic cruise missile.",
+      "Mixing up PSLV's alternating solid–liquid stages with GSLV's cryogenic stage.",
+      "Assuming Chandrayaan-3 had its own orbiter; it had a propulsion module, lander and rover."
+    ],
+    "examTip": "For every mission, remember three things (launch vehicle, destination or orbit, and the 'first' claim) and reject any statement that gets one of them wrong."
+  },
+  "questions": [
+    {
+      "text": "The first sounding rocket launched from Indian soil, in November 1963, lifted off from:",
+      "difficulty": "EASY",
+      "options": [
+        "Sriharikota, Andhra Pradesh",
+        "Chandipur, Odisha",
+        "Thumba, near Thiruvananthapuram, Kerala",
+        "Mahendragiri, Tamil Nadu"
+      ],
+      "answer": 2,
+      "explanation": "On 21 November 1963 an American-made Nike-Apache sounding rocket was launched from the Thumba Equatorial Rocket Launching Station (TERLS), chosen because it lies close to the magnetic equator.\nThe effort was led by Vikram Sarabhai, regarded as the father of India's space programme.\nSriharikota became India's main orbital launch site later; Chandipur is DRDO's missile test range and Mahendragiri hosts ISRO's liquid-engine test facilities.\nAnswer: Thumba, near Thiruvananthapuram, Kerala."
+    },
+    {
+      "text": "The minimum speed with which a body must be projected from the Earth's surface to escape the Earth's gravitational pull (ignoring air resistance) is approximately:",
+      "difficulty": "EASY",
+      "options": [
+        "11.2 km/s",
+        "7.9 km/s",
+        "3.1 km/s",
+        "29.8 km/s"
+      ],
+      "answer": 0,
+      "explanation": "Escape velocity vₑ = √(2GM/R) = √(2gR).\nWith g = 9.8 m/s² and R = 6.4 × 10⁶ m: vₑ = √(2 × 9.8 × 6.4 × 10⁶) = √(1.25 × 10⁸) ≈ 1.12 × 10⁴ m/s = 11.2 km/s.\n7.9 km/s is the orbital speed just above the surface, about 3.1 km/s is the speed of a geostationary satellite, and 29.8 km/s is Earth's orbital speed around the Sun.\nAnswer: 11.2 km/s."
+    },
+    {
+      "text": "INS Vikrant, commissioned into the Indian Navy in September 2022, is significant because it is:",
+      "difficulty": "EASY",
+      "options": [
+        "India's first nuclear-powered ballistic missile submarine",
+        "India's first indigenously designed and built aircraft carrier",
+        "India's first indigenously built destroyer",
+        "The first aircraft carrier ever operated by India"
+      ],
+      "answer": 1,
+      "explanation": "The new INS Vikrant was designed by the Navy's Warship Design Bureau, built by Cochin Shipyard Limited and commissioned on 2 September 2022.\nIt is not India's first carrier: an earlier INS Vikrant (bought from Britain) served from 1961 to 1997.\nIndia's first nuclear-powered ballistic missile submarine is INS Arihant.\nAnswer: India's first indigenously designed and built aircraft carrier."
+    },
+    {
+      "text": "With reference to India's Chandrayaan-3 mission, consider the following statements:\n1. It was launched by the LVM3 (earlier called GSLV Mk III) launch vehicle.\n2. Its lander soft-landed near the lunar south polar region in August 2023.\n3. It carried a new orbiter equipped with a high-resolution camera to replace the Chandrayaan-2 orbiter.\nWhich of the statements given above is/are correct?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "1 and 2 only",
+        "2 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "answer": 0,
+      "explanation": "Statement 1 is correct: Chandrayaan-3 was launched from Sriharikota on 14 July 2023 aboard LVM3-M4.\nStatement 2 is correct: the Vikram lander touched down on 23 August 2023 near the south polar region, making India the first country to land there and the fourth to soft-land on the Moon; 23 August is declared National Space Day by the Government of India.\nStatement 3 is wrong: the mission had a propulsion module, the Vikram lander and the Pragyan rover, and no new orbiter; the Chandrayaan-2 orbiter served as a communication backup.\nAnswer: 1 and 2 only."
+    },
+    {
+      "text": "Consider the following statements regarding Aditya-L1:\n1. It is India's first space-based observatory dedicated to studying the Sun.\n2. It is placed in a halo orbit around the Lagrange point L1 of the Sun–Earth system.\n3. The L1 point lies about 1.5 million km from the Earth, in the direction of the Sun.\nWhich of the statements given above is/are correct?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "1 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "answer": 3,
+      "explanation": "Aditya-L1, launched by PSLV-C57 on 2 September 2023, is India's first dedicated solar observatory in space (statement 1 correct).\nIt was inserted into a halo orbit around the Sun–Earth L1 point on 6 January 2024 (statement 2 correct).\nL1 lies roughly 1% of the Earth–Sun distance (about 150 million km) from Earth towards the Sun, i.e. about 1.5 million km, and gives an uninterrupted view of the Sun without eclipses (statement 3 correct).\nAnswer: 1, 2 and 3."
+    },
+    {
+      "text": "Consider the following statements:\n1. A satellite in a Sun-synchronous orbit passes over any given place on Earth at the same local solar time.\n2. Sun-synchronous orbits are widely used for remote-sensing (Earth observation) satellites.\n3. A geostationary orbit is a type of polar orbit.\nWhich of the statements given above is/are correct?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "1 only",
+        "1 and 3 only",
+        "2 and 3 only",
+        "1 and 2 only"
+      ],
+      "answer": 3,
+      "explanation": "Statement 1 is correct: a Sun-synchronous orbit is near-polar (inclination about 98°), and its plane turns about 1° a day so that it keeps the same angle to the Sun, so each pass over a place happens at the same local time.\nStatement 2 is correct: the constant lighting makes images comparable over time, so IRS and Cartosat satellites use such orbits (usually 600–800 km up), often launched by PSLV.\nStatement 3 is wrong: a geostationary orbit lies over the equator (0° inclination) at about 35,786 km, with a period equal to one rotation of the Earth.\nAnswer: 1 and 2 only."
+    },
+    {
+      "text": "Consider the following statements:\n1. A ballistic missile is powered only during the initial part of its flight and then follows a largely free-falling, arching trajectory.\n2. A cruise missile is powered for most of its flight and usually flies at relatively low altitudes within the atmosphere.\n3. BrahMos is a ballistic missile.\nWhich of the statements given above is/are correct?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 only",
+        "1, 2 and 3"
+      ],
+      "answer": 0,
+      "explanation": "Statement 1 is correct: ballistic missiles such as Agni and Prithvi burn their motors early and then coast on a high arc under gravity.\nStatement 2 is correct: cruise missiles are powered by jet engines (turbofan, ramjet) throughout, can manoeuvre and fly low like an aircraft, which makes them hard to detect.\nStatement 3 is wrong: BrahMos, an India–Russia joint venture, is a ramjet-powered supersonic cruise missile flying at about Mach 2.8.\nAnswer: 1 and 2 only."
+    },
+    {
+      "text": "Consider the following pairs of Indian satellite series and their primary purpose:\n1. RISAT — Radar imaging for all-weather, day-and-night Earth observation\n2. Cartosat — High-resolution imaging for cartography\n3. Oceansat — Satellite navigation\n4. GSAT — Communication\nHow many of the pairs given above are correctly matched?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Only one",
+        "Only two",
+        "Only three",
+        "All four"
+      ],
+      "answer": 2,
+      "explanation": "Pair 1 is correct: RISAT carries synthetic aperture radar, whose microwaves pass through clouds and work at night.\nPair 2 is correct: Cartosat satellites provide high-resolution imagery for mapping.\nPair 3 is wrong: Oceansat observes the oceans (ocean colour, sea-surface winds); navigation is provided by the IRNSS/NavIC series.\nPair 4 is correct: GSAT satellites are geostationary communication satellites.\nAnswer: Only three."
+    },
+    {
+      "text": "Consider the following statements:\n1. A Mach number of 1 means the object is moving at the speed of sound in the surrounding medium.\n2. Speeds greater than about Mach 5 are termed hypersonic.\n3. A scramjet engine carries its own liquid oxygen as the oxidiser for combustion.\nWhich of the statements given above is/are correct?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "1 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "answer": 1,
+      "explanation": "Statement 1 is correct: Mach number = speed of the object ÷ speed of sound in that medium.\nStatement 2 is correct: below Mach 1 is subsonic, Mach 1–5 is supersonic and above about Mach 5 is hypersonic.\nStatement 3 is wrong: a scramjet (supersonic combustion ramjet) is air-breathing; it takes oxygen from the atmosphere, which reduces the oxidiser a vehicle must carry. ISRO flight-tested a scramjet engine in August 2016.\nAnswer: 1 and 2 only."
+    },
+    {
+      "text": "Consider the following statements about cryogenic rocket engines:\n1. They typically use liquid hydrogen as fuel and liquid oxygen as the oxidiser.\n2. Liquid hydrogen has to be kept at temperatures of about −253°C or lower.\n3. They provide a lower specific impulse (efficiency) than solid-propellant motors.\nWhich of the statements given above is/are correct?",
+      "difficulty": "HARD",
+      "options": [
+        "2 only",
+        "1 and 2 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "answer": 1,
+      "explanation": "Statement 1 is correct: the standard cryogenic combination is liquid hydrogen (fuel) with liquid oxygen (oxidiser).\nStatement 2 is correct: hydrogen boils at about −253°C (20 K), and oxygen at about −183°C, so both need heavily insulated tanks.\nStatement 3 is wrong: LH₂/LOX gives one of the highest specific impulses of any chemical rocket (about 450 s, against under 300 s for solid motors), which is why it is used in upper stages.\nAnswer: 1 and 2 only."
+    },
+    {
+      "text": "The Polar Satellite Launch Vehicle (PSLV) in its standard configuration has four stages. Which of the following correctly gives the type of propellant used in its first, second, third and fourth stages, respectively?",
+      "difficulty": "HARD",
+      "options": [
+        "Solid, Solid, Liquid, Liquid",
+        "Liquid, Solid, Liquid, Solid",
+        "Solid, Liquid, Solid, Liquid",
+        "Solid, Liquid, Liquid, Cryogenic"
+      ],
+      "answer": 2,
+      "explanation": "PSLV's first stage (PS1) is a large solid motor, assisted by solid strap-on boosters in most variants.\nThe second stage (PS2) is liquid, powered by the Vikas engine; the third stage (PS3) is solid; and the fourth stage (PS4) uses twin liquid engines.\nSo the stages alternate solid, liquid, solid, liquid; a cryogenic upper stage belongs to the GSLV, not the PSLV.\nAnswer: Solid, Liquid, Solid, Liquid."
+    }
+  ]
+}

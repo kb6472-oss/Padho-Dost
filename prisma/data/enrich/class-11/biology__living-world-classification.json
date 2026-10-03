@@ -1,0 +1,161 @@
+{
+  "exam": "class-11",
+  "subject": "biology",
+  "chapter": "living-world-classification",
+  "notes": {
+    "summary": "This chapter covers how organisms are named and ranked (binomial nomenclature and the taxonomic hierarchy) and how R.H. Whittaker's five kingdoms — Monera, Protista, Fungi, Plantae and Animalia — are told apart, along with viruses, viroids and lichens. CBSE questions are mostly fact-based: naming rules, examples of each category, kingdom features, and matching organisms to groups.",
+    "keyPoints": [
+      "Binomial nomenclature (Linnaeus): the genus has a capital first letter and the specific epithet a small first letter. The name is printed in italics, or each word is underlined separately when handwritten, e.g., Homo sapiens. The author's name may follow in short form, as in Mangifera indica Linn.",
+      "Naming codes: ICBN (International Code for Botanical Nomenclature) for plants and ICZN (International Code for Zoological Nomenclature) for animals.",
+      "Hierarchy: Kingdom → Phylum/Division → Class → Order → Family → Genus → Species. Members share fewer characters as you go from species up to kingdom. Example (wheat): Triticum aestivum, family Poaceae, order Poales, class Monocotyledonae, division Angiospermae.",
+      "Whittaker (1969) set up the five kingdoms using cell structure, body organisation, mode of nutrition, reproduction and phylogenetic relationships.",
+      "Monera: prokaryotes. Bacterial shapes are coccus, bacillus, vibrium and spirillum. Archaebacteria include halophiles, thermoacidophiles and methanogens (in the gut of ruminants). Cyanobacteria such as Nostoc and Anabaena fix nitrogen in heterocysts. Mycoplasma have no cell wall.",
+      "Protista: single-celled eukaryotes. Chrysophytes (diatoms, with silica walls that form diatomaceous earth); dinoflagellates (red tides, e.g., Gonyaulax); euglenoids (pellicle, Euglena); slime moulds (plasmodium, resistant spores); protozoans (Amoeba, Trypanosoma, Paramoecium, Plasmodium).",
+      "Fungi: heterotrophs with chitin cell walls. Phycomycetes (Mucor, Rhizopus, Albugo); Ascomycetes (Aspergillus, Claviceps, Neurospora, yeast); Basidiomycetes (Agaricus, Ustilago, Puccinia); Deuteromycetes, the imperfect fungi (Alternaria, Colletotrichum, Trichoderma).",
+      "Viruses: nucleoproteins with either DNA or RNA. The protein coat is the capsid, made of subunits called capsomeres. Plant viruses usually have single-stranded RNA and bacteriophages usually double-stranded DNA. Ivanowsky studied TMV (1892), Beijerinck called it 'contagium vivum fluidum', and Stanley crystallised viruses (1935).",
+      "Viroids (T.O. Diener, 1971) are free RNA without a protein coat and cause potato spindle tuber disease. Lichens are an alga (phycobiont) plus a fungus (mycobiont); they do not grow in polluted areas, so they are good pollution indicators."
+    ],
+    "traps": [
+      "Capitalising the specific epithet, or underlining both words together as one.",
+      "Assuming higher categories share more characters. It is the reverse.",
+      "Putting cyanobacteria (blue-green algae) with the algae of Plantae instead of Monera, or putting Euglena and diatoms in Plantae instead of Protista.",
+      "Thinking a virus can have both DNA and RNA, or swapping capsid (the coat) and capsomeres (its subunits).",
+      "Mixing up fungal classes: yeast and Neurospora are Ascomycetes, Ustilago and Puccinia are Basidiomycetes, and Albugo is a Phycomycete."
+    ],
+    "examTip": "Keep a one-line list of examples for each group (e.g., Albugo–Phyco, Claviceps–Asco, Ustilago–Basidio, Alternaria–Deutero). Most questions here are organism-to-group matches."
+  },
+  "questions": [
+    {
+      "text": "According to the rules of binomial nomenclature, which of the following is the correctly written scientific name of human beings (assume it is printed in italics)?",
+      "difficulty": "EASY",
+      "options": [
+        "Homo Sapiens",
+        "homo sapiens",
+        "Homo sapiens",
+        "Sapiens homo"
+      ],
+      "answer": 2,
+      "explanation": "In binomial nomenclature, the first word is the genus and the second is the specific epithet. The genus starts with a capital letter and the specific epithet with a small letter. The name is printed in italics, or each word is underlined separately when handwritten. The genus must come first. So the correct name is Homo sapiens."
+    },
+    {
+      "text": "Scientific names of plants are given according to the agreed principles and criteria laid down in the:",
+      "difficulty": "EASY",
+      "options": [
+        "International Code for Zoological Nomenclature (ICZN)",
+        "International Code for Botanical Nomenclature (ICBN)",
+        "International Union for Conservation of Nature (IUCN)",
+        "Indian Council of Agricultural Research (ICAR)"
+      ],
+      "answer": 1,
+      "explanation": "Plants are named under the International Code for Botanical Nomenclature (ICBN), which ensures each plant has one correct name accepted everywhere. Animal names follow the ICZN. The IUCN deals with the conservation status of species, and ICAR is an Indian agricultural research body. So the answer is ICBN."
+    },
+    {
+      "text": "Sleeping sickness in humans is caused by the protozoan:",
+      "difficulty": "EASY",
+      "options": [
+        "Plasmodium",
+        "Paramoecium",
+        "Amoeba",
+        "Trypanosoma"
+      ],
+      "answer": 3,
+      "explanation": "Trypanosoma is a flagellated protozoan, and its parasitic forms cause sleeping sickness. Plasmodium is a sporozoan that causes malaria. Paramoecium is a free-living ciliate and Amoeba is a free-living amoeboid protozoan. So the answer is Trypanosoma."
+    },
+    {
+      "text": "According to the taxonomic classification given in NCERT, wheat (Triticum aestivum) belongs to the family:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Poaceae",
+        "Anacardiaceae",
+        "Solanaceae",
+        "Hominidae"
+      ],
+      "answer": 0,
+      "explanation": "Wheat is classified as genus Triticum, family Poaceae, order Poales, class Monocotyledonae and division Angiospermae. Anacardiaceae is the family of mango (Mangifera indica), Solanaceae is the family of potato, Petunia and Datura, and Hominidae is the family of humans. So wheat belongs to Poaceae."
+    },
+    {
+      "text": "In the taxonomic hierarchy, as we move upward from species towards kingdom, the number of characteristics shared by the members of a taxon:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "goes on increasing",
+        "remains the same",
+        "goes on decreasing",
+        "first decreases and then increases"
+      ],
+      "answer": 2,
+      "explanation": "A species is made up of organisms that are very similar to one another. Each higher category groups several lower ones on the basis of fewer, broader common features (genus → family → order and so on). So the higher the category, the fewer characters its members share, and the harder it is to find features common to all of them. The number of shared characters goes on decreasing."
+    },
+    {
+      "text": "Methanogens, present in the gut of ruminant animals such as cows and buffaloes and responsible for producing methane (biogas) from their dung, belong to the group:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Eubacteria",
+        "Cyanobacteria",
+        "Mycoplasma",
+        "Archaebacteria"
+      ],
+      "answer": 3,
+      "explanation": "Archaebacteria live in harsh habitats: halophiles in very salty areas, thermoacidophiles in hot springs, and methanogens in marshy areas and in the gut of ruminants. Their cell wall structure differs from that of other bacteria, which helps them survive these conditions. Methanogens make methane from cattle dung, which is the basis of biogas production. So they belong to the archaebacteria."
+    },
+    {
+      "text": "Specialised cells called heterocysts, which fix atmospheric nitrogen, are found in:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Nostoc and Anabaena",
+        "Rhizobium and Mycoplasma",
+        "Euglena and Gonyaulax",
+        "Spirogyra and Chlamydomonas"
+      ],
+      "answer": 0,
+      "explanation": "Cyanobacteria (blue-green algae) are photosynthetic members of Monera. Some of them, such as Nostoc and Anabaena, fix atmospheric nitrogen in specialised cells called heterocysts. Rhizobium fixes nitrogen in root nodules but has no heterocysts. Euglena, Gonyaulax, Spirogyra and Chlamydomonas are eukaryotes with no heterocysts. So the answer is Nostoc and Anabaena."
+    },
+    {
+      "text": "Which group of saprophytic protists forms an aggregation called a plasmodium under suitable conditions and produces spores with true walls that can survive for many years?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Euglenoids",
+        "Slime moulds",
+        "Diatoms",
+        "Dinoflagellates"
+      ],
+      "answer": 1,
+      "explanation": "Slime moulds are saprophytic protists that engulf organic matter. In suitable conditions they form a plasmodium that can spread over several feet. In unfavourable conditions the plasmodium forms fruiting bodies with spores at their tips. The spores have true walls, are extremely resistant and are spread by air currents. So the answer is slime moulds."
+    },
+    {
+      "text": "'Diatomaceous earth', a gritty soil used in polishing and in filtration of oils and syrups, is formed from the cell wall deposits of:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Dinoflagellates",
+        "Diatoms",
+        "Euglenoids",
+        "Slime moulds"
+      ],
+      "answer": 1,
+      "explanation": "Diatoms (chrysophytes) have cell walls made of two thin overlapping shells embedded with silica, so the walls are indestructible. Over billions of years these walls have built up into diatomaceous earth. Because it is gritty, it is used for polishing and for filtering oils and syrups. Diatoms are also the chief producers in the oceans. So the answer is diatoms."
+    },
+    {
+      "text": "Which one of the following statements about viruses is correct?",
+      "difficulty": "HARD",
+      "options": [
+        "Viruses that infect plants usually have single-stranded RNA, while bacteriophages usually have double-stranded DNA",
+        "A single virus particle contains both DNA and RNA",
+        "Viruses can multiply on a nutrient medium outside living host cells",
+        "The protein coat of a virus is called a capsomere and its subunits are called capsids"
+      ],
+      "answer": 0,
+      "explanation": "A virus is a nucleoprotein with either DNA or RNA, never both. Viruses are obligate parasites that multiply only inside living host cells. The protein coat is the capsid and its small subunits are capsomeres, which is the reverse of what the last option says. NCERT notes that plant viruses usually have single-stranded RNA, while bacteriophages are usually double-stranded DNA viruses. So the first statement is correct."
+    },
+    {
+      "text": "Match the fungus in Column I with its class in Column II.\nColumn I: (a) Albugo (b) Claviceps (c) Ustilago (d) Alternaria\nColumn II: (i) Basidiomycetes (ii) Deuteromycetes (iii) Phycomycetes (iv) Ascomycetes",
+      "difficulty": "HARD",
+      "options": [
+        "a-iv, b-iii, c-i, d-ii",
+        "a-iii, b-iv, c-ii, d-i",
+        "a-iii, b-iv, c-i, d-ii",
+        "a-i, b-iv, c-iii, d-ii"
+      ],
+      "answer": 2,
+      "explanation": "Albugo, the parasitic fungus on mustard, has aseptate, coenocytic mycelium, so it is a Phycomycete (a-iii). Claviceps produces ascospores inside asci, so it is an Ascomycete (b-iv). Ustilago, the smut fungus, forms basidiospores, so it is a Basidiomycete (c-i). Alternaria is known only to reproduce asexually by conidia, so it belongs to Deuteromycetes, the imperfect fungi (d-ii). So the answer is a-iii, b-iv, c-i, d-ii."
+    }
+  ]
+}

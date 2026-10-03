@@ -1,0 +1,107 @@
+{
+  "exam": "class-10",
+  "subject": "geography",
+  "chapter": "resources-and-development",
+  "notes": {
+    "summary": "This chapter explains what resources are, how they are classified, why resource planning and sustainable development matter, how land is used and degraded in India, and the major soil types with their conservation. CBSE tests it through classification-based MCQs, soil-property and region identification, matching items, assertion-reason questions and case-based questions on land use and soil conservation.",
+    "keyPoints": [
+      "Classification of resources: on the basis of origin (biotic, abiotic), exhaustibility (renewable, non-renewable), ownership (individual, community, national, international) and status of development (potential, developed, stock, reserves).",
+      "Potential resources exist but are not yet used (wind and solar energy in Rajasthan and Gujarat). Stock = resources we lack the technology to use (hydrogen from water as an energy source). Reserves = a subset of stock that can be used with existing technology but is kept for the future (water in dams, forests).",
+      "Ownership: village commons such as grazing grounds, burial grounds and ponds are community-owned. Land and oceanic area up to 12 nautical miles (22.2 km) from the coast (territorial waters) is a national resource; oceanic resources beyond 200 nautical miles (the Exclusive Economic Zone) are international resources.",
+      "Sustainable development: Earth Summit at Rio de Janeiro (June 1992) adopted Agenda 21 to combat environmental damage, poverty and disease through global co-operation. Resource planning has three steps: identifying and making an inventory of resources, evolving a planning structure with technology, skill and institutions, and matching resource plans with national development plans. India has done resource planning since the First Five Year Plan.",
+      "Land relief of India: plains about 43%, mountains about 30% and plateaus about 27% of the area. Fallow land: current fallow means uncultivated for one agricultural year or less; other than current fallow means 1 to 5 years; culturable waste land means more than 5 years. Net sown area is over 80% in Punjab and Haryana but under 10% in Arunachal Pradesh, Mizoram, Manipur and the Andaman and Nicobar Islands. The National Forest Policy (1952) aimed for 33% of area under forest.",
+      "Land degradation by region: mining (Jharkhand, Chhattisgarh, Madhya Pradesh, Odisha); overgrazing (Gujarat, Rajasthan, Madhya Pradesh, Maharashtra); over-irrigation causing waterlogging, salinity and alkalinity (Punjab, Haryana, western Uttar Pradesh); dust from mineral processing such as grinding limestone for cement and calcite and soapstone for ceramics.",
+      "Alluvial soil: covers the northern plains (deposited by the Indus, Ganga and Brahmaputra) and the eastern coastal deltas. Bangar is old alluvium with more kankar nodules; khadar is new alluvium, finer and more fertile. It is rich in potash, phosphoric acid and lime, and suits sugarcane, paddy and wheat.",
+      "Black (regur) soil: formed from Deccan trap (basalt) lava in Maharashtra, Saurashtra, Malwa, Madhya Pradesh and Chhattisgarh. It is clayey and moisture-retentive, rich in calcium carbonate, magnesium, potash and lime but poor in phosphoric content, develops deep cracks in hot weather (self-aeration) and suits cotton.",
+      "Red and yellow soil forms on crystalline igneous rocks in low-rainfall areas; it is red from iron and yellow when hydrated. Laterite soil (Latin 'later' = brick) forms under high temperature and heavy rainfall with intense leaching; it is low in humus because heat kills decomposers, and with manure it grows tea, coffee and cashew. Arid soil is sandy and saline with kankar in its lower layers (western Rajasthan). Forest soil is acidic with low humus on snow-covered slopes and fertile on river terraces.",
+      "Soil erosion and conservation: running water forms gullies and bad land (Chambal ravines); sheet erosion removes topsoil over large areas; wind blows away loose soil. Conservation methods: contour ploughing, terrace farming (western and central Himalayas), strip cropping (grass strips between crops) and shelter belts (rows of trees that stabilised sand dunes in western India)."
+    ],
+    "traps": [
+      "Confusing stock with reserves: stock cannot be used for lack of technology, reserves can be used but are saved for the future.",
+      "Mixing up fallow categories: current fallow is one year or less, other than current fallow is 1 to 5 years, culturable waste land is more than 5 years.",
+      "Calling black soil rich in phosphorus: it is poor in phosphoric content though rich in lime, potash, magnesium and calcium carbonate.",
+      "Reversing bangar and khadar: bangar is old alluvium with more kankar, khadar is new and more fertile.",
+      "Linking the wrong cause of land degradation to a region: over-irrigation in Punjab and Haryana, overgrazing in Gujarat and Rajasthan, mining in Jharkhand and Odisha."
+    ],
+    "examTip": "Learn each soil as a set of three facts (how it forms, where it is found, which crop it suits) and eliminate any option that breaks even one of these links."
+  },
+  "questions": [
+    {
+      "text": "Village ponds, grazing grounds and burial grounds that are accessible to all the people of a village are examples of which type of resource, classified on the basis of ownership?",
+      "difficulty": "EASY",
+      "options": ["Individual resources", "Community-owned resources", "National resources", "International resources"],
+      "answer": 1,
+      "explanation": "On the basis of ownership, resources are individual, community-owned, national or international. Resources accessible to all members of a community, such as village commons (grazing grounds, burial grounds, village ponds) and public parks or playgrounds in towns, are community-owned resources."
+    },
+    {
+      "text": "Rajasthan and Gujarat have enormous possibilities for developing wind and solar energy, but these have not yet been developed properly. On the basis of status of development, these are:",
+      "difficulty": "EASY",
+      "options": ["Developed resources", "Stock", "Potential resources", "Reserves"],
+      "answer": 2,
+      "explanation": "Developed resources have been surveyed and are already being used. Potential resources are found in a region but have not been utilised so far. Wind and solar energy in western India fit this description, so they are potential resources."
+    },
+    {
+      "text": "Water is a compound of hydrogen and oxygen, and hydrogen could be a rich source of energy. However, we do not yet have the technical know-how to use it for this purpose. Hence, for energy, hydrogen in water is classified as:",
+      "difficulty": "MEDIUM",
+      "options": ["Stock", "Reserves", "Potential resource", "Developed resource"],
+      "answer": 0,
+      "explanation": "Stock includes materials that can satisfy human needs but cannot be accessed because we lack the appropriate technology. Reserves are a part of stock that can be used with existing technology but are kept for the future. Since the technology to use hydrogen this way is not available, it is stock."
+    },
+    {
+      "text": "Oceanic resources lying beyond how many nautical miles from the coast (the limit of the Exclusive Economic Zone) belong to the open ocean and cannot be used by any single country without the agreement of international institutions?",
+      "difficulty": "EASY",
+      "options": ["12 nautical miles", "24 nautical miles", "100 nautical miles", "200 nautical miles"],
+      "answer": 3,
+      "explanation": "Oceanic area up to 12 nautical miles (22.2 km) from the coast is territorial water and a national resource. Oceanic resources beyond 200 nautical miles of the Exclusive Economic Zone belong to the open ocean. These are international resources, regulated by international institutions. So the answer is 200 nautical miles."
+    },
+    {
+      "text": "A farmer has left a plot of land uncultivated for the past three agricultural years to let it regain fertility. In India's land-use classification, this plot falls under:",
+      "difficulty": "MEDIUM",
+      "options": ["Current fallow", "Other than current fallow", "Culturable waste land", "Net sown area"],
+      "answer": 1,
+      "explanation": "Current fallow is land left uncultivated for one agricultural year or less. Other than current fallow is land left uncultivated for the past 1 to 5 agricultural years. Culturable waste land has been left uncultivated for more than 5 agricultural years. Three years falls in the 1 to 5 year range, so the plot is other than current fallow."
+    },
+    {
+      "text": "Assertion (A): Alluvial soils are highly fertile and support intensive agriculture.\nReason (R): The entire northern plains of India are made of alluvial soil.\nChoose the correct option.",
+      "difficulty": "MEDIUM",
+      "options": ["Both A and R are true, and R is the correct explanation of A.", "Both A and R are true, but R is not the correct explanation of A.", "A is true, but R is false.", "A is false, but R is true."],
+      "answer": 1,
+      "explanation": "A is true: alluvial soils are very fertile and contain enough potash, phosphoric acid and lime for sugarcane, paddy and wheat. R is also true: the northern plains were built by alluvium deposited by the Indus, Ganga and Brahmaputra. But R only tells us where the soil is found; it does not explain why the soil is fertile. So both are true but R is not the correct explanation of A."
+    },
+    {
+      "text": "In Punjab, Haryana and western Uttar Pradesh, which human activity is mainly responsible for land degradation?",
+      "difficulty": "MEDIUM",
+      "options": ["Mining activities", "Overgrazing by cattle", "Over-irrigation, leading to waterlogging and an increase in salinity and alkalinity", "Shifting cultivation"],
+      "answer": 2,
+      "explanation": "NCERT links each cause of land degradation to particular states. Mining affects Jharkhand, Chhattisgarh, Madhya Pradesh and Odisha. Overgrazing affects Gujarat, Rajasthan, Madhya Pradesh and Maharashtra. In Punjab, Haryana and western Uttar Pradesh, over-irrigation causes waterlogging, which increases salinity and alkalinity in the soil."
+    },
+    {
+      "text": "Black soil gets aerated naturally to some extent, which helps the crops grown in it. Which property of black soil is responsible for this?",
+      "difficulty": "MEDIUM",
+      "options": ["It is rich in phosphoric content", "It has a very low capacity to hold moisture", "It is coarse and sandy in texture", "It develops deep cracks during hot weather"],
+      "answer": 3,
+      "explanation": "Black (regur) soil is made of extremely fine clayey material and holds moisture well, so options about low moisture and sandy texture are wrong. It is rich in calcium carbonate, magnesium, potash and lime but poor in phosphoric content. In hot weather it develops deep cracks, which allow air into the soil. So the deep cracks provide aeration."
+    },
+    {
+      "text": "Alluvial soils of the northern plains are classified by age. The older alluvium, which has a higher concentration of kankar nodules, is called (i) ...., and the newer, finer and more fertile alluvium is called (ii) .... . Choose the correct pair for (i) and (ii).",
+      "difficulty": "MEDIUM",
+      "options": ["Bangar; Khadar", "Khadar; Bangar", "Regur; Bhabar", "Kankar; Bangar"],
+      "answer": 0,
+      "explanation": "By age, alluvial soils are divided into old alluvium (bangar) and new alluvium (khadar). Bangar has more kankar nodules. Khadar has more fine particles and is more fertile than bangar. Regur is black soil and bhabar is a Himalayan foothill belt, so they do not fit. The answer is Bangar; Khadar."
+    },
+    {
+      "text": "Match the soil conservation method with its correct description:\n(i) Terrace cultivation\n(ii) Shelter belts\n(iii) Strip cropping\n(iv) Contour ploughing\n(a) Rows of trees planted to check wind; they helped stabilise sand dunes in western India\n(b) Ploughing along contour lines to slow down water flowing down slopes\n(c) Steps cut on hill slopes; well developed in the western and central Himalayas\n(d) Strips of grass left to grow between crops to break the force of wind",
+      "difficulty": "HARD",
+      "options": ["(i)-a, (ii)-c, (iii)-d, (iv)-b", "(i)-c, (ii)-d, (iii)-a, (iv)-b", "(i)-c, (ii)-a, (iii)-d, (iv)-b", "(i)-b, (ii)-a, (iii)-d, (iv)-c"],
+      "answer": 2,
+      "explanation": "Terrace cultivation cuts steps on slopes, so (i)-c. Shelter belts are rows of trees that stabilised sand dunes and the desert in western India, so (ii)-a. Strip cropping leaves strips of grass between crops to break the wind, so (iii)-d. Contour ploughing follows contour lines to slow water flowing down slopes, so (iv)-b. The correct match is (i)-c, (ii)-a, (iii)-d, (iv)-b."
+    },
+    {
+      "text": "Assertion (A): Laterite soil generally has a low humus content.\nReason (R): The high temperature in laterite regions destroys most micro-organisms, particularly decomposers such as bacteria.\nChoose the correct option.",
+      "difficulty": "HARD",
+      "options": ["Both A and R are true, and R is the correct explanation of A.", "Both A and R are true, but R is not the correct explanation of A.", "A is true, but R is false.", "A is false, but R is true."],
+      "answer": 0,
+      "explanation": "Laterite soil develops in areas of high temperature and heavy rainfall, where intense leaching takes place. Humus is formed when decomposers break down organic matter. High temperature kills most decomposers such as bacteria, so little humus forms. Both statements are true and R explains A. Laterite soil becomes useful for tea, coffee and cashew only with adequate manure and fertilisers."
+    }
+  ]
+}

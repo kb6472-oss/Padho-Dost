@@ -1,0 +1,121 @@
+{
+  "exam": "class-12",
+  "subject": "physics",
+  "chapter": "current-electricity",
+  "notes": {
+    "summary": "This chapter covers electric current, drift velocity, mobility and current density, Ohm's law and resistivity (including its temperature dependence), electrical energy and power, emf and internal resistance of a cell, combinations of cells, Kirchhoff's rules and the Wheatstone bridge. CBSE tests short numericals on drift velocity, resistance, cells and power along with conceptual and assertion-reason questions on resistivity and Kirchhoff's rules.",
+    "keyPoints": [
+      "Current I = neAv_d; current density j = I/A = nev_d = σE. Drift speeds are tiny: n = 10²⁹ m⁻³, A = 1 mm², I = 1.6 A gives v_d = 10⁻⁴ m s⁻¹.",
+      "Drift velocity v_d = eEτ/m; mobility μ = v_d/E = eτ/m, SI unit m² V⁻¹ s⁻¹.",
+      "Ohm's law V = IR and R = ρl/A. Resistivity ρ = m/(ne²τ) depends on the material and temperature only, not on length or area. Stretching a wire to n times its length (volume constant) gives R' = n²R.",
+      "Metals: ρ_T = ρ₀[1 + α(T − T₀)]; ρ rises with temperature because the relaxation time τ falls. Semiconductors: ρ falls with temperature because the carrier density n rises sharply. Alloys such as nichrome, manganin and constantan have a very small α.",
+      "Power P = VI = I²R = V²/R; energy W = Pt, and 1 kWh = 3.6 × 10⁶ J. In series, the bulb of higher resistance (lower wattage rating) glows brighter; in parallel, the higher-rated bulb glows brighter.",
+      "Cell: while discharging V = E − Ir; while charging V = E + Ir; current I = E/(R + r). n identical cells in series: emf nE, internal resistance nr; in parallel: emf E, internal resistance r/n.",
+      "Two cells in parallel: E_eq = (E₁r₂ + E₂r₁)/(r₁ + r₂) and r_eq = r₁r₂/(r₁ + r₂). Cells in series with opposing polarity: net emf = E₁ − E₂.",
+      "Kirchhoff's junction rule (ΣI = 0 at a junction) follows from conservation of charge; the loop rule (ΣΔV = 0 around any closed loop) follows from conservation of energy.",
+      "A Wheatstone bridge is balanced when P/Q = R/S; then no current flows through the galvanometer, and that branch can be ignored when finding the equivalent resistance."
+    ],
+    "traps": [
+      "Believing resistivity changes when a wire is cut, stretched or thickened — resistance changes, resistivity does not.",
+      "Using V = E − Ir for a battery that is being charged; during charging V = E + Ir.",
+      "Adding the emfs of cells joined with opposite polarity instead of subtracting them.",
+      "Assuming the higher-wattage bulb is always brighter — in series the lower-wattage, higher-resistance bulb is brighter.",
+      "Forgetting that 1 mm² = 10⁻⁶ m² in drift velocity and resistance calculations."
+    ],
+    "examTip": "Before applying Kirchhoff's rules, mark a current direction in every branch and a sign for every cell and resistor; a negative answer only means the actual current flows the other way."
+  },
+  "questions": [
+    {
+      "text": "Mobility of charge carriers is defined as the drift velocity per unit electric field. Its SI unit is",
+      "difficulty": "EASY",
+      "options": ["m V⁻¹ s⁻¹", "m² V⁻¹ s⁻¹", "V m⁻² s", "m² V s⁻¹"],
+      "answer": 1,
+      "explanation": "Mobility μ = v_d/E.\nUnit = (m s⁻¹)/(V m⁻¹) = m² V⁻¹ s⁻¹."
+    },
+    {
+      "text": "A copper wire of cross-sectional area 1.0 × 10⁻⁶ m² carries a current of 1.6 A. If the number density of free electrons in copper is 1.0 × 10²⁹ m⁻³, the drift speed of the electrons is (e = 1.6 × 10⁻¹⁹ C)",
+      "difficulty": "MEDIUM",
+      "options": ["1.0 × 10⁻⁴ m s⁻¹", "1.0 × 10⁻² m s⁻¹", "1.0 × 10⁻³ m s⁻¹", "1.0 × 10⁻⁵ m s⁻¹"],
+      "answer": 0,
+      "explanation": "I = neAv_d, so v_d = I/(neA).\nneA = 1.0 × 10²⁹ × 1.6 × 10⁻¹⁹ × 1.0 × 10⁻⁶ = 1.6 × 10⁴ C m⁻¹.\nv_d = 1.6 / (1.6 × 10⁴) = 1.0 × 10⁻⁴ m s⁻¹, i.e. about 0.1 mm per second."
+    },
+    {
+      "text": "A metal wire of resistance R is stretched uniformly until its length is doubled. Assuming its volume and resistivity remain unchanged, its new resistance is",
+      "difficulty": "EASY",
+      "options": ["R/2", "2R", "4R", "R/4"],
+      "answer": 2,
+      "explanation": "With volume constant, doubling the length halves the cross-sectional area.\nR = ρl/A, so R' = ρ(2l)/(A/2) = 4ρl/A.\nNew resistance = 4R."
+    },
+    {
+      "text": "The resistance of a metal wire is 10 Ω at 20 °C and 12 Ω at 120 °C. Taking 20 °C as the reference temperature, its temperature coefficient of resistance is",
+      "difficulty": "MEDIUM",
+      "options": ["2 × 10⁻² °C⁻¹", "1.67 × 10⁻³ °C⁻¹", "2 × 10⁻⁴ °C⁻¹", "2 × 10⁻³ °C⁻¹"],
+      "answer": 3,
+      "explanation": "R_T = R₀[1 + α(T − T₀)], so α = (R_T − R₀)/[R₀(T − T₀)].\nα = (12 − 10)/(10 × 100) = 2/1000.\nα = 2 × 10⁻³ °C⁻¹.\nDividing by 12 Ω instead of the reference value 10 Ω gives the wrong value 1.67 × 10⁻³ °C⁻¹."
+    },
+    {
+      "text": "A storage battery of emf 12 V and internal resistance 0.5 Ω is being charged by an external source with a current of 2 A. The potential difference across the terminals of the battery during charging is",
+      "difficulty": "MEDIUM",
+      "options": ["11 V", "13 V", "12 V", "14 V"],
+      "answer": 1,
+      "explanation": "During charging, current is driven into the battery at its positive terminal, so the terminal voltage must exceed the emf by the drop across the internal resistance.\nV = E + Ir = 12 + 2 × 0.5.\nV = 13 V. The value 11 V (E − Ir) applies only when the battery is discharging."
+    },
+    {
+      "text": "Assertion (A): If the length of a metal wire is doubled at the same temperature, its resistivity also doubles.\nReason (R): The resistance of a wire of uniform cross-section is directly proportional to its length.\nChoose the correct option:",
+      "difficulty": "EASY",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+        "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+        "Assertion (A) is true, but Reason (R) is false.",
+        "Assertion (A) is false, but Reason (R) is true."
+      ],
+      "answer": 3,
+      "explanation": "Resistivity ρ = m/(ne²τ) depends only on the material and temperature, not on the dimensions, so A is false.\nR = ρl/A shows that resistance is proportional to length, so R is true.\nHence A is false but R is true."
+    },
+    {
+      "text": "Two cells of emf 6 V and 2 V, each of internal resistance 1 Ω, are connected in series with opposing polarity (positive terminal joined to positive terminal), and the combination is connected across an external resistor of 2 Ω. The current in the circuit is",
+      "difficulty": "MEDIUM",
+      "options": ["1 A", "2 A", "0.5 A", "4 A"],
+      "answer": 0,
+      "explanation": "By Kirchhoff's loop rule the opposing emfs subtract: net emf = 6 − 2 = 4 V.\nTotal resistance in the loop = 1 + 1 + 2 = 4 Ω.\nI = 4/4 = 1 A, in the direction driven by the 6 V cell.\nAdding the emfs by mistake gives 8/4 = 2 A."
+    },
+    {
+      "text": "With an increase in temperature, the resistivity of a semiconductor such as silicon decreases. The main reason is that",
+      "difficulty": "MEDIUM",
+      "options": [
+        "the relaxation time of the charge carriers increases",
+        "the number density of charge carriers increases",
+        "the mass of the charge carriers decreases",
+        "the vibrations of the lattice ions decrease"
+      ],
+      "answer": 1,
+      "explanation": "Resistivity ρ = m/(ne²τ).\nIn a semiconductor, raising the temperature frees many more charge carriers, so n increases sharply.\nThis outweighs the fall in relaxation time τ (which gets shorter as lattice vibrations increase), so ρ decreases."
+    },
+    {
+      "text": "Two electric bulbs rated 100 W, 220 V and 60 W, 220 V are connected in series across a 220 V supply. Which statement is correct?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "The 100 W bulb glows brighter because it has the higher power rating.",
+        "Both bulbs glow equally because the same current flows through them.",
+        "The 60 W bulb glows brighter because it has the higher resistance and the same current flows through both.",
+        "The 60 W bulb glows brighter because a larger current flows through it."
+      ],
+      "answer": 2,
+      "explanation": "R = V²/P: R(100 W) = 220²/100 = 484 Ω; R(60 W) = 220²/60 ≈ 807 Ω.\nIn series the current is the same: I = 220/(484 + 807) ≈ 0.17 A.\nP = I²R is larger for the larger resistance: about 23.4 W in the 60 W bulb against 14.1 W in the 100 W bulb.\nSo the 60 W bulb glows brighter."
+    },
+    {
+      "text": "Two cells, one of emf 6 V and internal resistance 1 Ω and the other of emf 3 V and internal resistance 2 Ω, are connected in parallel with like terminals joined together. The equivalent emf and equivalent internal resistance of the combination are",
+      "difficulty": "HARD",
+      "options": ["5 V and 2/3 Ω", "4.5 V and 2/3 Ω", "4 V and 2/3 Ω", "9 V and 3 Ω"],
+      "answer": 0,
+      "explanation": "For two cells in parallel: E_eq = (E₁r₂ + E₂r₁)/(r₁ + r₂) and r_eq = r₁r₂/(r₁ + r₂).\nE_eq = (6 × 2 + 3 × 1)/(1 + 2) = 15/3 = 5 V.\nr_eq = (1 × 2)/(1 + 2) = 2/3 Ω ≈ 0.67 Ω.\nCheck: the circulating current (6 − 3)/(1 + 2) = 1 A gives a terminal voltage of 6 − 1 × 1 = 5 V."
+    },
+    {
+      "text": "In a Wheatstone bridge ABCD, P = 2 Ω is connected between A and B, Q = 4 Ω between B and C, R = 3 Ω between A and D, and S = 6 Ω between D and C. A galvanometer of resistance 10 Ω is connected between B and D. The equivalent resistance between A and C is",
+      "difficulty": "HARD",
+      "options": ["15 Ω", "13.6 Ω", "3.6 Ω", "6 Ω"],
+      "answer": 2,
+      "explanation": "P/Q = 2/4 = 1/2 and R/S = 3/6 = 1/2, so the bridge is balanced and no current flows through the galvanometer.\nThe galvanometer branch can be ignored: arm ABC = 2 + 4 = 6 Ω and arm ADC = 3 + 6 = 9 Ω, in parallel.\nR_eq = (6 × 9)/(6 + 9) = 54/15 = 3.6 Ω."
+    }
+  ]
+}

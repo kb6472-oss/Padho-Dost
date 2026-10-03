@@ -1,0 +1,137 @@
+{
+  "exam": "class-12",
+  "subject": "accountancy",
+  "chapter": "partnership-accounts",
+  "notes": {
+    "summary": "This chapter covers partnership fundamentals (the deed, rules of the Indian Partnership Act, 1932 when the deed is silent, the Profit and Loss Appropriation Account, fixed and fluctuating capitals, interest on capital and drawings, guarantees and past adjustments), valuation and treatment of goodwill, change in profit-sharing ratio, admission, retirement and death of a partner, and dissolution of the firm. CBSE tests it with ratio calculations, short numericals on goodwill and interest, choosing the correct journal entry, and assertion-reason items.",
+    "keyPoints": [
+      "If the deed is silent (Partnership Act, 1932): profits are shared equally; no interest on capital or drawings; no salary or commission to partners; interest on a partner's loan at 6% p.a. — a charge, payable even if the firm makes a loss.",
+      "Interest on drawings of equal amounts: beginning of each month → 6.5 months, middle → 6 months, end → 5.5 months; beginning of each quarter → 7.5 months, end of each quarter → 4.5 months. Example: Rs 5,000 at the end of every month at 6% → 60,000 × 6% × 5.5/12 = Rs 1,650.",
+      "Interest on capital, salary and commission to partners are appropriations (P&L Appropriation Account); if profit is inadequate, interest on capital is limited to the available profit, shared in the ratio of interest amounts. Interest on a partner's loan and rent paid to a partner are charges (P&L Account).",
+      "Fixed capital method: capital accounts show only capital introduced or permanently withdrawn; drawings, interest, salary and share of profit go to Current Accounts. Fluctuating method: all items pass through the capital account.",
+      "Goodwill: average profit method = average profit × years' purchase; super profit = average profit − (capital employed × normal rate); capitalisation of average profit = (average profit × 100 ÷ normal rate) − net assets. As per AS 26 goodwill is not raised in the books; it is adjusted through partners' capital accounts.",
+      "Sacrificing ratio = old share − new share (admission, change in ratio); gaining ratio = new share − old share (retirement, death, change in ratio). Hidden goodwill = total capital of the new firm implied by the new partner's capital and share − actual combined capital including the new partner's.",
+      "On admission, retirement or death, revaluation profit or loss and accumulated profits (General Reserve, credit balance of P&L) belong to the old partners in the old ratio; premium for goodwill goes to sacrificing partners in the sacrificing ratio; a retiring partner's share of goodwill is debited to gaining partners in the gaining ratio.",
+      "Death: the deceased partner's share of profit up to the date of death (time or turnover basis) is debited to Profit and Loss Suspense Account. Example: 1/4 share, last year's profit Rs 1,20,000, books closed 31 March, death on 30 June → 1,20,000 × 3/12 × 1/4 = Rs 7,500.",
+      "Dissolution: Realisation Account is debited with assets (other than cash), payments of liabilities and realisation expenses, and credited with liabilities transferred and amounts realised; the balance is profit or loss shared in the profit-sharing ratio. Outside liabilities are paid first, then partners' loans, then capitals.",
+      "A partnership needs at least 2 partners; the maximum is 50 (Rule 10 of the Companies (Miscellaneous) Rules, 2014 under Section 464 of the Companies Act, 2013)."
+    ],
+    "traps": [
+      "Using 6.5 months for drawings made at the end of every month — 6.5 months is for the beginning of the month; the end of the month gives 5.5 months.",
+      "Treating interest on a partner's loan as an appropriation — it is a charge on profit and is allowed even when the firm suffers a loss.",
+      "Distributing General Reserve or revaluation profit on admission in the new ratio instead of the old ratio.",
+      "Raising a Goodwill Account on admission or retirement — AS 26 allows only purchased goodwill to be recorded, so adjust through capital accounts.",
+      "Using the new ratio as the gaining ratio when the remaining partners agree a fresh ratio — compute new share minus old share for each partner."
+    ],
+    "examTip": "Before computing, write the time period (5.5, 6 or 6.5 months, or months up to death) and decide whether the item is a charge or an appropriation — most errors come from these two steps."
+  },
+  "questions": [
+    {
+      "text": "A partner withdrew Rs 5,000 at the end of every month during the year ended 31 March. The partnership deed provides for interest on drawings at 6% per annum. The interest on drawings for the year is:",
+      "difficulty": "MEDIUM",
+      "options": ["Rs 3,600", "Rs 1,950", "Rs 1,650", "Rs 1,800"],
+      "answer": 2,
+      "explanation": "Total drawings = 5,000 × 12 = Rs 60,000.\nFor equal amounts withdrawn at the end of every month, the average period = (11 + 0)/2 = 5.5 months.\nInterest = 60,000 × 6/100 × 5.5/12 = Rs 1,650.\nRs 1,950 would apply to withdrawals at the beginning of each month (6.5 months)."
+    },
+    {
+      "text": "A and B are partners sharing profits in the ratio 3:2. From 1 April they decide to share future profits equally. On that date the goodwill of the firm is valued at Rs 60,000, and as per AS 26 no Goodwill Account is to be raised. The adjustment entry for goodwill is:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Debit B's Capital and credit A's Capital by Rs 6,000",
+        "Debit A's Capital and credit B's Capital by Rs 6,000",
+        "Debit B's Capital and credit A's Capital by Rs 12,000",
+        "Debit Goodwill Account Rs 60,000 and credit A's and B's Capital in 3:2"
+      ],
+      "answer": 0,
+      "explanation": "A: old share 3/5, new share 1/2 → sacrifice = 3/5 − 1/2 = 1/10.\nB: old share 2/5, new share 1/2 → gain = 1/2 − 2/5 = 1/10.\nThe gaining partner compensates the sacrificing partner: 60,000 × 1/10 = Rs 6,000.\nEntry: B's Capital A/c Dr 6,000; To A's Capital A/c 6,000 (no Goodwill Account under AS 26)."
+    },
+    {
+      "text": "X and Y are partners sharing profits equally with capitals of Rs 50,000 each. They admit Z for a 1/3 share in future profits. Z brings Rs 60,000 as his capital but nothing for goodwill. The hidden goodwill of the firm is:",
+      "difficulty": "HARD",
+      "options": ["Rs 80,000", "Rs 6,667", "Rs 1,20,000", "Rs 20,000"],
+      "answer": 3,
+      "explanation": "Total capital of the new firm implied by Z's capital = 60,000 × 3 = Rs 1,80,000.\nActual combined capital = 50,000 + 50,000 + 60,000 = Rs 1,60,000.\nHidden goodwill = 1,80,000 − 1,60,000 = Rs 20,000.\nRs 80,000 results from forgetting to include Z's own capital; Rs 6,667 is only Z's share (1/3) of the goodwill."
+    },
+    {
+      "text": "Assertion (A): On the admission of a new partner, the balance of General Reserve appearing in the books is transferred to the capital accounts of the old partners in their old profit-sharing ratio.\nReason (R): Accumulated profits and reserves were earned before the admission and therefore belong to the old partners.\nChoose the correct option:",
+      "difficulty": "EASY",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+        "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+        "Assertion (A) is true, but Reason (R) is false.",
+        "Assertion (A) is false, but Reason (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "Reserves are profits earned and retained before the change in the firm, so only the old partners are entitled to them.\nThat is why they are credited to the old partners in the old ratio.\nBoth A and R are true, and R correctly explains A."
+    },
+    {
+      "text": "A, B and C are partners sharing profits in the ratio 4:3:2. B retires, and A and C agree to share future profits in the ratio 5:3. The gaining ratio of A and C is:",
+      "difficulty": "MEDIUM",
+      "options": ["5:3", "13:11", "2:1", "11:13"],
+      "answer": 1,
+      "explanation": "Gain = new share − old share.\nA: 5/8 − 4/9 = (45 − 32)/72 = 13/72.\nC: 3/8 − 2/9 = (27 − 16)/72 = 11/72.\nCheck: 13/72 + 11/72 = 24/72 = 1/3, which equals B's share of 3/9.\nGaining ratio = 13:11."
+    },
+    {
+      "text": "P, Q and R are partners sharing profits in the ratio 2:2:1. R retires, and P and Q decide to share future profits equally. The goodwill of the firm is valued at Rs 1,50,000 and no Goodwill Account is to be raised. The journal entry for R's share of goodwill is:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Goodwill A/c Dr 1,50,000; To P's Capital 60,000, To Q's Capital 60,000, To R's Capital 30,000",
+        "R's Capital A/c Dr 30,000; To P's Capital A/c 15,000, To Q's Capital A/c 15,000",
+        "P's Capital A/c Dr 15,000, Q's Capital A/c Dr 15,000; To R's Capital A/c 30,000",
+        "P's Capital A/c Dr 75,000, Q's Capital A/c Dr 75,000; To R's Capital A/c 1,50,000"
+      ],
+      "answer": 2,
+      "explanation": "R's share of goodwill = 1,50,000 × 1/5 = Rs 30,000.\nGaining ratio: P = 1/2 − 2/5 = 1/10; Q = 1/2 − 2/5 = 1/10, i.e. 1:1.\nThe gaining partners compensate the retiring partner: P's Capital Dr 15,000, Q's Capital Dr 15,000; To R's Capital 30,000.\nNo Goodwill Account is raised because AS 26 permits only purchased goodwill to be recorded."
+    },
+    {
+      "text": "A firm closes its books on 31 March every year. S, a partner with a 1/4 share in profits, dies on 30 June. His share of profit up to the date of death is to be calculated on the basis of the previous year's profit of Rs 1,20,000. The amount of his share and the account debited with it are:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Rs 30,000; Profit and Loss Suspense Account",
+        "Rs 7,500; Profit and Loss Suspense Account",
+        "Rs 7,500; Revaluation Account",
+        "Rs 10,000; Profit and Loss Suspense Account"
+      ],
+      "answer": 1,
+      "explanation": "Period from 1 April to 30 June = 3 months.\nShare of profit = 1,20,000 × 3/12 × 1/4 = Rs 7,500.\nAs the books are not closed on the date of death, the amount is debited to Profit and Loss Suspense Account and credited to S's Capital Account."
+    },
+    {
+      "text": "On the dissolution of a firm, assets (other than cash) with a book value of Rs 2,00,000 realised Rs 1,80,000. Creditors of Rs 50,000 were paid Rs 48,000 in full settlement, and realisation expenses of Rs 3,000 were paid by the firm. The loss on realisation is:",
+      "difficulty": "HARD",
+      "options": ["Rs 23,000", "Rs 25,000", "Rs 18,000", "Rs 21,000"],
+      "answer": 3,
+      "explanation": "Realisation A/c debit side: assets 2,00,000 + creditors paid 48,000 + expenses 3,000 = Rs 2,51,000.\nCredit side: creditors transferred 50,000 + cash from assets 1,80,000 = Rs 2,30,000.\nLoss = 2,51,000 − 2,30,000 = Rs 21,000.\nShortcut: loss on assets 20,000 − saving on creditors 2,000 + expenses 3,000 = Rs 21,000."
+    },
+    {
+      "text": "A and B share profits equally. Their capitals were Rs 1,00,000 and Rs 50,000 respectively. After the year's profit had been distributed, it was found that interest on capital at 10% per annum, provided in the deed, had been omitted. The single adjusting entry to rectify the omission is:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Debit A's Capital and credit B's Capital by Rs 2,500",
+        "Debit B's Capital and credit A's Capital by Rs 5,000",
+        "Debit Profit and Loss Adjustment Account and credit A's Capital by Rs 10,000",
+        "Debit B's Capital and credit A's Capital by Rs 2,500"
+      ],
+      "answer": 3,
+      "explanation": "Interest omitted: A = 10% of 1,00,000 = Rs 10,000; B = 10% of 50,000 = Rs 5,000; total Rs 15,000.\nHad interest been allowed, the divisible profit would have been Rs 15,000 lower, borne equally: A 7,500, B 7,500.\nNet effect: A = 10,000 − 7,500 = +2,500; B = 5,000 − 7,500 = −2,500.\nEntry: B's Capital A/c Dr 2,500; To A's Capital A/c 2,500."
+    },
+    {
+      "text": "As per Section 464 of the Companies Act, 2013 read with the Companies (Miscellaneous) Rules, 2014, the maximum number of partners a partnership firm can have is:",
+      "difficulty": "EASY",
+      "options": ["20", "50", "100", "Unlimited"],
+      "answer": 1,
+      "explanation": "The Indian Partnership Act, 1932 does not itself fix a maximum number of partners.\nSection 464 of the Companies Act, 2013 lets the government prescribe a limit of up to 100.\nRule 10 of the Companies (Miscellaneous) Rules, 2014 fixes the limit at 50 partners."
+    },
+    {
+      "text": "Assertion (A): Interest on a partner's loan to the firm is allowed even if the firm suffers a loss during the year.\nReason (R): Interest on a partner's loan is an appropriation of profit and is debited to the Profit and Loss Appropriation Account.\nChoose the correct option:",
+      "difficulty": "EASY",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+        "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+        "Assertion (A) is true, but Reason (R) is false.",
+        "Assertion (A) is false, but Reason (R) is true."
+      ],
+      "answer": 2,
+      "explanation": "Interest on a partner's loan (6% p.a. if the deed is silent) is a charge against profit and is debited to the Profit and Loss Account.\nBeing a charge, it is payable whether the firm earns a profit or suffers a loss, so A is true.\nR is false because it is not an appropriation.\nHence A is true but R is false."
+    }
+  ]
+}

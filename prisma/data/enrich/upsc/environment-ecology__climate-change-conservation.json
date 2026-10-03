@@ -1,0 +1,161 @@
+{
+  "exam": "upsc",
+  "subject": "environment-ecology",
+  "chapter": "climate-change-conservation",
+  "notes": {
+    "summary": "This chapter covers the greenhouse effect and climate feedbacks, ozone depletion, the international climate and environment conventions, and India's conservation laws, programmes and protected areas. UPSC Prelims tests it heavily through convention–subject pairs, statements on the Kyoto and Paris frameworks, and questions on which Act or body handles what.",
+    "keyPoints": [
+      "Greenhouse gases: CO₂, CH₄, N₂O, tropospheric O₃, water vapour and fluorinated gases. GWP compares warming per unit mass with CO₂ (= 1); SF₆ has the highest GWP. Methane comes from flooded paddy fields, livestock (enteric fermentation), landfills and wetlands.",
+      "Feedbacks: ice and snow have high albedo (fresh snow reflects over 80%, open ocean under 10%), so melting sea ice raises absorption and warming (ice–albedo feedback). Oceans absorb CO₂ and become more acidic.",
+      "Ozone: the stratospheric layer absorbs UV-B. The Antarctic ozone hole peaks in the southern spring (September–October); polar stratospheric clouds (below about −78°C) release active chlorine, and a single Cl atom destroys thousands of O₃ molecules catalytically (Cl + O₃ → ClO + O₂). Vienna Convention 1985, Montreal Protocol 1987, Kigali Amendment 2016 (HFC phase-down).",
+      "UNFCCC (Rio, 1992) – principle of common but differentiated responsibilities. Kyoto Protocol (1997) – binding targets for Annex I countries, six-gas basket (CO₂, CH₄, N₂O, HFCs, PFCs, SF₆) and three market mechanisms (Emissions Trading, Joint Implementation, Clean Development Mechanism; 1 CER = 1 tonne CO₂e).",
+      "Paris Agreement (2015): every country submits Nationally Determined Contributions, updated every five years with rising ambition; goal of well below 2°C and efforts towards 1.5°C. IPCC (1988) was set up by WMO and UNEP.",
+      "Other conventions: CBD (1992), Ramsar (1971, wetlands), CITES (1973, trade in endangered species), Bonn/CMS (1979, migratory species), Basel (1989, hazardous wastes), Rotterdam (1998, prior informed consent for chemicals), Stockholm (2001, persistent organic pollutants).",
+      "Indian laws: Wild Life (Protection) Act 1972 (schedules; NTCA added in 2006), Forest (Conservation) Act 1980, Environment (Protection) Act 1986 (umbrella law under which Eco-Sensitive Zones and EIA are notified), Biological Diversity Act 2002 (NBA at Chennai, State Biodiversity Boards, Biodiversity Management Committees; implements the CBD).",
+      "Programmes: Project Tiger (1973), Project Elephant (1992), National Action Plan on Climate Change (2008) with eight missions: Solar, Enhanced Energy Efficiency, Sustainable Habitat, Water, Sustaining the Himalayan Ecosystem, Green India, Sustainable Agriculture, Strategic Knowledge for Climate Change.",
+      "Protected areas: a biosphere reserve has a core zone (strictly protected), a buffer zone (research and education) and a transition zone (human settlements and sustainable use)."
+    ],
+    "traps": [
+      "Mixing up the Stockholm Convention (2001, POPs) with ozone protection (Vienna/Montreal) or with the 1972 Stockholm Conference on the Human Environment.",
+      "Thinking the Kigali Amendment targets ozone-depleting substances; HFCs do not deplete ozone but are potent greenhouse gases.",
+      "Assuming CFCs are in the Kyoto basket; they are controlled under the Montreal Protocol instead.",
+      "Believing Eco-Sensitive Zones are notified under the Wild Life Act, or that the Biological Diversity Act implements the Ramsar Convention.",
+      "Thinking one chlorine atom destroys only one ozone molecule; the reaction is catalytic."
+    ],
+    "examTip": "Keep a one-line 'convention – year – subject' table and revise it before the exam; most UPSC environment pair questions are made by swapping subjects among these conventions."
+  },
+  "questions": [
+    {
+      "text": "Project Tiger, a centrally sponsored scheme for the conservation of the tiger and its habitat, was launched in India in:",
+      "difficulty": "EASY",
+      "options": [
+        "1972",
+        "1980",
+        "1973",
+        "1992"
+      ],
+      "answer": 2,
+      "explanation": "Project Tiger was launched on 1 April 1973, starting with nine tiger reserves, Jim Corbett among them.\nThe National Tiger Conservation Authority was later set up in 2006 by amending the Wild Life (Protection) Act.\n1972 is the year of the Wild Life (Protection) Act, 1980 the Forest (Conservation) Act and 1992 Project Elephant.\nAnswer: 1973."
+    },
+    {
+      "text": "The term 'Nationally Determined Contributions (NDCs)', under which each country sets out its own climate action targets, is associated with:",
+      "difficulty": "EASY",
+      "options": [
+        "The Paris Agreement",
+        "The Montreal Protocol",
+        "The Ramsar Convention",
+        "The Kyoto Protocol"
+      ],
+      "answer": 0,
+      "explanation": "The Paris Agreement (COP21, 2015) follows a bottom-up approach: each party decides and submits its own NDC and updates it every five years with higher ambition.\nThe Kyoto Protocol, by contrast, set top-down binding targets only for developed (Annex I) countries.\nThe Montreal Protocol deals with ozone-depleting substances and Ramsar with wetlands.\nAnswer: The Paris Agreement."
+    },
+    {
+      "text": "Which of the following is a major source of the greenhouse gas methane (CH₄)?",
+      "difficulty": "EASY",
+      "options": [
+        "Wind turbines",
+        "Flooded paddy fields and ruminant livestock",
+        "Solar photovoltaic panels",
+        "Nuclear fission in power reactors"
+      ],
+      "answer": 1,
+      "explanation": "Methane is produced when methanogenic microbes break down organic matter without oxygen.\nThis happens in waterlogged paddy fields, in the stomachs of cattle and other ruminants (enteric fermentation), in landfills and wetlands; fossil fuel extraction also leaks methane.\nWind, solar and nuclear power do not emit methane while operating.\nAnswer: Flooded paddy fields and ruminant livestock."
+    },
+    {
+      "text": "With reference to the Clean Development Mechanism (CDM), consider the following statements:\n1. It is one of the flexible market mechanisms established under the Kyoto Protocol.\n2. It allows a country with an emission-reduction commitment to earn credits by implementing emission-reduction projects in developing countries.\n3. Each Certified Emission Reduction (CER) unit is equivalent to one tonne of carbon dioxide equivalent.\nWhich of the statements given above is/are correct?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "answer": 3,
+      "explanation": "The Kyoto Protocol created three market mechanisms: International Emissions Trading, Joint Implementation and the Clean Development Mechanism (statement 1 correct).\nUnder the CDM, an Annex I party can fund an emission-reduction project in a developing (non-Annex I) country and count the resulting credits towards its own target (statement 2 correct).\nEach Certified Emission Reduction equals one tonne of CO₂ equivalent (statement 3 correct).\nAnswer: 1, 2 and 3."
+    },
+    {
+      "text": "The loss of Arctic sea ice tends to accelerate warming in the region. Which of the following best explains this?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Melting ice releases large amounts of carbon dioxide trapped within it",
+        "Ice has a high albedo, so its replacement by darker ocean water increases the absorption of solar radiation",
+        "Melting ice raises sea level, and deeper water traps more heat",
+        "Open ocean water reflects more sunlight than sea ice"
+      ],
+      "answer": 1,
+      "explanation": "Albedo is the fraction of incoming solar radiation a surface reflects.\nFresh snow and ice reflect most of the sunlight (fresh snow over 80%), while open ocean reflects less than 10% and absorbs the rest.\nWhen sea ice melts, darker water is exposed, more heat is absorbed, more ice melts, and so on: a positive ice–albedo feedback behind Arctic amplification.\nAnswer: Ice has a high albedo, so darker ocean water absorbs more solar radiation."
+    },
+    {
+      "text": "Consider the following statements regarding the 'ozone hole':\n1. It is most pronounced over Antarctica during the southern hemisphere spring (roughly September–October).\n2. Polar stratospheric clouds provide surfaces on which reactions release ozone-destroying chlorine.\n3. A single chlorine atom released from CFCs can destroy only one ozone molecule before becoming inactive.\nWhich of the statements given above is/are correct?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "1 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "answer": 1,
+      "explanation": "Statement 1 is correct: during the polar winter a vortex isolates the Antarctic air, and ozone loss peaks when sunlight returns in spring (September–October).\nStatement 2 is correct: polar stratospheric clouds form below about −78°C, and reactions on their surfaces convert stable chlorine compounds into forms that sunlight splits into free chlorine atoms.\nStatement 3 is wrong: the destruction is catalytic (Cl + O₃ → ClO + O₂; ClO + O → Cl + O₂), so one chlorine atom is regenerated and can destroy thousands of ozone molecules.\nAnswer: 1 and 2 only."
+    },
+    {
+      "text": "Which one of the following is NOT among the eight national missions launched under India's National Action Plan on Climate Change (NAPCC), 2008?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "National Mission for Sustaining the Himalayan Ecosystem",
+        "National Mission for a Green India",
+        "National Mission for Enhanced Energy Efficiency",
+        "National Mission for Clean Ganga"
+      ],
+      "answer": 3,
+      "explanation": "The eight NAPCC missions are: National Solar Mission, Enhanced Energy Efficiency, Sustainable Habitat, Water, Sustaining the Himalayan Ecosystem, Green India, Sustainable Agriculture, and Strategic Knowledge for Climate Change.\nThe National Mission for Clean Ganga is the implementing body for Ganga rejuvenation (Namami Gange); it is not part of the NAPCC.\nAnswer: National Mission for Clean Ganga."
+    },
+    {
+      "text": "Consider the following pairs of international conventions and their subject matter:\n1. Bonn Convention — Conservation of migratory species of wild animals\n2. Basel Convention — Control of transboundary movements of hazardous wastes\n3. Stockholm Convention — Protection of the ozone layer\n4. Rotterdam Convention — Prior informed consent procedure for certain hazardous chemicals and pesticides in international trade\nHow many of the pairs given above are correctly matched?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Only one",
+        "Only two",
+        "Only three",
+        "All four"
+      ],
+      "answer": 2,
+      "explanation": "Pair 1 is correct: the Bonn Convention (1979) is the Convention on Migratory Species.\nPair 2 is correct: the Basel Convention (1989) controls the transboundary movement of hazardous wastes.\nPair 3 is wrong: the Stockholm Convention (2001) deals with persistent organic pollutants such as DDT and PCBs; the ozone layer is covered by the Vienna Convention (1985) and the Montreal Protocol.\nPair 4 is correct: the Rotterdam Convention (1998) sets out the prior informed consent procedure.\nAnswer: Only three."
+    },
+    {
+      "text": "Eco-Sensitive Zones (ESZs) around national parks and wildlife sanctuaries in India are notified by the Ministry of Environment, Forest and Climate Change under the provisions of:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "The Wild Life (Protection) Act, 1972",
+        "The Forest (Conservation) Act, 1980",
+        "The Environment (Protection) Act, 1986",
+        "The Biological Diversity Act, 2002"
+      ],
+      "answer": 2,
+      "explanation": "ESZs act as 'shock absorbers' or transition areas around protected areas, where activities are classed as prohibited (e.g. commercial mining, polluting industries), regulated or permitted.\nThey are notified by the MoEFCC under Section 3 of the Environment (Protection) Act, 1986, read with the Environment (Protection) Rules.\nThe Wild Life Act governs the protected areas themselves, not the zones around them.\nAnswer: The Environment (Protection) Act, 1986."
+    },
+    {
+      "text": "With reference to the Biological Diversity Act, 2002, consider the following statements:\n1. The National Biodiversity Authority (NBA) established under it is headquartered at Chennai.\n2. Biodiversity Management Committees are to be constituted by local bodies at the local level.\n3. The Act was enacted primarily to give effect to India's obligations under the Ramsar Convention.\nWhich of the statements given above is/are correct?",
+      "difficulty": "HARD",
+      "options": [
+        "1 and 2 only",
+        "2 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "answer": 0,
+      "explanation": "The Act has a three-tier structure: the National Biodiversity Authority at Chennai (set up in 2003), State Biodiversity Boards, and Biodiversity Management Committees set up by local bodies, which prepare People's Biodiversity Registers (statements 1 and 2 correct).\nThe Act gives effect to the Convention on Biological Diversity (1992): conservation, sustainable use and fair and equitable sharing of benefits. Ramsar deals with wetlands (statement 3 wrong).\nAnswer: 1 and 2 only."
+    },
+    {
+      "text": "Which one of the following gases was NOT included in the basket of six greenhouse gases listed in Annex A of the Kyoto Protocol (1997)?",
+      "difficulty": "HARD",
+      "options": [
+        "Nitrous oxide (N₂O)",
+        "Sulphur hexafluoride (SF₆)",
+        "Perfluorocarbons (PFCs)",
+        "Chlorofluorocarbons (CFCs)"
+      ],
+      "answer": 3,
+      "explanation": "Annex A of the Kyoto Protocol lists six gases: CO₂, CH₄, N₂O, HFCs, PFCs and SF₆; nitrogen trifluoride (NF₃) was added for the second commitment period by the Doha Amendment (2012).\nCFCs are powerful greenhouse gases but were left out because they were already being phased out as ozone-depleting substances under the Montreal Protocol.\nAnswer: Chlorofluorocarbons (CFCs)."
+    }
+  ]
+}

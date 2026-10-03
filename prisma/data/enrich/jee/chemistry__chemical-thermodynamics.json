@@ -1,0 +1,106 @@
+{
+  "exam": "jee",
+  "subject": "chemistry",
+  "chapter": "chemical-thermodynamics",
+  "notes": {
+    "summary": "This chapter covers system and surroundings, state functions, the first law with the IUPAC sign convention, enthalpy, calorimetry, thermochemical equations and Hess's law, bond and lattice enthalpies, entropy, and Gibbs energy with its link to spontaneity and equilibrium. JEE Main focuses on Hess's law and bond-enthalpy numericals, converting between ΔH and ΔU, ΔG = ΔH − TΔS, and ΔG° = −RT ln K.",
+    "keyPoints": [
+      "First law: ΔU = q + w. In the IUPAC convention used by NCERT, heat absorbed by the system and work done on it are positive. Expansion against a constant external pressure gives w = −p_ext ΔV.",
+      "State functions: U, H, S, G, p, V and T. Path functions: q and w.",
+      "ΔH = ΔU + Δn_g RT, counting only gaseous moles. A bomb calorimeter (constant volume) measures ΔU; a coffee-cup calorimeter (constant pressure) measures ΔH. Heat q = C × ΔT.",
+      "ΔfH° = 0 for an element in its reference state (O₂(g), C(graphite), Br₂(l)); it is not zero for O₃ or diamond. ΔrH° = ΣΔfH°(products) − ΣΔfH°(reactants).",
+      "Hess's law: ΔH is the same whatever path is taken, so thermochemical equations can be added like algebra. For gas-phase reactions, ΔrH = Σ bond enthalpies of reactants − Σ bond enthalpies of products.",
+      "Born–Haber cycle for NaCl: lattice enthalpy = −ΔfH + ΔsubH(Na) + IE(Na) + ½ bond enthalpy(Cl₂) + ΔegH(Cl) = +788 kJ mol⁻¹. Enthalpy of solution ΔsolH = ΔlatticeH + ΔhydH.",
+      "Entropy: ΔS = q_rev/T. For a phase change ΔS = ΔH/T (vaporisation of water ≈ 109 J K⁻¹ mol⁻¹). For an isothermal ideal gas ΔS = nR ln(V₂/V₁), even for free expansion. ΔS_surr = −ΔH_sys/T.",
+      "Gibbs energy ΔG = ΔH − TΔS: ΔG < 0 is spontaneous and ΔG = 0 is equilibrium (e.g. water ⇌ steam at 373 K, 1 atm). ΔG° = −RT ln K = −2.303RT log K.",
+      "Spontaneity by sign: ΔH −, ΔS + always spontaneous; ΔH +, ΔS − never; ΔH −, ΔS − only below T = ΔH/ΔS; ΔH +, ΔS + only above T = ΔH/ΔS."
+    ],
+    "traps": [
+      "Mixing the physics sign convention (W = work by the gas) with chemistry's (w = work on the system).",
+      "Counting liquids or solids in Δn_g, or treating H₂O as a gas at 298 K.",
+      "Forgetting to convert ΔS from J K⁻¹ to kJ K⁻¹ before using ΔG = ΔH − TΔS.",
+      "Using half the Cl₂ bond enthalpy as the whole value (or the reverse) in a Born–Haber cycle, or getting the sign of ΔegH wrong.",
+      "Assuming ΔS = 0 whenever q = 0. Free expansion has q = 0 but ΔS_system > 0."
+    ],
+    "examTip": "Write units next to every number in ΔG = ΔH − TΔS (kJ versus J) and check the sign of each Hess's-law step before adding; most errors in this chapter are bookkeeping, not concept."
+  },
+  "questions": [
+    {
+      "text": "Which of the following is NOT a state function?",
+      "difficulty": "EASY",
+      "options": ["Enthalpy", "Internal energy", "Work", "Gibbs energy"],
+      "answer": 2,
+      "explanation": "A state function depends only on the present state of the system, not on how that state was reached.\nU, H, S and G are state functions.\nWork (and heat) depend on the path taken between two states, so they are path functions."
+    },
+    {
+      "text": "A system absorbs 300 J of heat while the surroundings do 200 J of work on it. The change in internal energy of the system is:",
+      "difficulty": "EASY",
+      "options": ["+100 J", "+500 J", "−500 J", "−100 J"],
+      "answer": 1,
+      "explanation": "First law in the IUPAC convention: ΔU = q + w.\nHeat absorbed by the system gives q = +300 J. Work done on the system gives w = +200 J.\nΔU = 300 + 200 = +500 J. (+100 J comes from wrongly treating the work as done by the system.)"
+    },
+    {
+      "text": "The standard enthalpy of formation (ΔfH°) is zero for:",
+      "difficulty": "EASY",
+      "options": ["O₃(g)", "C(diamond)", "H₂O(l)", "O₂(g)"],
+      "answer": 3,
+      "explanation": "ΔfH° is zero only for an element in its reference state, its most stable form at 1 bar and the stated temperature.\nFor oxygen that is O₂(g), and for carbon it is graphite.\nO₃(g) (about +143 kJ mol⁻¹) and diamond (about +1.9 kJ mol⁻¹) are not reference states, and H₂O(l) is a compound (−285.8 kJ mol⁻¹)."
+    },
+    {
+      "text": "The standard enthalpy of combustion of methane is −890.3 kJ/mol. The standard enthalpies of formation of CO₂(g) and H₂O(l) are −393.5 kJ/mol and −285.8 kJ/mol. The standard enthalpy of formation of CH₄(g) is:",
+      "difficulty": "MEDIUM",
+      "options": ["−74.8 kJ/mol", "+74.8 kJ/mol", "−965.1 kJ/mol", "+211.0 kJ/mol"],
+      "answer": 0,
+      "explanation": "Combustion reaction: CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l).\nΔcH = [ΔfH(CO₂) + 2ΔfH(H₂O)] − ΔfH(CH₄), with ΔfH(O₂) = 0.\n−890.3 = (−393.5 − 571.6) − ΔfH(CH₄), so ΔfH(CH₄) = −965.1 + 890.3 = −74.8 kJ/mol.\n+211.0 kJ/mol comes from forgetting the coefficient 2 on H₂O, and −965.1 kJ/mol is just the products' total."
+    },
+    {
+      "text": "1.2 g of graphite is burnt completely in excess oxygen in a bomb calorimeter with a heat capacity of 15.7 kJ K⁻¹. The temperature of the calorimeter rises by 2.5 K. The molar internal energy change (ΔU) for the combustion of graphite is: (C = 12 g/mol)",
+      "difficulty": "MEDIUM",
+      "options": ["−39.25 kJ/mol", "+392.5 kJ/mol", "−392.5 kJ/mol", "−32.7 kJ/mol"],
+      "answer": 2,
+      "explanation": "Heat absorbed by the calorimeter = C × ΔT = 15.7 × 2.5 = 39.25 kJ, which equals the heat released by the reaction at constant volume.\nMoles of graphite = 1.2/12 = 0.10 mol.\nΔU = −39.25/0.10 = −392.5 kJ/mol (negative because heat is released).\nFor C(s) + O₂(g) → CO₂(g), Δn_g = 0, so ΔH = ΔU here."
+    },
+    {
+      "text": "The enthalpy of vaporisation of water at its normal boiling point (373 K) is 40.8 kJ mol⁻¹. The entropy of vaporisation of water is about:",
+      "difficulty": "MEDIUM",
+      "options": ["408 J K⁻¹ mol⁻¹", "0.109 J K⁻¹ mol⁻¹", "−109.4 J K⁻¹ mol⁻¹", "109.4 J K⁻¹ mol⁻¹"],
+      "answer": 3,
+      "explanation": "At the boiling point, liquid and vapour are in equilibrium, so ΔG = 0 and ΔvapS = ΔvapH/T_b.\nΔvapS = 40 800 J mol⁻¹ / 373 K ≈ 109.4 J K⁻¹ mol⁻¹. It is positive because the gas is more disordered than the liquid.\n408 comes from dividing by 100 °C instead of 373 K, and 0.109 from leaving ΔH in kJ."
+    },
+    {
+      "text": "For the combustion of liquid benzene at 298 K,\nC₆H₆(l) + (15/2)O₂(g) → 6CO₂(g) + 3H₂O(l),\nthe value of ΔH − ΔU is about: (R = 8.314 J K⁻¹ mol⁻¹)",
+      "difficulty": "MEDIUM",
+      "options": ["+3.72 kJ mol⁻¹", "−3.72 kJ mol⁻¹", "−6.19 kJ mol⁻¹", "Zero"],
+      "answer": 1,
+      "explanation": "ΔH − ΔU = Δn_g RT, counting only gaseous species.\nΔn_g = 6 − 7.5 = −1.5 (benzene and water are liquids).\nΔH − ΔU = −1.5 × 8.314 × 298 J ≈ −3716 J ≈ −3.72 kJ mol⁻¹.\nTreating water as a gas gives +3.72, and treating benzene as a gas gives −6.19."
+    },
+    {
+      "text": "For the reaction N₂(g) + 3H₂(g) → 2NH₃(g) at 298 K, ΔH° = −92.4 kJ and ΔS° = −198.3 J K⁻¹. The value of ΔG° at 298 K is about:",
+      "difficulty": "MEDIUM",
+      "options": ["−33.3 kJ", "+33.3 kJ", "−151.5 kJ", "+5.9 × 10⁴ kJ"],
+      "answer": 0,
+      "explanation": "Convert ΔS° to kJ: −198.3 J K⁻¹ = −0.1983 kJ K⁻¹.\nΔG° = ΔH° − TΔS° = −92.4 − 298 × (−0.1983) = −92.4 + 59.1 = −33.3 kJ.\nSo the reaction is spontaneous at 298 K. −151.5 kJ comes from a sign error in TΔS, and +5.9 × 10⁴ kJ from leaving ΔS in J."
+    },
+    {
+      "text": "For the change H₂O(l) ⇌ H₂O(g) at 373 K and 1 atm, which set of signs is correct?",
+      "difficulty": "MEDIUM",
+      "options": ["ΔG < 0, ΔH > 0, ΔS > 0", "ΔG > 0, ΔH < 0, ΔS < 0", "ΔG = 0, ΔH > 0, ΔS > 0", "ΔG = 0, ΔH = 0, ΔS = 0"],
+      "answer": 2,
+      "explanation": "At the normal boiling point, liquid and vapour are in equilibrium, so ΔG = 0.\nVaporisation absorbs heat, so ΔH > 0 (about +40.8 kJ mol⁻¹).\nThe vapour is more disordered, so ΔS > 0.\nThe two terms balance exactly: ΔH = TΔS at T = 373 K."
+    },
+    {
+      "text": "Calculate the lattice enthalpy of NaCl (for NaCl(s) → Na⁺(g) + Cl⁻(g)) from the following data, all in kJ mol⁻¹:\nSublimation enthalpy of Na = +108.4\nIonisation enthalpy of Na = +496\nBond dissociation enthalpy of Cl₂ = +242\nElectron gain enthalpy of Cl = −348.6\nStandard enthalpy of formation of NaCl(s) = −411.2",
+      "difficulty": "HARD",
+      "options": ["−34.4 kJ/mol", "+909 kJ/mol", "+1485.2 kJ/mol", "+788 kJ/mol"],
+      "answer": 3,
+      "explanation": "Born–Haber cycle: Na(s) + ½Cl₂(g) → NaCl(s) by two routes, so\nΔfH = ΔsubH + IE + ½ bond enthalpy + ΔegH − (lattice enthalpy).\nLattice enthalpy = −ΔfH + ΔsubH + IE + ½(242) + ΔegH.\n= 411.2 + 108.4 + 496 + 121 − 348.6 = +788 kJ/mol.\n+909 uses all 242 kJ instead of half, +1485.2 adds the electron gain enthalpy as positive, and −34.4 uses ΔfH with the wrong sign."
+    },
+    {
+      "text": "One mole of an ideal gas at 300 K expands isothermally from 10 L to 20 L into an evacuated space (free expansion). Which statement is correct? (R = 8.314 J K⁻¹ mol⁻¹, ln 2 = 0.693)",
+      "difficulty": "HARD",
+      "options": ["ΔS(system) = +5.76 J K⁻¹ and ΔS(total) = +5.76 J K⁻¹", "ΔS(system) = 0 because q = 0", "ΔS(system) = +5.76 J K⁻¹ and ΔS(total) = 0", "ΔS(system) = −5.76 J K⁻¹ and ΔS(surroundings) = +5.76 J K⁻¹"],
+      "answer": 0,
+      "explanation": "In free expansion p_ext = 0, so w = 0. For an ideal gas at constant T, ΔU = 0, so q = 0 as well.\nEntropy is a state function, so ΔS(system) is found along a reversible isothermal path between the same states: ΔS = nR ln(V₂/V₁) = 8.314 × 0.693 ≈ +5.76 J K⁻¹.\nNo heat is exchanged with the surroundings, so ΔS(surroundings) = 0 and ΔS(total) = +5.76 J K⁻¹ > 0. The process is irreversible and spontaneous."
+    }
+  ]
+}

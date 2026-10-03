@@ -1,0 +1,126 @@
+{
+  "exam": "class-10",
+  "subject": "mathematics",
+  "chapter": "quadratic-equations",
+  "notes": {
+    "summary": "This chapter covers writing real-life situations as quadratic equations ax² + bx + c = 0 (a ≠ 0), solving them by factorisation (splitting the middle term) and by the quadratic formula, and using the discriminant to decide the nature of the roots. CBSE asks 1-mark MCQs and assertion-reason items on the discriminant and unknown k-values, and 2–5 mark situational problems on area, numbers, geometry and cost.",
+    "keyPoints": [
+      "Standard form: ax² + bx + c = 0 with a ≠ 0. Always expand and simplify both sides before deciding: (x + 2)³ = x³ − 4 is quadratic, but (x + 1)² = x² − 3 is linear.",
+      "A root α satisfies aα² + bα + c = 0. If x = 2 is a root of 2x² + kx − 6 = 0, then 8 + 2k − 6 = 0, so k = −1.",
+      "Splitting the middle term: find two numbers whose product is ac and whose sum is b. For 2x² − 5x + 3: ac = 6, numbers −2 and −3, so (2x − 3)(x − 1) = 0 and x = 3/2 or 1.",
+      "Quadratic formula: x = (−b ± √(b² − 4ac)) / 2a, usable whenever b² − 4ac ≥ 0.",
+      "Discriminant D = b² − 4ac: D > 0 → two distinct real roots; D = 0 → two equal real roots, each equal to −b/2a; D < 0 → no real roots.",
+      "'Real roots' means D ≥ 0 (equal roots included). Example: x² + 6x + k = 0 has real roots when 36 − 4k ≥ 0, i.e. k ≤ 9.",
+      "If k multiplies x², reject any k that makes a = 0. For kx² − 2kx + 6 = 0, D = 0 gives k = 0 or 6, but only k = 6 is valid.",
+      "Word problems: define the variable, form the equation, solve, then reject roots that make no sense (negative length, age, speed or count). Example: x(2x + 1) = 528 gives breadth 16 m and length 33 m.",
+      "Spot perfect squares to save time: 16x² − 8x + 1 = (4x − 1)², giving equal roots 1/4 and 1/4."
+    ],
+    "traps": [
+      "Deciding 'quadratic or not' without expanding — the x² (or x³) terms may cancel out.",
+      "Taking b with the wrong sign in −b or b²: for 3x² − 4√3x + 4, b = −4√3 and −b = +4√3.",
+      "Writing D > 0 instead of D ≥ 0 when the question asks for real roots.",
+      "Keeping a value of k that makes the coefficient of x² zero, or keeping a negative root for a length, age or number of items.",
+      "Computing D as b² + 4ac or getting 4ac wrong; it is always b² − 4ac."
+    ],
+    "examTip": "Before using any formula, write a, b and c with their signs in one line, find D first, and in word problems substitute your final answer back into the original condition."
+  },
+  "questions": [
+    {
+      "text": "Which of the following is NOT a quadratic equation?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "(x − 2)² + 1 = 2x − 3",
+        "x(x + 1) + 8 = (x + 2)(x − 2)",
+        "(x + 2)³ = x³ − 4",
+        "x(2x + 3) = x² + 1"
+      ],
+      "answer": 1,
+      "explanation": "Simplify each equation to the form ax² + bx + c = 0 and check that a ≠ 0.\n(x − 2)² + 1 = 2x − 3 gives x² − 6x + 8 = 0 (quadratic).\nx(x + 1) + 8 = (x + 2)(x − 2) gives x² + x + 8 = x² − 4, i.e. x + 12 = 0 (the x² terms cancel, so it is linear).\n(x + 2)³ = x³ − 4 gives 6x² + 12x + 12 = 0 (the x³ terms cancel, so it is quadratic).\nx(2x + 3) = x² + 1 gives x² + 3x − 1 = 0 (quadratic).\nSo x(x + 1) + 8 = (x + 2)(x − 2) is not a quadratic equation."
+    },
+    {
+      "text": "If x = 2 is a root of the quadratic equation 2x² + kx − 6 = 0, what is the value of k?",
+      "difficulty": "EASY",
+      "options": ["−1", "1", "−7", "7"],
+      "answer": 0,
+      "explanation": "A root satisfies the equation, so substitute x = 2.\n2(2)² + k(2) − 6 = 0 → 8 + 2k − 6 = 0 → 2k = −2.\nSo k = −1.\nCheck: 2x² − x − 6 = (2x + 3)(x − 2), which does have the root 2."
+    },
+    {
+      "text": "What is the nature of the roots of the quadratic equation 3x² − 4√3x + 4 = 0?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Two distinct real roots, 2/√3 and −2/√3",
+        "No real roots",
+        "Two equal real roots, each equal to −2/√3",
+        "Two equal real roots, each equal to 2/√3"
+      ],
+      "answer": 3,
+      "explanation": "Here a = 3, b = −4√3, c = 4.\nD = b² − 4ac = (−4√3)² − 4 × 3 × 4 = 48 − 48 = 0.\nD = 0 means two equal real roots, each equal to −b/2a.\n−b/2a = 4√3/6 = 2√3/3 = 2/√3.\nSo the equation has two equal real roots, each equal to 2/√3."
+    },
+    {
+      "text": "For what value of k does the quadratic equation kx(x − 2) + 6 = 0 have two equal roots?",
+      "difficulty": "HARD",
+      "options": ["k = 0 or k = 6", "k = 0", "k = 6", "k = 3"],
+      "answer": 2,
+      "explanation": "Expand: kx² − 2kx + 6 = 0, so a = k, b = −2k, c = 6.\nEqual roots need D = 0: (−2k)² − 4(k)(6) = 4k² − 24k = 4k(k − 6) = 0, so k = 0 or k = 6.\nk = 0 turns the equation into 6 = 0, which is not a quadratic equation, so k = 0 is rejected.\nCheck k = 6: 6x² − 12x + 6 = 6(x − 1)², which has the repeated root 1.\nHence k = 6."
+    },
+    {
+      "text": "For what values of k does the equation x² + 6x + k = 0 have real roots?",
+      "difficulty": "MEDIUM",
+      "options": ["k ≤ 9", "k < 9", "k ≥ 9", "k = 9 only"],
+      "answer": 0,
+      "explanation": "Real roots (equal or distinct) need D ≥ 0.\nD = 6² − 4(1)(k) = 36 − 4k.\n36 − 4k ≥ 0 → 4k ≤ 36 → k ≤ 9.\nThe option k < 9 misses k = 9, where the roots are real and equal (−3 and −3).\nSo k ≤ 9."
+    },
+    {
+      "text": "A rectangular plot has an area of 528 m². Its length (in metres) is one more than twice its breadth. What are its breadth and length?",
+      "difficulty": "MEDIUM",
+      "options": ["22 m and 24 m", "12 m and 44 m", "16 m and 33 m", "11 m and 48 m"],
+      "answer": 2,
+      "explanation": "Let the breadth be x m; then the length is (2x + 1) m.\nx(2x + 1) = 528 → 2x² + x − 528 = 0.\nSplit the middle term (product −1056, sum 1 → 33 and −32): 2x² + 33x − 32x − 528 = x(2x + 33) − 16(2x + 33) = (2x + 33)(x − 16) = 0.\nx = 16 (x = −33/2 is rejected because a breadth cannot be negative).\nBreadth = 16 m and length = 2 × 16 + 1 = 33 m (check: 16 × 33 = 528)."
+    },
+    {
+      "text": "The altitude of a right triangle is 7 cm less than its base. If the hypotenuse is 13 cm, what are the base and the altitude respectively?",
+      "difficulty": "HARD",
+      "options": ["15 cm and 8 cm", "12 cm and 5 cm", "14 cm and 7 cm", "10 cm and 3 cm"],
+      "answer": 1,
+      "explanation": "Let the base be x cm; then the altitude is (x − 7) cm.\nBy the Pythagoras theorem: x² + (x − 7)² = 13² → 2x² − 14x + 49 = 169 → 2x² − 14x − 120 = 0 → x² − 7x − 60 = 0.\n(x − 12)(x + 5) = 0 → x = 12 (x = −5 is rejected as a length cannot be negative).\nBase = 12 cm and altitude = 12 − 7 = 5 cm.\nCheck: 12² + 5² = 144 + 25 = 169 = 13²."
+    },
+    {
+      "text": "Assertion (A): (x + 1)² = x² − 3 is a quadratic equation.\nReason (R): An equation of the form ax² + bx + c = 0, where a, b, c are real numbers and a ≠ 0, is a quadratic equation.",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A.",
+        "Both A and R are true, but R is not the correct explanation of A.",
+        "A is true, but R is false.",
+        "A is false, but R is true."
+      ],
+      "answer": 3,
+      "explanation": "Expand the left side: x² + 2x + 1 = x² − 3.\nThe x² terms cancel, leaving 2x + 4 = 0, which is a linear equation (degree 1). So A is false.\nR is the correct definition of a quadratic equation, so R is true.\nHence A is false, but R is true."
+    },
+    {
+      "text": "What are the roots of the quadratic equation 2x² − x + 1/8 = 0?",
+      "difficulty": "EASY",
+      "options": ["1/4 and 1/4", "1/2 and 1/4", "−1/4 and −1/4", "1/8 and 1/8"],
+      "answer": 0,
+      "explanation": "Multiply by 8 to clear the fraction: 16x² − 8x + 1 = 0.\nThis is a perfect square: (4x − 1)² = 16x² − 8x + 1.\n(4x − 1)² = 0 → x = 1/4.\nD = 64 − 64 = 0 confirms two equal roots: 1/4 and 1/4."
+    },
+    {
+      "text": "The discriminant of the quadratic equation 2x² − 4x + 3 = 0 is:",
+      "difficulty": "EASY",
+      "options": ["40", "4", "−8", "8"],
+      "answer": 2,
+      "explanation": "D = b² − 4ac with a = 2, b = −4, c = 3.\nb² = (−4)² = 16 and 4ac = 4 × 2 × 3 = 24.\nD = 16 − 24 = −8.\nSince D < 0, this equation has no real roots."
+    },
+    {
+      "text": "Is it possible to design a rectangular park of perimeter 80 m and area 400 m²? If so, what are its dimensions?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "No, because the discriminant of the resulting equation is negative",
+        "Yes; length = breadth = 20 m",
+        "Yes; 25 m × 15 m",
+        "Yes; 30 m × 10 m"
+      ],
+      "answer": 1,
+      "explanation": "Perimeter 80 m means length + breadth = 40 m. Let length = x m, so breadth = (40 − x) m.\nArea: x(40 − x) = 400 → x² − 40x + 400 = 0.\nD = (−40)² − 4 × 1 × 400 = 1600 − 1600 = 0, so a real (repeated) root exists.\nx = 40/2 = 20, so length = 20 m and breadth = 40 − 20 = 20 m.\nYes, it is possible: the park is a square of side 20 m (25 × 15 = 375 and 30 × 10 = 300 do not give 400)."
+    }
+  ]
+}

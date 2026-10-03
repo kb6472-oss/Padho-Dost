@@ -1,0 +1,161 @@
+{
+  "exam": "class-11",
+  "subject": "biology",
+  "chapter": "plant-kingdom",
+  "notes": {
+    "summary": "This chapter surveys the plant kingdom — algae, bryophytes, pteridophytes, gymnosperms and angiosperms — and the types of classification systems (artificial, natural, phylogenetic, numerical, cytotaxonomy and chemotaxonomy). CBSE questions test the distinguishing features of each group, the pigments and stored food of the algal classes, examples of each group, and how the gametophyte and sporophyte are related.",
+    "keyPoints": [
+      "Classification systems: artificial (Linnaeus, based on vegetative characters or the androecium); natural (Bentham and Hooker, based on natural affinities including internal features); phylogenetic (based on evolutionary relationships). Numerical taxonomy uses computers and all observable characters, cytotaxonomy uses chromosome data, and chemotaxonomy uses chemical constituents.",
+      "Reproduction in algae: vegetative (fragmentation), asexual (zoospores) and sexual. Sexual types are isogamous (flagellated gametes in Ulothrix, non-flagellated in Spirogyra), anisogamous (Eudorina) and oogamous (Volvox, Fucus).",
+      "Chlorophyceae (green algae): chlorophyll a and b; store starch, often in pyrenoids; wall has an inner cellulose layer and an outer pectose layer. Examples: Chlamydomonas, Volvox, Ulothrix, Spirogyra, Chara.",
+      "Phaeophyceae (brown algae): chlorophyll a and c plus fucoxanthin; store laminarin or mannitol; yield algin; body has holdfast, stipe and frond; zoospores are pear-shaped with two laterally attached flagella. Examples: Ectocarpus, Dictyota, Laminaria, Sargassum, Fucus.",
+      "Rhodophyceae (red algae): chlorophyll a and d plus r-phycoerythrin; store floridean starch; have no flagellated stages; yield agar (from Gelidium and Gracilaria) and carrageen. Examples: Polysiphonia, Porphyra, Gracilaria, Gelidium.",
+      "Bryophytes: the haploid gametophyte is dominant, and the sporophyte (foot, seta, capsule) depends on it. Liverworts such as Marchantia reproduce by gemmae. Mosses (Funaria, Polytrichum, Sphagnum) have a protonema stage and a leafy stage. Sphagnum gives peat. Mosses, along with lichens, are the first to colonise rocks.",
+      "Pteridophytes: the first vascular land plants, with a dominant sporophyte. Strobili occur in Selaginella and Equisetum. Classes: Psilopsida (Psilotum), Lycopsida (Selaginella, Lycopodium), Sphenopsida (Equisetum), Pteropsida (Dryopteris, Pteris, Adiantum). Heterospory is a precursor to the seed habit.",
+      "Gymnosperms: ovules and seeds are naked. Cycas has coralloid roots with cyanobacteria and bears its male cones and megasporophylls on different trees. Pinus has mycorrhizal roots and bears male and female cones on the same tree. Sequoia is one of the tallest trees.",
+      "Angiosperms: seeds are enclosed in fruits. They range from the tiny Wolffia to Eucalyptus trees over 100 m tall. Double fertilisation and triple fusion produce a triploid endosperm."
+    ],
+    "traps": [
+      "Mismatching stored food: floridean starch is in red algae, laminarin and mannitol in brown algae, and starch in green algae.",
+      "Calling the leafy moss plant the sporophyte. In bryophytes the conspicuous plant is the haploid gametophyte.",
+      "Swapping algin (from brown algae) with carrageen and agar (from red algae).",
+      "Assuming Cycas bears both male and female structures on one tree, as Pinus does.",
+      "Confusing Linnaeus's artificial system with the natural system of Bentham and Hooker."
+    ],
+    "examTip": "Make a small table for the three algal classes (pigments, stored food, example, commercial product). At least one question usually comes straight from it."
+  },
+  "questions": [
+    {
+      "text": "Peat, which has long been used as fuel and as a packing material for sending living material because it holds water, is obtained from the moss:",
+      "difficulty": "EASY",
+      "options": [
+        "Funaria",
+        "Marchantia",
+        "Sphagnum",
+        "Polytrichum"
+      ],
+      "answer": 2,
+      "explanation": "Sphagnum is a moss whose remains form peat. Peat is used as fuel, and because it holds a lot of water it is used as packing material when living material is shipped. Funaria and Polytrichum are other mosses, and Marchantia is a liverwort. So the answer is Sphagnum."
+    },
+    {
+      "text": "The giant redwood tree, one of the tallest tree species, is the gymnosperm:",
+      "difficulty": "EASY",
+      "options": [
+        "Pinus",
+        "Sequoia",
+        "Cycas",
+        "Ginkgo"
+      ],
+      "answer": 1,
+      "explanation": "Gymnosperms range from shrubs to very tall trees. NCERT names the giant redwood, Sequoia, as one of the tallest tree species. Pinus and Cycas are common gymnosperms, and Ginkgo is called a living fossil. So the answer is Sequoia."
+    },
+    {
+      "text": "Classification of plants that uses cytological information such as chromosome number, structure and behaviour is called:",
+      "difficulty": "EASY",
+      "options": [
+        "Numerical taxonomy",
+        "Chemotaxonomy",
+        "Phylogenetic classification",
+        "Cytotaxonomy"
+      ],
+      "answer": 3,
+      "explanation": "Cytotaxonomy uses chromosome number, structure and behaviour. Chemotaxonomy uses the chemical constituents of the plant. Numerical taxonomy uses computers, with every observable character coded as a number and given equal weight. Phylogenetic classification is based on evolutionary relationships. So the answer is cytotaxonomy."
+    },
+    {
+      "text": "The artificial system of classification proposed by Linnaeus was based mainly on:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "vegetative characters or the structure of the androecium",
+        "natural affinities including internal features such as anatomy and embryology",
+        "evolutionary relationships among organisms",
+        "chemical constituents of the plant"
+      ],
+      "answer": 0,
+      "explanation": "Artificial systems used only a few surface characters, and Linnaeus's system was based on vegetative characters or the androecium (the stamens). Such systems gave vegetative and sexual characters equal weight, which is a flaw because vegetative characters are easily affected by the environment. Natural systems, such as Bentham and Hooker's, used natural affinities including anatomy and embryology, while phylogenetic systems use evolutionary relationships. So the answer is vegetative characters or the structure of the androecium."
+    },
+    {
+      "text": "The food reserve stored by members of Rhodophyceae (red algae), which is very similar to amylopectin and glycogen in structure, is:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "laminarin",
+        "true starch with pyrenoids",
+        "mannitol",
+        "floridean starch"
+      ],
+      "answer": 3,
+      "explanation": "Each algal class stores a typical kind of food. Chlorophyceae store starch, often in pyrenoids. Phaeophyceae store laminarin or mannitol. Rhodophyceae store floridean starch, whose structure is very similar to amylopectin and glycogen. So the answer is floridean starch."
+    },
+    {
+      "text": "Algin and carrageen, hydrocolloids (water-holding substances) used commercially, are obtained respectively from:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "red algae and brown algae",
+        "brown algae and red algae",
+        "green algae and red algae",
+        "brown algae and green algae"
+      ],
+      "answer": 1,
+      "explanation": "Some marine algae produce large amounts of hydrocolloids. Algin comes from brown algae (Phaeophyceae) and carrageen from red algae (Rhodophyceae). Agar, another commercial product, comes from the red algae Gelidium and Gracilaria. So the answer is brown algae and red algae, respectively."
+    },
+    {
+      "text": "Sexual reproduction by fusion of a large, non-motile female gamete with a smaller, motile male gamete (oogamy) is seen in:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Ulothrix and Spirogyra",
+        "Eudorina and Ulothrix",
+        "Volvox and Fucus",
+        "Spirogyra and Eudorina"
+      ],
+      "answer": 2,
+      "explanation": "Algae show three kinds of sexual reproduction. In isogamy the gametes are alike: flagellated in Ulothrix and non-flagellated in Spirogyra. In anisogamy the gametes differ in size, as in Eudorina. In oogamy a large non-motile female gamete fuses with a small motile male gamete, as in Volvox and Fucus. So the answer is Volvox and Fucus."
+    },
+    {
+      "text": "In mosses, the creeping, green, branched and frequently filamentous first stage of the gametophyte that develops directly from a spore is the:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "protonema",
+        "prothallus",
+        "gemma",
+        "capsule"
+      ],
+      "answer": 0,
+      "explanation": "The moss gametophyte has two stages. The protonema grows directly from a spore and is creeping, green, branched and often filamentous. The leafy stage grows from it as a side bud and carries the sex organs. A prothallus is the gametophyte of ferns, gemmae are asexual buds of liverworts, and the capsule is part of the sporophyte. So the answer is the protonema."
+    },
+    {
+      "text": "The pteridophyte Equisetum (horsetail) belongs to the class:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Psilopsida",
+        "Lycopsida",
+        "Sphenopsida",
+        "Pteropsida"
+      ],
+      "answer": 2,
+      "explanation": "Pteridophytes are divided into four classes: Psilopsida (Psilotum), Lycopsida (Selaginella, Lycopodium), Sphenopsida (Equisetum) and Pteropsida (Dryopteris, Pteris, Adiantum). So Equisetum belongs to Sphenopsida."
+    },
+    {
+      "text": "Which of the following statements about Cycas and Pinus is correct?",
+      "difficulty": "HARD",
+      "options": [
+        "Both Cycas and Pinus bear male and female cones on the same tree",
+        "Cycas bears male and female cones on the same tree, whereas in Pinus they are borne on different trees",
+        "Pinus has coralloid roots containing cyanobacteria, whereas Cycas roots form mycorrhiza",
+        "In Pinus male and female cones are borne on the same tree, whereas in Cycas male cones and megasporophylls are borne on different trees"
+      ],
+      "answer": 3,
+      "explanation": "In gymnosperms, the male and female cones (strobili) may be on the same tree or on different trees. In Pinus, male and female cones grow on the same tree. In Cycas, male cones and megasporophylls grow on different trees. Also, Cycas has coralloid roots with nitrogen-fixing cyanobacteria, while Pinus roots form mycorrhiza with fungi, so the option that swaps these is wrong. So the last statement is correct."
+    },
+    {
+      "text": "Assertion (A): Heterosporous pteridophytes such as Selaginella and Salvinia are considered an important step in the evolution of the seed habit.\nReason (R): In these plants the female gametophyte is retained on the parent sporophyte for a variable period, and the zygote develops into a young embryo within it.",
+      "difficulty": "HARD",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A.",
+        "Both A and R are true but R is not the correct explanation of A.",
+        "A is true but R is false.",
+        "A is false but R is true."
+      ],
+      "answer": 0,
+      "explanation": "Selaginella and Salvinia produce large megaspores and small microspores (heterospory), which grow into female and male gametophytes. The female gametophyte stays on the parent sporophyte for a variable period, and the zygote develops into a young embryo inside it. NCERT calls this event a precursor to the seed habit. So both statements are true and R explains A."
+    }
+  ]
+}

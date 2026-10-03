@@ -1,0 +1,106 @@
+{
+  "exam": "class-11",
+  "subject": "chemistry",
+  "chapter": "periodicity",
+  "notes": {
+    "summary": "This chapter covers the history of classifying elements (Dobereiner, Newlands, Mendeleev), the modern periodic law and long form of the periodic table, IUPAC names for elements with Z above 100, the s, p, d and f blocks, and periodic trends in atomic and ionic radii, ionization enthalpy, electron gain enthalpy, electronegativity, valence and the nature of oxides. CBSE tests trend orders, the standard exceptions with reasons, and locating an element from its atomic number or configuration.",
+    "keyPoints": [
+      "Early classification: Dobereiner's triads (atomic mass of the middle element ≈ mean of the other two, e.g. Li, Na, K); Newlands' law of octaves (every eighth element similar, worked only up to calcium); Mendeleev arranged elements by atomic mass, left gaps and predicted eka-aluminium (gallium) and eka-silicon (germanium).",
+      "Modern periodic law (based on Moseley's work): properties of elements are a periodic function of their atomic numbers. The long form has 7 periods and 18 groups; period number = highest principal quantum number, and for p-block elements group number = 10 + number of ns and np electrons.",
+      "Blocks: s (ns¹⁻²), p (ns² np¹⁻⁶), d ((n−1)d¹⁻¹⁰ ns⁰⁻²), f ((n−2)f¹⁻¹⁴ (n−1)d⁰⁻¹ ns²). Example: Z = 34 → [Ar] 3d¹⁰ 4s² 4p⁴ → period 4, group 16, p-block (selenium).",
+      "IUPAC names for Z > 100: digit roots 0 nil, 1 un, 2 bi, 3 tri, 4 quad, 5 pent, 6 hex, 7 sept, 8 oct, 9 enn, followed by -ium. Element 120 = unbinilium (Ubn); 121 = unbiunium (Ubu).",
+      "Atomic radius decreases across a period (effective nuclear charge rises) and increases down a group (new shells added). A cation is smaller and an anion larger than its parent atom. For isoelectronic species, the larger the nuclear charge, the smaller the ion: O²⁻ > F⁻ > Na⁺ > Mg²⁺.",
+      "Ionization enthalpy generally increases across a period and decreases down a group, with two period-2 exceptions: Be (899) > B (801 kJ/mol), because a 2p electron is easier to remove than a 2s electron; and N (1402) > O (1314 kJ/mol), because paired 2p electrons in oxygen repel each other. A sudden large jump in successive IE reveals the number of valence electrons (Mg: 738, 1451, 7733 kJ/mol → 2).",
+      "Electron gain enthalpy becomes more negative across a period and is most negative for halogens; noble gases have large positive values (Ne about +116 kJ/mol). O and F have less negative values than the elements below them (S and Cl) because of their small, crowded 2p subshell: Cl (−349) > F (−328) and S (−200) > O (−141 kJ/mol).",
+      "Electronegativity increases across a period and decreases down a group; fluorine (4.0 on the Pauling scale) is the highest. Metallic character falls across a period. Oxides change from basic (Na₂O, MgO) through amphoteric (Al₂O₃) to acidic (SO₃, Cl₂O₇) across period 3.",
+      "Second-period elements show anomalous behaviour (small size, high electronegativity, no d orbitals, maximum covalency 4), and diagonal relationships exist between Li–Mg, Be–Al and B–Si."
+    ],
+    "traps": [
+      "Assuming ionization enthalpy rises smoothly across period 2 and forgetting the Be > B and N > O exceptions.",
+      "Assuming fluorine has the most negative electron gain enthalpy; chlorine does.",
+      "Ordering isoelectronic ions by mass or charge sign alone instead of by nuclear charge.",
+      "Giving the group of a p-block element as just its number of valence electrons (selenium in group 6 instead of group 16).",
+      "Mixing up IUPAC roots, e.g. naming element 120 as unbiunium instead of unbinilium."
+    ],
+    "examTip": "For any trend question, write the general rule first and then check the standard exceptions (Be/B and N/O for ionization enthalpy, F/Cl and O/S for electron gain enthalpy) before choosing an order."
+  },
+  "questions": [
+    {
+      "text": "Mendeleev left a gap in his periodic table for an undiscovered element that he called eka-aluminium. This element was later discovered and named:",
+      "difficulty": "EASY",
+      "options": ["Germanium", "Scandium", "Gallium", "Aluminium"],
+      "answer": 2,
+      "explanation": "Mendeleev predicted the properties of eka-aluminium (the element below aluminium) and eka-silicon (below silicon). Gallium, discovered in 1875, matched the predicted properties of eka-aluminium closely, and germanium matched eka-silicon. Scandium corresponds to eka-boron. So eka-aluminium is gallium."
+    },
+    {
+      "text": "Calcium (atomic mass 40), strontium and barium (atomic mass 137) form a Dobereiner triad. According to the law of triads, the expected atomic mass of strontium is about:",
+      "difficulty": "EASY",
+      "options": ["88.5", "97.0", "68.5", "177"],
+      "answer": 0,
+      "explanation": "Dobereiner's law of triads states that the atomic mass of the middle element of a triad is roughly the arithmetic mean of the atomic masses of the other two. Mean = (40 + 137)/2 = 177/2 = 88.5. The actual atomic mass of strontium (about 87.6) is close to this value."
+    },
+    {
+      "text": "Which of the following oxides is amphoteric, i.e. reacts with both acids and bases?",
+      "difficulty": "EASY",
+      "options": ["Na₂O", "MgO", "SO₃", "Al₂O₃"],
+      "answer": 3,
+      "explanation": "Across period 3, oxides change from basic to amphoteric to acidic. Na₂O and MgO (on the left) are basic, while SO₃ (on the right) is acidic. Al₂O₃ reacts with acids to form aluminium salts and with bases to form aluminates, so it is amphoteric."
+    },
+    {
+      "text": "According to the IUPAC nomenclature for elements with atomic number above 100, the temporary name and symbol of the element with atomic number 120 are:",
+      "difficulty": "MEDIUM",
+      "options": ["Unbiunium (Ubu)", "Unbinilium (Ubn)", "Unnilbium (Unb)", "Ununbium (Uub)"],
+      "answer": 1,
+      "explanation": "The digit roots are 0 = nil, 1 = un and 2 = bi, and the suffix -ium is added at the end. For 120, the digits 1, 2, 0 give un + bi + nil + ium = unbinilium. The symbol is made from the first letters of the roots: Ubn. (Unbiunium, Ubu, is element 121.)"
+    },
+    {
+      "text": "The correct order of ionic radii for the isoelectronic species O²⁻, F⁻, Na⁺ and Mg²⁺ is:",
+      "difficulty": "MEDIUM",
+      "options": ["Mg²⁺ > Na⁺ > F⁻ > O²⁻", "O²⁻ > F⁻ > Na⁺ > Mg²⁺", "F⁻ > O²⁻ > Na⁺ > Mg²⁺", "Na⁺ > Mg²⁺ > O²⁻ > F⁻"],
+      "answer": 1,
+      "explanation": "All four species have 10 electrons. Their nuclear charges are +8 (O), +9 (F), +11 (Na) and +12 (Mg). The greater the nuclear charge, the more strongly the same 10 electrons are pulled inward, so the smaller the ion. Hence O²⁻ > F⁻ > Na⁺ > Mg²⁺."
+    },
+    {
+      "text": "The correct order of first ionization enthalpy for the second-period elements Li, Be, B and C is:",
+      "difficulty": "MEDIUM",
+      "options": ["Li < Be < B < C", "B < Li < Be < C", "Li < B < Be < C", "Li < Be < C < B"],
+      "answer": 2,
+      "explanation": "Ionization enthalpy generally increases across a period, but boron is an exception. In Be (2s²) the electron is removed from a 2s orbital, whereas in B (2s² 2p¹) it is removed from a 2p orbital, which is less penetrating, better shielded by the 2s electrons and higher in energy. So B (801 kJ/mol) is lower than Be (899 kJ/mol). Order: Li (520) < B (801) < Be (899) < C (1086 kJ/mol)."
+    },
+    {
+      "text": "The first ionization enthalpy of oxygen (1314 kJ/mol) is lower than that of nitrogen (1402 kJ/mol). The best explanation for this is:",
+      "difficulty": "MEDIUM",
+      "options": ["In oxygen, two of the four 2p electrons occupy the same orbital, and their mutual repulsion makes one of them easier to remove", "Oxygen has a smaller nuclear charge than nitrogen", "The atomic radius of oxygen is much larger than that of nitrogen", "The electron removed from oxygen comes from a 2s orbital"],
+      "answer": 0,
+      "explanation": "Nitrogen (2p³) has one electron in each of the three 2p orbitals. In oxygen (2p⁴), one 2p orbital holds two electrons, and the extra electron–electron repulsion between them makes it easier to remove one of them. Oxygen actually has a higher nuclear charge and a smaller radius than nitrogen, so those options are wrong. Hence oxygen has the lower first ionization enthalpy."
+    },
+    {
+      "text": "Which of the following elements has a positive electron gain enthalpy, i.e. energy has to be supplied to add an electron to its isolated gaseous atom?",
+      "difficulty": "MEDIUM",
+      "options": ["F", "Cl", "O", "Ne"],
+      "answer": 3,
+      "explanation": "Neon is a noble gas with a completely filled valence shell (2s² 2p⁶). An added electron would have to enter the next, higher-energy shell (3s), which is a very unstable arrangement, so energy must be supplied; its electron gain enthalpy is about +116 kJ/mol. F (−328), Cl (−349) and O (−141 kJ/mol) all release energy when they gain one electron. Answer: Ne."
+    },
+    {
+      "text": "An element has atomic number 34. Its position in the modern periodic table is:",
+      "difficulty": "MEDIUM",
+      "options": ["Period 4, group 6, d-block", "Period 3, group 16, p-block", "Period 4, group 14, p-block", "Period 4, group 16, p-block"],
+      "answer": 3,
+      "explanation": "Electronic configuration of Z = 34: [Ar] 3d¹⁰ 4s² 4p⁴. The highest principal quantum number is 4, so it is in period 4. The last electron enters a p orbital, so it is a p-block element. For p-block elements, group = 10 + (ns + np electrons) = 10 + (2 + 4) = 16. The element is selenium: period 4, group 16, p-block."
+    },
+    {
+      "text": "The first three ionization enthalpies of an element are 738, 1451 and 7733 kJ/mol respectively. The element most likely belongs to:",
+      "difficulty": "HARD",
+      "options": ["Group 1", "Group 2", "Group 13", "Group 14"],
+      "answer": 1,
+      "explanation": "Successive ionization enthalpies always increase, but a very large jump appears when an electron has to be removed from a noble-gas core. Here IE₂ is about twice IE₁, while IE₃ is more than five times IE₂ (7733 ÷ 1451 ≈ 5.3). So the first two electrons are valence electrons and the third comes from a filled inner shell. The element has two valence electrons and belongs to group 2 (these are the values for magnesium)."
+    },
+    {
+      "text": "Which order correctly arranges O, S, F and Cl from the most negative to the least negative electron gain enthalpy? (Here '>' means 'more negative than'.)",
+      "difficulty": "HARD",
+      "options": ["Cl > F > S > O", "F > Cl > O > S", "Cl > S > F > O", "F > O > Cl > S"],
+      "answer": 0,
+      "explanation": "Electron gain enthalpy becomes more negative across a period, so the halogens release more energy than group 16 elements. However, F and O are very small, and the added electron enters a crowded 2p subshell where it feels strong electron–electron repulsion, so their values are less negative than those of Cl and S. Values (kJ/mol): Cl −349, F −328, S −200, O −141. Order: Cl > F > S > O."
+    }
+  ]
+}

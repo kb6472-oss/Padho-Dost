@@ -1,0 +1,141 @@
+{
+  "exam": "class-10",
+  "subject": "geography",
+  "chapter": "water-resources",
+  "notes": {
+    "summary": "This NCERT chapter explains why water becomes scarce even though it is a renewable resource, how multipurpose river valley projects help and harm, and how traditional and modern rainwater harvesting conserves water. CBSE asks mostly about causes of scarcity, merits and demerits of dams, and matching harvesting methods with regions, often as assertion-reason or case-based items.",
+    "keyPoints": [
+      "About 96.5% of the world's water is in the oceans and only 2.5% is freshwater; nearly 70% of this freshwater is locked as ice sheets and glaciers, and a little less than 30% is stored as groundwater.",
+      "Water scarcity results from over-exploitation, excessive use and unequal access among social groups, driven by a growing population, irrigated dry-season agriculture, industrialisation and urbanisation. Scarcity can also be about quality — water polluted by domestic and industrial wastes, chemicals, pesticides and fertilisers.",
+      "Ancient hydraulic works: a sophisticated water-harvesting system at Sringaverapura near Prayagraj (1st century BC) channelled the floodwater of the Ganga; Chandragupta Maurya built dams, lakes and irrigation systems; Bhopal Lake (11th century) was one of the largest artificial lakes of its time.",
+      "Multipurpose projects serve irrigation, hydel power, domestic and industrial water supply, flood control, recreation, inland navigation and fish breeding. Nehru called dams the 'temples of modern India'. Bhakra Nangal (Sutlej) is used for hydel power and irrigation; Hirakud (Mahanadi) integrates water conservation with flood control.",
+      "Problems of big dams: poorer aquatic habitats and excessive sedimentation in reservoirs, rivers fragmented so that aquatic fauna cannot migrate for spawning, submergence of vegetation and soil, displacement of local communities, induced earthquakes, water-borne diseases, floods triggered by sedimentation and heavy releases, and soil salinisation from water-intensive commercial crops.",
+      "Movements and disputes: the Narmada Bachao Andolan opposed the Sardar Sarovar Dam (Narmada, Gujarat); the Tehri Dam Andolan is another example. The Krishna–Godavari dispute arose when Karnataka and Andhra Pradesh objected to Maharashtra diverting more water at Koyna for a multipurpose project.",
+      "Traditional harvesting: guls or kuls (diversion channels) in the western Himalayas, rooftop harvesting in Rajasthan, inundation channels in the floodplains of Bengal, khadins (Jaisalmer) and johads (other parts of Rajasthan), and tankas — underground tanks in Bikaner, Phalodi and Barmer storing 'palar pani', the purest form of natural water.",
+      "Bamboo drip irrigation in Meghalaya is about 200 years old: about 18–20 litres per minute entering the bamboo pipes is reduced to 20–80 drops per minute at the plant.",
+      "Modern examples: Tamil Nadu was the first state to make rooftop rainwater harvesting compulsory for all houses; Gendathur village in Mysuru (Karnataka) harvests rooftop rainwater; in Shillong, near high-rainfall Cherrapunji and Mawsynram, rooftop harvesting meets about 15–25% of household water needs.",
+      "In western Rajasthan, rooftop harvesting is declining because the perennial Rajasthan (Indira Gandhi) Canal now supplies water, though some houses still maintain tankas."
+    ],
+    "traps": [
+      "Confusing guls/kuls (western Himalayas, diversion channels) with khadins/johads (rain-fed storage on fields in Rajasthan) and tankas (underground tanks in houses).",
+      "Assuming scarcity happens only in low-rainfall areas — Shillong, close to Cherrapunji, faces shortages, and scarcity can also be due to pollution or unequal access.",
+      "Thinking dams only prevent floods — NCERT points out that sedimentation and water released during heavy rain have also triggered or worsened floods.",
+      "Mixing up rivers: Bhakra Nangal – Sutlej, Hirakud – Mahanadi, Sardar Sarovar – Narmada."
+    ],
+    "examTip": "For dam questions, frame your choice as benefits versus social and ecological costs, and for harvesting methods always pair the method with its region before looking at the options."
+  },
+  "questions": [
+    {
+      "text": "Which was the first state in India to make rooftop rainwater harvesting compulsory for all houses across the state, with legal provisions to punish defaulters?",
+      "difficulty": "EASY",
+      "options": ["Rajasthan", "Karnataka", "Tamil Nadu", "Kerala"],
+      "answer": 2,
+      "explanation": "NCERT notes that Tamil Nadu is the first state in India to make rooftop rainwater harvesting compulsory for all houses across the state.\nIt also has legal provisions to punish defaulters.\nRajasthan has traditional rooftop harvesting (tankas), but the first compulsory law was in Tamil Nadu."
+    },
+    {
+      "text": "In Bikaner, Phalodi and Barmer in Rajasthan, almost every house traditionally had an underground tank for storing drinking water, connected to the sloping roof by a pipe. What are these tanks called?",
+      "difficulty": "EASY",
+      "options": ["Khadins", "Tankas", "Kuls", "Johads"],
+      "answer": 1,
+      "explanation": "These underground tanks are called tankas; rain falling on the rooftop travels down a pipe into them.\nThe stored water, called 'palar pani', is considered the purest form of natural water.\nKhadins and johads are rain-fed storage on agricultural fields, and kuls are diversion channels in the western Himalayas."
+    },
+    {
+      "text": "The Narmada Bachao Andolan, which mobilised tribal people, farmers, environmentalists and human rights activists, was mainly directed against which dam?",
+      "difficulty": "EASY",
+      "options": ["Tehri Dam", "Hirakud Dam", "Bhakra Nangal Dam", "Sardar Sarovar Dam"],
+      "answer": 3,
+      "explanation": "The Narmada Bachao Andolan opposed the Sardar Sarovar Dam built on the Narmada river in Gujarat.\nIt first focused on environmental issues such as submergence of trees and later on rehabilitation of displaced people.\nThe Tehri Dam faced a separate movement (Tehri Dam Andolan)."
+    },
+    {
+      "text": "In the 11th century, one of the largest artificial lakes of its time was built in India. Which lake is this?",
+      "difficulty": "EASY",
+      "options": ["Bhopal Lake", "Dal Lake", "Hussain Sagar", "Chilika Lake"],
+      "answer": 0,
+      "explanation": "NCERT lists Bhopal Lake, built in the 11th century, as one of the largest artificial lakes of its time.\nDal Lake is a natural lake and Chilika is a natural coastal lagoon.\nSo the answer is Bhopal Lake."
+    },
+    {
+      "text": "A region may have plenty of water and still suffer from water scarcity. According to NCERT, which reason can explain this?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "The available water is polluted by domestic and industrial wastes, chemicals, pesticides and fertilisers, making it unsafe for use",
+        "The region has too many dams to store water",
+        "Water scarcity occurs only in regions of low rainfall",
+        "Groundwater can never be used for drinking"
+      ],
+      "answer": 0,
+      "explanation": "Scarcity is not only about quantity; it can also be about quality.\nNCERT explains that even where water is ample, it may be polluted by domestic and industrial wastes, chemicals, pesticides and fertilisers.\nSuch water is hazardous for human use, so the region still faces scarcity."
+    },
+    {
+      "text": "Shillong, the capital of Meghalaya, lies close to Cherrapunji and Mawsynram, which receive very heavy rainfall, yet the city faces acute water shortage. How have households in Shillong responded to this problem?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "By building khadins on agricultural fields",
+        "Nearly every household has a rooftop rainwater harvesting structure, which meets about 15–25% of its water needs",
+        "By using bamboo drip pipes to irrigate household gardens",
+        "By digging guls to divert glacial meltwater into the city"
+      ],
+      "answer": 1,
+      "explanation": "NCERT describes the paradox of Shillong: heavy rainfall nearby, yet acute water shortage.\nNearly every household in the city has a rooftop rainwater harvesting structure.\nAbout 15–25% of a household's total water requirement comes from this rooftop harvesting."
+    },
+    {
+      "text": "Match the traditional water-harvesting system in List I with the region where it is practised in List II.\nList I:\nP. Khadins\nQ. Inundation channels\nR. Kuls\nS. Bamboo drip irrigation\nList II:\n1. Floodplains of West Bengal\n2. Western Himalayas\n3. Jaisalmer (Rajasthan)\n4. Meghalaya",
+      "difficulty": "MEDIUM",
+      "options": [
+        "P-1, Q-3, R-2, S-4",
+        "P-4, Q-1, R-2, S-3",
+        "P-3, Q-1, R-2, S-4",
+        "P-3, Q-2, R-1, S-4"
+      ],
+      "answer": 2,
+      "explanation": "Khadins are rain-fed storage structures on fields in Jaisalmer: P-3.\nInundation channels were built in the floodplains of Bengal for irrigation: Q-1.\nKuls (guls) are diversion channels in the western Himalayas: R-2.\nBamboo drip irrigation is practised in Meghalaya: S-4.\nSo the answer is P-3, Q-1, R-2, S-4."
+    },
+    {
+      "text": "Assertion (A): In western Rajasthan, the practice of rooftop rainwater harvesting through tankas is on the decline.\nReason (R): Western Rajasthan receives heavy rainfall throughout the year, so storing rainwater is unnecessary.\n\nChoose the correct option.",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A.",
+        "Both A and R are true, but R is not the correct explanation of A.",
+        "A is true, but R is false.",
+        "A is false, but R is true."
+      ],
+      "answer": 2,
+      "explanation": "NCERT notes that rooftop harvesting in western Rajasthan is declining, so A is true.\nThe actual reason is that water is now available from the perennial Rajasthan (Indira Gandhi) Canal.\nWestern Rajasthan is arid with low rainfall, so R is false.\nHence A is true but R is false."
+    },
+    {
+      "text": "Assertion (A): Dams make it easier for aquatic fauna to migrate along rivers for spawning.\nReason (R): Dams obstruct the natural flow of rivers and cause excessive sedimentation at the bottom of the reservoir.\n\nChoose the correct option.",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A.",
+        "Both A and R are true, but R is not the correct explanation of A.",
+        "A is true, but R is false.",
+        "A is false, but R is true."
+      ],
+      "answer": 3,
+      "explanation": "NCERT states that dams fragment rivers, making it difficult for aquatic fauna to migrate, especially for spawning, so A is false.\nRegulating and obstructing river flow does lead to excessive sedimentation at the reservoir bottom, so R is true.\nHence A is false but R is true."
+    },
+    {
+      "text": "The Krishna–Godavari water dispute, mentioned in NCERT as an example of inter-state conflict over multipurpose projects, arose because:",
+      "difficulty": "HARD",
+      "options": [
+        "Tamil Nadu objected to Karnataka building dams on the Cauvery",
+        "Punjab objected to sharing the Sutlej water with Haryana",
+        "Odisha objected to barrages built upstream on the Mahanadi",
+        "Karnataka and Andhra Pradesh objected to the diversion of more water at Koyna by Maharashtra for a multipurpose project"
+      ],
+      "answer": 3,
+      "explanation": "NCERT cites the Krishna–Godavari dispute as an inter-state water dispute.\nThe objections were raised by the governments of Karnataka and Andhra Pradesh.\nThey opposed the Maharashtra government's diversion of more water at Koyna for a multipurpose project.\nThe Cauvery dispute is a different case."
+    },
+    {
+      "text": "Assertion (A): Some dams that were built to control floods have themselves triggered floods.\nReason (R): Sedimentation reduces the storage capacity of reservoirs, and the release of water from dams during heavy rains can aggravate floods downstream.\n\nChoose the correct option.",
+      "difficulty": "HARD",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A.",
+        "Both A and R are true, but R is not the correct explanation of A.",
+        "A is true, but R is false.",
+        "A is false, but R is true."
+      ],
+      "answer": 0,
+      "explanation": "NCERT says that, ironically, dams built to control floods have triggered floods, so A is true.\nSediment settling in reservoirs reduces their capacity, and big dams have released water during excessive rainfall, worsening floods; so R is true.\nThese are exactly the reasons why dams have triggered floods, so R correctly explains A."
+    }
+  ]
+}

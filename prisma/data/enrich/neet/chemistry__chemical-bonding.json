@@ -1,0 +1,161 @@
+{
+  "exam": "neet",
+  "subject": "chemistry",
+  "chapter": "chemical-bonding",
+  "notes": {
+    "summary": "Chemical Bonding covers the octet rule and Lewis structures, formal charge, ionic bonding and lattice enthalpy, bond parameters, polarity and dipole moment, VSEPR theory, valence bond theory and hybridisation, molecular orbital theory of homonuclear diatomic molecules, resonance and hydrogen bonding. NEET tests shapes and hybridisation, bond order and magnetic behaviour from MOT, dipole moment comparisons, and NCERT-based statement and assertion–reason items.",
+    "keyPoints": [
+      "Formal charge = (valence electrons) − (non-bonding electrons) − ½(bonding electrons). In O₃ the central O has formal charge +1 and the singly bonded terminal O has −1.",
+      "Ionic bond formation is favoured by low ionisation enthalpy of the metal, high negative electron gain enthalpy of the non-metal and high lattice enthalpy of the solid formed.",
+      "VSEPR repulsion order: lp–lp > lp–bp > bp–bp. Bond angles: CH₄ 109.5°, NH₃ 107°, H₂O 104.5°.",
+      "Shapes: BF₃ trigonal planar (sp²); PCl₅ trigonal bipyramidal (sp³d, axial bonds longer than equatorial); SF₄ see-saw; ClF₃ T-shaped; SF₆ octahedral (sp³d²); BrF₅ square pyramidal; XeF₄ square planar.",
+      "Dipole moment μ = q × d (1 D = 3.336 × 10⁻³⁰ C m). CO₂, BF₃, CH₄ and CCl₄ are non-polar by symmetry; μ(NH₃) ≈ 1.47 D > μ(NF₃) ≈ 0.23 D because of the direction of the lone-pair moment.",
+      "Single bond = 1σ; double bond = 1σ + 1π; triple bond = 1σ + 2π. A σ bond (axial overlap) is stronger than a π bond (sideways overlap).",
+      "MOT: bond order = ½(Nb − Na). For B₂, C₂ and N₂ the π2p orbitals lie below σ2p; for O₂ and F₂ σ2p lies below π2p. Bond orders: N₂ 3, O₂⁺ 2.5, O₂ 2, O₂⁻ 1.5, O₂²⁻ 1, He₂ 0.",
+      "Higher bond order means a shorter and stronger bond. B₂ and O₂ are paramagnetic; C₂ (bond order 2, both bonds π) and N₂ are diamagnetic.",
+      "Hydrogen bonding: intermolecular H-bonding (HF, H₂O, p-nitrophenol) raises the boiling point; intramolecular H-bonding (o-nitrophenol) lowers it and makes the compound steam-volatile."
+    ],
+    "traps": [
+      "Predicting shape from hybridisation alone; lone pairs change the shape (sp³d² can be octahedral, square pyramidal or square planar).",
+      "Assuming a more electronegative substituent always gives a larger dipole moment (NF₃ has a smaller dipole moment than NH₃).",
+      "Using the O₂-type MO energy order for N₂ and lighter molecules, which gives the wrong magnetic behaviour for B₂ and C₂.",
+      "Counting a double bond as two σ bonds when counting σ and π bonds.",
+      "Calling a molecule polar just because its bonds are polar; a symmetrical shape can cancel the bond dipoles."
+    ],
+    "examTip": "For any shape question, count the bond pairs and lone pairs on the central atom first; that single count settles hybridisation, shape and polarity together."
+  },
+  "questions": [
+    {
+      "text": "Which set of conditions most favours the formation of an ionic bond between a metal atom M and a non-metal atom X?",
+      "difficulty": "EASY",
+      "options": [
+        "High ionisation enthalpy of M, less negative electron gain enthalpy of X and low lattice enthalpy",
+        "High ionisation enthalpy of M, high negative electron gain enthalpy of X and low lattice enthalpy",
+        "Low ionisation enthalpy of M, high negative electron gain enthalpy of X and high lattice enthalpy",
+        "Low ionisation enthalpy of M, less negative electron gain enthalpy of X and low lattice enthalpy"
+      ],
+      "answer": 2,
+      "explanation": "Forming the cation M⁺ is easier when M has a low ionisation enthalpy.\nForming the anion X⁻ is easier when X has a high negative electron gain enthalpy (energy is released on adding an electron).\nA high lattice enthalpy, released when the ions pack into a crystal, stabilises the ionic solid.\nSo low IE of M, high negative electron gain enthalpy of X and high lattice enthalpy favour ionic bonding."
+    },
+    {
+      "text": "According to molecular orbital theory, the He₂ molecule does not exist because:",
+      "difficulty": "EASY",
+      "options": [
+        "helium atoms are too small to overlap",
+        "its bond order is zero",
+        "its bond order is 0.5",
+        "it is paramagnetic"
+      ],
+      "answer": 1,
+      "explanation": "He₂ would have 4 electrons: σ1s² σ*1s².\nBond order = ½(Nb − Na) = ½(2 − 2) = 0.\nA bond order of zero means no net bonding, so He₂ is not a stable molecule.\n(It would be diamagnetic, with all electrons paired.)"
+    },
+    {
+      "text": "In the Lewis structure of ozone (O₃), the formal charge on the central oxygen atom is:",
+      "difficulty": "EASY",
+      "options": [
+        "+1",
+        "0",
+        "−1",
+        "+2"
+      ],
+      "answer": 0,
+      "explanation": "The central O forms one double bond and one single bond (6 bonding electrons) and carries one lone pair (2 non-bonding electrons).\nFormal charge = V − L − ½S = 6 − 2 − ½(6) = +1.\n(The singly bonded terminal O has formal charge −1 and the doubly bonded terminal O has 0.)"
+    },
+    {
+      "text": "The correct order of increasing O–O bond length in the species O₂, O₂⁺, O₂⁻ and O₂²⁻ is:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "O₂²⁻ < O₂⁻ < O₂ < O₂⁺",
+        "O₂ < O₂⁺ < O₂⁻ < O₂²⁻",
+        "O₂⁻ < O₂²⁻ < O₂⁺ < O₂",
+        "O₂⁺ < O₂ < O₂⁻ < O₂²⁻"
+      ],
+      "answer": 3,
+      "explanation": "Bond orders from MOT: O₂⁺ (15 electrons) = 2.5, O₂ (16) = 2, O₂⁻ (17) = 1.5, O₂²⁻ (18) = 1.\nBond length decreases as bond order increases.\nSo the increasing order of bond length is O₂⁺ < O₂ < O₂⁻ < O₂²⁻."
+    },
+    {
+      "text": "NH₃ has a much larger dipole moment (about 1.47 D) than NF₃ (about 0.23 D), even though fluorine is more electronegative than hydrogen. This is because:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "NF₃ is a planar molecule while NH₃ is pyramidal",
+        "in NH₃ the lone-pair moment adds to the resultant N–H bond moment, while in NF₃ it opposes the resultant N–F bond moment",
+        "N–F bonds are non-polar while N–H bonds are polar",
+        "NH₃ forms hydrogen bonds, which increase its dipole moment"
+      ],
+      "answer": 1,
+      "explanation": "Both molecules are pyramidal with one lone pair on nitrogen.\nIn NH₃, N is more electronegative than H, so the resultant N–H bond moment points towards N, in the same direction as the lone-pair orbital moment; the two add.\nIn NF₃, F is more electronegative, so the resultant N–F bond moment points away from N, opposite to the lone-pair moment; they partly cancel.\nHence μ(NH₃) > μ(NF₃)."
+    },
+    {
+      "text": "In the PCl₅ molecule, the axial P–Cl bonds are longer than the equatorial P–Cl bonds. This is because:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "axial bonds are formed by sp³ orbitals and equatorial bonds by sp³d orbitals",
+        "the axial chlorine atoms carry extra lone pairs that repel the phosphorus atom",
+        "each axial bond pair is repelled by three equatorial bond pairs at 90°, more than any equatorial bond pair is repelled",
+        "the equatorial bonds have partial double-bond character"
+      ],
+      "answer": 2,
+      "explanation": "PCl₅ is trigonal bipyramidal (sp³d) with three equatorial and two axial bonds.\nEach axial bond pair is at 90° to three equatorial bond pairs, while each equatorial bond pair is at 90° to only the two axial bond pairs.\nThe greater repulsion on the axial bond pairs pushes the axial Cl atoms farther out.\nSo the axial bonds are longer (and slightly weaker) than the equatorial bonds."
+    },
+    {
+      "text": "The numbers of σ and π bonds in acrylonitrile, CH₂=CH–C≡N, are respectively:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "6 and 3",
+        "5 and 4",
+        "9 and 0",
+        "6 and 2"
+      ],
+      "answer": 0,
+      "explanation": "σ bonds: three C–H bonds, one σ in C=C, one C–C single bond and one σ in C≡N: 3 + 1 + 1 + 1 = 6.\nπ bonds: one in C=C and two in C≡N: 1 + 2 = 3.\nSo there are 6 σ bonds and 3 π bonds."
+    },
+    {
+      "text": "o-Nitrophenol is steam volatile and has a lower boiling point than p-nitrophenol. This is because:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "o-nitrophenol has a higher molecular mass",
+        "p-nitrophenol has intramolecular hydrogen bonding",
+        "o-nitrophenol cannot form any hydrogen bond",
+        "o-nitrophenol has intramolecular hydrogen bonding, whereas p-nitrophenol has intermolecular hydrogen bonding"
+      ],
+      "answer": 3,
+      "explanation": "In o-nitrophenol the –OH and –NO₂ groups are next to each other, so a hydrogen bond forms within the same molecule (intramolecular).\nIn p-nitrophenol the groups are far apart, so hydrogen bonds form between different molecules (intermolecular), causing association.\nAssociation raises the boiling point of the para isomer, while the ortho isomer exists as separate molecules and is more volatile.\n(Both isomers have the same molecular mass.)"
+    },
+    {
+      "text": "Assertion (A): BF₃ has zero dipole moment.\nReason (R): The B–F bond is polar because fluorine is much more electronegative than boron.\nChoose the correct option.",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 1,
+      "explanation": "BF₃ is trigonal planar with three identical B–F bonds at 120°; the three bond moments cancel, so μ = 0. A is true.\nThe B–F bond is indeed polar because of the large electronegativity difference. R is true.\nBond polarity by itself would make a molecule polar; the zero dipole moment is due to the symmetrical planar shape, so R is not the correct explanation of A."
+    },
+    {
+      "text": "Consider the following statements based on molecular orbital theory:\nI. The C₂ molecule has a bond order of 2, and both of its bonds are π bonds.\nII. The B₂ molecule is paramagnetic.\nIII. He₂⁺ has a bond order of 0.5 and is diamagnetic.\nIV. O₂²⁻ has a bond order of 1 and is paramagnetic.\nWhich of the statements are correct?",
+      "difficulty": "HARD",
+      "options": [
+        "I and II only",
+        "I, II and III only",
+        "II and IV only",
+        "I, III and IV only"
+      ],
+      "answer": 0,
+      "explanation": "I: C₂ (12 electrons) = σ1s² σ*1s² σ2s² σ*2s² π2px² π2py²; bond order = (8 − 4)/2 = 2, and both bonds are π. True.\nII: B₂ (10 electrons) has one electron each in π2px and π2py, so it is paramagnetic. True.\nIII: He₂⁺ (3 electrons) = σ1s² σ*1s¹; bond order 0.5, but the unpaired electron makes it paramagnetic. False.\nIV: O₂²⁻ (18 electrons) has completely filled π*2p orbitals; bond order 1, all electrons paired, so diamagnetic. False.\nCorrect: I and II only."
+    },
+    {
+      "text": "Which of the following is correctly matched (species – hybridisation of the central atom – shape)?",
+      "difficulty": "HARD",
+      "options": [
+        "SF₄ – sp³ – tetrahedral",
+        "XeF₄ – sp³d² – octahedral",
+        "ClF₃ – sp³d – trigonal planar",
+        "BrF₅ – sp³d² – square pyramidal"
+      ],
+      "answer": 3,
+      "explanation": "SF₄: 4 bond pairs + 1 lone pair → sp³d, see-saw shape (not sp³ tetrahedral).\nXeF₄: 4 bond pairs + 2 lone pairs → sp³d², but the shape is square planar.\nClF₃: 3 bond pairs + 2 lone pairs → sp³d, T-shaped.\nBrF₅: 5 bond pairs + 1 lone pair → sp³d², square pyramidal. This is the correct match."
+    }
+  ]
+}

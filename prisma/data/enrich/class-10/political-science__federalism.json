@@ -1,0 +1,152 @@
+{
+  "exam": "class-10",
+  "subject": "political-science",
+  "chapter": "federalism",
+  "notes": {
+    "summary": "Federalism explains the key features of a federal system, the 'coming together' and 'holding together' routes to federation, the three-fold distribution of legislative powers in India, how federalism is practised through linguistic states, language policy and Centre–State relations, and decentralisation through the 1992 amendment. CBSE tests features, lists and examples, the procedure for changing the division of power, and local government facts.",
+    "keyPoints": [
+      "Federalism is a system in which power is divided between a central authority and its constituent units; each level governs the same citizens but has its own jurisdiction in specified matters. In a unitary system (e.g. Sri Lanka) there is one level, or the central government can order the sub-units. Belgium shifted from unitary to federal in 1993.",
+      "Key features: two or more levels of government; jurisdiction of each level specified in the constitution; fundamental provisions cannot be changed by one level alone; courts interpret the constitution and settle disputes; sources of revenue clearly specified; dual objectives of safeguarding national unity and accommodating regional diversity.",
+      "Coming together federations (USA, Switzerland, Australia): independent states pool their sovereignty, and the units usually have equal power. Holding together federations (India, Spain, Belgium): a large country divides its power; the central government tends to be more powerful and units may have unequal powers.",
+      "Indian lists: Union List (defence, foreign affairs, banking, communications, currency); State List (police, trade, commerce, agriculture, irrigation); Concurrent List (education, forest, trade unions, marriage, adoption, succession). If Union and State laws on a Concurrent subject conflict, the Union law prevails. Residuary subjects such as computer software belong to the Union.",
+      "Union Territories such as Chandigarh and Lakshadweep are too small to be independent States and could not be merged with existing States; they do not have the powers of a State, and the Central Government has special powers in running them.",
+      "Changing the power-sharing arrangement needs a two-thirds majority in both Houses of Parliament and ratification by the legislatures of at least half of the total States. The High Courts and the Supreme Court settle disputes about the division of powers.",
+      "Linguistic States were created from 1947 onward; some States such as Nagaland, Uttarakhand and Jharkhand were created on the basis of culture, ethnicity or geography. Experience shows that linguistic States made the country more united and administration easier.",
+      "Language policy: no national language. Hindi is the official language but the mother tongue of only about 40% of Indians; besides Hindi, 21 other languages are Scheduled Languages. Official use of English was to stop in 1965, but after protests (violent in Tamil Nadu) the Centre agreed to continue English along with Hindi.",
+      "After 1990, regional parties grew and coalition governments at the Centre became common, and a Supreme Court judgment made it difficult for the Centre to dismiss State governments in an arbitrary manner.",
+      "1992 amendment: regular elections to local bodies are mandatory; seats and executive heads are reserved for SC, ST and OBC; at least one-third of all positions are reserved for women; a State Election Commission conducts local elections; States must share some powers and revenue. The Gram Sabha is all the voters of a village; the sarpanch heads the gram panchayat; the mayor heads a municipal corporation."
+    ],
+    "traps": [
+      "Saying Hindi is India's 'national language'; the Constitution gives no language that status, and Hindi is the official language.",
+      "Calling India a 'coming together' federation; it is a holding together federation, like Spain and Belgium.",
+      "Thinking Parliament alone can change the Union–State division of powers; ratification by at least half of the State legislatures is also needed.",
+      "Saying local body elections are conducted by the Election Commission of India; they are conducted by the State Election Commission.",
+      "Putting residuary subjects in the State List; they belong to the Union Government."
+    ],
+    "examTip": "When a question names a subject, decide its list by asking whether it is of national importance (Union), local importance (State) or common interest (Concurrent), and remember that new subjects such as computer software are residuary and go to the Union."
+  },
+  "questions": [
+    {
+      "text": "Subjects such as computer software, which came up after the Constitution was made and do not fall in the Union, State or Concurrent List, are called residuary subjects. Who has the power to make laws on them?",
+      "difficulty": "EASY",
+      "options": [
+        "The State Governments",
+        "The Union Government",
+        "The local governments",
+        "The Union and State Governments jointly"
+      ],
+      "answer": 1,
+      "explanation": "The Constitution divides legislative powers into the Union List, the State List and the Concurrent List.\nSubjects that do not fall in any of the three lists are called residuary subjects; computer software is an example.\nAccording to the Constitution, the Union Government has the power to legislate on these residuary subjects.\nSo the answer is the Union Government."
+    },
+    {
+      "text": "Education, forest, trade unions, marriage, adoption and succession are subjects of common interest to the Union and the States. If a law made by a State on one of these subjects conflicts with a law made by Parliament on the same subject, which law will prevail?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "The State law, because the State is closer to the people",
+        "Both laws remain valid, and citizens may follow either",
+        "The law that was made earlier",
+        "The law made by the Union Government"
+      ],
+      "answer": 3,
+      "explanation": "These subjects are in the Concurrent List, on which both the Union and the State Governments can make laws.\nNCERT notes that if their laws conflict with each other, the law made by the Union Government prevails.\nThis keeps uniformity on matters of common interest across the country.\nSo the Union law prevails."
+    },
+    {
+      "text": "India, Spain and Belgium are examples of 'holding together' federations. Which statement correctly describes this type of federation?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "A large country divides its power between the constituent states and the national government, and the central government tends to be more powerful",
+        "Independent states come together on their own to form a bigger unit, and all the units usually have equal power",
+        "Power is held only by the central government, which can pass orders to the provincial governments",
+        "The constituent states can leave the federation whenever their legislatures decide to"
+      ],
+      "answer": 0,
+      "explanation": "In a holding together federation, a large country decides to divide its power between the constituent states and the national government.\nThe central government tends to be more powerful, and the constituent units may have unequal powers, with some units granted special powers.\nIndependent states pooling their sovereignty with equal power describes a coming together federation such as the USA, Switzerland or Australia.\nPower held only by the central government describes a unitary system.\nSo the first statement is correct."
+    },
+    {
+      "text": "Which country shifted from a unitary to a federal form of government in 1993, when its regional governments were given constitutional powers that no longer depended on the central government?",
+      "difficulty": "EASY",
+      "options": ["Sri Lanka", "Spain", "Belgium", "Australia"],
+      "answer": 2,
+      "explanation": "Belgium had earlier been a unitary country.\nIn 1993 its regional governments were given constitutional powers that were no longer dependent on the central government, so Belgium shifted from a unitary to a federal form of government.\nSri Lanka, by contrast, continues to be, for all practical purposes, a unitary system.\nSo the answer is Belgium."
+    },
+    {
+      "text": "Some units of the Indian Union, such as Chandigarh and Lakshadweep, are too small to become independent States and could not be merged with any of the existing States. These units:",
+      "difficulty": "EASY",
+      "options": [
+        "have their own fully independent legislatures with all the powers of a State",
+        "are run by the Gram Sabhas of the area",
+        "are governed by the nearest neighbouring State",
+        "are Union Territories, which do not have the powers of a State and in whose running the Central Government has special powers"
+      ],
+      "answer": 3,
+      "explanation": "Areas that are too small to be independent States and could not be merged with any existing State are called Union Territories.\nExamples given in NCERT include Chandigarh, Lakshadweep and the capital city of Delhi.\nThese territories do not have the powers of a State, and the Central Government has special powers in running them.\nSo they are Union Territories."
+    },
+    {
+      "text": "Which one of the following statements about India's language policy is correct?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "The Constitution declared Hindi to be the national language of India",
+        "Hindi is the official language, and besides Hindi there are 21 other languages recognised as Scheduled Languages",
+        "The use of English for official purposes ended completely in 1965",
+        "Every State is required to use Hindi as its official language"
+      ],
+      "answer": 1,
+      "explanation": "The Constitution did not give the status of national language to any one language.\nHindi was identified as the official language, but it is the mother tongue of only about 40% of Indians, so other languages were safeguarded: besides Hindi, 21 other languages are recognised as Scheduled Languages.\nOfficial use of English was to stop in 1965, but after protests by non-Hindi-speaking States (violent in Tamil Nadu), the Centre agreed to continue English along with Hindi.\nStates have their own official languages, and the Centre does not impose Hindi on them.\nSo the correct statement is the second one."
+    },
+    {
+      "text": "Most Indian States were reorganised on the basis of language. However, States such as Nagaland, Uttarakhand and Jharkhand were created mainly to recognise differences based on:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "religion",
+        "population size",
+        "culture, ethnicity or geography",
+        "the wishes of the Union Government alone"
+      ],
+      "answer": 2,
+      "explanation": "From 1947 onward, the boundaries of several old States were changed so that people who spoke the same language lived in the same State.\nSome States, however, were created not on the basis of language but to recognise differences based on culture, ethnicity or geography.\nNCERT gives Nagaland, Uttarakhand and Jharkhand as examples.\nSo the basis was culture, ethnicity or geography."
+    },
+    {
+      "text": "Consider the following statements about the constitutional amendment of 1992 that strengthened local government in India:\nI. It is constitutionally mandatory to hold regular elections to local government bodies.\nII. At least one-third of all positions in local bodies are reserved for women.\nIII. Elections to panchayats and municipalities are conducted by the Election Commission of India.\nIV. Seats are reserved for Scheduled Castes, Scheduled Tribes and Other Backward Classes.\nWhich of these statements are correct?",
+      "difficulty": "HARD",
+      "options": ["I, II and IV only", "I, II and III only", "II, III and IV only", "I, II, III and IV"],
+      "answer": 0,
+      "explanation": "After the 1992 amendment, it is constitutionally mandatory to hold regular elections to local government bodies; I is correct.\nAt least one-third of all positions are reserved for women; II is correct.\nAn independent institution called the State Election Commission has been created in each State to conduct panchayat and municipal elections, not the Election Commission of India; III is wrong.\nSeats in the elected bodies and the executive heads of these institutions are reserved for SC, ST and OBC; IV is correct.\nSo the correct statements are I, II and IV only."
+    },
+    {
+      "text": "Assertion (A): In India, the Union Government cannot on its own change the basic arrangement for sharing power between the Union and the States.\nReason (R): Any change to this arrangement must first be passed by both Houses of Parliament with at least a two-thirds majority and then be ratified by the legislatures of at least half of the total States.\nChoose the correct option.",
+      "difficulty": "HARD",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 0,
+      "explanation": "The sharing of power between the Union and the State Governments is basic to the structure of the Constitution, and it is not easy to change.\nA change needs a two-thirds majority in both Houses of Parliament and then ratification by the legislatures of at least half of the total States.\nBecause the States must also agree, the Union cannot change the arrangement alone, which is exactly what R explains.\nBoth A and R are true, and R is the correct explanation of A."
+    },
+    {
+      "text": "Earlier, the Central Government sometimes misused the Constitution to dismiss State governments controlled by rival parties. Which development made this difficult after 1990?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "The post of Governor was abolished",
+        "A Supreme Court judgment made it difficult for the Central Government to dismiss State governments in an arbitrary manner",
+        "States were allowed to leave the Union if their governments were dismissed",
+        "All State governments came to be formed by the party ruling at the Centre"
+      ],
+      "answer": 1,
+      "explanation": "For a long time the same party ruled at the Centre and in most States, and the Centre often undermined State governments run by rival parties.\nAfter 1990, regional parties rose in many States and coalition governments became common at the Centre, creating a new culture of power sharing and respect for the autonomy of States.\nThis trend was supported by a major judgment of the Supreme Court that made it difficult for the Central Government to dismiss State governments in an arbitrary manner.\nSo the development was the Supreme Court judgment."
+    },
+    {
+      "text": "One key feature of federalism is that it has dual objectives. Which option correctly states them?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "To make the central government all-powerful and to reduce the number of States",
+        "To give each State the right to its own army and its own currency",
+        "To safeguard and promote the unity of the country, while accommodating regional diversity",
+        "To let the courts make laws and the legislatures settle disputes"
+      ],
+      "answer": 2,
+      "explanation": "NCERT lists the dual objectives of a federal system as one of its key features.\nThe first objective is to safeguard and promote the unity of the country; the second is to accommodate regional diversity.\nFor this, governments at different levels should agree to some rules of power sharing and trust each other.\nSo the dual objectives are national unity and accommodation of regional diversity."
+    }
+  ]
+}

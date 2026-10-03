@@ -1,0 +1,106 @@
+{
+  "exam": "upsc",
+  "subject": "indian-polity-governance",
+  "chapter": "parliament-judiciary",
+  "notes": {
+    "summary": "Covers the Union executive (President, Vice-President, Prime Minister and Council of Ministers), Parliament (composition, presiding officers, law-making, budget, committees and parliamentary devices) and the Supreme Court and High Courts. UPSC asks precise, procedure-based statement questions: who decides, which majority, which Article, and what the exceptions are.",
+    "keyPoints": [
+      "President: elected by the elected members of both Houses of Parliament and of the Legislative Assemblies of the States, Delhi and Puducherry (Article 54) through proportional representation by single transferable vote; oath administered by the Chief Justice of India (Article 60); impeachment (Article 61) for 'violation of the Constitution' needs 2/3 of the total membership of each House — nominated MPs take part, MLAs do not.",
+      "Ordinance (Article 123): can be issued only when at least one House is not in session; lapses six weeks after Parliament reassembles (maximum life about 6 months + 6 weeks); cannot amend the Constitution; subject to judicial review.",
+      "Council of Ministers (Article 75): collectively responsible to the Lok Sabha; size capped at 15% of the total strength of the Lok Sabha (91st Amendment, 2003); a non-member can be a minister for up to six months.",
+      "Lok Sabha Speaker: certifies Money Bills (Article 110), presides over joint sittings (Article 108), has only a casting vote in a tie, does not vacate office on dissolution until the new House first meets, and resigns by writing to the Deputy Speaker.",
+      "Rajya Sabha special powers: Article 249 (law on a State List subject in the national interest) and Article 312 (new All-India Service), each by a resolution of 2/3 of members present and voting. On a Money Bill it can only make recommendations within 14 days.",
+      "Budget: Annual Financial Statement (Article 112), Appropriation Bill (Article 114), Vote on Account (Article 116). Charged expenditure (President, Supreme Court judges, CAG, UPSC, debt charges) is discussed but not voted. Cut motions: policy cut (reduce to ₹1), economy cut (by a specified amount), token cut (by ₹100).",
+      "Financial committees: Public Accounts Committee — 22 members (15 Lok Sabha + 7 Rajya Sabha), examines CAG audit reports, chairman from the Opposition by convention since 1967; Estimates Committee — 30 members, all from the Lok Sabha; no minister can be a member of either.",
+      "Question Hour: starred questions (oral answer, supplementaries allowed), unstarred (written answer, no supplementaries), short-notice questions (less than 10 days' notice, oral). Zero Hour is an Indian innovation (since 1962) not mentioned in the Rules of Procedure.",
+      "Judiciary: Supreme Court judges retire at 65, High Court judges at 62; Article 131 original jurisdiction, Article 143 advisory jurisdiction (opinion not binding), Article 137 review, Articles 129 and 215 courts of record. Collegium system from the Second (1993) and Third (1998) Judges cases; the NJAC (99th Amendment) was struck down in 2015."
+    ],
+    "traps": [
+      "Writing that nominated MPs vote in the presidential election — they vote only in the impeachment of the President (and in the Vice-President's election).",
+      "Saying impeachment of the President must begin in the Lok Sabha — either House may initiate it.",
+      "Believing the Rajya Sabha can amend or reject a Money Bill — it can only recommend changes within 14 days.",
+      "Assuming an ordinance cannot be issued while Parliament is in session — it can be issued when either House is not sitting.",
+      "Mixing up the Public Accounts Committee (both Houses, 22 members) with the Estimates Committee (Lok Sabha only, 30 members)."
+    ],
+    "examTip": "For every procedure question ask three things — who initiates, which majority (simple, 2/3 of members present and voting, or 2/3 of total membership) and which House — because most distractors change just one of these."
+  },
+  "questions": [
+    {
+      "text": "Who administers the oath of office to the President of India?",
+      "difficulty": "EASY",
+      "options": ["The Vice-President of India", "The Speaker of the Lok Sabha", "The Chief Justice of India", "The Prime Minister of India"],
+      "answer": 2,
+      "explanation": "Article 60 lays down the oath or affirmation of the President. It is made before the Chief Justice of India, or in his absence, before the senior-most judge of the Supreme Court available. The Vice-President, by contrast, takes his oath before the President (Article 69). Answer: the Chief Justice of India."
+    },
+    {
+      "text": "Up to what age does a judge of a High Court in India hold office?",
+      "difficulty": "EASY",
+      "options": ["62 years", "60 years", "65 years", "70 years"],
+      "answer": 0,
+      "explanation": "Under Article 217, a High Court judge holds office until he attains the age of 62 years. The 15th Amendment Act, 1963 raised this limit from 60 to 62. A Supreme Court judge holds office until 65 years (Article 124). Answer: 62 years."
+    },
+    {
+      "text": "Under which Article of the Constitution can the President seek the opinion of the Supreme Court on any question of law or fact of public importance?",
+      "difficulty": "EASY",
+      "options": ["Article 131", "Article 137", "Article 32", "Article 143"],
+      "answer": 3,
+      "explanation": "Article 143 gives the Supreme Court advisory jurisdiction: the President may refer a question of law or fact of public importance to it. The opinion is advisory and not binding on the President. Article 131 is the Court's original jurisdiction in federal disputes, Article 137 is its power to review its own judgments, and Article 32 is the writ jurisdiction for Fundamental Rights. Answer: Article 143."
+    },
+    {
+      "text": "Consider the following statements regarding the election of the President of India:\n1. Nominated members of both Houses of Parliament participate in the election.\n2. Elected members of the Legislative Assemblies of the Union Territories of Delhi and Puducherry participate in the election.\n3. Members of the State Legislative Councils do not participate in the election.\nWhich of the statements given above is/are correct?",
+      "difficulty": "MEDIUM",
+      "options": ["2 and 3 only", "1 and 2 only", "3 only", "1, 2 and 3"],
+      "answer": 0,
+      "explanation": "Under Article 54 the electoral college consists of the elected members of both Houses of Parliament and the elected members of the State Legislative Assemblies. The 70th Amendment Act, 1992 added the elected members of the Legislative Assemblies of Delhi and Puducherry — statement 2 is correct. Nominated members of Parliament and of the Assemblies do not vote — statement 1 is wrong. Members of Legislative Councils, elected or nominated, are not part of the electoral college — statement 3 is correct. Answer: 2 and 3 only."
+    },
+    {
+      "text": "Consider the following statements regarding the ordinance-making power of the President under Article 123:\n1. An ordinance can be promulgated even when one House of Parliament is in session.\n2. If it is not approved by Parliament, an ordinance ceases to operate at the expiry of six weeks from the reassembly of Parliament.\n3. An ordinance can be issued to amend the Constitution.\nWhich of the statements given above is/are correct?",
+      "difficulty": "MEDIUM",
+      "options": ["1 only", "2 and 3 only", "1 and 2 only", "1, 2 and 3"],
+      "answer": 2,
+      "explanation": "The President can promulgate an ordinance when both Houses, or either House, are not in session, because a law needs the assent of both Houses — statement 1 is correct. An ordinance must be laid before both Houses when they reassemble and lapses six weeks after reassembly unless approved (earlier if both Houses disapprove it), so its maximum life is about six months and six weeks — statement 2 is correct. A constitutional amendment can be made only by Parliament under Article 368, never by ordinance — statement 3 is wrong. Answer: 1 and 2 only."
+    },
+    {
+      "text": "Consider the following statements about the proceedings of the Lok Sabha:\n1. 'Zero Hour' is provided for in the Rules of Procedure of the Lok Sabha.\n2. A starred question requires an oral answer, and supplementary questions can follow.\n3. An unstarred question requires a written answer, and no supplementary questions can be asked.\nWhich of the statements given above is/are correct?",
+      "difficulty": "MEDIUM",
+      "options": ["1 and 2 only", "2 and 3 only", "3 only", "1, 2 and 3"],
+      "answer": 1,
+      "explanation": "Zero Hour, which begins right after Question Hour, is an informal Indian innovation in use since 1962 and is not mentioned in the Rules of Procedure — statement 1 is wrong. The first hour of a sitting is Question Hour. A starred question (marked with an asterisk) gets an oral answer and supplementaries may follow — statement 2 is correct. An unstarred question gets a written answer with no supplementaries — statement 3 is correct. Answer: 2 and 3 only."
+    },
+    {
+      "text": "Consider the following statements about the financial committees of Parliament:\n1. All members of the Estimates Committee are drawn from the Lok Sabha.\n2. A minister can be elected as a member of the Public Accounts Committee.\n3. The Public Accounts Committee examines the audit reports of the Comptroller and Auditor General of India.\nWhich of the statements given above are correct?",
+      "difficulty": "MEDIUM",
+      "options": ["1 and 2 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 2,
+      "explanation": "The Estimates Committee has 30 members, all from the Lok Sabha, and suggests economies in public expenditure — statement 1 is correct. The Public Accounts Committee has 22 members (15 from the Lok Sabha and 7 from the Rajya Sabha) elected every year by proportional representation, and a minister cannot be a member — statement 2 is wrong. The PAC examines the CAG's audit reports, and since 1967 its chairman has by convention come from the Opposition — statement 3 is correct. Answer: 1 and 3 only."
+    },
+    {
+      "text": "Consider the following statements regarding the powers of the Rajya Sabha:\n1. It can authorise Parliament to make a law on a subject in the State List by passing a resolution supported by two-thirds of the members present and voting.\n2. It can authorise Parliament to create a new All-India Service common to the Centre and the States.\n3. It can reject a Money Bill passed by the Lok Sabha.\nWhich of the statements given above is/are correct?",
+      "difficulty": "MEDIUM",
+      "options": ["1 only", "1 and 2 only", "2 and 3 only", "1, 2 and 3"],
+      "answer": 1,
+      "explanation": "Under Article 249 the Rajya Sabha, by a resolution of two-thirds of members present and voting, can empower Parliament to legislate on a State List subject in the national interest — statement 1 is correct. Under Article 312 it can, by a similar resolution, authorise Parliament to create a new All-India Service — statement 2 is correct. Under Article 109 the Rajya Sabha can neither reject nor amend a Money Bill; it must return the Bill within 14 days with or without recommendations, otherwise the Bill is deemed passed — statement 3 is wrong. Answer: 1 and 2 only."
+    },
+    {
+      "text": "Which one of the following is NOT 'charged' upon the Consolidated Fund of India and is therefore subject to the vote of Parliament?",
+      "difficulty": "MEDIUM",
+      "options": ["Emoluments and allowances of the President", "Salaries, allowances and pensions of the judges of the Supreme Court", "Salary, allowances and pension of the Comptroller and Auditor General of India", "Salaries and allowances of the Union ministers"],
+      "answer": 3,
+      "explanation": "Article 112(3) lists charged expenditure, which Parliament may discuss but not vote on. It includes the President's emoluments and allowances; salaries and allowances of the Speaker, Deputy Speaker, Chairman and Deputy Chairman; salaries, allowances and pensions of Supreme Court judges; pensions of High Court judges; the salary, allowances and pension of the CAG; and debt charges. Salaries of Union ministers are not in this list, so they form part of the demands for grants voted by the Lok Sabha. Answer: salaries and allowances of the Union ministers."
+    },
+    {
+      "text": "Consider the following statements regarding the impeachment of the President of India under Article 61:\n1. Impeachment proceedings can be initiated only in the Lok Sabha.\n2. Nominated members of Parliament can participate in the impeachment, although they do not participate in the President's election.\n3. Elected members of the State Legislative Assemblies participate in the impeachment.\nWhich of the statements given above is/are correct?",
+      "difficulty": "HARD",
+      "options": ["1 and 2 only", "2 only", "2 and 3 only", "1 and 3 only"],
+      "answer": 1,
+      "explanation": "The only ground for impeachment is 'violation of the Constitution'. The charges can be brought in either House, through a notice signed by one-fourth of its members and 14 days' notice to the President — statement 1 is wrong. The resolution must pass by two-thirds of the total membership of that House, after which the other House investigates and must also pass it by two-thirds of its total membership. Impeachment is purely a parliamentary process, so nominated MPs take part (statement 2 is correct), while State MLAs, who vote in the election, play no role (statement 3 is wrong). Answer: 2 only."
+    },
+    {
+      "text": "Consider the following statements about the appointment of judges of the higher judiciary in India:\n1. In the Second Judges case (1993), the Supreme Court held that 'consultation' with the Chief Justice of India means 'concurrence', giving primacy to the judiciary's opinion.\n2. In the Third Judges case (1998), the Court held that the Chief Justice of India should consult a collegium of the four senior-most judges of the Supreme Court for appointments to the Supreme Court.\n3. The National Judicial Appointments Commission, created by the 99th Constitutional Amendment Act, 2014, was upheld by the Supreme Court in 2015.\nWhich of the statements given above is/are correct?",
+      "difficulty": "HARD",
+      "options": ["1 and 2 only", "2 and 3 only", "1 only", "1, 2 and 3"],
+      "answer": 0,
+      "explanation": "In the First Judges case (S.P. Gupta, 1981) the Court held that 'consultation' did not mean 'concurrence'. The Second Judges case (1993) reversed this and gave primacy to the opinion of the Chief Justice formed with senior judges — statement 1 is correct. The Third Judges case (1998) fixed the collegium for Supreme Court appointments as the CJI plus the four senior-most judges — statement 2 is correct. In October 2015 a Constitution Bench struck down the 99th Amendment and the NJAC Act as violating judicial independence, a basic feature, and the collegium system revived — statement 3 is wrong. Answer: 1 and 2 only."
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "exam": "neet",
+  "subject": "biology",
+  "chapter": "biological-classification",
+  "notes": {
+    "summary": "This chapter traces classification from Aristotle and Linnaeus' two kingdoms to Whittaker's five kingdoms (Monera, Protista, Fungi, Plantae, Animalia), and also covers viruses, viroids, prions and lichens. NEET mostly asks for examples and distinguishing features: which organism belongs where, the fungal classes, the protist groups and the history of virology.",
+    "keyPoints": [
+      "R.H. Whittaker (1969) proposed five kingdoms. His criteria were cell structure, body organisation, mode of nutrition, reproduction and phylogenetic relationships.",
+      "Monera: archaebacteria have a distinctive cell wall and include halophiles, thermoacidophiles and methanogens (found in cattle rumen; they produce biogas). Eubacteria have a rigid cell wall. Bacterial shapes are coccus, bacillus, vibrium and spirillum.",
+      "Cyanobacteria have chlorophyll a and fix N₂ in heterocysts (Nostoc, Anabaena), and they can form blooms. Mycoplasma has no cell wall, is the smallest living cell known, and can survive without oxygen.",
+      "Protista: chrysophytes (diatoms, desmids), dinoflagellates (red tides, Gonyaulax), euglenoids (pellicle), slime moulds and protozoans. Protozoan groups are amoeboid (Amoeba, Entamoeba), flagellated (Trypanosoma, sleeping sickness), ciliated (Paramoecium, gullet) and sporozoans (Plasmodium, malaria).",
+      "Fungi have chitin in their cell walls. The sexual cycle runs plasmogamy → karyogamy → meiosis, and ascomycetes and basidiomycetes pass through a dikaryon (n + n) stage.",
+      "Fungal classes: Phycomycetes (aseptate, coenocytic; zoospores or aplanospores; Mucor, Rhizopus, Albugo). Ascomycetes (conidia; ascospores inside asci; Penicillium, Claviceps, Neurospora). Basidiomycetes (no sex organs; basidiospores formed outside on the basidium; Agaricus, Ustilago, Puccinia). Deuteromycetes (only the asexual phase known; Alternaria, Colletotrichum, Trichoderma).",
+      "Virology history: Ivanowsky (1892) showed the cause of tobacco mosaic is smaller than bacteria. Beijerinck (1898) called it 'Contagium vivum fluidum'. Stanley (1935) crystallised viruses and showed they are mostly protein. A virus capsid is built of capsomeres, and bacteriophages usually have dsDNA.",
+      "Viroids (T.O. Diener, 1971) are free, low-molecular-weight RNA with no protein coat and cause potato spindle tuber disease. Prions are abnormally folded proteins that cause BSE (mad cow disease) in cattle and Creutzfeldt–Jakob disease in humans.",
+      "Lichens are a partnership between an alga (phycobiont, which makes food) and a fungus (mycobiont, which gives shelter and absorbs minerals). They do not grow in SO₂-polluted areas."
+    ],
+    "traps": [
+      "Placing Euglena or slime moulds in Plantae or Fungi. In the five-kingdom system both are protists.",
+      "Confusing viroids (RNA with no protein coat) with prions (protein with no nucleic acid).",
+      "Mixing up spore formation: ascospores form inside asci, while basidiospores form outside on basidia.",
+      "Calling Mycoplasma a virus. It is a cellular prokaryote (Monera) that lacks a cell wall."
+    ],
+    "examTip": "When an option names an organism, first place it in its kingdom or class (for example, Albugo → Phycomycetes, Trichoderma → Deuteromycetes). The right answer usually follows from that."
+  },
+  "questions": [
+    {
+      "text": "Methanogens live in the rumen of cattle and produce methane (biogas) from their dung. They belong to:",
+      "difficulty": "EASY",
+      "options": ["Eubacteria", "Archaebacteria", "Cyanobacteria", "Mycoplasma"],
+      "answer": 1,
+      "explanation": "Archaebacteria live in harsh habitats: halophiles in salty areas, thermoacidophiles in hot springs and methanogens in marshy areas. Methanogens are also found in the guts of ruminants such as cattle, where they produce methane, which is why cattle dung gives biogas. The answer is archaebacteria."
+    },
+    {
+      "text": "The protozoan Trypanosoma, which causes sleeping sickness, belongs to which group?",
+      "difficulty": "EASY",
+      "options": ["Amoeboid protozoans", "Ciliated protozoans", "Flagellated protozoans", "Sporozoans"],
+      "answer": 2,
+      "explanation": "NCERT groups protozoans into four types: amoeboid (Amoeba, Entamoeba), flagellated (Trypanosoma), ciliated (Paramoecium) and sporozoans (Plasmodium). Parasitic flagellated protozoans such as Trypanosoma cause diseases like sleeping sickness. The answer is flagellated protozoans."
+    },
+    {
+      "text": "Which organism completely lacks a cell wall, is the smallest living cell known, and can survive without oxygen?",
+      "difficulty": "EASY",
+      "options": ["Mycoplasma", "Nostoc", "Rhizopus", "Euglena"],
+      "answer": 0,
+      "explanation": "NCERT describes Mycoplasma as organisms that completely lack a cell wall, are the smallest living cells known and can survive without oxygen. Many of them cause disease in animals and plants. Nostoc is a cyanobacterium, Rhizopus is a fungus and Euglena is a protist. The answer is Mycoplasma."
+    },
+    {
+      "text": "Viroids, discovered by T.O. Diener in 1971 as the cause of potato spindle tuber disease, differ from viruses in that viroids:",
+      "difficulty": "MEDIUM",
+      "options": ["Have DNA enclosed in a protein coat", "Are abnormally folded proteins with no nucleic acid", "Are bacteria that lack a cell wall", "Are free RNA molecules without the protein coat that viruses have"],
+      "answer": 3,
+      "explanation": "Diener found an infectious agent smaller than viruses that causes potato spindle tuber disease. It was free RNA of low molecular weight, with none of the protein coat found in viruses, and he named it a viroid. Abnormally folded proteins are prions. The answer is free RNA without a protein coat."
+    },
+    {
+      "text": "In cyanobacteria such as Nostoc and Anabaena, atmospheric nitrogen is fixed in specialised cells called:",
+      "difficulty": "MEDIUM",
+      "options": ["Heterocysts", "Akinetes", "Mesosomes", "Gas vacuoles"],
+      "answer": 0,
+      "explanation": "Cyanobacteria are photosynthetic autotrophs with chlorophyll a, similar to green plants. Colonial forms such as Nostoc and Anabaena have specialised cells called heterocysts that fix atmospheric nitrogen. Mesosomes are membrane infoldings, and gas vacuoles help with buoyancy. The answer is heterocysts."
+    },
+    {
+      "text": "Which group of fungi has aseptate, coenocytic mycelium, reproduces asexually by zoospores or aplanospores, and includes Mucor, Rhizopus and Albugo?",
+      "difficulty": "MEDIUM",
+      "options": ["Ascomycetes", "Basidiomycetes", "Deuteromycetes", "Phycomycetes"],
+      "answer": 3,
+      "explanation": "Phycomycetes live in aquatic habitats, on decaying wood in moist places, or as obligate plant parasites. Their mycelium is aseptate and coenocytic, their asexual spores are zoospores (motile) or aplanospores (non-motile), and they form zygospores. Mucor, Rhizopus (bread mould) and Albugo (parasitic on mustard) belong here. The answer is Phycomycetes."
+    },
+    {
+      "text": "What is the correct sequence of the three steps in the sexual cycle of fungi?",
+      "difficulty": "MEDIUM",
+      "options": ["Karyogamy → plasmogamy → meiosis", "Plasmogamy → karyogamy → meiosis", "Meiosis → plasmogamy → karyogamy", "Plasmogamy → meiosis → karyogamy"],
+      "answer": 1,
+      "explanation": "First, plasmogamy fuses the protoplasm of two motile or non-motile gametes. Next, karyogamy fuses the two nuclei. Finally, the zygote divides by meiosis to give haploid spores. In ascomycetes and basidiomycetes there is a dikaryon (n + n) stage between plasmogamy and karyogamy. The order is plasmogamy → karyogamy → meiosis."
+    },
+    {
+      "text": "Which of the following statements correctly describes Basidiomycetes such as Agaricus (mushroom)?",
+      "difficulty": "MEDIUM",
+      "options": ["Asexual conidia are produced on special mycelia called conidiophores", "Ascospores are produced inside sac-like asci", "Sex organs are absent, plasmogamy occurs by fusion of two vegetative cells of different strains, and basidiospores are produced outside on the basidium", "The mycelium is aseptate and coenocytic, and zygospores are formed"],
+      "answer": 2,
+      "explanation": "In basidiomycetes asexual spores are generally absent, and vegetative reproduction by fragmentation is common. Sex organs are absent, and plasmogamy happens by fusion of two somatic cells of different strains, giving a dikaryon. Karyogamy and meiosis occur in the basidium, and four basidiospores form outside it. Conidia and asci belong to ascomycetes, and a coenocytic mycelium belongs to phycomycetes. The answer is the third option."
+    },
+    {
+      "text": "Which of the following was NOT one of the main criteria used by R.H. Whittaker for his five-kingdom classification?",
+      "difficulty": "MEDIUM",
+      "options": ["Sequence of ribosomal RNA genes", "Cell structure and body organisation", "Mode of nutrition", "Reproduction and phylogenetic relationships"],
+      "answer": 0,
+      "explanation": "NCERT lists Whittaker's criteria as cell structure, body organisation, mode of nutrition, reproduction and phylogenetic relationships. Ribosomal RNA sequencing was not one of them; it is the basis of the later three-domain system. The answer is the rRNA option."
+    },
+    {
+      "text": "Match List I with List II:\nList I (Scientist): (a) D.J. Ivanowsky (b) M.W. Beijerinck (c) W.M. Stanley (d) T.O. Diener\nList II (Contribution): (i) Showed that viruses can be crystallised and that the crystals are mostly protein (ii) Discovered the viroid causing potato spindle tuber disease (iii) Called the infectious fluid 'Contagium vivum fluidum' (iv) Found that tobacco mosaic disease is caused by organisms smaller than bacteria\nChoose the correct option.",
+      "difficulty": "HARD",
+      "options": ["a-iii, b-iv, c-i, d-ii", "a-iv, b-iii, c-i, d-ii", "a-iv, b-iii, c-ii, d-i", "a-i, b-iii, c-iv, d-ii"],
+      "answer": 1,
+      "explanation": "Ivanowsky (1892) found that the cause of tobacco mosaic passed through bacteria-proof filters, so it was smaller than bacteria (a-iv). Beijerinck (1898) showed that extract from infected plants could infect healthy ones and called it 'Contagium vivum fluidum' (b-iii). Stanley (1935) crystallised viruses and found them to be mostly protein (c-i). Diener (1971) discovered viroids (d-ii). The correct match is a-iv, b-iii, c-i, d-ii."
+    },
+    {
+      "text": "Consider the following statements:\nI. Earlier two-kingdom classifications placed bacteria, blue-green algae and fungi in kingdom Plantae.\nII. Members of kingdom Animalia store food reserves as glycogen or fat.\nIII. The cell wall of fungi is made of chitin and polysaccharides.\nIV. Sporozoans such as Plasmodium move with the help of cilia covering their body.\nHow many of these statements are correct?",
+      "difficulty": "HARD",
+      "options": ["One", "Two", "Three", "Four"],
+      "answer": 2,
+      "explanation": "Statement I is correct: earlier classifications put bacteria, blue-green algae and fungi in Plantae along with true plants, and Whittaker later moved them out. Statement II is correct: animals store food as glycogen or fat. Statement III is correct: fungal cell walls are made of chitin and polysaccharides. Statement IV is wrong: sporozoans have an infectious, spore-like stage in their life cycle, and cilia are found in ciliated protozoans such as Paramoecium. Three statements are correct."
+    }
+  ]
+}

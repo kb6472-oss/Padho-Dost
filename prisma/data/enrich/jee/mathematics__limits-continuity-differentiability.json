@@ -1,0 +1,107 @@
+{
+  "exam": "jee",
+  "subject": "mathematics",
+  "chapter": "limits-continuity-differentiability",
+  "notes": {
+    "summary": "This chapter covers limits (algebraic, trigonometric, exponential and logarithmic, 1^∞ forms, limits at infinity), continuity (including piecewise and greatest-integer functions) and differentiability, together with differentiation techniques such as the chain rule, logarithmic and parametric differentiation. JEE Main tests standard-limit manipulation, parameter values for continuity or differentiability, counting points of discontinuity, and quick derivatives.",
+    "keyPoints": [
+      "Standard limits as x → 0: sin x/x = 1, tan x/x = 1, (1 − cos x)/x² = 1/2, (eˣ − 1)/x = 1, (aˣ − 1)/x = logₑ a, logₑ(1 + x)/x = 1. As x → a: (xⁿ − aⁿ)/(x − a) → naⁿ⁻¹.",
+      "Degrees must be converted to radians: x° = πx/180, so lim (x → 0) sin x°/x = π/180.",
+      "Rational functions as x → ∞: compare the highest powers; equal degrees give the ratio of leading coefficients, e.g. (3x² + …)/(5x² + …) → 3/5.",
+      "1^∞ form: lim f^g = e^(lim g(f − 1)), e.g. lim (x → 0) (1 + 2x)^(1/x) = e².",
+      "Expansions near 0: sin x ≈ x − x³/6, cos x ≈ 1 − x²/2, tan x ≈ x + x³/3, eˣ ≈ 1 + x + x²/2, logₑ(1 + x) ≈ x − x²/2, (1 + x)ⁿ ≈ 1 + nx.",
+      "f is continuous at a if LHL = RHL = f(a); differentiable at a if the left and right derivatives are equal and finite. Differentiable ⇒ continuous, but not conversely (|x| at 0).",
+      "[g(x)] can jump only where g(x) crosses an integer value: [x²] on (0, 2) jumps at x = 1, √2, √3.",
+      "A piecewise function joined at x = c: continuity gives one equation and equal one-sided derivatives give the second.",
+      "Logarithmic differentiation: y = xˣ gives y' = xˣ(1 + logₑ x). Parametric form: dy/dx = (dy/dt)/(dx/dt).",
+      "A function defined as a limit in n, such as lim (n → ∞) x²ⁿ, must be split into the cases |x| < 1, |x| = 1 and |x| > 1."
+    ],
+    "traps": [
+      "Substituting the limiting value directly into 0/0 or 1^∞ forms instead of simplifying first.",
+      "Treating sin x° as sin x and forgetting the factor π/180.",
+      "Using continuity alone when the question demands differentiability (two conditions are needed).",
+      "Counting discontinuities of [g(x)] at integer values of x instead of where g(x) is an integer.",
+      "Calling x|x| non-differentiable at 0 merely because it contains a modulus."
+    ],
+    "examTip": "For x → 0 limits that resist algebra, expand every function up to the x² or x³ term — this settles most JEE Main limit questions in under a minute."
+  },
+  "questions": [
+    {
+      "text": "The value of lim (x → ∞) (3x² + 2x − 1)/(5x² − 4) is:",
+      "difficulty": "EASY",
+      "options": ["0", "∞", "1/4", "3/5"],
+      "answer": 3,
+      "explanation": "Divide numerator and denominator by x², the highest power.\n(3 + 2/x − 1/x²)/(5 − 4/x²).\nAs x → ∞, the terms 2/x, 1/x² and 4/x² tend to 0.\nLimit = 3/5. (1/4 is the value at x = 0, not at infinity.)"
+    },
+    {
+      "text": "The value of lim (x → 0) (sin x°)/x, where x° denotes x degrees, is:",
+      "difficulty": "EASY",
+      "options": ["1", "π/180", "180/π", "0"],
+      "answer": 1,
+      "explanation": "Convert to radians: x° = πx/180.\nlim sin(πx/180)/x = (π/180) × lim [sin(πx/180)/(πx/180)].\nThe bracket tends to 1, so the limit = π/180."
+    },
+    {
+      "text": "The value of lim (x → 0) (5ˣ − 1)/x is:",
+      "difficulty": "EASY",
+      "options": ["logₑ 5", "5", "1", "1/logₑ 5"],
+      "answer": 0,
+      "explanation": "Standard limit: lim (x → 0) (aˣ − 1)/x = logₑ a, for a > 0.\nHere a = 5, so the limit = logₑ 5 (about 1.609).\n(The answer 1 holds only for a = e.)"
+    },
+    {
+      "text": "The function f(x) = x² for x ≤ 1 and f(x) = ax + b for x > 1 is differentiable at x = 1. The values of a and b are:",
+      "difficulty": "MEDIUM",
+      "options": ["a = 1, b = 0", "a = 2, b = 1", "a = 2, b = −1", "a = −1, b = 2"],
+      "answer": 2,
+      "explanation": "Continuity at x = 1: f(1) = 1 must equal a(1) + b, so a + b = 1.\nLeft derivative = 2x at x = 1 = 2; right derivative = a.\nDifferentiability: a = 2, so b = 1 − 2 = −1.\n(a = 1, b = 0 is continuous but has a corner at x = 1.)"
+    },
+    {
+      "text": "The number of points in the open interval (0, 2) at which the function f(x) = [x²] is discontinuous, where [·] denotes the greatest integer function, is:",
+      "difficulty": "MEDIUM",
+      "options": ["1", "2", "3", "4"],
+      "answer": 2,
+      "explanation": "[t] jumps exactly when t passes an integer value.\nFor x in (0, 2), x² runs through (0, 4), crossing the integers 1, 2 and 3.\nx² = 1, 2, 3 gives x = 1, √2, √3, all inside (0, 2).\nSo f is discontinuous at 3 points."
+    },
+    {
+      "text": "If lim (x → 1) (x⁴ − 1)/(x − 1) = lim (x → k) (x³ − k³)/(x² − k²), where k ≠ 0, then k equals:",
+      "difficulty": "MEDIUM",
+      "options": ["4/3", "8/3", "3/8", "2"],
+      "answer": 1,
+      "explanation": "Use lim (x → a) (xⁿ − aⁿ)/(x − a) = naⁿ⁻¹.\nLeft side: 4 × 1³ = 4.\nRight side: divide numerator and denominator by (x − k): 3k²/(2k) = 3k/2.\n3k/2 = 4, so k = 8/3."
+    },
+    {
+      "text": "Which of the following functions is differentiable at x = 0?",
+      "difficulty": "MEDIUM",
+      "options": ["|x|", "√|x|", "|sin x|", "x|x|"],
+      "answer": 3,
+      "explanation": "f(x) = x|x|: f'(0) = lim (h → 0) h|h|/h = lim |h| = 0 from both sides, so it is differentiable.\n|x| and |sin x| have left derivative −1 and right derivative +1 at 0 (a corner).\n√|x| has derivative tending to ±∞ on either side (a cusp).\nSo only x|x| is differentiable at x = 0."
+    },
+    {
+      "text": "If y = xˣ for x > 0, then the value of dy/dx at x = e is:",
+      "difficulty": "MEDIUM",
+      "options": ["eᵉ", "2eᵉ", "eᵉ⁺¹", "2e"],
+      "answer": 1,
+      "explanation": "Take logs: logₑ y = x logₑ x.\nDifferentiate: (1/y)(dy/dx) = logₑ x + 1, so dy/dx = xˣ(1 + logₑ x).\nAt x = e: eᵉ(1 + 1) = 2eᵉ.\n(Using only the power rule or only the exponential rule gives eᵉ.)"
+    },
+    {
+      "text": "If x = a cos³t and y = a sin³t, then dy/dx is:",
+      "difficulty": "MEDIUM",
+      "options": ["tan t", "−cot t", "−tan²t", "−tan t"],
+      "answer": 3,
+      "explanation": "dx/dt = 3a cos²t × (−sin t) = −3a cos²t sin t.\ndy/dt = 3a sin²t cos t.\ndy/dx = (dy/dt)/(dx/dt) = (3a sin²t cos t)/(−3a cos²t sin t) = −sin t/cos t.\ndy/dx = −tan t."
+    },
+    {
+      "text": "The value of lim (x → 0) [1 − cos x · √(cos 2x)]/x² is:",
+      "difficulty": "HARD",
+      "options": ["3/2", "1/2", "1", "5/2"],
+      "answer": 0,
+      "explanation": "Split: 1 − cos x·√(cos 2x) = (1 − cos x) + cos x·(1 − √(cos 2x)).\n(1 − cos x)/x² → 1/2.\n(1 − √(cos 2x))/x² = (1 − cos 2x)/[x²(1 + √(cos 2x))] → 2/2 = 1, and cos x → 1.\nLimit = 1/2 + 1 = 3/2."
+    },
+    {
+      "text": "Let f(x) = lim (n → ∞) (x²ⁿ − 1)/(x²ⁿ + 1) for real x. Then f is discontinuous at:",
+      "difficulty": "HARD",
+      "options": ["x = 0 only", "x = 1 only", "x = −1 and x = 1 only", "no point; f is continuous everywhere"],
+      "answer": 2,
+      "explanation": "If |x| < 1, x²ⁿ → 0, so f(x) = −1.\nIf |x| > 1, divide by x²ⁿ: (1 − x⁻²ⁿ)/(1 + x⁻²ⁿ) → 1, so f(x) = 1.\nIf |x| = 1, x²ⁿ = 1, so f(x) = 0.\nf jumps from −1 to 0 to 1 at x = ±1 and is constant elsewhere, so it is discontinuous only at x = −1 and x = 1."
+    }
+  ]
+}

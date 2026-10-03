@@ -1,0 +1,107 @@
+{
+  "exam": "class-12",
+  "subject": "chemistry",
+  "chapter": "electrochemistry",
+  "notes": {
+    "summary": "Electrochemistry links chemical reactions with electricity. It covers galvanic cells and electrode potentials, the Nernst equation and its link with ΔG° and K, conductance of electrolytic solutions and Kohlrausch's law, electrolysis and Faraday's laws, batteries, fuel cells and corrosion. CBSE papers mix short numericals (Nernst, ΔG°, conductivity, Faraday) with reasoning and assertion-reason items on cells and electrolysis products.",
+    "keyPoints": [
+      "Galvanic cell: the anode (−) is where oxidation occurs and the cathode (+) is where reduction occurs; E°cell = E°cathode − E°anode. Daniell cell: Zn | Zn²⁺ || Cu²⁺ | Cu, E°cell = 0.34 − (−0.76) = 1.10 V.",
+      "Electrochemical series: the more negative the standard reduction potential, the stronger the reducing agent (Li, E° = −3.05 V); the more positive, the stronger the oxidising agent (F₂, E° = +2.87 V).",
+      "Nernst equation at 298 K: Ecell = E°cell − (0.0591/n) log Q. Example: Mg | Mg²⁺(0.001 M) || Cu²⁺(0.0001 M) | Cu with E° = 2.71 V gives E = 2.71 − 0.0296 × log 10 = 2.68 V. Hydrogen electrode: E = −0.0591 × pH.",
+      "Thermodynamics: ΔG° = −nFE°cell and ΔG° = −2.303RT log K, so E°cell = (0.0591/n) log K at 298 K. Daniell cell: ΔG° = −2 × 96500 × 1.10 J mol⁻¹ = −212.3 kJ mol⁻¹.",
+      "Conductance: R = ρ(l/A); conductivity κ = 1/ρ (S m⁻¹); cell constant G* = l/A = κ × R; molar conductivity Λm = κ/c (S m² mol⁻¹ with c in mol m⁻³), or Λm = κ × 1000/M in S cm² mol⁻¹ with κ in S cm⁻¹.",
+      "On dilution κ decreases (fewer ions per unit volume) but Λm increases. Strong electrolytes: Λm = Λ°m − A√c, a straight line of Λm against √c with intercept Λ°m. Weak electrolytes: Λm rises steeply at high dilution, so Λ°m is found from Kohlrausch's law; degree of dissociation α = Λm/Λ°m and Ka = cα²/(1 − α).",
+      "Kohlrausch's law: Λ°m(CH₃COOH) = Λ°m(HCl) + Λ°m(CH₃COONa) − Λ°m(NaCl) = 425.9 + 91.0 − 126.4 = 390.5 S cm² mol⁻¹.",
+      "Faraday's laws: m = (M/nF) × I × t, with 1 F = 96500 C mol⁻¹ (the charge on 1 mol of electrons). Second law: the same charge deposits masses in the ratio of their M/n values, e.g. Ag (108/1) and Cu (63.5/2 = 31.75).",
+      "Electrolysis products: molten NaCl gives Na at the cathode and Cl₂ at the anode. Aqueous NaCl gives H₂ at the cathode (water is reduced more easily than Na⁺) and Cl₂ at the anode (O₂ needs an overpotential). Aqueous CuSO₄ with Pt electrodes gives Cu at the cathode and O₂ at the anode; with Cu electrodes the copper anode dissolves.",
+      "Cells: dry (Leclanché) cell – zinc container anode, graphite rod cathode with MnO₂, NH₄Cl/ZnCl₂ paste, about 1.5 V. Mercury cell – constant 1.35 V. Lead storage battery – Pb anode, PbO₂ cathode, 38% H₂SO₄; overall Pb + PbO₂ + 2H₂SO₄ → 2PbSO₄ + 2H₂O. H₂–O₂ fuel cell (Apollo programme) – anode 2H₂ + 4OH⁻ → 4H₂O + 4e⁻, cathode O₂ + 2H₂O + 4e⁻ → 4OH⁻. Rusting is prevented by galvanising with zinc or by sacrificial Mg/Zn blocks."
+    ],
+    "traps": [
+      "Writing E°cell = E°anode − E°cathode, or multiplying E° by the stoichiometric coefficient. Electrode potential is an intensive property and is never multiplied.",
+      "Using c in mol L⁻¹ with κ in S m⁻¹ while calculating Λm. Convert c to mol m⁻³ (multiply by 1000) or use κ × 1000/M with κ in S cm⁻¹.",
+      "Saying conductivity increases on dilution. Conductivity decreases; only molar conductivity increases.",
+      "Predicting Na at the cathode in the electrolysis of aqueous NaCl. H₂ forms because water is reduced in preference to Na⁺.",
+      "Forgetting n in the Nernst term (0.0591/n), or writing Q upside down. Q is products over reactants, with pure solids taken as 1."
+    ],
+    "examTip": "Write the two electrode reactions first to find n and Q, then substitute into Ecell = E° − (0.0591/n) log Q, keeping units (V, J mol⁻¹, S m² mol⁻¹) visible in every step."
+  },
+  "questions": [
+    {
+      "text": "In a dry cell (Leclanché cell), which part acts as the anode?",
+      "difficulty": "EASY",
+      "options": ["The graphite (carbon) rod", "The zinc container", "The paste of MnO₂ and carbon", "The moist paste of NH₄Cl and ZnCl₂"],
+      "answer": 1,
+      "explanation": "In a dry cell, oxidation occurs at the zinc container: Zn → Zn²⁺ + 2e⁻. The graphite rod surrounded by MnO₂ and carbon is the cathode, where MnO₂ is reduced. The NH₄Cl and ZnCl₂ paste is the electrolyte. So the anode is the zinc container."
+    },
+    {
+      "text": "The standard reduction potentials are: Li⁺/Li = −3.05 V, Mg²⁺/Mg = −2.36 V, Zn²⁺/Zn = −0.76 V and Ag⁺/Ag = +0.80 V. Which of these metals is the strongest reducing agent?",
+      "difficulty": "EASY",
+      "options": ["Ag", "Zn", "Mg", "Li"],
+      "answer": 3,
+      "explanation": "A reducing agent is itself oxidised, losing electrons. The more negative the standard reduction potential, the greater the tendency of the metal to lose electrons. Li has the most negative value (−3.05 V), so lithium is the strongest reducing agent among these."
+    },
+    {
+      "text": "For a strong electrolyte such as KCl, molar conductivity varies with concentration as Λm = Λ°m − A√c. A graph of Λm against √c is:",
+      "difficulty": "EASY",
+      "options": ["A straight line with intercept equal to Λ°m and slope equal to −A", "A straight line passing through the origin with slope A", "A curve that rises steeply as the concentration approaches zero", "A straight line parallel to the √c axis"],
+      "answer": 0,
+      "explanation": "The equation Λm = Λ°m − A√c has the form y = c + mx with y = Λm and x = √c. So the plot is a straight line; its intercept on the Λm axis (at √c = 0) is Λ°m and its slope is −A. The steep rise near zero concentration is seen for weak electrolytes, not strong ones."
+    },
+    {
+      "text": "The standard EMF of the Daniell cell, Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s), is 1.10 V. The standard Gibbs energy change for the reaction is (1 F = 96500 C mol⁻¹):",
+      "difficulty": "MEDIUM",
+      "options": ["−106.15 kJ mol⁻¹", "+212.3 kJ mol⁻¹", "−212.3 kJ mol⁻¹", "−21.23 kJ mol⁻¹"],
+      "answer": 2,
+      "explanation": "Use ΔG° = −nFE°cell. Two electrons are transferred (Zn → Zn²⁺ + 2e⁻), so n = 2. ΔG° = −2 × 96500 C mol⁻¹ × 1.10 V = −212300 J mol⁻¹. So ΔG° = −212.3 kJ mol⁻¹; the negative sign shows the reaction is spontaneous."
+    },
+    {
+      "text": "Calculate the EMF at 298 K of the cell Mg(s) | Mg²⁺(0.001 M) || Cu²⁺(0.0001 M) | Cu(s), given E°cell = 2.71 V.",
+      "difficulty": "MEDIUM",
+      "options": ["2.74 V", "2.68 V", "2.71 V", "2.65 V"],
+      "answer": 1,
+      "explanation": "Cell reaction: Mg + Cu²⁺ → Mg²⁺ + Cu, so n = 2. Nernst equation: Ecell = E°cell − (0.0591/2) log([Mg²⁺]/[Cu²⁺]). The ratio is 10⁻³/10⁻⁴ = 10, and log 10 = 1. Ecell = 2.71 − 0.0296 × 1 = 2.68 V."
+    },
+    {
+      "text": "What is the potential of a hydrogen electrode (p(H₂) = 1 bar) dipped in a solution of pH 10 at 298 K?",
+      "difficulty": "MEDIUM",
+      "options": ["−0.591 V", "+0.591 V", "−0.0591 V", "0.00 V"],
+      "answer": 0,
+      "explanation": "Electrode reaction: H⁺ + e⁻ → ½H₂, with n = 1 and E° = 0. Nernst equation: E = 0 − 0.0591 log(1/[H⁺]) = −0.0591 × pH. With pH = 10, E = −0.0591 × 10 = −0.591 V."
+    },
+    {
+      "text": "At 298 K, Λ°m(HCl) = 425.9, Λ°m(NaCl) = 126.4 and Λ°m(CH₃COONa) = 91.0 S cm² mol⁻¹. Using Kohlrausch's law, the limiting molar conductivity of acetic acid (CH₃COOH) is:",
+      "difficulty": "MEDIUM",
+      "options": ["461.3 S cm² mol⁻¹", "643.3 S cm² mol⁻¹", "208.5 S cm² mol⁻¹", "390.5 S cm² mol⁻¹"],
+      "answer": 3,
+      "explanation": "By Kohlrausch's law, Λ°m(CH₃COOH) = λ°(H⁺) + λ°(CH₃COO⁻). This equals Λ°m(HCl) + Λ°m(CH₃COONa) − Λ°m(NaCl), because the Na⁺ and Cl⁻ contributions cancel. 425.9 + 91.0 − 126.4 = 390.5 S cm² mol⁻¹."
+    },
+    {
+      "text": "In the H₂–O₂ fuel cell with concentrated aqueous NaOH as the electrolyte (as used in the Apollo space programme), which reaction takes place at the cathode?",
+      "difficulty": "MEDIUM",
+      "options": ["2H₂(g) + 4OH⁻(aq) → 4H₂O(l) + 4e⁻", "2H₂O(l) → O₂(g) + 4H⁺(aq) + 4e⁻", "O₂(g) + 2H₂O(l) + 4e⁻ → 4OH⁻(aq)", "H₂(g) → 2H⁺(aq) + 2e⁻"],
+      "answer": 2,
+      "explanation": "Reduction takes place at the cathode. In alkaline medium, oxygen is reduced: O₂ + 2H₂O + 4e⁻ → 4OH⁻. Hydrogen is oxidised at the anode (2H₂ + 4OH⁻ → 4H₂O + 4e⁻). Adding the two gives the overall reaction 2H₂ + O₂ → 2H₂O."
+    },
+    {
+      "text": "Two electrolytic cells containing AgNO₃ solution and CuSO₄ solution are connected in series. If 1.08 g of silver is deposited in the first cell, the mass of copper deposited in the second cell is (Ag = 108 g mol⁻¹, Cu = 63.5 g mol⁻¹):",
+      "difficulty": "MEDIUM",
+      "options": ["0.3175 g", "0.635 g", "0.159 g", "3.175 g"],
+      "answer": 0,
+      "explanation": "In series, the same charge flows through both cells (Faraday's second law). Moles of Ag = 1.08/108 = 0.01 mol, so 0.01 mol of electrons passed (Ag⁺ + e⁻ → Ag). For Cu²⁺ + 2e⁻ → Cu, 0.01 mol of electrons deposit 0.005 mol of Cu. Mass of Cu = 0.005 × 63.5 = 0.3175 g."
+    },
+    {
+      "text": "The resistance of a conductivity cell filled with 0.1 mol L⁻¹ KCl solution (conductivity 1.29 S m⁻¹) is 100 Ω. When the same cell is filled with 0.02 mol L⁻¹ KCl solution, its resistance is 520 Ω. The molar conductivity of the 0.02 mol L⁻¹ KCl solution is:",
+      "difficulty": "HARD",
+      "options": ["2.48 × 10⁻¹ S m² mol⁻¹", "1.24 × 10⁻² S m² mol⁻¹", "12.4 S m² mol⁻¹", "3.35 × 10⁻¹ S m² mol⁻¹"],
+      "answer": 1,
+      "explanation": "Cell constant G* = κ × R = 1.29 S m⁻¹ × 100 Ω = 129 m⁻¹. Conductivity of the 0.02 M solution: κ = G*/R = 129/520 = 0.248 S m⁻¹. Convert the concentration: 0.02 mol L⁻¹ = 20 mol m⁻³. Λm = κ/c = 0.248/20 = 1.24 × 10⁻² S m² mol⁻¹ (= 124 S cm² mol⁻¹)."
+    },
+    {
+      "text": "Assertion (A): Electrolysis of aqueous sodium chloride solution gives hydrogen gas at the cathode.\nReason (R): Na⁺ ions are reduced more easily than water molecules.\nChoose the correct option.",
+      "difficulty": "HARD",
+      "options": ["Both A and R are true and R is the correct explanation of A", "Both A and R are true but R is not the correct explanation of A", "A is true but R is false", "A is false but R is true"],
+      "answer": 2,
+      "explanation": "At the cathode two reductions compete: Na⁺ + e⁻ → Na (E° = −2.71 V) and H₂O + e⁻ → ½H₂ + OH⁻ (E° = −0.83 V). The reaction with the higher (less negative) E° is preferred, so water is reduced and H₂ is liberated; A is true. R is false because water, not Na⁺, is reduced more easily. Answer: A is true but R is false."
+    }
+  ]
+}

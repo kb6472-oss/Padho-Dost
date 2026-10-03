@@ -1,0 +1,137 @@
+{
+  "exam": "class-10",
+  "subject": "geography",
+  "chapter": "agriculture",
+  "notes": {
+    "summary": "This NCERT chapter covers types of farming, cropping seasons, the climatic and soil requirements of major food and non-food crops, technological and institutional reforms, and the impact of globalisation on Indian agriculture. CBSE asks crop identification from growing conditions, season matching, local names of shifting cultivation and assertion-reason items on crops and reforms.",
+    "keyPoints": [
+      "Primitive subsistence (slash and burn) farming uses simple tools and family labour. Local names: 'jhumming' in Assam, Meghalaya, Mizoram and Nagaland; 'Pamlou' in Manipur; 'Dipa' in Bastar (Chhattisgarh) and the Andaman & Nicobar Islands; 'Kumari' in the Western Ghats; 'Kuruwa' in Jharkhand.",
+      "Intensive subsistence farming is practised where population pressure on land is high, using high doses of biochemical inputs and irrigation. Commercial farming uses HYV seeds, fertilisers, insecticides and pesticides; rice is a commercial crop in Punjab and Haryana but a subsistence crop in Odisha.",
+      "Plantation agriculture grows a single crop on a large area using capital and migrant labour, e.g., tea, coffee, rubber, sugarcane and banana; tea in Assam and North Bengal, coffee in Karnataka.",
+      "Seasons: rabi is sown October–December and harvested April–June (wheat, barley, peas, gram, mustard); kharif is sown with the onset of the monsoon and harvested September–October (paddy, maize, jowar, bajra, tur, moong, urad, cotton, jute, groundnut, soyabean); zaid is the short summer season (watermelon, muskmelon, cucumber, vegetables, fodder). Assam, West Bengal and Odisha grow three paddy crops — aus, aman and boro.",
+      "Rice: temperature above 25 °C, high humidity, rainfall above 100 cm (irrigation in drier areas). Wheat: 50–75 cm rainfall evenly distributed, cool growing season and bright sunshine at ripening; grown in the Ganga–Satluj plains and the black soil region of the Deccan. Maize: 21–27 °C, old alluvial soil.",
+      "Millets: jowar (mostly rain-fed in moist areas), bajra (sandy and shallow black soils), ragi (dry regions; very rich in iron, calcium, micronutrients and roughage). Pulses are leguminous and, except arhar, fix atmospheric nitrogen, so they are grown in rotation with other crops.",
+      "Sugarcane: 21–27 °C, 75–100 cm rainfall; gives sugar, gur (jaggery), khandsari and molasses. Oilseeds: groundnut (kharif), mustard and linseed (rabi), sesamum (kharif in the north, rabi in the south), castor seed (both rabi and kharif).",
+      "Tea needs a warm, moist, frost-free climate with frequent showers and deep, fertile, well-drained soil rich in humus; Arabica coffee, brought from Yemen, was first grown in the Baba Budan Hills; rubber needs rainfall above 200 cm and temperature above 25 °C.",
+      "Cotton grows in the black soil of the Deccan, needing high temperature, light rainfall or irrigation, 210 frost-free days and bright sunshine; it takes 6–8 months to mature. Jute, the 'golden fibre', grows on fertile flood-plain soils renewed every year. Rearing silkworms is sericulture.",
+      "Reforms: abolition of zamindari, consolidation of holdings, the Green Revolution (HYV seeds) and White Revolution (Operation Flood), crop insurance, Grameen banks and cooperatives, Kisan Credit Card (KCC), Personal Accident Insurance Scheme (PAIS) and minimum support prices. Vinoba Bhave's Bhoodan–Gramdan movement is called the 'Bloodless Revolution'."
+    ],
+    "traps": [
+      "Mixing up seasons: wheat, gram and mustard are rabi; paddy, cotton, jute and groundnut are kharif; watermelon and cucumber are zaid.",
+      "Calling jute 'black gold' — jute is the 'golden fibre'; 'black gold' usually refers to petroleum.",
+      "Forgetting the exceptions: arhar does not fix nitrogen like other pulses, and sesamum changes season between north and south India.",
+      "Matching local names of slash and burn farming to the wrong region (e.g., Pamlou is Manipur, Dipa is Bastar and Andaman & Nicobar).",
+      "Confusing rainfall needs: rice above 100 cm, wheat 50–75 cm, sugarcane 75–100 cm, rubber above 200 cm."
+    ],
+    "examTip": "In crop-identification questions, match the temperature, rainfall and soil clues to a crop before reading the options — the numbers are usually the quickest giveaway."
+  },
+  "questions": [
+    {
+      "text": "Zaid is a short cropping season between the rabi and kharif seasons during the summer months. Which group of crops is typically grown in this season?",
+      "difficulty": "EASY",
+      "options": [
+        "Wheat, barley and peas",
+        "Watermelon, muskmelon and cucumber",
+        "Paddy, maize and jowar",
+        "Cotton, jute and groundnut"
+      ],
+      "answer": 1,
+      "explanation": "NCERT lists watermelon, muskmelon, cucumber, vegetables and fodder crops as zaid crops.\nWheat, barley and peas are rabi crops.\nPaddy, maize, jowar, cotton, jute and groundnut are kharif crops."
+    },
+    {
+      "text": "The Bhoodan–Gramdan movement, also called the 'Bloodless Revolution', in which landowners voluntarily donated land to the landless, was initiated by:",
+      "difficulty": "EASY",
+      "options": ["Mahatma Gandhi", "Jawaharlal Nehru", "Vinoba Bhave", "Jayaprakash Narayan"],
+      "answer": 2,
+      "explanation": "Vinoba Bhave began the Bhoodan (land gift) movement when landowners offered land to landless villagers.\nLater some zamindars donated entire villages, which became Gramdan.\nNCERT describes it as the 'Bloodless Revolution'."
+    },
+    {
+      "text": "The rearing of silkworms for the production of silk fibre is known as:",
+      "difficulty": "EASY",
+      "options": ["Apiculture", "Horticulture", "Pisciculture", "Sericulture"],
+      "answer": 3,
+      "explanation": "Silk is a natural fibre obtained from the cocoons of silkworms.\nRearing silkworms for silk is called sericulture.\nApiculture is bee-keeping, horticulture is fruit and vegetable growing, and pisciculture is fish farming."
+    },
+    {
+      "text": "Match the local name of 'slash and burn' farming in List I with the region where it is used in List II.\nList I:\nP. Pamlou\nQ. Dipa\nR. Kumari\nS. Kuruwa\nList II:\n1. Bastar (Chhattisgarh) and Andaman & Nicobar Islands\n2. Manipur\n3. Jharkhand\n4. Western Ghats",
+      "difficulty": "MEDIUM",
+      "options": [
+        "P-1, Q-2, R-4, S-3",
+        "P-2, Q-1, R-3, S-4",
+        "P-2, Q-1, R-4, S-3",
+        "P-4, Q-3, R-2, S-1"
+      ],
+      "answer": 2,
+      "explanation": "Pamlou is the name used in Manipur: P-2.\nDipa is used in Bastar district of Chhattisgarh and in the Andaman & Nicobar Islands: Q-1.\nKumari is used in the Western Ghats: R-4.\nKuruwa is used in Jharkhand: S-3.\nSo the answer is P-2, Q-1, R-4, S-3."
+    },
+    {
+      "text": "Which set of conditions best suits the cultivation of rice in India?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Temperature above 25 °C, high humidity and annual rainfall above 100 cm (or irrigation where rainfall is less)",
+        "A cool growing season, bright sunshine at ripening and 50–75 cm rainfall",
+        "Temperature of 21–27 °C and old alluvial soil with low rainfall",
+        "Rainfall of more than 200 cm and an equatorial climate throughout the year"
+      ],
+      "answer": 0,
+      "explanation": "Rice is a kharif crop needing high temperature (above 25 °C), high humidity and annual rainfall above 100 cm.\nIn areas of less rainfall it is grown with irrigation.\nOption 2 describes wheat, option 3 is close to the needs of maize (21–27 °C, old alluvial soil), and option 4 describes rubber."
+    },
+    {
+      "text": "Which millet is very rich in iron, calcium, other micronutrients and roughage, and grows well in dry regions on red, black, sandy, loamy and shallow black soils?",
+      "difficulty": "MEDIUM",
+      "options": ["Jowar", "Ragi", "Bajra", "Maize"],
+      "answer": 1,
+      "explanation": "NCERT describes ragi as a crop of dry regions that grows on red, black, sandy, loamy and shallow black soils.\nIt is very rich in iron, calcium, other micronutrients and roughage.\nBajra grows on sandy and shallow black soils, and maize is a cereal, not this millet."
+    },
+    {
+      "text": "Assertion (A): Pulses are often grown in rotation with other crops.\nReason (R): Being leguminous crops, all pulses except arhar help restore soil fertility by fixing nitrogen from the air.\n\nChoose the correct option.",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A.",
+        "Both A and R are true, but R is not the correct explanation of A.",
+        "A is true, but R is false.",
+        "A is false, but R is true."
+      ],
+      "answer": 0,
+      "explanation": "NCERT states that pulses are mostly grown in rotation with other crops, so A is true.\nBeing leguminous, all these crops except arhar fix nitrogen from the air and restore soil fertility, so R is true.\nRestoring soil fertility is exactly why they are rotated with other crops, so R explains A."
+    },
+    {
+      "text": "Assertion (A): Jute is known as the 'golden fibre'.\nReason (R): Jute grows well on well-drained fertile soils in the flood plains, where soils are renewed every year.\n\nChoose the correct option.",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A.",
+        "Both A and R are true, but R is not the correct explanation of A.",
+        "A is true, but R is false.",
+        "A is false, but R is true."
+      ],
+      "answer": 1,
+      "explanation": "NCERT calls jute the 'golden fibre', so A is true.\nJute does grow well on fertile flood-plain soils renewed every year, so R is true.\nHowever, R describes its growing conditions and does not explain why it is called the golden fibre.\nSo both are true, but R is not the correct explanation of A."
+    },
+    {
+      "text": "A kharif crop needs high temperature, light rainfall or irrigation, about 210 frost-free days and bright sunshine. It grows well in the drier parts of the black soil of the Deccan plateau and takes 6 to 8 months to mature. Identify the crop.",
+      "difficulty": "MEDIUM",
+      "options": ["Cotton", "Jute", "Sugarcane", "Groundnut"],
+      "answer": 0,
+      "explanation": "NCERT describes cotton as growing well in the drier parts of the black cotton soil of the Deccan plateau.\nIt needs high temperature, light rainfall or irrigation, 210 frost-free days and bright sunshine.\nIt is a kharif crop that takes 6 to 8 months to mature.\nJute instead needs fertile flood-plain soils."
+    },
+    {
+      "text": "Which oilseed is grown as a kharif crop in north India but as a rabi crop in south India?",
+      "difficulty": "HARD",
+      "options": ["Groundnut", "Mustard", "Sesamum (til)", "Linseed"],
+      "answer": 2,
+      "explanation": "Groundnut is a kharif crop.\nMustard and linseed are rabi crops.\nNCERT states that sesamum is a kharif crop in the north and a rabi crop in south India (castor seed is grown in both seasons).\nSo the answer is sesamum."
+    },
+    {
+      "text": "The degree of commercialisation of agriculture varies from one region to another. Which example given in NCERT illustrates this?",
+      "difficulty": "HARD",
+      "options": [
+        "Tea is a subsistence crop in Assam but a commercial crop in Kerala",
+        "Wheat is a commercial crop in Bihar but a subsistence crop in Punjab",
+        "Jute is a commercial crop in Rajasthan but a subsistence crop in West Bengal",
+        "Rice is a commercial crop in Punjab and Haryana, but a subsistence crop in Odisha"
+      ],
+      "answer": 3,
+      "explanation": "NCERT notes that the same crop can be commercial in one region and subsistence in another.\nIn Punjab and Haryana rice is grown mainly for sale, so it is a commercial crop.\nIn Odisha it is mainly grown for the farmer's own consumption, so it is a subsistence crop.\nThe other options are not true (tea is a plantation crop; jute is not grown in Rajasthan)."
+    }
+  ]
+}

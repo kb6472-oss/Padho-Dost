@@ -1,0 +1,105 @@
+{
+  "exam": "class-11",
+  "subject": "chemistry",
+  "chapter": "basic-concepts-chemistry",
+  "notes": {
+    "summary": "This chapter covers the nature and classification of matter, SI units and significant figures, the laws of chemical combination, Dalton's atomic theory, atomic and molecular masses, the mole concept, percentage composition, empirical and molecular formulae, stoichiometry, limiting reagent and the ways of expressing concentration. CBSE tests laws and definitions through MCQs and gives numericals on moles, formulae, limiting reagent and concentration terms.",
+    "keyPoints": [
+      "Matter: elements and compounds are pure substances; a compound has a fixed composition and can be separated into its elements only by chemical methods (CO₂, H₂O). Mixtures have variable composition and can be homogeneous (air, brass, sugar solution) or heterogeneous (sand and salt).",
+      "Laws of chemical combination: conservation of mass (Lavoisier); definite proportions (Proust: water always has H : O = 1 : 8 by mass); multiple proportions (Dalton: in H₂O and H₂O₂, oxygen combining with 2 g H is 16 g and 32 g, ratio 1 : 2); Gay-Lussac's law of gaseous volumes (2 vol H₂ + 1 vol O₂ → 2 vol water vapour); Avogadro's law (equal volumes of gases at the same T and P contain equal numbers of molecules).",
+      "1 mole = 6.02214076 × 10²³ entities. Moles = mass ÷ molar mass = number of particles ÷ Nₐ. 1 u = 1/12 of the mass of a C-12 atom = 1.66 × 10⁻²⁴ g; mass of one C-12 atom = 12/Nₐ = 1.99 × 10⁻²³ g.",
+      "Molecules vs atoms: 1.7 g of NH₃ = 0.1 mol of molecules = 6.022 × 10²² molecules, but 0.4 mol of atoms = 2.41 × 10²³ atoms (multiply by atomicity, here 4).",
+      "Empirical formula from percentage composition: divide each percentage by its atomic mass, divide by the smallest result and convert to whole numbers. Molecular formula = n × empirical formula, where n = molar mass ÷ empirical formula mass (85.7% C, 14.3% H → CH₂; molar mass 56 g/mol → C₄H₈).",
+      "Limiting reagent is the reactant used up first; compare available moles with the stoichiometric ratio, never the masses. In 2H₂ + O₂ → 2H₂O, 4 g H₂ (2 mol) + 16 g O₂ (0.5 mol) makes O₂ limiting and gives 1 mol (18 g) of water.",
+      "Concentration terms: mass percent = (mass of solute ÷ mass of solution) × 100; mole fraction xA = nA/(nA + nB), with xA + xB = 1; molarity M = moles of solute per litre of solution; molality m = moles of solute per kg of solvent (independent of temperature). Dilution: M₁V₁ = M₂V₂.",
+      "Molarity from mass percent and density: M = (% by mass × density in g/mL × 10) ÷ molar mass. For 98% H₂SO₄ of density 1.84 g/mL: M = (98 × 1.84 × 10)/98 = 18.4 M."
+    ],
+    "traps": [
+      "Counting molecules when the question asks for atoms (or ions); multiply by the number of atoms per formula unit.",
+      "Choosing the limiting reagent by the smaller mass instead of by the mole ratio from the balanced equation.",
+      "Using the volume of solution for molality or the mass of solvent for molarity; in dilution problems, reporting the final volume instead of the volume of water to be added.",
+      "Giving the mass fraction when the mole fraction is asked.",
+      "Stopping at the empirical formula and forgetting to multiply by n to get the molecular formula."
+    ],
+    "examTip": "Convert every given mass, volume or number of particles into moles first; almost every numerical in this chapter then reduces to a simple ratio from the balanced equation or definition."
+  },
+  "questions": [
+    {
+      "text": "Pure water obtained from any source always contains hydrogen and oxygen combined in the mass ratio 1 : 8. This observation illustrates the:",
+      "difficulty": "EASY",
+      "options": ["Law of multiple proportions", "Law of definite proportions", "Law of conservation of mass", "Avogadro's law"],
+      "answer": 1,
+      "explanation": "The law of definite proportions (Proust) states that a given compound always contains exactly the same proportion of elements by mass, whatever its source. In H₂O, 2 g of hydrogen always combine with 16 g of oxygen, a fixed ratio of 1 : 8. So the observation illustrates the law of definite proportions."
+    },
+    {
+      "text": "Which of the following is a compound and not a mixture?",
+      "difficulty": "EASY",
+      "options": ["Air", "Brass", "Sea water", "Carbon dioxide"],
+      "answer": 3,
+      "explanation": "A compound has a fixed composition and its constituents can be separated only by chemical methods. Carbon dioxide always contains carbon and oxygen in the mass ratio 12 : 32 (3 : 8), so it is a compound. Air (a mixture of gases), brass (an alloy of copper and zinc) and sea water (salts dissolved in water) are mixtures with variable composition. Answer: carbon dioxide."
+    },
+    {
+      "text": "At the same temperature and pressure, 2 volumes of hydrogen gas react with 1 volume of oxygen gas to give 2 volumes of water vapour. This simple whole-number ratio of volumes (2 : 1 : 2) illustrates:",
+      "difficulty": "EASY",
+      "options": ["Gay-Lussac's law of gaseous volumes", "Law of multiple proportions", "Boyle's law", "Law of definite proportions"],
+      "answer": 0,
+      "explanation": "Gay-Lussac (1808) observed that when gases combine or are produced in a chemical reaction, their volumes bear a simple whole-number ratio, provided all are measured at the same temperature and pressure. Here H₂ : O₂ : H₂O (vapour) = 2 : 1 : 2 by volume. This is Gay-Lussac's law of gaseous volumes."
+    },
+    {
+      "text": "The total number of atoms present in 1.7 g of ammonia (NH₃) is: (N = 14, H = 1, Nₐ = 6.022 × 10²³ mol⁻¹)",
+      "difficulty": "MEDIUM",
+      "options": ["6.022 × 10²²", "1.81 × 10²³", "2.41 × 10²³", "2.41 × 10²⁴"],
+      "answer": 2,
+      "explanation": "Molar mass of NH₃ = 14 + 3 × 1 = 17 g/mol, so 1.7 g = 1.7/17 = 0.1 mol of molecules. Number of molecules = 0.1 × 6.022 × 10²³ = 6.022 × 10²². Each NH₃ molecule contains 4 atoms (1 N + 3 H). Total atoms = 4 × 6.022 × 10²² = 2.41 × 10²³."
+    },
+    {
+      "text": "4 g of hydrogen gas is allowed to react with 16 g of oxygen gas according to the equation 2H₂ + O₂ → 2H₂O. The limiting reagent and the mass of water formed are: (H = 1, O = 16)",
+      "difficulty": "MEDIUM",
+      "options": ["H₂; 36 g", "O₂; 18 g", "O₂; 36 g", "H₂; 18 g"],
+      "answer": 1,
+      "explanation": "Moles of H₂ = 4/2 = 2 mol; moles of O₂ = 16/32 = 0.5 mol. From the equation, 0.5 mol of O₂ needs only 2 × 0.5 = 1 mol of H₂, but 2 mol of H₂ is available, so H₂ is in excess and O₂ is the limiting reagent. 0.5 mol of O₂ forms 2 × 0.5 = 1 mol of H₂O = 18 g. Answer: O₂; 18 g."
+    },
+    {
+      "text": "4 g of sodium hydroxide (NaOH, molar mass 40 g/mol) is dissolved in 250 g of water. The molality of the solution is:",
+      "difficulty": "MEDIUM",
+      "options": ["0.1 mol/kg", "0.016 mol/kg", "1.6 mol/kg", "0.4 mol/kg"],
+      "answer": 3,
+      "explanation": "Moles of NaOH = 4/40 = 0.1 mol. Molality = moles of solute ÷ mass of solvent in kg. Mass of water = 250 g = 0.250 kg. Molality = 0.1/0.250 = 0.4 mol/kg."
+    },
+    {
+      "text": "What volume of water must be added to 200 mL of 0.5 M HCl solution to make it 0.2 M?",
+      "difficulty": "MEDIUM",
+      "options": ["500 mL", "80 mL", "300 mL", "200 mL"],
+      "answer": 2,
+      "explanation": "On dilution the number of moles of solute does not change, so M₁V₁ = M₂V₂. 0.5 × 200 = 0.2 × V₂, so V₂ = 100/0.2 = 500 mL; this is the final volume of the solution. Water to be added = 500 − 200 = 300 mL."
+    },
+    {
+      "text": "The mass of one atom of carbon-12 is approximately: (Nₐ = 6.022 × 10²³ mol⁻¹)",
+      "difficulty": "MEDIUM",
+      "options": ["1.99 × 10⁻²³ g", "1.66 × 10⁻²⁴ g", "12 g", "7.23 × 10²⁴ g"],
+      "answer": 0,
+      "explanation": "One mole of carbon-12 atoms has a mass of exactly 12 g and contains 6.022 × 10²³ atoms. Mass of one atom = 12 g ÷ (6.022 × 10²³) = 1.99 × 10⁻²³ g. (1.66 × 10⁻²⁴ g is the mass of 1 u, which is 1/12 of this value.)"
+    },
+    {
+      "text": "A solution contains 46 g of ethanol (C₂H₅OH) and 36 g of water. The mole fraction of ethanol in the solution is: (C = 12, H = 1, O = 16)",
+      "difficulty": "MEDIUM",
+      "options": ["0.50", "0.33", "0.67", "0.56"],
+      "answer": 1,
+      "explanation": "Molar mass of C₂H₅OH = 2(12) + 6(1) + 16 = 46 g/mol, so moles of ethanol = 46/46 = 1 mol. Moles of water = 36/18 = 2 mol. Mole fraction of ethanol = 1/(1 + 2) = 1/3 ≈ 0.33. (0.56 is the mass fraction 46/82, not the mole fraction.)"
+    },
+    {
+      "text": "A hydrocarbon contains 85.7% carbon and 14.3% hydrogen by mass, and its molar mass is 56 g/mol. Its molecular formula is: (C = 12, H = 1)",
+      "difficulty": "HARD",
+      "options": ["CH₂", "C₂H₄", "C₃H₆", "C₄H₈"],
+      "answer": 3,
+      "explanation": "Take 100 g of the compound: moles of C = 85.7/12 = 7.14 and moles of H = 14.3/1 = 14.3. Dividing by the smaller value gives C : H = 1 : 2, so the empirical formula is CH₂ (empirical formula mass = 14 g/mol). n = molar mass ÷ empirical formula mass = 56/14 = 4. Molecular formula = (CH₂)₄ = C₄H₈."
+    },
+    {
+      "text": "Concentrated sulphuric acid is 98% H₂SO₄ by mass and has a density of 1.84 g/mL. Its molarity is: (molar mass of H₂SO₄ = 98 g/mol)",
+      "difficulty": "HARD",
+      "options": ["18.4 M", "9.2 M", "1.84 M", "10.0 M"],
+      "answer": 0,
+      "explanation": "Take 1 L (1000 mL) of the acid: its mass = 1000 × 1.84 = 1840 g. Mass of H₂SO₄ in it = 98% of 1840 g = 1803.2 g. Moles of H₂SO₄ = 1803.2/98 = 18.4 mol. As this is present in 1 L of solution, molarity = 18.4 M. (Ignoring the density gives the wrong value of 10.0 M.)"
+    }
+  ]
+}

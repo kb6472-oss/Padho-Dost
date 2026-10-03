@@ -1,0 +1,106 @@
+{
+  "exam": "class-10",
+  "subject": "history",
+  "chapter": "making-of-global-world",
+  "notes": {
+    "summary": "This chapter traces how the world became connected through trade, migration of people and movement of capital: from the Silk Routes and the conquest of the Americas, through the 19th-century world economy and colonialism, to the inter-war Great Depression and the post-1945 Bretton Woods order. CBSE tests it through fact-based MCQs, assertion-reason items and short answers on causes and effects, especially their impact on India.",
+    "keyPoints": [
+      "Pre-modern links: the Silk Routes linked China with the rest of Asia, Europe and northern Africa; cowries from the Maldives were used as money; potatoes, maize, tomatoes, chillies and groundnuts reached Europe and Asia from the Americas only after Columbus (1492).",
+      "Conquest of the Americas: Portuguese and Spanish conquest in the 16th century was helped by smallpox, a 'biological weapon' to which Native Americans had no immunity.",
+      "The 19th-century world economy (1815–1914) had three flows: trade (goods), labour (people) and capital (investment). Repeal of the Corn Laws made Britain import cheap food; railways, steamships, the telegraph and refrigerated ships cut transport costs.",
+      "Colonialism: in 1885 European powers met in Berlin to complete the carving up of Africa; rinderpest (late 1880s–1890s) killed about 90% of African cattle and pushed Africans into wage labour.",
+      "Indentured labour: workers from eastern UP, Bihar, central India and the dry districts of Tamil Nadu went to the Caribbean (Trinidad, Guyana, Surinam), Mauritius, Fiji, Ceylon and Malaya; new cultural forms such as Hosay and chutney music emerged; indenture was abolished in 1921.",
+      "India in the world economy: Indian cotton cloth exports fell (about 30% of exports around 1800 to below 3% by the 1870s) while raw cotton, indigo and opium exports rose; Britain's trade surplus with India paid the 'home charges' (officials' remittances, interest on India's external debt, pensions of British officials).",
+      "Inter-war years: the First World War (1914–18) made the USA an international creditor; Henry Ford's assembly line (adapted from a Chicago slaughterhouse) began mass production; the Great Depression (c. 1929 to mid-1930s) followed agricultural overproduction and the withdrawal of US loans.",
+      "Depression in India: exports and imports nearly halved (1928–34), wheat prices fell about 50%, the colonial government refused to reduce revenue demands, and India became an exporter of gold.",
+      "Post-1945: the Bretton Woods conference (July 1944) created the IMF and the World Bank (IBRD); exchange rates were fixed, with the dollar tied to gold at $35 an ounce; a 'golden age' of growth followed (about 1950–1970); the G-77 demanded a New International Economic Order (NIEO)."
+    ],
+    "traps": [
+      "Potatoes, maize, tomatoes and chillies came from the Americas; they did not exist in Europe or India before Columbus.",
+      "Rinderpest came to Africa with infected cattle from British Asia brought to feed Italian soldiers in Eritrea; it was not native to Africa.",
+      "The IMF dealt with external surpluses and deficits of member nations, while the World Bank (IBRD) financed post-war reconstruction; do not swap their roles.",
+      "During the Depression the colonial government refused to reduce revenue demands; it did not give peasants relief.",
+      "Bretton Woods (1944) set up the IMF and the World Bank; GATT and the WTO are separate bodies."
+    ],
+    "examTip": "For cause-and-effect questions, link each event to its impact on India (indenture, cotton exports, the Depression, gold exports), because CBSE frequently frames MCQs and assertion-reason items around that link."
+  },
+  "questions": [
+    {
+      "text": "In pre-modern trade, cowries (seashells) were used as a form of currency. They travelled to China and East Africa from:",
+      "difficulty": "EASY",
+      "options": ["Sri Lanka", "the Maldives", "Malaya", "Mauritius"],
+      "answer": 1,
+      "explanation": "NCERT notes that cowries, the seashells used as money, came from the Maldives and travelled as far as China and East Africa.\nThis shows that long-distance exchange existed well before modern times.\nAnswer: the Maldives."
+    },
+    {
+      "text": "Indentured workers in one Caribbean colony transformed the annual Muharram procession into a riotous carnival called 'Hosay' (for Imam Hussain), in which workers of all races and religions joined. This happened in:",
+      "difficulty": "EASY",
+      "options": ["Fiji", "Mauritius", "Malaya", "Trinidad"],
+      "answer": 3,
+      "explanation": "Indentured workers created new cultural forms by blending old and new traditions.\nIn Trinidad, the Muharram procession became the carnival 'Hosay', joined by workers of all races and religions. Chutney music, popular in Trinidad and Guyana, is another such fusion.\nAnswer: Trinidad."
+    },
+    {
+      "text": "In 1885, the big European powers met in Berlin. The main purpose of this meeting was to:",
+      "difficulty": "EASY",
+      "options": ["complete the carving up of Africa among themselves", "end the slave trade across the Atlantic", "set up the International Monetary Fund", "abolish indentured labour in the colonies"],
+      "answer": 0,
+      "explanation": "Colonialism expanded rapidly in the late 19th century.\nNCERT records that in 1885 the big European powers met in Berlin to complete the carving up of Africa between them; Britain and France made vast additions to their territories, while Belgium and Germany became new colonial powers.\nThe IMF was created only in 1944 and indenture was abolished in 1921.\nAnswer: complete the carving up of Africa among themselves."
+    },
+    {
+      "text": "Economists identify three types of movement or 'flows' within international economic exchanges in the 19th century. Which option lists them correctly?",
+      "difficulty": "MEDIUM",
+      "options": ["Flow of goods, flow of technology and flow of ideas", "Flow of capital, flow of diseases and flow of crops", "Flow of trade (goods), flow of labour (people) and flow of capital", "Flow of labour, flow of religion and flow of languages"],
+      "answer": 2,
+      "explanation": "Step 1: The first flow is trade, mainly in goods such as cloth or wheat.\nStep 2: The second is labour: the migration of people in search of employment.\nStep 3: The third is capital: the movement of money for short-term or long-term investment over long distances.\nThe three flows were closely interwoven in the 19th century.\nAnswer: flow of trade (goods), flow of labour (people) and flow of capital."
+    },
+    {
+      "text": "In the Great Irish Potato Famine of 1845–1849, around 1,000,000 people died of starvation in Ireland and double that number emigrated in search of work. The immediate cause of the famine was that:",
+      "difficulty": "MEDIUM",
+      "options": ["Britain banned the import of potatoes from America", "a disease destroyed the potato crop on which poor peasants had come to depend", "the Corn Laws forced Irish farmers to grow only wheat", "a war with France cut off food supplies to Ireland"],
+      "answer": 1,
+      "explanation": "Potatoes reached Europe from the Americas after Columbus.\nPoor Irish peasants became so dependent on this cheap, filling food that when disease destroyed the potato crop in the mid-1840s, hundreds of thousands died of starvation.\nNCERT puts the toll at about 1,000,000 deaths, with twice as many emigrating.\nAnswer: a disease destroyed the potato crop on which poor peasants had come to depend."
+    },
+    {
+      "text": "Assertion (A): The rinderpest epidemic of the 1890s helped European colonisers tighten their control over Africa.\nReason (R): Rinderpest killed about 90% of African cattle, destroying livelihoods and forcing Africans to work for wages.\nChoose the correct option.",
+      "difficulty": "MEDIUM",
+      "options": ["Both Assertion (A) and Reason (R) are true, and R is the correct explanation of A.", "Both A and R are true, but R is not the correct explanation of A.", "A is true, but R is false.", "A is false, but R is true."],
+      "answer": 0,
+      "explanation": "Step 1: Rinderpest, a fast-spreading cattle disease, entered East Africa in the late 1880s, reached the Atlantic coast by 1892 and the Cape five years later, killing about 90% of the cattle. So R is true.\nStep 2: Africans had depended on land and livestock and had little reason to work for wages; losing their cattle destroyed this independence.\nStep 3: By controlling the scarce cattle that survived, colonisers strengthened their power and pushed Africans into the labour market. So A is true, and R explains why.\nAnswer: Both A and R are true, and R is the correct explanation of A."
+    },
+    {
+      "text": "Most Indian indentured labourers who migrated in the 19th century came from:",
+      "difficulty": "MEDIUM",
+      "options": ["Punjab, Sindh and the North-West Frontier", "Gujarat and the Konkan coast", "Assam and the hills of the North-East", "present-day eastern Uttar Pradesh, Bihar, central India and the dry districts of Tamil Nadu"],
+      "answer": 3,
+      "explanation": "NCERT states that most indentured workers came from present-day eastern Uttar Pradesh, Bihar, central India and the dry districts of Tamil Nadu.\nIn these regions cottage industries declined, land rents rose and land was cleared for mines and plantations, so poor people were pushed to migrate.\nThey went mainly to the Caribbean islands (Trinidad, Guyana, Surinam), Mauritius, Fiji, Ceylon and Malaya; Assam's tea plantations were a destination, not a source.\nAnswer: present-day eastern Uttar Pradesh, Bihar, central India and the dry districts of Tamil Nadu."
+    },
+    {
+      "text": "Which statement correctly describes the change in India's exports during the 19th century under British rule?",
+      "difficulty": "MEDIUM",
+      "options": ["Exports of finished cotton cloth rose, while exports of raw cotton fell", "Exports of finished cotton cloth fell sharply, while exports of raw materials such as raw cotton and indigo rose", "India stopped exporting goods to Britain and traded only with China", "India's exports of both cotton cloth and raw cotton fell to zero by 1850"],
+      "answer": 1,
+      "explanation": "Step 1: After industrialisation, British cotton manufacture expanded and tariffs were imposed on cloth imports into Britain, so Indian cloth lost its markets.\nStep 2: The share of cotton textiles in India's exports fell from about 30% around 1800 to below 3% by the 1870s.\nStep 3: Meanwhile, raw cotton rose from about 5% to 35% of exports between 1812 and 1871; indigo and later opium (shipped to China) were also major exports.\nAnswer: exports of finished cotton cloth fell sharply, while exports of raw materials such as raw cotton and indigo rose."
+    },
+    {
+      "text": "Henry Ford adapted the assembly line of a Chicago slaughterhouse to his car plant in Detroit. His method of mass production worked by:",
+      "difficulty": "MEDIUM",
+      "options": ["moving the car along a conveyor belt while each worker repeatedly performed a single task", "having skilled craftsmen build each car from start to finish", "importing ready-made engines and car bodies from Britain", "using indentured labourers from Asia to assemble cars by hand"],
+      "answer": 0,
+      "explanation": "On Ford's assembly line, cars moved past the workers on a conveyor belt.\nEach worker repeated a single task, such as fitting one particular part, at the pace set by the belt. This raised output per worker and lowered costs.\nThe T-model Ford became the world's first mass-produced car.\nAnswer: moving the car along a conveyor belt while each worker repeatedly performed a single task."
+    },
+    {
+      "text": "Britain had a trade surplus with India and used it to pay for the so-called 'home charges'. Consider the following:\nI. Private remittances home by British officials and traders\nII. Interest payments on India's external debt\nIII. Pensions of British officials in India\nIV. Import duties paid by Indian merchants on goods sold in Britain\nWhich of these were part of the 'home charges'?",
+      "difficulty": "HARD",
+      "options": ["I and II only", "II, III and IV only", "I, II and III only", "I, II, III and IV"],
+      "answer": 2,
+      "explanation": "NCERT explains that Britain's trade surplus with India helped it balance its deficits with other countries and pay the 'home charges'.\nThese included private remittances home by British officials and traders (I), interest payments on India's external debt (II) and pensions of British officials in India (III).\nImport duties collected in Britain (IV) were not part of the home charges.\nAnswer: I, II and III only."
+    },
+    {
+      "text": "Which of the following statements about the impact of the Great Depression on India is NOT correct?",
+      "difficulty": "HARD",
+      "options": ["India's exports and imports nearly halved between 1928 and 1934.", "Wheat prices in India fell by about 50% between 1928 and 1934.", "The colonial government sharply reduced land revenue demands to help indebted peasants.", "India became an exporter of precious metals, notably gold."],
+      "answer": 2,
+      "explanation": "Step 1: As world prices crashed, India's exports and imports nearly halved between 1928 and 1934, and wheat prices fell by 50%, so the first two statements are correct.\nStep 2: Peasants' incomes fell, yet the colonial government refused to reduce revenue demands, so the third statement is wrong.\nStep 3: Peasants used up their savings and sold jewellery, so India became an exporter of gold; Keynes thought these gold exports helped global recovery. The fourth statement is correct.\nAnswer: The colonial government sharply reduced land revenue demands to help indebted peasants (this is NOT correct)."
+    }
+  ]
+}

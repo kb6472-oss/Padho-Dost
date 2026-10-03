@@ -1,0 +1,121 @@
+{
+  "exam": "class-12",
+  "subject": "accountancy",
+  "chapter": "company-accounts",
+  "notes": {
+    "summary": "This chapter covers the issue of shares (at par and at a premium, for cash and for consideration other than cash), over- and under-subscription with pro-rata allotment, calls in arrears and calls in advance, forfeiture and reissue of shares, presentation of share capital in the Balance Sheet, and the issue of debentures (at par, premium or discount, for consideration other than cash and as collateral security) along with loss on issue and interest. CBSE tests journal entries, forfeiture and reissue calculations, pro-rata adjustments and the terms of debenture issue.",
+    "keyPoints": [
+      "Share capital layers: Authorised ≥ Issued ≥ Subscribed ≥ Called-up ≥ Paid-up. Calls in arrears are deducted from called-up capital; the balance of Share Forfeiture Account is added to paid-up capital in the Notes on Share Capital.",
+      "Minimum subscription is 90% of the issue (SEBI); if it is not received, application money is refunded. Table F: interest on calls in arrears up to 10% p.a. and on calls in advance up to 12% p.a. Example: Rs 1,500 paid 3 months late at 10% → 1,500 × 10% × 3/12 = Rs 37.50.",
+      "Securities premium is credited to Securities Premium Reserve and, under Section 52, may be used for fully paid bonus shares, writing off preliminary expenses, writing off expenses, commission or discount on issue of securities, premium on redemption of preference shares or debentures, and buy-back of own securities — never for dividends.",
+      "Pro-rata allotment: excess application money is first adjusted towards allotment (and calls, if so decided); only the rest is refunded. Example: 15,000 applications for 10,000 shares at Rs 3 on application → Rs 15,000 excess adjusted against allotment.",
+      "Forfeiture entry: Share Capital Dr (called-up amount), Securities Premium Reserve Dr (only if the premium is due but unpaid), To unpaid allotment/calls, To Share Forfeiture (amount received towards capital). Premium already received is never debited on forfeiture.",
+      "Reissue: the maximum discount on reissue equals the amount forfeited on those shares. Capital Reserve = amount forfeited on the reissued shares − discount on reissue. Example: Rs 6 forfeited per share, 200 shares reissued at Rs 7 fully paid → 1,200 − 600 = Rs 600 to Capital Reserve.",
+      "Debentures acknowledge a debt: holders are creditors and interest is a charge on profit, payable even in a year of loss. Types include secured/unsecured, convertible/non-convertible, registered/bearer and redeemable/irredeemable.",
+      "Loss on issue of debentures = discount on issue + premium payable on redemption (e.g. a Rs 100 debenture issued at 5% discount and redeemable at 10% premium → loss Rs 15 per debenture). It is written off first from Securities Premium, the balance from the Statement of Profit and Loss.",
+      "Issue for consideration other than cash: number of securities = purchase consideration ÷ issue price (e.g. Rs 2,10,000 ÷ Rs 105 = 2,000 debentures). Debentures issued as collateral security, if recorded, are debited to Debentures Suspense Account."
+    ],
+    "traps": [
+      "Crediting Share Forfeiture with premium already received — the forfeiture credit is only the amount received towards share capital.",
+      "Debiting Share Capital with the full face value on forfeiture when some calls have not yet been made — debit only the called-up amount.",
+      "Transferring the whole Share Forfeiture balance to Capital Reserve when only some of the forfeited shares are reissued.",
+      "Refunding all excess application money in a pro-rata case instead of first adjusting it against allotment.",
+      "Ignoring the premium on redemption when computing loss on issue of debentures, or crediting it to Securities Premium Reserve."
+    ],
+    "examTip": "For forfeiture and reissue, make a quick per-share table — called up, received, unpaid and whether premium was received — before writing the entry; every figure then follows directly."
+  },
+  "questions": [
+    {
+      "text": "Debentures that give their holders the right to exchange them for equity shares of the company, at a specified rate after a specified period, are called:",
+      "difficulty": "EASY",
+      "options": ["Bearer debentures", "Redeemable debentures", "Convertible debentures", "Secured debentures"],
+      "answer": 2,
+      "explanation": "Convertible debentures can be converted, wholly or partly, into equity shares on the stated terms.\nBearer debentures are transferable by mere delivery, redeemable debentures are repaid at maturity, and secured debentures carry a charge on the company's assets."
+    },
+    {
+      "text": "A company issued equity shares of Rs 10 each at a premium of Rs 2 per share, payable as Rs 3 on application, Rs 5 on allotment (including premium) and Rs 4 on first and final call. Ravi, who held 100 shares, paid the application and allotment money but failed to pay the call, and his shares were forfeited. The amount credited to Share Forfeiture Account is:",
+      "difficulty": "MEDIUM",
+      "options": ["Rs 800", "Rs 1,000", "Rs 400", "Rs 600"],
+      "answer": 3,
+      "explanation": "Ravi paid Rs 3 + Rs 5 = Rs 8 per share, of which Rs 2 is premium.\nAmount received towards share capital = 8 − 2 = Rs 6 per share.\nShare Forfeiture = 6 × 100 = Rs 600.\nEntry: Share Capital Dr 1,000; To Share First and Final Call 400; To Share Forfeiture 600. Securities Premium is not debited because it had been received."
+    },
+    {
+      "text": "A company invited applications for 10,000 equity shares of Rs 10 each, payable Rs 3 on application, Rs 4 on allotment and Rs 3 on first and final call. Applications were received for 15,000 shares, and shares were allotted pro-rata to all applicants with the excess application money adjusted towards allotment. If all allottees pay the amount due, the cash received on allotment is:",
+      "difficulty": "MEDIUM",
+      "options": ["Rs 25,000", "Rs 40,000", "Rs 15,000", "Rs 55,000"],
+      "answer": 0,
+      "explanation": "Application money received = 15,000 × 3 = Rs 45,000; required = 10,000 × 3 = Rs 30,000.\nExcess = Rs 15,000, adjusted towards allotment.\nAllotment due = 10,000 × 4 = Rs 40,000.\nCash received on allotment = 40,000 − 15,000 = Rs 25,000."
+    },
+    {
+      "text": "The issue of securities by a company to a select group of persons, such as financial institutions, through a private offer and not to the public at large, is called:",
+      "difficulty": "EASY",
+      "options": ["Public issue", "Private placement", "Rights issue", "Bonus issue"],
+      "answer": 1,
+      "explanation": "Private placement is an offer of securities to a select group of investors through a private offer, not to the general public.\nA rights issue is offered to existing shareholders in proportion to their holding, and bonus shares are issued free to existing shareholders out of reserves."
+    },
+    {
+      "text": "A company issued 1,000, 9% debentures of Rs 100 each at a discount of 5%, redeemable at a premium of 10% after five years. The amount debited to Loss on Issue of Debentures Account at the time of issue is:",
+      "difficulty": "MEDIUM",
+      "options": ["Rs 5,000", "Rs 10,000", "Rs 15,000", "Rs 1,10,000"],
+      "answer": 2,
+      "explanation": "Discount on issue = 1,000 × Rs 5 = Rs 5,000.\nPremium payable on redemption = 1,000 × Rs 10 = Rs 10,000.\nLoss on Issue of Debentures = 5,000 + 10,000 = Rs 15,000.\nEntry: Bank Dr 95,000, Loss on Issue of Debentures Dr 15,000; To 9% Debentures 1,00,000, To Premium on Redemption of Debentures 10,000."
+    },
+    {
+      "text": "A company purchased machinery for Rs 2,10,000 and paid the vendor by issuing 10% debentures of Rs 100 each at a premium of 5%. The number of debentures issued is:",
+      "difficulty": "MEDIUM",
+      "options": ["2,100", "2,000", "2,205", "1,900"],
+      "answer": 1,
+      "explanation": "Issue price per debenture = 100 + 5 = Rs 105.\nNumber of debentures = 2,10,000 ÷ 105 = 2,000.\nEntry: Vendor Dr 2,10,000; To 10% Debentures 2,00,000; To Securities Premium Reserve 10,000."
+    },
+    {
+      "text": "Assertion (A): When all the forfeited shares have been reissued, the balance remaining in the Share Forfeiture Account is transferred to Capital Reserve.\nReason (R): The gain on reissue of forfeited shares is a capital profit.\nChoose the correct option:",
+      "difficulty": "EASY",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+        "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+        "Assertion (A) is true, but Reason (R) is false.",
+        "Assertion (A) is false, but Reason (R) is true."
+      ],
+      "answer": 0,
+      "explanation": "After reissue, the amount left in Share Forfeiture Account (amount forfeited minus discount on reissue) is a profit on a capital transaction.\nCapital profits are not available for dividend, so the balance is transferred to Capital Reserve.\nBoth A and R are true, and R correctly explains A."
+    },
+    {
+      "text": "In the Balance Sheet of a company, the balance of Share Forfeiture Account relating to shares not yet reissued is shown:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "under Reserves and Surplus",
+        "under Share Capital, added to the paid-up capital in the Notes to Accounts",
+        "under Other Current Liabilities",
+        "as a deduction from Securities Premium Reserve"
+      ],
+      "answer": 1,
+      "explanation": "The forfeited amount is money received on shares that remain part of the capital structure until they are reissued.\nUnder Schedule III it is disclosed under the head Share Capital — in the Notes to Accounts it is added to the subscribed and paid-up capital.\nOnly the gain left after reissue is transferred to Capital Reserve under Reserves and Surplus."
+    },
+    {
+      "text": "A shareholder holding 500 shares failed to pay the first call of Rs 3 per share due on 1 October and paid it on 31 December. The company charges interest on calls in arrears at 10% per annum as per Table F of the Companies Act, 2013. The interest payable by the shareholder is:",
+      "difficulty": "MEDIUM",
+      "options": ["Rs 45.00", "Rs 150.00", "Rs 12.50", "Rs 37.50"],
+      "answer": 3,
+      "explanation": "Amount in arrears = 500 × 3 = Rs 1,500.\nPeriod from 1 October to 31 December = 3 months.\nInterest = 1,500 × 10/100 × 3/12 = Rs 37.50.\nRs 45 wrongly uses 12%, which is the Table F rate for calls in advance."
+    },
+    {
+      "text": "A company issued shares of Rs 10 each at a premium of Rs 3 per share, payable Rs 2 on application, Rs 5 on allotment (including the premium) and Rs 6 on first and final call. Mohan, holding 200 shares, paid only the application money. His shares were forfeited immediately after allotment, before the call was made. The correct forfeiture entry is:",
+      "difficulty": "HARD",
+      "options": [
+        "Share Capital A/c Dr 800, Securities Premium Reserve A/c Dr 600; To Share Allotment A/c 1,000, To Share Forfeiture A/c 400",
+        "Share Capital A/c Dr 1,400; To Share Allotment A/c 1,000, To Share Forfeiture A/c 400",
+        "Share Capital A/c Dr 800; To Share Allotment A/c 400, To Share Forfeiture A/c 400",
+        "Share Capital A/c Dr 800, Securities Premium Reserve A/c Dr 600; To Share Allotment A/c 1,000, To Capital Reserve A/c 400"
+      ],
+      "answer": 0,
+      "explanation": "Called-up capital at forfeiture = Rs 2 (application) + Rs 2 (capital part of allotment) = Rs 4 per share, so Share Capital Dr 200 × 4 = Rs 800.\nPremium of Rs 3 per share was credited on allotment but not received, so Securities Premium Reserve Dr 200 × 3 = Rs 600.\nUnpaid allotment = 200 × 5 = Rs 1,000 credited to Share Allotment.\nAmount received = 200 × 2 = Rs 400 credited to Share Forfeiture; it moves to Capital Reserve only after reissue."
+    },
+    {
+      "text": "A company forfeited 300 shares of Rs 10 each on which Rs 6 per share had been paid. Of these, 200 shares were reissued at Rs 7 per share as fully paid up. The amount transferred to Capital Reserve is:",
+      "difficulty": "HARD",
+      "options": ["Rs 1,200", "Rs 1,800", "Rs 600", "Rs 900"],
+      "answer": 2,
+      "explanation": "Share Forfeiture on 300 shares = 300 × 6 = Rs 1,800; on the 200 reissued shares = 200 × 6 = Rs 1,200.\nDiscount on reissue = (10 − 7) × 200 = Rs 600, debited to Share Forfeiture.\nCapital Reserve = 1,200 − 600 = Rs 600.\nThe remaining Rs 600 (relating to the 100 shares not reissued) stays in Share Forfeiture Account."
+    }
+  ]
+}

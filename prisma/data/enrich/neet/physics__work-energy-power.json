@@ -1,0 +1,161 @@
+{
+  "exam": "neet",
+  "subject": "physics",
+  "chapter": "work-energy-power",
+  "notes": {
+    "summary": "Work, Energy and Power covers work done by constant and variable forces, kinetic and potential energy, the work–energy theorem, conservative forces, spring potential energy, power, and collisions in one dimension. NEET tests it with numericals on the work–energy theorem, springs, power on inclines, motion in a vertical circle and elastic or inelastic collisions.",
+    "keyPoints": [
+      "Work by a constant force W = F·d = Fd cos θ = FxDx + FyDy + FzDz. Work is positive for θ < 90°, zero at 90° and negative for θ > 90°.",
+      "Work by a variable force W = ∫F dx (area under the F–x graph). Spring stretched from x₁ to x₂: W = ½k(x₂² − x₁²).",
+      "Work–energy theorem: W(net) = ΔK. A block sliding on a rough floor with speed v stops after d = v²/(2μk g).",
+      "Kinetic energy K = ½mv² = p²/(2m); spring potential energy U = ½kx²; gravitational U = mgh near the Earth's surface.",
+      "For a conservative force F = −dU/dx; its work around any closed path is zero; equilibrium occurs where dU/dx = 0.",
+      "Power P = dW/dt = F·v; 1 W = 1 J/s, 1 hp = 746 W, 1 kWh = 3.6 × 10⁶ J.",
+      "Vertical circle (body on a string): minimum speed √(gr) at the top and √(5gr) at the bottom to complete the circle.",
+      "Elastic head-on collision with m₂ at rest: v₁ = (m₁ − m₂)u₁/(m₁ + m₂), v₂ = 2m₁u₁/(m₁ + m₂); equal masses exchange velocities. Momentum is conserved in every collision, kinetic energy only in elastic ones.",
+      "Perfectly inelastic collision (bodies stick together): common velocity = (m₁u₁ + m₂u₂)/(m₁ + m₂), with the maximum loss of kinetic energy."
+    ],
+    "traps": [
+      "Writing the spring work from x₁ to x₂ as ½k(x₂ − x₁)² instead of ½k(x₂² − x₁²).",
+      "Assuming no power is needed at constant speed; the engine must still supply F·v against friction and gravity.",
+      "Dropping the minus sign in F = −dU/dx and getting the direction of the force wrong.",
+      "Believing friction always does negative work; static friction can do positive work, for example on a box carried by an accelerating truck.",
+      "Using √(gr), the condition at the top, as the minimum speed at the bottom of a vertical circle."
+    ],
+    "examTip": "When forces, distances and speeds are given but time is not, go straight to the work–energy theorem instead of the equations of motion."
+  },
+  "questions": [
+    {
+      "text": "One kilowatt-hour (1 kWh), the commercial unit of electrical energy, is equal to:",
+      "difficulty": "EASY",
+      "options": [
+        "3.6 × 10³ J",
+        "3.6 × 10⁶ J",
+        "1000 J",
+        "3.6 × 10⁵ J"
+      ],
+      "answer": 1,
+      "explanation": "1 kWh = 1000 W × 3600 s.\n= 1000 J/s × 3600 s = 3.6 × 10⁶ J.\nkWh is a unit of energy, not of power."
+    },
+    {
+      "text": "A stone tied to a string is whirled in a horizontal circle with uniform speed. The work done by the tension in the string while the stone moves through half a revolution is:",
+      "difficulty": "EASY",
+      "options": [
+        "positive",
+        "negative",
+        "equal to (mv²/r) × πr",
+        "zero"
+      ],
+      "answer": 3,
+      "explanation": "The tension (centripetal force) always points towards the centre, while each small displacement is along the tangent.\nThe angle between force and displacement is 90°, so dW = F ds cos 90° = 0 at every instant.\nHence the total work over half a revolution is zero, which agrees with the kinetic energy staying constant."
+    },
+    {
+      "text": "A force F = (3î + 4ĵ) N acts on a particle and displaces it by d = (2î + 1ĵ) m. The work done by the force is:",
+      "difficulty": "EASY",
+      "options": [
+        "10 J",
+        "7 J",
+        "14 J",
+        "5 J"
+      ],
+      "answer": 0,
+      "explanation": "W = F·d = FxDx + FyDy.\nW = (3)(2) + (4)(1) = 6 + 4 = 10 J.\nWork is a scalar found with the dot product, not by adding magnitudes."
+    },
+    {
+      "text": "A block of mass 2 kg sliding on a horizontal surface with an initial speed of 10 m/s comes to rest due to friction. The coefficient of kinetic friction is 0.5. Taking g = 10 m/s², the distance travelled by the block before stopping is:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "20 m",
+        "5 m",
+        "10 m",
+        "100 m"
+      ],
+      "answer": 2,
+      "explanation": "Work–energy theorem: work done by friction = change in kinetic energy.\n−μk mg × d = 0 − ½mv².\nd = v²/(2μk g) = 100/(2 × 0.5 × 10) = 100/10 = 10 m.\nThe mass cancels out."
+    },
+    {
+      "text": "A block of mass 0.5 kg moving on a smooth horizontal surface with a speed of 2 m/s strikes a light spring of force constant 200 N/m whose other end is fixed. The maximum compression of the spring is:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "0.1 m",
+        "0.01 m",
+        "0.05 m",
+        "0.2 m"
+      ],
+      "answer": 0,
+      "explanation": "At maximum compression the block stops momentarily, so all its kinetic energy is stored in the spring.\n½mv² = ½kx², so x² = mv²/k = (0.5 × 4)/200 = 0.01 m².\nx = √0.01 = 0.1 m.\n(0.01 m comes from forgetting to take the square root.)"
+    },
+    {
+      "text": "A car of mass 1000 kg moves up an inclined road (sin θ = 1/20) with a constant speed of 10 m/s. The frictional resistance is 500 N. Taking g = 10 m/s², the power delivered by the engine is:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "5 kW",
+        "10 kW",
+        "105 kW",
+        "zero, since the speed is constant"
+      ],
+      "answer": 1,
+      "explanation": "At constant speed the engine force balances the component of gravity along the slope plus friction.\nmg sin θ = 1000 × 10 × (1/20) = 500 N; friction = 500 N; engine force F = 1000 N.\nP = Fv = 1000 × 10 = 10 000 W = 10 kW.\n(5 kW accounts for only one of the two resisting forces.)"
+    },
+    {
+      "text": "A small ball tied to a light string of length 2 m is whirled in a vertical circle. Taking g = 10 m/s², the minimum speed that must be given to the ball at the lowest point so that it just completes the circle is:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "4.5 m/s",
+        "6.3 m/s",
+        "8.9 m/s",
+        "10 m/s"
+      ],
+      "answer": 3,
+      "explanation": "At the top the minimum speed is √(gr), when the tension just becomes zero.\nEnergy conservation from bottom to top (rise of 2r): ½mv² (bottom) = ½m(gr) + mg(2r), giving v (bottom) = √(5gr).\nv = √(5 × 10 × 2) = √100 = 10 m/s.\n(4.5 m/s = √(gr) is the minimum speed at the top.)"
+    },
+    {
+      "text": "The potential energy of a particle moving along the x-axis is U = 3x² − 2x, where U is in joules and x in metres. The force acting on the particle at x = 1 m is:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "4 N along +x",
+        "1 N along +x",
+        "4 N along −x",
+        "1 N along −x"
+      ],
+      "answer": 2,
+      "explanation": "For a conservative force F = −dU/dx.\ndU/dx = 6x − 2, so F = −(6x − 2) = 2 − 6x.\nAt x = 1 m: F = 2 − 6 = −4 N, i.e. 4 N directed along −x.\n(U itself equals 1 J at x = 1 m; that value is not the force.)"
+    },
+    {
+      "text": "Assertion (A): The work done by friction on a body is always negative.\nReason (R): Friction always opposes the relative motion between the surfaces in contact.\nChoose the correct option.",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 3,
+      "explanation": "Friction opposes relative motion (or the tendency of relative motion) between the surfaces in contact, so R is true.\nBut friction need not oppose the motion of the body relative to the ground: a box on the floor of an accelerating truck is carried forward by static friction, which does positive work on the box.\nSo A is false and R is true."
+    },
+    {
+      "text": "A body of mass 2 kg moving with a speed of 3 m/s collides head-on elastically with a stationary body of mass 1 kg. The velocities of the 2 kg and 1 kg bodies after the collision are respectively:",
+      "difficulty": "HARD",
+      "options": [
+        "1 m/s and 4 m/s, both forward",
+        "zero and 6 m/s forward",
+        "2 m/s and 2 m/s, both forward",
+        "1 m/s backward and 4 m/s forward"
+      ],
+      "answer": 0,
+      "explanation": "For an elastic collision with m₂ initially at rest:\nv₁ = (m₁ − m₂)u₁/(m₁ + m₂) = (2 − 1) × 3/3 = 1 m/s (forward).\nv₂ = 2m₁u₁/(m₁ + m₂) = 2 × 2 × 3/3 = 4 m/s (forward).\nCheck: momentum 2 × 1 + 1 × 4 = 6 kg m/s = 2 × 3; KE ½(2)(1²) + ½(1)(4²) = 1 + 8 = 9 J = ½(2)(3²). Both are conserved."
+    },
+    {
+      "text": "A spring of force constant 800 N/m is already stretched by 5 cm from its natural length. The work done in stretching it further from 5 cm to 10 cm is:",
+      "difficulty": "HARD",
+      "options": [
+        "1 J",
+        "3 J",
+        "4 J",
+        "2 J"
+      ],
+      "answer": 1,
+      "explanation": "Work = ½k(x₂² − x₁²) with x₁ = 0.05 m and x₂ = 0.10 m.\nx₂² − x₁² = 0.0100 − 0.0025 = 0.0075 m².\nW = ½ × 800 × 0.0075 = 400 × 0.0075 = 3 J.\n(½k(x₂ − x₁)² gives 1 J and ½kx₂² gives 4 J.)"
+    }
+  ]
+}

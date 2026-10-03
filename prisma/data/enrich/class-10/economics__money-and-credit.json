@@ -1,0 +1,162 @@
+{
+  "exam": "class-10",
+  "subject": "economics",
+  "chapter": "money-and-credit",
+  "notes": {
+    "summary": "This NCERT chapter explains money as a medium of exchange, the modern forms of money (currency and bank deposits), how banks use deposits to give loans, what credit is and how its terms work, and the difference between formal and informal sources of credit, including Self-Help Groups and the RBI's supervisory role. CBSE tests it with case-based questions on borrowers, interest-cost comparisons, assertion-reason items on collateral and SHGs, and comparisons of formal and informal lenders.",
+    "keyPoints": [
+      "Barter needs a double coincidence of wants — each party must want what the other has. Money, as a medium of exchange, removes this need. Earlier forms of money in India included grains and cattle, followed by gold, silver and copper coins.",
+      "Modern forms of money are currency (paper notes and coins) and demand deposits in banks. The RBI issues currency notes on behalf of the central government. The rupee is legal tender: no individual in India can legally refuse a payment made in rupees. Modern currency has no use of its own; it is accepted because it is authorised by the government.",
+      "Demand deposits can be withdrawn on demand. A cheque is a paper instructing the bank to pay a specific amount from the account holder's account to the person named on the cheque. Because deposits can be used for payments through cheques without cash, they are treated as money.",
+      "Banks keep only a small part of deposits as cash (NCERT: about 15%) to meet withdrawals and use the major portion to give loans. Example: deposits of ₹40 crore → about ₹6 crore as cash, about ₹34 crore available for loans. Interest charged on loans is higher than interest paid on deposits; the difference is the main source of income of banks.",
+      "Credit is an agreement in which the lender supplies money, goods or services to the borrower in return for a promise of future payment. It can raise earnings (a shoe manufacturer borrowing to complete a festival order) or push a borrower into a debt trap (a farmer whose crop fails and who must sell land to repay). Whether credit helps depends on the risks involved and whether there is support in case of loss.",
+      "Terms of credit = interest rate + collateral + documentation requirement + mode of repayment. Collateral is an asset owned by the borrower (land, building, vehicle, livestock, bank deposits) used as a guarantee; if the loan is not repaid, the lender can sell it to recover the money.",
+      "Formal sources (banks, cooperatives) are supervised by the RBI: banks must keep a minimum cash balance, must lend also to small cultivators, small-scale industries and small borrowers, and report periodically how much they lend, to whom and at what rate. Informal sources (moneylenders, traders, employers, relatives and friends) are not supervised and may charge very high interest and use unfair means. Example: 5% per month = 60% per year, against a bank rate of about 8.5% per year.",
+      "Richer households borrow mostly from formal sources, while poor households depend heavily on informal sources, often because they lack collateral and documents. Banks and cooperatives need to lend more, especially in rural areas, so that cheap and affordable credit reaches everyone.",
+      "Cooperatives: members pool resources; a farmers' cooperative accepts deposits from members and, using these as collateral, gets a large bank loan that it lends to members.",
+      "Self-Help Groups have 15–20 members, usually women from one neighbourhood, who save regularly; after a year or two of regular saving the group becomes eligible for a bank loan in its name for self-employment. The group is responsible for repayment, so banks lend without collateral. Grameen Bank of Bangladesh, founded by Professor Muhammad Yunus (Nobel Peace Prize 2006), lends to the poor at reasonable rates."
+    ],
+    "traps": [
+      "Treating 5% per month as 5% per year — multiply a monthly rate by 12 before comparing it with an annual bank rate.",
+      "Thinking the RBI regulates moneylenders — it supervises only formal lenders such as banks and cooperatives.",
+      "Believing banks keep all deposits as cash — they keep only a small share and lend the major portion.",
+      "Assuming credit is always good or always bad — the outcome depends on risk and on support in case of loss.",
+      "Confusing collateral (an asset pledged as security) with the other terms of credit such as interest or documentation."
+    ],
+    "examTip": "In case-based credit questions, first identify the lender (formal or informal), then check the interest rate (convert monthly to annual) and the collateral — the answer usually follows."
+  },
+  "questions": [
+    {
+      "text": "In India, no individual can legally refuse a payment made in rupees. Why is this so?",
+      "difficulty": "EASY",
+      "options": [
+        "Each currency note contains gold of equal value",
+        "Currency notes are printed on very costly paper",
+        "The rupee is authorised by the government as a medium of exchange",
+        "Banks pay interest to anyone who holds currency notes"
+      ],
+      "answer": 2,
+      "explanation": "Modern currency, unlike gold or silver coins, has no use of its own.\nIt is accepted because it is authorised by the government of the country; the RBI issues currency notes on behalf of the central government.\nIndian law makes the rupee a medium of payment that cannot be refused.\nSo the reason is that the rupee is authorised by the government as a medium of exchange."
+    },
+    {
+      "text": "Interest rate, collateral, documentation requirement and the mode of repayment of a loan are together called the:",
+      "difficulty": "EASY",
+      "options": [
+        "terms of credit",
+        "debt trap",
+        "double coincidence of wants",
+        "demand deposits"
+      ],
+      "answer": 0,
+      "explanation": "Every loan agreement specifies the interest rate, collateral, documentation and how the loan will be repaid.\nNCERT calls these together the terms of credit.\nA debt trap is a situation of being unable to repay; double coincidence of wants relates to barter; demand deposits are bank deposits withdrawable on demand.\nSo the answer is terms of credit."
+    },
+    {
+      "text": "Anita has to pay ₹20,000 to Rakesh. She writes a cheque for this amount in Rakesh's name, and Rakesh deposits it in his own bank account. What is the result?",
+      "difficulty": "EASY",
+      "options": [
+        "Anita must also hand over ₹20,000 in cash to the bank",
+        "₹20,000 is transferred from Anita's bank account to Rakesh's bank account",
+        "The RBI prints new notes worth ₹20,000 for Rakesh",
+        "Rakesh's bank gives a loan of ₹20,000 to Anita"
+      ],
+      "answer": 1,
+      "explanation": "A cheque is a paper instructing the bank to pay a specific amount from the account holder's account to the person in whose name the cheque is made.\nWhen Rakesh deposits it, ₹20,000 is moved from Anita's account to Rakesh's account.\nAnita's balance falls by ₹20,000 and Rakesh's rises by ₹20,000, with no cash changing hands.\nSo the amount is transferred from Anita's account to Rakesh's account."
+    },
+    {
+      "text": "A bank pays its depositors 6% interest per year and charges its borrowers 10% interest per year. What does the gap between these two rates represent for the bank?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "The cash reserve the bank must keep with itself",
+        "The collateral demanded from borrowers",
+        "The interest the bank pays to the RBI on currency notes",
+        "The main source of income of the bank"
+      ],
+      "answer": 3,
+      "explanation": "Banks accept deposits and pay interest on them, and lend the major portion of these deposits at a higher rate.\nNCERT states that the difference between what is charged from borrowers and what is paid to depositors is the main source of income of banks.\nHere the gap is 10% − 6% = 4% per year.\nSo the gap represents the bank's main source of income."
+    },
+    {
+      "text": "Suppose a bank keeps 15% of its deposits as cash to meet the day-to-day withdrawals of its depositors. If its total deposits are ₹40 crore, about how much can it use to give loans?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "₹6 crore",
+        "₹34 crore",
+        "₹46 crore",
+        "₹40 crore"
+      ],
+      "answer": 1,
+      "explanation": "Cash kept = 15% of ₹40 crore = 15 ÷ 100 × 40 = ₹6 crore.\nAmount available for loans = 40 − 6 = ₹34 crore.\nNCERT notes that banks keep only a small part of deposits as cash (about 15%) and use the major portion to extend loans.\n₹6 crore is the cash reserve, not the loanable amount.\nSo about ₹34 crore can be lent."
+    },
+    {
+      "text": "Ramesh needs ₹10,000 for one year. A moneylender charges 5% interest per month, while a bank charges 8.5% per year (simple interest in both cases). How much MORE interest will Ramesh pay if he borrows from the moneylender instead of the bank?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "₹5,150",
+        "₹6,000",
+        "₹850",
+        "₹350"
+      ],
+      "answer": 0,
+      "explanation": "Moneylender: 5% per month × 12 months = 60% per year; interest = 60 ÷ 100 × 10,000 = ₹6,000.\nBank: interest = 8.5 ÷ 100 × 10,000 = ₹850.\nExtra interest = 6,000 − 850 = ₹5,150.\n₹350 comes from wrongly treating 5% as a yearly rate (850 − 500).\nSo he pays ₹5,150 more to the moneylender."
+    },
+    {
+      "text": "Which of the following is a way in which the Reserve Bank of India supervises the formal sources of credit?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "It fixes the interest rates charged by village moneylenders",
+        "It gives crop loans directly to individual farmers",
+        "It sees that banks maintain a minimum cash balance and also lend to small cultivators and small-scale industries, not only to profit-making businesses",
+        "It collects collateral from borrowers on behalf of banks"
+      ],
+      "answer": 2,
+      "explanation": "NCERT explains that the RBI supervises the functioning of formal sources of loans.\nBanks must maintain a minimum cash balance out of their deposits, and the RBI checks that they lend not just to profit-making businesses and traders but also to small cultivators, small-scale industries and small borrowers.\nBanks also report periodically how much they lend, to whom and at what interest rate.\nThe RBI does not supervise moneylenders or lend directly to farmers, so the correct option is the third one."
+    },
+    {
+      "text": "Why do many poor rural households borrow from moneylenders even though moneylenders charge very high interest?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Moneylenders are supervised by the RBI and are therefore safer",
+        "Banks are not allowed to give loans in rural areas",
+        "Moneylenders always charge less interest than banks",
+        "Banks ask for collateral and documents that the poor often lack, while moneylenders know them personally and lend without these"
+      ],
+      "answer": 3,
+      "explanation": "Bank loans require proper documents and collateral; the absence of collateral is a major reason why the poor cannot get bank loans.\nMoneylenders know the borrowers personally and are often ready to lend without collateral, though at high interest and sometimes on unfair conditions.\nMoneylenders are not supervised by the RBI, and banks do lend in rural areas, though they are not present everywhere.\nSo the poor turn to moneylenders because they lack collateral and documents."
+    },
+    {
+      "text": "Assertion (A): Banks are willing to lend to poor women organised in Self-Help Groups (SHGs), even though the women have no collateral.\nReason (R): The SHG as a whole is responsible for repaying the loan, and any case of non-repayment by one member is followed up seriously by the other members.\nChoose the correct option:",
+      "difficulty": "HARD",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 0,
+      "explanation": "A is true: banks lend to SHGs of poor women without collateral.\nR is true: the loan is sanctioned in the name of the group, the group is responsible for repayment, and members follow up any non-repayment.\nNCERT states that it is because of this feature that banks are willing to lend to SHGs without collateral; group responsibility replaces the guarantee that collateral normally gives.\nSo both are true and R correctly explains A."
+    },
+    {
+      "text": "Case 1: A shoe manufacturer gets a large order before the festival season. He takes a loan to buy raw materials, completes the order on time and repays the loan from the payment he receives.\nCase 2: A small farmer takes a loan for cultivation, but her crop fails because of pests. She cannot repay and has to sell part of her land to clear the debt.\nWhich statement best explains why credit helped in one case but harmed in the other?",
+      "difficulty": "HARD",
+      "options": [
+        "Bank loans always lead to a debt trap, while loans from traders never do",
+        "The farmer's loan carried no interest, so she did not value it",
+        "Credit raised earnings when production succeeded; whether credit helps depends on the risks involved and whether there is support in case of loss",
+        "Credit is useful only for agriculture and not for manufacturing"
+      ],
+      "answer": 2,
+      "explanation": "In Case 1, credit met the expenses of production, the order was completed on time, earnings rose and the loan was repaid easily.\nIn Case 2, crop failure made repayment impossible, so the farmer fell into a debt trap and had to sell land.\nNCERT concludes that whether credit is useful depends on the risks in the situation and whether there is some support in case of loss.\nThe other options are false generalisations, so the third option is correct."
+    },
+    {
+      "text": "How does a farmers' cooperative society typically raise funds to give loans to its members?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "It borrows from village moneylenders and lends to members at higher rates",
+        "It accepts deposits from its members and, using these deposits as collateral, obtains a large loan from a bank to lend to members",
+        "It prints its own currency notes with the permission of the RBI",
+        "It sells the land of members who need loans"
+      ],
+      "answer": 1,
+      "explanation": "In a cooperative, members pool their resources for cooperation in certain areas.\nNCERT's example of a farmers' cooperative shows that it accepts deposits from its members, uses these deposits as collateral to obtain a large loan from a bank, and uses these funds to give loans to members.\nOnly the RBI issues currency notes, and cooperatives are a formal source that does not depend on moneylenders.\nSo the cooperative raises funds through members' deposits and a bank loan backed by them."
+    }
+  ]
+}

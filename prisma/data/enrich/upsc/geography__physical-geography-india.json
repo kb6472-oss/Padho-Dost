@@ -1,0 +1,105 @@
+{
+  "exam": "upsc",
+  "subject": "geography",
+  "chapter": "physical-geography-india",
+  "notes": {
+    "summary": "Covers India's location and extent and its physiographic divisions — the Himalayas, the Northern Plains, the Peninsular Plateau, the Indian Desert, the Coastal Plains and the Islands — along with passes, hill ranges and soils. UPSC tests it with location-based statements, matching of passes, hills, channels and states, and NCERT definitions of landforms.",
+    "keyPoints": [
+      "Extent: 8°4′N–37°6′N and 68°7′E–97°25′E; area 3.28 million km², about 2.4% of the world's area (7th largest country). The Tropic of Cancer crosses eight states: Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura and Mizoram.",
+      "Time: Earth turns 15° per hour, so 1° of longitude = 4 minutes. IST meridian 82°30′E (through Mirzapur) → 82.5 × 4 = 330 min = GMT + 5 h 30 min; Gujarat and Arunachal Pradesh differ by about 2 hours in local time.",
+      "Himalayas: Himadri (average 6,000 m), Himachal (3,700–4,500 m), Shiwalik (900–1,100 m, unconsolidated sediments). Regional divisions — Punjab (Indus–Satluj), Kumaon (Satluj–Kali), Nepal (Kali–Teesta), Assam (Teesta–Dihang).",
+      "Passes: Zoji La (Srinagar–Leh), Shipki La (Himachal Pradesh, where the Satluj enters India), Rohtang (Himachal Pradesh), Lipulekh (Uttarakhand), Nathu La and Jelep La (Sikkim), Bomdi La (Arunachal Pradesh).",
+      "Northern Plains, from the hills southwards: Bhabar (pebbles, streams vanish) → Terai (wet, swampy) → Bhangar (older alluvium with kankar) and Khadar (newer floodplain alluvium).",
+      "Peninsular Plateau: Central Highlands (Malwa, Bundelkhand, Chotanagpur) and the Deccan Plateau; Vindhya north and Satpura south of the Narmada rift; Amarkantak is the source of the Narmada and the Son; the Ghats meet at the Nilgiris; Meghalaya and Karbi Anglong plateaus are its eastern extensions.",
+      "Indian Desert: west of the Aravallis, rainfall below 150 mm a year, Luni the only large river, barchans and longitudinal dunes. Coasts: western — narrow and submerged (Konkan, Kannad, Malabar with kayals); eastern — broad and emergent with deltas (Northern Circars, Coromandel; Chilika in Odisha, Pulicat on the Andhra Pradesh–Tamil Nadu border).",
+      "Islands: Andaman and Nicobar — tectonic and volcanic origin, separated by the Ten Degree Channel, Barren Island is India's active volcano; Lakshadweep — coral, with the Nine Degree Channel (Minicoy–main group) and the Eight Degree Channel (Minicoy–Maldives)."
+    ],
+    "traps": [
+      "Placing the Satpura north of the Narmada — the Vindhyas lie to the north, the Satpuras to the south.",
+      "Confusing India's share of world area (2.4%) with its share of world population (about 17–18%).",
+      "Putting Chilika in Tamil Nadu — it is in Odisha; Pulicat lies on the Andhra Pradesh–Tamil Nadu border.",
+      "Mixing up the Ten, Nine and Eight Degree Channels.",
+      "Reading the Meghalaya hills from east to west — the order from west to east is Garo, Khasi, Jaintia."
+    ],
+    "examTip": "Picture an outline map and place each pass, channel or hill range in its west-to-east (or north-to-south) sequence before reading the options — most matching errors vanish once the order is clear."
+  },
+  "questions": [
+    {
+      "text": "India accounts for approximately what share of the total geographical area of the world?",
+      "difficulty": "EASY",
+      "options": ["About 2.4 per cent", "About 1.2 per cent", "About 5.6 per cent", "About 17 per cent"],
+      "answer": 0,
+      "explanation": "India's area is about 3.28 million km². This works out to about 2.4 per cent of the world's geographical area, making India the seventh largest country. The figure of about 17–18 per cent is India's share of the world's population, a common source of confusion. Answer: about 2.4 per cent."
+    },
+    {
+      "text": "The Eastern Ghats and the Western Ghats meet at which of the following?",
+      "difficulty": "EASY",
+      "options": ["Cardamom Hills", "Nilgiri Hills", "Anaimalai Hills", "Javadi Hills"],
+      "answer": 1,
+      "explanation": "The Western Ghats run along the west coast and the Eastern Ghats run as discontinuous hills along the east coast. The two ranges converge at the Nilgiri Hills in Tamil Nadu, whose highest peak is Doddabetta. The Anaimalai Hills (with Anamudi) and the Cardamom Hills lie south of the Palghat Gap, and the Javadi Hills are part of the Eastern Ghats. Answer: Nilgiri Hills."
+    },
+    {
+      "text": "The Tropic of Cancer passes through all of the following Indian states EXCEPT:",
+      "difficulty": "EASY",
+      "options": ["Jharkhand", "Tripura", "Mizoram", "Odisha"],
+      "answer": 3,
+      "explanation": "The Tropic of Cancer (23°30′N) divides India roughly into two halves. It passes through eight states: Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura and Mizoram. Odisha lies wholly to the south of it. Answer: Odisha."
+    },
+    {
+      "text": "Indian Standard Time is based on the 82°30′E meridian. Given that the Earth rotates through 360° in 24 hours, which of the following is correct about Indian Standard Time?",
+      "difficulty": "MEDIUM",
+      "options": ["It is 5 hours ahead of GMT, and the meridian passes through Nagpur", "It is 5 hours 30 minutes ahead of GMT, and the meridian passes through Mirzapur in Uttar Pradesh", "It is 6 hours ahead of GMT, and the meridian passes through Mirzapur in Uttar Pradesh", "It is 5 hours 30 minutes ahead of GMT, and the meridian passes through Nagpur"],
+      "answer": 1,
+      "explanation": "Rate of rotation = 360° ÷ 24 h = 15° per hour, so each degree of longitude equals 60 ÷ 15 = 4 minutes. Time difference = 82.5° × 4 min = 330 min = 5 h 30 min. Places east of Greenwich are ahead of GMT, so IST = GMT + 5 h 30 min. NCERT notes that the standard meridian of India passes through Mirzapur in Uttar Pradesh. Answer: 5 hours 30 minutes ahead of GMT, passing through Mirzapur."
+    },
+    {
+      "text": "Consider the following pairs:\nPass — State\n1. Shipki La — Himachal Pradesh\n2. Nathu La — Sikkim\n3. Bomdi La — Arunachal Pradesh\n4. Lipulekh — Himachal Pradesh\nHow many of the pairs given above are correctly matched?",
+      "difficulty": "MEDIUM",
+      "options": ["Only one pair", "Only two pairs", "Only three pairs", "All four pairs"],
+      "answer": 2,
+      "explanation": "Shipki La is in Kinnaur, Himachal Pradesh, where the Satluj enters India — pair 1 is correct. Nathu La in Sikkim is an old trade route to Tibet — pair 2 is correct. Bomdi La is in the West Kameng district of Arunachal Pradesh — pair 3 is correct. Lipulekh is in the Pithoragarh district of Uttarakhand, on the Kailash–Mansarovar route — pair 4 is wrong. Three pairs are correct. Answer: only three pairs."
+    },
+    {
+      "text": "Consider the following statements:\n1. The Satpura range lies to the north of the Narmada river.\n2. The Narmada flows westward through a rift valley between the Vindhya and the Satpura ranges.\n3. Both the Narmada and the Son rise in the Amarkantak plateau.\nWhich of the statements given above is/are correct?",
+      "difficulty": "MEDIUM",
+      "options": ["2 only", "1 and 2 only", "2 and 3 only", "1, 2 and 3"],
+      "answer": 2,
+      "explanation": "The Vindhya range lies north of the Narmada, while the Satpura range lies to its south, between the Narmada and the Tapi — statement 1 is wrong. The Narmada flows west through a rift valley between these two ranges and enters the Arabian Sea through an estuary — statement 2 is correct. The Narmada rises near Amarkantak in Madhya Pradesh, and the Son also rises in the Amarkantak plateau before flowing north-east to join the Ganga — statement 3 is correct. Answer: 2 and 3 only."
+    },
+    {
+      "text": "Consider the following statements about the coastal plains of India:\n1. The western coastal plain is narrow and is an example of a submerged coastal plain.\n2. The Chilika lake lies on the Coromandel coast in Tamil Nadu.\n3. Kayals (backwaters), used for fishing and inland navigation, are a distinctive feature of the Malabar coast.\nWhich of the statements given above is/are correct?",
+      "difficulty": "MEDIUM",
+      "options": ["1 and 3 only", "3 only", "1 and 2 only", "1, 2 and 3"],
+      "answer": 0,
+      "explanation": "The western coastal plain is a narrow belt between the Western Ghats and the Arabian Sea, and NCERT describes it as a submerged coastal plain — statement 1 is correct. The eastern coast is broader and emergent, with its northern part called the Northern Circars and its southern part the Coromandel coast; Chilika, India's largest saltwater lake, lies in Odisha south of the Mahanadi delta, not in Tamil Nadu — statement 2 is wrong. The Malabar coast is known for its kayals (backwaters) used for fishing, inland navigation and tourism — statement 3 is correct. Answer: 1 and 3 only."
+    },
+    {
+      "text": "Consider the following statements about the Indian (Thar) Desert:\n1. It lies towards the western margins of the Aravalli hills.\n2. The Luni is the only large river of this region.\n3. Crescent-shaped dunes (barchans) cover larger areas, while longitudinal dunes become prominent near the India–Pakistan boundary.\nWhich of the statements given above is/are correct?",
+      "difficulty": "MEDIUM",
+      "options": ["1 only", "1 and 2 only", "2 and 3 only", "1, 2 and 3"],
+      "answer": 3,
+      "explanation": "The Indian Desert is an undulating sandy plain lying on the western margins of the Aravalli hills — statement 1 is correct. It receives less than 150 mm of rain a year; streams appear in the rainy season and soon disappear into the sand, and the Luni is the only large river — statement 2 is correct. Barchans (crescent-shaped dunes) cover larger areas, while longitudinal dunes become more prominent near the India–Pakistan boundary — statement 3 is correct. Answer: 1, 2 and 3."
+    },
+    {
+      "text": "Consider the following statements:\n1. The Ten Degree Channel separates the Andaman group of islands from the Nicobar group.\n2. The Eight Degree Channel separates Minicoy island from the Maldives.\n3. The Coco Channel separates the Andaman Islands from the Nicobar Islands.\nWhich of the statements given above is/are correct?",
+      "difficulty": "MEDIUM",
+      "options": ["1 only", "2 and 3 only", "1 and 2 only", "1, 2 and 3"],
+      "answer": 2,
+      "explanation": "The Ten Degree Channel lies between Little Andaman and Car Nicobar, separating the Andaman group from the Nicobar group — statement 1 is correct. The Eight Degree Channel separates Minicoy (Lakshadweep) from the Maldives, while the Nine Degree Channel separates Minicoy from the main Lakshadweep group — statement 2 is correct. The Coco Channel lies between North Andaman and the Coco Islands of Myanmar — statement 3 is wrong. Answer: 1 and 2 only."
+    },
+    {
+      "text": "Consider the following statements about the regional divisions of the Himalayas:\n1. The part of the Himalayas lying between the Indus and the Satluj is traditionally known as the Punjab Himalaya.\n2. The part lying between the Satluj and the Kali is known as the Kumaon Himalaya.\n3. The part lying between the Teesta and the Dihang is known as the Nepal Himalaya.\nWhich of the statements given above is/are correct?",
+      "difficulty": "HARD",
+      "options": ["1 only", "1 and 2 only", "2 and 3 only", "1, 2 and 3"],
+      "answer": 1,
+      "explanation": "NCERT divides the Himalayas by river valleys from west to east. Indus to Satluj is the Punjab Himalaya, regionally called the Kashmir and Himachal Himalaya — statement 1 is correct. Satluj to Kali is the Kumaon Himalaya — statement 2 is correct. Kali to Teesta is the Nepal Himalaya, and Teesta to Dihang is the Assam Himalaya, so statement 3 is wrong. Answer: 1 and 2 only."
+    },
+    {
+      "text": "Consider the following statements:\n1. The Meghalaya plateau and the Karbi Anglong plateau are eastward extensions of the Peninsular plateau.\n2. The Meghalaya plateau is separated from the Chotanagpur plateau by a fault.\n3. From west to east, the main hills of the Meghalaya plateau are the Jaintia, Khasi and Garo hills.\nWhich of the statements given above is/are correct?",
+      "difficulty": "HARD",
+      "options": ["1 and 2 only", "2 and 3 only", "1 only", "1, 2 and 3"],
+      "answer": 0,
+      "explanation": "NCERT notes that the Peninsular plateau extends into the north-east as the Meghalaya plateau, the Karbi Anglong plateau and the North Cachar hills — statement 1 is correct. This part is separated from the Chotanagpur plateau by a fault — statement 2 is correct. From west to east, the hills of the Meghalaya plateau are the Garo, Khasi and Jaintia hills, so the order given is reversed — statement 3 is wrong. The plateau is rich in minerals such as coal, iron ore, sillimanite and limestone. Answer: 1 and 2 only."
+    }
+  ]
+}

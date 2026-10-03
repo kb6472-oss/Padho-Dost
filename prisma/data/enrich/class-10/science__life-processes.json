@@ -1,0 +1,170 @@
+{
+  "exam": "class-10",
+  "subject": "science",
+  "chapter": "life-processes",
+  "notes": {
+    "summary": "This chapter covers the basic processes that keep organisms alive: nutrition (photosynthesis, heterotrophic modes and human digestion), respiration (aerobic and anaerobic), transportation (human heart and blood vessels, xylem and phloem in plants) and excretion (human kidney and plants). CBSE tests it through concept MCQs, sequence and pathway questions, assertion-reason items and case-based questions on digestion, the heart and the nephron.",
+    "keyPoints": [
+      "Photosynthesis: 6CO₂ + 12H₂O → C₆H₁₂O₆ + 6O₂ + 6H₂O (in the presence of chlorophyll and sunlight). Its three events are absorption of light by chlorophyll, conversion of light energy into chemical energy with splitting of water into hydrogen and oxygen, and reduction of CO₂ to carbohydrates. Guard cells open and close stomata; desert plants take in CO₂ at night and use it during the day.",
+      "Heterotrophic nutrition: Amoeba engulfs food with pseudopodia to form a food vacuole; Paramecium uses cilia to move food to a specific spot; fungi such as bread mould, yeast and mushrooms break down food outside the body and absorb it; parasites (Cuscuta, ticks, lice, leeches, tapeworms) feed on a host without killing it.",
+      "Human digestion: mouth, where salivary amylase breaks starch into sugar; stomach, where HCl creates an acidic medium for pepsin (which digests proteins) and mucus protects the lining; small intestine, where bile from the liver makes food alkaline and emulsifies fats, pancreatic juice supplies trypsin (proteins) and lipase (emulsified fats), and intestinal juice completes digestion to amino acids, glucose, fatty acids and glycerol; villi increase the surface area for absorption; the large intestine absorbs water.",
+      "Respiration: glucose (6-carbon) → pyruvate (3-carbon) in the cytoplasm. Then pyruvate → ethanol + CO₂ + energy (yeast, no oxygen); pyruvate → lactic acid + energy (muscle cells short of oxygen, causing cramps); pyruvate → CO₂ + H₂O + energy (mitochondria, with oxygen, giving the most energy). Energy is stored as ATP.",
+      "Breathing: nostrils → pharynx → larynx → trachea (rings of cartilage stop it collapsing) → bronchi → bronchioles → alveoli (surface area about 80 m² if spread out). Haemoglobin in RBCs carries oxygen; CO₂ is mostly carried dissolved in blood. Aquatic animals breathe faster because water holds much less dissolved oxygen than air.",
+      "Heart: four chambers; the right side handles deoxygenated blood and the left side oxygenated blood. The pulmonary artery takes deoxygenated blood to the lungs, the pulmonary vein brings oxygenated blood to the left atrium, and the aorta carries it to the body. Valves prevent backflow. Double circulation (blood passes through the heart twice per cycle) gives birds and mammals the efficient oxygen supply needed to keep body temperature constant. Fish have 2 chambers; amphibians and many reptiles have 3.",
+      "Blood vessels and blood: arteries have thick, elastic walls because blood leaves the heart under high pressure; veins have thin walls and valves; capillaries have walls one cell thick for exchange. Normal BP is 120/80 mm of Hg (systolic/diastolic), measured with a sphygmomanometer. Platelets help clotting; lymph carries digested and absorbed fat and drains excess fluid back into the blood.",
+      "Plant transport: xylem carries water and minerals upwards, driven by root pressure (important at night) and transpiration pull (the main force by day). Phloem translocates sucrose and amino acids in both directions through sieve tubes with companion cells; loading sucrose uses ATP, raising osmotic pressure so that water enters and pushes the food to regions of lower pressure.",
+      "Human excretion: kidneys → ureters → urinary bladder → urethra. Each nephron has a glomerulus inside Bowman's capsule plus a tubule. About 180 L of filtrate forms daily, but only 1 to 2 L of urine is passed, because glucose, amino acids, salts and most of the water are selectively reabsorbed. Dialysis (an artificial kidney) is used when the kidneys fail.",
+      "Plant excretion: oxygen and excess water are removed through stomata, wastes are stored in vacuoles or in leaves that fall off, and some are stored as resins and gums in old xylem or excreted into the soil."
+    ],
+    "traps": [
+      "Assuming all arteries carry oxygenated blood: the pulmonary artery carries deoxygenated blood and the pulmonary vein carries oxygenated blood.",
+      "Thinking bile digests fat: bile has no enzyme; it emulsifies fats and makes the medium alkaline, while lipase does the chemical breakdown.",
+      "Placing glycolysis in the mitochondria: glucose → pyruvate happens in the cytoplasm in all types of respiration; only the aerobic breakdown of pyruvate happens in mitochondria. Yeast gives ethanol + CO₂, muscles give lactic acid (no CO₂).",
+      "Swapping xylem and phloem: xylem carries water upward only; phloem carries food both ways and needs energy from ATP.",
+      "Forgetting the medium for each enzyme: pepsin works in the acidic stomach, while trypsin and lipase work in the alkaline small intestine."
+    ],
+    "examTip": "For digestion, respiration and circulation questions, quickly trace the pathway on rough paper (organ → secretion → food acted on → product, or chamber → vessel → organ) before you look at the options."
+  },
+  "questions": [
+    {
+      "text": "Which enzyme present in saliva begins the digestion of starch in the mouth?",
+      "difficulty": "EASY",
+      "options": ["Pepsin", "Trypsin", "Salivary amylase", "Lipase"],
+      "answer": 2,
+      "explanation": "Saliva contains the enzyme salivary amylase, which breaks down starch (a complex molecule) into simple sugar. Pepsin acts on proteins in the stomach, trypsin acts on proteins in the small intestine and lipase acts on fats. So the answer is salivary amylase."
+    },
+    {
+      "text": "Bread moulds, yeast and mushrooms break down food material outside their bodies and then absorb the simpler substances. This mode of nutrition is called:",
+      "difficulty": "EASY",
+      "options": ["Holozoic nutrition", "Saprophytic nutrition", "Parasitic nutrition", "Autotrophic nutrition"],
+      "answer": 1,
+      "explanation": "In holozoic nutrition (for example Amoeba or humans), food is taken inside the body and then digested. Parasites such as Cuscuta and tapeworms feed on a living host. Autotrophs make their own food. Fungi that digest dead organic matter outside the body and absorb it show saprophytic nutrition."
+    },
+    {
+      "text": "The opening and closing of the stomatal pore in a leaf is controlled by:",
+      "difficulty": "EASY",
+      "options": ["Guard cells", "Epidermal hairs", "Xylem vessels", "Root hairs"],
+      "answer": 0,
+      "explanation": "Each stoma is surrounded by two guard cells. When water flows into the guard cells, they swell and the pore opens. When they lose water and shrink, the pore closes. So the guard cells control stomatal opening and closing."
+    },
+    {
+      "text": "Which tissue transports water and dissolved minerals from the roots to the leaves of a plant?",
+      "difficulty": "EASY",
+      "options": ["Phloem", "Cambium", "Stomata", "Xylem"],
+      "answer": 3,
+      "explanation": "Plants have two conducting tissues. Phloem carries prepared food (sucrose and amino acids) from the leaves to other parts. Xylem, made of vessels and tracheids, carries water and minerals absorbed by the roots up to the leaves. So the answer is xylem."
+    },
+    {
+      "text": "Amoeba takes in food using temporary finger-like extensions of its cell surface, which fuse around the food particle to form a food vacuole. These extensions are called:",
+      "difficulty": "EASY",
+      "options": ["Cilia", "Flagella", "Pseudopodia", "Tentacles"],
+      "answer": 2,
+      "explanation": "Amoeba is a unicellular organism that shows holozoic nutrition. It pushes out temporary extensions called pseudopodia, which surround the food and fuse to form a food vacuole where the food is digested. Cilia are used by Paramecium, not Amoeba. So the answer is pseudopodia."
+    },
+    {
+      "text": "The basic filtration unit of the human kidney is the:",
+      "difficulty": "EASY",
+      "options": ["Neuron", "Alveolus", "Villus", "Nephron"],
+      "answer": 3,
+      "explanation": "Each kidney contains a large number of filtration units called nephrons. A nephron has a cup-shaped Bowman's capsule around a cluster of capillaries (the glomerulus), followed by a long tubule. A neuron is a nerve cell, an alveolus is an air sac in the lung, and a villus is a finger-like projection of the small intestine. So the answer is nephron."
+    },
+    {
+      "text": "Which blood vessel carries oxygenated blood from the lungs to the heart?",
+      "difficulty": "MEDIUM",
+      "options": ["Pulmonary artery", "Pulmonary vein", "Aorta", "Vena cava"],
+      "answer": 1,
+      "explanation": "Blood is oxygenated in the lungs and must return to the left atrium of the heart. The vessel that does this is the pulmonary vein, an exception to the rule that veins carry deoxygenated blood. The pulmonary artery carries deoxygenated blood from the right ventricle to the lungs, the aorta carries oxygenated blood from the left ventricle to the body, and the vena cava brings deoxygenated blood to the right atrium."
+    },
+    {
+      "text": "Which of the following is NOT one of the events that take place during photosynthesis?",
+      "difficulty": "MEDIUM",
+      "options": ["Absorption of light energy by chlorophyll", "Conversion of light energy to chemical energy and splitting of water molecules into hydrogen and oxygen", "Reduction of carbon dioxide to carbohydrates", "Breakdown of glucose into pyruvate in the cytoplasm"],
+      "answer": 3,
+      "explanation": "NCERT lists three events in photosynthesis: absorption of light by chlorophyll; conversion of light energy to chemical energy with splitting of water; and reduction of CO₂ to carbohydrates. Breaking glucose into pyruvate in the cytoplasm is the first step of respiration, not photosynthesis. So the answer is the breakdown of glucose into pyruvate."
+    },
+    {
+      "text": "Desert plants keep their stomata closed during the day to reduce water loss. How are they still able to photosynthesise?",
+      "difficulty": "MEDIUM",
+      "options": ["They take up CO₂ at night, store it as an intermediate, and use it during the day when light energy is available", "They absorb CO₂ from the soil through their roots during the day", "They photosynthesise only at night using moonlight", "They do not need CO₂ because they make glucose using oxygen"],
+      "answer": 0,
+      "explanation": "Photosynthesis needs both CO₂ and light. Desert plants open their stomata at night, when it is cooler and less water is lost, and take in CO₂. They store it as an intermediate compound. During the day, with stomata closed, they release this stored CO₂ and use it with the light energy absorbed by chlorophyll."
+    },
+    {
+      "text": "Yeast respires in the absence of oxygen during fermentation. What are the products of this anaerobic respiration?",
+      "difficulty": "MEDIUM",
+      "options": ["Lactic acid and energy", "Carbon dioxide, water and energy", "Ethanol, carbon dioxide and energy", "Pyruvate and oxygen"],
+      "answer": 2,
+      "explanation": "Glucose is first broken into pyruvate in the cytoplasm. In yeast, without oxygen, pyruvate is converted into ethanol and carbon dioxide, releasing a small amount of energy. Lactic acid forms in our muscle cells, and CO₂ + water forms in aerobic respiration. So the products are ethanol, carbon dioxide and energy."
+    },
+    {
+      "text": "In all organisms, glucose (a 6-carbon molecule) is first broken down into pyruvate (a 3-carbon molecule). Where does this step occur, and what is pyruvate converted into in human muscle cells during vigorous exercise, when oxygen is in short supply?",
+      "difficulty": "MEDIUM",
+      "options": ["Mitochondria; ethanol and carbon dioxide", "Cytoplasm; lactic acid", "Cytoplasm; ethanol and carbon dioxide", "Mitochondria; lactic acid"],
+      "answer": 1,
+      "explanation": "Breakdown of glucose into pyruvate happens in the cytoplasm, whether or not oxygen is present. Only the aerobic breakdown of pyruvate into CO₂ and water takes place in the mitochondria. When muscle cells lack oxygen, pyruvate is converted into lactic acid. The build-up of lactic acid causes muscle cramps. So the answer is cytoplasm; lactic acid."
+    },
+    {
+      "text": "Bile juice contains no digestive enzyme, yet it is important for the digestion of fats. Why?",
+      "difficulty": "MEDIUM",
+      "options": ["It emulsifies fats into smaller globules and makes the food alkaline so that pancreatic enzymes can act", "It breaks down fats into fatty acids and glycerol", "It makes the food acidic so that pepsin can act", "It absorbs digested fat directly into the blood"],
+      "answer": 0,
+      "explanation": "Food coming from the stomach is acidic, and pancreatic enzymes need an alkaline medium; bile from the liver provides this. Fats are present as large globules, and bile salts break them into smaller globules (emulsification), which increases the efficiency of enzyme action. The actual breakdown of fats into fatty acids and glycerol is done by lipase."
+    },
+    {
+      "text": "Assertion (A): Pepsin digests proteins in the human stomach.\nReason (R): Pepsin acts best in an alkaline medium.\nChoose the correct option.",
+      "difficulty": "MEDIUM",
+      "options": ["Both A and R are true, and R is the correct explanation of A.", "Both A and R are true, but R is not the correct explanation of A.", "A is true, but R is false.", "A is false, but R is true."],
+      "answer": 2,
+      "explanation": "Gastric glands in the stomach wall release hydrochloric acid, the protein-digesting enzyme pepsin, and mucus. So A is true. The HCl creates an acidic medium, which helps pepsin act; pepsin does not work best in an alkaline medium. So R is false. The answer is: A is true, but R is false."
+    },
+    {
+      "text": "Aquatic animals such as fish breathe at a much faster rate than terrestrial animals. What is the reason?",
+      "difficulty": "MEDIUM",
+      "options": ["Water contains more oxygen than air, so they must get rid of the excess oxygen", "Their gills are larger than the lungs of land animals", "They do not need to release carbon dioxide", "The amount of oxygen dissolved in water is fairly low compared with the amount of oxygen in air"],
+      "answer": 3,
+      "explanation": "Aquatic organisms use oxygen dissolved in water. The amount of dissolved oxygen in water is much lower than the oxygen present in air. To get enough oxygen, they must pass water over their gills quickly. Therefore their rate of breathing is much faster than that of terrestrial organisms."
+    },
+    {
+      "text": "Birds and mammals have a four-chambered heart that keeps oxygenated and deoxygenated blood completely separate. Why is this especially useful for them?",
+      "difficulty": "MEDIUM",
+      "options": ["It gives a highly efficient supply of oxygen, which they need because they constantly use energy to maintain their body temperature", "It allows blood to pass through the heart only once in each cycle", "It allows the two kinds of blood to mix so that their body temperature can change with the surroundings", "It removes the need for lungs to oxygenate the blood"],
+      "answer": 0,
+      "explanation": "In birds and mammals the right side of the heart pumps deoxygenated blood to the lungs and the left side pumps oxygenated blood to the body, so blood passes through the heart twice in each cycle (double circulation). Keeping the two kinds of blood separate gives a highly efficient supply of oxygen to the body. These animals have high energy needs because they keep a constant body temperature. Fish (2 chambers) have single circulation, and amphibians or many reptiles (3 chambers) can tolerate some mixing."
+    },
+    {
+      "text": "A doctor records a person's blood pressure as 120/80 mm of Hg. What do these two values represent?",
+      "difficulty": "MEDIUM",
+      "options": ["120 is diastolic pressure (ventricles relax) and 80 is systolic pressure (ventricles contract)", "120 is systolic pressure (during ventricular contraction) and 80 is diastolic pressure (during ventricular relaxation)", "120 is the pressure in veins and 80 is the pressure in arteries", "120 is the heart rate per minute and 80 is the pressure in arteries"],
+      "answer": 1,
+      "explanation": "Blood pressure is the force that blood exerts against the wall of a vessel, and it is measured with a sphygmomanometer. Pressure in arteries is higher during ventricular contraction (systolic pressure) and lower during ventricular relaxation (diastolic pressure). The normal values are about 120 mm of Hg systolic and 80 mm of Hg diastolic. So 120 is systolic and 80 is diastolic."
+    },
+    {
+      "text": "Assertion (A): Veins have thick, elastic walls to withstand the high pressure of blood.\nReason (R): Veins collect blood from different organs and bring it back to the heart.\nChoose the correct option.",
+      "difficulty": "HARD",
+      "options": ["Both A and R are true, and R is the correct explanation of A.", "Both A and R are true, but R is not the correct explanation of A.", "A is true, but R is false.", "A is false, but R is true."],
+      "answer": 3,
+      "explanation": "Veins do collect blood from organs and return it to the heart, so R is true. Thick, elastic walls are a feature of arteries, which carry blood away from the heart under high pressure. Blood in veins is no longer under high pressure, so veins have thin walls and valves that keep blood flowing in one direction. So A is false and R is true."
+    },
+    {
+      "text": "Which statement about the transport of food (translocation) in plants is correct?",
+      "difficulty": "HARD",
+      "options": ["It occurs through xylem and is driven only by transpiration pull", "It is a passive process that occurs only upwards from the roots to the leaves", "Sucrose is loaded into phloem using energy from ATP; this raises osmotic pressure, water enters, and the pressure moves food to regions of lower pressure", "Food moves through dead tracheids by simple diffusion"],
+      "answer": 2,
+      "explanation": "Translocation of food takes place in phloem, in the sieve tubes with the help of companion cells, not in the xylem or tracheids. It happens both upwards and downwards. Materials such as sucrose are moved into phloem using energy from ATP, which raises the osmotic pressure of the tissue. Water then moves in, and this pressure pushes the food to tissues with lower pressure. So translocation is an active process driven by ATP."
+    },
+    {
+      "text": "In a tall tree, which force mainly drives the upward movement of water in the xylem during the day, and which is especially important at night?",
+      "difficulty": "HARD",
+      "options": ["Root pressure during the day; transpiration pull at night", "Transpiration pull during the day; root pressure at night", "Translocation during the day; osmosis in the leaves at night", "Gravity during the day; capillary action in phloem at night"],
+      "answer": 1,
+      "explanation": "Root cells take up ions from the soil, so water enters the roots and pushes water up the xylem; this is root pressure. During the day, stomata are open and water evaporates from the leaves (transpiration), creating a suction that pulls water up from the roots; this transpiration pull is the major driving force by day. At night, when transpiration is low, root pressure is especially important. So the answer is transpiration pull by day and root pressure at night."
+    },
+    {
+      "text": "In a healthy adult, the kidneys form about 180 L of initial filtrate every day, but only about 1 to 2 L of urine is actually passed out. What explains this difference?",
+      "difficulty": "HARD",
+      "options": ["Glucose, amino acids, salts and a major amount of water are selectively reabsorbed as the filtrate flows along the tubule of the nephron", "Most of the filtrate evaporates from the kidneys as sweat", "The urinary bladder absorbs most of the water back into the blood", "The glomerulus filters only urea, so very little liquid forms"],
+      "answer": 0,
+      "explanation": "In the glomerulus, blood is filtered and the filtrate contains useful substances such as glucose, amino acids, salts and water along with urea. As the filtrate passes along the tubule, these useful substances and most of the water are selectively reabsorbed into the blood. The amount of water reabsorbed depends on how much excess water the body has. That is why about 180 L of filtrate becomes only 1 to 2 L of urine. The bladder only stores urine."
+    }
+  ]
+}

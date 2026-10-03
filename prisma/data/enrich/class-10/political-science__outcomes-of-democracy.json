@@ -1,0 +1,156 @@
+{
+  "exam": "class-10",
+  "subject": "political-science",
+  "chapter": "outcomes-of-democracy",
+  "notes": {
+    "summary": "Outcomes of Democracy evaluates how democracies have performed against what we expect of them: an accountable, responsive and legitimate government; economic growth and development; reduction of inequality and poverty; accommodation of social diversity; and dignity and freedom of citizens. CBSE tests balanced judgement, where democracy clearly does better and where its record is mixed, through statement-based, situation-based and assertion-reason MCQs.",
+    "keyPoints": [
+      "Democracy is considered better because it promotes equality among citizens, enhances the dignity of the individual, improves the quality of decision-making, provides a method to resolve conflicts, and allows room to correct mistakes.",
+      "Democracy is just a form of government: it can only create conditions for achieving goals, and citizens have to take advantage of those conditions. Our expectations from democracy also function as the criteria for judging any democratic country.",
+      "Accountability and transparency: democratic decisions follow procedures of deliberation and negotiation, so they may be delayed but are more acceptable and more effective. Transparency means every citizen has the right and the means to examine the process of decision-making.",
+      "Mixed record: democracies have done well in holding regular, free elections and allowing open public debate, but most fall short of giving everyone a fair chance in elections and subjecting every decision to debate, and they do not have a very good record of sharing information with citizens. Still, democracy is a legitimate government, people's own government.",
+      "Economic growth: from 1950 to 2000, dictatorships had a slightly higher average growth rate, but among poor countries the difference is negligible. Economic development depends on population size, the global situation, cooperation from other countries and the economic priorities a country adopts.",
+      "Inequality and poverty: democracies are based on political equality (one person, one vote), yet economic inequality has grown in many democracies, and they have not been very successful in reducing poverty.",
+      "Social diversity: democracies develop procedures to conduct competition, which reduces the chance of tensions becoming violent. Conditions: the majority must work with the minority; rule by majority must not become rule by a majority community of religion, race or language; every citizen should have a chance of being in the majority at some time.",
+      "Dignity and freedom: democracy is far superior in promoting individual dignity. Long struggles by women have made equal treatment of women a recognised principle, which makes it easier to fight discrimination; democracy in India has strengthened the claims of disadvantaged and discriminated castes for equal status and opportunity.",
+      "People's complaints about democracy are themselves a testimony to its success: people have become aware, critical citizens who expect more from those in power."
+    ],
+    "traps": [
+      "Claiming democracy guarantees faster economic growth or the end of poverty; NCERT says the record is mixed and development depends on many factors.",
+      "Assuming democracy is slower because it is weak; it is slower because it follows procedures of deliberation and negotiation, which makes its decisions more acceptable.",
+      "Equating majority rule with rule by the majority religious or linguistic community; that is majoritarianism, the opposite of democratic accommodation.",
+      "Reading people's complaints as proof that democracy has failed; NCERT treats them as evidence of its success.",
+      "Treating democracy as a cure for every problem; it only creates conditions that citizens must use."
+    ],
+    "examTip": "In 'which statement is correct' items from this chapter, be suspicious of options with absolute words like 'always', 'guarantees' or 'completely eliminated'; NCERT's judgement of democracy is balanced, not absolute."
+  },
+  "questions": [
+    {
+      "text": "Assertion (A): Decisions taken by a democratic government may be delayed, but they are more likely to be acceptable to the people.\nReason (R): A democratic government does not have to follow any fixed procedure, so it can take decisions whenever it wants.\nChoose the correct option.",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 2,
+      "explanation": "A democratic government takes decisions after deliberation and negotiation, following set procedures, so its decisions may take more time.\nBecause people's views are considered, the decisions are more acceptable and may be more effective; A is true.\nR is false: a democratic government is bound by norms and procedures, and citizens have the right and the means to check whether these were followed (transparency).\nAnswer: A is true, but R is false."
+    },
+    {
+      "text": "Citizens of democratic countries often complain that their governments are slow, corrupt or unresponsive. According to NCERT, the very fact that people complain in this way is:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "a testimony to the success of democracy, because people have become aware and look critically at those in power",
+        "proof that democracy has failed and should be replaced",
+        "a sign that people prefer dictatorship to democracy",
+        "evidence that democratic governments do not allow freedom of expression"
+      ],
+      "answer": 0,
+      "explanation": "Democracy has transformed people from the status of subjects into that of citizens who believe their vote makes a difference.\nPeople have developed awareness and the ability to expect more and to look critically at power holders and the high and mighty.\nNCERT therefore says that the fact that people are complaining is itself a testimony to the success of democracy.\nSo the complaints show democracy's success."
+    },
+    {
+      "text": "Consider the following statements about how a democracy can accommodate social diversity:\nI. Majority and minority opinions are not permanent.\nII. Rule by the majority must not become rule by the majority community in terms of religion, race or language.\nIII. Every citizen should have a chance of being in the majority at some point of time.\nIV. Minorities must always accept the decisions of the majority community without question.\nWhich of these statements are correct?",
+      "difficulty": "HARD",
+      "options": ["I and IV only", "II and IV only", "I, III and IV only", "I, II and III only"],
+      "answer": 3,
+      "explanation": "Democracy is not simply rule by majority opinion; the majority must work with the minority so that the government represents the general view, and majority and minority opinions are not permanent, so I is correct.\nRule by majority must not become rule by a majority community of religion, race or language, so II is correct.\nDemocracy remains democracy only as long as every citizen has a chance of being in the majority at some point; if someone is barred from this by birth, democracy stops being accommodative for that person, so III is correct.\nForcing minorities to accept whatever the majority community decides is majoritarianism, the opposite of accommodation, so IV is wrong.\nSo the correct statements are I, II and III only."
+    },
+    {
+      "text": "Even today, women in many democracies face disrespect and discrimination. Yet NCERT says democracy is better for the dignity of women than a non-democratic set-up. Why?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Democracies have completely ended all discrimination against women",
+        "In a democracy, equal treatment of women is a recognised principle, so it is easier for women to struggle against discrimination, which has become legally and morally unacceptable",
+        "Women in democracies are kept out of politics, so they are protected from conflict",
+        "Non-democratic governments do not have any laws at all"
+      ],
+      "answer": 1,
+      "explanation": "Most societies across the world were historically male-dominated societies.\nLong struggles by women have created some sensitivity today that respect for and equal treatment of women are necessary ingredients of a democratic society.\nOnce this principle is recognised, it becomes easier for women to wage a struggle against what is now unacceptable legally and morally; in a non-democratic set-up this would have no legal basis.\nDemocracy has not ended discrimination completely, so the second option gives the correct reason."
+    },
+    {
+      "text": "According to NCERT, how has democracy in India affected the position of disadvantaged and discriminated castes?",
+      "difficulty": "EASY",
+      "options": [
+        "It has completely eliminated all caste-based discrimination",
+        "It has made caste-based discrimination legal",
+        "It has strengthened their claims for equal status and equal opportunity",
+        "It has had no effect at all on caste relations"
+      ],
+      "answer": 2,
+      "explanation": "Democracy is based on the principle of the equality and dignity of every individual.\nNCERT notes that democracy in India has strengthened the claims of the disadvantaged and discriminated castes for equal status and equal opportunity.\nThere are still instances of caste-based inequality and atrocities, but these lack the moral and legal foundations they once had.\nSo democracy has strengthened their claims for equal status and opportunity."
+    },
+    {
+      "text": "Which one of the following statements about the actual performance of democracies is correct, according to NCERT?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Every democracy gives a fair chance to everyone in elections and subjects every decision to public debate",
+        "Democracies have failed to hold regular and free elections",
+        "Democratic governments have an excellent record of sharing information with citizens",
+        "Democracies have succeeded in holding regular, free elections and allowing open public debate, but do not have a very good record of sharing information with citizens"
+      ],
+      "answer": 3,
+      "explanation": "Democracies have had greater success in setting up regular and free elections and in creating conditions for open public debate.\nBut most democracies fall short of elections that give everyone a fair chance and of subjecting every decision to public debate.\nNCERT also notes that democratic governments do not have a very good record when it comes to sharing information with citizens.\nSo the balanced statement in the last option is correct."
+    },
+    {
+      "text": "Assertion (A): Democracy cannot, by itself, ensure economic prosperity, social harmony or an end to corruption.\nReason (R): Democracy is just a form of government; it can only create conditions for achieving goals, and citizens have to take advantage of those conditions to achieve them.\nChoose the correct option.",
+      "difficulty": "HARD",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 0,
+      "explanation": "NCERT warns against treating democracy as a magic solution to all economic, social and political problems.\nDemocracy is just a form of government; it can only create conditions for achieving something.\nWhether those goals are reached depends on how citizens use these conditions, so democracy alone cannot guarantee prosperity, harmony or clean government.\nBoth A and R are true, and R is the correct explanation of A."
+    },
+    {
+      "text": "Which one of the following situations best shows that a democratic government is accountable to its citizens?",
+      "difficulty": "EASY",
+      "options": [
+        "The ruling party postpones elections indefinitely to finish its projects",
+        "A government that loses public support is voted out in the next election and hands over power peacefully",
+        "The head of government decides all policies alone without consulting the legislature",
+        "Newspapers are not allowed to criticise government decisions"
+      ],
+      "answer": 1,
+      "explanation": "An accountable government answers to the people who elected it.\nIn a democracy, citizens can judge the government's performance and remove it through regular, free and fair elections.\nHanding over power peacefully after losing an election shows that the rulers are answerable to the people.\nPostponing elections, bypassing the legislature or gagging the press all reduce accountability.\nSo the answer is the government being voted out and handing over power peacefully."
+    },
+    {
+      "text": "More than a hundred countries of the world claim to practise some kind of democratic politics. According to NCERT, the expectations we have from democracy also function as:",
+      "difficulty": "EASY",
+      "options": [
+        "reasons to replace democracy with another form of government",
+        "rules that only the judiciary can apply",
+        "the criteria for judging any democratic country",
+        "a guarantee that every expectation will be met"
+      ],
+      "answer": 2,
+      "explanation": "Many countries have formal constitutions, hold elections, have parties and guarantee rights, yet they differ widely in how well they work.\nTo assess them, we look at what we expect democracy to deliver, such as an accountable government, dignity and freedom.\nNCERT notes that our expectations from democracy also function as the criteria for judging any democratic country.\nSo the expectations serve as criteria for judging democracies."
+    },
+    {
+      "text": "Democracy is considered a better form of government than its alternatives for several reasons. Which one of the following is NOT one of them?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "It promotes equality among citizens",
+        "It enhances the dignity of the individual",
+        "It allows room to correct mistakes",
+        "It guarantees a higher rate of economic growth than every other form of government"
+      ],
+      "answer": 3,
+      "explanation": "NCERT lists why democracy is better: it promotes equality among citizens, enhances the dignity of the individual, improves the quality of decision-making, provides a method to resolve conflicts, and allows room to correct mistakes.\nOn economic growth, the evidence shows that dictatorships had a slightly higher average growth rate between 1950 and 2000, so democracy cannot be said to guarantee faster growth.\nSo the option that is NOT a reason is the guarantee of higher economic growth."
+    },
+    {
+      "text": "Comparing democracies and dictatorships, NCERT notes that economic development depends on several factors other than the type of government. Which set of factors does it mention?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "The number of political parties, the age of the constitution and the size of the army",
+        "The country's population size, the global situation, cooperation from other countries and the economic priorities adopted by the country",
+        "Only the amount of foreign aid a country receives",
+        "The religion of the majority and the language used by the government"
+      ],
+      "answer": 1,
+      "explanation": "Data for 1950–2000 show that dictatorships had a slightly higher average rate of growth, though among less developed countries the difference is negligible.\nNCERT explains that economic development depends on several factors: the country's population size, the global situation, cooperation from other countries, the economic priorities adopted by the country, and so on.\nSo the form of government alone cannot be credited or blamed for a country's growth rate.\nThe correct set is population size, global situation, cooperation from other countries and economic priorities."
+    }
+  ]
+}

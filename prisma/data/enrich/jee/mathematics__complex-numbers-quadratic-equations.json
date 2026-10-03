@@ -1,0 +1,107 @@
+{
+  "exam": "jee",
+  "subject": "mathematics",
+  "chapter": "complex-numbers-quadratic-equations",
+  "notes": {
+    "summary": "This chapter covers the algebra of complex numbers (conjugate, modulus, argument, polar form, powers of i, cube roots of unity, square roots, loci in the Argand plane) and quadratic equations (nature of roots, sum and product of roots, common roots, location of roots and sign of a quadratic). JEE Main tests modulus–argument manipulation, geometric loci, and root-relation or condition problems on quadratics.",
+    "keyPoints": [
+      "Powers of i repeat every 4: i, −1, −i, 1. Useful results: (1 + i)² = 2i and (1 + i)/(1 − i) = i.",
+      "z·z̄ = |z|², so 1/z = z̄/|z|²; e.g. 1/(3 + 4i) = (3 − 4i)/25. Also |z₁z₂| = |z₁||z₂| and |z₁/z₂| = |z₁|/|z₂|.",
+      "The principal argument lies in (−π, π]: for −1 − i√3 it is −2π/3, not 4π/3. arg(z₁z₂) = arg z₁ + arg z₂ (up to multiples of 2π).",
+      "Triangle inequality: ||z₁| − |z₂|| ≤ |z₁ + z₂| ≤ |z₁| + |z₂|. For z on |z − z₀| = r, |z| runs from ||z₀| − r| to |z₀| + r.",
+      "Cube roots of unity: 1, ω, ω², with ω = (−1 + i√3)/2, ω³ = 1 and 1 + ω + ω² = 0.",
+      "Loci: |z − z₁| = |z − z₂| is the perpendicular bisector of z₁z₂; |z − z₀| = r is a circle; (z − 1)/(z + 1) purely imaginary gives the circle |z| = 1.",
+      "For ax² + bx + c = 0: α + β = −b/a, αβ = c/a, D = b² − 4ac. With real coefficients, D > 0 gives real distinct roots, D = 0 equal roots, D < 0 complex conjugate roots.",
+      "ax² + bx + c > 0 for every real x ⇔ a > 0 and D < 0; ax² + bx + c < 0 for every real x ⇔ a < 0 and D < 0.",
+      "For a common root of two quadratics, subtract the equations to express the root, then substitute back (or use the cross-multiplication condition).",
+      "If α, β are roots of x² − px − q = 0, then α² = pα + q, so aₙ = αⁿ − βⁿ satisfies aₙ₊₂ = p·aₙ₊₁ + q·aₙ."
+    ],
+    "traps": [
+      "Quoting an argument outside the principal range, or using tan⁻¹(y/x) without checking the quadrant.",
+      "Dividing by |z| instead of |z|² when finding 1/z.",
+      "Forgetting the condition on the leading coefficient (a > 0) when a quadratic must stay positive for all x.",
+      "Treating x² − 5|x| + 6 = 0 as an ordinary quadratic with only two roots.",
+      "Applying the discriminant test for real roots when the coefficients themselves are complex."
+    ],
+    "examTip": "Turn every modulus or locus question into geometry — |z − z₀| is just the distance from the point z₀ — and max/min of |z| becomes a one-line distance calculation."
+  },
+  "questions": [
+    {
+      "text": "The multiplicative inverse of the complex number 3 + 4i is:",
+      "difficulty": "EASY",
+      "options": ["3/25 − (4/25)i", "3/5 − (4/5)i", "−3 − 4i", "3 − 4i"],
+      "answer": 0,
+      "explanation": "1/z = z̄/|z|².\nz̄ = 3 − 4i and |z|² = 3² + 4² = 25.\n1/(3 + 4i) = (3 − 4i)/25 = 3/25 − (4/25)i.\n(3/5 − (4/5)i divides by |z| instead of |z|².)"
+    },
+    {
+      "text": "The smallest positive integer n for which ((1 + i)/(1 − i))ⁿ = 1 is:",
+      "difficulty": "EASY",
+      "options": ["1", "2", "8", "4"],
+      "answer": 3,
+      "explanation": "Multiply numerator and denominator by (1 + i): (1 + i)²/((1 − i)(1 + i)) = 2i/2 = i.\nSo we need iⁿ = 1.\nPowers of i cycle as i, −1, −i, 1, so the smallest n is 4."
+    },
+    {
+      "text": "The number of real solutions of the equation x² − 5|x| + 6 = 0 is:",
+      "difficulty": "EASY",
+      "options": ["2", "4", "0", "1"],
+      "answer": 1,
+      "explanation": "Since x² = |x|², the equation is |x|² − 5|x| + 6 = 0.\n(|x| − 2)(|x| − 3) = 0, so |x| = 2 or |x| = 3.\nx = ±2 or x = ±3, giving 4 real solutions."
+    },
+    {
+      "text": "If z is a complex number such that (z − 1)/(z + 1) is purely imaginary and non-zero, then z lies on:",
+      "difficulty": "MEDIUM",
+      "options": ["the real axis", "the imaginary axis", "the circle |z| = 1", "the line Re z = 1"],
+      "answer": 2,
+      "explanation": "Let z = x + iy. Multiply numerator and denominator by the conjugate (x + 1) − iy.\nNumerator becomes (x² + y² − 1) + 2iy, over the positive real number (x + 1)² + y².\nPurely imaginary means the real part is zero: x² + y² − 1 = 0.\nSo |z| = 1: z lies on the unit circle (the points z = ±1 are excluded)."
+    },
+    {
+      "text": "If a complex number z satisfies |z − 3 + 4i| = 2, then the maximum value of |z| is:",
+      "difficulty": "MEDIUM",
+      "options": ["5", "3", "√29", "7"],
+      "answer": 3,
+      "explanation": "|z − (3 − 4i)| = 2 means z lies on a circle with centre 3 − 4i and radius 2.\nDistance of the centre from the origin = |3 − 4i| = 5.\nBy the triangle inequality, |z| ≤ 5 + 2, with equality at the farthest point of the circle.\nMaximum |z| = 7 (the minimum is 5 − 2 = 3)."
+    },
+    {
+      "text": "The principal argument of the complex number z = −1 − i√3 is:",
+      "difficulty": "MEDIUM",
+      "options": ["π/3", "4π/3", "−2π/3", "−π/3"],
+      "answer": 2,
+      "explanation": "Both real and imaginary parts are negative, so z lies in the third quadrant.\nReference angle: tan α = √3/1, so α = π/3.\nIn the third quadrant, the principal argument (range (−π, π]) is −(π − α) = −2π/3.\n4π/3 is an argument, but it lies outside the principal range."
+    },
+    {
+      "text": "If the equations x² + ax + 10 = 0 and x² + bx − 10 = 0 have a common root, then the value of a² − b² is:",
+      "difficulty": "MEDIUM",
+      "options": ["20", "40", "−40", "100"],
+      "answer": 1,
+      "explanation": "Let α be the common root. Subtracting: (a − b)α + 20 = 0, so α = 20/(b − a).\nAdding: 2α² + (a + b)α = 0; α ≠ 0 (α = 0 would give 10 = 0), so α = −(a + b)/2.\nEquate: 20/(b − a) = −(a + b)/2, so 40 = −(a + b)(b − a) = (a + b)(a − b).\na² − b² = 40."
+    },
+    {
+      "text": "The set of all real values of k for which both roots of the equation x² − 2kx + k² − 1 = 0 lie strictly between −2 and 4 is:",
+      "difficulty": "MEDIUM",
+      "options": ["−1 < k < 3", "−3 < k < 5", "−2 < k < 4", "0 < k < 2"],
+      "answer": 0,
+      "explanation": "x² − 2kx + k² − 1 = (x − k)² − 1 = 0, so the roots are k − 1 and k + 1.\nSmaller root: k − 1 > −2 gives k > −1.\nLarger root: k + 1 < 4 gives k < 3.\nRequired set: −1 < k < 3."
+    },
+    {
+      "text": "The set of all real values of k for which kx² + 4x + k > 0 for every real x is:",
+      "difficulty": "MEDIUM",
+      "options": ["|k| > 2", "−2 < k < 2", "k > 0", "k > 2"],
+      "answer": 3,
+      "explanation": "A quadratic is positive for all real x only if its leading coefficient is positive and D < 0. (k = 0 fails, since 4x is not always positive.)\nk > 0 and D = 16 − 4k² < 0, i.e. k² > 4, i.e. k < −2 or k > 2.\nCombining with k > 0: k > 2.\n(|k| > 2 forgets the condition k > 0; k = −3 gives a downward parabola.)"
+    },
+    {
+      "text": "Let α and β be the roots of x² − 6x − 2 = 0 and let aₙ = αⁿ − βⁿ for n ≥ 1. The value of (a₁₀ − 2a₈)/(2a₉) is:",
+      "difficulty": "HARD",
+      "options": ["6", "3", "2", "−3"],
+      "answer": 1,
+      "explanation": "α satisfies α² = 6α + 2; multiplying by α⁸ gives α¹⁰ = 6α⁹ + 2α⁸. The same holds for β.\nSubtracting: a₁₀ = 6a₉ + 2a₈, so a₁₀ − 2a₈ = 6a₉.\n(a₁₀ − 2a₈)/(2a₉) = 6a₉/(2a₉) = 3."
+    },
+    {
+      "text": "For real x, the range of the function f(x) = (x² − x + 1)/(x² + x + 1) is:",
+      "difficulty": "HARD",
+      "options": ["[1/3, 3]", "(1/3, 3)", "[0, 3]", "[−3, 3]"],
+      "answer": 0,
+      "explanation": "The denominator is always positive. Let y = f(x): (y − 1)x² + (y + 1)x + (y − 1) = 0.\nFor real x (when y ≠ 1) we need D ≥ 0: (y + 1)² − 4(y − 1)² ≥ 0.\nFactorise: (3 − y)(3y − 1) ≥ 0, so 1/3 ≤ y ≤ 3; y = 1 is attained at x = 0.\nThe end values are attained: f(1) = 1/3 and f(−1) = 3. Range = [1/3, 3]."
+    }
+  ]
+}

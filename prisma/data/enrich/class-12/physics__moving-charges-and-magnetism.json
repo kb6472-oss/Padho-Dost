@@ -1,0 +1,160 @@
+{
+  "exam": "class-12",
+  "subject": "physics",
+  "chapter": "moving-charges-and-magnetism",
+  "notes": {
+    "summary": "This chapter explains how moving charges and currents produce magnetic fields (Biot–Savart law and Ampere's circuital law) and how a magnetic field exerts force on moving charges and current-carrying conductors, leading to the torque on a current loop and the moving coil galvanometer. CBSE tests it through formula-based numericals (circular loop, straight wire, solenoid, parallel wires, r = mv/qB), conceptual MCQs on direction and work done, and assertion-reason items on charged-particle motion and galvanometers.",
+    "keyPoints": [
+      "Lorentz force: F = q[E + (v × B)]. The magnetic part has magnitude qvB sinθ and is perpendicular to both v and B, so it does no work: speed and kinetic energy stay constant. 1 T = 1 N A⁻¹ m⁻¹; 1 gauss = 10⁻⁴ T.",
+      "Charge in a uniform field B: if v ⊥ B the path is a circle with r = mv/(qB), period T = 2πm/(qB) and frequency ν = qB/(2πm), both independent of speed. If v makes angle θ with B the path is a helix with pitch p = (v cosθ) × T.",
+      "Force on a straight conductor: F = I(L × B), magnitude BIL sinθ, direction by Fleming's left-hand rule. Example: 0.5 m wire, 4 A, 0.2 T at 30° gives F = 0.2 × 4 × 0.5 × 0.5 = 0.2 N.",
+      "Biot–Savart law: dB = (μ₀/4π) I dl sinθ / r², with μ₀ = 4π × 10⁻⁷ T m A⁻¹; dB is zero along the line of the element. Circular coil of N turns: B = μ₀NI/(2R) at the centre and B = μ₀NIR²/[2(R² + x²)^(3/2)] on the axis at distance x.",
+      "Ampere's circuital law: ∮B·dl = μ₀I(enclosed), where I(enclosed) is the net current through the loop. Long straight wire: B = μ₀I/(2πr), e.g. 5 A at 0.1 m gives 10⁻⁵ T. Long solenoid: B = μ₀nI inside (uniform), nearly zero outside.",
+      "Parallel wires: force per unit length f = μ₀I₁I₂/(2πd); currents in the same direction attract, opposite directions repel. NCERT definition: 1 ampere is the steady current which, in two very long parallel wires 1 m apart in vacuum, produces a force of 2 × 10⁻⁷ N per metre of length.",
+      "Current loop as a magnetic dipole: m = NIA (unit A m²), direction by the right-hand thumb rule; the face where the current appears anticlockwise behaves as a north pole. Torque τ = m × B, magnitude NIAB sinθ (θ between the normal to the coil and B), maximum when the plane of the coil is parallel to B.",
+      "Moving coil galvanometer: NIAB = kφ in a radial field. Current sensitivity φ/I = NAB/k; voltage sensitivity φ/V = NAB/(kR). Ammeter: low shunt S = I(g)G/(I − I(g)) in parallel. Voltmeter: high resistance R = V/I(g) − G in series."
+    ],
+    "traps": [
+      "Using the full speed v in r = mv/(qB) when the velocity is at an angle to B (use v sinθ), and using v sinθ instead of v cosθ for the pitch of the helix.",
+      "Believing a magnetic field can change the speed or kinetic energy of a charge; it only changes the direction of motion.",
+      "Forgetting that Ampere's law uses the net (algebraic) enclosed current: opposite currents inside the loop subtract and currents outside the loop do not count.",
+      "Mixing up the loop formula μ₀I/(2R) with the straight-wire formula μ₀I/(2πr), or forgetting to multiply by the number of turns N.",
+      "Reversing the direction of force between parallel currents: like currents attract and unlike currents repel (the opposite of electric charges)."
+    ],
+    "examTip": "Write the formula with every symbol before substituting, convert cm to m, decide whether the question needs v sinθ or v cosθ, and for direction questions apply Fleming's left-hand rule remembering to reverse it for an electron."
+  },
+  "questions": [
+    {
+      "text": "A charged particle moves through a region containing only a uniform magnetic field. Which of the following quantities necessarily remains constant during its motion, whatever its direction of entry into the field?",
+      "difficulty": "EASY",
+      "options": [
+        "Its velocity",
+        "Its speed and kinetic energy",
+        "Its momentum",
+        "Its direction of motion"
+      ],
+      "answer": 1,
+      "explanation": "The magnetic force F = q(v × B) is always perpendicular to the velocity v.\nSo F·v = 0: the force does no work and the power delivered is zero.\nBy the work-energy theorem, kinetic energy and hence speed remain constant.\nThe direction of motion generally changes (circle or helix), so velocity and momentum, being vectors, are not necessarily constant.\nSo the speed and kinetic energy remain constant."
+    },
+    {
+      "text": "A circular loop carrying a steady current lies in the plane of the paper. To an observer looking at the loop face-on, the current flows anticlockwise. For this observer, the face of the loop behaves like",
+      "difficulty": "EASY",
+      "options": [
+        "a south pole",
+        "neither pole, since a current loop has no magnetic poles",
+        "a south pole on its upper half and a north pole on its lower half",
+        "a north pole"
+      ],
+      "answer": 3,
+      "explanation": "A current loop behaves as a magnetic dipole with moment m = IA.\nBy the right-hand thumb rule, curling the fingers along the anticlockwise current makes the thumb point towards the observer.\nSo the magnetic field lines come out of the face seen by the observer.\nField lines emerge from a north pole, so this face acts as a north pole (a clockwise current would make it a south pole)."
+    },
+    {
+      "text": "According to the Biot–Savart law, the magnetic field dB produced by a small current element I dl at a point P is zero when P lies",
+      "difficulty": "EASY",
+      "options": [
+        "along the line of the current element (θ = 0° or 180°)",
+        "on a line perpendicular to the current element (θ = 90°)",
+        "at a distance equal to the length of the element",
+        "on a line making 45° with the current element"
+      ],
+      "answer": 0,
+      "explanation": "Biot–Savart law: dB = (μ₀/4π) I dl sinθ / r², where θ is the angle between dl and the position vector r of P.\nAt θ = 0° or 180°, sinθ = 0, so dB = 0.\nAt θ = 90°, sinθ = 1, so dB is maximum; at 45° it is non-zero.\nSo the field is zero at points along the line of the current element."
+    },
+    {
+      "text": "Three long straight wires pass perpendicularly through the plane of a closed loop. Wire 1 carries 6 A into the plane and wire 2 carries 4 A out of the plane; both pass through the region enclosed by the loop. Wire 3 carries 10 A but lies outside the loop. The magnitude of the line integral ∮B·dl taken around the loop is",
+      "difficulty": "MEDIUM",
+      "options": [
+        "μ₀ × 20 A",
+        "μ₀ × 10 A",
+        "μ₀ × 2 A",
+        "μ₀ × 12 A"
+      ],
+      "answer": 2,
+      "explanation": "Ampere's circuital law: ∮B·dl = μ₀ I(enclosed), where I(enclosed) is the net current threading the loop.\nOnly wires 1 and 2 are enclosed, and their currents are in opposite directions.\nNet enclosed current = 6 A − 4 A = 2 A.\nWire 3 affects B at points on the loop, but its contribution to the line integral is zero because it is not enclosed.\nSo ∮B·dl = μ₀ × 2 A."
+    },
+    {
+      "text": "A charged particle enters a uniform magnetic field with a speed of 2 × 10⁶ m/s, its velocity making an angle of 60° with the direction of the field. Its time period of revolution in this field is 1 μs. The pitch of its helical path (distance moved along the field in one revolution) is",
+      "difficulty": "MEDIUM",
+      "options": [
+        "1.0 m",
+        "1.73 m",
+        "2.0 m",
+        "0.5 m"
+      ],
+      "answer": 0,
+      "explanation": "Resolve the velocity: component along B, v∥ = v cos60° = 2 × 10⁶ × 0.5 = 1 × 10⁶ m/s; component perpendicular to B, v⊥ = v sin60° (this causes the circular part of the motion).\nThe period T = 2πm/(qB) = 1 × 10⁻⁶ s does not depend on speed.\nPitch p = v∥ × T = 1 × 10⁶ × 1 × 10⁻⁶ = 1.0 m.\nUsing v sin60° by mistake gives 1.73 m, and using the full speed gives 2.0 m.\nSo the pitch is 1.0 m."
+    },
+    {
+      "text": "Two long straight parallel wires in vacuum are 10 cm apart and carry currents of 5 A and 10 A in opposite directions. The magnitude and nature of the force per unit length between them is (μ₀ = 4π × 10⁻⁷ T m A⁻¹)",
+      "difficulty": "MEDIUM",
+      "options": [
+        "1 × 10⁻⁴ N/m, attractive",
+        "1 × 10⁻⁵ N/m, repulsive",
+        "5 × 10⁻⁵ N/m, repulsive",
+        "1 × 10⁻⁴ N/m, repulsive"
+      ],
+      "answer": 3,
+      "explanation": "Force per unit length f = μ₀I₁I₂/(2πd).\nμ₀/(2π) = 2 × 10⁻⁷ T m A⁻¹ and d = 10 cm = 0.1 m.\nf = 2 × 10⁻⁷ × 5 × 10 / 0.1 = 1 × 10⁻⁵ / 0.1 = 1 × 10⁻⁴ N/m.\nCurrents in opposite directions repel each other.\nSo the force is 1 × 10⁻⁴ N/m, repulsive."
+    },
+    {
+      "text": "A circular coil of 50 turns and radius 10 cm carries a current of 2 A. The magnitude of its magnetic dipole moment is (take π = 3.14)",
+      "difficulty": "MEDIUM",
+      "options": [
+        "0.0628 A m²",
+        "3.14 A m²",
+        "31.4 A m²",
+        "6.28 A m²"
+      ],
+      "answer": 1,
+      "explanation": "Magnetic dipole moment of a coil: m = NIA.\nArea A = πr² = 3.14 × (0.1)² = 0.0314 m².\nm = 50 × 2 × 0.0314 = 3.14 A m².\nForgetting N gives 0.0628 A m², and using πr instead of πr² gives 31.4 A m².\nSo m = 3.14 A m², directed along the axis of the coil by the right-hand thumb rule."
+    },
+    {
+      "text": "Assertion (A): An electron and a proton entering a uniform magnetic field with the same velocity, perpendicular to the field, move in circles of different radii.\nReason (R): The magnetic forces on the electron and the proton in this situation have different magnitudes.",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 2,
+      "explanation": "Magnetic force F = qvB. The electron and proton have charges of the same magnitude e, and v and B are the same, so the forces are equal in magnitude (opposite in direction). R is false.\nRadius r = mv/(qB). With equal q, v and B, r is proportional to mass.\nThe electron's mass is about 1/1836 of the proton's, so it moves in a much smaller circle. A is true.\nSo A is true but R is false."
+    },
+    {
+      "text": "Assertion (A): Doubling the number of turns of the coil of a moving coil galvanometer doubles its current sensitivity, but its voltage sensitivity may remain unchanged.\nReason (R): Doubling the number of turns also roughly doubles the resistance of the galvanometer coil.",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 0,
+      "explanation": "Current sensitivity = φ/I = NAB/k, which is proportional to N, so doubling N doubles it.\nVoltage sensitivity = φ/V = NAB/(kR).\nDoubling the turns uses about twice the length of wire, so R also roughly doubles.\nThen voltage sensitivity = (2N)AB/(k × 2R) = NAB/(kR), i.e. unchanged.\nBoth A and R are true, and R correctly explains why the voltage sensitivity does not increase."
+    },
+    {
+      "text": "A circular loop of radius R carries a steady current. If B₀ is the magnitude of the magnetic field at its centre, the magnitude of the magnetic field at a point on its axis at a distance √3 R from the centre is",
+      "difficulty": "HARD",
+      "options": [
+        "B₀/4",
+        "B₀/2",
+        "B₀/16",
+        "B₀/8"
+      ],
+      "answer": 3,
+      "explanation": "Field on the axis: B = μ₀IR² / [2(R² + x²)^(3/2)].\nWith x = √3 R: R² + x² = R² + 3R² = 4R², and (4R²)^(3/2) = 8R³.\nB = μ₀IR² / (2 × 8R³) = μ₀I/(16R).\nAt the centre, B₀ = μ₀I/(2R).\nB/B₀ = (1/16)/(1/2) = 1/8, so B = B₀/8."
+    },
+    {
+      "text": "A proton and an α-particle enter the same uniform magnetic field with equal kinetic energies, both moving perpendicular to the field. The ratio of the radii of their circular paths, r(proton) : r(α), is (take mass of α-particle = 4 × mass of proton and charge of α-particle = 2 × charge of proton)",
+      "difficulty": "HARD",
+      "options": [
+        "1 : 2",
+        "1 : 1",
+        "2 : 1",
+        "1 : √2"
+      ],
+      "answer": 1,
+      "explanation": "r = mv/(qB) and momentum mv = √(2mK), so r = √(2mK)/(qB).\nProton: r(p) = √(2mK)/(eB).\nα-particle: r(α) = √(2 × 4m × K)/(2eB) = 2√(2mK)/(2eB) = √(2mK)/(eB).\nSo r(p) : r(α) = 1 : 1."
+    }
+  ]
+}

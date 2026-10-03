@@ -1,0 +1,147 @@
+{
+  "exam": "class-10",
+  "subject": "science",
+  "chapter": "our-environment",
+  "notes": {
+    "summary": "Our Environment covers the ecosystem and its biotic and abiotic components, food chains and food webs, trophic levels and the 10% law of energy flow, biological magnification, depletion of the ozone layer, and the management of biodegradable and non-biodegradable waste. CBSE tests it with energy-flow calculations, food-chain reasoning, assertion-reason items and case-based questions on ozone and waste.",
+    "keyPoints": [
+      "An ecosystem consists of biotic components (plants, animals, microorganisms) and abiotic components (temperature, rainfall, wind, soil, minerals). Forests, ponds and lakes are natural ecosystems; gardens, crop fields and aquariums are artificial (human-made) ones.",
+      "Trophic levels: producers (green plants, phytoplankton) form the first level, followed by herbivores (primary consumers), small carnivores (secondary consumers) and large carnivores (tertiary consumers). Decomposers such as bacteria and fungi break down dead remains and return nutrients to the soil.",
+      "Green plants in a terrestrial ecosystem capture only about 1% of the energy of sunlight falling on their leaves and convert it into food energy.",
+      "10% law: only about 10% of the energy at one trophic level is passed on to the next; the rest is used for life processes or lost as heat. Example: 10,000 J in plants → 1000 J in herbivores → 100 J in small carnivores → 10 J in large carnivores.",
+      "Because so little energy reaches the higher levels, food chains generally have only three or four steps, and the number of individuals is usually greatest at the producer level.",
+      "Energy flow is unidirectional: energy captured by autotrophs does not go back to the sun, and energy passed to herbivores does not come back to autotrophs. Nutrients, by contrast, are recycled through decomposers.",
+      "Biological magnification: non-biodegradable chemicals such as pesticides (for example DDT) accumulate progressively at each trophic level; humans, at the top of many food chains, can get the highest concentration.",
+      "Ozone (O₃) in the upper atmosphere shields Earth from the sun's ultraviolet (UV) radiation, which can cause skin cancer. It forms when UV splits O₂ into atoms (O₂ → O + O) and a free oxygen atom joins O₂ (O + O₂ → O₃). At ground level, ozone is a deadly poison.",
+      "Ozone levels began to drop sharply in the 1980s, a decrease linked to synthetic chemicals such as chlorofluorocarbons (CFCs) used as refrigerants and in fire extinguishers. In 1987 UNEP forged an agreement to freeze CFC production at 1986 levels.",
+      "Biodegradable substances are broken down by bacteria and other saprophytes; non-biodegradable ones (plastics, DDT, aluminium) persist and harm the ecosystem. NCERT example: kulhads were suggested in place of plastic cups in trains, but making them on a large scale would cause loss of fertile top-soil, so paper cups are now used."
+    ],
+    "traps": [
+      "Applying the 10% rule the wrong number of times: from producers to tertiary consumers there are three transfers, so the energy is divided by 1000, not by 100.",
+      "Thinking energy is recycled like nutrients; energy flow in an ecosystem is one-way.",
+      "Assuming ozone is useful everywhere; it protects us high in the atmosphere but is poisonous at ground level.",
+      "Counting the sun as the first trophic level; producers form the first trophic level.",
+      "Confusing the 1% of sunlight captured by plants with the 10% of energy passed from one trophic level to the next."
+    ],
+    "examTip": "In energy-flow questions, number the trophic levels starting with producers as level 1, then multiply by 1/10 once for each step you move up; never count the sun as a level."
+  },
+  "questions": [
+    {
+      "text": "In a food chain, the producers have trapped 20,000 J of energy. According to the 10% law, how much energy will be available to the tertiary consumers?",
+      "difficulty": "MEDIUM",
+      "options": ["200 J", "20 J", "2 J", "2000 J"],
+      "answer": 1,
+      "explanation": "By the 10% law, only about 10% of the energy at one trophic level reaches the next level.\nProducers (level 1) = 20,000 J.\nPrimary consumers (level 2) = 10% of 20,000 J = 2000 J.\nSecondary consumers (level 3) = 10% of 2000 J = 200 J.\nTertiary consumers (level 4) = 10% of 200 J = 20 J."
+    },
+    {
+      "text": "Green plants in a terrestrial ecosystem capture only a small fraction of the energy of the sunlight falling on their leaves and convert it into food energy. This fraction is about:",
+      "difficulty": "MEDIUM",
+      "options": ["10%", "50%", "1%", "90%"],
+      "answer": 2,
+      "explanation": "NCERT states that green plants in a terrestrial ecosystem capture about 1% of the energy of sunlight that falls on their leaves.\nThe rest of the sunlight is reflected, passes through, or is lost as heat.\nThe figure of 10% refers to the transfer of energy from one trophic level to the next, not to the capture of sunlight by plants.\nSo the fraction is about 1%."
+    },
+    {
+      "text": "Food chains in nature usually consist of only three or four trophic levels. The best explanation for this is that:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "there are not enough species on Earth to form longer chains",
+        "decomposers remove organisms before a fifth level can develop",
+        "top carnivores are always larger than the organisms they eat",
+        "the energy available falls so sharply at each level that very little is left for a fifth level"
+      ],
+      "answer": 3,
+      "explanation": "At each step only about 10% of the energy is passed on; the rest is used up by the organisms or lost as heat.\nAfter three or four transfers, only a tiny fraction of the energy trapped by producers remains (for example, 10,000 J becomes 10 J at the fourth level).\nThis amount is too small to support another level of organisms.\nSo food chains are short because the available energy falls sharply at each level."
+    },
+    {
+      "text": "Assertion (A): The flow of energy in an ecosystem is unidirectional.\nReason (R): The energy captured by autotrophs does not revert to the solar input, and the energy passed on to herbivores does not come back to autotrophs.\nChoose the correct option.",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 0,
+      "explanation": "Energy enters an ecosystem when producers trap sunlight, and it moves step by step to herbivores and then to carnivores.\nEnergy passed to a higher level never returns to a lower level or to the sun, and some is lost as heat at every step.\nThis is exactly why the flow of energy is called unidirectional (unlike nutrients, which are recycled).\nBoth statements are true, and R correctly explains A."
+    },
+    {
+      "text": "Ozone in the upper atmosphere is formed by the action of ultraviolet (UV) radiation on oxygen. Which pair of steps correctly shows how it forms?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "O₂ + O₂ → O₃ + O, then O + O → O₂",
+        "O₂ → O + O (in the presence of UV), then O + O₂ → O₃",
+        "O₃ → O₂ + O (in the presence of UV), then O + O → O₂",
+        "2H₂O → 2H₂ + O₂, then O₂ + O₂ → O₃ + O"
+      ],
+      "answer": 1,
+      "explanation": "High in the atmosphere, UV radiation splits some oxygen molecules into free oxygen atoms: O₂ → O + O.\nEach free oxygen atom then combines with an oxygen molecule to form ozone: O + O₂ → O₃.\nThe third option shows ozone being broken down, not formed, and the other options are not the steps given in NCERT.\nSo the correct steps are O₂ → O + O followed by O + O₂ → O₃."
+    },
+    {
+      "text": "Assertion (A): The ozone layer in the upper atmosphere protects living organisms on Earth.\nReason (R): Ozone is a harmless and useful gas even at ground level.\nChoose the correct option.",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 2,
+      "explanation": "Ozone high up in the atmosphere shields the surface of the Earth from the sun's ultraviolet radiation, which can cause skin cancer in human beings, so A is true.\nNCERT points out that while ozone at the higher levels of the atmosphere is essential, it is a deadly poison at ground level.\nSo R is false.\nAnswer: A is true, but R is false."
+    },
+    {
+      "text": "Alarmed by the sharp drop in the amount of ozone in the atmosphere, the United Nations Environment Programme (UNEP) succeeded in forging an international agreement in 1987. What did this agreement do?",
+      "difficulty": "EASY",
+      "options": [
+        "Banned all use of fossil fuels from 1990",
+        "Made it compulsory to plant trees around factories",
+        "Required every country to stop using refrigerators",
+        "Froze the production of CFCs at 1986 levels"
+      ],
+      "answer": 3,
+      "explanation": "The amount of ozone in the atmosphere began to drop sharply in the 1980s.\nThis decrease was linked to synthetic chemicals like chlorofluorocarbons (CFCs), which are used as refrigerants and in fire extinguishers.\nIn 1987 UNEP succeeded in forging an agreement to freeze CFC production at 1986 levels.\nSo the agreement froze CFC production at 1986 levels."
+    },
+    {
+      "text": "Which one of the following is an artificial (human-made) ecosystem?",
+      "difficulty": "EASY",
+      "options": ["A pond", "A forest", "A crop field", "A lake"],
+      "answer": 2,
+      "explanation": "Natural ecosystems such as forests, ponds and lakes develop on their own.\nGardens, crop fields and aquariums are created and maintained by humans, so they are called artificial ecosystems.\nA crop field still has biotic components (crops, insects, microbes) and abiotic components (soil, water, sunlight).\nSo the artificial ecosystem is a crop field."
+    },
+    {
+      "text": "Which one of the following groups contains only abiotic components of an ecosystem?",
+      "difficulty": "EASY",
+      "options": [
+        "Bacteria, temperature and grass",
+        "Temperature, rainfall and soil minerals",
+        "Fungi, wind and water",
+        "Phytoplankton, sunlight and soil"
+      ],
+      "answer": 1,
+      "explanation": "Abiotic components are the non-living physical factors, such as temperature, rainfall, wind, soil and minerals.\nBiotic components are living organisms, such as bacteria, fungi, grass and phytoplankton.\nEach of the other options contains at least one living organism.\nSo the group with only abiotic components is temperature, rainfall and soil minerals."
+    },
+    {
+      "text": "Tea in trains was once served in plastic glasses that had to be returned to the vendor; later, disposable cups were introduced for reasons of hygiene. Someone suggested using kulhads (disposable clay cups) instead, because they are biodegradable. Why was this NOT considered a good solution on a very large scale?",
+      "difficulty": "HARD",
+      "options": [
+        "Making kulhads in such huge numbers would result in the loss of fertile top-soil",
+        "Kulhads are non-biodegradable and stay in landfills for centuries",
+        "Burning used kulhads releases CFCs that deplete the ozone layer",
+        "Kulhads cause biological magnification of harmful chemicals in food chains"
+      ],
+      "answer": 0,
+      "explanation": "Kulhads are made from clay taken from the fertile top layer of the soil.\nThey are biodegradable, so their disposal is not the problem.\nProducing them on the enormous scale needed for train passengers would use up large amounts of fertile top-soil, harming agriculture.\nThis is why disposable paper cups are now used instead.\nSo the drawback is the loss of fertile top-soil."
+    },
+    {
+      "text": "Consider the food chain: Grass → Grasshopper → Frog → Snake → Hawk. If all the frogs are removed from this area, what is the most likely immediate effect?",
+      "difficulty": "HARD",
+      "options": [
+        "The grasshopper population will fall and the snake population will rise",
+        "The populations of all the other organisms will rise",
+        "Only the hawk population will be affected, because it is at the top",
+        "The grasshopper population will rise and the snake population will fall"
+      ],
+      "answer": 3,
+      "explanation": "Frogs feed on grasshoppers and are, in turn, eaten by snakes.\nWithout frogs, grasshoppers lose their predator, so their numbers increase (and they may eat more grass).\nSnakes lose their food source in this chain, so their numbers decrease, which then affects the hawks too.\nSo the immediate effect is that grasshoppers increase and snakes decrease."
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "exam": "neet",
+  "subject": "chemistry",
+  "chapter": "chemical-thermodynamics",
+  "notes": {
+    "summary": "Chemical thermodynamics deals with energy changes in physical and chemical processes: the first law, work and heat, enthalpy and Hess's law, entropy, and Gibbs energy as the test of spontaneity. NEET usually asks one or two questions on sign conventions, the ΔH–ΔU relation, Hess's law or bond-enthalpy numericals, and reasoning with ΔG = ΔH − TΔS.",
+    "keyPoints": [
+      "Systems: open (exchanges matter and energy), closed (energy only, e.g. reactants in a sealed steel vessel), isolated (neither, e.g. an ideal thermos flask). State functions (U, H, S, G, p, V, T) depend only on the initial and final states; heat q and work w are path functions.",
+      "First law: ΔU = q + w. IUPAC convention: heat absorbed by the system and work done on the system are positive. For an isolated system or a cyclic process, ΔU = 0.",
+      "Work: irreversible expansion against constant external pressure, w = −p_ext ΔV; reversible isothermal, w = −2.303 nRT log(V₂/V₁); free expansion (p_ext = 0), w = 0. Isothermal ideal gas: ΔU = 0, so q = −w. Adiabatic: q = 0, so ΔU = w. 1 L bar = 100 J; 1 L atm = 101.3 J.",
+      "ΔH = ΔU + Δn_g RT, where Δn_g counts only gaseous moles (products − reactants). For an ideal gas, Cp − Cv = R.",
+      "Standard enthalpy of formation is zero for an element in its reference state (C graphite, O₂(g), Br₂(l)); it is not zero for diamond or O₃ (ΔfH° of O₃ ≈ +142.7 kJ mol⁻¹). ΔrH° = ΣΔfH°(products) − ΣΔfH°(reactants).",
+      "Bond enthalpy route (gas phase): ΔrH = Σ bond enthalpies of bonds broken − Σ bond enthalpies of bonds formed. Example: H₂ + Cl₂ → 2HCl, ΔH = 435 + 243 − 2 × 431 = −184 kJ.",
+      "Hess's law: the total enthalpy change is the same whether a reaction occurs in one step or several. Example: ΔfH(CO) = ΔcH(C) − ΔcH(CO) = −393.5 − (−283.0) = −110.5 kJ mol⁻¹.",
+      "Entropy: ΔS = q_rev ÷ T; for a phase change ΔS = ΔH_transition ÷ T (vaporisation of water: 40.79 kJ ÷ 373 K ≈ 109 J K⁻¹ mol⁻¹). For a spontaneous process, ΔS_total > 0.",
+      "Gibbs energy: ΔG = ΔH − TΔS; ΔG < 0 means spontaneous at constant T and p. ΔG° = −RT ln K = −2.303RT log K, so K > 1 gives ΔG° < 0.",
+      "Sign table: ΔH −, ΔS + → spontaneous at all T; ΔH +, ΔS − → never spontaneous; ΔH −, ΔS − → spontaneous at low T; ΔH +, ΔS + → spontaneous above T = ΔH ÷ ΔS."
+    ],
+    "traps": [
+      "Mixing up sign conventions: in ΔU = q + w, work done by the system is negative.",
+      "Counting liquids or solids in Δn_g when converting between ΔH and ΔU.",
+      "Combining kJ and J in the same equation (ΔH with TΔS, or ΔG° with RT) without converting units.",
+      "Assuming every exothermic reaction is spontaneous, or that a negative ΔG means the reaction is fast; ΔG says nothing about rate.",
+      "Taking ΔfH° as zero for allotropes that are not the reference state, such as diamond or ozone."
+    ],
+    "examTip": "Before solving any ΔH, ΔU or ΔG numerical, write down the sign of q and w and the units (J or kJ) of every term; most wrong options are built from these two slips."
+  },
+  "questions": [
+    {
+      "text": "Reactants are placed in a sealed vessel made of a heat-conducting material such as copper or steel. The vessel and its contents form which type of thermodynamic system?",
+      "difficulty": "EASY",
+      "options": [
+        "Open system",
+        "Closed system",
+        "Isolated system",
+        "Open adiabatic system"
+      ],
+      "answer": 1,
+      "explanation": "A sealed vessel does not allow matter to enter or leave.\nIts conducting walls do allow energy (heat) to flow between the system and the surroundings.\nA system that exchanges energy but not matter is a closed system. An isolated system (like an ideal thermos flask) exchanges neither.\nAnswer: closed system."
+    },
+    {
+      "text": "Which of the following is NOT a state function?",
+      "difficulty": "EASY",
+      "options": [
+        "Internal energy (U)",
+        "Enthalpy (H)",
+        "Entropy (S)",
+        "Work (w)"
+      ],
+      "answer": 3,
+      "explanation": "A state function depends only on the initial and final states of the system, not on the path taken.\nU, H and S are state functions.\nThe work done depends on how the change is carried out (for example, reversibly or irreversibly), so work is a path function. Heat (q) is also a path function, but q + w = ΔU is a state function.\nAnswer: work (w)."
+    },
+    {
+      "text": "A system absorbs 300 J of heat from the surroundings and does 120 J of work on the surroundings. The change in internal energy of the system is:",
+      "difficulty": "EASY",
+      "options": [
+        "+180 J",
+        "+420 J",
+        "−180 J",
+        "−420 J"
+      ],
+      "answer": 0,
+      "explanation": "First law: ΔU = q + w (IUPAC sign convention).\nHeat absorbed by the system: q = +300 J. Work done by the system: w = −120 J.\nΔU = 300 + (−120) = +180 J.\nAnswer: +180 J."
+    },
+    {
+      "text": "1 mol of an ideal gas expands isothermally from 1 L to 5 L against a constant external pressure of 2 bar. The heat absorbed by the gas (q) is: (1 L bar = 100 J)",
+      "difficulty": "MEDIUM",
+      "options": [
+        "−800 J",
+        "Zero",
+        "+800 J",
+        "+1000 J"
+      ],
+      "answer": 2,
+      "explanation": "Work against a constant external pressure: w = −p_ext ΔV = −2 bar × (5 − 1) L = −8 L bar = −800 J.\nFor an isothermal change of an ideal gas, ΔU = 0.\nFrom ΔU = q + w: q = −w = +800 J.\nAnswer: +800 J."
+    },
+    {
+      "text": "Using the bond enthalpies H–H = 435 kJ mol⁻¹, Cl–Cl = 243 kJ mol⁻¹ and H–Cl = 431 kJ mol⁻¹, the enthalpy change for the reaction H₂(g) + Cl₂(g) → 2HCl(g) is:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "+184 kJ",
+        "−92 kJ",
+        "+247 kJ",
+        "−184 kJ"
+      ],
+      "answer": 3,
+      "explanation": "ΔrH = Σ bond enthalpies of bonds broken − Σ bond enthalpies of bonds formed.\nBonds broken: one H–H + one Cl–Cl = 435 + 243 = 678 kJ.\nBonds formed: two H–Cl = 2 × 431 = 862 kJ.\nΔrH = 678 − 862 = −184 kJ (−92 kJ is the value per mole of HCl, not for the equation as written).\nAnswer: −184 kJ."
+    },
+    {
+      "text": "Assertion (A): The standard enthalpy of formation of ozone, O₃(g), is not zero.\nReason (R): The standard enthalpy of formation is zero only for an element in its most stable form (reference state) at 1 bar, which for oxygen is O₂(g).",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true, and R is the correct explanation of A",
+        "Both Assertion (A) and Reason (R) are true, but R is not the correct explanation of A",
+        "Assertion (A) is true, but Reason (R) is false",
+        "Assertion (A) is false, but Reason (R) is true"
+      ],
+      "answer": 0,
+      "explanation": "By convention, ΔfH° = 0 for every element in its reference state, such as O₂(g), C(graphite) and Br₂(l).\nO₃ is a less stable allotrope of oxygen. Forming it from the reference state (3/2 O₂ → O₃) absorbs energy, so ΔfH°(O₃) ≈ +142.7 kJ mol⁻¹, which is not zero.\nR states the convention that directly explains A.\nAnswer: both are true and R is the correct explanation of A."
+    },
+    {
+      "text": "The enthalpy of vaporisation of water at its normal boiling point (373 K) is 40.79 kJ mol⁻¹. The entropy change for the vaporisation of 1 mol of water at this temperature is:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "0.109 J K⁻¹ mol⁻¹",
+        "109.4 J K⁻¹ mol⁻¹",
+        "−109.4 J K⁻¹ mol⁻¹",
+        "9.14 × 10⁻³ J K⁻¹ mol⁻¹"
+      ],
+      "answer": 1,
+      "explanation": "At the boiling point, vaporisation is a reversible phase change, so ΔS = ΔvapH ÷ Tb.\nConvert to joules: 40.79 kJ mol⁻¹ = 40790 J mol⁻¹.\nΔS = 40790 ÷ 373 = 109.4 J K⁻¹ mol⁻¹, positive because the gas is more disordered than the liquid.\nAnswer: 109.4 J K⁻¹ mol⁻¹."
+    },
+    {
+      "text": "For a reaction at 298 K, the equilibrium constant K = 10. The standard Gibbs energy change (ΔG°) for the reaction is: (R = 8.314 J K⁻¹ mol⁻¹)",
+      "difficulty": "MEDIUM",
+      "options": [
+        "+5.71 kJ mol⁻¹",
+        "−2.48 kJ mol⁻¹",
+        "−5.71 kJ mol⁻¹",
+        "−13.1 kJ mol⁻¹"
+      ],
+      "answer": 2,
+      "explanation": "ΔG° = −2.303 RT log K.\n= −2.303 × 8.314 × 298 × log 10 = −2.303 × 8.314 × 298 × 1.\n= −5706 J mol⁻¹ ≈ −5.71 kJ mol⁻¹. It is negative because K > 1. (−2.48 kJ is RT alone, which leaves out the factor 2.303.)\nAnswer: −5.71 kJ mol⁻¹."
+    },
+    {
+      "text": "Consider the following statements:\nI. Heat (q) and work (w) are path functions, but their sum q + w is a state function.\nII. For one mole of an ideal gas, Cp − Cv = R.\nIII. In an adiabatic process, q = 0, so ΔU = w.\nIV. For the isothermal expansion of an ideal gas, q = 0.\nWhich of the statements are correct?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "I and IV only",
+        "II and III only",
+        "I, II and III only",
+        "I, II, III and IV"
+      ],
+      "answer": 2,
+      "explanation": "I is true: q and w depend on the path, but q + w = ΔU, which is a state function.\nII is true: for an ideal gas, Cp − Cv = R (molar heat capacities).\nIII is true: adiabatic means no heat exchange, so ΔU = w.\nIV is false: in isothermal expansion of an ideal gas ΔU = 0, so q = −w, which is not zero (the gas absorbs heat).\nAnswer: I, II and III only."
+    },
+    {
+      "text": "The standard enthalpies of combustion of C(graphite), H₂(g) and CH₄(g) are −393.5 kJ mol⁻¹, −285.8 kJ mol⁻¹ and −890.3 kJ mol⁻¹ respectively. The standard enthalpy of formation of CH₄(g) is:",
+      "difficulty": "HARD",
+      "options": [
+        "−74.8 kJ mol⁻¹",
+        "+74.8 kJ mol⁻¹",
+        "+211.0 kJ mol⁻¹",
+        "−1855.4 kJ mol⁻¹"
+      ],
+      "answer": 0,
+      "explanation": "Target reaction: C(graphite) + 2H₂(g) → CH₄(g).\nBy Hess's law, ΔfH(CH₄) = ΔcH(C) + 2 × ΔcH(H₂) − ΔcH(CH₄).\n= −393.5 + 2(−285.8) − (−890.3) = −393.5 − 571.6 + 890.3.\n= −965.1 + 890.3 = −74.8 kJ mol⁻¹. (Forgetting the factor 2 for H₂ gives +211.0 kJ mol⁻¹.)\nAnswer: −74.8 kJ mol⁻¹."
+    },
+    {
+      "text": "For the combustion of liquid benzene at 298 K, C₆H₆(l) + 15/2 O₂(g) → 6CO₂(g) + 3H₂O(l), the internal energy change is ΔU = −3263.9 kJ mol⁻¹. The enthalpy change ΔH for this reaction at 298 K is: (R = 8.314 J K⁻¹ mol⁻¹)",
+      "difficulty": "HARD",
+      "options": [
+        "−3260.2 kJ mol⁻¹",
+        "−3267.6 kJ mol⁻¹",
+        "−3263.9 kJ mol⁻¹",
+        "−3271.3 kJ mol⁻¹"
+      ],
+      "answer": 1,
+      "explanation": "ΔH = ΔU + Δn_g RT, counting only gaseous species.\nΔn_g = 6 (CO₂) − 7.5 (O₂) = −1.5; benzene and water are liquids and are not counted.\nΔn_g RT = −1.5 × 8.314 × 298 = −3716 J = −3.72 kJ.\nΔH = −3263.9 − 3.72 = −3267.6 kJ mol⁻¹.\nAnswer: −3267.6 kJ mol⁻¹."
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "exam": "class-10",
+  "subject": "mathematics",
+  "chapter": "coordinate-geometry",
+  "notes": {
+    "summary": "This chapter covers the distance formula and the section formula (with the mid-point formula as a special case) for points in the Cartesian plane. CBSE tests it through finding distances and unknown coordinates, ratios of division, points of trisection, the fourth vertex of a parallelogram, and checking collinearity or the type of a quadrilateral.",
+    "keyPoints": [
+      "Distance formula: PQ = √[(x₂ − x₁)² + (y₂ − y₁)²]. Example: (1, 2) and (4, 6) give √(9 + 16) = 5. Distance of (x, y) from the origin = √(x² + y²).",
+      "Distance of (x, y) from the x-axis is |y| and from the y-axis is |x|. Any point on the x-axis is (x, 0) and any point on the y-axis is (0, y).",
+      "Section formula (internal division in the ratio m : n): P = ((mx₂ + nx₁)/(m + n), (my₂ + ny₁)/(m + n)). Example: A(1, 2), B(7, 8), ratio 1 : 2 gives P(3, 4).",
+      "Mid-point (ratio 1 : 1): ((x₁ + x₂)/2, (y₁ + y₂)/2). The points of trisection divide a segment in the ratios 1 : 2 and 2 : 1.",
+      "To find an unknown ratio, take it as k : 1 and equate the known coordinate; a point on the x-axis has y = 0 and a point on the y-axis has x = 0.",
+      "Collinearity using distances: A, B and C are collinear if the sum of two of the distances equals the third (for example AB + BC = AC).",
+      "Quadrilaterals: all sides equal + equal diagonals ⇒ square; all sides equal + unequal diagonals ⇒ rhombus; opposite sides equal + equal diagonals ⇒ rectangle; opposite sides equal + unequal diagonals ⇒ parallelogram.",
+      "Parallelogram: the diagonals bisect each other, so the mid-point of AC = the mid-point of BD (used to find a missing vertex).",
+      "Equidistant point: if P is equidistant from A and B, then PA² = PB²; squaring removes the square roots and gives a linear relation."
+    ],
+    "traps": [
+      "Swapping m and n in the section formula: m goes with the second point (x₂, y₂).",
+      "Forgetting that a squared equation such as (x − 1)² = 64 gives two values (x = 9 or x = −7).",
+      "Distance from the x-axis is |y|, not |x|, and a distance is never negative.",
+      "Taking vertices out of order when testing a quadrilateral or finding the fourth vertex of parallelogram ABCD; its diagonals are AC and BD."
+    ],
+    "examTip": "Square both sides before simplifying any equidistance condition, and after each answer substitute back (for example, recompute one coordinate with the ratio you found); it takes 20 seconds and catches sign errors."
+  },
+  "questions": [
+    {
+      "text": "What is the distance of the point P(−4, 7) from the x-axis?",
+      "difficulty": "EASY",
+      "options": ["4 units", "√65 units", "7 units", "11 units"],
+      "answer": 2,
+      "explanation": "The perpendicular distance of a point (x, y) from the x-axis equals |y|.\nFor P(−4, 7), it is |7| = 7 units.\n4 units is the distance from the y-axis, and √65 units (√(16 + 49)) is the distance from the origin.\nAnswer: 7 units."
+    },
+    {
+      "text": "What is the distance between the points A(2, 3) and B(2, −5)?",
+      "difficulty": "EASY",
+      "options": ["8 units", "2 units", "√80 units", "4 units"],
+      "answer": 0,
+      "explanation": "Step 1: AB = √[(2 − 2)² + (−5 − 3)²] = √[0 + (−8)²].\nStep 2: AB = √64 = 8 units.\nBoth points have the same x-coordinate, so the distance is simply 3 − (−5) = 8; writing 3 − 5 = −2 is a sign error.\nAnswer: 8 units."
+    },
+    {
+      "text": "If (2, 3) is the mid-point of the line segment joining (a, 1) and (5, b), then the values of a and b are:",
+      "difficulty": "EASY",
+      "options": ["a = 1, b = 5", "a = −1, b = 4", "a = 3.5, b = 2", "a = −1, b = 5"],
+      "answer": 3,
+      "explanation": "Step 1: x-coordinate: (a + 5)/2 = 2 ⇒ a + 5 = 4 ⇒ a = −1.\nStep 2: y-coordinate: (1 + b)/2 = 3 ⇒ 1 + b = 6 ⇒ b = 5.\nAnswer: a = −1, b = 5."
+    },
+    {
+      "text": "In what ratio does the y-axis divide the line segment joining A(−4, 5) and B(6, −3)?",
+      "difficulty": "MEDIUM",
+      "options": ["3 : 2", "2 : 3", "5 : 3", "1 : 1"],
+      "answer": 1,
+      "explanation": "Step 1: Any point on the y-axis has x-coordinate 0. Let the ratio be k : 1.\nStep 2: x = (k × 6 + 1 × (−4))/(k + 1) = 0 ⇒ 6k − 4 = 0 ⇒ k = 2/3.\nStep 3: The ratio is 2/3 : 1 = 2 : 3. Check: (2 × 6 + 3 × (−4))/5 = 0, and the point of division is (0, 9/5).\nAnswer: 2 : 3."
+    },
+    {
+      "text": "Find the points of trisection of the line segment joining A(−3, 6) and B(6, −3).",
+      "difficulty": "MEDIUM",
+      "options": ["(0, 3) and (3, 0)", "(1.5, 1.5) only", "(0, 0) and (3, 3)", "(−1, 4) and (4, −1)"],
+      "answer": 0,
+      "explanation": "Step 1: P divides AB in the ratio 1 : 2: P = ((1 × 6 + 2 × (−3))/3, (1 × (−3) + 2 × 6)/3) = (0/3, 9/3) = (0, 3).\nStep 2: Q divides AB in the ratio 2 : 1: Q = ((2 × 6 + 1 × (−3))/3, (2 × (−3) + 1 × 6)/3) = (9/3, 0/3) = (3, 0).\n(1.5, 1.5) is the mid-point, not a point of trisection.\nAnswer: (0, 3) and (3, 0)."
+    },
+    {
+      "text": "A(1, 2), B(4, 3) and C(6, 6) are three vertices of parallelogram ABCD, taken in order. Find the fourth vertex D.",
+      "difficulty": "MEDIUM",
+      "options": ["(9, 7)", "(3.5, 4)", "(−1, −1)", "(3, 5)"],
+      "answer": 3,
+      "explanation": "Step 1: The diagonals of a parallelogram bisect each other, so the mid-point of AC = the mid-point of BD.\nStep 2: Mid-point of AC = ((1 + 6)/2, (2 + 6)/2) = (3.5, 4).\nStep 3: For D(x, y): (4 + x)/2 = 3.5 ⇒ x = 3, and (3 + y)/2 = 4 ⇒ y = 5.\nCheck: going from A to B is 3 right and 1 up, and so is going from D(3, 5) to C(6, 6).\nAnswer: D(3, 5)."
+    },
+    {
+      "text": "For the points A(−1, 3), B(1, 1) and C(4, −2), which statement is correct?",
+      "difficulty": "MEDIUM",
+      "options": ["AB = BC, so B is the mid-point of AC", "AB + BC = AC, so A, B and C are collinear", "AB² + BC² = AC², so △ABC is right-angled at B", "AB = AC, so △ABC is isosceles"],
+      "answer": 1,
+      "explanation": "Step 1: AB = √[(1 + 1)² + (1 − 3)²] = √(4 + 4) = 2√2.\nStep 2: BC = √[(4 − 1)² + (−2 − 1)²] = √(9 + 9) = 3√2.\nStep 3: AC = √[(4 + 1)² + (−2 − 3)²] = √(25 + 25) = 5√2.\nStep 4: AB + BC = 2√2 + 3√2 = 5√2 = AC, so the three points lie on one line and no triangle is formed.\nAnswer: AB + BC = AC, so A, B and C are collinear."
+    },
+    {
+      "text": "If the distance between the points P(1, 4) and Q(x, −2) is 10 units, then x is:",
+      "difficulty": "MEDIUM",
+      "options": ["9 only", "−9 or 7", "9 or −7", "7 or −7"],
+      "answer": 2,
+      "explanation": "Step 1: PQ² = (x − 1)² + (−2 − 4)² = 10², so (x − 1)² + 36 = 100.\nStep 2: (x − 1)² = 64 ⇒ x − 1 = 8 or x − 1 = −8.\nStep 3: x = 9 or x = −7. Both points are 10 units from P.\nAnswer: 9 or −7."
+    },
+    {
+      "text": "Assertion (A): The mid-point of the line segment joining (−2, 5) and (4, −1) lies in the first quadrant.\nReason (R): The mid-point of a line segment joining a point in the second quadrant and a point in the fourth quadrant always lies in the first quadrant.\nChoose the correct option.",
+      "difficulty": "MEDIUM",
+      "options": ["Both Assertion (A) and Reason (R) are true, and R is the correct explanation of A.", "Both A and R are true, but R is not the correct explanation of A.", "A is true, but R is false.", "A is false, but R is true."],
+      "answer": 2,
+      "explanation": "Step 1: Mid-point = ((−2 + 4)/2, (5 − 1)/2) = (1, 2), which lies in the first quadrant, so A is true.\nStep 2: R is false. Counter-example: (−5, 1) is in the second quadrant and (1, −1) is in the fourth quadrant, but their mid-point is ((−5 + 1)/2, (1 − 1)/2) = (−2, 0), which lies on the x-axis.\nAnswer: A is true, but R is false."
+    },
+    {
+      "text": "The quadrilateral formed by joining A(0, 0), B(1, 3), C(4, 4) and D(3, 1) in order is a:",
+      "difficulty": "HARD",
+      "options": ["square", "rhombus but not a square", "rectangle but not a square", "parallelogram but not a rhombus"],
+      "answer": 1,
+      "explanation": "Step 1: Sides: AB = √(1 + 9) = √10, BC = √(9 + 1) = √10, CD = √(1 + 9) = √10 and DA = √(9 + 1) = √10, so all four sides are equal.\nStep 2: Diagonals: AC = √(16 + 16) = 4√2 and BD = √(4 + 4) = 2√2, so the diagonals are unequal.\nStep 3: Equal sides with unequal diagonals means a rhombus that is not a square.\nAnswer: rhombus but not a square."
+    },
+    {
+      "text": "The point P(k, 7) lies on the line segment joining A(8, 9) and B(1, 2). Find the ratio in which P divides AB and the value of k.",
+      "difficulty": "HARD",
+      "options": ["2 : 5 and k = 6", "5 : 2 and k = 3", "2 : 5 and k = 3", "5 : 2 and k = 6"],
+      "answer": 0,
+      "explanation": "Step 1: Let P divide AB in the ratio m : n. Using the y-coordinate: (m × 2 + n × 9)/(m + n) = 7.\nStep 2: 2m + 9n = 7m + 7n ⇒ 2n = 5m ⇒ m : n = 2 : 5.\nStep 3: x-coordinate: k = (2 × 1 + 5 × 8)/(2 + 5) = (2 + 40)/7 = 42/7 = 6.\nCheck: P(6, 7) is 2 units (in x) from A and 5 units from B, consistent with 2 : 5.\nAnswer: 2 : 5 and k = 6."
+    }
+  ]
+}

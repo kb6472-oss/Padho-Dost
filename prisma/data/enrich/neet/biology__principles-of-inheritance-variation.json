@@ -1,0 +1,106 @@
+{
+  "exam": "neet",
+  "subject": "biology",
+  "chapter": "principles-of-inheritance-variation",
+  "notes": {
+    "summary": "This chapter covers Mendel's laws and the departures from them (incomplete dominance, codominance, multiple alleles, pleiotropy, polygenic inheritance), the chromosomal theory, linkage and recombination, sex determination, mutation, pedigree analysis, and Mendelian and chromosomal disorders. NEET mixes ratio and probability problems with NCERT facts about disorders and sex-determination systems.",
+    "keyPoints": [
+      "Mendel worked on Pisum sativum from 1856 to 1863 using 7 pairs of contrasting traits. Monohybrid F₂: phenotype 3:1, genotype 1:2:1. Dihybrid F₂: phenotype 9:3:3:1, with 9 genotypes and 4 phenotypes. Test cross Tt × tt gives 1:1.",
+      "Incomplete dominance (snapdragon): F₁ is pink, and in F₂ the phenotype ratio equals the genotype ratio, 1 red : 2 pink : 1 white. ABO blood groups show both codominance and multiple alleles (Iᴬ, Iᴮ, i), giving 6 genotypes and 4 phenotypes.",
+      "Dominance depends on which phenotype you look at. The pea seed-shape gene is completely dominant for shape, but incompletely dominant for starch-grain size (BB large, Bb intermediate, bb small).",
+      "Polygenic inheritance gives a continuous range of phenotypes, as in human skin colour controlled by, for example, three genes A, B and C. Pleiotropy is one gene affecting many traits, as in phenylketonuria.",
+      "Chromosomal theory of inheritance: Sutton and Boveri. Morgan (working with Drosophila) coined the term linkage. Sturtevant used recombination frequency to map genes, where 1% recombination = 1 map unit.",
+      "Sex determination: XO in grasshoppers (males are XO); XY in humans and Drosophila (male heterogametic); ZW in birds (female heterogametic); haplodiploidy in honey bees (drones are haploid, n = 16; females are diploid, 2n = 32).",
+      "Mendelian disorders: haemophilia and colour blindness (X-linked recessive); sickle-cell anaemia (GAG → GUG, so Glu → Val at position 6 of the β-chain); phenylketonuria and thalassemia (autosomal recessive). α-thalassemia involves HBA1 and HBA2 on chromosome 16; β-thalassemia involves HBB on chromosome 11.",
+      "Chromosomal disorders: aneuploidy comes from failure of chromatid segregation, and polyploidy from failure of cytokinesis. Examples are Down syndrome (trisomy 21), Klinefelter syndrome (47, XXY) and Turner syndrome (45, X0).",
+      "Probability shortcut: for carrier × carrier (Aa × Aa), a child is affected with probability 1/4, and a normal-looking child is a carrier with probability 2/3."
+    ],
+    "traps": [
+      "Using 1/2 instead of 2/3 for 'probability that a normal child of two carriers is a carrier'. The aa class has to be removed first.",
+      "Treating thalassemia like sickle-cell anaemia. Thalassemia is a quantitative defect (too little globin is made); sickle-cell anaemia is qualitative (a wrong amino acid).",
+      "Saying the male decides the sex of offspring in birds. In birds the female (ZW) does.",
+      "Calling incomplete dominance blending. The parental phenotypes reappear in F₂.",
+      "Mixing up aneuploidy (one chromosome gained or lost) with polyploidy (whole sets gained)."
+    ],
+    "examTip": "Draw the Punnett square or a branch diagram for every probability question, and check whether the question is conditioned on a phenotype (for example 'given the child is normal') before you divide."
+  },
+  "questions": [
+    {
+      "text": "Mendel carried out hybridisation experiments on garden peas for seven years. How many pairs of contrasting traits did he study?",
+      "difficulty": "EASY",
+      "options": ["Five", "Seven", "Nine", "Fourteen"],
+      "answer": 1,
+      "explanation": "Mendel worked on peas from 1856 to 1863. He chose 14 true-breeding pea varieties that formed pairs, each pair identical except for one character with contrasting traits. Fourteen varieties make 7 pairs of contrasting traits. The answer is seven."
+    },
+    {
+      "text": "Birds have a ZW type of sex determination. Which of the following statements is correct?",
+      "difficulty": "EASY",
+      "options": ["Females are ZW and produce two types of eggs, so the female decides the sex of the offspring", "Males are ZW and produce two types of sperm, so the male decides the sex of the offspring", "Females are ZZ and males are ZW", "Both sexes have identical chromosomes, and sex depends only on temperature"],
+      "answer": 0,
+      "explanation": "In birds the female is heterogametic, with one Z and one W chromosome, so she makes Z-bearing and W-bearing eggs. The male is homogametic (ZZ) and makes only Z-bearing sperm. The type of egg fertilised therefore decides the sex of the chick. The answer is the first option."
+    },
+    {
+      "text": "Which of the following is an example of polygenic inheritance in humans?",
+      "difficulty": "EASY",
+      "options": ["ABO blood groups", "Colour blindness", "Sickle-cell anaemia", "Skin colour"],
+      "answer": 3,
+      "explanation": "Polygenic traits are controlled by three or more genes, and each dominant allele adds a small amount to the phenotype. This produces a continuous range of phenotypes, as in human skin colour and height. ABO blood groups show multiple alleles, while colour blindness and sickle-cell anaemia are single-gene disorders. The answer is skin colour."
+    },
+    {
+      "text": "In snapdragon (Antirrhinum), pink-flowered F₁ plants (Rr) from a red × white cross are self-pollinated. What are the phenotypic and genotypic ratios in F₂, respectively?",
+      "difficulty": "MEDIUM",
+      "options": ["3 : 1 and 1 : 2 : 1", "9 : 3 : 3 : 1 and 1 : 2 : 1", "1 : 2 : 1 and 1 : 2 : 1", "1 : 2 : 1 and 3 : 1"],
+      "answer": 2,
+      "explanation": "Rr × Rr gives 1 RR : 2 Rr : 1 rr. Under incomplete dominance the heterozygote (Rr) has its own pink phenotype, so the phenotypes are 1 red : 2 pink : 1 white. The phenotypic and genotypic ratios are both 1 : 2 : 1."
+    },
+    {
+      "text": "In honey bees, a male (drone) develops from an unfertilised egg by parthenogenesis. Which of the following is true of a drone?",
+      "difficulty": "MEDIUM",
+      "options": ["It is diploid (2n = 32) and produces sperms by meiosis", "It is haploid (n = 16), produces sperms by mitosis and has no father", "It is haploid (n = 16) and produces sperms by meiosis", "It is diploid (2n = 32), has a father but has no grandfather"],
+      "answer": 1,
+      "explanation": "In haplodiploid sex determination, fertilised eggs develop into females (queen or worker) with 32 chromosomes, and unfertilised eggs develop into males with 16. A drone is already haploid, so it makes sperms by mitosis. It has no father and so cannot have sons, but it has a grandfather and can have grandsons. The answer is the second option."
+    },
+    {
+      "text": "Which of the following statements about thalassemia is correct?",
+      "difficulty": "MEDIUM",
+      "options": ["It is a qualitative defect in which a wrong amino acid is built into globin, as in sickle-cell anaemia", "It is an X-linked recessive disorder seen mostly in males", "β-thalassemia is controlled by two closely linked genes on chromosome 16", "α-thalassemia is controlled by two closely linked genes, HBA1 and HBA2, on chromosome 16, whereas β-thalassemia is controlled by a single gene, HBB, on chromosome 11"],
+      "answer": 3,
+      "explanation": "Thalassemia is an autosomal recessive disorder. Mutation or deletion of a globin gene means too little of one globin chain is made, so it is a quantitative problem; sickle-cell anaemia is the qualitative one. α-thalassemia depends on HBA1 and HBA2 on chromosome 16, and β-thalassemia on HBB on chromosome 11. The answer is the last option."
+    },
+    {
+      "text": "Failure of chromatids to segregate during cell division, causing the gain or loss of a chromosome, is called ____. Failure of cytokinesis after telophase, causing an increase in a whole set of chromosomes, is called ____.",
+      "difficulty": "MEDIUM",
+      "options": ["Aneuploidy; polyploidy", "Polyploidy; aneuploidy", "Euploidy; aneuploidy", "Point mutation; frameshift mutation"],
+      "answer": 0,
+      "explanation": "When one or more chromosomes are gained or lost because chromatids fail to separate, the condition is aneuploidy, as in Down, Klinefelter and Turner syndromes. When cytokinesis fails after telophase, whole chromosome sets are added, which is polyploidy and is common in plants. The order is aneuploidy, then polyploidy."
+    },
+    {
+      "text": "In Mendel's dihybrid cross between pure-breeding round yellow (RRYY) and wrinkled green (rryy) peas, how many different genotypes and phenotypes appear in the F₂ generation?",
+      "difficulty": "MEDIUM",
+      "options": ["4 genotypes and 9 phenotypes", "16 genotypes and 4 phenotypes", "9 genotypes and 4 phenotypes", "9 genotypes and 9 phenotypes"],
+      "answer": 2,
+      "explanation": "Each gene on its own gives 3 genotypes in F₂ (RR, Rr, rr and YY, Yy, yy), so together there are 3 × 3 = 9 genotypes. Each gene gives 2 phenotypes, so there are 2 × 2 = 4 phenotypes in a 9:3:3:1 ratio. The 16 is the number of boxes in the Punnett square, not the number of genotypes. The answer is 9 genotypes and 4 phenotypes."
+    },
+    {
+      "text": "Who used the frequency of recombination between gene pairs on the same chromosome as a measure of the distance between genes, and so mapped their positions on the chromosome?",
+      "difficulty": "MEDIUM",
+      "options": ["T.H. Morgan", "Walter Sutton", "Gregor Mendel", "Alfred Sturtevant"],
+      "answer": 3,
+      "explanation": "Morgan showed linkage and recombination in Drosophila and coined the term linkage. His student Alfred Sturtevant used the recombination frequency between gene pairs as a measure of distance and drew the first genetic maps. Sutton, with Boveri, proposed the chromosomal theory. The answer is Sturtevant."
+    },
+    {
+      "text": "Both parents are heterozygous carriers of an autosomal recessive disorder such as thalassemia. What is the probability that their phenotypically normal child is a carrier?",
+      "difficulty": "HARD",
+      "options": ["1/4", "1/2", "2/3", "3/4"],
+      "answer": 2,
+      "explanation": "Step 1: Aa × Aa gives 1 AA : 2 Aa : 1 aa. Step 2: The child is known to be normal, so remove aa, leaving 3 equally likely parts (1 AA + 2 Aa). Step 3: Carriers are 2 of those 3 parts. The probability is 2/3."
+    },
+    {
+      "text": "Assertion (A): In pea, the gene for seed shape (B/b) shows complete dominance when seed shape is studied, but incomplete dominance when starch-grain size is studied.\nReason (R): Dominance is not an independent property of a gene; it depends on the phenotype chosen for study when one gene affects more than one phenotype.\nChoose the correct option.",
+      "difficulty": "HARD",
+      "options": ["Both A and R are true, and R is the correct explanation of A", "Both A and R are true, but R is not the correct explanation of A", "A is true, but R is false", "A is false, but R is true"],
+      "answer": 0,
+      "explanation": "A is true. BB seeds are round with large starch grains, bb seeds are wrinkled with small grains, and Bb seeds are round (so B is dominant for shape) with intermediate-sized grains (so B is incompletely dominant for grain size). R is true and is the NCERT reason: dominance depends on which phenotype is examined. So both are true, and R correctly explains A."
+    }
+  ]
+}

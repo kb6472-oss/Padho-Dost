@@ -1,0 +1,161 @@
+{
+  "exam": "class-11",
+  "subject": "mathematics",
+  "chapter": "relations-functions",
+  "notes": {
+    "summary": "This chapter introduces ordered pairs, Cartesian products, relations as subsets of A × B, and functions as relations in which each element of the domain has exactly one image. CBSE tests counting results, domains and ranges of relations and real functions, the standard functions (identity, constant, polynomial, rational, modulus, signum, greatest integer), and the algebra of functions.",
+    "keyPoints": [
+      "(a, b) = (c, d) if and only if a = c and b = d. Order matters, so (1, 2) ≠ (2, 1).",
+      "A × B = {(a, b) : a ∈ A, b ∈ B} and n(A × B) = n(A) × n(B). A × ∅ = ∅, and in general A × B ≠ B × A.",
+      "A relation from A to B is any subset of A × B. If n(A) = p and n(B) = q, there are 2^(pq) relations. The range is always a subset of the codomain.",
+      "A function from A to B gives every element of A exactly one image in B, though two elements may share an image. If n(A) = p and n(B) = q, there are q^p functions from A to B.",
+      "Domain of a real function: the denominator must not be 0 and anything under a square root must be ≥ 0. Example: for f(x) = √(x − 1)/(x − 3), x ≥ 1 and x ≠ 3.",
+      "Standard functions and their ranges: identity f(x) = x has range R; constant f(x) = c has range {c}; modulus |x| has range [0, ∞); signum has range {−1, 0, 1}; greatest integer [x] has range Z. Examples: [−2.5] = −3 and [2.7] = 2.",
+      "Algebra of functions: (f ± g)(x) = f(x) ± g(x), (fg)(x) = f(x)·g(x), and (f/g)(x) = f(x)/g(x). The domain is the common domain of f and g, and for f/g you also remove the points where g(x) = 0.",
+      "Finding a range: put y = f(x), solve for x, and keep the values of y for which x is real and in the domain. Example: y = x²/(1 + x²) gives x² = y/(1 − y), so 0 ≤ y < 1.",
+      "A linear function f(x) = mx + c is fixed by two values: f(0) gives c, and any other point then gives m."
+    ],
+    "traps": [
+      "Writing the pairs of A × B the wrong way round as (b, a), or assuming A × B = B × A.",
+      "Calling a relation a function when some element of the domain has two images, or rejecting a function just because two elements share an image.",
+      "Treating [x] as rounding. [−2.5] = −3, not −2.",
+      "Forgetting to remove the zeros of the denominator, or using > 0 instead of ≥ 0 under a square root (≥ 0 is correct unless the root is in the denominator).",
+      "Mixing up range and codomain. The range is only the set of images that are actually reached."
+    ],
+    "examTip": "For any domain question, write each restriction separately (denominator ≠ 0, expression under the root ≥ 0), then combine them on a number line before you pick an option."
+  },
+  "questions": [
+    {
+      "text": "If A × B = {(p, q), (p, r), (m, q), (m, r)}, then:",
+      "difficulty": "EASY",
+      "options": [
+        "A = {p, m} and B = {q, r}",
+        "A = {q, r} and B = {p, m}",
+        "A = {p, q} and B = {m, r}",
+        "A = {p, r} and B = {m, q}"
+      ],
+      "answer": 0,
+      "explanation": "Every ordered pair in A × B has the form (element of A, element of B). The first components are p and m, so A = {p, m}. The second components are q and r, so B = {q, r}. Check: n(A × B) = 2 × 2 = 4 pairs, as given. So A = {p, m} and B = {q, r}."
+    },
+    {
+      "text": "Which of the following relations is a function?",
+      "difficulty": "EASY",
+      "options": [
+        "{(1, 2), (2, 3), (1, 4), (3, 5)}",
+        "{(2, 1), (3, 1), (4, 2), (5, 2)}",
+        "{(1, 1), (1, 2), (2, 3), (3, 4)}",
+        "{(0, 1), (0, 2), (0, 3), (0, 4)}"
+      ],
+      "answer": 1,
+      "explanation": "A relation is a function only if no first element is paired with two different second elements. In the first option, 1 is paired with both 2 and 4. In the third, 1 is paired with both 1 and 2. In the fourth, 0 has four images. In {(2, 1), (3, 1), (4, 2), (5, 2)}, each of 2, 3, 4 and 5 has exactly one image, and two inputs sharing an image is allowed. So the second relation is a function."
+    },
+    {
+      "text": "The range of the relation R = {(x, x²) : x is a prime number less than 10} is:",
+      "difficulty": "EASY",
+      "options": [
+        "{2, 3, 5, 7}",
+        "{1, 4, 9, 25, 49}",
+        "{4, 9, 25, 49}",
+        "{4, 9, 16, 25, 36, 49}"
+      ],
+      "answer": 2,
+      "explanation": "The prime numbers less than 10 are 2, 3, 5 and 7 (1 is not prime). So R = {(2, 4), (3, 9), (5, 25), (7, 49)}. The range is the set of second elements, {4, 9, 25, 49}. {2, 3, 5, 7} is the domain, not the range. So the range is {4, 9, 25, 49}."
+    },
+    {
+      "text": "The Cartesian product A × A has 9 elements, two of which are (−1, 0) and (0, 1). Then the set A is:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "{−1, 0}",
+        "{0, 1}",
+        "{−1, 1}",
+        "{−1, 0, 1}"
+      ],
+      "answer": 3,
+      "explanation": "n(A × A) = n(A) × n(A) = 9, so n(A) = 3. The pair (−1, 0) shows that −1 and 0 are in A, and the pair (0, 1) shows that 1 is in A. These are three different elements, so A = {−1, 0, 1}. Any two-element set would give only 2 × 2 = 4 pairs. So A = {−1, 0, 1}."
+    },
+    {
+      "text": "The range of the real function f(x) = 5 − 2x, where x ∈ R and x > 0, is:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "(5, ∞)",
+        "(−∞, 5)",
+        "(−∞, 5]",
+        "R"
+      ],
+      "answer": 1,
+      "explanation": "Since x > 0, multiplying by −2 reverses the inequality: −2x < 0. Adding 5 gives 5 − 2x < 5, so f(x) < 5. As x grows, 5 − 2x decreases without limit, and every y < 5 is reached at x = (5 − y)/2, which is positive. The value 5 itself would need x = 0, which is not allowed. So the range is (−∞, 5)."
+    },
+    {
+      "text": "If f(x) = x² and g(x) = 2x + 1 are real functions, then (f/g)(x) is:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "x²/(2x + 1), x ∈ R − {−1/2}",
+        "(2x + 1)/x², x ∈ R − {0}",
+        "x²/(2x + 1), x ∈ R",
+        "x²/(2x + 1), x ∈ R − {1/2}"
+      ],
+      "answer": 0,
+      "explanation": "(f/g)(x) = f(x)/g(x) = x²/(2x + 1). Both f and g are defined for every real x, but the quotient is defined only where g(x) ≠ 0. Solving 2x + 1 = 0 gives x = −1/2. So (f/g)(x) = x²/(2x + 1) for x ∈ R − {−1/2}."
+    },
+    {
+      "text": "If f(x) = x², then the value of [f(1.1) − f(1)] / (1.1 − 1) is:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "0.21",
+        "1.1",
+        "21",
+        "2.1"
+      ],
+      "answer": 3,
+      "explanation": "f(1.1) = (1.1)² = 1.21 and f(1) = 1² = 1. The numerator is 1.21 − 1 = 0.21. The denominator is 1.1 − 1 = 0.1. So the value is 0.21 ÷ 0.1 = 2.1."
+    },
+    {
+      "text": "A relation R on the set of natural numbers N is defined by R = {(a, b) : a + 3b = 12, where a, b ∈ N}. The domain of R is:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "{1, 2, 3}",
+        "{0, 3, 6, 9}",
+        "{3, 6, 9}",
+        "{3, 6, 9, 12}"
+      ],
+      "answer": 2,
+      "explanation": "Write a = 12 − 3b and try natural numbers for b. b = 1 gives a = 9, b = 2 gives a = 6 and b = 3 gives a = 3. b = 4 gives a = 0, which is not a natural number, and larger b make a negative. So R = {(9, 1), (6, 2), (3, 3)}. The domain is the set of first elements, {3, 6, 9}; the range is {1, 2, 3}."
+    },
+    {
+      "text": "The relation f = {(1, 1), (2, 3), (0, −1), (−1, −3)} is a linear function from Z into Z. Then f(x) is:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "3x − 2",
+        "2x − 1",
+        "2x + 1",
+        "−2x + 1"
+      ],
+      "answer": 1,
+      "explanation": "Let f(x) = mx + c. The pair (0, −1) gives f(0) = c = −1. The pair (1, 1) gives m + c = 1, so m = 2. So f(x) = 2x − 1. Check: f(2) = 3 and f(−1) = −3, which match the other two pairs. Note that 3x − 2 fits (1, 1) but gives f(2) = 4. So f(x) = 2x − 1."
+    },
+    {
+      "text": "The range of the real function f(x) = x²/(1 + x²), x ∈ R, is:",
+      "difficulty": "HARD",
+      "options": [
+        "[0, 1)",
+        "[0, 1]",
+        "(0, 1)",
+        "[0, ∞)"
+      ],
+      "answer": 0,
+      "explanation": "Let y = x²/(1 + x²). Then y + yx² = x², so x²(1 − y) = y and x² = y/(1 − y), with y ≠ 1. For x to be real we need x² ≥ 0, that is, y/(1 − y) ≥ 0, which holds for 0 ≤ y < 1. y = 0 is reached at x = 0. y = 1 is never reached, because x² is always less than 1 + x². So the range is [0, 1)."
+    },
+    {
+      "text": "The domain of the real function f(x) = √(x − 1) / (x − 3) is:",
+      "difficulty": "HARD",
+      "options": [
+        "[1, ∞)",
+        "(1, 3) ∪ (3, ∞)",
+        "R − {3}",
+        "[1, 3) ∪ (3, ∞)"
+      ],
+      "answer": 3,
+      "explanation": "Condition 1: the expression under the square root must be non-negative, so x − 1 ≥ 0, that is, x ≥ 1. The value x = 1 is allowed and gives f(1) = 0. Condition 2: the denominator must not be zero, so x ≠ 3. Combining the two, x can be any number in [1, ∞) except 3. So the domain is [1, 3) ∪ (3, ∞)."
+    }
+  ]
+}

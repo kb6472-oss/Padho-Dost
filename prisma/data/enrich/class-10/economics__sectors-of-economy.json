@@ -1,0 +1,161 @@
+{
+  "exam": "class-10",
+  "subject": "economics",
+  "chapter": "sectors-of-economy",
+  "notes": {
+    "summary": "This NCERT chapter classifies economic activities in three ways — by the nature of activity (primary, secondary, tertiary), by conditions of employment (organised, unorganised) and by ownership of assets (public, private) — and explains GDP, the rise of the tertiary sector, underemployment and ways to create jobs, including MGNREGA 2005. CBSE tests it through classification of activities, GDP and double-counting problems, assertion-reason items on sectoral change, and case-based questions on unorganised workers and the role of government.",
+    "keyPoints": [
+      "Primary sector: goods produced by directly using natural resources — agriculture, dairy, fishing, forestry, mining; it forms the base for all other products. Secondary sector: natural products changed into other forms through manufacturing (cotton → yarn, sugarcane → sugar, clay → bricks); also called the industrial sector. Tertiary sector: activities that support the other two and do not produce a good themselves — transport, storage, communication, banking, trade; also teachers, doctors, IT services.",
+      "GDP is the value of all final goods and services produced within a country during a particular year. Intermediate goods are not counted separately because the final value already includes them. Example: cotton ₹500 → yarn ₹800 → cloth ₹1,200; GDP adds ₹1,200, not ₹2,500.",
+      "In developed countries the most important sector shifted over time from primary to secondary (with new methods of manufacturing and factories) and, over the past 100 years, from secondary to tertiary.",
+      "In India the tertiary sector has become the largest producing sector, yet the primary sector (mainly agriculture) still employs the largest share of workers, because not enough jobs were created in the secondary and tertiary sectors.",
+      "Reasons for the growth of the tertiary sector: basic services provided by government (hospitals, schools, post, police, courts, transport, banks, insurance); growth of agriculture and industry needs transport, trade and storage; rising incomes raise demand for eating out, tourism, shopping, private hospitals and schools; new IT-based services. Not every service worker is well off — many small shopkeepers and repair persons barely earn a living.",
+      "Underemployment (disguised unemployment): more people work than are needed, so each is not fully employed — e.g., five family members on a plot that needs three; removing two does not reduce output. In towns, casual painters, plumbers, repair persons and street vendors may not find work every day.",
+      "Creating jobs: irrigation through dams and canals, rural roads, transport and storage, cheap credit, agro-processing units (dal mill, cold storage, honey collection), tourism, regional crafts and IT. MGNREGA 2005 implements the Right to Work: 100 days of guaranteed work a year to those who need it in rural areas, with an unemployment allowance if the government fails to provide work.",
+      "Organised sector: enterprises registered by the government that follow laws such as the Factories Act, Minimum Wages Act, Payment of Gratuity Act and Shops and Establishments Act; regular jobs, fixed hours, paid leave, provident fund, gratuity, medical benefits. Unorganised sector: small, scattered units largely outside government control, low and irregular pay, no job security. Vulnerable groups include landless labourers, small and marginal farmers, sharecroppers, artisans, construction workers, street vendors and head-load workers; many workers from SC, ST and backward communities are in this sector.",
+      "Public sector: government owns most assets and provides services (e.g., railways, post office) and its purpose is not just profit. Private sector: assets owned by individuals or companies, motivated by profit. Government undertakes costly works (roads, bridges, railways, harbours, dams) that need huge sums, are hard to charge users for, or would be priced too high by private firms; it also buys wheat and rice at a fair price and sells them cheaper through ration shops, bearing part of the cost."
+    ],
+    "traps": [
+      "Classifying dairy, poultry or fishing as secondary — they are primary because they depend on natural and biological processes.",
+      "Adding the value at every stage of production to find GDP — this double counts; only final goods and services are counted.",
+      "Mixing the three bases of classification: nature of activity (primary/secondary/tertiary), conditions of employment (organised/unorganised) and ownership (public/private).",
+      "Assuming the sector that produces the most also employs the most — in India the tertiary sector produces the most, but the primary sector employs the most.",
+      "Thinking all tertiary-sector workers are skilled and well paid."
+    ],
+    "examTip": "Before classifying, check which basis the question uses — what is produced, how workers are employed, or who owns the assets — and then pick the sector."
+  },
+  "questions": [
+    {
+      "text": "NCERT describes how the importance of the three sectors changed over time in developed countries. Which sequence correctly shows the sector that became the most important, from the earliest stage to the present?",
+      "difficulty": "EASY",
+      "options": [
+        "Secondary → Primary → Tertiary",
+        "Primary → Secondary → Tertiary",
+        "Tertiary → Secondary → Primary",
+        "Primary → Tertiary → Secondary"
+      ],
+      "answer": 1,
+      "explanation": "In the initial stages of development, the primary sector was the most important, as most people were farmers, herders or fishermen.\nWith new methods of manufacturing and the spread of factories, the secondary sector gradually became the most important in total production and employment.\nIn the past 100 years, there has been a further shift from the secondary to the tertiary sector in developed countries.\nSo the sequence is Primary → Secondary → Tertiary."
+    },
+    {
+      "text": "Ravi delivers parcels for a courier company, his sister Meena moulds and bakes bricks at a kiln, and their father catches fish in a river. To which sectors do their activities belong, respectively?",
+      "difficulty": "EASY",
+      "options": [
+        "Primary, secondary, tertiary",
+        "Secondary, tertiary, primary",
+        "Tertiary, primary, secondary",
+        "Tertiary, secondary, primary"
+      ],
+      "answer": 3,
+      "explanation": "Courier delivery is a service that supports production and trade, so it is tertiary.\nBrick-making changes clay into a new product through manufacturing, so it is secondary.\nFishing directly uses a natural resource, so it is primary.\nSo the order is tertiary, secondary, primary."
+    },
+    {
+      "text": "Dairy farming is classified in the primary sector because:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "it depends on the biological process of animals and the availability of fodder",
+        "milk is sold in the market for money",
+        "it is carried out mostly in villages by unorganised workers",
+        "it changes raw materials into new products using machines"
+      ],
+      "answer": 0,
+      "explanation": "Primary sector activities produce goods by exploiting natural resources and natural processes.\nNCERT notes that dairy depends on the biological process of animals and the availability of fodder, which is a natural process.\nBeing sold for money makes something a market activity in any sector; location or being unorganised is not the basis for this classification; changing raw materials into new products is secondary.\nSo dairy is primary because it depends on the biological process of animals and fodder."
+    },
+    {
+      "text": "A farmer sells cotton to a spinning mill for ₹500. The mill turns it into yarn and sells the yarn to a weaver for ₹800. The weaver makes cloth and sells it to consumers for ₹1,200. How much should be added to GDP from this chain of production?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "₹2,500",
+        "₹500",
+        "₹1,200",
+        "₹700"
+      ],
+      "answer": 2,
+      "explanation": "GDP counts only the value of final goods and services.\nCotton and yarn are intermediate goods; their value is already included in the price of the cloth.\nAdding 500 + 800 + 1,200 = ₹2,500 would count the same cotton three times (double counting).\nCheck by value added: 500 + (800 − 500) + (1,200 − 800) = 500 + 300 + 400 = ₹1,200.\nSo ₹1,200 is added to GDP."
+    },
+    {
+      "text": "On what basis are enterprises classified into the public sector and the private sector?",
+      "difficulty": "EASY",
+      "options": [
+        "Who owns the assets and is responsible for delivering the services",
+        "The nature of the economic activity carried out",
+        "Whether workers have regular jobs and social security",
+        "The number of workers employed in the enterprise"
+      ],
+      "answer": 0,
+      "explanation": "In the public sector, the government owns most of the assets and provides the services, e.g., railways and the post office.\nIn the private sector, ownership of assets and delivery of services are in the hands of private individuals or companies.\nThe nature of activity is the basis for primary, secondary and tertiary sectors; regular jobs and social security are the basis for organised and unorganised sectors.\nSo the basis is ownership of assets and responsibility for delivering services."
+    },
+    {
+      "text": "A garment factory is said to be in the organised sector. Which feature is the main reason for this?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "It is located in a big city",
+        "It is registered by the government and has to follow rules and laws such as the Factories Act and the Minimum Wages Act",
+        "It earns large profits every year",
+        "Its workers are hired on a daily basis"
+      ],
+      "answer": 1,
+      "explanation": "NCERT defines the organised sector as enterprises or places of work where the terms of employment are regular.\nSuch enterprises are registered by the government and have to follow its rules and regulations given in laws such as the Factories Act, Minimum Wages Act, Payment of Gratuity Act and Shops and Establishments Act.\nLocation and profits do not decide the sector, and daily hiring is a feature of the unorganised sector.\nSo registration with the government and following its laws is the reason."
+    },
+    {
+      "text": "Under the Mahatma Gandhi National Rural Employment Guarantee Act 2005 (MGNREGA), what happens if the government fails to provide work to a rural person who has asked for it?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "The person loses the right to apply again that year",
+        "The person is given a loan from a moneylender",
+        "The person is shifted to a city for work",
+        "The government gives the person an unemployment allowance"
+      ],
+      "answer": 3,
+      "explanation": "MGNREGA 2005 implements the Right to Work in rural areas.\nAll those who are able to, and are in need of, work are guaranteed 100 days of employment in a year by the government.\nIf the government fails in this duty, it gives unemployment allowances to the people.\nSo the person receives an unemployment allowance."
+    },
+    {
+      "text": "Which of the following is an example of underemployment (hidden unemployment) in an urban area?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "A software engineer with a permanent job in an IT company",
+        "A painter who searches for work daily but gets work only on some days of the week",
+        "A government school teacher with a fixed monthly salary",
+        "A bank clerk who works six days a week throughout the year"
+      ],
+      "answer": 1,
+      "explanation": "Underemployment means people are working but not to their full potential or not every day.\nNCERT notes that in urban areas thousands of casual workers in the service sector — painters, plumbers, repair persons and others doing odd jobs — search for work daily and often do not find it.\nThe engineer, teacher and clerk have regular, full-time jobs.\nSo the casual painter is an example of urban underemployment."
+    },
+    {
+      "text": "Assertion (A): As income levels rise, the tertiary sector tends to grow in importance.\nReason (R): People with higher incomes start demanding more services such as eating out, tourism, shopping, private hospitals and private schools.\nChoose the correct option:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 0,
+      "explanation": "A is true: NCERT lists rising income as one reason why the tertiary sector has grown in India.\nR is true: as income rises, certain sections of people demand more services like eating out, tourism, shopping, private hospitals, private schools and professional training.\nThis higher demand for services is exactly why the tertiary sector grows, so R explains A.\nSo both are true and R is the correct explanation of A."
+    },
+    {
+      "text": "Consider the following statements about why the government undertakes activities such as building roads, bridges, railways, harbours and irrigation dams:\nI. These activities need large sums of money that may be beyond the capacity of the private sector.\nII. Collecting money from the thousands of people who use these facilities is not easy.\nIII. Even if private companies provided them, they might charge a high rate for their use.\nIV. Private companies in India are prohibited by law from producing electricity.\nWhich statements correctly explain the government's role?",
+      "difficulty": "HARD",
+      "options": [
+        "I and II only",
+        "II and IV only",
+        "I, II and III only",
+        "I, II, III and IV"
+      ],
+      "answer": 2,
+      "explanation": "NCERT explains that society needs some things that the private sector will not provide at a reasonable cost.\nStatement I is correct: they need very large spending, beyond the capacity of the private sector.\nStatement II is correct: collecting money from thousands of users is not easy.\nStatement III is correct: if private firms did provide them, they would charge a high rate.\nStatement IV is wrong: there is no such ban; NCERT only says the government sells electricity at rates that small-scale industries can afford.\nSo I, II and III only."
+    },
+    {
+      "text": "Consider the following statements:\nI. A large number of workers from scheduled castes, scheduled tribes and backward communities are found in the unorganised sector.\nII. Workers in the organised sector get benefits such as provident fund, gratuity and paid leave.\nIII. Enterprises in the unorganised sector are registered by the government and strictly follow the Factories Act.\nIV. Small and marginal farmers need government support through timely supply of seeds, agricultural inputs, credit, storage facilities and marketing outlets.\nWhich of these statements are correct?",
+      "difficulty": "HARD",
+      "options": [
+        "I and III only",
+        "II and III only",
+        "I, II, III and IV",
+        "I, II and IV only"
+      ],
+      "answer": 3,
+      "explanation": "I is correct: NCERT notes that most workers from SC, ST and backward communities are in the unorganised sector, where they also face social discrimination.\nII is correct: organised sector workers get provident fund, gratuity, paid leave and medical benefits.\nIII is wrong: unorganised enterprises are small, scattered and largely outside government control; rules exist but are not followed.\nIV is correct: NCERT says small and marginal farmers need support through timely seeds, inputs, credit, storage and marketing outlets.\nSo I, II and IV only."
+    }
+  ]
+}

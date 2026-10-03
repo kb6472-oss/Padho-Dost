@@ -1,0 +1,146 @@
+{
+  "exam": "class-10",
+  "subject": "science",
+  "chapter": "light-reflection-refraction",
+  "notes": {
+    "summary": "This chapter covers reflection by plane and spherical mirrors (image formation, sign convention, mirror formula and magnification) and refraction through a glass slab and spherical lenses (laws of refraction, refractive index, lens formula, magnification and power). CBSE tests it through image-nature questions based on ray diagrams, sign-convention numericals, power calculations and assertion-reason items.",
+    "keyPoints": [
+      "Laws of reflection: angle of incidence = angle of reflection, and the incident ray, normal and reflected ray lie in one plane. A plane mirror forms a virtual, erect, same-size image as far behind the mirror as the object is in front, and laterally inverted.",
+      "Spherical mirrors: R = 2f. Concave mirror image positions: object at infinity → image at F, point-sized, real, inverted; beyond C → between F and C, diminished; at C → at C, same size; between C and F → beyond C, enlarged; at F → at infinity; between P and F → behind the mirror, virtual, erect, enlarged. A convex mirror always gives a virtual, erect, diminished image between P and F.",
+      "Uses: concave mirrors in torches and headlights (bulb at focus gives a parallel beam), shaving and dentists' mirrors, solar furnaces; convex mirrors as rear-view mirrors because they give an erect image and a wider field of view.",
+      "New Cartesian sign convention: the pole or optical centre is the origin; distances measured in the direction of incident light are positive and those against it negative; heights above the principal axis are positive. u is negative for a real object; f is negative for a concave mirror and a concave lens, and positive for a convex mirror and a convex lens.",
+      "Mirror formula: 1/v + 1/u = 1/f; magnification m = h′/h = −v/u. Example: u = −30 cm, f = −20 cm → 1/v = −1/20 + 1/30 = −1/60, v = −60 cm, m = −2 (real, inverted, twice the size).",
+      "Laws of refraction: the incident ray, refracted ray and normal lie in one plane, and sin i / sin r is constant for a given pair of media (Snell's law). Refractive index n = c/v; relative refractive index n₂₁ = v₁/v₂. Example: n = 1.5 → v = 3 × 10⁸ ÷ 1.5 = 2 × 10⁸ m/s. Diamond (n = 2.42) has the highest value in the NCERT table. Optical density is not mass density: kerosene (1.44) is optically denser than water (1.33) yet floats on it.",
+      "Glass slab: a ray bends towards the normal when entering the denser glass and away from it when leaving; the emergent ray is parallel to the incident ray but laterally displaced.",
+      "Lenses: a convex lens gives image positions similar to a concave mirror (with 2F₁ in place of C); a concave lens always gives a virtual, erect, diminished image between F₁ and the optical centre. Lens formula: 1/v − 1/u = 1/f; magnification m = h′/h = v/u. Example: concave lens f = −15 cm, u = −30 cm → 1/v = −1/15 − 1/30 = −1/10, v = −10 cm, m = +1/3.",
+      "Power P = 1/f with f in metres; unit dioptre (D). Convex lens: positive power; concave lens: negative. For lenses in contact, P = P₁ + P₂ + … Example: +2.0 D and −0.5 D → +1.5 D, f = 1/1.5 m ≈ 66.7 cm (converging)."
+    ],
+    "traps": [
+      "Using the same magnification formula for both: for mirrors m = −v/u, for lenses m = v/u.",
+      "Forgetting to convert f into metres before finding power (f = 25 cm gives P = 1/0.25 = 4 D, not 0.04 D).",
+      "Mixing up the formulas: the mirror formula has a plus sign (1/v + 1/u) and the lens formula a minus sign (1/v − 1/u).",
+      "Judging optical density by heaviness: compare refractive indices only.",
+      "Thinking that covering half a lens removes half the image: the full image forms, only dimmer."
+    ],
+    "examTip": "Write every distance with its sign before substituting, then read the signs of the answer: a negative v for a mirror (or a positive v for a lens) means a real image, and a negative m means an inverted image."
+  },
+  "questions": [
+    {
+      "text": "According to the New Cartesian sign convention for spherical mirrors and lenses, which quantity is always negative for a real object placed in front of the mirror or lens?",
+      "difficulty": "EASY",
+      "options": ["Focal length (f)", "Image distance (v)", "Object distance (u)", "Height of the object (h)"],
+      "answer": 2,
+      "explanation": "In the New Cartesian sign convention the object is always placed to the left of the pole or optical centre, so light falls from the left. Distances measured against the direction of incident light are negative, so u is always negative. f and v can be positive or negative depending on the mirror or lens and the image, and an object standing above the principal axis has a positive height. So the answer is the object distance (u)."
+    },
+    {
+      "text": "An object is placed anywhere in front of a convex mirror. The image formed is always:",
+      "difficulty": "EASY",
+      "options": [
+        "virtual, erect and diminished",
+        "real, inverted and diminished",
+        "virtual, erect and enlarged",
+        "real, erect and of the same size"
+      ],
+      "answer": 0,
+      "explanation": "A convex mirror diverges the reflected rays, and they only appear to meet behind the mirror. For an object at any position, the image forms behind the mirror between P and F. Such an image is virtual, erect and smaller than the object. This is why convex mirrors are used as rear-view mirrors."
+    },
+    {
+      "text": "A person uses a mirror to see an enlarged, erect image of his face while shaving. The mirror and the position of his face must be:",
+      "difficulty": "EASY",
+      "options": [
+        "a convex mirror, with the face anywhere in front of it",
+        "a plane mirror, with the face at any distance",
+        "a concave mirror, with the face beyond its centre of curvature",
+        "a concave mirror, with the face between its pole and focus"
+      ],
+      "answer": 3,
+      "explanation": "A convex mirror gives only diminished images, and a plane mirror gives same-size images. A concave mirror with the object beyond C gives a real, inverted, diminished image. When the object is between the pole and the focus of a concave mirror, the image is virtual, erect and enlarged, which is ideal for shaving. So it is a concave mirror with the face between P and F."
+    },
+    {
+      "text": "A spherical mirror and a thin spherical lens each have a focal length of −15 cm. The mirror and the lens are most likely:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "mirror concave, lens convex",
+        "both concave",
+        "mirror convex, lens concave",
+        "both convex"
+      ],
+      "answer": 1,
+      "explanation": "For mirrors, the focus of a concave mirror is in front of it (on the incident-light side), so its f is negative; a convex mirror has a positive f. For lenses, a convex lens has a positive f and a concave lens a negative f. A negative focal length therefore means a concave mirror and a concave lens. So both are concave."
+    },
+    {
+      "text": "The refractive index of a type of glass is 1.5. If the speed of light in vacuum is 3 × 10⁸ m/s, the speed of light in this glass is:",
+      "difficulty": "MEDIUM",
+      "options": ["4.5 × 10⁸ m/s", "1.5 × 10⁸ m/s", "2 × 10⁸ m/s", "3 × 10⁸ m/s"],
+      "answer": 2,
+      "explanation": "Absolute refractive index n = speed of light in vacuum ÷ speed of light in the medium, so v = c/n. v = 3 × 10⁸ ÷ 1.5 = 2 × 10⁸ m/s. Multiplying instead of dividing gives the wrong 4.5 × 10⁸ m/s, which would be faster than light in vacuum. So the speed in glass is 2 × 10⁸ m/s."
+    },
+    {
+      "text": "Two thin lenses of power +2.0 D and −0.5 D are placed in contact. The focal length and nature of the combination are:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "+66.7 cm, converging",
+        "+40 cm, converging",
+        "−66.7 cm, diverging",
+        "+50 cm, converging"
+      ],
+      "answer": 0,
+      "explanation": "For thin lenses in contact, P = P₁ + P₂ = (+2.0) + (−0.5) = +1.5 D. f = 1/P = 1/1.5 m ≈ 0.667 m = 66.7 cm. The positive sign means the combination acts like a convex, converging lens. (Adding 2.0 + 0.5 = 2.5 D would wrongly give 40 cm.) So the answer is +66.7 cm, converging."
+    },
+    {
+      "text": "The lower half of a convex lens is covered with black paper, and the lens is then used to form the image of a candle flame on a screen. The image formed will be:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "only the upper half of the flame",
+        "only the lower half of the flame",
+        "not formed at all",
+        "the complete image of the flame, but less bright"
+      ],
+      "answer": 3,
+      "explanation": "Every point of the object sends rays to all parts of the lens. The uncovered half still receives rays from every point of the flame and refracts them to the corresponding image points. So the complete image still forms. Since only half the light passes through, the image is less bright. The answer is the complete image, but less bright."
+    },
+    {
+      "text": "No matter how far you stand from a mirror, your image always appears erect. The mirror is likely to be:",
+      "difficulty": "MEDIUM",
+      "options": ["only concave", "either plane or convex", "either plane or concave", "only convex"],
+      "answer": 1,
+      "explanation": "A plane mirror always forms a virtual, erect image of the same size, at any distance. A convex mirror always forms a virtual, erect, diminished image. A concave mirror gives an erect image only when the object is between P and F; beyond F the image becomes real and inverted. So the mirror is either plane or convex."
+    },
+    {
+      "text": "An object is placed 30 cm in front of a concave lens of focal length 15 cm. The position and nature of the image are:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "30 cm on the other side of the lens; real and inverted",
+        "10 cm from the lens on the same side as the object; virtual, erect and diminished",
+        "10 cm on the other side of the lens; real and diminished",
+        "30 cm on the same side as the object; virtual and of the same size"
+      ],
+      "answer": 1,
+      "explanation": "For a concave lens, f = −15 cm, and u = −30 cm. Lens formula: 1/v − 1/u = 1/f, so 1/v = 1/f + 1/u = −1/15 + (−1/30) = −3/30 = −1/10, giving v = −10 cm. The negative v means the image is on the same side as the object, so it is virtual. m = v/u = (−10)/(−30) = +1/3, so the image is erect and one-third the size. The image is 10 cm from the lens on the object's side, virtual, erect and diminished."
+    },
+    {
+      "text": "An object 4.0 cm tall is placed 30 cm in front of a concave mirror of focal length 20 cm. The height and nature of the image are:",
+      "difficulty": "HARD",
+      "options": [
+        "2.0 cm; virtual and erect",
+        "8.0 cm; virtual and erect",
+        "2.0 cm; real and inverted",
+        "8.0 cm; real and inverted"
+      ],
+      "answer": 3,
+      "explanation": "Take u = −30 cm and f = −20 cm. Mirror formula: 1/v = 1/f − 1/u = −1/20 + 1/30 = (−3 + 2)/60 = −1/60, so v = −60 cm (in front of the mirror, so real). m = −v/u = −(−60)/(−30) = −2. h′ = m × h = −2 × 4.0 = −8.0 cm; the negative sign means inverted. The image is 8.0 cm tall, real and inverted, as expected for an object between C and F."
+    },
+    {
+      "text": "Assertion (A): Kerosene (refractive index 1.44) is optically denser than water (refractive index 1.33).\nReason (R): Kerosene has a greater mass density than water.\nChoose the correct option.",
+      "difficulty": "HARD",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A.",
+        "Both A and R are true, but R is not the correct explanation of A.",
+        "A is true, but R is false.",
+        "A is false, but R is true."
+      ],
+      "answer": 2,
+      "explanation": "Optical density is judged by refractive index: the medium with the larger refractive index is optically denser and light travels more slowly in it. Since 1.44 > 1.33, kerosene is optically denser than water, so A is true. But kerosene floats on water, so its mass density is lower, and R is false. NCERT stresses that optical density and mass density are different properties. A is true, but R is false."
+    }
+  ]
+}

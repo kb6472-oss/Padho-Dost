@@ -1,0 +1,160 @@
+{
+  "exam": "class-12",
+  "subject": "business-studies",
+  "chapter": "principles-of-management",
+  "notes": {
+    "summary": "This chapter explains the meaning, nature and significance of management principles and the two classical contributions: F.W. Taylor's scientific management (four principles and techniques) and Henri Fayol's 14 principles of general management. CBSE tests it mainly through case-based identification of principles and techniques, matching items, comparison of Fayol and Taylor, and assertion-reason questions.",
+    "keyPoints": [
+      "Management principles are broad, general guidelines for decision-making and behaviour; they differ from techniques (procedures or methods) and values (moral norms). Nature: universal applicability, general guidelines, formed by practice and experimentation, flexible, mainly behavioural, cause-and-effect relationship, contingent.",
+      "Significance of principles: provide managers useful insights into reality, optimum utilisation of resources and effective administration, scientific decisions, meeting changing environment requirements, fulfilling social responsibility, and management training, education and research.",
+      "Taylor's four principles: Science, not rule of thumb; Harmony, not discord (needs a mental revolution, i.e. a complete change in the attitude of management and workers towards each other); Cooperation, not individualism; Development of each and every person to his or her greatest efficiency and prosperity.",
+      "Functional foremanship separates planning from execution with 8 specialists. Planning in-charge: instruction card clerk, route clerk, time and cost clerk, disciplinarian. Production in-charge: speed boss, gang boss, repair boss, inspector. It extends division of work and specialisation to the shop floor but violates unity of command.",
+      "Other Taylor techniques: standardisation (setting benchmarks for every activity) and simplification (eliminating superfluous varieties, sizes and dimensions), method study (best way to do a job), motion study (remove wasteful movements), time study (standard time), fatigue study (amount and frequency of rest intervals), differential piece wage system (e.g. standard 10 units: ₹50 per unit to those meeting it, ₹40 per unit to others, so 11 units earn ₹550 and 9 units earn ₹360).",
+      "Fayol's 14 principles: Division of work; Authority and responsibility; Discipline; Unity of command; Unity of direction; Subordination of individual interest to general interest; Remuneration of employees; Centralisation and decentralisation; Scalar chain; Order; Equity; Stability of tenure of personnel; Initiative; Esprit de corps.",
+      "Unity of command means one boss for each employee (prevents dual subordination); unity of direction means one head and one plan for a group of activities with the same objective (prevents overlapping of activities). Scalar chain is the formal line of authority; the gang plank permits direct contact between employees at the same level in an emergency, with the knowledge of superiors.",
+      "Fayol vs Taylor: Fayol had a top-level perspective, strictly followed unity of command, gave principles of universal application based on personal experience, and was a practitioner (mining engineer). Taylor had a shop-floor perspective, violated unity of command, gave techniques for specialised situations based on observation and experimentation, and was a scientist (mechanical engineer)."
+    ],
+    "traps": [
+      "Confusing unity of command (one superior for each subordinate) with unity of direction (one head and one plan for a group of activities with the same objective).",
+      "Assuming functional foremanship follows unity of command; it violates it because each worker reports to eight specialist foremen.",
+      "Mixing up the techniques: method study finds the best way of doing a job, motion study removes unnecessary movements, time study fixes the standard time and fatigue study fixes rest intervals.",
+      "Mistaking standardisation (setting standards for every business activity) for simplification (eliminating unnecessary varieties, sizes and dimensions of products).",
+      "In case studies, choosing a related principle instead of the one the facts point to, e.g. 'division of work' when the real issue is frequent transfers (stability of tenure of personnel)."
+    ],
+    "examTip": "In case-based questions, underline the key phrase in the case (two bosses, frequent transfers, one plan, team spirit, suggestions encouraged, broken commitments) and map it to the exact name of the principle or technique before reading the options."
+  },
+  "questions": [
+    {
+      "text": "According to F.W. Taylor, the principle of 'Harmony, not discord' can be achieved only through",
+      "difficulty": "EASY",
+      "options": [
+        "functional foremanship",
+        "mental revolution, i.e. a complete change in the attitude of management and workers towards each other",
+        "the differential piece wage system",
+        "standardisation of tools and equipment"
+      ],
+      "answer": 1,
+      "explanation": "Taylor held that conflict between management and workers benefits neither side.\nHarmony requires both to recognise each other's importance: management should share the gains of the company with workers, and workers should work hard and accept change.\nTaylor called this change in outlook a 'mental revolution'.\nSo harmony, not discord, is achieved through mental revolution."
+    },
+    {
+      "text": "How many general principles of management were given by Henri Fayol?",
+      "difficulty": "EASY",
+      "options": [
+        "8",
+        "4",
+        "14",
+        "12"
+      ],
+      "answer": 2,
+      "explanation": "Henri Fayol gave 14 general principles of management in his book 'General and Industrial Management'.\nThey include division of work, authority and responsibility, discipline, unity of command, unity of direction, scalar chain, order, equity and esprit de corps, among others.\nFour is the number of Taylor's principles of scientific management, and eight is the number of specialists in functional foremanship.\nSo Fayol gave 14 principles."
+    },
+    {
+      "text": "Under Taylor's scientific management, 'simplification of work' aims at",
+      "difficulty": "EASY",
+      "options": [
+        "eliminating unnecessary varieties, sizes and dimensions of products",
+        "setting standards for every business activity",
+        "determining the amount and frequency of rest intervals",
+        "studying the movements involved in doing a job"
+      ],
+      "answer": 0,
+      "explanation": "Simplification means eliminating superfluous diversity of products, i.e. unnecessary varieties, sizes and dimensions.\nIt saves the cost of labour, machines and tools, reduces inventory and makes fuller use of equipment.\nSetting standards for every activity is standardisation, rest intervals are decided by fatigue study, and studying movements is motion study.\nSo simplification aims at eliminating unnecessary varieties, sizes and dimensions."
+    },
+    {
+      "text": "Ravi was appointed as a machine operator in a factory. Within two months he was transferred to the packing section, and a month later to the dispatch section, before he could learn any of the jobs properly. Which principle of management is being violated?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Order",
+        "Unity of command",
+        "Division of work",
+        "Stability of tenure of personnel"
+      ],
+      "answer": 3,
+      "explanation": "Fayol's principle of stability of tenure says employees should be selected and appointed after a proper process and then kept at their post for a minimum fixed tenure.\nThis gives them time to learn the job and builds a sense of security.\nFrequent transfers before an employee settles waste training effort and lead to inefficiency and higher labour turnover.\nSo the principle violated is stability of tenure of personnel."
+    },
+    {
+      "text": "Neha, the sales manager of a company, has been asked to increase sales by 20% this year. However, she is not allowed to appoint salespersons or offer any discount without the approval of the managing director. Which principle of management is being ignored?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Authority and responsibility",
+        "Scalar chain",
+        "Centralisation and decentralisation",
+        "Esprit de corps"
+      ],
+      "answer": 0,
+      "explanation": "Fayol's principle of authority and responsibility requires a balance (parity) between the authority given and the responsibility imposed.\nNeha is responsible for a 20% increase in sales but lacks the authority to take decisions needed for it, such as hiring salespersons or offering discounts.\nResponsibility without matching authority makes a manager ineffective, while authority without responsibility can lead to its misuse.\nSo the principle ignored is authority and responsibility."
+    },
+    {
+      "text": "Under Taylor's technique of functional foremanship, which of the following specialists works under the Planning In-charge?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Speed boss",
+        "Gang boss",
+        "Route clerk",
+        "Inspector"
+      ],
+      "answer": 2,
+      "explanation": "Functional foremanship separates planning from execution.\nUnder the Planning In-charge: instruction card clerk, route clerk, time and cost clerk and disciplinarian.\nUnder the Production In-charge: speed boss, gang boss, repair boss and inspector.\nThe route clerk specifies the exact sequence or route of production, so he works under the Planning In-charge."
+    },
+    {
+      "text": "Management principles aim at influencing the behaviour of human beings and help in better understanding the relationship between human and material resources in achieving organisational goals. This describes which feature of the nature of management principles?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Universal applicability",
+        "Mainly behavioural",
+        "Cause and effect relationship",
+        "Contingent"
+      ],
+      "answer": 1,
+      "explanation": "NCERT describes management principles as mainly behavioural because they aim at influencing human behaviour and clarify the relationship between human and material resources.\nUniversal applicability means they can be applied to all types of organisations.\nCause and effect relationship means they tell what will result from applying them.\nContingent means their application depends on the prevailing situation.\nSo the feature described is 'mainly behavioural'."
+    },
+    {
+      "text": "Which of the following correctly distinguishes Fayol's principles of management from Taylor's scientific management?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Fayol's principles are concerned with the shop floor, while Taylor's are concerned with the top level of management",
+        "Fayol was a scientist, while Taylor was a practitioner",
+        "Taylor's techniques have universal application, while Fayol's principles apply only to specialised situations",
+        "Fayol's principles are based on personal experience, while Taylor's are based on observation and experimentation"
+      ],
+      "answer": 3,
+      "explanation": "NCERT compares the two on several bases.\nPerspective: Fayol's is top-level management, Taylor's is the shop floor.\nPersonality: Fayol was a practitioner (mining engineer), Taylor a scientist (mechanical engineer).\nApplicability: Fayol's principles are universal, Taylor's techniques suit specialised situations.\nBasis of formation: Fayol relied on personal experience, Taylor on observation and experimentation, so the last statement is correct; the other three are reversed."
+    },
+    {
+      "text": "The management of a factory promised its workers a bonus for achieving a production target. When the target was achieved, the management refused to pay the bonus, and the workers then stopped work without giving any notice. Which principle of management has been violated by both the parties?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Equity",
+        "Discipline",
+        "Remuneration of employees",
+        "Initiative"
+      ],
+      "answer": 1,
+      "explanation": "Fayol's principle of discipline means obedience to organisational rules and to the agreements made between management and workers.\nIt requires good superiors at all levels, clear and fair agreements, and judicious application of penalties.\nThe management broke its commitment by refusing the promised bonus, and the workers broke the rules by stopping work without notice.\nSince both sides failed to honour their commitments, both violated the principle of discipline."
+    },
+    {
+      "text": "Assertion (A): Functional foremanship is an extension of the principle of division of work and specialisation to the shop floor.\nReason (R): Under functional foremanship, a worker receives orders from only one foreman, so the principle of unity of command is followed.",
+      "difficulty": "HARD",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 2,
+      "explanation": "Taylor separated planning from execution and placed eight specialist foremen, each expert in one function, over the workers.\nThis applies division of work and specialisation at the shop-floor level, so A is true.\nHowever, each worker receives orders from all eight foremen, which violates Fayol's unity of command, so R is false.\nHence A is true but R is false."
+    },
+    {
+      "text": "Consider the following pairs of a Fayol principle and a likely consequence of its violation:\nI. Unity of command – confusion among subordinates and undermining of authority\nII. Order – delays and wastage of time and materials in locating things\nIII. Stability of tenure of personnel – high labour turnover and inefficiency\nIV. Equity – loss of specialisation and lower output\nWhich of the pairs are correctly matched?",
+      "difficulty": "HARD",
+      "options": [
+        "I, II and III only",
+        "I and IV only",
+        "II, III and IV only",
+        "I, II, III and IV"
+      ],
+      "answer": 0,
+      "explanation": "I is correct: orders from two superiors create confusion and undermine authority.\nII is correct: if there is no fixed place for people and things, time and materials are wasted in locating them.\nIII is correct: insecurity and frequent changes cause high labour turnover and inefficiency.\nIV is wrong: violating equity causes discrimination, dissatisfaction and low morale; loss of specialisation results from violating division of work.\nSo only I, II and III are correctly matched."
+    }
+  ]
+}

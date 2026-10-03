@@ -1,0 +1,107 @@
+{
+  "exam": "neet",
+  "subject": "biology",
+  "chapter": "human-health-and-disease",
+  "notes": {
+    "summary": "This chapter covers common infectious diseases in humans (pathogen, transmission, symptoms), the life cycle of the malaria parasite, innate and acquired immunity, vaccination, allergy, autoimmunity, the lymphoid system, AIDS, cancer, and drug and alcohol abuse. NEET mostly tests pathogen–disease–vector matching, immunity facts, HIV and cancer biology, and where drugs come from and how they act.",
+    "keyPoints": [
+      "Bacterial diseases: typhoid (Salmonella typhi, confirmed by the Widal test) and pneumonia (Streptococcus pneumoniae and Haemophilus influenzae; the alveoli fill with fluid). Viral disease: common cold (rhinoviruses; affects the nose and respiratory passage but not the lungs).",
+      "Protozoan diseases: malaria (Plasmodium vivax, P. malariae, P. falciparum; P. falciparum causes malignant malaria) and amoebiasis (Entamoeba histolytica; houseflies are mechanical carriers). Helminth diseases: ascariasis (Ascaris) and filariasis or elephantiasis (Wuchereria bancrofti, W. malayi; spread by Culex). Fungal disease: ringworm (Microsporum, Trichophyton, Epidermophyton).",
+      "Plasmodium life cycle: sporozoites enter through the bite of a female Anopheles → multiply in liver cells → invade RBCs (RBC rupture releases haemozoin, causing chills and fever) → gametocytes form in RBCs → fertilisation in the mosquito's stomach → sporozoites move to its salivary glands.",
+      "Innate immunity barriers: physical (skin, mucus), physiological (stomach acid, saliva, tears), cellular (PMNL-neutrophils, monocytes, NK cells, macrophages) and cytokine (interferons).",
+      "An antibody is H₂L₂ (two heavy and two light chains). The types are IgA, IgM, IgE and IgG, and colostrum supplies IgA (passive immunity). The primary immune response is weak; the secondary (anamnestic) response is strong.",
+      "Lymphoid organs: primary are bone marrow and thymus; secondary are spleen, lymph nodes, tonsils, Peyer's patches and appendix. MALT makes up about 50% of the body's lymphoid tissue.",
+      "Allergy involves IgE antibodies, and mast cells release histamine and serotonin. Antihistamines, adrenalin and steroids reduce the symptoms. Rheumatoid arthritis is an autoimmune disease.",
+      "AIDS: HIV is a retrovirus. In macrophages, reverse transcriptase copies its RNA into DNA, and the macrophages keep making virus (an HIV factory) while helper T cells decline. ELISA is used for diagnosis. HIV spreads by sexual contact, transfusion, shared needles and from mother to foetus through the placenta.",
+      "Cancer: cancer cells lose contact inhibition. Carcinogens are ionising radiation (X-rays, γ-rays), non-ionising radiation (UV), chemicals (tobacco smoke) and oncogenic viruses. Detection uses biopsy, CT and MRI; treatment uses surgery, radiation, chemotherapy and immunotherapy (α-interferon).",
+      "Drugs: heroin is diacetylmorphine, a depressant made from morphine in poppy latex. Cannabinoids come from Cannabis sativa and affect the cardiovascular system. Cocaine comes from Erythroxylum coca, blocks dopamine transport and acts as a stimulant. Nicotine makes the adrenals release adrenaline and nor-adrenaline, and smoking raises CO in the blood."
+    ],
+    "traps": [
+      "Saying the common cold (rhinovirus) infects the lungs. It does not; pneumonia does.",
+      "Placing malaria fertilisation in human blood. It happens in the mosquito's stomach; only the gametocytes form in human RBCs.",
+      "Linking allergy to IgG. Allergy involves IgE, and colostrum is rich in IgA.",
+      "Calling UV ionising. UV is non-ionising; X-rays and γ-rays are ionising.",
+      "Listing the thymus as a secondary lymphoid organ. It is a primary lymphoid organ."
+    ],
+    "examTip": "Make a pathogen → disease → vector/transmission table and revise it the night before. Many NEET papers include a question matched directly from it."
+  },
+  "questions": [
+    {
+      "text": "Which disease is caused by fungi of the genera Microsporum, Trichophyton and Epidermophyton?",
+      "difficulty": "EASY",
+      "options": ["Ascariasis", "Amoebiasis", "Elephantiasis", "Ringworm"],
+      "answer": 3,
+      "explanation": "Ringworm is one of the most common infectious diseases in humans. It is caused by fungi of the genera Microsporum, Trichophyton and Epidermophyton, and it spreads through soil or by sharing towels and clothes. Heat and moisture help these fungi grow in skin folds such as the groin. Ascariasis and elephantiasis are caused by helminths and amoebiasis by a protozoan. The answer is ringworm."
+    },
+    {
+      "text": "Heroin, commonly called smack, is chemically:",
+      "difficulty": "EASY",
+      "options": ["Diacetylmorphine", "Tetrahydrocannabinol", "A coca-plant alkaloid", "Nicotine"],
+      "answer": 0,
+      "explanation": "Heroin is diacetylmorphine, a white, odourless, bitter crystalline compound. It is made by acetylating morphine, which is extracted from the latex of the poppy plant Papaver somniferum. It is a depressant that slows down body functions. The answer is diacetylmorphine."
+    },
+    {
+      "text": "Each antibody molecule is made of:",
+      "difficulty": "EASY",
+      "options": ["One heavy and three light polypeptide chains", "Four heavy polypeptide chains", "Two heavy and two light polypeptide chains", "Four light polypeptide chains"],
+      "answer": 2,
+      "explanation": "Each antibody molecule has four peptide chains: two small ones called light chains and two longer ones called heavy chains. This is why an antibody is written as H₂L₂. The answer is two heavy and two light chains."
+    },
+    {
+      "text": "Which of the following is correctly described?",
+      "difficulty": "MEDIUM",
+      "options": ["Common cold — caused by Haemophilus influenzae; infects the alveoli of the lungs", "Pneumonia — caused by rhinoviruses; infects only the nose and respiratory passage", "Common cold — caused by Streptococcus pneumoniae; lips and fingernails turn bluish", "Pneumonia — caused by Streptococcus pneumoniae and Haemophilus influenzae; the alveoli fill with fluid"],
+      "answer": 3,
+      "explanation": "Pneumonia is caused by the bacteria Streptococcus pneumoniae and Haemophilus influenzae. They infect the alveoli, which fill with fluid and make breathing difficult, and in severe cases the lips and fingernails turn grey to bluish. The common cold is caused by rhinoviruses and affects the nose and respiratory passage but not the lungs. The answer is the last option."
+    },
+    {
+      "text": "Which sequence correctly describes the life cycle of Plasmodium?",
+      "difficulty": "MEDIUM",
+      "options": ["Sporozoites enter human → multiply in RBCs → multiply in liver → gametocytes form in liver → fertilisation in mosquito's salivary gland", "Sporozoites enter human → multiply in liver cells → attack RBCs → gametocytes develop in RBCs → fertilisation in mosquito's stomach → sporozoites reach salivary glands", "Gametocytes enter human → fertilisation in human liver → sporozoites form in RBCs → taken up by mosquito", "Sporozoites enter human → gametocytes form in liver → fertilisation in human blood → sporozoites taken up by mosquito"],
+      "answer": 1,
+      "explanation": "A female Anopheles injects sporozoites (the infective stage) when it bites. The parasites first multiply in liver cells and then attack RBCs, and sexual stages (gametocytes) develop inside the RBCs. A mosquito takes up the gametocytes with blood, fertilisation and development happen in its stomach, and the sporozoites then move to its salivary glands. The answer is the second sequence."
+    },
+    {
+      "text": "In an allergic reaction, which antibodies are produced and which chemicals are released from mast cells, respectively?",
+      "difficulty": "MEDIUM",
+      "options": ["IgG; histamine and serotonin", "IgE; histamine and serotonin", "IgA; interferons", "IgE; adrenalin and steroids"],
+      "answer": 1,
+      "explanation": "An allergy is an exaggerated immune response to allergens such as dust mites, pollen or animal dander. The antibodies produced are of the IgE type. Mast cells release chemicals such as histamine and serotonin, which cause the symptoms. Adrenalin and steroids are drugs used to reduce the symptoms, not chemicals the mast cells release. The answer is IgE; histamine and serotonin."
+    },
+    {
+      "text": "Cocaine, obtained from the coca plant Erythroxylum coca, acts by:",
+      "difficulty": "MEDIUM",
+      "options": ["Interfering with the transport of the neurotransmitter dopamine, which strongly stimulates the central nervous system", "Binding to opioid receptors in the CNS and gut and slowing body functions", "Acting mainly on the cardiovascular system, like cannabinoids", "Stimulating the adrenal gland to release adrenaline and nor-adrenaline"],
+      "answer": 0,
+      "explanation": "Cocaine, from the coca plant native to South America, interferes with the transport of dopamine. This gives a powerful stimulant effect on the CNS, with euphoria and extra energy, and high doses cause hallucinations. Binding opioid receptors describes heroin, effects on the cardiovascular system describe cannabinoids, and stimulating the adrenal gland describes nicotine. The answer is dopamine interference."
+    },
+    {
+      "text": "Which of the following statements about cancer is INCORRECT?",
+      "difficulty": "MEDIUM",
+      "options": ["Normal cells show contact inhibition, a property that cancer cells have lost", "Benign tumours usually stay in their original location and cause little damage", "UV rays are ionising radiation, whereas X-rays and gamma rays are non-ionising radiation", "Biological response modifiers such as α-interferon activate the immune system and help destroy tumours"],
+      "answer": 2,
+      "explanation": "Contact with other cells stops normal cells from dividing, and cancer cells have lost this control. Benign tumours stay local, while malignant ones spread (metastasis). X-rays and gamma rays are ionising radiation and UV is non-ionising, though all of them can damage DNA and cause cancer. α-interferon is used in immunotherapy. The incorrect statement is the third one, which has the radiation types reversed."
+    },
+    {
+      "text": "Lymphoid tissue in the lining of the major tracts (respiratory, digestive and urogenital) makes up about 50 per cent of the lymphoid tissue in the human body. It is called:",
+      "difficulty": "MEDIUM",
+      "options": ["MALT (mucosa-associated lymphoid tissue)", "Thymus", "Bone marrow", "Spleen"],
+      "answer": 0,
+      "explanation": "Lymphoid organs are primary (bone marrow and thymus, where lymphocytes form and mature) or secondary (spleen, lymph nodes, tonsils, Peyer's patches, appendix). Lymphoid tissue in the lining of the major body tracts is called mucosa-associated lymphoid tissue, or MALT. It makes up about 50% of all lymphoid tissue. The answer is MALT."
+    },
+    {
+      "text": "Consider the following statements about HIV and AIDS:\nI. HIV is a retrovirus with an RNA genome.\nII. Inside macrophages, the viral RNA is copied into viral DNA by the enzyme reverse transcriptase.\nIII. HIV quickly kills infected macrophages, so they cannot act as a reservoir of the virus.\nIV. ELISA is a widely used test for diagnosing AIDS.\nWhich of the statements are correct?",
+      "difficulty": "HARD",
+      "options": ["I and II only", "II, III and IV only", "I, II and IV only", "I, II, III and IV"],
+      "answer": 2,
+      "explanation": "Statement I is correct: HIV is a retrovirus with an envelope around an RNA genome. Statement II is correct: in macrophages, reverse transcriptase makes viral DNA, which joins the host DNA. Statement III is wrong: macrophages keep producing virus and act like an HIV factory, and the virus then enters helper T cells. Statement IV is correct: ELISA is the standard diagnostic test. The correct statements are I, II and IV."
+    },
+    {
+      "text": "Assertion (A): Smoking raises the carbon monoxide content of the blood and lowers the concentration of haem-bound oxygen.\nReason (R): Nicotine stimulates the adrenal gland to release adrenaline and nor-adrenaline, which raise blood pressure and heart rate.\nChoose the correct option.",
+      "difficulty": "HARD",
+      "options": ["Both A and R are true, and R is the correct explanation of A", "Both A and R are true, but R is not the correct explanation of A", "A is true, but R is false", "A is false, but R is true"],
+      "answer": 1,
+      "explanation": "A is true: carbon monoxide in tobacco smoke binds haemoglobin, so less oxygen is carried bound to haem. R is also true: nicotine triggers release of adrenaline and nor-adrenaline, raising blood pressure and heart rate. But the hormone effect in R does not explain the CO and oxygen effect in A. So both are true, but R is not the correct explanation of A."
+    }
+  ]
+}

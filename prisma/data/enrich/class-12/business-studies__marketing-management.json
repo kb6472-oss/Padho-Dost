@@ -1,0 +1,107 @@
+{
+  "exam": "class-12",
+  "subject": "business-studies",
+  "chapter": "marketing-management",
+  "notes": {
+    "summary": "This chapter covers the meaning and functions of marketing, the five marketing management philosophies, and the 4Ps of the marketing mix: product (branding, packaging, labelling), price (factors affecting price), place (channels and physical distribution) and promotion (advertising, personal selling, sales promotion and public relations). CBSE mainly frames case-based questions in which you identify the philosophy, function, element or technique being described.",
+    "keyPoints": [
+      "Marketing = a social process by which individuals and groups obtain what they need and want through creating, offering and freely exchanging products of value. Exchange needs at least two parties, something of value, communication, freedom to accept or reject the offer and a desire to deal.",
+      "Marketing vs selling: selling is only a part of marketing. Selling focuses on transfer of title and profit through maximum sales and starts after production. Marketing starts before production (studying needs), continues after the sale and aims at profit through customer satisfaction.",
+      "Philosophies: production concept (availability and affordability), product concept (quality, performance, features), selling concept (aggressive selling and promotion), marketing concept (identify and satisfy customer needs), societal marketing concept (customer satisfaction plus long-term social welfare, e.g. eco-friendly packaging).",
+      "Functions: gathering and analysing market information, marketing planning, product designing and development, standardisation and grading, packaging and labelling, branding, customer support services, pricing, promotion, physical distribution, transportation and storage. Standardisation = producing to set specifications; grading = classifying products (mainly agricultural, e.g. wheat) into groups by size and quality.",
+      "Branding: brand name (the part that can be spoken), brand mark (symbol or design, not spoken), trademark (a legally protected brand). A good brand name is short, easy to pronounce and remember, suggests the product's benefits, is distinctive and can be registered.",
+      "Packaging levels: primary (immediate container, e.g. a toothpaste tube), secondary (extra protective layer, e.g. the cardboard box of the tube), transportation packaging (for storage and shipping, e.g. a corrugated carton of 100 boxes). Label functions: describe the product, identify it, grade it, help promotion and give information required by law (e.g. a statutory warning).",
+      "Factors affecting price: product cost, utility and demand, extent of competition, government and legal regulations (e.g. price control on essential medicines), pricing objectives, marketing methods used.",
+      "Channels: zero level (manufacturer → consumer), one level (via retailer), two level (via wholesaler and retailer), three level (via agent, wholesaler and retailer). Choice depends on product factors (perishable or bulky goods need short channels), company, competitive, market and environmental factors. Physical distribution: order processing, transportation (place utility), warehousing (time utility), inventory control (optimum stock level).",
+      "Promotion mix: advertising (paid, impersonal, mass media), personal selling (oral, face-to-face), sales promotion (short-term incentives such as rebate, discount, refund, product combination, quantity gift, instant draws, lucky draw, usable benefit, full finance at 0%, sampling, contests) and public relations (press relations, product publicity, corporate communication, lobbying, counselling). Publicity is unpaid.",
+      "Objections to advertising: adds to cost, undermines social values, confuses buyers, encourages the sale of inferior products, some ads are in bad taste. Counter-argument: higher demand brings economies of scale, which can lower the per-unit cost."
+    ],
+    "traps": [
+      "Writing 'selling concept' when a case stresses customer needs and research. That is the marketing concept; the selling concept stresses aggressive persuasion to sell whatever is produced.",
+      "Confusing discount (an offer below the list price) with rebate (a special reduced price to clear excess stock).",
+      "Calling the toothpaste box primary packaging. The tube is primary; the box is secondary.",
+      "Treating publicity as a form of advertising. Advertising is paid for by an identified sponsor; publicity is unpaid.",
+      "Saying warehousing creates place utility. Warehousing creates time utility; transportation creates place utility."
+    ],
+    "examTip": "For marketing case lines, name the exact NCERT term (e.g. 'quantity gift', 'societal marketing concept', 'secondary packaging') and quote the line from the case that supports it."
+  },
+  "questions": [
+    {
+      "text": "A newspaper publishes a news story praising a company's new solar cooker, and the company pays nothing for it. This form of non-paid communication is called:",
+      "difficulty": "EASY",
+      "options": ["Advertising", "Sales promotion", "Publicity", "Personal selling"],
+      "answer": 2,
+      "explanation": "Advertising is paid for by an identified sponsor, sales promotion uses short-term incentives and personal selling involves face-to-face contact. A favourable news story that the company does not pay for is publicity, which comes under public relations."
+    },
+    {
+      "text": "The Government declared a life-saving drug an essential medicine and fixed its maximum selling price. Which factor affecting the price of a product does this illustrate?",
+      "difficulty": "EASY",
+      "options": ["Government and legal regulations", "Extent of competition", "Utility and demand", "Product cost"],
+      "answer": 0,
+      "explanation": "To protect the public from unfair prices, the government can regulate the prices of essential goods. When the government fixes the maximum price, the firm cannot freely set its own price. This is the factor 'government and legal regulations'."
+    },
+    {
+      "text": "A firm believes that customers will always prefer products with the best quality, performance and features, so it concentrates mainly on continuous product improvement. Which marketing management philosophy is the firm following?",
+      "difficulty": "EASY",
+      "options": ["Production concept", "Selling concept", "Societal marketing concept", "Product concept"],
+      "answer": 3,
+      "explanation": "The production concept focuses on availability and low cost, the selling concept on aggressive promotion and the societal concept on social welfare. The product concept assumes customers favour products of superior quality, performance and features. A focus on constant product improvement therefore matches the product concept."
+    },
+    {
+      "text": "A detergent company studies customer needs and makes a product that satisfies them. It also uses biodegradable ingredients and recyclable packs so that the environment is not harmed. Which philosophy is the company following?",
+      "difficulty": "MEDIUM",
+      "options": ["Marketing concept", "Societal marketing concept", "Product concept", "Selling concept"],
+      "answer": 1,
+      "explanation": "The marketing concept focuses on identifying and satisfying customer needs. The societal marketing concept goes a step further: it satisfies customers while also caring for long-term social welfare, such as protecting the environment. Since the company combines customer satisfaction with eco-friendly practices, it follows the societal marketing concept."
+    },
+    {
+      "text": "A toothpaste tube is sold inside a cardboard box, and 100 such boxes are packed in a corrugated carton for dispatch to retailers. The cardboard box is an example of:",
+      "difficulty": "MEDIUM",
+      "options": ["Primary packaging", "Transportation packaging", "Labelling", "Secondary packaging"],
+      "answer": 3,
+      "explanation": "Primary packaging is the product's immediate container (the tube). Secondary packaging is the additional layer that protects the primary package and is usually discarded when the product is used (the cardboard box). The corrugated carton of 100 boxes is transportation packaging. So the cardboard box is secondary packaging."
+    },
+    {
+      "text": "A wholesaler sorts wheat into groups such as 'Premium', 'Standard' and 'Economy' on the basis of grain size and quality. Which marketing function is being performed?",
+      "difficulty": "MEDIUM",
+      "options": ["Grading", "Standardisation", "Branding", "Labelling"],
+      "answer": 0,
+      "explanation": "Standardisation means producing goods to predetermined specifications. Grading is the process of classifying products into groups based on features such as size, quality and colour, and it is especially important for agricultural products like wheat. So this is grading."
+    },
+    {
+      "text": "A company offered its washing machines at specially reduced prices for a limited period in order to clear the excess stock lying in its warehouses. Which sales promotion technique is this?",
+      "difficulty": "MEDIUM",
+      "options": ["Discount", "Refund", "Rebate", "Quantity gift"],
+      "answer": 2,
+      "explanation": "NCERT defines a rebate as offering products at special prices to clear off excess inventory. A discount is an offer below the list price, a refund returns part of the price on proof of purchase, and a quantity gift offers an extra quantity of the product. Since the aim is to clear excess stock, the technique is a rebate."
+    },
+    {
+      "text": "Which of the following statements correctly distinguishes marketing from selling?",
+      "difficulty": "MEDIUM",
+      "options": ["Marketing ends with the sale of goods, whereas selling continues after the sale", "Selling is a part of marketing and focuses on transfer of title, whereas marketing focuses on customer satisfaction", "Selling begins before production, whereas marketing begins after production", "Marketing aims at profit through maximum sales, whereas selling aims at profit through customer satisfaction"],
+      "answer": 1,
+      "explanation": "Selling is only one part of the wider marketing process. Selling aims at transferring ownership of goods and earning profit through maximum sales, and it starts after production. Marketing starts before production by studying customer needs, continues after the sale and aims at profit through customer satisfaction. Only the second statement is correct."
+    },
+    {
+      "text": "Bakery products such as bread and cakes are usually sold through very short channels of distribution. Which factor determining the choice of channel explains this?",
+      "difficulty": "MEDIUM",
+      "options": ["Market-related factor", "Competitive factor", "Product-related factor", "Company-related factor"],
+      "answer": 2,
+      "explanation": "Product-related factors include the nature of the product, such as its perishability, unit value and technical complexity. Perishable goods like bread lose quality quickly, so they need short channels that reach consumers fast. Hence this is a product-related factor."
+    },
+    {
+      "text": "Assertion (A): Advertising does not necessarily increase the per-unit cost of a product.\nReason (R): Advertising increases demand, which leads to large-scale production and economies of scale that reduce the per-unit cost.\nChoose the correct option.",
+      "difficulty": "HARD",
+      "options": ["Both A and R are true and R is the correct explanation of A", "Both A and R are true but R is not the correct explanation of A", "A is true but R is false", "A is false but R is true"],
+      "answer": 0,
+      "explanation": "Critics say advertising adds to the cost of a product. NCERT's counter-argument is that advertising raises demand, so the firm produces on a larger scale. Large-scale production brings economies of scale, which lower the per-unit cost and can make up for the advertising expense. So both A and R are true, and R correctly explains A."
+    },
+    {
+      "text": "Consider the following statements about the components of physical distribution:\n(i) Warehousing creates time utility by storing goods until they are needed.\n(ii) Transportation creates place utility by moving goods to where they are needed.\n(iii) Inventory control aims at keeping the maximum possible stock at all times.\n(iv) Order processing should be accurate and quick, because delays lead to customer dissatisfaction.\nWhich of these statements are correct?",
+      "difficulty": "HARD",
+      "options": ["(i) and (ii) only", "(ii), (iii) and (iv) only", "(i), (iii) and (iv) only", "(i), (ii) and (iv) only"],
+      "answer": 3,
+      "explanation": "Warehousing stores goods until demand arises, creating time utility, so (i) is correct. Transportation moves goods to the market, creating place utility, so (ii) is correct. Inventory control aims at an optimum (not maximum) level of stock, balancing the cost of holding stock against customer service, so (iii) is wrong. Accurate and speedy order processing keeps customers satisfied, so (iv) is correct. Answer: (i), (ii) and (iv) only."
+    }
+  ]
+}

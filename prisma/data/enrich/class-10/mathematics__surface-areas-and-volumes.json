@@ -1,0 +1,117 @@
+{
+  "exam": "class-10",
+  "subject": "mathematics",
+  "chapter": "surface-areas-and-volumes",
+  "notes": {
+    "summary": "This chapter covers surface areas and volumes of cubes, cuboids, cylinders, cones, spheres and hemispheres, and of solids formed by combining two of them (toys, tents, capsules, vessels). CBSE asks formula-based MCQs and assertion-reason items, and 3-5 mark case-based problems where the key skill is deciding which surfaces are exposed and which volumes add or subtract.",
+    "keyPoints": [
+      "Cuboid: TSA = 2(lb + bh + hl), V = lbh. Cube: TSA = 6a², V = a³ (TSA 216 cm² → a = 6 cm → V = 216 cm³).",
+      "Cylinder: CSA = 2πrh, TSA = 2πr(r + h), V = πr²h.",
+      "Cone: slant height l = √(r² + h²), CSA = πrl, TSA = πr(l + r), V = (1/3)πr²h. Example: r = 7, h = 24 gives l = 25.",
+      "Sphere: SA = 4πr², V = (4/3)πr³. Hemisphere: CSA = 2πr², TSA = 3πr², V = (2/3)πr³.",
+      "Surface area of a combined solid = sum of only the exposed surfaces; joined or hidden faces are not counted. Two 4 cm cubes joined end to end form an 8 × 4 × 4 cuboid of SA 160 cm², not 192 cm².",
+      "Volume of a combined solid = sum of the volumes of its parts; any part scooped or drilled out is subtracted.",
+      "Hemisphere of diameter a placed on a cube of side a: TSA = 6a² − πr² + 2πr² = 6a² + πr².",
+      "Capsule (cylinder with a hemisphere at each end): SA = 2πrh + 4πr², where h = total length − 2r.",
+      "Scaling: radius doubled → surface area 4 times, volume 8 times. A cone has one-third the volume of a cylinder with the same base radius and height.",
+      "When a solid is melted and recast, the volume is unchanged: number of new pieces × volume of each = volume of the original."
+    ],
+    "traps": [
+      "Counting hidden faces (the joined faces, the base of a cone sitting on a hemisphere, the floor of a tent) in the total surface area.",
+      "Using vertical height h instead of slant height l for the CSA of a cone, or l instead of h for its volume.",
+      "Taking the total length of a toy or capsule as the height of the cone or cylinder without subtracting the hemisphere radius.",
+      "Writing TSA of a solid hemisphere as 2πr²; the flat circular face πr² must be added to get 3πr².",
+      "Mixing units: area in cm², volume in cm³; 1 litre = 1000 cm³ and 1 m³ = 1000 litres."
+    ],
+    "examTip": "Before calculating, list every exposed surface (or every part's volume) in words and write one formula per part; this prevents both missing and double-counting surfaces."
+  },
+  "questions": [
+    {
+      "text": "Find the curved surface area of a hemisphere of radius 7 cm. (Use π = 22/7)",
+      "difficulty": "EASY",
+      "options": ["462 cm²", "308 cm²", "616 cm²", "154 cm²"],
+      "answer": 1,
+      "explanation": "CSA of a hemisphere = 2πr².\n= 2 × (22/7) × 7 × 7 = 308 cm².\n(462 cm² = 3πr² is the total surface area including the flat face, and 616 cm² is the surface area of the full sphere.)"
+    },
+    {
+      "text": "If the radius of a sphere is doubled, its volume becomes",
+      "difficulty": "EASY",
+      "options": ["4 times", "2 times", "8 times", "6 times"],
+      "answer": 2,
+      "explanation": "Volume of a sphere V = (4/3)πr³.\nWith radius 2r: V' = (4/3)π(2r)³ = 8 × (4/3)πr³ = 8V.\nSo the volume becomes 8 times (the surface area would become 4 times)."
+    },
+    {
+      "text": "Assertion (A): The total surface area of a solid hemisphere of radius r is 2πr².\nReason (R): The curved surface area of a hemisphere is half the surface area of a sphere of the same radius.\nChoose the correct option.",
+      "difficulty": "EASY",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A.",
+        "Both A and R are true but R is not the correct explanation of A.",
+        "A is true but R is false.",
+        "A is false but R is true."
+      ],
+      "answer": 3,
+      "explanation": "CSA of a hemisphere = ½ × 4πr² = 2πr², so R is true.\nA solid hemisphere also has a flat circular face of area πr², so TSA = 2πr² + πr² = 3πr².\nHence A is false but R is true."
+    },
+    {
+      "text": "Two cubes, each of volume 64 cm³, are joined end to end. Find the surface area of the resulting cuboid.",
+      "difficulty": "MEDIUM",
+      "options": ["192 cm²", "160 cm²", "128 cm²", "176 cm²"],
+      "answer": 1,
+      "explanation": "Edge of each cube = ∛64 = 4 cm.\nThe cuboid formed has l = 8 cm, b = 4 cm, h = 4 cm.\nSA = 2(lb + bh + hl) = 2(32 + 16 + 32) = 2 × 80 = 160 cm².\n(192 cm² = 2 × 96 wrongly includes the two joined faces of 16 cm² each.)"
+    },
+    {
+      "text": "A medicine capsule is in the shape of a cylinder with a hemisphere stuck to each of its two ends. The total length of the capsule is 20 mm and its diameter is 7 mm. Find its surface area. (Use π = 22/7)",
+      "difficulty": "MEDIUM",
+      "options": ["440 mm²", "594 mm²", "286 mm²", "517 mm²"],
+      "answer": 0,
+      "explanation": "Radius r = 3.5 mm. Length of the cylindrical part h = 20 − 2 × 3.5 = 13 mm.\nCSA of cylinder = 2πrh = 2 × (22/7) × 3.5 × 13 = 286 mm².\nCSA of two hemispheres = 2 × 2πr² = 4 × (22/7) × 12.25 = 154 mm².\nTotal surface area = 286 + 154 = 440 mm².\n(594 mm² comes from wrongly taking h = 20 mm.)"
+    },
+    {
+      "text": "A tent is in the shape of a cylinder of diameter 14 m and height 3 m, surmounted by a cone of the same base radius and slant height 10 m. Find the area of canvas needed to make the tent, given that the floor is not covered with canvas. (Use π = 22/7)",
+      "difficulty": "MEDIUM",
+      "options": ["506 m²", "220 m²", "352 m²", "374 m²"],
+      "answer": 2,
+      "explanation": "Radius r = 7 m.\nCSA of cylinder = 2πrh = 2 × (22/7) × 7 × 3 = 132 m².\nCSA of cone = πrl = (22/7) × 7 × 10 = 220 m².\nCanvas = 132 + 220 = 352 m².\n(506 m² wrongly adds the floor area πr² = 154 m².)"
+    },
+    {
+      "text": "A cubical block of side 14 cm is surmounted by a hemisphere of diameter 14 cm. Find the total surface area of the solid. (Use π = 22/7)",
+      "difficulty": "MEDIUM",
+      "options": ["1176 cm²", "1484 cm²", "1022 cm²", "1330 cm²"],
+      "answer": 3,
+      "explanation": "Surface area of cube = 6a² = 6 × 196 = 1176 cm²; hemisphere radius r = 7 cm.\nThe hemisphere covers a circle of area πr² on the top face but adds its curved surface 2πr².\nTSA = 6a² − πr² + 2πr² = 6a² + πr² = 1176 + (22/7) × 49.\nTSA = 1176 + 154 = 1330 cm².\n(1484 cm² forgets to subtract the covered circle.)"
+    },
+    {
+      "text": "A solid consists of a cone standing on a hemisphere, both of radius r. If the volume of the conical part is equal to the volume of the hemispherical part, the height of the cone is",
+      "difficulty": "MEDIUM",
+      "options": ["r", "2r", "3r", "r/2"],
+      "answer": 1,
+      "explanation": "Volume of cone = (1/3)πr²h; volume of hemisphere = (2/3)πr³.\nEquating: (1/3)πr²h = (2/3)πr³.\nCancelling (1/3)πr²: h = 2r."
+    },
+    {
+      "text": "Assertion (A): A cylinder and a cone have equal base radii and equal heights. The ratio of the volume of the cylinder to that of the cone is 3 : 1.\nReason (R): The volume of a cone is one-third the volume of a cylinder having the same base radius and height.\nChoose the correct option.",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A.",
+        "Both A and R are true but R is not the correct explanation of A.",
+        "A is true but R is false.",
+        "A is false but R is true."
+      ],
+      "answer": 0,
+      "explanation": "Volume of cylinder = πr²h and volume of cone = (1/3)πr²h, so R is true.\nRatio = πr²h : (1/3)πr²h = 3 : 1, so A is true.\nThe ratio follows directly from R, so R is the correct explanation of A."
+    },
+    {
+      "text": "A toy is in the form of a cone of radius 7 cm mounted on a hemisphere of the same radius. The total height of the toy is 31 cm. Find the total surface area of the toy. (Use π = 22/7)",
+      "difficulty": "HARD",
+      "options": ["836 cm²", "990 cm²", "858 cm²", "1012 cm²"],
+      "answer": 2,
+      "explanation": "Height of the cone h = 31 − 7 = 24 cm.\nSlant height l = √(24² + 7²) = √(576 + 49) = √625 = 25 cm.\nCSA of cone = πrl = (22/7) × 7 × 25 = 550 cm²; CSA of hemisphere = 2πr² = 2 × (22/7) × 49 = 308 cm².\nTSA = 550 + 308 = 858 cm².\n(836 cm² uses h instead of l, and 990 cm² uses 31 cm as the slant height.)"
+    },
+    {
+      "text": "From a solid cylinder of height 10 cm and radius 3.5 cm, a hemisphere of radius 3.5 cm is scooped out from each end. Find the total surface area of the remaining article. (Use π = 22/7)",
+      "difficulty": "HARD",
+      "options": ["297 cm²", "451 cm²", "66 cm²", "374 cm²"],
+      "answer": 3,
+      "explanation": "The flat ends are removed; the article is bounded by the curved surface of the cylinder and the inner surfaces of the two hemispherical hollows.\nCSA of cylinder = 2πrh = 2 × (22/7) × 3.5 × 10 = 220 cm².\nInner surface of each hollow = 2πr² = 2 × (22/7) × 12.25 = 77 cm²; for two hollows = 154 cm².\nTSA = 220 + 154 = 374 cm².\n(297 cm² is the TSA of the original solid cylinder.)"
+    }
+  ]
+}

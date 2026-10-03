@@ -1,0 +1,106 @@
+{
+  "exam": "jee",
+  "subject": "physics",
+  "chapter": "rotational-motion",
+  "notes": {
+    "summary": "This chapter covers centre of mass, torque, angular momentum, moment of inertia (with the parallel and perpendicular axis theorems), rotational dynamics, equilibrium of rigid bodies and rolling motion. JEE Main asks moment-of-inertia calculations, τ = Iα problems with pulleys, angular momentum conservation, and rolling energy and acceleration.",
+    "keyPoints": [
+      "Centre of mass: x_cm = Σmᵢxᵢ/Σmᵢ. For a body with a hole, treat the removed part as a negative mass. Example: removing a disc of radius R/2 from a disc of radius R (hole touching the rim) shifts the centre of mass by R/6.",
+      "Torque τ = r × F, with |τ| = rF sinθ. Net torque τ = Iα = dL/dt. For rotation about a fixed axis, L = Iω; for a point mass, L = r × p.",
+      "Standard moments of inertia: ring MR², disc and solid cylinder MR²/2, solid sphere 2MR²/5, hollow sphere 2MR²/3 (each about a central symmetry axis); thin rod ML²/12 about its centre and ML²/3 about one end.",
+      "Parallel axis theorem: I = I_cm + Md², and one of the two axes must pass through the centre of mass. Perpendicular axis theorem (flat bodies only): I_z = I_x + I_y. Example: a square plate has Ma²/12 about a diagonal. Radius of gyration K = √(I/M).",
+      "With no external torque, I₁ω₁ = I₂ω₂, but kinetic energy can change because K = L²/2I. Example: if the Earth shrank to half its radius, I would become I/4 and the day would last 6 h.",
+      "Rolling without slipping: v = ωR, KE = ½mv²(1 + K²/R²), and acceleration down an incline a = g sinθ/(1 + K²/R²). K²/R² values: ring 1, disc 1/2, solid sphere 2/5, hollow sphere 2/3.",
+      "A body launched sliding without rotation on a rough floor: angular momentum about the contact point is conserved. The final rolling speed is v₀/(1 + K²/R²): v₀/2 for a ring, 2v₀/3 for a disc or cylinder, 5v₀/7 for a solid sphere.",
+      "Rotational analogues of linear motion: ω = ω₀ + αt, θ = ω₀t + ½αt², ω² = ω₀² + 2αθ. Work W = τθ, power P = τω, angular impulse ∫τ dt = ΔL.",
+      "Equilibrium of a rigid body needs ΣF = 0 and Στ = 0 about any point. For a beam or metre rule, the weight acts at the centre of mass."
+    ],
+    "traps": [
+      "Applying the parallel axis theorem between two axes when neither passes through the centre of mass.",
+      "Ignoring the pulley's moment of inertia, or using MR² instead of MR²/2 for a disc-shaped pulley.",
+      "Assuming kinetic energy is conserved whenever angular momentum is conserved (two discs coupling, a person moving on a turntable).",
+      "Writing τ = Iα about an accelerating point other than the centre of mass (or the contact point in pure rolling).",
+      "Forgetting that rolling acceleration and speed depend only on K²/R², not on the mass or radius."
+    ],
+    "examTip": "Before any rolling or pulley question, write down K²/R² for the body (ring 1, disc 1/2, solid sphere 2/5, hollow sphere 2/3). Most answers follow directly from that number."
+  },
+  "questions": [
+    {
+      "text": "A force F = (î + 4ĵ) N acts at a point whose position vector relative to the origin is r = (3î + 2ĵ) m. The torque of the force about the origin is:",
+      "difficulty": "EASY",
+      "options": ["11 N m", "−10k̂ N m", "10k̂ N m", "14k̂ N m"],
+      "answer": 2,
+      "explanation": "τ = r × F = (3î + 2ĵ) × (î + 4ĵ).\n= 3·4 (î × ĵ) + 2·1 (ĵ × î) = 12k̂ − 2k̂ = 10k̂ N m.\n11 N m is the dot product r·F, and −10k̂ comes from calculating F × r instead of r × F."
+    },
+    {
+      "text": "The radius of gyration of a uniform disc of radius R about an axis through its centre and perpendicular to its plane is:",
+      "difficulty": "EASY",
+      "options": ["R/√2", "R", "R/2", "√(2/5) R"],
+      "answer": 0,
+      "explanation": "I = MR²/2, and by definition I = MK².\nSo K² = R²/2 and K = R/√2 ≈ 0.707R.\n(R is the value for a ring, and √(2/5) R is for a solid sphere.)"
+    },
+    {
+      "text": "A thin ring of mass 2 kg rolls without slipping on a horizontal floor, with its centre moving at 3 m/s. Its total kinetic energy is:",
+      "difficulty": "EASY",
+      "options": ["9 J", "18 J", "13.5 J", "27 J"],
+      "answer": 1,
+      "explanation": "KE = ½mv² + ½Iω², with I = mR² and ω = v/R.\nKE = ½mv² + ½mv² = mv² = 2 × 3² = 18 J.\n9 J is only the translational part, and 13.5 J (¾mv²) would be the answer for a disc."
+    },
+    {
+      "text": "A uniform circular disc has radius R. A circular piece of radius R/2 is cut out of it so that the edge of the hole touches the rim of the disc (the hole's centre is R/2 from the original centre). The centre of mass of the remaining part is now at a distance from the original centre of:",
+      "difficulty": "MEDIUM",
+      "options": ["R/2", "R/4", "R/8", "R/6"],
+      "answer": 3,
+      "explanation": "Mass is proportional to area. The full disc (area πR²) has mass 4m, and the removed piece (area πR²/4) has mass m, centred at x = R/2.\nx_cm = (4m·0 − m·R/2)/(4m − m) = −(mR/2)/(3m) = −R/6.\nSo the centre of mass is R/6 from the centre, on the side opposite the hole. (R/8 comes from dividing by 4m instead of 3m.)"
+    },
+    {
+      "text": "The moment of inertia of a thin uniform square plate of mass M and side a about one of its diagonals is:",
+      "difficulty": "MEDIUM",
+      "options": ["Ma²/6", "Ma²/3", "Ma²/12", "Ma²/24"],
+      "answer": 2,
+      "explanation": "About the axis through the centre and perpendicular to the plate, I_z = M(a² + a²)/12 = Ma²/6.\nBy the perpendicular axis theorem, I_z = I_d1 + I_d2, where the two diagonals are perpendicular axes in the plane. By symmetry I_d1 = I_d2.\nSo I_d = I_z/2 = Ma²/12, the same as about a line through the centre parallel to a side."
+    },
+    {
+      "text": "The moment of inertia of a thin uniform rod of mass M and length L about an axis perpendicular to the rod, passing through a point L/4 from one end, is:",
+      "difficulty": "MEDIUM",
+      "options": ["7ML²/48", "ML²/16", "ML²/12", "13ML²/48"],
+      "answer": 0,
+      "explanation": "The axis is L/2 − L/4 = L/4 from the centre of mass.\nParallel axis theorem: I = ML²/12 + M(L/4)² = ML²(4 + 3)/48 = 7ML²/48.\n13ML²/48 comes from the common mistake ML²/3 − M(L/4)², which uses an end axis that does not pass through the centre of mass."
+    },
+    {
+      "text": "A light string is wound around a uniform disc-shaped pulley of mass 4 kg and radius 0.2 m, which can turn freely about a fixed horizontal axle through its centre. A 1 kg block hangs from the free end of the string and is released from rest. The string does not slip. The acceleration of the block is (g = 10 m/s²):",
+      "difficulty": "MEDIUM",
+      "options": ["2 m/s²", "10/3 m/s² (about 3.33 m/s²)", "5 m/s²", "10 m/s²"],
+      "answer": 1,
+      "explanation": "Block: mg − T = ma, so 10 − T = 1·a.\nPulley: TR = Iα = (½MR²)(a/R), so T = ½Ma = 2a.\nAdding the two: 10 = 3a, so a = 10/3 ≈ 3.33 m/s².\nTreating the pulley as a ring (T = Ma) gives 2 m/s², and ignoring its inertia gives 10 m/s²."
+    },
+    {
+      "text": "Treat the Earth as a uniform sphere with no external torque acting on it. If it suddenly contracted to half its present radius with its mass unchanged, the length of a day would become:",
+      "difficulty": "MEDIUM",
+      "options": ["12 h", "48 h", "3 h", "6 h"],
+      "answer": 3,
+      "explanation": "Angular momentum L = Iω is conserved.\nI = (2/5)MR², so halving R makes I' = I/4.\nThen ω' = 4ω, and the period T' = T/4 = 24 h/4 = 6 h."
+    },
+    {
+      "text": "A uniform metre rule of mass 100 g balances horizontally on a knife-edge at the 40 cm mark when an unknown mass m hangs from the 10 cm mark. The value of m is about:",
+      "difficulty": "MEDIUM",
+      "options": ["33.3 g", "25 g", "50 g", "66.7 g"],
+      "answer": 0,
+      "explanation": "The rule's weight acts at its centre of mass, the 50 cm mark, which is 10 cm from the pivot.\nThe mass m hangs at 10 cm, which is 30 cm from the pivot on the other side.\nTaking moments about the pivot: m × 30 = 100 × 10, so m = 1000/30 ≈ 33.3 g."
+    },
+    {
+      "text": "A solid cylinder of mass m and radius R is placed on a rough horizontal surface. Its centre has an initial forward speed v₀ and it has no initial rotation. Kinetic friction acts until the cylinder rolls without slipping. The speed of its centre when pure rolling begins is:",
+      "difficulty": "HARD",
+      "options": ["v₀/2", "5v₀/7", "2v₀/3", "v₀"],
+      "answer": 2,
+      "explanation": "Friction acts at the contact point, so angular momentum about any point on the floor along the line of contact is conserved. (Gravity and the normal force cancel each other's torques.)\nInitially: L = mv₀R.\nFinally: L = mvR + Iω = mvR + (½mR²)(v/R) = (3/2)mvR.\nSo mv₀R = (3/2)mvR, giving v = 2v₀/3. (A ring would give v₀/2 and a solid sphere 5v₀/7.)"
+    },
+    {
+      "text": "A thin uniform rod of mass M and length L lies at rest on a smooth horizontal table. A horizontal impulse J is applied at one end, perpendicular to the rod. Immediately afterwards, the velocity of the other end of the rod is:",
+      "difficulty": "HARD",
+      "options": ["J/M, along the impulse", "2J/M, opposite to the impulse", "4J/M, along the impulse", "Zero"],
+      "answer": 1,
+      "explanation": "Linear impulse: v_cm = J/M.\nAngular impulse about the centre of mass: J(L/2) = (ML²/12)ω, so ω = 6J/(ML).\nAt the far end, rotation gives a velocity ω(L/2) = 3J/M opposite to v_cm.\nNet velocity = J/M − 3J/M = −2J/M, i.e. 2J/M opposite to the impulse. (The struck end moves at J/M + 3J/M = 4J/M.)"
+    }
+  ]
+}

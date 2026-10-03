@@ -1,0 +1,170 @@
+{
+  "exam": "jee",
+  "subject": "physics",
+  "chapter": "units-and-measurements",
+  "notes": {
+    "summary": "This chapter covers SI units, dimensions and dimensional analysis, significant figures, errors in measurement, and reading instruments such as the vernier callipers and screw gauge. JEE Main asks about it in almost every shift, usually on dimensional formulas of constants, finding exponents by dimensional analysis, error propagation, and least count with zero-error correction.",
+    "keyPoints": [
+      "SI has 7 base quantities: length (m), mass (kg), time (s), electric current (A), thermodynamic temperature (K), amount of substance (mol) and luminous intensity (cd).",
+      "High-yield dimensional formulas: force [MLT⁻²]; work, energy and torque [ML²T⁻²]; power [ML²T⁻³]; pressure and stress [ML⁻¹T⁻²]; Planck constant and angular momentum [ML²T⁻¹]; G [M⁻¹L³T⁻²]; viscosity η [ML⁻¹T⁻¹]; surface tension [MT⁻²].",
+      "Principle of homogeneity: only quantities with the same dimensions can be added, subtracted or equated; the arguments of sin, log and exponential functions must be dimensionless.",
+      "Dimensional analysis can check equations, convert units (n₂ = n₁[M₁/M₂]ᵃ[L₁/L₂]ᵇ[T₁/T₂]ᶜ) and derive relations such as f ∝ (1/l)√(F/μ), but it cannot give numerical constants or handle sums of terms.",
+      "Significant figures: all non-zero digits and zeros between them count; leading zeros do not (0.00450 has 3); trailing zeros after the decimal point do count.",
+      "Addition/subtraction: keep the fewest decimal places. Multiplication/division: keep the fewest significant figures (2.5 × 1.25 = 3.1). Rounding a trailing 5: leave an even preceding digit unchanged (2.745 → 2.74), raise an odd one (2.735 → 2.74).",
+      "Error propagation: for Z = A ± B, ΔZ = ΔA + ΔB; for Z = AᵖBᵠ/Cʳ, ΔZ/Z = pΔA/A + qΔB/B + rΔC/C. Errors always add.",
+      "Mean absolute error = average of |aᵢ − a_mean|; relative error = Δa_mean/a_mean; percentage error = relative error × 100.",
+      "Vernier LC = 1 MSD − 1 VSD; screw gauge LC = pitch/number of circular divisions (0.5 mm/50 = 0.01 mm). Corrected reading = observed reading − zero error (taken with its sign).",
+      "Systematic errors (zero error, faulty calibration) act in one direction and can be corrected; random errors vary irregularly and are reduced by averaging many readings."
+    ],
+    "traps": [
+      "Subtracting the relative error of a quantity that appears in the denominator; relative errors always add.",
+      "Forgetting to multiply a relative error by its power, e.g. 2ΔT/T in g = 4π²L/T² or ½Δd/d for √d.",
+      "Adding a positive zero error instead of subtracting it (a negative zero error is effectively added).",
+      "Counting leading zeros as significant figures, or letting the power of 10 change the count (4.50 × 10³ still has 3).",
+      "Assuming a dimensionally correct equation must be physically correct; pure numbers such as ½ or 2π cannot be checked by dimensions."
+    ],
+    "examTip": "For any dimensions question, first write a defining formula for the quantity (F = ma, E = hν, F = Gm₁m₂/r²) and substitute; it is faster and safer than recalling long lists."
+  },
+  "questions": [
+    {
+      "text": "Which of the following physical quantities has the same dimensions as Planck's constant (h)?",
+      "difficulty": "EASY",
+      "options": ["Linear momentum", "Energy", "Angular momentum", "Power"],
+      "answer": 2,
+      "explanation": "From E = hν, h = E/ν, so [h] = [ML²T⁻²]/[T⁻¹] = [ML²T⁻¹]. Angular momentum L = mvr has dimensions [M][LT⁻¹][L] = [ML²T⁻¹]. So h and angular momentum have the same dimensions."
+    },
+    {
+      "text": "A light year is a unit of:",
+      "difficulty": "EASY",
+      "options": ["Distance", "Time", "Speed", "Luminous intensity"],
+      "answer": 0,
+      "explanation": "A light year is the distance travelled by light in vacuum in one year. 1 ly = 3 × 10⁸ m/s × 3.156 × 10⁷ s ≈ 9.46 × 10¹⁵ m. Despite the word 'year', it measures length (distance)."
+    },
+    {
+      "text": "Which of the following quantities is dimensionless?",
+      "difficulty": "EASY",
+      "options": ["Stress", "Strain", "Pressure", "Surface tension"],
+      "answer": 1,
+      "explanation": "Strain = change in length ÷ original length, a ratio of two lengths, so it has no dimensions. Stress and pressure are force per unit area [ML⁻¹T⁻²]; surface tension is force per unit length [MT⁻²]."
+    },
+    {
+      "text": "Which of the following is NOT a unit of energy?",
+      "difficulty": "EASY",
+      "options": ["joule", "electron volt", "kilowatt hour", "watt"],
+      "answer": 3,
+      "explanation": "The watt (1 W = 1 J/s) is the unit of power, i.e. energy per unit time. The others are energy units: 1 eV = 1.6 × 10⁻¹⁹ J and 1 kWh = 1000 W × 3600 s = 3.6 × 10⁶ J."
+    },
+    {
+      "text": "Using the principle of homogeneity of dimensions, identify the dimensionally INCORRECT equation. (u, v are speeds, a is acceleration, s is distance and t is time.)",
+      "difficulty": "EASY",
+      "options": ["v = u + at", "v² = u² + 2as", "s = ut + at³", "s = ut + ½at²"],
+      "answer": 2,
+      "explanation": "Every term in a valid equation must have the same dimensions. In s = ut + at³, the term at³ has dimensions [LT⁻²][T³] = [LT], not [L], so it cannot be added to s. In the other equations each term is [LT⁻¹], [L²T⁻²] or [L] respectively, so they are consistent."
+    },
+    {
+      "text": "The zero error of a vernier callipers or a screw gauge is an example of:",
+      "difficulty": "EASY",
+      "options": ["Random error", "Systematic (instrumental) error", "Gross error due to carelessness", "A least count error that cannot be corrected"],
+      "answer": 1,
+      "explanation": "Systematic errors act in one direction (always positive or always negative) and arise from imperfect instruments or methods; zero error is a classic instrumental systematic error. It can be corrected by subtracting it (with sign) from every reading. Random errors vary irregularly and are reduced by averaging."
+    },
+    {
+      "text": "Following the standard rounding-off rules for significant figures (as given in NCERT), the number 2.745 rounded off to three significant figures is:",
+      "difficulty": "MEDIUM",
+      "options": ["2.75", "2.7", "2.745", "2.74"],
+      "answer": 3,
+      "explanation": "The digit to be dropped is 5 with nothing after it. The rule: if the preceding digit is even, it is left unchanged; if it is odd, it is increased by 1. Here the preceding digit is 4 (even), so 2.745 → 2.74. (By the same rule, 2.735 → 2.74.)"
+    },
+    {
+      "text": "Three masses, 312.45 g, 51.3 g and 0.278 g, are added together. The total mass, written with the correct number of significant figures, is:",
+      "difficulty": "MEDIUM",
+      "options": ["364.028 g", "364.03 g", "364 g", "364.0 g"],
+      "answer": 3,
+      "explanation": "In addition and subtraction, the result keeps as many decimal places as the term with the fewest decimal places. Sum = 312.45 + 51.3 + 0.278 = 364.028 g. The term 51.3 g has only one decimal place, so the result is rounded to 364.0 g."
+    },
+    {
+      "text": "The length and breadth of a rectangular sheet are measured as 2.5 m and 1.25 m respectively. Its area, written with the correct number of significant figures, is:",
+      "difficulty": "MEDIUM",
+      "options": ["3.125 m²", "3.13 m²", "3.1 m²", "3 m²"],
+      "answer": 2,
+      "explanation": "In multiplication and division, the result keeps as many significant figures as the factor with the fewest significant figures. 2.5 m has 2 significant figures. Area = 2.5 × 1.25 = 3.125 m², rounded to 2 significant figures = 3.1 m²."
+    },
+    {
+      "text": "The dimensional formula of the universal gravitational constant G is:",
+      "difficulty": "MEDIUM",
+      "options": ["[M⁻¹L³T⁻²]", "[ML²T⁻²]", "[M⁻²L³T⁻²]", "[M⁻¹L²T⁻²]"],
+      "answer": 0,
+      "explanation": "From F = Gm₁m₂/r², G = Fr²/(m₁m₂). [G] = [MLT⁻²][L²]/[M²] = [M⁻¹L³T⁻²]."
+    },
+    {
+      "text": "A physical quantity Q is calculated from Q = a²b³/(c√d). The percentage errors in a, b, c and d are 1%, 2%, 3% and 4% respectively. The maximum percentage error in Q is:",
+      "difficulty": "MEDIUM",
+      "options": ["10%", "13%", "26%", "9%"],
+      "answer": 1,
+      "explanation": "For a product of powers, relative errors multiplied by their powers add up, whether the quantity is in the numerator or the denominator: ΔQ/Q = 2(Δa/a) + 3(Δb/b) + (Δc/c) + ½(Δd/d). = 2(1%) + 3(2%) + 3% + ½(4%) = 2 + 6 + 3 + 2 = 13%."
+    },
+    {
+      "text": "In a vernier callipers, one main-scale division (MSD) is 0.5 mm and 50 vernier-scale divisions coincide with 49 main-scale divisions. The least count of the instrument is:",
+      "difficulty": "MEDIUM",
+      "options": ["0.1 mm", "0.05 mm", "0.01 mm", "0.5 mm"],
+      "answer": 2,
+      "explanation": "50 VSD = 49 MSD, so 1 VSD = (49/50) × 0.5 mm = 0.49 mm. Least count = 1 MSD − 1 VSD = 0.5 − 0.49 = 0.01 mm. (Equivalently, LC = value of 1 MSD ÷ number of vernier divisions = 0.5/50 = 0.01 mm.)"
+    },
+    {
+      "text": "The frequency f of vibration of a stretched string depends on its length l, the tension F in it and its mass per unit length μ. Using dimensional analysis, f is proportional to:",
+      "difficulty": "MEDIUM",
+      "options": ["l√(F/μ)", "(1/l)√(μ/F)", "(1/l²)√(F/μ)", "(1/l)√(F/μ)"],
+      "answer": 3,
+      "explanation": "Let f = k lᵃ Fᵇ μᶜ. Then [T⁻¹] = [L]ᵃ[MLT⁻²]ᵇ[ML⁻¹]ᶜ. Comparing powers: M: b + c = 0; T: −2b = −1 → b = ½, so c = −½; L: a + b − c = 0 → a + ½ + ½ = 0 → a = −1. Hence f ∝ l⁻¹ × √F ÷ √μ = (1/l)√(F/μ)."
+    },
+    {
+      "text": "The value of the gravitational constant in SI units is 6.67 × 10⁻¹¹ N m² kg⁻². Its value in CGS units (dyne cm² g⁻²) is:",
+      "difficulty": "MEDIUM",
+      "options": ["6.67 × 10⁻¹⁴", "6.67 × 10⁻⁸", "6.67 × 10⁻⁹", "6.67 × 10⁻⁵"],
+      "answer": 1,
+      "explanation": "1 N = 10⁵ dyne, 1 m² = 10⁴ cm², 1 kg⁻² = (10³ g)⁻² = 10⁻⁶ g⁻². Conversion factor = 10⁵ × 10⁴ × 10⁻⁶ = 10³. G = 6.67 × 10⁻¹¹ × 10³ = 6.67 × 10⁻⁸ dyne cm² g⁻²."
+    },
+    {
+      "text": "In the van der Waals equation (P + a/V²)(V − b) = RT, P is pressure and V is volume. The dimensional formula of the constant a is:",
+      "difficulty": "MEDIUM",
+      "options": ["[ML⁵T⁻²]", "[ML⁻¹T⁻²]", "[L³]", "[ML⁻⁵T⁻²]"],
+      "answer": 0,
+      "explanation": "Only quantities with the same dimensions can be added, so a/V² must have the dimensions of pressure. a = P × V² = [ML⁻¹T⁻²][L⁶] = [ML⁵T⁻²]. (Similarly, b has the dimensions of volume, [L³].)"
+    },
+    {
+      "text": "The time period of a pendulum is measured five times as 1.98 s, 2.02 s, 2.05 s, 1.95 s and 2.00 s. Using the mean absolute error, the percentage error in the measured time period is about:",
+      "difficulty": "MEDIUM",
+      "options": ["2.5%", "0.7%", "1.4%", "5%"],
+      "answer": 2,
+      "explanation": "Mean = (1.98 + 2.02 + 2.05 + 1.95 + 2.00)/5 = 10.00/5 = 2.00 s. Absolute errors: 0.02, 0.02, 0.05, 0.05 and 0.00 s. Mean absolute error = 0.14/5 = 0.028 s. Percentage error = (0.028/2.00) × 100 = 1.4%. (2.5% wrongly uses the largest single deviation.)"
+    },
+    {
+      "text": "A screw gauge has a pitch of 0.5 mm and 50 divisions on its circular scale. With the jaws closed, the circular-scale reading is +4 divisions (a positive zero error). While measuring the diameter of a wire, the main-scale reading is 2.5 mm and the 36th circular division coincides with the reference line. The corrected diameter of the wire is:",
+      "difficulty": "HARD",
+      "options": ["2.86 mm", "2.90 mm", "2.54 mm", "2.82 mm"],
+      "answer": 3,
+      "explanation": "Least count = pitch ÷ circular divisions = 0.5/50 = 0.01 mm. Observed reading = 2.5 + 36 × 0.01 = 2.86 mm. Zero error = +4 × 0.01 = +0.04 mm. Corrected reading = observed − zero error = 2.86 − 0.04 = 2.82 mm. (2.90 mm comes from adding the zero error.)"
+    },
+    {
+      "text": "The pressure P at a point is given by P = (α/β) × exp[−αz/(kθ)], where z is a distance, k is the Boltzmann constant and θ is the absolute temperature. The dimensional formula of β is:",
+      "difficulty": "HARD",
+      "options": ["[M⁰L²T⁰]", "[MLT⁻²]", "[ML²T⁻²]", "[M⁰L⁻¹T⁰]"],
+      "answer": 0,
+      "explanation": "The exponent must be dimensionless, so αz/(kθ) has no dimensions. kθ is an energy, [ML²T⁻²], so α = kθ/z = [ML²T⁻²]/[L] = [MLT⁻²]. Since P = α/β, β = α/P = [MLT⁻²]/[ML⁻¹T⁻²] = [L²], i.e. [M⁰L²T⁰]."
+    },
+    {
+      "text": "In a simple pendulum experiment, g is calculated from g = 4π²L/T². The length L = 100.0 cm is measured with an accuracy of 0.1 cm, and the time for 100 oscillations is 200 s, measured with a resolution of 1 s. The maximum percentage error in g is:",
+      "difficulty": "HARD",
+      "options": ["0.6%", "1.1%", "2.1%", "0.11%"],
+      "answer": 1,
+      "explanation": "ΔL/L = 0.1/100 = 0.1%. T = 200/100 = 2 s and ΔT/T = 1/200 = 0.5% (the same fraction as for the total time). From g = 4π²L/T²: Δg/g = ΔL/L + 2ΔT/T = 0.1% + 2 × 0.5% = 1.1%. (0.6% forgets the factor 2 for T².)"
+    },
+    {
+      "text": "Two resistors R₁ = (100 ± 3) Ω and R₂ = (200 ± 4) Ω are connected in parallel. The equivalent resistance with its maximum absolute error is:",
+      "difficulty": "HARD",
+      "options": ["(66.7 ± 1.8) Ω", "(66.7 ± 3.3) Ω", "(66.7 ± 7.0) Ω", "(300 ± 7) Ω"],
+      "answer": 0,
+      "explanation": "R = R₁R₂/(R₁ + R₂) = 20000/300 = 66.7 Ω. Differentiating 1/R = 1/R₁ + 1/R₂ gives ΔR/R² = ΔR₁/R₁² + ΔR₂/R₂² = 3/10000 + 4/40000 = 4 × 10⁻⁴ Ω⁻¹. ΔR = (66.7)² × 4 × 10⁻⁴ = 4444 × 4 × 10⁻⁴ ≈ 1.8 Ω. So R = (66.7 ± 1.8) Ω. ((300 ± 7) Ω is the series combination.)"
+    }
+  ]
+}

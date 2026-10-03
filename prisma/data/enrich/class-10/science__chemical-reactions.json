@@ -1,0 +1,215 @@
+{
+  "exam": "class-10",
+  "subject": "science",
+  "chapter": "chemical-reactions",
+  "notes": {
+    "summary": "This chapter covers writing and balancing chemical equations and the main types of reactions (combination, decomposition, displacement, double displacement and redox), along with corrosion and rancidity. CBSE tests it through NCERT activity observations (colours, gases, precipitates, heat), balancing, identifying reaction types and the substances oxidised or reduced, and assertion-reason items.",
+    "keyPoints": [
+      "A balanced equation has the same number of atoms of each element on both sides (law of conservation of mass), e.g. 3Fe + 4H₂O → Fe₃O₄ + 4H₂. State symbols: (s) solid, (l) liquid, (g) gas, (aq) aqueous solution.",
+      "Combination: two or more reactants form a single product, e.g. 2Mg + O₂ → 2MgO (white ash); CaO + H₂O → Ca(OH)₂ (slaked lime) with release of a lot of heat.",
+      "Thermal decomposition: 2FeSO₄ → Fe₂O₃ + SO₂ + SO₃ (green crystals turn reddish-brown, smell of burning sulphur); CaCO₃ → CaO + CO₂; 2Pb(NO₃)₂ → 2PbO + 4NO₂ + O₂ (brown fumes of NO₂).",
+      "Electrolytic decomposition: 2H₂O → 2H₂ + O₂; hydrogen (double volume) at the cathode, oxygen at the anode. Photolytic decomposition: 2AgCl → 2Ag + Cl₂ (white to grey); AgBr behaves similarly and is used in black-and-white photography.",
+      "Displacement: a more reactive element displaces a less reactive one, e.g. Fe + CuSO₄ → FeSO₄ + Cu (blue solution fades to light green, brownish coating on the nail).",
+      "Double displacement (exchange of ions), often forming a precipitate: Na₂SO₄ + BaCl₂ → BaSO₄ (white ppt) + 2NaCl; Pb(NO₃)₂ + 2KI → PbI₂ (yellow ppt) + 2KNO₃.",
+      "Oxidation = gain of oxygen or loss of hydrogen; reduction = loss of oxygen or gain of hydrogen. In CuO + H₂ → Cu + H₂O, CuO is reduced and H₂ is oxidised (a redox reaction).",
+      "Exothermic: respiration, burning of natural gas, composting of vegetable matter, CaO + water. Endothermic: decomposition of CaCO₃, AgCl in sunlight, electrolysis of water.",
+      "Whitewashing: Ca(OH)₂ + CO₂ → CaCO₃ + H₂O; the thin CaCO₃ layer formed in 2-3 days gives the wall a shiny finish.",
+      "Corrosion: iron rusts (reddish-brown), copper gets a green coating (basic copper carbonate), silver turns black (silver sulphide). Rancidity is oxidation of fats and oils; prevented by antioxidants, airtight containers, refrigeration and flushing packets with nitrogen."
+    ],
+    "traps": [
+      "Balancing by changing subscripts (writing H₂O₂ for 2H₂O) instead of changing coefficients.",
+      "Calling Pb(NO₃)₂ + KI a combination or displacement reaction; it is a double displacement (precipitation) reaction.",
+      "Saying a product is oxidised or reduced: only reactants are. In 2PbO + C → 2Pb + CO₂, PbO is reduced and C is oxidised.",
+      "Mixing up the electrodes in electrolysis of water: hydrogen (double volume) collects at the cathode, oxygen at the anode.",
+      "Assuming all decomposition reactions release heat; most need heat, light or electricity and are endothermic."
+    ],
+    "examTip": "For every reaction in the chapter, learn one observable sign (colour change, gas, precipitate or heat change), because most MCQs are built on these NCERT activity observations."
+  },
+  "questions": [
+    {
+      "text": "A cleaned magnesium ribbon burns in air with a dazzling white flame and leaves behind a white powder. The white powder is",
+      "difficulty": "EASY",
+      "options": ["magnesium hydroxide, Mg(OH)₂", "magnesium oxide, MgO", "magnesium carbonate, MgCO₃", "magnesium chloride, MgCl₂"],
+      "answer": 1,
+      "explanation": "Magnesium combines with oxygen of the air: 2Mg(s) + O₂(g) → 2MgO(s).\nThis is a combination reaction (and an oxidation of magnesium).\nThe white powder is magnesium oxide, MgO."
+    },
+    {
+      "text": "Why is a magnesium ribbon rubbed with sandpaper before it is burnt in air?",
+      "difficulty": "EASY",
+      "options": [
+        "To remove the protective layer (basic magnesium carbonate/oxide) formed on its surface",
+        "To make the ribbon thinner so that it melts easily",
+        "To coat the ribbon with sand, which acts as a catalyst",
+        "To remove moisture so that the ribbon does not react with water"
+      ],
+      "answer": 0,
+      "explanation": "On standing in air, magnesium slowly forms a dull protective layer of basic magnesium carbonate/oxide.\nThis layer stops fresh metal from coming in contact with oxygen.\nRubbing with sandpaper removes the layer so that clean magnesium burns readily."
+    },
+    {
+      "text": "In the equation Zn(s) + H₂SO₄(aq) → ZnSO₄(aq) + H₂(g), the symbol (aq) written after a substance indicates that the substance is",
+      "difficulty": "EASY",
+      "options": ["a liquid at room temperature", "present as a solid precipitate", "dissolved in water (an aqueous solution)", "a gas given off during the reaction"],
+      "answer": 2,
+      "explanation": "State symbols show the physical state: (s) solid, (l) liquid, (g) gas, (aq) aqueous solution.\n(aq) means the substance is dissolved in water.\nHere H₂SO₄ and ZnSO₄ are present as solutions in water."
+    },
+    {
+      "text": "Manufacturers of potato chips flush the packets with a gas to prevent the chips from becoming rancid. The gas used is",
+      "difficulty": "EASY",
+      "options": ["oxygen", "hydrogen", "chlorine", "nitrogen"],
+      "answer": 3,
+      "explanation": "Rancidity is the oxidation of fats and oils in food, which spoils its smell and taste.\nFlushing the packet with an unreactive gas removes oxygen and prevents this oxidation.\nNCERT names nitrogen as the gas used (oxygen would speed up rancidity)."
+    },
+    {
+      "text": "Which of the following will NOT help in preventing rancidity of food containing fats and oils?",
+      "difficulty": "EASY",
+      "options": [
+        "Adding antioxidants to the food",
+        "Storing the food in airtight containers",
+        "Keeping the food in a warm place, open to air",
+        "Keeping the food in a refrigerator"
+      ],
+      "answer": 2,
+      "explanation": "Rancidity is caused by oxidation of fats and oils.\nAntioxidants, airtight containers and low temperature (refrigeration) all slow down oxidation.\nKeeping food warm and open to air increases contact with oxygen and speeds up rancidity, so it does not help."
+    },
+    {
+      "text": "Silver articles turn black when left exposed to air for some time. The black coating is mainly",
+      "difficulty": "EASY",
+      "options": ["silver sulphide", "silver oxide", "silver nitrate", "silver carbonate"],
+      "answer": 0,
+      "explanation": "Silver reacts with sulphur compounds (such as hydrogen sulphide) present in air.\nA black layer of silver sulphide, Ag₂S, forms on the surface.\nThis tarnishing is a form of corrosion (copper similarly develops a green coating of basic copper carbonate)."
+    },
+    {
+      "text": "When the equation Fe(s) + H₂O(g) → Fe₃O₄(s) + H₂(g) is balanced, the coefficients of Fe, H₂O, Fe₃O₄ and H₂ respectively are",
+      "difficulty": "MEDIUM",
+      "options": ["3, 4, 1, 4", "3, 4, 1, 2", "1, 4, 1, 4", "3, 2, 1, 2"],
+      "answer": 0,
+      "explanation": "Fe₃O₄ has 4 O atoms, so take 4H₂O on the left.\n4H₂O has 8 H atoms, so take 4H₂ on the right.\nFe₃O₄ has 3 Fe atoms, so take 3Fe on the left.\n3Fe + 4H₂O → Fe₃O₄ + 4H₂ (check: Fe 3 = 3, H 8 = 8, O 4 = 4)."
+    },
+    {
+      "text": "Green crystals of ferrous sulphate are heated strongly in a dry boiling tube. After losing their water of crystallisation, they decompose. The products of this decomposition are",
+      "difficulty": "MEDIUM",
+      "options": ["FeO and SO₃", "Fe, SO₂ and O₂", "Fe₂O₃, SO₂ and SO₃", "Fe₂O₃ and H₂S"],
+      "answer": 2,
+      "explanation": "Anhydrous ferrous sulphate decomposes on heating: 2FeSO₄(s) → Fe₂O₃(s) + SO₂(g) + SO₃(g).\nThe residue of ferric oxide is reddish-brown, and the gases have the smell of burning sulphur.\nIt is a thermal decomposition reaction."
+    },
+    {
+      "text": "When lead nitrate powder is heated in a boiling tube, brown fumes are given off. These brown fumes are of",
+      "difficulty": "MEDIUM",
+      "options": ["oxygen", "nitrogen dioxide", "lead oxide", "nitric oxide"],
+      "answer": 1,
+      "explanation": "On heating: 2Pb(NO₃)₂(s) → 2PbO(s) + 4NO₂(g) + O₂(g).\nOxygen is colourless and lead oxide is a solid residue.\nThe brown fumes are nitrogen dioxide, NO₂; the reaction is a thermal decomposition."
+    },
+    {
+      "text": "White silver chloride kept in sunlight slowly turns grey. Which statement correctly describes this change?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "It is a combination reaction in which silver chloride combines with oxygen of air",
+        "It is a decomposition reaction caused by light, and the grey colour is due to silver",
+        "It is a displacement reaction in which chlorine displaces silver",
+        "It is a double displacement reaction that produces silver oxide"
+      ],
+      "answer": 1,
+      "explanation": "Sunlight supplies the energy to break silver chloride: 2AgCl(s) → 2Ag(s) + Cl₂(g).\nOne reactant breaks into simpler substances using light, so it is a photolytic decomposition reaction.\nThe grey colour is due to the metallic silver formed; silver bromide reacts similarly and is used in black-and-white photography."
+    },
+    {
+      "text": "Aqueous solutions of sodium sulphate and barium chloride are mixed. Which of the following is correct?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "A white precipitate of barium sulphate forms; it is a double displacement reaction",
+        "A yellow precipitate of sodium chloride forms; it is a combination reaction",
+        "Hydrogen gas is evolved; it is a displacement reaction",
+        "No reaction takes place because both substances are salts"
+      ],
+      "answer": 0,
+      "explanation": "Na₂SO₄(aq) + BaCl₂(aq) → BaSO₄(s) + 2NaCl(aq).\nThe two compounds exchange ions, so it is a double displacement reaction.\nBarium sulphate is insoluble and appears as a white precipitate, while sodium chloride stays dissolved."
+    },
+    {
+      "text": "The reaction Fe₂O₃ + 2Al → Al₂O₃ + 2Fe is an example of a",
+      "difficulty": "MEDIUM",
+      "options": ["combination reaction", "double displacement reaction", "decomposition reaction", "displacement reaction"],
+      "answer": 3,
+      "explanation": "Aluminium is more reactive than iron and takes the oxygen from iron(III) oxide.\nAn element displaces another element from its compound, so it is a displacement reaction.\nIt is also a redox reaction: Fe₂O₃ is reduced and Al is oxidised."
+    },
+    {
+      "text": "A few days after a wall is whitewashed with slaked lime, it develops a shiny finish. This is due to the formation of a thin layer of",
+      "difficulty": "MEDIUM",
+      "options": ["calcium oxide", "calcium hydroxide", "calcium carbonate", "calcium chloride"],
+      "answer": 2,
+      "explanation": "Whitewash contains calcium hydroxide (slaked lime).\nIt reacts slowly with carbon dioxide in the air: Ca(OH)₂(aq) + CO₂(g) → CaCO₃(s) + H₂O(l).\nIn two to three days a thin layer of calcium carbonate forms and gives the shiny finish."
+    },
+    {
+      "text": "Which of the following is an endothermic process?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Respiration",
+        "Burning of natural gas",
+        "Decomposition of vegetable matter into compost",
+        "Decomposition of calcium carbonate into calcium oxide and carbon dioxide"
+      ],
+      "answer": 3,
+      "explanation": "An endothermic process absorbs energy.\nCaCO₃(s) → CaO(s) + CO₂(g) takes place only on continuous heating, so it is endothermic (thermal decomposition).\nRespiration, burning of methane and composting all release heat, so they are exothermic."
+    },
+    {
+      "text": "Assertion (A): The reaction between aqueous solutions of lead nitrate and potassium iodide is a combination reaction.\nReason (R): A yellow precipitate of lead iodide is formed when these two solutions are mixed.\nChoose the correct option.",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A.",
+        "Both A and R are true but R is not the correct explanation of A.",
+        "A is true but R is false.",
+        "A is false but R is true."
+      ],
+      "answer": 3,
+      "explanation": "Pb(NO₃)₂(aq) + 2KI(aq) → PbI₂(s) + 2KNO₃(aq).\nThe two compounds exchange ions to give two new compounds, so it is a double displacement (precipitation) reaction, not combination. A is false.\nLead iodide is indeed a yellow precipitate, so R is true."
+    },
+    {
+      "text": "Assertion (A): When iron nails are kept in copper sulphate solution for about 20 minutes, the blue colour of the solution fades.\nReason (R): Copper is a reddish-brown metal.\nChoose the correct option.",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A.",
+        "Both A and R are true but R is not the correct explanation of A.",
+        "A is true but R is false.",
+        "A is false but R is true."
+      ],
+      "answer": 1,
+      "explanation": "Fe(s) + CuSO₄(aq) → FeSO₄(aq) + Cu(s): iron is more reactive and displaces copper.\nBlue copper sulphate is replaced by light green iron sulphate, so the blue colour fades. A is true.\nCopper is reddish-brown (it forms the brown coating on the nail), so R is true, but its colour does not explain why the solution fades. Hence both are true but R is not the correct explanation."
+    },
+    {
+      "text": "Lead nitrate decomposes on heating according to the unbalanced equation Pb(NO₃)₂(s) → PbO(s) + NO₂(g) + O₂(g). When the equation is balanced using the smallest whole-number coefficients, the coefficient of NO₂ is",
+      "difficulty": "HARD",
+      "options": ["2", "1", "3", "4"],
+      "answer": 3,
+      "explanation": "Balanced equation: 2Pb(NO₃)₂ → 2PbO + 4NO₂ + O₂.\nCheck Pb: 2 = 2. Check N: 2 × 2 = 4 on the left and 4 on the right.\nCheck O: 2 × 6 = 12 on the left; 2 + 8 + 2 = 12 on the right.\nSo the coefficient of NO₂ is 4."
+    },
+    {
+      "text": "In the reaction MnO₂ + 4HCl → MnCl₂ + 2H₂O + Cl₂, which substance is oxidised and which is reduced?",
+      "difficulty": "HARD",
+      "options": [
+        "MnO₂ is oxidised and HCl is reduced",
+        "HCl is oxidised and MnO₂ is reduced",
+        "Both MnO₂ and HCl are reduced",
+        "MnCl₂ is oxidised and Cl₂ is reduced"
+      ],
+      "answer": 1,
+      "explanation": "Oxidation is gain of oxygen or loss of hydrogen; reduction is loss of oxygen or gain of hydrogen.\nMnO₂ loses oxygen to form MnCl₂, so MnO₂ is reduced.\nHCl loses hydrogen to form Cl₂, so HCl is oxidised.\nMnCl₂ and Cl₂ are products, so they cannot be the substances oxidised or reduced."
+    },
+    {
+      "text": "Consider the reaction 2PbO(s) + C(s) → 2Pb(s) + CO₂(g). Which of the following statements are INCORRECT?\n(i) Lead is getting reduced.\n(ii) Carbon dioxide is getting oxidised.\n(iii) Carbon is getting oxidised.\n(iv) Lead oxide is getting reduced.",
+      "difficulty": "HARD",
+      "options": ["(i) and (ii)", "(i) and (iii)", "(i), (ii) and (iii)", "All of these"],
+      "answer": 0,
+      "explanation": "Lead oxide loses oxygen, so lead oxide (not lead) is reduced; (iv) is correct and (i) is incorrect.\nCarbon gains oxygen, so carbon is oxidised; (iii) is correct.\nCarbon dioxide is a product formed in the reaction, so saying it is oxidised is incorrect; (ii) is incorrect.\nThe incorrect statements are (i) and (ii)."
+    },
+    {
+      "text": "Assertion (A): In the electrolysis of water, the volume of gas collected over the cathode is double the volume of gas collected over the anode.\nReason (R): A water molecule contains two oxygen atoms for every hydrogen atom.\nChoose the correct option.",
+      "difficulty": "HARD",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A.",
+        "Both A and R are true but R is not the correct explanation of A.",
+        "A is true but R is false.",
+        "A is false but R is true."
+      ],
+      "answer": 2,
+      "explanation": "2H₂O(l) → 2H₂(g) + O₂(g) on passing electricity.\nHydrogen collects at the cathode and oxygen at the anode in the volume ratio 2 : 1, so A is true.\nA water molecule (H₂O) has two hydrogen atoms for every one oxygen atom, so R is false.\nHence A is true but R is false."
+    }
+  ]
+}

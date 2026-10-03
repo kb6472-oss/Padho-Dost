@@ -1,0 +1,105 @@
+{
+  "exam": "upsc",
+  "subject": "modern-indian-history",
+  "chapter": "governor-generals-reforms",
+  "notes": {
+    "summary": "Covers the constitutional evolution of British India from the Regulating Act (1773) to the Government of India Act (1935) and the policies of the major Governors-General and Viceroys — land revenue, education, expansion, press and local self-government. UPSC asks which Act introduced what, and pairs of administrators with their measures.",
+    "keyPoints": [
+      "Regulating Act 1773: Governor of Bengal became Governor-General of Bengal (Warren Hastings); Bombay and Madras made subordinate; Supreme Court at Calcutta set up in 1774 (Chief Justice Elijah Impey). Pitt's India Act 1784: Board of Control created — dual government of Company and Crown.",
+      "Charter Acts: 1813 — trade monopoly ended except tea and trade with China, ₹1 lakh a year for education, missionaries allowed; 1833 — Governor-General of India (Bentinck), Company made a purely administrative body; 1853 — open competition for civil services and a separate legislative wing of the council.",
+      "Government of India Act 1858: Company rule ended; Secretary of State for India with a 15-member Council of India; the Governor-General also styled Viceroy (Canning).",
+      "Indian Councils Acts: 1861 — Indians nominated to the legislative council, portfolio system recognised, legislative powers restored to Bombay and Madras, Viceroy could issue ordinances; 1892 — indirect election (without using the word) and discussion of the budget; 1909 (Morley–Minto) — separate electorate for Muslims and S.P. Sinha in the Viceroy's Executive Council.",
+      "Government of India Act 1919 (Montagu–Chelmsford): dyarchy in the provinces, bicameral central legislature with direct elections, separate electorates extended to Sikhs, Indian Christians, Anglo-Indians and Europeans, Public Service Commission (set up 1926), High Commissioner in London. Act of 1935: All-India Federation (never formed), provincial autonomy, Federal Court (1937).",
+      "Land revenue: Permanent Settlement 1793 (Cornwallis; Bengal, Bihar, Orissa; zamindars as owners); Ryotwari (Thomas Munro and Alexander Read; Madras and Bombay; settlement with the cultivator); Mahalwari (Holt Mackenzie, 1822; North-Western Provinces, Punjab, Central India; settlement with the village community).",
+      "Governors-General: Wellesley — Subsidiary Alliance, Fort William College (1800); Minto I — Treaty of Amritsar (1809); Hastings — Anglo-Nepal War and Third Anglo-Maratha War; Bentinck — abolition of Sati (1829), English Education Act (1835); Auckland — First Anglo-Afghan War; Dalhousie — Doctrine of Lapse, Second Anglo-Sikh War, first railway (1853), Wood's Despatch (1854).",
+      "Viceroys: Mayo — financial decentralisation, first census (1872); Lytton — Delhi Durbar (1877), Vernacular Press Act and Arms Act (1878); Ripon — Factory Act (1881), Local Self-Government Resolution and Hunter Commission (1882), Ilbert Bill; Dufferin — founding of the Congress (1885); Curzon — Universities Act (1904), Partition of Bengal (1905)."
+    ],
+    "traps": [
+      "Crediting the Charter Act of 1833 with open competition for civil services — it only attempted it; the Act of 1853 introduced it.",
+      "Placing indirect election in the Indian Councils Act of 1861 — it came in 1892.",
+      "Attributing bicameralism at the Centre to the Morley–Minto Reforms (1909) — it came with the Act of 1919.",
+      "Putting the Hunter Commission under Dufferin or Curzon — it was appointed under Ripon (1882).",
+      "Saying the Ryotwari system began in Bengal — it began in Madras; Bengal had the Permanent Settlement."
+    ],
+    "examTip": "Tag each Act with one 'first' (1773 Governor-General of Bengal, 1784 Board of Control, 1833 Governor-General of India, 1853 open competition, 1861 portfolio system, 1892 indirect election, 1909 separate electorate, 1919 dyarchy, 1935 provincial autonomy) and test every statement against that ladder."
+  },
+  "questions": [
+    {
+      "text": "The Supreme Court of Judicature at Calcutta, set up in 1774 under the Regulating Act of 1773, had which judge as its first Chief Justice?",
+      "difficulty": "EASY",
+      "options": ["Sir Barnes Peacock", "Sir William Jones", "Sir Elijah Impey", "Sir John Shore"],
+      "answer": 2,
+      "explanation": "The Regulating Act of 1773 provided for a Supreme Court at Calcutta with a Chief Justice and three puisne judges. It was set up in 1774 with Sir Elijah Impey as Chief Justice. Sir William Jones later served as a judge of this court and founded the Asiatic Society (1784); Sir John Shore was Governor-General (1793–98); Sir Barnes Peacock was the first Chief Justice of the Calcutta High Court (1862). Answer: Sir Elijah Impey."
+    },
+    {
+      "text": "The Delhi Durbar of 1877, at which Queen Victoria was proclaimed 'Kaiser-i-Hind' (Empress of India) even as a severe famine raged in the country, was held during the viceroyalty of:",
+      "difficulty": "EASY",
+      "options": ["Lord Lytton", "Lord Mayo", "Lord Northbrook", "Lord Ripon"],
+      "answer": 0,
+      "explanation": "The Royal Titles Act, 1876 gave Queen Victoria the title of Empress of India. The proclamation Durbar was held at Delhi in January 1877 under Lord Lytton (1876–80), while the Great Famine of 1876–78 was underway, which drew strong criticism. Lytton is also known for the Vernacular Press Act and the Arms Act of 1878. Answer: Lord Lytton."
+    },
+    {
+      "text": "Wood's Despatch of 1854, often called the 'Magna Carta of English Education in India', was issued during the tenure of which Governor-General?",
+      "difficulty": "EASY",
+      "options": ["Lord William Bentinck", "Lord Hardinge", "Lord Canning", "Lord Dalhousie"],
+      "answer": 3,
+      "explanation": "Charles Wood, President of the Board of Control, sent the despatch in 1854, when Lord Dalhousie (1848–56) was Governor-General. It proposed a graded system from village schools to universities, vernacular media at the primary level, grants-in-aid, and an education department in every province. Following it, universities were set up at Calcutta, Bombay and Madras in 1857 under Canning. Bentinck's name is linked to the English Education Act of 1835. Answer: Lord Dalhousie."
+    },
+    {
+      "text": "Consider the following statements regarding the Charter Act of 1813:\n1. It ended all commercial activities of the East India Company, making it a purely administrative body.\n2. It ended the Company's monopoly of trade with India, except for the trade in tea and the trade with China.\n3. It provided for spending a sum of not less than one lakh rupees every year on education in India.\nWhich of the statements given above is/are correct?",
+      "difficulty": "MEDIUM",
+      "options": ["2 and 3 only", "1 and 3 only", "2 only", "1, 2 and 3"],
+      "answer": 0,
+      "explanation": "The Charter Act of 1813 threw Indian trade open to all British merchants but kept the Company's monopoly over tea and over trade with China — statement 2 is correct. It set aside at least one lakh rupees a year for the revival of literature and the promotion of learning, and allowed Christian missionaries into India — statement 3 is correct. The Company's commercial activities were ended entirely only by the Charter Act of 1833 — statement 1 is wrong. Answer: 2 and 3 only."
+    },
+    {
+      "text": "Which of the following Acts introduced a system of open competition for the selection and recruitment of civil servants, throwing the covenanted civil service open to Indians as well?",
+      "difficulty": "MEDIUM",
+      "options": ["Charter Act of 1793", "Charter Act of 1813", "Charter Act of 1833", "Charter Act of 1853"],
+      "answer": 3,
+      "explanation": "The Charter Act of 1833 attempted open competition, but that provision was negated after opposition from the Court of Directors. The Charter Act of 1853 introduced open competition for civil servants, and the Macaulay Committee was appointed in 1854 to work it out. The 1853 Act also separated the legislative and executive functions of the Governor-General's council by adding six legislative members. Answer: Charter Act of 1853."
+    },
+    {
+      "text": "Consider the following statements regarding the Indian Councils Act of 1861:\n1. It began the process of decentralisation by restoring legislative powers to the Bombay and Madras Presidencies.\n2. It gave statutory recognition to the portfolio system introduced by Lord Canning.\n3. It introduced the principle of indirect election of members to the legislative councils.\nWhich of the statements given above is/are correct?",
+      "difficulty": "MEDIUM",
+      "options": ["1 only", "1 and 2 only", "2 and 3 only", "1, 2 and 3"],
+      "answer": 1,
+      "explanation": "The Act of 1861 restored law-making powers to the Bombay and Madras Presidencies and provided for new legislative councils in other provinces — statement 1 is correct. It recognised the portfolio system Canning had introduced in 1859, under which each member of the council took charge of a department — statement 2 is correct. Indians were associated with law-making only by nomination (Canning nominated the Raja of Benares, the Maharaja of Patiala and Sir Dinkar Rao); indirect election came with the Indian Councils Act of 1892 — statement 3 is wrong. Answer: 1 and 2 only."
+    },
+    {
+      "text": "Consider the following statements regarding the Indian Councils Act of 1909:\n1. It introduced communal representation for Muslims by accepting the concept of a separate electorate.\n2. It introduced bicameralism in the central legislature.\n3. Under it, Satyendra Prasad Sinha became the first Indian to join the Viceroy's Executive Council.\nWhich of the statements given above is/are correct?",
+      "difficulty": "MEDIUM",
+      "options": ["1 and 3 only", "1 only", "2 and 3 only", "1, 2 and 3"],
+      "answer": 0,
+      "explanation": "The Morley–Minto Reforms gave Muslims a separate electorate in which only Muslims voted for Muslim members, which is why Lord Minto is called the 'Father of Communal Electorate' — statement 1 is correct. The Act enlarged the legislative councils (the central council from 16 to 60 members) and let members ask supplementary questions, but the central legislature stayed unicameral; bicameralism came in 1919 — statement 2 is wrong. Indians were associated with the executive councils, and Satyendra Prasad Sinha joined the Viceroy's Executive Council as Law Member — statement 3 is correct. Answer: 1 and 3 only."
+    },
+    {
+      "text": "Consider the following statements about land revenue systems in British India:\n1. Under the Permanent Settlement, the revenue demand was fixed permanently and the zamindars were recognised as owners of the land.\n2. The Ryotwari system was first introduced in Bengal.\n3. Under the Mahalwari system, revenue was settled with the village community (mahal), and the system was introduced in parts of the North-Western Provinces, Punjab and Central India.\nWhich of the statements given above is/are correct?",
+      "difficulty": "MEDIUM",
+      "options": ["1 only", "2 and 3 only", "1 and 3 only", "1, 2 and 3"],
+      "answer": 2,
+      "explanation": "Cornwallis's Permanent Settlement (1793) in Bengal, Bihar and Orissa fixed the revenue demand for ever and recognised zamindars as landowners — statement 1 is correct. The Ryotwari system, settling revenue directly with the cultivator, was introduced by Thomas Munro and Alexander Read in the Madras Presidency and later extended to Bombay; Bengal had the Permanent Settlement — statement 2 is wrong. The Mahalwari system, proposed by Holt Mackenzie in 1822, settled revenue with the village community and covered parts of the North-Western Provinces, Punjab and Central India — statement 3 is correct. Answer: 1 and 3 only."
+    },
+    {
+      "text": "Consider the following pairs:\nViceroy — Measure\n1. Lord Ripon — Resolution on Local Self-Government (1882)\n2. Lord Mayo — First census of India (1872)\n3. Lord Lytton — Arms Act (1878)\n4. Lord Dufferin — Hunter Commission on education\nWhich of the pairs given above are correctly matched?",
+      "difficulty": "MEDIUM",
+      "options": ["1 and 4 only", "2 and 3 only", "1, 2 and 3 only", "1, 2, 3 and 4"],
+      "answer": 2,
+      "explanation": "Ripon's resolution of 1882 earned him the title 'father of local self-government' — pair 1 is correct. The first census was taken in 1872 under Mayo (the first synchronous census followed in 1881 under Ripon) — pair 2 is correct. Lytton's Arms Act of 1878 made it an offence for Indians to carry arms without a licence — pair 3 is correct. The Hunter Commission on education was appointed in 1882 under Ripon; Dufferin's period (1884–88) is known for the founding of the Congress in 1885 — pair 4 is wrong. Answer: 1, 2 and 3 only."
+    },
+    {
+      "text": "Consider the following statements regarding the Government of India Act, 1919:\n1. It introduced bicameralism and direct elections in the central legislature.\n2. It extended the principle of separate electorates to Sikhs, Indian Christians, Anglo-Indians and Europeans.\n3. It granted the right to vote to all adult men and women.\n4. It provided for the establishment of a Public Service Commission.\nWhich of the statements given above are correct?",
+      "difficulty": "HARD",
+      "options": ["1 and 2 only", "1, 2 and 4 only", "3 and 4 only", "1, 2, 3 and 4"],
+      "answer": 1,
+      "explanation": "The Montagu–Chelmsford Act replaced the Imperial Legislative Council with a bicameral legislature (Council of State and Legislative Assembly), most of whose members were directly elected — statement 1 is correct. It extended separate electorates beyond Muslims to Sikhs, Indian Christians, Anglo-Indians and Europeans — statement 2 is correct. The franchise was limited to people meeting property, tax or education qualifications, so universal adult franchise did not come until the Constitution of 1950 — statement 3 is wrong. It provided for a Public Service Commission, and the Central Public Service Commission was set up in 1926 — statement 4 is correct. Answer: 1, 2 and 4 only."
+    },
+    {
+      "text": "Consider the following pairs:\nGovernor-General — Event during his tenure\n1. Lord Minto I — Treaty of Amritsar with Ranjit Singh (1809)\n2. Lord Wellesley — Establishment of Fort William College (1800)\n3. Lord Auckland — Second Anglo-Sikh War\n4. Lord Hastings — First Anglo-Afghan War\nHow many of the pairs given above are correctly matched?",
+      "difficulty": "HARD",
+      "options": ["Only one pair", "Only two pairs", "Only three pairs", "All four pairs"],
+      "answer": 1,
+      "explanation": "Minto I (1807–13) signed the Treaty of Amritsar (1809) with Ranjit Singh, fixing the Sutlej as the boundary — pair 1 is correct. Wellesley (1798–1805) founded Fort William College in 1800 to train civil servants — pair 2 is correct. Auckland (1836–42) is linked to the First Anglo-Afghan War; the Second Anglo-Sikh War (1848–49), after which Punjab was annexed, came under Dalhousie — pair 3 is wrong. Lord Hastings (1813–23) fought the Anglo-Nepal War and the Third Anglo-Maratha War, not the Afghan war — pair 4 is wrong. Two pairs are correct. Answer: only two pairs."
+    }
+  ]
+}

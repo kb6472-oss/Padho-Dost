@@ -1,0 +1,156 @@
+{
+  "exam": "class-10",
+  "subject": "political-science",
+  "chapter": "political-parties",
+  "notes": {
+    "summary": "Political Parties explains what a party is, its components and functions, why modern democracies cannot do without parties, the different party systems, how parties are recognised in India, the challenges parties face and the ways to reform them. CBSE asks definitions, functions applied to situations, recognition criteria, challenges and reforms, often as assertion-reason or statement-based MCQs.",
+    "keyPoints": [
+      "A political party is a group of people who come together to contest elections and hold power in the government. It has three components: leaders, active members and followers. Partisanship is a tendency to take a side and an inability to take a balanced view on an issue.",
+      "Functions: contest elections (in India top party leaders choose candidates; in the USA members and supporters choose them), put forward policies and programmes, make laws, form and run governments, play the role of opposition, shape public opinion, and give people access to government machinery and welfare schemes.",
+      "Why parties are needed: without them every candidate would be independent, no one could promise major policy changes, and no one would be responsible for how the country is run. The rise of parties is directly linked to the emergence of representative democracies.",
+      "Party systems: one-party (China, where only the Communist Party rules; new parties are legally allowed but the electoral system does not permit free competition), two-party (USA, UK) and multi-party (India). When several parties join hands to contest elections and win power, it is called an alliance or a front (e.g. NDA, UPA, Left Front).",
+      "Every party must register with the Election Commission. State party: at least 6% of the total votes in a State Legislative Assembly election and at least 2 seats. National party: at least 6% of the total votes in Lok Sabha or Assembly elections in four States and at least 4 Lok Sabha seats. Recognised parties get a unique election symbol.",
+      "Founding facts: Indian National Congress 1885; Communist Party of India 1925; CPI(M) 1964; Bharatiya Jana Sangh 1951 (Syama Prasad Mukherjee), revived as the Bharatiya Janata Party in 1980; Bahujan Samaj Party 1984 under Kanshi Ram.",
+      "Four challenges: lack of internal democracy, dynastic succession, growing role of money and muscle power, and lack of meaningful choice to voters (ideological differences have narrowed; e.g. there is little difference between the Labour and Conservative parties in Britain).",
+      "Reforms already made: the anti-defection law (an MP or MLA who changes party loses the seat; it reduced defection but made dissent harder); a Supreme Court order that candidates file an affidavit giving details of property and pending criminal cases; an Election Commission order that parties hold organisational elections and file income tax returns.",
+      "Suggested reforms: a law to regulate the internal affairs of parties, giving about one-third of party tickets to women, and state funding of elections. Reform can also come from people's pressure (petitions, publicity, agitations) and from people joining political parties."
+    ],
+    "traps": [
+      "Mixing up the recognition rules: State party = 6% of votes + 2 Assembly seats; national party = 6% of votes in Lok Sabha or Assembly elections in 4 States + 4 Lok Sabha seats.",
+      "Assuming the anti-defection law had only good effects; NCERT says it also made dissent by legislators more difficult.",
+      "Writing that China's law bans other parties; the law permits them, but the electoral system does not allow free competition for power.",
+      "Confusing reforms already in place (affidavits, anti-defection law, organisational elections) with reforms only suggested (state funding, one-third tickets for women).",
+      "Thinking a party is only its leaders; it has three components: leaders, active members and followers."
+    ],
+    "examTip": "For situation-based questions, first name the function or challenge in two or three words (for example 'access to welfare schemes' or 'lack of meaningful choice'), then pick the option that matches it exactly."
+  },
+  "questions": [
+    {
+      "text": "A party is known by which part of society it stands for and which policies it supports. In this context, the term 'partisanship' refers to:",
+      "difficulty": "EASY",
+      "options": [
+        "the willingness to work with all parties on every issue",
+        "the legal registration of a party with the Election Commission",
+        "a tendency to take a side and an inability to take a balanced view on an issue",
+        "the practice of choosing party candidates through elections among members"
+      ],
+      "answer": 2,
+      "explanation": "A party stands for one part of society, so it involves partisanship.\nA partisan is a person who is strongly committed to a party, group or faction.\nPartisanship is marked by a tendency to take a side and an inability to take a balanced view on an issue.\nSo the answer is the tendency to take a side without a balanced view."
+    },
+    {
+      "text": "Parties choose their candidates for elections in different ways in different countries. Which statement correctly describes the difference noted in NCERT?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "In the USA, members and supporters of a party choose its candidates, whereas in India top party leaders choose the candidates",
+        "In India, all voters of a constituency choose each party's candidate, whereas in the USA party leaders decide",
+        "In both India and the USA, the Election Commission selects the candidates of every party",
+        "In India, candidates are chosen by the Supreme Court, whereas in the USA they are chosen by the Congress"
+      ],
+      "answer": 0,
+      "explanation": "Contesting elections is a main function of parties, and they choose their candidates in different ways.\nIn some countries, such as the USA, members and supporters of a party choose its candidates, and more and more countries are following this method.\nIn other countries, such as India, top party leaders choose the candidates for contesting elections.\nSo the first statement is correct."
+    },
+    {
+      "text": "In China, only the Communist Party is allowed to rule. Although the law permits the formation of other political parties, a one-party system of this kind is not considered a good democratic option because:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "it leads to too many coalition governments",
+        "it makes elections far too expensive for the government",
+        "other parties are banned by law from existing",
+        "the electoral system does not permit free competition for power, so voters get no meaningful choice"
+      ],
+      "answer": 3,
+      "explanation": "In China, the law permits the formation of political parties, but the electoral system does not permit free competition for power.\nSo new parties find it impossible to win elections and form the government.\nA democratic system must allow at least two parties to compete in elections and give competing parties a fair chance of coming to power.\nSo a one-party system is not a good democratic option because there is no free competition and no real choice for voters."
+    },
+    {
+      "text": "In a multi-party system, when several parties join hands for the purpose of contesting elections and winning power, the grouping is called:",
+      "difficulty": "EASY",
+      "options": ["a pressure group", "an alliance or a front", "a one-party system", "a cabinet"],
+      "answer": 1,
+      "explanation": "In a multi-party system, a single party often cannot win power on its own.\nSo two or more parties may come together to contest elections and form the government; such a grouping is called an alliance or a front.\nNCERT gives examples such as the National Democratic Alliance (NDA), the United Progressive Alliance (UPA) and the Left Front.\nSo the answer is an alliance or a front."
+    },
+    {
+      "text": "According to the Election Commission's rules as given in NCERT, a party is recognised as a 'State party' when it:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "secures at least 6% of the votes in Lok Sabha elections in four States and wins at least four Lok Sabha seats",
+        "has members in at least half of the districts of a State",
+        "secures at least 6% of the total votes in an election to the Legislative Assembly of a State and wins at least two seats",
+        "has been registered with the Election Commission for at least five years"
+      ],
+      "answer": 2,
+      "explanation": "Recognised parties get special facilities, such as a unique election symbol.\nA party that secures at least 6% of the total votes in an election to the Legislative Assembly of a State and wins at least two seats is recognised as a State party.\nThe first option describes the national party rule (6% of votes in Lok Sabha or Assembly elections in four States plus at least four Lok Sabha seats).\nSo the State party rule is 6% of the votes and at least two Assembly seats."
+    },
+    {
+      "text": "Which one of the following pairs of a political party and a fact about its founding is correctly matched?",
+      "difficulty": "HARD",
+      "options": [
+        "Communist Party of India (Marxist) — founded in 1925",
+        "Bahujan Samaj Party — formed in 1984 under the leadership of Kanshi Ram",
+        "Bharatiya Janata Party — founded in 1951 by Syama Prasad Mukherjee",
+        "Indian National Congress — founded in 1947, after Independence"
+      ],
+      "answer": 1,
+      "explanation": "The Communist Party of India was founded in 1925; the CPI(M) was founded in 1964, so the first pair is wrong.\nSyama Prasad Mukherjee formed the Bharatiya Jana Sangh in 1951; the BJP was founded in 1980 by reviving it, so the third pair is wrong.\nThe Indian National Congress was founded in 1885, long before Independence, so the fourth pair is wrong.\nThe Bahujan Samaj Party was formed in 1984 under the leadership of Kanshi Ram.\nSo the correctly matched pair is the BSP one."
+    },
+    {
+      "text": "In a country, the two main parties offer almost the same economic policies, and leaders keep moving from one party to the other. Voters complain that whichever party they vote for, nothing really changes. Which challenge to political parties does this situation show?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Lack of internal democracy",
+        "Dynastic succession",
+        "Lack of meaningful choice to the voters",
+        "Growing role of money and muscle power"
+      ],
+      "answer": 2,
+      "explanation": "NCERT notes a decline in ideological differences among parties in most parts of the world; for example, there is very little difference between the Labour Party and the Conservative Party in Britain.\nWhen parties offer the same policies, and even the same leaders keep shifting between them, voters cannot choose between genuinely different alternatives.\nInternal democracy, dynastic succession and money power are about how parties are run or how they win, not about the absence of real alternatives.\nSo the challenge shown is lack of meaningful choice to the voters."
+    },
+    {
+      "text": "To reduce the influence of money and criminals in politics, the Supreme Court passed an order. Under this order, every candidate contesting an election must:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "be a graduate and below 65 years of age",
+        "get the party's manifesto approved by the Election Commission",
+        "deposit all election expenses with the Supreme Court in advance",
+        "file an affidavit giving details of his or her property and the criminal cases pending against him or her"
+      ],
+      "answer": 3,
+      "explanation": "One of the efforts made to reform parties and politics was an order of the Supreme Court.\nIt made it mandatory for every candidate contesting elections to file an affidavit giving details of his or her property and of criminal cases pending against him or her.\nThis information is made public, so voters can make an informed choice.\nSo every candidate must file an affidavit on property and pending criminal cases."
+    },
+    {
+      "text": "Assertion (A): Political parties are necessary for a representative democracy to function.\nReason (R): Without parties, every candidate would be an independent, no one could make promises to the people about major policy changes, and no one would be responsible for how the country is run.\nChoose the correct option.",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 0,
+      "explanation": "Imagine a democracy without parties: every candidate in an election would be independent.\nNo one could promise major policy changes, a government might be formed but its usefulness would remain uncertain, and elected members would answer only to their own constituencies.\nParties bring representatives together so that a responsible government can be formed and run, which is why parties are needed in a representative democracy.\nSo both A and R are true, and R is the correct explanation of A."
+    },
+    {
+      "text": "Ramesh, a farmer, approaches a local party worker to help him get the benefit of a government pension scheme, and the worker guides him through the process. Which function of political parties does this best show?",
+      "difficulty": "EASY",
+      "options": [
+        "Making laws for the country",
+        "Providing people access to government machinery and welfare schemes",
+        "Contesting elections",
+        "Playing the role of opposition"
+      ],
+      "answer": 1,
+      "explanation": "For an ordinary citizen, it is easier to approach a local party leader than a government officer.\nThat is why people feel close to parties even when they do not fully trust them.\nNCERT lists this as a function of parties: providing people access to government machinery and welfare schemes implemented by governments.\nSo the situation shows the function of giving access to government machinery and welfare schemes."
+    },
+    {
+      "text": "Assertion (A): The anti-defection law has strengthened the freedom of MPs and MLAs to vote according to their own views, even against their party leadership.\nReason (R): Under the anti-defection law, an MP or MLA who changes party loses his or her seat in the legislature.\nChoose the correct option.",
+      "difficulty": "HARD",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 3,
+      "explanation": "The Constitution was amended to prevent elected MLAs and MPs from changing parties: one who changes party loses the seat, so R is true.\nThis has helped bring defection down.\nBut because legislators must stay with their party to keep their seats, they have to accept whatever the party leaders decide; NCERT notes that this has made any dissent even more difficult.\nSo the law has reduced, not strengthened, legislators' freedom to go against the party, and A is false.\nAnswer: A is false, but R is true."
+    }
+  ]
+}

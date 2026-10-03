@@ -1,0 +1,160 @@
+{
+  "exam": "class-12",
+  "subject": "chemistry",
+  "chapter": "solutions",
+  "notes": {
+    "summary": "This chapter covers types of solutions, ways of expressing concentration, solubility of solids and gases (Henry's law), vapour pressure and Raoult's law, ideal and non-ideal solutions with azeotropes, and the four colligative properties along with the van't Hoff factor for abnormal molar masses. CBSE tests it through numericals on concentration and colligative properties, conceptual MCQs on deviations and Henry's law applications, and assertion-reason items.",
+    "keyPoints": [
+      "Concentration terms: mass %, ppm = (mass of solute ÷ mass of solution) × 10⁶, mole fraction, molarity M = moles of solute ÷ volume of solution in L, molality m = moles of solute ÷ mass of solvent in kg. Molality and mole fraction do not change with temperature; molarity does, because volume changes.",
+      "Henry's law: p = K(H) × x, where x is the mole fraction of the gas in solution. A larger K(H) means lower solubility; K(H) increases with temperature, so gases are less soluble in warm water. Applications: soda bottles sealed under high CO₂ pressure, bends in scuba divers, anoxia at high altitudes.",
+      "Raoult's law for volatile liquids: p(A) = x(A) p°(A) and p(total) = x(A) p°(A) + x(B) p°(B). The vapour is richer in the more volatile component: y(A) = p(A) ÷ p(total). For a non-volatile solute, (p° − p) ÷ p° = mole fraction of solute.",
+      "Ideal solutions obey Raoult's law at all concentrations with ΔmixH = 0 and ΔmixV = 0 (n-hexane + n-heptane, benzene + toluene). Positive deviation: weaker A–B attractions, ΔmixH > 0, ΔmixV > 0 (ethanol + acetone, CS₂ + acetone), forms minimum boiling azeotrope (about 95% ethanol–water, 351 K).",
+      "Negative deviation: stronger A–B attractions, ΔmixH < 0, ΔmixV < 0 (chloroform + acetone through H-bonding, phenol + aniline), forms maximum boiling azeotrope (about 68% HNO₃ and 32% water by mass, 393.5 K).",
+      "Colligative properties depend only on the number of solute particles: relative lowering of vapour pressure, ΔTb = Kb × m, ΔTf = Kf × m and π = CRT. For water Kb = 0.52 K kg mol⁻¹ and Kf = 1.86 K kg mol⁻¹. Example: 0.2 m urea gives ΔTf = 1.86 × 0.2 = 0.372 K.",
+      "Osmotic pressure is preferred for molar masses of proteins and polymers (measured at room temperature and large even for dilute solutions). 0.9% (mass/volume) NaCl (normal saline) is isotonic with blood cells; in a hypertonic solution cells shrink, in a hypotonic one they swell. Reverse osmosis (pressure greater than π applied on the solution side) is used for desalination.",
+      "van't Hoff factor i = normal molar mass ÷ abnormal molar mass = observed colligative property ÷ calculated colligative property. Dissociation gives i > 1 (NaCl about 2, K₂SO₄ about 3); association gives i < 1 (ethanoic acid dimerises in benzene, i about 0.5). Degree of dissociation α = (i − 1) ÷ (n − 1), where n is the number of ions per formula unit."
+    ],
+    "traps": [
+      "Using the mass of the solution instead of the mass of the solvent (in kg) for molality, or forgetting to convert grams to kilograms.",
+      "Forgetting the van't Hoff factor for electrolytes, or applying it to non-electrolytes such as urea, glucose and sucrose (for which i = 1).",
+      "Thinking that a larger Henry's law constant means higher solubility; it means lower solubility at the same partial pressure.",
+      "Confusing liquid-phase and vapour-phase mole fractions in Raoult's law problems; the vapour composition must be found from the partial pressures.",
+      "Getting the direction wrong: a non-volatile solute lowers the vapour pressure and freezing point but raises the boiling point, so an aqueous solution freezes below 0 °C."
+    ],
+    "examTip": "In every colligative-property numerical, first fix i (1 for non-electrolytes, number of ions for strong electrolytes, less than 1 for association), then write ΔT = i × K × m or π = iCRT with units, using R = 0.083 L bar K⁻¹ mol⁻¹ or 0.0821 L atm K⁻¹ mol⁻¹ to match the pressure unit asked."
+  },
+  "questions": [
+    {
+      "text": "Which of the following concentration terms does NOT change when the temperature of a solution is changed?",
+      "difficulty": "EASY",
+      "options": [
+        "Molarity",
+        "Mass by volume percentage",
+        "Molality",
+        "Volume percentage"
+      ],
+      "answer": 2,
+      "explanation": "Molality = moles of solute ÷ mass of solvent in kg.\nBoth moles and mass are unaffected by temperature, so molality stays constant.\nMolarity, mass by volume % and volume % all involve the volume of solution, which expands or contracts with temperature.\nSo molality is independent of temperature."
+    },
+    {
+      "text": "Scuba divers who rise too quickly from deep water can suffer from a painful and dangerous condition called 'bends'. It is caused by",
+      "difficulty": "EASY",
+      "options": [
+        "bubbles of nitrogen formed in the blood because the solubility of nitrogen falls as the pressure decreases",
+        "an increase in the solubility of oxygen in the blood at lower pressure",
+        "formation of carbon monoxide in the blood at high pressure",
+        "an increase in the boiling point of blood at lower pressure"
+      ],
+      "answer": 0,
+      "explanation": "By Henry's law, the solubility of a gas in a liquid is proportional to its partial pressure.\nAt depth the pressure is high, so more nitrogen from the breathing air dissolves in the blood.\nOn a rapid ascent the pressure drops, the solubility of nitrogen falls and it comes out as bubbles that block capillaries.\nThis causes the bends; to reduce it, divers' tanks use air diluted with helium."
+    },
+    {
+      "text": "In the desalination of sea water by reverse osmosis, pure water is obtained when",
+      "difficulty": "EASY",
+      "options": [
+        "sea water and pure water are separated by a semipermeable membrane and left without applying any pressure",
+        "the sea water is heated above its boiling point",
+        "a pressure lower than the osmotic pressure is applied on the pure-water side",
+        "a pressure greater than the osmotic pressure is applied on the sea-water side"
+      ],
+      "answer": 3,
+      "explanation": "In normal osmosis, solvent flows through a semipermeable membrane from pure water into the solution.\nIf a pressure larger than the osmotic pressure is applied on the solution (sea water) side, the flow is reversed.\nPure water is then forced out of the sea water through the membrane (e.g. cellulose acetate, which allows water but not ions to pass).\nSo the pressure must exceed the osmotic pressure and be applied on the sea-water side."
+    },
+    {
+      "text": "Which of the following binary mixtures shows a negative deviation from Raoult's law?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Ethanol + acetone",
+        "Chloroform + acetone",
+        "n-Hexane + n-heptane",
+        "Carbon disulphide + acetone"
+      ],
+      "answer": 1,
+      "explanation": "Negative deviation occurs when A–B attractions are stronger than A–A and B–B attractions.\nIn chloroform + acetone, the C–H of chloroform forms a hydrogen bond with the oxygen of acetone.\nThis lowers the escaping tendency, so the vapour pressure is lower than Raoult's law predicts (ΔmixH < 0); the mixture forms a maximum boiling azeotrope.\nEthanol + acetone and CS₂ + acetone show positive deviation, while n-hexane + n-heptane is nearly ideal."
+    },
+    {
+      "text": "Two liquids A and B form an ideal solution. At 300 K the vapour pressures of pure A and pure B are 80 kPa and 40 kPa respectively. The total vapour pressure of a solution in which the mole fraction of A is 0.25 is",
+      "difficulty": "MEDIUM",
+      "options": [
+        "50 kPa",
+        "70 kPa",
+        "60 kPa",
+        "120 kPa"
+      ],
+      "answer": 0,
+      "explanation": "Raoult's law: p(A) = x(A) × p°(A) = 0.25 × 80 = 20 kPa.\nx(B) = 1 − 0.25 = 0.75, so p(B) = 0.75 × 40 = 30 kPa.\nDalton's law: p(total) = 20 + 30 = 50 kPa.\nSwapping the mole fractions gives 70 kPa; 60 kPa is just the average and 120 kPa the sum of pure-liquid pressures.\nSo the total vapour pressure is 50 kPa."
+    },
+    {
+      "text": "6.0 g of urea (NH₂CONH₂, molar mass 60 g mol⁻¹) is dissolved in 500 g of water. The freezing point of the solution is (Kf of water = 1.86 K kg mol⁻¹; pure water freezes at 0 °C)",
+      "difficulty": "MEDIUM",
+      "options": [
+        "−0.186 °C",
+        "+0.372 °C",
+        "−0.744 °C",
+        "−0.372 °C"
+      ],
+      "answer": 3,
+      "explanation": "Moles of urea = 6.0 ÷ 60 = 0.1 mol.\nMolality m = 0.1 mol ÷ 0.500 kg = 0.2 mol kg⁻¹.\nUrea is a non-electrolyte, so i = 1.\nΔTf = Kf × m = 1.86 × 0.2 = 0.372 K.\nFreezing point = 0 − 0.372 = −0.372 °C."
+    },
+    {
+      "text": "The molar mass of ethanoic (acetic) acid determined from the depression in freezing point of its solution in benzene comes out to be nearly 120 g mol⁻¹, about double its actual value of 60 g mol⁻¹. The best explanation is that",
+      "difficulty": "MEDIUM",
+      "options": [
+        "ethanoic acid dissociates into ions in benzene, so i > 1",
+        "benzene reacts with ethanoic acid to form a heavier compound",
+        "ethanoic acid molecules associate into dimers through hydrogen bonding, so i < 1",
+        "ethanoic acid is volatile and escapes from the solution"
+      ],
+      "answer": 2,
+      "explanation": "In benzene (a non-polar solvent of low dielectric constant), ethanoic acid molecules pair up as dimers through hydrogen bonding.\nThis halves the number of solute particles, so the observed ΔTf is about half the expected value.\nSince calculated molar mass is inversely proportional to ΔTf, it comes out about double (an abnormal molar mass).\nThe van't Hoff factor is about 0.5, i.e. i < 1 due to association."
+    },
+    {
+      "text": "The Henry's law constants (K(H)) of four gases P, Q, R and S in water at the same temperature are 145 kbar, 76 kbar, 35 kbar and 1.7 kbar respectively. Which gas is the most soluble in water at the same partial pressure?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "P",
+        "S",
+        "Q",
+        "R"
+      ],
+      "answer": 1,
+      "explanation": "Henry's law: p = K(H) × x, so the mole fraction of dissolved gas x = p ÷ K(H).\nAt the same partial pressure, the gas with the smallest K(H) has the largest x, i.e. the highest solubility.\nThe smallest value is 1.7 kbar for gas S.\nSo S is the most soluble (P, with the largest K(H), is the least soluble)."
+    },
+    {
+      "text": "Assertion (A): 0.1 M aqueous solutions of glucose and sucrose have the same osmotic pressure at the same temperature.\nReason (R): The osmotic pressure of a solution depends on the nature of the solute dissolved in it.",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 2,
+      "explanation": "Osmotic pressure π = iCRT. Glucose and sucrose are non-electrolytes, so i = 1 for both.\nWith the same C (0.1 M) and the same T, π is the same, so A is true.\nOsmotic pressure is a colligative property: it depends on the number of solute particles, not on their nature, so R is false.\nHence A is true but R is false."
+    },
+    {
+      "text": "Liquids A and B form an ideal solution. At a certain temperature the vapour pressures of pure A and pure B are 300 mm Hg and 100 mm Hg respectively. For a liquid mixture in which the mole fraction of A is 0.4, the mole fraction of A in the vapour phase in equilibrium with it is",
+      "difficulty": "HARD",
+      "options": [
+        "0.67",
+        "0.40",
+        "0.75",
+        "0.33"
+      ],
+      "answer": 0,
+      "explanation": "Partial pressures by Raoult's law: p(A) = 0.4 × 300 = 120 mm Hg; p(B) = 0.6 × 100 = 60 mm Hg.\nTotal pressure = 120 + 60 = 180 mm Hg.\nBy Dalton's law, mole fraction of A in vapour y(A) = p(A) ÷ p(total) = 120 ÷ 180 = 0.67.\nThe vapour is richer in A (0.67 against 0.40 in the liquid) because A is more volatile; 0.33 is the vapour mole fraction of B."
+    },
+    {
+      "text": "A 0.1 m aqueous solution of a weak monobasic acid HA freezes at −0.2046 °C. Assuming the acid dissociates as HA ⇌ H⁺ + A⁻, its degree of dissociation is (Kf of water = 1.86 K kg mol⁻¹)",
+      "difficulty": "HARD",
+      "options": [
+        "5%",
+        "10%",
+        "1.1%",
+        "20%"
+      ],
+      "answer": 1,
+      "explanation": "Observed ΔTf = 0 − (−0.2046) = 0.2046 K.\nCalculated ΔTf for no dissociation = Kf × m = 1.86 × 0.1 = 0.186 K.\nvan't Hoff factor i = 0.2046 ÷ 0.186 = 1.1.\nFor HA ⇌ H⁺ + A⁻, n = 2, so α = (i − 1) ÷ (n − 1) = (1.1 − 1) ÷ 1 = 0.1.\nDegree of dissociation = 10% (taking n = 3 by mistake gives 5%)."
+    }
+  ]
+}

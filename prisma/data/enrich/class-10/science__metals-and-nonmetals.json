@@ -1,0 +1,107 @@
+{
+  "exam": "class-10",
+  "subject": "science",
+  "chapter": "metals-and-nonmetals",
+  "notes": {
+    "summary": "This chapter compares the physical and chemical properties of metals and non-metals, builds the reactivity series, explains ionic bonding, and covers how metals are extracted, refined and protected from corrosion. CBSE tests it through reaction-based MCQs, reactivity-series reasoning, assertion-reason items and case-based questions on extraction and corrosion.",
+    "keyPoints": [
+      "Physical properties: metals are lustrous, malleable, ductile, sonorous and good conductors (silver and copper conduct electricity best; lead and mercury are comparatively poor conductors of heat). Exceptions: mercury is a liquid metal; Na and K are soft enough to cut with a knife; gallium and caesium melt on the palm; iodine is a lustrous non-metal; graphite conducts; diamond is the hardest natural substance; bromine is a liquid non-metal.",
+      "Reactivity series (high to low): K > Na > Ca > Mg > Al > Zn > Fe > Pb > [H] > Cu > Hg > Ag > Au. A more reactive metal displaces a less reactive one from its salt solution, e.g. Fe + CuSO₄ → FeSO₄ + Cu.",
+      "Oxides: metals form basic oxides (Na₂O, CaO); Al₂O₃ and ZnO are amphoteric (react with both acids and bases, e.g. Al₂O₃ + 2NaOH → 2NaAlO₂ + H₂O); non-metals form acidic (SO₂, CO₂) or neutral oxides.",
+      "Metals with water: K and Na react violently (H₂ catches fire); Ca reacts less violently and floats; Mg reacts with hot water; Al, Zn and Fe react only with steam (3Fe + 4H₂O → Fe₃O₄ + 4H₂); Pb, Cu, Ag and Au do not react.",
+      "Metals with acids: metal + dilute HCl/H₂SO₄ → salt + H₂ (Zn + 2HCl → ZnCl₂ + H₂). With nitric acid, H₂ is not evolved because HNO₃ is a strong oxidising agent; only Mg and Mn give H₂ with very dilute HNO₃. Aqua regia = conc. HCl : conc. HNO₃ in 3 : 1, dissolves gold and platinum.",
+      "Ionic bonding: Na (2,8,1) loses 1 electron → Na⁺; Cl (2,8,7) gains 1 → Cl⁻; Mg (2,8,2) gives one electron to each of two Cl atoms → MgCl₂. Ionic compounds are hard, brittle solids with high melting/boiling points, soluble in water but not in kerosene or petrol, and conduct only when molten or dissolved.",
+      "Extraction depends on reactivity: K, Na, Ca, Mg, Al by electrolysis of molten chlorides/oxides (metal at cathode); Zn, Fe, Pb by roasting (sulphide ores, excess air: 2ZnS + 3O₂ → 2ZnO + 2SO₂) or calcination (carbonate ores, limited air: ZnCO₃ → ZnO + CO₂) and then reduction with carbon (ZnO + C → Zn + CO); Hg and Cu by heating alone (2HgS + 3O₂ → 2HgO + 2SO₂; 2HgO → 2Hg + O₂). Thermite: Fe₂O₃ + 2Al → 2Fe + Al₂O₃ + heat.",
+      "Electrolytic refining (e.g. copper): impure metal is the anode, a thin strip of pure metal is the cathode, and a soluble salt (acidified CuSO₄) is the electrolyte; insoluble impurities collect below the anode as anode mud.",
+      "Corrosion: silver turns black (silver sulphide), copper turns green (basic copper carbonate), iron rusts (Fe₂O₃·xH₂O, needs both air and water). Prevention: painting, oiling, greasing, galvanising, chrome plating, anodising and alloying.",
+      "Alloys: steel (Fe + C), stainless steel (Fe + Ni + Cr), brass (Cu + Zn), bronze (Cu + Sn), solder (Pb + Sn, low melting point, used for welding wires), amalgam (any metal + Hg). 24-carat gold is pure; 22-carat = 22 parts gold + 2 parts Cu or Ag. Alloys have lower electrical conductivity and melting point than the pure metals."
+    ],
+    "traps": [
+      "Writing H₂ as a product of metal + nitric acid: HNO₃ oxidises the H₂ to water; only Mg and Mn give H₂ with very dilute HNO₃.",
+      "Swapping roasting and calcination: roasting is for sulphide ores in excess air, calcination is for carbonate ores in limited air.",
+      "Believing solid ionic compounds conduct electricity: ions are fixed in the solid and can move only when molten or in solution.",
+      "Iron with steam gives Fe₃O₄ (not Fe₂O₃), and iron with dilute HCl gives FeCl₂ (not FeCl₃).",
+      "Over-generalising properties: mercury is a liquid metal, Na and K are soft, graphite conducts and iodine is lustrous although they are non-metals."
+    ],
+    "examTip": "For any displacement or extraction MCQ, first write the reactivity series K Na Ca Mg Al Zn Fe Pb H Cu Hg Ag Au in the margin and check where each metal sits before choosing."
+  },
+  "questions": [
+    {
+      "text": "Which of the following is a non-metal that exists as a liquid at room temperature?",
+      "difficulty": "EASY",
+      "options": ["Mercury", "Bromine", "Iodine", "Gallium"],
+      "answer": 1,
+      "explanation": "Mercury is also a liquid at room temperature, but it is a metal. Iodine is a solid non-metal (and is lustrous). Gallium is a metal that is solid at room temperature but melts on the palm. Bromine is the only non-metal that is a liquid at room temperature, so the answer is bromine."
+    },
+    {
+      "text": "Aqua regia, which can dissolve gold and platinum, is a freshly prepared mixture of:",
+      "difficulty": "EASY",
+      "options": ["Concentrated HCl and concentrated HNO₃ in the ratio 1 : 3", "Concentrated H₂SO₄ and concentrated HNO₃ in the ratio 3 : 1", "Concentrated HCl and concentrated HNO₃ in the ratio 3 : 1", "Dilute HCl and dilute HNO₃ in the ratio 1 : 1"],
+      "answer": 2,
+      "explanation": "Aqua regia (Latin for royal water) is a highly corrosive, fuming liquid. It is made by mixing concentrated hydrochloric acid and concentrated nitric acid in the ratio 3 : 1. Neither acid alone dissolves gold, but the mixture does. So the answer is concentrated HCl and concentrated HNO₃ in the ratio 3 : 1."
+    },
+    {
+      "text": "In India, 22-carat gold is commonly used for making ornaments. What does 22-carat gold contain?",
+      "difficulty": "EASY",
+      "options": ["22 parts of pure gold alloyed with 2 parts of copper or silver", "22 parts of gold alloyed with 2 parts of mercury", "2 parts of gold alloyed with 22 parts of copper", "100% pure gold, since 22 carat is the highest purity"],
+      "answer": 0,
+      "explanation": "Pure gold is called 24-carat gold and is too soft for jewellery. To make it harder, it is alloyed with copper or silver. 22-carat gold means 22 parts of pure gold mixed with 2 parts of copper or silver (22 out of 24 parts are gold)."
+    },
+    {
+      "text": "Oxides that react with both acids and bases to produce salt and water are called amphoteric oxides. Which pair contains only amphoteric oxides?",
+      "difficulty": "MEDIUM",
+      "options": ["Na₂O and K₂O", "CO₂ and SO₂", "MgO and CaO", "Al₂O₃ and ZnO"],
+      "answer": 3,
+      "explanation": "Na₂O, K₂O, MgO and CaO are basic oxides (react only with acids). CO₂ and SO₂ are acidic oxides of non-metals (react with bases). Aluminium oxide reacts with both: Al₂O₃ + 6HCl → 2AlCl₃ + 3H₂O and Al₂O₃ + 2NaOH → 2NaAlO₂ + H₂O. Zinc oxide behaves similarly. So the amphoteric pair is Al₂O₃ and ZnO."
+    },
+    {
+      "text": "Hydrogen gas is usually not evolved when a metal reacts with nitric acid. Which two metals react with very dilute nitric acid to evolve hydrogen gas?",
+      "difficulty": "MEDIUM",
+      "options": ["Magnesium and manganese", "Copper and silver", "Iron and zinc", "Gold and platinum"],
+      "answer": 0,
+      "explanation": "Nitric acid is a strong oxidising agent. It oxidises the hydrogen produced to water and is itself reduced to oxides of nitrogen (N₂O, NO, NO₂), so H₂ is normally not obtained. The exceptions are magnesium and manganese, which react with very dilute HNO₃ to give hydrogen gas. Copper, silver, gold and platinum lie below hydrogen and do not give H₂ at all."
+    },
+    {
+      "text": "A clean copper wire is dipped in silver nitrate solution and left for some time. What is observed?",
+      "difficulty": "MEDIUM",
+      "options": ["No change, because copper is less reactive than silver", "The solution turns green and hydrogen gas is evolved", "The solution gradually turns blue and a shiny greyish-white deposit of silver forms on the wire", "The solution becomes colourless and copper is deposited"],
+      "answer": 2,
+      "explanation": "In the reactivity series, copper lies above silver, so copper is more reactive. Copper displaces silver: Cu + 2AgNO₃ → Cu(NO₃)₂ + 2Ag. The Cu²⁺ ions formed make the solution blue, and silver metal deposits on the wire. So the solution turns blue and silver is deposited."
+    },
+    {
+      "text": "When steam is passed over red-hot iron, which products are formed?",
+      "difficulty": "MEDIUM",
+      "options": ["Fe₃O₄ and H₂", "Fe₂O₃ and H₂", "Fe(OH)₃ and H₂", "FeO and O₂"],
+      "answer": 0,
+      "explanation": "Iron does not react with cold or hot water, but it reacts with steam. The balanced equation is 3Fe + 4H₂O → Fe₃O₄ + 4H₂. Check: Fe 3 = 3, H 8 = 8, O 4 = 4. So the products are iron(II,III) oxide Fe₃O₄ and hydrogen gas."
+    },
+    {
+      "text": "In the extraction of zinc, zinc blende (ZnS) and calamine (ZnCO₃) are each first converted into zinc oxide. The processes used for zinc blende and calamine are, respectively:",
+      "difficulty": "MEDIUM",
+      "options": ["Calcination and roasting", "Roasting and calcination", "Roasting for both ores", "Electrolysis and calcination"],
+      "answer": 1,
+      "explanation": "Sulphide ores are roasted, that is, heated strongly in excess air: 2ZnS + 3O₂ → 2ZnO + 2SO₂. Carbonate ores are calcined, that is, heated strongly in limited air: ZnCO₃ → ZnO + CO₂. The zinc oxide is then reduced with carbon: ZnO + C → Zn + CO. So zinc blende is roasted and calamine is calcined."
+    },
+    {
+      "text": "Magnesium (atomic number 12) combines with chlorine (atomic number 17) to form magnesium chloride. Which statement correctly describes the bond formation?",
+      "difficulty": "MEDIUM",
+      "options": ["Magnesium and chlorine share two pairs of electrons to form covalent bonds", "Each chlorine atom transfers one electron to magnesium", "Magnesium loses one electron to a single chlorine atom, forming MgCl", "Magnesium loses two electrons, one to each of two chlorine atoms, forming Mg²⁺ and two Cl⁻ ions"],
+      "answer": 3,
+      "explanation": "Electronic configuration of Mg is 2,8,2, so it attains a stable octet by losing 2 electrons and becomes Mg²⁺ (2,8). Cl is 2,8,7, so each Cl atom needs 1 electron to become Cl⁻ (2,8,8). Therefore one Mg atom gives one electron to each of two Cl atoms. The oppositely charged ions attract to form the ionic compound MgCl₂."
+    },
+    {
+      "text": "Assertion (A): Solid sodium chloride conducts electricity.\nReason (R): Sodium chloride is made up of Na⁺ and Cl⁻ ions.\nChoose the correct option.",
+      "difficulty": "HARD",
+      "options": ["Both A and R are true, and R is the correct explanation of A.", "Both A and R are true, but R is not the correct explanation of A.", "A is true, but R is false.", "A is false, but R is true."],
+      "answer": 3,
+      "explanation": "Sodium chloride is an ionic compound made of Na⁺ and Cl⁻ ions, so R is true. Conduction needs ions that can move. In the solid, the ions are held in fixed positions by strong electrostatic forces and cannot move, so solid NaCl does not conduct; it conducts only when molten or dissolved in water. So A is false and R is true."
+    },
+    {
+      "text": "Mercury is low in the reactivity series. Cinnabar (HgS) is heated in air, and the product is heated further without any reducing agent to obtain mercury. Which pair of balanced equations correctly shows this process?",
+      "difficulty": "HARD",
+      "options": ["HgS + O₂ → HgO + SO₂, then HgO → Hg + O₂", "2HgS + 3O₂ → 2HgO + 2SO₂, then 2HgO → 2Hg + O₂", "2HgS + 3O₂ → 2HgSO₃, then 2HgSO₃ → 2Hg + 2SO₂ + O₂", "HgS + C → Hg + CS, by heating with coke"],
+      "answer": 1,
+      "explanation": "Metals low in the reactivity series are obtained by heating alone. Step 1 (heating cinnabar in air): 2HgS + 3O₂ → 2HgO + 2SO₂ (Hg 2 = 2, S 2 = 2, O 6 = 6). Step 2 (heating mercuric oxide further): 2HgO → 2Hg + O₂ (Hg 2 = 2, O 2 = 2). The first option has the right substances but is not balanced, the third has the wrong intermediate, and the fourth uses a reducing agent. So the correct pair is 2HgS + 3O₂ → 2HgO + 2SO₂, then 2HgO → 2Hg + O₂."
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "exam": "neet",
+  "subject": "biology",
+  "chapter": "cell-cycle-and-cell-division",
+  "notes": {
+    "summary": "This chapter covers the phases of the cell cycle (interphase with G1, S and G2, then the M phase), the quiescent G0 stage, the stages of mitosis and meiosis, cytokinesis, and the significance of each kind of division. NEET asks two or three direct NCERT-line questions on the events of each stage, the sub-stages of prophase I, and how chromosome number and DNA content change.",
+    "keyPoints": [
+      "Duration: human cells in culture divide about once every 24 hours (the M phase takes only about 1 hour); yeast completes a cycle in about 90 minutes. Interphase takes up more than 95% of the cycle.",
+      "G1: the cell is metabolically active and grows, but its DNA does not replicate. S: DNA content doubles (2C → 4C) but the chromosome number stays the same; in animal cells the centriole duplicates in the cytoplasm. G2: proteins needed for mitosis are made and growth continues. G0: cells stay metabolically active but stop dividing unless called on to do so.",
+      "Prophase: chromatin condenses and the centrosomes move to opposite poles; by the end, the Golgi complex, ER, nucleolus and nuclear envelope have disappeared.",
+      "Metaphase starts with the complete disintegration of the nuclear envelope. Chromosomes line up on the metaphase plate, and this is the best stage to study chromosome morphology. Spindle fibres attach to kinetochores, which are small disc-shaped structures on the surface of the centromeres.",
+      "Anaphase: centromeres split and sister chromatids move to opposite poles. Telophase: chromosomes decondense, and the nuclear envelope, nucleolus, Golgi complex and ER re-form.",
+      "Cytokinesis: animal cells divide by a furrow in the plasma membrane; plant cells form a cell plate (the future middle lamella) that grows from the centre outwards. When karyokinesis is not followed by cytokinesis, a multinucleate syncytium forms (e.g. the liquid endosperm of coconut).",
+      "Significance of mitosis: growth, restoring the nucleo-cytoplasmic ratio, and cell repair (upper epidermis, gut lining and blood cells are constantly replaced). Mitosis in the apical and lateral meristems (cambium) gives plants continuous growth throughout life.",
+      "Prophase I, in order: leptotene (chromosomes become visible) → zygotene (synapsis, synaptonemal complex, bivalents) → pachytene (recombination nodules; crossing over by the enzyme recombinase) → diplotene (synaptonemal complex dissolves, X-shaped chiasmata; can last months or years in the oocytes of some vertebrates) → diakinesis (terminalisation of chiasmata; the nucleolus and nuclear envelope disappear).",
+      "Meiosis I is reductional (homologues separate at anaphase I). Interkinesis is short and has no DNA replication. Meiosis II resembles mitosis (sister chromatids separate at anaphase II). Each meiocyte gives four haploid cells.",
+      "Numbers to practise (2n = 20): 10 bivalents and 40 chromatids at pachytene. DNA content: G1 = 2C, G2 or prophase I = 4C, after meiosis I = 2C per cell, gamete = C."
+    ],
+    "traps": [
+      "Thinking the chromosome number doubles in S phase; only the DNA content doubles.",
+      "Mixing up zygotene (synapsis) with pachytene (crossing over), and diplotene (chiasmata become visible) with diakinesis (terminalisation of chiasmata).",
+      "Saying centromeres split in anaphase I; they split only in anaphase II and in mitotic anaphase.",
+      "Swapping chromatin condensation (prophase) with decondensation (telophase).",
+      "Counting the number of bivalents as 2n instead of n."
+    ],
+    "examTip": "For number-based questions, first jot down the stage-wise table of chromosome number and DNA (C) value (G1: 2n, 2C → G2: 2n, 4C → after meiosis I: n, 2C → gamete: n, C), then read the options."
+  },
+  "questions": [
+    {
+      "text": "The duration of the cell cycle varies between organisms. A yeast cell can complete one cell cycle in about:",
+      "difficulty": "EASY",
+      "options": [
+        "24 hours",
+        "90 minutes",
+        "1 hour",
+        "10 minutes"
+      ],
+      "answer": 1,
+      "explanation": "A typical human cell in culture divides about once every 24 hours.\nYeast progresses through the cell cycle much faster, in only about 90 minutes.\nAbout 1 hour is the length of the M phase of a human cell, not of a whole cycle.\nAnswer: about 90 minutes."
+    },
+    {
+      "text": "The correct sequence of the sub-stages of prophase I of meiosis is:",
+      "difficulty": "EASY",
+      "options": [
+        "Leptotene → Pachytene → Zygotene → Diplotene → Diakinesis",
+        "Zygotene → Leptotene → Pachytene → Diakinesis → Diplotene",
+        "Leptotene → Zygotene → Diplotene → Pachytene → Diakinesis",
+        "Leptotene → Zygotene → Pachytene → Diplotene → Diakinesis"
+      ],
+      "answer": 3,
+      "explanation": "Leptotene: chromosomes become visible.\nZygotene: homologous chromosomes pair (synapsis).\nPachytene: crossing over takes place.\nDiplotene: the synaptonemal complex dissolves and chiasmata become visible.\nDiakinesis: the chiasmata terminalise.\nAnswer: Leptotene → Zygotene → Pachytene → Diplotene → Diakinesis."
+    },
+    {
+      "text": "In flowering plants, growth that continues throughout the life of the plant results from mitotic divisions in the:",
+      "difficulty": "EASY",
+      "options": [
+        "Apical and lateral meristems (cambium)",
+        "Mature parenchyma cells of the cortex",
+        "Sieve tube elements of the phloem",
+        "Microspore mother cells of the anther"
+      ],
+      "answer": 0,
+      "explanation": "Meristematic tissues keep dividing by mitosis throughout the plant's life.\nThe apical meristems increase length, and the lateral meristems (cambium) increase girth.\nMature sieve tube elements do not divide, and microspore mother cells divide by meiosis to form pollen.\nAnswer: apical and lateral meristems (cambium)."
+    },
+    {
+      "text": "Consider the following statements about mitosis:\nI. The complete disintegration of the nuclear envelope marks the start of metaphase.\nII. Kinetochores are small disc-shaped structures on the surface of the centromeres, where spindle fibres attach.\nIII. During telophase, the nuclear envelope re-forms around each chromosome cluster, and the nucleolus, Golgi complex and ER re-form.\nIV. Chromosomes are most condensed during telophase.\nWhich of the statements are correct?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "I and II only",
+        "III and IV only",
+        "I, II and III only",
+        "II, III and IV only"
+      ],
+      "answer": 2,
+      "explanation": "I is true: metaphase begins once the nuclear envelope has completely disintegrated.\nII is true: kinetochores on the centromeres are where the spindle fibres attach.\nIII is true: telophase reverses the events of prophase.\nIV is false: chromosomes are most condensed at metaphase; in telophase they decondense and lose their individuality.\nAnswer: I, II and III only."
+    },
+    {
+      "text": "In animal cells, the centriole duplicates during:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "S phase, in the cytoplasm",
+        "G2 phase, in the cytoplasm",
+        "Prophase, in the nucleus",
+        "G1 phase, in the nucleus"
+      ],
+      "answer": 0,
+      "explanation": "The S (synthesis) phase is when DNA replication begins in the nucleus.\nAt the same time, in animal cells, the centriole duplicates in the cytoplasm.\nCentrioles are cytoplasmic structures, so options placing them in the nucleus are wrong; G2 is mainly for making proteins needed in mitosis.\nAnswer: S phase, in the cytoplasm."
+    },
+    {
+      "text": "The liquid endosperm of coconut contains many free nuclei that are not separated by cell walls. This multinucleate condition (syncytium) arises because:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Meiosis takes place without DNA replication",
+        "Cytokinesis takes place without karyokinesis",
+        "Cells fuse after normal mitosis",
+        "Karyokinesis is not followed by cytokinesis"
+      ],
+      "answer": 3,
+      "explanation": "Cell division normally has two parts: karyokinesis (division of the nucleus) and cytokinesis (division of the cytoplasm).\nIn some organisms, karyokinesis is not followed by cytokinesis, so many nuclei build up in a common cytoplasm.\nThis multinucleate condition is a syncytium; the liquid endosperm of coconut is the standard example.\nAnswer: karyokinesis is not followed by cytokinesis."
+    },
+    {
+      "text": "In the oocytes of some vertebrates, one sub-stage of prophase I can last for months or even years. In this sub-stage, the synaptonemal complex dissolves and the homologous chromosomes stay joined only at X-shaped points. The sub-stage is:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Pachytene",
+        "Diplotene",
+        "Diakinesis",
+        "Zygotene"
+      ],
+      "answer": 1,
+      "explanation": "Diplotene is recognised by the dissolution of the synaptonemal complex.\nThe homologues of each bivalent start to separate but stay attached at the sites of crossing over; these X-shaped points are the chiasmata.\nIn the oocytes of some vertebrates, diplotene can last for months or years.\nAnswer: diplotene."
+    },
+    {
+      "text": "Crossing over between non-sister chromatids of homologous chromosomes during pachytene is an enzyme-mediated process. The enzyme involved is:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "DNA ligase",
+        "Helicase",
+        "Recombinase",
+        "Topoisomerase"
+      ],
+      "answer": 2,
+      "explanation": "Pachytene is marked by recombination nodules, the sites where crossing over occurs between non-sister chromatids.\nCrossing over exchanges genetic material between the two homologous chromosomes.\nIt is enzyme-mediated, and the enzyme involved is recombinase.\nAnswer: recombinase."
+    },
+    {
+      "text": "Assertion (A): During S phase, the amount of DNA per cell doubles, but the number of chromosomes stays the same.\nReason (R): After replication, each chromosome consists of two sister chromatids held together at the centromere.",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true, and R is the correct explanation of A",
+        "Both Assertion (A) and Reason (R) are true, but R is not the correct explanation of A",
+        "Assertion (A) is true, but Reason (R) is false",
+        "Assertion (A) is false, but Reason (R) is true"
+      ],
+      "answer": 0,
+      "explanation": "In S phase the DNA content rises from 2C to 4C, yet a cell with 2n chromosomes in G1 still has 2n chromosomes in G2. A is true.\nThe new DNA copy stays attached to the old one as a sister chromatid at the same centromere, so no new chromosomes are formed. R is true.\nChromosomes are counted by centromeres, so R explains why the number does not change.\nAnswer: both are true and R is the correct explanation of A."
+    },
+    {
+      "text": "A meiocyte of a plant has 2n = 20 chromosomes. At the pachytene stage of meiosis I, the number of bivalents and the total number of chromatids in the cell are, respectively:",
+      "difficulty": "HARD",
+      "options": [
+        "20 bivalents and 40 chromatids",
+        "10 bivalents and 20 chromatids",
+        "20 bivalents and 80 chromatids",
+        "10 bivalents and 40 chromatids"
+      ],
+      "answer": 3,
+      "explanation": "A bivalent is one pair of synapsed homologous chromosomes. 20 chromosomes form 10 homologous pairs, so there are 10 bivalents.\nEach chromosome replicated in S phase, so each has 2 chromatids: 20 × 2 = 40 chromatids.\nCheck: each bivalent is a tetrad of 4 chromatids, and 10 × 4 = 40.\nAnswer: 10 bivalents and 40 chromatids."
+    },
+    {
+      "text": "A diploid germ cell has a DNA content of 2C in G1 phase. What is the DNA content per cell at (i) prophase I, (ii) the end of meiosis I (each daughter cell) and (iii) the end of meiosis II (each gamete)?",
+      "difficulty": "HARD",
+      "options": [
+        "(i) 2C, (ii) C, (iii) 0.5C",
+        "(i) 4C, (ii) 2C, (iii) C",
+        "(i) 4C, (ii) C, (iii) C",
+        "(i) 4C, (ii) 4C, (iii) 2C"
+      ],
+      "answer": 1,
+      "explanation": "DNA replicates in the S phase before meiosis, so 2C becomes 4C by prophase I.\nMeiosis I separates the homologous chromosomes into two cells, so each has 2C (n chromosomes, each still with two chromatids).\nThere is no DNA replication in interkinesis. Meiosis II separates the sister chromatids, so each gamete has C.\nAnswer: (i) 4C, (ii) 2C, (iii) C."
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "exam": "class-10",
+  "subject": "science",
+  "chapter": "control-and-coordination",
+  "notes": {
+    "summary": "This chapter explains how animals and plants coordinate their activities — the human nervous system (neurons, reflex arc, brain), plant movements and plant hormones, and the human endocrine system. CBSE tests functions of brain parts, reflex pathways, tropisms, matching hormones with glands and effects, and assertion-reason items on auxin and feedback control.",
+    "keyPoints": [
+      "Neuron: information travels dendrite → cell body → axon → end of axon as an electrical impulse. At the axon end, chemicals are released that cross the synapse and start a similar impulse in the dendrite of the next neuron.",
+      "Reflex arc: receptor → sensory neuron → relay neuron in the spinal cord → motor neuron → effector (muscle or gland). It is fast because the arc is completed in the spinal cord; the information also goes on to reach the brain.",
+      "Forebrain (cerebrum): thinking, memory, voluntary actions and separate areas for hearing, smell and sight. Hindbrain: the cerebellum controls posture, balance and precision of voluntary actions (walking in a straight line, riding a bicycle, picking up a pencil); the medulla controls involuntary actions such as blood pressure, salivation and vomiting.",
+      "The brain is protected by a bony box (cranium) and a fluid-filled balloon that absorbs shocks; the spinal cord is protected by the vertebral column.",
+      "Plant movement without growth: leaves of Mimosa (touch-me-not) fold when touched because cells change shape by changing their water content. Growth movements (tropisms): shoots are positively phototropic, roots positively geotropic; hydrotropism is towards water; chemotropism is towards chemicals, e.g., the pollen tube growing towards the ovule.",
+      "Plant hormones: auxin (made at the shoot tip, diffuses to the shaded side and makes cells there elongate, so the shoot bends towards light), gibberellins (growth of the stem), cytokinins (cell division; high in fruits and seeds), abscisic acid (inhibits growth; causes wilting of leaves).",
+      "Animal hormones: pituitary – growth hormone (deficiency in childhood causes dwarfism); thyroid – thyroxin (needs iodine; deficiency causes goitre); adrenal – adrenaline (faster heartbeat and breathing, blood diverted from digestive system and skin to skeletal muscles); pancreas – insulin (regulates blood sugar; deficiency causes diabetes); testes – testosterone; ovaries – oestrogen.",
+      "The hypothalamus releases factors that stimulate the pituitary. Hormone levels are controlled by feedback mechanisms: when blood sugar rises, pancreas cells detect it and secrete more insulin, and secretion falls as the sugar level drops.",
+      "Hormones are needed besides nerves because electrical impulses reach only cells connected by nervous tissue, and a cell needs time to reset before sending a new impulse; hormones from ductless (endocrine) glands reach all cells through the blood."
+    ],
+    "traps": [
+      "Saying auxin collects on the side facing light — it diffuses to the shaded side, which grows faster and bends the shoot towards light.",
+      "Treating the folding of Mimosa leaves as a tropism — it is a movement without growth, caused by changes in water content of cells.",
+      "Confusing the cerebellum (balance and precision of movement) with the cerebrum (thinking and voluntary actions).",
+      "Attributing growth hormone to the thyroid — it is secreted by the pituitary; the thyroid secretes thyroxin.",
+      "Reversing the path of an impulse: within a neuron it always goes dendrite → cell body → axon."
+    ],
+    "examTip": "Jot down a quick gland–hormone–function–deficiency table in your rough work before attempting hormone questions; one column of it usually eliminates most options."
+  },
+  "questions": [
+    {
+      "text": "Which plant hormone inhibits growth and is responsible for effects such as the wilting of leaves?",
+      "difficulty": "EASY",
+      "options": ["Auxin", "Gibberellin", "Cytokinin", "Abscisic acid"],
+      "answer": 3,
+      "explanation": "Auxins, gibberellins and cytokinins all promote growth in some way.\nAbscisic acid is the growth-inhibiting hormone.\nNCERT notes that its effects include wilting of leaves."
+    },
+    {
+      "text": "Which plant hormone promotes cell division and is present in greater concentration in areas of rapid cell division, such as fruits and seeds?",
+      "difficulty": "EASY",
+      "options": ["Cytokinin", "Abscisic acid", "Auxin", "Gibberellin"],
+      "answer": 0,
+      "explanation": "Cytokinins promote cell division.\nThey are found in higher concentrations where cells divide rapidly, such as in fruits and seeds.\nAuxin mainly causes cell elongation, gibberellins help stem growth, and abscisic acid inhibits growth."
+    },
+    {
+      "text": "The growth of a pollen tube towards the ovule during fertilisation is an example of:",
+      "difficulty": "EASY",
+      "options": ["Phototropism", "Geotropism", "Chemotropism", "Hydrotropism"],
+      "answer": 2,
+      "explanation": "A tropism is a directional growth movement in response to a stimulus.\nThe pollen tube grows towards chemicals released by the ovule.\nGrowth in response to chemicals is chemotropism."
+    },
+    {
+      "text": "Which of the following shows the correct sequence of the pathway in a reflex arc?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Receptor → motor neuron → spinal cord → sensory neuron → effector muscle",
+        "Receptor → sensory neuron → relay neuron in spinal cord → motor neuron → effector muscle",
+        "Effector muscle → sensory neuron → brain → motor neuron → receptor",
+        "Receptor → relay neuron → sensory neuron → motor neuron → effector muscle"
+      ],
+      "answer": 1,
+      "explanation": "The receptor detects the stimulus and the sensory neuron carries the message to the spinal cord.\nIn the spinal cord, a relay neuron connects the sensory neuron to the motor neuron.\nThe motor neuron carries the command to the effector muscle, which responds.\nSo the order is receptor → sensory neuron → relay neuron → motor neuron → effector."
+    },
+    {
+      "text": "Which statement correctly describes how information travels through a neuron and across a synapse?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Axon → cell body → dendrite; the electrical impulse jumps directly across the synapse",
+        "Cell body → dendrite → axon; hormones carry the message across the synapse",
+        "Dendrite → cell body → axon → end of axon; chemicals released at the axon end cross the synapse",
+        "Dendrite → axon → cell body; the electrical impulse is carried across the synapse by blood"
+      ],
+      "answer": 2,
+      "explanation": "Information is picked up at the dendrite tips and creates an electrical impulse.\nThe impulse travels from the dendrite to the cell body and then along the axon to its end.\nAt the axon end, the impulse causes the release of chemicals that cross the gap (synapse) and start an impulse in the next neuron."
+    },
+    {
+      "text": "When the leaves of the touch-me-not plant (Mimosa pudica) are touched, they fold up and droop. Which statement about this movement is correct?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "It is a growth movement caused by auxin",
+        "It involves no growth; the plant cells change shape by changing the amount of water in them",
+        "It is a type of phototropism",
+        "It is caused by the plant's nerves and muscle tissue"
+      ],
+      "answer": 1,
+      "explanation": "The folding of Mimosa leaves happens quickly and involves no growth.\nPlants have no nervous or muscle tissue; cells communicate the touch using electrical-chemical means.\nThe cells then change shape by changing the amount of water in them, causing the leaves to fold."
+    },
+    {
+      "text": "When a person faces danger, the adrenal glands secrete adrenaline into the blood. Which of the following is NOT an effect of adrenaline?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "The heart beats faster, supplying more oxygen to the muscles",
+        "Small arteries around the digestive system and skin contract, diverting blood to the skeletal muscles",
+        "The breathing rate increases due to contractions of the diaphragm and rib muscles",
+        "Blood supply to the digestive system and skin increases to speed up digestion"
+      ],
+      "answer": 3,
+      "explanation": "Adrenaline prepares the body to deal with an emergency.\nThe heart beats faster and breathing rate increases to supply more oxygen.\nBlood is diverted away from the digestive system and skin towards skeletal muscles.\nSo an increase in blood supply to the digestive system is NOT an effect of adrenaline."
+    },
+    {
+      "text": "The timing and amount of hormone release are regulated by feedback mechanisms. What happens when the blood sugar level rises after a meal?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Insulin secretion stops completely and the liver takes over",
+        "Cells of the pancreas detect the rise and secrete more insulin; as the sugar level falls, insulin secretion is reduced",
+        "The thyroid gland secretes more thyroxin to store the sugar",
+        "The adrenal glands secrete more adrenaline to lower the sugar level"
+      ],
+      "answer": 1,
+      "explanation": "Insulin, secreted by the pancreas, regulates blood sugar level.\nWhen blood sugar rises, pancreatic cells detect it and produce more insulin.\nAs the sugar level falls, insulin secretion is reduced.\nThis self-adjusting control is a feedback mechanism."
+    },
+    {
+      "text": "Assertion (A): Growth hormone is secreted by the thyroid gland.\nReason (R): Deficiency of growth hormone in childhood leads to dwarfism.\n\nChoose the correct option.",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A.",
+        "Both A and R are true, but R is not the correct explanation of A.",
+        "A is true, but R is false.",
+        "A is false, but R is true."
+      ],
+      "answer": 3,
+      "explanation": "Growth hormone is secreted by the pituitary gland, not the thyroid, so A is false.\nThe thyroid secretes thyroxin.\nDeficiency of growth hormone in childhood leads to dwarfism, so R is true.\nHence A is false but R is true."
+    },
+    {
+      "text": "Assertion (A): When a growing plant is kept in a room lit from one side, its shoot bends towards the light.\nReason (R): Auxin diffuses towards the shaded side of the shoot and stimulates the cells there to grow longer.\n\nChoose the correct option.",
+      "difficulty": "HARD",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A.",
+        "Both A and R are true, but R is not the correct explanation of A.",
+        "A is true, but R is false.",
+        "A is false, but R is true."
+      ],
+      "answer": 0,
+      "explanation": "Shoots are positively phototropic, so A is true.\nWhen light falls from one side, auxin made at the shoot tip diffuses towards the shaded side; so R is true.\nCells on the shaded side elongate more, so the shoot curves towards the light.\nTherefore R correctly explains A."
+    },
+    {
+      "text": "A student accidentally touches a hot plate and pulls the hand away immediately, but becomes aware of the pain only a moment later. Which statement best explains this?",
+      "difficulty": "HARD",
+      "options": [
+        "The brain first analyses the pain and then orders the hand muscles to move",
+        "The hand muscles respond directly to heat without involving any nerves",
+        "It is a reflex action: the reflex arc is completed in the spinal cord so the muscle responds quickly, while the information also travels on to the brain, which becomes aware a little later",
+        "The cerebellum controls the withdrawal as a voluntary action"
+      ],
+      "answer": 2,
+      "explanation": "Withdrawing the hand from a hot object is a reflex action.\nThe sensory nerve carries the message to the spinal cord, where it connects to a motor nerve through a relay neuron, and the muscle contracts quickly.\nThe thinking process of the brain is not fast enough for such emergencies, so the arc is completed in the spinal cord.\nThe information also goes on to the brain, which is why the pain is felt a moment later."
+    }
+  ]
+}

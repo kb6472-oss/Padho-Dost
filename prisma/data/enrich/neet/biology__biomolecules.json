@@ -1,0 +1,170 @@
+{
+  "exam": "neet",
+  "subject": "biology",
+  "chapter": "biomolecules",
+  "notes": {
+    "summary": "This chapter explains how biomolecules are analysed (acid-soluble versus acid-insoluble fractions) and covers primary and secondary metabolites, amino acids, lipids, nucleotides, proteins, polysaccharides, the levels of protein structure, and enzymes (how they work, what affects them, their classes and cofactors). NEET asks factual NCERT lines such as R groups, metabolite examples, enzyme classes, cofactor examples and protein structure levels, usually as match-the-column and statement questions.",
+    "keyPoints": [
+      "Cell composition (% of total cellular mass): water 70–90, proteins 10–15, nucleic acids 5–7, carbohydrates 3, lipids 2, ions 1.",
+      "The acid-insoluble (macromolecular) fraction holds proteins, nucleic acids, polysaccharides and lipids. Lipids are under 800 Da and are not true macromolecules; they land here only because broken membranes form water-insoluble vesicles.",
+      "An amino acid has an α-carbon carrying H, –NH₂, –COOH and an R group. R = H gives glycine, CH₃ gives alanine and CH₂OH gives serine. Glutamic acid is acidic, lysine is basic, valine is neutral, and tyrosine, phenylalanine and tryptophan are aromatic.",
+      "Lipids: palmitic acid has 16 C and arachidonic acid 20 C (both counts include the carboxyl carbon). Glycerol is trihydroxy propane, lecithin is a phospholipid, and oils have low melting points.",
+      "Nucleotide = base + sugar + phosphate; nucleoside = base + sugar. Purines are adenine and guanine; pyrimidines are cytosine, thymine and uracil. Adenosine is a nucleoside; adenylic acid is a nucleotide.",
+      "Secondary metabolites: alkaloids (morphine, codeine), toxins (abrin, ricin), lectins (concanavalin A), drugs (vinblastin, curcumin), pigments (carotenoids, anthocyanins) and essential oils (lemon grass oil).",
+      "Proteins: collagen is the most abundant protein in animals and RuBisCO the most abundant in the whole biosphere. GLUT-4 carries glucose into cells. Haemoglobin (2α + 2β) shows quaternary structure, and only right-handed helices occur in proteins.",
+      "Polysaccharides: cellulose is a glucose homopolymer that gives no colour with iodine; starch helices hold I₂ and turn blue; inulin is a fructose polymer; chitin forms the arthropod exoskeleton. In a polysaccharide chain the right end is reducing and the left end non-reducing.",
+      "Enzymes lower activation energy. Carbonic anhydrase speeds up CO₂ + H₂O → H₂CO₃ about 10 million times (≈200 molecules per hour uncatalysed versus ≈600,000 per second catalysed). Malonate is a competitive inhibitor of succinic dehydrogenase.",
+      "The six enzyme classes are oxidoreductases, transferases, hydrolases, lyases, isomerases and ligases. Cofactors include prosthetic groups (haem in peroxidase and catalase), coenzymes (NAD and NADP contain niacin) and metal ions (Zn²⁺ for carboxypeptidase)."
+    ],
+    "traps": [
+      "Confusing a nucleoside (no phosphate, e.g. adenosine) with a nucleotide (e.g. adenylic acid).",
+      "Calling lipids true macromolecules just because they appear in the acid-insoluble fraction.",
+      "Swapping collagen (most abundant in animals) and RuBisCO (most abundant in the biosphere).",
+      "Mixing up lyases (remove groups and leave double bonds), ligases (join two compounds) and hydrolases (break bonds using water).",
+      "Thinking enzymes change ΔG or the equilibrium of a reaction. They only lower the activation energy."
+    ],
+    "examTip": "Learn the NCERT example tables (protein functions, secondary metabolites, cofactors) word for word. NEET match-the-column questions are built straight from them."
+  },
+  "questions": [
+    {
+      "text": "Which protein is the most abundant in the whole of the biosphere?",
+      "difficulty": "EASY",
+      "options": ["Collagen", "RuBisCO", "Haemoglobin", "Keratin"],
+      "answer": 1,
+      "explanation": "NCERT says collagen is the most abundant protein in the animal world. Ribulose bisphosphate carboxylase-oxygenase (RuBisCO) is the most abundant protein in the whole biosphere, because it is found in every photosynthetic organism. The answer is RuBisCO."
+    },
+    {
+      "text": "Inulin is a polysaccharide made up of repeating units of:",
+      "difficulty": "EASY",
+      "options": ["Glucose", "Galactose", "Fructose", "Ribose"],
+      "answer": 2,
+      "explanation": "Cellulose, starch and glycogen are all polymers of glucose. Inulin is a polymer of fructose. The answer is fructose."
+    },
+    {
+      "text": "The exoskeleton of arthropods contains a complex polysaccharide called:",
+      "difficulty": "EASY",
+      "options": ["Cellulose", "Glycogen", "Inulin", "Chitin"],
+      "answer": 3,
+      "explanation": "Complex polysaccharides are built from amino-sugars and chemically modified sugars such as glucosamine and N-acetyl galactosamine. The arthropod exoskeleton contains one of these, called chitin. Cellulose forms plant cell walls and glycogen is the animal storage polysaccharide. The answer is chitin."
+    },
+    {
+      "text": "Which of the following nitrogenous bases is a purine?",
+      "difficulty": "EASY",
+      "options": ["Guanine", "Cytosine", "Thymine", "Uracil"],
+      "answer": 0,
+      "explanation": "Nitrogen bases fall into two groups. Purines are adenine and guanine; pyrimidines are cytosine, thymine and uracil. Of the options, only guanine is a purine."
+    },
+    {
+      "text": "Which of the following is a secondary metabolite?",
+      "difficulty": "EASY",
+      "options": ["Glucose", "Alanine", "Ricin", "Uracil"],
+      "answer": 2,
+      "explanation": "Primary metabolites such as sugars, amino acids and nitrogen bases have known roles in normal physiology. Secondary metabolites include toxins (abrin, ricin), alkaloids (morphine, codeine), lectins (concanavalin A) and pigments. Glucose, alanine and uracil are primary metabolites. The answer is ricin."
+    },
+    {
+      "text": "The most abundant chemical in living organisms is:",
+      "difficulty": "EASY",
+      "options": ["Proteins", "Carbohydrates", "Nucleic acids", "Water"],
+      "answer": 3,
+      "explanation": "Water makes up 70–90% of total cellular mass. Next come proteins (10–15%) and nucleic acids (5–7%), then carbohydrates (3%), lipids (2%) and ions (1%). The answer is water."
+    },
+    {
+      "text": "Starch gives a blue colour with iodine, but cellulose does not. The reason is that:",
+      "difficulty": "MEDIUM",
+      "options": ["Starch forms helical secondary structures that can hold I₂, whereas cellulose has no such complex helices", "Cellulose is not made of glucose units", "Iodine reacts only with unbranched polymers, and cellulose is highly branched", "Starch is a protein-carbohydrate complex, whereas cellulose is a pure carbohydrate"],
+      "answer": 0,
+      "explanation": "Starch and cellulose are both polymers of glucose. Starch forms helical secondary structures, and I₂ molecules fit inside the helices, giving the blue starch-iodine colour. Cellulose has no complex helices, so it cannot hold I₂. The answer is the helix explanation."
+    },
+    {
+      "text": "In the amino acid serine, the R group attached to the α-carbon is a:",
+      "difficulty": "MEDIUM",
+      "options": ["Hydrogen atom", "Hydroxymethyl group", "Methyl group", "Carboxyl group"],
+      "answer": 1,
+      "explanation": "The α-carbon of an amino acid carries a hydrogen, an amino group, a carboxyl group and a variable R group. R = hydrogen gives glycine, R = methyl gives alanine, and R = hydroxymethyl (–CH₂OH) gives serine. The answer is hydroxymethyl."
+    },
+    {
+      "text": "Which of the following amino acids is correctly matched with its type?",
+      "difficulty": "MEDIUM",
+      "options": ["Lysine — neutral amino acid", "Valine — basic amino acid", "Glutamic acid — acidic amino acid", "Tryptophan — acidic amino acid"],
+      "answer": 2,
+      "explanation": "Amino acids are grouped by the number of amino and carboxyl groups they carry. Glutamic acid is acidic, lysine is basic and valine is neutral. Tyrosine, phenylalanine and tryptophan are aromatic. Only glutamic acid as acidic is matched correctly."
+    },
+    {
+      "text": "Counting the carboxyl carbon, how many carbon atoms do palmitic acid and arachidonic acid have, respectively?",
+      "difficulty": "MEDIUM",
+      "options": ["18 and 20", "16 and 18", "20 and 16", "16 and 20"],
+      "answer": 3,
+      "explanation": "A fatty acid is a carboxyl group attached to an R group, and NCERT counts the carboxyl carbon in its carbon numbers. Palmitic acid has 16 carbons and arachidonic acid has 20. The answer is 16 and 20."
+    },
+    {
+      "text": "Lipids have molecular weights of no more than about 800 Da, yet they appear in the acid-insoluble (macromolecular) fraction of a cell homogenate. This is because:",
+      "difficulty": "MEDIUM",
+      "options": ["Lipids are long polymers of fatty acids linked by peptide bonds", "Grinding breaks membranes into water-insoluble vesicles, which separate along with the acid-insoluble pool", "Lipids are always covalently bound to nucleic acids", "Lipids contain a high proportion of nitrogen, which makes them acid-insoluble"],
+      "answer": 1,
+      "explanation": "Lipids are not strictly macromolecules. Grinding a tissue breaks the cell membrane and other membranes into pieces, which form vesicles that do not dissolve in water. These membrane vesicles separate along with the acid-insoluble pool, so lipids end up in the macromolecular fraction. The answer is the vesicle explanation."
+    },
+    {
+      "text": "Match List I with List II:\nList I (Protein): (a) Collagen (b) Trypsin (c) GLUT-4 (d) Antibody\nList II (Function): (i) Enzyme (ii) Fights infectious agents (iii) Intercellular ground substance (iv) Lets glucose enter cells\nChoose the correct option.",
+      "difficulty": "MEDIUM",
+      "options": ["a-iii, b-i, c-iv, d-ii", "a-i, b-iii, c-iv, d-ii", "a-iii, b-i, c-ii, d-iv", "a-iv, b-i, c-iii, d-ii"],
+      "answer": 0,
+      "explanation": "From the NCERT table: collagen forms the intercellular ground substance (a-iii), trypsin is an enzyme (b-i), GLUT-4 lets glucose enter cells (c-iv), and antibodies fight infectious agents (d-ii). The correct match is a-iii, b-i, c-iv, d-ii."
+    },
+    {
+      "text": "Enzymes that remove groups from substrates by mechanisms other than hydrolysis, leaving double bonds behind, belong to the class:",
+      "difficulty": "MEDIUM",
+      "options": ["Hydrolases", "Ligases", "Transferases", "Lyases"],
+      "answer": 3,
+      "explanation": "Hydrolases break ester, ether, peptide and similar bonds using water. Transferases move a group from one substrate to another. Ligases join two compounds together. Lyases remove groups by non-hydrolytic means and leave double bonds. The answer is lyases."
+    },
+    {
+      "text": "In the enzymes peroxidase and catalase, which break hydrogen peroxide down to water and oxygen, haem acts as a:",
+      "difficulty": "MEDIUM",
+      "options": ["Coenzyme", "Prosthetic group", "Metal ion activator", "Apoenzyme"],
+      "answer": 1,
+      "explanation": "There are three kinds of cofactor. Prosthetic groups are organic and tightly bound to the apoenzyme. Coenzymes, such as NAD, bind only for a short time during catalysis. Metal ions, such as zinc in carboxypeptidase, are the third kind. In peroxidase and catalase, haem is tightly bound and forms part of the active site, so it is a prosthetic group."
+    },
+    {
+      "text": "The inhibition of succinic dehydrogenase by malonate is an example of competitive inhibition. This happens because malonate:",
+      "difficulty": "MEDIUM",
+      "options": ["Closely resembles the substrate succinate in structure and competes with it for the active site", "Denatures the enzyme protein permanently", "Removes the metal cofactor that the enzyme needs", "Breaks the peptide bonds of the enzyme"],
+      "answer": 0,
+      "explanation": "A competitive inhibitor looks very like the substrate and competes with it for the enzyme's active site. When the inhibitor binds, the substrate cannot bind, so enzyme action falls. Malonate resembles succinate, so it competes for succinic dehydrogenase. The answer is structural resemblance to succinate."
+    },
+    {
+      "text": "Carbonic anhydrase catalyses the reaction CO₂ + H₂O → H₂CO₃. Without the enzyme, about 200 molecules of H₂CO₃ form in an hour; with it, about 600,000 molecules form every second. By roughly how much has the enzyme speeded up the reaction?",
+      "difficulty": "MEDIUM",
+      "options": ["About 100 times", "About 10,000 times", "About 10 million times", "About 10 billion times"],
+      "answer": 2,
+      "explanation": "Step 1: Uncatalysed rate = 200 molecules per 3600 s ≈ 0.056 molecules per second. Step 2: Catalysed rate = 600,000 molecules per second. Step 3: Ratio = 600,000 × 3600 ÷ 200 = 1.08 × 10⁷. NCERT rounds this to about 10 million times."
+    },
+    {
+      "text": "Consider the following statements about protein structure:\nI. The primary structure is the sequence of amino acids. The first amino acid is called the N-terminal amino acid and the last one the C-terminal amino acid.\nII. In proteins, only right-handed helices are observed.\nIII. Adult human haemoglobin has four subunits, two of α type and two of β type, which together form its quaternary structure.\nIV. A long protein chain folding upon itself like a hollow woollen ball gives the primary structure.\nHow many of these statements are correct?",
+      "difficulty": "HARD",
+      "options": ["One", "Two", "Three", "Four"],
+      "answer": 2,
+      "explanation": "Statement I is correct: this is the NCERT convention for primary structure. Statement II is correct: only right-handed helices occur in proteins. Statement III is correct: haemoglobin's 2α + 2β arrangement is quaternary structure. Statement IV is wrong: folding into a hollow woollen ball shape is tertiary structure, not primary. Three statements are correct."
+    },
+    {
+      "text": "Assertion (A): Low temperature keeps an enzyme in a temporarily inactive state.\nReason (R): High temperature destroys enzyme activity because heat denatures proteins.\nChoose the correct option.",
+      "difficulty": "HARD",
+      "options": ["Both A and R are true, and R is the correct explanation of A", "Both A and R are true, but R is not the correct explanation of A", "A is true, but R is false", "A is false, but R is true"],
+      "answer": 1,
+      "explanation": "A is true: at low temperature an enzyme is preserved in an inactive state and recovers its activity when warmed. R is also true: high temperature denatures the enzyme protein. But R explains what happens at high temperature, not why low temperature only inactivates the enzyme for a time. So both are true, but R is not the correct explanation of A."
+    },
+    {
+      "text": "Which of the following statements about enzyme action is INCORRECT?",
+      "difficulty": "HARD",
+      "options": ["Enzymes lower the activation energy of a reaction, so more substrate is converted into product per unit time", "The enzyme–substrate complex is a short-lived, transient state that is essential for catalysis", "As substrate concentration rises, reaction velocity increases and finally reaches a maximum (Vmax) that more substrate cannot exceed", "Enzymes change the overall free-energy difference between substrate and product, making unfavourable reactions favourable"],
+      "answer": 3,
+      "explanation": "Enzymes lower the activation-energy barrier through a transient ES complex. Their activity levels off at Vmax because a fixed number of enzyme molecules become saturated. An enzyme does not change the energy levels of the substrate and product, so the overall free-energy difference (ΔG) stays the same. The incorrect statement is the last one."
+    },
+    {
+      "text": "Which of the following sets contains only nucleotides?",
+      "difficulty": "HARD",
+      "options": ["Adenylic acid, guanylic acid, uridylic acid", "Adenosine, guanosine, cytidine", "Adenine, guanine, uracil", "Adenylic acid, uridine, thymidine"],
+      "answer": 0,
+      "explanation": "A nitrogen base on its own (adenine, guanine, uracil) is neither a nucleoside nor a nucleotide. Base + sugar is a nucleoside: adenosine, guanosine, thymidine, uridine, cytidine. Base + sugar + phosphate is a nucleotide: adenylic, guanylic, thymidylic, uridylic and cytidylic acid. Only the first set is all nucleotides."
+    }
+  ]
+}

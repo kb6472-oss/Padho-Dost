@@ -1,0 +1,161 @@
+{
+  "exam": "upsc",
+  "subject": "geography",
+  "chapter": "climate-rivers",
+  "notes": {
+    "summary": "Covers the mechanism and seasons of the Indian monsoon (pressure, ITCZ, jet streams, El Niño and the Southern Oscillation), regional rainfall and local weather, and the Himalayan and peninsular river systems with their lakes and drainage patterns. UPSC tests mechanisms through cause-and-effect statements and river facts through pairs and source or confluence questions.",
+    "keyPoints": [
+      "'Monsoon' comes from the Arabic 'mausim' (season) and means a seasonal reversal of winds. Controls of India's climate: latitude, the Himalayas (block cold northern winds), distance from the sea, altitude, relief, and pressure and winds.",
+      "Mechanism: summer thermal low over north-west India; the ITCZ shifts to about 20°–25°N over the Gangetic plain in July (monsoon trough); the subtropical westerly jet moves north of the Himalayas and the tropical easterly jet (about 14°N) sets in. In winter the westerly jet lies south of the Himalayas and brings western disturbances.",
+      "Southern Oscillation: a see-saw of pressure between the tropical eastern South Pacific and the tropical eastern Indian Ocean. The Tahiti–Darwin pressure difference is used to forecast the monsoon — a negative value means a below-average, late monsoon. El Niño years tend to weaken the monsoon.",
+      "Four seasons: cold weather (December–February), hot weather (March–May), advancing south-west monsoon (June–September) and retreating monsoon (October–November, with 'October heat' and Bay of Bengal cyclones hitting the Godavari, Krishna and Kaveri deltas).",
+      "Rainfall: heaviest on the windward Western Ghats and in the north-east (Mawsynram); it decreases from east to west across the northern plains; rain-shadow areas include the leeward Deccan, western Rajasthan and Ladakh. The Tamil Nadu coast is dry in June–September and wet in October–December.",
+      "Breaks in the monsoon: when the monsoon-trough axis lies over the plains, rain is good; when it shifts to the Himalayan foothills, the plains get long dry spells while the mountain catchments get heavy rain and floods.",
+      "Himalayan rivers: the Ganga forms at Devprayag (Bhagirathi + Alaknanda); the Alaknanda's confluences are Vishnuprayag (Dhauliganga + Vishnuganga), Karnaprayag (Pindar) and Rudraprayag (Mandakini). Indus Waters Treaty, 1960: eastern rivers (Ravi, Beas, Satluj) to India; India was permitted to use only about 20% of the system's total water.",
+      "Peninsular rivers: Mahanadi (Chhattisgarh highlands), Godavari (Nasik), Krishna (Mahabaleshwar) and Kaveri (Brahmagiri; less seasonal because it gets both monsoons) form deltas; the Narmada and Tapi flow west through rift valleys and form estuaries.",
+      "Drainage patterns: dendritic (northern plains), radial (Amarkantak), trellis (folded terrain, tributaries joining at right angles), centripetal (Loktak). Lakes: Wular (largest freshwater lake, tectonic), Sambhar (salt), Chilika (lagoon, Odisha), Loktak (phumdis)."
+    ],
+    "traps": [
+      "Assuming Tamil Nadu gets most of its rain from the south-west monsoon — it is in the rain shadow then and receives most rain in October–December.",
+      "Reversing the Tahiti–Darwin rule — a negative pressure difference signals a weak, late monsoon.",
+      "Confusing radial drainage (outward from a dome, e.g. Amarkantak) with centripetal drainage (inward into a lake, e.g. Loktak) or with trellis drainage.",
+      "Swapping Karnaprayag (Pindar) and Rudraprayag (Mandakini).",
+      "Saying the Mahanadi rises in the Western Ghats — it rises in the Chhattisgarh highlands; the Brahmagiri range is the Kaveri's source."
+    ],
+    "examTip": "For monsoon statements, trace the chain pressure → ITCZ/monsoon trough → jet streams → rainfall; the statement that breaks this cause-and-effect chain or flips a north/south position is usually the wrong one."
+  },
+  "questions": [
+    {
+      "text": "The word 'monsoon' is derived from the Arabic word 'mausim', which literally means:",
+      "difficulty": "EASY",
+      "options": [
+        "Rain",
+        "Wind",
+        "Season",
+        "Sea"
+      ],
+      "answer": 2,
+      "explanation": "NCERT explains that 'monsoon' comes from the Arabic word 'mausim', which literally means season. The term refers to the seasonal reversal in the direction of winds during a year. Arab sailors used these seasonal winds to cross the Arabian Sea. Answer: season."
+    },
+    {
+      "text": "The oppressive weather in many parts of India during the retreating monsoon season, caused by high day temperatures combined with high humidity, is commonly known as:",
+      "difficulty": "EASY",
+      "options": [
+        "October heat",
+        "Loo",
+        "Mango showers",
+        "Kaal Baisakhi"
+      ],
+      "answer": 0,
+      "explanation": "In October–November the monsoon trough weakens, the skies clear and day temperatures rise again. The land is still moist, so high temperature together with high humidity makes the weather oppressive during the day. This is called 'October heat'. The Loo is a hot, dry summer wind, mango showers are pre-monsoon rains in Kerala and Karnataka, and Kaal Baisakhi refers to the evening thunderstorms of Bengal in summer. Answer: October heat."
+    },
+    {
+      "text": "Which of the following lakes, formed as a result of tectonic activity in Jammu and Kashmir, is the largest freshwater lake in India?",
+      "difficulty": "EASY",
+      "options": [
+        "Dal Lake",
+        "Sambhar Lake",
+        "Loktak Lake",
+        "Wular Lake"
+      ],
+      "answer": 3,
+      "explanation": "NCERT describes Wular lake in Jammu and Kashmir, formed by tectonic activity, as the largest freshwater lake in India; the Jhelum flows through it. Dal Lake in Srinagar is a smaller freshwater lake, Sambhar in Rajasthan is a salt lake used for salt production, and Loktak in Manipur is known for its floating phumdis. Answer: Wular Lake."
+    },
+    {
+      "text": "Consider the following statements regarding the Tamil Nadu coast during the south-west monsoon season (June–September):\n1. It lies parallel to the direction of the Bay of Bengal branch of the monsoon winds.\n2. It lies in the rain-shadow area of the Arabian Sea branch of the monsoon.\n3. It receives most of its annual rainfall in this season from western disturbances.\nWhich of the statements given above is/are correct?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "1 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "answer": 1,
+      "explanation": "NCERT gives two reasons why the Tamil Nadu coast stays dry in the south-west monsoon. First, the coast lies parallel to the Bay of Bengal branch, so those winds blow along it rather than onto it — statement 1 is correct. Second, it lies in the rain shadow of the Arabian Sea branch, which drops its moisture on the Western Ghats — statement 2 is correct. Tamil Nadu gets most of its rain in October–December from the north-east (retreating) monsoon and cyclones, while western disturbances affect north-west India in winter — statement 3 is wrong. Answer: 1 and 2 only."
+    },
+    {
+      "text": "Consider the following pairs:\nDrainage pattern — Example or description\n1. Dendritic — Rivers of the northern plains, resembling the branches of a tree\n2. Radial — Rivers originating from the Amarkantak range\n3. Centripetal — Rivers draining into the Loktak lake in Manipur\n4. Trellis — Rivers flowing outward in all directions from a central peak or dome\nWhich of the pairs given above are correctly matched?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "1, 2 and 3 only",
+        "1 and 2 only",
+        "3 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "answer": 0,
+      "explanation": "A dendritic pattern, like the branches of a tree, develops on uniform terrain such as the northern plains — pair 1 is correct. A radial pattern forms when rivers flow outward from a central height, as from the Amarkantak range — pair 2 is correct. A centripetal pattern forms when rivers flow inward into a lake or depression, as with the Loktak lake — pair 3 is correct. A trellis pattern has main tributaries running parallel with secondary streams joining them at right angles in folded terrain; the description given in pair 4 is of a radial pattern — pair 4 is wrong. Answer: 1, 2 and 3 only."
+    },
+    {
+      "text": "Consider the following statements about the peninsular rivers of India:\n1. The Godavari rises from the slopes of the Western Ghats in the Nasik district of Maharashtra.\n2. The Krishna rises from a spring near Mahabaleshwar.\n3. The Mahanadi rises in the Brahmagiri range of the Western Ghats.\n4. The Kaveri carries water throughout the year with comparatively less fluctuation, as its catchment receives rain from both the south-west and the north-east monsoons.\nWhich of the statements given above are correct?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "1 and 2 only",
+        "3 and 4 only",
+        "1, 2 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "answer": 2,
+      "explanation": "The Godavari, the largest peninsular river, rises in the Western Ghats in Nasik district — statement 1 is correct. The Krishna rises from a spring near Mahabaleshwar — statement 2 is correct. The Mahanadi rises in the highlands of Chhattisgarh and flows through Odisha to the Bay of Bengal; the Brahmagiri range is the source of the Kaveri — statement 3 is wrong. The Kaveri's upper catchment gets south-west monsoon rain and its lower catchment gets north-east monsoon rain, so its flow fluctuates less than that of other peninsular rivers — statement 4 is correct. Answer: 1, 2 and 4 only."
+    },
+    {
+      "text": "Consider the following statements regarding the mechanism of the Indian monsoon:\n1. In July, the Inter-Tropical Convergence Zone (ITCZ) shifts to about 20°N–25°N over the Gangetic plain, where it is also called the monsoon trough.\n2. In summer, the subtropical westerly jet stream moves to the north of the Himalayas.\n3. In winter, the westerly jet stream lies to the south of the Himalayas and helps bring western disturbances to north-western India.\nWhich of the statements given above is/are correct?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "1 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "answer": 3,
+      "explanation": "The ITCZ is a low-pressure belt where the trade winds converge; it follows the sun and in July lies at about 20°–25°N over the Gangetic plain, where it is called the monsoon trough — statement 1 is correct. With the sun's apparent northward movement, the subtropical westerly jet shifts north of the Himalayas in summer, allowing the tropical easterly jet to develop over the peninsula — statement 2 is correct. In winter the westerly jet flows south of the Himalayas and steers western disturbances from the Mediterranean region into north-west India — statement 3 is correct. Answer: 1, 2 and 3."
+    },
+    {
+      "text": "During the south-west monsoon season, long dry spells occur over the northern plains while widespread rain falls in the mountainous catchments of the Himalayan rivers. This 'break' in the monsoon occurs when:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "The axis of the monsoon trough lies over the northern plains",
+        "The axis of the monsoon trough shifts closer to the foothills of the Himalayas",
+        "The tropical easterly jet stream strengthens over the peninsula",
+        "A La Niña event develops in the central and eastern Pacific Ocean"
+      ],
+      "answer": 1,
+      "explanation": "NCERT links wet and dry spells to the movement of the monsoon trough. When its axis lies over the plains, rainfall in the plains is good. When the axis shifts close to the Himalayas, the plains get long dry spells and heavy rain falls in the mountain catchments, often causing floods downstream. A stronger tropical easterly jet and La Niña conditions are generally associated with a vigorous monsoon, not a break. Answer: the axis of the monsoon trough shifts closer to the Himalayan foothills."
+    },
+    {
+      "text": "Consider the following statements regarding the provisions of the Indus Waters Treaty signed between India and Pakistan in 1960:\n1. The waters of the eastern rivers — the Ravi, the Beas and the Satluj — were allocated to India.\n2. India was permitted to use only about 20 per cent of the total water carried by the Indus river system.\n3. The waters of the Jhelum and the Chenab were allocated to India for unrestricted use.\nWhich of the statements given above is/are correct?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "1 and 2 only",
+        "2 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "answer": 0,
+      "explanation": "The treaty, brokered by the World Bank in 1960, gave the eastern rivers (Ravi, Beas and Satluj) to India — statement 1 is correct. NCERT notes that under the treaty India could use only about 20 per cent of the total water carried by the Indus system — statement 2 is correct. The western rivers (Indus, Jhelum and Chenab) were given to Pakistan, and India was permitted to use them only for limited purposes such as domestic use and run-of-the-river hydropower — statement 3 is wrong. Answer: 1 and 2 only."
+    },
+    {
+      "text": "Consider the following statements about the Southern Oscillation and the Indian monsoon:\n1. Normally, when the tropical eastern South Pacific Ocean experiences high pressure, the tropical eastern Indian Ocean experiences low pressure.\n2. The difference in pressure between Tahiti in the Pacific Ocean and Darwin in northern Australia is computed to predict the intensity of the monsoon.\n3. A negative value of this pressure difference indicates an above-average and early monsoon.\nWhich of the statements given above is/are correct?",
+      "difficulty": "HARD",
+      "options": [
+        "2 only",
+        "1 and 3 only",
+        "1 and 2 only",
+        "1, 2 and 3"
+      ],
+      "answer": 2,
+      "explanation": "Normally, high pressure over the tropical eastern South Pacific goes with low pressure over the tropical eastern Indian Ocean; in some years this pattern reverses, and the periodic change is called the Southern Oscillation — statement 1 is correct. The pressure difference between Tahiti (about 18°S, 149°W) and Darwin (about 12°30′S, 131°E) is computed to forecast monsoon intensity — statement 2 is correct. According to NCERT, a negative pressure difference means a below-average and late monsoon, not an above-average and early one — statement 3 is wrong. Answer: 1 and 2 only."
+    },
+    {
+      "text": "Consider the following pairs:\nConfluence (Prayag) — Rivers that meet\n1. Vishnuprayag — Dhauliganga and Vishnuganga\n2. Karnaprayag — Alaknanda and Mandakini\n3. Rudraprayag — Alaknanda and Pindar\n4. Devprayag — Bhagirathi and Alaknanda\nHow many of the pairs given above are correctly matched?",
+      "difficulty": "HARD",
+      "options": [
+        "Only one pair",
+        "Only two pairs",
+        "Only three pairs",
+        "All four pairs"
+      ],
+      "answer": 1,
+      "explanation": "The Alaknanda rises from the Satopanth glacier above Badrinath. The Dhauliganga and the Vishnuganga meet at Joshimath, known as Vishnuprayag — pair 1 is correct. The Pindar joins the Alaknanda at Karnaprayag and the Mandakini joins it at Rudraprayag, so pairs 2 and 3 have swapped rivers and are wrong. The Bhagirathi and the Alaknanda meet at Devprayag to form the Ganga — pair 4 is correct. Two pairs are correct. Answer: only two pairs."
+    }
+  ]
+}

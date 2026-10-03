@@ -1,0 +1,106 @@
+{
+  "exam": "jee",
+  "subject": "physics",
+  "chapter": "thermodynamics",
+  "notes": {
+    "summary": "This chapter covers thermal equilibrium and the laws of thermodynamics, work and heat in quasi-static processes of an ideal gas, molar specific heats, heat engines, refrigerators and the Carnot cycle. JEE Main asks P–V work (area under the curve), first-law bookkeeping for isothermal, adiabatic, isobaric and isochoric processes, and efficiency or COP numericals.",
+    "keyPoints": [
+      "The zeroth law defines temperature. First law: Q = ΔU + W, where W = ∫P dV is the work done by the gas. For an ideal gas, ΔU = nCvΔT in every process.",
+      "Cv is 3R/2 for a monatomic gas and 5R/2 for a rigid diatomic gas; Cp − Cv = R, so γ = 5/3 and 7/5. For a mixture, average Cv: Cv(mix) = ΣnᵢCvᵢ/Σnᵢ (1 mol each of a monatomic and a diatomic gas gives γ = 1.5).",
+      "Isothermal: ΔU = 0 and Q = W = nRT ln(V₂/V₁). Isobaric: W = PΔV = nRΔT and Q = nCpΔT, so the fraction of Q going into ΔU is Cv/Cp = 1/γ. Isochoric: W = 0 and Q = nCvΔT.",
+      "Adiabatic: PV^γ, TV^(γ−1) and P^(1−γ)T^γ are constant. W = (P₁V₁ − P₂V₂)/(γ − 1) = nR(T₁ − T₂)/(γ − 1). Its slope on a P–V graph is γ times the isothermal slope.",
+      "Polytropic process PVˣ = constant: molar heat capacity C = Cv + R/(1 − x). For P ∝ V (x = −1), C = Cv + R/2, which is 2R for a monatomic gas.",
+      "For expansion from the same initial state through the same volume change: W(isobaric) > W(isothermal) > W(adiabatic).",
+      "Cyclic process: ΔU = 0 and net Q = net W = area enclosed on the P–V diagram (positive if traced clockwise, i.e. an engine).",
+      "Engine efficiency η = W/Q_absorbed = 1 − Q₂/Q₁; Carnot η = 1 − T₂/T₁ (temperatures in kelvin). Refrigerator COP β = Q₂/W, which for a Carnot refrigerator is T₂/(T₁ − T₂).",
+      "Second law: Kelvin–Planck (no cyclic engine can turn heat from a single reservoir entirely into work) and Clausius (heat cannot flow from cold to hot on its own)."
+    ],
+    "traps": [
+      "Using Celsius instead of kelvin in Carnot efficiency or COP formulas.",
+      "Using the net heat instead of only the heat absorbed when calculating cycle efficiency.",
+      "Writing ΔU = 0 for an adiabatic process. Adiabatic means Q = 0; ΔU = 0 holds for isothermal processes of an ideal gas.",
+      "Mixing sign conventions: physics uses W = work done BY the gas, while NCERT chemistry uses w = work done ON the system.",
+      "Averaging the γ values of a gas mixture directly instead of averaging Cv (or Cp) weighted by moles."
+    ],
+    "examTip": "In any process question, first write ΔU = nCvΔT (true for every process of an ideal gas), then get W from the area under the P–V curve, and let the first law give Q."
+  },
+  "questions": [
+    {
+      "text": "Two bodies A and B are each, separately, in thermal equilibrium with a third body C. Then A and B are also in thermal equilibrium with each other. This statement, which allows temperature to be defined, is the:",
+      "difficulty": "EASY",
+      "options": ["First law of thermodynamics", "Second law of thermodynamics", "Third law of thermodynamics", "Zeroth law of thermodynamics"],
+      "answer": 3,
+      "explanation": "The zeroth law says that thermal equilibrium is transitive: if A and B are each in equilibrium with C, they are in equilibrium with each other.\nThis means all three share a common property, temperature, so the zeroth law is the basis of thermometry."
+    },
+    {
+      "text": "Two moles of an ideal gas are heated at constant pressure until their temperature rises by 50 K. The work done by the gas is (R = 8.314 J mol⁻¹ K⁻¹):",
+      "difficulty": "EASY",
+      "options": ["831 J", "1247 J", "2079 J", "416 J"],
+      "answer": 0,
+      "explanation": "At constant pressure, W = PΔV = nRΔT.\nW = 2 × 8.314 × 50 = 831.4 J ≈ 831 J, whether the gas is monatomic or diatomic.\n(1247 J would be ΔU and 2079 J would be Q for a monatomic gas.)"
+    },
+    {
+      "text": "Which of the following is impossible according to the Kelvin–Planck statement of the second law of thermodynamics?",
+      "difficulty": "EASY",
+      "options": ["A gas expanding adiabatically and doing work at the expense of its internal energy", "A refrigerator transferring heat from a cold body to a hot body using external work", "A cyclic engine that absorbs heat from a single reservoir and converts all of it into work", "Heat flowing spontaneously from a hot body to a cold body"],
+      "answer": 2,
+      "explanation": "Kelvin–Planck: no process is possible whose only result is the absorption of heat from a reservoir and its complete conversion into work.\nA heat engine working in a cycle must reject some heat to a colder sink, so η < 100%.\nThe other three processes are all allowed. A refrigerator does not violate the Clausius statement, because external work is supplied."
+    },
+    {
+      "text": "Heat Q is supplied at constant pressure to an ideal diatomic gas with rigid molecules. The fraction of Q that goes into increasing its internal energy is:",
+      "difficulty": "MEDIUM",
+      "options": ["2/7", "5/7", "3/5", "2/5"],
+      "answer": 1,
+      "explanation": "ΔU/Q = nCvΔT/(nCpΔT) = Cv/Cp = 1/γ.\nFor a rigid diatomic gas, Cv = 5R/2 and Cp = 7R/2, so ΔU/Q = 5/7.\nThe remaining 2/7 is the work done. (3/5 is the value for a monatomic gas.)"
+    },
+    {
+      "text": "One mole of an ideal monatomic gas is mixed with one mole of an ideal diatomic gas with rigid molecules. The ratio of specific heats γ = Cp/Cv of the mixture is:",
+      "difficulty": "MEDIUM",
+      "options": ["1.53", "1.40", "1.67", "1.50"],
+      "answer": 3,
+      "explanation": "Cv(mix) = (1 × 3R/2 + 1 × 5R/2)/(1 + 1) = 2R.\nCp(mix) = Cv + R = 3R.\nγ = 3R/2R = 1.50. (1.53 comes from the wrong method of averaging 1.67 and 1.40 directly.)"
+    },
+    {
+      "text": "An ideal gas is taken from the state (P = 2 × 10⁵ Pa, V = 1 × 10⁻³ m³) to the state (P = 4 × 10⁵ Pa, V = 3 × 10⁻³ m³) along a straight line on the P–V diagram. The work done by the gas is:",
+      "difficulty": "MEDIUM",
+      "options": ["400 J", "800 J", "600 J", "1200 J"],
+      "answer": 2,
+      "explanation": "Work = area under the P–V line, which here is a trapezium.\nW = ½(P₁ + P₂)(V₂ − V₁) = ½(2 + 4) × 10⁵ × (3 − 1) × 10⁻³.\nW = 3 × 10⁵ × 2 × 10⁻³ = 600 J. (400 J and 800 J use only one of the pressures; 1200 J drops the ½.)"
+    },
+    {
+      "text": "A Carnot engine with its source at 500 K has an efficiency of 40%. Keeping the sink temperature unchanged, by how much must the source temperature be raised to increase the efficiency to 50%?",
+      "difficulty": "MEDIUM",
+      "options": ["100 K", "50 K", "125 K", "150 K"],
+      "answer": 0,
+      "explanation": "η = 1 − T₂/T₁: 0.40 = 1 − T₂/500, so T₂ = 300 K.\nFor η = 0.50: T₁' = T₂/(1 − 0.5) = 300/0.5 = 600 K.\nThe source must be raised by 600 − 500 = 100 K. (125 K comes from wrongly assuming efficiency is proportional to T₁.)"
+    },
+    {
+      "text": "One mole of an ideal monatomic gas expands adiabatically, and its temperature falls from 400 K to 300 K. The work done by the gas is (R = 8.314 J mol⁻¹ K⁻¹):",
+      "difficulty": "MEDIUM",
+      "options": ["831 J", "1247 J", "2079 J", "0 J"],
+      "answer": 1,
+      "explanation": "Adiabatic means Q = 0, so W = −ΔU = nCv(T₁ − T₂).\nW = 1 × (3/2) × 8.314 × 100 = 1247 J.\nThis is the same as nR(T₁ − T₂)/(γ − 1) = 831.4/(2/3) = 1247 J."
+    },
+    {
+      "text": "An ideal gas expands from volume V to 2V, starting from the same initial state each time, by three separate reversible processes: isobaric, isothermal and adiabatic. The correct order of the work done by the gas is:",
+      "difficulty": "MEDIUM",
+      "options": ["W_adiabatic > W_isothermal > W_isobaric", "W_isothermal > W_isobaric > W_adiabatic", "All three are equal", "W_isobaric > W_isothermal > W_adiabatic"],
+      "answer": 3,
+      "explanation": "Work is the area under each P–V curve between V and 2V.\nIn the isobaric process P stays at P₀ (W = P₀V). In the isothermal process P falls as 1/V (W = P₀V ln 2 ≈ 0.69P₀V). In the adiabatic process P falls fastest, as 1/V^γ, giving the smallest area.\nSo W_isobaric > W_isothermal > W_adiabatic."
+    },
+    {
+      "text": "One mole of an ideal monatomic gas is taken through a cycle of four steps:\n(1) at constant volume V₀, the pressure rises from P₀ to 2P₀;\n(2) at constant pressure 2P₀, the volume increases from V₀ to 2V₀;\n(3) at constant volume 2V₀, the pressure falls from 2P₀ to P₀;\n(4) at constant pressure P₀, the volume decreases from 2V₀ to V₀.\nThe efficiency of this cycle is:",
+      "difficulty": "HARD",
+      "options": ["2/13 (about 15.4%)", "1/4 (25%)", "3/4 (75%)", "2/15 (about 13.3%)"],
+      "answer": 0,
+      "explanation": "Net work = area of the rectangle = (2P₀ − P₀)(2V₀ − V₀) = P₀V₀.\nHeat is absorbed only in steps 1 and 2 (nRΔT = Δ(PV)):\nStep 1: Q = (3/2)Δ(PV) = (3/2)(2P₀V₀ − P₀V₀) = 1.5P₀V₀.\nStep 2: Q = (5/2)Δ(PV) = (5/2)(4P₀V₀ − 2P₀V₀) = 5P₀V₀.\nQ_absorbed = 6.5P₀V₀, so η = P₀V₀/6.5P₀V₀ = 2/13 ≈ 15.4%. (75% is the Carnot efficiency between the extreme temperatures, which this cycle cannot reach.)"
+    },
+    {
+      "text": "One mole of an ideal monatomic gas is heated in a process in which its pressure is directly proportional to its volume (P ∝ V). The molar heat capacity of the gas in this process is:",
+      "difficulty": "HARD",
+      "options": ["3R/2", "5R/2", "2R", "R/2"],
+      "answer": 2,
+      "explanation": "Write P = kV, so PV = kV² = RT.\nW = ∫P dV = ∫kV dV = ½kΔ(V²) = ½Δ(PV) = ½RΔT.\nQ = ΔU + W = (3/2)RΔT + (1/2)RΔT = 2RΔT, so C = Q/ΔT = 2R.\n(Check with the polytropic formula: C = Cv + R/(1 − x) with x = −1 gives 3R/2 + R/2 = 2R.)"
+    }
+  ]
+}

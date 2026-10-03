@@ -1,0 +1,162 @@
+{
+  "exam": "class-11",
+  "subject": "mathematics",
+  "chapter": "sets",
+  "notes": {
+    "summary": "This chapter covers the language of sets: roster and set-builder form, types of sets, subsets, power sets, intervals, Venn diagrams, and the operations of union, intersection, difference and complement along with their laws. CBSE tests it with short conversion and identification items, operations on given sets, and simple counting problems.",
+    "keyPoints": [
+      "Roster form lists each element once, in any order: the letters of SCHOOL give {S, C, H, O, L}. Set-builder form states a common property: {x : x = 2n, n ∈ N} is the set of even natural numbers.",
+      "The empty set ∅ = { } has no elements. {0} and {∅} are not empty: each has exactly one element.",
+      "A set with n elements has 2ⁿ subsets and 2ⁿ − 1 proper subsets, and n(P(A)) = 2ⁿ. Example: n(A) = 3 gives 8 subsets.",
+      "∈ links an element to a set and ⊂ links a set to a set. For every set A, ∅ ⊂ A and A ⊂ A.",
+      "Intervals: (a, b) leaves out both ends, [a, b] includes both, and [a, b) = {x ∈ R : a ≤ x < b}. The length of each is b − a.",
+      "Basic laws: A − B = A ∩ B′, A ∪ A′ = U, A ∩ A′ = ∅, (A′)′ = A, U′ = ∅ and ∅′ = U.",
+      "De Morgan's laws: (A ∪ B)′ = A′ ∩ B′ and (A ∩ B)′ = A′ ∪ B′. Distributive laws: A ∪ (B ∩ C) = (A ∪ B) ∩ (A ∪ C) and A ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C).",
+      "Counting: n(A ∪ B) = n(A) + n(B) − n(A ∩ B). If A and B are disjoint, n(A ∪ B) = n(A) + n(B). The number in A only is n(A) − n(A ∩ B).",
+      "Equal sets have exactly the same elements, ignoring repetition and order: the letters of FOLLOW and the letters of WOLF both give {F, O, L, W}.",
+      "A − (A − B) = A ∩ B, and (A − B) ∪ (B − A) = (A ∪ B) − (A ∩ B). Both are quick to check on a Venn diagram."
+    ],
+    "traps": [
+      "Writing repeated elements in roster form, or treating {1, 2} and {2, 1} as different sets.",
+      "Mixing up ∈ and ⊂. For A = {1, {2}}, {2} ∈ A is true, but {2} ⊂ A is false because 2 itself is not an element of A.",
+      "Treating ∅, {0} and {∅} as the same set. n(∅) = 0, but n({∅}) = 1.",
+      "Mixing up open and closed ends when writing or intersecting intervals.",
+      "Forgetting to subtract n(A ∩ B) in union problems, which counts it twice, or reading 'only A' as n(A)."
+    ],
+    "examTip": "Sketch a quick Venn diagram for any question on operations or counting. It settles De Morgan, difference and 'only / at least' wording in seconds."
+  },
+  "questions": [
+    {
+      "text": "The set {1, 4, 9, 16, 25} written in set-builder form is:",
+      "difficulty": "EASY",
+      "options": [
+        "{x : x = n², n ∈ N and 1 ≤ n < 5}",
+        "{x : x = 2n − 1, n ∈ N and 1 ≤ n ≤ 5}",
+        "{x : x = n², n ∈ N and 1 ≤ n ≤ 5}",
+        "{x : x = n³, n ∈ N and 1 ≤ n ≤ 5}"
+      ],
+      "answer": 2,
+      "explanation": "Every element is a perfect square: 1 = 1², 4 = 2², 9 = 3², 16 = 4² and 25 = 5². So the elements are n² for the natural numbers n from 1 to 5, with both ends included. The condition 1 ≤ n < 5 would leave out 25, 2n − 1 gives the odd numbers {1, 3, 5, 7, 9}, and n³ gives cubes. So the answer is {x : x = n², n ∈ N and 1 ≤ n ≤ 5}."
+    },
+    {
+      "text": "Which of the following sets is an infinite set?",
+      "difficulty": "EASY",
+      "options": [
+        "The set of months of a year",
+        "The set of all lines parallel to the x-axis",
+        "The set of letters in the English alphabet",
+        "The set of prime factors of 1000"
+      ],
+      "answer": 1,
+      "explanation": "A set is finite if counting its elements comes to an end. The months (12), the letters (26) and the prime factors of 1000 = 2³ × 5³, which are just {2, 5}, are all finite. Through every point of the y-axis there is a line parallel to the x-axis, so there are infinitely many such lines. So the set of lines parallel to the x-axis is infinite."
+    },
+    {
+      "text": "Let A be the set of letters of the word FOLLOW and B be the set of letters of the word WOLF. Which statement is correct?",
+      "difficulty": "EASY",
+      "options": [
+        "A ≠ B, because FOLLOW has 6 letters and WOLF has only 4",
+        "A is a proper subset of B",
+        "B is a proper subset of A",
+        "A = B, because both sets are {F, O, L, W}"
+      ],
+      "answer": 3,
+      "explanation": "In a set, a repeated element is written only once and order does not matter. The letters of FOLLOW are F, O, L and W, so A = {F, O, L, W}. The letters of WOLF are W, O, L and F, so B = {F, O, L, W}. The two sets have exactly the same elements, so neither is a proper subset of the other. So A = B."
+    },
+    {
+      "text": "If A = {1, 2, 3, 4, 5} and B = {4, 5, 6, 7}, then (A − B) ∪ (B − A) is:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "{4, 5}",
+        "{1, 2, 3}",
+        "{1, 2, 3, 6, 7}",
+        "{1, 2, 3, 4, 5, 6, 7}"
+      ],
+      "answer": 2,
+      "explanation": "A − B is the set of elements of A that are not in B, which is {1, 2, 3}. B − A is the set of elements of B that are not in A, which is {6, 7}. Their union is {1, 2, 3, 6, 7}. As a check, this also equals (A ∪ B) − (A ∩ B) = {1, 2, 3, 4, 5, 6, 7} − {4, 5}. So the answer is {1, 2, 3, 6, 7}."
+    },
+    {
+      "text": "Let U = {1, 2, 3, 4, 5, 6, 7, 8, 9}, A = {1, 2, 3, 4} and B = {2, 4, 6, 8}. Then (A ∪ B)′ is:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "{5, 7, 9}",
+        "{1, 3, 5, 6, 7, 8, 9}",
+        "{2, 4}",
+        "{1, 3, 5, 7, 9}"
+      ],
+      "answer": 0,
+      "explanation": "A ∪ B = {1, 2, 3, 4, 6, 8}. Its complement is the set of elements of U that are not in A ∪ B: (A ∪ B)′ = {5, 7, 9}. Check with De Morgan's law: A′ = {5, 6, 7, 8, 9} and B′ = {1, 3, 5, 7, 9}, so A′ ∩ B′ = {5, 7, 9}. So (A ∪ B)′ = {5, 7, 9}."
+    },
+    {
+      "text": "The intersection of the intervals [−3, 5) and (1, 8] is:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "[1, 5]",
+        "(1, 5)",
+        "[−3, 8]",
+        "(1, 5]"
+      ],
+      "answer": 1,
+      "explanation": "[−3, 5) = {x : −3 ≤ x < 5} and (1, 8] = {x : 1 < x ≤ 8}. A number in both intervals must satisfy x > 1 (from the second) and x < 5 (from the first). The endpoint 1 is left out by (1, 8], and the endpoint 5 is left out by [−3, 5). So the intersection is {x : 1 < x < 5} = (1, 5)."
+    },
+    {
+      "text": "For the set A = {1, 2, {3, 4}, 5}, which of the following statements is correct?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "{3, 4} ⊂ A",
+        "3 ∈ A",
+        "{1, 2, 5} ∈ A",
+        "{3, 4} ∈ A"
+      ],
+      "answer": 3,
+      "explanation": "A has four elements: 1, 2, the set {3, 4}, and 5. Because {3, 4} is itself one element of A, the statement {3, 4} ∈ A is correct. {3, 4} ⊂ A would need 3 ∈ A and 4 ∈ A, but 3 and 4 are not elements of A, so that statement is false, and so is 3 ∈ A. {1, 2, 5} is a subset of A, not an element, so {1, 2, 5} ∈ A is false. So the correct statement is {3, 4} ∈ A."
+    },
+    {
+      "text": "Set A has m elements and set B has n elements. If the number of subsets of A is 112 more than the number of subsets of B, then (m, n) equals:",
+      "difficulty": "HARD",
+      "options": [
+        "(7, 4)",
+        "(8, 4)",
+        "(7, 3)",
+        "(6, 4)"
+      ],
+      "answer": 0,
+      "explanation": "A set with k elements has 2ᵏ subsets, so 2ᵐ − 2ⁿ = 112. Factorise: 2ⁿ(2ᵐ⁻ⁿ − 1) = 112 = 2⁴ × 7. The bracket 2ᵐ⁻ⁿ − 1 is odd, so 2ⁿ must carry the whole power of 2. That gives 2ⁿ = 16, so n = 4. Then 2ᵐ⁻ⁿ − 1 = 7, so 2ᵐ⁻ⁿ = 8 and m − n = 3, which gives m = 7. Check: 2⁷ − 2⁴ = 128 − 16 = 112. So (m, n) = (7, 4)."
+    },
+    {
+      "text": "For two sets A and B, the equality A ∪ B = A ∩ B holds if and only if:",
+      "difficulty": "HARD",
+      "options": [
+        "A ⊂ B",
+        "B ⊂ A",
+        "A = B",
+        "A ∩ B = ∅"
+      ],
+      "answer": 2,
+      "explanation": "For any two sets, A ⊂ A ∪ B and A ∩ B ⊂ B. If A ∪ B = A ∩ B, then A ⊂ A ∪ B = A ∩ B ⊂ B, so A ⊂ B. In the same way, B ⊂ A ∪ B = A ∩ B ⊂ A, so B ⊂ A. Together these give A = B. Conversely, if A = B, then A ∪ B = A = A ∩ B. So the equality holds exactly when A = B."
+    },
+    {
+      "text": "For any three sets A, B and C, A ∪ (B ∩ C) is equal to:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "(A ∪ B) ∩ (A ∪ C)",
+        "(A ∩ B) ∪ (A ∩ C)",
+        "(A ∪ B) ∩ C",
+        "A ∩ (B ∪ C)"
+      ],
+      "answer": 0,
+      "explanation": "This is the distributive law of union over intersection: A ∪ (B ∩ C) = (A ∪ B) ∩ (A ∪ C). Quick check with A = {1}, B = {2} and C = {3}. The left side is A ∪ ∅ = {1}. The right side is {1, 2} ∩ {1, 3} = {1}, which matches. Each of the other three options gives ∅ for these sets. So the answer is (A ∪ B) ∩ (A ∪ C)."
+    },
+    {
+      "text": "For any two sets A and B, A − (A − B) is equal to:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "A − B",
+        "A ∩ B",
+        "B",
+        "∅"
+      ],
+      "answer": 1,
+      "explanation": "A − B is the part of A that lies outside B. Removing that part from A leaves only the elements of A that are also in B. Algebraically: A − (A − B) = A ∩ (A ∩ B′)′ = A ∩ (A′ ∪ B) = (A ∩ A′) ∪ (A ∩ B) = A ∩ B. Example: for A = {1, 2, 3} and B = {2, 3, 4}, A − B = {1}, and A − {1} = {2, 3} = A ∩ B. So A − (A − B) = A ∩ B."
+    }
+  ]
+}

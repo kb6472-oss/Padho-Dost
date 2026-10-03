@@ -1,0 +1,170 @@
+{
+  "exam": "class-10",
+  "subject": "science",
+  "chapter": "acids-bases-salts",
+  "notes": {
+    "summary": "This chapter covers acid-base indicators, the chemical reactions of acids and bases, the pH scale and its importance in daily life, and the preparation, properties and uses of important salts: sodium hydroxide, bleaching powder, baking soda, washing soda and plaster of Paris. CBSE tests it through reaction and formula MCQs, indicator colours, pH reasoning, assertion-reason items and case-based questions.",
+    "keyPoints": [
+      "Indicators: litmus (a natural dye from lichen) turns red in acid and blue in base; phenolphthalein is colourless in acid and pink in base; methyl orange is red in acid and yellow in base; turmeric turns reddish-brown in base. Olfactory indicators such as onion and vanilla essence change odour: their smell cannot be detected in a basic solution.",
+      "Acid + metal → salt + H₂ (Zn + H₂SO₄ → ZnSO₄ + H₂; H₂ burns with a pop sound). Some bases also react with metals: 2NaOH + Zn → Na₂ZnO₂ (sodium zincate) + H₂.",
+      "Acid + metal carbonate or hydrogencarbonate → salt + CO₂ + H₂O (Na₂CO₃ + 2HCl → 2NaCl + H₂O + CO₂). CO₂ turns lime water milky: Ca(OH)₂ + CO₂ → CaCO₃ + H₂O; excess CO₂ clears it: CaCO₃ + H₂O + CO₂ → Ca(HCO₃)₂ (soluble).",
+      "Neutralisation: acid + base → salt + water (NaOH + HCl → NaCl + H₂O). Metal oxides are basic (CuO + 2HCl → CuCl₂ + H₂O, giving a blue-green solution); non-metal oxides are acidic (Ca(OH)₂ + CO₂ → CaCO₃ + H₂O).",
+      "Acids produce H⁺ ions (as H₃O⁺) only in water, so dry HCl gas does not affect dry litmus; glucose and alcohol contain hydrogen but do not give H⁺ and are not acids. Bases that dissolve in water are alkalis (NaOH, KOH, Ca(OH)₂, NH₄OH) and give OH⁻ ions. Diluting a concentrated acid is highly exothermic, so always add acid to water slowly with stirring.",
+      "pH scale runs from 0 to 14: below 7 is acidic, 7 is neutral, above 7 is basic. The lower the pH, the higher the H⁺ ion concentration. At equal concentration a strong acid such as HCl gives more H⁺ than a weak acid such as CH₃COOH. A universal indicator shows pH by colour.",
+      "pH in daily life: the body works within pH 7.0 to 7.8; rain with pH below 5.6 is acid rain; excess stomach acid is treated with antacids such as milk of magnesia, Mg(OH)₂; tooth enamel (calcium hydroxyapatite) corrodes below pH 5.5, so toothpastes are basic; ant and nettle stings inject methanoic acid; a bee sting is relieved by a mild base like baking soda.",
+      "Natural acids: vinegar has acetic acid; orange and lemon have citric acid; tamarind has tartaric acid; tomato has oxalic acid; sour milk (curd) has lactic acid; ant sting and nettle sting have methanoic acid.",
+      "pH of salts: strong acid + strong base gives a neutral salt (NaCl, Na₂SO₄, pH 7); strong acid + weak base gives an acidic salt (NH₄Cl); weak acid + strong base gives a basic salt (Na₂CO₃, NaHCO₃, CH₃COONa).",
+      "Important salts: chlor-alkali process 2NaCl + 2H₂O → 2NaOH + Cl₂ (anode) + H₂ (cathode); bleaching powder Ca(OH)₂ + Cl₂ → CaOCl₂ + H₂O; baking soda NaHCO₃ (2NaHCO₃ → Na₂CO₃ + H₂O + CO₂ on heating); washing soda Na₂CO₃·10H₂O (used for glass, soap, paper, borax and removing permanent hardness of water); plaster of Paris CaSO₄·½H₂O, made by heating gypsum CaSO₄·2H₂O at 373 K, sets back to gypsum with water. Copper sulphate crystals CuSO₄·5H₂O are blue and turn white on losing their water of crystallisation."
+    ],
+    "traps": [
+      "Mixing up baking soda (NaHCO₃, sodium hydrogencarbonate) with washing soda (Na₂CO₃·10H₂O, sodium carbonate decahydrate).",
+      "Thinking a higher pH means more H⁺ ions: it is the reverse, and pH 13 is strongly basic.",
+      "Assuming every salt is neutral: Na₂CO₃ solution is basic and NH₄Cl solution is acidic.",
+      "Writing plaster of Paris as CaSO₄·2H₂O (that is gypsum; PoP has half a water molecule per CaSO₄), or saying bleaching powder is made from quicklime instead of dry slaked lime.",
+      "Adding water to concentrated acid, or expecting dry HCl gas to show acidic behaviour without water."
+    ],
+    "examTip": "For any salt question, first write the acid and base it comes from and mark each as strong or weak; the stronger partner tells you whether the pH is below, at or above 7."
+  },
+  "questions": [
+    {
+      "text": "Phenolphthalein indicator turns which colour in a basic solution such as sodium hydroxide?",
+      "difficulty": "EASY",
+      "options": ["Colourless", "Pink", "Yellow", "Blue"],
+      "answer": 1,
+      "explanation": "Phenolphthalein is a synthetic indicator. It stays colourless in acidic and neutral solutions. In a basic solution such as NaOH it turns pink. So the answer is pink."
+    },
+    {
+      "text": "Which of the following can be used as an olfactory indicator, whose odour changes in acidic or basic media?",
+      "difficulty": "EASY",
+      "options": ["Litmus solution", "Turmeric", "Phenolphthalein", "Vanilla essence"],
+      "answer": 3,
+      "explanation": "Olfactory indicators are substances whose smell changes in acidic or basic media. Vanilla essence and onion are examples; their smell cannot be detected in a basic solution. Litmus and turmeric are natural indicators that change colour, and phenolphthalein is a synthetic colour-changing indicator. So the answer is vanilla essence."
+    },
+    {
+      "text": "The sting of an ant, and the stinging hairs of a nettle leaf, inject which acid into the skin, causing pain and irritation?",
+      "difficulty": "EASY",
+      "options": ["Methanoic acid", "Acetic acid", "Citric acid", "Oxalic acid"],
+      "answer": 0,
+      "explanation": "Both ant stings and nettle stings contain methanoic acid (formic acid). Acetic acid is found in vinegar, citric acid in oranges and lemons, and oxalic acid in tomatoes. A traditional remedy for a nettle sting is rubbing the area with a dock plant leaf. So the answer is methanoic acid."
+    },
+    {
+      "text": "What is the chemical formula of baking soda (sodium hydrogencarbonate)?",
+      "difficulty": "EASY",
+      "options": ["Na₂CO₃·10H₂O", "Na₂CO₃", "NaHCO₃", "NaOH"],
+      "answer": 2,
+      "explanation": "Baking soda is sodium hydrogencarbonate, NaHCO₃. Na₂CO₃·10H₂O is washing soda, Na₂CO₃ is anhydrous sodium carbonate (soda ash) and NaOH is caustic soda. So the formula of baking soda is NaHCO₃."
+    },
+    {
+      "text": "What is the chemical formula of plaster of Paris?",
+      "difficulty": "EASY",
+      "options": ["CaSO₄·2H₂O", "CaSO₄·½H₂O", "CaOCl₂", "CaCO₃"],
+      "answer": 1,
+      "explanation": "Plaster of Paris is calcium sulphate hemihydrate, CaSO₄·½H₂O (two formula units of CaSO₄ share one molecule of water). CaSO₄·2H₂O is gypsum, CaOCl₂ is bleaching powder and CaCO₃ is limestone. So the answer is CaSO₄·½H₂O."
+    },
+    {
+      "text": "A person suffering from acidity (excess acid in the stomach) is given milk of magnesia. Chemically, milk of magnesia is:",
+      "difficulty": "EASY",
+      "options": ["NaOH, a strong base", "CH₃COOH, a weak acid", "NaCl, a neutral salt", "Mg(OH)₂, a mild base"],
+      "answer": 3,
+      "explanation": "The stomach produces hydrochloric acid, and too much of it causes pain and irritation. An antacid neutralises the excess acid, so it must be a base, but a mild one; a strong base like NaOH would harm the body. Milk of magnesia is magnesium hydroxide, Mg(OH)₂, a mild base. So the answer is Mg(OH)₂."
+    },
+    {
+      "text": "Four solutions P, Q, R and S have pH values of 2, 6, 7 and 13 respectively. Which statement is correct?",
+      "difficulty": "MEDIUM",
+      "options": ["P is a strong acid and has the highest hydrogen ion concentration", "S has the highest hydrogen ion concentration because its pH is the highest", "Q is more acidic than P", "R will turn red litmus blue"],
+      "answer": 0,
+      "explanation": "The lower the pH, the higher the H⁺ ion concentration. P (pH 2) is a strong acid with the most H⁺ ions. Q (pH 6) is only weakly acidic, so it is less acidic than P. R (pH 7) is neutral and does not change litmus. S (pH 13) is strongly basic and has the lowest H⁺ concentration. So the correct statement is that P is a strong acid with the highest H⁺ concentration."
+    },
+    {
+      "text": "Zinc granules are heated with sodium hydroxide solution. Which products are formed?",
+      "difficulty": "MEDIUM",
+      "options": ["Zinc hydroxide and sodium metal", "No products, because metals react only with acids", "Sodium zincate (Na₂ZnO₂) and hydrogen gas", "Zinc oxide and oxygen gas"],
+      "answer": 2,
+      "explanation": "Some metals react with strong bases as well as with acids. Zinc reacts with sodium hydroxide: 2NaOH + Zn → Na₂ZnO₂ + H₂. Check: Na 2 = 2, O 2 = 2, H 2 = 2, Zn 1 = 1. The hydrogen can be tested with a burning splinter (pop sound). So the products are sodium zincate and hydrogen gas."
+    },
+    {
+      "text": "Carbon dioxide is passed through lime water, which turns milky. When excess carbon dioxide is passed, the milkiness disappears. This is because of the formation of:",
+      "difficulty": "MEDIUM",
+      "options": ["CaCO₃", "Ca(HCO₃)₂", "CaO", "Ca(OH)₂"],
+      "answer": 1,
+      "explanation": "First, Ca(OH)₂ + CO₂ → CaCO₃ + H₂O; the insoluble white calcium carbonate makes lime water milky. With excess CO₂: CaCO₃ + H₂O + CO₂ → Ca(HCO₃)₂. Calcium hydrogencarbonate is soluble in water, so the milkiness disappears. So the answer is Ca(HCO₃)₂."
+    },
+    {
+      "text": "Concentrated sulphuric acid must be diluted by adding the acid slowly to water with constant stirring, and never by adding water to the acid. Why?",
+      "difficulty": "MEDIUM",
+      "options": ["Because the mixing is endothermic and the water may freeze", "Because adding water to the acid releases hydrogen gas", "Because the mixing is highly exothermic; adding water to acid can make the mixture splash out and cause burns, and the glass container may crack from local overheating", "Because the acid becomes more concentrated when water is added to it"],
+      "answer": 2,
+      "explanation": "Mixing a concentrated acid with water releases a large amount of heat; it is highly exothermic. If water is added to the concentrated acid, the heat generated in a small region can boil the water and splash the acid out, causing burns. Excessive local heating may also crack the glass container. Adding acid slowly to a large amount of water with stirring spreads the heat safely."
+    },
+    {
+      "text": "In the chlor-alkali process, electricity is passed through brine (aqueous sodium chloride). Which option correctly gives the products and where they are formed?",
+      "difficulty": "MEDIUM",
+      "options": ["Chlorine at the cathode, hydrogen at the anode, sodium hydroxide near the anode", "Sodium metal at the cathode and chlorine at the anode", "Oxygen at the anode, hydrogen at the cathode, and NaCl remains unchanged", "Chlorine at the anode, hydrogen at the cathode, and sodium hydroxide solution near the cathode"],
+      "answer": 3,
+      "explanation": "The reaction is 2NaCl(aq) + 2H₂O(l) → 2NaOH(aq) + Cl₂(g) + H₂(g). Chlorine gas is given off at the anode and hydrogen gas at the cathode. Sodium hydroxide solution forms near the cathode. Sodium metal is not obtained from brine, because it would react with water. The process is named after its products, chlorine and alkali (NaOH)."
+    },
+    {
+      "text": "Bleaching powder (CaOCl₂) is manufactured by the action of chlorine gas on:",
+      "difficulty": "MEDIUM",
+      "options": ["Dry slaked lime, Ca(OH)₂", "Quicklime, CaO", "Limestone, CaCO₃", "Gypsum, CaSO₄·2H₂O"],
+      "answer": 0,
+      "explanation": "Chlorine produced in the chlor-alkali process is passed over dry slaked lime: Ca(OH)₂ + Cl₂ → CaOCl₂ + H₂O. Check: Ca 1 = 1, O 2 = 2, H 2 = 2, Cl 2 = 2. Bleaching powder is used to bleach cotton, linen and wood pulp, as an oxidising agent, and to disinfect drinking water. So the answer is dry slaked lime."
+    },
+    {
+      "text": "Blue copper sulphate crystals are heated strongly in a dry boiling tube and turn white. When a few drops of water are added to the cooled white residue, the blue colour returns. What does this show?",
+      "difficulty": "MEDIUM",
+      "options": ["Copper sulphate decomposes permanently into copper and sulphur on heating", "The white solid is a new compound that cannot be converted back", "The blue colour is due to water of crystallisation (CuSO₄·5H₂O), which is lost on heating and regained when water is added", "Heating oxidises copper sulphate to copper oxide, which is white"],
+      "answer": 2,
+      "explanation": "Blue copper sulphate crystals contain five molecules of water of crystallisation per formula unit, CuSO₄·5H₂O. On heating, this water is driven off: CuSO₄·5H₂O → CuSO₄ + 5H₂O, leaving white anhydrous copper sulphate. Adding water rehydrates it and the blue colour returns, so the change is reversible. Copper oxide is black, not white."
+    },
+    {
+      "text": "Which of the following salts forms an aqueous solution with pH greater than 7?",
+      "difficulty": "MEDIUM",
+      "options": ["Sodium chloride (NaCl)", "Ammonium chloride (NH₄Cl)", "Sodium sulphate (Na₂SO₄)", "Sodium carbonate (Na₂CO₃)"],
+      "answer": 3,
+      "explanation": "The pH of a salt solution depends on the acid and base it is formed from. NaCl (HCl + NaOH) and Na₂SO₄ (H₂SO₄ + NaOH) come from a strong acid and a strong base, so they are neutral (pH 7). NH₄Cl (HCl + NH₄OH) comes from a strong acid and a weak base, so it is acidic. Na₂CO₃ (H₂CO₃ + NaOH) comes from a weak acid and a strong base, so its solution is basic with pH above 7."
+    },
+    {
+      "text": "Tooth enamel is made of calcium hydroxyapatite. Below what pH in the mouth does it start to corrode, and how does using toothpaste help?",
+      "difficulty": "MEDIUM",
+      "options": ["Below pH 5.5; toothpaste is generally basic and neutralises the excess acid", "Below pH 7.0; toothpaste is acidic and kills the bacteria", "Above pH 8.5; toothpaste is acidic and lowers the pH", "Below pH 5.5; toothpaste is acidic and dissolves the food particles"],
+      "answer": 0,
+      "explanation": "Bacteria in the mouth produce acids from sugar and food particles left after eating. Tooth enamel, the hardest substance in the body, does not dissolve in water but corrodes when the pH in the mouth falls below 5.5. Toothpastes are generally basic, so they neutralise the excess acid and help prevent tooth decay."
+    },
+    {
+      "text": "Match the natural source with the acid it contains:\n(i) Vinegar\n(ii) Tamarind\n(iii) Tomato\n(iv) Sour milk (curd)\n(a) Lactic acid\n(b) Oxalic acid\n(c) Acetic acid\n(d) Tartaric acid",
+      "difficulty": "MEDIUM",
+      "options": ["(i)-c, (ii)-b, (iii)-d, (iv)-a", "(i)-c, (ii)-d, (iii)-b, (iv)-a", "(i)-a, (ii)-d, (iii)-b, (iv)-c", "(i)-d, (ii)-c, (iii)-a, (iv)-b"],
+      "answer": 1,
+      "explanation": "Vinegar contains acetic acid, so (i)-c. Tamarind contains tartaric acid, so (ii)-d. Tomato contains oxalic acid, so (iii)-b. Sour milk (curd) contains lactic acid, so (iv)-a. The correct match is (i)-c, (ii)-d, (iii)-b, (iv)-a."
+    },
+    {
+      "text": "Assertion (A): Dry HCl gas does not change the colour of dry blue litmus paper.\nReason (R): HCl produces hydrogen ions (H⁺) only in the presence of water.\nChoose the correct option.",
+      "difficulty": "HARD",
+      "options": ["Both A and R are true, and R is the correct explanation of A.", "Both A and R are true, but R is not the correct explanation of A.", "A is true, but R is false.", "A is false, but R is true."],
+      "answer": 0,
+      "explanation": "Acidic behaviour, such as turning blue litmus red, is due to H⁺ ions. HCl forms H⁺ ions only when dissolved in water: HCl + H₂O → H₃O⁺ + Cl⁻. Dry HCl gas has no water, so no H⁺ ions form and dry blue litmus does not change colour. Both statements are true and R correctly explains A."
+    },
+    {
+      "text": "Assertion (A): Plaster of Paris should be stored in a moisture-proof container.\nReason (R): Plaster of Paris is used by doctors to support fractured bones in the right position.\nChoose the correct option.",
+      "difficulty": "HARD",
+      "options": ["Both A and R are true, and R is the correct explanation of A.", "Both A and R are true, but R is not the correct explanation of A.", "A is true, but R is false.", "A is false, but R is true."],
+      "answer": 1,
+      "explanation": "Plaster of Paris absorbs moisture and sets into a hard mass of gypsum: CaSO₄·½H₂O + 1½H₂O → CaSO₄·2H₂O. To keep it usable, it must be stored away from moisture, so A is true. It is indeed used for supporting fractured bones, so R is also true. But R describes a use and does not explain why it must be kept dry. So both are true, but R is not the correct explanation of A."
+    },
+    {
+      "text": "Assertion (A): Washing soda is used for removing permanent hardness of water.\nReason (R): The chemical formula of washing soda is NaHCO₃.\nChoose the correct option.",
+      "difficulty": "HARD",
+      "options": ["Both A and R are true, and R is the correct explanation of A.", "Both A and R are true, but R is not the correct explanation of A.", "A is true, but R is false.", "A is false, but R is true."],
+      "answer": 2,
+      "explanation": "Washing soda is used in glass, soap and paper industries, for cleaning and for removing permanent hardness of water, so A is true. Its formula is Na₂CO₃·10H₂O (sodium carbonate decahydrate). NaHCO₃ is baking soda, so R is false. The answer is: A is true, but R is false."
+    },
+    {
+      "text": "A student uses only baking soda (sodium hydrogencarbonate), without any edible acid, while baking a cake. The cake rises but has a bitter taste. Which explanation is correct?",
+      "difficulty": "HARD",
+      "options": ["Baking soda releases chlorine gas on heating, which leaves a bitter taste", "Baking soda reacts with sugar to form a bitter acid", "Baking soda forms calcium carbonate on heating, which is bitter", "Baking soda decomposes into sodium carbonate, water and CO₂; the leftover sodium carbonate is bitter"],
+      "answer": 3,
+      "explanation": "On heating: 2NaHCO₃ → Na₂CO₃ + H₂O + CO₂ (Na 2 = 2, H 2 = 2, C 2 = 2, O 6 = 6). The CO₂ makes the cake rise and become soft and spongy, but the sodium carbonate left behind is basic and tastes bitter. Baking powder avoids this because it also contains a mild edible acid such as tartaric acid: NaHCO₃ + H⁺ → CO₂ + H₂O + sodium salt of the acid, so no sodium carbonate is left. So the bitterness is due to sodium carbonate."
+    }
+  ]
+}

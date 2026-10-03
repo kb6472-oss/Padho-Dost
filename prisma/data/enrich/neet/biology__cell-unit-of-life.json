@@ -1,0 +1,170 @@
+{
+  "exam": "neet",
+  "subject": "biology",
+  "chapter": "cell-unit-of-life",
+  "notes": {
+    "summary": "This chapter covers cell theory, how prokaryotic and eukaryotic cells are built, the plasma membrane and cell wall, the endomembrane system, mitochondria and plastids, ribosomes, the cytoskeleton, cilia and centrioles, and the nucleus. NEET questions come almost straight from NCERT lines: names and dates, cell sizes, organelle functions, Svedberg values and chromosome types, usually set as statement or match-the-column items.",
+    "keyPoints": [
+      "Cell theory: Schleiden (1838) and Schwann (1839). Virchow (1855) added 'Omnis cellula-e cellula' (new cells come from pre-existing cells). Leeuwenhoek first saw a live cell, and Robert Brown discovered the nucleus (1831).",
+      "Cell sizes: Mycoplasma is about 0.3 μm (smallest), bacteria 3–5 μm and a human RBC about 7 μm. The ostrich egg is the largest isolated single cell.",
+      "Fluid mosaic model (Singer and Nicolson, 1972): the lipid bilayer is quasi-fluid, so proteins can move sideways within it. The human RBC membrane is about 52% protein and 40% lipid.",
+      "Prokaryotic cell envelope: glycocalyx (a loose slime layer or a tough capsule), then the cell wall, then the plasma membrane. The mesosome helps in cell wall formation, DNA replication, respiration and secretion. Prokaryotic ribosomes are 70S (50S + 30S); eukaryotic cytoplasmic ribosomes are 80S (60S + 40S).",
+      "Endomembrane system = ER + Golgi + lysosomes + vacuoles. Mitochondria, chloroplasts and peroxisomes are not part of it. RER makes proteins; SER makes lipids and, in animal cells, steroid hormones.",
+      "Golgi apparatus: has a cis (forming) face and a trans (maturing) face. It packages materials, is the main site where glycoproteins and glycolipids are formed, and gives rise to lysosomes, which carry hydrolases that work best at acidic pH.",
+      "Mitochondria and chloroplasts both have a double membrane, circular DNA and 70S ribosomes, and mitochondria divide by fission. Plastid types: chromoplasts (carotenoids); amyloplasts (starch), elaioplasts (oils) and aleuroplasts (proteins), which are the leucoplasts.",
+      "Cilia and flagella have a 9+2 axoneme (9 doublets around 2 central microtubules). Centrioles and basal bodies have 9 peripheral triplets in a cartwheel pattern.",
+      "Nucleus: a double nuclear envelope with pores (perinuclear space 10–50 nm). The nucleolus has no membrane and is the site of rRNA synthesis. Chromosomes are named by centromere position: metacentric, sub-metacentric, acrocentric, telocentric.",
+      "Plant cell wall: the primary wall can grow; the secondary wall is laid down on its inner side. The middle lamella is mostly calcium pectate, and plasmodesmata join the cytoplasm of neighbouring cells."
+    ],
+    "traps": [
+      "Calling ribosomes or the nucleolus membrane-bound. Neither has a membrane.",
+      "Adding Svedberg units as if they were masses. 50S + 30S gives a 70S ribosome, because S measures sedimentation (density and size), not mass.",
+      "Putting mitochondria or chloroplasts in the endomembrane system.",
+      "Mixing up the centriole (9 triplets, no central tubules) with the axoneme (9 doublets + 2 central singlets).",
+      "Thinking the secondary wall forms outside the primary wall. It is laid down on the inner side, next to the membrane."
+    ],
+    "examTip": "In statement questions, test every organelle claim on three points: membrane (none, single or double), DNA, and ribosome type. Most wrong statements fail one of these."
+  },
+  "questions": [
+    {
+      "text": "Which scientist modified the cell theory by explaining that new cells are formed from pre-existing cells (Omnis cellula-e cellula)?",
+      "difficulty": "EASY",
+      "options": ["Matthias Schleiden", "Theodore Schwann", "Rudolf Virchow", "Robert Brown"],
+      "answer": 2,
+      "explanation": "Schleiden (1838) and Schwann (1839) proposed the cell theory together, but it did not explain where new cells come from. In 1855 Rudolf Virchow explained that cells divide and new cells arise from pre-existing cells. So Virchow modified the theory."
+    },
+    {
+      "text": "The widely accepted fluid mosaic model of the plasma membrane was proposed by:",
+      "difficulty": "EASY",
+      "options": ["Singer and Nicolson", "Watson and Crick", "Schleiden and Schwann", "Danielli and Davson"],
+      "answer": 0,
+      "explanation": "Singer and Nicolson proposed the fluid mosaic model in 1972. In this model the lipid is quasi-fluid, so proteins can move sideways within the bilayer. Danielli and Davson proposed an older sandwich model, and Watson and Crick proposed the structure of DNA. The answer is Singer and Nicolson."
+    },
+    {
+      "text": "Which membrane-bound vesicles are formed by packaging in the Golgi apparatus and are rich in hydrolytic enzymes (lipases, proteases, carbohydrases) that work best at acidic pH?",
+      "difficulty": "EASY",
+      "options": ["Peroxisomes", "Ribosomes", "Glyoxysomes", "Lysosomes"],
+      "answer": 3,
+      "explanation": "NCERT describes lysosomes as membrane-bound vesicles formed by packaging in the Golgi apparatus. They contain almost all types of hydrolases, which are most active at acidic pH. Ribosomes have no membrane at all. The answer is lysosomes."
+    },
+    {
+      "text": "In animal cells, lipid-like steroidal hormones are synthesised mainly in the:",
+      "difficulty": "EASY",
+      "options": ["Rough endoplasmic reticulum", "Smooth endoplasmic reticulum", "Golgi apparatus", "Nucleolus"],
+      "answer": 1,
+      "explanation": "RER has ribosomes on its surface and is active in protein synthesis and secretion. SER is the major site of lipid synthesis, and in animal cells it makes lipid-like steroidal hormones. The answer is smooth ER."
+    },
+    {
+      "text": "The smallest cells known, only about 0.3 μm in length, are those of:",
+      "difficulty": "EASY",
+      "options": ["Human red blood cells", "Bacteria", "Yeast", "Mycoplasmas"],
+      "answer": 3,
+      "explanation": "NCERT gives these sizes: Mycoplasma is about 0.3 μm, bacteria are 3–5 μm, and a human RBC is about 7 μm across. The ostrich egg is the largest isolated single cell. The smallest cells are therefore Mycoplasmas."
+    },
+    {
+      "text": "The nucleus as a cell organelle was first described by:",
+      "difficulty": "EASY",
+      "options": ["Robert Hooke", "Antonie van Leeuwenhoek", "Robert Brown", "Walther Flemming"],
+      "answer": 2,
+      "explanation": "Robert Brown described the nucleus in 1831. Later, Flemming named the material of the nucleus that stains with basic dyes 'chromatin'. Hooke saw dead cork cells and Leeuwenhoek first saw and described a live cell. The answer is Robert Brown."
+    },
+    {
+      "text": "According to NCERT, the membrane of the human erythrocyte (RBC) is made of approximately:",
+      "difficulty": "MEDIUM",
+      "options": ["52% protein and 40% lipids", "40% protein and 52% lipids", "75% lipids and 25% proteins", "52% carbohydrates and 40% lipids"],
+      "answer": 0,
+      "explanation": "Biochemical studies of the human RBC membrane show it is about 52% protein and 40% lipid. Proteins are slightly more than lipids, so the swapped figure (40% protein, 52% lipid) is the usual trap. The answer is 52% protein and 40% lipids."
+    },
+    {
+      "text": "Consider the following statements about ribosomes:\nI. Prokaryotic ribosomes are 70S and are made of 50S and 30S subunits.\nII. Eukaryotic cytoplasmic ribosomes are 80S and are made of 60S and 40S subunits.\nIII. The 'S' (Svedberg unit) directly measures the molecular mass of the ribosome.\nIV. Ribosomes are surrounded by a single unit membrane.\nWhich of the statements are correct?",
+      "difficulty": "MEDIUM",
+      "options": ["I and II only", "I, II and III only", "II and IV only", "I, II, III and IV"],
+      "answer": 0,
+      "explanation": "Statement I is correct: 50S + 30S form a 70S ribosome. Statement II is correct: 60S + 40S form an 80S ribosome. Statement III is wrong: S is the sedimentation coefficient, an indirect measure of density and size, which is why the values do not add up arithmetically. Statement IV is wrong: ribosomes have no membrane. So only I and II are correct."
+    },
+    {
+      "text": "Mesosomes are infoldings of the plasma membrane in bacterial cells. Which of the following is NOT a function of mesosomes?",
+      "difficulty": "MEDIUM",
+      "options": ["Helping in cell wall formation", "Helping in DNA replication and distribution to daughter cells", "Increasing the surface area and enzymatic content of the plasma membrane", "Synthesising ribosomal RNA in a nucleolus-like region"],
+      "answer": 3,
+      "explanation": "Mesosomes appear as vesicles, tubules or lamellae. They help in cell wall formation, DNA replication and distribution, respiration and secretion, and they increase membrane surface area and enzyme content. Prokaryotes have no nucleolus, and rRNA synthesis is not a mesosome function. The answer is the nucleolus-like rRNA option."
+    },
+    {
+      "text": "Which of the following statements about the Golgi apparatus is correct?",
+      "difficulty": "MEDIUM",
+      "options": ["Its cis and trans faces are entirely identical in structure and function", "It is an important site for the formation of glycoproteins and glycolipids", "Proteins modified in it are released from its cis (forming) face", "It is absent in plant cells"],
+      "answer": 1,
+      "explanation": "The cis (forming) face and the trans (maturing) face are entirely different, although they are interconnected. Materials enter at the cis face and leave from the trans face. The Golgi is present in plant cells too. NCERT calls it the important site of formation of glycoproteins and glycolipids, so that is the correct statement."
+    },
+    {
+      "text": "A chromosome whose centromere lies close to one end, forming one extremely short arm and one very long arm, is called:",
+      "difficulty": "MEDIUM",
+      "options": ["Metacentric", "Sub-metacentric", "Acrocentric", "Telocentric"],
+      "answer": 2,
+      "explanation": "A metacentric chromosome has its centromere in the middle and two equal arms. A sub-metacentric one has the centromere slightly off-centre, giving one shorter and one longer arm. An acrocentric one has it close to the end, giving one extremely short and one very long arm. A telocentric one has it at the very end. The answer is acrocentric."
+    },
+    {
+      "text": "The nucleolus, present in the nucleoplasm of an interphase nucleus, is best described as:",
+      "difficulty": "MEDIUM",
+      "options": ["A membrane-bound organelle that synthesises proteins", "A non-membrane-bound structure that is the site of active ribosomal RNA synthesis", "A double-membrane structure that stores ATP", "The disc-shaped structure where spindle fibres attach to chromosomes"],
+      "answer": 1,
+      "explanation": "The nucleolus is a spherical structure with no membrane, so its contents are continuous with the nucleoplasm. It is the site of active rRNA synthesis, and cells that make a lot of protein have larger and more numerous nucleoli. Spindle fibres attach at the kinetochore. The answer is the non-membrane-bound site of rRNA synthesis."
+    },
+    {
+      "text": "Match List I with List II:\nList I (Plastid): (a) Amyloplasts (b) Elaioplasts (c) Aleuroplasts (d) Chromoplasts\nList II (Content/role): (i) Store proteins (ii) Store oils and fats (iii) Store starch, e.g. in potato (iv) Contain fat-soluble carotenoid pigments\nChoose the correct option.",
+      "difficulty": "MEDIUM",
+      "options": ["a-ii, b-iii, c-i, d-iv", "a-iii, b-i, c-ii, d-iv", "a-i, b-ii, c-iii, d-iv", "a-iii, b-ii, c-i, d-iv"],
+      "answer": 3,
+      "explanation": "Amyloplasts are colourless leucoplasts that store starch, as in potato (a-iii). Elaioplasts store oils and fats (b-ii). Aleuroplasts store proteins (c-i). Chromoplasts hold fat-soluble carotenoids such as carotene and xanthophylls (d-iv). The correct match is a-iii, b-ii, c-i, d-iv."
+    },
+    {
+      "text": "Which of the following is NOT considered a part of the endomembrane system?",
+      "difficulty": "MEDIUM",
+      "options": ["Endoplasmic reticulum", "Lysosomes", "Mitochondria", "Vacuoles"],
+      "answer": 2,
+      "explanation": "The endomembrane system is the group of organelles whose functions are coordinated: ER, Golgi complex, lysosomes and vacuoles. The functions of mitochondria, chloroplasts and peroxisomes are not coordinated with these, so they are left out. The answer is mitochondria."
+    },
+    {
+      "text": "In bacteria, the outermost glycocalyx may be a loose sheath in some species and a thick, tough covering in others. These two forms are called, respectively:",
+      "difficulty": "MEDIUM",
+      "options": ["Slime layer and capsule", "Capsule and slime layer", "Cell wall and capsule", "Pellicle and slime layer"],
+      "answer": 0,
+      "explanation": "The bacterial cell envelope has three layers from outside in: glycocalyx, cell wall and plasma membrane. A loose glycocalyx sheath is called the slime layer. A thick, tough glycocalyx is called the capsule. So the order is slime layer, then capsule."
+    },
+    {
+      "text": "The middle lamella, which holds neighbouring plant cells together, is mainly made of:",
+      "difficulty": "MEDIUM",
+      "options": ["Cellulose", "Chitin", "Hemicellulose and lignin", "Calcium pectate"],
+      "answer": 3,
+      "explanation": "The primary wall of a young plant cell can grow, and the secondary wall forms on its inner side as the cell matures. The middle lamella is a layer made mainly of calcium pectate that glues neighbouring cells together. Plasmodesmata pass through the wall and middle lamella to connect the cytoplasm of neighbouring cells. The answer is calcium pectate."
+    },
+    {
+      "text": "Consider the following statements about mitochondria:\nI. Each mitochondrion is bounded by a double membrane, and the inner membrane forms infoldings called cristae.\nII. The matrix contains a single circular DNA molecule, a few RNA molecules and 70S ribosomes.\nIII. Mitochondria divide by fission.\nIV. Mitochondria are clearly visible under a light microscope without any specific staining.\nHow many of these statements are correct?",
+      "difficulty": "HARD",
+      "options": ["One", "Two", "Three", "Four"],
+      "answer": 2,
+      "explanation": "Statement I is correct: the outer and inner membranes are separate, and the inner one folds into cristae that increase surface area. Statement II is correct: the matrix holds circular DNA, a few RNAs and 70S ribosomes. Statement III is correct: mitochondria divide by fission. Statement IV is wrong: NCERT says mitochondria are not easily seen unless specifically stained. Three statements are correct."
+    },
+    {
+      "text": "Assertion (A): Neutral solutes may move across the plasma membrane by simple diffusion along the concentration gradient.\nReason (R): Polar molecules cannot pass through the non-polar lipid bilayer and need a carrier protein of the membrane for their transport.\nChoose the correct option.",
+      "difficulty": "HARD",
+      "options": ["Both A and R are true, and R is the correct explanation of A", "Both A and R are true, but R is not the correct explanation of A", "A is true, but R is false", "A is false, but R is true"],
+      "answer": 1,
+      "explanation": "A is true: neutral solutes cross the membrane by simple diffusion, from higher to lower concentration. R is also true: polar molecules cannot cross the non-polar bilayer without a carrier protein. However, R is about polar molecules and does not explain why neutral solutes diffuse freely. So both are true, but R is not the correct explanation of A."
+    },
+    {
+      "text": "Which of the following statements about prokaryotic cells is INCORRECT?",
+      "difficulty": "HARD",
+      "options": ["Their ribosomes are of the 80S type and lie free in the nucleoid", "Reserve material is stored as inclusion bodies such as phosphate granules, cyanophycean granules and glycogen granules", "Gas vacuoles are found in blue-green algae and in purple and green photosynthetic bacteria", "Plasmids are small circular DNA molecules outside the genomic DNA that can give resistance to antibiotics"],
+      "answer": 0,
+      "explanation": "Prokaryotic ribosomes are 70S (50S + 30S) and are associated with the plasma membrane, so the 80S statement is wrong. Inclusion bodies (phosphate, cyanophycean and glycogen granules) store reserve material and lie free in the cytoplasm. Gas vacuoles occur in blue-green algae and in purple and green photosynthetic bacteria. Plasmids can carry genes for antibiotic resistance. The incorrect statement is the first one."
+    },
+    {
+      "text": "Consider the following statements:\nI. The axoneme of a cilium has nine doublets of peripheral microtubules and a pair of central microtubules (9+2).\nII. A centriole has nine evenly spaced peripheral fibrils, each a doublet of tubulin.\nIII. The central tubules of the axoneme are joined by bridges and enclosed by a central sheath.\nIV. Centrioles form the basal bodies of cilia or flagella and give rise to spindle fibres in animal cells.\nWhich of the statements are correct?",
+      "difficulty": "HARD",
+      "options": ["I and II only", "I, III and IV only", "II, III and IV only", "I, II, III and IV"],
+      "answer": 1,
+      "explanation": "Statement I is correct: the axoneme has the 9+2 arrangement. Statement II is wrong: each peripheral fibril of a centriole is a triplet, not a doublet, arranged like a cartwheel. Statement III is correct: bridges join the central tubules, and a central sheath encloses them. Statement IV is correct: centrioles form basal bodies and, in animal cells, the spindle apparatus. The correct statements are I, III and IV."
+    }
+  ]
+}

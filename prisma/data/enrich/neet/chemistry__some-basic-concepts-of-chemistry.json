@@ -1,0 +1,161 @@
+{
+  "exam": "neet",
+  "subject": "chemistry",
+  "chapter": "some-basic-concepts-of-chemistry",
+  "notes": {
+    "summary": "This chapter covers the laws of chemical combination, Dalton's atomic theory, atomic and molecular masses, the mole concept, percentage composition, empirical and molecular formulas, stoichiometry with limiting reagents, and concentration terms. NEET usually sets one or two direct numericals here (mole conversions, limiting reagent, molarity or molality) that take under a minute if you think in moles.",
+    "keyPoints": [
+      "Mole: 1 mol = 6.022 × 10²³ entities (Avogadro constant, fixed exactly at 6.02214076 × 10²³ mol⁻¹). n = mass ÷ molar mass = number of particles ÷ N_A. Molar gas volume = 22.4 L at 273 K and 1 atm (22.7 L at 273.15 K and 1 bar).",
+      "1 u = 1/12 of the mass of one ¹²C atom = 1.66 × 10⁻²⁴ g. Average atomic mass = Σ(isotopic mass × fractional abundance), e.g. Cl = 35 × 0.75 + 37 × 0.25 = 35.5 u.",
+      "Laws: conservation of mass (Lavoisier); definite proportions (Proust: a compound always has the same composition by mass); multiple proportions (Dalton: O per 2 g H is 16 g in H₂O and 32 g in H₂O₂, ratio 1 : 2); Gay-Lussac's gaseous volumes (H₂ : O₂ : H₂O(g) = 2 : 1 : 2); Avogadro's law (equal volumes of gases at the same T and p contain equal numbers of molecules).",
+      "Empirical formula: mass % → divide by atomic mass → divide by the smallest value → round to whole numbers. Molecular formula = n × empirical formula, where n = molar mass ÷ empirical formula mass.",
+      "Limiting reagent: convert every reactant to moles and compare with the mole ratio in the balanced equation. The reactant used up first fixes the amount of product (0.5 mol N₂ + 3 mol H₂ gives only 1 mol NH₃; N₂ is limiting).",
+      "Concentration: molarity M = mol solute ÷ L of solution (changes with temperature); molality m = mol solute ÷ kg of solvent (does not change with temperature); mole fraction x_A = n_A ÷ (n_A + n_B); mass % = mass of solute ÷ mass of solution × 100.",
+      "Molarity from mass % and density: M = (10 × mass % × density in g mL⁻¹) ÷ molar mass. For 98% H₂SO₄ with d = 1.84 g mL⁻¹, M = 18.4 mol L⁻¹. Dilution: M₁V₁ = M₂V₂.",
+      "Significant figures: non-zero digits and zeros between them count; leading zeros do not; trailing zeros after a decimal point count (0.00340 has 3). In addition or subtraction keep the fewest decimal places; in multiplication or division keep the fewest significant figures.",
+      "Precision means repeated readings agree with each other; accuracy means they agree with the true value. Readings can be precise without being accurate."
+    ],
+    "traps": [
+      "Using the volume of solution (or grams instead of kilograms of solvent) for molality, or forgetting to convert mL to L for molarity.",
+      "Picking the reactant with the smaller mass as the limiting reagent instead of comparing mole ratios from the balanced equation.",
+      "Confusing atoms with molecules: 1 mol of O₂ contains 2 × 6.022 × 10²³ oxygen atoms.",
+      "Ignoring purity: only the pure fraction of an impure sample reacts.",
+      "In dilution problems, giving the final volume when the question asks for the volume of water to be added."
+    ],
+    "examTip": "Convert every given quantity to moles first and then use the mole ratio from the balanced equation; most numericals in this chapter then reduce to a single line."
+  },
+  "questions": [
+    {
+      "text": "Hydrogen and oxygen form two compounds, water (H₂O) and hydrogen peroxide (H₂O₂). For a fixed mass of 2 g of hydrogen, the masses of oxygen combined in these compounds are 16 g and 32 g respectively. This simple whole-number ratio (1 : 2) illustrates the:",
+      "difficulty": "EASY",
+      "options": [
+        "Law of definite proportions",
+        "Law of conservation of mass",
+        "Law of multiple proportions",
+        "Gay-Lussac's law of gaseous volumes"
+      ],
+      "answer": 2,
+      "explanation": "The law of multiple proportions (Dalton) says that when two elements form more than one compound, the masses of one element that combine with a fixed mass of the other are in a simple whole-number ratio.\nHere, oxygen per 2 g of hydrogen is 16 g : 32 g = 1 : 2.\nThe law of definite proportions deals with the fixed composition of a single compound, so it does not apply here.\nAnswer: law of multiple proportions."
+    },
+    {
+      "text": "Boron has two naturally occurring isotopes: ¹⁰B (atomic mass 10 u, abundance 20%) and ¹¹B (atomic mass 11 u, abundance 80%). The average atomic mass of boron is:",
+      "difficulty": "EASY",
+      "options": [
+        "10.8 u",
+        "10.5 u",
+        "10.2 u",
+        "11.0 u"
+      ],
+      "answer": 0,
+      "explanation": "Average atomic mass = Σ(isotopic mass × fractional abundance).\n= 10 × 0.20 + 11 × 0.80 = 2.0 + 8.8 = 10.8 u.\nSwapping the abundances gives the wrong value 10.2 u, and a simple average gives 10.5 u.\nAnswer: 10.8 u."
+    },
+    {
+      "text": "According to Gay-Lussac's law of gaseous volumes, what volume of oxygen, measured at the same temperature and pressure, is needed for the complete combustion of 2 L of propane (C₃H₈) gas?",
+      "difficulty": "EASY",
+      "options": [
+        "2 L",
+        "5 L",
+        "6 L",
+        "10 L"
+      ],
+      "answer": 3,
+      "explanation": "Balanced equation: C₃H₈(g) + 5O₂(g) → 3CO₂(g) + 4H₂O(l).\nFor gases at the same T and p, volume ratio = mole ratio, so C₃H₈ : O₂ = 1 : 5.\nO₂ needed = 2 L × 5 = 10 L.\nAnswer: 10 L."
+    },
+    {
+      "text": "6 g of urea (NH₂CONH₂, molar mass 60 g mol⁻¹) is dissolved in 250 g of water. The molality of the solution is:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "0.1 mol kg⁻¹",
+        "0.4 mol kg⁻¹",
+        "0.024 mol kg⁻¹",
+        "4.0 mol kg⁻¹"
+      ],
+      "answer": 1,
+      "explanation": "Moles of urea = 6 g ÷ 60 g mol⁻¹ = 0.1 mol.\nMass of solvent = 250 g = 0.250 kg.\nMolality = mol of solute ÷ kg of solvent = 0.1 ÷ 0.250 = 0.4 mol kg⁻¹.\nAnswer: 0.4 mol kg⁻¹."
+    },
+    {
+      "text": "14 g of N₂ is mixed with 6 g of H₂ and allowed to react completely according to N₂(g) + 3H₂(g) → 2NH₃(g). Which statement is correct? (N = 14, H = 1)",
+      "difficulty": "MEDIUM",
+      "options": [
+        "N₂ is the limiting reagent and 17 g of NH₃ is formed",
+        "H₂ is the limiting reagent and 34 g of NH₃ is formed",
+        "H₂ is the limiting reagent and 17 g of NH₃ is formed",
+        "N₂ is the limiting reagent and 34 g of NH₃ is formed"
+      ],
+      "answer": 0,
+      "explanation": "Moles of N₂ = 14 ÷ 28 = 0.5 mol; moles of H₂ = 6 ÷ 2 = 3 mol.\n0.5 mol N₂ needs 3 × 0.5 = 1.5 mol H₂. Since 3 mol H₂ is available, H₂ is in excess and N₂ is limiting.\nNH₃ formed = 2 × 0.5 = 1 mol = 17 g (1.5 mol, i.e. 3 g, of H₂ is left over).\nAnswer: N₂ is limiting and 17 g of NH₃ is formed."
+    },
+    {
+      "text": "On strong heating, calcium carbonate decomposes as CaCO₃(s) → CaO(s) + CO₂(g). What mass of CaO is obtained by heating 25 g of a limestone sample that is 80% pure CaCO₃ by mass? (The impurities do not decompose; Ca = 40, C = 12, O = 16)",
+      "difficulty": "MEDIUM",
+      "options": [
+        "14.0 g",
+        "20.0 g",
+        "11.2 g",
+        "8.8 g"
+      ],
+      "answer": 2,
+      "explanation": "Mass of pure CaCO₃ = 0.80 × 25 g = 20 g.\nMolar mass of CaCO₃ = 100 g mol⁻¹, so moles = 20 ÷ 100 = 0.20 mol.\nCaCO₃ : CaO = 1 : 1, so CaO formed = 0.20 mol × 56 g mol⁻¹ = 11.2 g.\nTaking the sample as 100% pure gives 14.0 g, and 8.8 g is the mass of CO₂ released.\nAnswer: 11.2 g."
+    },
+    {
+      "text": "What volume of water must be added to 100 mL of 0.5 M NaCl solution to dilute it to 0.2 M? (Assume volumes are additive.)",
+      "difficulty": "MEDIUM",
+      "options": [
+        "250 mL",
+        "150 mL",
+        "40 mL",
+        "60 mL"
+      ],
+      "answer": 1,
+      "explanation": "Dilution keeps the moles of solute constant: M₁V₁ = M₂V₂.\n0.5 × 100 = 0.2 × V₂, so V₂ = 250 mL (final volume).\nWater to be added = 250 − 100 = 150 mL.\nAnswer: 150 mL."
+    },
+    {
+      "text": "The true mass of a sample is 2.00 g. Three students weigh it twice each:\nStudent P: 1.95 g and 1.93 g\nStudent Q: 1.94 g and 2.05 g\nStudent R: 2.01 g and 1.99 g\nWhich statement is correct?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "P's results are accurate but not precise",
+        "Q's results are both precise and accurate",
+        "R's results are precise but not accurate",
+        "P's results are precise but not accurate, while R's results are both precise and accurate"
+      ],
+      "answer": 3,
+      "explanation": "Precision means the readings agree with each other; accuracy means they agree with the true value.\nP: 1.95 and 1.93 differ by only 0.02 g (precise), but both are well below 2.00 g (not accurate).\nQ: 1.94 and 2.05 differ by 0.11 g and each is off from 2.00 g, so Q is neither precise nor accurate.\nR: 2.01 and 1.99 agree closely and centre on 2.00 g, so R is both precise and accurate.\nAnswer: P precise but not accurate; R precise and accurate."
+    },
+    {
+      "text": "Assertion (A): At the same temperature and pressure, 2 g of H₂ gas occupies a smaller volume than 32 g of O₂ gas.\nReason (R): Equal volumes of all gases at the same temperature and pressure contain equal numbers of molecules.",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true, and R is the correct explanation of A",
+        "Both Assertion (A) and Reason (R) are true, but R is not the correct explanation of A",
+        "Assertion (A) is true, but Reason (R) is false",
+        "Assertion (A) is false, but Reason (R) is true"
+      ],
+      "answer": 3,
+      "explanation": "2 g of H₂ = 2 ÷ 2 = 1 mol; 32 g of O₂ = 32 ÷ 32 = 1 mol.\nEqual numbers of moles of gases at the same T and p occupy equal volumes, so both occupy the same volume and A is false.\nR is Avogadro's law, which is true.\nAnswer: A is false, but R is true."
+    },
+    {
+      "text": "A gaseous hydrocarbon on complete combustion gives 0.88 g of CO₂ and 0.54 g of H₂O. Its molar mass is 30 g mol⁻¹. The molecular formula of the hydrocarbon is: (C = 12, H = 1, O = 16)",
+      "difficulty": "HARD",
+      "options": [
+        "C₂H₆",
+        "CH₃",
+        "C₂H₄",
+        "C₃H₈"
+      ],
+      "answer": 0,
+      "explanation": "Moles of CO₂ = 0.88 ÷ 44 = 0.02 mol, so C = 0.02 mol.\nMoles of H₂O = 0.54 ÷ 18 = 0.03 mol, so H = 2 × 0.03 = 0.06 mol.\nC : H = 0.02 : 0.06 = 1 : 3, so the empirical formula is CH₃ (formula mass 15).\nn = 30 ÷ 15 = 2, so the molecular formula is C₂H₆.\nAnswer: C₂H₆."
+    },
+    {
+      "text": "Concentrated sulphuric acid is 98% H₂SO₄ by mass and has a density of 1.84 g mL⁻¹. The molarity of this acid is: (molar mass of H₂SO₄ = 98 g mol⁻¹)",
+      "difficulty": "HARD",
+      "options": [
+        "9.2 M",
+        "18.4 M",
+        "10.0 M",
+        "36.8 M"
+      ],
+      "answer": 1,
+      "explanation": "Take 1 L (1000 mL) of the acid: mass = 1000 mL × 1.84 g mL⁻¹ = 1840 g.\nMass of H₂SO₄ in it = 0.98 × 1840 = 1803.2 g.\nMoles of H₂SO₄ = 1803.2 ÷ 98 = 18.4 mol in 1 L.\nShortcut: M = (10 × 98 × 1.84) ÷ 98 = 18.4. (36.8 would be the normality, since H₂SO₄ is dibasic.)\nAnswer: 18.4 M."
+    }
+  ]
+}

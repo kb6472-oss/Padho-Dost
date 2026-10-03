@@ -1,0 +1,106 @@
+{
+  "exam": "ssc-cgl",
+  "subject": "english-language",
+  "chapter": "error-spotting",
+  "notes": {
+    "summary": "Error spotting gives a sentence divided into parts (a), (b), (c) and asks which part contains a grammatical or usage error, with 'No error' as the last option. SSC CGL builds these around a fixed set of rules (subject-verb agreement, nouns, pronouns, adjectives and adverbs, prepositions, conjunctions, comparisons, tenses and redundancy), so naming the rule being tested is the fastest route to the answer.",
+    "keyPoints": [
+      "'The number of' + plural noun takes a singular verb (The number of cars is rising); 'A number of' takes a plural verb (A number of cars are parked outside).",
+      "'One of' + plural noun + singular verb: One of my friends is a doctor. Two nouns joined by 'and' that name one idea or one thing take a singular verb: Bread and butter is..., Slow and steady wins the race.",
+      "Collective nouns take a singular verb when the group acts as one unit (The jury has given its verdict) and a plural verb when the members act separately (The jury were divided in their opinions). Cattle, police, people and poultry are always plural.",
+      "Linking verbs (look, seem, feel, smell, taste, sound, appear) are followed by adjectives, not adverbs: The food tastes good; The rose smells sweet.",
+      "Conjunction pairs: scarcely/hardly...when; no sooner...than. 'Unless' and 'lest' already contain a negative, so never add another 'not' (Unless you work hard..., ...lest you should fall).",
+      "'Prefer' takes 'to', not 'than' (I prefer tea to coffee); 'despite' never takes 'of' (despite the rain = in spite of the rain).",
+      "Compare like with like: The climate of Shimla is cooler than that of Delhi (not 'than Delhi'); use 'those of' for plurals.",
+      "Common redundancies to remove: return back, repeat again, discuss about, revert back, reply back, cousin brother.",
+      "Method: read the full sentence, find the real subject of every verb, then test each part for the rule it could be breaking; choose 'No error' only after all parts pass."
+    ],
+    "traps": [
+      "Marking 'No error' too quickly when the error is a small extra or missing word such as 'of', 'not' or 'that of'.",
+      "Matching the verb with the nearest noun instead of the true subject (The number of applicants ... is increasing).",
+      "'Correcting' a plural verb with a collective noun that clearly acts as separate members; 'The committee were divided in their opinions' is correct.",
+      "Changing an adjective after a linking verb into an adverb (smells sweetly, feels badly are wrong).",
+      "Treating every subject joined by 'and' as plural; a single idea such as 'bread and butter' takes a singular verb."
+    ],
+    "examTip": "Find the main subject and main verb before anything else, because agreement errors are among the most frequent in SSC papers and this check takes only a few seconds."
+  },
+  "questions": [
+    {
+      "text": "Identify the segment in the sentence which contains a grammatical error. If there is no error, select 'No error'.\n(a) One of my friend /\n(b) has gone to Delhi /\n(c) for higher studies.",
+      "difficulty": "EASY",
+      "options": ["(a)", "(b)", "(c)", "No error"],
+      "answer": 0,
+      "explanation": "The structure 'one of' always takes a plural noun, because it picks one out of many.\nSo 'one of my friend' should be 'one of my friends'.\nThe verb 'has gone' is correct, as it agrees with the singular subject 'one'.\nThe error is in part (a)."
+    },
+    {
+      "text": "Identify the segment in the sentence which contains a grammatical error. If there is no error, select 'No error'.\n(a) The cattle /\n(b) is grazing /\n(c) in the open field.",
+      "difficulty": "EASY",
+      "options": ["(a)", "(b)", "(c)", "No error"],
+      "answer": 1,
+      "explanation": "'Cattle' looks singular but is always used as a plural noun.\nA plural subject needs a plural verb, so 'is grazing' should be 'are grazing'.\nParts (a) and (c) are correct.\nThe error is in part (b)."
+    },
+    {
+      "text": "Identify the segment in the sentence which contains a grammatical error. If there is no error, select 'No error'.\n(a) Despite of /\n(b) the heavy rain, /\n(c) the match continued as planned.",
+      "difficulty": "EASY",
+      "options": ["(a)", "(b)", "(c)", "No error"],
+      "answer": 0,
+      "explanation": "'Despite' is a preposition by itself and is never followed by 'of'.\nThe correct forms are 'despite the heavy rain' or 'in spite of the heavy rain'.\nThe rest of the sentence is correct.\nThe error is in part (a)."
+    },
+    {
+      "text": "Identify the segment in the sentence which contains a grammatical error. If there is no error, select 'No error'.\n(a) Most children prefer /\n(b) sweets than vegetables /\n(c) at every meal.",
+      "difficulty": "MEDIUM",
+      "options": ["(a)", "(b)", "(c)", "No error"],
+      "answer": 1,
+      "explanation": "The verb 'prefer' is followed by 'to', not 'than': prefer A to B.\nSo 'sweets than vegetables' should be 'sweets to vegetables'.\n'Than' is used with comparatives such as 'rather than' or 'more than', not with prefer.\nThe error is in part (b)."
+    },
+    {
+      "text": "Identify the segment in the sentence which contains a grammatical error. If there is no error, select 'No error'.\n(a) Unless you do not work /\n(b) hard and regularly, /\n(c) you will not clear the exam.",
+      "difficulty": "MEDIUM",
+      "options": ["(a)", "(b)", "(c)", "No error"],
+      "answer": 0,
+      "explanation": "'Unless' already means 'if not', so adding 'do not' creates a double negative.\nThe correct form is 'Unless you work hard and regularly, you will not clear the exam.'\nThe 'not' in part (c) is correct, because it belongs to the main clause.\nThe error is in part (a)."
+    },
+    {
+      "text": "Identify the segment in the sentence which contains a grammatical error. If there is no error, select 'No error'.\n(a) Scarcely had he /\n(b) entered the hall /\n(c) than the lights went out.",
+      "difficulty": "MEDIUM",
+      "options": ["(a)", "(b)", "(c)", "No error"],
+      "answer": 2,
+      "explanation": "'Scarcely' and 'hardly' are paired with 'when', not 'than'.\n'Than' is used only with 'no sooner'.\nSo part (c) should read 'when the lights went out'.\nThe inversion 'Scarcely had he' in part (a) is correct, so the error is in part (c)."
+    },
+    {
+      "text": "Identify the segment in the sentence which contains a grammatical error. If there is no error, select 'No error'.\n(a) The flowers in the garden /\n(b) smell very sweetly /\n(c) after the evening rain.",
+      "difficulty": "MEDIUM",
+      "options": ["(a)", "(b)", "(c)", "No error"],
+      "answer": 1,
+      "explanation": "Here 'smell' is a linking verb: it describes the flowers, not the way they perform an action.\nLinking verbs are followed by an adjective, not an adverb.\nSo 'smell very sweetly' should be 'smell very sweet'.\nThe error is in part (b)."
+    },
+    {
+      "text": "Identify the segment in the sentence which contains a grammatical error. If there is no error, select 'No error'.\n(a) The number of applicants /\n(b) for government jobs /\n(c) are increasing every year.",
+      "difficulty": "MEDIUM",
+      "options": ["(a)", "(b)", "(c)", "No error"],
+      "answer": 2,
+      "explanation": "The real subject is 'The number', which is singular; 'applicants' and 'jobs' are only part of the phrases that follow.\n'The number of' takes a singular verb, while 'A number of' takes a plural verb.\nSo 'are increasing' should be 'is increasing'.\nThe error is in part (c)."
+    },
+    {
+      "text": "Identify the segment in the sentence which contains a grammatical error. If there is no error, select 'No error'.\n(a) Bread and butter /\n(b) is my /\n(c) favourite breakfast.",
+      "difficulty": "MEDIUM",
+      "options": ["(a)", "(b)", "(c)", "No error"],
+      "answer": 3,
+      "explanation": "Two nouns joined by 'and' normally take a plural verb.\nBut when they together name a single thing or idea, the verb is singular.\n'Bread and butter' here is one dish, so 'is' is correct, and the rest of the sentence is also correct.\nThe answer is No error."
+    },
+    {
+      "text": "Identify the segment in the sentence which contains a grammatical error. If there is no error, select 'No error'.\n(a) The salary of a teacher /\n(b) is much higher /\n(c) than a clerk in this city.",
+      "difficulty": "HARD",
+      "options": ["(a)", "(b)", "(c)", "No error"],
+      "answer": 2,
+      "explanation": "A comparison must be between similar things: the salary of a teacher must be compared with the salary of a clerk.\nAs written, the sentence compares a salary with a clerk (a person).\nTo avoid repeating 'salary', we use 'that of': 'than that of a clerk in this city'.\nThe error is in part (c)."
+    },
+    {
+      "text": "Identify the segment in the sentence which contains a grammatical error. If there is no error, select 'No error'.\n(a) The committee /\n(b) were divided /\n(c) in their opinions on the new policy.",
+      "difficulty": "HARD",
+      "options": ["(a)", "(b)", "(c)", "No error"],
+      "answer": 3,
+      "explanation": "A collective noun takes a singular verb when the group acts as one unit (The committee has approved the policy).\nIt takes a plural verb when the members act or think separately.\nBeing 'divided in their opinions' means the members disagree individually, so 'were' and 'their' are both correct.\nThe answer is No error."
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "exam": "ssc-cgl",
+  "subject": "general-intelligence-reasoning",
+  "chapter": "coding-decoding",
+  "notes": {
+    "summary": "Coding-Decoding tests whether you can work out the rule a 'code language' uses to change letters, numbers or words, and then apply it to a new word. SSC CGL usually sets 2-3 questions per paper. Most are letter shifts, opposite letters, reversals, position-value codes and sentence (common-word) codes.",
+    "keyPoints": [
+      "Learn letter positions using EJOTY as anchors: E = 5, J = 10, O = 15, T = 20, Y = 25. Then R = 18 and W = 23 come instantly.",
+      "Reverse position = 27 − normal position: A = 26, M = 14, Z = 1.",
+      "Opposite letter pairs add up to 27: A-Z, B-Y, C-X, D-W, E-V, F-U, G-T, H-S, I-R, J-Q, K-P, L-O, M-N.",
+      "Write the shift under each letter of the example (+1, +2, +3, +4 or +1, −1, +1, −1). The pattern is in the shifts, not in the letters.",
+      "Wrap around after Z: Z + 1 = A, A − 1 = Z, and W + 6 = C (23 + 6 = 29, 29 − 26 = 3).",
+      "Structural codes: the whole word reversed, each half reversed (MOTHER → TOMREH), adjacent pairs swapped (PRINTER → RPNIETR), or the first and last letters swapped with the inner letters changed.",
+      "Number codes can be the sum of positions (CAT = 24), the product (CAT = 60), squares (ACE = 1-9-25), or sum × number of letters (PEN = 35 × 3 = 105).",
+      "Sentence coding: compare two sentences. The word they share has the code they share. Use a third sentence to pin down the word that is left.",
+      "Substitution codes ('water is called air'): the answer is the code word for the real answer, not the real word itself."
+    ],
+    "traps": [
+      "Checking the rule on only the first one or two letters. Always verify it on every letter of the example.",
+      "Forgetting to wrap around, for example writing A − 1 as anything other than Z.",
+      "In substitution questions, answering with the real-world word (water) instead of its code name (air).",
+      "Mixing up sum and product in number codes: DOG is 26 by sum but 420 by product."
+    ],
+    "examTip": "Write the positions of the example word and its code side by side and look at the differences. Most SSC codes show their rule within 20 seconds this way."
+  },
+  "questions": [
+    {
+      "text": "In a certain code language, GOLD is written as TLOW. How will SILK be written in that language?",
+      "difficulty": "EASY",
+      "options": ["TJMN", "HROP", "HRPO", "GROP"],
+      "answer": 1,
+      "explanation": "Each letter is replaced by its opposite letter (the two positions add up to 27): G(7) → T(20), O(15) → L(12), L(12) → O(15), D(4) → W(23).\nSILK: S(19) → H(8), I(9) → R(18), L(12) → O(15), K(11) → P(16).\nSo SILK is written as HROP."
+    },
+    {
+      "text": "In a certain code language, PENCIL is written as ODMBHK. How will ERASER be written in that language?",
+      "difficulty": "EASY",
+      "options": ["DQARDQ", "FSBTFS", "DQZRDQ", "DRZRDQ"],
+      "answer": 2,
+      "explanation": "Each letter moves one place back: P → O, E → D, N → M, C → B, I → H, L → K.\nERASER: E → D, R → Q, A → Z (wrap around), S → R, E → D, R → Q.\nSo ERASER is written as DQZRDQ."
+    },
+    {
+      "text": "In a certain code language, TABLE is written as ELBAT. How will CHAIR be written in that language?",
+      "difficulty": "EASY",
+      "options": ["RIACH", "RAIHC", "CRIAH", "RIAHC"],
+      "answer": 3,
+      "explanation": "The letters are written in reverse order: T-A-B-L-E becomes E-L-B-A-T.\nCHAIR reversed is R-I-A-H-C.\nSo CHAIR is written as RIAHC."
+    },
+    {
+      "text": "In a certain code, BAD is written as 7 and FED is written as 15. How will CAGE be written in that code?",
+      "difficulty": "EASY",
+      "options": ["16", "14", "15", "17"],
+      "answer": 0,
+      "explanation": "The code is the sum of the letter positions: BAD = 2 + 1 + 4 = 7 and FED = 6 + 5 + 4 = 15.\nCAGE = 3 + 1 + 7 + 5 = 16."
+    },
+    {
+      "text": "If 'sky' is called 'sea', 'sea' is called 'water', 'water' is called 'air' and 'air' is called 'cloud', then where do fish live?",
+      "difficulty": "EASY",
+      "options": ["water", "air", "sea", "cloud"],
+      "answer": 1,
+      "explanation": "In reality, fish live in water.\nIn this code, 'water' is called 'air'.\nSo the answer is 'air'."
+    },
+    {
+      "text": "In a certain code, GIVE is written as 5137 and BAT is written as 924. How will GATE be written in that code?",
+      "difficulty": "EASY",
+      "options": ["5427", "5274", "5247", "2547"],
+      "answer": 2,
+      "explanation": "Match the letters to the digits in order: G = 5, I = 1, V = 3, E = 7 (from GIVE) and B = 9, A = 2, T = 4 (from BAT).\nGATE = G, A, T, E = 5, 2, 4, 7.\nSo GATE is written as 5247."
+    },
+    {
+      "text": "In a certain code language, MOTHER is written as TOMREH. How will FATHER be written in that language?",
+      "difficulty": "MEDIUM",
+      "options": ["REHTAF", "TAFHER", "RAFTEH", "TAFREH"],
+      "answer": 3,
+      "explanation": "Split the word into two halves and reverse each half: MOT | HER → TOM | REH.\nFATHER: FAT | HER → TAF | REH.\nSo FATHER is written as TAFREH."
+    },
+    {
+      "text": "In a certain code language, WATER is written as XZUDS. How will RIVER be written in that language?",
+      "difficulty": "MEDIUM",
+      "options": ["SHWDS", "SJWFS", "QHUDQ", "SHWFS"],
+      "answer": 0,
+      "explanation": "The shifts alternate +1, −1: W + 1 = X, A − 1 = Z, T + 1 = U, E − 1 = D, R + 1 = S.\nRIVER: R + 1 = S, I − 1 = H, V + 1 = W, E − 1 = D, R + 1 = S.\nSo RIVER is written as SHWDS."
+    },
+    {
+      "text": "In a certain code language:\n'pin ta lo' means 'sweet hot tea'\n'ta mu pin' means 'cold sweet tea'\n'lo zu mu' means 'hot cold coffee'\nWhat is the code for 'coffee'?",
+      "difficulty": "MEDIUM",
+      "options": ["mu", "zu", "lo", "ta"],
+      "answer": 1,
+      "explanation": "Sentences 1 and 3 share only the word 'hot' and only the code 'lo', so lo = hot.\nSentences 2 and 3 share only the word 'cold' and only the code 'mu', so mu = cold.\nIn sentence 3, the remaining word 'coffee' must have the remaining code.\nSo coffee = zu."
+    },
+    {
+      "text": "In a certain code, CAT is written as 60 and BAG is written as 14. How will DOG be written in that code?",
+      "difficulty": "MEDIUM",
+      "options": ["26", "400", "420", "440"],
+      "answer": 2,
+      "explanation": "The code is the product of the letter positions: CAT = 3 × 1 × 20 = 60 and BAG = 2 × 1 × 7 = 14.\nDOG = 4 × 15 × 7 = 60 × 7 = 420.\n(26 is the sum of the positions, a common slip.)"
+    },
+    {
+      "text": "In a certain code, CAB is written as 24-26-25. How will FADE be written in that code?",
+      "difficulty": "MEDIUM",
+      "options": ["6-1-4-5", "20-26-23-22", "21-26-22-23", "21-26-23-22"],
+      "answer": 3,
+      "explanation": "Each letter is coded by its position counted from Z (reverse position = 27 − normal position): C = 27 − 3 = 24, A = 26, B = 25.\nFADE: F = 27 − 6 = 21, A = 26, D = 27 − 4 = 23, E = 27 − 5 = 22.\nSo FADE is written as 21-26-23-22."
+    },
+    {
+      "text": "In a certain code, ACE is written as 1-9-25. How will BIG be written in that code?",
+      "difficulty": "MEDIUM",
+      "options": ["4-81-49", "2-9-7", "4-18-14", "4-81-36"],
+      "answer": 0,
+      "explanation": "Each letter is coded as the square of its position: A = 1² = 1, C = 3² = 9, E = 5² = 25.\nBIG: B = 2² = 4, I = 9² = 81, G = 7² = 49.\nSo BIG is written as 4-81-49."
+    },
+    {
+      "text": "In a certain code language, PRINTER is written as RPNIETR. How will MONITOR be written in that language?",
+      "difficulty": "MEDIUM",
+      "options": ["OMNIOTR", "OMINOTR", "ROTINOM", "OMINTOR"],
+      "answer": 1,
+      "explanation": "The letters are swapped in adjacent pairs, and the last letter of an odd-length word stays where it is: PR → RP, IN → NI, TE → ET, R stays.\nMONITOR: MO → OM, NI → IN, TO → OT, R stays.\nSo MONITOR is written as OMINOTR."
+    },
+    {
+      "text": "In a certain code language, LAMP is written as QNBM. How will DESK be written in that language?",
+      "difficulty": "MEDIUM",
+      "options": ["EFTL", "KRDC", "LTFE", "LTEF"],
+      "answer": 2,
+      "explanation": "Step 1: move each letter one place forward, so LAMP → MBNQ.\nStep 2: reverse the result, so MBNQ → QNBM.\nDESK → EFTL (each letter +1) → reversed, LTFE.\nSo DESK is written as LTFE."
+    },
+    {
+      "text": "In a certain code language, DOG is written as TLW. How will CAT be written in that language?",
+      "difficulty": "MEDIUM",
+      "options": ["XZG", "DBU", "GXZ", "GZX"],
+      "answer": 3,
+      "explanation": "Step 1: replace each letter by its opposite letter: D → W, O → L, G → T, giving WLT.\nStep 2: reverse it: WLT → TLW.\nCAT: C → X, A → Z, T → G, giving XZG, which reversed is GZX.\nSo CAT is written as GZX."
+    },
+    {
+      "text": "In a certain code language:\n'134' means 'good and tasty'\n'478' means 'see good pictures'\n'729' means 'pictures are faint'\nWhich digit stands for 'see'?",
+      "difficulty": "MEDIUM",
+      "options": ["8", "4", "7", "9"],
+      "answer": 0,
+      "explanation": "Statements 1 and 2 share only the word 'good' and only the digit 4, so 4 = good.\nStatements 2 and 3 share only the word 'pictures' and only the digit 7, so 7 = pictures.\nIn statement 2, '478' = 'see good pictures', so the remaining digit 8 = see."
+    },
+    {
+      "text": "In a certain code, PEN is written as 105 and INK is written as 102. How will BOOK be written in that code?",
+      "difficulty": "HARD",
+      "options": ["129", "172", "43", "168"],
+      "answer": 1,
+      "explanation": "PEN: 16 + 5 + 14 = 35, and 35 × 3 (the number of letters) = 105.\nINK: 9 + 14 + 11 = 34, and 34 × 3 = 102.\nSo code = (sum of positions) × (number of letters).\nBOOK: 2 + 15 + 15 + 11 = 43, and 43 × 4 = 172."
+    },
+    {
+      "text": "In a certain code language, GARDEN is written as FBQCFM. How will MOBILE be written in that language?",
+      "difficulty": "HARD",
+      "options": ["NPCJMF", "LNAHKD", "LPAJKF", "LPAJKD"],
+      "answer": 2,
+      "explanation": "Consonants move one place back and vowels move one place forward: G → F, A → B, R → Q, D → C, E → F, N → M.\nMOBILE: M (consonant) → L, O (vowel) → P, B → A, I (vowel) → J, L → K, E (vowel) → F.\nSo MOBILE is written as LPAJKF."
+    },
+    {
+      "text": "In a certain code language, KEYBOARD is written as DSBPCZFK. How will DISTANCE be written in that language?",
+      "difficulty": "HARD",
+      "options": ["EJTUBODD", "DOBUTJED", "EDOBTUJD", "EDOBUTJD"],
+      "answer": 3,
+      "explanation": "The first and last letters swap places (K ... D becomes D ... K).\nThe six inner letters E Y B O A R each move +1 (F Z C P B S) and are then written in reverse order (S B P C Z F).\nDISTANCE: the first letter D and last letter E swap, giving E ... D.\nInner letters I S T A N C → +1 → J T U B O D → reversed → D O B U T J.\nSo DISTANCE is written as EDOBUTJD."
+    },
+    {
+      "text": "In a certain code language, MIRROR is written as NKUVTX. How will WINDOW be written in that language?",
+      "difficulty": "HARD",
+      "options": ["XKQHTC", "XKQHTD", "XJOEPX", "XKPHTC"],
+      "answer": 0,
+      "explanation": "The shift grows by one with each letter: M + 1 = N, I + 2 = K, R + 3 = U, R + 4 = V, O + 5 = T, R + 6 = X.\nWINDOW: W + 1 = X, I + 2 = K, N + 3 = Q, D + 4 = H, O + 5 = T, W + 6 = C (23 + 6 = 29, and 29 − 26 = 3 = C).\nSo WINDOW is written as XKQHTC."
+    }
+  ]
+}

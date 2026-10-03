@@ -423,7 +423,7 @@ export default async function ResultPage({ params }: Props) {
                 </div>
               </div>
 
-              <p className="mt-2 text-sm font-medium leading-relaxed text-foreground">{q.text}</p>
+              <p className="whitespace-pre-line mt-2 text-sm font-medium leading-relaxed text-foreground">{q.text}</p>
 
               <div className="mt-3 space-y-2">
                 {q.options.map((o, oi) => {
@@ -448,7 +448,7 @@ export default async function ResultPage({ params }: Props) {
               {q.explanation && (
                 <div className="mt-3 rounded-xl bg-brand-50 p-3.5">
                   <p className="text-xs font-semibold text-brand-700">💡 Solution</p>
-                  <p className="mt-1 text-sm leading-relaxed text-brand-900">{q.explanation}</p>
+                  <p className="mt-1 whitespace-pre-line text-sm leading-relaxed text-brand-900">{q.explanation}</p>
                 </div>
               )}
             </div>

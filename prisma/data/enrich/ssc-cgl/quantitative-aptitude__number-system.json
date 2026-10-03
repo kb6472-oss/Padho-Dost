@@ -1,0 +1,107 @@
+{
+  "exam": "ssc-cgl",
+  "subject": "quantitative-aptitude",
+  "chapter": "number-system",
+  "notes": {
+    "summary": "Number System covers types of numbers, place value, divisibility rules, HCF and LCM, remainders, unit digits, factors and recurring decimals. SSC CGL asks 2-3 questions from it in every paper, mainly on remainders, unit digits, divisibility and HCF/LCM applications.",
+    "keyPoints": [
+      "Divisibility by 11: (sum of digits at odd places from the right) − (sum at even places) must be 0 or a multiple of 11. 737561 → (1 + 5 + 3) − (6 + 7 + 7) = −11, so it is divisible. By 8: the last three digits must be divisible by 8.",
+      "Unit digits repeat in cycles of 4: 2 → 2, 4, 8, 6; 3 → 3, 9, 7, 1; 7 → 7, 9, 3, 1; 8 → 8, 4, 2, 6. Digits 0, 1, 5, 6 never change; 4 and 9 cycle in 2. Divide the power by 4 and use the remainder (remainder 0 means the 4th term).",
+      "Write N as a product of prime powers. Number of factors = product of (each power + 1); sum of factors = product of (1 + p + p² + ...) for each prime. 360 = 2³ × 3² × 5 → 4 × 3 × 2 = 24 factors, sum = 15 × 13 × 6 = 1170.",
+      "Greatest number that divides x and y leaving remainders r1 and r2 = HCF of (x − r1) and (y − r2).",
+      "Least number leaving the same remainder r when divided by several numbers = LCM × k + r; choose the smallest k that meets any extra condition.",
+      "If N leaves remainder r when divided by d, and m is a factor of d, then N leaves the same remainder as r does when divided by m (342 = 18 × 19, so remainder 47 by 342 → 47 ÷ 18 → 11).",
+      "aⁿ + bⁿ is divisible by (a + b) when n is odd; aⁿ − bⁿ is always divisible by (a − b), and also by (a + b) when n is even.",
+      "HCF of fractions = HCF of numerators/LCM of denominators; LCM of fractions = LCM of numerators/HCF of denominators.",
+      "Recurring decimals: 0.aaa... = a/9 and 0.ababab... = ab/99. 0.4545... = 45/99 = 5/11.",
+      "Place value depends on position, face value is the digit itself. In 857326 the digit 7 has place value 7000 and face value 7."
+    ],
+    "traps": [
+      "Treating remainder 0 in a unit-digit cycle as the 1st term instead of the 4th.",
+      "Mixing up HCF and LCM: 'greatest number that divides' needs HCF, 'least number divisible by' needs LCM.",
+      "Calling 1 a prime number; it is neither prime nor composite, and 2 is the only even prime.",
+      "For the LCM of fractions, taking the LCM of the denominators instead of their HCF.",
+      "Forgetting to subtract the given remainders before finding the HCF."
+    ],
+    "examTip": "In remainder and divisibility questions, test the options directly when the algebra looks long; most wrong options fail a quick divisibility check."
+  },
+  "questions": [
+    {
+      "text": "Which fraction is equal to the recurring decimal 0.454545... (45 repeating)?",
+      "difficulty": "EASY",
+      "options": ["9/20", "5/11", "45/100", "4/9"],
+      "answer": 1,
+      "explanation": "For two repeating digits, 0.ababab... = ab/99.\n0.4545... = 45/99.\nDividing numerator and denominator by 9: 45/99 = 5/11."
+    },
+    {
+      "text": "What is the difference between the place value and the face value of 7 in the number 857326?",
+      "difficulty": "EASY",
+      "options": ["7000", "0", "6993", "6999"],
+      "answer": 2,
+      "explanation": "In 857326, the digit 7 is in the thousands place.\nPlace value = 7 × 1000 = 7000; face value = 7.\nDifference = 7000 − 7 = 6993."
+    },
+    {
+      "text": "What is the smallest number by which 1800 must be multiplied to make it a perfect square?",
+      "difficulty": "EASY",
+      "options": ["2", "3", "5", "10"],
+      "answer": 0,
+      "explanation": "1800 = 2³ × 3² × 5².\nIn a perfect square every prime has an even power; only 2 has an odd power (3).\nMultiply by 2: 1800 × 2 = 3600 = 60²."
+    },
+    {
+      "text": "If the six-digit number 73k561 is divisible by 11, what is the value of the digit k?",
+      "difficulty": "MEDIUM",
+      "options": ["4", "5", "7", "3"],
+      "answer": 2,
+      "explanation": "Rule for 11: (sum of digits at odd places from the right) − (sum at even places) must be 0 or a multiple of 11.\nOdd places (1, 5, 3) = 9; even places (6, k, 7) = 13 + k.\n9 − (13 + k) = −(4 + k) must be a multiple of 11, so 4 + k = 11.\nk = 7 (737561 = 11 × 67051)."
+    },
+    {
+      "text": "What is the unit digit of 3⁶⁵ × 6⁵⁹ × 7⁷¹?",
+      "difficulty": "MEDIUM",
+      "options": ["6", "8", "2", "4"],
+      "answer": 3,
+      "explanation": "3 has the cycle 3, 9, 7, 1; 65 ÷ 4 leaves remainder 1, so 3⁶⁵ ends in 3.\n6 raised to any power ends in 6.\n7 has the cycle 7, 9, 3, 1; 71 ÷ 4 leaves remainder 3, so 7⁷¹ ends in 3.\nUnit digit = 3 × 6 × 3 = 54, so the answer is 4."
+    },
+    {
+      "text": "What is the greatest number that divides 1657 and 2037 leaving remainders 6 and 5 respectively?",
+      "difficulty": "MEDIUM",
+      "options": ["127", "235", "260", "305"],
+      "answer": 0,
+      "explanation": "Subtract the remainders: 1657 − 6 = 1651 and 2037 − 5 = 2032.\nRequired number = HCF(1651, 2032).\n1651 = 13 × 127 and 2032 = 16 × 127, and 13 and 16 have no common factor.\nHCF = 127."
+    },
+    {
+      "text": "A number when divided by 342 leaves a remainder of 47. What will be the remainder when the same number is divided by 18?",
+      "difficulty": "MEDIUM",
+      "options": ["5", "11", "9", "13"],
+      "answer": 1,
+      "explanation": "Write the number as 342q + 47. Since 342 = 18 × 19, the part 342q is exactly divisible by 18.\nSo only 47 matters: 47 = 18 × 2 + 11.\nRequired remainder = 11."
+    },
+    {
+      "text": "What is the sum of all the factors of 360?",
+      "difficulty": "MEDIUM",
+      "options": ["1080", "1210", "1176", "1170"],
+      "answer": 3,
+      "explanation": "360 = 2³ × 3² × 5.\nSum of factors = (1 + 2 + 4 + 8)(1 + 3 + 9)(1 + 5).\n= 15 × 13 × 6 = 1170."
+    },
+    {
+      "text": "What is the LCM of 2/3, 4/9 and 5/6?",
+      "difficulty": "MEDIUM",
+      "options": ["20/3", "1/18", "40/3", "10/9"],
+      "answer": 0,
+      "explanation": "LCM of fractions = LCM of numerators/HCF of denominators.\nLCM(2, 4, 5) = 20 and HCF(3, 9, 6) = 3.\nLCM = 20/3. (1/18 is their HCF, not LCM.)"
+    },
+    {
+      "text": "What is the remainder when (17²³ + 23²³) is divided by 40?",
+      "difficulty": "HARD",
+      "options": ["1", "0", "17", "23"],
+      "answer": 1,
+      "explanation": "Rule: aⁿ + bⁿ is exactly divisible by (a + b) when n is odd.\nHere a + b = 17 + 23 = 40 and n = 23 is odd.\nSo 17²³ + 23²³ is divisible by 40, and the remainder is 0."
+    },
+    {
+      "text": "What is the least number which, when divided by 5, 6, 7 and 8, leaves a remainder of 3 in each case, but is exactly divisible by 9?",
+      "difficulty": "HARD",
+      "options": ["843", "2523", "1683", "3363"],
+      "answer": 2,
+      "explanation": "LCM(5, 6, 7, 8) = 840, so the number has the form 840k + 3.\n840 ÷ 9 leaves remainder 3, so 840k + 3 leaves the same remainder as 3k + 3 when divided by 9.\n3k + 3 must be divisible by 9; the smallest such k is 2.\nNumber = 840 × 2 + 3 = 1683 (1683 ÷ 9 = 187)."
+    }
+  ]
+}

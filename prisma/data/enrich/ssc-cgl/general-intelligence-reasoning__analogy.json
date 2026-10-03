@@ -1,0 +1,104 @@
+{
+  "exam": "ssc-cgl",
+  "subject": "general-intelligence-reasoning",
+  "chapter": "analogy",
+  "notes": {
+    "summary": "Analogy questions give a pair of terms with a hidden relationship and ask you to find the term or pair that has the same relationship. SSC CGL mixes word analogies (function, worker–product, unit–quantity, young ones), number analogies and letter-cluster analogies, along with 'select the related pair' and 'select the related number set' formats.",
+    "keyPoints": [
+      "Put the relation into a sentence: 'A sculptor creates a statue'. The answer must fit 'A ___ creates a ___' (Poet : Poem).",
+      "Common word relations: worker–product (Cobbler : Shoes), worker–tool (Painter : Brush), unit–quantity (Ohm : Resistance), young one (Horse : Foal), disorder–organ (Eczema : Skin), antonyms, part–whole.",
+      "For number analogies, test n², n³, n² ± 1, n³ ± 1 and n(n + 1) first. For example, 5 : 124 is 5³ − 1 and 9 : 80 is 9² − 1.",
+      "When two example pairs are given (9 : 80 :: 13 : 168), the rule must fit both. Use the second pair to rule out rules that only look right.",
+      "Number-set analogies (4, 20, 100): check how the 2nd number relates to the 1st and how the 3rd relates to the 2nd (×5, ×5).",
+      "Letter analogies: write the positions and the shifts (DGJM → EIMQ is +1, +2, +3, +4) or check for opposite letters (B ↔ Y, positions add to 27).",
+      "Letter–number analogies usually use the sum or product of letter positions (CAT = 3 + 1 + 20 = 24).",
+      "Order matters: Cow : Calf is not the same as Calf : Cow, so keep the relation pointing the same way."
+    ],
+    "traps": [
+      "Choosing a related word with the wrong relation, e.g. Tailor : Needle (a tool) when the pair is Cobbler : Shoes (a product).",
+      "Accepting the first number rule that fits one pair without checking whether it gives one clear option.",
+      "Reversing the order of the relation in pair-selection questions.",
+      "Forgetting to wrap around after Z in letter analogies."
+    ],
+    "examTip": "Say the relation in one short sentence before you read the options, then reject any option that does not fit that exact sentence."
+  },
+  "questions": [
+    {
+      "text": "Select the option that is related to the third term in the same way as the second term is related to the first term.\nAmpere : Current :: Ohm : ?",
+      "difficulty": "EASY",
+      "options": ["Voltage", "Power", "Resistance", "Charge"],
+      "answer": 2,
+      "explanation": "Ampere is the SI unit of electric current.\nIn the same way, ohm is the SI unit of electrical resistance.\nSo the answer is Resistance."
+    },
+    {
+      "text": "Select the option that is related to the third term in the same way as the second term is related to the first term.\nCow : Calf :: Horse : ?",
+      "difficulty": "EASY",
+      "options": ["Foal", "Pup", "Cub", "Kid"],
+      "answer": 0,
+      "explanation": "A calf is the young one of a cow.\nThe young one of a horse is a foal (pup = dog, cub = lion, kid = goat).\nSo the answer is Foal."
+    },
+    {
+      "text": "Select the option that is related to the third term in the same way as the second term is related to the first term.\nCobbler : Shoes :: Tailor : ?",
+      "difficulty": "EASY",
+      "options": ["Needle", "Clothes", "Thread", "Shop"],
+      "answer": 1,
+      "explanation": "A cobbler makes or repairs shoes, so the relation is worker : product.\nA tailor makes or stitches clothes.\nNeedle and thread are a tailor's tools, not his product, so the answer is Clothes."
+    },
+    {
+      "text": "Select the option that is related to the third number in the same way as the second number is related to the first number.\n5 : 124 :: 7 : ?",
+      "difficulty": "MEDIUM",
+      "options": ["342", "343", "344", "336"],
+      "answer": 0,
+      "explanation": "124 = 125 − 1 = 5³ − 1.\nApplying the same rule: 7³ − 1 = 343 − 1 = 342."
+    },
+    {
+      "text": "Select the option that is related to the third term in the same way as the second term is related to the first term.\nCAT : 24 :: DOG : ?",
+      "difficulty": "MEDIUM",
+      "options": ["24", "26", "28", "420"],
+      "answer": 1,
+      "explanation": "CAT: C(3) + A(1) + T(20) = 24, so the number is the sum of the letter positions.\nDOG: D(4) + O(15) + G(7) = 26.\n(420 is the product, which does not fit CAT, since 3 × 1 × 20 = 60.)"
+    },
+    {
+      "text": "Select the option that is related to the third letter-cluster in the same way as the second letter-cluster is related to the first letter-cluster.\nBLUE : YOFV :: PINK : ?",
+      "difficulty": "MEDIUM",
+      "options": ["QJOL", "KRNP", "JRMP", "KRMP"],
+      "answer": 3,
+      "explanation": "Each letter is replaced by its opposite letter (the positions add up to 27): B(2) → Y(25), L(12) → O(15), U(21) → F(6), E(5) → V(22).\nPINK: P(16) → K(11), I(9) → R(18), N(14) → M(13), K(11) → P(16).\nSo the answer is KRMP."
+    },
+    {
+      "text": "Select the option in which the two words share the same relationship as that shared by the given pair of words.\nSculptor : Statue",
+      "difficulty": "MEDIUM",
+      "options": ["Painter : Brush", "Teacher : School", "Poet : Poem", "Singer : Microphone"],
+      "answer": 2,
+      "explanation": "A sculptor creates a statue, so the relation is creator : creation.\nA poet creates a poem.\nPainter : Brush and Singer : Microphone are worker : tool, and Teacher : School is worker : workplace.\nSo the answer is Poet : Poem."
+    },
+    {
+      "text": "Select the set in which the numbers are related in the same way as the numbers of the given set.\n(4, 20, 100)",
+      "difficulty": "MEDIUM",
+      "options": ["(5, 25, 100)", "(3, 15, 75)", "(6, 30, 120)", "(2, 10, 40)"],
+      "answer": 1,
+      "explanation": "In (4, 20, 100): 4 × 5 = 20 and 20 × 5 = 100, so each number is 5 times the one before it.\n(3, 15, 75): 3 × 5 = 15 and 15 × 5 = 75, the same pattern.\nThe other sets go ×5 then ×4 (for example 25 × 4 = 100), so they do not match.\nSo the answer is (3, 15, 75)."
+    },
+    {
+      "text": "Select the option that is related to the third term in the same way as the second term is related to the first term.\nMyopia : Eye :: Eczema : ?",
+      "difficulty": "MEDIUM",
+      "options": ["Lungs", "Liver", "Skin", "Bones"],
+      "answer": 2,
+      "explanation": "Myopia (short-sightedness) is a disorder of the eye.\nEczema is an inflammatory condition of the skin.\nSo the answer is Skin."
+    },
+    {
+      "text": "Select the option that is related to the third letter-cluster in the same way as the second letter-cluster is related to the first letter-cluster.\nDGJM : EIMQ :: FILO : ?",
+      "difficulty": "HARD",
+      "options": ["GKOS", "GJMP", "GKNR", "HKOS"],
+      "answer": 0,
+      "explanation": "Compare positions: D → E (+1), G → I (+2), J → M (+3), M → Q (+4).\nApply the same shifts to FILO: F + 1 = G, I + 2 = K, L + 3 = O, O + 4 = S.\nSo the answer is GKOS."
+    },
+    {
+      "text": "Select the option that is related to the fifth number in the same way as the second number is related to the first number and the fourth number is related to the third number.\n9 : 80 :: 13 : 168 :: 17 : ?",
+      "difficulty": "HARD",
+      "options": ["289", "290", "306", "288"],
+      "answer": 3,
+      "explanation": "9² − 1 = 81 − 1 = 80 and 13² − 1 = 169 − 1 = 168, so the rule is n² − 1.\n17² − 1 = 289 − 1 = 288.\nAnother way to see it: 80 = 8 × 10 and 168 = 12 × 14, i.e. (n − 1)(n + 1), and 16 × 18 = 288."
+    }
+  ]
+}

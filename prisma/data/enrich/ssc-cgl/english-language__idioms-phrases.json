@@ -1,0 +1,104 @@
+{
+  "exam": "ssc-cgl",
+  "subject": "english-language",
+  "chapter": "idioms-phrases",
+  "notes": {
+    "summary": "Idioms and phrases are fixed expressions whose meaning cannot be worked out from the individual words, such as 'to bury the hatchet' (to make peace). SSC CGL asks for the meaning of an idiom on its own or inside a sentence, and sometimes asks which idiom best fills a blank; the wrong options usually describe the literal picture of the words.",
+    "keyPoints": [
+      "Never translate word for word: 'to smell a rat' has nothing to do with rats; it means to suspect that something is wrong. An option that describes the literal picture is almost always a distractor.",
+      "Use the sentence: in context questions, the tone (praise, criticism, failure, success) tells you whether the idiom's meaning is positive or negative.",
+      "Body-part idioms: take to one's heels (run away), feet of clay (a hidden weakness in an admired person), pay through the nose (pay far too much), turn a deaf ear (refuse to listen), keep one's fingers crossed (hope for success).",
+      "Colour idioms: red-letter day (a memorable, happy day), white elephant (a costly but useless possession), in black and white (in writing), green with envy (very jealous), out of the blue (unexpectedly), red tape (excessive official formality).",
+      "Conflict and peace: bury the hatchet (make peace), cross swords (quarrel), at daggers drawn (bitterly hostile), at loggerheads (in strong disagreement), at sixes and sevens (in confusion and disorder).",
+      "Decision and effort: burn one's boats or bridges (take a step with no way back), by hook or by crook (by any means), leave no stone unturned (try every possible way), at the eleventh hour (at the last moment).",
+      "Argument and reasoning: hold water (be logically sound), throw cold water on (discourage), a wild goose chase (a hopeless search), a cock-and-bull story (an unbelievable, made-up story).",
+      "Learn look-alike idioms in pairs: cry wolf (raise a false alarm) vs cry over spilt milk (regret what cannot be undone); in hot water (in trouble) vs throw cold water on (discourage)."
+    ],
+    "traps": [
+      "Choosing the literal meaning, such as 'hide weapons' for bury the hatchet or 'travel by sea' for burn one's boats.",
+      "Picking an option that could be true of the situation in the sentence but is not what the idiom means.",
+      "Reading a positive idiom as negative because of one word, such as taking 'red-letter day' to mean a day of danger.",
+      "In fill-in-the-blank idiom questions, choosing an idiom that is correct English but does not fit the logic of the sentence."
+    ],
+    "examTip": "If you have never seen the idiom, strike out every option that merely describes the literal words, then use the tone of the sentence to choose between the options that remain."
+  },
+  "questions": [
+    {
+      "text": "Select the most appropriate meaning of the given idiom.\nA red-letter day",
+      "difficulty": "EASY",
+      "options": ["A day of great danger", "A day of mourning", "A memorable and happy day", "A day of hard work"],
+      "answer": 2,
+      "explanation": "The idiom comes from the old practice of marking important festival days in red ink on calendars.\nIt therefore refers to a special day that is remembered with happiness, such as the day one gets a first job.\nRed does not signal danger here, so the first option is a trap.\nThe meaning is a memorable and happy day."
+    },
+    {
+      "text": "Select the most appropriate meaning of the given idiom.\nTo smell a rat",
+      "difficulty": "EASY",
+      "options": ["To suspect that something is wrong", "To search for something lost", "To live in a dirty place", "To feel extremely hungry"],
+      "answer": 0,
+      "explanation": "The idiom is not about rats or smells; it means to sense that something is not right.\nExample: When the stranger offered a prize for a small fee, she smelt a rat.\nThe other options are based on the literal words.\nThe meaning is to suspect that something is wrong."
+    },
+    {
+      "text": "Select the most appropriate meaning of the given idiom.\nTo take to one's heels",
+      "difficulty": "EASY",
+      "options": ["To walk very slowly", "To run away", "To kick someone hard", "To follow someone closely"],
+      "answer": 1,
+      "explanation": "Showing your heels to someone means you are moving away from them quickly.\nExample: The thief took to his heels when he saw the police.\nKicking and following are literal readings of 'heels'.\nThe meaning is to run away."
+    },
+    {
+      "text": "Select the most appropriate meaning of the given idiom.\nAt sixes and sevens",
+      "difficulty": "MEDIUM",
+      "options": ["In perfect order", "Involved in gambling", "Busy with calculations", "In a state of confusion and disorder"],
+      "answer": 3,
+      "explanation": "The idiom describes things or people that are disorganised or confused.\nExample: After the sudden transfer of the manager, the whole office was at sixes and sevens.\nThe options about gambling and calculations come from the numbers in the idiom, and 'perfect order' is the opposite.\nThe meaning is in a state of confusion and disorder."
+    },
+    {
+      "text": "Select the most appropriate meaning of the given idiom.\nA white elephant",
+      "difficulty": "MEDIUM",
+      "options": ["A rare and valuable animal", "A costly possession that is more trouble than it is worth", "A person of great strength", "A symbol of good luck"],
+      "answer": 1,
+      "explanation": "A white elephant is something that costs a lot to own or maintain but gives little benefit.\nExample: The huge stadium built for a single event became a white elephant for the city.\nThe options about an animal, strength or luck are literal or symbolic readings.\nThe meaning is a costly possession that is more trouble than it is worth."
+    },
+    {
+      "text": "Select the most appropriate meaning of the idiom used in the sentence.\nAfter years of bitter quarrels over the boundary wall, the two neighbours finally decided to bury the hatchet.",
+      "difficulty": "MEDIUM",
+      "options": ["To prepare for a final fight", "To hide their weapons", "To make peace and end the quarrel", "To divide the land equally"],
+      "answer": 2,
+      "explanation": "A hatchet is a small axe, and burying it symbolised giving up fighting.\nThe sentence contrasts 'years of bitter quarrels' with 'finally decided', which signals an end to the conflict.\n'Hide their weapons' is the literal reading, and dividing the land is not the meaning of the idiom.\nThe meaning is to make peace and end the quarrel."
+    },
+    {
+      "text": "Select the most appropriate meaning of the idiom used in the sentence.\nThe defence lawyer's argument did not hold water, so the judge rejected it.",
+      "difficulty": "MEDIUM",
+      "options": ["Was not logical or convincing", "Was not delivered loudly", "Was not short enough", "Was not written down"],
+      "answer": 0,
+      "explanation": "An argument that 'holds water' is sound, like a container without leaks.\nSo 'did not hold water' means the argument had flaws and could not stand up to examination.\nThe judge rejecting it confirms the negative meaning.\nThe meaning is was not logical or convincing."
+    },
+    {
+      "text": "Select the most appropriate meaning of the idiom used in the sentence.\nHer father threw cold water on her plan to open a bakery.",
+      "difficulty": "MEDIUM",
+      "options": ["Supported the plan enthusiastically", "Examined the plan carefully", "Postponed the plan", "Discouraged the plan"],
+      "answer": 3,
+      "explanation": "To throw cold water on something is to be unenthusiastic about it and discourage it.\nSupporting the plan enthusiastically is the opposite meaning.\nExamining or postponing the plan does not carry the sense of dampening someone's hopes.\nThe meaning is discouraged the plan."
+    },
+    {
+      "text": "Select the most appropriate idiom to fill in the blank.\nThe determined manager has promised to finish the project before the deadline _____.",
+      "difficulty": "MEDIUM",
+      "options": ["by hook or by crook", "in a nutshell", "at sixes and sevens", "in cold blood"],
+      "answer": 0,
+      "explanation": "The words 'determined' and 'promised' show that the manager will finish the work whatever it takes.\n'By hook or by crook' means by any means possible.\n'In a nutshell' means in brief, 'at sixes and sevens' means in confusion, and 'in cold blood' means deliberately and cruelly; none fits the logic.\nThe answer is by hook or by crook."
+    },
+    {
+      "text": "Select the most appropriate meaning of the given idiom.\nTo have feet of clay",
+      "difficulty": "HARD",
+      "options": ["To be very slow in work", "To be modest and humble", "To have a hidden weakness despite being admired", "To be firmly rooted in one's beliefs"],
+      "answer": 2,
+      "explanation": "The idiom comes from the story of a statue with a head of gold but feet partly made of clay, which could easily be broken.\nIt describes a respected or admired person who turns out to have a serious flaw.\nIt has nothing to do with slowness, humility or firm beliefs.\nThe meaning is to have a hidden weakness despite being admired."
+    },
+    {
+      "text": "Select the most appropriate meaning of the given idiom.\nTo burn one's boats",
+      "difficulty": "HARD",
+      "options": ["To destroy property in anger", "To waste one's money", "To travel by sea", "To take a step that leaves no way back"],
+      "answer": 3,
+      "explanation": "Soldiers who burnt their boats after landing could not retreat, so they had to go forward.\nThe idiom means to commit to a course of action so fully that one cannot return to the earlier position.\nExample: By resigning from his government job to start a business, he burnt his boats.\nThe meaning is to take a step that leaves no way back."
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "exam": "ssc-cgl",
+  "subject": "general-awareness",
+  "chapter": "static-gk",
+  "notes": {
+    "summary": "Covers India's national symbols, neighbouring countries' currencies, boundary lines, famous monuments, classical dances, nicknames of countries and basic map facts. SSC CGL asks direct one-liners and 'incorrectly matched pair' questions on these stable facts.",
+    "keyPoints": [
+      "State Emblem: adapted from Ashoka's Lion Capital at Sarnath, adopted 26 January 1950; three lions visible (four on the original); wheel in the centre, bull on the right, horse on the left.",
+      "National motto 'Satyameva Jayate' ('Truth alone triumphs') comes from the Mundaka Upanishad. Full national anthem takes about 52 seconds; the short version about 20 seconds.",
+      "National symbols: tree – banyan, fruit – mango, aquatic animal – Ganges river dolphin, heritage animal – elephant, river – Ganga; national calendar – Saka era (adopted 22 March 1957).",
+      "Neighbours' currencies: Bangladesh – Taka, Nepal – Nepalese Rupee, Bhutan – Ngultrum, Myanmar – Kyat, Sri Lanka – Sri Lankan Rupee, Maldives – Rufiyaa, Afghanistan – Afghani, China – Renminbi (Yuan).",
+      "Boundary lines: Radcliffe – India–Pakistan and India–Bangladesh; McMahon – India–China; Durand – Pakistan–Afghanistan (1893). Palk Strait separates India and Sri Lanka.",
+      "Classical dances: Kathakali and Mohiniyattam – Kerala; Bharatanatyam – Tamil Nadu; Kuchipudi – Andhra Pradesh; Odissi – Odisha; Manipuri – Manipur; Sattriya – Assam; Kathak – north India.",
+      "Monuments: Konark Sun Temple – Odisha; Charminar – Hyderabad; Gateway of India – Mumbai; Sanchi Stupa – Madhya Pradesh; Statue of Unity – Gujarat.",
+      "Country nicknames: Japan – Land of the Rising Sun; Norway – Land of the Midnight Sun; Finland – Land of a Thousand Lakes; Bhutan – Land of the Thunder Dragon.",
+      "The Tropic of Cancer (23.5° N) crosses 8 states: Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura, Mizoram."
+    ],
+    "traps": [
+      "The Sarnath capital has four lions, but only three are visible in the national emblem.",
+      "About 52 seconds is the full anthem; about 20 seconds is the short version.",
+      "Rufiyaa is the Maldives' currency; Bhutan uses the Ngultrum.",
+      "The Durand Line is Pakistan–Afghanistan and the McMahon Line is India–China — don't swap them.",
+      "The mango is the national fruit, not the national tree (banyan)."
+    ],
+    "examTip": "In 'incorrectly matched' questions, check every pair one by one and mark the first one you are certain is wrong, then glance at the rest to confirm they are right."
+  },
+  "questions": [
+    {
+      "text": "Which tree is the national tree of India?",
+      "difficulty": "EASY",
+      "options": ["Peepal", "Neem", "Banyan", "Mango"],
+      "answer": 2,
+      "explanation": "The banyan (Ficus benghalensis) is India's national tree; its aerial roots grow into new trunks, symbolising longevity and unity.\nThe mango is the national fruit, a common mix-up.\nAnswer: Banyan."
+    },
+    {
+      "text": "Kathakali, a classical dance-drama known for elaborate face make-up and costumes, belongs to which state?",
+      "difficulty": "EASY",
+      "options": ["Tamil Nadu", "Kerala", "Karnataka", "Odisha"],
+      "answer": 1,
+      "explanation": "Kathakali is a dance-drama of Kerala, usually based on stories from the Ramayana and the Mahabharata, with bold green and red face paint.\nTamil Nadu is home to Bharatanatyam and Odisha to Odissi.\nAnswer: Kerala."
+    },
+    {
+      "text": "The famous Sun Temple of Konark, a UNESCO World Heritage Site, is located in which state?",
+      "difficulty": "EASY",
+      "options": ["Odisha", "West Bengal", "Madhya Pradesh", "Andhra Pradesh"],
+      "answer": 0,
+      "explanation": "The Konark Sun Temple was built in the 13th century by King Narasimhadeva I of the Eastern Ganga dynasty.\nIt is designed as a giant chariot of the Sun god with 24 carved wheels and stands on the Odisha coast near Puri.\nAnswer: Odisha."
+    },
+    {
+      "text": "What is the prescribed playing time of the full version of India's national anthem?",
+      "difficulty": "MEDIUM",
+      "options": ["About 20 seconds", "About 47 seconds", "About 52 seconds", "About 65 seconds"],
+      "answer": 2,
+      "explanation": "As per the Ministry of Home Affairs, the full version of 'Jana Gana Mana' takes about 52 seconds.\nA short version (first and last lines) takes about 20 seconds, which is the usual trap.\nAnswer: About 52 seconds."
+    },
+    {
+      "text": "The national motto 'Satyameva Jayate', inscribed below the State Emblem, is taken from which text?",
+      "difficulty": "MEDIUM",
+      "options": ["Rigveda", "Bhagavad Gita", "Katha Upanishad", "Mundaka Upanishad"],
+      "answer": 3,
+      "explanation": "'Satyameva Jayate' means 'Truth alone triumphs'.\nThe phrase comes from the Mundaka Upanishad and is written in Devanagari script below the emblem.\nAnswer: Mundaka Upanishad."
+    },
+    {
+      "text": "Which animal has been declared the national aquatic animal of India?",
+      "difficulty": "MEDIUM",
+      "options": ["Ganges river dolphin", "Gharial", "Olive Ridley turtle", "Dugong"],
+      "answer": 0,
+      "explanation": "The Ganges river dolphin was declared India's national aquatic animal in 2009.\nIt lives in the Ganga–Brahmaputra river system, is almost blind and finds food by echolocation.\nAnswer: Ganges river dolphin."
+    },
+    {
+      "text": "Which of the following country–currency pairs is INCORRECTLY matched?",
+      "difficulty": "MEDIUM",
+      "options": ["Bangladesh – Taka", "Nepal – Nepalese Rupee", "Myanmar – Kyat", "Bhutan – Rufiyaa"],
+      "answer": 3,
+      "explanation": "Bangladesh uses the Taka, Nepal the Nepalese Rupee and Myanmar the Kyat – all correct.\nBhutan's currency is the Ngultrum; the Rufiyaa belongs to the Maldives.\nAnswer: Bhutan – Rufiyaa."
+    },
+    {
+      "text": "The Durand Line forms the boundary between which two countries?",
+      "difficulty": "MEDIUM",
+      "options": ["India and China", "Pakistan and Afghanistan", "India and Pakistan", "India and Nepal"],
+      "answer": 1,
+      "explanation": "The Durand Line was drawn in 1893 under an agreement between Sir Mortimer Durand of British India and the Afghan ruler Abdur Rahman Khan.\nToday it separates Pakistan and Afghanistan.\nIndia–China is marked by the McMahon Line and India–Pakistan by the Radcliffe Line.\nAnswer: Pakistan and Afghanistan."
+    },
+    {
+      "text": "Which country is known as the 'Land of the Midnight Sun'?",
+      "difficulty": "MEDIUM",
+      "options": ["Norway", "Finland", "Sweden", "Iceland"],
+      "answer": 0,
+      "explanation": "In northern Norway, above the Arctic Circle, the sun stays above the horizon even at midnight for weeks in summer, giving the country this name.\nFinland is called the 'Land of a Thousand Lakes' and Japan the 'Land of the Rising Sun'.\nAnswer: Norway."
+    },
+    {
+      "text": "India's State Emblem is adapted from the Lion Capital of Ashoka at Sarnath. How many lions are visible in the emblem?",
+      "difficulty": "HARD",
+      "options": ["2", "3", "4", "5"],
+      "answer": 1,
+      "explanation": "The original Sarnath capital has four lions standing back to back.\nIn the emblem adopted on 26 January 1950, only three are visible; the fourth is hidden from view.\nThe base shows a wheel (Dharma Chakra) in the centre, a bull on the right and a horse on the left.\nAnswer: 3."
+    },
+    {
+      "text": "The Tropic of Cancer passes through how many Indian states?",
+      "difficulty": "HARD",
+      "options": ["6", "7", "8", "9"],
+      "answer": 2,
+      "explanation": "Going from west to east, the Tropic of Cancer (23.5° N) crosses Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura and Mizoram.\nCounting them gives 8.\nAnswer: 8."
+    }
+  ]
+}

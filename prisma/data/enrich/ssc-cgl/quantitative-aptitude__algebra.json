@@ -1,0 +1,107 @@
+{
+  "exam": "ssc-cgl",
+  "subject": "quantitative-aptitude",
+  "chapter": "algebra",
+  "notes": {
+    "summary": "Algebra in SSC CGL tests algebraic identities, x + 1/x type expressions, three-variable identities, elementary surds, and linear equations with their graphs. Expect 2-4 questions in Tier-I (more in Tier-II) that reward spotting the right identity or substituting easy values instead of expanding long expressions.",
+    "keyPoints": [
+      "(a + b)² = a² + 2ab + b²; (a − b)² = a² − 2ab + b²; a² − b² = (a + b)(a − b); (a + b)² − (a − b)² = 4ab.",
+      "(a + b)³ = a³ + b³ + 3ab(a + b); (a − b)³ = a³ − b³ − 3ab(a − b); a³ + b³ = (a + b)(a² − ab + b²).",
+      "If x + 1/x = k, then x² + 1/x² = k² − 2 and x³ + 1/x³ = k³ − 3k (x + 1/x = 3 gives x³ + 1/x³ = 27 − 9 = 18). If x − 1/x = k, then x² + 1/x² = k² + 2 and x³ − 1/x³ = k³ + 3k.",
+      "A quadratic such as x² − 3x + 1 = 0 becomes x + 1/x = 3 on dividing by x — the standard first move.",
+      "a² + b² + c² = (a + b + c)² − 2(ab + bc + ca).",
+      "a³ + b³ + c³ − 3abc = (a + b + c)(a² + b² + c² − ab − bc − ca). If a + b + c = 0, then a³ + b³ + c³ = 3abc.",
+      "Surds: √(a + 2√b) = √x + √y where x + y = a and xy = b; for example √(5 + 2√6) = √3 + √2. Rationalise 1/(√a − √b) by multiplying by (√a + √b).",
+      "Conjugates: if x = 3 + 2√2, then 1/x = 3 − 2√2, so x + 1/x = 6.",
+      "The line ax + by = c cuts the x-axis at (c/a, 0) and the y-axis at (0, c/b), and its slope is −a/b. Two lines a1x + b1y = c1 and a2x + b2y = c2 have a unique solution if a1/a2 ≠ b1/b2, no solution if a1/a2 = b1/b2 ≠ c1/c2, and infinitely many if all three ratios are equal.",
+      "Value substitution: when an identity must hold for all allowed values, put simple numbers (for example a = 1, b = 3) and test the options."
+    ],
+    "traps": [
+      "Using k² − 2 for an x − 1/x problem; with a minus sign it becomes k² + 2.",
+      "Writing (a + b)³ = a³ + b³ and dropping the 3ab(a + b) term.",
+      "Applying a³ + b³ + c³ = 3abc when a + b + c is not zero.",
+      "Confusing √x − 1/√x with √x + 1/√x — square the expression and compare with x + 1/x to see which one is asked.",
+      "Forgetting the ½ when finding the area of the triangle a line makes with the axes."
+    ],
+    "examTip": "When the options are numbers but the expression has letters, plug in small values that satisfy the given condition (such as a = 3, b = 5, c = 7) — it is often faster than the algebra."
+  },
+  "questions": [
+    {
+      "text": "What is the value of (0.87³ + 0.13³) ÷ (0.87² − 0.87 × 0.13 + 0.13²)?",
+      "difficulty": "EASY",
+      "options": ["0.74", "1", "0.87", "1.74"],
+      "answer": 1,
+      "explanation": "Use a³ + b³ = (a + b)(a² − ab + b²) with a = 0.87 and b = 0.13.\nThe expression = (a³ + b³) ÷ (a² − ab + b²) = a + b.\n= 0.87 + 0.13 = 1."
+    },
+    {
+      "text": "At which point do the graphs of the linear equations 2x + y = 8 and x − y = 1 intersect?",
+      "difficulty": "EASY",
+      "options": ["(2, 3)", "(4, 0)", "(3, 2)", "(1, 6)"],
+      "answer": 2,
+      "explanation": "Add the two equations: (2x + y) + (x − y) = 8 + 1 → 3x = 9 → x = 3.\nThen y = x − 1 = 2.\nCheck: 2 × 3 + 2 = 8 and 3 − 2 = 1.\nThe lines intersect at (3, 2)."
+    },
+    {
+      "text": "If a + b + c = 9 and ab + bc + ca = 26, what is the value of a² + b² + c²?",
+      "difficulty": "EASY",
+      "options": ["29", "55", "107", "35"],
+      "answer": 0,
+      "explanation": "a² + b² + c² = (a + b + c)² − 2(ab + bc + ca).\n= 9² − 2 × 26 = 81 − 52 = 29."
+    },
+    {
+      "text": "If x − 1/x = 4, what is the value of x³ − 1/x³?",
+      "difficulty": "MEDIUM",
+      "options": ["52", "64", "68", "76"],
+      "answer": 3,
+      "explanation": "Use x³ − 1/x³ = (x − 1/x)³ + 3(x − 1/x).\nWith x − 1/x = 4: 4³ + 3 × 4 = 64 + 12 = 76.\n(52 comes from wrongly subtracting 12, which is the rule for x + 1/x.)"
+    },
+    {
+      "text": "If x² − 5x + 1 = 0, what is the value of x⁴ + 1/x⁴?",
+      "difficulty": "MEDIUM",
+      "options": ["529", "527", "23", "525"],
+      "answer": 1,
+      "explanation": "Divide x² − 5x + 1 = 0 by x: x − 5 + 1/x = 0, so x + 1/x = 5.\nx² + 1/x² = 5² − 2 = 23.\nx⁴ + 1/x⁴ = 23² − 2 = 529 − 2 = 527."
+    },
+    {
+      "text": "What is the value of √(7 + 4√3)?",
+      "difficulty": "MEDIUM",
+      "options": ["3 + √2", "2√3 + 1", "4 + √3", "2 + √3"],
+      "answer": 3,
+      "explanation": "Write 7 + 4√3 = 7 + 2√12.\nFind two numbers whose sum is 7 and product is 12: 4 and 3.\nSo 7 + 4√3 = (√4 + √3)² = (2 + √3)².\nHence √(7 + 4√3) = 2 + √3."
+    },
+    {
+      "text": "The line 3x + 4y = 12 meets the x-axis at A and the y-axis at B. What is the area of triangle OAB, where O is the origin?",
+      "difficulty": "MEDIUM",
+      "options": ["6 sq units", "12 sq units", "7 sq units", "5 sq units"],
+      "answer": 0,
+      "explanation": "x-intercept: put y = 0 → 3x = 12 → x = 4, so A = (4, 0).\ny-intercept: put x = 0 → 4y = 12 → y = 3, so B = (0, 3).\nTriangle OAB is right-angled at O: area = ½ × 4 × 3 = 6 sq units."
+    },
+    {
+      "text": "If a + b + c = 0, where a, b and c are non-zero, what is the value of a²/(bc) + b²/(ca) + c²/(ab)?",
+      "difficulty": "MEDIUM",
+      "options": ["0", "1", "3", "abc"],
+      "answer": 2,
+      "explanation": "Take the LCM abc: a²/(bc) + b²/(ca) + c²/(ab) = (a³ + b³ + c³) ÷ abc.\nWhen a + b + c = 0, a³ + b³ + c³ = 3abc.\nSo the value = 3abc ÷ abc = 3."
+    },
+    {
+      "text": "If x = 3 + 2√2, what is the value of √x − 1/√x?",
+      "difficulty": "MEDIUM",
+      "options": ["2√2", "2", "6", "√2"],
+      "answer": 1,
+      "explanation": "3 + 2√2 = 2 + 1 + 2√2 = (√2 + 1)², so √x = √2 + 1.\nRationalising, 1/√x = 1/(√2 + 1) = √2 − 1.\n√x − 1/√x = (√2 + 1) − (√2 − 1) = 2.\n(2√2 is the value of √x + 1/√x, a common trap.)"
+    },
+    {
+      "text": "If a + b + c = 15 and a² + b² + c² = 83, what is the value of a³ + b³ + c³ − 3abc?",
+      "difficulty": "HARD",
+      "options": ["1065", "225", "180", "120"],
+      "answer": 2,
+      "explanation": "ab + bc + ca = [(a + b + c)² − (a² + b² + c²)] ÷ 2 = (225 − 83) ÷ 2 = 71.\na³ + b³ + c³ − 3abc = (a + b + c)(a² + b² + c² − ab − bc − ca) = 15 × (83 − 71) = 15 × 12 = 180.\nCheck with a = 3, b = 5, c = 7: 27 + 125 + 343 − 3 × 105 = 495 − 315 = 180."
+    },
+    {
+      "text": "If x = 4ab/(a + b), where a ≠ b, what is the value of (x + 2a)/(x − 2a) + (x + 2b)/(x − 2b)?",
+      "difficulty": "HARD",
+      "options": ["2", "0", "1", "4"],
+      "answer": 0,
+      "explanation": "x/(2a) = 2b/(a + b). By componendo-dividendo, (x + 2a)/(x − 2a) = (2b + a + b)/(2b − a − b) = (a + 3b)/(b − a).\nSimilarly x/(2b) = 2a/(a + b) gives (x + 2b)/(x − 2b) = (3a + b)/(a − b).\nSum = [(3a + b) − (a + 3b)] ÷ (a − b) = (2a − 2b) ÷ (a − b) = 2.\nQuick check: a = 1, b = 3 gives x = 3, and 5 + (−3) = 2."
+    }
+  ]
+}

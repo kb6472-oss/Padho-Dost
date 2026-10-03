@@ -1,0 +1,162 @@
+{
+  "exam": "ssc-cgl",
+  "subject": "general-awareness",
+  "chapter": "economy-banking-gk",
+  "notes": {
+    "summary": "This chapter covers money and banking (the RBI, monetary policy tools, money supply), public finance (the budget, deficits, taxes and GST), national income concepts, five-year planning and the main reform committees. SSC CGL usually asks 2-4 direct one-liners from it: definitions of policy rates and deficits, years of landmark events, and which committee or plan matches which reform.",
+    "keyPoints": [
+      "RBI tools: Repo rate = RBI lends to banks against government securities. Reverse repo = RBI borrows from banks. MSF = emergency overnight borrowing at repo + 0.25%. SDF (since April 2022) = the floor of the corridor at repo − 0.25%. Bank Rate = long-term lending rate without collateral.",
+      "CRR is kept as cash with the RBI and earns no interest. SLR is kept by the bank itself as cash, gold or approved government securities. Both are a percentage of NDTL (net demand and time liabilities).",
+      "Monetary Policy Committee (set up in 2016 under the RBI Act): 6 members, 3 from the RBI including the Governor and 3 nominated by the Government. The Governor has a casting vote, and the inflation target is based on CPI (Combined).",
+      "Deficits: Revenue deficit = revenue expenditure − revenue receipts. Fiscal deficit = total expenditure − total receipts excluding borrowings. Primary deficit = fiscal deficit − interest payments.",
+      "National income chain: Gross − depreciation = Net. Domestic + net factor income from abroad = National. Market price − (indirect taxes − subsidies) = factor cost. National Income = NNP at factor cost.",
+      "Money supply: M1 (narrow money) = currency with public + demand deposits with banks + other deposits with RBI. M3 (broad money) = M1 + time deposits with banks. M2 and M4 add post office deposits.",
+      "GST (from 1 July 2017, 101st Amendment): it replaced central excise, service tax, VAT, entry tax and luxury tax. Basic customs duty, stamp duty and excise on alcohol for human consumption stay outside it. The GST Council (Article 279A) is chaired by the Union Finance Minister.",
+      "Plans: 1st (1951–56) followed the Harrod-Domar model and focused on agriculture. 2nd (1956–61) followed the Mahalanobis model and focused on heavy industry. Plan holiday 1966–69. The 12th Plan (2012–17) was the last, and NITI Aayog replaced the Planning Commission in 2015.",
+      "Committees and milestones: Narasimham (banking/financial sector, 1991 and 1998), Raja Chelliah (tax reforms, 1991), Malhotra (insurance, 1993). 14 banks were nationalised in 1969 and 6 more in 1980. Imperial Bank became SBI in 1955.",
+      "Revolutions: Green = foodgrains, White = milk (Operation Flood, Verghese Kurien), Blue = fish, Yellow = oilseeds, Silver = eggs/poultry."
+    ],
+    "traps": [
+      "Mixing up CRR and SLR: CRR is kept with the RBI, SLR is kept by the bank itself.",
+      "Reading 'reverse repo' as RBI lending. It is the RBI borrowing from banks.",
+      "Treating primary deficit as fiscal deficit plus interest. It is fiscal deficit minus interest payments.",
+      "Calling M1 'broad money'. M1 is narrow money and M3 is broad money.",
+      "Assuming every indirect tax went into GST. Basic customs duty, stamp duty and alcohol excise did not."
+    ],
+    "examTip": "For rate and deficit questions, first ask who lends to whom, or what is subtracted from what. Most wrong options are simply the neighbouring definition."
+  },
+  "questions": [
+    {
+      "text": "The reverse repo rate is the rate at which:",
+      "difficulty": "EASY",
+      "options": [
+        "Commercial banks borrow money from the RBI",
+        "The RBI borrows money from commercial banks",
+        "Commercial banks lend to their best corporate customers",
+        "The government borrows from the public through bonds"
+      ],
+      "answer": 1,
+      "explanation": "Repo rate is the rate at which the RBI lends to commercial banks against government securities. 'Reverse' flips the direction: banks park their surplus funds with the RBI, so the RBI is the borrower. Raising it pulls money out of the system. So the reverse repo rate is the rate at which the RBI borrows from commercial banks."
+    },
+    {
+      "text": "The Gini coefficient is used to measure:",
+      "difficulty": "EASY",
+      "options": [
+        "The rate of inflation",
+        "The growth rate of GDP",
+        "The level of unemployment",
+        "Inequality in the distribution of income"
+      ],
+      "answer": 3,
+      "explanation": "The Gini coefficient is calculated from the Lorenz curve. It ranges from 0 (perfect equality: everyone has the same income) to 1 (perfect inequality: one person has all the income). A higher value means a more unequal society. So it measures inequality in income distribution."
+    },
+    {
+      "text": "Stagflation refers to an economic situation in which:",
+      "difficulty": "EASY",
+      "options": [
+        "High inflation exists along with slow growth and high unemployment",
+        "Prices fall continuously while output rises",
+        "Both inflation and economic growth are high",
+        "The economy grows fast with stable prices"
+      ],
+      "answer": 0,
+      "explanation": "The word combines 'stagnation' and 'inflation'. Prices keep rising while output growth is slow or stagnant and unemployment is high, which makes it hard to fix with normal policy. A continuous fall in prices is deflation, not stagflation. So stagflation is high inflation with slow growth and high unemployment."
+    },
+    {
+      "text": "The share of their net demand and time liabilities (NDTL) that banks must keep with themselves in the form of cash, gold or approved government securities is called the:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Cash Reserve Ratio",
+        "Bank Rate",
+        "Statutory Liquidity Ratio",
+        "Marginal Standing Facility"
+      ],
+      "answer": 2,
+      "explanation": "The Cash Reserve Ratio (CRR) is kept as a cash balance with the RBI and earns no interest. The Statutory Liquidity Ratio (SLR) is kept by the bank itself in liquid assets: cash, gold or approved government securities. Bank Rate and MSF are lending rates, not reserve ratios. So the answer is the Statutory Liquidity Ratio."
+    },
+    {
+      "text": "In the Union Budget, fiscal deficit is defined as:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Total expenditure minus total receipts excluding borrowings",
+        "Revenue expenditure minus revenue receipts",
+        "Fiscal deficit minus interest payments",
+        "Revenue deficit minus grants for the creation of capital assets"
+      ],
+      "answer": 0,
+      "explanation": "Revenue expenditure minus revenue receipts is the revenue deficit. Fiscal deficit minus interest payments is the primary deficit. Revenue deficit minus grants for capital assets is the effective revenue deficit. Fiscal deficit = total expenditure − (revenue receipts + non-debt capital receipts), which shows how much the government must borrow. So fiscal deficit is total expenditure minus total receipts excluding borrowings."
+    },
+    {
+      "text": "In Indian national income accounting, 'National Income' refers to:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Gross Domestic Product at market prices",
+        "Net National Product at factor cost",
+        "Gross National Product at market prices",
+        "Net Domestic Product at market prices"
+      ],
+      "answer": 1,
+      "explanation": "Start from GDP at market prices. Add net factor income from abroad to get GNP, then subtract depreciation to get NNP at market prices. Subtract net indirect taxes (indirect taxes − subsidies) to get NNP at factor cost. This last figure is what is called National Income, so the answer is Net National Product at factor cost."
+    },
+    {
+      "text": "Which committee, set up in 1991, recommended major reforms of India's banking and financial system?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Raja Chelliah Committee",
+        "Malhotra Committee",
+        "Kelkar Committee",
+        "Narasimham Committee"
+      ],
+      "answer": 3,
+      "explanation": "M. Narasimham chaired the Committee on the Financial System in 1991. A second Narasimham Committee in 1998 dealt with banking sector reforms. Raja Chelliah's committee (1991) covered tax reforms, R.N. Malhotra's (1993) covered insurance, and Vijay Kelkar's task forces covered tax and fiscal policy. So the answer is the Narasimham Committee."
+    },
+    {
+      "text": "Which of the following taxes was subsumed into the Goods and Services Tax (GST)?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Basic Customs Duty",
+        "Stamp Duty",
+        "Service Tax",
+        "Excise duty on alcoholic liquor for human consumption"
+      ],
+      "answer": 2,
+      "explanation": "GST replaced central indirect taxes such as central excise (largely), service tax and additional customs duties (CVD/SAD), and state taxes such as VAT, entry tax and luxury tax. Basic customs duty is still levied on imports. Stamp duty and excise on alcohol for human consumption stay with the states. So the tax that was subsumed is Service Tax."
+    },
+    {
+      "text": "Which Five-Year Plan of India was based on the P.C. Mahalanobis model and stressed rapid industrialisation, especially heavy industries?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "First Plan (1951–56)",
+        "Second Plan (1956–61)",
+        "Third Plan (1961–66)",
+        "Fifth Plan (1974–79)"
+      ],
+      "answer": 1,
+      "explanation": "The First Plan followed the Harrod-Domar model and focused on agriculture and irrigation. The Second Plan followed the Mahalanobis model and focused on heavy and basic industries. The Bhilai, Durgapur and Rourkela steel plants were set up during it. So the answer is the Second Plan (1956–61)."
+    },
+    {
+      "text": "As per the RBI's measures of money supply, which of the following is included in M4 but NOT in M3?",
+      "difficulty": "HARD",
+      "options": [
+        "Currency with the public",
+        "Demand deposits with banks",
+        "Time deposits with banks",
+        "Total deposits with the post office savings organisation"
+      ],
+      "answer": 3,
+      "explanation": "M1 = currency with the public + demand deposits with banks + other deposits with RBI. M3 = M1 + time deposits with banks, so the first three options are all inside M3. M4 = M3 + total post office deposits (excluding National Savings Certificates). So the item in M4 but not in M3 is total deposits with the post office savings organisation."
+    },
+    {
+      "text": "Under the RBI's priority sector lending norms, what share of Adjusted Net Bank Credit (ANBC) must domestic scheduled commercial banks (other than Regional Rural Banks and Small Finance Banks) lend to the priority sector?",
+      "difficulty": "HARD",
+      "options": [
+        "40%",
+        "18%",
+        "32%",
+        "75%"
+      ],
+      "answer": 0,
+      "explanation": "The overall priority sector target for domestic scheduled commercial banks is 40% of ANBC or of the credit equivalent of off-balance-sheet exposure, whichever is higher. 18% is only the agriculture sub-target within that 40%. Regional Rural Banks have a much higher target of 75%. So the answer is 40%."
+    }
+  ]
+}

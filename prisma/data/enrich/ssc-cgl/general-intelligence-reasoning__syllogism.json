@@ -1,0 +1,104 @@
+{
+  "exam": "ssc-cgl",
+  "subject": "general-intelligence-reasoning",
+  "chapter": "syllogism",
+  "notes": {
+    "summary": "Syllogism gives two or three statements, which you must accept as true even if they sound odd, and asks which conclusions definitely follow. SSC CGL uses the 'Only I / Only II / Either I or II / Neither / Both' format, sometimes with three conclusions or 'possibility' conclusions.",
+    "keyPoints": [
+      "Draw Venn diagrams with only the overlap the statements force. A conclusion follows only if it is true in every possible diagram.",
+      "Conversions: All A are B → Some B are A; Some A are B → Some B are A; No A is B → No B is A; Some A are not B cannot be converted.",
+      "All + All = All (All A are B, All B are C → All A are C). All + No = No (All A are B, No B is C → No A is C).",
+      "Some + All = Some (Some A are B, All B are C → Some A are C). Some + No = Some-not (Some A are B, No B is C → Some A are not C).",
+      "Some + Some, All (A inside B) + Some (B with C), and No + No give no definite link between the two end terms.",
+      "Either-or: if neither conclusion follows by itself but the two form a complementary pair on the same terms (Some A are C / No A is C, or All A are C / Some A are not C), choose 'Either I or II' when that option is offered. If it is not offered, choose 'Neither'.",
+      "A possibility conclusion ('All X being Y is a possibility') follows if at least one valid diagram allows it and no statement rules it out.",
+      "Ignore real-world facts and judge only from the given statements."
+    ],
+    "traps": [
+      "Converting 'All A are B' into 'All B are A'.",
+      "Treating a possible case as definite: 'Some roses are red' does not follow from 'All roses are flowers' and 'Some flowers are red'.",
+      "Marking 'Neither' when the two conclusions form a complementary pair and 'Either I or II' is one of the options.",
+      "Using real-world knowledge to accept or reject a conclusion."
+    ],
+    "examTip": "Draw the tightest diagram first, then try to draw one diagram that breaks each conclusion. If you can break it, that conclusion does not definitely follow."
+  },
+  "questions": [
+    {
+      "text": "Statements:\nAll roses are flowers.\nSome flowers are red.\nConclusions:\nI. Some roses are red.\nII. Some flowers are roses.\nWhich conclusion(s) logically follow(s) from the statements?",
+      "difficulty": "EASY",
+      "options": ["Only I follows", "Only II follows", "Both I and II follow", "Neither I nor II follows"],
+      "answer": 1,
+      "explanation": "II: 'All roses are flowers' converts to 'Some flowers are roses', so II follows.\nI: The red flowers may or may not include roses. A diagram with all roses outside the red part is possible, so I does not definitely follow.\nSo only II follows."
+    },
+    {
+      "text": "Statements:\nNo teacher is a doctor.\nAll doctors are singers.\nConclusions:\nI. No doctor is a teacher.\nII. Some singers are not teachers.\nWhich conclusion(s) logically follow(s) from the statements?",
+      "difficulty": "EASY",
+      "options": ["Only I follows", "Only II follows", "Both I and II follow", "Neither I nor II follows"],
+      "answer": 2,
+      "explanation": "I: 'No teacher is a doctor' converts directly to 'No doctor is a teacher', so I follows.\nII: All doctors are singers, and none of them is a teacher, so at least the singers who are doctors are not teachers. II follows.\nSo both I and II follow."
+    },
+    {
+      "text": "Statements:\nAll pencils are erasers.\nAll erasers are sharpeners.\nConclusions:\nI. All pencils are sharpeners.\nII. All sharpeners are erasers.\nWhich conclusion(s) logically follow(s) from the statements?",
+      "difficulty": "EASY",
+      "options": ["Only I follows", "Only II follows", "Both I and II follow", "Neither I nor II follows"],
+      "answer": 0,
+      "explanation": "All + All gives All: pencils lie inside erasers, which lie inside sharpeners, so all pencils are sharpeners. I follows.\nII reverses 'All erasers are sharpeners'. An 'All' statement cannot be reversed into another 'All' statement, so II does not follow.\nSo only I follows."
+    },
+    {
+      "text": "Statements:\nAll doctors are graduates.\nSome graduates are writers.\nConclusions:\nI. Some doctors are writers.\nII. No doctor is a writer.\nWhich conclusion(s) logically follow(s) from the statements?",
+      "difficulty": "MEDIUM",
+      "options": ["Only I follows", "Only II follows", "Either I or II follows", "Neither I nor II follows"],
+      "answer": 2,
+      "explanation": "The writers among the graduates may or may not include doctors, so neither I nor II is certain by itself.\nBut I (Some doctors are writers) and II (No doctor is a writer) are about the same two terms, and exactly one of them must be true.\nThis complementary pair gives 'Either I or II follows'."
+    },
+    {
+      "text": "Statements:\nAll cars are buses.\nNo bus is a truck.\nConclusions:\nI. No car is a truck.\nII. Some trucks being cars is a possibility.\nWhich conclusion(s) logically follow(s) from the statements?",
+      "difficulty": "MEDIUM",
+      "options": ["Neither I nor II follows", "Only II follows", "Both I and II follow", "Only I follows"],
+      "answer": 3,
+      "explanation": "All + No gives No: every car is a bus and no bus is a truck, so no car is a truck. I follows.\nBecause 'No car is a truck' is certain, any overlap between trucks and cars is impossible, so II does not follow.\nSo only I follows."
+    },
+    {
+      "text": "Statements:\nSome fruits are vegetables.\nNo vegetable is a stone.\nConclusions:\nI. Some fruits are not stones.\nII. All stones being fruits is a possibility.\nWhich conclusion(s) logically follow(s) from the statements?",
+      "difficulty": "MEDIUM",
+      "options": ["Only I follows", "Only II follows", "Both I and II follow", "Neither I nor II follows"],
+      "answer": 2,
+      "explanation": "I: Some + No gives Some-not. The fruits that are vegetables cannot be stones, so some fruits are not stones. I follows.\nII: Stones only have to stay away from vegetables. A diagram with all stones inside the part of fruits that is not vegetables breaks no statement, so the possibility holds and II follows.\nSo both I and II follow."
+    },
+    {
+      "text": "Statements:\nAll lions are tigers.\nSome tigers are cats.\nNo cat is a dog.\nConclusions:\nI. Some tigers are not dogs.\nII. Some lions are cats.\nWhich conclusion(s) logically follow(s) from the statements?",
+      "difficulty": "MEDIUM",
+      "options": ["Only I follows", "Only II follows", "Both I and II follow", "Neither I nor II follows"],
+      "answer": 0,
+      "explanation": "I: Some tigers are cats and no cat is a dog, so the tigers that are cats are not dogs (Some + No = Some-not). I follows.\nII: The tigers that are cats may all lie outside the lion group, so 'Some lions are cats' is only possible, not certain. II does not follow.\nSo only I follows."
+    },
+    {
+      "text": "Statements:\nSome players are not singers.\nAll singers are dancers.\nConclusions:\nI. Some singers are not players.\nII. Some dancers are singers.\nWhich conclusion(s) logically follow(s) from the statements?",
+      "difficulty": "MEDIUM",
+      "options": ["Only I follows", "Only II follows", "Both I and II follow", "Neither I nor II follows"],
+      "answer": 1,
+      "explanation": "I: A 'Some A are not B' statement cannot be converted, so 'Some singers are not players' is not certain (all singers could be players). I does not follow.\nII: 'All singers are dancers' converts to 'Some dancers are singers'. II follows.\nSo only II follows."
+    },
+    {
+      "text": "Statements:\nNo apple is a mango.\nNo mango is a banana.\nConclusions:\nI. No apple is a banana.\nII. Some bananas are apples.\nWhich conclusion(s) logically follow(s) from the statements?",
+      "difficulty": "MEDIUM",
+      "options": ["Only I follows", "Only II follows", "Neither I nor II follows", "Either I or II follows"],
+      "answer": 3,
+      "explanation": "Two negative statements give no definite relation between apples and bananas, so neither I nor II follows by itself.\nI (No apple is a banana) and II (Some bananas are apples, i.e. some apples are bananas) are a complementary pair on the same terms, so exactly one of them must be true.\nSo either I or II follows."
+    },
+    {
+      "text": "Statements:\nAll kites are planes.\nSome planes are boats.\nNo boat is a car.\nConclusions:\nI. Some planes are not cars.\nII. All kites being boats is a possibility.\nIII. No kite is a car.\nWhich conclusion(s) logically follow(s) from the statements?",
+      "difficulty": "HARD",
+      "options": ["Only I follows", "Only I and II follow", "Only II and III follow", "All I, II and III follow"],
+      "answer": 1,
+      "explanation": "I: Some planes are boats and no boat is a car, so those planes are not cars. I follows.\nII: Kites lie inside planes, and nothing stops all of them from also lying in the plane-boat overlap, so the possibility holds. II follows.\nIII: Cars only have to avoid boats. Cars may overlap the part of the kites that is not boats, so 'No kite is a car' is not certain. III does not follow.\nSo only I and II follow."
+    },
+    {
+      "text": "Statements:\nSome pens are pencils.\nAll pencils are rulers.\nNo ruler is a bag.\nConclusions:\nI. Some pens are not bags.\nII. No pencil is a bag.\nIII. Some rulers are pens.\nWhich conclusion(s) logically follow(s) from the statements?",
+      "difficulty": "HARD",
+      "options": ["Only I and II follow", "Only II and III follow", "Only I and III follow", "All I, II and III follow"],
+      "answer": 3,
+      "explanation": "II: All pencils are rulers and no ruler is a bag, so no pencil is a bag (All + No = No). II follows.\nI: Some pens are pencils and no pencil is a bag, so those pens are not bags (Some + No = Some-not). I follows.\nIII: Some pens are pencils and all pencils are rulers, so some pens are rulers, which converts to 'Some rulers are pens'. III follows.\nSo all three conclusions follow."
+    }
+  ]
+}

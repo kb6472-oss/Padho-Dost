@@ -1,0 +1,168 @@
+{
+  "exam": "ssc-cgl",
+  "subject": "quantitative-aptitude",
+  "chapter": "simple-interest",
+  "notes": {
+    "summary": "Simple Interest is interest charged only on the original principal, so it is the same every year. SSC CGL asks direct formula questions as well as trickier ones on amounts at two different times, split investments, rate changes, equal instalments and equal-amount divisions.",
+    "keyPoints": [
+      "SI = P × R × T / 100 and Amount A = P + SI = P(1 + RT/100). ₹4000 at 7.5% for 2.5 years gives SI = 4000 × 7.5 × 2.5/100 = ₹750.",
+      "Time in months must be divided by 12: 9 months = 9/12 = 3/4 year. ₹6000 at 8% for 9 months → SI = ₹360.",
+      "If a sum becomes n times in T years at SI, the interest is (n − 1)P, so R = (n − 1) × 100/T. A sum that doubles in 10 years earns 10% p.a. and triples in 20 years.",
+      "If the amounts after T1 and T2 years are A1 and A2, one year's interest = (A2 − A1)/(T2 − T1) and P = A1 − T1 × (one year's interest).",
+      "SI changes linearly: raising the rate by r% for T years adds P × r × T/100 of extra interest. 2% more for 3 years = 6% of P.",
+      "Split investment at two rates: use alligation on the average rate. ₹10,000 earning ₹920 a year has an average rate of 9.2%, between 8% and 10%, so the parts are in the ratio 0.8 : 1.2 = 2 : 3.",
+      "When the time in years equals the rate percent and SI = k × P, then R² = 100k. If SI = P/4, R² = 25 and R = 5%.",
+      "Equal annual instalment x clearing a debt A in n years at R%: A = nx + (x × R/100) × [0 + 1 + 2 + ... + (n − 1)].",
+      "1 paisa per rupee per month = 1% per month = 12% per annum."
+    ],
+    "traps": [
+      "Using months or days directly as years without dividing by 12 or 365.",
+      "Taking the percentage on the amount instead of the principal when the amount is given (₹7200 after 20% total interest means P = 7200 ÷ 1.2 = ₹6000, not ₹7200 − 20% of ₹7200).",
+      "Assuming that a sum which doubles in 8 years becomes 4 times in 16 or 32 years; with SI the interest grows linearly, so 3P of interest needs 24 years.",
+      "Mixing SI and CI ideas: in SI the interest for every year is exactly the same."
+    ],
+    "examTip": "When two amounts at two different times are given, subtract them first to get one year's interest; the principal and the rate then take just one more step each."
+  },
+  "questions": [
+    {
+      "text": "What is the simple interest on ₹6000 at 8% per annum for 9 months?",
+      "difficulty": "EASY",
+      "options": ["₹480", "₹360", "₹4320", "₹540"],
+      "answer": 1,
+      "explanation": "Time = 9 months = 9/12 = 3/4 year.\nSI = P × R × T/100 = 6000 × 8 × 3/4 ÷ 100.\n6000 × 8 = 48000; 48000 × 3/4 = 36000; 36000 ÷ 100 = ₹360."
+    },
+    {
+      "text": "A sum of money amounts to ₹7200 in 4 years at 5% per annum simple interest. What is the sum?",
+      "difficulty": "EASY",
+      "options": ["₹5760", "₹5800", "₹6000", "₹6200"],
+      "answer": 2,
+      "explanation": "Total interest for 4 years = 4 × 5% = 20% of the principal.\nSo the amount = 120% of P.\nP = 7200 × 100/120 = ₹6000.\n(Subtracting 20% of ₹7200 gives the wrong value ₹5760.)"
+    },
+    {
+      "text": "In how many years will a sum of money become three times itself at 10% per annum simple interest?",
+      "difficulty": "EASY",
+      "options": ["20 years", "30 years", "10 years", "25 years"],
+      "answer": 0,
+      "explanation": "To become 3 times, the interest must be 2 times the principal, i.e. 200% of P.\nEach year adds 10% of P.\nTime = 200 ÷ 10 = 20 years."
+    },
+    {
+      "text": "What is the ratio of the simple interest earned on a sum at 6% per annum for 5 years to the simple interest earned on the same sum at 5% per annum for 4 years?",
+      "difficulty": "EASY",
+      "options": ["6 : 5", "5 : 4", "2 : 3", "3 : 2"],
+      "answer": 3,
+      "explanation": "For the same principal, SI is proportional to R × T.\nFirst case: 6 × 5 = 30. Second case: 5 × 4 = 20.\nRatio = 30 : 20 = 3 : 2."
+    },
+    {
+      "text": "If a sum earns simple interest at the rate of 1 paisa per rupee per month, what is the annual rate of interest?",
+      "difficulty": "EASY",
+      "options": ["1%", "12%", "10%", "6%"],
+      "answer": 1,
+      "explanation": "1 paisa on ₹1 (100 paise) = 1% per month.\nIn 12 months = 12 × 1% = 12% per annum."
+    },
+    {
+      "text": "A man borrows ₹8000 at 6% per annum simple interest and immediately lends the whole amount at 9% per annum simple interest. What is his gain in 3 years?",
+      "difficulty": "EASY",
+      "options": ["₹240", "₹1440", "₹720", "₹2160"],
+      "answer": 2,
+      "explanation": "His gain comes only from the difference in rates = 9% − 6% = 3% per annum.\nGain = 8000 × 3 × 3/100 = ₹720."
+    },
+    {
+      "text": "A sum of money at simple interest amounts to ₹5800 in 2 years and to ₹7000 in 5 years. What is the rate of interest per annum?",
+      "difficulty": "MEDIUM",
+      "options": ["7%", "8%", "10%", "12.5%"],
+      "answer": 1,
+      "explanation": "Interest for 3 years (5 − 2) = 7000 − 5800 = ₹1200, so one year's interest = ₹400.\nPrincipal = 5800 − 2 × 400 = ₹5000.\nRate = 400 × 100/5000 = 8% per annum."
+    },
+    {
+      "text": "₹10,000 is lent in two parts, one at 8% and the other at 10% per annum simple interest. If the total interest for one year is ₹920, how much was lent at 8%?",
+      "difficulty": "MEDIUM",
+      "options": ["₹6000", "₹5000", "₹4500", "₹4000"],
+      "answer": 3,
+      "explanation": "Let ₹x be lent at 8%; then ₹(10000 − x) is lent at 10%.\n8x/100 + 10(10000 − x)/100 = 920\n8x + 100000 − 10x = 92000, so 2x = 8000 and x = ₹4000.\nAlligation check: average rate = 9.2%; ratio = (10 − 9.2) : (9.2 − 8) = 0.8 : 1.2 = 2 : 3, so 2/5 × 10000 = ₹4000."
+    },
+    {
+      "text": "If the rate of simple interest on a sum rises from 6% to 8% per annum, a man earns ₹360 more in 3 years. What is the sum?",
+      "difficulty": "MEDIUM",
+      "options": ["₹6000", "₹18,000", "₹3000", "₹12,000"],
+      "answer": 0,
+      "explanation": "Extra rate = 8% − 6% = 2% per annum; for 3 years this is 6% of the sum.\n6% of P = ₹360\nP = 360 × 100/6 = ₹6000."
+    },
+    {
+      "text": "A sum of money doubles itself in 8 years at simple interest. In how many years will it become 4 times itself?",
+      "difficulty": "MEDIUM",
+      "options": ["32 years", "16 years", "24 years", "20 years"],
+      "answer": 2,
+      "explanation": "Doubling means the interest equals P (100%) in 8 years.\nTo become 4 times, the interest must be 3P (300%).\nTime = 3 × 8 = 24 years."
+    },
+    {
+      "text": "A sum of money becomes 7/4 of itself in 6 years at simple interest. What is the rate of interest per annum?",
+      "difficulty": "MEDIUM",
+      "options": ["12.5%", "11.25%", "15%", "7.5%"],
+      "answer": 0,
+      "explanation": "Interest = 7/4 P − P = 3/4 P = 75% of P.\nRate = 75 ÷ 6 = 12.5% per annum."
+    },
+    {
+      "text": "Ram lent ₹5000 to Shyam for 2 years and ₹3000 to Mohan for 4 years at the same rate of simple interest. He received ₹2200 in all as interest from both. What is the rate of interest per annum?",
+      "difficulty": "MEDIUM",
+      "options": ["12%", "10%", "8%", "11%"],
+      "answer": 1,
+      "explanation": "Total interest = (5000 × 2 + 3000 × 4) × R/100 = 2200\n(10000 + 12000) × R/100 = 2200\n220R = 2200\nR = 10% per annum."
+    },
+    {
+      "text": "The simple interest on a sum of money is 4/9 of the sum, and the number of years is equal to the rate of interest per annum. What is the rate of interest?",
+      "difficulty": "MEDIUM",
+      "options": ["20%", "4 4/9%", "6 2/3%", "2/3%"],
+      "answer": 2,
+      "explanation": "Let the rate be R% and the time R years.\nP × R × R/100 = 4P/9\nR² = 400/9\nR = 20/3 = 6 2/3% per annum."
+    },
+    {
+      "text": "₹12,000 is lent at simple interest at 5% per annum for the first 2 years, 8% per annum for the next 3 years and 10% per annum for the period beyond 5 years. What is the total interest at the end of 7 years?",
+      "difficulty": "MEDIUM",
+      "options": ["₹4080", "₹6480", "₹8400", "₹5520"],
+      "answer": 1,
+      "explanation": "Add up rate × years for each period: 5 × 2 + 8 × 3 + 10 × 2 = 10 + 24 + 20 = 54%.\nInterest = 54% of 12000 = ₹6480."
+    },
+    {
+      "text": "The difference between the simple interest received from two banks on ₹500 for 2 years is ₹2.50. What is the difference between their rates of interest per annum?",
+      "difficulty": "MEDIUM",
+      "options": ["0.5%", "2.5%", "1%", "0.25%"],
+      "answer": 3,
+      "explanation": "Let the difference in rates be d%.\nDifference in interest = 500 × 2 × d/100 = 10d.\n10d = 2.50, so d = 0.25% per annum."
+    },
+    {
+      "text": "A lent ₹2500 to B and a certain sum to C at the same time at 7% per annum simple interest. After 4 years, A received ₹1120 in all as interest from both. How much did A lend to C?",
+      "difficulty": "MEDIUM",
+      "options": ["₹1500", "₹4000", "₹1000", "₹2000"],
+      "answer": 0,
+      "explanation": "Interest for 4 years at 7% = 28% of the total amount lent.\n28% of total = 1120, so total = 1120 × 100/28 = ₹4000.\nAmount lent to C = 4000 − 2500 = ₹1500."
+    },
+    {
+      "text": "What equal annual instalment will discharge a debt of ₹1092 due in 3 years at 12% per annum simple interest?",
+      "difficulty": "HARD",
+      "options": ["₹364", "₹350", "₹325", "₹300"],
+      "answer": 2,
+      "explanation": "Let each instalment be ₹x, paid at the end of every year.\nBy the end of year 3, the 1st instalment earns interest for 2 years, the 2nd for 1 year and the 3rd for 0 years.\nTotal value = 3x + x × 12 × (2 + 1 + 0)/100 = 3x + 0.36x = 3.36x.\n3.36x = 1092, so x = ₹325."
+    },
+    {
+      "text": "₹2379 is divided into three parts such that their amounts after 2, 3 and 4 years respectively are equal, the rate of simple interest being 5% per annum. What is the first part?",
+      "difficulty": "HARD",
+      "options": ["₹828", "₹792", "₹759", "₹793"],
+      "answer": 0,
+      "explanation": "Amount factors: 2 years → 110/100, 3 years → 115/100, 4 years → 120/100.\nFor equal amounts, the parts are in the ratio 1/110 : 1/115 : 1/120 = 276 : 264 : 253.\nSum of ratio terms = 793, so one part = 2379 ÷ 793 = 3.\nFirst part = 276 × 3 = ₹828."
+    },
+    {
+      "text": "A man invested one sum at 10% and another at 12% per annum simple interest and received ₹130 as interest for one year. Had he interchanged the two sums, he would have received ₹4 more. How much did he invest at 10%?",
+      "difficulty": "HARD",
+      "options": ["₹500", "₹600", "₹800", "₹700"],
+      "answer": 3,
+      "explanation": "Let ₹a be at 10% and ₹b at 12%.\n0.10a + 0.12b = 130 and 0.12a + 0.10b = 134.\nAdding: 0.22(a + b) = 264, so a + b = 1200.\nSubtracting: 0.02(a − b) = 4, so a − b = 200.\na = (1200 + 200)/2 = ₹700."
+    },
+    {
+      "text": "A sum is lent at simple interest. If the rate were 2% less and the time 2 years more, the interest would be the same. Also, if the rate were 2% more and the time 1 year less, the interest would still be the same. What is the original rate of interest per annum?",
+      "difficulty": "HARD",
+      "options": ["4%", "8%", "5%", "6%"],
+      "answer": 3,
+      "explanation": "With the same principal, interest depends on R × T.\nRT = (R − 2)(T + 2) gives 2R − 2T = 4, so R − T = 2.\nRT = (R + 2)(T − 1) gives −R + 2T = 2.\nPutting R = T + 2: −T − 2 + 2T = 2, so T = 4 and R = 6.\nCheck: 6 × 4 = 4 × 6 = 8 × 3 = 24. Original rate = 6% per annum."
+    }
+  ]
+}

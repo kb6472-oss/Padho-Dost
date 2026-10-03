@@ -1,0 +1,106 @@
+{
+  "exam": "ssc-cgl",
+  "subject": "quantitative-aptitude",
+  "chapter": "problems-on-ages",
+  "notes": {
+    "summary": "Problems on Ages turns statements about present, past and future ages into linear (sometimes quadratic) equations. SSC CGL usually asks 1-2 questions built on ratio changes, family average ages, 'n years ago/hence' conditions and reversed-digit ages, most of which can be cracked in under a minute with ratio or option-testing shortcuts.",
+    "keyPoints": [
+      "The age difference between two people never changes: if A is 8 years older than B today, A is 8 years older at every point of time.",
+      "If the present age is x, it was x − n years n years ago and will be x + n after n years. Every person in the problem shifts by the same n.",
+      "Ratio method: if A:B = 3:5 now and 3:4 after 6 years, write 4(3x + 6) = 3(5x + 6) → 12x + 24 = 15x + 18 → x = 2, so A = 6 and B = 10.",
+      "Group shift: when a group of n people ages by t years, its total age rises by n × t. Example: a family of 5 whose total was 85 three years ago has a total of 85 + 15 = 100 today.",
+      "New member joining a group: new member's age = new average + (old count × rise in average). Example: 30 students with average 15; the teacher raises it by 1, so teacher = 16 + 30 × 1 = 46.",
+      "Children born at equal intervals form an AP: for an odd number of children, the middle child's age = total ÷ number of children.",
+      "Reversed-digit ages: (10a + b) − (10b + a) = 9(a − b), so the age difference must be a multiple of 9.",
+      "'When I was as old as you are now' problems: the past age, the younger person's present age, the elder's present age and the future age form an AP whose common difference is the age gap.",
+      "Option testing is often fastest: put each option into both conditions and keep the one that satisfies both."
+    ],
+    "traps": [
+      "Adding the years to only one person, or forgetting that every member of a group ages: a family of 4 gains 4t years of total age in t years, not t.",
+      "Answering for the wrong time point: the question may ask for the age 5 years ago or 5 years hence, not the present age.",
+      "Applying a past or future ratio to present ages — 'the ratio 6 years ago' must use (x − 6) for both people.",
+      "In percentage or fraction conditions, writing A = 0.6B − 5 instead of A − 5 = 0.6(B − 5).",
+      "Quadratic age equations also give a negative root; reject it and verify the positive root in the original statement."
+    ],
+    "examTip": "Before forming equations, test the four options against both conditions — in most SSC age questions only one option survives within 20 seconds."
+  },
+  "questions": [
+    {
+      "text": "The average age of a class of 30 students is 15 years. When the teacher's age is also included, the average increases by 1 year. What is the teacher's age?",
+      "difficulty": "EASY",
+      "options": ["31 years", "46 years", "45 years", "16 years"],
+      "answer": 1,
+      "explanation": "Total age of 30 students = 30 × 15 = 450 years.\nWith the teacher, 31 people have average 16, so total = 31 × 16 = 496 years.\nTeacher's age = 496 − 450 = 46 years.\nShortcut: teacher = new average + (old count × rise) = 16 + 30 × 1 = 46 years."
+    },
+    {
+      "text": "The sum of the ages of 5 children born at intervals of 3 years each is 50 years. What is the age of the youngest child?",
+      "difficulty": "EASY",
+      "options": ["10 years", "7 years", "4 years", "6 years"],
+      "answer": 2,
+      "explanation": "Let the youngest be x. The ages are x, x + 3, x + 6, x + 9 and x + 12.\nSum = 5x + 30 = 50, so x = 4.\nShortcut: with an odd number of children at equal gaps, the middle child = 50 ÷ 5 = 10, and the youngest is two gaps below: 10 − 6 = 4 years."
+    },
+    {
+      "text": "The present ages of A and B are in the ratio 2:3, and those of B and C are in the ratio 4:5. If the sum of their present ages is 105 years, what was C's age 5 years ago?",
+      "difficulty": "EASY",
+      "options": ["40 years", "45 years", "36 years", "50 years"],
+      "answer": 0,
+      "explanation": "Make B common: A:B = 2:3 = 8:12 and B:C = 4:5 = 12:15, so A:B:C = 8:12:15.\nTotal parts = 35, and 35 parts = 105 years, so 1 part = 3 years.\nC's present age = 15 × 3 = 45 years.\nFive years ago, C was 45 − 5 = 40 years."
+    },
+    {
+      "text": "Three years ago, the average age of a family of 5 members was 17 years. A baby has been born since then, and the average age of the family today is the same as it was three years ago. What is the age of the baby?",
+      "difficulty": "MEDIUM",
+      "options": ["1 year", "3 years", "1.5 years", "2 years"],
+      "answer": 3,
+      "explanation": "Three years ago, total age of the 5 members = 5 × 17 = 85 years.\nEach of them has aged 3 years, so their total now = 85 + 5 × 3 = 100 years.\nToday the family has 6 members with average 17, so total = 6 × 17 = 102 years.\nBaby's age = 102 − 100 = 2 years."
+    },
+    {
+      "text": "At the time of their marriage, the average age of a husband and wife was 23 years. Five years later, they have a child aged 1 year. What is the average age of the family now?",
+      "difficulty": "MEDIUM",
+      "options": ["19 years", "28 years", "18.67 years", "20 years"],
+      "answer": 0,
+      "explanation": "At marriage, total age of husband and wife = 2 × 23 = 46 years.\nAfter 5 years, their total = 46 + 2 × 5 = 56 years.\nAdding the child's 1 year, the family total = 57 years for 3 people.\nAverage = 57 ÷ 3 = 19 years."
+    },
+    {
+      "text": "Five years ago, A's age was 60% of B's age. Five years hence, A's age will be 70% of B's age. What is A's present age?",
+      "difficulty": "MEDIUM",
+      "options": ["21 years", "35 years", "23 years", "28 years"],
+      "answer": 2,
+      "explanation": "Five years ago: A − 5 = 0.6(B − 5), so A = 0.6B + 2.\nFive years hence: A + 5 = 0.7(B + 5), so A = 0.7B − 1.5.\nEquate: 0.6B + 2 = 0.7B − 1.5 → 0.1B = 3.5 → B = 35.\nA = 0.6 × 35 + 2 = 23.\nCheck: 18 is 60% of 30 and 28 is 70% of 40. A's present age = 23 years."
+    },
+    {
+      "text": "The ratio of a father's present age to his son's present age is 4:1, and the product of their ages is 196. What will be the ratio of their ages after 5 years?",
+      "difficulty": "MEDIUM",
+      "options": ["4:1", "11:4", "3:1", "13:4"],
+      "answer": 1,
+      "explanation": "Let the ages be 4x and x. Then 4x × x = 196 → x² = 49 → x = 7.\nFather = 28 years, son = 7 years.\nAfter 5 years: father 33, son 12.\nRatio = 33:12 = 11:4."
+    },
+    {
+      "text": "The present ages of a father and his son are two-digit numbers, the father's age being the son's age with its digits reversed. The difference between their ages is 27 years and the sum of the digits of either age is 7. What is the father's present age?",
+      "difficulty": "MEDIUM",
+      "options": ["61 years", "70 years", "43 years", "52 years"],
+      "answer": 3,
+      "explanation": "Let the father's age be 10a + b and the son's age 10b + a.\nDifference = (10a + b) − (10b + a) = 9(a − b) = 27, so a − b = 3.\nAlso a + b = 7. Solving, a = 5 and b = 2.\nFather = 52 years, son = 25 years."
+    },
+    {
+      "text": "The product of the present ages of A and B is 240. Twice B's age is 4 years more than A's age. What is B's present age?",
+      "difficulty": "MEDIUM",
+      "options": ["10 years", "20 years", "12 years", "15 years"],
+      "answer": 2,
+      "explanation": "From the second condition, A = 2B − 4.\nProduct: B(2B − 4) = 240 → 2B² − 4B − 240 = 0 → B² − 2B − 120 = 0.\nFactorise: (B − 12)(B + 10) = 0. Reject the negative root, so B = 12 and A = 20.\nCheck: 12 × 20 = 240 and 2 × 12 − 20 = 4. B's age = 12 years."
+    },
+    {
+      "text": "A said to B: 'When I was as old as you are now, you were 6 years old. When you become as old as I am now, I shall be 42 years old.' What is A's present age?",
+      "difficulty": "HARD",
+      "options": ["30 years", "24 years", "18 years", "36 years"],
+      "answer": 0,
+      "explanation": "Let the age gap be d years (A is older by d).\nGoing back d years, B was 6: B − d = 6. Going forward d years, A will be 42: A + d = 42.\nSo 6, B, A, 42 form an AP with common difference d: 3d = 42 − 6 = 36 → d = 12.\nB = 6 + 12 = 18 years and A = 18 + 12 = 30 years."
+    },
+    {
+      "text": "A man's present age is equal to the sum of the present ages of his three children. After 10 years, the sum of the children's ages will be 4/3 of the man's age at that time. What is the man's present age?",
+      "difficulty": "HARD",
+      "options": ["40 years", "45 years", "60 years", "50 years"],
+      "answer": 3,
+      "explanation": "Let the man's age be M, so the children's total is also M.\nAfter 10 years the man is M + 10, but the three children together gain 30 years, so their total is M + 30.\nCondition: M + 30 = (4/3)(M + 10) → 3M + 90 = 4M + 40 → M = 50.\nCheck: children 80, man 60, and 80 = (4/3) × 60. Man's present age = 50 years."
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "exam": "ssc-cgl",
+  "subject": "english-language",
+  "chapter": "fill-in-the-blanks",
+  "notes": {
+    "summary": "Fill-in-the-blank (sentence completion) questions give a sentence with one or two gaps and four words or phrases to fit them. SSC CGL tests both grammar (tense, agreement, prepositions, conjunctions, quantifiers) and vocabulary (the word whose meaning suits the context), and the clue to the answer is almost always somewhere else in the sentence.",
+    "keyPoints": [
+      "Find the clue first: contrast markers (although, but, despite, yet) signal an opposite idea; support markers (and, because, so, all of which supported it) signal a similar idea.",
+      "Correlative pairs are fixed: no sooner...than; hardly/scarcely...when; not only...but also; either...or; neither...nor; both...and; lest...should; such...that.",
+      "Inversion after a negative or restrictive opener: Not only did he win..., Never have I seen..., Hardly had he arrived when...",
+      "Fixed prepositions: abide by, comply with, adhere to, accuse of, charge with, consist of, prefer to, insist on, refrain from, congratulate on, senior/junior/superior/prior to.",
+      "Quantifiers: few/little = almost none (negative sense); a few/a little = some (positive sense). Few and a few go with countable nouns, little and a little with uncountable nouns.",
+      "Subjunctive patterns: It is high time + past simple (It is high time we left); I would rather you + past simple (I would rather you stayed); If I were...; I wish + past (I wish I knew).",
+      "be used to / get used to + -ing (He is used to working late), but used to + base verb for a past habit (He used to work late).",
+      "Confusables: affect (verb, to influence) / effect (noun, a result); principal (head, main) / principle (rule); stationary (not moving) / stationery (writing material); complement (complete) / compliment (praise).",
+      "Phrasal verbs change meaning with the particle: call off (cancel), call on (visit), call for (demand), put off (postpone), put up with (tolerate), look into (investigate)."
+    ],
+    "traps": [
+      "Choosing a verb that sounds right on its own without checking the preposition after the blank (comply by and adhere by are wrong; abide by is right).",
+      "Ignoring a contrast or support clue and picking a word whose meaning goes the wrong way.",
+      "Writing 'then' or 'when' after no sooner (it must be 'than'), or 'than' after hardly/scarcely (it must be 'when').",
+      "Using a present-tense verb after 'It is high time'; the pattern needs the past simple.",
+      "In double-blank questions, checking only the first blank; both words of the chosen option must fit."
+    ],
+    "examTip": "Read the whole sentence before looking at the options, predict the kind of word needed (verb form, preposition, positive or negative adjective) from the clue, then pick the option that matches your prediction."
+  },
+  "questions": [
+    {
+      "text": "Select the most appropriate option to fill in the blank.\nThe loud music next door did not _____ his concentration.",
+      "difficulty": "EASY",
+      "options": ["effect", "affect", "infect", "defect"],
+      "answer": 1,
+      "explanation": "After 'did not' we need a verb in its base form meaning 'to influence'.\n'Affect' is the verb (to influence); 'effect' is normally a noun meaning a result.\n'Infect' (spread disease) and 'defect' (a fault, or to desert) do not fit the meaning.\nThe correct word is affect."
+    },
+    {
+      "text": "Select the most appropriate option to fill in the blank.\nShe has _____ good friends in this city, so she rarely feels lonely.",
+      "difficulty": "EASY",
+      "options": ["few", "little", "a few", "a little"],
+      "answer": 2,
+      "explanation": "'Friends' is a countable noun, so 'little' and 'a little' are ruled out.\n'Few' means almost none, which would make her lonely and contradict 'rarely feels lonely'.\n'A few' means some, which fits the positive sense of the sentence.\nThe answer is a few."
+    },
+    {
+      "text": "Select the most appropriate option to fill in the blank.\nThe meeting had to be _____ because the chief guest suddenly fell ill.",
+      "difficulty": "EASY",
+      "options": ["called off", "called on", "called up", "called for"],
+      "answer": 0,
+      "explanation": "The reason given (the chief guest fell ill) shows the meeting could not take place.\n'Call on' means to visit, 'call up' means to telephone or summon, and 'call for' means to demand.\n'Call off' means to cancel.\nThe answer is called off."
+    },
+    {
+      "text": "Select the most appropriate option to fill in the blank.\nWalk carefully on the wet floor _____ you should slip.",
+      "difficulty": "MEDIUM",
+      "options": ["unless", "until", "though", "lest"],
+      "answer": 3,
+      "explanation": "The second clause gives something to be avoided (slipping).\n'Lest' means 'for fear that' and is followed by 'should' + base verb.\n'Unless' (if not), 'until' (up to the time) and 'though' (in spite of) do not give the sense of avoiding a danger.\nThe answer is lest."
+    },
+    {
+      "text": "Select the most appropriate option to fill in the blank.\nNo sooner had the bell rung _____ the students rushed out of the classroom.",
+      "difficulty": "MEDIUM",
+      "options": ["when", "than", "then", "as"],
+      "answer": 1,
+      "explanation": "'No sooner' is a comparative expression, so it is always paired with 'than'.\n'When' pairs with hardly/scarcely, not with no sooner.\n'Then' is a common spelling trap for 'than'.\nThe answer is than."
+    },
+    {
+      "text": "Select the most appropriate option to fill in the blank.\nAll employees must _____ by the rules laid down in the code of conduct.",
+      "difficulty": "MEDIUM",
+      "options": ["comply", "adhere", "abide", "follow"],
+      "answer": 2,
+      "explanation": "All four verbs mean roughly 'obey', so the preposition 'by' after the blank decides the answer.\nWe say comply with, adhere to, and follow (no preposition).\nOnly 'abide' takes 'by': abide by the rules.\nThe answer is abide."
+    },
+    {
+      "text": "Select the most appropriate option to fill in the blank.\nThe manager accused the clerk _____ negligence in handling the files.",
+      "difficulty": "MEDIUM",
+      "options": ["for", "with", "about", "of"],
+      "answer": 3,
+      "explanation": "The verb 'accuse' takes the preposition 'of': accuse someone of something.\n'Charge' takes 'with' (charged with theft), which is why 'with' is a tempting trap.\n'For' and 'about' are not used after accuse.\nThe answer is of."
+    },
+    {
+      "text": "Select the most appropriate option to fill in the blank.\nThe scientist's theory was _____ by the results of several independent experiments, all of which supported it.",
+      "difficulty": "MEDIUM",
+      "options": ["corroborated", "refuted", "fabricated", "ignored"],
+      "answer": 0,
+      "explanation": "The clue is 'all of which supported it', so the blank needs a word meaning confirmed.\n'Refuted' means proved wrong, the opposite of the clue.\n'Fabricated' (made up) and 'ignored' do not match experiments that support the theory.\n'Corroborated' means confirmed by further evidence, so the answer is corroborated."
+    },
+    {
+      "text": "Select the most appropriate option to fill in the blank.\nNot only _____ the exam, but he also topped his district.",
+      "difficulty": "MEDIUM",
+      "options": ["he cleared", "cleared he", "he did clear", "did he clear"],
+      "answer": 3,
+      "explanation": "When a sentence begins with 'Not only', the auxiliary comes before the subject, as in a question.\nIn the simple past the auxiliary is 'did' followed by the base verb: did he clear.\n'He cleared' would be correct only if 'not only' came after the subject (He not only cleared...).\nThe answer is did he clear."
+    },
+    {
+      "text": "Select the most appropriate option to fill in the blank.\nThe minister's speech was so _____ that it went on for two hours yet said almost nothing of substance.",
+      "difficulty": "HARD",
+      "options": ["laconic", "prolix", "pithy", "terse"],
+      "answer": 1,
+      "explanation": "The clue 'went on for two hours yet said almost nothing' points to a speech that is long and wordy.\nLaconic, pithy and terse all mean brief and to the point, the opposite of the clue.\nProlix means tediously lengthy and wordy.\nThe answer is prolix."
+    },
+    {
+      "text": "Select the most appropriate option to fill in the blank.\nIt is high time we _____ serious steps to reduce air pollution.",
+      "difficulty": "HARD",
+      "options": ["took", "take", "have taken", "will take"],
+      "answer": 0,
+      "explanation": "'It is high time' (or 'It is time') is followed by a subject and a verb in the past simple.\nThe past form here refers to the present, showing that the action is already overdue.\nSo 'take', 'have taken' and 'will take' are all incorrect in this pattern.\nThe answer is took."
+    }
+  ]
+}

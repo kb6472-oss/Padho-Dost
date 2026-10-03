@@ -147,6 +147,7 @@ model Chapter {
   slug  String
   name  String
   order Int    @default(0)
+  notes Json? // quick revision notes {summary, keyPoints[], traps[], examTip} — scripts/apply-enrichment.ts
 
   subjectId String
   subject   Subject @relation(fields: [subjectId], references: [id], onDelete: Cascade)

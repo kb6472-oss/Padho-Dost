@@ -47,6 +47,9 @@ echo "==> [3/6] Seeding new content (npm run db:seed)…"
 npm run db:seed
 
 echo "==> [4/6] Generating sectional tests + applying PYQ topics…"
+# Chapter enrichment (extra solved MCQs + revision notes, prisma/data/enrich/) — before the
+# sectional tests so those pick up the new questions. Idempotent; only changed rows are written.
+npx tsx scripts/apply-enrichment.ts || echo "    ⚠ apply-enrichment failed — the site still deploys; check the error above."
 # Idempotent — upserts one SECTIONAL test per eligible exam-subject from existing
 # questions and rebuilds its question set. Safe to run every deploy.
 npx tsx scripts/generate-sectional-tests.ts

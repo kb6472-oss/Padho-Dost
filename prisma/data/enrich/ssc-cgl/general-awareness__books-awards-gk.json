@@ -1,0 +1,106 @@
+{
+  "exam": "ssc-cgl",
+  "subject": "general-awareness",
+  "chapter": "books-awards-gk",
+  "notes": {
+    "summary": "Covers famous books and their authors (ancient Indian texts, freedom-struggle writings, Hindi and Indian English novels, world classics) and the major national and international awards. SSC CGL usually asks direct 'who wrote X' questions, book–author matching pairs, the field or first recipient of an award, and the order of civilian and gallantry honours.",
+    "keyPoints": [
+      "Civilian awards in descending order: Bharat Ratna > Padma Vibhushan > Padma Bhushan > Padma Shri (all instituted in 1954).",
+      "Gallantry awards: wartime – Param Vir Chakra > Maha Vir Chakra > Vir Chakra; peacetime – Ashoka Chakra > Kirti Chakra > Shaurya Chakra.",
+      "Sports awards: Major Dhyan Chand Khel Ratna (highest; renamed from Rajiv Gandhi Khel Ratna in 2021), Arjuna Award (players), Dronacharya Award (coaches).",
+      "Literature and cinema firsts: first Jnanpith (1965) – G. Sankara Kurup (Malayalam); first Dadasaheb Phalke Award (instituted 1969) – Devika Rani. The Sahitya Akademi Award is given in 24 languages.",
+      "Ramon Magsaysay Award ('Asia's Nobel Prize') is named after a President of the Philippines; Nobel Prizes were first given in 1901 and there is no Nobel for Mathematics.",
+      "Ancient texts: Arthashastra – Kautilya, Indica – Megasthenes, Panchatantra – Vishnu Sharma, Ashtadhyayi – Panini, Harshacharita – Banabhatta, Rajatarangini – Kalhana, Akbarnama – Abul Fazl.",
+      "Freedom-struggle books: Poverty and Un-British Rule in India – Dadabhai Naoroji (Drain Theory), Hind Swaraj – Gandhi, India Wins Freedom – Maulana Azad, Gita Rahasya – Tilak, Anandamath – Bankim Chandra Chattopadhyay (source of Vande Mataram).",
+      "Booker winners of Indian origin/citizenship: Arundhati Roy – The God of Small Things (1997), Kiran Desai – The Inheritance of Loss (2006), Aravind Adiga – The White Tiger (2008); Geetanjali Shree's Tomb of Sand (from Hindi 'Ret Samadhi') won the International Booker in 2022.",
+      "Hindi and regional classics: Godan, Gaban, Nirmala – Premchand; Kamayani – Jaishankar Prasad; Madhushala – Harivansh Rai Bachchan; Malgudi Days – R. K. Narayan."
+    ],
+    "traps": [
+      "Confusing Ashoka Chakra (highest peacetime) with Param Vir Chakra (highest wartime) — the word 'peacetime' decides it.",
+      "Giving The White Tiger to Vikram Seth (he wrote A Suitable Boy) or mixing up Kiran Desai with her mother Anita Desai.",
+      "Assuming Padma Bhushan ranks above Padma Vibhushan — Vibhushan is higher.",
+      "Crediting Anandamath to Tagore; Tagore wrote the national anthem, Bankim Chandra wrote Anandamath and Vande Mataram.",
+      "Attributing Indica to Chinese pilgrims Fa-Hien or Hiuen Tsang; it was written by Megasthenes, the Greek envoy at Chandragupta Maurya's court."
+    ],
+    "examTip": "For award questions first fix the field (cinema, literature, sport, gallantry, peace) and strike out every option that belongs to a different field before recalling names."
+  },
+  "questions": [
+    {
+      "text": "The novel 'Anandamath', from which India's national song 'Vande Mataram' is taken, was written by:",
+      "difficulty": "EASY",
+      "options": ["Rabindranath Tagore", "Bankim Chandra Chattopadhyay", "Sarat Chandra Chattopadhyay", "Michael Madhusudan Dutt"],
+      "answer": 1,
+      "explanation": "'Anandamath' is a Bengali novel published in 1882, set against the backdrop of the Sannyasi Rebellion.\nIt contains the song 'Vande Mataram', later adopted as the national song.\nTagore wrote the national anthem 'Jana Gana Mana', which is the usual confusion.\nAnswer: Bankim Chandra Chattopadhyay."
+    },
+    {
+      "text": "'Godan', a classic Hindi novel about the hardships of a poor peasant, was written by:",
+      "difficulty": "EASY",
+      "options": ["Jaishankar Prasad", "Harivansh Rai Bachchan", "Munshi Premchand", "Mahadevi Varma"],
+      "answer": 2,
+      "explanation": "'Godan' (1936) tells the story of the farmer Hori and was the last novel Premchand completed.\nHis other famous works include 'Gaban' and 'Nirmala'.\nJaishankar Prasad wrote 'Kamayani' and Harivansh Rai Bachchan wrote 'Madhushala'.\nAnswer: Munshi Premchand."
+    },
+    {
+      "text": "The ancient collection of animal fables 'Panchatantra' is traditionally attributed to:",
+      "difficulty": "EASY",
+      "options": ["Vishnu Sharma", "Kalidasa", "Banabhatta", "Valmiki"],
+      "answer": 0,
+      "explanation": "The Panchatantra is a Sanskrit collection of fables that teaches practical wisdom and statecraft through animal stories.\nTradition credits it to the scholar Vishnu Sharma.\nKalidasa wrote 'Abhijnanasakuntalam', Banabhatta wrote 'Harshacharita' and Valmiki composed the Ramayana.\nAnswer: Vishnu Sharma."
+    },
+    {
+      "text": "The book 'Poverty and Un-British Rule in India', which put forward the 'Drain of Wealth' theory, was written by:",
+      "difficulty": "MEDIUM",
+      "options": ["R. C. Dutt", "Dadabhai Naoroji", "Gopal Krishna Gokhale", "Mahadev Govind Ranade"],
+      "answer": 1,
+      "explanation": "The Drain Theory argued that Britain was draining India's wealth through home charges, salaries, pensions and profits sent abroad.\nIt was set out by Dadabhai Naoroji, the 'Grand Old Man of India', in this book published in 1901.\nR. C. Dutt also criticised colonial economics, but in 'The Economic History of India'.\nAnswer: Dadabhai Naoroji."
+    },
+    {
+      "text": "Which is India's highest gallantry award for valour shown during peacetime?",
+      "difficulty": "MEDIUM",
+      "options": ["Param Vir Chakra", "Kirti Chakra", "Ashoka Chakra", "Vir Chakra"],
+      "answer": 2,
+      "explanation": "India has two gallantry ladders.\nWartime: Param Vir Chakra > Maha Vir Chakra > Vir Chakra.\nPeacetime: Ashoka Chakra > Kirti Chakra > Shaurya Chakra.\nParam Vir Chakra is the wartime equivalent, which is the common trap.\nAnswer: Ashoka Chakra."
+    },
+    {
+      "text": "Which of the following shows India's civilian awards in the correct DESCENDING order of precedence?",
+      "difficulty": "MEDIUM",
+      "options": ["Bharat Ratna > Padma Vibhushan > Padma Bhushan > Padma Shri", "Bharat Ratna > Padma Bhushan > Padma Vibhushan > Padma Shri", "Padma Vibhushan > Bharat Ratna > Padma Bhushan > Padma Shri", "Bharat Ratna > Padma Shri > Padma Bhushan > Padma Vibhushan"],
+      "answer": 0,
+      "explanation": "Bharat Ratna is the highest civilian award.\nAmong the Padma awards, Padma Vibhushan (exceptional and distinguished service) ranks first, then Padma Bhushan (distinguished service of a high order), then Padma Shri (distinguished service).\nMemory aid: Vibhushan > Bhushan > Shri.\nCorrect order: Bharat Ratna > Padma Vibhushan > Padma Bhushan > Padma Shri."
+    },
+    {
+      "text": "The Ramon Magsaysay Award, often called 'Asia's Nobel Prize', is named after a former President of which country?",
+      "difficulty": "MEDIUM",
+      "options": ["Indonesia", "Thailand", "Malaysia", "Philippines"],
+      "answer": 3,
+      "explanation": "Ramon Magsaysay was President of the Philippines and died in a plane crash in 1957.\nThe award was set up in 1957 in his memory and is presented in Manila.\nIndian recipients include Vinoba Bhave (1958) and Mother Teresa (1962).\nAnswer: Philippines."
+    },
+    {
+      "text": "In 2021, the Rajiv Gandhi Khel Ratna Award, India's highest sporting honour, was renamed after which sportsperson?",
+      "difficulty": "MEDIUM",
+      "options": ["Milkha Singh", "Major Dhyan Chand", "Sachin Tendulkar", "P. T. Usha"],
+      "answer": 1,
+      "explanation": "In August 2021 the award was renamed the Major Dhyan Chand Khel Ratna Award.\nDhyan Chand, the hockey 'Wizard', won Olympic gold with India in 1928, 1932 and 1936.\nHis birthday, 29 August, is also observed as National Sports Day.\nAnswer: Major Dhyan Chand."
+    },
+    {
+      "text": "Which of the following book–author pairs is INCORRECTLY matched?",
+      "difficulty": "MEDIUM",
+      "options": ["Malgudi Days – R. K. Narayan", "The God of Small Things – Arundhati Roy", "The White Tiger – Vikram Seth", "Midnight's Children – Salman Rushdie"],
+      "answer": 2,
+      "explanation": "Check each pair one by one.\n'Malgudi Days' is by R. K. Narayan – correct.\n'The God of Small Things' is by Arundhati Roy (Booker 1997) – correct.\n'Midnight's Children' is by Salman Rushdie (Booker 1981) – correct.\n'The White Tiger' is by Aravind Adiga (Booker 2008); Vikram Seth wrote 'A Suitable Boy'.\nAnswer: The White Tiger – Vikram Seth."
+    },
+    {
+      "text": "Who was the first recipient of the Dadasaheb Phalke Award, instituted in 1969?",
+      "difficulty": "HARD",
+      "options": ["Prithviraj Kapoor", "Satyajit Ray", "Raj Kapoor", "Devika Rani"],
+      "answer": 3,
+      "explanation": "The Dadasaheb Phalke Award is India's highest honour in cinema, named after the maker of 'Raja Harishchandra' (1913), India's first full-length feature film.\nThe first award went to actress Devika Rani, called the 'First Lady of Indian Cinema'.\nPrithviraj Kapoor (1971), Satyajit Ray (1984) and Raj Kapoor (1987) received it later.\nAnswer: Devika Rani."
+    },
+    {
+      "text": "In 2022, 'Tomb of Sand' became the first book translated from an Indian language to win the International Booker Prize. In which language was the original novel 'Ret Samadhi' by Geetanjali Shree written?",
+      "difficulty": "HARD",
+      "options": ["Hindi", "Urdu", "Bengali", "Marathi"],
+      "answer": 0,
+      "explanation": "'Ret Samadhi' was written in Hindi by Geetanjali Shree.\nIt was translated into English as 'Tomb of Sand' by Daisy Rockwell.\nThe International Booker honours fiction translated into English, and the prize is shared by author and translator.\nAnswer: Hindi."
+    }
+  ]
+}

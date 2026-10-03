@@ -1,0 +1,169 @@
+{
+  "exam": "ssc-cgl",
+  "subject": "quantitative-aptitude",
+  "chapter": "time-and-work",
+  "notes": {
+    "summary": "Time and Work covers rates of working, combined work, efficiency, man-days, wages and pipes and cisterns. SSC CGL asks 1-3 questions on it in Tier-I and Tier-II, and most of them can be solved in under a minute with the LCM (total work units) method.",
+    "keyPoints": [
+      "If A finishes a job in n days, A does 1/n of it per day. A and B together take (a × b)/(a + b) days: 20 and 30 days together take 600/50 = 12 days.",
+      "LCM method: take total work = LCM of the given days so that every daily output is a whole number. A = 15 days, B = 20 days → work = 60 units, A = 4 units/day, B = 3 units/day.",
+      "Efficiency is inversely proportional to time. If A is 50% more efficient than B (efficiency 3 : 2), A takes 2/3 of B's time (time 2 : 3).",
+      "Chain rule: M1 × D1 × H1 / W1 = M2 × D2 × H2 / W2. 8 men × 15 days × 6 h = 720 man-hours, so 10 men working 8 h a day need 720 ÷ 80 = 9 days.",
+      "Wages are shared in the ratio of work done, not days taken. If C does 1/8 of the job, C gets 1/8 of the total payment.",
+      "Pair rates: if (A+B), (B+C) and (C+A) are given, add them to get 2(A+B+C), then halve. 12, 15, 20 days → 5 + 4 + 3 = 12 units = 2(A+B+C), so all three do 6 units/day.",
+      "Pipes: a filling pipe is positive work, an emptying pipe or leak is negative work. Fill in 10 h, empty in 15 h → net 1/10 − 1/15 = 1/30, so the tank fills in 30 h.",
+      "Leak shortcut: if a pipe fills a tank in x h alone and in y h with a leak, the leak empties the full tank in xy/(y − x) h. 6 h and 8 h → 48/2 = 24 h.",
+      "Alternate-day work: find the work done in one full cycle, count the full cycles, then finish the leftover units with whoever works next."
+    ],
+    "traps": [
+      "Adding days instead of rates: 10 days and 15 days together is NOT 25 days; it is 6 days.",
+      "Splitting wages in the ratio of days taken instead of the ratio of work done (efficiency).",
+      "In alternate-day questions, forgetting to check whose turn it is on the last, fractional day.",
+      "Treating a leak or an emptying pipe as positive work.",
+      "When workers leave or join midway, forgetting to subtract the work already finished before recalculating."
+    ],
+    "examTip": "Convert every question to total work units using the LCM of the given days right away; it removes fractions and saves 20-30 seconds per question."
+  },
+  "questions": [
+    {
+      "text": "A can do a piece of work in 20 days and B can do it in 30 days. In how many days will they finish it working together?",
+      "difficulty": "EASY",
+      "options": ["50 days", "12 days", "25 days", "10 days"],
+      "answer": 1,
+      "explanation": "Take total work = LCM(20, 30) = 60 units.\nA does 60/20 = 3 units/day and B does 60/30 = 2 units/day.\nTogether they do 5 units/day.\nTime = 60 ÷ 5 = 12 days. (Shortcut: 20 × 30/(20 + 30) = 600/50 = 12 days.)"
+    },
+    {
+      "text": "12 men can complete a work in 18 days. How many men are needed to complete the same work in 8 days?",
+      "difficulty": "EASY",
+      "options": ["24", "32", "27", "36"],
+      "answer": 2,
+      "explanation": "Total work = 12 × 18 = 216 man-days.\nMen needed to finish it in 8 days = 216 ÷ 8 = 27 men."
+    },
+    {
+      "text": "A and B together can do a work in 8 days. A alone can do it in 12 days. In how many days can B alone do it?",
+      "difficulty": "EASY",
+      "options": ["24 days", "20 days", "4 days", "16 days"],
+      "answer": 0,
+      "explanation": "B's one-day work = 1/8 − 1/12 = (3 − 2)/24 = 1/24.\nSo B alone takes 24 days.\nShortcut: 8 × 12/(12 − 8) = 96/4 = 24 days."
+    },
+    {
+      "text": "Pipe A can fill a tank in 10 hours and pipe B can empty the full tank in 15 hours. If both pipes are opened together on an empty tank, in how many hours will the tank be filled?",
+      "difficulty": "EASY",
+      "options": ["6 hours", "25 hours", "5 hours", "30 hours"],
+      "answer": 3,
+      "explanation": "Take the tank = LCM(10, 15) = 30 units.\nPipe A adds 3 units/hour and pipe B removes 2 units/hour.\nNet filling = 3 − 2 = 1 unit/hour.\nTime to fill = 30 ÷ 1 = 30 hours."
+    },
+    {
+      "text": "A is 50% more efficient than B. If B alone can finish a work in 30 days, in how many days can A alone finish it?",
+      "difficulty": "EASY",
+      "options": ["45 days", "15 days", "20 days", "25 days"],
+      "answer": 2,
+      "explanation": "50% more efficient means efficiency A : B = 150 : 100 = 3 : 2.\nTime is inversely proportional to efficiency, so time A : B = 2 : 3.\nB takes 30 days, so 3 parts = 30 and 1 part = 10.\nA takes 2 × 10 = 20 days."
+    },
+    {
+      "text": "8 men working 6 hours a day can finish a work in 15 days. In how many days will 10 men finish the same work working 8 hours a day?",
+      "difficulty": "EASY",
+      "options": ["12", "9", "10", "8"],
+      "answer": 1,
+      "explanation": "Use M1 × D1 × H1 = M2 × D2 × H2.\n8 × 15 × 6 = 10 × D × 8\n720 = 80D\nD = 9 days."
+    },
+    {
+      "text": "A can do a piece of work in 15 days and B can do it in 20 days. They work together for 4 days and then A leaves. In how many days will B finish the remaining work?",
+      "difficulty": "MEDIUM",
+      "options": ["8 days", "12 days", "9 1/3 days", "10 2/3 days"],
+      "answer": 3,
+      "explanation": "Total work = LCM(15, 20) = 60 units; A = 4 units/day, B = 3 units/day.\nIn 4 days together they do 4 × 7 = 28 units.\nRemaining work = 60 − 28 = 32 units.\nB alone needs 32 ÷ 3 = 10 2/3 days."
+    },
+    {
+      "text": "A, B and C can complete a work in 10, 12 and 15 days respectively. In how many days will they complete it working together?",
+      "difficulty": "MEDIUM",
+      "options": ["4 days", "5 days", "3 days", "6 days"],
+      "answer": 0,
+      "explanation": "Total work = LCM(10, 12, 15) = 60 units.\nA = 6, B = 5 and C = 4 units/day, so together = 15 units/day.\nTime = 60 ÷ 15 = 4 days."
+    },
+    {
+      "text": "A and B together can do a work in 12 days, B and C together in 15 days, and C and A together in 20 days. In how many days can A, B and C together finish the work?",
+      "difficulty": "MEDIUM",
+      "options": ["5 days", "10 days", "15 days", "8 days"],
+      "answer": 1,
+      "explanation": "Total work = LCM(12, 15, 20) = 60 units.\n(A+B) = 5, (B+C) = 4 and (C+A) = 3 units/day.\nAdding: 2(A+B+C) = 12, so A+B+C = 6 units/day.\nTime = 60 ÷ 6 = 10 days. (Forgetting to halve gives the wrong answer 5 days.)"
+    },
+    {
+      "text": "A can do a work in 6 days and B in 8 days. With the help of C, they finish the work in 3 days and are paid ₹4800 in all. What is C's share?",
+      "difficulty": "MEDIUM",
+      "options": ["₹800", "₹1200", "₹600", "₹400"],
+      "answer": 2,
+      "explanation": "In 3 days, A does 3/6 = 1/2 of the work and B does 3/8 of it.\nC's work = 1 − 1/2 − 3/8 = 1/8.\nWages are shared in the ratio of work done.\nC's share = 1/8 × 4800 = ₹600."
+    },
+    {
+      "text": "2 men and 3 women can finish a work in 10 days, while 3 men and 4 women can finish it in 7 days. In how many days will 1 man alone finish the work?",
+      "difficulty": "MEDIUM",
+      "options": ["35 days", "70 days", "28 days", "40 days"],
+      "answer": 0,
+      "explanation": "10(2M + 3W) = 7(3M + 4W)\n20M + 30W = 21M + 28W, so M = 2W (one man works like two women).\nTake 1 woman = 1 unit/day and 1 man = 2 units/day.\nTotal work = 10 × (2 × 2 + 3 × 1) = 70 units.\n1 man alone takes 70 ÷ 2 = 35 days."
+    },
+    {
+      "text": "A takes 10 days less than B to complete a work. Working together, they complete it in 12 days. In how many days can B alone complete the work?",
+      "difficulty": "MEDIUM",
+      "options": ["20 days", "24 days", "30 days", "40 days"],
+      "answer": 2,
+      "explanation": "Let B take x days; then A takes (x − 10) days.\n1/x + 1/(x − 10) = 1/12.\nTry x = 30: A takes 20 days, and 1/30 + 1/20 = 2/60 + 3/60 = 5/60 = 1/12, which matches.\nSo B alone takes 30 days (A takes 20 days)."
+    },
+    {
+      "text": "Pipes A and B can fill a tank in 12 minutes and 15 minutes respectively, while pipe C can empty the full tank in 20 minutes. If all three pipes are opened together on an empty tank, in how much time will the tank be filled?",
+      "difficulty": "MEDIUM",
+      "options": ["6 minutes", "15 minutes", "12 minutes", "10 minutes"],
+      "answer": 3,
+      "explanation": "Take the tank = LCM(12, 15, 20) = 60 units.\nA fills 5, B fills 4 and C empties 3 units per minute.\nNet filling = 5 + 4 − 3 = 6 units per minute.\nTime = 60 ÷ 6 = 10 minutes."
+    },
+    {
+      "text": "A pipe can fill a tank in 6 hours. Because of a leak at the bottom, it takes 8 hours to fill the tank. In how many hours can the leak alone empty the full tank?",
+      "difficulty": "MEDIUM",
+      "options": ["14 hours", "24 hours", "2 hours", "48 hours"],
+      "answer": 1,
+      "explanation": "Leak's rate = 1/6 − 1/8 = (4 − 3)/24 = 1/24 of the tank per hour.\nSo the leak empties the full tank in 24 hours.\nShortcut: xy/(y − x) = 6 × 8/(8 − 6) = 48/2 = 24 hours."
+    },
+    {
+      "text": "40 men can finish a work in 30 days. They work for 10 days, and then 10 more men join them. In how many more days will the remaining work be finished?",
+      "difficulty": "MEDIUM",
+      "options": ["24", "20", "16", "26"],
+      "answer": 2,
+      "explanation": "Total work = 40 × 30 = 1200 man-days.\nWork done in the first 10 days = 40 × 10 = 400 man-days.\nRemaining work = 800 man-days, now done by 40 + 10 = 50 men.\nDays needed = 800 ÷ 50 = 16 more days."
+    },
+    {
+      "text": "3 men or 5 women can do a work in 12 days. How many days will 6 men and 5 women take to do the same work?",
+      "difficulty": "MEDIUM",
+      "options": ["6 days", "4 days", "3 days", "8 days"],
+      "answer": 1,
+      "explanation": "3 men = 5 women, so 5 women can be replaced by 3 men.\n6 men + 5 women = 6 + 3 = 9 men.\nWork = 3 × 12 = 36 man-days.\nTime for 9 men = 36 ÷ 9 = 4 days."
+    },
+    {
+      "text": "A can do a work in 12 days and B in 18 days. They work on alternate days, with A working on the first day. In how many days will the work be completed?",
+      "difficulty": "HARD",
+      "options": ["14 1/2 days", "7 1/5 days", "15 days", "14 1/3 days"],
+      "answer": 3,
+      "explanation": "Total work = LCM(12, 18) = 36 units; A = 3 units/day, B = 2 units/day.\nOne 2-day cycle (A then B) = 5 units.\n7 cycles = 14 days = 35 units, leaving 1 unit.\nDay 15 is A's turn: 1 unit at 3 units/day takes 1/3 day.\nTotal = 14 1/3 days."
+    },
+    {
+      "text": "A and B together can finish a work in 30 days. They work together for 20 days, after which B leaves. A finishes the remaining work in 20 more days. In how many days can A alone finish the whole work?",
+      "difficulty": "HARD",
+      "options": ["60 days", "40 days", "45 days", "90 days"],
+      "answer": 0,
+      "explanation": "In 20 days together they finish 20/30 = 2/3 of the work.\nThe remaining 1/3 is done by A alone in 20 days.\nSo A alone does the whole work in 20 × 3 = 60 days."
+    },
+    {
+      "text": "12 men working 8 hours a day can dig a trench 120 m long in 10 days. How many men, working 6 hours a day, are needed to dig a trench 90 m long in 12 days?",
+      "difficulty": "HARD",
+      "options": ["10", "12", "8", "15"],
+      "answer": 0,
+      "explanation": "Use M1 × D1 × H1 / W1 = M2 × D2 × H2 / W2.\n(12 × 10 × 8)/120 = (M × 12 × 6)/90\n960/120 = 72M/90\n8 = 0.8M\nM = 10 men."
+    },
+    {
+      "text": "A can do 80% of a work in 20 days. He then calls B, and together they finish the remaining work in 3 days. How long would B alone take to do the whole work?",
+      "difficulty": "HARD",
+      "options": ["25 days", "15 days", "30 days", "37 1/2 days"],
+      "answer": 3,
+      "explanation": "A does 80% in 20 days, so A alone needs 20 ÷ 0.8 = 25 days for the whole work.\nThe remaining 20% is done by A and B together in 3 days, so together they need 3 ÷ 0.2 = 15 days.\nB's one-day work = 1/15 − 1/25 = (5 − 3)/75 = 2/75.\nB alone takes 75/2 = 37 1/2 days."
+    }
+  ]
+}

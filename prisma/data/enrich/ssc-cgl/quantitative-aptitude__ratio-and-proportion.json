@@ -1,0 +1,169 @@
+{
+  "exam": "ssc-cgl",
+  "subject": "quantitative-aptitude",
+  "chapter": "ratio-and-proportion",
+  "notes": {
+    "summary": "Ratio and Proportion covers comparing quantities, combining ratios, the different kinds of proportional (third, fourth, mean), variation, and dividing an amount in a given ratio. SSC CGL tests it directly in 1-2 questions and indirectly in mixtures, partnership, coins, incomes and ages.",
+    "keyPoints": [
+      "a : b means a/b. Multiplying or dividing both terms by the same non-zero number does not change the ratio, so 12 : 18 = 2 : 3.",
+      "To combine a : b and b : c, make the common term equal using the LCM. Example: A : B = 3 : 4 and B : C = 6 : 7 become 9 : 12 and 12 : 14, so A : B : C = 9 : 12 : 14.",
+      "In a proportion a : b = c : d, the product of the extremes equals the product of the means: ad = bc. Fourth proportional d = bc/a. Third proportional of a and b = b²/a. Mean proportional = √(ab). Example: the mean proportional of 4 and 9 is 6.",
+      "Duplicate ratio = a² : b², sub-duplicate = √a : √b, triplicate = a³ : b³. Compound ratio of a : b and c : d = ac : bd.",
+      "If 2A = 3B = 4C, then A : B : C = 1/2 : 1/3 : 1/4. Multiply by the LCM 12 to get 6 : 4 : 3.",
+      "To divide N in the ratio a : b : c, each share = (its part ÷ total parts) × N. Example: ₹600 in 1 : 2 : 3 gives ₹100, ₹200 and ₹300.",
+      "Direct variation: x = ky, so x/y stays constant. Inverse variation: xy = k stays constant.",
+      "Coin questions: convert the ratio of numbers into a ratio of values by multiplying each part by its denomination.",
+      "Mixture questions: keep the component that does not change fixed, and find how much of the other is needed to reach the new ratio."
+    ],
+    "traps": [
+      "Reading 2A = 3B = 4C as A : B : C = 2 : 3 : 4. The correct ratio is the reciprocals, 6 : 4 : 3.",
+      "Adding ratios directly when equal quantities of two mixtures are combined. Convert each to a fraction of its total first.",
+      "Confusing a ratio of numbers with a ratio of values in coin questions.",
+      "Mixing up third proportional (b²/a), fourth proportional (bc/a) and mean proportional (√ab).",
+      "Combining A : B and B : C without first making B the same in both ratios."
+    ],
+    "examTip": "Think in 'parts': find the value of one part first, and when an equation looks messy, plug the options back in to see which one fits."
+  },
+  "questions": [
+    {
+      "text": "What is the third proportional to 4 and 6?",
+      "difficulty": "EASY",
+      "options": ["8", "12", "9", "24"],
+      "answer": 2,
+      "explanation": "If x is the third proportional, then 4 : 6 = 6 : x.\n4x = 36, so x = 9.\nFormula: the third proportional of a and b = b²/a = 36/4 = 9."
+    },
+    {
+      "text": "What is the mean proportional between 9 and 16?",
+      "difficulty": "EASY",
+      "options": ["12", "12.5", "25", "144"],
+      "answer": 0,
+      "explanation": "If x is the mean proportional, then 9 : x = x : 16, so x² = 9 × 16 = 144.\nx = √144 = 12.\nNote: 12.5 is the average, not the mean proportional."
+    },
+    {
+      "text": "What is the compound ratio of 2 : 3, 6 : 5 and 5 : 8?",
+      "difficulty": "EASY",
+      "options": ["13 : 16", "1 : 2", "2 : 1", "3 : 5"],
+      "answer": 1,
+      "explanation": "Compound ratio = product of antecedents : product of consequents.\n= (2 × 6 × 5) : (3 × 5 × 8) = 60 : 120.\n= 1 : 2."
+    },
+    {
+      "text": "Two numbers are in the ratio 3 : 5 and their sum is 96. What is the larger number?",
+      "difficulty": "EASY",
+      "options": ["36", "48", "64", "60"],
+      "answer": 3,
+      "explanation": "Total parts = 3 + 5 = 8.\nOne part = 96/8 = 12.\nThe larger number = 5 × 12 = 60."
+    },
+    {
+      "text": "x varies inversely as y. When x = 12, y = 5. What is the value of x when y = 15?",
+      "difficulty": "EASY",
+      "options": ["36", "3", "4", "8"],
+      "answer": 2,
+      "explanation": "Inverse variation means xy = constant.\n12 × 5 = 60, so x × 15 = 60.\nx = 60/15 = 4.\nNote: 36 comes from wrongly treating it as direct variation."
+    },
+    {
+      "text": "If x : y = 3 : 4, what is the value of (5x − 2y) : (3x + 2y)?",
+      "difficulty": "EASY",
+      "options": ["7 : 17", "17 : 7", "23 : 1", "7 : 9"],
+      "answer": 0,
+      "explanation": "Put x = 3k and y = 4k.\n5x − 2y = 15k − 8k = 7k.\n3x + 2y = 9k + 8k = 17k.\nRatio = 7 : 17."
+    },
+    {
+      "text": "If A : B = 3 : 4 and B : C = 6 : 7, then A : B : C is:",
+      "difficulty": "MEDIUM",
+      "options": ["3 : 4 : 7", "9 : 12 : 7", "6 : 8 : 7", "9 : 12 : 14"],
+      "answer": 3,
+      "explanation": "Make B equal in both ratios. The LCM of 4 and 6 is 12.\nA : B = 3 : 4 = 9 : 12 (multiply by 3).\nB : C = 6 : 7 = 12 : 14 (multiply by 2).\nA : B : C = 9 : 12 : 14."
+    },
+    {
+      "text": "What number must be added to each of 6, 14, 18 and 38 so that the resulting numbers are in proportion?",
+      "difficulty": "MEDIUM",
+      "options": ["1", "2", "3", "4"],
+      "answer": 1,
+      "explanation": "Let x be added. Then (6 + x)(38 + x) = (14 + x)(18 + x).\n228 + 44x + x² = 252 + 32x + x².\n12x = 24, so x = 2.\nCheck: 8 : 16 = 20 : 40 = 1 : 2. The number is 2."
+    },
+    {
+      "text": "The incomes of A and B are in the ratio 4 : 3 and their expenditures are in the ratio 3 : 2. If each of them saves ₹6,000, what is A's income?",
+      "difficulty": "MEDIUM",
+      "options": ["₹18,000", "₹12,000", "₹24,000", "₹30,000"],
+      "answer": 2,
+      "explanation": "Let the incomes be 4x and 3x and the expenditures 3y and 2y.\n4x − 3y = 6,000 and 3x − 2y = 6,000.\nMultiply the first by 2 and the second by 3: 8x − 6y = 12,000 and 9x − 6y = 18,000. Subtracting gives x = 6,000.\nA's income = 4 × 6,000 = ₹24,000 (check: A's expenditure = ₹18,000, so A saves ₹6,000)."
+    },
+    {
+      "text": "A bag contains ₹1, 50-paise and 25-paise coins in the ratio 5 : 6 : 8. If the total value of the coins is ₹210, how many 50-paise coins are there?",
+      "difficulty": "MEDIUM",
+      "options": ["63", "84", "105", "126"],
+      "answer": 3,
+      "explanation": "Convert the number ratio into a value ratio: 5 × 1 : 6 × 0.50 : 8 × 0.25 = 5 : 3 : 2.\nTotal value parts = 10, so one part = 210/10 = ₹21.\nValue of the 50-paise coins = 3 × 21 = ₹63.\nNumber of 50-paise coins = 63 ÷ 0.50 = 126."
+    },
+    {
+      "text": "A 60-litre mixture contains milk and water in the ratio 2 : 1. How much water must be added to make the ratio of milk to water 1 : 2?",
+      "difficulty": "MEDIUM",
+      "options": ["60 litres", "40 litres", "20 litres", "80 litres"],
+      "answer": 0,
+      "explanation": "Milk = 2/3 × 60 = 40 L and water = 20 L.\nMilk stays at 40 L. For milk : water = 1 : 2, water must be 80 L.\nWater to be added = 80 − 20 = 60 litres."
+    },
+    {
+      "text": "Two numbers are in the ratio 3 : 5. If 9 is subtracted from each of them, the ratio becomes 12 : 23. What is the smaller number?",
+      "difficulty": "MEDIUM",
+      "options": ["27", "33", "36", "55"],
+      "answer": 1,
+      "explanation": "Let the numbers be 3x and 5x.\n(3x − 9)/(5x − 9) = 12/23, so 69x − 207 = 60x − 108.\n9x = 99, which gives x = 11.\nThe smaller number = 3 × 11 = 33 (check: 24 : 46 = 12 : 23)."
+    },
+    {
+      "text": "₹3,510 is divided among A, B and C such that 2 times A's share = 3 times B's share = 4 times C's share. What is B's share?",
+      "difficulty": "MEDIUM",
+      "options": ["₹1,170", "₹810", "₹1,080", "₹1,620"],
+      "answer": 2,
+      "explanation": "2A = 3B = 4C = k gives A = k/2, B = k/3 and C = k/4.\nA : B : C = 1/2 : 1/3 : 1/4 = 6 : 4 : 3 (multiply by 12).\nTotal parts = 13, so one part = 3,510/13 = 270.\nB's share = 4 × 270 = ₹1,080."
+    },
+    {
+      "text": "Two vessels contain milk and water in the ratios 3 : 2 and 7 : 3 respectively. If equal quantities from the two vessels are mixed, what is the ratio of milk to water in the new mixture?",
+      "difficulty": "MEDIUM",
+      "options": ["2 : 1", "7 : 3", "3 : 2", "13 : 7"],
+      "answer": 3,
+      "explanation": "Make the totals equal. 3 : 2 has 5 parts and 7 : 3 has 10 parts, and the LCM is 10.\nFirst vessel: 3 : 2 = 6 : 4 (out of 10).\nSecond vessel: 7 : 3 (out of 10).\nMilk = 6 + 7 = 13 and water = 4 + 3 = 7, so the ratio is 13 : 7."
+    },
+    {
+      "text": "If A : B = 1/2 : 1/3 and B : C = 1/5 : 1/3, then A : B : C is:",
+      "difficulty": "MEDIUM",
+      "options": ["9 : 6 : 10", "3 : 2 : 5", "15 : 10 : 6", "6 : 9 : 10"],
+      "answer": 0,
+      "explanation": "A : B = 1/2 : 1/3 = 3 : 2 (multiply by 6).\nB : C = 1/5 : 1/3 = 3 : 5 (multiply by 15).\nMake B equal (LCM 6): A : B = 9 : 6 and B : C = 6 : 10.\nA : B : C = 9 : 6 : 10."
+    },
+    {
+      "text": "Two numbers are in the ratio 3 : 4 and the difference of their squares is 112. What is the sum of the numbers?",
+      "difficulty": "MEDIUM",
+      "options": ["21", "28", "35", "14"],
+      "answer": 1,
+      "explanation": "Let the numbers be 3x and 4x.\n16x² − 9x² = 7x² = 112, so x² = 16 and x = 4.\nThe numbers are 12 and 16.\nSum = 12 + 16 = 28."
+    },
+    {
+      "text": "₹5,625 is divided among A, B and C such that A gets one-half of what B and C together get, and B gets two-thirds of what A and C together get. What is C's share?",
+      "difficulty": "HARD",
+      "options": ["₹1,875", "₹2,250", "₹1,500", "₹1,250"],
+      "answer": 2,
+      "explanation": "A = (B + C)/2 means A : (B + C) = 1 : 2, so A = 1/3 of the total = 5,625/3 = ₹1,875.\nB = 2/3 (A + C) means B : (A + C) = 2 : 3, so B = 2/5 of the total = ₹2,250.\nC = 5,625 − 1,875 − 2,250 = ₹1,500."
+    },
+    {
+      "text": "If (a + b) : (b + c) : (c + a) = 6 : 7 : 8 and a + b + c = 14, what is the value of c?",
+      "difficulty": "HARD",
+      "options": ["8", "7", "5", "6"],
+      "answer": 3,
+      "explanation": "Adding all three: 2(a + b + c) = 6k + 7k + 8k = 21k.\n2 × 14 = 21k, so k = 4/3.\na + b = 6k = 8.\nc = (a + b + c) − (a + b) = 14 − 8 = 6."
+    },
+    {
+      "text": "The price of a diamond varies directly as the square of its weight. A diamond worth ₹72,000 breaks into three pieces whose weights are in the ratio 1 : 2 : 3. What is the loss caused by the breaking?",
+      "difficulty": "HARD",
+      "options": ["₹44,000", "₹28,000", "₹36,000", "₹48,000"],
+      "answer": 0,
+      "explanation": "Let the original weight be 1 + 2 + 3 = 6 units. Then price = k × 6² = 36k = 72,000, so k = 2,000.\nValue of the pieces = k(1² + 2² + 3²) = 14k = 2,000 × 14 = ₹28,000.\nLoss = 72,000 − 28,000 = ₹44,000."
+    },
+    {
+      "text": "₹2,340 was to be divided among A, B and C in the ratio 1/2 : 1/3 : 1/4, but by mistake it was divided in the ratio 2 : 3 : 4. By how much did C's share increase because of the mistake?",
+      "difficulty": "HARD",
+      "options": ["₹520", "₹500", "₹260", "₹540"],
+      "answer": 1,
+      "explanation": "Correct ratio 1/2 : 1/3 : 1/4 = 6 : 4 : 3 (13 parts). C's correct share = 3/13 × 2,340 = ₹540.\nWrong ratio 2 : 3 : 4 (9 parts). C's wrong share = 4/9 × 2,340 = ₹1,040.\nIncrease = 1,040 − 540 = ₹500."
+    }
+  ]
+}

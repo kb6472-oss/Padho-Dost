@@ -1,0 +1,162 @@
+{
+  "exam": "ssc-cgl",
+  "subject": "general-awareness",
+  "chapter": "indian-history",
+  "notes": {
+    "summary": "This chapter spans ancient India (Harappan civilisation, Buddhism, the Mauryas), medieval India (the Delhi Sultanate, the Mughals) and modern India (British rule, reform movements and the freedom struggle). SSC CGL asks 2-3 history questions per shift, mostly direct facts: who founded what, which battle in which year, and the chronological order of national-movement events.",
+    "keyPoints": [
+      "Harappan sites: Lothal (Gujarat) has the dockyard, Mohenjo-daro (Sindh) the Great Bath, Kalibangan (Rajasthan) a ploughed field and fire altars, and Dholavira (Gujarat) water reservoirs.",
+      "Buddha: born at Lumbini, enlightened at Bodh Gaya, first sermon at Sarnath (Dharmachakra Pravartana), mahaparinirvana at Kushinagar.",
+      "Mauryas: under Chandragupta Maurya, Megasthenes wrote Indica and Kautilya wrote the Arthashastra. Ashoka turned to Buddhism after the Kalinga war (c. 261 BCE).",
+      "Delhi Sultanate: Iltutmish brought in the iqta system and the silver tanka. Alauddin Khilji introduced market control, dagh (branding of horses) and chehra (descriptive rolls of soldiers). Muhammad bin Tughlaq introduced token currency and moved the capital to Daulatabad.",
+      "Panipat: 1526 Babur vs Ibrahim Lodi, 1556 Akbar (led by Bairam Khan) vs Hemu, 1761 Ahmad Shah Abdali vs the Marathas. Khanwa (1527) was Babur vs Rana Sanga.",
+      "British administrators: Warren Hastings was the first Governor-General of Bengal (Regulating Act 1773). Cornwallis brought the Permanent Settlement (1793), Wellesley the Subsidiary Alliance and Dalhousie the Doctrine of Lapse. William Bentinck abolished Sati (1829) and became the first Governor-General of India (1833).",
+      "Reform bodies: Brahmo Samaj by Raja Ram Mohan Roy (1828), Satyashodhak Samaj by Jyotiba Phule (1873), Arya Samaj by Dayanand Saraswati (1875), Ramakrishna Mission by Swami Vivekananda (1897).",
+      "Congress milestones: 1885 Bombay (first session, presided by W.C. Bonnerjee), 1907 Surat split, 1916 Lucknow Pact with the Muslim League, 1929 Lahore (Purna Swaraj, president Nehru), 1931 Karachi (resolution on Fundamental Rights).",
+      "Sequence to memorise: Partition of Bengal 1905 → Rowlatt Act and Jallianwala Bagh 1919 → Non-Cooperation 1920–22 (called off after Chauri Chaura, Feb 1922) → Simon Commission 1928 → Dandi March 1930 → Gandhi–Irwin Pact 1931 → Quit India 1942.",
+      "Revolutionaries abroad: Ghadar Party (1913, headquarters San Francisco) led by Lala Har Dayal. India House (London, 1905) founded by Shyamji Krishna Varma."
+    ],
+    "traps": [
+      "Mixing up Bodh Gaya (enlightenment) and Sarnath (first sermon).",
+      "Mixing up the three battles of Panipat, or Panipat (1526) with Khanwa (1527).",
+      "Placing the Purna Swaraj resolution at Calcutta (1928) or Karachi (1931) instead of Lahore (1929).",
+      "Crediting Warren Hastings with the Permanent Settlement. Cornwallis introduced it in 1793.",
+      "Getting the order wrong: the Rowlatt Act (1919) came before Non-Cooperation, and Chauri Chaura (1922) ended it."
+    ],
+    "examTip": "For chronology questions, fix 5 anchor years (1905, 1919, 1922, 1930, 1942). You can then solve most order questions by placing just the first and last items."
+  },
+  "questions": [
+    {
+      "text": "The dockyard of the Harappan (Indus Valley) civilisation has been found at:",
+      "difficulty": "EASY",
+      "options": [
+        "Harappa",
+        "Mohenjo-daro",
+        "Lothal",
+        "Kalibangan"
+      ],
+      "answer": 2,
+      "explanation": "Lothal, in present-day Gujarat near the Gulf of Khambhat, has a large brick-lined basin that is identified as a dockyard. Mohenjo-daro is known for the Great Bath, and Kalibangan for a ploughed field and fire altars. So the dockyard site is Lothal."
+    },
+    {
+      "text": "Gautama Buddha delivered his first sermon at:",
+      "difficulty": "EASY",
+      "options": [
+        "Bodh Gaya",
+        "Sarnath",
+        "Kushinagar",
+        "Lumbini"
+      ],
+      "answer": 1,
+      "explanation": "The four key places in Buddha's life are Lumbini (birth), Bodh Gaya (enlightenment), Sarnath (first sermon) and Kushinagar (death, or mahaparinirvana). The first sermon at the Deer Park in Sarnath is called Dharmachakra Pravartana, 'turning the wheel of law'. So the answer is Sarnath."
+    },
+    {
+      "text": "The Brahmo Samaj (started as the Brahmo Sabha in 1828) was founded by:",
+      "difficulty": "EASY",
+      "options": [
+        "Raja Ram Mohan Roy",
+        "Swami Dayanand Saraswati",
+        "Swami Vivekananda",
+        "Jyotiba Phule"
+      ],
+      "answer": 0,
+      "explanation": "Raja Ram Mohan Roy founded the Brahmo Sabha in Calcutta in 1828, and it later became the Brahmo Samaj. Dayanand Saraswati founded the Arya Samaj (1875), Vivekananda the Ramakrishna Mission (1897) and Jyotiba Phule the Satyashodhak Samaj (1873). So the answer is Raja Ram Mohan Roy."
+    },
+    {
+      "text": "Megasthenes, the Greek author of 'Indica', came to India as the ambassador of Seleucus Nicator to the court of:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Ashoka",
+        "Bindusara",
+        "Samudragupta",
+        "Chandragupta Maurya"
+      ],
+      "answer": 3,
+      "explanation": "Chandragupta Maurya defeated Seleucus Nicator, and the treaty that followed brought Megasthenes as the Greek envoy to Pataliputra. His book Indica describes Mauryan administration and society. Bindusara and Ashoka ruled after Chandragupta, and Samudragupta belonged to the later Gupta dynasty. So the answer is Chandragupta Maurya."
+    },
+    {
+      "text": "The First Battle of Panipat (1526) was fought between:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Akbar and Hemu",
+        "Babur and Ibrahim Lodi",
+        "Ahmad Shah Abdali and the Marathas",
+        "Babur and Rana Sanga"
+      ],
+      "answer": 1,
+      "explanation": "In 1526 Babur defeated Ibrahim Lodi at Panipat and founded the Mughal Empire. Akbar vs Hemu was the Second Battle of Panipat (1556), and Abdali vs the Marathas was the Third (1761). Babur fought Rana Sanga at Khanwa in 1527. So the First Battle of Panipat was between Babur and Ibrahim Lodi."
+    },
+    {
+      "text": "Which Sultan of Delhi introduced market control measures that fixed the prices of grain, cloth and horses in Delhi?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Iltutmish",
+        "Balban",
+        "Alauddin Khilji",
+        "Muhammad bin Tughlaq"
+      ],
+      "answer": 2,
+      "explanation": "Alauddin Khilji fixed prices and set up separate markets, with officers (shahna-i-mandi) to enforce them, so that he could keep a large army on modest salaries. He also introduced dagh (branding of horses) and chehra (descriptive rolls of soldiers). Muhammad bin Tughlaq is known for token currency, not price control. So the answer is Alauddin Khilji."
+    },
+    {
+      "text": "The Permanent Settlement of land revenue in Bengal (1793) was introduced by:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Lord Cornwallis",
+        "Warren Hastings",
+        "Lord Wellesley",
+        "Lord Dalhousie"
+      ],
+      "answer": 0,
+      "explanation": "Under the Permanent Settlement, zamindars became owners of the land and paid a revenue amount fixed for ever. Lord Cornwallis introduced it in 1793. Wellesley is linked with the Subsidiary Alliance and Dalhousie with the Doctrine of Lapse. So the answer is Lord Cornwallis."
+    },
+    {
+      "text": "The Partition of Bengal in 1905 was carried out during the viceroyalty of:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Lord Ripon",
+        "Lord Minto",
+        "Lord Hardinge",
+        "Lord Curzon"
+      ],
+      "answer": 3,
+      "explanation": "Lord Curzon announced the partition, and it took effect on 16 October 1905, sparking the Swadeshi Movement. Lord Hardinge (II) annulled it in 1911, when the capital shift to Delhi was also announced. Ripon is known for local self-government (1882). So the answer is Lord Curzon."
+    },
+    {
+      "text": "At which session of the Indian National Congress was the 'Purna Swaraj' (complete independence) resolution passed in December 1929?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Calcutta",
+        "Lahore",
+        "Karachi",
+        "Haripura"
+      ],
+      "answer": 1,
+      "explanation": "The Lahore session of December 1929, presided over by Jawaharlal Nehru, adopted Purna Swaraj as the goal. 26 January 1930 was then observed as Independence Day. Calcutta (1928) asked for dominion status, and Karachi (1931) passed the Fundamental Rights resolution. So the answer is Lahore."
+    },
+    {
+      "text": "The Ghadar Party, formed in 1913 by Indians in North America with its headquarters at San Francisco, is chiefly associated with:",
+      "difficulty": "HARD",
+      "options": [
+        "Lala Har Dayal",
+        "Shyamji Krishna Varma",
+        "Rash Behari Bose",
+        "Madam Bhikaji Cama"
+      ],
+      "answer": 0,
+      "explanation": "Lala Har Dayal (with Sohan Singh Bhakna and others) organised the Ghadar Party. It published the weekly 'Ghadar' and aimed to overthrow British rule by armed revolt. Shyamji Krishna Varma founded India House in London, Bhikaji Cama unfurled an Indian flag at Stuttgart (1907), and Rash Behari Bose later led the Indian Independence League in East Asia. So the answer is Lala Har Dayal."
+    },
+    {
+      "text": "Arrange the following events in chronological order:\n1. Chauri Chaura incident\n2. Passing of the Rowlatt Act\n3. Arrival of the Simon Commission in India\n4. Gandhi–Irwin Pact",
+      "difficulty": "HARD",
+      "options": [
+        "1, 2, 3, 4",
+        "2, 3, 1, 4",
+        "2, 1, 3, 4",
+        "2, 1, 4, 3"
+      ],
+      "answer": 2,
+      "explanation": "Rowlatt Act: March 1919. Chauri Chaura: February 1922 (it led Gandhi to call off Non-Cooperation). Simon Commission arrived: February 1928. Gandhi–Irwin Pact: March 1931. The order is 2, 1, 3, 4."
+    }
+  ]
+}

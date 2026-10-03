@@ -1,0 +1,162 @@
+{
+  "exam": "ssc-cgl",
+  "subject": "general-awareness",
+  "chapter": "art-culture-gk",
+  "notes": {
+    "summary": "This chapter covers classical and folk dances, music and musicians, paintings and crafts, temple architecture and monuments, and fairs and festivals of India. SSC CGL asks 1-3 such questions per shift, mostly matching an art form to its state, an artist to an instrument, or a monument to its builder.",
+    "keyPoints": [
+      "Classical dances: Bharatanatyam – Tamil Nadu, Kathak – Uttar Pradesh/North India, Kathakali and Mohiniyattam – Kerala, Kuchipudi – Andhra Pradesh, Odissi – Odisha, Manipuri – Manipur, Sattriya – Assam.",
+      "Folk dances and theatre: Ghoomar and Kalbelia – Rajasthan, Lavani – Maharashtra, Garba – Gujarat, Bhangra and Gidda – Punjab, Bihu – Assam, Yakshagana – Karnataka, Chhau (masked) – Odisha, Jharkhand and West Bengal.",
+      "Musicians and instruments: Bismillah Khan – shehnai, Ravi Shankar – sitar, Zakir Hussain – tabla, Hariprasad Chaurasia – flute (bansuri), Shivkumar Sharma – santoor, Amjad Ali Khan – sarod.",
+      "Carnatic music: its Trinity is Tyagaraja, Muthuswami Dikshitar and Syama Sastri, and Purandara Dasa is called the father of Carnatic music. Hindustani forms include dhrupad, khayal and thumri.",
+      "Paintings: Madhubani – Bihar, Warli – Maharashtra, Pattachitra – Odisha, Kalamkari – Andhra Pradesh/Telangana, Gond – Madhya Pradesh, Phad – Rajasthan.",
+      "Temples: Brihadeeswarar, Thanjavur – Rajaraja Chola I. Kailasa temple, Ellora – Rashtrakuta king Krishna I. Shore Temple, Mahabalipuram – Pallavas. Khajuraho (MP) – Chandelas. Konark Sun Temple – Narasimhadeva I (Eastern Ganga).",
+      "Mughal monuments: Buland Darwaza and Fatehpur Sikri – Akbar. Taj Mahal and Red Fort – Shah Jahan. Humayun's Tomb – commissioned by his widow Bega Begum.",
+      "The Kumbh Mela rotates among four places: Haridwar (Ganga), Prayagraj (the Sangam), Ujjain (Shipra) and Nashik (Godavari).",
+      "Heritage sites: Hampi (Karnataka) was the capital of the Vijayanagara Empire. The Ajanta and Ellora caves are in Maharashtra.",
+      "Harvest festivals: Pongal – Tamil Nadu, Onam – Kerala, Bihu – Assam, Lohri and Baisakhi – Punjab, Makar Sankranti – across India."
+    ],
+    "traps": [
+      "Linking Mohiniyattam or Kathakali with Tamil Nadu. Both are from Kerala; Bharatanatyam is Tamil Nadu's.",
+      "Confusing Rajaraja Chola I (Brihadeeswarar, Thanjavur) with his son Rajendra Chola I (Gangaikonda Cholapuram).",
+      "Adding Varanasi to the Kumbh Mela sites. The four are Haridwar, Prayagraj, Ujjain and Nashik.",
+      "Mixing up painting styles of neighbouring states, for example Madhubani (Bihar) and Pattachitra (Odisha).",
+      "Pairing Zakir Hussain with the sitar or Bismillah Khan with the sarod. Learn artist–instrument pairs as fixed sets."
+    ],
+    "examTip": "Make one state-wise table (classical dance, folk dance, painting, festival) and revise it the night before. Most culture questions are simple state matches."
+  },
+  "questions": [
+    {
+      "text": "Which classical dance form, known for its fast footwork and spins (chakkars), is mainly associated with Uttar Pradesh?",
+      "difficulty": "EASY",
+      "options": [
+        "Odissi",
+        "Mohiniyattam",
+        "Kathak",
+        "Kuchipudi"
+      ],
+      "answer": 2,
+      "explanation": "Kathak grew out of the storytellers (kathakars) of north India and developed in the Lucknow and Banaras gharanas of Uttar Pradesh, as well as the Jaipur gharana. Its signature features are rhythmic footwork (tatkar) and rapid spins (chakkars). Odissi is from Odisha, Mohiniyattam from Kerala and Kuchipudi from Andhra Pradesh. So the answer is Kathak."
+    },
+    {
+      "text": "Ustad Bismillah Khan, a Bharat Ratna awardee, was a legendary player of the:",
+      "difficulty": "EASY",
+      "options": [
+        "Shehnai",
+        "Sarod",
+        "Tabla",
+        "Santoor"
+      ],
+      "answer": 0,
+      "explanation": "Bismillah Khan of Varanasi made the shehnai a concert instrument and received the Bharat Ratna in 2001. Amjad Ali Khan is known for the sarod, Zakir Hussain for the tabla and Shivkumar Sharma for the santoor. So the answer is the shehnai."
+    },
+    {
+      "text": "The Khajuraho group of temples, built by the Chandela rulers, is located in which state?",
+      "difficulty": "EASY",
+      "options": [
+        "Rajasthan",
+        "Madhya Pradesh",
+        "Uttar Pradesh",
+        "Odisha"
+      ],
+      "answer": 1,
+      "explanation": "The Khajuraho temples, in Chhatarpur district of Madhya Pradesh, were built by the Chandela dynasty around the 10th–11th centuries. They are a UNESCO World Heritage Site known for Nagara-style architecture and detailed sculpture, and the Kandariya Mahadeva temple is the largest. So the answer is Madhya Pradesh."
+    },
+    {
+      "text": "Warli painting, which uses simple circles, triangles and lines to show scenes of daily life, is a tribal art form of:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Bihar",
+        "Odisha",
+        "Andhra Pradesh",
+        "Maharashtra"
+      ],
+      "answer": 3,
+      "explanation": "Warli art comes from the Warli tribe of the Thane–Palghar region of Maharashtra. It is traditionally painted in white rice paste on mud walls, using basic geometric shapes. Madhubani is from Bihar, Pattachitra from Odisha and Kalamkari from Andhra Pradesh. So the answer is Maharashtra."
+    },
+    {
+      "text": "The Kumbh Mela is held by rotation at four places. Which of the following is NOT one of them?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Haridwar",
+        "Ujjain",
+        "Varanasi",
+        "Nashik"
+      ],
+      "answer": 2,
+      "explanation": "The four Kumbh Mela sites are Haridwar (Ganga), Prayagraj (confluence of the Ganga, Yamuna and mythical Saraswati), Ujjain (Shipra) and Nashik (Godavari). Varanasi is a major pilgrimage city, but it does not host the Kumbh. So the answer is Varanasi."
+    },
+    {
+      "text": "Ghoomar is a traditional folk dance of:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Rajasthan",
+        "Punjab",
+        "Gujarat",
+        "Maharashtra"
+      ],
+      "answer": 0,
+      "explanation": "Ghoomar is performed by women in flowing ghagras who spin in circles. It is linked with the Bhil community and the Rajput courts of Rajasthan. Punjab is known for Bhangra and Gidda, Gujarat for Garba and Maharashtra for Lavani. So the answer is Rajasthan."
+    },
+    {
+      "text": "Hampi, a UNESCO World Heritage Site in Karnataka, was the capital of which empire?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Chola Empire",
+        "Vijayanagara Empire",
+        "Hoysala Empire",
+        "Maratha Empire"
+      ],
+      "answer": 1,
+      "explanation": "Hampi, on the banks of the Tungabhadra, was the capital of the Vijayanagara Empire, founded in 1336 by Harihara and Bukka. It is famous for the Virupaksha and Vitthala temples, including the stone chariot. It was sacked after the Battle of Talikota in 1565. So the answer is the Vijayanagara Empire."
+    },
+    {
+      "text": "Tyagaraja, Muthuswami Dikshitar and Syama Sastri are together known as the 'Trinity' of which music tradition?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Hindustani music",
+        "Sufi music",
+        "Rabindra Sangeet",
+        "Carnatic music"
+      ],
+      "answer": 3,
+      "explanation": "These three composers lived in the 18th–19th centuries in the Thanjavur region of Tamil Nadu and wrote thousands of kritis. Their work defines classical Carnatic (South Indian) music. Purandara Dasa, an earlier composer, is called the father of Carnatic music. So the answer is Carnatic music."
+    },
+    {
+      "text": "The Buland Darwaza at Fatehpur Sikri was built by which Mughal emperor?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Akbar",
+        "Babur",
+        "Humayun",
+        "Shah Jahan"
+      ],
+      "answer": 0,
+      "explanation": "Akbar founded Fatehpur Sikri as his capital and built the Buland Darwaza to commemorate his victory over Gujarat. At about 54 m, it is one of the highest gateways in the world. Shah Jahan built the Taj Mahal and the Red Fort. So the answer is Akbar."
+    },
+    {
+      "text": "The Brihadeeswarar Temple at Thanjavur, a UNESCO World Heritage Site, was built by:",
+      "difficulty": "HARD",
+      "options": [
+        "Rajendra Chola I",
+        "Rajaraja Chola I",
+        "Narasimhavarman I",
+        "Krishna I"
+      ],
+      "answer": 1,
+      "explanation": "Rajaraja Chola I completed the Brihadeeswarar (Rajarajeswaram) Temple around 1010 CE. It is a classic example of Dravidian architecture with a towering vimana. His son Rajendra Chola I built the temple at Gangaikonda Cholapuram. The Pallava king Narasimhavarman I is linked with Mahabalipuram, and the Rashtrakuta king Krishna I with the Kailasa temple at Ellora. So the answer is Rajaraja Chola I."
+    },
+    {
+      "text": "Yakshagana, a traditional theatre form that combines dance, music, dialogue and elaborate costumes, belongs to which state?",
+      "difficulty": "HARD",
+      "options": [
+        "Kerala",
+        "Tamil Nadu",
+        "Karnataka",
+        "Odisha"
+      ],
+      "answer": 2,
+      "explanation": "Yakshagana is performed mainly in the coastal and Malnad districts of Karnataka, usually all night, with stories from the epics and Puranas. Kerala's similar dance-drama is Kathakali, and Tamil Nadu has Therukoothu. So the answer is Karnataka."
+    }
+  ]
+}

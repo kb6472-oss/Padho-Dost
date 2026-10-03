@@ -1,0 +1,170 @@
+{
+  "exam": "ssc-cgl",
+  "subject": "quantitative-aptitude",
+  "chapter": "percentages",
+  "notes": {
+    "summary": "Percentages covers converting between fractions and percents, percentage change, successive changes, and applications such as marks, elections, population, depreciation, expenditure and consumption. SSC CGL asks 1-3 direct questions on it, and the same ideas drive profit-loss, interest and data interpretation.",
+    "keyPoints": [
+      "x% = x/100. Know these fraction equivalents by heart: 1/6 = 16 2/3%, 1/7 = 14 2/7%, 1/8 = 12.5%, 1/9 = 11 1/9%, 1/11 = 9 1/11%, 1/12 = 8 1/3%.",
+      "% change = (change ÷ original value) × 100. The base is always the original value.",
+      "If A is r% more than B, then B is r/(100 + r) × 100 % less than A (25% more gives 20% less). If A is r% less than B, then B is r/(100 − r) × 100 % more than A (20% less gives 25% more).",
+      "Successive changes of a% and b% give a net change of a + b + ab/100, with decreases taken as negative. Example: +20% then −10% gives 20 − 10 − 2 = +8%.",
+      "If the price rises by r% and expenditure must stay the same, consumption must fall by r/(100 + r) × 100 %. A 25% rise needs a 20% cut.",
+      "Population and depreciation: value after n years = P(1 ± r/100)ⁿ. Example: 10,000 growing at 10% a year becomes 12,100 in 2 years.",
+      "x% of y = y% of x. Example: 12% of 75 = 75% of 12 = 9.",
+      "Marks questions: the difference between two percentages equals the difference in marks, which gives the maximum marks.",
+      "Percentage points are not the same as percent change. A rate falling from 8% to 6% is 2 percentage points but a 25% decrease.",
+      "Two sets: passed in both = 100 − (failed in A + failed in B − failed in both)."
+    ],
+    "traps": [
+      "Using the new value instead of the original value as the base for % change.",
+      "Adding successive percentage changes directly instead of using a + b + ab/100.",
+      "Confusing a drop in percentage points with a percentage decrease.",
+      "In election questions with invalid votes, applying the winner's % to the total votes instead of the valid votes.",
+      "Assuming that 'A is 25% more than B' means 'B is 25% less than A'."
+    ],
+    "examTip": "Memorise fraction-percentage equivalents up to 1/20. Most SSC percentage questions then become a single multiplication."
+  },
+  "questions": [
+    {
+      "text": "What percentage of 1.5 kg is 120 g?",
+      "difficulty": "EASY",
+      "options": ["80%", "8%", "0.8%", "12.5%"],
+      "answer": 1,
+      "explanation": "Convert to the same unit first: 1.5 kg = 1,500 g.\nPercentage = 120/1,500 × 100 = 8%."
+    },
+    {
+      "text": "A's salary is 25% more than B's salary. By what percentage is B's salary less than A's salary?",
+      "difficulty": "EASY",
+      "options": ["25%", "22.5%", "20%", "15%"],
+      "answer": 2,
+      "explanation": "Let B = 100. Then A = 125.\nB is less than A by 25 on a base of 125.\nPercentage = 25/125 × 100 = 20%.\nFormula: r/(100 + r) × 100 = 25/125 × 100 = 20%."
+    },
+    {
+      "text": "What is 15% of 20% of 2,000?",
+      "difficulty": "EASY",
+      "options": ["60", "70", "600", "700"],
+      "answer": 0,
+      "explanation": "20% of 2,000 = 400.\n15% of 400 = 60.\nShortcut: 0.15 × 0.20 × 2,000 = 60."
+    },
+    {
+      "text": "The population of a town is 10,000. If it increases by 10% every year, what will the population be after 2 years?",
+      "difficulty": "EASY",
+      "options": ["12,000", "11,000", "12,210", "12,100"],
+      "answer": 3,
+      "explanation": "The growth is compounded, so the second year's 10% is on the new population.\nAfter 1 year: 10,000 × 1.1 = 11,000.\nAfter 2 years: 11,000 × 1.1 = 12,100.\nNote: 12,000 is wrong because it adds 10% of the original population twice."
+    },
+    {
+      "text": "12% of 75 is equal to 75% of which number?",
+      "difficulty": "EASY",
+      "options": ["9", "12", "16", "75"],
+      "answer": 1,
+      "explanation": "x% of y = y% of x, so 12% of 75 = 75% of 12.\nCheck: 12% of 75 = 9 and 75% of 12 = 9.\nThe required number is 12."
+    },
+    {
+      "text": "A machine costing ₹50,000 depreciates at the rate of 10% per year. What will its value be after 2 years?",
+      "difficulty": "EASY",
+      "options": ["₹40,000", "₹41,000", "₹40,500", "₹45,000"],
+      "answer": 2,
+      "explanation": "Depreciation is applied each year on the reduced value.\nAfter 1 year: 50,000 × 0.9 = ₹45,000.\nAfter 2 years: 45,000 × 0.9 = ₹40,500."
+    },
+    {
+      "text": "A student needs 33% of the maximum marks to pass. He scored 125 marks and failed by 40 marks. What are the maximum marks?",
+      "difficulty": "MEDIUM",
+      "options": ["500", "450", "550", "600"],
+      "answer": 0,
+      "explanation": "Pass marks = 125 + 40 = 165.\n33% of the maximum = 165.\nMaximum marks = 165 × 100/33 = 500."
+    },
+    {
+      "text": "In an examination, 30% of the students failed in Hindi, 35% failed in English and 27% failed in both subjects. What percentage of students passed in both subjects?",
+      "difficulty": "MEDIUM",
+      "options": ["35%", "38%", "92%", "62%"],
+      "answer": 3,
+      "explanation": "Failed in at least one subject = 30 + 35 − 27 = 38%.\nPassed in both = 100 − 38 = 62%."
+    },
+    {
+      "text": "In an election between two candidates, 20% of the votes cast were declared invalid. The winner got 55% of the valid votes and won by 2,000 votes. What was the total number of votes cast?",
+      "difficulty": "MEDIUM",
+      "options": ["20,000", "25,000", "22,500", "40,000"],
+      "answer": 1,
+      "explanation": "Let the total votes be T. Valid votes = 0.8T.\nThe winner gets 55% and the loser 45% of the valid votes, so the margin is 10% of 0.8T = 0.08T.\n0.08T = 2,000, so T = 25,000.\nNote: 20,000 is only the number of valid votes."
+    },
+    {
+      "text": "A reduction of 20% in the price of sugar enables a person to buy 5 kg more sugar for ₹600. What is the reduced price per kg?",
+      "difficulty": "MEDIUM",
+      "options": ["₹30", "₹20", "₹24", "₹25"],
+      "answer": 2,
+      "explanation": "The money saved = 20% of ₹600 = ₹120.\nThis ₹120 buys the extra 5 kg at the reduced price.\nReduced price = 120/5 = ₹24 per kg.\nCheck: the original price is ₹30, and 600/30 = 20 kg while 600/24 = 25 kg."
+    },
+    {
+      "text": "The price of an article is increased by 10%, then increased again by 20%, and finally decreased by 25%. What is the net percentage change in its price?",
+      "difficulty": "MEDIUM",
+      "options": ["1% decrease", "5% increase", "1% increase", "No change"],
+      "answer": 0,
+      "explanation": "Use multipliers: 1.10 × 1.20 × 0.75.\n1.10 × 1.20 = 1.32, and 1.32 × 0.75 = 0.99.\nThe final price is 99% of the original, which is a 1% decrease."
+    },
+    {
+      "text": "The length of a rectangle is increased by 20% and its breadth is decreased by 10%. What is the percentage change in its area?",
+      "difficulty": "MEDIUM",
+      "options": ["10% increase", "2% increase", "8% decrease", "8% increase"],
+      "answer": 3,
+      "explanation": "Area = length × breadth, so use successive change: a + b + ab/100.\n= 20 − 10 + (20 × −10)/100 = 10 − 2 = 8.\nThe area increases by 8%."
+    },
+    {
+      "text": "A man spends 75% of his income. His income increases by 20% and his expenditure increases by 10%. By what percentage do his savings increase?",
+      "difficulty": "MEDIUM",
+      "options": ["30%", "50%", "40%", "10%"],
+      "answer": 1,
+      "explanation": "Let income = 100. Expenditure = 75 and savings = 25.\nNew income = 120 and new expenditure = 82.5, so new savings = 37.5.\nIncrease = 12.5 on 25.\nPercentage increase = 12.5/25 × 100 = 50%."
+    },
+    {
+      "text": "A man spends 20% of his income on rent, 25% of the remaining on food and 30% of what is left after that on education. He saves the rest, which is ₹12,600. What is his income?",
+      "difficulty": "MEDIUM",
+      "options": ["₹25,000", "₹36,000", "₹30,000", "₹42,000"],
+      "answer": 2,
+      "explanation": "The fraction left after each step: 0.80 × 0.75 × 0.70 = 0.42.\nSo 42% of income = ₹12,600.\nIncome = 12,600/0.42 = ₹30,000.\nCheck: 30,000 → 24,000 after rent → 18,000 after food → 12,600 after education."
+    },
+    {
+      "text": "The rate of interest on a savings scheme falls from 8% to 6% per annum. What is the percentage decrease in the rate of interest?",
+      "difficulty": "MEDIUM",
+      "options": ["25%", "2%", "33 1/3%", "20%"],
+      "answer": 0,
+      "explanation": "The fall is 2 percentage points, but the question asks for the percentage decrease.\nPercentage decrease = (8 − 6)/8 × 100 = 2/8 × 100 = 25%."
+    },
+    {
+      "text": "A candidate who scores 30% of the maximum marks fails by 50 marks. Another candidate who scores 42% gets 10 marks more than the pass marks. What percentage of marks is required to pass?",
+      "difficulty": "MEDIUM",
+      "options": ["36%", "38%", "45%", "40%"],
+      "answer": 3,
+      "explanation": "The difference between the two scores: 42% − 30% = 12% of the maximum = 50 + 10 = 60 marks.\nMaximum marks = 60 × 100/12 = 500.\nPass marks = 30% of 500 + 50 = 150 + 50 = 200.\nPass percentage = 200/500 × 100 = 40%."
+    },
+    {
+      "text": "The price of sugar increases by 25%. A family adjusts its consumption so that its expenditure on sugar increases by only 10%. If the family consumed 30 kg of sugar per month earlier, how much does it consume now?",
+      "difficulty": "HARD",
+      "options": ["24 kg", "26.4 kg", "25.5 kg", "27 kg"],
+      "answer": 1,
+      "explanation": "Expenditure = price × consumption.\nNew expenditure/old expenditure = 1.10, and new price/old price = 1.25.\nNew consumption = 30 × 1.10/1.25 = 33/1.25 = 26.4 kg.\nNote: 24 kg would be correct only if the expenditure stayed the same."
+    },
+    {
+      "text": "In an examination, 60% of the candidates were boys. 75% of the boys and 60% of the girls passed. If 620 candidates failed, how many candidates appeared in the examination?",
+      "difficulty": "HARD",
+      "options": ["1,600", "2,400", "2,000", "3,100"],
+      "answer": 2,
+      "explanation": "Failed boys = 25% of 60% = 15% of all candidates.\nFailed girls = 40% of 40% = 16% of all candidates.\nTotal failed = 31% of the candidates = 620.\nTotal = 620 × 100/31 = 2,000."
+    },
+    {
+      "text": "If the numerator of a fraction is increased by 20% and its denominator is decreased by 10%, the fraction becomes 16/21. What is the original fraction?",
+      "difficulty": "HARD",
+      "options": ["4/7", "2/3", "3/7", "5/7"],
+      "answer": 0,
+      "explanation": "Let the fraction be x/y. Then 1.2x/(0.9y) = 16/21.\n(4/3) × (x/y) = 16/21.\nx/y = 16/21 × 3/4 = 48/84 = 4/7.\nCheck: 4.8/6.3 = 48/63 = 16/21. The original fraction is 4/7."
+    },
+    {
+      "text": "When 15% of the wheat produced is lost in grinding, a country can export 30 lakh tonnes of wheat. When only 10% is lost, it can export 40 lakh tonnes. What is the total wheat production of the country? (Assume domestic consumption is the same in both cases.)",
+      "difficulty": "HARD",
+      "options": ["100 lakh tonnes", "150 lakh tonnes", "250 lakh tonnes", "200 lakh tonnes"],
+      "answer": 3,
+      "explanation": "Reducing the loss from 15% to 10% saves 5% of production.\nThis 5% shows up as extra exports: 40 − 30 = 10 lakh tonnes.\n5% of production = 10 lakh tonnes.\nProduction = 10 × 100/5 = 200 lakh tonnes."
+    }
+  ]
+}

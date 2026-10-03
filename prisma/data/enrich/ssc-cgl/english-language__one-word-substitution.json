@@ -1,0 +1,104 @@
+{
+  "exam": "ssc-cgl",
+  "subject": "english-language",
+  "chapter": "one-word-substitution",
+  "notes": {
+    "summary": "One word substitution asks for the single word that can replace a phrase or definition, such as 'a place where bees are kept' (apiary). SSC CGL asks a few of these in Tier-I and more in Tier-II, and the options usually come from one word family (all -logy, all -cracy, all -phobia), so you need to know the exact root, not just the general idea.",
+    "keyPoints": [
+      "Government: autocracy (one ruler with absolute power), aristocracy (nobles), plutocracy (the rich), bureaucracy (officials), theocracy (religious leaders), gerontocracy (old people), kleptocracy (corrupt rulers who steal), democracy (the people).",
+      "Killing: homicide (a human being), patricide (father), matricide (mother), fratricide (brother), sororicide (sister), regicide (king), infanticide (infant), genocide (a whole racial, national or religious group), suicide (oneself).",
+      "Study or collection of: ornithology (birds), entomology (insects), etymology (origin of words), anthropology (human societies), seismology (earthquakes), numismatics (coins), philately (stamps), cartography (map-making).",
+      "Phobias: acrophobia (heights), claustrophobia (closed spaces), agoraphobia (open or crowded public places), xenophobia (foreigners), hydrophobia (water), nyctophobia (darkness).",
+      "Places: apiary (bees), aviary (birds), granary (grain), arsenal (weapons), mint (where coins are made), hangar (aircraft), orchard (fruit trees), nursery (young plants or young children).",
+      "mis- = hate, phil- = love: misanthrope (hates mankind), misogynist (hates women), misogamist (hates marriage); philanthropist (loves mankind, gives to charity), philatelist (collects stamps), bibliophile (loves books).",
+      "Belief: atheist (denies that God exists), theist (believes in God), agnostic (holds that God's existence cannot be known or proved), heretic (holds views against accepted religious belief), sceptic (doubts accepted opinions).",
+      "Negative adjectives: indelible (cannot be erased), infallible (never makes mistakes), invincible (cannot be defeated), inevitable (cannot be avoided), illegible (cannot be read), incorrigible (cannot be reformed), inaudible (cannot be heard)."
+    ],
+    "traps": [
+      "Mixing look-alike roots: aviary vs apiary, entomology vs etymology, philatelist vs philanthropist.",
+      "Choosing a general word when a precise one is offered: zoology for 'study of birds', homicide for 'killing of a king'.",
+      "Confusing atheist (denies God) with agnostic (says it cannot be known either way).",
+      "Mixing up the negative adjectives: infallible (never wrong) vs invincible (never defeated) vs indelible (cannot be erased)."
+    ],
+    "examTip": "Reduce the definition to its key idea (who or what + action) and match it to the root of each option, such as mis = hate, phil = love, -cide = killing, -cracy = rule, -logy = study, before relying on memory."
+  },
+  "questions": [
+    {
+      "text": "Select the option that can be used as a one-word substitute for the given group of words.\nA place where bees are kept",
+      "difficulty": "EASY",
+      "options": ["Aviary", "Apiary", "Granary", "Aquarium"],
+      "answer": 1,
+      "explanation": "The root 'api-' comes from the Latin word for bee (apiculture = bee-keeping).\nAn aviary is a place for birds, a granary stores grain, and an aquarium holds fish.\nThe place where bees are kept is an Apiary."
+    },
+    {
+      "text": "Select the option that can be used as a one-word substitute for the given group of words.\nThe scientific study of birds",
+      "difficulty": "EASY",
+      "options": ["Ornithology", "Entomology", "Etymology", "Anthropology"],
+      "answer": 0,
+      "explanation": "'Ornith-' means bird and '-logy' means study.\nEntomology is the study of insects, and Etymology (a look-alike) is the study of the origin of words.\nAnthropology is the study of human societies.\nThe study of birds is Ornithology."
+    },
+    {
+      "text": "Select the option that can be used as a one-word substitute for the given group of words.\nA person who collects postage stamps",
+      "difficulty": "EASY",
+      "options": ["Numismatist", "Philanthropist", "Philatelist", "Archaeologist"],
+      "answer": 2,
+      "explanation": "A numismatist collects or studies coins.\nA philanthropist (a look-alike) is someone who helps others, especially by giving money to good causes.\nAn archaeologist studies ancient remains.\nA stamp collector is a Philatelist."
+    },
+    {
+      "text": "Select the option that can be used as a one-word substitute for the given group of words.\nGovernment by the wealthy",
+      "difficulty": "MEDIUM",
+      "options": ["Autocracy", "Aristocracy", "Bureaucracy", "Plutocracy"],
+      "answer": 3,
+      "explanation": "'-cracy' means rule; the first part tells you who rules.\nAutocracy is rule by one person, Aristocracy is rule by nobles, and Bureaucracy is rule by government officials.\n'Pluto-' means wealth, so rule by the rich is Plutocracy."
+    },
+    {
+      "text": "Select the option that can be used as a one-word substitute for the given group of words.\nAn extreme or irrational fear of heights",
+      "difficulty": "MEDIUM",
+      "options": ["Claustrophobia", "Acrophobia", "Agoraphobia", "Xenophobia"],
+      "answer": 1,
+      "explanation": "'Acro-' means high or topmost (as in acrobat).\nClaustrophobia is fear of closed spaces, Agoraphobia is fear of open or crowded public places, and Xenophobia is fear or dislike of foreigners.\nFear of heights is Acrophobia."
+    },
+    {
+      "text": "Select the option that can be used as a one-word substitute for the given group of words.\nThat which cannot be erased or removed",
+      "difficulty": "MEDIUM",
+      "options": ["Indelible", "Inevitable", "Infallible", "Invincible"],
+      "answer": 0,
+      "explanation": "Inevitable means cannot be avoided, Infallible means never making a mistake, and Invincible means cannot be defeated.\nIndelible means a mark or memory that cannot be erased (indelible ink is used in Indian elections).\nThe answer is Indelible."
+    },
+    {
+      "text": "Select the option that can be used as a one-word substitute for the given group of words.\nA person who hates women",
+      "difficulty": "MEDIUM",
+      "options": ["Misanthrope", "Misogamist", "Misogynist", "Philogynist"],
+      "answer": 2,
+      "explanation": "'Mis-' means hatred, and the second part tells you what is hated.\nA misanthrope hates mankind in general, and a misogamist hates marriage.\nA philogynist is the opposite: one who loves or admires women.\n'Gyn-' means woman, so one who hates women is a Misogynist."
+    },
+    {
+      "text": "Select the option that can be used as a one-word substitute for the given group of words.\nA remedy for all diseases or troubles",
+      "difficulty": "MEDIUM",
+      "options": ["Antidote", "Placebo", "Antiseptic", "Panacea"],
+      "answer": 3,
+      "explanation": "An antidote counters one particular poison, not every disease.\nA placebo is a harmless substance given for its psychological effect, and an antiseptic prevents infection.\n'Pan-' means all, so a cure for all ills is a Panacea."
+    },
+    {
+      "text": "Select the option that can be used as a one-word substitute for the given group of words.\nA person with expert knowledge and fine judgement in matters of taste, especially the fine arts",
+      "difficulty": "MEDIUM",
+      "options": ["Connoisseur", "Gourmand", "Novice", "Philistine"],
+      "answer": 0,
+      "explanation": "A gourmand is a person who enjoys eating, often too much.\nA novice is a beginner with little experience.\nA philistine is the opposite of what is described: someone who is indifferent or hostile to art and culture.\nAn expert judge of taste in art is a Connoisseur."
+    },
+    {
+      "text": "Select the option that can be used as a one-word substitute for the given group of words.\nA person who believes that the existence of God can neither be proved nor disproved",
+      "difficulty": "HARD",
+      "options": ["Atheist", "Theist", "Agnostic", "Heretic"],
+      "answer": 2,
+      "explanation": "An atheist firmly denies that God exists, and a theist firmly believes that God exists.\nA heretic holds views that go against accepted religious teaching.\nThe definition describes someone who says the question cannot be settled either way.\nSuch a person is an Agnostic (a = not, gnosis = knowledge)."
+    },
+    {
+      "text": "Select the option that can be used as a one-word substitute for the given group of words.\nA mild or indirect word or expression used in place of one that is harsh, blunt or unpleasant",
+      "difficulty": "HARD",
+      "options": ["Hyperbole", "Irony", "Metaphor", "Euphemism"],
+      "answer": 3,
+      "explanation": "Hyperbole is deliberate exaggeration, irony says the opposite of what is meant, and a metaphor describes one thing as another.\nA softer expression put in place of a harsh one, such as 'passed away' for 'died', is called a Euphemism ('eu-' = good, 'pheme' = speech)."
+    }
+  ]
+}

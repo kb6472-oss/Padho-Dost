@@ -1,0 +1,106 @@
+{
+  "exam": "ssc-cgl",
+  "subject": "quantitative-aptitude",
+  "chapter": "compound-interest",
+  "notes": {
+    "summary": "Compound Interest is interest calculated on the principal plus the interest already added. SSC CGL tests amount and CI calculations, the CI-SI difference, reverse questions (find the rate or principal), population growth and depreciation, and equal instalments.",
+    "keyPoints": [
+      "A = P(1 + R/100)ⁿ and CI = A − P. ₹2000 at 5% for 3 years → 2000 × 1.157625 = ₹2315.25.",
+      "Different rates in different years: A = P(1 + R1/100)(1 + R2/100)... ₹10,000 at 10% then 20% → 10000 × 1.1 × 1.2 = ₹13,200.",
+      "CI − SI for 2 years = P(R/100)²; for 3 years = P(R/100)²(3 + R/100). ₹10,000 at 10% for 3 years → 10000 × 0.01 × 3.1 = ₹310.",
+      "Each year's CI = previous year's CI × (1 + R/100), so R = (difference of two consecutive years' CI ÷ the earlier year's CI) × 100.",
+      "If a sum becomes k times in T years at CI, it becomes k² times in 2T years and k³ times in 3T years. Double in 5 years → 8 times in 15 years.",
+      "Depreciation or decrease: value = P(1 − R/100)ⁿ. Rise then fall: P(1 + R1/100)(1 − R2/100).",
+      "Half-yearly compounding: use rate R/2 and 2n periods; quarterly: rate R/4 and 4n periods.",
+      "Two equal annual instalments x repaying a loan P at R%: P = x/(1 + r) + x/(1 + r)², where r = R/100.",
+      "Effective rates worth memorising: 2 years at 5%, 10%, 20% → 10.25%, 21%, 44%; 3 years → 15.7625%, 33.1%, 72.8%."
+    ],
+    "traps": [
+      "Applying SI logic to multiples: a sum that doubles in 5 years at CI becomes 8 times in 15 years, not 20 or 35 years.",
+      "Averaging different yearly rates: 10% and 20% is not the same as 15% for two years.",
+      "Using the 2-year CI − SI formula for a 3-year question.",
+      "Treating a 5% rise followed by a 10% fall as a net 5% fall.",
+      "In half-yearly or quarterly questions, forgetting to divide the rate and multiply the number of periods."
+    ],
+    "examTip": "Memorise the 2-year and 3-year effective rates for 5%, 10% and 20%; they let you skip the multiplication in most CI questions."
+  },
+  "questions": [
+    {
+      "text": "A machine worth ₹50,000 depreciates at 10% per annum, compounded yearly. What will be its value after 2 years?",
+      "difficulty": "EASY",
+      "options": ["₹40,000", "₹40,500", "₹41,000", "₹60,500"],
+      "answer": 1,
+      "explanation": "Value = P(1 − R/100)ⁿ = 50000 × (0.9)².\n= 50000 × 0.81 = ₹40,500.\n(₹40,000 comes from wrongly taking 20% off in one go, as in SI.)"
+    },
+    {
+      "text": "What is the compound interest on ₹10,000 for 2 years if the rate of interest is 10% for the first year and 20% for the second year?",
+      "difficulty": "EASY",
+      "options": ["₹3000", "₹3225", "₹3200", "₹3300"],
+      "answer": 2,
+      "explanation": "Amount = 10000 × (1 + 10/100) × (1 + 20/100) = 10000 × 1.1 × 1.2 = ₹13,200.\nCI = 13200 − 10000 = ₹3200.\nShortcut: effective rate = 10 + 20 + (10 × 20)/100 = 32%, and 32% of 10000 = ₹3200."
+    },
+    {
+      "text": "The compound interest on a sum for the 2nd year is ₹1320 and for the 3rd year is ₹1452. What is the rate of interest per annum?",
+      "difficulty": "EASY",
+      "options": ["9%", "11%", "12%", "10%"],
+      "answer": 3,
+      "explanation": "The 3rd year's interest = the 2nd year's interest + interest on it for one year.\nInterest on ₹1320 for 1 year = 1452 − 1320 = ₹132.\nRate = 132 × 100/1320 = 10% per annum."
+    },
+    {
+      "text": "A sum of money amounts to ₹6050 in 2 years and to ₹6655 in 3 years at compound interest, compounded annually. What is the sum?",
+      "difficulty": "MEDIUM",
+      "options": ["₹5000", "₹5500", "₹4500", "₹5445"],
+      "answer": 0,
+      "explanation": "Interest in the 3rd year = 6655 − 6050 = ₹605, which is interest on ₹6050 for 1 year.\nRate = 605 × 100/6050 = 10%.\nP = 6050/(1.1)² = 6050/1.21 = ₹5000."
+    },
+    {
+      "text": "A sum of money doubles itself in 5 years at compound interest, compounded annually. In how many years will it become 8 times itself?",
+      "difficulty": "MEDIUM",
+      "options": ["35 years", "20 years", "15 years", "40 years"],
+      "answer": 2,
+      "explanation": "At CI the sum multiplies by 2 every 5 years.\n8 = 2³, so it needs 3 such periods.\nTime = 3 × 5 = 15 years.\n(35 years would be the SI answer; CI does not grow linearly.)"
+    },
+    {
+      "text": "The difference between the compound interest and the simple interest on a sum for 2 years at 8% per annum is ₹48. What is the sum?",
+      "difficulty": "MEDIUM",
+      "options": ["₹6000", "₹600", "₹750", "₹7500"],
+      "answer": 3,
+      "explanation": "For 2 years, CI − SI = P(R/100)².\n48 = P × (8/100)² = P × 64/10000.\nP = 48 × 10000/64 = ₹7500."
+    },
+    {
+      "text": "What is the difference between the compound interest and the simple interest on ₹10,000 for 3 years at 10% per annum, compounded annually?",
+      "difficulty": "MEDIUM",
+      "options": ["₹310", "₹300", "₹100", "₹331"],
+      "answer": 0,
+      "explanation": "For 3 years, CI − SI = P(R/100)²(3 + R/100).\n= 10000 × (1/10)² × (3 + 0.1) = 100 × 3.1 = ₹310.\nCheck: CI = 10000 × (1.331 − 1) = ₹3310 and SI = ₹3000, so the difference is ₹310."
+    },
+    {
+      "text": "The population of a town is 1,60,000. It increases by 5% in the first year and decreases by 10% in the second year. What is the population at the end of 2 years?",
+      "difficulty": "MEDIUM",
+      "options": ["1,52,000", "1,68,000", "1,44,000", "1,51,200"],
+      "answer": 3,
+      "explanation": "Population = 160000 × (1 + 5/100) × (1 − 10/100).\n= 160000 × 1.05 × 0.9 = 168000 × 0.9 = 1,51,200.\n(Taking a net change of −5% gives the wrong figure 1,52,000.)"
+    },
+    {
+      "text": "The compound interest on a sum for 2 years at 10% per annum, compounded annually, is ₹525. What will be the simple interest on the same sum for double the time at half the rate?",
+      "difficulty": "MEDIUM",
+      "options": ["₹525", "₹500", "₹550", "₹400"],
+      "answer": 1,
+      "explanation": "CI for 2 years at 10% = 21% of P, so 0.21P = 525 and P = ₹2500.\nNew time = 4 years and new rate = 5%.\nSI = 2500 × 5 × 4/100 = ₹500."
+    },
+    {
+      "text": "A loan of ₹2100 is to be repaid in two equal annual instalments at 10% per annum compound interest. What is the value of each instalment?",
+      "difficulty": "HARD",
+      "options": ["₹1050", "₹1155", "₹1210", "₹1100"],
+      "answer": 2,
+      "explanation": "Let each instalment be ₹x. The present values of the instalments must add up to the loan.\nx/1.1 + x/(1.1)² = 2100\nx × (1.1 + 1)/1.21 = 2100, so 2.1x = 2541.\nx = ₹1210.\nCheck: after year 1 the debt is 2310 − 1210 = 1100; after year 2 it is 1210 − 1210 = 0."
+    },
+    {
+      "text": "₹3903 is divided between A and B so that A's share at the end of 7 years equals B's share at the end of 9 years, compound interest being 4% per annum. What is A's share?",
+      "difficulty": "HARD",
+      "options": ["₹2028", "₹1875", "₹1951.50", "₹2100"],
+      "answer": 0,
+      "explanation": "A × (1.04)⁷ = B × (1.04)⁹, so A/B = (1.04)² = (26/25)² = 676/625.\nA's share = 3903 × 676/(676 + 625) = 3903 × 676/1301.\n3903 ÷ 1301 = 3, so A's share = 3 × 676 = ₹2028 (and B gets ₹1875)."
+    }
+  ]
+}

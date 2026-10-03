@@ -1,0 +1,104 @@
+{
+  "exam": "ssc-cgl",
+  "subject": "general-intelligence-reasoning",
+  "chapter": "ranking-arrangement",
+  "notes": {
+    "summary": "This chapter covers positions in a row or class (ranks from both ends, people in between, minimum totals), comparison chains (taller, heavier, scored more) and seating arrangements in a line or a circle. SSC CGL typically asks 1-3 questions from it.",
+    "keyPoints": [
+      "For one person, Total = left rank + right rank − 1. Rank from the other end = Total − rank + 1.",
+      "People between two persons whose ranks are counted from opposite ends (no overlap) = Total − (sum of the two ranks). Example: 40 in a row, A 13th from the left, B 17th from the right → 40 − 30 = 10.",
+      "Two people with ranks from opposite ends and k people between them: Total = sum of ranks + k (no overlap) or sum of ranks − k − 2 (overlap). The minimum total is the overlap case.",
+      "Class rank with failures or absentees: number passed = rank from top + rank from bottom − 1, then add the failed and absent students.",
+      "Comparison chains: write one line from greatest to smallest (D > C > A > B > E) and read off 'tallest', 'second shortest' and so on.",
+      "Linear seating: for a person facing North, their left is your left. For a person facing South, their left is your right.",
+      "Circular seating facing the centre: a person's left is the next seat clockwise and their right is the next seat anticlockwise. With 6 seats, opposite seats are 3 apart.",
+      "The middle person in a row of n people (n odd) is at position (n + 1) ÷ 2 from either end, e.g. 11th in a row of 21."
+    ],
+    "traps": [
+      "Counting the person himself when asked how many are to his right or left (14 in a row, 6th from the left → 8 to his right, not 9).",
+      "Forgetting the overlap case when the question asks for the minimum number of people.",
+      "Treating left and right the same for people facing South or facing the centre.",
+      "Leaving out failed or absent students when asked for the total number of students in the class."
+    ],
+    "examTip": "For any arrangement question, draw the row or circle first and place the person with the firmest clue (middle, end, opposite) before using the relative clues."
+  },
+  "questions": [
+    {
+      "text": "Among five friends A, B, C, D and E, A is taller than B but shorter than C. D is taller than C, and E is the shortest of all. Who is the tallest?",
+      "difficulty": "EASY",
+      "options": ["A", "C", "D", "B"],
+      "answer": 2,
+      "explanation": "A is taller than B but shorter than C: C > A > B.\nD is taller than C: D > C > A > B.\nE is the shortest: D > C > A > B > E.\nSo D is the tallest."
+    },
+    {
+      "text": "Five boys P, Q, R, S and T sit in a row facing North. R sits in the middle. P sits at the extreme left end. T sits to the immediate right of P. Q does not sit at the extreme right end. Who sits at the extreme right end?",
+      "difficulty": "EASY",
+      "options": ["Q", "S", "T", "R"],
+      "answer": 1,
+      "explanation": "Number the seats 1 to 5 from left to right. R is in the middle (seat 3), P is at the extreme left (seat 1), and T is immediately to P's right (seat 2).\nQ and S are left for seats 4 and 5. Q is not at the right end, so Q = 4 and S = 5.\nSo S sits at the extreme right end."
+    },
+    {
+      "text": "Fourteen people stand in a row facing North. Sunil is 6th from the left end. How many people are standing to his right?",
+      "difficulty": "EASY",
+      "options": ["7", "6", "9", "8"],
+      "answer": 3,
+      "explanation": "People to Sunil's right = total − his position from the left.\n14 − 6 = 8.\n(9 is his rank from the right end, which counts Sunil himself, so it is a common wrong answer.)"
+    },
+    {
+      "text": "Six friends P, Q, R, S, T and U sit around a circular table facing the centre. Q sits to the immediate left of P. R sits opposite P. T sits to the immediate left of R. S is not an immediate neighbour of Q. Who sits to the immediate right of P?",
+      "difficulty": "MEDIUM",
+      "options": ["Q", "U", "S", "T"],
+      "answer": 2,
+      "explanation": "When people face the centre, a person's left is the next seat clockwise and their right is the next seat anticlockwise.\nGoing clockwise from P: Q is next (to P's left), then an empty seat, then R (opposite P), then T (to R's left), then the last empty seat.\nThe empty seats are between Q and R, and between T and P. S cannot sit next to Q, so S takes the seat between T and P, and U sits between Q and R.\nClockwise order: P, Q, U, R, T, S. The seat anticlockwise of P is S, so S is to the immediate right of P."
+    },
+    {
+      "text": "Seven persons A, B, C, D, E, F and G sit in a row facing North. D sits exactly in the middle. A sits third to the left of D. E sits at the extreme right end. B sits second to the right of A. C is an immediate neighbour of E. G is not an immediate neighbour of A. How many persons sit between F and C?",
+      "difficulty": "MEDIUM",
+      "options": ["2", "3", "4", "1"],
+      "answer": 1,
+      "explanation": "Number the seats 1 to 7 from the left. D = 4 (middle), A = 1 (third to the left of D), E = 7, B = 3 (second to the right of A), C = 6 (next to E).\nF and G take seats 2 and 5. G is not next to A, so G = 5 and F = 2.\nOrder: A F B D G C E.\nB, D and G sit between F (seat 2) and C (seat 6), so the answer is 3."
+    },
+    {
+      "text": "In an examination, Kiran ranked 11th from the top and 29th from the bottom among the students who passed. 5 students failed and 3 students did not appear. How many students are there in the class?",
+      "difficulty": "MEDIUM",
+      "options": ["47", "44", "39", "48"],
+      "answer": 0,
+      "explanation": "Students who passed = 11 + 29 − 1 = 39.\nAdd those who failed and those who were absent: 39 + 5 + 3 = 47.\nSo there are 47 students in the class."
+    },
+    {
+      "text": "In a test, Amit scored more than Bina but less than Chirag. Dev scored less than Bina. Esha scored more than Chirag. Who scored the third-highest marks?",
+      "difficulty": "MEDIUM",
+      "options": ["Bina", "Chirag", "Dev", "Amit"],
+      "answer": 3,
+      "explanation": "From the first statement: Chirag > Amit > Bina.\nDev < Bina, so Chirag > Amit > Bina > Dev.\nEsha > Chirag, so Esha > Chirag > Amit > Bina > Dev.\nThe third-highest scorer is Amit."
+    },
+    {
+      "text": "In a row of 21 boys facing North, Vijay is exactly in the middle. Raju is 4th to the right of Vijay. What is Raju's position from the right end?",
+      "difficulty": "MEDIUM",
+      "options": ["7th", "6th", "8th", "15th"],
+      "answer": 0,
+      "explanation": "The middle of 21 is (21 + 1) ÷ 2 = 11th from either end.\nMoving 4 places to the right brings Raju 4 places closer to the right end: 11 − 4 = 7.\nSo Raju is 7th from the right end (and 15th from the left)."
+    },
+    {
+      "text": "In a row of 40 students, A is 13th from the left end and B is 17th from the right end. How many students are there between A and B?",
+      "difficulty": "MEDIUM",
+      "options": ["11", "9", "10", "12"],
+      "answer": 2,
+      "explanation": "B's position from the left = 40 − 17 + 1 = 24.\nStudents between A (13th) and B (24th) = 24 − 13 − 1 = 10.\nShortcut: 40 − (13 + 17) = 10."
+    },
+    {
+      "text": "In a queue, A is 7th from the front and B is 10th from the back. If there are exactly 3 people between A and B, what is the minimum possible number of people in the queue?",
+      "difficulty": "HARD",
+      "options": ["13", "20", "10", "12"],
+      "answer": 3,
+      "explanation": "Case 1 (A ahead of B, no overlap): total = 7 + 3 + 10 = 20.\nCase 2 (B ahead of A, overlap): B stands 4 places ahead of A, i.e. 3rd from the front. B is also 10th from the back, so total = 3 + 10 − 1 = 12.\nShortcut for the overlap case: 7 + 10 − 3 − 2 = 12.\nSo the minimum possible number of people is 12."
+    },
+    {
+      "text": "Five friends P, Q, R, S and T sit in a row. R sits in the middle and faces North. Q sits to the immediate left of R. T sits second to the right of R. P sits at one of the ends and faces North. Q and S face South, and T faces North. Who sits to the immediate left of S?",
+      "difficulty": "HARD",
+      "options": ["R", "T", "Q", "P"],
+      "answer": 1,
+      "explanation": "Number the seats 1 to 5 from your left. R = 3 and faces North, so R's left is your left: Q = 2. Second to R's right is T = 5.\nP sits at an end and seat 5 is taken, so P = 1, which leaves S = 4.\nS faces South, so S's left is on your right side, i.e. seat 5.\nSo T sits to the immediate left of S. (R is on S's right, which is the common trap.)"
+    }
+  ]
+}

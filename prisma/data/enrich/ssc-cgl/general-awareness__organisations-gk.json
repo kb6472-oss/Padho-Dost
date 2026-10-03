@@ -1,0 +1,106 @@
+{
+  "exam": "ssc-cgl",
+  "subject": "general-awareness",
+  "chapter": "organisations-gk",
+  "notes": {
+    "summary": "Covers the United Nations system, international financial bodies and regional groupings, and important Indian institutions — their headquarters, founding years, membership and functions. SSC CGL asks headquarters, 'founded in/at', 'which is not a member', what an organisation works for, and constitutional versus statutory status of Indian bodies.",
+    "keyPoints": [
+      "UN Charter signed at San Francisco on 26 June 1945; in force from 24 October 1945 (UN Day). Six principal organs: General Assembly, Security Council, ECOSOC, Trusteeship Council, ICJ (The Hague) and Secretariat.",
+      "Security Council: 15 members – 5 permanent with veto (USA, UK, France, Russia, China) and 10 non-permanent members elected for 2-year terms.",
+      "UN official languages (6): Arabic, Chinese, English, French, Russian, Spanish.",
+      "Bretton Woods Conference (1944) created the IMF and the World Bank (IBRD); both are headquartered in Washington D.C.",
+      "HQ clusters: Geneva – WHO, ILO, WTO, ICRC, UNHCR; Lyon – Interpol; Vienna – IAEA, OPEC; Rome – FAO; Paris – UNESCO; Jakarta – ASEAN; Kathmandu – SAARC; Manila – ADB; London – Amnesty International.",
+      "Nobel Peace Prize to organisations: ICRC (1917, 1944, 1963), UNHCR (1954, 1981), UNICEF (1965), ILO (1969), Amnesty International (1977), WFP (2020).",
+      "Indian constitutional bodies: Election Commission (Art. 324), UPSC (Art. 315), CAG (Art. 148), Finance Commission (Art. 280). Statutory: NHRC (1993 Act). Executive: NITI Aayog (1 January 2015, replaced the Planning Commission), CBI.",
+      "ISRO (founded 1969) HQ Bengaluru; launch site Sriharikota; Vikram Sarabhai Space Centre – Thiruvananthapuram; Space Applications Centre – Ahmedabad.",
+      "BRICS is named after its founding members Brazil, Russia, India, China + South Africa (joined 2010); it admitted more members from 2024 but kept the name. India hosted the G20 Leaders' Summit in New Delhi in 2023."
+    ],
+    "traps": [
+      "Sriharikota is ISRO's launch site, not its headquarters (Bengaluru).",
+      "San Francisco (1945) produced the UN Charter; Bretton Woods (1944) produced the IMF and World Bank.",
+      "Interpol is in Lyon, not Paris; the ICJ is at The Hague, not Geneva.",
+      "NHRC is statutory and NITI Aayog is executive — only bodies created by the Constitution itself (EC, UPSC, CAG, Finance Commission) are constitutional.",
+      "Germany and Japan are major powers but are NOT permanent members of the UN Security Council."
+    ],
+    "examTip": "Memorise headquarters city by city (Geneva, Vienna, Rome, Paris, Washington) — when two options look right, ask which city's cluster the organisation actually belongs to."
+  },
+  "questions": [
+    {
+      "text": "Amnesty International, the global NGO founded in London in 1961, mainly works in the field of:",
+      "difficulty": "EASY",
+      "options": ["Environmental protection", "Nuclear energy regulation", "Human rights", "International trade"],
+      "answer": 2,
+      "explanation": "Amnesty International was founded in 1961 by British lawyer Peter Benenson and campaigns against torture, unfair trials and other human rights abuses.\nIt received the Nobel Peace Prize in 1977.\nGreenpeace works on the environment, the IAEA on nuclear energy and the WTO on trade.\nAnswer: Human rights."
+    },
+    {
+      "text": "In the acronym BRICS, the letter 'S' stands for which country?",
+      "difficulty": "EASY",
+      "options": ["Singapore", "South Africa", "South Korea", "Sri Lanka"],
+      "answer": 1,
+      "explanation": "The grouping began as BRIC – Brazil, Russia, India and China.\nSouth Africa joined in 2010, adding the 'S' to make BRICS.\nAnswer: South Africa."
+    },
+    {
+      "text": "Which of the following is NOT one of the official languages of the United Nations?",
+      "difficulty": "EASY",
+      "options": ["Arabic", "Spanish", "Russian", "Hindi"],
+      "answer": 3,
+      "explanation": "The UN has six official languages: Arabic, Chinese, English, French, Russian and Spanish.\nHindi, though spoken by hundreds of millions, is not among them.\nAnswer: Hindi."
+    },
+    {
+      "text": "How many principal organs does the United Nations have under its Charter?",
+      "difficulty": "MEDIUM",
+      "options": ["4", "5", "6", "7"],
+      "answer": 2,
+      "explanation": "The UN Charter establishes six principal organs: General Assembly, Security Council, Economic and Social Council, Trusteeship Council, International Court of Justice and Secretariat.\nThe Trusteeship Council suspended operations in 1994 but remains a principal organ.\nAnswer: 6."
+    },
+    {
+      "text": "NITI Aayog, set up on 1 January 2015, replaced which body?",
+      "difficulty": "MEDIUM",
+      "options": ["Planning Commission", "Finance Commission", "National Development Council", "Inter-State Council"],
+      "answer": 0,
+      "explanation": "The Planning Commission, set up in 1950, drew up India's Five-Year Plans.\nOn 1 January 2015 it was replaced by NITI Aayog (National Institution for Transforming India), a policy think tank chaired by the Prime Minister.\nThe Finance Commission is a separate constitutional body under Article 280 and still exists.\nAnswer: Planning Commission."
+    },
+    {
+      "text": "Where is the headquarters of the Indian Space Research Organisation (ISRO) located?",
+      "difficulty": "MEDIUM",
+      "options": ["Sriharikota", "Bengaluru", "Thiruvananthapuram", "Ahmedabad"],
+      "answer": 1,
+      "explanation": "ISRO was founded in 1969 and is headquartered in Bengaluru.\nSriharikota has the Satish Dhawan Space Centre (launch site), Thiruvananthapuram the Vikram Sarabhai Space Centre and Ahmedabad the Space Applications Centre – all ISRO centres, but not the headquarters.\nAnswer: Bengaluru."
+    },
+    {
+      "text": "The International Monetary Fund and the World Bank were created at which international conference held in 1944?",
+      "difficulty": "MEDIUM",
+      "options": ["Yalta Conference", "Potsdam Conference", "San Francisco Conference", "Bretton Woods Conference"],
+      "answer": 3,
+      "explanation": "In July 1944, delegates of 44 Allied nations met at Bretton Woods, New Hampshire (USA).\nThey agreed to create the IMF and the International Bank for Reconstruction and Development (World Bank), called the Bretton Woods twins.\nThe San Francisco Conference of 1945 framed the UN Charter.\nAnswer: Bretton Woods Conference."
+    },
+    {
+      "text": "Which of the following is a constitutional body in India?",
+      "difficulty": "MEDIUM",
+      "options": ["Election Commission of India", "NITI Aayog", "Central Bureau of Investigation", "National Human Rights Commission"],
+      "answer": 0,
+      "explanation": "A constitutional body is created directly by the Constitution.\nThe Election Commission is provided for in Article 324.\nNITI Aayog was set up by a Cabinet resolution, the CBI by a government resolution (drawing powers from the DSPE Act, 1946), and the NHRC is statutory under the Protection of Human Rights Act, 1993.\nAnswer: Election Commission of India."
+    },
+    {
+      "text": "The International Committee of the Red Cross (ICRC) was founded in Geneva in 1863 on the initiative of:",
+      "difficulty": "MEDIUM",
+      "options": ["Florence Nightingale", "Henry Dunant", "Alfred Nobel", "Woodrow Wilson"],
+      "answer": 1,
+      "explanation": "After seeing thousands of wounded soldiers left untended at the Battle of Solferino (1859), Henry Dunant proposed neutral relief societies.\nThis led to the founding of the ICRC in Geneva in 1863.\nDunant shared the first Nobel Peace Prize in 1901; Florence Nightingale is linked to modern nursing.\nAnswer: Henry Dunant."
+    },
+    {
+      "text": "Which UN agency was awarded the Nobel Peace Prize in 1965?",
+      "difficulty": "HARD",
+      "options": ["UNHCR", "World Food Programme", "International Labour Organization", "UNICEF"],
+      "answer": 3,
+      "explanation": "UNICEF (United Nations Children's Fund, set up in 1946) received the Nobel Peace Prize in 1965 for its work for children.\nThe other agencies also won it, but in different years: UNHCR in 1954 and 1981, ILO in 1969 and WFP in 2020.\nAnswer: UNICEF."
+    },
+    {
+      "text": "The General Secretariat of Interpol (International Criminal Police Organization) is located in which city?",
+      "difficulty": "HARD",
+      "options": ["Lyon", "Paris", "Geneva", "The Hague"],
+      "answer": 0,
+      "explanation": "Interpol helps police forces of member countries cooperate across borders.\nIts General Secretariat moved from Saint-Cloud near Paris to Lyon, France, in 1989.\nGeneva (WHO, ILO) and The Hague (ICJ) are common distractors.\nAnswer: Lyon."
+    }
+  ]
+}

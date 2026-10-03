@@ -1,0 +1,107 @@
+{
+  "exam": "ssc-cgl",
+  "subject": "quantitative-aptitude",
+  "chapter": "mensuration",
+  "notes": {
+    "summary": "Mensuration covers perimeter, area, surface area and volume of 2D figures (triangles, quadrilaterals, regular polygons, circles) and 3D solids (cuboid, cube, cylinder, cone, sphere, hemisphere, prism, pyramid). SSC CGL asks 2-4 questions in Tier-I and more in Tier-II, often combining formulas with percentage change, melting-and-recasting and Pythagorean triplets.",
+    "keyPoints": [
+      "Triangle: Heron's area = √[s(s − a)(s − b)(s − c)] with s = (a + b + c)/2; for 13, 14, 15, s = 21 and area = 84. Equilateral triangle of side a: area (√3/4)a², height (√3/2)a, inradius a/(2√3), circumradius a/√3.",
+      "A regular hexagon of side a is 6 equilateral triangles: area = (3√3/2)a². Each interior angle of a regular n-sided polygon = (n − 2) × 180° ÷ n.",
+      "Circle: circumference 2πr, area πr², arc length (θ/360) × 2πr. A wheel covers one circumference per revolution.",
+      "Cuboid: volume lbh, TSA 2(lb + bh + hl), body diagonal √(l² + b² + h²). Cube: volume a³, TSA 6a², diagonal a√3.",
+      "Cylinder: CSA 2πrh, TSA 2πr(r + h), volume πr²h. Cone: slant height l = √(r² + h²), CSA πrl, TSA πr(l + r), volume (1/3)πr²h.",
+      "Sphere: surface area 4πr², volume (4/3)πr³. Hemisphere: CSA 2πr², TSA 3πr², volume (2/3)πr³.",
+      "Prism volume = base area × height. Pyramid volume = (1/3) × base area × height; lateral area = (1/2) × base perimeter × slant height.",
+      "Melting and recasting conserve volume: number of small solids = big volume ÷ small volume (a sphere of radius 6 recast into spheres of radius 2 gives (6/2)³ = 27).",
+      "Percentage change: if every length changes by x%, area changes by (2x + x²/100)% and volume by (3x + 3x²/100 + x³/10000)%. A 10% rise in radius gives +21% area and +33.1% volume.",
+      "Learn Pythagorean triplets (3-4-5, 5-12-13, 7-24-25, 8-15-17, 9-40-41): slant heights and diagonals in SSC questions are almost always built on them."
+    ],
+    "traps": [
+      "Using the vertical height instead of the slant height in a cone's CSA or a pyramid's lateral area.",
+      "Mixing units, such as a wire radius in mm with a sphere radius in cm — convert first (2 mm = 0.2 cm).",
+      "Confusing CSA with TSA: a closed cylinder's TSA adds 2πr², and a solid hemisphere's TSA is 3πr², not 2πr².",
+      "Treating a given diameter as the radius (or vice versa), which makes areas 4 times and volumes 8 times off.",
+      "Adding percentage changes linearly: a 10% increase in radius does not give a 30% increase in volume."
+    ],
+    "examTip": "Keep π as 22/7 and cancel before multiplying — SSC picks radii like 7, 14, 21 and 28 so the 7 cancels and the answer comes out as a whole number."
+  },
+  "questions": [
+    {
+      "text": "What is the area of a triangle whose sides are 13 cm, 14 cm and 15 cm?",
+      "difficulty": "EASY",
+      "options": ["91 cm²", "84 cm²", "42 cm²", "105 cm²"],
+      "answer": 1,
+      "explanation": "Semi-perimeter s = (13 + 14 + 15) ÷ 2 = 21.\nHeron's formula: area = √[21 × (21 − 13) × (21 − 14) × (21 − 15)] = √(21 × 8 × 7 × 6) = √7056 = 84 cm².\nShortcut: the triangle splits into 5-12-13 and 9-12-15 right triangles with height 12 on base 14, so area = ½ × 14 × 12 = 84 cm²."
+    },
+    {
+      "text": "The radius of a wheel is 21 cm. How many revolutions will it make to cover a distance of 1.32 km? (Take π = 22/7)",
+      "difficulty": "EASY",
+      "options": ["1000", "500", "2000", "100"],
+      "answer": 0,
+      "explanation": "Distance covered in one revolution = circumference = 2 × 22/7 × 21 = 132 cm.\nTotal distance = 1.32 km = 132000 cm.\nNumber of revolutions = 132000 ÷ 132 = 1000."
+    },
+    {
+      "text": "The length, breadth and height of a cuboid are 12 cm, 4 cm and 3 cm respectively. What is the length of its longest diagonal?",
+      "difficulty": "EASY",
+      "options": ["19 cm", "4√10 cm", "5 cm", "13 cm"],
+      "answer": 3,
+      "explanation": "Longest (body) diagonal of a cuboid = √(l² + b² + h²).\n= √(144 + 16 + 9) = √169 = 13 cm.\n(4√10 cm and 5 cm are only face diagonals.)"
+    },
+    {
+      "text": "What is the area of a regular hexagon of side 6 cm?",
+      "difficulty": "MEDIUM",
+      "options": ["36√3 cm²", "9√3 cm²", "54√3 cm²", "108√3 cm²"],
+      "answer": 2,
+      "explanation": "A regular hexagon is made of 6 equilateral triangles of side 6 cm.\nArea of one triangle = (√3/4) × 6² = 9√3 cm².\nHexagon area = 6 × 9√3 = 54√3 cm².\nFormula check: (3√3/2)a² = (3√3/2) × 36 = 54√3 cm²."
+    },
+    {
+      "text": "A right circular cone has a base radius of 7 cm and a height of 24 cm. What is its curved surface area? (Take π = 22/7)",
+      "difficulty": "MEDIUM",
+      "options": ["528 cm²", "550 cm²", "704 cm²", "1232 cm²"],
+      "answer": 1,
+      "explanation": "Slant height l = √(7² + 24²) = √625 = 25 cm (7-24-25 triplet).\nCSA = πrl = 22/7 × 7 × 25 = 550 cm².\n(528 cm² comes from wrongly using the height 24 instead of the slant height.)"
+    },
+    {
+      "text": "A solid metallic sphere of radius 9 cm is melted and drawn into a wire of uniform radius 2 mm. What is the length of the wire?",
+      "difficulty": "MEDIUM",
+      "options": ["24.3 m", "162 m", "2430 m", "243 m"],
+      "answer": 3,
+      "explanation": "Volume of the sphere = (4/3)π × 9³ = (4/3)π × 729 = 972π cm³.\nWire radius = 2 mm = 0.2 cm, so its cross-section = π × 0.2² = 0.04π cm².\nLength = 972π ÷ 0.04π = 24300 cm = 243 m."
+    },
+    {
+      "text": "If the radius of a sphere is increased by 10%, by what percentage does its volume increase?",
+      "difficulty": "MEDIUM",
+      "options": ["33.1%", "30%", "21%", "10%"],
+      "answer": 0,
+      "explanation": "Volume is proportional to r³.\nNew volume factor = (1.1)³ = 1.331, i.e. an increase of 33.1%.\nShortcut with successive change: 10% and 10% give 10 + 10 + 1 = 21%; then 21% and 10% give 21 + 10 + 2.1 = 33.1%."
+    },
+    {
+      "text": "A right pyramid stands on a square base of side 10 cm and has a vertical height of 12 cm. What is its lateral surface area?",
+      "difficulty": "MEDIUM",
+      "options": ["240 cm²", "360 cm²", "260 cm²", "400 cm²"],
+      "answer": 2,
+      "explanation": "Slant height of each triangular face = √(12² + 5²) = √169 = 13 cm (the 5 is half the base side).\nArea of one face = ½ × 10 × 13 = 65 cm².\nLateral surface area = 4 × 65 = 260 cm².\nFormula check: ½ × base perimeter × slant height = ½ × 40 × 13 = 260 cm²."
+    },
+    {
+      "text": "The perimeter of a rectangle is 46 cm and its diagonal is 17 cm. What is the area of the rectangle?",
+      "difficulty": "HARD",
+      "options": ["240 cm²", "120 cm²", "136 cm²", "60 cm²"],
+      "answer": 1,
+      "explanation": "l + b = 46 ÷ 2 = 23 and l² + b² = 17² = 289.\nUse (l + b)² = l² + b² + 2lb: 529 = 289 + 2lb → 2lb = 240 → lb = 120.\nArea = 120 cm² (the sides are 15 cm and 8 cm)."
+    },
+    {
+      "text": "The sum of the radius and the height of a closed right circular cylinder is 37 cm, and its total surface area is 1628 cm². What is its volume? (Take π = 22/7)",
+      "difficulty": "HARD",
+      "options": ["1540 cm³", "9240 cm³", "3080 cm³", "4620 cm³"],
+      "answer": 3,
+      "explanation": "TSA = 2πr(r + h) = 2 × 22/7 × r × 37 = 1628.\nSo r = (1628 × 7) ÷ (44 × 37) = 11396 ÷ 1628 = 7 cm, and h = 37 − 7 = 30 cm.\nVolume = πr²h = 22/7 × 49 × 30 = 4620 cm³."
+    },
+    {
+      "text": "A hemispherical bowl of internal radius 9 cm is full of liquid. The liquid is to be poured into cylindrical bottles of radius 1.5 cm and height 4 cm. How many bottles are needed to empty the bowl?",
+      "difficulty": "MEDIUM",
+      "options": ["54", "108", "27", "72"],
+      "answer": 0,
+      "explanation": "Volume of the hemispherical bowl = (2/3)π × 9³ = (2/3)π × 729 = 486π cm³.\nVolume of one bottle = π × 1.5² × 4 = 9π cm³.\nNumber of bottles = 486π ÷ 9π = 54.\n(108 would be the answer for a full sphere.)"
+    }
+  ]
+}

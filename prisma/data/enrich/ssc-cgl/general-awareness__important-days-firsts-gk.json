@@ -1,0 +1,104 @@
+{
+  "exam": "ssc-cgl",
+  "subject": "general-awareness",
+  "chapter": "important-days-firsts-gk",
+  "notes": {
+    "summary": "Covers national and international days, Indian 'firsts' (first persons and first women in different fields) and geographical superlatives of India. SSC CGL asks date-to-day matching, 'who was the first Indian/woman to...', and 'largest/longest/southernmost' questions.",
+    "keyPoints": [
+      "January–March: 12 Jan National Youth Day (Vivekananda), 15 Jan Army Day, 23 Jan Parakram Diwas (Netaji), 25 Jan National Voters' Day, 30 Jan Martyrs' Day, 28 Feb National Science Day (Raman Effect, 1928), 8 Mar International Women's Day, 22 Mar World Water Day.",
+      "April–August: 7 Apr World Health Day, 22 Apr Earth Day, 11 May National Technology Day (Pokhran-II, 1998), 5 Jun World Environment Day, 21 Jun International Day of Yoga, 1 Jul National Doctors' Day, 29 Aug National Sports Day (Dhyan Chand).",
+      "September–December: 5 Sep Teachers' Day, 16 Sep World Ozone Day, 2 Oct Gandhi Jayanti and International Day of Non-Violence, 24 Oct UN Day, 14 Nov Children's Day, 26 Nov Constitution Day, 1 Dec World AIDS Day, 10 Dec Human Rights Day.",
+      "First women: President – Pratibha Patil (2007); Prime Minister – Indira Gandhi (1966); Governor – Sarojini Naidu (United Provinces, 1947); Chief Minister – Sucheta Kriplani (Uttar Pradesh, 1963); IPS officer – Kiran Bedi (1972).",
+      "Other firsts: Nobel – Rabindranath Tagore (1913); Oscar – Bhanu Athaiya (1983, costume design for 'Gandhi'); woman of Indian origin in space – Kalpana Chawla (1997); Indian citizen in space – Rakesh Sharma (1984); individual Olympic gold – Abhinav Bindra (2008).",
+      "Superlatives: largest state by area – Rajasthan; by population – Uttar Pradesh; smallest – Goa; longest coastline among states – Gujarat; southernmost point – Indira Point (Great Nicobar); southern tip of the mainland – Kanyakumari.",
+      "Events behind dates: 26 Nov 1949 – Constitution adopted (Constitution Day since 2015); 26 Jan 1950 – Constitution came into force (Republic Day); 10 Dec 1948 – Universal Declaration of Human Rights adopted."
+    ],
+    "traps": [
+      "National Science Day is 28 February (Raman Effect announced), not 7 November (Raman's birthday) or 11 May (Technology Day).",
+      "Constitution Day is 26 November; 26 January is Republic Day.",
+      "Sarojini Naidu was the first woman Governor; the first woman Chief Minister was Sucheta Kriplani.",
+      "Kanyakumari is the southern tip of mainland India; the southernmost point of India is Indira Point.",
+      "Kalpana Chawla was the first woman of Indian origin in space; Rakesh Sharma was the first Indian citizen in space."
+    ],
+    "examTip": "Learn days month by month and tie each date to its reason (a birthday, a treaty, a discovery) — the reason fixes the date in memory and helps you reject close distractors."
+  },
+  "questions": [
+    {
+      "text": "National Youth Day in India, marking the birth anniversary of Swami Vivekananda, is observed on:",
+      "difficulty": "EASY",
+      "options": ["23 January", "12 January", "15 January", "30 January"],
+      "answer": 1,
+      "explanation": "Swami Vivekananda was born on 12 January 1863, and India has observed his birthday as National Youth Day since 1985.\n23 January is Parakram Diwas (Netaji's birthday), 15 January is Army Day and 30 January is Martyrs' Day.\nAnswer: 12 January."
+    },
+    {
+      "text": "International Women's Day is observed every year on:",
+      "difficulty": "EASY",
+      "options": ["22 March", "15 March", "8 March", "21 March"],
+      "answer": 2,
+      "explanation": "International Women's Day is celebrated on 8 March to honour women's achievements and promote gender equality; the UN has observed it since 1975.\n22 March is World Water Day, 15 March is World Consumer Rights Day and 21 March is the International Day of Forests.\nAnswer: 8 March."
+    },
+    {
+      "text": "Who was the first woman to become the President of India?",
+      "difficulty": "EASY",
+      "options": ["Indira Gandhi", "Droupadi Murmu", "Sarojini Naidu", "Pratibha Patil"],
+      "answer": 3,
+      "explanation": "Pratibha Patil became India's 12th President and its first woman President in July 2007, serving till 2012.\nIndira Gandhi was the first woman Prime Minister, Sarojini Naidu the first woman Governor, and Droupadi Murmu became the second woman President in 2022.\nAnswer: Pratibha Patil."
+    },
+    {
+      "text": "National Science Day, which commemorates the discovery of the Raman Effect, is celebrated in India on:",
+      "difficulty": "MEDIUM",
+      "options": ["11 May", "7 November", "28 February", "1 July"],
+      "answer": 2,
+      "explanation": "C. V. Raman announced the discovery of the Raman Effect on 28 February 1928, and the day has been celebrated as National Science Day since 1987.\n7 November is Raman's birthday, 11 May is National Technology Day (Pokhran-II, 1998) and 1 July is National Doctors' Day.\nAnswer: 28 February."
+    },
+    {
+      "text": "Constitution Day (Samvidhan Divas) is observed in India on which date?",
+      "difficulty": "MEDIUM",
+      "options": ["26 January", "26 November", "15 August", "9 December"],
+      "answer": 1,
+      "explanation": "The Constituent Assembly adopted the Constitution on 26 November 1949, and this date has been observed as Constitution Day since 2015.\n26 January is Republic Day, when the Constitution came into force in 1950.\n9 December 1946 was the date of the Constituent Assembly's first meeting.\nAnswer: 26 November."
+    },
+    {
+      "text": "Human Rights Day, marking the adoption of the Universal Declaration of Human Rights by the UN General Assembly in 1948, is observed on:",
+      "difficulty": "MEDIUM",
+      "options": ["10 December", "1 December", "24 October", "2 October"],
+      "answer": 0,
+      "explanation": "The UN General Assembly adopted the Universal Declaration of Human Rights on 10 December 1948, so Human Rights Day falls on 10 December.\n1 December is World AIDS Day, 24 October is UN Day and 2 October is the International Day of Non-Violence.\nAnswer: 10 December."
+    },
+    {
+      "text": "Who was the first woman of Indian origin to go into space?",
+      "difficulty": "MEDIUM",
+      "options": ["Kalpana Chawla", "Sunita Williams", "Sirisha Bandla", "Tessy Thomas"],
+      "answer": 0,
+      "explanation": "Kalpana Chawla flew on NASA's Space Shuttle Columbia (STS-87) in 1997, becoming the first woman of Indian origin in space; she died in the Columbia disaster in 2003.\nSunita Williams first flew in 2006 and Sirisha Bandla in 2021, while Tessy Thomas is a DRDO missile scientist.\nAnswer: Kalpana Chawla."
+    },
+    {
+      "text": "Which Indian state has the longest coastline?",
+      "difficulty": "MEDIUM",
+      "options": ["Andhra Pradesh", "Tamil Nadu", "Maharashtra", "Gujarat"],
+      "answer": 3,
+      "explanation": "Gujarat lies on the Arabian Sea and its coast is deeply indented by the Gulf of Kutch and the Gulf of Khambhat around the Kathiawar peninsula.\nThis gives it the longest coastline of any Indian state, well ahead of Andhra Pradesh, Tamil Nadu and Maharashtra.\nAnswer: Gujarat."
+    },
+    {
+      "text": "Which is the southernmost point of Indian territory?",
+      "difficulty": "MEDIUM",
+      "options": ["Kanyakumari", "Indira Point", "Rameswaram", "Port Blair"],
+      "answer": 1,
+      "explanation": "Indira Point, on Great Nicobar Island in the Andaman and Nicobar Islands, is the southernmost point of India.\nKanyakumari is only the southern tip of mainland India, which is the common trap.\nAnswer: Indira Point."
+    },
+    {
+      "text": "Who was the first woman to become the Chief Minister of an Indian state?",
+      "difficulty": "HARD",
+      "options": ["Sucheta Kriplani", "Sarojini Naidu", "Nandini Satpathy", "J. Jayalalithaa"],
+      "answer": 0,
+      "explanation": "Sucheta Kriplani became Chief Minister of Uttar Pradesh in 1963.\nSarojini Naidu was the first woman Governor (United Provinces, 1947), Nandini Satpathy became Odisha's Chief Minister in 1972 and Jayalalithaa first became Tamil Nadu's Chief Minister in 1991.\nAnswer: Sucheta Kriplani."
+    },
+    {
+      "text": "Who was the first Indian to win an Academy Award (Oscar)?",
+      "difficulty": "HARD",
+      "options": ["Satyajit Ray", "A. R. Rahman", "Bhanu Athaiya", "Resul Pookutty"],
+      "answer": 2,
+      "explanation": "Bhanu Athaiya won the Oscar for Best Costume Design in 1983 for the film 'Gandhi', sharing it with John Mollo.\nSatyajit Ray received an Honorary Oscar in 1992, while A. R. Rahman and Resul Pookutty won in 2009 for 'Slumdog Millionaire'.\nAnswer: Bhanu Athaiya."
+    }
+  ]
+}

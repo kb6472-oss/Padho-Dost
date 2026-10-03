@@ -1,0 +1,106 @@
+{
+  "exam": "ssc-cgl",
+  "subject": "quantitative-aptitude",
+  "chapter": "time-speed-distance",
+  "notes": {
+    "summary": "Time, Speed and Distance covers unit conversion, average speed, relative speed, trains, boats and streams, races, chases and circular tracks. SSC CGL usually sets 1-2 questions per paper, most often on trains, boats or relative speed.",
+    "keyPoints": [
+      "Distance = Speed × Time. km/h to m/s: multiply by 5/18; m/s to km/h: multiply by 18/5. 72 km/h = 20 m/s.",
+      "Average speed for equal distances at x and y = 2xy/(x + y), not (x + y)/2. 40 and 60 km/h → 4800/100 = 48 km/h.",
+      "Relative speed: same direction = difference of speeds; opposite directions = sum of speeds.",
+      "A train passing a pole or a standing man covers its own length; passing a platform or another train it covers the sum of the two lengths.",
+      "Boats: downstream speed = b + s, upstream speed = b − s; so b = (down + up)/2 and s = (down − up)/2.",
+      "Stoppage time per hour = (speed without stops − speed with stops)/(speed without stops) × 60 minutes. 54 and 45 km/h → 9/54 × 60 = 10 minutes.",
+      "If two bodies start towards each other at the same time and take a and b hours to reach the opposite ends after meeting, S1 : S2 = √b : √a.",
+      "At 3/4 of the usual speed, time becomes 4/3 of the usual time; the extra 1/3 of the usual time equals the delay.",
+      "Circular track of length L, same starting point: first meeting after L ÷ (relative speed); same direction uses the difference, opposite directions use the sum."
+    ],
+    "traps": [
+      "Averaging the two speeds directly instead of using total distance ÷ total time.",
+      "Forgetting to convert km/h into m/s when lengths are in metres and time is in seconds.",
+      "In train-crossing-train questions, using the length of only one train.",
+      "In races, mixing up the winner's time with the loser's time.",
+      "Writing √a : √b instead of √b : √a in the after-meeting formula."
+    ],
+    "examTip": "Convert every speed to one unit at the start, and write down the relative speed before anything else in train and chase questions."
+  },
+  "questions": [
+    {
+      "text": "Excluding stoppages, the speed of a bus is 54 km/h; including stoppages, it is 45 km/h. For how many minutes does the bus stop per hour?",
+      "difficulty": "EASY",
+      "options": ["9 minutes", "10 minutes", "12 minutes", "15 minutes"],
+      "answer": 1,
+      "explanation": "Because of the stops the bus covers 54 − 45 = 9 km less every hour.\nTime it would need to cover 9 km at 54 km/h = 9/54 hour.\n9/54 × 60 = 10 minutes of stoppage per hour."
+    },
+    {
+      "text": "Walking at 3/4 of his usual speed, a man reaches his office 20 minutes late. What is his usual time to reach the office?",
+      "difficulty": "EASY",
+      "options": ["80 minutes", "45 minutes", "60 minutes", "15 minutes"],
+      "answer": 2,
+      "explanation": "For the same distance, time is inversely proportional to speed, so the new time = 4/3 of the usual time.\nExtra time = 4/3 − 1 = 1/3 of the usual time = 20 minutes.\nUsual time = 20 × 3 = 60 minutes."
+    },
+    {
+      "text": "A man goes to his office at 40 km/h and returns home along the same route at 60 km/h. What is his average speed for the whole journey?",
+      "difficulty": "EASY",
+      "options": ["48 km/h", "50 km/h", "45 km/h", "52 km/h"],
+      "answer": 0,
+      "explanation": "The two distances are equal, so average speed = 2xy/(x + y).\n= 2 × 40 × 60/(40 + 60) = 4800/100 = 48 km/h.\n(50 km/h is the simple average, which is wrong because more time is spent at the slower speed.)"
+    },
+    {
+      "text": "Two trains start at the same time from stations P and Q towards each other. After meeting, the train from P takes 9 hours to reach Q and the train from Q takes 16 hours to reach P. What is the ratio of the speed of the train from P to that of the train from Q?",
+      "difficulty": "MEDIUM",
+      "options": ["3 : 4", "16 : 9", "4 : 3", "9 : 16"],
+      "answer": 2,
+      "explanation": "Rule: S1 : S2 = √(time taken by the second train after meeting) : √(time taken by the first train after meeting).\nSpeed of P's train : speed of Q's train = √16 : √9 = 4 : 3."
+    },
+    {
+      "text": "In a 1 km race, A beats B by 40 m or by 8 seconds. How much time does A take to complete the race?",
+      "difficulty": "MEDIUM",
+      "options": ["200 seconds", "192 seconds", "208 seconds", "180 seconds"],
+      "answer": 1,
+      "explanation": "B runs the last 40 m in 8 seconds, so B's speed = 40/8 = 5 m/s.\nB's time for 1000 m = 1000/5 = 200 seconds.\nA finishes 8 seconds earlier: 200 − 8 = 192 seconds."
+    },
+    {
+      "text": "A and B start running at the same time from the same point on a circular track 600 m long, in the same direction, at 4 m/s and 6 m/s respectively. After how much time will they meet again for the first time?",
+      "difficulty": "MEDIUM",
+      "options": ["1 minute", "2.5 minutes", "10 minutes", "5 minutes"],
+      "answer": 3,
+      "explanation": "In the same direction, relative speed = 6 − 4 = 2 m/s.\nB must gain one full lap (600 m) on A to meet him again.\nTime = 600/2 = 300 seconds = 5 minutes.\n(Running in opposite directions they would meet after 600/10 = 60 s = 1 minute.)"
+    },
+    {
+      "text": "The speed of a boat in still water is 15 km/h and the speed of the stream is 3 km/h. How long will the boat take to go 36 km downstream and come back to the starting point?",
+      "difficulty": "MEDIUM",
+      "options": ["4.8 hours", "5 hours", "4 hours", "6 hours"],
+      "answer": 1,
+      "explanation": "Downstream speed = 15 + 3 = 18 km/h; time = 36/18 = 2 hours.\nUpstream speed = 15 − 3 = 12 km/h; time = 36/12 = 3 hours.\nTotal time = 2 + 3 = 5 hours."
+    },
+    {
+      "text": "Two trains, 120 m and 180 m long, are running in the same direction on parallel tracks at 72 km/h and 54 km/h respectively. In how much time will the faster train completely pass the slower train?",
+      "difficulty": "MEDIUM",
+      "options": ["24 seconds", "36 seconds", "60 seconds", "30 seconds"],
+      "answer": 2,
+      "explanation": "Relative speed (same direction) = 72 − 54 = 18 km/h = 18 × 5/18 = 5 m/s.\nDistance to be covered = 120 + 180 = 300 m.\nTime = 300/5 = 60 seconds."
+    },
+    {
+      "text": "A thief is spotted by a policeman from a distance of 200 m. At that moment the thief starts running at 10 km/h and the policeman chases him at 12 km/h. How far will the thief have run before he is caught?",
+      "difficulty": "MEDIUM",
+      "options": ["1 km", "1.2 km", "800 m", "500 m"],
+      "answer": 0,
+      "explanation": "Relative speed = 12 − 10 = 2 km/h.\nGap = 200 m = 0.2 km, so time to catch up = 0.2/2 = 0.1 hour.\nDistance run by the thief = 10 × 0.1 = 1 km."
+    },
+    {
+      "text": "A train crosses a platform 150 m long in 15 seconds and a man standing on the platform in 9 seconds. What is the length of the train?",
+      "difficulty": "HARD",
+      "options": ["225 m", "150 m", "250 m", "200 m"],
+      "answer": 0,
+      "explanation": "Crossing the man, the train covers its own length L in 9 s; crossing the platform, it covers L + 150 m in 15 s.\nSo the extra 150 m takes 15 − 9 = 6 s, giving speed = 150/6 = 25 m/s.\nLength L = 25 × 9 = 225 m."
+    },
+    {
+      "text": "If a man increases his speed by 3 km/h, he takes 40 minutes less to cover a certain distance. If he decreases his speed by 2 km/h, he takes 40 minutes more to cover the same distance. What is the distance?",
+      "difficulty": "HARD",
+      "options": ["36 km", "48 km", "30 km", "40 km"],
+      "answer": 3,
+      "explanation": "Let the speed be s km/h and the distance D km; 40 minutes = 2/3 hour.\nD/s − D/(s + 3) = 2/3 gives 3D/[s(s + 3)] = 2/3.\nD/(s − 2) − D/s = 2/3 gives 2D/[s(s − 2)] = 2/3.\nEquating: 3(s − 2) = 2(s + 3), so s = 12 km/h.\nThen 3D/(12 × 15) = 2/3, so D = 40 km. (Check: 40/12 − 40/15 = 2/3 h and 40/10 − 40/12 = 2/3 h.)"
+    }
+  ]
+}

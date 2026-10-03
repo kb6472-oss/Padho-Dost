@@ -484,7 +484,7 @@ export default function TestRunner({ test }: { test: RunnerTest }) {
           </button>
         </div>
 
-        <p className="mt-4 text-body-lg font-medium leading-relaxed text-foreground">{q.text}</p>
+        <p className="whitespace-pre-line mt-4 text-body-lg font-medium leading-relaxed text-foreground">{q.text}</p>
         <Bn className="mt-2 block text-body-lg leading-relaxed text-muted">{q.textBn}</Bn>
 
         {/* Options are a radiogroup, not a pile of buttons. Previously a screen

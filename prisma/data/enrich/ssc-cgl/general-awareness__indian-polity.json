@@ -1,0 +1,162 @@
+{
+  "exam": "ssc-cgl",
+  "subject": "general-awareness",
+  "chapter": "indian-polity",
+  "notes": {
+    "summary": "This chapter covers the making and features of the Constitution, Fundamental Rights, Directive Principles and Duties, Parliament, the President, the judiciary, constitutional bodies, amendments and local government. SSC CGL asks 2-4 polity questions per paper, mostly about article numbers, schedules, amendments, and who presides over or appoints whom.",
+    "keyPoints": [
+      "Parts: III Fundamental Rights (Articles 12–35), IV DPSP (36–51), IVA Fundamental Duties (51A), V Union, VI States, IX Panchayats, IXA Municipalities.",
+      "Key articles: 14 equality before law, 17 abolition of untouchability, 19 six freedoms, 21 life and personal liberty, 21A education for ages 6–14, 32 constitutional remedies (Ambedkar's 'heart and soul'), 226 High Court writs.",
+      "Writs: Habeas Corpus produces a detained person before the court. Mandamus orders an official to perform a duty. Prohibition stops a lower court from going ahead. Certiorari quashes a lower court's order. Quo Warranto asks by what authority someone holds a public office.",
+      "Fundamental Duties: borrowed from the USSR. The 42nd Amendment (1976) added 10 on the Swaran Singh Committee's advice, and the 86th Amendment (2002) added an 11th, making 11 in total.",
+      "Borrowed features: UK – parliamentary system, rule of law. USA – Fundamental Rights, judicial review. Ireland – DPSP. Canada – federation with a strong Centre. Australia – Concurrent List. USSR – Fundamental Duties.",
+      "Parliament: Rajya Sabha can have at most 250 members (238 elected + 12 nominated, Article 80). Lok Sabha can have at most 550 elected members (Article 81). Money Bills can only be introduced in the Lok Sabha.",
+      "Joint sitting (Article 108): the President summons it and the Lok Sabha Speaker presides. It cannot be held for Money Bills or Constitution Amendment Bills.",
+      "Constitutional bodies: Attorney General (Article 76), CAG (148), Finance Commission (280), UPSC (315), Election Commission (324).",
+      "Schedules: 7th – Union, State and Concurrent Lists. 8th – 22 languages. 10th – anti-defection (52nd Amendment, 1985). 11th – Panchayats (29 subjects). 12th – Municipalities (18 subjects).",
+      "Amendments: 42nd (1976) is called the 'mini-constitution'. 44th (1978) removed property from the Fundamental Rights. 61st (1988) lowered the voting age from 21 to 18. 73rd/74th (1992) cover Panchayats/Municipalities. 86th (2002) added Article 21A. 101st (2016) brought in GST."
+    ],
+    "traps": [
+      "Confusing Article 32 (Supreme Court writs, itself a Fundamental Right) with Article 226 (High Court writs, which are wider in scope).",
+      "Answering 245 for the Rajya Sabha's maximum strength. 245 is its present strength; the ceiling is 250.",
+      "Thinking the President or Vice-President presides over a joint sitting. The Lok Sabha Speaker does.",
+      "Mixing up the 73rd (Panchayats) and 74th (Municipalities) Amendments.",
+      "Saying there are 10 Fundamental Duties. The 86th Amendment made them 11."
+    ],
+    "examTip": "Learn articles in clusters (14–18 equality, 19–22 freedom, 32 remedies; 148 CAG, 280 Finance Commission, 324 Election Commission). Then one anchor number is often enough to rule out the other options."
+  },
+  "questions": [
+    {
+      "text": "Which Article of the Indian Constitution abolishes untouchability?",
+      "difficulty": "EASY",
+      "options": [
+        "Article 14",
+        "Article 17",
+        "Article 19",
+        "Article 23"
+      ],
+      "answer": 1,
+      "explanation": "Article 17 abolishes untouchability, forbids its practice in any form and makes enforcing any disability arising from it a punishable offence. Article 14 gives equality before law, Article 19 the six freedoms, and Article 23 bans human trafficking and forced labour. So the answer is Article 17."
+    },
+    {
+      "text": "Dr B.R. Ambedkar described which Article as the 'heart and soul' of the Constitution?",
+      "difficulty": "EASY",
+      "options": [
+        "Article 32",
+        "Article 21",
+        "Article 226",
+        "Article 368"
+      ],
+      "answer": 0,
+      "explanation": "Article 32 gives the right to move the Supreme Court directly to enforce Fundamental Rights, through writs. Without it the other rights could not be enforced, which is why Ambedkar called it the heart and soul of the Constitution. Article 226 gives writ powers to the High Courts, and Article 368 deals with amendment. So the answer is Article 32."
+    },
+    {
+      "text": "Which writ is issued by a court to secure the release of a person who has been unlawfully detained?",
+      "difficulty": "EASY",
+      "options": [
+        "Mandamus",
+        "Certiorari",
+        "Quo Warranto",
+        "Habeas Corpus"
+      ],
+      "answer": 3,
+      "explanation": "Habeas Corpus means 'to have the body'. The court orders the detaining authority to bring the person before it and frees them if the detention is unlawful. Mandamus orders an official to perform a duty, Certiorari quashes a lower court's order, and Quo Warranto questions the right to hold a public office. So the answer is Habeas Corpus."
+    },
+    {
+      "text": "How many Fundamental Duties are listed in Article 51A of the Constitution?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "10",
+        "12",
+        "11",
+        "9"
+      ],
+      "answer": 2,
+      "explanation": "The 42nd Amendment (1976) added 10 Fundamental Duties in Part IVA, on the recommendation of the Swaran Singh Committee. The 86th Amendment (2002) added an 11th: the duty of parents or guardians to give children aged 6–14 the opportunity for education. 10 + 1 = 11."
+    },
+    {
+      "text": "Which Constitutional Amendment Act reduced the voting age from 21 years to 18 years?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "42nd Amendment Act",
+        "61st Amendment Act",
+        "44th Amendment Act",
+        "73rd Amendment Act"
+      ],
+      "answer": 1,
+      "explanation": "The 61st Constitutional Amendment Act, 1988 changed Article 326 to lower the voting age for Lok Sabha and State Assembly elections from 21 to 18 years. The 42nd added Fundamental Duties, the 44th removed the right to property from Fundamental Rights, and the 73rd dealt with Panchayats. So the answer is the 61st Amendment Act."
+    },
+    {
+      "text": "The concept of the Directive Principles of State Policy was borrowed from the Constitution of:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "USA",
+        "Ireland",
+        "Canada",
+        "Australia"
+      ],
+      "answer": 1,
+      "explanation": "The framers took the idea of non-justiciable directive principles from the Irish Constitution (1937), which had borrowed it from Spain. From the USA came Fundamental Rights and judicial review, from Canada a federation with a strong Centre, and from Australia the Concurrent List. So the answer is Ireland."
+    },
+    {
+      "text": "What is the maximum strength of the Rajya Sabha as provided in the Constitution?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "245",
+        "238",
+        "250",
+        "552"
+      ],
+      "answer": 2,
+      "explanation": "Article 80 allows at most 238 representatives of States and UTs plus 12 members nominated by the President for their expertise in literature, science, art and social service. 238 + 12 = 250. The present strength of 245 is lower than this ceiling, and 552 was the old maximum for the Lok Sabha. So the answer is 250."
+    },
+    {
+      "text": "The 73rd Constitutional Amendment Act, 1992 is related to:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Panchayati Raj institutions",
+        "Urban local bodies",
+        "Anti-defection law",
+        "Right to education"
+      ],
+      "answer": 0,
+      "explanation": "The 73rd Amendment added Part IX and the Eleventh Schedule (29 subjects), giving constitutional status to Panchayati Raj, with a three-tier system and regular elections every five years. The 74th Amendment did the same for urban local bodies (Part IXA, Twelfth Schedule). So the answer is Panchayati Raj institutions."
+    },
+    {
+      "text": "A joint sitting of both Houses of Parliament under Article 108 is presided over by the:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "President",
+        "Vice-President",
+        "Prime Minister",
+        "Speaker of the Lok Sabha"
+      ],
+      "answer": 3,
+      "explanation": "The President summons a joint sitting when the two Houses deadlock over an ordinary bill, but does not preside over it. The Speaker of the Lok Sabha presides. If the Speaker is absent, the Deputy Speaker presides, and after them the Deputy Chairman of the Rajya Sabha. So the answer is the Speaker of the Lok Sabha."
+    },
+    {
+      "text": "The Comptroller and Auditor General of India (CAG) is appointed under which Article?",
+      "difficulty": "HARD",
+      "options": [
+        "Article 148",
+        "Article 280",
+        "Article 324",
+        "Article 76"
+      ],
+      "answer": 0,
+      "explanation": "Article 148 provides for a CAG appointed by the President, and Article 151 requires the CAG's audit reports to be laid before Parliament. Article 76 is about the Attorney General, Article 280 the Finance Commission, and Article 324 the Election Commission. So the answer is Article 148."
+    },
+    {
+      "text": "Provisions on disqualification of legislators on the ground of defection are contained in which Schedule of the Constitution?",
+      "difficulty": "HARD",
+      "options": [
+        "Eighth Schedule",
+        "Ninth Schedule",
+        "Eleventh Schedule",
+        "Tenth Schedule"
+      ],
+      "answer": 3,
+      "explanation": "The 52nd Amendment Act, 1985 added the Tenth Schedule, known as the anti-defection law, and the 91st Amendment (2003) tightened it. The Eighth Schedule lists languages, the Ninth protects certain land-reform laws, and the Eleventh lists Panchayat subjects. So the answer is the Tenth Schedule."
+    }
+  ]
+}

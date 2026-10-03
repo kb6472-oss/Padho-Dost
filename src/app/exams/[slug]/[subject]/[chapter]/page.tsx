@@ -115,6 +115,7 @@ export default async function ChapterHubPage({ params }: Props) {
         </h1>
         <p className="mt-2 text-body text-muted">
           {hub.questions} practice questions with full step-by-step solutions
+          {hub.notes ? ", quick revision notes" : ""}
           {explainer ? ", plus a concept-first explainer" : ""} — free, no sign-up.
         </p>
       </header>
@@ -165,6 +166,33 @@ export default async function ChapterHubPage({ params }: Props) {
         </section>
       )}
 
+      {/* Quick revision notes — the must-know concepts, formulas and traps for this chapter. */}
+      {hub.notes && (
+        <section className="mt-10">
+          <h2 className="font-display text-h3 font-bold text-foreground">{hub.chapter.name} — quick revision notes</h2>
+          <p className="mt-2 text-body leading-relaxed text-muted">{hub.notes.summary}</p>
+          <ul className="mt-4 space-y-2.5">
+            {hub.notes.keyPoints.map((p, i) => (
+              <li key={i} className="flex gap-2.5 text-body leading-relaxed text-foreground">
+                <span aria-hidden="true" className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-brand-500" />
+                <span className="whitespace-pre-line">{p}</span>
+              </li>
+            ))}
+          </ul>
+          {hub.notes.traps.length > 0 && (
+            <div className="mt-5 rounded-2xl border border-amber-200 bg-amber-50 p-4 dark:border-amber-900/50 dark:bg-amber-950/30">
+              <h3 className="text-body font-bold text-amber-900 dark:text-amber-200">Common mistakes to avoid</h3>
+              <ul className="mt-2 list-disc space-y-1.5 pl-5 text-body leading-relaxed text-amber-900 dark:text-amber-100">
+                {hub.notes.traps.map((t, i) => <li key={i}>{t}</li>)}
+              </ul>
+            </div>
+          )}
+          {hub.notes.examTip && (
+            <p className="mt-4 text-body text-foreground"><span className="font-semibold">Exam tip:</span> {hub.notes.examTip}</p>
+          )}
+        </section>
+      )}
+
       {/* Solved practice questions — real, indexable Q&A on the page. The answer +
           solution live inside <details> (self-test UX) but stay in the HTML so
           crawlers index them; only a bounded sample shows, the rest is in the test. */}
@@ -187,7 +215,7 @@ export default async function ChapterHubPage({ params }: Props) {
                     <span className="text-caption font-semibold text-muted">Q{i + 1}</span>
                     <span className="text-caption capitalize text-muted">{q.difficulty.toLowerCase()}</span>
                   </div>
-                  <p className="mt-2 text-body font-medium leading-relaxed text-foreground">{q.text}</p>
+                  <p className="whitespace-pre-line mt-2 text-body font-medium leading-relaxed text-foreground">{q.text}</p>
                   <Bn className="mt-1.5 block text-body leading-relaxed text-muted">{q.textBn}</Bn>
                   <ul className="mt-3 space-y-2">
                     {q.options.map((o, oi) => (
@@ -212,7 +240,7 @@ export default async function ChapterHubPage({ params }: Props) {
                     <p className="mt-2 text-body font-semibold text-emerald-700">
                       Correct answer: ({correctLetter}) {q.options[correctIdx]?.text}
                     </p>
-                    <p className="mt-2 text-body leading-relaxed text-brand-900">{q.explanation}</p>
+                    <p className="mt-2 whitespace-pre-line text-body leading-relaxed text-brand-900">{q.explanation}</p>
                     <Bn className="mt-2 block leading-relaxed text-brand-900/80">{q.explanationBn}</Bn>
                   </details>
                 </li>

@@ -1,0 +1,162 @@
+{
+  "exam": "ssc-cgl",
+  "subject": "general-awareness",
+  "chapter": "indian-geography",
+  "notes": {
+    "summary": "This chapter covers India's physical features (the Himalaya, the peninsular plateau, coasts and islands), rivers and dams, climate and the monsoon, soils, and national parks. SSC CGL tests direct location facts (which river, which state, which pass) along with a few superlative and 'odd one out' questions.",
+    "keyPoints": [
+      "Location: India lies between 8°4′N–37°6′N and 68°7′E–97°25′E. Indian Standard Time is based on 82°30′E and is 5 hours 30 minutes ahead of GMT. The Tropic of Cancer passes through 8 states.",
+      "Southernmost points: Kanyakumari for the mainland, and Indira Point on Great Nicobar Island for the whole country.",
+      "Channels: Ten Degree Channel separates Andaman from Nicobar. Nine Degree Channel separates Minicoy from the main Lakshadweep group. Eight Degree Channel separates Minicoy from the Maldives. Palk Strait separates India from Sri Lanka.",
+      "Passes: Zoji La (Srinagar–Leh), Shipki La (Himachal–Tibet, where the Sutlej enters India), Nathu La (Sikkim–Tibet), Bomdi La (Arunachal Pradesh), Palghat Gap (Kerala–Tamil Nadu).",
+      "Peaks: Kangchenjunga (8,586 m) is the highest in India. Anamudi (2,695 m, Kerala) is the highest in Peninsular India, Doddabetta the highest in the Nilgiris, and Guru Shikhar the highest in the Aravallis.",
+      "The Eastern and Western Ghats meet at the Nilgiri Hills.",
+      "Rivers and dams: Kosi is the 'Sorrow of Bihar' and Damodar the 'Sorrow of Bengal'. Hirakud is on the Mahanadi, Bhakra Nangal on the Sutlej, Sardar Sarovar on the Narmada, Tehri on the Bhagirathi and Nagarjuna Sagar on the Krishna.",
+      "Lakes: Wular (J&K) is the largest freshwater lake, Chilika (Odisha) the largest brackish-water lagoon, Loktak (Manipur) has floating phumdis, and Sambhar (Rajasthan) is the largest inland salt lake.",
+      "Soils: black (regur) soil suits cotton and comes from Deccan lava. Alluvial soil is the most widespread and fertile. Laterite soil is leached and suits tea, coffee and cashew. Red soil gets its colour from iron oxide.",
+      "Monsoon: the south-west monsoon (June–September) brings most of India's rain, but the Tamil Nadu (Coromandel) coast gets most of its rain from the north-east, or retreating, monsoon (October–December)."
+    ],
+    "traps": [
+      "Taking Kanyakumari as India's southernmost point. It is only the mainland's; for the whole country it is Indira Point.",
+      "Calling Chilika the largest freshwater lake. Chilika is brackish; Wular is the largest freshwater lake.",
+      "Mixing up the 'sorrow' rivers: Kosi is Bihar's and Damodar is Bengal's.",
+      "Confusing the Ten Degree Channel (Andaman–Nicobar) with the Eight and Nine Degree Channels near Lakshadweep.",
+      "Assuming all of India gets most of its rain in June–September. Tamil Nadu's main rainy season is October–December."
+    ],
+    "examTip": "Picture a map of India and place each option on it before you answer. Wrong options are usually real features from the wrong region."
+  },
+  "questions": [
+    {
+      "text": "Which is the largest freshwater lake in India?",
+      "difficulty": "EASY",
+      "options": [
+        "Chilika Lake",
+        "Loktak Lake",
+        "Dal Lake",
+        "Wular Lake"
+      ],
+      "answer": 3,
+      "explanation": "Wular Lake in Jammu and Kashmir, fed by the Jhelum, is the largest freshwater lake in India. Chilika is bigger, but it is a brackish-water lagoon. Loktak is the largest freshwater lake in the north-east. So the answer is Wular Lake."
+    },
+    {
+      "text": "Which type of soil is best suited for growing cotton?",
+      "difficulty": "EASY",
+      "options": [
+        "Black (regur) soil",
+        "Laterite soil",
+        "Alluvial soil",
+        "Desert soil"
+      ],
+      "answer": 0,
+      "explanation": "Black soil formed from the Deccan lava holds moisture well and is rich in lime, iron and magnesia, which makes it ideal for cotton. That is why it is also called black cotton soil. So the answer is black (regur) soil."
+    },
+    {
+      "text": "Kaziranga National Park, famous for the one-horned rhinoceros, is located in:",
+      "difficulty": "EASY",
+      "options": [
+        "West Bengal",
+        "Assam",
+        "Uttarakhand",
+        "Madhya Pradesh"
+      ],
+      "answer": 1,
+      "explanation": "Kaziranga lies on the floodplains of the Brahmaputra in Assam and is a UNESCO World Heritage Site. It has the world's largest population of the Indian one-horned rhinoceros. Jaldapara in West Bengal also has rhinos, but it is a different park. So the answer is Assam."
+    },
+    {
+      "text": "Which river is known as the 'Sorrow of Bihar' because of its frequent floods and shifting course?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Damodar",
+        "Gandak",
+        "Kosi",
+        "Son"
+      ],
+      "answer": 2,
+      "explanation": "The Kosi carries a heavy silt load from the Himalaya and has shifted its course many times, causing severe floods in north Bihar. The Damodar was called the 'Sorrow of Bengal' before the Damodar Valley Corporation dams were built. So the 'Sorrow of Bihar' is the Kosi."
+    },
+    {
+      "text": "Indian Standard Time (IST) is based on which longitude?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "75°E",
+        "82°30′E",
+        "80°E",
+        "88°30′E"
+      ],
+      "answer": 1,
+      "explanation": "The Earth turns 15° of longitude per hour. IST uses the 82°30′E meridian, which passes near Mirzapur in Uttar Pradesh. 82.5 ÷ 15 = 5.5, so IST is 5 hours 30 minutes ahead of GMT. So the answer is 82°30′E."
+    },
+    {
+      "text": "Which mountain pass connects Srinagar with Leh?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Nathu La",
+        "Shipki La",
+        "Bomdi La",
+        "Zoji La"
+      ],
+      "answer": 3,
+      "explanation": "Zoji La carries the Srinagar–Leh highway from the Kashmir valley into Ladakh (via Dras and Kargil). Nathu La links Sikkim with Tibet, Shipki La links Himachal Pradesh with Tibet, and Bomdi La is in Arunachal Pradesh. So the answer is Zoji La."
+    },
+    {
+      "text": "The Eastern Ghats and the Western Ghats meet at the:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Nilgiri Hills",
+        "Cardamom Hills",
+        "Satpura Range",
+        "Aravalli Range"
+      ],
+      "answer": 0,
+      "explanation": "The Western Ghats run along the west coast and the broken Eastern Ghats run along the east coast. The two ranges come together in the Nilgiri Hills, where Doddabetta is the highest peak. The Cardamom Hills lie further south, beyond the Palghat Gap. So they meet at the Nilgiri Hills."
+    },
+    {
+      "text": "Which is the highest peak of Peninsular India?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Doddabetta",
+        "Mahendragiri",
+        "Anamudi",
+        "Guru Shikhar"
+      ],
+      "answer": 2,
+      "explanation": "Anamudi (2,695 m) in the Anaimalai Hills of Kerala is the highest peak south of the Himalaya. Doddabetta (2,637 m) is the highest peak of the Nilgiris, and Guru Shikhar (1,722 m) is the highest point of the Aravallis. So the answer is Anamudi."
+    },
+    {
+      "text": "The Hirakud Dam, one of the longest earthen dams in the world, is built across which river?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Godavari",
+        "Mahanadi",
+        "Krishna",
+        "Damodar"
+      ],
+      "answer": 1,
+      "explanation": "Hirakud Dam stands on the Mahanadi near Sambalpur in Odisha and was one of the first major multipurpose projects after Independence. Nagarjuna Sagar is on the Krishna, and the DVC dams are on the Damodar. So the answer is the Mahanadi."
+    },
+    {
+      "text": "The Ten Degree Channel separates:",
+      "difficulty": "HARD",
+      "options": [
+        "Lakshadweep from the Maldives",
+        "India from Sri Lanka",
+        "The Andaman Islands from the Nicobar Islands",
+        "Minicoy from the main Lakshadweep group"
+      ],
+      "answer": 2,
+      "explanation": "The Ten Degree Channel lies along about 10°N latitude, between Little Andaman and Car Nicobar, in the Bay of Bengal. The Eight Degree Channel separates Minicoy from the Maldives, the Nine Degree Channel separates Minicoy from the main Lakshadweep group, and the Palk Strait separates India from Sri Lanka. So it separates the Andaman Islands from the Nicobar Islands."
+    },
+    {
+      "text": "Which part of India receives most of its annual rainfall from the north-east (retreating) monsoon during October–December?",
+      "difficulty": "HARD",
+      "options": [
+        "Malabar coast of Kerala",
+        "Punjab plains",
+        "Konkan coast",
+        "Coromandel coast of Tamil Nadu"
+      ],
+      "answer": 3,
+      "explanation": "The Tamil Nadu coast lies in the rain shadow of the Western Ghats during the south-west monsoon, so it gets little rain then. In October–December, the retreating winds pick up moisture over the Bay of Bengal and bring heavy rain to the Coromandel coast. The Malabar and Konkan coasts get their rain mainly from the south-west monsoon, and Punjab's winter rain comes from western disturbances. So the answer is the Coromandel coast of Tamil Nadu."
+    }
+  ]
+}

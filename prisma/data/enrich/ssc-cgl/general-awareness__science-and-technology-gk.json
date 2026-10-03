@@ -1,0 +1,162 @@
+{
+  "exam": "ssc-cgl",
+  "subject": "general-awareness",
+  "chapter": "science-and-technology-gk",
+  "notes": {
+    "summary": "This chapter covers everyday physics, chemistry and biology, plus India's space and technology milestones. SSC CGL asks 4-6 science questions per shift: units and instruments, alloys and chemical names, the human body, diseases and nutrition, and ISRO missions.",
+    "keyPoints": [
+      "SI units: force – newton, pressure – pascal, resistance – ohm, radioactivity – becquerel, absorbed radiation dose – gray, luminous intensity – candela.",
+      "Instruments: barometer measures atmospheric pressure, hygrometer humidity, anemometer wind speed, hydrometer the density of liquids, lactometer the purity of milk, and seismograph earthquakes.",
+      "Mirrors and lenses: a convex mirror is used as a rear-view mirror (wide view, erect and smaller image). A concave mirror is used for shaving mirrors and headlight reflectors. Myopia is corrected with a concave lens, hypermetropia with a convex lens.",
+      "Alloys: brass = copper + zinc, bronze = copper + tin, steel = iron + carbon, solder = tin + lead, stainless steel = iron + chromium + nickel.",
+      "Common names: baking soda is NaHCO₃ (sodium bicarbonate), washing soda Na₂CO₃·10H₂O, bleaching powder CaOCl₂, plaster of Paris CaSO₄·½H₂O, quicklime CaO.",
+      "Liquids at room temperature: mercury (a metal) and bromine (a non-metal). Gallium melts at about 30 °C, just above room temperature.",
+      "Human body: the liver is the largest gland, the skin the largest organ, the femur the longest bone and the stapes the smallest. The cerebellum controls balance and coordination; the medulla oblongata controls breathing and heartbeat.",
+      "Blood: O negative is the universal donor and AB positive the universal recipient. Normal blood pH is about 7.4.",
+      "Diseases by cause: viruses – measles, polio, dengue, rabies, AIDS. Bacteria – tuberculosis, typhoid, cholera, tetanus. Protozoa – malaria, kala-azar.",
+      "ISRO milestones: Aryabhata (1975) was the first satellite. Chandrayaan-1 (2008) helped detect water on the Moon. Mangalyaan (launched 2013) reached Mars orbit on the first attempt in 2014. Chandrayaan-3 soft-landed near the lunar south pole on 23 August 2023 (Vikram lander, Pragyan rover)."
+    ],
+    "traps": [
+      "Picking mercury when the question asks for a liquid non-metal. Mercury is a metal; the answer is bromine.",
+      "Swapping brass (copper + zinc) and bronze (copper + tin).",
+      "Choosing AB as the universal donor. AB+ is the universal recipient; O− is the universal donor.",
+      "Giving the curie as the SI unit of radioactivity. It is an older unit; the SI unit is the becquerel.",
+      "Thinking vehicles use concave rear-view mirrors. They use convex mirrors for a wider view."
+    ],
+    "examTip": "Watch the qualifier words, such as 'SI unit', 'non-metal', or 'largest gland' versus 'largest organ'. SSC's wrong options are usually right answers to a slightly different question."
+  },
+  "questions": [
+    {
+      "text": "Which blood group is known as the universal donor?",
+      "difficulty": "EASY",
+      "options": [
+        "AB positive",
+        "A positive",
+        "O negative",
+        "B negative"
+      ],
+      "answer": 2,
+      "explanation": "O negative red cells carry no A, B or Rh(D) antigens, so the recipient's antibodies do not attack them. That lets them be given to people of any blood group. AB positive is the universal recipient, because it has all three antigens. So the universal donor is O negative."
+    },
+    {
+      "text": "Which instrument is used to measure atmospheric pressure?",
+      "difficulty": "EASY",
+      "options": [
+        "Hygrometer",
+        "Barometer",
+        "Anemometer",
+        "Hydrometer"
+      ],
+      "answer": 1,
+      "explanation": "A barometer (for example, a mercury barometer, invented by Torricelli) measures atmospheric pressure. A hygrometer measures humidity, an anemometer wind speed, and a hydrometer the density of liquids. So the answer is the barometer."
+    },
+    {
+      "text": "The chemical name of baking soda is:",
+      "difficulty": "EASY",
+      "options": [
+        "Sodium bicarbonate",
+        "Sodium carbonate",
+        "Calcium carbonate",
+        "Sodium chloride"
+      ],
+      "answer": 0,
+      "explanation": "Baking soda is sodium hydrogen carbonate (sodium bicarbonate), NaHCO₃. When heated it releases CO₂, which makes dough rise. Sodium carbonate (Na₂CO₃·10H₂O) is washing soda, and sodium chloride is common salt. So the answer is sodium bicarbonate."
+    },
+    {
+      "text": "Which part of the human brain maintains body balance and coordinates voluntary movements?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Cerebrum",
+        "Medulla oblongata",
+        "Hypothalamus",
+        "Cerebellum"
+      ],
+      "answer": 3,
+      "explanation": "The cerebellum, at the back of the brain below the cerebrum, keeps posture and balance and makes voluntary movements smooth and precise, for example walking or riding a bicycle. The cerebrum handles thinking and memory, the medulla controls breathing and heartbeat, and the hypothalamus controls body temperature, hunger and thirst. So the answer is the cerebellum."
+    },
+    {
+      "text": "Vehicles use a convex mirror as the rear-view mirror because the image it forms is always:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Real, inverted and magnified",
+        "Virtual, erect and diminished, giving a wider field of view",
+        "Virtual, erect and of the same size",
+        "Real, inverted and diminished"
+      ],
+      "answer": 1,
+      "explanation": "A convex mirror spreads light rays outward, so wherever the object is, the image is virtual, erect and smaller than the object. Because the image is smaller, the driver can see a much wider area behind the vehicle. A plane mirror gives a same-size image, and real inverted images come from concave mirrors. So the answer is virtual, erect and diminished, giving a wider field of view."
+    },
+    {
+      "text": "Bronze is an alloy of:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Copper and zinc",
+        "Iron and carbon",
+        "Copper and tin",
+        "Tin and lead"
+      ],
+      "answer": 2,
+      "explanation": "Bronze is mainly copper with tin, and it is used for statues, medals and bells. Copper and zinc make brass, iron and carbon make steel, and tin and lead make solder. So bronze is copper and tin."
+    },
+    {
+      "text": "Which is the largest gland in the human body?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Liver",
+        "Pancreas",
+        "Thyroid",
+        "Pituitary"
+      ],
+      "answer": 0,
+      "explanation": "The liver weighs about 1.5 kg in an adult. It secretes bile, stores glycogen and removes toxins. The thyroid is the largest endocrine gland, and the pituitary is called the 'master gland', but neither is the largest gland overall. So the answer is the liver."
+    },
+    {
+      "text": "Which of the following diseases is caused by a virus?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Typhoid",
+        "Malaria",
+        "Tuberculosis",
+        "Measles"
+      ],
+      "answer": 3,
+      "explanation": "Measles is caused by the measles virus and can be prevented with the MMR/MR vaccine. Typhoid (Salmonella typhi) and tuberculosis (Mycobacterium tuberculosis) are caused by bacteria. Malaria is caused by the protozoan Plasmodium and spread by female Anopheles mosquitoes. So the viral disease is measles."
+    },
+    {
+      "text": "In August 2023, the Vikram lander of India's Chandrayaan-3 mission made a soft landing near which region of the Moon?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "North polar region",
+        "Sea of Tranquillity near the equator",
+        "South polar region",
+        "Centre of the far side"
+      ],
+      "answer": 2,
+      "explanation": "On 23 August 2023, the Vikram lander touched down near the lunar south pole. India became the first country to soft-land in that region, and the fourth to soft-land on the Moon at all. The landing point was named Shiv Shakti Point, and 23 August is now observed as National Space Day. Apollo 11 landed in the Sea of Tranquillity. So the answer is the south polar region."
+    },
+    {
+      "text": "Which element is a non-metal that exists as a liquid at room temperature?",
+      "difficulty": "HARD",
+      "options": [
+        "Mercury",
+        "Bromine",
+        "Iodine",
+        "Gallium"
+      ],
+      "answer": 1,
+      "explanation": "Bromine, a reddish-brown halogen, is the only non-metal that is liquid at room temperature. Mercury is also liquid, but it is a metal. Iodine is a solid that sublimes, and gallium is a metal that melts at about 30 °C. So the answer is bromine."
+    },
+    {
+      "text": "The SI unit of radioactivity is the:",
+      "difficulty": "HARD",
+      "options": [
+        "Becquerel",
+        "Curie",
+        "Gray",
+        "Sievert"
+      ],
+      "answer": 0,
+      "explanation": "1 becquerel (Bq) means one nuclear decay per second. The curie is an older, non-SI unit (1 Ci = 3.7 × 10¹⁰ Bq). The gray measures absorbed radiation dose, and the sievert measures its biological effect (equivalent dose). So the SI unit of radioactivity is the becquerel."
+    }
+  ]
+}

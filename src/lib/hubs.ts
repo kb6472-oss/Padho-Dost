@@ -101,6 +101,15 @@ const getSubjectHubUncached = cache(async (examSlug: string, subjectSlug: string
   };
 });
 
+export type ChapterNotes = { summary: string; keyPoints: string[]; traps: string[]; examTip: string };
+
+// Chapter.notes is free-form JSON; only render it when it has the expected shape.
+function toNotes(v: unknown): ChapterNotes | null {
+  const n = v as Partial<ChapterNotes> | null;
+  if (!n || typeof n.summary !== "string" || !Array.isArray(n.keyPoints) || !n.keyPoints.length) return null;
+  return { summary: n.summary, keyPoints: n.keyPoints, traps: Array.isArray(n.traps) ? n.traps : [], examTip: typeof n.examTip === "string" ? n.examTip : "" };
+}
+
 const getChapterHubUncached = cache(async (examSlug: string, subjectSlug: string, chapterSlug: string) => {
   const chapter = await prisma.chapter.findFirst({
     where: { slug: chapterSlug, subject: { slug: subjectSlug }, exam: { slug: examSlug, status: "LIVE" } },
@@ -136,7 +145,7 @@ const getChapterHubUncached = cache(async (examSlug: string, subjectSlug: string
     prisma.question.findMany({
       where: { chapterId: chapter.id, type: "MCQ", explanation: { not: null }, options: { some: { isCorrect: true } } },
       orderBy: { createdAt: "asc" },
-      take: 8,
+      take: 12,
       select: {
         id: true,
         text: true,
@@ -173,6 +182,7 @@ const getChapterHubUncached = cache(async (examSlug: string, subjectSlug: string
     exam: chapter.exam,
     subject: chapter.subject,
     chapter: { slug: chapter.slug, name: chapter.name },
+    notes: toNotes(chapter.notes),
     questions: chapter._count.questions,
     difficulty: diff,
     explainers: chapter.explainers,

@@ -1,0 +1,103 @@
+{
+  "exam": "ssc-cgl",
+  "subject": "general-intelligence-reasoning",
+  "chapter": "direction-distance",
+  "notes": {
+    "summary": "Direction and Distance questions follow a person's path through walks and turns. They ask for the final direction faced, the shortest distance from the start, or the direction of one point from another. SSC CGL also uses shadow, rotation-in-degrees and clock-face versions.",
+    "keyPoints": [
+      "Draw axes with North up and East to the right. Treat each walk as a move on a grid and keep running totals of net North-South and net East-West movement.",
+      "Shortest distance = √(net N-S² + net E-W²). Learn these triplets: 3-4-5, 6-8-10, 5-12-13, 8-15-17, 9-12-15.",
+      "A right turn is 90° clockwise and a left turn is 90° anticlockwise. Facing North, right is East; facing South, right is West; facing East, right is South; facing West, right is North.",
+      "For rotation questions use degrees measured from North: N = 0°, NE = 45°, E = 90°, SE = 135°, S = 180°, SW = 225°, W = 270°, NW = 315°. Add for clockwise turns and subtract for anticlockwise turns.",
+      "Shadows: in the morning the sun is in the East, so shadows fall to the West. In the evening the sun is in the West, so shadows fall to the East.",
+      "Direction of the start from you is the opposite of your direction from the start. If you are South-East of the start, the start is North-West of you.",
+      "If two people start from the same point, find both final positions as coordinates and apply the distance formula to the difference."
+    ],
+    "traps": [
+      "Turning left or right relative to the page instead of relative to the direction the person is facing at that moment.",
+      "Adding up all the distances walked instead of finding the net displacement.",
+      "Giving the reverse direction: 'direction of the start from the person' is the opposite of 'direction of the person from the start'.",
+      "Forgetting that a 45° turn ends on a diagonal direction (NE, SE, SW, NW)."
+    ],
+    "examTip": "Sketch every path on rough paper with arrows and running coordinates. Never solve a multi-turn direction question in your head."
+  },
+  "questions": [
+    {
+      "text": "In the evening, Rahul is standing in an open field and his shadow falls exactly to his right. Which direction is he facing?",
+      "difficulty": "EASY",
+      "options": ["South", "North", "East", "West"],
+      "answer": 1,
+      "explanation": "In the evening the sun is in the West, so shadows fall towards the East.\nThe shadow is on Rahul's right, so his right hand points East.\nA person whose right hand points East is facing North."
+    },
+    {
+      "text": "A man is facing South. He turns left, and then turns left again. Which direction is he facing now?",
+      "difficulty": "EASY",
+      "options": ["South", "East", "North", "West"],
+      "answer": 2,
+      "explanation": "Facing South, a left turn makes him face East.\nFacing East, another left turn makes him face North.\n(Two left turns make 180°, so he now faces the opposite of South.)"
+    },
+    {
+      "text": "A man walks 12 m towards South, then turns left and walks 5 m. How far is he from his starting point?",
+      "difficulty": "EASY",
+      "options": ["12 m", "7 m", "17 m", "13 m"],
+      "answer": 3,
+      "explanation": "Facing South, a left turn means he now walks East.\nHe ends up 12 m South and 5 m East of the start, which form a right angle.\nDistance = √(12² + 5²) = √(144 + 25) = √169 = 13 m."
+    },
+    {
+      "text": "Seema walks 6 km North, turns right and walks 4 km, then turns right again and walks 9 km. How far and in which direction is she from her starting point?",
+      "difficulty": "MEDIUM",
+      "options": ["5 km South-East", "5 km North-East", "7 km South-East", "13 km South"],
+      "answer": 0,
+      "explanation": "Take the start as (0, 0). 6 km North → (0, 6).\nA right turn from North means East: 4 km → (4, 6).\nA right turn from East means South: 9 km → (4, −3).\nNet: 4 km East and 3 km South, so distance = √(4² + 3²) = 5 km, in the South-East direction."
+    },
+    {
+      "text": "A man is facing North-West. He turns 90° clockwise, then 180° anticlockwise, and then 45° clockwise. Which direction is he facing now?",
+      "difficulty": "MEDIUM",
+      "options": ["North", "South-West", "West", "North-West"],
+      "answer": 2,
+      "explanation": "Measure in degrees from North: North-West = 315°.\n90° clockwise: 315 + 90 = 405, which is 45° (North-East).\n180° anticlockwise: 45 − 180 = −135, which is 225° (South-West).\n45° clockwise: 225 + 45 = 270°, which is West."
+    },
+    {
+      "text": "P is 4 m to the East of Q. R is 3 m to the North of Q. What is the distance between P and R, and in which direction is R with respect to P?",
+      "difficulty": "MEDIUM",
+      "options": ["5 m, North-East", "7 m, North-West", "5 m, South-East", "5 m, North-West"],
+      "answer": 3,
+      "explanation": "Place Q at (0, 0). Then P = (4, 0) and R = (0, 3).\nGoing from P to R you move 4 m West and 3 m North, so R is North-West of P.\nDistance PR = √(4² + 3²) = 5 m."
+    },
+    {
+      "text": "Arjun walks 10 km West, turns left and walks 6 km, turns left again and walks 18 km, and then turns left and walks 12 km. How far is he from his starting point?",
+      "difficulty": "MEDIUM",
+      "options": ["8 km", "10 km", "6 km", "14 km"],
+      "answer": 1,
+      "explanation": "Start at (0, 0). 10 km West → (−10, 0).\nA left turn from West means South: 6 km → (−10, −6).\nA left turn from South means East: 18 km → (8, −6).\nA left turn from East means North: 12 km → (8, 6).\nDistance = √(8² + 6²) = √100 = 10 km."
+    },
+    {
+      "text": "A clock is kept flat on a table, face up, so that at 3:00 the hour hand points towards North. In which direction will the minute hand point at 3:45?",
+      "difficulty": "MEDIUM",
+      "options": ["North", "East", "South", "West"],
+      "answer": 2,
+      "explanation": "At 3:00 the hour hand is on 3, so the '3' mark points North.\nMoving clockwise in steps of 90°: 3 → North, 6 → East, 9 → South, 12 → West.\nAt 3:45 the minute hand is on 9, so it points South."
+    },
+    {
+      "text": "From his house, Vikas walks 5 km North, then 15 km East, and then 3 km North. What is the shortest distance between Vikas and his house?",
+      "difficulty": "MEDIUM",
+      "options": ["23 km", "15 km", "13 km", "17 km"],
+      "answer": 3,
+      "explanation": "Total movement North = 5 + 3 = 8 km, and movement East = 15 km.\nShortest distance = √(8² + 15²) = √(64 + 225) = √289 = 17 km.\n(23 km is the total distance walked, not the shortest distance.)"
+    },
+    {
+      "text": "Ram and Shyam start from the same point. Ram walks 8 km East, then turns left and walks 6 km. Shyam walks 4 km West, then turns left and walks 3 km. What is the distance between Ram and Shyam now?",
+      "difficulty": "HARD",
+      "options": ["15 km", "10 km", "5 km", "21 km"],
+      "answer": 0,
+      "explanation": "Ram: 8 km East, then left (North) 6 km → (8, 6).\nShyam: 4 km West, then left (South) 3 km → (−4, −3).\nDifference: 8 − (−4) = 12 km East-West and 6 − (−3) = 9 km North-South.\nDistance = √(12² + 9²) = √(144 + 81) = √225 = 15 km."
+    },
+    {
+      "text": "A man walks 20 m towards South. He turns left and walks 25 m, turns left again and walks 20 m, and then turns right and walks 15 m. How far and in which direction is his starting point from his present position?",
+      "difficulty": "HARD",
+      "options": ["40 m East", "40 m West", "10 m West", "60 m West"],
+      "answer": 1,
+      "explanation": "Start at (0, 0). 20 m South → (0, −20).\nA left turn from South means East: 25 m → (25, −20).\nA left turn from East means North: 20 m → (25, 0).\nA right turn from North means East: 15 m → (40, 0).\nHe is 40 m East of the start, so the starting point is 40 m West of him."
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "exam": "ssc-cgl",
+  "subject": "english-language",
+  "chapter": "synonyms-antonyms",
+  "notes": {
+    "summary": "This chapter tests vocabulary: choosing the word closest in meaning (synonym) or opposite in meaning (antonym) to a given word, either on its own or written in capitals inside a sentence. SSC CGL Tier-I usually has a few such questions and Tier-II more, and the wrong options are built from look-alike words, the opposite meaning, and the secondary meanings of the word.",
+    "keyPoints": [
+      "Read the direction twice: 'synonym', 'antonym' and 'NOT a synonym' questions use the same kind of options, and examiners deliberately place the opposite word among the choices.",
+      "In sentence-based questions, take the meaning from the context. COUNTENANCE as a verb means 'tolerate' (He will not countenance rudeness), though as a noun it means 'face'.",
+      "Use roots: bene = good (benefactor), mal = bad (malice), loqu = speak (loquacious, eloquent), greg = flock or group (gregarious, segregate), chron = time (chronic), anthrop = human (philanthropy).",
+      "Negative prefixes form many antonyms: un- (unkind), in-/im-/il-/ir- (inept, impartial, illegal, irrelevant), dis- (disagree), a- (amoral). But some are not opposites: inflammable = flammable, invaluable = extremely valuable, inhabitable = habitable.",
+      "Confusable pairs: eminent (distinguished) vs imminent (about to happen); adverse (unfavourable) vs averse (unwilling); amity (friendship) vs enmity (hostility); credible (believable) vs credulous (too ready to believe).",
+      "High-frequency antonym pairs: zenith-nadir, frugal-extravagant, verbose-concise, transparent-opaque, ephemeral-perennial, gregarious-reclusive, tacit-explicit, obscure-lucid, augment-diminish.",
+      "High-frequency synonym pairs: obsequious-servile, placate-pacify, adversity-misfortune, candid-frank, obstinate-stubborn, pernicious-harmful, abate-subside, impeccable-flawless.",
+      "Elimination: in an antonym question, if two options mean the same as the given word (Silent and Implied for TACIT), both are distractors; in a synonym question, strike out the opposite first.",
+      "Connotation matters: renowned and notorious both mean 'famous', but notorious means famous for something bad, so it fits only negative contexts."
+    ],
+    "traps": [
+      "Picking the synonym in an antonym question (or the reverse) because the familiar word catches the eye first.",
+      "Falling for spelling look-alikes: choosing 'impending' for EMINENT (that is imminent) or 'opponent' for ADVERSITY (that is adversary).",
+      "Ignoring the sentence and using the most common meaning of a word that has several meanings.",
+      "Assuming every in- word is a negative: inflammable and invaluable are not the opposites of flammable and valuable."
+    ],
+    "examTip": "If you do not know the word, split it into prefix and root, strike out the look-alikes and the obvious opposite (or synonym), and answer only if you can narrow it to one option; otherwise skip, because a wrong answer carries negative marks."
+  },
+  "questions": [
+    {
+      "text": "Select the most appropriate synonym of the given word.\nOBSTINATE",
+      "difficulty": "EASY",
+      "options": ["Obedient", "Stubborn", "Obscure", "Flexible"],
+      "answer": 1,
+      "explanation": "Obstinate means refusing to change one's opinion or behaviour in spite of persuasion.\nObedient and Flexible are opposite in meaning.\nObscure (unclear) only looks similar because it also starts with 'Ob-'.\nThe word with the same meaning is Stubborn."
+    },
+    {
+      "text": "Select the most appropriate ANTONYM of the word in capitals.\nThe minister's reply to the reporters was deliberately VAGUE.",
+      "difficulty": "EASY",
+      "options": ["Unclear", "Brief", "Precise", "Polite"],
+      "answer": 2,
+      "explanation": "Vague means not clearly expressed or not definite.\nUnclear is a synonym, so it cannot be the antonym.\nBrief (short) and Polite (courteous) describe different qualities, not clarity.\nThe opposite of vague is Precise (exact and clearly stated)."
+    },
+    {
+      "text": "Select the most appropriate synonym of the given word.\nADVERSITY",
+      "difficulty": "EASY",
+      "options": ["Misfortune", "Advantage", "Opponent", "Advertisement"],
+      "answer": 0,
+      "explanation": "Adversity means a difficult or unfortunate situation, a period of hardship.\nAdvantage is close to its opposite.\nOpponent is the meaning of 'adversary', a look-alike word, and Advertisement only shares the opening letters.\nThe synonym is Misfortune."
+    },
+    {
+      "text": "Select the most appropriate synonym of the word in capitals.\nThe police officer tried to PLACATE the angry crowd before it turned violent.",
+      "difficulty": "MEDIUM",
+      "options": ["Provoke", "Address", "Disperse", "Pacify"],
+      "answer": 3,
+      "explanation": "Placate means to make someone less angry or hostile.\nProvoke is the opposite (to make angrier).\nAddress (speak to) and Disperse (scatter) are things an officer might do, but they do not mean calming someone down.\nThe synonym is Pacify."
+    },
+    {
+      "text": "Select the most appropriate ANTONYM of the word in capitals.\nThe principal's silence was taken as TACIT approval of the students' plan.",
+      "difficulty": "MEDIUM",
+      "options": ["Silent", "Implied", "Explicit", "Hesitant"],
+      "answer": 2,
+      "explanation": "Tacit means understood or implied without being stated in words.\nSilent and Implied are both synonyms of tacit, so both are traps in an antonym question.\nHesitant (unsure) is unrelated to whether something is stated.\nThe opposite is Explicit (stated clearly and directly)."
+    },
+    {
+      "text": "Select the most appropriate synonym of the given word.\nEMINENT",
+      "difficulty": "MEDIUM",
+      "options": ["Impending", "Distinguished", "Obvious", "Dangerous"],
+      "answer": 1,
+      "explanation": "Eminent means famous and respected within a particular field (an eminent scientist).\nImpending is the meaning of the look-alike 'imminent' (about to happen).\nObvious (clearly seen) and Dangerous have nothing to do with fame or respect.\nThe synonym of eminent is Distinguished."
+    },
+    {
+      "text": "Select the most appropriate ANTONYM of the given word.\nGREGARIOUS",
+      "difficulty": "MEDIUM",
+      "options": ["Sociable", "Talkative", "Generous", "Reclusive"],
+      "answer": 3,
+      "explanation": "Gregarious (from 'greg' = flock) means fond of company, sociable.\nSociable is a synonym, Talkative is close to it, and Generous only sounds similar.\nThe opposite is a person who avoids company and prefers to live alone.\nThe antonym is Reclusive."
+    },
+    {
+      "text": "Select the most appropriate ANTONYM of the given word.\nZENITH",
+      "difficulty": "MEDIUM",
+      "options": ["Peak", "Nadir", "Apex", "Horizon"],
+      "answer": 1,
+      "explanation": "Zenith means the highest point, the time when someone or something is most successful.\nPeak and Apex are synonyms.\nHorizon is the line where earth and sky appear to meet, not the lowest point.\nThe antonym is Nadir (the lowest point)."
+    },
+    {
+      "text": "Select the word that is NOT a synonym of the given word.\nENMITY",
+      "difficulty": "MEDIUM",
+      "options": ["Hostility", "Animosity", "Rancour", "Amity"],
+      "answer": 3,
+      "explanation": "Enmity means a state of active hostility between people.\nHostility, Animosity and Rancour (bitter, long-lasting resentment) all share this meaning.\nAmity looks similar but means friendship, the opposite of enmity.\nSo the word that is NOT a synonym is Amity."
+    },
+    {
+      "text": "Select the most appropriate synonym of the word in capitals.\nThe judge made it clear that he would not COUNTENANCE any disrespect in his courtroom.",
+      "difficulty": "HARD",
+      "options": ["Face", "Express", "Tolerate", "Notice"],
+      "answer": 2,
+      "explanation": "Countenance has two uses: as a noun it means a person's face or expression, and as a verb it means to tolerate or approve of something.\nIn this sentence it is a verb (would not countenance any disrespect), so Face and Express, which come from the noun sense (face, expression), are traps.\nNotice does not fit, because the judge is refusing to allow disrespect, not refusing to see it.\nThe synonym in this context is Tolerate."
+    },
+    {
+      "text": "Select the most appropriate synonym of the given word.\nOBSEQUIOUS",
+      "difficulty": "HARD",
+      "options": ["Servile", "Obstinate", "Defiant", "Oblivious"],
+      "answer": 0,
+      "explanation": "Obsequious means excessively eager to please or obey others, fawning.\nDefiant (openly resisting) is nearly the opposite.\nObstinate and Oblivious only share the 'Ob-' beginning.\nThe synonym is Servile (too willing to serve or please)."
+    }
+  ]
+}

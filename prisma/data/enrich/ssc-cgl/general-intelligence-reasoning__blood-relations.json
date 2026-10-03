@@ -1,0 +1,104 @@
+{
+  "exam": "ssc-cgl",
+  "subject": "general-intelligence-reasoning",
+  "chapter": "blood-relations",
+  "notes": {
+    "summary": "Blood Relations questions describe family links through plain statements, introductions ('pointing to a photo...') or symbol codes (A + B means A is the mother of B), and ask how two people are related. SSC CGL usually has 1-2 such questions, often built around a gender trap or an in-law link.",
+    "keyPoints": [
+      "Draw a family tree: + for male, − for female, a horizontal line for a married couple, a vertical line for parent and child, and the same level for the same generation.",
+      "Decode introductions starting from the end. 'My mother's husband's only daughter': mother's husband = father, so his only daughter = my sister (if I am male) or me (if I am female).",
+      "Father's or mother's brother = uncle; father's or mother's sister = aunt; their children = cousins; a brother's or sister's children = nephew or niece.",
+      "In-laws: a spouse's brother or a sister's husband = brother-in-law; a son's wife = daughter-in-law; a daughter's husband = son-in-law.",
+      "Never assume gender from words like child, parent, sibling or spouse. Only son, daughter, brother, sister, father, mother, husband, wife (or a clearly gendered name) fix it.",
+      "Coded relations: translate each symbol into words from left to right and write the chain on paper (P + Q − R × S → P is mother of Q, Q is brother of R, R is father of S).",
+      "For 'which expression shows that X is the uncle of Y', X must be the brother of someone who is Y's parent.",
+      "Count generations: grandparents are 2 levels up and great-grandparents 3. People on the same level are siblings, cousins, spouses or in-laws."
+    ],
+    "traps": [
+      "Assuming gender: 'B is the daughter of C' does not tell you whether C is the father or the mother.",
+      "Mixing up the direction: 'How is A related to B' asks for A's role, not B's (nephew vs uncle).",
+      "Reading a code backwards, e.g. taking A × B to mean B is the father of A.",
+      "Missing that a speaker can be the person they describe ('the only daughter of my father' can be the speaker herself)."
+    ],
+    "examTip": "Always sketch the tree with gender marks. Even a 10-second sketch prevents most mistakes in introduction and coded questions."
+  },
+  "questions": [
+    {
+      "text": "Ravi's mother's husband has only one daughter, Neha. How is Neha related to Ravi?",
+      "difficulty": "EASY",
+      "options": ["Cousin", "Sister", "Aunt", "Niece"],
+      "answer": 1,
+      "explanation": "Ravi's mother's husband is Ravi's father.\nThe only daughter of Ravi's father is Ravi's sister.\nSo Neha is Ravi's sister."
+    },
+    {
+      "text": "P is the brother of Q. Q is the son of R. Which of the following is definitely true?",
+      "difficulty": "EASY",
+      "options": ["R is P's father", "R is P's mother", "P is Q's elder brother", "R is a parent of P"],
+      "answer": 3,
+      "explanation": "Q is the son of R, and P is Q's brother, so P is also R's child.\nWe are never told whether R is male or female, so we cannot say 'father' or 'mother', and nothing is said about age.\nThe only certain fact is that R is a parent of P."
+    },
+    {
+      "text": "Pointing to a boy, Kiran said, 'He is the son of my father's sister.' How is the boy related to Kiran?",
+      "difficulty": "EASY",
+      "options": ["Cousin", "Brother", "Nephew", "Uncle"],
+      "answer": 0,
+      "explanation": "Kiran's father's sister is Kiran's aunt.\nThe son of one's aunt is one's cousin.\nSo the boy is Kiran's cousin."
+    },
+    {
+      "text": "A + B means A is the mother of B; A − B means A is the brother of B; A × B means A is the father of B; A ÷ B means A is the sister of B. If P + Q − R × S, how is P related to S?",
+      "difficulty": "MEDIUM",
+      "options": ["Mother", "Aunt", "Grandmother", "Sister"],
+      "answer": 2,
+      "explanation": "P + Q: P is the mother of Q.\nQ − R: Q is the brother of R, so R is also P's child.\nR × S: R is the father of S.\nP is the mother of S's father, so P is S's grandmother."
+    },
+    {
+      "text": "A + B means A is the mother of B; A − B means A is the brother of B; A × B means A is the father of B; A ÷ B means A is the sister of B. Which of the following expressions means that M is the uncle of N?",
+      "difficulty": "MEDIUM",
+      "options": ["M − X × N", "M ÷ X × N", "M × X − N", "M + X − N"],
+      "answer": 0,
+      "explanation": "An uncle is the brother of a parent.\nM − X × N: M is the brother of X, and X is the father of N, so M is N's paternal uncle.\nM ÷ X × N makes M the aunt, M × X − N makes M the father of N, and M + X − N makes M the mother of N.\nSo the answer is M − X × N."
+    },
+    {
+      "text": "Pointing to a lady, Arun said, 'She is the daughter of the woman who is the mother of my mother's husband.' How is the lady related to Arun?",
+      "difficulty": "MEDIUM",
+      "options": ["Sister", "Mother", "Cousin", "Aunt"],
+      "answer": 3,
+      "explanation": "Arun's mother's husband is Arun's father.\nThe mother of Arun's father is Arun's grandmother.\nThe grandmother's daughter is Arun's father's sister.\nSo the lady is Arun's aunt (his father's sister)."
+    },
+    {
+      "text": "A is the son of B. B is the sister of C. C is the father of D. How is A related to D?",
+      "difficulty": "MEDIUM",
+      "options": ["Brother", "Cousin", "Nephew", "Uncle"],
+      "answer": 1,
+      "explanation": "B is A's mother, and B is the sister of C, so C is A's maternal uncle.\nD is C's child.\nThe children of a sister and a brother are cousins, so A is D's cousin."
+    },
+    {
+      "text": "In a family of six members P, Q, R, S, T and U, P is the father of R and S, and Q is P's wife. R is a married man and S is his unmarried sister. T is P's daughter-in-law, and U is Q's grandson. How is S related to U?",
+      "difficulty": "MEDIUM",
+      "options": ["Mother", "Sister", "Aunt", "Grandmother"],
+      "answer": 2,
+      "explanation": "P and Q are a couple with two children: a son R and a daughter S.\nT is P's daughter-in-law, so T is the wife of P's only son, R.\nU is Q's grandson. S is unmarried, so U is the son of R and T.\nS is the sister of U's father, so S is U's aunt."
+    },
+    {
+      "text": "A and B are a married couple. C and D are brothers. C is the brother of A. How is D related to B?",
+      "difficulty": "MEDIUM",
+      "options": ["Brother-in-law", "Brother", "Son-in-law", "Cousin"],
+      "answer": 0,
+      "explanation": "C is A's brother and D is C's brother, so D is also A's brother.\nB is A's spouse, and a spouse's brother is a brother-in-law.\nSo D is B's brother-in-law, whether A is the husband or the wife."
+    },
+    {
+      "text": "P @ Q means P is the father of Q; P # Q means P is the wife of Q; P $ Q means P is the daughter of Q; P & Q means P is the brother of Q. If A @ B # C @ D & F, how is D related to A?",
+      "difficulty": "HARD",
+      "options": ["Son", "Nephew", "Son-in-law", "Grandson"],
+      "answer": 3,
+      "explanation": "A @ B: A is the father of B.\nB # C: B is the wife of C, so B is A's daughter and C is A's son-in-law.\nC @ D: C is the father of D, so D is the child of B and C.\nD & F: D is the brother of F, so D is male.\nD is the son of A's daughter, so D is A's grandson."
+    },
+    {
+      "text": "A family has six members A, B, C, D, E and F. A and B are a married couple, A being the male member. C is the brother of A. D is the only son of C, and E is D's sister. B is the daughter-in-law of F, whose husband has died. How is E related to F?",
+      "difficulty": "HARD",
+      "options": ["Daughter", "Granddaughter", "Niece", "Daughter-in-law"],
+      "answer": 1,
+      "explanation": "B is F's daughter-in-law and B is A's wife, so F is A's parent. F had a husband, so F is A's mother.\nC is A's brother, so C is also F's son.\nD is C's son and E is D's sister, so E is C's daughter.\nE is the daughter of F's son, so E is F's granddaughter."
+    }
+  ]
+}

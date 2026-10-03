@@ -1,0 +1,160 @@
+{
+  "exam": "wbcs",
+  "subject": "indian-history",
+  "chapter": "ancient-medieval-india",
+  "notes": {
+    "summary": "This chapter covers Indian history from the Harappan civilisation through the Vedic age, Buddhism and Jainism, the Mauryas and Guptas and the regional kingdoms (with special weight on Bengal's Shashanka, Palas and Senas), to the Delhi Sultanate and the Mughals. WBCS Prelims tests it mainly through one-line factual questions on sites, rulers, texts, travellers and battles.",
+    "keyPoints": [
+      "Harappan sites: Mohenjo-daro (Great Bath), Harappa (granaries), Lothal (dockyard, Gujarat), Kalibangan (ploughed field, Rajasthan), Dholavira (water reservoirs, Kutch), Rakhigarhi (Haryana, among the largest).",
+      "Vedic age: the Rigveda is the oldest Veda; the Sabha and Samiti were popular assemblies; in the Later Vedic period settlement shifted east to the Ganga valley.",
+      "Buddha: born at Lumbini, enlightened at Bodh Gaya, first sermon at Sarnath, died at Kushinagar. Jainism: Rishabhanatha was the 1st, Parshvanatha the 23rd and Mahavira the 24th Tirthankara.",
+      "Mauryas: Chandragupta (adviser Kautilya; Megasthenes sent by Seleucus Nicator); Ashoka (Kalinga war c. 261 BCE, Dhamma). Guptas: Samudragupta (Prayag Prashasti by Harishena), Chandragupta II; the 'Golden Age'.",
+      "Bengal: Shashanka (capital Karnasuvarna, rival of Harsha). Palas: Gopala (c. 750 CE, chosen to end the anarchy called matsyanyaya), Dharmapala (Vikramashila, Somapura), Devapala, Mahipala I (defeated by Rajendra Chola I). Senas: Vijaya Sena, Ballala Sena, Lakshmana Sena (court poet Jayadeva; Bakhtiyar Khalji's raid on Nadia c. 1204).",
+      "Delhi Sultanate (1206-1526): Aibak and Iltutmish (Qutub Minar), Alauddin Khalji (market control), Muhammad bin Tughlaq (token currency), Firoz Shah Tughlaq, the Lodis.",
+      "Mughals and Surs: First Battle of Panipat 1526, Khanwa 1527; Sher Shah (silver rupiya, Grand Trunk Road); Akbar: Haldighati 1576 (Man Singh vs Maharana Pratap), Din-i-Ilahi, Todar Mal's revenue system.",
+      "Bhakti in Bengal: Chaitanya Mahaprabhu (Gaudiya Vaishnavism, sankirtana)."
+    ],
+    "traps": [
+      "Mixing up the four Buddhist sites: enlightenment was at Bodh Gaya; the first sermon was at Sarnath.",
+      "Giving Firoz Shah Tughlaq or Aibak the main credit for the Qutub Minar. Iltutmish added three storeys; Firoz Shah only repaired and rebuilt the top.",
+      "Confusing Muhammad bin Tughlaq's token currency with Sher Shah's silver rupiya.",
+      "Mixing up Pala kings: Dharmapala founded Vikramashila, Devapala patronised Nalanda, and Mahipala I faced Rajendra Chola.",
+      "Taking Lakhnauti (Gaur) as Shashanka's capital. His capital was Karnasuvarna, in present-day Murshidabad district."
+    ],
+    "examTip": "Give extra time to Bengal's own dynasties (Shashanka, the Palas and the Senas). WBCS asks about them far more often than national exams do."
+  },
+  "questions": [
+    {
+      "text": "Gautama Buddha delivered his first sermon, known as the 'Dharmachakra Pravartana' (turning of the wheel of law), at:",
+      "difficulty": "EASY",
+      "options": [
+        "Bodh Gaya",
+        "Sarnath",
+        "Kushinagar",
+        "Lumbini"
+      ],
+      "answer": 1,
+      "explanation": "Buddha was born at Lumbini and attained enlightenment under the Bodhi tree at Bodh Gaya.\nHe gave his first sermon to five companions at the Deer Park, Sarnath (near Varanasi), and died (mahaparinirvana) at Kushinagar.\nAnswer: Sarnath."
+    },
+    {
+      "text": "In Jainism, Vardhamana Mahavira is regarded as the:",
+      "difficulty": "EASY",
+      "options": [
+        "1st Tirthankara",
+        "23rd Tirthankara",
+        "24th Tirthankara",
+        "12th Tirthankara"
+      ],
+      "answer": 2,
+      "explanation": "Jains believe in 24 Tirthankaras.\nRishabhanatha (Adinatha) was the first, Parshvanatha the 23rd, and Vardhamana Mahavira the 24th and last.\nMahavira was born at Kundagrama near Vaishali and attained nirvana at Pavapuri.\nAnswer: 24th Tirthankara."
+    },
+    {
+      "text": "Which ruler introduced the silver coin called the 'rupiya', which became the basis of later Indian currency?",
+      "difficulty": "EASY",
+      "options": [
+        "Sher Shah Suri",
+        "Akbar",
+        "Muhammad bin Tughlaq",
+        "Alauddin Khalji"
+      ],
+      "answer": 0,
+      "explanation": "Sher Shah Suri (ruled 1540-45) issued a standard silver coin, the rupiya, of about 178 grains, along with the copper dam.\nThe Mughals kept this system.\nMuhammad bin Tughlaq is remembered for his failed token currency of brass and copper, which is the usual trap.\nAnswer: Sher Shah Suri."
+    },
+    {
+      "text": "Which Harappan site in Gujarat is famous for a large brick basin widely interpreted as a dockyard?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Dholavira",
+        "Banawali",
+        "Rakhigarhi",
+        "Lothal"
+      ],
+      "answer": 3,
+      "explanation": "Lothal, near the Gulf of Khambhat in Gujarat, has a brick-lined basin linked to an old river channel, generally seen as the earliest known dockyard. It also had a bead-making workshop.\nDholavira (also in Gujarat, in Kutch) is known for its water reservoirs and a large inscription. Banawali and Rakhigarhi are in Haryana.\nAnswer: Lothal."
+    },
+    {
+      "text": "Megasthenes, author of 'Indica', came to the court of Chandragupta Maurya at Pataliputra as the ambassador of:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Alexander the Great",
+        "Seleucus Nicator",
+        "Antiochus I",
+        "Darius I"
+      ],
+      "answer": 1,
+      "explanation": "After his war with Chandragupta (c. 305 BCE), Seleucus I Nicator made a treaty and sent Megasthenes as his envoy to Pataliputra.\nThe 'Indica' survives only in quotations by later Greek writers and describes Mauryan society and administration.\nDeimachus, the next envoy, was sent by Antiochus I to Bindusara.\nAnswer: Seleucus Nicator."
+    },
+    {
+      "text": "The Vikramashila Mahavihara, a great Buddhist university in present-day Bihar, was founded by which Pala king of Bengal?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Dharmapala",
+        "Devapala",
+        "Gopala",
+        "Mahipala I"
+      ],
+      "answer": 0,
+      "explanation": "Dharmapala (late 8th to early 9th century), son of Gopala, founded Vikramashila near Bhagalpur and the Somapura Mahavihara at Paharpur (now in Bangladesh).\nGopala founded the dynasty around 750 CE, Devapala was a noted patron of Nalanda, and Mahipala I revived Pala power in the 11th century.\nAnswer: Dharmapala."
+    },
+    {
+      "text": "Which Sena ruler of Bengal fled from Nadia (Nabadwip) when Bakhtiyar Khalji made a surprise raid on it around 1204?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Ballala Sena",
+        "Vijaya Sena",
+        "Lakshmana Sena",
+        "Hemanta Sena"
+      ],
+      "answer": 2,
+      "explanation": "Bakhtiyar Khalji, with a small band of horsemen, surprised the aged Lakshmana Sena at Nadia. The king escaped to east Bengal (Vikrampur), where Sena rule continued for some time.\nLakshmana Sena's court included Jayadeva, author of the Gita Govinda.\nVijaya Sena made the Senas a major power, and his son Ballala Sena is credited with the Danasagara.\nAnswer: Lakshmana Sena."
+    },
+    {
+      "text": "Qutb-ud-din Aibak began building the Qutub Minar but completed only its first storey. Which Sultan added the next three storeys?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Firoz Shah Tughlaq",
+        "Balban",
+        "Alauddin Khalji",
+        "Iltutmish"
+      ],
+      "answer": 3,
+      "explanation": "Aibak began the tower around 1199 and finished the first storey.\nHis son-in-law and successor Iltutmish added three more storeys.\nAfter lightning damaged it in 1368, Firoz Shah Tughlaq repaired it and rebuilt the top as the present fourth and fifth storeys, which is the usual trap.\nAlauddin Khalji began the much larger Alai Minar, which was never finished.\nAnswer: Iltutmish."
+    },
+    {
+      "text": "At the Battle of Haldighati (1576), Akbar's army fighting against Maharana Pratap of Mewar was commanded by:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Raja Todar Mal",
+        "Raja Man Singh",
+        "Bairam Khan",
+        "Abul Fazl"
+      ],
+      "answer": 1,
+      "explanation": "Akbar sent Raja Man Singh of Amber, with Asaf Khan, to lead the Mughal army at Haldighati in June 1576.\nMaharana Pratap, on his horse Chetak, escaped and kept up the resistance from the hills.\nTodar Mal was Akbar's revenue minister, Bairam Khan was his regent who died in 1561, and Abul Fazl was the court historian.\nAnswer: Raja Man Singh."
+    },
+    {
+      "text": "Shashanka, the first important independent king of Bengal (Gauda) and a rival of Harshavardhana in the early 7th century, ruled from which capital?",
+      "difficulty": "HARD",
+      "options": [
+        "Karnasuvarna",
+        "Lakhnauti",
+        "Pundravardhana",
+        "Tamralipti"
+      ],
+      "answer": 0,
+      "explanation": "Shashanka's capital, Karnasuvarna, is identified with the remains at Rajbadidanga near Chiruti in Murshidabad district. Xuanzang mentions it.\nHarsha's court poet Banabhatta blames Shashanka for killing Harsha's elder brother Rajyavardhana.\nLakhnauti (Gaur) was a later capital of the Senas and the Bengal Sultans, Pundravardhana was a province in north Bengal, and Tamralipti was an ancient port (Tamluk).\nAnswer: Karnasuvarna."
+    },
+    {
+      "text": "The Chola king Rajendra I took the title 'Gangaikondachola' after a northern expedition in the early 11th century in which his army defeated which Pala ruler of Bengal?",
+      "difficulty": "HARD",
+      "options": [
+        "Dharmapala",
+        "Devapala",
+        "Ramapala",
+        "Mahipala I"
+      ],
+      "answer": 3,
+      "explanation": "Rajendra Chola I sent an army up the east coast to the Ganga. His records, including the Tiruvalangadu copper plates, mention the defeat of Mahipala I of the Pala dynasty.\nTo mark the victory he built a new capital, Gangaikonda Cholapuram.\nDharmapala and Devapala ruled in the 8th-9th centuries, and Ramapala (hero of the Ramacharita) in the late 11th century.\nAnswer: Mahipala I."
+    }
+  ]
+}

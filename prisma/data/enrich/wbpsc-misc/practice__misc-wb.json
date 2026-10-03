@@ -1,0 +1,125 @@
+{
+  "exam": "wbpsc-misc",
+  "subject": "practice",
+  "chapter": "misc-wb",
+  "notes": {
+    "summary": "This chapter covers West Bengal for the WBPSC Miscellaneous Services exam: early Bengal (Sasanka, the Palas, the Senas), colonial-era revolts and reform, landforms and soils, natural resources and industry, and folk culture. Questions go beyond the obvious capital-and-river facts to rulers, rebellions, regions, industries and the folk traditions of particular districts.",
+    "keyPoints": [
+      "Early Bengal: Sasanka was the first major independent king of Gauda (early 7th century), with his capital at Karnasubarna (Murshidabad district), and a rival of Harshavardhana. Gopala founded the Pala dynasty around 750 CE after chiefs chose him to end the anarchy called matsyanyaya. Dharmapala founded Vikramashila university.",
+      "Rebellions: Santhal Hul 1855-56 (Sidhu and Kanhu Murmu); Indigo Revolt 1859-60, shown in Dinabandhu Mitra's play Nil Darpan (1860); Chittagong Armoury Raid, 18 April 1930, led by Surya Sen (Masterda).",
+      "Reform and education: Henry Louis Vivian Derozio of Hindu College inspired the Young Bengal movement. The University of Calcutta was set up in 1857 and the Asiatic Society in 1784.",
+      "Landforms: the Darjeeling Himalaya in the north; the Terai and Dooars at the foothills (tea gardens, Buxa, Jaldapara, Gorumara); the western plateau fringe (Purulia, Bankura, Birbhum) with red and laterite soils; the Ganga delta and Sundarbans in the south. The Siliguri Corridor ('Chicken's Neck') links the North-East with the rest of India.",
+      "Resources and industry: West Bengal is India's largest jute producer, with jute mills along the Hooghly. Commercial coal mining in India began at the Raniganj coalfield (Damodar valley) in 1774. Other centres: Durgapur (steel), Chittaranjan Locomotive Works (electric locomotives), and Haldia (port and petrochemicals).",
+      "Kolkata Port Trust was renamed Syama Prasad Mookerjee Port in 2020. It has two dock systems, the Kolkata Dock System and the Haldia Dock Complex.",
+      "Folk culture by district: Gambhira – Malda; Chhau – Purulia; Bhawaiya songs – Cooch Behar and North Bengal; Baul – Birbhum (Joydev Kenduli mela); Patachitra – Pingla, Paschim Medinipur; Dokra metal craft – Bikna, Bankura."
+    ],
+    "traps": [
+      "Placing Karnasubarna in Bihar or Bangladesh. Sasanka's capital lies in present-day Murshidabad district of West Bengal.",
+      "Linking Nil Darpan with Bankim Chandra. The play is by Dinabandhu Mitra; Bankim wrote Anandamath.",
+      "Confusing Raniganj with Jharia. Jharia is the larger coking-coal field but is in Jharkhand; coal mining in India began at Raniganj.",
+      "Assuming Chittaranjan still makes steam engines. It built steam locomotives only in its early years and today makes electric locomotives.",
+      "Mixing up the folk forms of North and South Bengal: Gambhira belongs to Malda, Bhawaiya to Cooch Behar and Chhau to Purulia."
+    ],
+    "examTip": "WBPSC loves district links, so whenever you revise a West Bengal fact (a dance, a park, a mine, a ruler's capital), note the district it belongs to as well."
+  },
+  "questions": [
+    {
+      "text": "The narrow strip of land in North Bengal that connects the north-eastern states with the rest of India is popularly known as the:",
+      "difficulty": "EASY",
+      "options": ["Dooars Gap", "Teesta Corridor", "Nathu La Pass", "Siliguri Corridor ('Chicken's Neck')"],
+      "answer": 3,
+      "explanation": "The Siliguri Corridor, around Siliguri in Darjeeling and Jalpaiguri districts, is only about 20-22 km wide at its narrowest.\nIt lies between Nepal and Bangladesh, with Bhutan to the north, and its shape has earned it the name 'Chicken's Neck'.\nAll road and rail links to the North-East pass through it. Nathu La is a pass in Sikkim on the border with China.\nAnswer: Siliguri Corridor ('Chicken's Neck')."
+    },
+    {
+      "text": "West Bengal is the largest producer in India of which crop?",
+      "difficulty": "EASY",
+      "options": ["Cotton", "Jute", "Wheat", "Sugarcane"],
+      "answer": 1,
+      "explanation": "West Bengal grows well over half of India's jute, helped by the hot, humid climate and the fresh silt of the Ganga delta.\nMost of India's jute mills lie along the Hooghly near Kolkata.\nJute is called the 'golden fibre'.\nAnswer: Jute."
+    },
+    {
+      "text": "The Santhal Rebellion (Hul) of 1855-56 was led by:",
+      "difficulty": "EASY",
+      "options": ["Sidhu and Kanhu Murmu", "Birsa Munda", "Titu Mir", "Surya Sen"],
+      "answer": 0,
+      "explanation": "Sidhu and Kanhu Murmu led the Santhals of the Damin-i-koh area (Rajmahal hills) in 1855 against moneylenders, zamindars and British officials.\nBirsa Munda led the Munda Ulgulan (1899-1900), Titu Mir led a peasant revolt near Barasat (1831), and Surya Sen led the Chittagong Armoury Raid (1930).\nAnswer: Sidhu and Kanhu Murmu."
+    },
+    {
+      "text": "The Dooars region of North Bengal, at the foothills of the Eastern Himalayas, is best known for:",
+      "difficulty": "EASY",
+      "options": ["Coal mines", "Salt pans", "Tea gardens and forests", "Mangrove swamps"],
+      "answer": 2,
+      "explanation": "The Dooars ('doors' to Bhutan) stretch across Jalpaiguri, Alipurduar and parts of Cooch Behar districts.\nThe region is covered with tea estates and dense forests such as Buxa, Jaldapara and Gorumara.\nMangroves belong to the Sundarbans in the south, and coal mines to the Raniganj area in the west.\nAnswer: Tea gardens and forests."
+    },
+    {
+      "text": "'Nil Darpan', the play that exposed the oppression of indigo cultivators in Bengal, was written by:",
+      "difficulty": "MEDIUM",
+      "options": ["Bankim Chandra Chattopadhyay", "Michael Madhusudan Dutt", "Dinabandhu Mitra", "Girish Chandra Ghosh"],
+      "answer": 2,
+      "explanation": "Dinabandhu Mitra wrote Nil Darpan in 1860, during the Indigo Revolt of 1859-60.\nIts English translation, credited to Michael Madhusudan Dutt, was published by Rev. James Long, who was fined and jailed for it.\nBankim Chandra wrote Anandamath.\nAnswer: Dinabandhu Mitra."
+    },
+    {
+      "text": "The Young Bengal movement of the late 1820s and 1830s was inspired by which teacher of Hindu College, Calcutta?",
+      "difficulty": "MEDIUM",
+      "options": ["Henry Louis Vivian Derozio", "David Hare", "Alexander Duff", "William Carey"],
+      "answer": 0,
+      "explanation": "Derozio, a young teacher at Hindu College, encouraged his students to question blind faith and social customs.\nHis followers came to be called the Young Bengal. He was removed from the college in 1831 and died the same year.\nDavid Hare helped found Hindu College, Alexander Duff founded what is now Scottish Church College, and William Carey worked at Serampore.\nAnswer: Henry Louis Vivian Derozio."
+    },
+    {
+      "text": "Who founded the Pala dynasty of Bengal in the 8th century, after being chosen by local chiefs to end a period of anarchy?",
+      "difficulty": "MEDIUM",
+      "options": ["Dharmapala", "Devapala", "Sasanka", "Gopala"],
+      "answer": 3,
+      "explanation": "Around 750 CE, the chiefs of Bengal chose Gopala as king to end matsyanyaya (anarchy).\nHis son Dharmapala expanded the kingdom and founded Vikramashila university, and Devapala took it to its peak.\nSasanka ruled Gauda earlier, in the 7th century.\nAnswer: Gopala."
+    },
+    {
+      "text": "The Chittagong Armoury Raid of April 1930 was led by:",
+      "difficulty": "MEDIUM",
+      "options": ["Rash Behari Bose", "Surya Sen", "Bagha Jatin", "Khudiram Bose"],
+      "answer": 1,
+      "explanation": "On 18 April 1930, revolutionaries led by Surya Sen (Masterda) raided the police and auxiliary force armouries at Chittagong.\nThey fought British troops at Jalalabad hill; Surya Sen was later captured and executed in 1934.\nKhudiram Bose was hanged in 1908, Bagha Jatin died in 1915, and Rash Behari Bose later handed over the INA to Subhas Bose.\nAnswer: Surya Sen."
+    },
+    {
+      "text": "Chittaranjan Locomotive Works, in Paschim Bardhaman district, is today best known for manufacturing:",
+      "difficulty": "MEDIUM",
+      "options": ["Electric locomotives", "Diesel locomotives", "Railway coaches", "Wheels and axles"],
+      "answer": 0,
+      "explanation": "Chittaranjan Locomotive Works began in 1950 by making steam engines and for some years also built diesel locomotives.\nIt has made electric locomotives since 1961 and today produces only electric locomotives.\nCoaches are made at units such as the Integral Coach Factory in Chennai, and wheels and axles at Bengaluru.\nAnswer: Electric locomotives."
+    },
+    {
+      "text": "Red and laterite soils in West Bengal are found mainly in which region?",
+      "difficulty": "MEDIUM",
+      "options": ["The Sundarbans and the coastal delta", "The Darjeeling and Kalimpong hills", "Purulia, Bankura and Birbhum in the west", "The Terai and Dooars in the north"],
+      "answer": 2,
+      "explanation": "The western fringe of the state is an extension of the Chota Nagpur plateau.\nHigh temperatures and alternating wet and dry seasons leach the soil there, leaving it red, lateritic and low in fertility.\nPurulia, Bankura, Birbhum and western Paschim Medinipur have such soils, while the delta has alluvium and the hills have forest soils.\nAnswer: Purulia, Bankura and Birbhum in the west."
+    },
+    {
+      "text": "Commercial coal mining in India began in 1774 in which coalfield, located in West Bengal?",
+      "difficulty": "MEDIUM",
+      "options": ["Jharia", "Talcher", "Singrauli", "Raniganj"],
+      "answer": 3,
+      "explanation": "In 1774, John Sumner and Suetonius Grant Heatly of the East India Company began coal mining in the Raniganj coalfield of the Damodar valley.\nRaniganj, around Asansol and Durgapur, feeds the region's steel and power plants.\nJharia (Jharkhand) is larger and known for coking coal, Talcher is in Odisha, and Singrauli spans Madhya Pradesh and Uttar Pradesh.\nAnswer: Raniganj."
+    },
+    {
+      "text": "Sasanka, the first important independent king of Gauda (Bengal) in the early 7th century, had his capital at:",
+      "difficulty": "HARD",
+      "options": ["Pataliputra", "Karnasubarna", "Gaur (Lakhnauti)", "Tamralipta"],
+      "answer": 1,
+      "explanation": "Sasanka ruled Gauda in the early 7th century from Karnasubarna, near present-day Chiruti in Murshidabad district.\nHe was a rival of Harshavardhana of Kannauj.\nGaur (Lakhnauti) became the capital later, under the Senas and the Sultans, and Tamralipta was an ancient port.\nAnswer: Karnasubarna."
+    },
+    {
+      "text": "Gambhira, a folk song-and-dance tradition performed with masks during the Gajan festival of Lord Shiva, is chiefly associated with which district?",
+      "difficulty": "HARD",
+      "options": ["Malda", "Cooch Behar", "Purulia", "Nadia"],
+      "answer": 0,
+      "explanation": "Gambhira is the folk tradition of Malda, performed around Chaitra Sankranti during the Gajan festival honouring Shiva.\nPerformers wear masks and often use humour to comment on social problems.\nBhawaiya belongs to Cooch Behar and Chhau to Purulia, while Nadia is known for Vaishnava kirtan.\nAnswer: Malda."
+    },
+    {
+      "text": "In 2020, the Kolkata Port Trust, India's oldest operating major port, was renamed after which leader?",
+      "difficulty": "HARD",
+      "options": ["Netaji Subhas Chandra Bose", "Bidhan Chandra Roy", "Syama Prasad Mookerjee", "Deshbandhu Chittaranjan Das"],
+      "answer": 2,
+      "explanation": "In 2020 the Kolkata Port Trust was renamed Syama Prasad Mookerjee Port, Kolkata.\nThe port has two dock systems: the Kolkata Dock System on the Hooghly and the Haldia Dock Complex downstream.\nIt is a river port about 200 km from the sea, which is why the Farakka Barrage was built to keep its channel flushed. Kolkata's airport, not its port, is named after Netaji.\nAnswer: Syama Prasad Mookerjee."
+    }
+  ]
+}

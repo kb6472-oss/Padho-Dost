@@ -1,0 +1,106 @@
+{
+  "exam": "banking",
+  "subject": "quantitative-aptitude",
+  "chapter": "number-series-quadratic",
+  "notes": {
+    "summary": "This chapter has two question types: number series (find the missing number or the wrong number) and quadratic equations (solve two equations and compare the roots x and y). IBPS and SBI Prelims usually give a block of 5 questions of one or both types, and Mains uses harder mixed-operation series.",
+    "keyPoints": [
+      "Series method: check differences first. If the differences grow very fast, check ratios (×2, ×3) or mixed steps such as ×2 + 1 or ×3 − 3.",
+      "Common difference patterns: squares (4, 9, 16, 25), cubes (1, 8, 27, 64), primes, or differences that themselves follow a pattern (in 4, 6, 12, 24, 44 the differences are 2, 6, 12, 20 and the second differences are 4, 6, 8).",
+      "Mixed-operation series: ×1 + 1, ×2 + 2, ×3 + 3 (2, 3, 8, 27, 112) or multipliers rising by 0.5 (×0.5, ×1, ×1.5, ×2).",
+      "Wrong-number series: find the rule from most of the terms, then locate the term that breaks it. The term after the wrong one usually fits the correct value, which confirms your choice.",
+      "For x² + bx + c = 0, sum of roots = −b and product = c. Split the middle term: x² − 9x + 20 = (x − 4)(x − 5), so x = 4 or 5.",
+      "Sign rule for roots: b negative and c positive gives both roots positive; b and c both positive gives both roots negative; c negative gives one positive and one negative root.",
+      "For ax² + bx + c = 0, split b into two numbers whose product is a × c. In 6x² − 7x + 2, a × c = 12 and −7 = −3 − 4, so the roots are 1/2 and 2/3.",
+      "Comparing roots: compare every x root with every y root. All x greater gives x > y; greater or equal gives x ≥ y; mixed results give 'x = y or relationship cannot be established'.",
+      "x² = 49 gives x = +7 or −7, but y = √49 gives only y = +7."
+    ],
+    "traps": [
+      "Sign errors: the roots of x² + 7x + 12 = 0 are −3 and −4, not 3 and 4.",
+      "Writing x > y when one pair of roots is equal; the correct answer is then x ≥ y.",
+      "In a wrong-number series, marking the first odd-looking term without checking that the next term follows the corrected value.",
+      "Treating y = √49 as ±7; the square-root sign means only the positive root.",
+      "Stopping at the first differences when the series actually follows a multiply-and-add rule."
+    ],
+    "examTip": "In quadratic comparison, use the sign rule first: if one equation has both roots negative and the other both positive, you can answer in five seconds without solving."
+  },
+  "questions": [
+    {
+      "text": "Find the wrong number in the series:\n3, 5, 9, 17, 33, 65, 128",
+      "difficulty": "EASY",
+      "options": ["17", "33", "65", "128"],
+      "answer": 3,
+      "explanation": "Rule: each term = previous term × 2 − 1.\n3 × 2 − 1 = 5, 5 × 2 − 1 = 9, 9 × 2 − 1 = 17, 17 × 2 − 1 = 33, 33 × 2 − 1 = 65.\nThe next term should be 65 × 2 − 1 = 129, so 128 is the wrong number."
+    },
+    {
+      "text": "What will come in place of the question mark (?) in the series?\n13, 17, 26, 42, 67, ?",
+      "difficulty": "EASY",
+      "options": ["92", "103", "99", "107"],
+      "answer": 1,
+      "explanation": "Differences: 4, 9, 16, 25, which are 2², 3², 4², 5².\nThe next difference is 6² = 36.\n67 + 36 = 103."
+    },
+    {
+      "text": "Solve the two equations and find the relationship between x and y.\nI. x² − 9x + 20 = 0\nII. y² − 5y + 6 = 0",
+      "difficulty": "EASY",
+      "options": ["x > y", "x < y", "x ≥ y", "x = y or the relationship cannot be established"],
+      "answer": 0,
+      "explanation": "I. x² − 9x + 20 = (x − 4)(x − 5) = 0, so x = 4 or 5.\nII. y² − 5y + 6 = (y − 2)(y − 3) = 0, so y = 2 or 3.\nEvery value of x (4, 5) is greater than every value of y (2, 3), so x > y."
+    },
+    {
+      "text": "Solve the two equations and find the relationship between x and y.\nI. x² − x − 6 = 0\nII. y² − 2y − 3 = 0",
+      "difficulty": "MEDIUM",
+      "options": ["x > y", "x ≤ y", "x ≥ y", "x = y or the relationship cannot be established"],
+      "answer": 3,
+      "explanation": "I. x² − x − 6 = (x − 3)(x + 2) = 0, so x = 3 or −2.\nII. y² − 2y − 3 = (y − 3)(y + 1) = 0, so y = 3 or −1.\nCompare: x = 3, y = 3 gives x = y; x = 3, y = −1 gives x > y; x = −2, y = 3 gives x < y.\nThe results are mixed, so x = y or the relationship cannot be established."
+    },
+    {
+      "text": "Find the wrong number in the series:\n32, 16, 16, 24, 50, 120, 360",
+      "difficulty": "MEDIUM",
+      "options": ["16", "24", "50", "120"],
+      "answer": 2,
+      "explanation": "Rule: the multipliers are ×0.5, ×1, ×1.5, ×2, ×2.5, ×3.\n32 × 0.5 = 16, 16 × 1 = 16, 16 × 1.5 = 24, 24 × 2 = 48.\nThen 48 × 2.5 = 120 and 120 × 3 = 360, which confirms the rule.\nThe term should be 48, so 50 is the wrong number."
+    },
+    {
+      "text": "What will come in place of the question mark (?) in the series?\n4, 6, 12, 24, 44, ?",
+      "difficulty": "MEDIUM",
+      "options": ["74", "70", "76", "68"],
+      "answer": 0,
+      "explanation": "First differences: 2, 6, 12, 20.\nSecond differences: 4, 6, 8, so the next second difference is 10.\nNext first difference = 20 + 10 = 30.\n44 + 30 = 74."
+    },
+    {
+      "text": "What will come in place of the question mark (?) in the series?\n2, 3, 8, 27, ?, 565",
+      "difficulty": "MEDIUM",
+      "options": ["108", "116", "112", "135"],
+      "answer": 2,
+      "explanation": "Rule: ×1 + 1, ×2 + 2, ×3 + 3, ×4 + 4, ×5 + 5.\n2 × 1 + 1 = 3, 3 × 2 + 2 = 8, 8 × 3 + 3 = 27.\n27 × 4 + 4 = 112.\nCheck: 112 × 5 + 5 = 565. The missing number is 112."
+    },
+    {
+      "text": "Solve the two equations and find the relationship between x and y.\nI. x² + 7x + 12 = 0\nII. y² + 11y + 30 = 0",
+      "difficulty": "MEDIUM",
+      "options": ["x < y", "x > y", "x ≤ y", "x ≥ y"],
+      "answer": 1,
+      "explanation": "Both equations have +b and +c, so all roots are negative.\nI. (x + 3)(x + 4) = 0, so x = −3 or −4.\nII. (y + 5)(y + 6) = 0, so y = −5 or −6.\nOn the number line −3 and −4 are both greater than −5 and −6, so x > y. (Ignoring the signs gives the wrong answer x < y.)"
+    },
+    {
+      "text": "One root of the equation x² − 10x + k = 0 is 3. What is the value of k?",
+      "difficulty": "MEDIUM",
+      "options": ["30", "13", "7", "21"],
+      "answer": 3,
+      "explanation": "Sum of the roots = −(−10) = 10, so the other root = 10 − 3 = 7.\nProduct of the roots = k = 3 × 7 = 21.\nCheck: 9 − 30 + 21 = 0."
+    },
+    {
+      "text": "Solve the two equations and find the relationship between x and y.\nI. 6x² − 7x + 2 = 0\nII. 6y² − 5y + 1 = 0",
+      "difficulty": "HARD",
+      "options": ["x > y", "x < y", "x ≥ y", "x ≤ y"],
+      "answer": 2,
+      "explanation": "I. 6x² − 3x − 4x + 2 = (2x − 1)(3x − 2) = 0, so x = 1/2 or 2/3.\nII. 6y² − 3y − 2y + 1 = (2y − 1)(3y − 1) = 0, so y = 1/2 or 1/3.\nCompare: x = 1/2 and y = 1/2 are equal; every other pair has x greater (2/3 > 1/2, 2/3 > 1/3, 1/2 > 1/3).\nSo x ≥ y."
+    },
+    {
+      "text": "Solve the two equations and find the relationship between x and y.\nI. 2x² + 11x + 14 = 0\nII. 4y² + 12y + 9 = 0",
+      "difficulty": "HARD",
+      "options": ["x < y", "x > y", "x ≥ y", "x = y or the relationship cannot be established"],
+      "answer": 0,
+      "explanation": "I. 2x² + 4x + 7x + 14 = (x + 2)(2x + 7) = 0, so x = −2 or −3.5.\nII. 4y² + 12y + 9 = (2y + 3)² = 0, so y = −1.5 only.\nBoth −2 and −3.5 are less than −1.5.\nSo x < y."
+    }
+  ]
+}

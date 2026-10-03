@@ -1,0 +1,197 @@
+{
+  "exam": "wb-police-si",
+  "subject": "practice",
+  "chapter": "si-wb-gk",
+  "notes": {
+    "summary": "West Bengal GK covers the state's geography, history, reformers, freedom fighters, culture, wildlife and famous institutions. WB Police SI papers ask direct one-line facts (rivers, peaks, districts, personalities, dance forms, firsts), so you need to recall names, places and years precisely.",
+    "keyPoints": [
+      "Geography: Sandakphu (about 3,636 m) on the Singalila Ridge in Darjeeling is the highest peak. The Ganga enters near Farakka (Murshidabad) and splits into the Padma, which flows into Bangladesh, and the Bhagirathi-Hooghly.",
+      "Rivers: the Teesta, Torsa, Jaldhaka and Mahananda flow through the north. The Damodar (the 'Sorrow of Bengal', tamed by the DVC set up in 1948), Ajay, Mayurakshi and Kangsabati flow through the south-west.",
+      "Wildlife: Sundarbans (mangroves, Royal Bengal Tiger, UNESCO site 1987); Jaldapara and Gorumara (one-horned rhinoceros); Buxa Tiger Reserve; Singalila and Neora Valley (red panda).",
+      "State symbols: animal is the Fishing cat, bird the White-throated kingfisher, flower the Shiuli (night-flowering jasmine) and tree the Chhatim (devil tree).",
+      "History: Battle of Plassey, 23 June 1757 (Robert Clive vs Siraj-ud-Daulah; Palashi is in Nadia district). Partition of Bengal, 1905 (Lord Curzon), annulled in 1911, the same year the shift of the capital from Calcutta to Delhi was announced.",
+      "Reformers: Raja Ram Mohan Roy (Brahmo Sabha 1828, campaign against sati), Ishwar Chandra Vidyasagar (Widow Remarriage Act 1856), Swami Vivekananda (Ramakrishna Mission 1897), Bankim Chandra Chattopadhyay ('Vande Mataram' in Anandamath).",
+      "Nobel links: Tagore (Literature 1913), C.V. Raman (Physics 1930, Raman Effect discovered at IACS Kolkata in 1928), Mother Teresa (Peace 1979), Amartya Sen (Economics 1998).",
+      "Culture by district: Chhau dance (Purulia), Baul songs (Birbhum), terracotta temples (Bishnupur, Bankura), Gambhira (Malda).",
+      "Firsts and heritage: India's first metro (Kolkata, 1984). Darjeeling Tea was India's first GI tag (2004-05). UNESCO World Heritage Sites: Sundarbans National Park (1987), Darjeeling Himalayan Railway (1999), Santiniketan (2023). Durga Puja in Kolkata joined the UNESCO intangible heritage list in 2021."
+    ],
+    "traps": [
+      "Kanchenjunga can be seen from Darjeeling but is not in West Bengal. WB's highest peak is Sandakphu.",
+      "The Royal Bengal Tiger is India's national animal. West Bengal's state animal is the Fishing cat.",
+      "Netaji Subhas Chandra Bose was born in Cuttack (Odisha), and the Battle of Buxar (1764) was fought in Bihar. Neither happened in Bengal.",
+      "Mixing up the reformers: Ram Mohan Roy campaigned against sati; Vidyasagar championed widow remarriage.",
+      "Gitanjali (Tagore) won the 1913 Nobel Prize; Anandamath (Bankim Chandra) contains 'Vande Mataram'. They are by different authors."
+    ],
+    "examTip": "Learn WB facts grouped by district (Purulia-Chhau, Bankura-terracotta, Murshidabad-Farakka, Nadia-Plassey), because the wrong options are often neighbouring districts."
+  },
+  "questions": [
+    {
+      "text": "Which is the highest peak in West Bengal?",
+      "difficulty": "EASY",
+      "options": [
+        "Tiger Hill",
+        "Phalut",
+        "Sandakphu",
+        "Kanchenjunga"
+      ],
+      "answer": 2,
+      "explanation": "Sandakphu (about 3,636 m), on the Singalila Ridge in Darjeeling district along the India-Nepal border, is the highest point in West Bengal.\nPhalut, on the same ridge, is slightly lower. Tiger Hill is a much lower viewpoint near Darjeeling town.\nKanchenjunga is visible from these places but lies on the Sikkim-Nepal border, not in West Bengal.\nAnswer: Sandakphu"
+    },
+    {
+      "text": "India's national song 'Vande Mataram' was taken from which novel by Bankim Chandra Chattopadhyay?",
+      "difficulty": "EASY",
+      "options": [
+        "Anandamath",
+        "Durgeshnandini",
+        "Kapalkundala",
+        "Devi Chaudhurani"
+      ],
+      "answer": 0,
+      "explanation": "Bankim Chandra Chattopadhyay included 'Vande Mataram' in his novel Anandamath (1882), set against the background of the Sannyasi rebellion.\nDurgeshnandini, Kapalkundala and Devi Chaudhurani are also novels by Bankim, but the song is not from them.\nAnswer: Anandamath"
+    },
+    {
+      "text": "Which river was historically called the 'Sorrow of Bengal' because of its devastating floods?",
+      "difficulty": "EASY",
+      "options": [
+        "Teesta",
+        "Damodar",
+        "Ajay",
+        "Mayurakshi"
+      ],
+      "answer": 1,
+      "explanation": "The Damodar flooded large parts of Bardhaman, Hooghly and Howrah again and again, which earned it the name 'Sorrow of Bengal'.\nThe Damodar Valley Corporation (DVC) was set up in 1948 to control these floods with dams, and also to produce power and supply irrigation.\nAnswer: Damodar"
+    },
+    {
+      "text": "India's first metro railway started running in 1984 in which city?",
+      "difficulty": "EASY",
+      "options": [
+        "Delhi",
+        "Mumbai",
+        "Chennai",
+        "Kolkata"
+      ],
+      "answer": 3,
+      "explanation": "Kolkata Metro opened on 24 October 1984 on the Esplanade-Bhowanipur stretch, making it India's first metro railway.\nThe Delhi Metro came much later, in 2002.\nAnswer: Kolkata"
+    },
+    {
+      "text": "The Battle of Plassey (1757) was fought between the East India Company's forces under Robert Clive and which Nawab of Bengal?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Mir Jafar",
+        "Mir Qasim",
+        "Siraj-ud-Daulah",
+        "Alivardi Khan"
+      ],
+      "answer": 2,
+      "explanation": "On 23 June 1757, Clive defeated Nawab Siraj-ud-Daulah at Palashi (Plassey) in present-day Nadia district.\nMir Jafar was Siraj's commander. He betrayed the Nawab and was made Nawab afterwards.\nMir Qasim came later and fought the Battle of Buxar (1764). Alivardi Khan was Siraj's grandfather and the Nawab before him.\nAnswer: Siraj-ud-Daulah"
+    },
+    {
+      "text": "The Partition of Bengal in 1905, which sparked the Swadeshi Movement, was carried out under which Viceroy?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Lord Curzon",
+        "Lord Minto",
+        "Lord Hardinge",
+        "Lord Ripon"
+      ],
+      "answer": 0,
+      "explanation": "Viceroy Lord Curzon announced the partition, and it took effect on 16 October 1905.\nIt triggered the Swadeshi and Boycott movement, and Rabindranath Tagore organised Raksha Bandhan as a symbol of unity.\nThe partition was annulled in 1911, during Lord Hardinge's time.\nAnswer: Lord Curzon"
+    },
+    {
+      "text": "Who founded the Brahmo Samaj (originally the Brahmo Sabha) in Calcutta in 1828?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Ishwar Chandra Vidyasagar",
+        "Raja Ram Mohan Roy",
+        "Swami Vivekananda",
+        "Keshab Chandra Sen"
+      ],
+      "answer": 1,
+      "explanation": "Raja Ram Mohan Roy founded the Brahmo Sabha in 1828. It promoted belief in one God and opposed social evils.\nHis campaign helped bring about the abolition of sati in 1829 under Lord William Bentinck.\nKeshab Chandra Sen led a later branch of the movement. Vivekananda founded the Ramakrishna Mission (1897), and Vidyasagar is known for widow remarriage.\nAnswer: Raja Ram Mohan Roy"
+    },
+    {
+      "text": "What is the official state animal of West Bengal?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Royal Bengal Tiger",
+        "One-horned rhinoceros",
+        "Fishing cat",
+        "Red panda"
+      ],
+      "answer": 2,
+      "explanation": "The Fishing cat, a wetland wild cat, is West Bengal's state animal.\nThe Royal Bengal Tiger is the national animal of India, which makes it the most common trap.\nThe one-horned rhinoceros is Assam's state animal and the red panda is Sikkim's.\nAnswer: Fishing cat"
+    },
+    {
+      "text": "Purulia district of West Bengal is famous for which vigorous masked folk dance, listed by UNESCO as Intangible Cultural Heritage?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Chhau",
+        "Gambhira",
+        "Baul",
+        "Raibenshe"
+      ],
+      "answer": 0,
+      "explanation": "Purulia Chhau is a martial, acrobatic dance performed with large painted masks. UNESCO listed Chhau dance in 2010.\nGambhira is linked with Malda, Baul is mainly a devotional song tradition (not a masked dance) associated with Birbhum, and Raibenshe is a martial folk dance associated with Birbhum and Bardhaman.\nAnswer: Chhau"
+    },
+    {
+      "text": "The Farakka Barrage was built across the Ganga to divert water into the Bhagirathi-Hooghly and keep Kolkata Port navigable. In which district is it located?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Malda",
+        "Nadia",
+        "Hooghly",
+        "Murshidabad"
+      ],
+      "answer": 3,
+      "explanation": "Farakka is in Murshidabad district, close to the Malda border, which is why Malda is a common wrong choice.\nThe barrage was commissioned in 1975. Its feeder canal pushes Ganga water into the Bhagirathi-Hooghly to flush out silt and help navigation to Kolkata Port.\nAnswer: Murshidabad"
+    },
+    {
+      "text": "Which poet, born at Churulia in Bardhaman, is known as the 'Bidrohi Kobi' (Rebel Poet) and is the national poet of Bangladesh?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Jibanananda Das",
+        "Kazi Nazrul Islam",
+        "Michael Madhusudan Dutt",
+        "Sukanta Bhattacharya"
+      ],
+      "answer": 1,
+      "explanation": "Kazi Nazrul Islam (born 1899, Churulia) earned the title 'Bidrohi Kobi' from his famous poem 'Bidrohi' and his fiery anti-colonial writing.\nHe also composed thousands of songs (Nazrul Geeti) and is honoured as the national poet of Bangladesh.\nAnswer: Kazi Nazrul Islam"
+    },
+    {
+      "text": "The Asiatic Society, founded in Calcutta in 1784 to promote the study of Asian history, languages and culture, was established by:",
+      "difficulty": "HARD",
+      "options": [
+        "Warren Hastings",
+        "James Prinsep",
+        "William Carey",
+        "Sir William Jones"
+      ],
+      "answer": 3,
+      "explanation": "Sir William Jones, a judge of the Supreme Court at Calcutta, founded the Asiatic Society on 15 January 1784.\nWarren Hastings was Governor-General at the time and supported it, but he did not found it.\nJames Prinsep, a later secretary of the Society, deciphered the Brahmi script. William Carey is linked with the Serampore Mission.\nAnswer: Sir William Jones"
+    },
+    {
+      "text": "C.V. Raman discovered the Raman Effect in 1928, and the day is celebrated as National Science Day on 28 February. At which institution in Kolkata did he make the discovery?",
+      "difficulty": "HARD",
+      "options": [
+        "Bose Institute",
+        "Indian Statistical Institute",
+        "Indian Association for the Cultivation of Science",
+        "Presidency College"
+      ],
+      "answer": 2,
+      "explanation": "Raman did his light-scattering experiments at the Indian Association for the Cultivation of Science (IACS), founded in 1876 by Dr Mahendralal Sarkar.\nThe discovery won him the Nobel Prize in Physics in 1930.\nThe Bose Institute was founded by J.C. Bose (1917) and the Indian Statistical Institute by P.C. Mahalanobis (1931).\nAnswer: Indian Association for the Cultivation of Science"
+    },
+    {
+      "text": "Which product from West Bengal became the first in India to receive a Geographical Indication (GI) tag, in 2004-05?",
+      "difficulty": "HARD",
+      "options": [
+        "Darjeeling Tea",
+        "Banglar Rasogolla",
+        "Shantipur Saree",
+        "Malda Fazli Mango"
+      ],
+      "answer": 0,
+      "explanation": "Darjeeling Tea was the first product registered under India's Geographical Indications Act, in 2004-05. Only tea grown in the notified Darjeeling hill areas may use the name.\nThe other products received GI tags later.\nAnswer: Darjeeling Tea"
+    }
+  ]
+}

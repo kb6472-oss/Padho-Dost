@@ -1,0 +1,107 @@
+{
+  "exam": "wbcs",
+  "subject": "mental-ability",
+  "chapter": "reasoning",
+  "notes": {
+    "summary": "Reasoning & Mental Ability in WBCS Prelims tests verbal and non-verbal logic: series, analogy, classification, coding-decoding, blood relations, directions, ranking, seating, calendars, clocks, syllogisms, Venn diagrams and symbol substitution. The questions are short and follow standard patterns, so speed comes from knowing those patterns and shortcuts.",
+    "keyPoints": [
+      "Alphabet positions: remember EJOTY (E = 5, J = 10, O = 15, T = 20, Y = 25). Position from the end = 27 - position, so M (13th) is 14th from the end.",
+      "Series: check the differences (constant, rising, squares), the ratios (×2, ×3) and alternate terms. In two-letter groups, treat each letter separately: AZ, CX, EV means the first letter goes +2 and the second -2.",
+      "Ranking: position from the other end = total - given position + 1, so 12th from the left in a row of 40 is 29th from the right. Total = left rank + right rank - 1.",
+      "Calendar: an ordinary year has 1 odd day and a leap year 2. A date moves forward 1 weekday the next year, or 2 if 29 February falls in between. A century year is a leap year only if it is divisible by 400.",
+      "Clocks: the minute hand moves 6° per minute and the hour hand 0.5°. Angle = |30H - 5.5M|. The hands coincide at 60H/11 minutes past H, so after 3 o'clock they meet at 16 4/11 minutes past 3.",
+      "Syllogism: All + All = All, and Some + All = Some. All + Some gives no definite conclusion. 'Some A are B' never proves 'All B are A'.",
+      "Sets: n(A or B) = n(A) + n(B) - n(both), and neither = total - n(A or B).",
+      "Blood relations and coded relations: decode one symbol at a time and draw a family tree, marking + for male and - for female. Settle each person's gender before naming the relation.",
+      "Direction: use Pythagoras for the straight-line distance (watch for the 3-4-5 triangle). Turning right while facing north means facing east.",
+      "Symbol substitution: replace every sign first, then apply BODMAS, so division and multiplication come before addition and subtraction."
+    ],
+    "traps": [
+      "Working left to right after substituting symbols, without applying BODMAS.",
+      "Forgetting that a one-year span containing 29 February has 2 odd days, not 1.",
+      "Reading 'Some pens are tables' as 'All tables are pens'. A 'Some' statement never turns into an 'All' statement.",
+      "Forgetting the +1 in ranking. 40 - 12 = 28 is wrong; the answer is 29th.",
+      "Assuming someone's gender from their name instead of from the clues in a blood-relation question."
+    ],
+    "examTip": "For any arrangement, ranking or blood-relation question, sketch the row, order or family tree on your rough sheet first. Re-reading the clues without a diagram costs more time than drawing it."
+  },
+  "questions": [
+    {
+      "text": "In the English alphabet, which letter is 7th to the right of the 12th letter from the left end?",
+      "difficulty": "EASY",
+      "options": ["R", "S", "E", "T"],
+      "answer": 1,
+      "explanation": "The 12th letter from the left is L.\nThe 7th letter to its right is at position 12 + 7 = 19.\nThe 19th letter is S. (EJOTY: T = 20, so 19 is S.)\nCounting to the left instead gives 12 - 7 = 5, which is E.\nAnswer: S."
+    },
+    {
+      "text": "Find the odd one out:\nSquare, Rectangle, Triangle, Rhombus",
+      "difficulty": "EASY",
+      "options": ["Square", "Rectangle", "Rhombus", "Triangle"],
+      "answer": 3,
+      "explanation": "A square, a rectangle and a rhombus all have four sides, so they are quadrilaterals.\nA triangle has only three sides.\nAnswer: Triangle."
+    },
+    {
+      "text": "Find the next term in the series:\nAZ, CX, EV, GT, ?",
+      "difficulty": "EASY",
+      "options": ["IR", "HS", "IS", "JR"],
+      "answer": 0,
+      "explanation": "First letters: A, C, E, G go up by 2 each time, so the next is I.\nSecond letters: Z, X, V, T go down by 2 each time, so the next is R.\nAnswer: IR."
+    },
+    {
+      "text": "15 August 2023 was a Tuesday. On which day of the week did 15 August 2024 fall?",
+      "difficulty": "MEDIUM",
+      "options": ["Wednesday", "Friday", "Thursday", "Tuesday"],
+      "answer": 2,
+      "explanation": "Step 1: The period from 15 August 2023 to 15 August 2024 includes 29 February 2024, so it has 366 days.\nStep 2: 366 days = 52 weeks + 2 days, so there are 2 odd days.\nStep 3: Tuesday + 2 days = Thursday.\nIgnoring the leap day gives Wednesday, which is the common mistake.\nAnswer: Thursday."
+    },
+    {
+      "text": "If '+' means '×', '−' means '+', '×' means '÷' and '÷' means '−', what is the value of:\n8 + 3 − 12 × 4 ÷ 5",
+      "difficulty": "MEDIUM",
+      "options": ["4", "22", "26", "20"],
+      "answer": 1,
+      "explanation": "Step 1: Replace the signs: 8 × 3 + 12 ÷ 4 − 5.\nStep 2: Multiplication and division first: 8 × 3 = 24 and 12 ÷ 4 = 3.\nStep 3: Then addition and subtraction: 24 + 3 − 5 = 22.\nWorking left to right without BODMAS gives 4, which is wrong.\nAnswer: 22."
+    },
+    {
+      "text": "Five friends P, Q, R, S and T are sitting in a row facing north. R is sitting in the middle. P is at the extreme left end. T is sitting immediately to the right of P. Q is not at either end. Who is sitting at the extreme right end?",
+      "difficulty": "MEDIUM",
+      "options": ["Q", "T", "S", "R"],
+      "answer": 2,
+      "explanation": "Number the seats 1 to 5 from the left.\nP is at 1, and T, immediately to P's right, is at 2.\nR, in the middle, is at 3.\nQ is not at an end, so Q takes seat 4, which leaves seat 5 for S.\nThe row is P T R Q S.\nAnswer: S."
+    },
+    {
+      "text": "Among five boys A, B, C, D and E, A is taller than B but shorter than C. D is taller than C. E is the shortest of all. Who is the second tallest?",
+      "difficulty": "MEDIUM",
+      "options": ["C", "A", "D", "B"],
+      "answer": 0,
+      "explanation": "From the first clue: C > A > B.\nD is taller than C, so D > C > A > B.\nE is the shortest, so the full order is D > C > A > B > E.\nThe second tallest is C.\nAnswer: C."
+    },
+    {
+      "text": "Statements:\nSome pens are books.\nAll books are tables.\nConclusions:\nI. Some pens are tables.\nII. All tables are pens.\nWhich conclusion(s) follow?",
+      "difficulty": "MEDIUM",
+      "options": ["Only conclusion II follows", "Both I and II follow", "Neither I nor II follows", "Only conclusion I follows"],
+      "answer": 3,
+      "explanation": "The pens that are books lie inside 'books', and every book is a table, so those pens are tables. Conclusion I follows (Some + All = Some).\nNothing says that every table is a pen, and tables can exist outside the set of pens. Conclusion II does not follow.\nAnswer: Only conclusion I follows."
+    },
+    {
+      "text": "In a group of 60 people, 35 like tea, 30 like coffee and 10 like both tea and coffee. How many people like neither tea nor coffee?",
+      "difficulty": "MEDIUM",
+      "options": ["5", "15", "25", "10"],
+      "answer": 0,
+      "explanation": "Step 1: People who like at least one = 35 + 30 − 10 = 55. (The 10 who like both were counted twice.)\nStep 2: Neither = 60 − 55 = 5.\nAnswer: 5."
+    },
+    {
+      "text": "At what time between 3 o'clock and 4 o'clock will the hour hand and the minute hand of a clock coincide?",
+      "difficulty": "HARD",
+      "options": ["15 minutes past 3", "16 4/11 minutes past 3", "16 8/11 minutes past 3", "17 1/11 minutes past 3"],
+      "answer": 1,
+      "explanation": "Step 1: At 3:00 the hour hand is 3 × 30° = 90° ahead of the minute hand.\nStep 2: The minute hand gains 6° − 0.5° = 5.5° on the hour hand every minute.\nStep 3: Time to close the 90° gap = 90 ÷ 5.5 = 180/11 = 16 4/11 minutes.\nShortcut: the hands coincide at 60H/11 minutes past H, and 60 × 3 / 11 = 16 4/11.\nAnswer: 16 4/11 minutes past 3."
+    },
+    {
+      "text": "In a certain code, 'P + Q' means P is the father of Q, 'P − Q' means P is the wife of Q, and 'P × Q' means P is the brother of Q. If A − B + C × D, how is A related to D?",
+      "difficulty": "HARD",
+      "options": ["Aunt", "Sister", "Mother", "Grandmother"],
+      "answer": 2,
+      "explanation": "A − B: A is the wife of B.\nB + C: B is the father of C.\nC × D: C is the brother of D, so D is also B's child.\nA is the wife of D's father, so A is D's mother.\nAnswer: Mother."
+    }
+  ]
+}

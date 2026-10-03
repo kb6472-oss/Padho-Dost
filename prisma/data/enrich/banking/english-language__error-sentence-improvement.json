@@ -1,0 +1,161 @@
+{
+  "exam": "banking",
+  "subject": "english-language",
+  "chapter": "error-sentence-improvement",
+  "notes": {
+    "summary": "This chapter covers error spotting (a sentence split into parts with a 'No error' option) and sentence improvement (replacing a highlighted part with the best option or 'No improvement'). IBPS and SBI papers test a fixed set of grammar rules - agreement, pronouns, articles, prepositions, conjunctions, tenses, conditionals, parallelism and modifiers - usually inside banking or business sentences.",
+    "keyPoints": [
+      "Pronoun case: use the objective case after prepositions and verbs - between you and me, let him and me go; use I, he, she as subjects.",
+      "Articles follow sound, not spelling: a university, a European, a one-day match; an hour, an MBA, an honest officer.",
+      "Neither...nor, either...or, not only...but also: the verb agrees with the nearer subject - Neither the manager nor the clerks were present; Neither the clerks nor the manager was present.",
+      "'Unless' and 'lest' are already negative: Unless you submit (not 'unless you do not submit'); lest is followed by should + base verb - Hurry lest you should miss the bus.",
+      "'It is high time' or 'It is time' + subject + simple past: It is high time we left; It is high time the bank acted.",
+      "Fixed prepositions: insist on, prefer X to Y, comply with, abide by, consist of, deprive of, accused of, charged with, senior/junior/prior/superior to.",
+      "Parallelism: items joined by and/or take the same form - honest, efficient and hard-working (not 'and a man who works hard').",
+      "An opening participle phrase must describe the subject right after the comma: While checking the ledger, the auditor noticed errors (not 'errors were noticed by the auditor').",
+      "Redundancy: return back, revert back, repeat again, discuss about, each and every, cousin brother - drop the extra word."
+    ],
+    "traps": [
+      "Agreeing the verb with the first subject in neither...nor sentences instead of the nearer one.",
+      "Writing 'an' before a vowel letter that has a consonant sound (an university, an European).",
+      "Accepting a sentence that sounds fine but contains a double negative with unless or lest.",
+      "Choosing 'No error' too early; it is the answer only after every part has been checked against the rules.",
+      "In sentence improvement, picking an option that fixes one error but introduces another (wrong tense or extra word)."
+    ],
+    "examTip": "Locate the subject and main verb first, then scan for trigger words (unless, lest, neither, prefer, high time, between) because each one points to a specific rule."
+  },
+  "questions": [
+    {
+      "text": "Identify the part of the sentence that contains a grammatical error. If there is no error, select 'No error'.\n(a) Between you and I, /\n(b) the new branch manager seems /\n(c) rather strict with the staff.",
+      "difficulty": "EASY",
+      "options": [
+        "(a)",
+        "(b)",
+        "(c)",
+        "No error"
+      ],
+      "answer": 0,
+      "explanation": "'Between' is a preposition, and a pronoun after a preposition must be in the objective case.\nSo 'between you and I' should be 'between you and me'.\nParts (b) and (c) are correct.\nThe error is in part (a)."
+    },
+    {
+      "text": "Identify the part of the sentence that contains a grammatical error. If there is no error, select 'No error'.\n(a) Rohan has been /\n(b) offered a teaching post in /\n(c) an university in Pune.",
+      "difficulty": "EASY",
+      "options": [
+        "(a)",
+        "(b)",
+        "(c)",
+        "No error"
+      ],
+      "answer": 2,
+      "explanation": "The choice between 'a' and 'an' depends on the first sound, not the first letter.\n'University' begins with a 'yoo' (consonant) sound, so it takes 'a': a university.\nThe rest of the sentence is correct.\nThe error is in part (c)."
+    },
+    {
+      "text": "Sentence Improvement: Choose the best replacement for the part in capitals. If no change is needed, select 'No improvement'.\n'Please RETURN BACK the signed form to the branch by Monday.'",
+      "difficulty": "EASY",
+      "options": [
+        "return back to",
+        "return",
+        "returning back",
+        "No improvement"
+      ],
+      "answer": 1,
+      "explanation": "'Return' already means 'give or send back', so adding 'back' is redundant.\n'Return back to' keeps the redundancy, and 'returning back' is both redundant and the wrong verb form after 'Please'.\nCorrect sentence: Please return the signed form to the branch by Monday."
+    },
+    {
+      "text": "Identify the part of the sentence that contains a grammatical error. If there is no error, select 'No error'.\n(a) Before approving the loan, /\n(b) the branch manager insisted /\n(c) for seeing the original documents.",
+      "difficulty": "MEDIUM",
+      "options": [
+        "(a)",
+        "(b)",
+        "(c)",
+        "No error"
+      ],
+      "answer": 2,
+      "explanation": "The verb 'insist' takes the preposition 'on': insist on something, insist on doing something.\nSo 'insisted for seeing' should be 'insisted on seeing'.\nParts (a) and (b) are correct.\nThe error is in part (c)."
+    },
+    {
+      "text": "Identify the part of the sentence that contains a grammatical error. If there is no error, select 'No error'.\n(a) Your account will be frozen /\n(b) unless you do not submit /\n(c) the KYC documents by Friday.",
+      "difficulty": "MEDIUM",
+      "options": [
+        "(a)",
+        "(b)",
+        "(c)",
+        "No error"
+      ],
+      "answer": 1,
+      "explanation": "'Unless' already means 'if not'.\nAdding 'do not' creates a double negative and reverses the intended meaning.\nCorrect: Your account will be frozen unless you submit the KYC documents by Friday.\nThe error is in part (b)."
+    },
+    {
+      "text": "Sentence Improvement: Choose the best replacement for the part in capitals. If no change is needed, select 'No improvement'.\n'The new officer is honest, efficient and A MAN WHO WORKS HARD.'",
+      "difficulty": "MEDIUM",
+      "options": [
+        "hard-working",
+        "a hard-working man",
+        "he works hard",
+        "No improvement"
+      ],
+      "answer": 0,
+      "explanation": "Items joined by 'and' in a list must be in the same grammatical form (parallelism).\n'Honest' and 'efficient' are adjectives, so the third item must also be an adjective.\n'A hard-working man' is a noun phrase and 'he works hard' is a clause, so both break the pattern.\nCorrect: The new officer is honest, efficient and hard-working."
+    },
+    {
+      "text": "Sentence Improvement: Choose the best replacement for the part in capitals. If no change is needed, select 'No improvement'.\n'It is high time the government TAKES strict action against wilful defaulters.'",
+      "difficulty": "MEDIUM",
+      "options": [
+        "has taken",
+        "took",
+        "will take",
+        "No improvement"
+      ],
+      "answer": 1,
+      "explanation": "'It is high time' is followed by subject + simple past tense, which shows that the action is already overdue.\nSo 'takes' should be 'took'.\n'Has taken' and 'will take' do not fit this structure.\nCorrect: It is high time the government took strict action against wilful defaulters."
+    },
+    {
+      "text": "Sentence Improvement: Choose the best replacement for the part in capitals. If no change is needed, select 'No improvement'.\n'Read the loan agreement carefully lest you WILL MISS any hidden charges.'",
+      "difficulty": "MEDIUM",
+      "options": [
+        "would miss",
+        "may not miss",
+        "should miss",
+        "No improvement"
+      ],
+      "answer": 2,
+      "explanation": "'Lest' means 'for fear that' and is followed by 'should' + base verb.\n'Will miss' and 'would miss' are wrong forms after 'lest'.\n'May not miss' adds a negative to a word that is already negative and reverses the meaning.\nCorrect: Read the loan agreement carefully lest you should miss any hidden charges."
+    },
+    {
+      "text": "Identify the part of the sentence that contains a grammatical error. If there is no error, select 'No error'.\n(a) Most customers now prefer using UPI than /\n(b) carrying cash /\n(c) for small everyday payments.",
+      "difficulty": "MEDIUM",
+      "options": [
+        "(a)",
+        "(b)",
+        "(c)",
+        "No error"
+      ],
+      "answer": 0,
+      "explanation": "When two things are compared, 'prefer' is followed by 'to', not 'than': prefer X to Y.\nSo 'prefer using UPI than carrying cash' should be 'prefer using UPI to carrying cash'.\nThe word 'than' sits in part (a).\nThe error is in part (a)."
+    },
+    {
+      "text": "Identify the part of the sentence that contains a grammatical error. If there is no error, select 'No error'.\n(a) Neither the branch manager nor the clerks /\n(b) were present /\n(c) when the auditors arrived.",
+      "difficulty": "HARD",
+      "options": [
+        "(a)",
+        "(b)",
+        "(c)",
+        "No error"
+      ],
+      "answer": 3,
+      "explanation": "With 'neither...nor', the verb agrees with the subject nearer to it.\nThe nearer subject is 'the clerks' (plural), so the plural verb 'were' is correct.\n'When the auditors arrived' is also correct in tense.\nThe sentence has no error."
+    },
+    {
+      "text": "Sentence Improvement: Choose the best version of the sentence given in capitals. If no change is needed, select 'No improvement'.\n'WHILE CHECKING THE LEDGER, SEVERAL ERRORS WERE NOTICED BY THE AUDITOR.'",
+      "difficulty": "HARD",
+      "options": [
+        "Checking the ledger, several errors were noticed by the auditor.",
+        "While checking the ledger, several errors had been noticed by the auditor.",
+        "While checking the ledger, the auditor noticed several errors.",
+        "No improvement"
+      ],
+      "answer": 2,
+      "explanation": "An opening phrase like 'While checking the ledger' must describe the subject that comes right after the comma.\nIn the original, that subject is 'several errors', which suggests the errors were checking the ledger (a dangling modifier).\nOptions A and B keep the same faulty subject.\nMaking 'the auditor' the subject fixes it: While checking the ledger, the auditor noticed several errors."
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "exam": "wbcs",
+  "subject": "indian-geography",
+  "chapter": "india-geography",
+  "notes": {
+    "summary": "This chapter covers India's location, landforms (Himalaya, northern plains, peninsular plateau, coasts and islands), rivers, climate and monsoon, soils, vegetation, wildlife and key resources. WBCS Prelims asks factual and map-based questions on passes, peaks, rivers, channels and soils, and 'which state or which feature' items, often with West Bengal links.",
+    "keyPoints": [
+      "Location: about 8°4′ N to 37°6′ N and 68°7′ E to 97°25′ E. The Tropic of Cancer crosses 8 states (Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura, Mizoram). The IST meridian, 82°30′ E, passes near Mirzapur (GMT + 5:30, since 82.5 × 4 min = 330 min).",
+      "Extremities and waterways: the southernmost point is Indira Point (Great Nicobar); Kanyakumari is the mainland tip. The Palk Strait separates India from Sri Lanka, the Ten Degree Channel separates the Andamans from the Nicobars, and the Eight Degree Channel separates Minicoy from the Maldives.",
+      "Himalaya: Himadri (Greater), Himachal (Lesser) and Shiwalik ranges; the foothill belts run Bhabar then Terai; Kangchenjunga is India's highest peak.",
+      "Northern plains: Bhangar (older alluvium) and Khadar (newer alluvium). The Brahmaputra is the Yarlung Tsangpo in Tibet, the Siang/Dihang in Arunachal Pradesh and the Jamuna in Bangladesh.",
+      "Peninsular rivers: the east-flowing Mahanadi, Godavari (largest peninsular river), Krishna and Kaveri form deltas; the west-flowing Narmada and Tapi run through rift valleys and form estuaries.",
+      "Peaks and passes: Anamudi (2,695 m) is the highest peak in peninsular India; Doddabetta is the highest in the Nilgiris; the Western and Eastern Ghats meet at the Nilgiris; the Palghat Gap links Kerala and Tamil Nadu.",
+      "Soils: alluvial (most widespread), black or regur (cotton, Deccan Trap), red (iron oxide), laterite (formed by leaching; tea, coffee, cashew), arid and mountain soils.",
+      "Climate: south-west monsoon June-September; the Tamil Nadu coast gets most rain from the retreating north-east monsoon; Kalbaisakhi in Bengal, 'mango showers' in Kerala and Karnataka, and the Loo in the north."
+    ],
+    "traps": [
+      "Kanyakumari is the southern tip of the mainland, not of India. That is Indira Point.",
+      "Mixing up Bhabar (porous, streams vanish) and Terai (marshy, streams re-emerge).",
+      "Assuming Odisha lies on the Tropic of Cancer. It lies wholly south of it.",
+      "Taking Doddabetta as the highest peninsular peak. Anamudi is higher.",
+      "Thinking the Narmada and Tapi form deltas. They form estuaries."
+    ],
+    "examTip": "Revise with a blank outline map of India and mark each fact on it. Location questions become much easier when you can picture where the place is."
+  },
+  "questions": [
+    {
+      "text": "Which narrow strait separates India from Sri Lanka?",
+      "difficulty": "EASY",
+      "options": [
+        "Palk Strait",
+        "Strait of Malacca",
+        "Ten Degree Channel",
+        "Eight Degree Channel"
+      ],
+      "answer": 0,
+      "explanation": "The Palk Strait lies between Tamil Nadu and northern Sri Lanka, with Adam's Bridge (Ram Setu) and the Gulf of Mannar to its south.\nThe Ten Degree Channel separates the Andaman and Nicobar groups, the Eight Degree Channel separates Minicoy from the Maldives, and the Strait of Malacca lies between Malaysia and Sumatra.\nAnswer: Palk Strait."
+    },
+    {
+      "text": "Which Indian state has the longest coastline?",
+      "difficulty": "EASY",
+      "options": [
+        "Andhra Pradesh",
+        "Tamil Nadu",
+        "Gujarat",
+        "Maharashtra"
+      ],
+      "answer": 2,
+      "explanation": "Gujarat's coast, with the Gulf of Kachchh, the Kathiawar peninsula and the Gulf of Khambhat, is the longest of any Indian state.\nAndhra Pradesh and Tamil Nadu also have long coasts on the Bay of Bengal, but both are shorter than Gujarat's.\nAnswer: Gujarat."
+    },
+    {
+      "text": "The southernmost point of India's territory, Indira Point, is located in:",
+      "difficulty": "EASY",
+      "options": [
+        "Kanyakumari, Tamil Nadu",
+        "Great Nicobar Island",
+        "Minicoy Island",
+        "Rameswaram Island"
+      ],
+      "answer": 1,
+      "explanation": "Indira Point (about 6°45′ N), formerly called Pygmalion Point, is at the southern tip of Great Nicobar in the Andaman and Nicobar Islands.\nKanyakumari (Cape Comorin) is the southernmost point of mainland India, which is the usual trap.\nAnswer: Great Nicobar Island."
+    },
+    {
+      "text": "The Tropic of Cancer passes through eight Indian states. Which of the following is NOT one of them?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Jharkhand",
+        "Tripura",
+        "Mizoram",
+        "Odisha"
+      ],
+      "answer": 3,
+      "explanation": "From west to east, the Tropic of Cancer crosses Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura and Mizoram.\nOdisha lies wholly south of 23.5° N (its northern edge is about 22.5° N), so the Tropic does not touch it.\nAnswer: Odisha."
+    },
+    {
+      "text": "Indian Standard Time is based on the 82°30′ E meridian. This meridian passes close to which city?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Mirzapur",
+        "Nagpur",
+        "Kolkata",
+        "Bhopal"
+      ],
+      "answer": 0,
+      "explanation": "The Standard Meridian of India is 82°30′ E. Since the Earth turns 1° in 4 minutes, 82.5 × 4 = 330 minutes, so IST = GMT + 5 hours 30 minutes.\nThe meridian passes through Mirzapur in Uttar Pradesh and also crosses Madhya Pradesh, Chhattisgarh, Odisha and Andhra Pradesh.\nNagpur lies near 79° E, Bhopal near 77° E and Kolkata near 88° E.\nAnswer: Mirzapur."
+    },
+    {
+      "text": "Which pair of major peninsular rivers flow westward through rift valleys and enter the Arabian Sea through estuaries rather than deltas?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Godavari and Krishna",
+        "Mahanadi and Kaveri",
+        "Narmada and Tapi",
+        "Krishna and Kaveri"
+      ],
+      "answer": 2,
+      "explanation": "The Narmada (between the Vindhyas and the Satpuras) and the Tapi (south of the Satpuras) flow west through fault-bounded rift valleys.\nTheir fast flow over hard rock and the strong tides at their mouths carry sediment away, so they form estuaries.\nThe Godavari, Krishna, Mahanadi and Kaveri flow east into the Bay of Bengal and build large deltas.\nAnswer: Narmada and Tapi."
+    },
+    {
+      "text": "Which is the highest peak of peninsular India (south of the Himalaya)?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Doddabetta",
+        "Anamudi",
+        "Mahendragiri",
+        "Dhupgarh"
+      ],
+      "answer": 1,
+      "explanation": "Anamudi (about 2,695 m) in the Anaimalai Hills of Kerala is the highest peak in peninsular India.\nDoddabetta (about 2,637 m) is the highest point of the Nilgiris, which is the common trap.\nMahendragiri is a high peak of the Eastern Ghats in Odisha, and Dhupgarh (about 1,350 m) is the highest point of the Satpuras.\nAnswer: Anamudi."
+    },
+    {
+      "text": "Laterite soils, rich in iron and aluminium oxides but poor in nitrogen and lime, are formed mainly by:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "weathering of basaltic lava rocks",
+        "deposition of silt by rivers",
+        "wind-blown deposits in arid regions",
+        "intense leaching under high temperature and heavy rainfall"
+      ],
+      "answer": 3,
+      "explanation": "In hot areas where heavy rain alternates with dry spells, rainwater washes out (leaches) silica and soluble minerals and leaves iron and aluminium oxides behind. This process is called laterisation.\nLaterite is found on the Western Ghats and in Kerala, Karnataka, Odisha, Meghalaya and western West Bengal; with manure it suits tea, coffee and cashew.\nWeathered basalt gives black soil, and river silt gives alluvium.\nAnswer: Intense leaching under high temperature and heavy rainfall."
+    },
+    {
+      "text": "Keibul Lamjao, the world's only floating national park, made of floating mats of vegetation called 'phumdis', lies on which lake?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Chilika Lake",
+        "Wular Lake",
+        "Loktak Lake",
+        "Dal Lake"
+      ],
+      "answer": 2,
+      "explanation": "Loktak, the largest freshwater lake in north-east India, lies in Manipur.\nKeibul Lamjao National Park on its phumdis is the last natural home of the sangai (brow-antlered deer), Manipur's state animal.\nChilika is a brackish lagoon in Odisha, and Wular and Dal are in Kashmir.\nAnswer: Loktak Lake."
+    },
+    {
+      "text": "Consider the following statements about the Brahmaputra:\n1. In Tibet it is known as the Yarlung Tsangpo.\n2. It enters India in Arunachal Pradesh, where it is called the Siang or Dihang.\n3. In Bangladesh its main channel is known as the Jamuna.\nWhich of the statements given above is/are correct?",
+      "difficulty": "HARD",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "answer": 3,
+      "explanation": "Statement 1 is correct: the river rises near Lake Mansarovar and flows east across Tibet as the Yarlung Tsangpo.\nStatement 2 is correct: it turns sharply around Namcha Barwa and enters Arunachal Pradesh as the Siang (Dihang), then is joined by the Dibang and Lohit in Assam.\nStatement 3 is correct: in Bangladesh the main channel is called the Jamuna, which later joins the Padma.\nAnswer: 1, 2 and 3."
+    },
+    {
+      "text": "The narrow belt of porous pebbles and boulders at the foot of the Shiwaliks, where most small streams sink underground and disappear, is known as the:",
+      "difficulty": "HARD",
+      "options": [
+        "Bhabar",
+        "Terai",
+        "Bhangar",
+        "Khadar"
+      ],
+      "answer": 0,
+      "explanation": "Rivers coming down from the hills drop coarse pebbles in a belt about 8-16 km wide called the Bhabar. The porous ground swallows small streams.\nFurther south the water comes back to the surface and creates the swampy, forested Terai, which is the usual trap.\nBhangar is older alluvium above flood level, and Khadar is newer alluvium on the floodplains.\nAnswer: Bhabar."
+    }
+  ]
+}

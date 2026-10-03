@@ -1,0 +1,106 @@
+{
+  "exam": "banking",
+  "subject": "reasoning-ability",
+  "chapter": "syllogism-inequality",
+  "notes": {
+    "summary": "Syllogism asks which conclusions must follow from statements built on All, Some, No and 'Only a few', including possibility conclusions. Inequality asks which relations between letters are definitely true from chains of >, <, ≥, ≤ and =, either written directly or in code. IBPS and SBI Prelims usually carry 3 to 5 questions of each type.",
+    "keyPoints": [
+      "All A are B gives 'Some A are B' and 'Some B are A' as definite; 'All B are A' is only a possibility.",
+      "Some A are B is the same as Some B are A. Two 'Some' statements in a row (Some A are B, Some B are C) give no definite link between A and C.",
+      "No A is B is the same as No B is A, and it also gives 'Some A are not B'. All A are B + No B is C gives No A is C. Some A are B + No B is C gives Some A are not C.",
+      "'Only a few A are B' means Some A are B AND Some A are not B. So 'All A are B', and even 'All A being B is a possibility', can never follow.",
+      "A possibility conclusion follows if you can draw at least one valid diagram where it is true. Anything ruled out by a 'No' statement is impossible.",
+      "Either-or: two conclusions with the same two terms (such as 'Some A are C' and 'No A is C'), neither of which follows alone, but together they cover every case.",
+      "Inequality chains: a definite relation exists only if all signs between the two letters point the same way. One '>' (or '<') anywhere in the chain makes the result strict; a mix of only '≥' and '=' gives '≥'; all '=' gives '='.",
+      "Opposite signs break the chain: A > B < C or A ≥ B ≤ C gives no relation between A and C.",
+      "Inequality either-or: if the derived relation is A ≥ C and the conclusions are 'A > C' and 'A = C', the answer is 'Either I or II follows'."
+    ],
+    "traps": [
+      "Converting 'Some A are not B' into 'Some B are not A'; this conversion is not allowed.",
+      "Accepting a possibility conclusion that a 'No' statement makes impossible.",
+      "Ignoring the second half of 'Only a few' (Some A are not B).",
+      "Linking two letters through a common term where the signs point in opposite directions.",
+      "Choosing 'Both follow' when the derived relation is '≥' and the two conclusions are '>' and '=' separately; the answer is Either I or II."
+    ],
+    "examTip": "Draw the smallest overlap the statements allow, then try to break each conclusion with another valid diagram; if you can break it, it does not follow."
+  },
+  "questions": [
+    {
+      "text": "Statements:\nSome cups are plates.\nSome plates are bowls.\nConclusions:\nI. Some cups are bowls.\nII. Some bowls are plates.",
+      "difficulty": "EASY",
+      "options": ["Only I follows", "Only II follows", "Both I and II follow", "Neither I nor II follows"],
+      "answer": 1,
+      "explanation": "Two 'Some' statements give no definite link between cups and bowls, so I does not follow (cups and bowls may not overlap at all).\nII is just the reverse of 'Some plates are bowls', which is always valid.\nOnly II follows."
+    },
+    {
+      "text": "Statements:\nOnly a few teachers are singers.\nAll singers are dancers.\nConclusions:\nI. Some teachers are not singers.\nII. All teachers are dancers.",
+      "difficulty": "MEDIUM",
+      "options": ["Only I follows", "Only II follows", "Both I and II follow", "Neither I nor II follows"],
+      "answer": 0,
+      "explanation": "'Only a few teachers are singers' means some teachers are singers and some teachers are not singers, so I follows directly.\nThe teachers who are singers are dancers, but the teachers who are not singers may or may not be dancers, so II is not definite.\nOnly I follows."
+    },
+    {
+      "text": "Statements:\nAll lions are tigers.\nNo tiger is a cat.\nConclusions:\nI. All cats being lions is a possibility.\nII. Some cats are tigers.",
+      "difficulty": "MEDIUM",
+      "options": ["Only I follows", "Only II follows", "Both I and II follow", "Neither I nor II follows"],
+      "answer": 3,
+      "explanation": "All lions lie inside tigers, and no tiger is a cat, so no lion can be a cat. A cat can never be a lion, so I is impossible.\nII directly contradicts 'No tiger is a cat'.\nNeither I nor II follows."
+    },
+    {
+      "text": "Statements:\nSome boxes are cartons.\nNo carton is a bag.\nConclusions:\nI. Some boxes are not bags.\nII. Some bags being boxes is a possibility.",
+      "difficulty": "MEDIUM",
+      "options": ["Only I follows", "Only II follows", "Both I and II follow", "Neither I nor II follows"],
+      "answer": 2,
+      "explanation": "The boxes that are cartons cannot be bags, so some boxes are definitely not bags. I follows.\nBoxes that are not cartons have no restriction, so they may overlap with bags. II is a valid possibility.\nBoth I and II follow."
+    },
+    {
+      "text": "Statements:\nSome mobiles are laptops.\nAll laptops are tablets.\nNo tablet is a radio.\nConclusions:\nI. Some mobiles are not radios.\nII. No mobile is a radio.",
+      "difficulty": "MEDIUM",
+      "options": ["Only I follows", "Only II follows", "Both I and II follow", "Neither I nor II follows"],
+      "answer": 0,
+      "explanation": "Some mobiles are laptops, and all laptops are tablets, so some mobiles are tablets.\nNo tablet is a radio, so those mobiles are not radios: I follows.\nMobiles outside the tablet circle may still be radios, so II is not definite.\nOnly I follows."
+    },
+    {
+      "text": "Statements:\nOnly a few files are folders.\nNo folder is a document.\nAll documents are papers.\nConclusions:\nI. All files being folders is a possibility.\nII. All files being papers is a possibility.",
+      "difficulty": "HARD",
+      "options": ["Only I follows", "Only II follows", "Both I and II follow", "Neither I nor II follows"],
+      "answer": 1,
+      "explanation": "'Only a few files are folders' means some files are not folders, so all files can never be folders. I does not follow.\nFolders cannot be documents, but nothing stops folders (or any files) from being papers outside the document circle. So all files can lie inside papers, and II is possible.\nOnly II follows."
+    },
+    {
+      "text": "Statement: P > Q = R ≥ S < T\nConclusions:\nI. P > S\nII. T > R",
+      "difficulty": "EASY",
+      "options": ["Only I follows", "Only II follows", "Both I and II follow", "Neither I nor II follows"],
+      "answer": 0,
+      "explanation": "I. P > Q = R ≥ S: all signs point the same way and one is '>', so P > S. I follows.\nII. R ≥ S < T: the signs point in opposite directions, so there is no definite relation between T and R. II does not follow.\nOnly I follows."
+    },
+    {
+      "text": "Statements: M ≥ N > O, O ≤ P < Q, Q = R\nConclusions:\nI. N > P\nII. R > O",
+      "difficulty": "MEDIUM",
+      "options": ["Only I follows", "Only II follows", "Both I and II follow", "Neither I nor II follows"],
+      "answer": 1,
+      "explanation": "Combined chain: M ≥ N > O ≤ P < Q = R.\nI. N > O ≤ P: opposite signs, so N and P cannot be compared. I does not follow.\nII. R = Q > P ≥ O, so R > O. II follows.\nOnly II follows."
+    },
+    {
+      "text": "In which of the following expressions is 'M > Q' definitely true?",
+      "difficulty": "MEDIUM",
+      "options": ["M > N ≤ O = P > Q", "M ≥ N = O ≥ P ≥ Q", "M = N < O > P > Q", "M ≥ N > O = P ≥ Q"],
+      "answer": 3,
+      "explanation": "M > N ≤ O = P > Q: the signs change direction at N, so no relation.\nM ≥ N = O ≥ P ≥ Q: this gives only M ≥ Q, not M > Q.\nM = N < O > P > Q: the signs change direction at O, so no relation.\nM ≥ N > O = P ≥ Q: all signs point the same way and one is '>', so M > Q is definitely true."
+    },
+    {
+      "text": "Statement: A < B ≤ C = D\nConclusions:\nI. D > A\nII. C ≥ B",
+      "difficulty": "EASY",
+      "options": ["Only I follows", "Only II follows", "Both I and II follow", "Neither I nor II follows"],
+      "answer": 2,
+      "explanation": "I. A < B ≤ C = D, read from right to left: D = C ≥ B > A, so D > A. I follows.\nII. B ≤ C is the same as C ≥ B. II follows.\nBoth I and II follow."
+    },
+    {
+      "text": "Statements: P ≥ Q, Q = R, R ≥ S, T ≤ S, S < U\nConclusions:\nI. P > T\nII. P = T",
+      "difficulty": "HARD",
+      "options": ["Only I follows", "Only II follows", "Either I or II follows", "Neither I nor II follows"],
+      "answer": 2,
+      "explanation": "Combine: P ≥ Q = R ≥ S ≥ T (T ≤ S is the same as S ≥ T). U is not needed.\nThere is no strict '>' in the chain, so P ≥ T: P is either greater than T or equal to T.\nNeither I nor II is definite alone, but together they cover P ≥ T.\nEither I or II follows."
+    }
+  ]
+}

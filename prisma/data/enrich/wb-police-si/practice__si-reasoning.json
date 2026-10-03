@@ -1,0 +1,128 @@
+{
+  "exam": "wb-police-si",
+  "subject": "practice",
+  "chapter": "si-reasoning",
+  "notes": {
+    "summary": "Logical and analytical reasoning for WB Police SI covers coding-decoding, series, analogy, classification, blood relations, directions, ranking, seating arrangement, calendar, clock, dice, syllogism and statement-based questions. The questions are short and rule-based, so knowing the standard shortcut for each type lets you solve most of them in under a minute.",
+    "keyPoints": [
+      "Alphabet positions: remember EJOTY = 5, 10, 15, 20, 25. A letter and its opposite always add up to 27 (A-Z, B-Y, M-N), which speeds up coding and letter-series questions.",
+      "Clock angle = |30H - 5.5M|. If the result is more than 180°, subtract it from 360°. Example: at 3:40 it is |90 - 220| = 130°.",
+      "Mirror image of a clock: subtract the time from 11:60 (4:20 gives 7:40). For times from 11:00 to 12:59, subtract from 23:60 instead (11:20 gives 12:40).",
+      "Calendar odd days: 100 years = 5, 200 years = 3, 300 years = 1, 400 years = 0. An ordinary year has 1 odd day and a leap year 2. A 31-day month has 3, a 30-day month 2, and February 0 (1 in a leap year). Then 0 = Sunday, 1 = Monday ... 6 = Saturday.",
+      "A century year is a leap year only if it is divisible by 400: 2000 was a leap year, 1900 was not.",
+      "Seating: in a row facing north, your right is the east end. Around a table facing the centre, left = clockwise and right = anticlockwise. If people face outward, this reverses.",
+      "Shadows: in the morning the sun is in the east, so shadows fall to the west. In the evening shadows fall to the east. Find which side the shadow is on and work out the facing direction from that.",
+      "Ranking: total = position from left + position from right - 1. Dice: if two views share two faces, the two remaining faces are opposite each other. Faces seen together in any view can never be opposite.",
+      "Syllogism: All A are B + No B are C gives No A are C. Some + All gives Some. Two 'Some' premises give no definite conclusion. Judge only from the statements, never from real-world knowledge.",
+      "Symbol substitution: replace every symbol first, then solve with BODMAS (division and multiplication before addition and subtraction)."
+    ],
+    "traps": [
+      "Forgetting that the hour hand also moves (0.5° per minute). At 3:40 the angle is 130°, not 150°.",
+      "Treating 1900 as a leap year. Century years are leap years only when divisible by 400.",
+      "Mixing up left and right in circular seating (facing the centre) or in rows where people face south.",
+      "Accepting a syllogism conclusion because it sounds true in real life instead of checking that it follows from the statements.",
+      "Solving symbol-substitution questions from left to right after replacing the symbols, instead of applying BODMAS."
+    ],
+    "examTip": "Draw a quick sketch for every direction, seating or blood-relation question. It takes ten seconds and prevents most careless mistakes."
+  },
+  "questions": [
+    {
+      "text": "Find the missing number:\n7 : 50 :: 9 : ?",
+      "difficulty": "EASY",
+      "options": ["81", "90", "82", "80"],
+      "answer": 2,
+      "explanation": "Look for the rule in the first pair: 7² = 49, and 49 + 1 = 50.\nApply the same rule to 9: 9² = 81, and 81 + 1 = 82.\n81 is the trap answer: it is only 9², without the +1.\nAnswer: 82"
+    },
+    {
+      "text": "Find the next letter in the series:\nB, E, H, K, N, ?",
+      "difficulty": "EASY",
+      "options": ["P", "Q", "R", "O"],
+      "answer": 1,
+      "explanation": "Convert the letters to their alphabet positions: B = 2, E = 5, H = 8, K = 11, N = 14.\nEach term goes up by 3, so the next is 14 + 3 = 17.\nThe 17th letter is Q.\nAnswer: Q"
+    },
+    {
+      "text": "Arrange the following words in the order in which they appear in an English dictionary:\n1. Police\n2. Polish\n3. Policy\n4. Polite\n5. Polar",
+      "difficulty": "EASY",
+      "options": ["5, 1, 3, 2, 4", "5, 3, 1, 2, 4", "5, 1, 3, 4, 2", "1, 5, 3, 2, 4"],
+      "answer": 0,
+      "explanation": "Every word starts with 'Pol'. At the 4th letter, 'a' (Polar) comes before 'i', so Polar is first.\nThe other four all start with 'Poli'. At the 5th letter, 'c' (Police, Policy) comes before 's' (Polish), which comes before 't' (Polite).\nTo order Police and Policy, look at the 6th letter: 'e' comes before 'y', so Police comes before Policy.\nThe order is Polar, Police, Policy, Polish, Polite.\nAnswer: 5, 1, 3, 2, 4"
+    },
+    {
+      "text": "Which of the following best represents the relationship among Dog, Cat and Animal?",
+      "difficulty": "EASY",
+      "options": ["Three separate circles", "Three concentric circles, one inside the other", "Two intersecting circles inside a third circle", "Two separate circles, both inside a third larger circle"],
+      "answer": 3,
+      "explanation": "Every dog is an animal and every cat is an animal, so both circles lie inside the 'Animal' circle.\nNo dog is a cat, so the Dog and Cat circles do not overlap.\nAnswer: two separate circles, both inside a third larger circle"
+    },
+    {
+      "text": "What is the angle between the hour hand and the minute hand of a clock at 3:40?",
+      "difficulty": "MEDIUM",
+      "options": ["150°", "120°", "130°", "140°"],
+      "answer": 2,
+      "explanation": "Use the formula: angle = |30H - 5.5M|.\nWith H = 3 and M = 40: |90 - 220| = 130°.\nCheck: the minute hand is at 240°, and the hour hand is at 90° + 40 × 0.5° = 110°. The difference is 240° - 110° = 130°.\n150° is the trap you get if you forget that the hour hand moves.\nAnswer: 130°"
+    },
+    {
+      "text": "Five friends P, Q, R, S and T sit in a row, all facing north.\n- R sits exactly in the middle.\n- P sits at the extreme left end.\n- T sits to the immediate right of R.\n- Q does not sit next to P.\nWho sits between P and R?",
+      "difficulty": "MEDIUM",
+      "options": ["S", "Q", "T", "Cannot be determined"],
+      "answer": 0,
+      "explanation": "Number the seats 1 to 5 from left to right.\nP is in seat 1 and R is in seat 3 (the middle). T is to the immediate right of R, so T is in seat 4.\nThat leaves seats 2 and 5 for Q and S. Q cannot sit next to P, so Q is in seat 5 and S is in seat 2.\nThe order is P, S, R, T, Q.\nAnswer: S"
+    },
+    {
+      "text": "If '+' means '×', '-' means '÷', '×' means '-' and '÷' means '+', what is the value of:\n18 - 3 + 4 ÷ 6 × 2",
+      "difficulty": "MEDIUM",
+      "options": ["26", "30", "22", "28"],
+      "answer": 3,
+      "explanation": "Replace the symbols: 18 - 3 + 4 ÷ 6 × 2 becomes 18 ÷ 3 × 4 + 6 - 2.\nApply BODMAS: 18 ÷ 3 = 6, then 6 × 4 = 24.\nNext, 24 + 6 = 30, and 30 - 2 = 28.\nAnswer: 28"
+    },
+    {
+      "text": "A wall clock shows the time 4:20. What time will its image in a vertical plane mirror appear to show?",
+      "difficulty": "MEDIUM",
+      "options": ["8:40", "7:20", "7:40", "8:20"],
+      "answer": 2,
+      "explanation": "For a mirror image, subtract the time from 11:60.\n11:60 - 4:20 = 7:40.\nCheck: the real time and the mirror time always add up to 12:00, and 4:20 + 7:40 = 12:00.\nAnswer: 7:40"
+    },
+    {
+      "text": "Statement: A traffic police poster says, 'Wear a helmet - it may save your life.'\nAssumptions:\nI. A helmet can protect a rider from serious head injury.\nII. People read and pay attention to such posters.\nWhich assumption is implicit?",
+      "difficulty": "MEDIUM",
+      "options": ["Only I is implicit", "Both I and II are implicit", "Only II is implicit", "Neither I nor II is implicit"],
+      "answer": 1,
+      "explanation": "The poster links wearing a helmet with saving a life. That only makes sense if a helmet protects the head, so I is implicit.\nA poster is put up only if the police expect people to read it and act on it, so II is also implicit.\nAnswer: both I and II are implicit"
+    },
+    {
+      "text": "Statements:\nAll constables are trained.\nNo trained person is careless.\nConclusions:\nI. No constable is careless.\nII. Some careless persons are constables.\nWhich conclusion follows?",
+      "difficulty": "MEDIUM",
+      "options": ["Only I follows", "Only II follows", "Both I and II follow", "Neither I nor II follows"],
+      "answer": 0,
+      "explanation": "All constables lie inside the 'trained' group, and the 'trained' group does not overlap with 'careless' at all.\nSo no constable can be careless, and I follows.\nII says some careless persons are constables. That directly contradicts I, so it cannot follow.\nAnswer: only I follows"
+    },
+    {
+      "text": "Two different positions of the same die (faces numbered 1 to 6) are described below.\nPosition 1: the visible faces are 1, 2 and 3.\nPosition 2: the visible faces are 1, 3 and 5.\nWhich number is on the face opposite 2?",
+      "difficulty": "MEDIUM",
+      "options": ["3", "4", "6", "5"],
+      "answer": 3,
+      "explanation": "Faces 1 and 3 appear in both positions.\nRule: when two views share two faces, the remaining faces (here 2 and 5) are opposite each other.\nAlso, 3 is seen together with 2, so 3 cannot be opposite 2.\nAnswer: 5"
+    },
+    {
+      "text": "Six persons A, B, C, D, E and F sit around a circular table, all facing the centre.\n- A sits directly opposite D.\n- B sits to the immediate left of A.\n- C sits to the immediate right of D.\n- F is not a neighbour of A.\nWho sits directly opposite B?",
+      "difficulty": "HARD",
+      "options": ["C", "F", "E", "D"],
+      "answer": 1,
+      "explanation": "Number the seats 1 to 6 clockwise and put A in seat 1. D is opposite A, so D is in seat 4.\nWhen people face the centre, left means clockwise. B is to the immediate left of A, so B is in seat 2.\nRight means anticlockwise. C is to the immediate right of D, so C is in seat 3.\nThat leaves seats 5 and 6 for E and F. Seat 6 is next to A, so F is in seat 5 and E is in seat 6.\nSeat 2 (B) is opposite seat 5 (F).\nAnswer: F"
+    },
+    {
+      "text": "What was the day of the week on 26 January 1950, the day the Constitution of India came into force?",
+      "difficulty": "HARD",
+      "options": ["Wednesday", "Friday", "Thursday", "Sunday"],
+      "answer": 2,
+      "explanation": "Count the odd days up to 26 January 1950.\nThe first 1600 years give 0 odd days. The next 300 years (1601-1900) give 1 odd day.\nThe years 1901-1949 are 49 years, 12 of them leap years. That gives 49 + 12 = 61 odd days, and 61 ÷ 7 leaves remainder 5.\nThe 26 days of January 1950 give 26 ÷ 7, remainder 5.\nTotal = 0 + 1 + 5 + 5 = 11, and 11 ÷ 7 leaves remainder 4. Counting 0 = Sunday, 4 = Thursday.\nAnswer: Thursday"
+    },
+    {
+      "text": "One evening, a little before sunset, Arun and Bimal were standing face to face and talking. Arun's shadow fell exactly to his right. Which direction was Bimal facing?",
+      "difficulty": "HARD",
+      "options": ["South", "North", "East", "West"],
+      "answer": 0,
+      "explanation": "In the evening the sun is in the west, so shadows fall towards the east.\nArun's shadow falls to his right, so Arun's right side points east. That means Arun is facing north.\nBimal stands face to face with Arun, so Bimal faces the opposite direction.\nAnswer: South"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "exam": "banking",
+  "subject": "reasoning-ability",
+  "chapter": "puzzles-seating",
+  "notes": {
+    "summary": "Puzzles and seating arrangement cover linear rows, parallel rows, circular and square tables, floors, scheduling (days or subjects), ordering by marks or age, and box stacking. This is the highest-weight reasoning topic in IBPS and SBI exams: Prelims usually has 3 to 5 sets of about 5 questions each, and Mains puzzles add more people and more variables.",
+    "keyPoints": [
+      "Linear row facing north: a person's right is your right (east). Facing south: the person's right is your left (west), so all directions reverse.",
+      "Circular table, facing the centre: right = anticlockwise and left = clockwise. Facing away from the centre: right = clockwise and left = anticlockwise.",
+      "Square table with 8 people: 4 sit at corners and 4 at the middle of the sides. If seats are numbered 1 to 8 around the table, the opposite pairs are 1-5, 2-6, 3-7 and 4-8.",
+      "Row ranking: total = rank from left + rank from right − 1. People between two positions = difference of positions − 1.",
+      "Circle count: if counting to the right of N there are 3 people between N and M, and counting to the right of M there are 4 people between M and N, the total is 3 + 4 + 2 = 9.",
+      "Solve in this order: definite clues (end seats, fixed floors, given days), then pair clues (immediate neighbour, opposite), then make cases for uncertain clues and remove cases with negative clues.",
+      "Scheduling with two variables (person and day, person and subject): draw a grid and tick or cross every box; one clue often fixes two cells at once.",
+      "Ordering puzzles: write one chain such as E > C > D > A > B. 'Third highest' then becomes the third name from the top."
+    ],
+    "traps": [
+      "Using your own left and right for a person who faces south or faces away from the centre.",
+      "Reading 'second to the left' as two people in between; it means exactly one person in between.",
+      "Fixing a doubtful clue too early instead of drawing all possible cases and eliminating them.",
+      "Forgetting negative clues such as 'is not an immediate neighbour of', which are often the deciding clue.",
+      "Counting the end people when asked how many sit between two people."
+    ],
+    "examTip": "Draw the diagram first, put an arrow for every person's facing direction, and lock all the definite clues before you try any case."
+  },
+  "questions": [
+    {
+      "text": "Six persons sit in two parallel rows of three each. P, Q and R sit in Row 1 facing south. L, M and N sit in Row 2 facing north, so each person in Row 1 faces exactly one person in Row 2.\nQ sits in the middle of Row 1.\nP sits to the immediate right of Q.\nM faces Q.\nN faces P.\nWho sits to the immediate left of M?",
+      "difficulty": "EASY",
+      "options": ["L", "N", "P", "R"],
+      "answer": 1,
+      "explanation": "Mark the three seats of each row as West, Middle and East.\nQ is in the middle of Row 1. Row 1 faces south, so Q's right is towards the west: P sits at West and R at East.\nM faces Q, so M is in the middle of Row 2. N faces P, so N is at West, and L is at East.\nRow 2 faces north, so M's left is towards the west, where N sits.\nN sits to the immediate left of M."
+    },
+    {
+      "text": "Seven persons sit in a row facing north.\nM sits at the extreme right end.\nK sits third to the left of M.\nJ sits second to the left of K.\nHow many persons sit between J and M?",
+      "difficulty": "EASY",
+      "options": ["3", "5", "4", "2"],
+      "answer": 2,
+      "explanation": "Number the seats 1 to 7 from the left. M is at seat 7.\nK is third to the left of M: seat 7 − 3 = 4.\nJ is second to the left of K: seat 4 − 2 = 2.\nPersons between seat 2 and seat 7 are at seats 3, 4, 5 and 6, so 4 persons sit between J and M."
+    },
+    {
+      "text": "Four friends A, B, C and D sit around a square table, one on each side, all facing the centre.\nA sits opposite C.\nB sits to the immediate right of A.\nWho sits to the immediate left of C?",
+      "difficulty": "EASY",
+      "options": ["D", "A", "Cannot be determined", "B"],
+      "answer": 3,
+      "explanation": "Place A on the south side, facing north. For a person facing the centre, right is anticlockwise, so A's right is the east side: B sits on the east side.\nC sits opposite A, on the north side, and D takes the west side.\nC faces south, so C's left is towards the east, where B sits.\nB sits to the immediate left of C."
+    },
+    {
+      "text": "Six friends P, Q, R, S, T and U sit around a circular table at equal distances. P, R and T face the centre, while Q, S and U face away from the centre.\nT sits to the immediate right of P.\nS sits second to the left of T.\nQ sits opposite P.\nR is not an immediate neighbour of T.\nWho sits to the immediate left of U?",
+      "difficulty": "MEDIUM",
+      "options": ["Q", "T", "R", "S"],
+      "answer": 0,
+      "explanation": "Number the seats 1 to 6 clockwise and put P at seat 1. P faces the centre, so P's right is anticlockwise: T is at seat 6.\nT faces the centre, so T's left is clockwise: second to the left of T is seat 2, so S is at seat 2.\nQ is opposite P, at seat 4. R and U take seats 3 and 5; R is not next to T (seat 6), so R is at 3 and U at 5.\nU faces away from the centre, so U's left is anticlockwise: seat 4, which is Q.\nQ sits to the immediate left of U."
+    },
+    {
+      "text": "Five students A, B, C, D and E scored different marks (whole numbers) in a test.\nC scored more than D but less than E.\nD scored more than A.\nB scored the lowest marks.\nThe student with the third-highest marks scored 72.\nWhich of the following could be E's marks?",
+      "difficulty": "MEDIUM",
+      "options": ["68", "72", "81", "73"],
+      "answer": 2,
+      "explanation": "From the clues the order is E > C > D > A > B.\nThe third highest is D, so D = 72.\nC is more than 72 and E is more than C, so E must be at least 74.\n68, 72 and 73 are not possible (73 leaves no whole number for C between 72 and 73).\nE's marks could be 81."
+    },
+    {
+      "text": "Six persons A, B, C, D, E and F sit in a straight row. A, C, E and F face north, while B and D face south.\nC sits at one of the extreme ends.\nA sits third to the right of C.\nF sits to the immediate left of A.\nB sits second to the left of A.\nE sits at one of the extreme ends.\nWho sits to the immediate left of D?",
+      "difficulty": "MEDIUM",
+      "options": ["A", "E", "F", "B"],
+      "answer": 1,
+      "explanation": "Number the seats 1 to 6 from west to east. C faces north, so C's right is east; for A to be third to C's right, C must be at seat 1 and A at seat 4.\nA faces north, so A's left is west: F is at seat 3 and B (second to the left) at seat 2.\nE is at an end, so E takes seat 6 and D takes seat 5.\nD faces south, so D's left is towards the east: seat 6, which is E.\nE sits to the immediate left of D. (Treating D as north-facing gives the wrong answer A.)"
+    },
+    {
+      "text": "Four teachers P, Q, R and S teach four different subjects (Maths, English, Science and Hindi) on four different days from Monday to Thursday, one teacher each day.\nQ teaches on Thursday.\nThe Maths teacher teaches on the day immediately before Q.\nR teaches on Monday.\nP teaches Hindi.\nEnglish is not taught on Monday.\nWho teaches Maths, and which subject does R teach?",
+      "difficulty": "MEDIUM",
+      "options": ["S and English", "P and Science", "Q and Hindi", "S and Science"],
+      "answer": 3,
+      "explanation": "Q is on Thursday, so Maths is on Wednesday. R is on Monday.\nP and S take Tuesday and Wednesday. P teaches Hindi, so P cannot be on Wednesday (Maths): P is on Tuesday and S is on Wednesday teaching Maths.\nR and Q share English and Science. English is not on Monday, so R teaches Science and Q teaches English.\nS teaches Maths and R teaches Science."
+    },
+    {
+      "text": "Some persons sit around a circular table at equal distances, all facing the centre.\nCounting to the right of N, exactly three persons sit between N and M.\nCounting to the right of M, exactly four persons sit between M and N.\nHow many persons sit around the table?",
+      "difficulty": "MEDIUM",
+      "options": ["9", "10", "8", "7"],
+      "answer": 0,
+      "explanation": "Going right from N you pass 3 persons and reach M.\nContinuing right from M you pass 4 more persons and come back to N.\nSo the circle has N, M, 3 persons on one side and 4 on the other.\nTotal = 2 + 3 + 4 = 9 persons."
+    },
+    {
+      "text": "Five persons P, Q, R, S and T were born in five different years: 1978, 1984, 1989, 1993 and 1999 (one year each).\nR is the oldest.\nQ was born exactly 6 years after S.\nT is older than P.\nTaking age as 2024 minus the year of birth, what is P's age in 2024?",
+      "difficulty": "MEDIUM",
+      "options": ["40", "35", "31", "25"],
+      "answer": 1,
+      "explanation": "R is the oldest, so R was born in 1978.\nFrom the remaining years (1984, 1989, 1993, 1999), the only pair 6 years apart is 1993 and 1999, so S = 1993 and Q = 1999.\nP and T take 1984 and 1989; T is older, so T = 1984 and P = 1989.\nP's age in 2024 = 2024 − 1989 = 35."
+    },
+    {
+      "text": "Eight persons J, K, L, M, N, O, P and Q sit around a square table, all facing the centre. Four sit at the four corners and four sit at the middle of the four sides.\nK sits at one of the corners.\nJ sits opposite K.\nN sits second to the right of K.\nP sits to the immediate left of K.\nL sits to the immediate left of J.\nM sits between P and O.\nWho sits opposite M?",
+      "difficulty": "HARD",
+      "options": ["Q", "L", "N", "J"],
+      "answer": 2,
+      "explanation": "Number the seats 1 to 8 clockwise, starting at a corner, so corners are 1, 3, 5, 7 and opposite pairs are 1-5, 2-6, 3-7, 4-8. Put K at seat 1; then J is at seat 5.\nFacing the centre, right is anticlockwise: N (second to the right of K) is at seat 7. Left is clockwise: P is at seat 2, and L (immediate left of J) is at seat 6.\nM must sit next to P, and seat 1 is taken, so M is at seat 3 and O at seat 4. Q takes seat 8.\nThe seat opposite M (seat 3) is seat 7, which is N."
+    },
+    {
+      "text": "Some persons sit in a row facing north.\nA sits fifth from the left end.\nB sits third to the right of A.\nExactly eight persons sit between B and the right end of the row.\nC sits exactly in the middle of the row.\nD sits second to the left of C.\nHow many persons sit between A and D?",
+      "difficulty": "HARD",
+      "options": ["2", "0", "3", "1"],
+      "answer": 3,
+      "explanation": "A is at position 5 from the left, so B is at position 5 + 3 = 8.\nEight persons sit after B, so the last person is at position 8 + 8 + 1 = 17; the row has 17 persons.\nThe middle of 17 is position 9, so C is at 9 and D, second to the left of C, is at 7.\nBetween positions 5 and 7 there is only position 6.\nSo 1 person sits between A and D."
+    }
+  ]
+}

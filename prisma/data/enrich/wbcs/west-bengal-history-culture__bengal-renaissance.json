@@ -1,0 +1,161 @@
+{
+  "exam": "wbcs",
+  "subject": "west-bengal-history-culture",
+  "chapter": "bengal-renaissance",
+  "notes": {
+    "summary": "This chapter covers the social, religious, educational and literary awakening of 19th-century Bengal, from Ram Mohan Roy and the Brahmo movement to Vidyasagar, Young Bengal, Ramakrishna and Vivekananda, Bankim, Tagore and the scientists of the Swadeshi era. WBCS Prelims tests it through direct 'who founded or wrote what' questions, the order in which organisations were founded, and statement-based questions on reformers.",
+    "keyPoints": [
+      "Ram Mohan Roy: Atmiya Sabha (1815), Brahmo Sabha (1828, later Brahmo Samaj), Sambad Kaumudi (1821, Bengali) and Mirat-ul-Akhbar (1822, Persian); given the title 'Raja' by Mughal emperor Akbar II; died at Bristol in 1833.",
+      "Brahmo splits: Debendranath Tagore (Tattwabodhini Sabha, 1839) led what became the Adi Brahmo Samaj; Keshab Chandra Sen formed the Brahmo Samaj of India (1866); the Cooch Behar marriage of 1878 led to the Sadharan Brahmo Samaj (1878, Shivnath Shastri, Ananda Mohan Bose).",
+      "Vidyasagar: principal of Sanskrit College (1851), Barnaparichay (1855), Hindu Widows' Remarriage Act 1856 (passed under Lord Canning), campaign against polygamy, supported Bethune's girls' school (1849).",
+      "Young Bengal: Henry Louis Vivian Derozio of Hindu College (founded 1817) and his Academic Association; he was dismissed in 1831 and died the same year, aged 22.",
+      "Sati was abolished by Regulation XVII of 1829 under Lord William Bentinck.",
+      "Ramakrishna (born Gadadhar Chattopadhyay at Kamarpukur, Hooghly) was a priest at Dakshineswar; Vivekananda (Narendranath Datta) spoke at Chicago in 1893 and founded the Ramakrishna Mission in 1897, with Belur Math as headquarters.",
+      "Literature: Michael Madhusudan Dutt brought blank verse into Bengali (Meghnad Badh Kavya, 1861); Dinabandhu Mitra wrote Nil Darpan (1860); Bankim edited Bangadarshan (1872) and wrote Anandamath (1882) with Vande Mataram; Tagore won the Nobel Prize in 1913 for Gitanjali.",
+      "Orientalist base: Asiatic Society (1784, Sir William Jones); Fort William College (1800, Lord Wellesley).",
+      "Science: Mahendralal Sarkar founded the IACS (1876); J.C. Bose founded the Bose Institute (1917); P.C. Ray founded Bengal Chemical and wrote 'A History of Hindu Chemistry'."
+    ],
+    "traps": [
+      "Confusing founder and patron: the Asiatic Society was founded by William Jones; Warren Hastings was only its patron.",
+      "Mixing up the Brahmo splits: 1866 is the Brahmo Samaj of India (formed by Keshab); 1878 is the Sadharan Brahmo Samaj (formed against Keshab).",
+      "Naming Michael Madhusudan Dutt as the author of Nil Darpan. He is linked only with its English translation; the author is Dinabandhu Mitra.",
+      "Mixing up birth names: Vivekananda was Narendranath Datta, Ramakrishna was Gadadhar Chattopadhyay, and Narendranath Bhattacharya was M.N. Roy.",
+      "Dating the Widow Remarriage Act to Bentinck's time. Bentinck abolished Sati in 1829; the 1856 Act was passed under Lord Canning."
+    ],
+    "examTip": "Make a one-line table of years, founders and organisations (1815, 1828, 1839, 1866, 1878, 1897). Most Renaissance questions come down to matching these."
+  },
+  "questions": [
+    {
+      "text": "Before taking monastic vows, Swami Vivekananda was known by which name?",
+      "difficulty": "EASY",
+      "options": [
+        "Gadadhar Chattopadhyay",
+        "Narendranath Bhattacharya",
+        "Narendranath Datta",
+        "Rakhal Chandra Ghosh"
+      ],
+      "answer": 2,
+      "explanation": "Swami Vivekananda was born in Calcutta in 1863 as Narendranath Datta (often written Dutta).\nGadadhar Chattopadhyay was the childhood name of his guru Ramakrishna.\nNarendranath Bhattacharya was the revolutionary later known as M.N. Roy, and Rakhal Chandra Ghosh became Swami Brahmananda.\nAnswer: Narendranath Datta."
+    },
+    {
+      "text": "In 1897 Swami Vivekananda founded which organisation to combine monastic life with social service? It later made Belur Math in Howrah its headquarters.",
+      "difficulty": "EASY",
+      "options": [
+        "Ramakrishna Mission",
+        "Brahmo Samaj",
+        "Prarthana Samaj",
+        "Arya Samaj"
+      ],
+      "answer": 0,
+      "explanation": "Vivekananda set up the Ramakrishna Mission on 1 May 1897 in Calcutta, after returning from the West.\nIts ideal joins personal liberation with service to humanity, and Belur Math (Howrah) became its headquarters.\nThe Brahmo Samaj was Ram Mohan Roy's (1828), the Prarthana Samaj was founded in Bombay (1867) and the Arya Samaj by Dayananda Saraswati (1875).\nAnswer: Ramakrishna Mission."
+    },
+    {
+      "text": "Who introduced blank verse (amitrakshar chhanda) into Bengali poetry, most famously in the epic 'Meghnad Badh Kavya' (1861)?",
+      "difficulty": "EASY",
+      "options": [
+        "Bankim Chandra Chattopadhyay",
+        "Ishwar Chandra Gupta",
+        "Dinabandhu Mitra",
+        "Michael Madhusudan Dutt"
+      ],
+      "answer": 3,
+      "explanation": "Michael Madhusudan Dutt broke away from the rhyming payar metre and introduced amitrakshar (blank) verse in Bengali.\nHis epic 'Meghnad Badh Kavya' (1861) retells part of the Ramayana with Meghnad (Indrajit) as a tragic hero.\nBankim was a novelist, Ishwar Gupta a traditional poet and editor of Sambad Prabhakar, and Dinabandhu Mitra a playwright.\nAnswer: Michael Madhusudan Dutt."
+    },
+    {
+      "text": "The Tattwabodhini Sabha, founded in Calcutta in 1839 to spread Vedantic monotheism, was established by:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Keshab Chandra Sen",
+        "Debendranath Tagore",
+        "Akshay Kumar Datta",
+        "Dwarkanath Tagore"
+      ],
+      "answer": 1,
+      "explanation": "Debendranath Tagore (Rabindranath's father) founded the Tattwabodhini Sabha in 1839 and joined the Brahmo Samaj in 1843, reviving it after Ram Mohan Roy's death.\nThe Sabha's journal, Tattwabodhini Patrika (1843), was edited by Akshay Kumar Datta, which is the usual trap.\nDwarkanath Tagore was Debendranath's father, and Keshab Chandra Sen joined the Brahmo movement only in 1857.\nAnswer: Debendranath Tagore."
+    },
+    {
+      "text": "The Bengali play 'Nil Darpan' (1860), which exposed the oppression of peasants by European indigo planters, was written by:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Michael Madhusudan Dutt",
+        "Rev. James Long",
+        "Dinabandhu Mitra",
+        "Girish Chandra Ghosh"
+      ],
+      "answer": 2,
+      "explanation": "Dinabandhu Mitra wrote 'Nil Darpan' in 1860, during the Indigo Revolt (Nil Bidroha) of 1859-60.\nIts English translation (1861) is generally attributed to Michael Madhusudan Dutt. Rev. James Long published it and was tried, fined and briefly jailed for doing so.\nGirish Chandra Ghosh was a later pioneer of Bengali theatre.\nAnswer: Dinabandhu Mitra."
+    },
+    {
+      "text": "The Asiatic Society, founded in Calcutta on 15 January 1784 to promote research into Asian history, languages and antiquities, was established by:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Sir William Jones",
+        "Warren Hastings",
+        "James Prinsep",
+        "Henry Thomas Colebrooke"
+      ],
+      "answer": 0,
+      "explanation": "The Asiatic Society (later the Asiatic Society of Bengal) was founded by the judge and Orientalist Sir William Jones in 1784.\nGovernor-General Warren Hastings was its patron, not its founder. This is the common trap.\nJames Prinsep, a later secretary, deciphered the Brahmi script (1837), and Colebrooke was a later Sanskrit scholar.\nAnswer: Sir William Jones."
+    },
+    {
+      "text": "Ram Mohan Roy received the title 'Raja' from which Mughal emperor, who sent him to England in 1830 to plead for an increase in the emperor's pension?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Bahadur Shah II",
+        "Shah Alam II",
+        "Aurangzeb",
+        "Akbar II"
+      ],
+      "answer": 3,
+      "explanation": "The titular Mughal emperor Akbar II (reigned 1806-1837) gave Ram Mohan Roy the title 'Raja' and made him his envoy to the British Crown.\nShah Alam II was Akbar II's father (the emperor of the 1765 Diwani grant), and Bahadur Shah II (Zafar) was the last emperor, exiled after 1857.\nAnswer: Akbar II."
+    },
+    {
+      "text": "Consider the following statements about Ishwar Chandra Vidyasagar:\n1. He served as principal of the Sanskrit College, Calcutta.\n2. He wrote the Bengali primer 'Barnaparichay'.\n3. He founded the Brahmo Samaj of India.\nWhich of the statements given above is/are correct?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "1 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "answer": 1,
+      "explanation": "Statement 1 is correct: Vidyasagar became principal of Sanskrit College in 1851 and opened it to non-Brahmin students.\nStatement 2 is correct: 'Barnaparichay' (1855) is still used to teach the Bengali alphabet.\nStatement 3 is wrong: the Brahmo Samaj of India (1866) was formed by Keshab Chandra Sen.\nAnswer: 1 and 2 only."
+    },
+    {
+      "text": "Bengal Chemical and Pharmaceutical Works, a pioneering Swadeshi enterprise in Calcutta, was founded by which scientist, who also wrote 'A History of Hindu Chemistry'?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Jagadish Chandra Bose",
+        "Meghnad Saha",
+        "Prafulla Chandra Ray",
+        "Satyendra Nath Bose"
+      ],
+      "answer": 2,
+      "explanation": "Acharya Prafulla Chandra Ray, a chemistry professor at Presidency College, started Bengal Chemical with very small capital and built it into one of India's first pharmaceutical companies.\nHe also discovered mercurous nitrite (1896) and wrote 'A History of Hindu Chemistry'.\nJ.C. Bose was a physicist and plant physiologist who founded the Bose Institute (1917).\nAnswer: Prafulla Chandra Ray."
+    },
+    {
+      "text": "The Sadharan Brahmo Samaj was formed in 1878 by members who broke away from Keshab Chandra Sen after he arranged the marriage of his under-age daughter to the ruler of which princely state?",
+      "difficulty": "HARD",
+      "options": [
+        "Cooch Behar",
+        "Tripura",
+        "Mayurbhanj",
+        "Burdwan"
+      ],
+      "answer": 0,
+      "explanation": "In 1878 Keshab married his daughter Suniti Devi, then under 14, to Maharaja Nripendra Narayan of Cooch Behar.\nThis broke the minimum marriage ages set by the Native Marriage Act of 1872, which Keshab himself had campaigned for.\nShivnath Shastri, Ananda Mohan Bose and others then left and formed the Sadharan Brahmo Samaj in 1878.\nAnswer: Cooch Behar."
+    },
+    {
+      "text": "The Indian Association for the Cultivation of Science (1876) in Calcutta, where C.V. Raman later did the work that led to the discovery of the Raman Effect (1928), was founded by:",
+      "difficulty": "HARD",
+      "options": [
+        "Jagadish Chandra Bose",
+        "Prafulla Chandra Ray",
+        "Ashutosh Mukherjee",
+        "Mahendralal Sarkar"
+      ],
+      "answer": 3,
+      "explanation": "Dr Mahendralal Sarkar, a physician, founded the Indian Association for the Cultivation of Science (IACS) in 1876 as a centre for science run by Indians.\nC.V. Raman did his research in its laboratory and announced the Raman Effect in 1928 (Nobel Prize, 1930).\nAshutosh Mukherjee was the Calcutta University Vice-Chancellor who brought Raman to the university's Palit chair.\nAnswer: Mahendralal Sarkar."
+    }
+  ]
+}

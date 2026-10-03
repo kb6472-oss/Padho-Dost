@@ -1,0 +1,198 @@
+{
+  "exam": "wb-primary-tet",
+  "subject": "practice",
+  "chapter": "tet-cdp",
+  "notes": {
+    "summary": "Child Development and Pedagogy is about how children grow, think and learn, and how a primary teacher should use that knowledge in class. WB Primary TET asks short concept questions on thinkers (Piaget, Vygotsky, Kohlberg, Erikson, Bruner), learning theories, intelligence, motivation, learning difficulties, assessment and the RTE Act, often set as classroom situations.",
+    "keyPoints": [
+      "Piaget's stages: Sensorimotor (0-2 years, object permanence), Pre-operational (2-7, egocentrism, animism, centration), Concrete operational (7-11, conservation, reversibility), Formal operational (11+, abstract and hypothetical thinking).",
+      "Piaget's processes: assimilation means fitting new information into an existing schema, accommodation means changing the schema, and equilibration is the balance between the two.",
+      "Vygotsky: learning is social. The Zone of Proximal Development (ZPD) is the gap between what a child can do alone and what they can do with help. A more knowledgeable other (MKO) gives temporary support (scaffolding), and private speech helps children guide their own thinking.",
+      "Kohlberg's levels: Pre-conventional (avoiding punishment, self-interest), Conventional (good boy-good girl, law and order), Post-conventional (social contract, universal ethical principles).",
+      "Erikson: the school-age stage (about 6-12 years) is Industry vs Inferiority. Success and recognition build competence; repeated failure and criticism lead to a sense of inferiority.",
+      "Learning theories: Pavlov (classical conditioning: CS, UCS, CR), Thorndike (trial and error; laws of readiness, exercise and effect), Skinner (operant conditioning, reinforcement), Bandura (observational learning, Bobo doll), Köhler (insight learning, chimpanzee Sultan).",
+      "Bruner: modes of representation develop as Enactive (action), then Iconic (images), then Symbolic (language). He also proposed discovery learning and the spiral curriculum.",
+      "IQ = (Mental age ÷ Chronological age) × 100. Example: MA 10, CA 8 gives IQ 125. Gardner proposed multiple intelligences.",
+      "Principles of development: development is continuous and sequential, cephalocaudal (head to toe), proximodistal (centre outwards), moves from general to specific, and results from heredity and environment acting together.",
+      "Learning difficulties: dyslexia (reading), dysgraphia (writing), dyscalculia (mathematics), dyspraxia (motor coordination). RTE Act 2009: free and compulsory education for ages 6-14; Section 17 bans physical punishment and mental harassment."
+    ],
+    "traps": [
+      "Confusing assimilation (the schema stays the same) with accommodation (the schema changes).",
+      "Calling negative reinforcement a punishment. Negative reinforcement removes something unpleasant so that a behaviour increases.",
+      "Crediting the ZPD to Piaget, or moral-development stages to Erikson instead of Kohlberg.",
+      "Mixing up cephalocaudal (head to toe) with proximodistal (centre to fingers and toes).",
+      "Choosing 'strict discipline', 'punishment' or 'labelling' options. TET answers favour child-centred, inclusive and encouraging practices."
+    ],
+    "examTip": "In classroom-situation questions, pick the option that is child-centred, inclusive and builds on the child's own experience. Reject options that involve labelling, punishing or rote memorising."
+  },
+  "questions": [
+    {
+      "text": "A baby first gains control of the head and neck, then the trunk, and only later the legs. Which principle of development does this show?",
+      "difficulty": "EASY",
+      "options": [
+        "Proximodistal principle",
+        "Cephalocaudal principle",
+        "Principle of individual differences",
+        "Principle of integration"
+      ],
+      "answer": 1,
+      "explanation": "'Cephalo' means head and 'caudal' means tail. Under the cephalocaudal principle, development moves from head to toe.\nThe proximodistal principle is about development moving from the centre of the body outwards, for example shoulder control before finger control.\nAnswer: Cephalocaudal principle"
+    },
+    {
+      "text": "The 'trial and error' theory of learning, based on experiments with a hungry cat in a puzzle box, was given by:",
+      "difficulty": "EASY",
+      "options": [
+        "I.P. Pavlov",
+        "B.F. Skinner",
+        "E.L. Thorndike",
+        "Wolfgang Köhler"
+      ],
+      "answer": 2,
+      "explanation": "E.L. Thorndike put a hungry cat in a puzzle box with food outside. The cat made many random attempts and gradually learned to open the latch faster.\nFrom this he gave the laws of readiness, exercise and effect.\nPavlov worked with dogs (classical conditioning), Skinner with rats and pigeons (operant conditioning), and Köhler with chimpanzees (insight).\nAnswer: E.L. Thorndike"
+    },
+    {
+      "text": "Rupa solves number puzzles at home every evening only because she enjoys them. Nobody rewards or praises her for it. Her behaviour shows:",
+      "difficulty": "EASY",
+      "options": [
+        "Intrinsic motivation",
+        "Extrinsic motivation",
+        "Negative reinforcement",
+        "Fear of punishment"
+      ],
+      "answer": 0,
+      "explanation": "When an activity is done for its own sake, out of interest or enjoyment, the motivation is intrinsic.\nExtrinsic motivation depends on outside rewards such as marks, prizes or praise, and there are none here.\nAnswer: Intrinsic motivation"
+    },
+    {
+      "text": "The Right of Children to Free and Compulsory Education Act, 2009 guarantees free and compulsory education to children of which age group?",
+      "difficulty": "EASY",
+      "options": [
+        "3 to 10 years",
+        "5 to 12 years",
+        "6 to 18 years",
+        "6 to 14 years"
+      ],
+      "answer": 3,
+      "explanation": "Article 21A, added by the 86th Constitutional Amendment (2002), made education a fundamental right for children aged 6 to 14.\nThe RTE Act, 2009 puts this into practice for Classes 1 to 8, and it came into force on 1 April 2010.\nAnswer: 6 to 14 years"
+    },
+    {
+      "text": "A 10-month-old baby searches under a cloth for a toy that has just been hidden there, showing she understands the toy still exists. According to Piaget, this 'object permanence' develops during which stage?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Sensorimotor stage",
+        "Pre-operational stage",
+        "Concrete operational stage",
+        "Formal operational stage"
+      ],
+      "answer": 0,
+      "explanation": "The sensorimotor stage runs from birth to about 2 years. Infants learn through their senses and actions.\nObject permanence, knowing that things exist even when they cannot be seen, develops in the second half of the first year and is the key achievement of this stage.\nAnswer: Sensorimotor stage"
+    },
+    {
+      "text": "A child who knows the word 'dog' sees a goat for the first time and calls it a 'dog'. In Piaget's theory, fitting the new animal into an existing schema like this is called:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Accommodation",
+        "Equilibration",
+        "Assimilation",
+        "Conservation"
+      ],
+      "answer": 2,
+      "explanation": "Assimilation means taking in a new experience using an existing schema without changing the schema. The child applies the 'dog' schema (four legs, furry) to the goat.\nWhen the child later learns that it is a goat and forms a new schema, that is accommodation.\nEquilibration is the balance between assimilation and accommodation.\nAnswer: Assimilation"
+    },
+    {
+      "text": "In Pavlov's experiment, a bell was rung just before food was given to a dog. After repeated pairing, the dog salivated at the sound of the bell alone. Here the bell is the:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Unconditioned stimulus",
+        "Conditioned stimulus",
+        "Unconditioned response",
+        "Conditioned response"
+      ],
+      "answer": 1,
+      "explanation": "Food naturally causes salivation, so food is the unconditioned stimulus (UCS) and salivation to food is the unconditioned response (UCR).\nThe bell was neutral at first. After being paired with food, it produces salivation by itself, so it has become the conditioned stimulus (CS).\nSalivating to the bell is the conditioned response (CR).\nAnswer: Conditioned stimulus"
+    },
+    {
+      "text": "A child's chronological age is 8 years and mental age is 10 years. What is the child's IQ?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "80",
+        "120",
+        "100",
+        "125"
+      ],
+      "answer": 3,
+      "explanation": "IQ = (Mental age ÷ Chronological age) × 100.\nIQ = (10 ÷ 8) × 100 = 1.25 × 100 = 125.\n80 is the trap answer you get by dividing CA by MA.\nAnswer: 125"
+    },
+    {
+      "text": "After watching his teacher greet every visitor politely with folded hands, a child begins doing the same. Which theory best explains this learning?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Classical conditioning theory of Pavlov",
+        "Social (observational) learning theory of Bandura",
+        "Insight learning theory of Köhler",
+        "Trial and error theory of Thorndike"
+      ],
+      "answer": 1,
+      "explanation": "Albert Bandura showed, most famously in his Bobo doll experiment, that children learn by watching and imitating models.\nObservational learning involves four steps: attention, retention, reproduction and motivation.\nThe teacher is the model and the child copies her behaviour.\nAnswer: Social (observational) learning theory of Bandura"
+    },
+    {
+      "text": "Learning through a sudden understanding of the whole situation, as when the chimpanzee Sultan joined two sticks to reach a banana, is called:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Insight learning",
+        "Operant conditioning",
+        "Rote learning",
+        "Trial and error learning"
+      ],
+      "answer": 0,
+      "explanation": "Wolfgang Köhler, a Gestalt psychologist, studied chimpanzees on Tenerife.\nSultan did not succeed by random attempts. After a pause, he suddenly saw how the sticks related to the goal (the 'aha' moment). This is insight learning.\nAnswer: Insight learning"
+    },
+    {
+      "text": "A Class 3 child reads and writes well but has persistent difficulty understanding numbers, place value and simple calculations, despite normal intelligence. The child most likely has:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Dysgraphia",
+        "Dyslexia",
+        "Dyspraxia",
+        "Dyscalculia"
+      ],
+      "answer": 3,
+      "explanation": "Dyscalculia is a specific learning difficulty with numbers and mathematics.\nDyslexia affects reading, dysgraphia affects writing and dyspraxia affects motor coordination. This child reads and writes well, so those do not fit.\nAnswer: Dyscalculia"
+    },
+    {
+      "text": "A student says, 'I will help my classmate, because then my teacher and friends will think I am a good boy.' According to Kohlberg, this reasoning belongs to which level of moral development?",
+      "difficulty": "HARD",
+      "options": [
+        "Pre-conventional level",
+        "Post-conventional level",
+        "Conventional level",
+        "Autonomous morality"
+      ],
+      "answer": 2,
+      "explanation": "Kohlberg's Stage 3, the 'good boy-good girl' orientation, means doing right to win approval from others. It falls in the conventional level, which covers Stages 3 and 4.\nThe pre-conventional level is about avoiding punishment or getting personal benefit. The post-conventional level is about social contracts and universal principles.\n'Autonomous morality' is a stage in Piaget's theory of moral development, not one of Kohlberg's levels.\nAnswer: Conventional level"
+    },
+    {
+      "text": "According to Erik Erikson, children of primary-school age (about 6 to 12 years) face which psychosocial crisis?",
+      "difficulty": "HARD",
+      "options": [
+        "Trust vs Mistrust",
+        "Industry vs Inferiority",
+        "Initiative vs Guilt",
+        "Identity vs Role confusion"
+      ],
+      "answer": 1,
+      "explanation": "Erikson's sequence is: Trust vs Mistrust (infancy), Autonomy vs Shame and Doubt (toddler), Initiative vs Guilt (about 3-6 years), Industry vs Inferiority (about 6-12 years), Identity vs Role confusion (adolescence).\nPrimary-school children develop a sense of competence when their efforts succeed and are recognised. Repeated failure or ridicule leads to feelings of inferiority.\nAnswer: Industry vs Inferiority"
+    },
+    {
+      "text": "According to Jerome Bruner, children represent knowledge in three modes. What is the correct developmental order of these modes?",
+      "difficulty": "HARD",
+      "options": [
+        "Iconic → Enactive → Symbolic",
+        "Symbolic → Iconic → Enactive",
+        "Enactive → Iconic → Symbolic",
+        "Enactive → Symbolic → Iconic"
+      ],
+      "answer": 2,
+      "explanation": "The enactive mode comes first: knowing through action, such as handling objects.\nThe iconic mode follows: knowing through pictures and mental images.\nThe symbolic mode comes last: knowing through words, numbers and other symbols.\nIn class, this means moving from counting sticks to a picture of sticks to the numeral 5.\nAnswer: Enactive → Iconic → Symbolic"
+    }
+  ]
+}

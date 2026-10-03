@@ -1,0 +1,107 @@
+{
+  "exam": "wbcs",
+  "subject": "polity-economy",
+  "chapter": "indian-polity",
+  "notes": {
+    "summary": "Indian Polity in WBCS Prelims covers how the Constitution is built: the Preamble, Fundamental Rights, Directive Principles, the Union and State executive, Parliament, the judiciary, emergency provisions, amendments and local government. Most questions are one-line recall of Article numbers, amendments, schedules, ages and who presides over or appoints whom. A few test landmark cases or West Bengal-specific facts.",
+    "keyPoints": [
+      "Constituent Assembly: first met on 9 December 1946 with Sachchidananda Sinha as temporary President. Dr. Rajendra Prasad was elected permanent President on 11 December 1946, and Dr. B.R. Ambedkar chaired the Drafting Committee. The Constitution was adopted on 26 November 1949 and came into force on 26 January 1950.",
+      "Fundamental Rights (Part III, Articles 12-35): 14 equality before law, 15 no discrimination, 17 untouchability abolished, 19 six freedoms, 21 life and personal liberty, 21A free education for children aged 6-14 (86th Amendment, 2002), 32 constitutional remedies. The 44th Amendment (1978) turned the right to property into a legal right under Article 300A.",
+      "The five writs: Habeas Corpus (produce the detained person), Mandamus (perform a public duty), Prohibition (stop a lower court in a case still pending), Certiorari (quash an order already passed or transfer a case), Quo Warranto (show by what authority a public office is held). The Supreme Court issues them under Article 32 and High Courts under Article 226.",
+      "Elections: the President (Article 54) is elected by the elected MPs and the elected MLAs of the States, Delhi and Puducherry. The Vice-President (Article 66) is elected by all MPs of both Houses, nominated members included, and MLAs have no vote.",
+      "Parliament: the Rajya Sabha has a maximum of 250 members, 238 elected and 12 nominated by the President under Article 80 for literature, science, art and social service. A joint sitting (Article 108) is presided over by the Lok Sabha Speaker. Money Bills and Constitution Amendment Bills never go to a joint sitting.",
+      "Emergencies: Article 352 covers national emergency, Article 356 President's Rule in a State, and Article 360 financial emergency.",
+      "Schedules: 7th (Union, State and Concurrent Lists), 8th (22 languages), 9th (laws protected from challenge, 1st Amendment, 1951), 10th (anti-defection, 52nd Amendment, 1985), 11th (Panchayats, 29 subjects, 73rd Amendment), 12th (Municipalities, 18 subjects, 74th Amendment).",
+      "Constitutional bodies: Election Commission (Article 324), UPSC (Article 315), Finance Commission (Article 280), CAG (Article 148), Attorney General (Article 76). Statutory bodies: NHRC (Protection of Human Rights Act, 1993), CVC (2003 Act), Lokpal (2013 Act). NITI Aayog was set up by an executive resolution in 2015.",
+      "Landmark cases: Golaknath (1967) held that Fundamental Rights could not be amended. Kesavananda Bharati (1973) laid down the basic structure doctrine. Maneka Gandhi (1978) widened Article 21. Minerva Mills (1980) held that the balance between Fundamental Rights and Directive Principles is part of the basic structure.",
+      "West Bengal: the State has had a single-House legislature since its Legislative Council was abolished in 1969 under the Article 169 procedure. Its three-tier Panchayati Raj runs from Gram Panchayat (village) to Panchayat Samiti (block) to Zilla Parishad (district)."
+    ],
+    "traps": [
+      "Mixing up Article 54 and Article 66: nominated MPs vote for the Vice-President but not for the President, and MLAs vote only for the President.",
+      "Confusing Prohibition with Certiorari: Prohibition stops a case that is still pending, while Certiorari can also quash an order already passed.",
+      "Mixing up amendments: the 42nd (1976) added Socialist, Secular, Integrity and the Fundamental Duties. The 44th (1978) removed the right to property. The 52nd (1985) brought in anti-defection, and the 61st (1988) cut the voting age to 18.",
+      "Thinking the Vice-President presides over a joint sitting. The Lok Sabha Speaker does.",
+      "Assuming every commission is constitutional. NHRC, CVC and Lokpal are statutory, and NITI Aayog is neither."
+    ],
+    "examTip": "For Article-number questions, start from the Articles you know for certain (14, 17, 21, 32, 54, 66, 110, 280, 324, 352, 356, 360, 368) and strike out options that fall in the wrong Part before you guess."
+  },
+  "questions": [
+    {
+      "text": "Who was elected the permanent President of the Constituent Assembly of India in December 1946?",
+      "difficulty": "EASY",
+      "options": ["Dr. B.R. Ambedkar", "Dr. Sachchidananda Sinha", "Dr. Rajendra Prasad", "Jawaharlal Nehru"],
+      "answer": 2,
+      "explanation": "Dr. Sachchidananda Sinha presided over the first sitting on 9 December 1946 as temporary President.\nDr. Rajendra Prasad was elected permanent President on 11 December 1946.\nDr. B.R. Ambedkar chaired the Drafting Committee, and Nehru moved the Objectives Resolution.\nAnswer: Dr. Rajendra Prasad."
+    },
+    {
+      "text": "Which amendment removed the Right to Property from the list of Fundamental Rights and made it a legal right under Article 300A?",
+      "difficulty": "EASY",
+      "options": ["42nd Amendment Act, 1976", "44th Amendment Act, 1978", "52nd Amendment Act, 1985", "61st Amendment Act, 1988"],
+      "answer": 1,
+      "explanation": "The 44th Amendment deleted Article 19(1)(f) and Article 31 from Part III and added Article 300A in Part XII.\nThe other options: the 42nd added Socialist, Secular and Integrity, the 52nd added the anti-defection law, and the 61st lowered the voting age from 21 to 18.\nAnswer: 44th Amendment Act, 1978."
+    },
+    {
+      "text": "Which Article of the Indian Constitution abolishes 'untouchability' and forbids its practice in any form?",
+      "difficulty": "EASY",
+      "options": ["Article 17", "Article 14", "Article 15", "Article 21"],
+      "answer": 0,
+      "explanation": "Article 14 gives equality before law.\nArticle 15 bars discrimination on grounds of religion, race, caste, sex or place of birth.\nArticle 17 abolishes untouchability and makes enforcing any disability arising from it a punishable offence.\nArticle 21 protects life and personal liberty.\nAnswer: Article 17."
+    },
+    {
+      "text": "A joint sitting of both Houses of Parliament, called to resolve a deadlock over an ordinary bill, is presided over by:",
+      "difficulty": "MEDIUM",
+      "options": ["The President of India", "The Vice-President of India", "The Prime Minister", "The Speaker of the Lok Sabha"],
+      "answer": 3,
+      "explanation": "Under Article 108 the President summons the joint sitting but does not preside over it.\nThe Speaker of the Lok Sabha presides. If the Speaker is absent, the Deputy Speaker presides, and after that the Deputy Chairman of the Rajya Sabha.\nThe Vice-President, who is Chairman of the Rajya Sabha, does not preside.\nAnswer: The Speaker of the Lok Sabha."
+    },
+    {
+      "text": "The provisions for disqualifying legislators on grounds of defection (the 'anti-defection law') are contained in which Schedule of the Constitution?",
+      "difficulty": "MEDIUM",
+      "options": ["Eighth Schedule", "Ninth Schedule", "Tenth Schedule", "Twelfth Schedule"],
+      "answer": 2,
+      "explanation": "The 52nd Amendment Act, 1985 added the Tenth Schedule to deal with defection.\nThe other Schedules: the Eighth lists languages, the Ninth lists laws protected from judicial challenge (added in 1951), and the Twelfth lists municipal subjects (74th Amendment).\nAnswer: Tenth Schedule."
+    },
+    {
+      "text": "Which of the following is a statutory body and NOT a constitutional body?",
+      "difficulty": "MEDIUM",
+      "options": ["Election Commission of India", "National Human Rights Commission", "Finance Commission", "Union Public Service Commission"],
+      "answer": 1,
+      "explanation": "The Election Commission (Article 324), Finance Commission (Article 280) and UPSC (Article 315) are created by the Constitution itself.\nThe NHRC was set up under an ordinary law, the Protection of Human Rights Act, 1993, so it is statutory.\nAnswer: National Human Rights Commission."
+    },
+    {
+      "text": "Which writ is issued by the Supreme Court or a High Court to a lower court or tribunal to quash an order it has already passed in excess of its jurisdiction?",
+      "difficulty": "MEDIUM",
+      "options": ["Mandamus", "Prohibition", "Quo Warranto", "Certiorari"],
+      "answer": 3,
+      "explanation": "Mandamus orders a public authority to perform its duty.\nProhibition is preventive. It stops a lower court from going on with a case that is still pending.\nQuo Warranto asks a person by what authority they hold a public office.\nCertiorari is curative. It quashes an order already passed, or transfers a case.\nAnswer: Certiorari."
+    },
+    {
+      "text": "The Vice-President of India is elected by an electoral college consisting of:",
+      "difficulty": "MEDIUM",
+      "options": ["Members of the Rajya Sabha only", "Elected members of both Houses of Parliament and of the State Legislative Assemblies", "Elected members of the Lok Sabha only", "Members (elected and nominated) of both Houses of Parliament"],
+      "answer": 3,
+      "explanation": "Article 66 says the Vice-President is elected by the members of both Houses of Parliament, and nominated members also vote.\nState MLAs do not take part.\nThe second option describes the President's election (Article 54), where elected MPs and elected MLAs vote.\nAnswer: Members (elected and nominated) of both Houses of Parliament."
+    },
+    {
+      "text": "Under Article 80, how many members can the President nominate to the Rajya Sabha for their special knowledge of literature, science, art and social service?",
+      "difficulty": "MEDIUM",
+      "options": ["12", "2", "14", "10"],
+      "answer": 0,
+      "explanation": "Article 80 fixes the Rajya Sabha at a maximum of 250 members: 238 representatives of States and Union Territories and 12 nominated by the President.\nThe President nominates them for special knowledge of literature, science, art and social service.\nThe figure 2 comes from the old Anglo-Indian nominations to the Lok Sabha, which have since ended.\nAnswer: 12."
+    },
+    {
+      "text": "The 'basic structure' doctrine, which limits Parliament's power to amend the Constitution under Article 368, was laid down by the Supreme Court in:",
+      "difficulty": "HARD",
+      "options": ["Golaknath v. State of Punjab (1967)", "Kesavananda Bharati v. State of Kerala (1973)", "Minerva Mills v. Union of India (1980)", "Maneka Gandhi v. Union of India (1978)"],
+      "answer": 1,
+      "explanation": "Golaknath (1967) held that Parliament could not amend Fundamental Rights. The 24th Amendment later reversed this.\nKesavananda Bharati (1973), decided by a 13-judge bench by 7:6, held that Parliament can amend any part of the Constitution but cannot destroy its basic structure.\nMinerva Mills (1980) reaffirmed the doctrine, and Maneka Gandhi (1978) widened Article 21.\nAnswer: Kesavananda Bharati v. State of Kerala (1973)."
+    },
+    {
+      "text": "West Bengal had a Legislative Council until it was abolished in 1969. Under which Article of the Constitution can Parliament abolish or create a Legislative Council in a State?",
+      "difficulty": "HARD",
+      "options": ["Article 168", "Article 171", "Article 169", "Article 172"],
+      "answer": 2,
+      "explanation": "Article 169 lets Parliament abolish or create a State Legislative Council by law.\nFirst, the State Legislative Assembly must pass a resolution backed by a majority of its total membership and at least two-thirds of the members present and voting.\nSuch a law is not treated as an amendment under Article 368.\nArticle 168 says which States have legislatures, Article 171 sets the Council's composition, and Article 172 sets the duration of legislatures.\nAnswer: Article 169."
+    }
+  ]
+}

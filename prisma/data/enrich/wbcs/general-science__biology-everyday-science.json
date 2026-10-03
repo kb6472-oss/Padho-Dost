@@ -1,0 +1,106 @@
+{
+  "exam": "wbcs",
+  "subject": "general-science",
+  "chapter": "biology-everyday-science",
+  "notes": {
+    "summary": "Biology & Everyday Science covers the human body and its systems, nutrition and vitamins, diseases and their causes, plant physiology, genetics, ecology, and science in daily life such as food preservation and health hazards. WBCS Prelims mostly asks direct factual questions on organ functions, deficiency diseases, disease-causing agents and vectors. A few concept questions cover heredity and food chains.",
+    "keyPoints": [
+      "Vitamins and deficiency diseases: A - night blindness, B1 - beriberi, B3 (niacin) - pellagra, B12 - pernicious anaemia, C - scurvy, D - rickets in children and osteomalacia in adults, K - delayed blood clotting. A, D, E and K dissolve in fat; B and C dissolve in water.",
+      "Minerals: iron is part of haemoglobin, and its deficiency causes anaemia. Iodine is needed for thyroxine, and its deficiency causes goitre. Calcium builds bones and teeth. Magnesium sits at the centre of the chlorophyll molecule.",
+      "Disease agents: viruses cause polio, measles, rabies, dengue and AIDS. Bacteria cause TB, cholera, typhoid, tetanus and diphtheria. Protozoa cause malaria (Plasmodium) and kala-azar (Leishmania). Vectors: Anopheles mosquito (malaria), Aedes mosquito (dengue, chikungunya), sandfly (kala-azar).",
+      "Organs: the liver is the largest gland and makes bile. The pancreas makes digestive enzymes and insulin. Nephrons filter blood in the kidney, alveoli exchange gases in the lungs, and villi absorb food in the small intestine. The cerebellum controls balance, and the medulla controls involuntary actions such as breathing.",
+      "Blood: red blood cells carry oxygen using haemoglobin, white blood cells fight infection, and platelets help clotting. O negative is the universal donor and AB positive the universal recipient. A normal adult heart beats about 72 times a minute, and normal blood pressure is about 120/80 mm Hg.",
+      "Plant hormones: auxin makes shoots grow towards light, gibberellin lengthens stems, cytokinin drives cell division, ethylene (a gas) ripens fruit, and abscisic acid closes stomata and causes dormancy.",
+      "Genetics: humans have 46 chromosomes (23 pairs). Females are XX and males XY, so the father's sperm decides the child's sex. In a monohybrid F2 the phenotypic ratio is 3:1 and the genotypic ratio 1:2:1. In a dihybrid F2 the ratio is 9:3:3:1.",
+      "Ecology: energy flows from producers to herbivores to carnivores, and only about 10% passes to each next level (10,000 J → 1,000 → 100 → 10).",
+      "Everyday science: pasteurisation heats milk to 63 °C for 30 minutes or to 72 °C for 15 seconds, then cools it quickly. Carbon monoxide from incomplete burning binds to haemoglobin more than 200 times more strongly than oxygen does."
+    ],
+    "traps": [
+      "Mixing up the metal in haemoglobin (iron) with the metal in chlorophyll (magnesium).",
+      "Thinking the mother decides the child's sex. The egg always carries an X, and the sperm carries either an X or a Y.",
+      "Calling TB, cholera or typhoid viral diseases. They are bacterial, and antibiotics act on bacteria, not viruses.",
+      "Giving the genotypic ratio 1:2:1 when the question asks for the phenotypic ratio 3:1.",
+      "Confusing the thyroid (largest endocrine gland) with the liver (largest gland overall)."
+    ],
+    "examTip": "In disease and vitamin questions, first sort each option by type (virus, bacterium or protozoan; fat-soluble or water-soluble vitamin). One mismatch often knocks out two or three options at once."
+  },
+  "questions": [
+    {
+      "text": "Deficiency of which vitamin delays the clotting of blood and leads to excessive bleeding from wounds?",
+      "difficulty": "EASY",
+      "options": ["Vitamin A", "Vitamin D", "Vitamin K", "Vitamin B12"],
+      "answer": 2,
+      "explanation": "The liver needs vitamin K to make prothrombin and other clotting factors. Without enough of it, blood clots slowly.\nThe other deficiencies: vitamin A causes night blindness, vitamin D rickets, and vitamin B12 pernicious anaemia.\nAnswer: Vitamin K."
+    },
+    {
+      "text": "Which is the largest gland in the human body?",
+      "difficulty": "EASY",
+      "options": ["Liver", "Pancreas", "Thyroid", "Pituitary"],
+      "answer": 0,
+      "explanation": "The liver weighs about 1.2-1.5 kg in an adult. It makes bile, which breaks fats into small droplets, and it stores glycogen.\nThe thyroid is the largest endocrine (ductless) gland, not the largest gland overall.\nThe pituitary is called the master gland.\nAnswer: Liver."
+    },
+    {
+      "text": "Which of the following diseases is caused by a virus?",
+      "difficulty": "EASY",
+      "options": ["Cholera", "Typhoid", "Tuberculosis", "Polio"],
+      "answer": 3,
+      "explanation": "Cholera (Vibrio cholerae), typhoid (Salmonella typhi) and tuberculosis (Mycobacterium tuberculosis) are all caused by bacteria.\nPolio is caused by the poliovirus and is prevented by polio vaccine.\nAnswer: Polio."
+    },
+    {
+      "text": "What is the structural and functional unit of the human kidney that filters blood and forms urine?",
+      "difficulty": "MEDIUM",
+      "options": ["Neuron", "Nephron", "Alveolus", "Villus"],
+      "answer": 1,
+      "explanation": "Each kidney has about a million nephrons. In each nephron, the glomerulus filters the blood and the tubule reabsorbs useful substances, leaving urine.\nThe other options belong to other systems: the neuron is the nerve cell, the alveolus is the gas-exchange sac of the lung, and the villus absorbs food in the small intestine.\nAnswer: Nephron."
+    },
+    {
+      "text": "In human beings, the sex of a child is determined by:",
+      "difficulty": "MEDIUM",
+      "options": ["The mother's egg, which may carry an X or a Y chromosome", "Both parents equally, each giving a Y chromosome", "The father's sperm, which may carry an X or a Y chromosome", "The temperature at which the embryo develops"],
+      "answer": 2,
+      "explanation": "A woman is XX, so every egg carries an X chromosome.\nA man is XY, so half his sperm carry X and half carry Y.\nAn X sperm fertilising the egg gives XX, a girl. A Y sperm gives XY, a boy.\nTemperature decides sex in some reptiles, not in humans.\nAnswer: The father's sperm, which may carry an X or a Y chromosome."
+    },
+    {
+      "text": "Which plant hormone, a gas, promotes the ripening of fruits and is used commercially to ripen bananas and mangoes?",
+      "difficulty": "MEDIUM",
+      "options": ["Auxin", "Ethylene", "Gibberellin", "Cytokinin"],
+      "answer": 1,
+      "explanation": "Ethylene (C2H4) is the only plant hormone that is a gas, and it triggers fruit ripening.\nThe others do different jobs: auxin makes shoots bend towards light, gibberellin lengthens stems and helps seeds germinate, and cytokinin promotes cell division.\nAnswer: Ethylene."
+    },
+    {
+      "text": "Haemoglobin, the pigment in red blood cells that carries oxygen, contains which metal?",
+      "difficulty": "MEDIUM",
+      "options": ["Magnesium", "Copper", "Zinc", "Iron"],
+      "answer": 3,
+      "explanation": "Each haem group in haemoglobin has an iron atom at its centre, and this iron binds oxygen.\nToo little iron in the diet causes anaemia.\nMagnesium is the central metal of chlorophyll, which is the usual trap.\nAnswer: Iron."
+    },
+    {
+      "text": "Burning coal or wood in a closed room can be fatal mainly because it produces a gas that binds to haemoglobin far more strongly than oxygen does. This gas is:",
+      "difficulty": "MEDIUM",
+      "options": ["Carbon monoxide", "Carbon dioxide", "Sulphur dioxide", "Nitrogen"],
+      "answer": 0,
+      "explanation": "Fuel that burns with too little air gives off carbon monoxide (CO), a gas with no colour or smell.\nCO binds to haemoglobin more than 200 times more strongly than oxygen, forming carboxyhaemoglobin.\nThe blood can then carry very little oxygen, which can lead to unconsciousness and death.\nAnswer: Carbon monoxide."
+    },
+    {
+      "text": "Pasteurisation of milk, done to kill disease-causing microbes without boiling it, usually involves:",
+      "difficulty": "MEDIUM",
+      "options": ["Boiling the milk at 100 °C for one hour", "Freezing the milk below 0 °C for a day", "Adding preservatives such as sodium benzoate", "Heating to about 72 °C for about 15 seconds and then cooling it quickly"],
+      "answer": 3,
+      "explanation": "In the high-temperature short-time method, milk is heated to about 72 °C for 15 seconds. In the older method, it is held at 63 °C for 30 minutes.\nIn both methods the milk is then chilled quickly.\nThis kills most disease-causing bacteria while keeping the taste and nutrients. The process is named after Louis Pasteur.\nAnswer: Heating to about 72 °C for about 15 seconds and then cooling it quickly."
+    },
+    {
+      "text": "Mendel crossed a pure tall pea plant (TT) with a pure dwarf pea plant (tt), and all F1 plants were tall. When the F1 plants were self-pollinated, what was the phenotypic ratio of tall to dwarf plants in the F2 generation?",
+      "difficulty": "HARD",
+      "options": ["1 : 2 : 1", "3 : 1", "9 : 3 : 3 : 1", "1 : 1"],
+      "answer": 1,
+      "explanation": "Step 1: All F1 plants are Tt, so they are tall because T is dominant.\nStep 2: Tt × Tt gives TT : Tt : tt = 1 : 2 : 1. That is the genotypic ratio.\nStep 3: TT and Tt plants are both tall, which gives 3 tall to 1 dwarf.\nThe other ratios: 9:3:3:1 is the dihybrid F2, and 1:1 comes from a test cross (Tt × tt).\nAnswer: 3 : 1."
+    },
+    {
+      "text": "In the food chain Grass → Grasshopper → Frog → Snake, the grass captures 10,000 J of energy. By the 10 per cent law of energy transfer, how much energy is available to the snake?",
+      "difficulty": "HARD",
+      "options": ["1,000 J", "100 J", "10 J", "1 J"],
+      "answer": 2,
+      "explanation": "Only about 10% of the energy at one trophic level passes to the next.\nGrass 10,000 J → grasshopper 1,000 J → frog 100 J → snake 10 J.\nStopping one level early gives 100 J, which is the most common mistake.\nAnswer: 10 J."
+    }
+  ]
+}

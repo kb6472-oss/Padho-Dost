@@ -1,0 +1,107 @@
+{
+  "exam": "banking",
+  "subject": "quantitative-aptitude",
+  "chapter": "simplification-approximation",
+  "notes": {
+    "summary": "This chapter covers BODMAS, percentages, fractions and mixed numbers, decimals, squares, cubes and roots, powers of the same base, and approximation. IBPS and SBI Prelims usually set 5 to 10 'What will come in place of ?' questions in the quant section, so speed with number facts and smart rounding decides your score.",
+    "keyPoints": [
+      "BODMAS order: Brackets (innermost first: ( ), then { }, then [ ]), Of, Division, Multiplication, Addition, Subtraction. Division and multiplication are done left to right: 48 ÷ 4 × 2 = 12 × 2 = 24, not 48 ÷ 8 = 6.",
+      "Percentage-fraction pairs save time: 12.5% = 1/8, 16.66% = 1/6, 37.5% = 3/8, 62.5% = 5/8, 87.5% = 7/8, 11.11% = 1/9, 14.28% = 1/7. Example: 37.5% of 640 = 3/8 × 640 = 240.",
+      "Learn squares up to 30 and cubes up to 20: 23² = 529, 27² = 729, 13³ = 2197, 14³ = 2744, 15³ = 3375, 17³ = 4913.",
+      "Fast squaring: (a + b)² = a² + 2ab + b², so 52² = 2500 + 200 + 4 = 2704. For a number ending in 5, multiply the tens digit by the next number and append 25: 85² = 8 × 9 = 72, so 7225.",
+      "a² − b² = (a + b)(a − b): 47² − 43² = 90 × 4 = 360. Also a² + b² = (a + b)² − 2ab: 37² + 63² = 10000 − 2 × 2331 = 5338.",
+      "Powers of the same base: a^m × a^n = a^(m+n), a^m ÷ a^n = a^(m−n), (a^m)^n = a^(mn). Convert to one base first: 8³ × 4² = 2^9 × 2^4 = 2^13.",
+      "Missing-number questions: move every known term to the other side with the inverse operation. ? ÷ 16 × 9 = 360 gives ? = 360 × 16 ÷ 9 = 640.",
+      "Mixed fractions: add the whole parts and the fraction parts separately. 3 1/4 + 2 2/3 − 1 5/6 = 4 + (3/12 + 8/12 − 10/12) = 4 1/12.",
+      "Approximation: round each number to the nearest easy value (24.98% to 25%, 1599.9 to 1600, √624.87 to 25), solve, then pick the nearest option. If options are within about 5% of each other, round more carefully.",
+      "Unit-digit check eliminates options fast: 37 × 63 must end in 1, and 37² + 63² must end in 9 + 9 = 8."
+    ],
+    "traps": [
+      "Doing a multiplication before an earlier division (or addition before subtraction) instead of working left to right.",
+      "Opening brackets in the wrong order, or forgetting to change signs when removing a bracket that has a minus sign in front of it.",
+      "Treating √(a + b) as √a + √b: √(9 + 16) = 5, not 7.",
+      "Mixing up square roots and cube roots: √729 = 27 but ∛729 = 9.",
+      "Rounding every number upward in approximation, which piles up error and leads to the wrong close option."
+    ],
+    "examTip": "Do simplification first in Prelims, aim for 30 to 40 seconds a question, and use fraction equivalents, unit digits and option elimination instead of full long calculation."
+  },
+  "questions": [
+    {
+      "text": "What will come in place of the question mark (?)\n∛2744 + ∛1331 = ?",
+      "difficulty": "EASY",
+      "options": ["23", "25", "27", "24"],
+      "answer": 1,
+      "explanation": "14³ = 14 × 14 × 14 = 196 × 14 = 2744, so ∛2744 = 14.\n11³ = 1331, so ∛1331 = 11.\n14 + 11 = 25."
+    },
+    {
+      "text": "What will come in place of the question mark (?)\n4.8 × 2.5 + 3.6 ÷ 0.4 = ?",
+      "difficulty": "EASY",
+      "options": ["39", "18", "21", "12.9"],
+      "answer": 2,
+      "explanation": "By BODMAS, do the multiplication and division before the addition.\n4.8 × 2.5 = 12.\n3.6 ÷ 0.4 = 36 ÷ 4 = 9.\n12 + 9 = 21. (Adding first and then dividing gives the wrong value 39.)"
+    },
+    {
+      "text": "What will come in place of the question mark (?)\n1.25 + 0.075 + 12.5 − 3.025 = ?",
+      "difficulty": "EASY",
+      "options": ["10.8", "11.8", "10.08", "9.8"],
+      "answer": 0,
+      "explanation": "Line up the decimal points: 1.250 + 0.075 + 12.500 = 13.825.\n13.825 − 3.025 = 10.800.\nThe value is 10.8."
+    },
+    {
+      "text": "What will come in place of the question mark (?)\n? ÷ 16 × 9 = 25% of 1440",
+      "difficulty": "MEDIUM",
+      "options": ["202.5", "576", "720", "640"],
+      "answer": 3,
+      "explanation": "25% of 1440 = 1440 ÷ 4 = 360.\nSo ? × 9/16 = 360.\n? = 360 × 16 ÷ 9 = 40 × 16 = 640.\nCheck: 640 ÷ 16 = 40, and 40 × 9 = 360."
+    },
+    {
+      "text": "What will come in place of the question mark (?)\n48 ÷ [12 − {18 ÷ (3 × 2)} + 1] = ?",
+      "difficulty": "MEDIUM",
+      "options": ["6", "4.8", "48", "3.2"],
+      "answer": 1,
+      "explanation": "Innermost bracket first: 3 × 2 = 6.\nCurly bracket: 18 ÷ 6 = 3.\nSquare bracket, left to right: 12 − 3 + 1 = 10.\n48 ÷ 10 = 4.8."
+    },
+    {
+      "text": "What will come in place of the question mark (?)\n2^? = 8³ × 4² ÷ 16",
+      "difficulty": "MEDIUM",
+      "options": ["13", "5", "9", "11"],
+      "answer": 2,
+      "explanation": "Write everything as a power of 2: 8³ = (2³)³ = 2^9, 4² = (2²)² = 2^4 and 16 = 2^4.\n2^9 × 2^4 ÷ 2^4 = 2^(9 + 4 − 4) = 2^9.\nSo ? = 9. (Check: 512 × 16 ÷ 16 = 512 = 2^9.)"
+    },
+    {
+      "text": "What approximate value will come in place of the question mark (?)\n1199.87 ÷ 24.03 × 7.98 − 149.9 ≈ ?",
+      "difficulty": "MEDIUM",
+      "options": ["250", "300", "200", "350"],
+      "answer": 0,
+      "explanation": "Round: 1199.87 ≈ 1200, 24.03 ≈ 24, 7.98 ≈ 8, 149.9 ≈ 150.\nLeft to right: 1200 ÷ 24 = 50, then 50 × 8 = 400.\n400 − 150 = 250.\nThe exact value is about 248.6, closest to 250."
+    },
+    {
+      "text": "What will come in place of the question mark (?)\n3 1/4 + 2 2/3 − 1 5/6 = ?",
+      "difficulty": "MEDIUM",
+      "options": ["4 5/12", "3 11/12", "4 1/6", "4 1/12"],
+      "answer": 3,
+      "explanation": "Whole parts: 3 + 2 − 1 = 4.\nFraction parts with LCM 12: 1/4 + 2/3 − 5/6 = 3/12 + 8/12 − 10/12 = 1/12.\nTotal = 4 + 1/12 = 4 1/12."
+    },
+    {
+      "text": "What will come in place of the question mark (?)\n?% of 850 + 25% of 1240 = 548",
+      "difficulty": "MEDIUM",
+      "options": ["32", "28", "26", "24"],
+      "answer": 1,
+      "explanation": "25% of 1240 = 310.\nSo ?% of 850 = 548 − 310 = 238.\n? = 238 × 100 ÷ 850 = 23800 ÷ 850 = 28.\nCheck: 28% of 850 = 238."
+    },
+    {
+      "text": "What will come in place of the question mark (?)\n(√? + 13)² = 4 × 15²",
+      "difficulty": "HARD",
+      "options": ["17", "324", "289", "256"],
+      "answer": 2,
+      "explanation": "Right side: 4 × 225 = 900.\nSo √? + 13 = √900 = 30 (taking the positive root).\n√? = 30 − 13 = 17.\n? = 17² = 289. (17 is only √?, not the answer.)"
+    },
+    {
+      "text": "What approximate value will come in place of the question mark (?)\n44.89% of 619.95 + √1023.9 × 6.98 − ∛3374.8 ≈ ?",
+      "difficulty": "HARD",
+      "options": ["488", "518", "458", "503"],
+      "answer": 0,
+      "explanation": "Round: 44.89% of 619.95 ≈ 45% of 620 = 279.\n√1023.9 ≈ √1024 = 32, and 32 × 6.98 ≈ 32 × 7 = 224.\n∛3374.8 ≈ ∛3375 = 15.\n279 + 224 − 15 = 488. (Forgetting to subtract the cube root gives 503.)"
+    }
+  ]
+}

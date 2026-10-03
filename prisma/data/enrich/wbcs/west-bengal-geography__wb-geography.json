@@ -1,0 +1,160 @@
+{
+  "exam": "wbcs",
+  "subject": "west-bengal-geography",
+  "chapter": "wb-geography",
+  "notes": {
+    "summary": "This chapter covers the physical and economic geography of West Bengal: location and borders, the landforms from the Darjeeling Himalaya to the Sundarbans delta, rivers and river projects, climate, soils, agriculture, forests and parks. WBCS Prelims mostly asks place-based facts: which river, which district, which hill or park, and why a project was built.",
+    "keyPoints": [
+      "Location: the only Indian state stretching from the Himalaya to the sea. It borders three countries (Bangladesh, Nepal, Bhutan) and five states (Sikkim, Assam, Bihar, Jharkhand, Odisha). The Tropic of Cancer crosses Purulia, Bankura, the Bardhaman area and Nadia.",
+      "Landforms: Darjeeling Himalaya (Singalila Range, Sandakphu 3,636 m); Terai and Dooars; north Bengal plains with the Barind tract (Malda-Dinajpur); the western Rarh and plateau fringe (Ajodhya Hills in Purulia, Susunia in Bankura); the Ganga delta; the coastal plain and Sundarbans.",
+      "Rivers: the Ganga splits near Farakka-Dhulian into the Padma (to Bangladesh) and the Bhagirathi-Hooghly. North Bengal: Teesta, Torsa, Jaldhaka, Mahananda. South-west: Damodar; Dwarakeswar + Silabati = Rupnarayan; Kangsabati + Keleghai = Haldi; Subarnarekha.",
+      "Projects: DVC on the Damodar (Durgapur Barrage); Farakka Barrage (1975) to flush silt from the Hooghly; Mukutmanipur dam on the Kangsabati-Kumari (Bankura); Teesta Barrage at Gajoldoba.",
+      "Ports: Syama Prasad Mookerjee Port, Kolkata (a river port), with the Haldia Dock Complex at the Haldi-Hooghly confluence.",
+      "Climate: tropical monsoon; Kalbaisakhi (nor'westers) in April-May; heaviest rain in the sub-Himalayan Dooars.",
+      "Agriculture: rice in three seasons: Aus (autumn harvest), Aman (main winter harvest), Boro (irrigated summer harvest). Jute in the Hooghly-Nadia-Murshidabad belt; tea in Darjeeling and the Dooars.",
+      "Protected areas: Sundarbans (Tiger Reserve 1973, National Park 1984, UNESCO World Heritage Site 1987, Ramsar site 2019); Jaldapara and Gorumara (rhino); Singalila and Neora Valley (red panda); Buxa Tiger Reserve (Alipurduar)."
+    ],
+    "traps": [
+      "Counting China as a neighbour. West Bengal touches only Bangladesh, Nepal and Bhutan; Sikkim lies between it and Tibet.",
+      "Mixing the two south-western confluences: Dwarakeswar + Silabati = Rupnarayan, but Kangsabati + Keleghai = Haldi.",
+      "Placing the Barind tract in the Rarh region. Barind is in Malda-Dinajpur; Rarh is the lateritic west (Purulia, Bankura, Birbhum).",
+      "Confusing the rice seasons: Aman is the main monsoon crop; Boro is the irrigated summer crop.",
+      "Mixing up the Sundarbans milestones (1973, 1984, 1987, 1989, 2019)."
+    ],
+    "examTip": "When a question names a river or hill, first place it in its region (north Bengal, Ganga delta or south-west plateau). Most distractors come from the wrong region and can be ruled out at once."
+  },
+  "questions": [
+    {
+      "text": "West Bengal shares international borders with how many countries?",
+      "difficulty": "EASY",
+      "options": [
+        "Two",
+        "Three",
+        "Four",
+        "Five"
+      ],
+      "answer": 1,
+      "explanation": "West Bengal borders Bangladesh to the east, Nepal to the west of Darjeeling district, and Bhutan to the north of the Dooars (Kalimpong, Jalpaiguri and Alipurduar districts).\nChina (Tibet) does not touch West Bengal because Sikkim lies in between.\nCount: Bangladesh + Nepal + Bhutan = 3.\nAnswer: Three."
+    },
+    {
+      "text": "Jaldapara National Park on the Torsa river in north Bengal is best known for protecting which animal?",
+      "difficulty": "EASY",
+      "options": [
+        "Royal Bengal tiger",
+        "Red panda",
+        "Indian one-horned rhinoceros",
+        "Asiatic lion"
+      ],
+      "answer": 2,
+      "explanation": "Jaldapara, in Alipurduar district in the Dooars, has the largest population of the Indian one-horned rhinoceros in West Bengal. Gorumara in Jalpaiguri is the state's other rhino park.\nThe Royal Bengal tiger is linked with the Sundarbans, and the red panda with Singalila and Neora Valley.\nAnswer: Indian one-horned rhinoceros."
+    },
+    {
+      "text": "The Gangasagar Mela, held every year around Makar Sankranti where the Hooghly meets the Bay of Bengal, takes place on which island?",
+      "difficulty": "EASY",
+      "options": [
+        "Sagar Island",
+        "Ghoramara Island",
+        "Jambudwip",
+        "Henry's Island"
+      ],
+      "answer": 0,
+      "explanation": "Pilgrims gather at the southern tip of Sagar Island in South 24 Parganas, near the Kapil Muni temple, for a holy dip where the Hooghly meets the sea on Makar Sankranti (mid-January).\nGhoramara is a small, eroding island nearby, while Jambudwip and Henry's Island lie further east near Frasergunj-Bakkhali.\nAnswer: Sagar Island."
+    },
+    {
+      "text": "Which of the following states does NOT share a border with West Bengal?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Odisha",
+        "Assam",
+        "Sikkim",
+        "Meghalaya"
+      ],
+      "answer": 3,
+      "explanation": "West Bengal borders five states: Sikkim (north), Assam (north-east, next to Cooch Behar and Alipurduar), Bihar and Jharkhand (west) and Odisha (south-west).\nMeghalaya lies south of Assam and borders Bangladesh, but not West Bengal.\nAnswer: Meghalaya."
+    },
+    {
+      "text": "The Tropic of Cancer passes through which of the following districts of West Bengal?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Nadia",
+        "Jalpaiguri",
+        "Purba Medinipur",
+        "Malda"
+      ],
+      "answer": 0,
+      "explanation": "The Tropic of Cancer (about 23.5° N) crosses West Bengal from Purulia in the west through Bankura and the Bardhaman area to Nadia, passing near Krishnanagar, before entering Bangladesh.\nJalpaiguri and Malda lie well to the north (about 25-27° N), and Purba Medinipur lies to the south (about 22° N).\nAnswer: Nadia."
+    },
+    {
+      "text": "What is the main purpose of the Farakka Barrage across the Ganga, commissioned in 1975?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "To generate hydroelectricity for north Bengal",
+        "To divert Ganga water into the Bhagirathi-Hooghly to flush silt and keep Kolkata Port navigable",
+        "To irrigate the Rarh region of western West Bengal",
+        "To supply drinking water to Siliguri"
+      ],
+      "answer": 1,
+      "explanation": "Silt was choking the Hooghly and threatening Kolkata Port.\nThe Farakka Barrage, at Farakka in Murshidabad district, diverts Ganga water through a feeder canal of about 40,000 cusecs capacity into the Bhagirathi. The extra flow flushes silt down the Hooghly.\nWater-sharing with Bangladesh at Farakka is governed by the Ganges Water Treaty of 1996.\nAnswer: To divert Ganga water into the Bhagirathi-Hooghly to flush silt and keep Kolkata Port navigable."
+    },
+    {
+      "text": "Haldia, the deep-water dock complex of the Syama Prasad Mookerjee Port (Kolkata), lies near the confluence of the Hooghly and which river?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Rupnarayan",
+        "Damodar",
+        "Haldi",
+        "Subarnarekha"
+      ],
+      "answer": 2,
+      "explanation": "Haldia in Purba Medinipur district grew where the Haldi river (formed by the Kangsabati and Keleghai) joins the Hooghly estuary, downstream of Kolkata.\nThe Rupnarayan joins the Hooghly further upstream near Geonkhali, and the Subarnarekha reaches the sea in Odisha.\nAnswer: Haldi."
+    },
+    {
+      "text": "In West Bengal, the irrigated rice crop sown in winter and harvested in summer (around April-May) is known as:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Aman",
+        "Aus",
+        "Kharif rice",
+        "Boro"
+      ],
+      "answer": 3,
+      "explanation": "West Bengal grows rice in three seasons.\nAus is sown before the monsoon and harvested in autumn (about August-September).\nAman, the main crop, is transplanted in the monsoon and harvested in November-December.\nBoro is sown in winter on irrigated fields and harvested in April-May.\nAnswer: Boro."
+    },
+    {
+      "text": "The Barind tract, a raised area of older (Pleistocene) alluvium with hard, reddish soils, lies mainly in which districts of West Bengal?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Purulia and Bankura",
+        "Nadia and Murshidabad",
+        "Malda and Dakshin Dinajpur",
+        "Darjeeling and Kalimpong"
+      ],
+      "answer": 2,
+      "explanation": "The Barind (Barendra) tract is an uplifted block of older alluvium shared with northern Bangladesh. In West Bengal it covers eastern Malda and the Dinajpur districts, mainly Dakshin Dinajpur.\nPurulia and Bankura belong to the Rarh and the Chota Nagpur fringe (the usual trap), while Nadia and Murshidabad lie on the newer deltaic alluvium.\nAnswer: Malda and Dakshin Dinajpur."
+    },
+    {
+      "text": "The Rupnarayan river of southern West Bengal is formed near Ghatal by the confluence of the Dwarakeswar and which river?",
+      "difficulty": "HARD",
+      "options": [
+        "Kangsabati",
+        "Silabati (Shilai)",
+        "Damodar",
+        "Subarnarekha"
+      ],
+      "answer": 1,
+      "explanation": "The Dwarakeswar rises in Purulia, flows through Bankura and meets the Silabati near Ghatal in Paschim Medinipur. Below this confluence the river is called the Rupnarayan.\nIt then flows past Kolaghat and joins the Hooghly near Geonkhali.\nThe Kangsabati instead joins the Keleghai to form the Haldi.\nAnswer: Silabati (Shilai)."
+    },
+    {
+      "text": "In which year was the Sundarbans National Park inscribed on the UNESCO World Heritage List?",
+      "difficulty": "HARD",
+      "options": [
+        "1973",
+        "1984",
+        "1987",
+        "2019"
+      ],
+      "answer": 2,
+      "explanation": "The Indian Sundarbans milestones are:\nTiger Reserve under Project Tiger: 1973\nNational Park: 1984\nUNESCO World Heritage Site (natural): 1987\nBiosphere Reserve: 1989\nRamsar wetland: 2019\nSo the World Heritage listing came in 1987.\nAnswer: 1987."
+    }
+  ]
+}

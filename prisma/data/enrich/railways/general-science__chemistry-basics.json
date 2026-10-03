@@ -1,0 +1,105 @@
+{
+  "exam": "railways",
+  "subject": "general-science",
+  "chapter": "chemistry-basics",
+  "notes": {
+    "summary": "This chapter covers atomic structure, formulae and common names of everyday compounds, types of chemical reactions, acids-bases-salts, metals, alloys and ores, and the mole concept at the Class 9-10 NCERT level. RRB exams ask formula and common-name questions, short atomic-structure calculations and occasionally a mole calculation.",
+    "keyPoints": [
+      "Atomic structure: atomic number Z = number of protons = number of electrons in a neutral atom; neutrons = mass number – Z. Sodium (Z = 11, A = 23) has 12 neutrons and electronic configuration 2, 8, 1 (valency 1).",
+      "Maximum electrons in a shell = 2n²: K = 2, L = 8, M = 18; the outermost shell cannot hold more than 8.",
+      "Common compounds: baking soda NaHCO3, washing soda Na2CO3·10H2O, bleaching powder CaOCl2, plaster of Paris CaSO4·½H2O, gypsum CaSO4·2H2O, quicklime CaO, slaked lime Ca(OH)2, limestone CaCO3, caustic soda NaOH.",
+      "Gas tests: CO2 turns lime water milky (CaCO3 forms); hydrogen burns with a pop sound; oxygen rekindles a glowing splinter. Laughing gas is nitrous oxide, N2O.",
+      "Reaction types: combination (A + B → AB), decomposition (AB → A + B, e.g. CaCO3 → CaO + CO2 on heating), displacement, double displacement. Oxidation = gain of oxygen or loss of hydrogen; reduction is the opposite.",
+      "Alloys: brass = copper + zinc, bronze = copper + tin, solder = lead + tin, stainless steel = iron + chromium + nickel (with a little carbon).",
+      "Ores: aluminium – bauxite, iron – haematite and magnetite, lead – galena, mercury – cinnabar, zinc – zinc blende.",
+      "Mole concept: moles = mass ÷ molar mass; number of particles = moles × 6.022 × 10^23. Example: 18 g of water = 1 mole = 6.022 × 10^23 molecules."
+    ],
+    "traps": [
+      "Writing gypsum (CaSO4·2H2O) when plaster of Paris (CaSO4·½H2O) is asked, or baking soda when washing soda is asked.",
+      "Confusing nitrous oxide N2O (laughing gas) with nitric oxide NO.",
+      "Calling the substance that loses oxygen 'oxidised': CuO losing oxygen is reduced, while H2 gaining oxygen is oxidised.",
+      "Multiplying grams directly by 6.022 × 10^23 without first converting mass to moles.",
+      "Mixing up brass (copper + zinc) and bronze (copper + tin)."
+    ],
+    "examTip": "For formula questions, count the water of crystallisation to eliminate options quickly: ½H2O is plaster of Paris, 2H2O is gypsum, 10H2O is washing soda."
+  },
+  "questions": [
+    {
+      "text": "What is the chemical formula of washing soda?",
+      "difficulty": "EASY",
+      "options": ["NaHCO3", "Na2CO3·10H2O", "CaCO3", "NaOH"],
+      "answer": 1,
+      "explanation": "Washing soda is sodium carbonate decahydrate, Na2CO3·10H2O; it is used for cleaning and for removing the permanent hardness of water.\nNaHCO3 is baking soda, CaCO3 is limestone (chalk, marble) and NaOH is caustic soda.\nAnswer: Na2CO3·10H2O."
+    },
+    {
+      "text": "Which gas is commonly known as 'laughing gas' and is used as a mild anaesthetic?",
+      "difficulty": "EASY",
+      "options": ["Nitric oxide (NO)", "Nitrogen dioxide (NO2)", "Nitrous oxide (N2O)", "Ammonia (NH3)"],
+      "answer": 2,
+      "explanation": "Nitrous oxide, N2O, produces a feeling of euphoria when inhaled, which gives it the name 'laughing gas'; it is used in dentistry as a mild anaesthetic.\nNitric oxide (NO) and nitrogen dioxide (NO2, a reddish-brown gas) are air pollutants.\nAnswer: Nitrous oxide (N2O)."
+    },
+    {
+      "text": "Lime water turns milky when which gas is passed through it?",
+      "difficulty": "EASY",
+      "options": ["Oxygen", "Hydrogen", "Nitrogen", "Carbon dioxide"],
+      "answer": 3,
+      "explanation": "Lime water is a solution of calcium hydroxide, Ca(OH)2.\nCarbon dioxide reacts with it: Ca(OH)2 + CO2 → CaCO3 + H2O. The insoluble white calcium carbonate makes the solution look milky.\nThis is the standard laboratory test for CO2.\nAnswer: Carbon dioxide."
+    },
+    {
+      "text": "Sodium has atomic number 11. What is its electronic configuration?",
+      "difficulty": "MEDIUM",
+      "options": ["2, 8, 1", "2, 9", "2, 8, 2", "2, 1, 8"],
+      "answer": 0,
+      "explanation": "Shells fill in the order K, L, M, holding at most 2, 8 and 18 electrons (2n²).\nWith 11 electrons: K takes 2, L takes 8, and the remaining 1 goes to M.\nConfiguration = 2, 8, 1, so sodium has valency 1 and readily loses one electron to form Na+.\nAnswer: 2, 8, 1."
+    },
+    {
+      "text": "What is the chemical formula of Plaster of Paris?",
+      "difficulty": "MEDIUM",
+      "options": ["CaSO4·2H2O", "CaSO4·½H2O", "CaCO3", "Ca(OH)2"],
+      "answer": 1,
+      "explanation": "Plaster of Paris is calcium sulphate hemihydrate, CaSO4·½H2O, made by heating gypsum to about 373 K.\nWhen mixed with water it sets back into gypsum, CaSO4·2H2O, which is why it is used for plaster casts and statues.\nAnswer: CaSO4·½H2O."
+    },
+    {
+      "text": "When calcium carbonate is heated strongly, it forms calcium oxide and carbon dioxide:\nCaCO3 → CaO + CO2\nThis is an example of which type of reaction?",
+      "difficulty": "MEDIUM",
+      "options": ["Combination reaction", "Displacement reaction", "Decomposition reaction", "Double displacement reaction"],
+      "answer": 2,
+      "explanation": "A single reactant (CaCO3) breaks down into two simpler products (CaO and CO2).\nA reaction in which one substance splits into two or more substances is a decomposition reaction; because heat causes it, it is called thermal decomposition.\nAnswer: Decomposition reaction."
+    },
+    {
+      "text": "An atom of an element has atomic number 13 and mass number 27. How many neutrons are present in its nucleus?",
+      "difficulty": "MEDIUM",
+      "options": ["13", "27", "40", "14"],
+      "answer": 3,
+      "explanation": "Atomic number = number of protons = 13.\nMass number = protons + neutrons = 27.\nNeutrons = 27 – 13 = 14.\n(Adding the two numbers gives 40, a common slip.)\nAnswer: 14."
+    },
+    {
+      "text": "Brass is an alloy of:",
+      "difficulty": "MEDIUM",
+      "options": ["Copper and zinc", "Copper and tin", "Lead and tin", "Iron and chromium"],
+      "answer": 0,
+      "explanation": "Brass = copper + zinc, used for utensils, fittings and musical instruments.\nBronze = copper + tin, solder = lead + tin, and stainless steel is mainly iron with chromium and nickel.\nAnswer: Copper and zinc."
+    },
+    {
+      "text": "Aluminium is extracted mainly from which ore?",
+      "difficulty": "MEDIUM",
+      "options": ["Haematite", "Galena", "Bauxite", "Cinnabar"],
+      "answer": 2,
+      "explanation": "Bauxite (hydrated aluminium oxide) is the chief ore of aluminium; the metal is obtained from the purified oxide by electrolysis.\nHaematite is an ore of iron, galena of lead and cinnabar of mercury.\nAnswer: Bauxite."
+    },
+    {
+      "text": "How many molecules are present in 36 g of water? (H = 1, O = 16, Avogadro's number = 6.022 × 10^23)",
+      "difficulty": "HARD",
+      "options": ["6.022 × 10^23", "1.2044 × 10^24", "3.011 × 10^23", "2.168 × 10^25"],
+      "answer": 1,
+      "explanation": "Molar mass of H2O = 2 × 1 + 16 = 18 g/mol.\nMoles = 36 ÷ 18 = 2 mol.\nMolecules = 2 × 6.022 × 10^23 = 12.044 × 10^23 = 1.2044 × 10^24.\n(Multiplying 36 directly by Avogadro's number gives 2.168 × 10^25, which is wrong.)\nAnswer: 1.2044 × 10^24."
+    },
+    {
+      "text": "In the reaction CuO + H2 → Cu + H2O (on heating), which substance is oxidised?",
+      "difficulty": "HARD",
+      "options": ["CuO", "Cu", "H2O", "H2"],
+      "answer": 3,
+      "explanation": "Oxidation = gain of oxygen (or loss of hydrogen); reduction = loss of oxygen.\nCuO loses oxygen and becomes Cu, so CuO is reduced.\nH2 gains oxygen and becomes H2O, so H2 is oxidised (it acts as the reducing agent).\nAnswer: H2."
+    }
+  ]
+}

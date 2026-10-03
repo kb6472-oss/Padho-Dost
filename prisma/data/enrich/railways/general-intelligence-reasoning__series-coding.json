@@ -1,0 +1,103 @@
+{
+  "exam": "railways",
+  "subject": "general-intelligence-reasoning",
+  "chapter": "series-coding",
+  "notes": {
+    "summary": "This chapter covers number series (next, missing or wrong term), letter series and coding-decoding, where letters, digits or words are converted by a fixed rule. RRB NTPC and Group D usually ask 3-5 such questions, built on simple shifts, reversals, opposite letters, position values or letter-to-digit substitution.",
+    "keyPoints": [
+      "Number series checklist, in order: differences (and differences of differences), multiply/divide, × a ± b, squares or cubes ± k, primes, and two alternating series.",
+      "Examples: × 3 − 1 gives 2, 5, 14, 41, 122, 365; differences 5, 10, 15, 20 give 6, 11, 21, 36, 56, 81; n² + 1 and n² − 1 alternating give 2, 3, 10, 15, 26, 35, 50.",
+      "Wrong-term questions: find the rule from most of the terms, then locate the single term that breaks it (3, 7, 15, 31, 63, 127 — not 128).",
+      "Letter series: convert letters to positions (EJOTY = 5, 10, 15, 20, 25) and look at the gaps, which often grow +1, +2, +3 ... (B, C, E, H, L, Q).",
+      "Coding types: shift (+1 or −1), reversal (MOBILE → ELIBOM), shift and reversal (MONKEY → XDJMNL), opposite letters with positions adding to 27 (FLOWER → UOLDVI), position-value sums, letter-to-digit substitution.",
+      "Substitution coding: build a letter-to-digit table from the examples and confirm repeated letters always get the same digit (R = 6 in both ROSE = 6821 and CHAIR = 73456).",
+      "Sentence coding: the code for a word is the code common to the two sentences that contain that word; codes are often not in the same order as the words."
+    ],
+    "traps": [
+      "Assuming a simple difference series when the rule is multiplicative or has two alternating parts.",
+      "Shifting letters in the wrong direction, or forgetting the reversal step in two-step codes.",
+      "Assuming word order and code order are the same in sentence coding.",
+      "Miscounting letter positions near the end of the alphabet; use EJOTY anchors and opposite pairs."
+    ],
+    "examTip": "Decode only the first one or two letters of the example and check them against the options — this usually eliminates most options without decoding the whole word."
+  },
+  "questions": [
+    {
+      "text": "Find the next term in the series: 6, 11, 21, 36, 56, ?",
+      "difficulty": "EASY",
+      "options": ["76", "81", "86", "80"],
+      "answer": 1,
+      "explanation": "Differences: 11 − 6 = 5, 21 − 11 = 10, 36 − 21 = 15, 56 − 36 = 20.\nThe differences increase by 5, so the next difference is 25.\n56 + 25 = 81. Answer: 81."
+    },
+    {
+      "text": "Find the missing term in the series: 1, 8, 27, 64, ?, 216",
+      "difficulty": "EASY",
+      "options": ["100", "120", "144", "125"],
+      "answer": 3,
+      "explanation": "The terms are cubes: 1³, 2³, 3³, 4³, ?, 6³.\nMissing term = 5³ = 125. Answer: 125."
+    },
+    {
+      "text": "In a certain code, MOBILE is written as ELIBOM. How will LAPTOP be written in that code?",
+      "difficulty": "EASY",
+      "options": ["POTPAL", "PATPOL", "POTAPL", "TOPPAL"],
+      "answer": 0,
+      "explanation": "ELIBOM is MOBILE written in reverse order.\nWriting LAPTOP backwards gives P-O-T-P-A-L.\nAnswer: POTPAL."
+    },
+    {
+      "text": "Find the next term in the series: 2, 5, 14, 41, 122, ?",
+      "difficulty": "MEDIUM",
+      "options": ["363", "366", "365", "367"],
+      "answer": 2,
+      "explanation": "Each term = previous term × 3 − 1.\n2 × 3 − 1 = 5, 5 × 3 − 1 = 14, 14 × 3 − 1 = 41, 41 × 3 − 1 = 122.\nNext term = 122 × 3 − 1 = 365. Answer: 365."
+    },
+    {
+      "text": "Find the wrong term in the series: 3, 7, 15, 31, 63, 128",
+      "difficulty": "MEDIUM",
+      "options": ["7", "31", "63", "128"],
+      "answer": 3,
+      "explanation": "Rule: each term = previous term × 2 + 1.\n3 → 7 → 15 → 31 → 63 all follow the rule.\nThe next term should be 63 × 2 + 1 = 127, not 128.\nAnswer: 128."
+    },
+    {
+      "text": "Find the next letter in the series: B, C, E, H, L, ?",
+      "difficulty": "MEDIUM",
+      "options": ["P", "Q", "R", "O"],
+      "answer": 1,
+      "explanation": "Positions: B = 2, C = 3, E = 5, H = 8, L = 12.\nThe gaps are +1, +2, +3, +4, so the next gap is +5.\n12 + 5 = 17, which is Q. Answer: Q."
+    },
+    {
+      "text": "In a certain code, ROSE is written as 6821, CHAIR as 73456 and PREACH as 961473. How is SEARCH written in that code?",
+      "difficulty": "MEDIUM",
+      "options": ["214673", "214763", "241673", "214637"],
+      "answer": 0,
+      "explanation": "From ROSE = 6821: R = 6, O = 8, S = 2, E = 1.\nFrom CHAIR = 73456: C = 7, H = 3, A = 4, I = 5, R = 6 (R is 6 again, so the code is consistent).\nPREACH = 961473 confirms P = 9, E = 1, A = 4, C = 7, H = 3.\nSEARCH = S, E, A, R, C, H = 2, 1, 4, 6, 7, 3. Answer: 214673."
+    },
+    {
+      "text": "In a certain code, FLOWER is written as UOLDVI. How is GARDEN written in that code?",
+      "difficulty": "MEDIUM",
+      "options": ["TZIVWM", "SZIWVM", "TZIWVM", "TZJWVM"],
+      "answer": 2,
+      "explanation": "Each letter is replaced by its opposite letter (positions add up to 27): F→U, L→O, O→L, W→D, E→V, R→I.\nGARDEN: G→T, A→Z, R→I, D→W, E→V, N→M.\nAnswer: TZIWVM."
+    },
+    {
+      "text": "In a certain code language, 'sky is blue' is written as 'ta pa ka', 'blue and green' is written as 'ka ma la', and 'green is fresh' is written as 'la ta re'. The codes are not necessarily in the same order as the words. What is the code for 'sky'?",
+      "difficulty": "MEDIUM",
+      "options": ["ta", "pa", "ka", "ma"],
+      "answer": 1,
+      "explanation": "'blue' is in sentences 1 and 2; their common code is 'ka', so blue = ka.\n'is' is in sentences 1 and 3; their common code is 'ta', so is = ta.\nSentence 1, 'sky is blue' = 'ta pa ka'; removing ta and ka leaves pa.\nAnswer: sky = pa."
+    },
+    {
+      "text": "In a certain code, MONKEY is written as XDJMNL. How is TIGER written in that code?",
+      "difficulty": "HARD",
+      "options": ["SHFDQ", "SFHJU", "QDFHS", "QDHFS"],
+      "answer": 2,
+      "explanation": "Step 1: each letter of MONKEY moves one step back: M→L, O→N, N→M, K→J, E→D, Y→X, giving LNMJDX.\nStep 2: that result is reversed: XDJMNL.\nTIGER: one step back gives S, H, F, D, Q; reversing gives QDFHS.\nAnswer: QDFHS."
+    },
+    {
+      "text": "Find the next term in the series: 2, 3, 10, 15, 26, 35, ?",
+      "difficulty": "HARD",
+      "options": ["50", "48", "49", "63"],
+      "answer": 0,
+      "explanation": "The terms are n² + 1 for odd n and n² − 1 for even n:\n1² + 1 = 2, 2² − 1 = 3, 3² + 1 = 10, 4² − 1 = 15, 5² + 1 = 26, 6² − 1 = 35.\nNext (n = 7, odd): 7² + 1 = 50. Answer: 50."
+    }
+  ]
+}

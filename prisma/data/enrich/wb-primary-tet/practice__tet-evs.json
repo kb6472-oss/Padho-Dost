@@ -1,0 +1,128 @@
+{
+  "exam": "wb-primary-tet",
+  "subject": "practice",
+  "chapter": "tet-evs",
+  "notes": {
+    "summary": "At the primary level, EVS brings science, social studies and environmental education together around the child's surroundings: family, food, water, shelter, plants, animals, health and the local environment of West Bengal. WB Primary TET tests both content (basic science, health, environment, WB geography) and EVS pedagogy (aims, teaching methods and assessment).",
+    "keyPoints": [
+      "Nutrition: lack of vitamin A causes night blindness, vitamin C scurvy, vitamin D rickets and vitamin B1 beriberi. Lack of iodine causes goitre and lack of iron causes anaemia.",
+      "Water cycle: evaporation, then condensation (clouds, dew, droplets on a cold glass), then precipitation, then collection in rivers, ponds and seas.",
+      "Ecology: energy flows one way through a food chain, and only about 10% passes to the next level. Example: plants 10,000 J, herbivores 1,000 J, small carnivores 100 J, top carnivores 10 J.",
+      "Environmental problems: CO₂ from burning fuels causes global warming, CFCs cause ozone depletion, and SO₂ and NO₂ cause acid rain. Keep biodegradable waste (peels, leaves) separate from non-biodegradable waste (plastic, glass, metal).",
+      "West Bengal soils: alluvial soil in the Gangetic plains (rice, jute) and laterite or red soil in Purulia, Bankura and Birbhum.",
+      "West Bengal habitats: Sundarbans mangroves have breathing roots (pneumatophores). Jaldapara and Gorumara protect the one-horned rhino. The East Kolkata Wetlands (Ramsar site, 2002) use the city's sewage to raise fish.",
+      "National symbols: Royal Bengal Tiger (animal), Ganges river dolphin (aquatic animal, declared 2009), peacock (bird), lotus (flower).",
+      "Map skills: actual distance = map distance × scale. Example: 3.5 cm × 5 km per cm = 17.5 km.",
+      "NCF 2005: in Classes I-II, environmental themes are taught through language and mathematics; in Classes III-V, EVS is a separate integrated subject.",
+      "EVS pedagogy and assessment: children learn by observing, doing activities, going on field trips, doing projects and discussing, and a misconception is a starting point for learning. Assessment is continuous, using observation, oral questions, worksheets, projects and portfolios."
+    ],
+    "traps": [
+      "Saying 'evaporation' for the droplets that form on a cold glass. That is condensation.",
+      "Mixing up the national animal (Royal Bengal Tiger) with the national aquatic animal (Ganges river dolphin).",
+      "Treating EVS as facts to memorise. TET pedagogy answers favour exploration, activities and the child's own experience.",
+      "Believing that plants take ready-made food from the soil. Soil gives water and minerals; the plant makes its food by photosynthesis.",
+      "In energy-flow questions, dividing by 10 the wrong number of times. Count the steps between the two levels carefully."
+    ],
+    "examTip": "For EVS pedagogy questions, choose the option that links learning to the child's local environment and lets children observe, ask and do, not the one built on textbook definitions or tests."
+  },
+  "questions": [
+    {
+      "text": "Lack of which vitamin causes night blindness?",
+      "difficulty": "EASY",
+      "options": ["Vitamin C", "Vitamin A", "Vitamin D", "Vitamin B1"],
+      "answer": 1,
+      "explanation": "The eye needs vitamin A to see in dim light, so a lack of it causes night blindness.\nGood sources are carrot, papaya, green leafy vegetables, milk and egg yolk.\nLack of vitamin C causes scurvy, vitamin D rickets and vitamin B1 beriberi.\nAnswer: Vitamin A"
+    },
+    {
+      "text": "Tiny water droplets appear on the outside of a glass of ice-cold water. This happens because of:",
+      "difficulty": "EASY",
+      "options": ["Evaporation", "Melting", "Condensation", "Water seeping out through the glass"],
+      "answer": 2,
+      "explanation": "The air around the glass contains water vapour.\nWhen this vapour touches the cold surface, it cools and turns into liquid droplets. This is condensation.\nThe same process forms dew and clouds in the water cycle. Glass does not let water seep through.\nAnswer: Condensation"
+    },
+    {
+      "text": "Which of the following wastes is biodegradable?",
+      "difficulty": "EASY",
+      "options": ["Plastic bottle", "Glass jar", "Aluminium foil", "Vegetable peels"],
+      "answer": 3,
+      "explanation": "Biodegradable waste is broken down naturally by bacteria and fungi into simple substances.\nVegetable peels rot quickly and can be turned into compost.\nPlastic, glass and aluminium stay in the environment for a very long time.\nAnswer: Vegetable peels"
+    },
+    {
+      "text": "In continuous and comprehensive evaluation (CCE) of EVS, a child's 'portfolio' is:",
+      "difficulty": "EASY",
+      "options": ["A collection of the child's work over a period of time, such as drawings, notes and project reports, that shows progress", "The child's answer sheet from the final term-end examination", "A register of the child's attendance", "A list of the marks the child scored in written tests only"],
+      "answer": 0,
+      "explanation": "A portfolio is a planned collection of a child's work gathered over time, such as drawings, observation notes, worksheets and project work.\nIt shows how the child's learning has grown, not just one test result, which suits continuous and comprehensive evaluation.\nAnswer: A collection of the child's work over a period of time"
+    },
+    {
+      "text": "Which fertile soil, deposited by rivers, covers most of the plains of West Bengal and is ideal for growing rice and jute?",
+      "difficulty": "MEDIUM",
+      "options": ["Laterite soil", "Alluvial soil", "Black soil", "Desert soil"],
+      "answer": 1,
+      "explanation": "The Ganga, Bhagirathi-Hooghly, Damodar and other rivers deposit fine silt across the plains. This silt forms alluvial soil, which is very fertile.\nLaterite (red) soil is found in the western plateau districts such as Purulia, Bankura and Birbhum. Black soil is typical of the Deccan, where it suits cotton.\nAnswer: Alluvial soil"
+    },
+    {
+      "text": "Which gas, released mainly by burning coal, petrol and diesel and by cutting down forests, is the major contributor to global warming?",
+      "difficulty": "MEDIUM",
+      "options": ["Oxygen", "Sulphur dioxide", "Carbon dioxide", "Nitrogen"],
+      "answer": 2,
+      "explanation": "Carbon dioxide traps heat in the atmosphere (the greenhouse effect), and burning fuels adds large amounts of it.\nCutting trees makes this worse, because trees absorb carbon dioxide during photosynthesis.\nSulphur dioxide mainly causes acid rain.\nAnswer: Carbon dioxide"
+    },
+    {
+      "text": "Mangrove trees of the Sundarbans grow in salty, waterlogged mud that contains very little air. Which special roots help them take in air?",
+      "difficulty": "MEDIUM",
+      "options": ["Tap roots", "Fibrous roots", "Pneumatophores (breathing roots)", "Storage roots"],
+      "answer": 2,
+      "explanation": "Mangroves grow roots that point upward out of the mud, called pneumatophores.\nThese roots have tiny pores that take in air from the atmosphere, so the underground roots get oxygen even in waterlogged mud.\nAnswer: Pneumatophores (breathing roots)"
+    },
+    {
+      "text": "Jaldapara National Park in Alipurduar district of West Bengal is especially famous for protecting which animal?",
+      "difficulty": "MEDIUM",
+      "options": ["Indian one-horned rhinoceros", "Snow leopard", "Asiatic lion", "Red panda"],
+      "answer": 0,
+      "explanation": "Jaldapara's grasslands on the Torsa river are the main home of the one-horned rhinoceros in West Bengal. Gorumara National Park also has rhinos.\nThe red panda lives in the high forests of Singalila and Neora Valley. Asiatic lions are found only in Gir, Gujarat.\nAnswer: Indian one-horned rhinoceros"
+    },
+    {
+      "text": "Which of the following is the national aquatic animal of India and is also found in the Ganga-Hooghly river system of West Bengal?",
+      "difficulty": "MEDIUM",
+      "options": ["Hilsa fish", "Gharial", "Olive ridley turtle", "Ganges river dolphin"],
+      "answer": 3,
+      "explanation": "The Ganges river dolphin (called 'shushuk' in Bengali) was declared India's national aquatic animal in 2009.\nIt is a mammal, not a fish, and comes to the surface to breathe. It is almost blind and finds its way and its food by echolocation (sound).\nAnswer: Ganges river dolphin"
+    },
+    {
+      "text": "The scale of a map is 1 cm = 5 km. Two villages are 3.5 cm apart on the map. What is the actual distance between them?",
+      "difficulty": "MEDIUM",
+      "options": ["8.5 km", "15 km", "17.5 km", "35 km"],
+      "answer": 2,
+      "explanation": "Actual distance = map distance × scale.\n3.5 × 5 = 17.5 km.\n8.5 km comes from wrongly adding 3.5 and 5.\nAnswer: 17.5 km"
+    },
+    {
+      "text": "Many Class 4 children believe that plants take ready-made food from the soil. What is the most suitable first step for the EVS teacher?",
+      "difficulty": "MEDIUM",
+      "options": ["Tell the children they are wrong and make them memorise the correct definition", "Find out the children's ideas through discussion, then let them test those ideas with simple activities, such as comparing a plant kept in the dark with one kept in sunlight", "Ignore the idea, since the children will learn about photosynthesis in higher classes", "Give the children a written test on photosynthesis immediately"],
+      "answer": 1,
+      "explanation": "A misconception should be the starting point for learning, not something to ignore or punish.\nWhen children voice their ideas and then test them, for example by seeing a plant become pale and weak in the dark even though it has soil and water, they change their own understanding.\nThis is the constructivist, activity-based approach that EVS pedagogy recommends.\nAnswer: Find out the children's ideas and let them test them with simple activities"
+    },
+    {
+      "text": "In the food chain below, the plants trap 10,000 J of energy. According to the 10 per cent law, how much energy reaches the large carnivores?\nPlants → Herbivores → Small carnivores → Large carnivores",
+      "difficulty": "HARD",
+      "options": ["10 J", "1,000 J", "100 J", "1 J"],
+      "answer": 0,
+      "explanation": "Under Lindeman's 10 per cent law, only about 10% of the energy passes from one level to the next.\nPlants have 10,000 J, so herbivores get 1,000 J, small carnivores 100 J and large carnivores 10 J.\nThere are three steps, so divide by 10 three times.\nAnswer: 10 J"
+    },
+    {
+      "text": "The East Kolkata Wetlands, declared a Ramsar site in 2002, are internationally known for:",
+      "difficulty": "HARD",
+      "options": ["Producing salt from sea water", "Using the city's sewage water to raise fish and grow vegetables, which also cleans the water naturally", "Being the largest coral reef in India", "Large-scale tea cultivation"],
+      "answer": 1,
+      "explanation": "Kolkata's waste water flows into shallow ponds (bheris). There, sunlight, algae and fish break down the waste.\nThis supports one of the world's largest sewage-fed fishery systems and vegetable farms, and the city gets natural, low-cost waste-water treatment.\nThat is why it is called the 'kidney of Kolkata'.\nAnswer: Using the city's sewage water to raise fish and grow vegetables"
+    },
+    {
+      "text": "According to the National Curriculum Framework (NCF) 2005, how is Environmental Studies (EVS) organised at the primary stage?",
+      "difficulty": "HARD",
+      "options": ["EVS is a separate subject from Class I to Class V", "EVS is taught as separate Science and Social Science subjects from Class III", "EVS begins only from Class VI", "Environmental themes are woven into language and mathematics in Classes I-II, and EVS is a separate integrated subject in Classes III-V"],
+      "answer": 3,
+      "explanation": "NCF 2005 recommends that in Classes I and II, the child's environment is explored through language and mathematics, without a separate EVS book.\nFrom Class III to Class V, EVS is a separate subject that brings science, social science and environmental education together, rather than splitting them.\nAnswer: Environmental themes are woven into language and maths in Classes I-II, and EVS is a separate integrated subject in Classes III-V"
+    }
+  ]
+}

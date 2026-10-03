@@ -1,0 +1,106 @@
+{
+  "exam": "railways",
+  "subject": "general-awareness",
+  "chapter": "history-polity",
+  "notes": {
+    "summary": "This chapter covers ancient, medieval and modern Indian history together with the Indian Constitution and polity. RRB NTPC and Group D ask short one-line factual questions on years of battles and movements, founders of dynasties and reform bodies, Articles, Parts, Schedules, Amendments and constitutional posts, so exact recall of numbers and names is what scores.",
+    "keyPoints": [
+      "Indus Valley sites: Harappa (first excavated, 1921, by Daya Ram Sahni), Mohenjo-daro (Great Bath), Lothal in Gujarat (dockyard), Kalibangan in Rajasthan (ploughed field, fire altars), Dholavira in Gujarat (water reservoirs).",
+      "Key battles: Panipat I 1526 (Babur vs Ibrahim Lodi), Khanwa 1527 (Babur vs Rana Sanga), Panipat II 1556 (Akbar's army under Bairam Khan vs Hemu), Plassey 1757, Panipat III 1761 (Ahmad Shah Abdali vs Marathas), Buxar 1764.",
+      "Freedom struggle timeline: INC 1885, Partition of Bengal 1905, Muslim League 1906, Jallianwala Bagh 1919, Non-Cooperation 1920-22, Simon Commission 1928, Dandi March 1930, Quit India 1942, Independence 15 August 1947.",
+      "Reform movements: Brahmo Samaj 1828 (Raja Ram Mohan Roy), Satyashodhak Samaj 1873 (Jyotiba Phule), Arya Samaj 1875 (Swami Dayanand Saraswati), Ramakrishna Mission 1897 (Swami Vivekananda).",
+      "Constitution: adopted 26 November 1949, in force from 26 January 1950. Dr B.R. Ambedkar chaired the Drafting Committee; Dr Rajendra Prasad was President of the Constituent Assembly.",
+      "Parts to remember: Part III Fundamental Rights (Articles 12-35), Part IV Directive Principles (Articles 36-51, idea from Ireland), Part IVA Fundamental Duties (Article 51A, added by the 42nd Amendment 1976; 11th duty added by the 86th Amendment 2002).",
+      "Emergency Articles: 352 National Emergency, 356 President's Rule in a state, 360 Financial Emergency. Article 368 deals with amending the Constitution.",
+      "Posts: President has a 5-year term and minimum age 35; the Vice-President is ex-officio Chairman of the Rajya Sabha (Article 64); minimum age for Lok Sabha is 25 and for Rajya Sabha 30.",
+      "Gupta age: Samudragupta, called the 'Napoleon of India' by V.A. Smith, is praised in the Allahabad (Prayag) Pillar inscription composed by his court poet Harisena; Chandragupta II took the title Vikramaditya."
+    ],
+    "traps": [
+      "Mixing up Dr Rajendra Prasad (President of the Constituent Assembly) with Dr B.R. Ambedkar (Chairman of the Drafting Committee).",
+      "Confusing the three Battles of Panipat (1526, 1556, 1761), or Panipat I with the Battle of Khanwa (1527).",
+      "Calling Fundamental Duties Part IV: Part IV is Directive Principles, Fundamental Duties are in Part IVA.",
+      "Thinking the Speaker or the President chairs the Rajya Sabha: it is the Vice-President.",
+      "Swapping Article 352 (National Emergency) with Article 356 (President's Rule in a state)."
+    ],
+    "examTip": "For chronology questions, write the year next to each event first and then sort them; never order events from a vague memory of the story."
+  },
+  "questions": [
+    {
+      "text": "The famous 'Great Bath' of the Indus Valley Civilisation was discovered at which site?",
+      "difficulty": "EASY",
+      "options": ["Harappa", "Mohenjo-daro", "Lothal", "Kalibangan"],
+      "answer": 1,
+      "explanation": "The Great Bath, a large brick-lined water tank probably used for ritual bathing, was found at Mohenjo-daro (Sindh, now in Pakistan).\nOther sites are known for different finds: Lothal for its dockyard and Kalibangan for a ploughed field and fire altars.\nHarappa was the first site to be excavated (1921) but it is not the site of the Great Bath.\nAnswer: Mohenjo-daro."
+    },
+    {
+      "text": "Who was the Chairman of the Drafting Committee of the Constituent Assembly of India?",
+      "difficulty": "EASY",
+      "options": ["Dr Rajendra Prasad", "Jawaharlal Nehru", "Dr B.R. Ambedkar", "Sachchidananda Sinha"],
+      "answer": 2,
+      "explanation": "The Drafting Committee was set up on 29 August 1947 with Dr B.R. Ambedkar as its Chairman.\nDr Rajendra Prasad was the President of the Constituent Assembly, and Sachchidananda Sinha was its temporary President at the first meeting.\nAnswer: Dr B.R. Ambedkar."
+    },
+    {
+      "text": "The Jallianwala Bagh massacre of 13 April 1919 took place in which city?",
+      "difficulty": "EASY",
+      "options": ["Lahore", "Delhi", "Meerut", "Amritsar"],
+      "answer": 3,
+      "explanation": "On 13 April 1919 (Baisakhi day), troops under General Reginald Dyer fired on an unarmed gathering at Jallianwala Bagh in Amritsar, Punjab.\nThe people had assembled to protest against the Rowlatt Act and the arrest of local leaders.\nAnswer: Amritsar."
+    },
+    {
+      "text": "The First Battle of Panipat (1526), which laid the foundation of the Mughal Empire in India, was fought between:",
+      "difficulty": "MEDIUM",
+      "options": ["Babur and Ibrahim Lodi", "Akbar and Hemu", "Babur and Rana Sanga", "Ahmad Shah Abdali and the Marathas"],
+      "answer": 0,
+      "explanation": "First Battle of Panipat, 1526: Babur defeated Ibrahim Lodi, the last Sultan of Delhi, and began Mughal rule.\nBattle of Khanwa, 1527: Babur vs Rana Sanga.\nSecond Battle of Panipat, 1556: Akbar's army (under Bairam Khan) vs Hemu.\nThird Battle of Panipat, 1761: Ahmad Shah Abdali vs the Marathas.\nAnswer: Babur and Ibrahim Lodi."
+    },
+    {
+      "text": "Fundamental Duties were added to the Indian Constitution by which Constitutional Amendment?",
+      "difficulty": "MEDIUM",
+      "options": ["44th Amendment, 1978", "42nd Amendment, 1976", "86th Amendment, 2002", "52nd Amendment, 1985"],
+      "answer": 1,
+      "explanation": "On the recommendation of the Swaran Singh Committee, the 42nd Amendment Act, 1976 added 10 Fundamental Duties as Article 51A in a new Part IVA.\nThe 86th Amendment, 2002 only added the 11th duty (parents or guardians to provide education to children aged 6 to 14).\nThe 52nd Amendment (1985) is the anti-defection law, and the 44th (1978) mainly reversed Emergency-era changes.\nAnswer: 42nd Amendment, 1976."
+    },
+    {
+      "text": "Who is the ex-officio Chairman of the Rajya Sabha?",
+      "difficulty": "MEDIUM",
+      "options": ["The President of India", "The Speaker of the Lok Sabha", "The Prime Minister", "The Vice-President of India"],
+      "answer": 3,
+      "explanation": "Under Article 64, the Vice-President of India is the ex-officio Chairman of the Council of States (Rajya Sabha).\nThe Speaker presides over the Lok Sabha; the President is a part of Parliament but presides over neither House.\nAnswer: The Vice-President of India."
+    },
+    {
+      "text": "Arrange the following events in chronological order:\n1. Partition of Bengal\n2. Launch of the Non-Cooperation Movement\n3. Jallianwala Bagh massacre\n4. Arrival of the Simon Commission in India",
+      "difficulty": "MEDIUM",
+      "options": ["1, 2, 3, 4", "3, 1, 2, 4", "1, 3, 2, 4", "1, 3, 4, 2"],
+      "answer": 2,
+      "explanation": "Write the year beside each event:\nPartition of Bengal – 1905\nJallianwala Bagh massacre – April 1919\nNon-Cooperation Movement launched – 1920\nSimon Commission arrives – 1928\nSorted order: 1, 3, 2, 4.\nAnswer: 1, 3, 2, 4."
+    },
+    {
+      "text": "The Directive Principles of State Policy are contained in which Part of the Indian Constitution?",
+      "difficulty": "MEDIUM",
+      "options": ["Part III", "Part IV", "Part IVA", "Part V"],
+      "answer": 1,
+      "explanation": "Part IV (Articles 36 to 51) contains the Directive Principles of State Policy, an idea borrowed from the Irish Constitution.\nPart III contains Fundamental Rights, Part IVA contains Fundamental Duties (Article 51A) and Part V deals with the Union government.\nAnswer: Part IV."
+    },
+    {
+      "text": "The Arya Samaj, which gave the call 'Go back to the Vedas', was founded in 1875 by:",
+      "difficulty": "MEDIUM",
+      "options": ["Raja Ram Mohan Roy", "Swami Vivekananda", "Swami Dayanand Saraswati", "Keshab Chandra Sen"],
+      "answer": 2,
+      "explanation": "Swami Dayanand Saraswati founded the Arya Samaj at Bombay in 1875 and wrote 'Satyarth Prakash'.\nRaja Ram Mohan Roy founded the Brahmo Samaj (1828), Swami Vivekananda founded the Ramakrishna Mission (1897), and Keshab Chandra Sen was a later Brahmo Samaj leader.\nAnswer: Swami Dayanand Saraswati."
+    },
+    {
+      "text": "Under which Article of the Constitution can the President proclaim a National Emergency on the grounds of war, external aggression or armed rebellion?",
+      "difficulty": "HARD",
+      "options": ["Article 352", "Article 356", "Article 360", "Article 365"],
+      "answer": 0,
+      "explanation": "Article 352 – National Emergency (war, external aggression or armed rebellion; 'armed rebellion' replaced 'internal disturbance' through the 44th Amendment, 1978).\nArticle 356 – President's Rule in a state when its constitutional machinery fails.\nArticle 360 – Financial Emergency.\nArticle 365 – effect of a state failing to comply with Union directions.\nAnswer: Article 352."
+    },
+    {
+      "text": "Which Gupta ruler, praised in the Allahabad (Prayag) Pillar inscription composed by Harisena, was called the 'Napoleon of India' by historian V.A. Smith?",
+      "difficulty": "HARD",
+      "options": ["Chandragupta I", "Chandragupta II", "Skandagupta", "Samudragupta"],
+      "answer": 3,
+      "explanation": "Harisena, the court poet of Samudragupta, composed the Prayag Prashasti (Allahabad Pillar inscription) describing his many conquests.\nBecause of these military campaigns, V.A. Smith called Samudragupta the 'Napoleon of India'.\nChandragupta II is known as Vikramaditya, and Skandagupta for resisting the Huna invasions.\nAnswer: Samudragupta."
+    }
+  ]
+}

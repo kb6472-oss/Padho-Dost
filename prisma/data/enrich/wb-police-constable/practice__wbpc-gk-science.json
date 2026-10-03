@@ -1,0 +1,128 @@
+{
+  "exam": "wb-police-constable",
+  "subject": "practice",
+  "chapter": "wbpc-gk-science",
+  "notes": {
+    "summary": "This chapter mixes static general knowledge (Indian history, polity, national firsts and awards) with everyday science: the human body, vitamins and diseases, units, light, sound and simple chemistry. The WB Police Constable paper asks short one-line factual questions, so wide coverage of standard facts matters more than depth. Now and then a question needs a one-step calculation, such as a temperature conversion or a lightning-distance sum.",
+    "keyPoints": [
+      "Vitamins and deficiency diseases: A – night blindness, B1 – beriberi, C – scurvy (bleeding gums), D – rickets (made in the skin in sunlight), K – poor blood clotting. Minerals: iron – anaemia, iodine – goitre.",
+      "Diseases and carriers: malaria – Plasmodium spread by the female Anopheles mosquito; dengue and chikungunya – Aedes mosquito; filaria – Culex mosquito; tuberculosis – a bacterium, prevented by the BCG vaccine.",
+      "Human body: the liver is the largest gland, the skin the largest organ, the femur the longest bone and the stapes (in the ear) the smallest bone. The pancreas makes insulin, which lowers blood sugar; its lack causes diabetes. O negative is the universal donor and AB positive the universal recipient.",
+      "SI units: force – newton, work and energy – joule, power – watt, pressure – pascal, current – ampere. 1 unit of electricity = 1 kWh.",
+      "Light and sound: light travels about 3 lakh km per second, sound about 340 m/s in air. Distance of lightning = speed of sound × time gap, so a 3-second gap means roughly 1 km. Myopia is corrected by a concave lens, hypermetropia by a convex lens.",
+      "Temperature: F = (9/5)C + 32. Normal body temperature 37°C = 98.6°F; water boils at 100°C = 212°F; both scales read the same at −40°.",
+      "Atmosphere: the ozone layer in the stratosphere absorbs ultraviolet rays. Barometer measures air pressure, hygrometer humidity, anemometer wind speed.",
+      "Polity numbers: minimum age – President and Vice-President 35, Lok Sabha member 25, Rajya Sabha member 30, voter 18. Fundamental Rights are in Part III and Directive Principles in Part IV.",
+      "Firsts: Rakesh Sharma – first Indian in space (1984, Soviet Soyuz T-11). C. V. Raman – Nobel Prize in Physics 1930 for the scattering of light (Raman effect); National Science Day is 28 February.",
+      "Indian Standard Time is based on 82.5° E longitude, near Mirzapur in Uttar Pradesh. Since 1° = 4 minutes, IST is 5 hours 30 minutes ahead of GMT."
+    ],
+    "traps": [
+      "Mixing up the mosquitoes: Anopheles spreads malaria and Aedes spreads dengue. Only the female mosquito bites.",
+      "Calling AB the universal donor. AB positive is the universal recipient; O negative is the universal donor.",
+      "Answering 'skin' for the largest gland. The skin is the largest organ, but the liver is the largest gland.",
+      "Dividing instead of multiplying in lightning-distance sums. Distance = speed × time, so 340 m/s × 5 s = 1700 m.",
+      "Confusing minimum ages: 25 is for Lok Sabha membership, while the President must be at least 35."
+    ],
+    "examTip": "These are one-line recall questions, so answer the ones you know in seconds. For a science numerical, write the formula first (distance = speed × time, F = 9C/5 + 32) and then pick the option."
+  },
+  "questions": [
+    {
+      "text": "Malaria is spread from person to person by the bite of which insect?",
+      "difficulty": "EASY",
+      "options": ["Female Anopheles mosquito", "Female Aedes mosquito", "Housefly", "Male Culex mosquito"],
+      "answer": 0,
+      "explanation": "Malaria is caused by the protozoan parasite Plasmodium.\nIt is carried from an infected person to a healthy person by the bite of the female Anopheles mosquito.\nAedes spreads dengue and chikungunya, and Culex spreads filaria. Male mosquitoes feed on plant juices and do not bite.\nAnswer: Female Anopheles mosquito."
+    },
+    {
+      "text": "What is the SI unit of force?",
+      "difficulty": "EASY",
+      "options": ["Joule", "Watt", "Newton", "Pascal"],
+      "answer": 2,
+      "explanation": "Force = mass × acceleration, and its SI unit is the newton (N): 1 N = 1 kg × 1 m/s².\nJoule is the unit of work or energy, watt of power, and pascal of pressure.\nAnswer: Newton."
+    },
+    {
+      "text": "Scurvy, a disease marked by swollen and bleeding gums, is caused by the deficiency of:",
+      "difficulty": "EASY",
+      "options": ["Vitamin A", "Vitamin C", "Vitamin D", "Vitamin B1"],
+      "answer": 1,
+      "explanation": "Vitamin C (ascorbic acid) is needed for healthy gums, skin and wound healing; its lack causes scurvy.\nLemon, orange and amla are rich sources.\nVitamin A deficiency causes night blindness, Vitamin D deficiency rickets, and Vitamin B1 deficiency beriberi.\nAnswer: Vitamin C."
+    },
+    {
+      "text": "The ozone layer in the Earth's stratosphere protects living beings by absorbing most of the Sun's harmful:",
+      "difficulty": "EASY",
+      "options": ["Infrared rays", "Radio waves", "Visible light", "Ultraviolet rays"],
+      "answer": 3,
+      "explanation": "Ozone (O3) in the stratosphere absorbs most of the Sun's ultraviolet (UV) radiation.\nToo much UV causes skin cancer, eye cataracts and damage to crops.\nChlorofluorocarbons (CFCs), once used in refrigerators and sprays, thin this layer.\nAnswer: Ultraviolet rays."
+    },
+    {
+      "text": "Which blood group is known as the 'universal donor' because its red blood cells can be given to a person of any blood group?",
+      "difficulty": "MEDIUM",
+      "options": ["AB positive", "O negative", "A positive", "B negative"],
+      "answer": 1,
+      "explanation": "O negative red cells carry no A antigen, no B antigen and no Rh antigen, so the receiver's antibodies have nothing to attack.\nThat is why O negative is called the universal donor.\nAB positive is the opposite case: its plasma has no anti-A or anti-B antibodies, so it is the universal recipient.\nAnswer: O negative."
+    },
+    {
+      "text": "Diabetes mellitus is caused mainly by the deficiency, or poor action, of which hormone secreted by the pancreas?",
+      "difficulty": "MEDIUM",
+      "options": ["Insulin", "Adrenaline", "Thyroxine", "Glucagon"],
+      "answer": 0,
+      "explanation": "Insulin, made by the beta cells of the islets of Langerhans in the pancreas, helps body cells take up glucose and so lowers blood sugar.\nWhen insulin is too little or does not work well, blood sugar stays high. This is diabetes mellitus.\nGlucagon, also from the pancreas, does the opposite and raises blood sugar. Adrenaline comes from the adrenal gland and thyroxine from the thyroid.\nAnswer: Insulin."
+    },
+    {
+      "text": "Which is the largest gland in the human body?",
+      "difficulty": "MEDIUM",
+      "options": ["Pancreas", "Thyroid", "Pituitary", "Liver"],
+      "answer": 3,
+      "explanation": "The liver, weighing about 1.5 kg in an adult, is the largest gland of the body.\nIt secretes bile, which helps digest fats, and stores glycogen.\nThe skin is the largest organ overall but is not counted as a gland, and the thyroid is the largest purely endocrine gland.\nAnswer: Liver."
+    },
+    {
+      "text": "A short-sighted person (myopia) can see near objects clearly but not distant ones. Which lens is used to correct this defect?",
+      "difficulty": "MEDIUM",
+      "options": ["Convex lens", "Bifocal lens", "Concave lens", "Cylindrical lens"],
+      "answer": 2,
+      "explanation": "In myopia the image of a distant object forms in front of the retina, because the eyeball is too long or the eye lens is too strong.\nA concave (diverging) lens spreads the rays slightly, so the image moves back onto the retina.\nConvex lenses correct hypermetropia (long sight), bifocal lenses presbyopia, and cylindrical lenses astigmatism.\nAnswer: Concave lens."
+    },
+    {
+      "text": "Indian Standard Time (IST) is based on the local time of which longitude?",
+      "difficulty": "MEDIUM",
+      "options": ["82.5° E", "88.5° E", "77.5° E", "90° E"],
+      "answer": 0,
+      "explanation": "India's standard meridian is 82°30′ E (82.5° E), which passes near Mirzapur in Uttar Pradesh.\nEach degree of longitude equals 4 minutes of time, so 82.5 × 4 = 330 minutes = 5 hours 30 minutes.\nThat is why IST is 5 hours 30 minutes ahead of Greenwich Mean Time (GMT).\nAnswer: 82.5° E."
+    },
+    {
+      "text": "Who became the first Indian citizen to travel into space, aboard a Soviet spacecraft in 1984?",
+      "difficulty": "MEDIUM",
+      "options": ["Kalpana Chawla", "Rakesh Sharma", "Sunita Williams", "Ravish Malhotra"],
+      "answer": 1,
+      "explanation": "Squadron Leader Rakesh Sharma of the Indian Air Force flew on the Soviet Soyuz T-11 mission in April 1984 and spent about eight days aboard the Salyut 7 space station.\nRavish Malhotra was his back-up and did not fly.\nKalpana Chawla (1997) was the first woman of Indian origin in space, and Sunita Williams is an American astronaut of Indian origin.\nAnswer: Rakesh Sharma."
+    },
+    {
+      "text": "Under the Constitution of India, what is the minimum age required to be elected President of India?",
+      "difficulty": "MEDIUM",
+      "options": ["25 years", "30 years", "35 years", "40 years"],
+      "answer": 2,
+      "explanation": "Article 58 says a candidate for President must be a citizen of India, at least 35 years old and qualified to be a member of the Lok Sabha.\nThe minimum age is 25 years for a Lok Sabha member and 30 years for a Rajya Sabha member.\nAnswer: 35 years."
+    },
+    {
+      "text": "A person hears the sound of thunder 5 seconds after seeing the lightning flash. Taking the speed of sound in air as 340 m/s, roughly how far away did the lightning strike?",
+      "difficulty": "HARD",
+      "options": ["68 m", "17 km", "3.4 km", "1.7 km"],
+      "answer": 3,
+      "explanation": "Light reaches us almost instantly (about 3 lakh km per second), so the 5-second gap is the time taken by the sound alone.\nDistance = speed × time = 340 m/s × 5 s = 1700 m.\n1700 m = 1.7 km.\n68 m comes from wrongly dividing 340 by 5, and 3.4 km from doubling as if it were an echo.\nAnswer: 1.7 km."
+    },
+    {
+      "text": "The 'Raman Effect', for which C. V. Raman received the Nobel Prize in Physics in 1930, is related to which phenomenon?",
+      "difficulty": "HARD",
+      "options": ["Scattering of light", "Photoelectric effect", "Radioactivity", "Dispersion of light by a prism"],
+      "answer": 0,
+      "explanation": "Raman found that when light passes through a transparent substance, a small part of the scattered light changes its wavelength. This is the Raman effect.\nHe announced the discovery on 28 February 1928, a date India now celebrates as National Science Day.\nHe was the first Asian to win a Nobel Prize in a science subject.\nAnswer: Scattering of light."
+    },
+    {
+      "text": "At what temperature do the Celsius and Fahrenheit scales show the same numerical reading?",
+      "difficulty": "HARD",
+      "options": ["0°", "40°", "−40°", "−32°"],
+      "answer": 2,
+      "explanation": "Use F = (9/5)C + 32 and put F = C = x.\nx = (9/5)x + 32, so x − (9/5)x = 32, which gives −(4/5)x = 32.\nx = −32 × 5/4 = −40.\nCheck: (9/5) × (−40) + 32 = −72 + 32 = −40.\nAnswer: −40°."
+    }
+  ]
+}

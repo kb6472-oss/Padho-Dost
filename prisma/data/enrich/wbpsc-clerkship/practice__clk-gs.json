@@ -1,0 +1,126 @@
+{
+  "exam": "wbpsc-clerkship",
+  "subject": "practice",
+  "chapter": "clk-gs",
+  "notes": {
+    "summary": "This chapter covers the General Studies part of the WBPSC Clerkship paper: Indian history and the freedom struggle, Indian polity, Indian geography, basic economy and science, and facts about West Bengal. Questions are direct one-liners, and West Bengal links (Bengal reformers, Calcutta's role in British India, the state's seats and districts) come up often.",
+    "keyPoints": [
+      "Bengal Renaissance: Raja Ram Mohan Roy founded the Brahmo Sabha (later Brahmo Samaj) in 1828, and his campaign led to the ban on Sati (1829, Lord William Bentinck). Vidyasagar championed widow remarriage (Act of 1856). Swami Vivekananda founded the Ramakrishna Mission (1897).",
+      "Indian National Congress: founded in 1885 at Bombay, with A. O. Hume as founder. W. C. Bonnerjee of Calcutta presided over the first session, which had 72 delegates.",
+      "Calcutta was the capital of British India until the shift to Delhi was announced at the Delhi Durbar of 1911. New Delhi was formally inaugurated in 1931.",
+      "Freedom slogans: 'Give me blood, and I will give you freedom' – Subhas Chandra Bose; 'Swaraj is my birthright' – Tilak; 'Do or die' – Gandhi (Quit India, 1942).",
+      "Polity: Ambedkar called Article 32 (constitutional remedies) the 'heart and soul' of the Constitution. The 42nd Amendment (1976) added 'Socialist', 'Secular' and 'Integrity' to the Preamble. NITI Aayog replaced the Planning Commission on 1 January 2015.",
+      "West Bengal numbers: 42 Lok Sabha seats, 16 Rajya Sabha seats, 294 elected Legislative Assembly seats. Cooch Behar became a district of West Bengal on 1 January 1950, and Purulia came from Bihar in 1956.",
+      "Geography: largest state by area – Rajasthan (then Madhya Pradesh, then Maharashtra). Black (regur) soil holds moisture and suits cotton; alluvial soil suits rice, wheat and jute.",
+      "Nobel laureates linked to Bengal: Rabindranath Tagore – Literature 1913; Amartya Sen – Economic Sciences 1998 (welfare economics); Abhijit Banerjee – Economic Sciences 2019."
+    ],
+    "traps": [
+      "Naming A. O. Hume as the first Congress president. Hume founded the Congress, but W. C. Bonnerjee presided over its first session.",
+      "Picking 1931 for the capital shift. The shift was announced in 1911; 1931 is when New Delhi was inaugurated.",
+      "Confusing West Bengal's seat counts: Lok Sabha 42, Rajya Sabha 16, Assembly 294.",
+      "Mixing up amendments: the 42nd (1976) changed the Preamble, the 44th (1978) removed property from the Fundamental Rights, and the 73rd (1992) gave Panchayati Raj constitutional status.",
+      "Crediting Keshab Chandra Sen with founding the Brahmo Samaj. He led a later breakaway group; Ram Mohan Roy founded the original body in 1828."
+    ],
+    "examTip": "When two options look right, go back to the exact verb in the question: 'founded', 'presided over', 'announced' and 'inaugurated' each point to a different answer."
+  },
+  "questions": [
+    {
+      "text": "Who founded the Brahmo Samaj (originally the Brahmo Sabha) in Calcutta in 1828?",
+      "difficulty": "EASY",
+      "options": ["Swami Vivekananda", "Ishwar Chandra Vidyasagar", "Raja Ram Mohan Roy", "Keshab Chandra Sen"],
+      "answer": 2,
+      "explanation": "Raja Ram Mohan Roy founded the Brahmo Sabha in 1828, and it soon came to be called the Brahmo Samaj.\nIt preached the worship of one God and opposed idol worship, Sati and caste rigidity.\nKeshab Chandra Sen later led a breakaway group, the Brahmo Samaj of India (1866).\nAnswer: Raja Ram Mohan Roy."
+    },
+    {
+      "text": "Who gave the slogan 'Give me blood, and I will give you freedom'?",
+      "difficulty": "EASY",
+      "options": ["Subhas Chandra Bose", "Bhagat Singh", "Bal Gangadhar Tilak", "Mahatma Gandhi"],
+      "answer": 0,
+      "explanation": "Netaji Subhas Chandra Bose gave this call in 1944 while leading the Indian National Army (Azad Hind Fauj) in South-East Asia.\nTilak said 'Swaraj is my birthright', Gandhi gave 'Do or die' during the Quit India Movement, and Bhagat Singh popularised 'Inquilab Zindabad'.\nAnswer: Subhas Chandra Bose."
+    },
+    {
+      "text": "Which is the largest state of India by area?",
+      "difficulty": "EASY",
+      "options": ["Madhya Pradesh", "Maharashtra", "Uttar Pradesh", "Rajasthan"],
+      "answer": 3,
+      "explanation": "Rajasthan covers about 3.42 lakh sq km, roughly 10.4% of India's area, which makes it the largest state.\nMadhya Pradesh is second and Maharashtra third. Uttar Pradesh is the largest by population, not by area.\nAnswer: Rajasthan."
+    },
+    {
+      "text": "Black soil, also called regur soil, which holds moisture well, is best suited for growing which crop?",
+      "difficulty": "EASY",
+      "options": ["Rice", "Cotton", "Tea", "Jute"],
+      "answer": 1,
+      "explanation": "Black soil is formed from the basalt rock of the Deccan plateau and is rich in clay, so it holds moisture for a long time.\nIt is ideal for cotton, which is why it is also called black cotton soil.\nRice and jute grow best in alluvial soil, and tea on well-drained hill slopes.\nAnswer: Cotton."
+    },
+    {
+      "text": "Who presided over the first session of the Indian National Congress, held at Bombay in 1885?",
+      "difficulty": "MEDIUM",
+      "options": ["Dadabhai Naoroji", "W. C. Bonnerjee", "A. O. Hume", "Surendranath Banerjee"],
+      "answer": 1,
+      "explanation": "The first session of the Congress met in Bombay in December 1885 with 72 delegates.\nIt was presided over by Womesh Chunder Bonnerjee, a barrister from Calcutta.\nA. O. Hume founded the Congress, and Dadabhai Naoroji presided over the second session (Calcutta, 1886).\nAnswer: W. C. Bonnerjee."
+    },
+    {
+      "text": "In which year was the decision to shift the capital of British India from Calcutta to Delhi announced at the Delhi Durbar?",
+      "difficulty": "MEDIUM",
+      "options": ["1905", "1931", "1857", "1911"],
+      "answer": 3,
+      "explanation": "King George V announced the transfer of the capital from Calcutta to Delhi at the Delhi Durbar on 12 December 1911.\nThe same Durbar announced that the 1905 Partition of Bengal would be annulled.\nNew Delhi, the newly built capital, was formally inaugurated in 1931.\nAnswer: 1911."
+    },
+    {
+      "text": "Which Article of the Constitution of India, providing the Right to Constitutional Remedies, did Dr. B. R. Ambedkar call the 'heart and soul' of the Constitution?",
+      "difficulty": "MEDIUM",
+      "options": ["Article 32", "Article 21", "Article 14", "Article 368"],
+      "answer": 0,
+      "explanation": "Article 32 lets a citizen go directly to the Supreme Court when a Fundamental Right is violated.\nThe Court can issue writs such as habeas corpus, mandamus, prohibition, certiorari and quo warranto.\nAmbedkar called it the 'heart and soul' because without it the other rights could not be enforced.\nAnswer: Article 32."
+    },
+    {
+      "text": "How many members does West Bengal elect to the Lok Sabha?",
+      "difficulty": "MEDIUM",
+      "options": ["16", "48", "42", "294"],
+      "answer": 2,
+      "explanation": "West Bengal has 42 Lok Sabha constituencies, the third highest among states after Uttar Pradesh (80) and Maharashtra (48).\n16 is West Bengal's number of Rajya Sabha seats, and 294 is the number of elected seats in its Legislative Assembly.\nAnswer: 42."
+    },
+    {
+      "text": "Sati was declared illegal in 1829 by a regulation passed under which Governor-General?",
+      "difficulty": "MEDIUM",
+      "options": ["Lord Cornwallis", "Lord Dalhousie", "Lord Ripon", "Lord William Bentinck"],
+      "answer": 3,
+      "explanation": "The Bengal Sati Regulation (Regulation XVII) of December 1829 was passed under Lord William Bentinck.\nRaja Ram Mohan Roy had campaigned strongly against the practice.\nCornwallis is linked with the Permanent Settlement (1793), Dalhousie with the Doctrine of Lapse, and Ripon with local self-government.\nAnswer: Lord William Bentinck."
+    },
+    {
+      "text": "Amartya Sen, who grew up in Santiniketan, was awarded the Nobel Memorial Prize in 1998 in which field?",
+      "difficulty": "MEDIUM",
+      "options": ["Literature", "Economic Sciences", "Peace", "Physics"],
+      "answer": 1,
+      "explanation": "Amartya Sen received the 1998 Nobel Memorial Prize in Economic Sciences for his work on welfare economics, including famines, poverty and social choice.\nRabindranath Tagore, who chose the name Amartya for him, had won the Literature prize in 1913.\nAnswer: Economic Sciences."
+    },
+    {
+      "text": "In 2015, the Planning Commission of India was replaced by which body?",
+      "difficulty": "MEDIUM",
+      "options": ["NITI Aayog", "Finance Commission", "National Development Council", "Inter-State Council"],
+      "answer": 0,
+      "explanation": "NITI Aayog (National Institution for Transforming India) came into being on 1 January 2015, replacing the Planning Commission set up in 1950.\nThe Prime Minister is its ex officio chairperson, and it works as a policy think tank rather than allocating funds.\nThe Finance Commission (Article 280) is a separate constitutional body.\nAnswer: NITI Aayog."
+    },
+    {
+      "text": "The words 'Socialist' and 'Secular' were added to the Preamble of the Indian Constitution by which amendment?",
+      "difficulty": "HARD",
+      "options": ["44th Amendment, 1978", "73rd Amendment, 1992", "42nd Amendment, 1976", "52nd Amendment, 1985"],
+      "answer": 2,
+      "explanation": "The 42nd Amendment Act, 1976, passed during the Emergency, added 'Socialist', 'Secular' and 'Integrity' to the Preamble.\nIt is the only time the Preamble has been amended.\nThe 44th removed the right to property from the Fundamental Rights, the 73rd gave constitutional status to Panchayati Raj, and the 52nd added the anti-defection law.\nAnswer: 42nd Amendment, 1976."
+    },
+    {
+      "text": "The former princely state of Cooch Behar became a district of West Bengal in which year?",
+      "difficulty": "HARD",
+      "options": ["1947", "1956", "1949", "1950"],
+      "answer": 3,
+      "explanation": "The Maharaja of Cooch Behar signed the merger agreement with India in August 1949, and the Indian Union took over its administration in September 1949.\nOn 1 January 1950, Cooch Behar was merged into West Bengal as a district.\n1956 is the year of the States Reorganisation, when West Bengal received the Purulia area from Bihar.\nAnswer: 1950."
+    },
+    {
+      "text": "How many elected seats are there in the West Bengal Legislative Assembly (Vidhan Sabha)?",
+      "difficulty": "HARD",
+      "options": ["294", "295", "243", "288"],
+      "answer": 0,
+      "explanation": "The West Bengal Legislative Assembly has 294 elected members, each from a single-member constituency.\nUntil 2020 it also had one nominated Anglo-Indian member (295 in all); that provision lapsed under the 104th Amendment.\n243 is the strength of the Bihar Assembly and 288 that of Maharashtra.\nAnswer: 294."
+    }
+  ]
+}

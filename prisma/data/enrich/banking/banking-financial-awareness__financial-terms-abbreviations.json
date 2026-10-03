@@ -1,0 +1,161 @@
+{
+  "exam": "banking",
+  "subject": "banking-financial-awareness",
+  "chapter": "financial-terms-abbreviations",
+  "notes": {
+    "summary": "This chapter covers the banking and financial abbreviations and terms that appear in almost every IBPS and SBI paper - payment systems, cheque rules, lending-rate benchmarks, asset classification and recovery laws. Questions are usually direct ('what does X stand for') or ask for the meaning or a simple application of a term.",
+    "keyPoints": [
+      "Payment systems: NEFT (batch-wise, deferred net settlement), RTGS (real-time, gross, high value), IMPS (instant, 24x7), UPI, NACH (bulk and recurring credits and debits such as salaries, subsidies and EMIs) and AEPS (Aadhaar-based transactions at micro-ATMs); IMPS, UPI, NACH and AEPS are run by NPCI.",
+      "Cheques: CTS = Cheque Truncation System (image-based clearing); MICR = Magnetic Ink Character Recognition; validity = 3 months from the date of issue (since 1 April 2012).",
+      "Cheque types: bearer (pay whoever presents it), order (pay the named person or as ordered), crossed (two parallel lines - only credited to a bank account), post-dated (future date), stale (presented after validity).",
+      "Lending benchmarks: BPLR → Base Rate (2010) → MCLR, Marginal Cost of Funds based Lending Rate (April 2016) → external benchmark linked rates (October 2019, for new floating-rate retail and MSME loans).",
+      "Asset classification: a loan becomes an NPA when interest or principal is overdue for more than 90 days; Substandard - NPA for up to 12 months; Doubtful - substandard for 12 months; Loss - identified as uncollectible but not yet written off.",
+      "Net NPA = Gross NPA − provisions. Example: Gross NPA ₹500 crore, provisions ₹320 crore → Net NPA ₹180 crore.",
+      "Recovery: SARFAESI Act, 2002 = Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest; lets secured lenders seize and sell collateral without court intervention. ARCs (Asset Reconstruction Companies) buy bad loans from banks.",
+      "International: SWIFT = Society for Worldwide Interbank Financial Telecommunication, a secure messaging network for cross-border payments headquartered in Belgium; the Basel Committee on capital norms is hosted by the BIS in Basel, Switzerland.",
+      "Other high-yield expansions: NPCI - National Payments Corporation of India; ECS - Electronic Clearing Service; CRAR - Capital to Risk-weighted Assets Ratio; PCA - Prompt Corrective Action."
+    ],
+    "traps": [
+      "Remembering cheque validity as 6 months - that was the old rule; it has been 3 months since April 2012.",
+      "Calling an 8-month-old NPA 'doubtful'; an asset becomes doubtful only after staying substandard for 12 months.",
+      "Adding provisions to gross NPA instead of subtracting them when finding net NPA.",
+      "Confusing 'Securitisation' with 'Securities' or 'Reconstruction' with 'Restructuring' when expanding SARFAESI.",
+      "Mixing up NACH (bulk, recurring payments) with NEFT or IMPS (individual transfers)."
+    ],
+    "examTip": "For abbreviation questions, eliminate options containing words that are not standard banking jargon and pick the expansion that describes what the system actually does."
+  },
+  "questions": [
+    {
+      "text": "In cheque clearing, 'CTS' stands for:",
+      "difficulty": "EASY",
+      "options": [
+        "Cheque Truncation System",
+        "Central Transaction Service",
+        "Clearing and Transfer Scheme",
+        "Cheque Transfer Settlement"
+      ],
+      "answer": 0,
+      "explanation": "CTS is the Cheque Truncation System.\n'Truncation' means the physical cheque stops at the presenting bank; only its electronic image and data travel to the paying bank.\nThis makes clearing faster, cheaper and safer.\nAnswer: Cheque Truncation System."
+    },
+    {
+      "text": "A cheque that is presented for payment after its validity period has expired is called a:",
+      "difficulty": "EASY",
+      "options": [
+        "Post-dated cheque",
+        "Bearer cheque",
+        "Stale cheque",
+        "Crossed cheque"
+      ],
+      "answer": 2,
+      "explanation": "A cheque is valid for 3 months from the date written on it.\nIf it is presented after that, the bank will not pay it, and it is called a stale cheque.\nA post-dated cheque carries a future date, a bearer cheque is payable to whoever presents it, and a crossed cheque can only be credited to an account.\nAnswer: Stale cheque."
+    },
+    {
+      "text": "The term 'SWIFT', used for international interbank messaging, stands for:",
+      "difficulty": "EASY",
+      "options": [
+        "System for Worldwide International Fund Transfer",
+        "Secure World Interbank Fund Transmission",
+        "Society for Wide International Financial Transactions",
+        "Society for Worldwide Interbank Financial Telecommunication"
+      ],
+      "answer": 3,
+      "explanation": "SWIFT is the Society for Worldwide Interbank Financial Telecommunication.\nIt is a secure messaging network that banks use to send payment instructions across borders; it does not itself hold or move money.\nEach bank has a SWIFT (BIC) code that is used in international transfers.\nAnswer: Society for Worldwide Interbank Financial Telecommunication."
+    },
+    {
+      "text": "'NACH', used by companies and the government for bulk payments such as salaries, subsidies and EMI debits, stands for:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "National Account Clearing Hub",
+        "National Automated Clearing House",
+        "Net Automated Cash Handling",
+        "National Authorised Cheque House"
+      ],
+      "answer": 1,
+      "explanation": "NACH is the National Automated Clearing House, operated by NPCI.\nIt handles high-volume, repetitive transactions: credits such as salaries, dividends and subsidies, and debits such as EMIs, SIPs and utility bills.\nIt took over the role of the older ECS system.\nAnswer: National Automated Clearing House."
+    },
+    {
+      "text": "'MCLR', the lending-rate benchmark introduced by the RBI from 1 April 2016, stands for:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Marginal Cost of Funds based Lending Rate",
+        "Minimum Cost of Lending Rate",
+        "Marginal Credit Liquidity Rate",
+        "Monetary Cost of Loan Recovery"
+      ],
+      "answer": 0,
+      "explanation": "MCLR is the Marginal Cost of Funds based Lending Rate.\nIt replaced the Base Rate system and links a bank's lending rate to its marginal (latest) cost of raising funds, so that policy rate changes reach borrowers faster.\nFrom October 2019, new floating-rate retail and MSME loans were linked to external benchmarks such as the repo rate.\nAnswer: Marginal Cost of Funds based Lending Rate."
+    },
+    {
+      "text": "With effect from 1 April 2012, as directed by the RBI, a cheque is valid for how long from its date of issue?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "1 month",
+        "3 months",
+        "6 months",
+        "12 months"
+      ],
+      "answer": 1,
+      "explanation": "Earlier, cheques were valid for 6 months.\nThe RBI reduced the validity to 3 months with effect from 1 April 2012 to curb the misuse of cheques circulating like cash.\nThe same rule applies to drafts, pay orders and banker's cheques.\nAnswer: 3 months."
+    },
+    {
+      "text": "Two parallel transverse lines drawn across the face of a cheque (a 'crossed' cheque) mean that:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "The cheque is cancelled and cannot be used",
+        "The cheque can be encashed over the counter at any branch of any bank",
+        "The cheque is payable only after three months",
+        "The amount can only be credited to a bank account, not paid in cash over the counter"
+      ],
+      "answer": 3,
+      "explanation": "Crossing is a safety instruction to the paying bank.\nA crossed cheque cannot be paid in cash across the counter; the money must go into a bank account.\nThis makes the receiver traceable and protects against loss or theft.\nAnswer: the amount can only be credited to a bank account."
+    },
+    {
+      "text": "'AEPS', which lets a customer withdraw cash or check the balance at a micro-ATM using Aadhaar authentication, stands for:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Automated Electronic Payment Service",
+        "Aadhaar Electronic Passbook System",
+        "Aadhaar Enabled Payment System",
+        "All-India E-Payment Scheme"
+      ],
+      "answer": 2,
+      "explanation": "AEPS is the Aadhaar Enabled Payment System, run by NPCI.\nThe customer gives the Aadhaar number, bank name and fingerprint at a micro-ATM or business correspondent.\nIt supports cash withdrawal, cash deposit, balance enquiry and fund transfer, which helps rural customers who do not carry cards.\nAnswer: Aadhaar Enabled Payment System."
+    },
+    {
+      "text": "A bank has gross NPAs of ₹500 crore and has made provisions of ₹320 crore against them. What are its net NPAs?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "₹820 crore",
+        "₹320 crore",
+        "₹500 crore",
+        "₹180 crore"
+      ],
+      "answer": 3,
+      "explanation": "Net NPA = Gross NPA − Provisions.\nNet NPA = 500 − 320 = ₹180 crore.\n₹820 crore comes from wrongly adding the two figures.\nAnswer: ₹180 crore."
+    },
+    {
+      "text": "The SARFAESI Act, 2002, which allows banks to recover bad loans by enforcing their security without going to court, stands for:",
+      "difficulty": "HARD",
+      "options": [
+        "Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest",
+        "Securities and Reconstruction of Financial Assets and Enforcement of Secured Interest",
+        "Securitisation and Restructuring of Financial Accounts and Enforcement of Security Interest",
+        "Securitisation and Reconstruction of Fixed Assets and Enforcement of Surety Interest"
+      ],
+      "answer": 0,
+      "explanation": "The full name is the Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest Act, 2002.\nIt lets secured lenders take possession of and sell the collateral of defaulting borrowers without court intervention, and it provides for Asset Reconstruction Companies.\nWatch the trap words: 'Securitisation' (not Securities), 'Reconstruction' (not Restructuring), 'Financial Assets' (not Fixed Assets).\nAnswer: Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest."
+    },
+    {
+      "text": "A bank loan has been classified as a non-performing asset for 8 months and has not been identified as a loss. Under RBI's asset classification norms, it is a:",
+      "difficulty": "HARD",
+      "options": [
+        "Standard asset",
+        "Substandard asset",
+        "Doubtful asset",
+        "Loss asset"
+      ],
+      "answer": 1,
+      "explanation": "A loan becomes an NPA when interest or principal is overdue for more than 90 days.\nAn asset that has remained an NPA for up to 12 months is a substandard asset.\nIt becomes doubtful only after staying in the substandard category for 12 months, and a loss asset is one identified as uncollectible.\nAt 8 months as an NPA, the loan is a substandard asset."
+    }
+  ]
+}

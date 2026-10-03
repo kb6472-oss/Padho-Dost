@@ -1,0 +1,104 @@
+{
+  "exam": "railways",
+  "subject": "general-intelligence-reasoning",
+  "chapter": "blood-relations-directions",
+  "notes": {
+    "summary": "Blood relation questions test family-tree reasoning from statements, pointing or introduction puzzles and coded relations; direction questions test turns, final facing direction, net displacement and relative position. RRB NTPC and Group D ask 2-4 such questions, mostly two- or three-step chains that a quick sketch solves.",
+    "keyPoints": [
+      "Draw a family tree: males as squares or +, females as circles or −, a double line for a married couple, a horizontal line for siblings and a vertical line from parent to child.",
+      "Break pointing sentences from the end: 'the only son of my paternal grandfather' = my father; 'my father's son' when I have no brother = me.",
+      "Relation words: father's brother = paternal uncle; mother's brother = maternal uncle; husband's or wife's mother = mother-in-law; son's wife = daughter-in-law; brother's or sister's child = nephew or niece.",
+      "Do not assume a person's gender unless a word like brother, mother, he or she makes it clear.",
+      "Directions: a right turn is 90° clockwise and a left turn is 90° anticlockwise; clockwise order is N, NE, E, SE, S, SW, W, NW with 45° between neighbours.",
+      "Net turn = total clockwise − total anticlockwise, reduced by 360°. From South-West, 135° clockwise gives North.",
+      "Displacement: track east (+x) and north (+y) separately, then distance = √(x² + y²). Useful triples: 3-4-5, 6-8-10, 5-12-13.",
+      "Sun and shadows: morning sun is in the east so shadows fall west; evening sun is in the west so shadows fall east."
+    ],
+    "traps": [
+      "Treating left and right as fixed compass directions instead of relative to the way the person is currently facing.",
+      "Mixing up the paternal (father's) side and the maternal (mother's) side.",
+      "Assuming the gender of someone described only as a child, sibling or parent.",
+      "Giving the total distance walked when the question asks for the shortest distance from the starting point."
+    ],
+    "examTip": "Always sketch: a ten-second family tree or direction diagram prevents most mistakes in this chapter."
+  },
+  "questions": [
+    {
+      "text": "Rita is married to the only son of Sohan, a man. How is Sohan related to Rita?",
+      "difficulty": "EASY",
+      "options": ["Father", "Brother-in-law", "Father-in-law", "Uncle"],
+      "answer": 2,
+      "explanation": "Sohan's only son is Rita's husband.\nThe father of one's husband is one's father-in-law.\nAnswer: Father-in-law."
+    },
+    {
+      "text": "Raj walks 20 m west from his house, turns right and walks 10 m, turns right again and walks 20 m, then turns left and walks 15 m. How far and in which direction is he from his house?",
+      "difficulty": "EASY",
+      "options": ["15 m North", "25 m South", "25 m North", "35 m North-East"],
+      "answer": 2,
+      "explanation": "Take the house as (0, 0), with east and north positive.\n20 m west → (−20, 0). Facing west, a right turn means north: 10 m → (−20, 10).\nFacing north, a right turn means east: 20 m → (0, 10).\nFacing east, a left turn means north: 15 m → (0, 25).\nHe is 25 m north of his house. Answer: 25 m North."
+    },
+    {
+      "text": "Point P is 4 m north of point Q. Point R is 3 m east of point Q. In which direction is R with respect to P?",
+      "difficulty": "EASY",
+      "options": ["North-East", "South-East", "South-West", "North-West"],
+      "answer": 1,
+      "explanation": "Place Q at (0, 0); then P = (0, 4) and R = (3, 0).\nGoing from P to R means moving 3 m east and 4 m south.\nSo R is to the south-east of P. Answer: South-East."
+    },
+    {
+      "text": "Introducing a woman, Ramesh said, 'She is the daughter of the only son of my paternal grandfather.' How is the woman related to Ramesh?",
+      "difficulty": "MEDIUM",
+      "options": ["Sister", "Cousin", "Niece", "Aunt"],
+      "answer": 0,
+      "explanation": "The only son of Ramesh's paternal grandfather must be Ramesh's father.\nThe daughter of Ramesh's father is Ramesh's sister.\nAnswer: Sister."
+    },
+    {
+      "text": "If A + B means A is the mother of B, A − B means A is the brother of B, A × B means A is the father of B, and A ÷ B means A is the sister of B, then in P + Q − R × S, how is P related to S?",
+      "difficulty": "MEDIUM",
+      "options": ["Mother", "Aunt", "Sister", "Grandmother"],
+      "answer": 3,
+      "explanation": "P + Q: P is the mother of Q.\nQ − R: Q is the brother of R, so P is the mother of R as well.\nR × S: R is the father of S.\nP is the mother of S's father, so P is S's grandmother. Answer: Grandmother."
+    },
+    {
+      "text": "A is the sister of B. C is the mother of B. D is the father of C. How is A related to D?",
+      "difficulty": "MEDIUM",
+      "options": ["Daughter", "Grandmother", "Niece", "Granddaughter"],
+      "answer": 3,
+      "explanation": "C is the mother of B, and A is B's sister, so C is also A's mother.\nD is C's father, so D is A's maternal grandfather.\nA is female (a sister), so A is D's granddaughter. Answer: Granddaughter."
+    },
+    {
+      "text": "R and S are the son and daughter of a couple, P (husband) and Q (wife). T is the wife of R, and U is the son of R and T. How is Q related to T?",
+      "difficulty": "MEDIUM",
+      "options": ["Mother", "Mother-in-law", "Sister-in-law", "Aunt"],
+      "answer": 1,
+      "explanation": "Q is the mother of R.\nT is R's wife.\nThe mother of one's husband is one's mother-in-law (S is T's sister-in-law, and U is only extra information).\nAnswer: Mother-in-law."
+    },
+    {
+      "text": "A man is facing South-West. He turns 135° clockwise and then 270° anticlockwise. Which direction is he facing now?",
+      "difficulty": "MEDIUM",
+      "options": ["West", "East", "North", "South-East"],
+      "answer": 1,
+      "explanation": "Clockwise from South-West in 45° steps: West (45°), North-West (90°), North (135°).\nFrom North, 270° anticlockwise is the same as 90° clockwise, which is East.\nShortcut: net turn = 135° − 270° = 135° anticlockwise from South-West: South, South-East, East.\nAnswer: East."
+    },
+    {
+      "text": "Starting from a point, a man walks 8 km south, turns left and walks 6 km, then turns left again and walks 16 km. How far and in which direction is he from the starting point?",
+      "difficulty": "MEDIUM",
+      "options": ["10 km North-East", "10 km South-East", "14 km North-East", "30 km North"],
+      "answer": 0,
+      "explanation": "Start at (0, 0). 8 km south → (0, −8).\nFacing south, left is east: 6 km → (6, −8).\nFacing east, left is north: 16 km → (6, 8).\nDistance = √(6² + 8²) = √100 = 10 km, and he is east and north of the start.\nAnswer: 10 km North-East."
+    },
+    {
+      "text": "Pointing to the photograph of a man, Arun said, 'I have no brother or sister, but that man's father is my father's son.' Whose photograph was it?",
+      "difficulty": "HARD",
+      "options": ["Arun's son", "Arun himself", "Arun's father", "Arun's nephew"],
+      "answer": 0,
+      "explanation": "Arun has no brother or sister, so 'my father's son' can only be Arun himself.\nThe statement becomes: 'that man's father is Arun.'\nSo the man in the photograph is Arun's son. Answer: Arun's son."
+    },
+    {
+      "text": "P # Q means P is the brother of Q; P @ Q means P is the mother of Q; P & Q means P is the father of Q; P % Q means P is the sister of Q. Which of the following expressions shows that M is the paternal uncle of N?",
+      "difficulty": "HARD",
+      "options": ["M # K @ N", "M % K & N", "M & K # N", "M # K & N"],
+      "answer": 3,
+      "explanation": "A paternal uncle is the brother of one's father.\nM # K & N: M is the brother of K, and K is the father of N, so M is N's paternal uncle.\nThe others: M # K @ N makes M the maternal uncle; M % K & N makes M the paternal aunt; M & K # N makes M the father of N.\nAnswer: M # K & N."
+    }
+  ]
+}

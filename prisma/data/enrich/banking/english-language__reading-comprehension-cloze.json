@@ -1,0 +1,161 @@
+{
+  "exam": "banking",
+  "subject": "english-language",
+  "chapter": "reading-comprehension-cloze",
+  "notes": {
+    "summary": "This chapter covers reading comprehension passages and cloze tests, the largest block of the English section in IBPS and SBI PO/Clerk papers. Passages usually come from economy, banking, business or social themes and are followed by questions on main idea, inference, tone, title, vocabulary in context and stated facts; cloze tests check vocabulary, collocations, grammar and connectors inside a short passage.",
+    "keyPoints": [
+      "RC question types: main idea or central theme, title, author's tone or purpose, inference, 'NOT stated/true', vocabulary in context and direct fact. Identify the type before going back to the passage.",
+      "Main idea and title must cover the whole passage, not just one paragraph or one example; options that are too narrow or too broad are traps.",
+      "Inference means what must be true based on the text, not what could be true. Reject options with extreme words (always, never, all, only) unless the passage itself uses them.",
+      "Tone words to know: critical, sarcastic or ironic, appreciative, objective or neutral, pessimistic, optimistic, didactic (instructive), apathetic (indifferent).",
+      "Vocabulary in context: put each option in place of the word; the meaning must fit the passage, not just the dictionary.",
+      "Cloze method: read the full passage once for the theme, then test each blank for grammar (part of speech, tense, singular or plural) and meaning (collocation, positive or negative tone).",
+      "Connectors: contrast - however, yet, although, nevertheless; result - therefore, thus, hence, consequently; addition - moreover, furthermore, besides; example - for instance.",
+      "Collocations common in banking passages: greeted with scepticism, take a toll on, curb inflation, bridge the gap, pose a risk, meet a target, raise capital.",
+      "In double or triple blanks, one wrong word knocks out the whole option, so eliminate using the easiest blank first."
+    ],
+    "traps": [
+      "Choosing an option because it is true in real life even though the passage does not say it.",
+      "Picking a title or main idea from the first sentence or a single example instead of the whole passage.",
+      "Ignoring a contrast signal (but, however, despite) and choosing a word with the wrong tone.",
+      "In cloze, checking only meaning and missing grammar clues such as 'has + past participle' or 'need to + base verb'.",
+      "Choosing the most extreme tone word when the author is only mildly critical."
+    ],
+    "examTip": "Read the questions before the passage so you know what to look for, and attempt vocabulary and fact-based questions first because they take the least time."
+  },
+  "questions": [
+    {
+      "text": "Read the passage and answer the question.\nPassage: Small savings, invested regularly, can grow into a large sum because of compounding. A person who invests a modest amount every month from the age of 25 is likely to have more at 60 than someone who invests twice that amount every month but starts at 40. The early investor's money simply has more years to earn returns on its returns. Financial planners therefore advise young earners to start saving as early as possible, even if the amounts look small.\nWhich of the following best expresses the main idea of the passage?",
+      "difficulty": "EASY",
+      "options": [
+        "Starting to invest early matters more than investing larger amounts later",
+        "People who start investing at 40 should save twice as much as others",
+        "Compounding benefits only those who invest large amounts",
+        "Financial planners discourage young earners from investing small sums"
+      ],
+      "answer": 0,
+      "explanation": "The passage compares an early, small investor with a late, bigger investor and says the early one ends up with more.\nIt gives the reason: more years of compounding.\nIt ends with advice to start early even with small amounts.\nOption B twists a detail, while C and D contradict the passage.\nMain idea: starting early matters more than investing larger amounts later."
+    },
+    {
+      "text": "Read the passage and answer the question.\nPassage: Every few years, a new scheme promises to transform the rural economy overnight. Banners go up, targets are announced with great fanfare and officials speak of a revolution. A year later, the banners have faded, the targets have been quietly revised and the villagers are left waiting for the next revolution.\nThe tone of the author in this passage is best described as:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Admiring",
+        "Sarcastic",
+        "Hopeful",
+        "Indifferent"
+      ],
+      "answer": 1,
+      "explanation": "The author repeats the word 'revolution' mockingly and contrasts grand announcements with faded banners and quietly revised targets.\nSaying villagers are 'waiting for the next revolution' ridicules the cycle of empty promises.\nThere is no praise (not admiring), no positive expectation (not hopeful), and the author clearly cares about the issue (not indifferent).\nThe tone is sarcastic."
+    },
+    {
+      "text": "Read the passage and answer the question.\nPassage: When a bank's non-performing assets rise, it has to set aside a larger part of its profits as provisions. This leaves less money for fresh lending, and the bank often turns cautious, approving only the safest loan applications. Small businesses, usually seen as riskier borrowers, tend to feel the squeeze first.\nWhich of the following can be inferred from the passage?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Banks earn higher profits when their non-performing assets rise",
+        "Small businesses rarely repay the loans they take",
+        "Provisions are used mainly to give fresh loans to small businesses",
+        "A rise in a bank's bad loans can make it harder for small businesses to get credit"
+      ],
+      "answer": 3,
+      "explanation": "Chain in the passage: rising NPAs → more provisions → less money for lending → only the safest loans approved.\nSmall businesses are seen as riskier, so they 'feel the squeeze first', i.e. find it harder to borrow.\nA contradicts the passage (profits go into provisions), B is an extreme claim ('seen as riskier' is not 'rarely repay'), and C reverses the role of provisions.\nThe valid inference is that rising bad loans make credit harder for small businesses."
+    },
+    {
+      "text": "Choose the word that best fills the blank in the passage.\nPassage: The bank offered an attractive interest rate on its new deposit scheme. ______, very few customers opened accounts, because the branch was far from the town centre.",
+      "difficulty": "EASY",
+      "options": [
+        "Therefore",
+        "However",
+        "Moreover",
+        "Similarly"
+      ],
+      "answer": 1,
+      "explanation": "The first sentence gives a reason to expect many customers; the second says very few came.\nThis is a contrast, so a contrast connector is needed.\n'Therefore' shows result, 'Moreover' adds a similar point and 'Similarly' shows comparison, so none of them fit.\nThe answer is 'However'."
+    },
+    {
+      "text": "Choose the option that correctly fills all three numbered blanks.\nPassage: The rise of mobile banking has (1) ______ the way people manage money. Customers no longer need to (2) ______ a branch to check their balance or transfer funds. (3) ______, concerns about cyber fraud have grown alongside this convenience.",
+      "difficulty": "MEDIUM",
+      "options": [
+        "transformed / visit / However",
+        "transformed / visiting / Therefore",
+        "transform / visit / Moreover",
+        "transferred / visit / However"
+      ],
+      "answer": 0,
+      "explanation": "Blank 1: after 'has' we need a past participle meaning 'changed completely', so 'transformed' ('transform' is the wrong form and 'transferred' the wrong meaning).\nBlank 2: 'need to' is followed by the base verb, so 'visit', not 'visiting'.\nBlank 3: fraud concerns contrast with the benefits just described, so 'However'.\nOnly 'transformed / visit / However' fits all three blanks."
+    },
+    {
+      "text": "Read the passage and answer the question.\nPassage: The start-up's early success proved to be a flash in the pan. Within two years, its sales had collapsed and most of its investors had pulled out.\nAs used in the passage, 'a flash in the pan' means:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "A carefully planned business strategy",
+        "Steady growth over a long period",
+        "A sudden success that does not last",
+        "A dangerous accident at the workplace"
+      ],
+      "answer": 2,
+      "explanation": "The sentence after the phrase explains it: sales collapsed and investors left within two years.\nSo the early success was short-lived.\n'A flash in the pan' is an idiom for something that looks impressive at first but quickly fails.\nOption B is the opposite, and A and D do not match the context.\nAnswer: a sudden success that does not last."
+    },
+    {
+      "text": "Read the passage and answer the question.\nPassage: Self-help groups (SHGs) usually consist of 10 to 20 women from similar economic backgrounds. Members save small amounts regularly and pool the money to lend to one another at reasonable rates. Once a group has built a steady record of saving and repayment, banks can lend to it, often without any collateral. Apart from credit, SHGs give women a platform to discuss social issues and gain confidence.\nWhich of the following is NOT stated in the passage?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Members pool their savings to lend within the group",
+        "Banks may lend to an SHG without collateral",
+        "SHGs are formed and fully funded by the government",
+        "SHGs help women build confidence"
+      ],
+      "answer": 2,
+      "explanation": "A is stated: members 'pool the money to lend to one another'.\nB is stated: banks lend 'often without any collateral'.\nD is stated: SHGs help women 'gain confidence'.\nThe passage never says the government forms or funds SHGs; their money comes from members' savings and bank loans.\nSo option C is NOT stated."
+    },
+    {
+      "text": "Read the passage and answer the question.\nPassage: Some economists argue that waiving farm loans brings only temporary relief. A waiver clears existing dues, but it does nothing to raise crop prices, improve irrigation or lower the cost of seeds and fertiliser. Worse, repeated waivers may tempt borrowers who are able to pay to delay repayment in the hope of the next waiver, weakening the repayment culture on which rural banks depend.\nThe primary purpose of the passage is to:",
+      "difficulty": "HARD",
+      "options": [
+        "argue that farmers who can repay their loans deliberately refuse to do so",
+        "show that crop prices fall whenever farm loans are waived",
+        "recommend that rural banks stop lending to farmers",
+        "present the view that loan waivers offer only short-term relief and may weaken repayment discipline"
+      ],
+      "answer": 3,
+      "explanation": "The passage states a claim (waivers give only temporary relief) and supports it with two reasons: waivers ignore root causes such as prices, irrigation and input costs, and repeated waivers may hurt repayment culture.\nOption A exaggerates one supporting detail ('may tempt' some borrowers is not 'deliberately refuse').\nOption B misreads the text: waivers do not raise prices, which is different from making prices fall.\nOption C is never suggested.\nSo the primary purpose is to present the view that waivers give short-term relief and may weaken repayment discipline."
+    },
+    {
+      "text": "Choose the pair of words that best fills the blanks in the passage.\nPassage: The committee's proposals were ______ with scepticism by industry leaders, who felt that the new rules would raise compliance costs without ______ any real benefit to consumers.",
+      "difficulty": "HARD",
+      "options": [
+        "greeted / delivering",
+        "applauded / delivering",
+        "greeted / withholding",
+        "celebrated / yielding"
+      ],
+      "answer": 0,
+      "explanation": "The leaders were doubtful, so the first word must sit naturally with 'with scepticism'; 'greeted with scepticism' is a standard collocation, while 'applauded' and 'celebrated' contradict scepticism.\nThe complaint is that costs rise but consumers gain nothing, so the second blank needs 'delivering' (providing) a benefit.\n'Without withholding any real benefit' would reverse the intended meaning.\nAnswer: greeted / delivering."
+    },
+    {
+      "text": "Read the passage and choose the most suitable title.\nPassage: Credit cards offer convenience and an interest-free period, but they can become costly if the bill is not paid in full. Interest on the unpaid balance is charged at high rates, and late payments also hurt the user's credit score. Using a card wisely means spending only what one can repay by the due date.",
+      "difficulty": "EASY",
+      "options": [
+        "The Benefits of Borrowing More",
+        "Using Credit Cards Responsibly",
+        "How the RBI Sets Interest Rates",
+        "The History of Plastic Money"
+      ],
+      "answer": 1,
+      "explanation": "The passage weighs the convenience of credit cards against their costs (high interest, damage to the credit score).\nIt ends with advice to spend only what can be repaid on time.\nOption A contradicts that advice, while C and D are topics the passage does not discuss.\nBest title: Using Credit Cards Responsibly."
+    },
+    {
+      "text": "In the passage below, four words are given in capitals. Choose the word that is NOT appropriate in the context.\nPassage: Despite repeated reminders, the borrower continued to IGNORE the bank's notices, and the account was eventually CLASSIFIED as a bad loan. The bank then INITIATED recovery proceedings, which the borrower tried to DELIGHT through a series of legal appeals.",
+      "difficulty": "MEDIUM",
+      "options": [
+        "IGNORE",
+        "CLASSIFIED",
+        "INITIATED",
+        "DELIGHT"
+      ],
+      "answer": 3,
+      "explanation": "'Continued to ignore the notices' fits a defaulting borrower.\n'Classified as a bad loan' and 'initiated recovery proceedings' are correct banking usage.\nA borrower files legal appeals to slow down recovery, so the word needed is 'delay' or 'stall'; 'delight' means to please and makes no sense here.\nThe inappropriate word is DELIGHT."
+    }
+  ]
+}

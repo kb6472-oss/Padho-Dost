@@ -1,0 +1,159 @@
+{
+  "exam": "wbcs",
+  "subject": "indian-history",
+  "chapter": "modern-india-freedom",
+  "notes": {
+    "summary": "This chapter covers India from the start of British rule in Bengal (Plassey 1757, Buxar 1764) through Company policies, the Revolt of 1857, the rise of the Congress and the Gandhian mass movements, to independence in 1947. WBCS asks direct questions on Governor-Generals and their measures, battles and treaties, movements and their leaders, and chronological order.",
+    "keyPoints": [
+      "Battles: Plassey 1757 (Clive vs Siraj-ud-Daula); Buxar 1764 (Hector Munro vs Mir Qasim, Shuja-ud-Daula and Shah Alam II). The Treaty of Allahabad (1765) then gave the Company the Diwani of Bengal, Bihar and Orissa.",
+      "Governor-Generals and their measures: Warren Hastings (first Governor-General of Bengal, Regulating Act 1773); Cornwallis (Permanent Settlement, 1793); Wellesley (Subsidiary Alliance, Hyderabad first in 1798); Bentinck (abolition of Sati, 1829); Dalhousie (Doctrine of Lapse, Satara first in 1848; annexation of Awadh, 1856).",
+      "Land revenue: Permanent (Zamindari) Settlement in Bengal; Ryotwari in Madras and Bombay (Thomas Munro); Mahalwari in north-west India.",
+      "1857: Mangal Pandey at Barrackpore (March 1857); the revolt broke out at Meerut on 10 May 1857; Canning was Governor-General.",
+      "Congress: founded 1885 (A.O. Hume; first president W.C. Bonnerjee); split at Surat 1907; Lucknow Pact 1916; Purna Swaraj at Lahore 1929 under Nehru.",
+      "Gandhian phase: Champaran 1917 (indigo); Kheda and Ahmedabad 1918; Rowlatt Satyagraha 1919; Jallianwala Bagh 13 April 1919; Non-Cooperation 1920-22 (ended after Chauri Chaura); Dandi March 1930; Gandhi-Irwin Pact 1931; Second Round Table Conference 1931; Poona Pact 1932; Quit India 8 August 1942.",
+      "Final sequence: August Offer 1940, Individual Satyagraha 1940, Cripps Mission 1942, Quit India 1942, Wavell Plan and Simla Conference 1945, Cabinet Mission 1946, Mountbatten Plan (3 June 1947), Independence 15 August 1947."
+    ],
+    "traps": [
+      "Treating Awadh (1856) as a Doctrine of Lapse case. It was annexed on the charge of misgovernment.",
+      "Naming Robert Clive as the victor of Buxar. The commander was Hector Munro.",
+      "Confusing Dyer (who ordered the firing at Jallianwala Bagh) with O'Dwyer (Lieutenant-Governor of Punjab).",
+      "Assuming Gandhi attended all the Round Table Conferences. He attended only the Second (1931).",
+      "Including Attlee or Wavell in the Cabinet Mission. Its members were Pethick-Lawrence, Cripps and A.V. Alexander."
+    ],
+    "examTip": "Learn modern India as year-ordered pairs of event and Governor-General/Viceroy. That one list cracks most WBCS questions and nearly all chronology items."
+  },
+  "questions": [
+    {
+      "text": "Who ordered the troops to open fire on the unarmed crowd at Jallianwala Bagh, Amritsar, on 13 April 1919?",
+      "difficulty": "EASY",
+      "options": [
+        "Sir Michael O'Dwyer",
+        "Brigadier-General Reginald Dyer",
+        "Lord Chelmsford",
+        "Lord Irwin"
+      ],
+      "answer": 1,
+      "explanation": "Brigadier-General Reginald Dyer led troops into Jallianwala Bagh on Baisakhi day, 13 April 1919, and ordered them to fire without warning on a crowd protesting arrests under the Rowlatt Act.\nSir Michael O'Dwyer was the Lieutenant-Governor of Punjab who backed Dyer (Udham Singh shot him in London in 1940), and Lord Chelmsford was the Viceroy.\nRabindranath Tagore gave up his knighthood in protest.\nAnswer: Brigadier-General Reginald Dyer."
+    },
+    {
+      "text": "Mahatma Gandhi's first satyagraha in India, at Champaran in Bihar in 1917, was launched in support of peasants who were forced to grow which crop?",
+      "difficulty": "EASY",
+      "options": [
+        "Indigo",
+        "Cotton",
+        "Opium",
+        "Jute"
+      ],
+      "answer": 0,
+      "explanation": "Under the tinkathia system, Champaran peasants had to grow indigo on 3 out of every 20 kathas of their land for European planters.\nInvited by Rajkumar Shukla, Gandhi went to Champaran in 1917, and the government inquiry that followed ended the system.\nHis next struggles were the Ahmedabad mill strike and the Kheda satyagraha over land revenue, both in 1918.\nAnswer: Indigo."
+    },
+    {
+      "text": "The Poona Pact (September 1932), which ended Mahatma Gandhi's fast in Yerawada Jail, was an agreement with which leader representing the Depressed Classes?",
+      "difficulty": "EASY",
+      "options": [
+        "Muhammad Ali Jinnah",
+        "Ramsay MacDonald",
+        "B.R. Ambedkar",
+        "Lord Willingdon"
+      ],
+      "answer": 2,
+      "explanation": "British Prime Minister Ramsay MacDonald's Communal Award (August 1932) gave separate electorates to the Depressed Classes, and Gandhi began a fast unto death against it.\nOn 24 September 1932, Dr B.R. Ambedkar for the Depressed Classes and Madan Mohan Malaviya for the caste Hindus signed the Poona Pact: joint electorates with 148 reserved seats instead of the 71 under the Award.\nMacDonald issued the Award; he was not part of the Pact.\nAnswer: B.R. Ambedkar."
+    },
+    {
+      "text": "Who commanded the East India Company's army that defeated the combined forces of Mir Qasim, Shuja-ud-Daula and Shah Alam II at the Battle of Buxar (1764)?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Robert Clive",
+        "Sir Eyre Coote",
+        "Lord Cornwallis",
+        "Major Hector Munro"
+      ],
+      "answer": 3,
+      "explanation": "Major Hector Munro led the Company's troops at Buxar in October 1764.\nRobert Clive had won at Plassey (1757) and came back after Buxar to sign the Treaty of Allahabad (1765). Eyre Coote defeated the French at Wandiwash (1760).\nUnlike Plassey, Buxar was a real military contest, and it confirmed British supremacy in Bengal and Bihar.\nAnswer: Major Hector Munro."
+    },
+    {
+      "text": "The Permanent Settlement of 1793, which made zamindars the owners of land in Bengal with a fixed revenue demand, was introduced by:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Warren Hastings",
+        "Lord Cornwallis",
+        "Lord Wellesley",
+        "Sir Thomas Munro"
+      ],
+      "answer": 1,
+      "explanation": "Lord Cornwallis, helped by John Shore, made the ten-year (decennial) settlement permanent in 1793 for Bengal, Bihar and Orissa.\nZamindars paid a fixed amount, and their estates could be sold if they failed to pay by sunset on the due date (the 'Sunset Law').\nThomas Munro is linked with the Ryotwari system in Madras, and Hastings had tried five-year farming settlements (1772).\nAnswer: Lord Cornwallis."
+    },
+    {
+      "text": "Which was the first Indian state to accept Lord Wellesley's Subsidiary Alliance, in 1798?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Hyderabad",
+        "Mysore",
+        "Awadh",
+        "Gwalior"
+      ],
+      "answer": 0,
+      "explanation": "Under the Subsidiary Alliance, a ruler kept British troops in his state at his own cost, accepted a British Resident and could not deal with other powers without British consent.\nThe Nizam of Hyderabad accepted it first, in 1798.\nMysore was brought in after Tipu Sultan's death in 1799, and Awadh signed in 1801, giving up much of its territory.\nAnswer: Hyderabad."
+    },
+    {
+      "text": "Under Lord Dalhousie's Doctrine of Lapse, which state was the first to be annexed, in 1848?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Jhansi",
+        "Nagpur",
+        "Satara",
+        "Awadh"
+      ],
+      "answer": 2,
+      "explanation": "The Doctrine of Lapse denied adopted heirs the right to succeed to a dependent state.\nSatara (1848) was the first state annexed; Sambalpur (1849), Jhansi (1853-54) and Nagpur (1854) followed.\nAwadh (1856) was annexed on the charge of misgovernment, not under the Doctrine of Lapse. This is the classic trap.\nAnswer: Satara."
+    },
+    {
+      "text": "The Rowlatt Act (1919), against which Gandhi launched a nationwide satyagraha, was bitterly opposed mainly because it:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "introduced separate electorates for Muslims",
+        "imposed a new tax on salt",
+        "divided the province of Punjab",
+        "allowed the government to imprison political suspects without trial"
+      ],
+      "answer": 3,
+      "explanation": "The Anarchical and Revolutionary Crimes Act, 1919, based on the Rowlatt Committee's report, let the government detain suspects without trial for up to two years and try cases without juries.\nIndians summed it up as 'no vakil, no daleel, no appeal'.\nSeparate electorates came with the Morley-Minto Reforms (1909), and the salt tax was the issue of the 1930 Dandi March.\nAnswer: It allowed the government to imprison political suspects without trial."
+    },
+    {
+      "text": "Mahatma Gandhi attended which of the three Round Table Conferences in London as the sole representative of the Indian National Congress?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "The First (1930-31)",
+        "The Second (1931)",
+        "The Third (1932)",
+        "All three"
+      ],
+      "answer": 1,
+      "explanation": "The Congress boycotted the First Round Table Conference (November 1930 to January 1931) because the Civil Disobedience Movement was on.\nAfter the Gandhi-Irwin Pact (March 1931), Gandhi attended the Second Conference (September to December 1931) as the Congress's only representative.\nThe Congress again stayed away from the Third (November-December 1932).\nAnswer: The Second (1931)."
+    },
+    {
+      "text": "Which of the following was NOT a member of the Cabinet Mission that came to India in 1946?",
+      "difficulty": "HARD",
+      "options": [
+        "Lord Pethick-Lawrence",
+        "Sir Stafford Cripps",
+        "A.V. Alexander",
+        "Clement Attlee"
+      ],
+      "answer": 3,
+      "explanation": "The Cabinet Mission (March-June 1946) had three British Cabinet ministers: Lord Pethick-Lawrence (Secretary of State for India, its leader), Sir Stafford Cripps (President of the Board of Trade) and A.V. Alexander (First Lord of the Admiralty).\nPrime Minister Clement Attlee sent the Mission but did not come to India.\nThe Mission's plan proposed a three-tier structure with groups of provinces, and an interim government.\nAnswer: Clement Attlee."
+    },
+    {
+      "text": "Arrange the following in chronological order:\n1. Cripps Mission\n2. August Offer\n3. Individual Satyagraha\n4. Wavell Plan and Simla Conference",
+      "difficulty": "HARD",
+      "options": [
+        "2, 3, 1, 4",
+        "3, 2, 1, 4",
+        "2, 1, 3, 4",
+        "1, 2, 3, 4"
+      ],
+      "answer": 0,
+      "explanation": "Viceroy Linlithgow made the August Offer in August 1940 (2).\nThe Congress rejected it and began the Individual Satyagraha in October 1940, with Vinoba Bhave as the first satyagrahi (3).\nThe Cripps Mission came in March 1942 (1).\nThe Wavell Plan was discussed at the Simla Conference in June-July 1945 (4).\nOrder: 2, 3, 1, 4."
+    }
+  ]
+}

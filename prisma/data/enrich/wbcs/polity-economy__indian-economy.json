@@ -1,0 +1,107 @@
+{
+  "exam": "wbcs",
+  "subject": "polity-economy",
+  "chapter": "indian-economy",
+  "notes": {
+    "summary": "Indian Economy in WBCS Prelims covers basic economic concepts, planning, banking and the RBI's monetary tools, public finance and the budget, taxation, the external sector and development indicators. Questions mix concepts and facts: definitions (types of deficit, CRR and SLR, types of inflation), institutions and committees, and landmark events such as bank nationalisation and the 1991 reforms.",
+    "keyPoints": [
+      "Sectors: primary means agriculture, fishing and mining. Secondary means manufacturing, construction and electricity. Tertiary means services such as banking, transport, trade and IT.",
+      "Planning: the Planning Commission was set up in 1950. The First Plan (1951-56) used the Harrod-Domar model and focused on agriculture. The Second Plan (1956-61) used the Mahalanobis model and stressed heavy industry. NITI Aayog replaced the Planning Commission on 1 January 2015.",
+      "RBI tools: CRR is cash a bank keeps with the RBI. SLR is liquid assets (cash, gold, approved government securities) a bank keeps with itself. Repo is the rate at which the RBI lends to banks, and reverse repo is the rate at which it absorbs their surplus funds. Raising any of these tightens money supply.",
+      "Deficits: Revenue deficit = revenue expenditure - revenue receipts. Fiscal deficit = total expenditure - (revenue receipts + non-debt capital receipts), which equals total borrowing. Primary deficit = fiscal deficit - interest payments. Example: TE 48, RR 30, non-debt CR 2 and interest 11 give FD 16 and PD 5.",
+      "Taxes: the burden of a direct tax (income tax, corporation tax) cannot be shifted to anyone else. The burden of an indirect tax (GST, customs) passes to the consumer. Income-tax slabs make the system progressive. GST began on 1 July 2017, with CGST + SGST on supplies within a State and IGST on supplies between States.",
+      "Money supply: M1 = currency with the public + demand deposits with banks + other deposits with the RBI (narrow money). M3 = M1 + time deposits with banks (broad money). M2 and M4 add post office savings deposits.",
+      "Banking milestones: 14 major banks were nationalised on 19 July 1969 and 6 more on 15 April 1980. The Narasimham Committee (1991) recommended banking reforms. NABARD (1982) handles rural and agricultural credit, and SIDBI (1990) handles small industries.",
+      "External sector: the Balance of Payments has a current account (goods, services, income and remittances) and a capital account (FDI, FPI, external loans and NRI deposits). The 1991 BoP crisis led to the LPG reforms: liberalisation, privatisation and globalisation.",
+      "Revolutions: Green for foodgrains (wheat and rice), White for milk (Operation Flood, Dr. Verghese Kurien), Blue for fish, Yellow for oilseeds.",
+      "The Human Development Index is published by UNDP (since 1990). It combines a long and healthy life (life expectancy), knowledge (years of schooling) and a decent standard of living (GNI per capita, PPP)."
+    ],
+    "traps": [
+      "Confusing CRR with SLR. CRR is cash kept with the RBI. SLR is assets the bank holds itself.",
+      "Taking fiscal deficit as total expenditure minus revenue receipts only. Non-debt capital receipts (loan recoveries and disinvestment) must also be subtracted.",
+      "Putting remittances or software exports in the capital account. Both are current-account items, while FDI and FPI belong to the capital account.",
+      "Swapping the planning models. Harrod-Domar was used for the First Plan and Mahalanobis for the Second.",
+      "Assuming indirect taxes are progressive. A flat tax on essentials takes a larger share of a poor family's income, so in effect it is regressive."
+    ],
+    "examTip": "Before solving any budget-number question, write FD = TE - RR - non-debt CR and PD = FD - interest in the margin. Most wrong options are the answers you get by leaving out one term."
+  },
+  "questions": [
+    {
+      "text": "Which institution, set up in 1982, is the apex development bank for agriculture and rural development in India?",
+      "difficulty": "EASY",
+      "options": ["SIDBI", "EXIM Bank", "NABARD", "National Housing Bank"],
+      "answer": 2,
+      "explanation": "NABARD (National Bank for Agriculture and Rural Development) was set up on 12 July 1982 on the recommendation of the CRAFICARD committee headed by B. Sivaraman.\nThe other options serve different sectors: SIDBI (1990) small industries, EXIM Bank foreign trade, and National Housing Bank (1988) housing finance.\nAnswer: NABARD."
+    },
+    {
+      "text": "The 'White Revolution' in India, carried out through Operation Flood, is associated with a sharp increase in the production of:",
+      "difficulty": "EASY",
+      "options": ["Milk", "Fish", "Oilseeds", "Eggs"],
+      "answer": 0,
+      "explanation": "Operation Flood was launched in 1970 by the National Dairy Development Board under Dr. Verghese Kurien. It built a nationwide network of dairy cooperatives.\nThe other colours: the Blue Revolution is fish, the Yellow Revolution is oilseeds, and the Silver Revolution is eggs.\nAnswer: Milk."
+    },
+    {
+      "text": "The Human Development Index (HDI), which combines life expectancy, education and per capita income, is published in the Human Development Report of:",
+      "difficulty": "EASY",
+      "options": ["The World Bank", "The International Monetary Fund", "The World Trade Organization", "The United Nations Development Programme"],
+      "answer": 3,
+      "explanation": "The Human Development Report has been published by UNDP since 1990. The index was developed by Mahbub ul Haq with contributions from Amartya Sen.\nThe World Bank publishes the World Development Report, and the IMF publishes the World Economic Outlook.\nAnswer: The United Nations Development Programme."
+    },
+    {
+      "text": "A tax system in which the rate of tax rises as the taxpayer's income rises is called a:",
+      "difficulty": "MEDIUM",
+      "options": ["Proportional tax", "Progressive tax", "Regressive tax", "Indirect tax"],
+      "answer": 1,
+      "explanation": "A progressive tax charges higher rates on higher income slabs, as India's income-tax slabs do.\nA proportional tax charges the same rate at every income level.\nA regressive tax takes a larger share of income from the poor than from the rich.\n'Indirect tax' describes how a tax is collected, not how its rate changes with income.\nAnswer: Progressive tax."
+    },
+    {
+      "text": "India's Second Five-Year Plan (1956-61), which stressed rapid industrialisation through heavy and basic industries, was based on a model prepared by:",
+      "difficulty": "MEDIUM",
+      "options": ["Harrod and Domar", "D.R. Gadgil", "P.C. Mahalanobis", "M. Visvesvaraya"],
+      "answer": 2,
+      "explanation": "Prof. P.C. Mahalanobis, founder of the Indian Statistical Institute in Kolkata, drew up the model behind the Second Plan.\nThe First Plan (1951-56) was based on the Harrod-Domar model.\nThe Gadgil formula (Fourth Plan) decided central assistance to States, and Visvesvaraya wrote 'Planned Economy for India' (1934).\nAnswer: P.C. Mahalanobis."
+    },
+    {
+      "text": "How many major commercial banks were nationalised by the Government of India on 19 July 1969?",
+      "difficulty": "MEDIUM",
+      "options": ["6", "14", "20", "8"],
+      "answer": 1,
+      "explanation": "In 1969 the government nationalised the 14 banks that each held deposits of more than ₹50 crore.\nA second round on 15 April 1980 nationalised 6 more, which made 20 in all.\nAnswer: 14."
+    },
+    {
+      "text": "The Statutory Liquidity Ratio (SLR) is the share of a bank's net demand and time liabilities that it must:",
+      "difficulty": "MEDIUM",
+      "options": ["Keep as a cash balance with the Reserve Bank of India", "Lend compulsorily to priority sectors such as agriculture", "Pay to the RBI as interest on overnight borrowings", "Maintain with itself in liquid assets such as cash, gold and approved government securities"],
+      "answer": 3,
+      "explanation": "Cash kept with the RBI is the Cash Reserve Ratio (CRR), not the SLR.\nSLR assets are held by the bank itself, in cash, gold or approved government securities.\nRaising the SLR leaves banks less money to lend, so it tightens credit.\nPriority-sector lending is a separate target, and interest on overnight borrowing from the RBI is the repo rate.\nAnswer: Maintain with itself in liquid assets such as cash, gold and approved government securities."
+    },
+    {
+      "text": "Which of the following transactions is recorded in the capital account of India's Balance of Payments?",
+      "difficulty": "MEDIUM",
+      "options": ["Foreign Direct Investment by a foreign company in an Indian firm", "Export of software services by an Indian IT firm", "Money sent home by Indians working abroad", "Import of crude oil"],
+      "answer": 0,
+      "explanation": "The current account records trade in goods (crude oil imports), trade in services (software exports), income, and transfers such as remittances from Indians working abroad.\nThe capital account records investment and loans: FDI, FPI, external commercial borrowing and NRI deposits.\nAnswer: Foreign Direct Investment by a foreign company in an Indian firm."
+    },
+    {
+      "text": "The Committee on the Financial System (1991), whose report led to banking reforms such as lower CRR and SLR and the entry of new private banks, was headed by:",
+      "difficulty": "MEDIUM",
+      "options": ["Raja J. Chelliah", "M. Narasimham", "R.N. Malhotra", "Vijay Kelkar"],
+      "answer": 1,
+      "explanation": "M. Narasimham headed the 1991 Committee on the Financial System and a second committee on banking sector reforms in 1998.\nRaja Chelliah headed the Tax Reforms Committee (1991).\nR.N. Malhotra headed the committee on insurance sector reforms (1993).\nVijay Kelkar headed the 2002 task forces on direct and indirect taxes.\nAnswer: M. Narasimham."
+    },
+    {
+      "text": "Study the budget data of a government (all figures in ₹ lakh crore):\nRevenue receipts: 30\nNon-debt capital receipts (recovery of loans + disinvestment): 2\nTotal expenditure: 48\nInterest payments: 11\nWhat is the primary deficit?",
+      "difficulty": "HARD",
+      "options": ["₹16 lakh crore", "₹7 lakh crore", "₹5 lakh crore", "₹27 lakh crore"],
+      "answer": 2,
+      "explanation": "Step 1: Fiscal deficit = total expenditure - (revenue receipts + non-debt capital receipts) = 48 - (30 + 2) = 16.\nStep 2: Primary deficit = fiscal deficit - interest payments = 16 - 11 = 5.\nThe wrong options come from common slips: 16 stops at the fiscal deficit, 7 forgets the non-debt receipts (18 - 11), and 27 adds the interest instead of subtracting it.\nAnswer: ₹5 lakh crore."
+    },
+    {
+      "text": "Under the money-supply measures the RBI traditionally uses (M1 to M4), which of the following is NOT a component of M3 ('broad money')?",
+      "difficulty": "HARD",
+      "options": ["Deposits with the post office savings organisation", "Currency held by the public", "Demand deposits with banks", "Time deposits with banks"],
+      "answer": 0,
+      "explanation": "M1 = currency with the public + demand deposits with banks + other deposits with the RBI.\nM2 = M1 + savings deposits with post office savings banks.\nM3 = M1 + net time deposits with banks.\nM4 = M3 + total deposits with the post office savings organisation (excluding NSCs).\nPost office deposits enter only M2 and M4, so they are not part of M3.\nAnswer: Deposits with the post office savings organisation."
+    }
+  ]
+}

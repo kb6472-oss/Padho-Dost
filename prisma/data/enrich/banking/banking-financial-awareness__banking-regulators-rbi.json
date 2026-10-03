@@ -1,0 +1,161 @@
+{
+  "exam": "banking",
+  "subject": "banking-financial-awareness",
+  "chapter": "banking-regulators-rbi",
+  "notes": {
+    "summary": "This chapter covers the Reserve Bank of India - its history, legal basis, functions and monetary policy tools - along with the other financial-sector regulators. IBPS and SBI papers ask direct factual questions on establishment, Acts and sections, policy instruments (CRR, SLR, repo, reverse repo, MSF, OMO), the Monetary Policy Committee and which regulator controls which market.",
+    "keyPoints": [
+      "RBI was set up on 1 April 1935 under the RBI Act, 1934, on the recommendation of the Hilton Young Commission (1926), and nationalised on 1 January 1949. Its central office moved from Calcutta to Bombay (Mumbai) in 1937.",
+      "First Governor: Sir Osborne Smith; first Indian Governor: C.D. Deshmukh.",
+      "Key roles: issuer of currency (the ₹1 note and coins are issued by the Government of India), banker to the Government, banker's bank and lender of last resort, regulator of banks, and manager of foreign exchange under FEMA, 1999.",
+      "Legal basis of reserves: CRR - Section 42 of the RBI Act, 1934 (kept as cash with RBI); SLR - Section 24 of the Banking Regulation Act, 1949 (kept by the bank itself in cash, gold or approved securities).",
+      "Policy rates: Repo - RBI lends to banks against securities; Reverse repo - RBI borrows from banks; MSF - overnight borrowing by banks, allowed to dip into SLR holdings up to a limit, at a rate above repo; Bank Rate - rate at which RBI buys or rediscounts bills; SDF (from 2022) - absorbs surplus funds without collateral.",
+      "Open Market Operations: RBI buys government securities to inject liquidity and sells them to absorb liquidity.",
+      "Quantitative tools (change the overall volume of credit): CRR, SLR, repo, bank rate, OMO. Qualitative or selective tools (direct credit to or away from sectors): margin requirements, credit rationing, moral suasion, direct action.",
+      "Monetary Policy Committee (set up in 2016 under the amended RBI Act): 6 members - 3 from RBI including the Governor as chairperson and 3 external members appointed by the Central Government; quorum 4; majority vote, with the Governor holding a casting vote in a tie.",
+      "Other regulators: SEBI - securities markets and, since the 2015 merger of the Forward Markets Commission, commodity derivatives; IRDAI - insurance; PFRDA - pensions and NPS; NABARD - rural credit; DICGC - deposit insurance (a wholly owned subsidiary of RBI)."
+    ],
+    "traps": [
+      "Confusing repo (RBI lends to banks) with reverse repo (RBI borrows from banks).",
+      "Mixing up the legal basis: CRR comes from the RBI Act, 1934 and SLR from the Banking Regulation Act, 1949.",
+      "Naming Sir Osborne Smith as the first Indian Governor; he was the first Governor, while C.D. Deshmukh was the first Indian Governor.",
+      "Thinking RBI sells securities to inject liquidity; selling absorbs money, buying injects it.",
+      "Assuming FERA still governs foreign exchange; it was replaced by FEMA in 1999."
+    ],
+    "examTip": "For any policy-tool question, first ask whether money is flowing into banks or out of banks - that single check settles most repo, reverse repo, CRR and OMO options."
+  },
+  "questions": [
+    {
+      "text": "The Reserve Bank of India was established under which Act?",
+      "difficulty": "EASY",
+      "options": [
+        "Banking Regulation Act, 1949",
+        "Companies Act, 1956",
+        "Reserve Bank of India Act, 1934",
+        "Negotiable Instruments Act, 1881"
+      ],
+      "answer": 2,
+      "explanation": "The RBI Act was passed in 1934, and the RBI began operations under it on 1 April 1935.\nThe Banking Regulation Act, 1949 is the law under which RBI regulates banks, not the one that created RBI.\nThe Negotiable Instruments Act deals with cheques and bills, and the Companies Act with companies.\nAnswer: Reserve Bank of India Act, 1934."
+    },
+    {
+      "text": "The reverse repo rate is the rate at which:",
+      "difficulty": "EASY",
+      "options": [
+        "The RBI borrows funds from commercial banks",
+        "The RBI lends short-term funds to commercial banks",
+        "Commercial banks lend to their most creditworthy corporate customers",
+        "Banks lend to one another in the call money market"
+      ],
+      "answer": 0,
+      "explanation": "Under repo, the RBI lends to banks against securities.\nReverse repo is the opposite: banks park surplus funds with the RBI, i.e. the RBI borrows from banks and pays them this rate.\nOption B describes the repo rate, C a prime lending rate and D the call rate.\nAnswer: the rate at which the RBI borrows funds from commercial banks."
+    },
+    {
+      "text": "Who was the first Indian Governor of the Reserve Bank of India?",
+      "difficulty": "EASY",
+      "options": [
+        "Sir Osborne Smith",
+        "C.D. Deshmukh",
+        "Benegal Rama Rau",
+        "Manmohan Singh"
+      ],
+      "answer": 1,
+      "explanation": "Sir Osborne Smith was the first Governor of the RBI (1935), but he was not Indian.\nC.D. Deshmukh became the first Indian Governor in 1943.\nBenegal Rama Rau and Manmohan Singh served as Governors later.\nAnswer: C.D. Deshmukh."
+    },
+    {
+      "text": "The Reserve Bank of India was set up on the recommendation of which commission?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Narasimham Committee",
+        "Kothari Commission",
+        "Sarkaria Commission",
+        "Hilton Young Commission"
+      ],
+      "answer": 3,
+      "explanation": "The Royal Commission on Indian Currency and Finance (1926), known as the Hilton Young Commission, recommended a central bank for India.\nThis led to the RBI Act, 1934 and the setting up of the RBI in 1935.\nThe Narasimham Committees (1991, 1998) dealt with banking reforms, the Kothari Commission with education and the Sarkaria Commission with Centre-State relations.\nAnswer: Hilton Young Commission."
+    },
+    {
+      "text": "When the RBI started operations in 1935, its central office was located in which city?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Calcutta (Kolkata)",
+        "Bombay (Mumbai)",
+        "Delhi",
+        "Madras (Chennai)"
+      ],
+      "answer": 0,
+      "explanation": "The RBI's central office was first set up in Calcutta.\nIt was permanently shifted to Bombay (now Mumbai) in 1937, where it remains today.\nStudents often pick Mumbai because it is the present headquarters.\nAnswer: Calcutta (Kolkata)."
+    },
+    {
+      "text": "If the RBI wants to inject liquidity into the banking system through Open Market Operations (OMO), it will:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Sell government securities in the open market",
+        "Raise the Cash Reserve Ratio",
+        "Buy government securities in the open market",
+        "Raise the reverse repo rate"
+      ],
+      "answer": 2,
+      "explanation": "When the RBI buys government securities, it pays banks money, so liquidity in the system rises.\nSelling securities does the opposite: banks pay the RBI and liquidity is absorbed.\nRaising CRR or the reverse repo rate also pulls money out of banks, and neither is an OMO.\nAnswer: buy government securities in the open market."
+    },
+    {
+      "text": "Which of the following is a qualitative (selective) credit control tool of the RBI?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Cash Reserve Ratio",
+        "Moral suasion",
+        "Statutory Liquidity Ratio",
+        "Repo rate"
+      ],
+      "answer": 1,
+      "explanation": "Quantitative tools such as CRR, SLR and the repo rate change the overall volume of money and credit.\nQualitative tools direct credit to or away from particular sectors; they include margin requirements, credit rationing, direct action and moral suasion.\nMoral suasion is the RBI's use of persuasion, advice and meetings to get banks to follow its desired lending policy.\nAnswer: Moral suasion."
+    },
+    {
+      "text": "Under the Marginal Standing Facility (MSF), scheduled commercial banks can:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Park surplus funds with the RBI without giving any collateral",
+        "Borrow overnight funds from the RBI, even by dipping into their SLR securities up to a limit",
+        "Borrow long-term funds from NABARD for farm lending",
+        "Sell their bad loans to asset reconstruction companies"
+      ],
+      "answer": 1,
+      "explanation": "MSF, introduced by the RBI in 2011, is an emergency overnight borrowing window for banks.\nBanks borrow under it by pledging government securities, including a limited part of the securities they hold for SLR.\nThe MSF rate is higher than the repo rate, so it acts as the upper limit of the policy corridor.\nOption A describes the Standing Deposit Facility.\nAnswer: borrow overnight funds, even by dipping into SLR securities up to a limit."
+    },
+    {
+      "text": "The RBI manages foreign exchange in India mainly under which law?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Foreign Exchange Regulation Act (FERA), 1973",
+        "Prevention of Money Laundering Act, 2002",
+        "SARFAESI Act, 2002",
+        "Foreign Exchange Management Act (FEMA), 1999"
+      ],
+      "answer": 3,
+      "explanation": "FEMA, 1999 replaced the stricter FERA, 1973 and came into force in 2000.\nUnder FEMA, the RBI regulates foreign exchange transactions and manages the foreign exchange market.\nPMLA deals with money laundering and SARFAESI with recovery of bad loans.\nAnswer: FEMA, 1999."
+    },
+    {
+      "text": "Which of the following statements about the Monetary Policy Committee (MPC) of the RBI is correct?",
+      "difficulty": "HARD",
+      "options": [
+        "It has six members, and the RBI Governor has a casting vote in case of a tie",
+        "It has five members, all appointed by the Central Government",
+        "It has seven members, and its decisions must be unanimous",
+        "It is chaired by the Union Finance Minister"
+      ],
+      "answer": 0,
+      "explanation": "The MPC, constituted in 2016 under the amended RBI Act, 1934, has six members.\nThree are from the RBI (the Governor as chairperson, the Deputy Governor in charge of monetary policy and one RBI officer) and three are external members appointed by the Central Government.\nDecisions are taken by majority; if the vote is tied 3-3, the Governor has a second or casting vote.\nThe Finance Minister is not a member.\nAnswer: six members, with the Governor holding a casting vote."
+    },
+    {
+      "text": "Which of the following correctly pairs a reserve requirement with its legal basis?",
+      "difficulty": "HARD",
+      "options": [
+        "CRR - Section 24 of the Banking Regulation Act, 1949",
+        "SLR - Section 42 of the RBI Act, 1934",
+        "CRR - Section 42 of the RBI Act, 1934",
+        "SLR - Section 17 of the RBI Act, 1934"
+      ],
+      "answer": 2,
+      "explanation": "CRR is the share of deposits a bank must keep as cash with the RBI; it is prescribed under Section 42 of the RBI Act, 1934.\nSLR is the share of deposits a bank must keep itself in liquid assets (cash, gold, approved securities); it is prescribed under Section 24 of the Banking Regulation Act, 1949.\nOptions A and B swap the two sections, and Section 17 of the RBI Act lists the business the RBI may transact.\nAnswer: CRR - Section 42 of the RBI Act, 1934."
+    }
+  ]
+}

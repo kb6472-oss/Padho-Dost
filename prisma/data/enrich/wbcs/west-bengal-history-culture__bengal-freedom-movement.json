@@ -1,0 +1,160 @@
+{
+  "exam": "wbcs",
+  "subject": "west-bengal-history-culture",
+  "chapter": "bengal-freedom-movement",
+  "notes": {
+    "summary": "This chapter traces Bengal's role in the freedom struggle: the 1905 Partition and the Swadeshi-Boycott movement, the revolutionary societies (Anushilan, Jugantar), the armed actions of the 1930s in Chittagong, Calcutta and Midnapore, Subhas Chandra Bose and the INA, and the Quit India Movement in Midnapore. WBCS asks direct name-event-place questions, the dates of key turning points and chronological-order items.",
+    "keyPoints": [
+      "Partition: announced in July 1905 under Lord Curzon; boycott resolution at the Calcutta Town Hall on 7 August 1905; came into force on 16 October 1905 (Raksha Bandhan, 'Amar Sonar Bangla'); annulled by George V at the Delhi Durbar of 1911, when the capital also moved to Delhi.",
+      "Swadeshi institutions: the National Council of Education (1906) ran the Bengal National College (Aurobindo as principal) and later grew into Jadavpur University (1955); Swadeshi industries included Bengal Chemical.",
+      "Revolutionary societies: Anushilan Samiti (Calcutta 1902, president P. Mitra; Dhaka branch 1906, Pulin Behari Das); the Jugantar group and its weekly (1906, Barindra Kumar Ghosh, Bhupendranath Datta).",
+      "1908: Khudiram Bose and Prafulla Chaki bomb at Muzaffarpur (target Kingsford), then the Maniktala raid and the Alipore Bomb Case; Aurobindo acquitted with C.R. Das as defence lawyer; Kanailal Dutta and Satyendranath Bose shot the approver Naren Goswami.",
+      "1930s: Chittagong Armoury Raid (18 April 1930) and the Jalalabad battle (22 April 1930); Writers' Building attack by Binoy-Badal-Dinesh (8 December 1930); Bina Das fires at Governor Stanley Jackson (1932); Pritilata at Pahartali (1932); Surya Sen hanged in January 1934.",
+      "Subhas Chandra Bose: Congress President at Haripura (1938) and for Tripuri (1939, defeating Pattabhi Sitaramayya); Forward Bloc (1939); escape from Calcutta (January 1941); Azad Hind government at Singapore (21 October 1943).",
+      "Quit India in Midnapore: Matangini Hazra shot at Tamluk (29 September 1942); the Tamralipta Jatiya Sarkar parallel government (1942-1944).",
+      "Hijli Detention Camp firing (1931): the camp later became the first campus of IIT Kharagpur (1951)."
+    ],
+    "traps": [
+      "Mixing the two key dates of 1905: 7 August (boycott resolution) and 16 October (partition takes effect).",
+      "Confusing Pahartali (Pritilata's 1932 attack) with Jalalabad (the 1930 battle after the armoury raid).",
+      "Naming Rajendra Prasad as the candidate Bose defeated in 1939. Prasad took over after Bose resigned; the defeated candidate was Pattabhi Sitaramayya.",
+      "Taking 'Orlando Mazzotta' as Bose's disguise when he left Calcutta. That was the name on his later Italian passport; in Calcutta he posed as 'Muhammad Ziauddin'.",
+      "Crediting the annulment of Partition to a Viceroy. It was announced by King George V at the 1911 Delhi Durbar."
+    ],
+    "examTip": "For chronology questions, anchor on four years (1905, 1908, 1930, 1942) and place every Bengal event relative to them."
+  },
+  "questions": [
+    {
+      "text": "On 16 October 1905, the day the Partition of Bengal came into force, Rabindranath Tagore called on people to observe which ritual as a symbol of unity among Bengalis?",
+      "difficulty": "EASY",
+      "options": [
+        "Holi",
+        "Raksha Bandhan",
+        "Poila Baisakh",
+        "Durga Puja"
+      ],
+      "answer": 1,
+      "explanation": "16 October 1905 was observed as a day of mourning across Bengal.\nTagore urged Hindus and Muslims to tie rakhis on each other's wrists (Raksha Bandhan) to show that Bengal could not be divided.\nPeople also bathed in the Ganga and marched singing 'Amar Sonar Bangla'.\nAnswer: Raksha Bandhan."
+    },
+    {
+      "text": "Which woman revolutionary of Surya Sen's group led the 1932 attack on the Pahartali European Club in Chittagong and swallowed cyanide to avoid arrest?",
+      "difficulty": "EASY",
+      "options": [
+        "Pritilata Waddedar",
+        "Kalpana Datta",
+        "Bina Das",
+        "Matangini Hazra"
+      ],
+      "answer": 0,
+      "explanation": "Pritilata Waddedar led the raid on the Pahartali European Club in September 1932. Wounded and surrounded, she swallowed potassium cyanide and died.\nKalpana Datta, also of Surya Sen's group, was arrested and sentenced to transportation for life.\nBina Das fired at Governor Stanley Jackson, and Matangini Hazra died in the Quit India Movement.\nAnswer: Pritilata Waddedar."
+    },
+    {
+      "text": "Matangini Hazra, the elderly freedom fighter called 'Gandhi Buri', was shot dead by police in September 1942 while leading a Quit India procession at which place?",
+      "difficulty": "EASY",
+      "options": [
+        "Contai",
+        "Midnapore town",
+        "Chittagong",
+        "Tamluk"
+      ],
+      "answer": 3,
+      "explanation": "On 29 September 1942, Matangini Hazra, then in her seventies, led a procession to capture the Tamluk police station in Midnapore district.\nShe was shot several times but kept holding the national flag and chanting 'Vande Mataram'.\nTamluk is now the headquarters of Purba Medinipur district.\nAnswer: Tamluk."
+    },
+    {
+      "text": "The formal resolution to boycott British goods, which turned the anti-partition agitation into the Swadeshi Movement, was adopted at a meeting in the Calcutta Town Hall on which date?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "16 October 1905",
+        "19 July 1905",
+        "7 August 1905",
+        "15 August 1906"
+      ],
+      "answer": 2,
+      "explanation": "The partition plan was announced in July 1905.\nAt a mass meeting in the Calcutta Town Hall on 7 August 1905, the boycott resolution was passed, formally launching the Swadeshi Movement.\nThe partition itself came into force later, on 16 October 1905.\nIndia has observed National Handloom Day on 7 August since 2015 to mark this date.\nAnswer: 7 August 1905."
+    },
+    {
+      "text": "The National Council of Education, set up in 1906 during the Swadeshi Movement to provide education on national lines, eventually developed into which present-day university?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Jadavpur University",
+        "University of Calcutta",
+        "Visva-Bharati",
+        "Rabindra Bharati University"
+      ],
+      "answer": 0,
+      "explanation": "The National Council of Education (1906) ran the Bengal National College and, from 1910, the Bengal Technical Institute.\nThe technical institute grew into the College of Engineering and Technology, Jadavpur, which became Jadavpur University in 1955.\nCalcutta University dates from 1857, Visva-Bharati grew out of Tagore's school at Santiniketan, and Rabindra Bharati was founded in 1962.\nAnswer: Jadavpur University."
+    },
+    {
+      "text": "Four days after the Chittagong Armoury Raid of 18 April 1930, Surya Sen's revolutionaries fought a pitched battle with British troops on which hills near Chittagong?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Pahartali Hills",
+        "Jalalabad Hills",
+        "Garo Hills",
+        "Lalmai Hills"
+      ],
+      "answer": 1,
+      "explanation": "After seizing the Chittagong armouries on 18 April 1930, the group retreated to the Jalalabad Hills.\nOn 22 April 1930 (four days later) they fought British troops there, and more than ten revolutionaries were killed.\nPahartali is the site of the European Club attack of 1932, which is the common trap.\nAnswer: Jalalabad Hills."
+    },
+    {
+      "text": "In February 1932, at the convocation of the University of Calcutta, the student revolutionary Bina Das fired at:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Police Commissioner Charles Tegart",
+        "Magistrate Douglas Kingsford",
+        "Viceroy Lord Irwin",
+        "Governor of Bengal Sir Stanley Jackson"
+      ],
+      "answer": 3,
+      "explanation": "On 6 February 1932, while receiving her degree, Bina Das fired at the Governor of Bengal, Sir Stanley Jackson. She missed and was sentenced to nine years' rigorous imprisonment.\nCharles Tegart survived other attempts (in 1924 Gopinath Saha killed a man he mistook for Tegart), and Kingsford was Khudiram Bose's target in 1908.\nAnswer: Governor of Bengal Sir Stanley Jackson."
+    },
+    {
+      "text": "In the Congress presidential election of January 1939 (for the Tripuri session), Subhas Chandra Bose was re-elected by defeating which candidate backed by Mahatma Gandhi?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Jawaharlal Nehru",
+        "Maulana Abul Kalam Azad",
+        "Pattabhi Sitaramayya",
+        "Rajendra Prasad"
+      ],
+      "answer": 2,
+      "explanation": "Bose, who had been President at the Haripura session (1938), stood again in 1939 and defeated Pattabhi Sitaramayya.\nGandhi publicly treated the result as his own defeat.\nWhen the Working Committee would not cooperate, Bose resigned in April 1939 and Rajendra Prasad took over (the usual trap). Bose then formed the Forward Bloc.\nAnswer: Pattabhi Sitaramayya."
+    },
+    {
+      "text": "Arrange the following events in chronological order:\n1. Chittagong Armoury Raid\n2. Partition of Bengal comes into effect\n3. Formation of the Tamralipta Jatiya Sarkar at Tamluk\n4. Arrests in the Alipore (Maniktala) Bomb Case",
+      "difficulty": "MEDIUM",
+      "options": [
+        "4, 2, 1, 3",
+        "2, 4, 1, 3",
+        "2, 1, 4, 3",
+        "2, 4, 3, 1"
+      ],
+      "answer": 1,
+      "explanation": "Partition came into force on 16 October 1905 (2).\nThe Maniktala raid and the Alipore Bomb Case arrests followed the Muzaffarpur bombing in May 1908 (4).\nThe Chittagong Armoury Raid took place on 18 April 1930 (1).\nThe Tamralipta Jatiya Sarkar, a parallel government, was set up in December 1942 during the Quit India Movement (3).\nOrder: 2, 4, 1, 3."
+    },
+    {
+      "text": "The Hijli Detention Camp, where police firing on political prisoners in September 1931 killed two detenus and led to a protest meeting addressed by Rabindranath Tagore, later became the first campus of which institution?",
+      "difficulty": "HARD",
+      "options": [
+        "IIT Kharagpur",
+        "Vidyasagar University",
+        "Indian Statistical Institute",
+        "Bengal Engineering College, Shibpur"
+      ],
+      "answer": 0,
+      "explanation": "At Hijli near Kharagpur, firing on 16 September 1931 killed the detenus Santosh Kumar Mitra and Tarakeswar Sengupta, and Tagore addressed a large protest meeting in Calcutta.\nIn 1951 the camp's buildings became the first home of the Indian Institute of Technology, Kharagpur, India's first IIT.\nThe old building now houses the Nehru Museum of Science and Technology.\nAnswer: IIT Kharagpur."
+    },
+    {
+      "text": "In January 1941, Subhas Chandra Bose escaped from house arrest at his Elgin Road home in Calcutta. In which disguise did he leave the city?",
+      "difficulty": "HARD",
+      "options": [
+        "Orlando Mazzotta, an Italian diplomat",
+        "A wandering Vaishnava sadhu",
+        "A Buddhist monk from Tibet",
+        "Muhammad Ziauddin, a travelling insurance agent"
+      ],
+      "answer": 3,
+      "explanation": "On the night of 16-17 January 1941, Bose slipped out dressed as a Pathan, 'Muhammad Ziauddin', a travelling inspector for an insurance company.\nHis nephew Sisir Kumar Bose drove him to Gomoh (now in Jharkhand), where he boarded a train.\n'Orlando Mazzotta' was the name on the Italian passport he used later to travel from Kabul via Moscow to Berlin, which makes it the main trap.\nAnswer: Muhammad Ziauddin, a travelling insurance agent."
+    }
+  ]
+}

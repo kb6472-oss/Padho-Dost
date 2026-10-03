@@ -1,0 +1,126 @@
+{
+  "exam": "wbpsc-misc",
+  "subject": "practice",
+  "chapter": "misc-gs",
+  "notes": {
+    "summary": "This chapter covers the core General Studies areas of the WBPSC Miscellaneous Services exam: Indian Polity (the Constitution, Parliament, constitutional bodies), Indian History (ancient times to the freedom struggle), Indian Geography and the basics of the Indian Economy. The exam likes article numbers, 'who presides or appoints' questions, the order of events in British rule and basic economy terms.",
+    "keyPoints": [
+      "Parliament: the Vice-President is the ex officio Chairman of the Rajya Sabha (Article 89). The Speaker presides over a joint sitting (Article 108). A Money Bill can be introduced only in the Lok Sabha (Article 110).",
+      "Key articles: 14 – equality before law; 21 – life and personal liberty; 32 – constitutional remedies; 51A – Fundamental Duties; 280 – Finance Commission; 324 – Election Commission; 352, 356 and 360 – national emergency, President's Rule in a state, and financial emergency.",
+      "Fundamental Duties: added by the 42nd Amendment (1976) on the Swaran Singh Committee's recommendation. There were 10 at first; the 86th Amendment (2002) added an 11th, on educating children aged 6 to 14.",
+      "British expansion in order: Plassey 1757 → Buxar 1764 → Treaty of Allahabad (Diwani of Bengal, Bihar and Orissa) 1765 → Regulating Act 1773 → Permanent Settlement 1793 (Cornwallis).",
+      "Freedom struggle: the Revolt of 1857 began at Meerut (10 May); Champaran 1917 was Gandhi's first satyagraha in India (indigo); Kheda and Ahmedabad followed in 1918; Dandi March 1930; Quit India 1942.",
+      "Buddha: born at Lumbini, enlightened at Bodh Gaya, first sermon at Sarnath (Dharmachakra Pravartana), Mahaparinirvana at Kushinagar.",
+      "Geography: the Palk Strait separates India and Sri Lanka; the Ten Degree Channel separates the Andamans from the Nicobars; Duncan Passage lies between South Andaman and Little Andaman; the Eight Degree Channel lies between Minicoy and the Maldives. The Narmada and Tapi flow west through rift valleys into the Arabian Sea, while the Mahanadi, Godavari, Krishna and Kaveri flow east and form deltas.",
+      "Economy: GNP = GDP + net factor income from abroad, and NNP = GNP − depreciation. The First Plan (1951-56) stressed agriculture (Harrod-Domar model); the Second Plan (1956-61) stressed heavy industry (Mahalanobis model)."
+    ],
+    "traps": [
+      "Saying the President or the Rajya Sabha Chairman presides over a joint sitting. It is the Speaker of the Lok Sabha.",
+      "Putting Buxar before Plassey, or the Treaty of Allahabad before Buxar. The treaty followed the British victory at Buxar.",
+      "Choosing Barrackpore for the start of the 1857 revolt. Mangal Pandey's act there (March 1857) came earlier, but the revolt broke out at Meerut on 10 May 1857.",
+      "Mixing up GDP and GNP. GDP counts production inside the country; GNP adds income earned by residents abroad and subtracts income earned by foreigners in India.",
+      "Confusing the Ten Degree Channel (Andamans–Nicobars) with the Eight and Nine Degree Channels near Lakshadweep."
+    ],
+    "examTip": "For order-of-events questions, anchor two or three dates you are sure of (such as Plassey 1757) and strike out options. You rarely need all four dates."
+  },
+  "questions": [
+    {
+      "text": "Who is the ex officio Chairman of the Rajya Sabha?",
+      "difficulty": "EASY",
+      "options": ["The Vice-President of India", "The President of India", "The Speaker of the Lok Sabha", "The Prime Minister"],
+      "answer": 0,
+      "explanation": "Under Article 89, the Vice-President of India is the ex officio Chairman of the Rajya Sabha.\nThe Rajya Sabha also elects a Deputy Chairman from among its members.\nThe Speaker presides over the Lok Sabha, not the Rajya Sabha.\nAnswer: The Vice-President of India."
+    },
+    {
+      "text": "Gautama Buddha delivered his first sermon, known as the Dharmachakra Pravartana, at:",
+      "difficulty": "EASY",
+      "options": ["Bodh Gaya", "Kushinagar", "Sarnath", "Lumbini"],
+      "answer": 2,
+      "explanation": "After attaining enlightenment at Bodh Gaya, Buddha gave his first sermon at the Deer Park in Sarnath, near Varanasi.\nHe was born at Lumbini (Nepal) and attained Mahaparinirvana at Kushinagar.\nAnswer: Sarnath."
+    },
+    {
+      "text": "Which strait separates India from Sri Lanka?",
+      "difficulty": "EASY",
+      "options": ["Strait of Malacca", "Palk Strait", "Ten Degree Channel", "Bering Strait"],
+      "answer": 1,
+      "explanation": "The Palk Strait lies between Tamil Nadu and the northern tip of Sri Lanka, linking the Bay of Bengal with Palk Bay.\nThe chain of shoals called Adam's Bridge (Ram Setu) forms the southern edge of Palk Bay, separating it from the Gulf of Mannar.\nThe Strait of Malacca separates Malaysia from Sumatra, and the Ten Degree Channel separates the Andaman and Nicobar groups.\nAnswer: Palk Strait."
+    },
+    {
+      "text": "The Revolt of 1857 broke out on 10 May 1857 at which place?",
+      "difficulty": "EASY",
+      "options": ["Barrackpore", "Kanpur", "Delhi", "Meerut"],
+      "answer": 3,
+      "explanation": "Sepoys at Meerut rose in revolt on 10 May 1857, freed their jailed comrades and marched to Delhi, where they proclaimed Bahadur Shah Zafar emperor.\nMangal Pandey's attack on officers at Barrackpore (29 March 1857) came earlier but did not spread into a general revolt.\nAnswer: Meerut."
+    },
+    {
+      "text": "Which Article of the Constitution vests the superintendence, direction and control of elections in the Election Commission of India?",
+      "difficulty": "MEDIUM",
+      "options": ["Article 280", "Article 356", "Article 352", "Article 324"],
+      "answer": 3,
+      "explanation": "Article 324 places elections to Parliament, the State Legislatures and the offices of President and Vice-President under the Election Commission.\nArticle 280 deals with the Finance Commission, Article 352 with a national emergency, and Article 356 with President's Rule in a state.\nAnswer: Article 324."
+    },
+    {
+      "text": "A joint sitting of both Houses of Parliament, held to resolve a deadlock over an ordinary bill, is presided over by:",
+      "difficulty": "MEDIUM",
+      "options": ["The Speaker of the Lok Sabha", "The President of India", "The Chairman of the Rajya Sabha", "The Chief Justice of India"],
+      "answer": 0,
+      "explanation": "Under Article 108, the President summons a joint sitting when the two Houses disagree on an ordinary bill.\nThe Speaker of the Lok Sabha presides; if the Speaker is absent, the Deputy Speaker, and then the Deputy Chairman of the Rajya Sabha.\nThere is no joint sitting for a Money Bill or a Constitution Amendment Bill.\nAnswer: The Speaker of the Lok Sabha."
+    },
+    {
+      "text": "The Permanent Settlement of land revenue, which made zamindars the owners of land in Bengal, Bihar and Orissa, was introduced in 1793 by:",
+      "difficulty": "MEDIUM",
+      "options": ["Lord Wellesley", "Warren Hastings", "Lord Cornwallis", "Lord Dalhousie"],
+      "answer": 2,
+      "explanation": "Lord Cornwallis introduced the Permanent Settlement in 1793.\nThe revenue each zamindar had to pay was fixed for ever, and his land could be sold if the dues were not paid by the deadline (the 'sunset law').\nWarren Hastings had earlier tried auctioning revenue collection for five years at a time; Wellesley is linked with the Subsidiary Alliance and Dalhousie with the Doctrine of Lapse.\nAnswer: Lord Cornwallis."
+    },
+    {
+      "text": "The Second Five-Year Plan (1956-61), which gave top priority to rapid industrialisation and heavy industries, was based on which model?",
+      "difficulty": "MEDIUM",
+      "options": ["Harrod-Domar model", "Mahalanobis model", "Gandhian model", "Rao-Manmohan model"],
+      "answer": 1,
+      "explanation": "The Second Plan was drawn up on the model developed by the statistician P. C. Mahalanobis, which stressed basic and heavy industries.\nThe First Plan (1951-56), based on the Harrod-Domar model, focused on agriculture and irrigation.\nAnswer: Mahalanobis model."
+    },
+    {
+      "text": "Which of the following rivers flows westward and drains into the Arabian Sea?",
+      "difficulty": "MEDIUM",
+      "options": ["Narmada", "Godavari", "Krishna", "Mahanadi"],
+      "answer": 0,
+      "explanation": "The Narmada flows west through a rift valley between the Vindhya and Satpura ranges and enters the Gulf of Khambhat (Arabian Sea), forming an estuary rather than a delta.\nThe Tapi is the other major west-flowing river.\nThe Godavari, Krishna and Mahanadi flow east into the Bay of Bengal and form deltas.\nAnswer: Narmada."
+    },
+    {
+      "text": "The Gross National Product (GNP) of a country is equal to:",
+      "difficulty": "MEDIUM",
+      "options": ["GDP minus depreciation", "GDP plus indirect taxes", "GDP minus subsidies", "GDP plus net factor income from abroad"],
+      "answer": 3,
+      "explanation": "GDP measures the value of final goods and services produced within the country's borders.\nGNP adds the income residents earn abroad and subtracts the income non-residents earn in the country; the net of these is called net factor income from abroad.\nSo GNP = GDP + net factor income from abroad. GDP minus depreciation is NDP, not GNP.\nAnswer: GDP plus net factor income from abroad."
+    },
+    {
+      "text": "Mahatma Gandhi's first satyagraha in India, in 1917, was in support of which group of people?",
+      "difficulty": "MEDIUM",
+      "options": ["Mill workers of Ahmedabad", "Peasants of Kheda facing crop failure", "Indigo cultivators of Champaran", "Salt workers of Dandi"],
+      "answer": 2,
+      "explanation": "In 1917 Gandhi went to Champaran in Bihar, where European planters forced peasants to grow indigo on 3/20 of their land (the tinkathia system).\nThis was his first satyagraha in India.\nThe Ahmedabad mill strike and the Kheda satyagraha followed in 1918, and the Dandi March in 1930.\nAnswer: Indigo cultivators of Champaran."
+    },
+    {
+      "text": "The Fundamental Duties were added to the Constitution of India on the recommendation of which committee?",
+      "difficulty": "HARD",
+      "options": ["Sarkaria Commission", "Swaran Singh Committee", "Balwant Rai Mehta Committee", "Ashok Mehta Committee"],
+      "answer": 1,
+      "explanation": "The Swaran Singh Committee (1976) recommended adding Fundamental Duties.\nThe 42nd Amendment, 1976, inserted them as Part IVA, Article 51A, with 10 duties; the 86th Amendment (2002) added an 11th.\nThe Sarkaria Commission dealt with Centre-State relations, and the Balwant Rai Mehta and Ashok Mehta committees with Panchayati Raj.\nAnswer: Swaran Singh Committee."
+    },
+    {
+      "text": "The Ten Degree Channel separates which two island groups?",
+      "difficulty": "HARD",
+      "options": ["Andaman Islands and Nicobar Islands", "Lakshadweep and Maldives", "Minicoy and the Amindivi Islands", "South Andaman and Little Andaman"],
+      "answer": 0,
+      "explanation": "The Ten Degree Channel, along 10° N latitude, separates the Andaman Islands (Little Andaman) from the Nicobar Islands (Car Nicobar).\nDuncan Passage lies between South Andaman and Little Andaman, the Eight Degree Channel between Minicoy and the Maldives, and the Nine Degree Channel between Minicoy and the rest of Lakshadweep.\nAnswer: Andaman Islands and Nicobar Islands."
+    },
+    {
+      "text": "Arrange the following events in chronological order:\n1. Battle of Buxar\n2. Regulating Act\n3. Battle of Plassey\n4. Treaty of Allahabad",
+      "difficulty": "HARD",
+      "options": ["1, 3, 4, 2", "3, 4, 1, 2", "3, 1, 4, 2", "3, 1, 2, 4"],
+      "answer": 2,
+      "explanation": "Battle of Plassey – 1757.\nBattle of Buxar – 1764.\nTreaty of Allahabad – 1765 (the Company got the Diwani of Bengal, Bihar and Orissa).\nRegulating Act – 1773.\nCorrect order: 3, 1, 4, 2."
+    }
+  ]
+}

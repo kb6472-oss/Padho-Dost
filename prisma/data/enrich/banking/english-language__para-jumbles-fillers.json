@@ -1,0 +1,161 @@
+{
+  "exam": "banking",
+  "subject": "english-language",
+  "chapter": "para-jumbles-fillers",
+  "notes": {
+    "summary": "This chapter covers para jumbles (arranging jumbled sentences into a logical paragraph), odd sentence out, sentence connectors and fillers (single-word, double-word and sentence-level blanks). IBPS and SBI papers often use 5-6 sentence jumbles with questions on one position (first, third, last), fixed-position jumbles, and fillers that test both meaning and grammar.",
+    "keyPoints": [
+      "Find the opening sentence first: it introduces the topic or defines a term and does not begin with a pronoun (it, this, they) or a connector (however, therefore, also).",
+      "Look for mandatory pairs: a noun followed by the pronoun that refers to it, 'such/these/this' pointing back, and connectors like 'Instead', 'However' or 'As a result' that must follow a specific idea.",
+      "Common order in economy and banking paragraphs: definition → explanation → example → consequence → conclusion.",
+      "The concluding sentence often starts with Therefore, Thus, Hence, For this reason or In short, or gives advice.",
+      "Use the options: once the opening sentence and one strong pair are fixed, usually only one option survives.",
+      "Odd sentence out: three sentences share one specific theme and flow logically; the odd one may be on the same broad subject but breaks that theme.",
+      "Connector types: contrast (however, although, yet), result (therefore, as a result, consequently), addition (moreover, furthermore), example (for instance), sequence (first, then, finally).",
+      "'Not only' at the start of a clause needs inversion: Not only does the scheme provide accounts, but it also offers insurance.",
+      "Fillers: decide the tone needed (positive or negative) from clue words, then check grammar and collocation (made it imperative, scathing criticism, no room for doubt)."
+    ],
+    "traps": [
+      "Starting the paragraph with a sentence that opens with a pronoun or with 'However'.",
+      "Breaking a reference pair, for example placing 'such borrowers' far from the sentence that describes them.",
+      "In odd sentence out, rejecting a sentence that actually supports the theme just because it adds a new angle such as a downside.",
+      "In double fillers, choosing an option where the first word fits but the second makes the sentence illogical.",
+      "Forgetting inversion after 'Not only', 'Hardly' or 'No sooner' when the phrase begins the sentence."
+    ],
+    "examTip": "Fix the opening sentence and one obvious pair, then check the options - you rarely need to build the full order yourself."
+  },
+  "questions": [
+    {
+      "text": "Rearrange the following sentences to form a coherent paragraph.\nA: The machine then asks the customer to enter a secret PIN.\nB: To withdraw cash from an ATM, a customer first inserts or taps the debit card.\nC: Finally, the cash is dispensed along with an optional receipt.\nD: Once the PIN is verified, the customer selects the amount to be withdrawn.",
+      "difficulty": "EASY",
+      "options": [
+        "BDAC",
+        "BADC",
+        "ABDC",
+        "BACD"
+      ],
+      "answer": 1,
+      "explanation": "B starts the process ('first inserts or taps the debit card').\nA follows ('then asks the customer to enter a secret PIN').\nD needs the PIN to have been entered ('Once the PIN is verified').\nC ends it ('Finally, the cash is dispensed').\nCorrect order: BADC."
+    },
+    {
+      "text": "Rearrange the sentences to form a coherent paragraph. Which sentence comes THIRD?\nP: This erodes the purchasing power of money and hurts savers and wage earners.\nQ: Inflation refers to a sustained rise in the general level of prices.\nR: To control such a rise in prices, the central bank may raise its policy rate, making loans costlier.\nS: Costlier loans reduce borrowing and spending, which cools demand.\nT: As demand eases, the pace of price rise gradually slows down.",
+      "difficulty": "MEDIUM",
+      "options": [
+        "P",
+        "S",
+        "R",
+        "T"
+      ],
+      "answer": 2,
+      "explanation": "Q defines the topic (inflation), so it opens the paragraph.\nP follows, because 'This' refers to the rise in prices described in Q.\nR introduces the remedy ('To control such a rise in prices...').\nS continues from R ('Costlier loans...') and T completes the chain ('As demand eases...').\nOrder: QPRST, so the third sentence is R."
+    },
+    {
+      "text": "Three of the following sentences form a coherent paragraph. Choose the sentence that does NOT belong to it.",
+      "difficulty": "EASY",
+      "options": [
+        "Digital payments have made everyday transactions faster and more convenient.",
+        "A customer can now pay even a small roadside vendor within seconds using a smartphone.",
+        "However, this growth has also been accompanied by a rise in online frauds.",
+        "Many households still prefer fixed deposits because they offer guaranteed returns."
+      ],
+      "answer": 3,
+      "explanation": "The first three sentences develop one theme, digital payments: the general point, an example, and a downside linked by 'However'.\nThe fourth sentence is about a savings choice (fixed deposits) and has no link to digital payments.\nSo the odd sentence is the one about fixed deposits."
+    },
+    {
+      "text": "The first sentence (1) is fixed. Rearrange P, Q, R and S to form a coherent paragraph.\n1: Credit scores have become central to modern lending.\nP: A high score signals that the borrower has repaid past loans on time.\nQ: Lenders therefore offer such borrowers lower interest rates and quicker approvals.\nR: A low score, on the other hand, may lead to rejection or costlier credit.\nS: For this reason, financial advisers urge people to pay every EMI and card bill by the due date.",
+      "difficulty": "MEDIUM",
+      "options": [
+        "PRQS",
+        "QPRS",
+        "RPQS",
+        "PQRS"
+      ],
+      "answer": 3,
+      "explanation": "After sentence 1, P explains what a high score means.\nQ must follow P directly, because 'such borrowers' refers to borrowers with a high score (they get lower rates).\nR gives the contrast for a low score ('on the other hand').\nS concludes with advice ('For this reason').\nOrder: 1-PQRS. In PRQS, 'such borrowers' would wrongly point to low-score borrowers."
+    },
+    {
+      "text": "Choose the sentence that best fills the blank in the paragraph.\nMany first-time investors put all their savings into a single stock that has risen sharply in recent months. ______ A sensible investor therefore spreads money across different assets, so that a loss in one is balanced by gains in others.",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Such concentration can cause heavy losses if that one stock suddenly falls.",
+        "The stock market in India is regulated by SEBI.",
+        "This approach guarantees steady returns over the long term.",
+        "Fixed deposits always give higher returns than shares."
+      ],
+      "answer": 0,
+      "explanation": "The blank sits between a risky behaviour (all savings in one stock) and the remedy introduced by 'therefore' (spreading money across assets).\nSo the missing sentence must state the danger of that behaviour.\nB is true but irrelevant, C contradicts the advice that follows, and D is an incorrect, extreme claim.\nThe answer is the sentence about heavy losses from concentration."
+    },
+    {
+      "text": "Choose the connector that best fills the blank.\nThe bank reduced its lending rate by half a percentage point; ______, home loans became cheaper for new borrowers.",
+      "difficulty": "EASY",
+      "options": [
+        "although",
+        "despite this",
+        "as a result",
+        "unless"
+      ],
+      "answer": 2,
+      "explanation": "The second clause (cheaper home loans) is the effect of the first (a lower lending rate).\nA cause-and-effect link needs a result connector.\n'Although' and 'despite this' show contrast, and 'unless' shows a condition.\nThe answer is 'as a result'."
+    },
+    {
+      "text": "Combine the two sentences into one sentence beginning with 'Not only'.\nI: The scheme provides zero-balance accounts.\nII: It also offers accident insurance cover.\nWhich of the following is correct?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Not only the scheme provides zero-balance accounts but also accident insurance cover it offers.",
+        "Not only does the scheme provide zero-balance accounts, but it also offers accident insurance cover.",
+        "Not only the scheme does provide zero-balance accounts, it offers also accident insurance cover.",
+        "Not only does the scheme provides zero-balance accounts but also it offers accident insurance cover."
+      ],
+      "answer": 1,
+      "explanation": "When 'Not only' begins a sentence, the clause must be inverted with an auxiliary: 'Not only does the scheme provide...'.\nAfter 'does', the main verb takes the base form ('provide', not 'provides'), so the last option is wrong.\nThe first and third options do not invert correctly and also misplace words.\nThe second half takes 'but it also offers'.\nCorrect: Not only does the scheme provide zero-balance accounts, but it also offers accident insurance cover."
+    },
+    {
+      "text": "Fill in both blanks with the most appropriate pair of words.\nThe committee's report was ______ in its criticism of the bank's lending practices, leaving no room for ______ about who was responsible for the losses.",
+      "difficulty": "HARD",
+      "options": [
+        "scathing / doubt",
+        "lenient / doubt",
+        "scathing / certainty",
+        "vague / ambiguity"
+      ],
+      "answer": 0,
+      "explanation": "'Leaving no room for...' tells us the report was clear and forceful, so the first word must mean severe: 'scathing'.\nA forceful report leaves no room for 'doubt'.\n'Lenient' clashes with leaving no doubt, 'no room for certainty' is illogical, and a 'vague' report cannot leave 'no room for ambiguity'.\nAnswer: scathing / doubt."
+    },
+    {
+      "text": "Rearrange the sentences to form a coherent paragraph. Which sentence comes FOURTH?\nP: Instead, they must park most of their deposits in safe government securities.\nQ: Payments banks were set up to take basic banking services to migrant workers and low-income households.\nR: They can accept deposits up to a prescribed limit, provide remittance services and issue debit cards.\nS: However, they are not allowed to give loans or issue credit cards.\nT: This restriction keeps depositors' money safe, though it also limits how much these banks can earn.",
+      "difficulty": "HARD",
+      "options": [
+        "S",
+        "T",
+        "R",
+        "P"
+      ],
+      "answer": 3,
+      "explanation": "Q introduces payments banks and their purpose, so it opens.\nR lists what they can do ('They' refers to payments banks).\nS gives the contrast with 'However' - what they cannot do.\nP must come right after S: 'Instead' explains what they do with deposits since they cannot lend.\nT concludes ('This restriction...').\nOrder: QRSPT, so the fourth sentence is P."
+    },
+    {
+      "text": "Fill in the blank with the most appropriate word.\nThe sharp rise in online frauds has made it ______ for banks to educate customers about safe digital practices.",
+      "difficulty": "MEDIUM",
+      "options": [
+        "imperative",
+        "optional",
+        "trivial",
+        "impossible"
+      ],
+      "answer": 0,
+      "explanation": "A sharp rise in frauds creates an urgent need, so the word must mean 'absolutely necessary'.\n'Imperative' means essential or urgent.\n'Optional' and 'trivial' weaken the idea, and 'impossible' contradicts the logic that banks must respond.\nThe answer is 'imperative'."
+    },
+    {
+      "text": "Rearrange the sentences into a coherent paragraph and choose the sentence that comes immediately AFTER R.\nP: Within a few years, the number of such accounts crossed several crores.\nQ: Financial inclusion means bringing every household into the formal banking system.\nR: To achieve this, the government launched a drive to open zero-balance accounts for the unbanked.\nS: Yet many of these accounts stayed inactive, showing that opening an account is only the first step.",
+      "difficulty": "MEDIUM",
+      "options": [
+        "S",
+        "P",
+        "Q",
+        "R is the last sentence"
+      ],
+      "answer": 1,
+      "explanation": "Q defines financial inclusion and opens the paragraph.\nR follows ('To achieve this' refers to the goal in Q).\nP comes next, because 'such accounts' refers to the zero-balance accounts in R.\nS ends with a contrast ('Yet many of these accounts...').\nOrder: QRPS, so P comes immediately after R."
+    }
+  ]
+}

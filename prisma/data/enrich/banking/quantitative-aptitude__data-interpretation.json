@@ -1,0 +1,106 @@
+{
+  "exam": "banking",
+  "subject": "quantitative-aptitude",
+  "chapter": "data-interpretation",
+  "notes": {
+    "summary": "Data Interpretation gives information as a table, bar or line graph, pie chart or a short caselet and asks a set of questions on percentages, ratios, averages and growth. IBPS and SBI Prelims carry 1 or 2 DI sets of about 5 questions each, while Mains sets are longer, often with missing data or caselets, and carry high marks.",
+    "keyPoints": [
+      "Percentage change = (New − Old) ÷ Old × 100. Example: production rising from 40 to 48 is an 8 ÷ 40 = 20% increase.",
+      "'A is what percent of B' = A ÷ B × 100; 'A is what percent more than B' = (A − B) ÷ B × 100. The value after 'than' is always the base.",
+      "Pie chart in degrees: value = (sector angle ÷ 360) × total. 72° = 72/360 = 1/5 = 20%, and 1% = 3.6°.",
+      "Profit = Income − Expenditure. Profit % on expenditure = Profit ÷ Expenditure × 100: income 330 and expenditure 250 give 80 ÷ 250 = 32%.",
+      "Average = Sum ÷ Number of values. Missing value = Average × Number of values − Sum of known values.",
+      "Ratio of totals: add the columns first, then simplify. 1600 : 960 = 5 : 3.",
+      "Successive percentage changes multiply, they do not add: +10% then −20% means 1.1 × 0.8 = 0.88, a net fall of 12%.",
+      "To compare fractions such as 110/125 and 135/150, convert to decimals (0.88 and 0.90) or cross-multiply (110 × 150 = 16500 < 135 × 125 = 16875).",
+      "When answer options are far apart, approximate (for example 33.3% ≈ 1/3) instead of doing exact division."
+    ],
+    "traps": [
+      "Taking the wrong base for percentage change, such as the new value or the wrong year.",
+      "Assuming the biggest absolute increase is also the biggest percentage increase; the smaller base often gives the higher percentage.",
+      "Adding successive percentage changes instead of multiplying the growth factors.",
+      "Calculating profit percentage on income when the question asks for it on expenditure, or the other way round.",
+      "Ignoring units such as thousands, lakh or crore and choosing an answer that is off by a factor of 10 or 100."
+    ],
+    "examTip": "Read all the questions of a set before you start, work out column totals and averages once and reuse them, and approximate whenever the options are well spread."
+  },
+  "questions": [
+    {
+      "text": "The table shows the number of laptops sold by a store.\nMonth | Laptops sold\nJanuary | 240\nFebruary | 310\nMarch | 280\nApril | 350\nMay | 320\nIn how many months were the sales more than the average monthly sales of these five months?",
+      "difficulty": "EASY",
+      "options": ["2", "3", "4", "1"],
+      "answer": 1,
+      "explanation": "Total = 240 + 310 + 280 + 350 + 320 = 1500.\nAverage = 1500 ÷ 5 = 300.\nMonths above 300: February (310), April (350) and May (320).\nSo the sales were above average in 3 months."
+    },
+    {
+      "text": "A pie chart shows how a family spends its monthly expenditure of ₹50,000. The sector for Food has a central angle of 72°. How much does the family spend on Food each month?",
+      "difficulty": "EASY",
+      "options": ["₹7,200", "₹12,000", "₹10,000", "₹14,400"],
+      "answer": 2,
+      "explanation": "The full circle of 360° stands for ₹50,000.\nFood's share = 72 ÷ 360 = 1/5.\nSpending on Food = 1/5 × 50,000 = ₹10,000."
+    },
+    {
+      "text": "The table shows the income and expenditure of a company (in ₹ crore).\nYear | Income | Expenditure\n2019 | 120 | 90\n2020 | 150 | 110\n2021 | 160 | 130\n2022 | 180 | 135\nIn which year was the profit (Income − Expenditure) the highest?",
+      "difficulty": "EASY",
+      "options": ["2019", "2020", "2021", "2022"],
+      "answer": 3,
+      "explanation": "Profit in each year:\n2019: 120 − 90 = 30\n2020: 150 − 110 = 40\n2021: 160 − 130 = 30\n2022: 180 − 135 = 45\nThe highest profit, ₹45 crore, was in 2022."
+    },
+    {
+      "text": "The table shows the income and expenditure of a firm (in ₹ lakh).\nYear | Income | Expenditure\n2020 | 210 | 150\n2021 | 260 | 200\n2022 | 330 | 250\nProfit % = (Income − Expenditure) ÷ Expenditure × 100. What was the profit percentage of the firm in 2022?",
+      "difficulty": "MEDIUM",
+      "options": ["32%", "24.2%", "30%", "28%"],
+      "answer": 0,
+      "explanation": "Profit in 2022 = 330 − 250 = ₹80 lakh.\nProfit % = 80 ÷ 250 × 100 = 32%.\n(Dividing by income instead, 80 ÷ 330, gives the wrong value 24.2%; 30% is the 2021 figure.)"
+    },
+    {
+      "text": "The table shows the number of students enrolled in three courses at a coaching institute.\nYear | Banking | SSC | Railways\n2021 | 450 | 380 | 280\n2022 | 520 | 420 | 320\n2023 | 630 | 460 | 360\nWhat is the ratio of the total Banking students to the total Railways students over the three years?",
+      "difficulty": "MEDIUM",
+      "options": ["3:5", "8:5", "5:3", "4:3"],
+      "answer": 2,
+      "explanation": "Total Banking = 450 + 520 + 630 = 1600.\nTotal Railways = 280 + 320 + 360 = 960.\n1600 : 960 = 160 : 96 = 5 : 3 (dividing by 32)."
+    },
+    {
+      "text": "The number of two-wheelers produced by a company (in thousands) is given below.\n2018: 40\n2019: 48\n2020: 42\n2021: 56\n2022: 70\nIn which year was the percentage increase in production over the previous year the highest?",
+      "difficulty": "MEDIUM",
+      "options": ["2019", "2021", "2022", "2020"],
+      "answer": 1,
+      "explanation": "2019: (48 − 40) ÷ 40 = 20%.\n2020: production fell, so there is no increase.\n2021: (56 − 42) ÷ 42 = 14 ÷ 42 ≈ 33.3%.\n2022: (70 − 56) ÷ 56 = 14 ÷ 56 = 25%.\n2021 and 2022 have the same absolute rise of 14, but 2021 has the smaller base, so 2021 has the highest percentage increase."
+    },
+    {
+      "text": "A company has 2,400 employees, distributed by department as follows.\nHR: 10%\nSales: 30%\nIT: 25%\nFinance: 15%\nOperations: 20%\n40% of the IT employees and 25% of the Sales employees are women. How many more women work in IT than in Sales?",
+      "difficulty": "MEDIUM",
+      "options": ["60", "120", "40", "80"],
+      "answer": 0,
+      "explanation": "IT employees = 25% of 2400 = 600; women in IT = 40% of 600 = 240.\nSales employees = 30% of 2400 = 720; women in Sales = 25% of 720 = 180.\nDifference = 240 − 180 = 60."
+    },
+    {
+      "text": "The average monthly sales of a shop from January to June was 450 units. The sales were:\nJanuary: 420\nFebruary: 480\nMarch: 390\nApril: ?\nMay: 510\nJune: 460\nWhat were the sales in April?",
+      "difficulty": "MEDIUM",
+      "options": ["450", "460", "430", "440"],
+      "answer": 3,
+      "explanation": "Total for 6 months = 450 × 6 = 2700.\nSum of the known months = 420 + 480 + 390 + 510 + 460 = 2260.\nApril = 2700 − 2260 = 440 units."
+    },
+    {
+      "text": "The table shows the exports and imports of a country (in ₹ thousand crore).\nYear | Exports | Imports\n2019 | 80 | 100\n2020 | 90 | 120\n2021 | 110 | 125\n2022 | 135 | 150\nIn which year was the ratio of exports to imports the highest?",
+      "difficulty": "MEDIUM",
+      "options": ["2019", "2021", "2022", "2020"],
+      "answer": 2,
+      "explanation": "Exports ÷ Imports for each year:\n2019: 80 ÷ 100 = 0.80\n2020: 90 ÷ 120 = 0.75\n2021: 110 ÷ 125 = 0.88\n2022: 135 ÷ 150 = 0.90\nThe highest ratio is in 2022."
+    },
+    {
+      "text": "A bank branch opened 1,200 new accounts in a year. 40% of them were savings accounts, and the remaining accounts were current accounts and fixed-deposit accounts in the ratio 4 : 5. Senior citizens opened 20% of the fixed-deposit accounts. How many fixed-deposit accounts were opened by senior citizens?",
+      "difficulty": "HARD",
+      "options": ["64", "80", "72", "100"],
+      "answer": 1,
+      "explanation": "Savings accounts = 40% of 1200 = 480, so the remaining accounts = 1200 − 480 = 720.\nFixed-deposit accounts = 720 × 5/9 = 400 (current accounts = 320).\nOpened by senior citizens = 20% of 400 = 80.\n(Taking 20% of the current accounts gives the wrong value 64.)"
+    },
+    {
+      "text": "The sales of a company were ₹250 crore in 2020. The percentage change in sales over the previous year is given below.\n2021: +10%\n2022: −20%\n2023: +25%\nWhat were the company's sales in 2023?",
+      "difficulty": "HARD",
+      "options": ["₹275 crore", "₹287.5 crore", "₹262.5 crore", "₹300 crore"],
+      "answer": 0,
+      "explanation": "Apply the changes one after another:\n2021: 250 × 1.10 = 275.\n2022: 275 × 0.80 = 220.\n2023: 220 × 1.25 = 275.\nSales in 2023 = ₹275 crore. (Adding 10 − 20 + 25 = 15% to 250 gives the wrong value 287.5.)"
+    }
+  ]
+}

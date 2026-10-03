@@ -1,0 +1,103 @@
+{
+  "exam": "railways",
+  "subject": "general-intelligence-reasoning",
+  "chapter": "analogy-classification",
+  "notes": {
+    "summary": "Analogy questions test whether you can find the relationship in one pair and apply it to another; classification (odd one out) tests whether you can spot the item that does not share a common property. RRB NTPC and Group D use word, number and letter versions, and most can be solved in under 30 seconds once you know the common patterns.",
+    "keyPoints": [
+      "Common word relations: product : raw material (Paper : Tree, Glass : Sand), instrument : what it measures (Thermometer : temperature, Anemometer : wind speed, Barometer : atmospheric pressure, Hygrometer : humidity), quantity : SI unit (Mass : kilogram, Electric current : ampere), worker : workplace, animal : young one, creature : home.",
+      "Number analogies: test squares, cubes, n² ± 1, n³ ± 1, n² + n = n(n + 1), n³ + n, and multiplying or dividing by a fixed number. Example: 12 : 156 (12 × 13) :: 15 : 240 (15 × 16).",
+      "Letter positions: A = 1 ... Z = 26. Anchor with EJOTY = 5, 10, 15, 20, 25 instead of counting from A.",
+      "Opposite letters add up to 27: A-Z, B-Y, C-X, D-W, E-V, F-U, G-T, H-S, I-R, J-Q, K-P, L-O, M-N.",
+      "Letter clusters: check the gap inside each group (+1, +2, alternating +1/−1) and the shift between corresponding letters of the two pairs (KING → LHOF is +1, −1, +1, −1).",
+      "Classification: find a property shared by three items — category (unit of length vs volume), number type (prime, square, cube, multiple of 11) or a letter-gap pattern.",
+      "Number-pair classification: apply one rule (for example second = first³ + 1) to every pair; the pair that fails is the answer."
+    ],
+    "traps": [
+      "Stopping at the first rule that fits the given pair without checking that exactly one option fits it.",
+      "Reversing the direction of the relationship (A : B :: C : ? must keep the same order).",
+      "Miscounting letter positions; use the EJOTY anchors.",
+      "In odd one out, choosing an item that differs in a trivial way (spelling, number of letters) when a stronger category rule exists."
+    ],
+    "examTip": "Turn the first pair into a short sentence (Paper is made from Tree) and test each option in the same sentence; the one that still makes sense is the answer."
+  },
+  "questions": [
+    {
+      "text": "Paper : Tree :: Glass : ?",
+      "difficulty": "EASY",
+      "options": ["Window", "Mirror", "Bottle", "Sand"],
+      "answer": 3,
+      "explanation": "Paper is made from wood pulp obtained from trees, so the second word is the raw material of the first.\nGlass is made mainly from sand (silica).\nAnswer: Sand."
+    },
+    {
+      "text": "Find the odd one out: Kilometre, Metre, Litre, Centimetre",
+      "difficulty": "EASY",
+      "options": ["Kilometre", "Litre", "Metre", "Centimetre"],
+      "answer": 1,
+      "explanation": "Kilometre, metre and centimetre are all units of length.\nLitre is a unit of volume (capacity).\nAnswer: Litre."
+    },
+    {
+      "text": "ACE : BDF :: GIK : ?",
+      "difficulty": "EASY",
+      "options": ["IKM", "HIJ", "HJL", "JLN"],
+      "answer": 2,
+      "explanation": "Each letter of ACE moves one step forward: A→B, C→D, E→F.\nApply the same to GIK: G→H, I→J, K→L.\nAnswer: HJL."
+    },
+    {
+      "text": "Thermometer : Temperature :: Anemometer : ?",
+      "difficulty": "MEDIUM",
+      "options": ["Wind speed", "Humidity", "Atmospheric pressure", "Rainfall"],
+      "answer": 0,
+      "explanation": "A thermometer measures temperature (instrument : quantity it measures).\nAn anemometer measures wind speed. (Humidity is measured by a hygrometer and atmospheric pressure by a barometer.)\nAnswer: Wind speed."
+    },
+    {
+      "text": "Kilogram : Mass :: Ampere : ?",
+      "difficulty": "MEDIUM",
+      "options": ["Voltage", "Resistance", "Electric current", "Power"],
+      "answer": 2,
+      "explanation": "The kilogram is the SI unit of mass.\nThe ampere is the SI unit of electric current. (Voltage is measured in volts, resistance in ohms and power in watts.)\nAnswer: Electric current."
+    },
+    {
+      "text": "12 : 156 :: 15 : ?",
+      "difficulty": "MEDIUM",
+      "options": ["225", "240", "210", "256"],
+      "answer": 1,
+      "explanation": "156 = 12 × 13, i.e. n × (n + 1), which is the same as n² + n = 144 + 12.\nFor 15: 15 × 16 = 240 (or 225 + 15).\nAnswer: 240."
+    },
+    {
+      "text": "KING : LHOF :: BOLD : ?",
+      "difficulty": "MEDIUM",
+      "options": ["CPME", "ANKC", "APKE", "CNMC"],
+      "answer": 3,
+      "explanation": "K→L (+1), I→H (−1), N→O (+1), G→F (−1): the letters alternately move +1 and −1.\nBOLD: B→C (+1), O→N (−1), L→M (+1), D→C (−1).\nAnswer: CNMC."
+    },
+    {
+      "text": "Find the odd one out: BDF, HJL, MOQ, RTW",
+      "difficulty": "MEDIUM",
+      "options": ["RTW", "HJL", "BDF", "MOQ"],
+      "answer": 0,
+      "explanation": "Write the positions: BDF = 2, 4, 6; HJL = 8, 10, 12; MOQ = 13, 15, 17 — each has gaps of +2, +2.\nRTW = 18, 20, 23 has gaps of +2 and +3.\nAnswer: RTW."
+    },
+    {
+      "text": "Find the odd one out: 132, 154, 176, 196",
+      "difficulty": "MEDIUM",
+      "options": ["132", "154", "176", "196"],
+      "answer": 3,
+      "explanation": "132 = 11 × 12, 154 = 11 × 14 and 176 = 11 × 16 are all multiples of 11.\n196 = 14 × 14 is not divisible by 11 (11 × 17 = 187 and 11 × 18 = 198).\nAnswer: 196."
+    },
+    {
+      "text": "6 : 222 :: 7 : ?",
+      "difficulty": "HARD",
+      "options": ["343", "350", "336", "357"],
+      "answer": 1,
+      "explanation": "222 = 216 + 6 = 6³ + 6.\nApply the same rule to 7: 7³ + 7 = 343 + 7 = 350.\nAnswer: 350."
+    },
+    {
+      "text": "Find the odd number pair: (2, 9), (3, 28), (4, 65), (5, 124)",
+      "difficulty": "HARD",
+      "options": ["(5, 124)", "(2, 9)", "(3, 28)", "(4, 65)"],
+      "answer": 0,
+      "explanation": "Test one rule on every pair: second number = (first number)³ + 1.\n2³ + 1 = 9, 3³ + 1 = 28 and 4³ + 1 = 65 all fit.\n5³ + 1 = 126, not 124.\nAnswer: (5, 124)."
+    }
+  ]
+}

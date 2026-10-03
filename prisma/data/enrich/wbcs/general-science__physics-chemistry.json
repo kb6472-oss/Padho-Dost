@@ -1,0 +1,107 @@
+{
+  "exam": "wbcs",
+  "subject": "general-science",
+  "chapter": "physics-chemistry",
+  "notes": {
+    "summary": "This chapter covers the physics and chemistry of everyday life: units, motion, light, sound, heat, electricity, the structure of matter, acids, bases and salts, metals, alloys and common compounds. WBCS Prelims mostly asks one-step factual questions on units, instruments, chemical names and natural phenomena. It also sets the odd simple numerical on motion, Ohm's law or an electricity bill.",
+    "keyPoints": [
+      "SI units: force in newton, work and energy in joule, power in watt, pressure in pascal, current in ampere, temperature in kelvin. 1 unit of electricity = 1 kWh = 3.6 million joules.",
+      "Equations of motion: v = u + at, s = ut + ½at², v² = u² + 2as. Example: starting from rest at 2 m/s² for 5 s gives v = 10 m/s and s = 25 m.",
+      "Electricity: V = IR and P = VI. In series, R = R1 + R2. In parallel, 1/R = 1/R1 + 1/R2; for two resistors this is product ÷ sum, so 6 and 3 ohm give 18 ÷ 9 = 2 ohm. Units consumed = kW × hours.",
+      "Light: refraction explains a bent stick in water, twinkling stars and mirages. Scattering explains the blue sky and the red sunrise. Dispersion makes a rainbow. Total internal reflection makes optical fibres work and diamonds sparkle. Myopia is corrected with a concave lens and hypermetropia with a convex lens.",
+      "Sound needs a medium. It travels fastest in solids, then liquids, then gases (about 340 m/s in air). Humans hear from 20 Hz to 20,000 Hz.",
+      "Atomic structure: isotopes have the same atomic number but different mass numbers (C-12, C-14). Isobars have the same mass number but different atomic numbers (Ar-40, Ca-40). Allotropes are different forms of one element (diamond, graphite).",
+      "Common compounds: NaCl is common salt, NaHCO3 baking soda, Na2CO3·10H2O washing soda, CaOCl2 bleaching powder, CaSO4·½H2O plaster of Paris, CaSO4·2H2O gypsum, Ca(OH)2 slaked lime and CaO quicklime.",
+      "Hardness of water: temporary hardness comes from calcium and magnesium bicarbonates and is removed by boiling. Permanent hardness comes from their chlorides and sulphates and is removed by washing soda or ion exchange.",
+      "Fuels: LPG is mainly butane, with propane, and ethyl mercaptan is added so leaks can be smelt. CNG and biogas are mainly methane.",
+      "Alloys: brass is copper + zinc, bronze is copper + tin, German silver is copper + zinc + nickel (no silver in it), and stainless steel is iron + chromium + nickel."
+    ],
+    "traps": [
+      "Giving the final velocity (v = at = 10 m/s) as the distance, or forgetting the ½ in s = ½at².",
+      "Using watts directly as units. A 1000 W heater run for 3 hours uses 3 units, not 3000, so convert W to kW first.",
+      "Confusing washing soda (Na2CO3·10H2O) with baking soda (NaHCO3), or plaster of Paris (hemihydrate) with gypsum (dihydrate).",
+      "Adding parallel resistances as if they were in series. A parallel combination is always smaller than its smallest resistor.",
+      "Thinking boiling removes all hardness. It removes only temporary (bicarbonate) hardness."
+    ],
+    "examTip": "In a numerical, write the formula and units first, then check the unit of your answer. A distance in m/s, or a parallel resistance larger than its parts, means you have slipped."
+  },
+  "questions": [
+    {
+      "text": "Baking soda, used in cooking and in some antacids, has the chemical formula:",
+      "difficulty": "EASY",
+      "options": ["Na2CO3", "NaHCO3", "NaOH", "CaCO3"],
+      "answer": 1,
+      "explanation": "Baking soda is sodium hydrogen carbonate (sodium bicarbonate), NaHCO3.\nWhen heated, it releases carbon dioxide, and the gas makes dough rise.\nNa2CO3 is washing soda (in its hydrated form), NaOH is caustic soda, and CaCO3 is limestone or chalk.\nAnswer: NaHCO3."
+    },
+    {
+      "text": "What is the SI unit of force?",
+      "difficulty": "EASY",
+      "options": ["Joule", "Pascal", "Watt", "Newton"],
+      "answer": 3,
+      "explanation": "Force = mass × acceleration (F = ma).\n1 newton is the force that gives a 1 kg mass an acceleration of 1 m/s².\nThe other units: the joule measures work or energy, the pascal pressure (N/m²), and the watt power (J/s).\nAnswer: Newton."
+    },
+    {
+      "text": "A person with myopia (short-sightedness) sees nearby objects clearly but not distant ones. Which lens is used to correct this defect?",
+      "difficulty": "EASY",
+      "options": ["Concave lens", "Convex lens", "Cylindrical lens", "Plane glass"],
+      "answer": 0,
+      "explanation": "In myopia, the image of a distant object forms in front of the retina.\nA concave (diverging) lens spreads the rays slightly so that the image falls on the retina.\nHypermetropia is corrected with a convex lens and astigmatism with a cylindrical lens.\nAnswer: Concave lens."
+    },
+    {
+      "text": "A car starts from rest and accelerates uniformly at 2 m/s² for 5 seconds. What distance does it cover in this time?",
+      "difficulty": "MEDIUM",
+      "options": ["10 m", "50 m", "25 m", "20 m"],
+      "answer": 2,
+      "explanation": "Use s = ut + ½at², with u = 0, a = 2 m/s² and t = 5 s.\ns = 0 + ½ × 2 × 5² = ½ × 2 × 25 = 25 m.\nThe wrong options come from common slips: 10 is the final velocity (v = at = 10 m/s), and 50 m comes from forgetting the ½.\nAnswer: 25 m."
+    },
+    {
+      "text": "Stars appear to twinkle at night, while planets generally do not. The twinkling of stars is caused by:",
+      "difficulty": "MEDIUM",
+      "options": ["Reflection of starlight by dust particles", "Atmospheric refraction of starlight", "Scattering of light by air molecules", "Total internal reflection in clouds"],
+      "answer": 1,
+      "explanation": "Starlight passes through layers of air whose temperature and density keep changing, so their refractive index keeps changing too.\nA star is so far away that it acts as a point source. The light bends by varying amounts, so its apparent position and brightness flicker.\nPlanets are nearer and look like small discs, so the flickering averages out.\nScattering explains the blue sky, not twinkling.\nAnswer: Atmospheric refraction of starlight."
+    },
+    {
+      "text": "Temporary hardness of water, which can be removed simply by boiling, is caused by the presence of:",
+      "difficulty": "MEDIUM",
+      "options": ["Chlorides and sulphates of calcium and magnesium", "Sodium chloride", "Bicarbonates of calcium and magnesium", "Dissolved oxygen and carbon dioxide"],
+      "answer": 2,
+      "explanation": "Boiling breaks down calcium bicarbonate into insoluble calcium carbonate, water and carbon dioxide: Ca(HCO3)2 → CaCO3 + H2O + CO2.\nThe carbonate settles out and can be filtered off, which removes the hardness.\nChlorides and sulphates of calcium and magnesium cause permanent hardness, which boiling cannot remove.\nAnswer: Bicarbonates of calcium and magnesium."
+    },
+    {
+      "text": "Atoms of the same element that have the same number of protons but different numbers of neutrons (for example, carbon-12 and carbon-14) are called:",
+      "difficulty": "MEDIUM",
+      "options": ["Isobars", "Isotones", "Allotropes", "Isotopes"],
+      "answer": 3,
+      "explanation": "Isotopes have the same atomic number (protons) but different mass numbers because their neutron counts differ.\nThe other terms: isobars share a mass number (argon-40 and calcium-40), isotones share a neutron count, and allotropes are different physical forms of one element (diamond and graphite).\nAnswer: Isotopes."
+    },
+    {
+      "text": "Liquefied Petroleum Gas (LPG), used as cooking gas in homes, consists mainly of:",
+      "difficulty": "MEDIUM",
+      "options": ["Butane and propane", "Methane", "Ethylene", "Hydrogen and carbon monoxide"],
+      "answer": 0,
+      "explanation": "LPG is mainly butane mixed with propane, liquefied under pressure in the cylinder.\nEthyl mercaptan is added because it has a strong smell, so leaks can be noticed.\nMethane is the main part of CNG and biogas, and hydrogen + carbon monoxide make water gas.\nAnswer: Butane and propane."
+    },
+    {
+      "text": "An electric heater rated 1000 W is used for 3 hours every day. If electricity costs ₹6 per unit (kWh), what is the cost of running it for 30 days?",
+      "difficulty": "MEDIUM",
+      "options": ["₹180", "₹5,400", "₹540", "₹18"],
+      "answer": 2,
+      "explanation": "Step 1: 1000 W = 1 kW.\nStep 2: Energy per day = 1 kW × 3 h = 3 kWh (3 units).\nStep 3: Energy for 30 days = 3 × 30 = 90 units.\nStep 4: Cost = 90 × ₹6 = ₹540.\nAnswer: ₹540."
+    },
+    {
+      "text": "Two resistors of 6 ohm and 3 ohm are connected in parallel. This combination is connected in series with a 4 ohm resistor across a 12 V battery of negligible internal resistance. What current flows from the battery?",
+      "difficulty": "HARD",
+      "options": ["0.92 A", "2 A", "1.33 A", "3 A"],
+      "answer": 1,
+      "explanation": "Step 1: Parallel part: 1/R = 1/6 + 1/3 = 1/6 + 2/6 = 3/6, so R = 2 ohm. (Shortcut: product ÷ sum = 18 ÷ 9 = 2 ohm.)\nStep 2: Total resistance = 2 + 4 = 6 ohm.\nStep 3: I = V ÷ R = 12 ÷ 6 = 2 A.\nPutting all three resistors in series would give 13 ohm and about 0.92 A, which is the usual mistake.\nAnswer: 2 A."
+    },
+    {
+      "text": "Match the substances with their chemical names:\n(a) Plaster of Paris\n(b) Bleaching powder\n(c) Washing soda\n(d) Gypsum\n(1) Calcium oxychloride\n(2) Calcium sulphate hemihydrate\n(3) Calcium sulphate dihydrate\n(4) Sodium carbonate decahydrate",
+      "difficulty": "HARD",
+      "options": ["a-3, b-1, c-4, d-2", "a-2, b-4, c-1, d-3", "a-1, b-2, c-3, d-4", "a-2, b-1, c-4, d-3"],
+      "answer": 3,
+      "explanation": "Plaster of Paris is CaSO4·½H2O, calcium sulphate hemihydrate, so a-2.\nBleaching powder is CaOCl2, calcium oxychloride, so b-1.\nWashing soda is Na2CO3·10H2O, sodium carbonate decahydrate, so c-4.\nGypsum is CaSO4·2H2O, calcium sulphate dihydrate, so d-3. Heating gypsum to about 373 K turns it into plaster of Paris.\nAnswer: a-2, b-1, c-4, d-3."
+    }
+  ]
+}

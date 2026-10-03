@@ -1,0 +1,106 @@
+{
+  "exam": "banking",
+  "subject": "reasoning-ability",
+  "chapter": "coding-blood-relations",
+  "notes": {
+    "summary": "Coding-decoding tests letter shifts, reversed words, opposite letters, number codes and word-code languages. Blood relations test family links from direct statements, 'pointing to a photo' puzzles, symbol-coded relations and small family trees. IBPS and SBI Prelims usually ask 2 to 5 questions, while Mains also uses longer condition-based coding.",
+    "keyPoints": [
+      "Letter positions: A = 1 to Z = 26. Remember EJOTY = 5, 10, 15, 20, 25 to find any position quickly (R = 15 + 3 = 18).",
+      "Opposite letters add up to 27: A-Z, B-Y, G-T, L-O, M-N. The reverse position of a letter is 27 − its position (A = 26, R = 9).",
+      "Common letter patterns: same shift (+1, +2), alternate shifts (+1, −1, +1...), reverse the word and then shift, or replace by opposite letters. Remember wrap-around: Z + 1 = A.",
+      "Number codes: try the sum of letter positions, then a multiple of it (PEN = 16 + 5 + 14 = 35, coded as 70 if the rule is × 2).",
+      "Word-code language: a word common to two sentences has the code common to both. Use 3 or 4 sentences together to isolate every word by elimination.",
+      "Family terms: father's brother = paternal uncle; mother's brother = maternal uncle; father's sister = paternal aunt; son of a brother or sister = nephew; son's wife = daughter-in-law; child of an uncle or aunt = cousin.",
+      "Draw a family tree: mark males with + and females with −, join married couples with =, put each generation on a new level and siblings on the same line.",
+      "Gender comes only from words such as father, mother, brother, sister, son, daughter, husband or wife. 'A is the brother of B' tells you A is male but nothing about B, so the answer may be 'Cannot be determined'.",
+      "Coded relations: decode each symbol from left to right, write every relation on the tree, then read the relation from the person asked about."
+    ],
+    "traps": [
+      "Assuming a person's gender from the name or from a relation that only describes the other person.",
+      "Answering the reverse relation: 'How is A related to B' and 'How is B related to A' have different answers.",
+      "Shifting letters in the wrong direction, or forgetting the wrap-around from Z back to A.",
+      "In word-code questions, fixing a code from two sentences that share two words, which leaves two possible codes.",
+      "Confusing paternal (father's side) and maternal (mother's side) relations."
+    ],
+    "examTip": "Check the coding rule on the first two letters only, confirm it on one more letter, and then apply it; for blood relations always draw the tree with gender symbols before answering."
+  },
+  "questions": [
+    {
+      "text": "In a certain code, GOLD is written as TLOW. How is SILK written in that code?",
+      "difficulty": "EASY",
+      "options": ["HRPO", "HROP", "GROP", "TJMK"],
+      "answer": 1,
+      "explanation": "Each letter is replaced by its opposite letter (positions add up to 27): G(7) → T(20), O(15) → L(12), L(12) → O(15), D(4) → W(23).\nS(19) → H(8), I(9) → R(18), L(12) → O(15), K(11) → P(16).\nSILK is written as HROP."
+    },
+    {
+      "text": "In a certain code, MANGO is written as NZOFP. How is GRAPE written in that code?",
+      "difficulty": "EASY",
+      "options": ["HSBQF", "FQBOF", "HQBOF", "HQZOF"],
+      "answer": 2,
+      "explanation": "The shifts alternate +1, −1, +1, −1, +1: M + 1 = N, A − 1 = Z, N + 1 = O, G − 1 = F, O + 1 = P.\nGRAPE: G + 1 = H, R − 1 = Q, A + 1 = B, P − 1 = O, E + 1 = F.\nGRAPE is written as HQBOF."
+    },
+    {
+      "text": "In a certain code, BRAKE is written as 25-9-26-16-22. How is TRAIN written in that code?",
+      "difficulty": "MEDIUM",
+      "options": ["7-9-26-18-13", "20-18-1-9-14", "7-9-26-17-13", "6-8-25-18-13"],
+      "answer": 0,
+      "explanation": "Each letter is replaced by its position counted from Z (A = 26, Z = 1), that is 27 − normal position: B = 27 − 2 = 25, R = 27 − 18 = 9, A = 26, K = 27 − 11 = 16, E = 27 − 5 = 22.\nTRAIN: T = 27 − 20 = 7, R = 9, A = 26, I = 27 − 9 = 18, N = 27 − 14 = 13.\nTRAIN is written as 7-9-26-18-13."
+    },
+    {
+      "text": "In a certain code, PEN is written as 70 and INK is written as 68. How is CUP written in that code?",
+      "difficulty": "MEDIUM",
+      "options": ["40", "82", "78", "80"],
+      "answer": 3,
+      "explanation": "PEN: 16 + 5 + 14 = 35, and 35 × 2 = 70.\nINK: 9 + 14 + 11 = 34, and 34 × 2 = 68.\nCUP: 3 + 21 + 16 = 40, and 40 × 2 = 80."
+    },
+    {
+      "text": "In a certain code, PLANT is written as UOBMQ. How is CHAIR written in that code?",
+      "difficulty": "MEDIUM",
+      "options": ["DIBJS", "SJBID", "SJBIC", "QHZGB"],
+      "answer": 1,
+      "explanation": "Rule: write the word in reverse order, then move each letter one step forward.\nPLANT reversed is TNALP, and +1 gives UOBMQ.\nCHAIR reversed is RIAHC, and +1 gives S J B I D.\nCHAIR is written as SJBID. (Shifting without reversing gives the wrong code DIBJS.)"
+    },
+    {
+      "text": "A is the mother of B. B is the sister of C. D is the son of C. How is A related to D?",
+      "difficulty": "EASY",
+      "options": ["Mother", "Aunt", "Grandmother", "Sister"],
+      "answer": 2,
+      "explanation": "B and C are siblings, so A is the mother of C as well.\nD is the son of C, so D is the grandchild of A.\nA is a female, so A is D's grandmother."
+    },
+    {
+      "text": "'P + Q' means 'P is the father of Q'.\n'P − Q' means 'P is the wife of Q'.\n'P × Q' means 'P is the brother of Q'.\n'P ÷ Q' means 'P is the daughter of Q'.\nWhich of the following expressions means that M is the paternal uncle of N?",
+      "difficulty": "MEDIUM",
+      "options": ["M × P − Q + N", "M + P × N", "M ÷ P + N", "M × P + N"],
+      "answer": 3,
+      "explanation": "M × P − Q + N: M is the brother of P, P is the wife of Q and Q is the father of N, so P is N's mother and M is the maternal uncle.\nM + P × N: M is the father of P, and P is the brother of N, so M is N's father.\nM ÷ P + N: M is the daughter of P, and P is the father of N, so M is N's sister.\nM × P + N: M is the brother of P, and P is the father of N, so M is N's paternal uncle."
+    },
+    {
+      "text": "Pointing to a woman, Arun said, 'Her mother's only son is my father.' How is the woman related to Arun?",
+      "difficulty": "MEDIUM",
+      "options": ["Paternal aunt", "Sister", "Maternal aunt", "Grandmother"],
+      "answer": 0,
+      "explanation": "The woman's mother's only son is the woman's brother.\nThat brother is Arun's father.\nSo the woman is the sister of Arun's father, which makes her Arun's paternal aunt."
+    },
+    {
+      "text": "A family has six members P, Q, R, S, T and U, and it has two married couples.\nQ is the husband of P.\nR is the only son of P and Q.\nS is the daughter of Q.\nT is the daughter-in-law of P.\nU is the son of T.\nHow is U related to S?",
+      "difficulty": "MEDIUM",
+      "options": ["Son", "Nephew", "Brother", "Cousin"],
+      "answer": 1,
+      "explanation": "T is the daughter-in-law of P, so T is the wife of P's son. P's only son is R, so R and T are the second married couple.\nU is the son of T, so U is the son of R.\nS is the daughter of Q, so S is R's sister.\nU is the son of S's brother, so U is S's nephew."
+    },
+    {
+      "text": "A is the brother of B. C is the father of A. E is the daughter of B. D is the brother of E. How is B related to D?",
+      "difficulty": "HARD",
+      "options": ["Father", "Mother", "Cannot be determined", "Uncle"],
+      "answer": 2,
+      "explanation": "E is the daughter of B, and D is the brother of E, so D is also a child of B.\n'A is the brother of B' tells us A is male, but it says nothing about B's gender, and no other statement does either.\nB could be D's father or D's mother.\nThe relation cannot be determined."
+    },
+    {
+      "text": "In a certain code language:\n'good food is healthy' is written as 'mi ta so ru'\n'healthy habits make life' is written as 'ru ke pi lo'\n'make good choices daily' is written as 'pi da mi ne'\n'daily food habits matter' is written as 'ne ta ke vo'\nWhat is the code for 'is'?",
+      "difficulty": "HARD",
+      "options": ["ta", "mi", "ru", "so"],
+      "answer": 3,
+      "explanation": "'healthy' is in sentences 1 and 2, and the only common code is 'ru', so healthy = ru.\n'good' is in sentences 1 and 3; the common code is 'mi', so good = mi.\n'food' is in sentences 1 and 4; the common code is 'ta', so food = ta.\nSentence 1 has 'mi ta so ru', and the only word and code left are 'is' and 'so'.\nThe code for 'is' is so."
+    }
+  ]
+}

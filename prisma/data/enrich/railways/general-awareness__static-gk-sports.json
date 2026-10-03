@@ -1,0 +1,105 @@
+{
+  "exam": "railways",
+  "subject": "general-awareness",
+  "chapter": "static-gk-sports",
+  "notes": {
+    "summary": "This chapter covers national symbols, awards, culture (folk and classical dances), national parks and sports trophies, terms and records. RRB NTPC and Group D ask direct one-line questions, very often in the form 'X is associated with which sport' or 'Which term is NOT associated with Y'.",
+    "keyPoints": [
+      "National symbols: anthem Jana Gana Mana (Rabindranath Tagore), song Vande Mataram (Bankim Chandra Chattopadhyay, from the novel Anandamath), animal tiger, bird peacock, flower lotus, tree banyan, aquatic animal Ganges river dolphin, heritage animal elephant.",
+      "Football: Durand Cup (started 1888, one of the oldest football tournaments in the world), Santosh Trophy; the first FIFA World Cup was held in 1930 in Uruguay, which also won it.",
+      "Other trophies: Ranji, Duleep and Irani – cricket; Thomas Cup and Uber Cup – badminton; Davis Cup – tennis; Ryder Cup – golf; Beighton Cup – hockey.",
+      "Terms: cricket – googly, leg bye, silly point, LBW; tennis – love, deuce, ace; golf – birdie, bogey, eagle; hockey – bully, penalty corner; chess – checkmate, castling.",
+      "Players per side on field or court: football 11, hockey 11, cricket 11, kabaddi 7, volleyball 6, basketball 5.",
+      "Olympic firsts: Abhinav Bindra – India's first individual gold (2008 Beijing, 10 m air rifle); Neeraj Chopra – first athletics gold (javelin, Tokyo Games held in 2021).",
+      "Awards: Bharat Ratna instituted in 1954 (first recipients C. Rajagopalachari, S. Radhakrishnan, C.V. Raman); Khel Ratna renamed Major Dhyan Chand Khel Ratna in 2021; Arjuna Award for players; Dronacharya Award for coaches.",
+      "National Sports Day is 29 August, Major Dhyan Chand's birth anniversary. A full marathon is 42.195 km (26.2 miles); a half marathon is 21.0975 km.",
+      "Dances and parks: Garba – Gujarat, Ghoomar – Rajasthan, Lavani – Maharashtra, Bihu – Assam, Kathakali – Kerala; Kaziranga (Assam) – one-horned rhinoceros, Gir (Gujarat) – Asiatic lion."
+    ],
+    "traps": [
+      "Swapping the writers of the national anthem (Tagore) and the national song (Bankim Chandra Chattopadhyay).",
+      "Picking Neeraj Chopra for 'first individual Olympic gold': that was Abhinav Bindra in 2008; Neeraj Chopra was the first in athletics.",
+      "Writing the marathon distance as 26.2 km: 26.2 is in miles, the distance is 42.195 km.",
+      "Assuming every 'Cup' is football: Davis Cup is tennis, Ryder Cup is golf, Thomas Cup is badminton."
+    ],
+    "examTip": "For 'associated with which sport' questions, recall one more term from the same sport to confirm: 'love' goes with 'deuce' and 'ace', so it is tennis."
+  },
+  "questions": [
+    {
+      "text": "The Durand Cup, one of the oldest tournaments of its kind in the world, is associated with which sport?",
+      "difficulty": "EASY",
+      "options": ["Hockey", "Football", "Cricket", "Polo"],
+      "answer": 1,
+      "explanation": "The Durand Cup was started in 1888 and is named after Sir Mortimer Durand; it is one of the oldest football tournaments in the world.\nOther Indian football competitions include the Santosh Trophy.\nAnswer: Football."
+    },
+    {
+      "text": "India's national song 'Vande Mataram' was written by:",
+      "difficulty": "EASY",
+      "options": ["Bankim Chandra Chattopadhyay", "Rabindranath Tagore", "Muhammad Iqbal", "Sarojini Naidu"],
+      "answer": 0,
+      "explanation": "'Vande Mataram' was composed by Bankim Chandra Chattopadhyay and appears in his novel 'Anandamath' (1882).\nRabindranath Tagore wrote the national anthem 'Jana Gana Mana', and Muhammad Iqbal wrote 'Saare Jahan Se Achha'.\nAnswer: Bankim Chandra Chattopadhyay."
+    },
+    {
+      "text": "Garba is a popular folk dance of which Indian state?",
+      "difficulty": "EASY",
+      "options": ["Rajasthan", "Maharashtra", "Punjab", "Gujarat"],
+      "answer": 3,
+      "explanation": "Garba is danced in a circle around a lamp or an image of the goddess, especially during Navratri, and is the best-known folk dance of Gujarat.\nRajasthan is known for Ghoomar, Maharashtra for Lavani and Punjab for Bhangra and Giddha.\nAnswer: Gujarat."
+    },
+    {
+      "text": "Which country hosted the first FIFA World Cup in 1930?",
+      "difficulty": "MEDIUM",
+      "options": ["Brazil", "Italy", "Uruguay", "Argentina"],
+      "answer": 2,
+      "explanation": "The first FIFA World Cup was held in 1930 in Uruguay, and Uruguay also won it by beating Argentina 4–2 in the final.\nItaly hosted the second edition in 1934, and Brazil hosted in 1950.\nAnswer: Uruguay."
+    },
+    {
+      "text": "Which of the following terms is NOT associated with cricket?",
+      "difficulty": "MEDIUM",
+      "options": ["Leg bye", "Googly", "Silly point", "Love"],
+      "answer": 3,
+      "explanation": "Leg bye (a run scored after the ball hits the batter's body), googly (a type of spin delivery) and silly point (a close fielding position) are all cricket terms.\n'Love' means a score of zero in tennis.\nAnswer: Love."
+    },
+    {
+      "text": "In 2021, India's highest sporting honour, the Khel Ratna Award, was renamed after which hockey legend?",
+      "difficulty": "MEDIUM",
+      "options": ["Balbir Singh Sr.", "Major Dhyan Chand", "Dhanraj Pillay", "Leslie Claudius"],
+      "answer": 1,
+      "explanation": "In August 2021 the Rajiv Gandhi Khel Ratna was renamed the Major Dhyan Chand Khel Ratna Award.\nDhyan Chand, called 'The Wizard', helped India win Olympic hockey gold in 1928, 1932 and 1936, and his birthday, 29 August, is observed as National Sports Day.\nAnswer: Major Dhyan Chand."
+    },
+    {
+      "text": "Who was the first Indian to win an individual gold medal at the Olympic Games?",
+      "difficulty": "MEDIUM",
+      "options": ["Leander Paes", "Rajyavardhan Singh Rathore", "Abhinav Bindra", "Neeraj Chopra"],
+      "answer": 2,
+      "explanation": "Abhinav Bindra won gold in the men's 10 m air rifle at the 2008 Beijing Olympics, India's first individual Olympic gold.\nLeander Paes won bronze in tennis (1996), Rajyavardhan Singh Rathore won silver in double trap shooting (2004), and Neeraj Chopra won India's first athletics gold (javelin) at the Tokyo Games held in 2021.\nAnswer: Abhinav Bindra."
+    },
+    {
+      "text": "India's highest civilian award, the Bharat Ratna, was first awarded in which year?",
+      "difficulty": "MEDIUM",
+      "options": ["1950", "1952", "1954", "1956"],
+      "answer": 2,
+      "explanation": "The Bharat Ratna was instituted in 1954.\nThe first recipients that year were C. Rajagopalachari, Dr S. Radhakrishnan and Dr C.V. Raman.\nAnswer: 1954."
+    },
+    {
+      "text": "Kaziranga National Park, famous for the one-horned rhinoceros, is located in which state?",
+      "difficulty": "MEDIUM",
+      "options": ["Assam", "West Bengal", "Meghalaya", "Arunachal Pradesh"],
+      "answer": 0,
+      "explanation": "Kaziranga, on the banks of the Brahmaputra in Assam, has the largest population of the Indian one-horned rhinoceros and became a UNESCO World Heritage Site in 1985.\nJaldapara in West Bengal also has rhinos, but Kaziranga is the park famous for them.\nAnswer: Assam."
+    },
+    {
+      "text": "The Ryder Cup, contested between teams from Europe and the United States, is associated with which sport?",
+      "difficulty": "HARD",
+      "options": ["Tennis", "Polo", "Yachting", "Golf"],
+      "answer": 3,
+      "explanation": "The Ryder Cup is a men's team golf competition between Europe and the USA, normally held every two years.\nTennis has the Davis Cup and yachting has the America's Cup; golf terms include birdie, bogey and eagle.\nAnswer: Golf."
+    },
+    {
+      "text": "What is the standard distance of a full marathon race?",
+      "difficulty": "HARD",
+      "options": ["26.2 km", "42.195 km", "40 km", "21.0975 km"],
+      "answer": 1,
+      "explanation": "A full marathon is 42.195 km, a distance standardised in 1921 based on the course of the 1908 London Olympics.\n26.2 is the same distance expressed in miles, not kilometres.\n21.0975 km is a half marathon (exactly half of 42.195 km).\nAnswer: 42.195 km."
+    }
+  ]
+}

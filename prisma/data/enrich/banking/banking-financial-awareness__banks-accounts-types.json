@@ -1,0 +1,162 @@
+{
+  "exam": "banking",
+  "subject": "banking-financial-awareness",
+  "chapter": "banks-accounts-types",
+  "notes": {
+    "summary": "This chapter covers the structure of India's banking system - scheduled and non-scheduled banks; public, private, foreign, regional rural, cooperative, small finance and payments banks; and non-bank lenders - along with the main deposit and account types. IBPS and SBI papers ask factual questions on history (SBI, nationalisation, RRBs), who owns or regulates each type, and the features of savings, current, term, NRI and special accounts.",
+    "keyPoints": [
+      "Scheduled banks are listed in the Second Schedule of the RBI Act, 1934; scheduled commercial banks include public sector, private sector, foreign, regional rural, small finance and payments banks.",
+      "SBI was formed on 1 July 1955 by taking over the Imperial Bank of India, which was itself created in 1921 by merging the Presidency Banks of Bengal, Bombay and Madras.",
+      "Nationalisation: 14 major banks on 19 July 1969 and 6 more on 15 April 1980.",
+      "RRBs were first set up on 2 October 1975 and are governed by the RRB Act, 1976; share capital is held by the Centre, sponsor bank and State Government in the ratio 50 : 35 : 15.",
+      "Short-term rural cooperative credit is three-tier: State Cooperative Bank (state) → District Central Cooperative Bank (district) → Primary Agricultural Credit Society (village).",
+      "NBFCs lend but cannot accept demand deposits, cannot issue cheques drawn on themselves, and their deposits are not covered by DICGC insurance.",
+      "Account types: savings (for individuals, earns interest), current (for businesses, no interest, unlimited transactions, overdraft facility), fixed and recurring deposits (time deposits), and sweep-in accounts that move surplus savings balance into FDs automatically.",
+      "NRI accounts: NRE - income earned abroad, kept in rupees, repatriable, interest tax-free in India; NRO - income earned in India such as rent, pension and dividends; FCNR(B) - term deposit held in foreign currency.",
+      "Joint account mandates: 'Either or Survivor' - either holder can operate; 'Former or Survivor' - only the first holder operates while alive, the second holder after the first holder's death.",
+      "An account with no customer-induced transaction for over 2 years becomes inoperative; deposits unclaimed for 10 years or more go to RBI's Depositor Education and Awareness (DEA) Fund, but the customer can still claim them from the bank."
+    ],
+    "traps": [
+      "Confusing NRE (money earned abroad) with NRO (money earned in India).",
+      "Saying 20 banks were nationalised in 1969; it was 14 in 1969 and 6 in 1980.",
+      "Mixing up the RRB share pattern; it is Centre 50, sponsor bank 35, State 15.",
+      "Thinking unclaimed bank deposits go to the Investor Education and Protection Fund, which is for unclaimed company dividends and shares.",
+      "Assuming NBFC deposits are insured like bank deposits."
+    ],
+    "examTip": "When two options look alike, ask where the money was earned (NRE vs NRO) or who owns the bank (Centre, sponsor bank, State for RRBs) - ownership and source questions are the most common traps in this chapter."
+  },
+  "questions": [
+    {
+      "text": "An overdraft facility, which lets the holder withdraw more than the available balance up to a sanctioned limit, is generally attached to which account?",
+      "difficulty": "EASY",
+      "options": [
+        "Recurring deposit account",
+        "Current account",
+        "Fixed deposit account",
+        "Public Provident Fund account"
+      ],
+      "answer": 1,
+      "explanation": "An overdraft is a short-term credit facility, used mainly by businesses that must make payments before their receipts come in.\nIt is typically linked to a current account.\nRecurring and fixed deposits are time deposits, and a PPF account is a long-term small-savings scheme.\nAnswer: Current account."
+    },
+    {
+      "text": "In a 'sweep-in' (auto-sweep) facility offered on a savings account:",
+      "difficulty": "EASY",
+      "options": [
+        "The account is closed automatically if the balance falls below a limit",
+        "The bank deducts loan EMIs from the account every month",
+        "All interest earned is transferred to a recurring deposit",
+        "Balance above a set limit is moved automatically into a fixed deposit and brought back when needed"
+      ],
+      "answer": 3,
+      "explanation": "A sweep-in account links a savings account to fixed deposits.\nAny balance above a set threshold is swept into an FD to earn higher interest.\nIf the savings balance falls short for a payment, money is swept back from the FD.\nThis gives FD-like returns with savings-account liquidity.\nAnswer: balance above a set limit moves into an FD and comes back when needed."
+    },
+    {
+      "text": "The State Bank of India was formed in 1955 by taking over which bank?",
+      "difficulty": "EASY",
+      "options": [
+        "Imperial Bank of India",
+        "Presidency Bank of Bengal",
+        "Bank of Hindustan",
+        "Allahabad Bank"
+      ],
+      "answer": 0,
+      "explanation": "In 1921, the three Presidency Banks (of Bengal, Bombay and Madras) were merged to form the Imperial Bank of India.\nOn 1 July 1955, under the SBI Act, 1955, the Imperial Bank was taken over and became the State Bank of India.\nThe Presidency Bank of Bengal is a trap: it was a predecessor of the Imperial Bank, not the bank taken over in 1955.\nAnswer: Imperial Bank of India."
+    },
+    {
+      "text": "An NRI receives rent from a flat in Pune and dividends from Indian shares. Which account is meant for depositing such income earned in India?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "NRE account",
+        "FCNR(B) account",
+        "NRO account",
+        "Resident savings account"
+      ],
+      "answer": 2,
+      "explanation": "An NRO (Non-Resident Ordinary) account holds income earned in India, such as rent, pension and dividends.\nAn NRE account is for income earned abroad, and FCNR(B) is a term deposit kept in foreign currency.\nOnce a person becomes an NRI, a resident savings account cannot continue as such; it must be redesignated as an NRO account.\nAnswer: NRO account."
+    },
+    {
+      "text": "On 19 July 1969, how many major commercial banks were nationalised by the Government of India?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "6",
+        "14",
+        "20",
+        "12"
+      ],
+      "answer": 1,
+      "explanation": "On 19 July 1969, 14 banks, each with deposits of ₹50 crore or more, were nationalised.\nSix more banks were nationalised on 15 April 1980.\nAdding the two rounds gives 20, which is a common trap.\nAnswer: 14."
+    },
+    {
+      "text": "Which of the following correctly states a difference between a bank and a Non-Banking Financial Company (NBFC)?",
+      "difficulty": "MEDIUM",
+      "options": [
+        "NBFCs can issue cheques drawn on themselves",
+        "Deposits with NBFCs are insured by the DICGC",
+        "NBFCs are not regulated by the RBI in any way",
+        "NBFCs cannot accept demand deposits"
+      ],
+      "answer": 3,
+      "explanation": "Banks accept demand deposits (savings and current accounts withdrawable on demand); NBFCs cannot.\nNBFCs are not part of the payment and settlement system, so they cannot issue cheques drawn on themselves.\nDICGC deposit insurance covers banks, not NBFCs.\nNBFCs are registered with and regulated by the RBI.\nAnswer: NBFCs cannot accept demand deposits."
+    },
+    {
+      "text": "In a joint savings account opened with the mandate 'Former or Survivor':",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Only the first holder can operate it while alive; the second holder can operate it only after the first holder's death",
+        "Either holder can operate the account at any time",
+        "Both holders must sign every withdrawal jointly",
+        "The account is closed on the death of either holder"
+      ],
+      "answer": 0,
+      "explanation": "'Former' means the first-named holder.\nUnder this mandate, only the first holder operates the account during his or her lifetime.\nOn the first holder's death, the survivor (second holder) can operate it.\nOption B describes 'Either or Survivor', and C describes a 'Jointly' mandate.\nAnswer: only the first holder operates while alive, the second after the first holder's death."
+    },
+    {
+      "text": "As per RBI norms, a savings or current account is treated as inoperative if there has been no customer-induced transaction in it for more than:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "6 months",
+        "1 year",
+        "2 years",
+        "10 years"
+      ],
+      "answer": 2,
+      "explanation": "RBI guidelines treat a savings or current account as inoperative when there is no customer-induced transaction for over 2 years.\nInterest credited or charges debited by the bank do not count as customer transactions.\n10 years is the period after which unclaimed deposits are transferred to RBI's DEA Fund.\nAnswer: 2 years."
+    },
+    {
+      "text": "In India's three-tier short-term rural cooperative credit structure, the village-level tier is formed by:",
+      "difficulty": "MEDIUM",
+      "options": [
+        "Primary Agricultural Credit Societies",
+        "District Central Cooperative Banks",
+        "State Cooperative Banks",
+        "Urban Cooperative Banks"
+      ],
+      "answer": 0,
+      "explanation": "The structure runs from top to bottom: State Cooperative Bank at the state level, District Central Cooperative Banks at the district level, and Primary Agricultural Credit Societies (PACS) at the village level.\nPACS deal directly with farmers.\nUrban Cooperative Banks serve towns and are not part of this rural structure.\nAnswer: Primary Agricultural Credit Societies."
+    },
+    {
+      "text": "Under the Regional Rural Banks Act, 1976, the share capital of an RRB is held by the Central Government, the sponsor bank and the State Government respectively in the ratio:",
+      "difficulty": "HARD",
+      "options": [
+        "50 : 15 : 35",
+        "35 : 50 : 15",
+        "51 : 34 : 15",
+        "50 : 35 : 15"
+      ],
+      "answer": 3,
+      "explanation": "The RRB share pattern is Central Government 50%, sponsor bank 35% and State Government 15%.\nOption A swaps the sponsor bank's and the State's shares, and B gives the sponsor bank the largest share; both are common mix-ups.\nRRBs were first set up on 2 October 1975 and are governed by the RRB Act, 1976.\nAnswer: 50 : 35 : 15."
+    },
+    {
+      "text": "Deposits in a bank account that remain unclaimed for 10 years or more are transferred by the bank to which fund?",
+      "difficulty": "HARD",
+      "options": [
+        "Consolidated Fund of India",
+        "Depositor Education and Awareness (DEA) Fund",
+        "Investor Education and Protection Fund",
+        "National Small Savings Fund"
+      ],
+      "answer": 1,
+      "explanation": "Under Section 26A of the Banking Regulation Act, 1949, banks transfer deposits unclaimed for 10 years or more to the DEA Fund, set up by the RBI in 2014.\nThe customer or legal heir can still claim the money from the bank later.\nThe Investor Education and Protection Fund, a common trap, receives unclaimed company dividends and shares under the Companies Act, not bank deposits.\nAnswer: Depositor Education and Awareness (DEA) Fund."
+    }
+  ]
+}

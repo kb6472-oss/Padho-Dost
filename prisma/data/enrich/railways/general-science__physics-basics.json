@@ -1,0 +1,106 @@
+{
+  "exam": "railways",
+  "subject": "general-science",
+  "chapter": "physics-basics",
+  "notes": {
+    "summary": "This chapter covers units, motion and the laws of motion, work, energy and power, pressure, light, sound and current electricity at the Class 9-10 NCERT level. RRB Group D in particular sets short numericals (F = ma, kinetic energy, resistors, electricity bills, lens power), while NTPC favours units, instruments and everyday applications.",
+    "keyPoints": [
+      "SI units: force – newton (N), work and energy – joule (J), power – watt (W), pressure – pascal (Pa), frequency – hertz (Hz), current – ampere (A), resistance – ohm (Ω).",
+      "Newton's second law: F = m × a. Example: 20 N on 4 kg gives a = 20 ÷ 4 = 5 m/s².",
+      "Kinetic energy = ½mv²; potential energy = mgh. Example: 2 kg at 10 m/s has KE = ½ × 2 × 100 = 100 J.",
+      "Vertical throw with g = 10 m/s²: maximum height H = u² ÷ 2g, time to top = u ÷ g, total time in air = 2u ÷ g. For u = 20 m/s: H = 20 m, total time = 4 s.",
+      "Resistors: series R = R1 + R2 + ...; parallel 1/R = 1/R1 + 1/R2 + .... A parallel combination is always smaller than the smallest single resistor.",
+      "R = ρL ÷ A. Stretching a wire to n times its length (volume constant) makes its resistance n² times.",
+      "Electrical energy in units = power in kW × hours; 1 unit = 1 kWh. Example: 1000 W for 2 h a day for 30 days = 60 units.",
+      "Lens power P = 1 ÷ f (f in metres), unit dioptre (D); convex lens positive, concave lens negative. Myopia is corrected by a concave lens, hypermetropia by a convex lens.",
+      "Pascal's law (pressure on an enclosed liquid is transmitted equally in all directions) is the basis of hydraulic lifts, jacks and brakes; Archimedes' principle explains buoyancy."
+    ],
+    "traps": [
+      "Forgetting the ½ in kinetic energy, which doubles the answer.",
+      "Adding resistances in parallel as if they were in series.",
+      "Using focal length in centimetres in P = 1/f: convert to metres first (25 cm = 0.25 m).",
+      "For a stretched wire, saying resistance only doubles: the cross-section also halves, so it becomes 4 times.",
+      "In vertical-throw questions, giving only the time to reach the top instead of the total time in the air."
+    ],
+    "examTip": "Write the formula, convert every quantity to SI (kg, m, s, and kW for bills), then substitute; most wrong options come from a skipped unit conversion."
+  },
+  "questions": [
+    {
+      "text": "What is the SI unit of work?",
+      "difficulty": "EASY",
+      "options": ["Watt", "Newton", "Joule", "Pascal"],
+      "answer": 2,
+      "explanation": "Work = force × displacement, so its unit is the newton-metre, which is called the joule (J).\nWatt is the unit of power, newton of force and pascal of pressure.\nAnswer: Joule."
+    },
+    {
+      "text": "A person suffering from myopia (short-sightedness) can see nearby objects clearly but not distant ones. Which lens is used to correct this defect?",
+      "difficulty": "EASY",
+      "options": ["Convex lens", "Concave lens", "Cylindrical lens", "Plane glass"],
+      "answer": 1,
+      "explanation": "In myopia the image of a distant object forms in front of the retina, because the eyeball is too long or the eye lens is too strong.\nA concave (diverging) lens spreads the rays slightly so that the image moves back onto the retina.\nHypermetropia is corrected with a convex lens and astigmatism with a cylindrical lens.\nAnswer: Concave lens."
+    },
+    {
+      "text": "What is the SI unit of frequency?",
+      "difficulty": "EASY",
+      "options": ["Decibel", "Watt", "Tesla", "Hertz"],
+      "answer": 3,
+      "explanation": "Frequency is the number of oscillations per second; 1 hertz (Hz) = 1 oscillation per second.\nThe decibel measures sound level, the watt measures power and the tesla measures magnetic field strength.\nAnswer: Hertz."
+    },
+    {
+      "text": "A force of 20 N acts on a body of mass 4 kg kept on a smooth surface. What is the acceleration produced?",
+      "difficulty": "MEDIUM",
+      "options": ["5 m/s²", "80 m/s²", "0.2 m/s²", "16 m/s²"],
+      "answer": 0,
+      "explanation": "By Newton's second law, F = m × a, so a = F ÷ m.\na = 20 ÷ 4 = 5 m/s².\n(Multiplying gives 80 and dividing the wrong way round gives 0.2, both common slips.)\nAnswer: 5 m/s²."
+    },
+    {
+      "text": "A body of mass 2 kg is moving with a velocity of 10 m/s. What is its kinetic energy?",
+      "difficulty": "MEDIUM",
+      "options": ["20 J", "200 J", "100 J", "50 J"],
+      "answer": 2,
+      "explanation": "Kinetic energy = ½ × m × v².\n= ½ × 2 × 10 × 10\n= 1 × 100 = 100 J.\n(Forgetting the ½ gives 200 J.)\nAnswer: 100 J."
+    },
+    {
+      "text": "Three resistors of 2 Ω, 3 Ω and 6 Ω are connected in parallel. What is their equivalent resistance?",
+      "difficulty": "MEDIUM",
+      "options": ["11 Ω", "1 Ω", "6 Ω", "0.5 Ω"],
+      "answer": 1,
+      "explanation": "For resistors in parallel, 1/R = 1/2 + 1/3 + 1/6.\nTaking LCM 6: 1/R = 3/6 + 2/6 + 1/6 = 6/6 = 1.\nSo R = 1 Ω, which is less than the smallest resistor (2 Ω), as it must be.\n11 Ω would be the series value.\nAnswer: 1 Ω."
+    },
+    {
+      "text": "An electric heater rated 1000 W is used for 2 hours every day. What is the cost of the electricity it uses in 30 days if one unit costs ₹5?",
+      "difficulty": "MEDIUM",
+      "options": ["₹10", "₹150", "₹600", "₹300"],
+      "answer": 3,
+      "explanation": "Power = 1000 W = 1 kW.\nEnergy per day = 1 kW × 2 h = 2 kWh = 2 units.\nEnergy in 30 days = 2 × 30 = 60 units.\nCost = 60 × ₹5 = ₹300.\nAnswer: ₹300."
+    },
+    {
+      "text": "What is the power of a convex lens of focal length 25 cm?",
+      "difficulty": "MEDIUM",
+      "options": ["-4 D", "+4 D", "+0.25 D", "+25 D"],
+      "answer": 1,
+      "explanation": "Power P = 1 ÷ f, where f must be in metres.\nf = 25 cm = 0.25 m, so P = 1 ÷ 0.25 = 4 D.\nA convex lens has a positive focal length, so P = +4 D.\n(Forgetting the reciprocal gives 0.25, and a negative sign would be for a concave lens.)\nAnswer: +4 D."
+    },
+    {
+      "text": "Hydraulic lifts, hydraulic jacks and hydraulic brakes work on the basis of:",
+      "difficulty": "MEDIUM",
+      "options": ["Archimedes' principle", "Bernoulli's principle", "Pascal's law", "Hooke's law"],
+      "answer": 2,
+      "explanation": "Pascal's law states that pressure applied to an enclosed liquid is transmitted equally in all directions.\nIn a hydraulic lift, a small force on a small piston creates a pressure that acts on a large piston, producing a much larger force.\nArchimedes' principle explains buoyancy, Bernoulli's principle explains the lift on aircraft wings and Hooke's law relates stress to strain.\nAnswer: Pascal's law."
+    },
+    {
+      "text": "A metal wire has a resistance of 10 Ω. It is stretched uniformly until its length is doubled, its volume remaining the same. What is its new resistance?",
+      "difficulty": "HARD",
+      "options": ["5 Ω", "10 Ω", "20 Ω", "40 Ω"],
+      "answer": 3,
+      "explanation": "R = ρL ÷ A, and volume = L × A stays constant.\nIf the length becomes 2L, the area must become A ÷ 2.\nNew R = ρ(2L) ÷ (A/2) = 4 × ρL ÷ A = 4R.\nNew resistance = 4 × 10 = 40 Ω (20 Ω ignores the change in area).\nAnswer: 40 Ω."
+    },
+    {
+      "text": "A ball is thrown vertically upward with a velocity of 20 m/s. Taking g = 10 m/s² and ignoring air resistance, what are the maximum height reached and the total time the ball stays in the air?",
+      "difficulty": "HARD",
+      "options": ["20 m and 4 s", "40 m and 2 s", "20 m and 2 s", "40 m and 4 s"],
+      "answer": 0,
+      "explanation": "At the highest point the velocity becomes 0.\nMaximum height: v² = u² – 2gH, so H = u² ÷ 2g = 400 ÷ 20 = 20 m.\nTime to reach the top: t = u ÷ g = 20 ÷ 10 = 2 s, and the fall back takes the same 2 s.\nTotal time in the air = 2 + 2 = 4 s.\nAnswer: 20 m and 4 s."
+    }
+  ]
+}

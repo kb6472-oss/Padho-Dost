@@ -1,0 +1,107 @@
+{
+  "exam": "railways",
+  "subject": "mathematics",
+  "chapter": "percentage-ratio-average",
+  "notes": {
+    "summary": "This chapter covers percentages and percentage change, successive changes, ratio and proportion, and averages including weighted and replacement averages. RRB NTPC and Group D ask 3-5 short questions here, and knowing fraction equivalents and a few shortcuts makes most of them one-line sums.",
+    "keyPoints": [
+      "Fraction equivalents: 12.5% = 1/8, 16 2/3% = 1/6, 20% = 1/5, 25% = 1/4, 33 1/3% = 1/3, 37.5% = 3/8, 62.5% = 5/8, 66 2/3% = 2/3.",
+      "Successive change: net % = a + b + (a × b)/100, with a minus sign for a decrease. +20% then −20% gives 20 − 20 − 4 = −4%.",
+      "If A is r% more than B, then B is [r/(100 + r)] × 100 % less than A. 25% more means 20% less.",
+      "Growth at different yearly rates: final = P × (1 + r1/100) × (1 + r2/100). 20,000 at 10% then 5% → 23,100.",
+      "Combining ratios: A : B = 2 : 3 and B : C = 4 : 5 → make B the same (12) → A : B : C = 8 : 12 : 15.",
+      "Mean proportional of a and b = √(ab) (9 and 16 → 12); fourth proportional to a, b, c = (b × c)/a.",
+      "Replacement: if replacing one item changes the average of n items by d, new item = old item ± n × d.",
+      "Weighted average = (n1 × a1 + n2 × a2) ÷ (n1 + n2); it equals the simple mean of a1 and a2 only when n1 = n2.",
+      "Average of consecutive numbers (or any evenly spaced list) = middle term = (first + last) ÷ 2.",
+      "Coin problems: change the ratio of numbers of coins into a ratio of values before dividing the total amount."
+    ],
+    "traps": [
+      "Adding successive percentages directly (+20% and −20% is not 0%).",
+      "Calculating percentage change on the new value instead of the original value.",
+      "Taking the simple mean of two group averages when the group sizes are different.",
+      "In election questions, applying the winner's percentage to total votes when it is given on valid votes.",
+      "In coin questions, dividing the rupee total in the ratio of number of coins instead of their values."
+    ],
+    "examTip": "When a base value is not given, assume 100 (₹100 income, 100 votes, ₹100 price) — most percentage word problems then become simple subtraction."
+  },
+  "questions": [
+    {
+      "text": "Section A has 30 students with an average score of 60, and Section B has 20 students with an average score of 70. What is the average score of all 50 students together?",
+      "difficulty": "EASY",
+      "options": ["65", "62", "64", "66"],
+      "answer": 2,
+      "explanation": "Total of Section A = 30 × 60 = 1800; total of Section B = 20 × 70 = 1400.\nCombined total = 3200 for 50 students.\nAverage = 3200 ÷ 50 = 64. (65 is the simple mean of the two averages and ignores the different class sizes.) Answer: 64."
+    },
+    {
+      "text": "The average of five consecutive odd numbers is 27. What is the largest of these numbers?",
+      "difficulty": "EASY",
+      "options": ["29", "31", "33", "35"],
+      "answer": 1,
+      "explanation": "For evenly spaced numbers, the average is the middle (3rd) number, so the middle number is 27.\nThe five numbers are 23, 25, 27, 29, 31.\nLargest = 31. Answer: 31."
+    },
+    {
+      "text": "What is the mean proportional between 9 and 16?",
+      "difficulty": "EASY",
+      "options": ["12", "12.5", "13", "144"],
+      "answer": 0,
+      "explanation": "Mean proportional between a and b = √(a × b).\n√(9 × 16) = √144 = 12.\n(12.5 is the arithmetic mean, not the mean proportional.) Answer: 12."
+    },
+    {
+      "text": "The price of an article is first increased by 20% and then the new price is decreased by 20%. What is the net change in the price?",
+      "difficulty": "MEDIUM",
+      "options": ["No change", "4% decrease", "4% increase", "2% decrease"],
+      "answer": 1,
+      "explanation": "Net change = a + b + (a × b)/100 with a = +20 and b = −20.\n= 20 − 20 + (20 × −20)/100 = −4.\nCheck with ₹100: 100 → 120 → 120 × 0.8 = 96.\nAnswer: 4% decrease."
+    },
+    {
+      "text": "If A : B = 2 : 3 and B : C = 4 : 5, what is A : B : C?",
+      "difficulty": "MEDIUM",
+      "options": ["8 : 12 : 15", "2 : 3 : 5", "4 : 6 : 5", "8 : 10 : 15"],
+      "answer": 0,
+      "explanation": "Make the common term B equal. B is 3 in the first ratio and 4 in the second; LCM = 12.\nA : B = 2 : 3 = 8 : 12 (multiply by 4). B : C = 4 : 5 = 12 : 15 (multiply by 3).\nSo A : B : C = 8 : 12 : 15. Answer: 8 : 12 : 15."
+    },
+    {
+      "text": "A bag contains ₹1, 50-paise and 25-paise coins in the ratio 1 : 2 : 4 by number. If the total value of the coins is ₹360, how many 25-paise coins are there?",
+      "difficulty": "MEDIUM",
+      "options": ["120", "240", "360", "480"],
+      "answer": 3,
+      "explanation": "Let the numbers of coins be x, 2x and 4x.\nTotal value = x × ₹1 + 2x × ₹0.50 + 4x × ₹0.25 = x + x + x = ₹3x.\n3x = 360, so x = 120.\nNumber of 25-paise coins = 4x = 480. Answer: 480."
+    },
+    {
+      "text": "The average weight of 8 persons increases by 2.5 kg when a new person comes in place of one of them who weighs 65 kg. What is the weight of the new person?",
+      "difficulty": "MEDIUM",
+      "options": ["67.5 kg", "75 kg", "85 kg", "80 kg"],
+      "answer": 2,
+      "explanation": "Increase in total weight = 8 × 2.5 = 20 kg.\nThis whole increase comes from the new person replacing the 65 kg person.\nNew person's weight = 65 + 20 = 85 kg. Answer: 85 kg."
+    },
+    {
+      "text": "A batsman has an average of 32 runs in 10 innings. How many runs must he score in the 11th innings to raise his average to 36?",
+      "difficulty": "MEDIUM",
+      "options": ["36", "40", "72", "76"],
+      "answer": 3,
+      "explanation": "Runs in 10 innings = 10 × 32 = 320.\nRuns needed for an average of 36 in 11 innings = 11 × 36 = 396.\nRequired score = 396 − 320 = 76.\nShortcut: new average + (old innings × increase) = 36 + 10 × 4 = 76. Answer: 76."
+    },
+    {
+      "text": "The population of a town is 20,000. It increases by 10% in the first year and by 5% in the second year. What is the population at the end of the second year?",
+      "difficulty": "MEDIUM",
+      "options": ["23,000", "23,100", "23,200", "22,100"],
+      "answer": 1,
+      "explanation": "After year 1: 20,000 × 110/100 = 22,000.\nAfter year 2: 22,000 × 105/100 = 23,100.\n(Adding 10% + 5% = 15% gives 23,000, which ignores growth on the increased population.) Answer: 23,100."
+    },
+    {
+      "text": "In an election between two candidates, 10% of the votes cast were declared invalid. The winner got 55% of the valid votes and won by 1,800 votes. How many votes were cast in total?",
+      "difficulty": "HARD",
+      "options": ["20,000", "18,000", "16,200", "36,000"],
+      "answer": 0,
+      "explanation": "Let total votes cast = V. Valid votes = 90% of V = 0.9V.\nThe winner gets 55% and the loser 45% of valid votes, so the margin is 10% of valid votes = 0.09V.\n0.09V = 1,800, so V = 20,000.\n(18,000 is the number of valid votes, not total votes cast.) Answer: 20,000."
+    },
+    {
+      "text": "A man spends 75% of his income. His income increases by 20% and his expenditure increases by 10%. By what percent do his savings increase?",
+      "difficulty": "HARD",
+      "options": ["10%", "30%", "40%", "50%"],
+      "answer": 3,
+      "explanation": "Take income = ₹100, so expenditure = ₹75 and savings = ₹25.\nNew income = ₹120; new expenditure = 75 × 1.10 = ₹82.50.\nNew savings = 120 − 82.50 = ₹37.50.\nIncrease = 12.50 on 25 = 50%. Answer: 50%."
+    }
+  ]
+}

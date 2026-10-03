@@ -1,0 +1,107 @@
+{
+  "exam": "railways",
+  "subject": "mathematics",
+  "chapter": "time-speed-work",
+  "notes": {
+    "summary": "This chapter covers speed, distance and time, unit conversion, relative speed, trains, boats and streams, time and work, pipes and cisterns, and sharing wages. RRB NTPC and Group D typically include 2-4 such questions, and train-crossing problems are the most frequent.",
+    "keyPoints": [
+      "Distance = speed × time. km/h to m/s: multiply by 5/18 (72 km/h = 20 m/s); m/s to km/h: multiply by 18/5.",
+      "Relative speed: add the speeds when moving in opposite directions, subtract when moving in the same direction. Time to cross = total distance ÷ relative speed.",
+      "A train crossing a pole, tree or standing man covers its own length; crossing a platform, bridge or another train covers the sum of the two lengths.",
+      "Boats: downstream = u + v, upstream = u − v. Still-water speed u = (down + up) ÷ 2; stream speed v = (down − up) ÷ 2.",
+      "Average speed for equal distances at x and y = 2xy ÷ (x + y); in every other case use total distance ÷ total time.",
+      "Work: if A takes a days, A does 1/a of the work per day. Together A and B take ab ÷ (a + b) days (10 and 15 days → 6 days).",
+      "For the same work: M1 × D1 × H1 = M2 × D2 × H2 (men × days × hours per day).",
+      "Pipes: inlets add, leaks/outlets subtract. If a pipe fills in x hours but takes y hours with a leak, the leak alone empties it in xy ÷ (y − x) hours.",
+      "Wages are shared in the ratio of work done; when people work for the same days, that is the inverse ratio of their individual times (10 days and 15 days → 3 : 2).",
+      "Late/early problems: the difference between the two travel times = late minutes + early minutes."
+    ],
+    "traps": [
+      "Forgetting to convert km/h to m/s when lengths are in metres and time is in seconds.",
+      "Using only the train's length when it crosses a platform or another train.",
+      "Taking the simple average of two speeds for a journey with equal distances.",
+      "Sharing wages in the ratio of days taken instead of the inverse ratio.",
+      "In late/early questions, using 10 − 5 minutes instead of 10 + 5 minutes as the time gap."
+    ],
+    "examTip": "In work and pipe questions, take total work as the LCM of the given times so every daily or hourly rate is a whole number."
+  },
+  "questions": [
+    {
+      "text": "Two towns are 300 km apart. A car leaves one town at 40 km/h and, at the same time, a bus leaves the other town at 60 km/h, travelling towards each other. After how long will they meet?",
+      "difficulty": "EASY",
+      "options": ["3 hours", "5 hours", "7.5 hours", "15 hours"],
+      "answer": 0,
+      "explanation": "Moving towards each other, relative speed = 40 + 60 = 100 km/h.\nTime to meet = distance ÷ relative speed = 300 ÷ 100 = 3 hours.\n(15 hours comes from wrongly subtracting the speeds.) Answer: 3 hours."
+    },
+    {
+      "text": "A and B together can finish a piece of work in 12 days. A alone can finish it in 20 days. In how many days can B alone finish the work?",
+      "difficulty": "EASY",
+      "options": ["7.5 days", "8 days", "30 days", "32 days"],
+      "answer": 2,
+      "explanation": "B's one-day work = 1/12 − 1/20 = 5/60 − 3/60 = 2/60 = 1/30.\nSo B alone takes 30 days.\nLCM method: total work = 60 units; A and B do 5 units/day, A does 3, so B does 2 units/day → 60 ÷ 2 = 30 days. Answer: 30 days."
+    },
+    {
+      "text": "A boat goes downstream at 18 km/h and upstream at 12 km/h. What is the speed of the boat in still water?",
+      "difficulty": "EASY",
+      "options": ["3 km/h", "15 km/h", "6 km/h", "30 km/h"],
+      "answer": 1,
+      "explanation": "Speed in still water = (downstream speed + upstream speed) ÷ 2.\n= (18 + 12) ÷ 2 = 15 km/h.\n(The stream's speed is (18 − 12) ÷ 2 = 3 km/h.) Answer: 15 km/h."
+    },
+    {
+      "text": "Two trains of lengths 140 m and 160 m are running on parallel tracks in opposite directions at 60 km/h and 48 km/h. How long will they take to cross each other completely?",
+      "difficulty": "MEDIUM",
+      "options": ["10 seconds", "12 seconds", "20 seconds", "90 seconds"],
+      "answer": 0,
+      "explanation": "Opposite directions, so relative speed = 60 + 48 = 108 km/h = 108 × 5/18 = 30 m/s.\nDistance to cover = sum of lengths = 140 + 160 = 300 m.\nTime = 300 ÷ 30 = 10 seconds. Answer: 10 seconds."
+    },
+    {
+      "text": "A train 250 m long is running at 50 km/h. In how much time will it pass a man who is walking at 5 km/h in the same direction as the train?",
+      "difficulty": "MEDIUM",
+      "options": ["16 seconds", "18 seconds", "25 seconds", "20 seconds"],
+      "answer": 3,
+      "explanation": "Same direction, so relative speed = 50 − 5 = 45 km/h = 45 × 5/18 = 12.5 m/s.\nDistance = length of the train = 250 m.\nTime = 250 ÷ 12.5 = 20 seconds.\n(18 seconds comes from ignoring the man's speed.) Answer: 20 seconds."
+    },
+    {
+      "text": "A train crosses a pole in 15 seconds and a 100 m long platform in 25 seconds. What is the length of the train?",
+      "difficulty": "MEDIUM",
+      "options": ["100 m", "150 m", "200 m", "250 m"],
+      "answer": 1,
+      "explanation": "The extra 25 − 15 = 10 seconds is the time taken to cover the platform's 100 m.\nSpeed = 100 ÷ 10 = 10 m/s.\nLength of train = speed × time to cross the pole = 10 × 15 = 150 m. Answer: 150 m."
+    },
+    {
+      "text": "A pipe can fill a tank in 8 hours. Because of a leak at the bottom, it takes 10 hours to fill the tank. In how many hours can the leak alone empty the full tank?",
+      "difficulty": "MEDIUM",
+      "options": ["2 hours", "18 hours", "40 hours", "80 hours"],
+      "answer": 2,
+      "explanation": "Leak's emptying rate = filling rate without the leak − net rate with the leak.\n= 1/8 − 1/10 = 5/40 − 4/40 = 1/40 of the tank per hour.\nSo the leak empties the full tank in 40 hours.\nShortcut: (8 × 10) ÷ (10 − 8) = 40. Answer: 40 hours."
+    },
+    {
+      "text": "18 men working 6 hours a day can complete a piece of work in 20 days. In how many days will 15 men working 8 hours a day complete the same work?",
+      "difficulty": "MEDIUM",
+      "options": ["18 days", "15 days", "20 days", "24 days"],
+      "answer": 0,
+      "explanation": "Use M1 × H1 × D1 = M2 × H2 × D2.\n18 × 6 × 20 = 15 × 8 × D2.\n2160 = 120 × D2, so D2 = 18 days. Answer: 18 days."
+    },
+    {
+      "text": "A can do a piece of work in 10 days and B can do it in 15 days. They work together and receive ₹2,500 for the whole work. What is A's share?",
+      "difficulty": "MEDIUM",
+      "options": ["₹1,000", "₹1,250", "₹1,500", "₹1,800"],
+      "answer": 2,
+      "explanation": "Wages are shared in the ratio of work done. Working the same number of days, this is the ratio of their one-day work.\nA : B = 1/10 : 1/15 = 3 : 2.\nA's share = 3/5 × 2,500 = ₹1,500.\n(₹1,000 comes from wrongly using the ratio 10 : 15.) Answer: ₹1,500."
+    },
+    {
+      "text": "A can complete a piece of work in 15 days and B in 20 days. They work together for 4 days, after which A leaves. In how many more days will B finish the remaining work?",
+      "difficulty": "HARD",
+      "options": ["8 days", "12 days", "14 2/3 days", "10 2/3 days"],
+      "answer": 3,
+      "explanation": "Take total work = LCM(15, 20) = 60 units. A does 4 units/day and B does 3 units/day.\nIn 4 days together they do 4 × 7 = 28 units.\nRemaining work = 60 − 28 = 32 units.\nB alone takes 32 ÷ 3 = 10 2/3 days.\n(14 2/3 days is the total time including the first 4 days.) Answer: 10 2/3 days."
+    },
+    {
+      "text": "If a student walks from home to school at 4 km/h, he reaches 10 minutes late. If he walks at 5 km/h, he reaches 5 minutes early. What is the distance from his home to the school?",
+      "difficulty": "HARD",
+      "options": ["3 km", "5 km", "6 km", "4.5 km"],
+      "answer": 1,
+      "explanation": "Difference between the two travel times = 10 min late + 5 min early = 15 minutes = 1/4 hour.\nd/4 − d/5 = 1/4, so d/20 = 1/4 and d = 5 km.\nCheck: 5 km at 4 km/h takes 75 min and at 5 km/h takes 60 min, a gap of 15 min. Answer: 5 km."
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "exam": "railways",
+  "subject": "mathematics",
+  "chapter": "number-system-simplification",
+  "notes": {
+    "summary": "This chapter covers types of numbers, divisibility rules, HCF and LCM, unit digits, remainders, squares and cubes, indices, recurring decimals and BODMAS simplification. RRB NTPC and Group D usually ask 3-6 short, direct questions here that should each take under 40 seconds.",
+    "keyPoints": [
+      "BODMAS order: Brackets, Of, Division, Multiplication, Addition, Subtraction. 'Of' is done before ÷, so 48 ÷ 4 of 3 = 48 ÷ 12 = 4.",
+      "Divisibility: by 3 or 9 if the digit sum is divisible by 3 or 9; by 4 if the last two digits are; by 8 if the last three digits are; by 11 if (sum of odd-place digits − sum of even-place digits) is 0 or a multiple of 11 (53746: 18 − 7 = 11).",
+      "For two numbers only: HCF × LCM = product of the numbers. HCF 12, LCM 336, one number 48 → other = 12 × 336 ÷ 48 = 84.",
+      "Number of factors: if N = a^p × b^q × c^r (prime factors), factors = (p + 1)(q + 1)(r + 1). 360 = 2³ × 3² × 5 → 4 × 3 × 2 = 24.",
+      "Trailing zeros of n! = n/5 + n/25 + n/125 + ... (integer parts only). 100! → 20 + 4 = 24 zeros.",
+      "Unit digit cycles: 2, 3, 7, 8 repeat every 4 powers; 4 and 9 every 2 powers; 0, 1, 5, 6 never change. Divide the power by 4 and use the remainder (remainder 0 means use the 4th power).",
+      "Recurring decimals: 0.ababab... = ab/99 (0.3636... = 36/99 = 4/11); 0.abbb... with only b repeating = (ab − a)/90 (0.2777... = 25/90 = 5/18).",
+      "Indices: a^(m/n) = (n-th root of a)^m, so 125^(2/3) = 5² = 25; a^m × a^n = a^(m+n); a^0 = 1.",
+      "Largest number that divides x, y, z leaving remainders a, b, c = HCF of (x − a), (y − b), (z − c).",
+      "Events repeating every a, b, c units happen together every LCM(a, b, c) units (bells, traffic lights, runners)."
+    ],
+    "traps": [
+      "Working strictly left to right and ignoring that 'of' comes before division in BODMAS.",
+      "Using HCF × LCM = product for three numbers; the rule works only for two numbers.",
+      "Forgetting the n/125 term when counting trailing zeros, or counting the starting moment when asked how many times bells toll together 'after' a time.",
+      "Writing 0.2777... as 27/99; only the repeating part goes over 9s, the non-repeating part adds 0s.",
+      "In the rule for 11, mixing up odd and even places; count positions consistently from one end."
+    ],
+    "examTip": "Before calculating fully, use digit sums, last digits and divisibility to eliminate options — often three options fall away in seconds."
+  },
+  "questions": [
+    {
+      "text": "What is the smallest digit that should replace * in the number 74*5 so that it is exactly divisible by 9?",
+      "difficulty": "EASY",
+      "options": ["1", "2", "5", "7"],
+      "answer": 1,
+      "explanation": "Divisibility by 9 needs the digit sum to be a multiple of 9.\nSum of the known digits = 7 + 4 + 5 = 16.\nThe next multiple of 9 is 18, so * = 18 − 16 = 2.\nCheck: 7425 ÷ 9 = 825. Answer: 2."
+    },
+    {
+      "text": "Express 0.363636... (with 36 repeating) as a fraction in its lowest terms.",
+      "difficulty": "EASY",
+      "options": ["9/25", "2/5", "4/11", "3/11"],
+      "answer": 2,
+      "explanation": "For a pure recurring decimal, write the repeating block over as many 9s as it has digits.\n0.363636... = 36/99.\nDivide numerator and denominator by 9: 36/99 = 4/11.\nAnswer: 4/11."
+    },
+    {
+      "text": "The HCF of two numbers is 12 and their LCM is 336. If one of the numbers is 48, what is the other number?",
+      "difficulty": "EASY",
+      "options": ["84", "72", "96", "112"],
+      "answer": 0,
+      "explanation": "For two numbers, HCF × LCM = product of the numbers.\nOther number = (12 × 336) ÷ 48 = 4032 ÷ 48 = 84.\nCheck: HCF(48, 84) = 12 and LCM(48, 84) = 336. Answer: 84."
+    },
+    {
+      "text": "What is the smallest digit that can replace * in the number 53*46 so that the number is divisible by 11?",
+      "difficulty": "MEDIUM",
+      "options": ["3", "4", "9", "7"],
+      "answer": 3,
+      "explanation": "Rule for 11: (sum of digits in odd places) − (sum of digits in even places) must be 0 or a multiple of 11.\nOdd places (1st, 3rd, 5th): 5 + * + 6 = 11 + *. Even places (2nd, 4th): 3 + 4 = 7.\nDifference = (11 + *) − 7 = 4 + *. For this to equal 11, * = 7.\nCheck: 53746 ÷ 11 = 4886. Answer: 7."
+    },
+    {
+      "text": "How many factors (divisors) does the number 360 have?",
+      "difficulty": "MEDIUM",
+      "options": ["18", "24", "20", "36"],
+      "answer": 1,
+      "explanation": "Write 360 as a product of primes: 360 = 2³ × 3² × 5¹.\nNumber of factors = (3 + 1)(2 + 1)(1 + 1) = 4 × 3 × 2 = 24.\nAnswer: 24."
+    },
+    {
+      "text": "How many zeros are there at the end of 150! (150 factorial)?",
+      "difficulty": "MEDIUM",
+      "options": ["30", "36", "37", "40"],
+      "answer": 2,
+      "explanation": "Trailing zeros come from pairs of 2 and 5, and 5s are fewer, so count the 5s.\n150 ÷ 5 = 30, 150 ÷ 25 = 6, 150 ÷ 125 = 1 (integer parts only).\nTotal = 30 + 6 + 1 = 37. Answer: 37."
+    },
+    {
+      "text": "Simplify: 48 ÷ 4 of 3 + 5 × 2 − 6",
+      "difficulty": "MEDIUM",
+      "options": ["8", "40", "14", "22"],
+      "answer": 0,
+      "explanation": "By BODMAS, 'of' is done before division.\n4 of 3 = 12, so 48 ÷ 12 = 4.\nThen 5 × 2 = 10.\n4 + 10 − 6 = 8. (Working left to right without doing 'of' first gives 40, which is wrong.) Answer: 8."
+    },
+    {
+      "text": "Four bells toll at intervals of 6, 8, 12 and 18 seconds respectively. They toll together at 10:00 am. How many times will they toll together in the next 30 minutes, not counting the toll at 10:00 am?",
+      "difficulty": "MEDIUM",
+      "options": ["24", "26", "30", "25"],
+      "answer": 3,
+      "explanation": "They toll together every LCM(6, 8, 12, 18) seconds.\n6 = 2 × 3, 8 = 2³, 12 = 2² × 3, 18 = 2 × 3², so LCM = 2³ × 3² = 72 seconds.\n30 minutes = 1800 seconds, and 1800 ÷ 72 = 25.\nAnswer: 25 times (26 would wrongly include the 10:00 am toll)."
+    },
+    {
+      "text": "Find the value of 125^(2/3) + √144 − 27^(2/3).",
+      "difficulty": "MEDIUM",
+      "options": ["22", "28", "32", "38"],
+      "answer": 1,
+      "explanation": "125^(2/3) = (cube root of 125)² = 5² = 25.\n√144 = 12.\n27^(2/3) = (cube root of 27)² = 3² = 9.\n25 + 12 − 9 = 28. Answer: 28."
+    },
+    {
+      "text": "What is the largest number that divides 398, 436 and 542 leaving remainders 7, 11 and 15 respectively?",
+      "difficulty": "HARD",
+      "options": ["17", "34", "23", "13"],
+      "answer": 0,
+      "explanation": "Subtract the remainders: 398 − 7 = 391, 436 − 11 = 425, 542 − 15 = 527.\nThe required number is HCF(391, 425, 527).\n391 = 17 × 23, 425 = 17 × 25, 527 = 17 × 31, so the HCF is 17.\n17 is larger than every remainder, so it is valid. Answer: 17."
+    },
+    {
+      "text": "The sum of two numbers is 84 and their HCF is 12. How many such pairs of numbers are possible?",
+      "difficulty": "HARD",
+      "options": ["1", "2", "4", "3"],
+      "answer": 3,
+      "explanation": "Let the numbers be 12a and 12b, where a and b are co-prime.\n12a + 12b = 84, so a + b = 7.\nCo-prime pairs adding to 7: (1, 6), (2, 5), (3, 4).\nThe number pairs are (12, 72), (24, 60) and (36, 48). Answer: 3."
+    }
+  ]
+}

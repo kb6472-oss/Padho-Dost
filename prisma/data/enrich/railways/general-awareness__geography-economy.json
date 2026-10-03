@@ -1,0 +1,106 @@
+{
+  "exam": "railways",
+  "subject": "general-awareness",
+  "chapter": "geography-economy",
+  "notes": {
+    "summary": "This chapter covers physical and Indian geography (rivers, soils, mountain passes, atmosphere, time and longitude) and the basics of the Indian economy (national income, taxes, planning and major reforms). RRB exams mostly ask direct one-line facts, with an occasional simple calculation such as the time difference from longitude or real GDP from a deflator.",
+    "keyPoints": [
+      "Earth rotates 360° in 24 hours, so 1° of longitude = 4 minutes of time. IST uses 82.5° E (passing near Mirzapur, UP): 82.5 × 4 = 330 min, so IST = GMT + 5 h 30 min.",
+      "Rivers: Narmada and Tapi flow west through rift valleys into the Arabian Sea and form estuaries; Godavari (longest peninsular river, 'Dakshin Ganga'), Krishna, Mahanadi and Kaveri flow east into the Bay of Bengal and form deltas.",
+      "River nicknames: Kosi – Sorrow of Bihar; Damodar – Sorrow of Bengal. The Brahmaputra is called Tsangpo in Tibet.",
+      "Soils: alluvial (most widespread, Indo-Gangetic plain), black or regur (cotton, Deccan lava region), red (iron oxide, crystalline rocks, lower rainfall), laterite (formed by leaching under heavy rain; rich in iron and aluminium; suits tea, coffee and cashew).",
+      "Atmosphere from the ground up: troposphere (all weather, about 8 km thick at the poles and 18 km at the equator), stratosphere (ozone layer), mesosphere, thermosphere, exosphere.",
+      "Passes: Zoji La (Srinagar–Leh), Shipki La (Himachal–Tibet, where the Sutlej enters India), Nathu La (Sikkim–Tibet), Rohtang (Kullu–Lahaul).",
+      "National income: GDP – depreciation = NDP; GDP + net factor income from abroad = GNP; GNP – depreciation = NNP; Real GDP = Nominal GDP × 100 ÷ GDP deflator.",
+      "Taxes: a direct tax is borne by the person on whom it is levied (income tax, corporation tax). GST is an indirect tax, launched on 1 July 2017 under the 101st Constitutional Amendment Act, 2016.",
+      "Area facts: smallest state Goa (about 3,702 sq km), largest Rajasthan. The Sundarbans on the Ganga–Brahmaputra delta is the world's largest mangrove forest and home of the Royal Bengal tiger."
+    ],
+    "traps": [
+      "Swapping Kosi (Sorrow of Bihar) with Damodar (Sorrow of Bengal).",
+      "Assuming all major Indian rivers flow east: the Narmada and Tapi flow west.",
+      "Forgetting the 4-minutes-per-degree rule and guessing the IST offset as 5 or 6 hours.",
+      "Mixing up NDP (GDP minus depreciation) with GNP (GDP plus net factor income from abroad).",
+      "Confusing 1 July 2017 (GST launch) with 8 November 2016 (demonetisation announcement)."
+    ],
+    "examTip": "When options look alike (Kosi/Damodar, Zoji La/Shipki La), tie each one to its state first and strike out those in the wrong state."
+  },
+  "questions": [
+    {
+      "text": "Which river is known as the 'Sorrow of Bihar' because of its frequent floods and changing course?",
+      "difficulty": "EASY",
+      "options": ["Damodar", "Kosi", "Gandak", "Son"],
+      "answer": 1,
+      "explanation": "The Kosi brings huge amounts of silt from the Himalayas and often shifts its course, causing destructive floods in north Bihar, hence the name 'Sorrow of Bihar'.\nThe Damodar was called the 'Sorrow of Bengal' before the Damodar Valley Corporation dams controlled it.\nAnswer: Kosi."
+    },
+    {
+      "text": "Which is the smallest state of India by area?",
+      "difficulty": "EASY",
+      "options": ["Sikkim", "Tripura", "Goa", "Mizoram"],
+      "answer": 2,
+      "explanation": "Goa, with an area of about 3,702 sq km, is the smallest Indian state by area.\nSikkim is the second smallest by area (about 7,096 sq km) and the least populous state.\nRajasthan is the largest state by area.\nAnswer: Goa."
+    },
+    {
+      "text": "In which layer of the atmosphere do almost all weather phenomena such as clouds, rain and storms occur?",
+      "difficulty": "EASY",
+      "options": ["Stratosphere", "Mesosphere", "Thermosphere", "Troposphere"],
+      "answer": 3,
+      "explanation": "The troposphere is the lowest layer of the atmosphere (about 8 km thick at the poles and 18 km at the equator) and holds most of the water vapour and dust.\nSo clouds, rain and storms form here, and temperature falls with height in this layer.\nThe ozone layer lies higher up, in the stratosphere.\nAnswer: Troposphere."
+    },
+    {
+      "text": "Indian Standard Time is based on the 82.5° E longitude. If the Earth rotates through 1° in 4 minutes, by how much is IST ahead of Greenwich Mean Time (0° longitude)?",
+      "difficulty": "MEDIUM",
+      "options": ["5 hours", "5 hours 30 minutes", "6 hours", "4 hours 30 minutes"],
+      "answer": 1,
+      "explanation": "The Earth turns 360° in 24 hours, so 1° = 24 × 60 ÷ 360 = 4 minutes.\nDifference = 82.5 × 4 = 330 minutes.\n330 minutes = 5 hours 30 minutes, and places east of Greenwich are ahead in time.\nAnswer: 5 hours 30 minutes."
+    },
+    {
+      "text": "The Ganga–Brahmaputra delta, the largest delta in the world, is known for which mangrove forest?",
+      "difficulty": "MEDIUM",
+      "options": ["Sundarbans", "Bhitarkanika", "Pichavaram", "Coringa"],
+      "answer": 0,
+      "explanation": "The Sundarbans, spread across West Bengal and Bangladesh on the Ganga–Brahmaputra delta, is the largest mangrove forest in the world and home of the Royal Bengal tiger.\nBhitarkanika (Odisha), Pichavaram (Tamil Nadu) and Coringa (Andhra Pradesh, Godavari delta) are smaller mangrove areas.\nAnswer: Sundarbans."
+    },
+    {
+      "text": "Which of the following rivers flows westward through a rift valley and drains into the Arabian Sea?",
+      "difficulty": "MEDIUM",
+      "options": ["Narmada", "Godavari", "Mahanadi", "Kaveri"],
+      "answer": 0,
+      "explanation": "The Narmada rises at Amarkantak and flows west through a rift valley between the Vindhya and Satpura ranges, entering the Arabian Sea through the Gulf of Khambhat.\nThe Godavari, Mahanadi and Kaveri all flow east into the Bay of Bengal and form deltas; the Narmada forms an estuary instead.\nAnswer: Narmada."
+    },
+    {
+      "text": "The Goods and Services Tax (GST) was rolled out across India on which date?",
+      "difficulty": "MEDIUM",
+      "options": ["1 April 2017", "1 July 2017", "8 November 2016", "1 January 2018"],
+      "answer": 1,
+      "explanation": "GST was enabled by the 101st Constitutional Amendment Act, 2016 and came into force on 1 July 2017.\nIt is an indirect tax that replaced many central and state taxes such as central excise duty, service tax and VAT.\n8 November 2016 is the date on which demonetisation of ₹500 and ₹1000 notes was announced.\nAnswer: 1 July 2017."
+    },
+    {
+      "text": "Which soil is formed by intense leaching in areas of high temperature and heavy rainfall, is rich in oxides of iron and aluminium, and is found on the Western Ghats?",
+      "difficulty": "MEDIUM",
+      "options": ["Alluvial soil", "Black soil", "Red soil", "Laterite soil"],
+      "answer": 3,
+      "explanation": "Heavy rain washes away (leaches) silica and lime from the soil, leaving behind oxides of iron and aluminium; this produces laterite soil.\nIt is found on the Western and Eastern Ghats and in parts of the North-East, and suits tea, coffee and cashew.\nRed soil also contains iron but develops on crystalline rocks in lower-rainfall areas, not by intense leaching.\nAnswer: Laterite soil."
+    },
+    {
+      "text": "In national income accounting, Gross Domestic Product minus depreciation is called:",
+      "difficulty": "MEDIUM",
+      "options": ["Gross National Product (GNP)", "Net National Product (NNP)", "Net Domestic Product (NDP)", "Personal Income"],
+      "answer": 2,
+      "explanation": "'Gross' includes depreciation and 'Net' excludes it; 'Domestic' means production within the country's borders.\nSo GDP – depreciation = NDP.\nGNP = GDP + net factor income from abroad, and NNP = GNP – depreciation.\nAnswer: Net Domestic Product (NDP)."
+    },
+    {
+      "text": "A country's nominal GDP for a year is ₹200 lakh crore and the GDP deflator for that year is 125 (base year = 100). What is its real GDP?",
+      "difficulty": "HARD",
+      "options": ["₹250 lakh crore", "₹175 lakh crore", "₹160 lakh crore", "₹225 lakh crore"],
+      "answer": 2,
+      "explanation": "Real GDP = Nominal GDP × 100 ÷ GDP deflator.\n= 200 × 100 ÷ 125\n= 20,000 ÷ 125 = 160.\n(Multiplying by 1.25 instead of dividing gives the wrong figure ₹250 lakh crore.)\nAnswer: ₹160 lakh crore."
+    },
+    {
+      "text": "Which mountain pass connects the Kashmir Valley (Srinagar) with Ladakh (Kargil and Leh)?",
+      "difficulty": "HARD",
+      "options": ["Shipki La", "Nathu La", "Rohtang Pass", "Zoji La"],
+      "answer": 3,
+      "explanation": "Zoji La carries the Srinagar–Kargil–Leh highway and is the main road link between the Kashmir Valley and Ladakh.\nShipki La links Himachal Pradesh with Tibet (the Sutlej enters India here), Nathu La links Sikkim with Tibet, and Rohtang links Kullu with Lahaul–Spiti in Himachal Pradesh.\nAnswer: Zoji La."
+    }
+  ]
+}

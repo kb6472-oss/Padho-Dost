@@ -1,0 +1,106 @@
+{
+  "exam": "railways",
+  "subject": "general-science",
+  "chapter": "biology-life-science",
+  "notes": {
+    "summary": "This chapter covers the cell, human body systems (digestion, circulation, excretion, nervous system), nutrition and deficiency diseases, causes of common diseases, plant physiology and basic genetics at the NCERT Class 8-10 level. RRB NTPC and Group D ask one-line facts, with frequent 'incorrectly matched pair' and exception-type questions.",
+    "keyPoints": [
+      "Cell organelles: mitochondria – powerhouse (make ATP), ribosomes – protein synthesis, nucleus – controls the cell and holds DNA, lysosome – 'suicide bag', chloroplast and cell wall – plant cells only.",
+      "Vitamin deficiencies: A – night blindness, B1 (thiamine) – beriberi, B3 (niacin) – pellagra, B12 – pernicious anaemia, C – scurvy, D – rickets, K – delayed blood clotting.",
+      "Brain: cerebrum – thinking, memory, voluntary actions; cerebellum – balance, posture and precision of movement; medulla oblongata – involuntary actions such as heartbeat and breathing; hypothalamus – hunger, thirst and body temperature.",
+      "Circulation: arteries carry blood away from the heart and veins towards it. Exception: the pulmonary artery carries deoxygenated blood to the lungs and the pulmonary veins carry oxygenated blood to the heart.",
+      "Blood groups: O negative is the universal donor; AB positive is the universal recipient.",
+      "Digestion and excretion: salivary amylase (ptyalin) starts starch digestion in the mouth, pepsin digests protein in the stomach, trypsin and lipase act in the small intestine. The nephron is the functional unit of the kidney (about 10 lakh per kidney).",
+      "Diseases: malaria – Plasmodium (protozoan) spread by the female Anopheles mosquito; dengue – virus spread by Aedes; typhoid and cholera – bacteria from contaminated food and water; tuberculosis – bacterium.",
+      "Plants: transpiration is loss of water vapour mainly through stomata; guttation is loss of liquid droplets from leaf margins; translocation is transport of food through phloem.",
+      "Genetics: Mendel's TT × tt cross gives F1 all tall (Tt); F2 phenotypic ratio 3 : 1 and genotypic ratio 1 : 2 : 1. The father's sperm carries X or Y, so the father's chromosome decides the child's sex (XX girl, XY boy)."
+    ],
+    "traps": [
+      "Giving the genotypic ratio 1 : 2 : 1 when the phenotypic ratio 3 : 1 is asked.",
+      "Assuming every vein carries deoxygenated blood: the pulmonary vein carries oxygenated blood.",
+      "Mixing up the cerebrum (thinking and memory) with the cerebellum (balance and posture).",
+      "Saying malaria is caused by a mosquito or a virus: the mosquito is only the carrier, the cause is the protozoan Plasmodium.",
+      "Swapping AB (universal recipient) with O (universal donor)."
+    ],
+    "examTip": "In 'incorrectly matched' questions, verify every pair on its own and mark the one you are sure is wrong, not the one that merely looks unfamiliar."
+  },
+  "questions": [
+    {
+      "text": "Which cell organelle is known as the 'powerhouse of the cell'?",
+      "difficulty": "EASY",
+      "options": ["Nucleus", "Ribosome", "Mitochondria", "Golgi apparatus"],
+      "answer": 2,
+      "explanation": "Mitochondria carry out aerobic respiration and release energy in the form of ATP (adenosine triphosphate), so they are called the powerhouse of the cell.\nRibosomes make proteins, the nucleus controls the cell and the Golgi apparatus packages and dispatches materials.\nAnswer: Mitochondria."
+    },
+    {
+      "text": "People of which blood group can donate blood to persons of all ABO blood groups and are therefore called universal donors?",
+      "difficulty": "EASY",
+      "options": ["A", "B", "AB", "O"],
+      "answer": 3,
+      "explanation": "Red blood cells of group O carry neither the A nor the B antigen, so they are not attacked by anti-A or anti-B antibodies in the receiver's plasma.\nHence group O (strictly O negative, once the Rh factor is considered) is the universal donor.\nAB is the universal recipient because its plasma has no anti-A or anti-B antibodies.\nAnswer: O."
+    },
+    {
+      "text": "Malaria is caused by:",
+      "difficulty": "EASY",
+      "options": ["A protozoan (Plasmodium)", "A bacterium", "A virus", "A fungus"],
+      "answer": 0,
+      "explanation": "Malaria is caused by the protozoan parasite Plasmodium.\nIt spreads through the bite of an infected female Anopheles mosquito; the mosquito is only the carrier (vector), not the cause.\nAnswer: A protozoan (Plasmodium)."
+    },
+    {
+      "text": "Which of the following pairs of vitamin and deficiency disease is INCORRECTLY matched?",
+      "difficulty": "MEDIUM",
+      "options": ["Vitamin A – Night blindness", "Vitamin B1 – Beriberi", "Vitamin D – Rickets", "Vitamin K – Pellagra"],
+      "answer": 3,
+      "explanation": "Vitamin A – night blindness, Vitamin B1 (thiamine) – beriberi and Vitamin D – rickets are all correct pairs.\nPellagra is caused by a deficiency of Vitamin B3 (niacin); Vitamin K deficiency causes delayed blood clotting.\nAnswer: Vitamin K – Pellagra."
+    },
+    {
+      "text": "Which part of the human brain maintains body balance and posture and makes voluntary movements smooth and precise?",
+      "difficulty": "MEDIUM",
+      "options": ["Cerebrum", "Cerebellum", "Medulla oblongata", "Hypothalamus"],
+      "answer": 1,
+      "explanation": "The cerebellum, at the back of the brain below the cerebrum, maintains posture and balance and gives precision to voluntary movements.\nThe cerebrum handles thinking and memory, the medulla oblongata controls involuntary actions such as heartbeat and breathing, and the hypothalamus regulates hunger, thirst and body temperature.\nAnswer: Cerebellum."
+    },
+    {
+      "text": "What is the structural and functional unit of the human kidney?",
+      "difficulty": "MEDIUM",
+      "options": ["Neuron", "Nephron", "Alveolus", "Villus"],
+      "answer": 1,
+      "explanation": "Each kidney contains about 10 lakh (one million) nephrons, which filter the blood and form urine.\nThe neuron is the unit of the nervous system, alveoli are air sacs in the lungs and villi absorb digested food in the small intestine.\nAnswer: Nephron."
+    },
+    {
+      "text": "In human beings, the sex of a child is determined by:",
+      "difficulty": "MEDIUM",
+      "options": ["The chromosome (X or Y) contributed by the father", "The X chromosome contributed by the mother", "The age of the mother", "The number of autosomes in the egg"],
+      "answer": 0,
+      "explanation": "A mother's egg always carries an X chromosome, while a father's sperm carries either an X or a Y chromosome.\nX sperm + X egg = XX (girl); Y sperm + X egg = XY (boy).\nSo the chromosome in the father's sperm decides the sex of the child.\nAnswer: The chromosome (X or Y) contributed by the father."
+    },
+    {
+      "text": "Which enzyme present in saliva begins the digestion of starch in the mouth?",
+      "difficulty": "MEDIUM",
+      "options": ["Pepsin", "Trypsin", "Salivary amylase", "Lipase"],
+      "answer": 2,
+      "explanation": "Salivary amylase (ptyalin) breaks starch down into maltose, a simpler sugar, in the mouth.\nPepsin digests proteins in the stomach, trypsin digests proteins in the small intestine and lipase digests fats.\nAnswer: Salivary amylase."
+    },
+    {
+      "text": "The loss of water in the form of water vapour from the aerial parts of a plant, mainly through the stomata, is called:",
+      "difficulty": "MEDIUM",
+      "options": ["Respiration", "Transpiration", "Guttation", "Translocation"],
+      "answer": 1,
+      "explanation": "Transpiration is the evaporation of water from the leaves, mostly through stomata; it creates a suction pull that helps water rise from the roots and also cools the plant.\nGuttation is the loss of liquid water droplets from leaf margins, and translocation is the transport of food through phloem.\nAnswer: Transpiration."
+    },
+    {
+      "text": "In Mendel's experiment, a pure tall pea plant (TT) is crossed with a pure dwarf pea plant (tt), and the F1 plants are then self-pollinated. What is the ratio of tall to dwarf plants (phenotypic ratio) in the F2 generation?",
+      "difficulty": "HARD",
+      "options": ["1 : 2 : 1", "9 : 3 : 3 : 1", "3 : 1", "1 : 1"],
+      "answer": 2,
+      "explanation": "TT × tt gives F1 plants that are all Tt, and all are tall because T is dominant.\nSelfing Tt × Tt gives TT : Tt : tt = 1 : 2 : 1 (the genotypic ratio).\nTT and Tt both look tall, so tall : dwarf = (1 + 2) : 1 = 3 : 1.\n9 : 3 : 3 : 1 is the ratio for a dihybrid cross.\nAnswer: 3 : 1."
+    },
+    {
+      "text": "Which blood vessel carries oxygenated blood from the lungs to the heart?",
+      "difficulty": "HARD",
+      "options": ["Pulmonary vein", "Pulmonary artery", "Aorta", "Vena cava"],
+      "answer": 0,
+      "explanation": "Usually arteries carry oxygenated blood and veins carry deoxygenated blood, but the pulmonary vessels are the exception.\nThe pulmonary artery takes deoxygenated blood from the right ventricle to the lungs; the pulmonary veins bring oxygenated blood from the lungs to the left atrium.\nThe aorta carries oxygenated blood from the heart to the body, and the venae cavae return deoxygenated blood to the heart.\nAnswer: Pulmonary vein."
+    }
+  ]
+}
